@@ -18,7 +18,36 @@
       "Kamba Rāmāyaṇam, Yuddha Kāṇḍam — Tamil text"
     ],
     "reviewedBy": "rama",
-    "reviewedOn": "2026-09-08"
+    "reviewedOn": "2026-09-08",
+    "sourcing": [
+      {
+        "claim": "Rāma's army must cross to Laṅkā; Nala directs the building of the Setu",
+        "locus": "Vālmīki, Yuddha Kāṇḍa 22"
+      },
+      {
+        "claim": "Vānaras carry rocks and trees into the sea; the bridge is built over days",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The army crosses the completed bridge",
+        "locus": "Vālmīki, Yuddha Kāṇḍa 22.75–80"
+      },
+      {
+        "claim": "A squirrel carries sand in her fur into the gaps between the stones",
+        "locus": "NOT IN VĀLMĪKI — Tamil and regional oral tradition"
+      },
+      {
+        "claim": "Rāma takes her into his hand and strokes her back, leaving three stripes",
+        "locus": "NOT IN VĀLMĪKI — same oral tradition"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "whether the squirrel is in the story",
+        "tellings": "Vālmīki has the bridge and no squirrel. Tamil and other regional retellings have her, and so do most grandmothers.",
+        "weTell": "the regional one, and we say on the page that Vālmīki does not have her"
+      }
+    ]
   },
   "audience": {
     "minAge": 4,

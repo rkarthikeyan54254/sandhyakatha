@@ -18,7 +18,44 @@
       "G. Vanmikanathan, Periya Puranam: A Tamil Classic"
     ],
     "reviewedBy": "rama",
-    "reviewedOn": "2026-09-08"
+    "reviewedOn": "2026-09-08",
+    "sourcing": [
+      {
+        "claim": "Pūsalār of Tiruniṉṟavūr wishes to build a temple and has no means",
+        "locus": "Periya Purāṇam, Pūsalār Nāyaṉār"
+      },
+      {
+        "claim": "He constructs it entirely in his mind, following the stages of building in order",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He fixes a day for the consecration",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The Pallava king is completing a stone temple at Kāñchipuram and has fixed the same day",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Śiva appears to the king in a dream and says he will attend Pūsalār's consecration instead",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The king rides to Tiruniṉṟavūr, finds no temple, and learns of the mental one",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The king postpones his own consecration",
+        "locus": "ibid."
+      }
+    ],
+    "variants": [
+      {
+        "differs": "whether the story exists at all outside Tamil",
+        "tellings": "There is no Sanskrit version. It survives only in the Periya Purāṇam and the Tamil Śaiva tradition around it.",
+        "weTell": "Sēkkiḻār's, the only one there is"
+      }
+    ]
   },
   "audience": {
     "minAge": 5,

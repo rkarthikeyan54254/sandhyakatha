@@ -9,3 +9,4 @@ public/data
 coverage
 tsconfig.tsbuildinfo
 *.tar.gz
+proof/

@@ -16,6 +16,36 @@
     "checkedAgainst": [
       "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa — Critical Edition, Baroda",
       "Goldman trans., Princeton"
+    ],
+    "sourcing": [
+      {
+        "claim": "The young Daśaratha can shoot by sound alone (śabda-vedhī)",
+        "locus": "Vālmīki, Ayodhyā Kāṇḍa 63"
+      },
+      {
+        "claim": "Śravaṇa carries his blind parents in baskets slung from a pole",
+        "locus": "ibid."
+      },
+      {
+        "claim": "At the river he fills a water pot; Daśaratha mistakes the sound for an elephant and shoots",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The dying boy asks that water be taken to his parents and that they be told",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Daśaratha carries the water and confesses to them",
+        "locus": "Vālmīki, Ayodhyā Kāṇḍa 64"
+      },
+      {
+        "claim": "The father foretells that Daśaratha will die grieving for a son",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Daśaratha tells this story himself, as he is dying after Rāma's exile",
+        "locus": "framing of Ayodhyā Kāṇḍa 63–64"
+      }
     ]
   },
   "audience": {

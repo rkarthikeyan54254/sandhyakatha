@@ -57,6 +57,14 @@ for (const file of files) {
   if (s.source.stability !== 'stable' && !s.source.traditionNote)
     err(at, `stability is "${s.source.stability}" so traditionNote is required — this is the rule the whole product rests on`);
 
+  // Where the tellings differ, say which one this is. It is what lets someone
+  // who is not a Sanskritist review the story at all: the question stops being
+  // "is this right?" and becomes "is this the one we said we were telling?"
+  if (s.source.stability !== 'stable' && !s.source.variants?.length)
+    warn(at, `stability is "${s.source.stability}" but no variants are listed — say what the tellings disagree about`);
+  if (s.status === 'published' && !s.source.sourcing?.length)
+    warn(at, 'published without a sourcing block — a reviewer has nothing to check the prose against');
+
   const flagged = (s.audience.sensitivity ?? []).length > 0 || s.audience.gated;
   if (flagged && !s.audience.careNote)
     err(at, 'sensitivity or gated is set, so careNote is required — a parent must never be ambushed at bedtime');

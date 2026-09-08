@@ -152,6 +152,50 @@
             "folk"
           ],
           "description": "Which stream the story reaches us through. Independent of corpus: a Ramayana story can be sanskrit, tamil-shaiva or jain, and that difference is the point. Drives the 'told in the ___ tradition' line and the cross-tradition browse."
+        },
+        "variants": {
+          "type": "array",
+          "description": "Where the tellings genuinely differ, and which one this story tells. Written for a reviewer who is not an expert: it turns 'is this right?' into 'is this the one we said we were telling?'. Required in spirit whenever stability is not stable — the validator warns without it.",
+          "items": {
+            "type": "object",
+            "required": [
+              "differs",
+              "tellings",
+              "weTell"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "differs": {
+                "type": "string"
+              },
+              "tellings": {
+                "type": "string"
+              },
+              "weTell": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "sourcing": {
+          "type": "array",
+          "description": "The claims the draft was allowed to use, each tied to where it came from. This is what makes review possible for someone who is not a Sanskritist: instead of checking the story against their own knowledge, they check it against this list, and anything in the story that is not here is an invention. Fill it at stage 2, before a word of prose is written.",
+          "items": {
+            "type": "object",
+            "required": [
+              "claim",
+              "locus"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "type": "string"
+              },
+              "locus": {
+                "type": "string"
+              }
+            }
+          }
         }
       }
     },

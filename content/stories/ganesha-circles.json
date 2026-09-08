@@ -1,9 +1,9 @@
 {
   "id": "ganesha-circles",
   "schemaVersion": "1.0",
-  "status": "published",
-  "version": 1,
-  "updated": "2026-09-08",
+  "status": "in-review",
+  "version": 2,
+  "updated": "2026-09-09",
   "title": "Gaṇeśa Goes Around the World",
   "tease": "Two brothers race around the world for a mango. One of them does not leave the room.",
   "source": {
@@ -12,7 +12,7 @@
     "work": "Śiva Purāṇa",
     "locus": "Rudra Saṃhitā; also Skanda Purāṇa and the Tamil Vināyaka Purāṇam",
     "stability": "regional",
-    "traditionNote": "The tellings differ on the prize and on who set the race. Sanskrit versions usually make it a fruit of wisdom; Tamil ones make it a mango and give Kārttikeya's departure to Palani as the reason that hill is his. We tell the Tamil shape, because it is the one with the sulk in it.",
+    "traditionNote": "Northern tellings make Kārttikeya the elder brother; Tamil tradition makes Gaṇeśa the elder, which is why Vināyaka is worshipped first. We tell the Tamil shape throughout. The differences are listed below rather than smoothed over.",
     "parallels": [
       {
         "work": "Skanda Purāṇa",
@@ -23,8 +23,53 @@
       "Śiva Purāṇa, Rudra Saṃhitā — Motilal Banarsidass ed.",
       "Tamil Vināyaka Purāṇam, Ratna Nāyakar ed."
     ],
-    "reviewedBy": "rama",
-    "reviewedOn": "2026-09-08"
+    "variants": [
+      {
+        "differs": "birth order",
+        "tellings": "Śiva Purāṇa and northern tradition make Kārttikeya the elder; Tamil tradition makes Gaṇeśa the elder",
+        "weTell": "Tamil — Gaṇeśa elder"
+      },
+      {
+        "differs": "the prize",
+        "tellings": "Sanskrit versions usually a jñāna-phala, a fruit of wisdom; Tamil versions a mango",
+        "weTell": "Tamil — a mango"
+      },
+      {
+        "differs": "where Murugan goes",
+        "tellings": "Tamil tradition sends him to Palani, where the mūrti is Daṇḍāyudhapāṇi — standing, with a staff, having given everything else away",
+        "weTell": "Tamil — Palani, standing"
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Nārada brings a single fruit that confers knowledge",
+        "locus": "Śiva Purāṇa, Rudra Saṃhitā; Tamil versions make it a mango"
+      },
+      {
+        "claim": "Śiva and Pārvatī set a race around the world to decide who receives it",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Kārttikeya departs on his peacock and circles the world",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Gaṇeśa circumambulates his parents and claims they are his world",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Gaṇeśa is given the fruit",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Kārttikeya, angered, withdraws to Palani",
+        "locus": "Tamil tradition; not in the northern recensions"
+      },
+      {
+        "claim": "At Palani he stands as Daṇḍāyudhapāṇi, having given up all but a staff and a cloth",
+        "locus": "Tamil tradition / the Palani mūrti"
+      }
+    ]
   },
   "audience": {
     "minAge": 4,
@@ -77,8 +122,8 @@
   ],
   "lengths": {
     "short": {
-      "minutes": 2,
-      "words": 251,
+      "minutes": 3,
+      "words": 273,
       "blocks": [
         {
           "t": "p",
@@ -86,7 +131,7 @@
         },
         {
           "t": "p",
-          "text": "There were two boys in that house. «Kārttikeya» was fast — a peacock, a spear, and no memory of ever coming second. «Gaṇeśa» was round, rode a mouse, and was not fast at all."
+          "text": "There were two boys in that house. «Gaṇeśa», the elder, was round, rode a mouse, and was not fast at all. «Kārttikeya», the younger, was fast — a peacock, a spear, and no memory of ever coming second."
         },
         {
           "t": "p",
@@ -124,7 +169,7 @@
         },
         {
           "t": "p",
-          "text": "Kārttikeya came back days later, filthy, having actually gone round the whole world on a bird, and found his brother on the floor with the juice running down to his elbows. He was angry enough to leave home over it."
+          "text": "Kārttikeya came back days later, filthy, having actually gone round the whole world on a bird, and found his elder brother on the floor with the juice running down to his elbows. He was angry enough to leave home over it — he went south, climbed the hill at «Palani», and has been standing on it ever since."
         },
         {
           "t": "slow",
@@ -134,7 +179,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 586,
+      "words": 601,
       "blocks": [
         {
           "t": "p",
@@ -157,11 +202,11 @@
         },
         {
           "t": "p",
-          "text": "«Kārttikeya» was the older one. He was fast. He rode a peacock, he carried a spear, and he had never in his life come second at anything."
+          "text": "«Gaṇeśa» was the elder. He was round. He rode a mouse. He was extremely fond of his food and he was not fast at all, and — this matters — he knew it."
         },
         {
           "t": "p",
-          "text": "«Gaṇeśa» was the younger one. He was round. He rode a mouse. He was extremely fond of his food and he was not fast at all, and — this matters — he knew it."
+          "text": "«Kārttikeya» was the younger one. He was fast. He rode a peacock, he carried a spear, and he had never in his life come second at anything."
         },
         {
           "t": "p",
@@ -234,7 +279,7 @@
         },
         {
           "t": "p",
-          "text": "And when Kārttikeya finally came back — days later, filthy and exhausted, having actually done it, having actually gone the whole way round the world on a bird — his younger brother was sitting on the floor with mango juice running down to his elbows."
+          "text": "And when Kārttikeya finally came back — days later, filthy and exhausted, having actually done it, having actually gone the whole way round the world on a bird — his elder brother was sitting on the floor with mango juice running down to his elbows."
         },
         {
           "t": "p",
@@ -246,7 +291,7 @@
         },
         {
           "t": "p",
-          "text": "He was angry enough to leave home over it. He went south, and climbed a hill at «Palani», and sat down on it. There are people who will tell you he has not entirely got over it yet."
+          "text": "He was angry enough to leave home over it. He went south, and climbed a hill at «Palani», and stood there — no peacock, no spear, nothing but a staff and a strip of cloth. He is standing there still. There are people who will tell you he has not entirely got over it."
         },
         {
           "t": "slow",
@@ -269,7 +314,7 @@
       },
       {
         "q": "Why is Kārttikeya still angry?",
-        "a": "Because the story is also about being the one who does everything right and still loses. That happens to older brothers and sisters constantly. It is worth saying out loud that his anger is reasonable — the story does not punish him for it, it just tells you where he went."
+        "a": "Because he did the thing properly, at enormous cost, and lost to someone who did not leave the room. Younger brothers and sisters know that feeling precisely. The story does not punish him for it — it just tells you where he went, and that he is still there."
       },
       {
         "q": "Did he really have an elephant's head?",

@@ -28,7 +28,37 @@
       "Tagare, Motilal Banarsidass"
     ],
     "reviewedBy": "rama",
-    "reviewedOn": "2026-09-08"
+    "reviewedOn": "2026-09-08",
+    "sourcing": [
+      {
+        "claim": "Vraja makes an annual offering to Indra at the end of the rains",
+        "locus": "Bhāg. 10.24.1–9"
+      },
+      {
+        "claim": "Kṛṣṇa argues the offering should go to Govardhana, which gives grass, water and shade",
+        "locus": "Bhāg. 10.24.21–25"
+      },
+      {
+        "claim": "The elders accept and the offering is redirected; the village circumambulates the hill",
+        "locus": "Bhāg. 10.24.31–37"
+      },
+      {
+        "claim": "Indra sends destroying clouds; rain for seven days; cattle and people in danger",
+        "locus": "Bhāg. 10.25.1–12"
+      },
+      {
+        "claim": "Kṛṣṇa lifts Govardhana on the little finger of his left hand and shelters them",
+        "locus": "Bhāg. 10.25.19"
+      },
+      {
+        "claim": "The cowherds support the hill with their staves",
+        "locus": "Bhāg. 10.25.20"
+      },
+      {
+        "claim": "After seven days Indra withdraws; Kṛṣṇa replaces the hill",
+        "locus": "Bhāg. 10.25.25–30"
+      }
+    ]
   },
   "audience": {
     "minAge": 5,
