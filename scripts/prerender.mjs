@@ -59,6 +59,8 @@ function page(s) {
 <meta property="og:url" content="${url}"><meta property="og:image" content="${og}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#14101c">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script>
+<script src="/gtag-init.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
 <script type="application/ld+json">${JSON.stringify({
