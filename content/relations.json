@@ -1,0 +1,36 @@
+{
+  "_readme": "The child's constellation. Clusters place the people; edges are the connections worth a child noticing. Curated on purpose — co-occurrence in a story is not a relationship, and the interesting edges are the ones that cross between epics.",
+  "clusters": {
+    "Rāmāyaṇa":       ["Rāma","Sītā","Lakṣmaṇa","Hanumān","Rāvaṇa","Laṅkā","vānaras","Nala","Śabarī","Jaṭāyu","Guha","Śravaṇa"],
+    "Mahābhārata":    ["Bhīma","Arjuna","Yudhiṣṭhira","Droṇa","Ekalavya","Karṇa","Draupadī","Abhimanyu"],
+    "Vraja":          ["Kṛṣṇa","Vraja","Govardhana","Indra","Sudāmā"],
+    "Bhāgavatam":     ["Dhruva","Prahlāda","Gajendra","Bharata"],
+    "Upaniṣads":      ["Nachiketā","Yama","Śvetaketu","Uddālaka","Satyakāma","Agni"],
+    "Tamil saints":   ["Pūsalār","Tiruniṉṟavūr","Kāñchipuram","Rājasiṃha","Nāyaṉmārs","Periya Purāṇam","Sēkkiḻār","Āḻvārs","Āṇḍāḷ","Kāraikkāl Ammaiyār","Srīraṅgam"],
+    "The gods":       ["Śiva","Vāyu","Gaṇeśa","Kailāsa"]
+  },
+  "edges": [
+    ["Rāma","Sītā","married"], ["Rāma","Lakṣmaṇa","brothers"], ["Rāma","Hanumān",""],
+    ["Rāma","Guha",""], ["Rāma","Śabarī",""], ["Rāma","Jaṭāyu",""], ["Rāma","Nala",""],
+    ["Rāma","Rāvaṇa",""], ["Rāvaṇa","Laṅkā","rules it"], ["Rāvaṇa","Sītā",""],
+    ["Hanumān","vānaras",""], ["Nala","vānaras",""],
+    ["Vāyu","Hanumān","father"], ["Vāyu","Bhīma","father"],
+    ["Hanumān","Bhīma","brothers — across two epics, six centuries apart"],
+    ["Bhīma","Arjuna","brothers"], ["Bhīma","Yudhiṣṭhira","brothers"], ["Bhīma","Draupadī",""],
+    ["Arjuna","Droṇa","taught him"], ["Droṇa","Ekalavya","refused him"],
+    ["Arjuna","Abhimanyu","father"], ["Arjuna","Karṇa",""],
+    ["Kṛṣṇa","Vraja","grew up there"], ["Kṛṣṇa","Govardhana","lifted it"], ["Kṛṣṇa","Indra",""],
+    ["Kṛṣṇa","Sudāmā","schoolfriends"], ["Kṛṣṇa","Draupadī",""],
+    ["Kṛṣṇa","Arjuna","drove his chariot — the boy of Vraja, grown"],
+    ["Nachiketā","Yama","three nights, three boons"],
+    ["Śvetaketu","Uddālaka","father"], ["Satyakāma","Uddālaka",""],
+    ["Pūsalār","Śiva","built for him"], ["Pūsalār","Tiruniṉṟavūr",""],
+    ["Pūsalār","Rājasiṃha","took his date"], ["Rājasiṃha","Kāñchipuram","built there"],
+    ["Nāyaṉmārs","Pūsalār",""], ["Nāyaṉmārs","Kāraikkāl Ammaiyār",""],
+    ["Nāyaṉmārs","Periya Purāṇam","written down in it"], ["Sēkkiḻār","Periya Purāṇam","wrote it"],
+    ["Āḻvārs","Āṇḍāḷ",""], ["Āḻvārs","Srīraṅgam",""],
+    ["Śiva","Kailāsa","lives there"], ["Śiva","Gaṇeśa","father"],
+    ["Rāvaṇa","Kailāsa","tried to lift it"], ["Indra","Govardhana",""],
+    ["Prahlāda","Dhruva",""], ["Gajendra","Bharata",""]
+  ]
+}

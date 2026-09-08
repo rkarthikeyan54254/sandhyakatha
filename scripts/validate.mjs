@@ -170,6 +170,16 @@ for (const [k, v] of Object.entries(lexicon)) {
   if (!v.gloss) err('lexicon.json', `"${k}" has no gloss`);
 }
 
+/* ---------- the constellation ---------- */
+const rel = read('content/relations.json');
+const placed = new Set(Object.values(rel.clusters).flat());
+for (const [cluster, terms] of Object.entries(rel.clusters))
+  for (const t of terms) if (!lexKeys.has(t)) err('relations.json', `cluster "${cluster}" places "${t}", which is not a lexicon key`);
+for (const [a, b] of rel.edges) {
+  if (!placed.has(a)) err('relations.json', `edge references "${a}", which is in no cluster`);
+  if (!placed.has(b)) err('relations.json', `edge references "${b}", which is in no cluster`);
+}
+
 /* ---------- report ---------- */
 const c = { r: '\x1b[31m', y: '\x1b[33m', g: '\x1b[32m', d: '\x1b[2m', x: '\x1b[0m' };
 for (const w of warnings) console.log(`${c.y}warn${c.x}  ${w}`);

@@ -32,4 +32,8 @@ writeFileSync(join(ROOT, 'public/data/index.json'), JSON.stringify({
   built: new Date().toISOString(), published: index.length, planned: canon.length, stories: index
 }));
 writeFileSync(join(ROOT, 'public/data/lexicon.json'), JSON.stringify(read('content/lexicon.json')));
+// The shelf shows the whole collection, written or not — a parent should be able
+// to see what is coming, and an honest empty shelf is worse than an honest plan.
+writeFileSync(join(ROOT, 'public/data/canon.json'), JSON.stringify(read('content/canon.json').canon));
+writeFileSync(join(ROOT, 'public/data/relations.json'), JSON.stringify(read('content/relations.json')));
 console.log(`index: ${index.length} published of ${canon.length} planned`);
