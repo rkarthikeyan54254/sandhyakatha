@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+public/data
+*.local
+.vite
+coverage
+tsconfig.tsbuildinfo
+*.tar.gz

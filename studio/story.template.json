@@ -1,0 +1,16 @@
+{
+  "id": "", "schemaVersion": "1.0", "status": "draft", "version": 1, "updated": "",
+  "title": "", "tease": "",
+  "source": { "corpus": "", "tradition": "", "work": "", "locus": "", "stability": "stable",
+    "traditionNote": "", "parallels": [], "checkedAgainst": [], "reviewedBy": "", "reviewedOn": "" },
+  "audience": { "minAge": 0, "sensitivity": [], "careNote": "", "gated": false },
+  "values": [], "themes": [],
+  "calendar": { "festivals": [], "months": [], "tithi": [], "seasons": [], "weight": 5 },
+  "characters": [{ "ref": "", "role": "lead" }],
+  "lengths": {
+    "short": { "minutes": 3, "blocks": [{ "t": "p", "text": "" }, { "t": "beat" }, { "t": "slow", "text": "" }] },
+    "full":  { "minutes": 6, "blocks": [{ "t": "p", "text": "" }, { "t": "beat" }, { "t": "slow", "text": "" }] }
+  },
+  "linked": { "next": "", "reason": "" },
+  "close": { "question": "", "seed": "", "ifTheyAsk": [{ "q": "", "a": "" }] }
+}

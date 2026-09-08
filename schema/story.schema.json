@@ -1,0 +1,509 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sandhyakatha.app/schema/story-1.0.json",
+  "title": "Sandhya Katha — Story",
+  "description": "One reviewed, source-cited story, in every length it ships in. This file is the unit of publication: the app, the TTS renderer, the translation pipeline and the character graph all read it and nothing else.",
+  "type": "object",
+  "required": [
+    "id",
+    "schemaVersion",
+    "status",
+    "version",
+    "title",
+    "tease",
+    "source",
+    "audience",
+    "values",
+    "characters",
+    "lengths",
+    "close"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug. Never changes once published — audio files, links and read-history all key on it."
+    },
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "sourced",
+        "in-review",
+        "published",
+        "retired"
+      ],
+      "description": "sourced = passages pulled and cited; in-review = awaiting the human approver; published = live."
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Bump on any text change. Rendered audio records the version it was made from, so stale audio is detectable."
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "tease": {
+      "type": "string",
+      "maxLength": 180,
+      "description": "One sentence on the Tonight card. Must contain an image or a turn, never a summary."
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "corpus",
+        "work",
+        "locus",
+        "stability",
+        "tradition"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "corpus": {
+          "enum": [
+            "ramayana",
+            "mahabharata",
+            "bhagavata",
+            "upanishad",
+            "shiva-purana",
+            "vishnu-purana",
+            "other-purana",
+            "nayanmar",
+            "alvar",
+            "sant",
+            "other-ramayana",
+            "origin",
+            "folk",
+            "panchatantra"
+          ],
+          "description": "Shelf section. Maps 1:1 to how a parent browses."
+        },
+        "work": {
+          "type": "string",
+          "description": "As printed to the reader, in IAST. e.g. \"Bhāgavata Purāṇa\""
+        },
+        "locus": {
+          "type": "string",
+          "description": "As printed. e.g. \"Skandha 10, chapters 24–25\""
+        },
+        "stability": {
+          "enum": [
+            "stable",
+            "variant",
+            "regional",
+            "folk"
+          ],
+          "description": "stable = told the same way across recensions. variant = the major recensions differ on a detail that matters. regional = present in a regional retelling but not the Sanskrit. folk = no textual home; oral. Drives the tradition note the reader sees."
+        },
+        "traditionNote": {
+          "type": "string",
+          "maxLength": 320,
+          "description": "REQUIRED whenever stability is not \"stable\". Printed above the story. Plain, unapologetic, one or two sentences."
+        },
+        "parallels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "work",
+              "locus"
+            ],
+            "properties": {
+              "work": {
+                "type": "string"
+              },
+              "locus": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "checkedAgainst": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Editions or translations the drafting was checked against. Not shown to the reader; shown to us."
+        },
+        "reviewedBy": {
+          "type": "string"
+        },
+        "reviewedOn": {
+          "type": "string",
+          "format": "date"
+        },
+        "tradition": {
+          "enum": [
+            "sanskrit",
+            "tamil-shaiva",
+            "tamil-vaishnava",
+            "north-bhakti",
+            "jain",
+            "buddhist",
+            "folk"
+          ],
+          "description": "Which stream the story reaches us through. Independent of corpus: a Ramayana story can be sanskrit, tamil-shaiva or jain, and that difference is the point. Drives the 'told in the ___ tradition' line and the cross-tradition browse."
+        }
+      }
+    },
+    "audience": {
+      "type": "object",
+      "required": [
+        "minAge"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "minAge": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 15
+        },
+        "maxAge": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 15,
+          "description": "Rarely set. Only for stories a 14-year-old would find babyish."
+        },
+        "sensitivity": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "death",
+              "violence",
+              "injustice",
+              "social-hierarchy",
+              "parental-conflict",
+              "loss",
+              "gender-norms"
+            ]
+          },
+          "description": "Shown to the parent as a quiet line before they begin, never as a warning banner. The point is that they are not ambushed at bedtime."
+        },
+        "careNote": {
+          "type": "string",
+          "maxLength": 320,
+          "description": "REQUIRED when sensitivity is non-empty or gated is true. What to expect and how it is handled. Written to the parent, not about the child."
+        },
+        "gated": {
+          "type": "boolean",
+          "default": false,
+          "description": "True for the stories a parent should meet before their child does. A gated story is never tonight's pick and never appears in browse until the parent turns on 'Include the difficult ones' in settings, and its careNote is shown before the first line. Nothing is cut from the collection; the parent decides when."
+        }
+      }
+    },
+    "values": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "maxLength": 40
+      },
+      "description": "Lowercase phrases, from a controlled list. Browsable facets — 'letting others help', not 'humility'."
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Free tags for search and for the linked-story engine. Not shown."
+    },
+    "calendar": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "How this story gets chosen for a given night. Empty means it is only ever an alternate pick.",
+      "properties": {
+        "festivals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Festival slugs. Exact-date match wins over everything else."
+        },
+        "months": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "chaitra",
+              "vaishakha",
+              "jyeshtha",
+              "ashadha",
+              "shravana",
+              "bhadrapada",
+              "ashvina",
+              "kartika",
+              "margashirsha",
+              "pausha",
+              "magha",
+              "phalguna"
+            ]
+          }
+        },
+        "tithi": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "e.g. \"shukla-ekadashi\", \"amavasya\""
+        },
+        "seasons": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "monsoon-onset",
+              "monsoon-end",
+              "harvest",
+              "winter",
+              "spring",
+              "hot"
+            ]
+          }
+        },
+        "weight": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "default": 5,
+          "description": "Tie-break among candidates for a night. 10 = this story owns this date."
+        }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "ref",
+          "role"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "ref": {
+            "type": "string",
+            "description": "Lexicon key (the IAST display form, e.g. \"Kṛṣṇa\")."
+          },
+          "role": {
+            "enum": [
+              "lead",
+              "present",
+              "foil",
+              "mentioned"
+            ],
+            "description": "lead and present light a node in the child's constellation. mentioned does not."
+          }
+        }
+      }
+    },
+    "lengths": {
+      "type": "object",
+      "required": [
+        "full"
+      ],
+      "additionalProperties": false,
+      "description": "Each length is a separately written text, never a truncation of another.",
+      "properties": {
+        "short": {
+          "$ref": "#/$defs/rendition"
+        },
+        "full": {
+          "$ref": "#/$defs/rendition"
+        }
+      }
+    },
+    "linked": {
+      "type": "object",
+      "required": [
+        "next",
+        "reason"
+      ],
+      "additionalProperties": false,
+      "description": "The 'one more' pick. reason is printed — it must name the actual connection, not 'you may also like'.",
+      "properties": {
+        "next": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string",
+          "maxLength": 120
+        }
+      }
+    },
+    "close": {
+      "type": "object",
+      "required": [
+        "question",
+        "seed"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "type": "string",
+          "maxLength": 220,
+          "description": "One question to ask the child. Open, not checkable. Never 'what did we learn'."
+        },
+        "seed": {
+          "type": "string",
+          "maxLength": 120,
+          "description": "The fallback line if the child shrugs. This is the moral — said once, plainly, and only if needed."
+        },
+        "ifTheyAsk": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "q",
+              "a"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "q": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "a": {
+                "type": "string",
+                "maxLength": 700
+              }
+            }
+          },
+          "description": "The follow-ups children actually ask, answered honestly and at length. This is also the ONLY material a voice agent may answer from."
+        }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Populated by the TTS renderer, never by hand.",
+      "properties": {
+        "short": {
+          "$ref": "#/$defs/audioTrack"
+        },
+        "full": {
+          "$ref": "#/$defs/audioTrack"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "rendition": {
+      "type": "object",
+      "required": [
+        "minutes",
+        "blocks"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "minutes": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 15,
+          "description": "Measured read-aloud time at 130 wpm, not word count / 200."
+        },
+        "words": {
+          "type": "integer"
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "$ref": "#/$defs/block"
+          }
+        }
+      }
+    },
+    "block": {
+      "type": "object",
+      "required": [
+        "t"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "t": {
+          "enum": [
+            "p",
+            "beat",
+            "slow"
+          ],
+          "description": "p = a breath line (one thought; never more than three sentences). beat = a printed pause; the reader stops. slow = the last line, set apart and flagged 'slow down here'. Exactly one slow block per rendition, and it is always last."
+        },
+        "text": {
+          "type": "string",
+          "description": "Required for p and slow. Inline markup: «Nāma» marks a lexicon term (the string between the guillemets must be an exact lexicon key); _text_ is spoken words or emphasis. No other markup, ever — no HTML, no links."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "t": {
+                "enum": [
+                  "p",
+                  "slow"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "text"
+            ]
+          }
+        }
+      ]
+    },
+    "audioTrack": {
+      "type": "object",
+      "required": [
+        "file",
+        "voice",
+        "engine",
+        "fromVersion",
+        "renderedAt"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "engine": {
+          "type": "string",
+          "description": "e.g. \"sarvam/bulbul-v2\""
+        },
+        "voice": {
+          "type": "string"
+        },
+        "lang": {
+          "type": "string",
+          "default": "en-IN"
+        },
+        "fromVersion": {
+          "type": "integer",
+          "description": "Story version this was rendered from. If it is behind story.version, the track is stale and the app falls back to text."
+        },
+        "renderedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "durationSec": {
+          "type": "number"
+        },
+        "approved": {
+          "type": "boolean",
+          "default": false,
+          "description": "A human listened to it. Unapproved tracks never ship."
+        }
+      }
+    }
+  }
+}

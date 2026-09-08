@@ -1,0 +1,737 @@
+{
+  "_readme": {
+    "purpose": "Every «term» inside story text resolves here by exact key. One entry per person, place or word — never per story.",
+    "why_deva_matters": "Indic TTS engines pronounce their own script correctly and mangle IAST-in-Latin: 'Kṛṣṇa' is read as an English word, 'कृष्ण' is not. The renderer substitutes native[script] for the Latin token before sending text to TTS, picking the script that matches the voice's language and falling back to deva. This field is cheap now and expensive to retrofit across 240 stories — fill it on every entry from day one.",
+    "say_vs_ipa": "`say` is shown to the parent (English respelling, capitalised stress). `ipa` is for a future engine that accepts phonemes. `native` is for the engine we will actually use.",
+    "schema": {
+      "id": "slug",
+      "native": {
+        "deva": "Devanagari",
+        "taml": "Tamil"
+      },
+      "say": "respelling",
+      "ipa": "IPA",
+      "kind": "person|place|word|being|text",
+      "gloss": "one or two sentences shown on tap",
+      "aliases": [
+        "spellings a search box must match"
+      ]
+    },
+    "native_scripts": "native.deva = Devanagari (default). native.taml = Tamil, used for Tamil names and for any Tamil-language voice. A Tamil saint's name fed to a Hindi voice as Devanagari comes out wrong in a way Tamil listeners hear immediately.",
+    "VERIFY": "Tamil-script values below are my best transcription and have NOT been checked by a native reader. Verify all native.taml before the first audio render."
+  },
+  "Rāma": {
+    "id": "rama",
+    "native": {
+      "deva": "राम"
+    },
+    "say": "RAA-muh",
+    "ipa": "ˈraː.mɐ",
+    "kind": "person",
+    "gloss": "Prince of Ayodhyā. The story of his exile and return is the Rāmāyaṇa.",
+    "aliases": [
+      "Rama",
+      "Ram"
+    ]
+  },
+  "Sītā": {
+    "id": "sita",
+    "native": {
+      "deva": "सीता"
+    },
+    "say": "SEE-taa",
+    "ipa": "ˈsiː.taː",
+    "kind": "person",
+    "gloss": "Rāma's wife, carried away to Laṅkā by Rāvaṇa.",
+    "aliases": [
+      "Sita",
+      "Seetha"
+    ]
+  },
+  "Lakṣmaṇa": {
+    "id": "lakshmana",
+    "native": {
+      "deva": "लक्ष्मण"
+    },
+    "say": "LUCK-shmuh-nuh",
+    "ipa": "ˈlɐkʂ.mɐ.ɳɐ",
+    "kind": "person",
+    "gloss": "Rāma's younger brother, who followed him into the forest and did not go home.",
+    "aliases": [
+      "Lakshmana",
+      "Lakshman"
+    ]
+  },
+  "Hanumān": {
+    "id": "hanuman",
+    "native": {
+      "deva": "हनुमान्"
+    },
+    "say": "huh-noo-MAAN",
+    "ipa": "ɦɐ.nʊˈmaːn",
+    "kind": "person",
+    "gloss": "Son of Vāyu the wind, and Rāma's messenger. Also, across a different epic, Bhīma's brother.",
+    "aliases": [
+      "Hanuman",
+      "Anjaneya"
+    ]
+  },
+  "Laṅkā": {
+    "id": "lanka",
+    "native": {
+      "deva": "लङ्का"
+    },
+    "say": "LUNG-kaa",
+    "ipa": "ˈlɐŋ.kaː",
+    "kind": "place",
+    "gloss": "The island kingdom across the water, ruled by Rāvaṇa.",
+    "aliases": [
+      "Lanka"
+    ]
+  },
+  "vānaras": {
+    "id": "vanara",
+    "native": {
+      "deva": "वानर"
+    },
+    "say": "VAA-nuh-ruhs",
+    "ipa": "ˈʋaː.nɐ.rɐ",
+    "kind": "word",
+    "gloss": "The forest people of the Rāmāyaṇa — usually pictured as monkeys.",
+    "aliases": [
+      "vanara",
+      "vanaras"
+    ]
+  },
+  "Nala": {
+    "id": "nala-builder",
+    "native": {
+      "deva": "नल"
+    },
+    "say": "NUH-luh",
+    "ipa": "ˈnɐ.lɐ",
+    "kind": "person",
+    "gloss": "The vānara engineer who designed the sea bridge, the Setu. The only architect in the Rāmāyaṇa with a name.",
+    "aliases": [
+      "Nala"
+    ]
+  },
+  "Śabarī": {
+    "id": "shabari",
+    "native": {
+      "deva": "शबरी"
+    },
+    "say": "SHUH-buh-ree",
+    "ipa": "ˈʃɐ.bɐ.riː",
+    "kind": "person",
+    "gloss": "A forest woman who waited most of her life for Rāma to pass her door.",
+    "aliases": [
+      "Shabari",
+      "Sabari"
+    ]
+  },
+  "Jaṭāyu": {
+    "id": "jatayu",
+    "native": {
+      "deva": "जटायु"
+    },
+    "say": "juh-TAA-yoo",
+    "ipa": "d͡ʒɐˈʈaː.jʊ",
+    "kind": "being",
+    "gloss": "An old vulture, and a friend of Rāma's father, who tried to stop Rāvaṇa alone.",
+    "aliases": [
+      "Jatayu"
+    ]
+  },
+  "Guha": {
+    "id": "guha",
+    "native": {
+      "deva": "गुह"
+    },
+    "say": "GOO-huh",
+    "ipa": "ˈɡʊ.ɦɐ",
+    "kind": "person",
+    "gloss": "A boatman on the Gaṅgā, and the first friend Rāma made after leaving the palace.",
+    "aliases": [
+      "Guha",
+      "Guhan"
+    ]
+  },
+  "Śravaṇa": {
+    "id": "shravana",
+    "native": {
+      "deva": "श्रवण"
+    },
+    "say": "SHRUH-vuh-nuh",
+    "ipa": "ˈʃrɐ.ʋɐ.ɳɐ",
+    "kind": "person",
+    "gloss": "A boy who carried his blind parents across the country in two baskets on a pole.",
+    "aliases": [
+      "Shravana",
+      "Sravan",
+      "Shravan Kumar"
+    ]
+  },
+  "Kṛṣṇa": {
+    "id": "krishna",
+    "native": {
+      "deva": "कृष्ण"
+    },
+    "say": "KRISH-nuh",
+    "ipa": "ˈkr̩ʂ.ɳɐ",
+    "kind": "person",
+    "gloss": "Raised among cowherds in Vraja. The boy in these stories is the same person as the sixty-year-old in the Mahābhārata.",
+    "aliases": [
+      "Krishna",
+      "Krsna",
+      "Kanha"
+    ]
+  },
+  "Vraja": {
+    "id": "vraja",
+    "native": {
+      "deva": "व्रज"
+    },
+    "say": "VRUH-juh",
+    "ipa": "ˈʋrɐ.d͡ʒɐ",
+    "kind": "place",
+    "gloss": "The cattle country around Mathurā where Kṛṣṇa grew up.",
+    "aliases": [
+      "Vraja",
+      "Braj",
+      "Vrindavan"
+    ]
+  },
+  "Govardhana": {
+    "id": "govardhana",
+    "native": {
+      "deva": "गोवर्धन"
+    },
+    "say": "go-VUR-dhuh-nuh",
+    "ipa": "ɡoːˈʋɐr.dʱɐ.nɐ",
+    "kind": "place",
+    "gloss": "The hill that fed the village — grass, water, shade. In one story it is treated as a person, so we count it as one.",
+    "aliases": [
+      "Govardhan"
+    ]
+  },
+  "Indra": {
+    "id": "indra",
+    "native": {
+      "deva": "इन्द्र"
+    },
+    "say": "IN-druh",
+    "ipa": "ˈɪn.drɐ",
+    "kind": "being",
+    "gloss": "King of the gods; he sends the rain, and expects to be thanked for it.",
+    "aliases": [
+      "Indra"
+    ]
+  },
+  "Dhruva": {
+    "id": "dhruva",
+    "native": {
+      "deva": "ध्रुव"
+    },
+    "say": "DHROO-vuh",
+    "ipa": "ˈdʱrʊ.ʋɐ",
+    "kind": "person",
+    "gloss": "A five-year-old who was told he could not sit on his father's lap, and walked into the forest instead. He is the pole star.",
+    "aliases": [
+      "Dhruva",
+      "Dhruv"
+    ]
+  },
+  "Prahlāda": {
+    "id": "prahlada",
+    "native": {
+      "deva": "प्रह्लाद"
+    },
+    "say": "pruh-HLAA-duh",
+    "ipa": "prɐˈɦlaː.dɐ",
+    "kind": "person",
+    "gloss": "A boy who would not stop saying what he believed, in a house where saying it was dangerous.",
+    "aliases": [
+      "Prahlada",
+      "Prahlad"
+    ]
+  },
+  "Gajendra": {
+    "id": "gajendra",
+    "native": {
+      "deva": "गजेन्द्र"
+    },
+    "say": "guh-JEN-druh",
+    "ipa": "ɡɐˈd͡ʒeːn.drɐ",
+    "kind": "being",
+    "gloss": "An elephant king, caught by the foot in a lake, who was strong for a very long time and then wasn't.",
+    "aliases": [
+      "Gajendra"
+    ]
+  },
+  "Sudāmā": {
+    "id": "sudama",
+    "native": {
+      "deva": "सुदामा"
+    },
+    "say": "soo-DAA-maa",
+    "ipa": "sʊˈdaː.maː",
+    "kind": "person",
+    "gloss": "Kṛṣṇa's poorest friend, who walked a long way to visit him and could not bring himself to ask for anything.",
+    "aliases": [
+      "Sudama",
+      "Kuchela"
+    ]
+  },
+  "Bhīma": {
+    "id": "bhima",
+    "native": {
+      "deva": "भीम"
+    },
+    "say": "BHEE-muh",
+    "ipa": "ˈbʱiː.mɐ",
+    "kind": "person",
+    "gloss": "The strongest of the five Pāṇḍava brothers — and, like Hanumān, a son of Vāyu.",
+    "aliases": [
+      "Bhima",
+      "Bheem"
+    ]
+  },
+  "Arjuna": {
+    "id": "arjuna",
+    "native": {
+      "deva": "अर्जुन"
+    },
+    "say": "UR-juh-nuh",
+    "ipa": "ˈɐr.d͡ʒʊ.nɐ",
+    "kind": "person",
+    "gloss": "The archer among the Pāṇḍavas; the one who could see only the eye of the bird.",
+    "aliases": [
+      "Arjuna",
+      "Arjun"
+    ]
+  },
+  "Yudhiṣṭhira": {
+    "id": "yudhishthira",
+    "native": {
+      "deva": "युधिष्ठिर"
+    },
+    "say": "yoo-DHISH-thi-ruh",
+    "ipa": "jʊˈdʱɪʂ.ʈʰɪ.rɐ",
+    "kind": "person",
+    "gloss": "Eldest of the Pāṇḍavas, and the one the crane at the lake chose to question.",
+    "aliases": [
+      "Yudhishthira",
+      "Dharmaraja"
+    ]
+  },
+  "Droṇa": {
+    "id": "drona",
+    "native": {
+      "deva": "द्रोण"
+    },
+    "say": "DROH-nuh",
+    "ipa": "ˈdroː.ɳɐ",
+    "kind": "person",
+    "gloss": "The teacher of both the Pāṇḍavas and the Kauravas. He is not always admirable, and we do not pretend otherwise.",
+    "aliases": [
+      "Drona",
+      "Dronacharya"
+    ]
+  },
+  "Ekalavya": {
+    "id": "ekalavya",
+    "native": {
+      "deva": "एकलव्य"
+    },
+    "say": "eh-kuh-LUV-yuh",
+    "ipa": "eː.kɐˈlɐʋ.jɐ",
+    "kind": "person",
+    "gloss": "A forest boy who taught himself archery from a clay statue of a teacher who had refused him.",
+    "aliases": [
+      "Ekalavya",
+      "Eklavya"
+    ]
+  },
+  "Karṇa": {
+    "id": "karna",
+    "native": {
+      "deva": "कर्ण"
+    },
+    "say": "KUR-nuh",
+    "ipa": "ˈkɐr.ɳɐ",
+    "kind": "person",
+    "gloss": "Born with armour fused to his skin, and unable to say no to anyone who asked him for something.",
+    "aliases": [
+      "Karna",
+      "Karan"
+    ]
+  },
+  "Draupadī": {
+    "id": "draupadi",
+    "native": {
+      "deva": "द्रौपदी"
+    },
+    "say": "DROU-puh-dee",
+    "ipa": "ˈdrɐʊ.pɐ.diː",
+    "kind": "person",
+    "gloss": "Wife of the five Pāṇḍavas, and the keeper of the vessel that fed anyone who came.",
+    "aliases": [
+      "Draupadi",
+      "Panchali"
+    ]
+  },
+  "Abhimanyu": {
+    "id": "abhimanyu",
+    "native": {
+      "deva": "अभिमन्यु"
+    },
+    "say": "uh-bhi-MUN-yoo",
+    "ipa": "ɐ.bʱɪˈmɐn.jʊ",
+    "kind": "person",
+    "gloss": "Arjuna's son, who learned how to get into the spiral formation and never learned how to get out.",
+    "aliases": [
+      "Abhimanyu"
+    ]
+  },
+  "Nachiketā": {
+    "id": "nachiketa",
+    "native": {
+      "deva": "नचिकेता"
+    },
+    "say": "nuh-chi-KAY-taa",
+    "ipa": "nɐ.t͡ʃɪˈkeː.taː",
+    "kind": "person",
+    "gloss": "A boy, maybe nine or ten, who out-waited and out-argued Death.",
+    "aliases": [
+      "Nachiketa",
+      "Naciketas"
+    ]
+  },
+  "Yama": {
+    "id": "yama",
+    "native": {
+      "deva": "यम"
+    },
+    "say": "YUH-muh",
+    "ipa": "ˈjɐ.mɐ",
+    "kind": "being",
+    "gloss": "Lord of death — and, on the evidence of this story, a very good host.",
+    "aliases": [
+      "Yama",
+      "Yamaraja"
+    ]
+  },
+  "Śvetaketu": {
+    "id": "shvetaketu",
+    "native": {
+      "deva": "श्वेतकेतु"
+    },
+    "say": "SHVAY-tuh-kay-too",
+    "ipa": "ˈʃʋeː.tɐ.keː.tʊ",
+    "kind": "person",
+    "gloss": "A boy who came home from twelve years of study rather pleased with himself, and was handed a lump of salt.",
+    "aliases": [
+      "Shvetaketu",
+      "Svetaketu"
+    ]
+  },
+  "Uddālaka": {
+    "id": "uddalaka",
+    "native": {
+      "deva": "उद्दालक"
+    },
+    "say": "ood-DAA-luh-kuh",
+    "ipa": "ʊdˈdaː.lɐ.kɐ",
+    "kind": "person",
+    "gloss": "Śvetaketu's father, and the best teacher in the Upaniṣads — he never once answers his own question.",
+    "aliases": [
+      "Uddalaka",
+      "Aruni"
+    ]
+  },
+  "Satyakāma": {
+    "id": "satyakama",
+    "native": {
+      "deva": "सत्यकाम"
+    },
+    "say": "SUT-yuh-kaa-muh",
+    "ipa": "ˈsɐt.jɐ.kaː.mɐ",
+    "kind": "person",
+    "gloss": "A boy who told his teacher the one thing he was afraid to say, and was accepted for saying it.",
+    "aliases": [
+      "Satyakama",
+      "Satyakama Jabala"
+    ]
+  },
+  "Agni": {
+    "id": "agni",
+    "native": {
+      "deva": "अग्नि"
+    },
+    "say": "UG-nee",
+    "ipa": "ˈɐɡ.nɪ",
+    "kind": "being",
+    "gloss": "Fire. In one story he is asked to burn a single blade of grass, and cannot.",
+    "aliases": [
+      "Agni"
+    ]
+  },
+  "Vāyu": {
+    "id": "vayu",
+    "native": {
+      "deva": "वायु"
+    },
+    "say": "VAA-yoo",
+    "ipa": "ˈʋaː.jʊ",
+    "kind": "being",
+    "gloss": "The wind. Father of Hanumān in one epic and of Bhīma in another — which makes them brothers.",
+    "aliases": [
+      "Vayu"
+    ]
+  },
+  "Gaṇeśa": {
+    "id": "ganesha",
+    "native": {
+      "deva": "गणेश"
+    },
+    "say": "guh-NAY-shuh",
+    "ipa": "ɡɐˈɳeː.ʃɐ",
+    "kind": "being",
+    "gloss": "The elephant-headed son of Śiva and Pārvatī, who won a race around the world without leaving the room.",
+    "aliases": [
+      "Ganesha",
+      "Ganesh",
+      "Pillaiyar",
+      "Vinayaka"
+    ]
+  },
+  "Bharata": {
+    "id": "bharata-sage",
+    "native": {
+      "deva": "भरत"
+    },
+    "say": "BHUH-ruh-tuh",
+    "ipa": "ˈbʱɐ.rɐ.tɐ",
+    "kind": "person",
+    "gloss": "A king who gave up everything he owned, and then lost it all over again for the love of one orphaned fawn.",
+    "aliases": [
+      "Bharata",
+      "Jada Bharata"
+    ]
+  },
+  "Pūsalār": {
+    "id": "pusalar",
+    "native": {
+      "taml": "பூசலார்",
+      "deva": "पूसलार्"
+    },
+    "say": "POO-suh-laar",
+    "ipa": "ˈpuː.sɐ.laːr",
+    "kind": "person",
+    "gloss": "One of the sixty-three Nāyaṉmārs. He built a temple without owning a single stone.",
+    "aliases": [
+      "Pusalar",
+      "Poosalar"
+    ]
+  },
+  "Tiruniṉṟavūr": {
+    "id": "tiruninravur",
+    "native": {
+      "taml": "திருநின்றவூர்",
+      "deva": "तिरुनिन्ऱवूर्"
+    },
+    "say": "ti-ru-NIN-druh-voor",
+    "ipa": "tɪ.rʊˈnɪn.ɾɐ.ʋuːr",
+    "kind": "place",
+    "gloss": "A town outside Chennai. Pūsalār's temple is there, in a manner of speaking.",
+    "aliases": [
+      "Tiruninravur",
+      "Thiruninravur"
+    ]
+  },
+  "Kāñchipuram": {
+    "id": "kanchipuram",
+    "native": {
+      "taml": "காஞ்சிபுரம்",
+      "deva": "काञ्चीपुरम्"
+    },
+    "say": "KAAN-chi-poo-rum",
+    "ipa": "ˈkaːɲ.t͡ʃiː.pʊ.rɐm",
+    "kind": "place",
+    "gloss": "The Pallava capital. The stone temple in this story is still standing there.",
+    "aliases": [
+      "Kanchipuram",
+      "Kanchi",
+      "Conjeevaram"
+    ]
+  },
+  "Rājasiṃha": {
+    "id": "rajasimha",
+    "native": {
+      "deva": "राजसिंह",
+      "taml": "ராஜசிம்மன்"
+    },
+    "say": "RAA-juh-sim-huh",
+    "ipa": "ˈraː.d͡ʒɐ.sɪm.ɦɐ",
+    "kind": "person",
+    "gloss": "The Pallava king who built the Kailāsanātha temple at Kāñchipuram around thirteen hundred years ago.",
+    "aliases": [
+      "Rajasimha",
+      "Narasimhavarman II"
+    ]
+  },
+  "Śiva": {
+    "id": "shiva",
+    "native": {
+      "deva": "शिव",
+      "taml": "சிவன்"
+    },
+    "say": "SHIH-vuh",
+    "ipa": "ˈɕɪ.ʋɐ",
+    "kind": "being",
+    "gloss": "In these stories, usually the one who turns up in person and does something nobody expected.",
+    "aliases": [
+      "Shiva",
+      "Siva",
+      "Sivan"
+    ]
+  },
+  "Nāyaṉmārs": {
+    "id": "nayanmar",
+    "native": {
+      "taml": "நாயன்மார்",
+      "deva": "नायन्मार्"
+    },
+    "say": "NAA-yun-maar",
+    "ipa": "ˈnaː.jɐn.maːr",
+    "kind": "word",
+    "gloss": "Sixty-three Tamil Śaiva saints — potters, washermen, kings, hunters, farmers — whose lives Sēkkiḻār set down in the twelfth century.",
+    "aliases": [
+      "Nayanmars",
+      "Nayanars"
+    ]
+  },
+  "Āḻvārs": {
+    "id": "alvar",
+    "native": {
+      "taml": "ஆழ்வார்",
+      "deva": "आळ्वार्"
+    },
+    "say": "AAZH-vaars",
+    "ipa": "ˈaːɻ.ʋaːr",
+    "kind": "word",
+    "gloss": "Twelve Tamil Vaiṣṇava poet-saints. One of them was a woman, one a highwayman, and three of them met in a doorway in the rain.",
+    "aliases": [
+      "Alvars",
+      "Azhwars"
+    ]
+  },
+  "Periya Purāṇam": {
+    "id": "periya-puranam",
+    "native": {
+      "taml": "பெரிய புராணம்",
+      "deva": "पेरिय पुराणम्"
+    },
+    "say": "PEH-ri-yuh poo-RAA-num",
+    "ipa": "ˈpeː.ɾɪ.jɐ pʊˈraː.ɳɐm",
+    "kind": "text",
+    "gloss": "Sēkkiḻār's twelfth-century book of the sixty-three Nāyaṉmārs. There is no Sanskrit version of it.",
+    "aliases": [
+      "Periya Puranam",
+      "Periyapuranam"
+    ]
+  },
+  "Sēkkiḻār": {
+    "id": "sekkizhar",
+    "native": {
+      "taml": "சேக்கிழார்",
+      "deva": "सेक्किऴार्"
+    },
+    "say": "SAY-ki-zhaar",
+    "ipa": "ˈseː.kːɪ.ɻaːr",
+    "kind": "person",
+    "gloss": "Minister to a Chola king, and the man who wrote down the lives of the sixty-three saints.",
+    "aliases": [
+      "Sekkizhar",
+      "Chekkilar"
+    ]
+  },
+  "Āṇḍāḷ": {
+    "id": "andal",
+    "native": {
+      "taml": "ஆண்டாள்",
+      "deva": "आण्डाळ्"
+    },
+    "say": "AAN-daal",
+    "ipa": "ˈaːɳ.ɖaːɭ",
+    "kind": "person",
+    "gloss": "The only woman among the twelve Āḻvārs, and the one who tried the garland on first.",
+    "aliases": [
+      "Andal",
+      "Kodhai",
+      "Goda"
+    ]
+  },
+  "Kāraikkāl Ammaiyār": {
+    "id": "karaikkal-ammaiyar",
+    "native": {
+      "taml": "காரைக்கால் அம்மையார்",
+      "deva": "कारैक्काल् अम्मैयार्"
+    },
+    "say": "KAA-rake-kaal UM-mai-yaar",
+    "ipa": "ˈkaː.rɐj.kːaːl ˈɐm.mɐj.jaːr",
+    "kind": "person",
+    "gloss": "One of three women among the Nāyaṉmārs, and the earliest. She asked to be given a shape nobody would find beautiful, and got it.",
+    "aliases": [
+      "Karaikkal Ammaiyar",
+      "Punithavathi"
+    ]
+  },
+  "Srīraṅgam": {
+    "id": "srirangam",
+    "native": {
+      "taml": "ஸ்ரீரங்கம்",
+      "deva": "श्रीरङ्गम्"
+    },
+    "say": "SREE-rung-um",
+    "ipa": "ˈsriː.rɐŋ.ɡɐm",
+    "kind": "place",
+    "gloss": "The great island temple on the Kāverī, and the one a singer was carried into on a priest's shoulders.",
+    "aliases": [
+      "Srirangam",
+      "Thiruvarangam"
+    ]
+  },
+  "Kailāsa": {
+    "id": "kailasa",
+    "native": {
+      "deva": "कैलास",
+      "taml": "கைலாயம்"
+    },
+    "say": "kai-LAA-suh",
+    "ipa": "kɐjˈlaː.sɐ",
+    "kind": "place",
+    "gloss": "Śiva's mountain. In one story someone gets his hands underneath it.",
+    "aliases": [
+      "Kailasa",
+      "Kailash",
+      "Kailayam"
+    ]
+  },
+  "Rāvaṇa": {
+    "id": "ravana",
+    "native": {
+      "deva": "रावण",
+      "taml": "ராவணன்"
+    },
+    "say": "RAA-vuh-nuh",
+    "ipa": "ˈraː.ʋɐ.ɳɐ",
+    "kind": "person",
+    "gloss": "King of Laṅkā. A scholar, a musician, and — in the Jain retelling — not a demon at all.",
+    "aliases": [
+      "Ravana",
+      "Ravanan"
+    ]
+  }
+}

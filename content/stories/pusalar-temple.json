@@ -1,0 +1,266 @@
+{
+  "id": "pusalar-temple",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "The Temple Nobody Could See",
+  "tease": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Periya Purāṇam",
+    "locus": "Pūsalār Nāyaṉār",
+    "stability": "regional",
+    "traditionNote": "This one is Tamil and only Tamil. Sēkkiḻār set it down in the twelfth century in the Periya Purāṇam, the lives of the sixty-three Nāyaṉmārs. There is no Sanskrit version to check it against, and no other tradition tells it.",
+    "checkedAgainst": [
+      "Sēkkiḻār, Periya Purāṇam — Tamil text with Vaidyanathan's commentary",
+      "G. Vanmikanathan, Periya Puranam: A Tamil Classic"
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
+  },
+  "audience": {
+    "minAge": 5,
+    "sensitivity": []
+  },
+  "values": [
+    "care spent where nobody is looking",
+    "what counts as real"
+  ],
+  "themes": [
+    "building",
+    "poverty",
+    "attention",
+    "tamil-nadu",
+    "pallava"
+  ],
+  "calendar": {
+    "months": [
+      "magha",
+      "phalguna"
+    ],
+    "seasons": [
+      "winter"
+    ],
+    "weight": 4
+  },
+  "characters": [
+    {
+      "ref": "Pūsalār",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Rājasiṃha",
+      "role": "foil"
+    },
+    {
+      "ref": "Tiruniṉṟavūr",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 315,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Pūsalār» wanted to build a temple, and had no money at all. No land, no quarry, no elephants to drag stone. So he built it in his head."
+        },
+        {
+          "t": "p",
+          "text": "Not daydreamed it. Built it — the way a builder builds."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He walked the village in his mind until he found the right rise: dry in the rains, facing east. He cleared it. He dug the foundation, and did not skip that part just because nobody was watching. He laid the stones, raised the walls course by course, and checked the corners where they met."
+        },
+        {
+          "t": "p",
+          "text": "Pillars. Beams. The tower over the sanctum, narrowing as it went up. Doors."
+        },
+        {
+          "t": "p",
+          "text": "It took years. And when there was nothing left to do, he chose a day for the consecration — the day the god would be invited in."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At the same time, in «Kāñchipuram», the Pallava king «Rājasiṃha» was finishing a temple of his own. Cut stone. Hundreds of men, for years. One of the most beautiful buildings anyone in that country had ever seen. He had chosen his day too."
+        },
+        {
+          "t": "p",
+          "text": "The same day."
+        },
+        {
+          "t": "p",
+          "text": "The night before, «Śiva» came into the king's sleep and said: _I cannot come to yours tomorrow. I am going to Pūsalār's temple, at «Tiruniṉṟavūr». He fixed his date first._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The king woke up and did what any king would do, which was get on a horse and go and look at the temple that had beaten his."
+        },
+        {
+          "t": "p",
+          "text": "He found a village. Some houses. No temple. Not so much as a heap of stone. He asked for Pūsalār and was shown a poor man who had built nothing at all — and asked him, standing there in his good clothes, where the temple was."
+        },
+        {
+          "t": "p",
+          "text": "And Pūsalār told him."
+        },
+        {
+          "t": "slow",
+          "text": "The king rode home and moved his consecration to another day. Not to be gracious. Because the date was taken, and he could see that it was real."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 4,
+      "words": 450,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Pūsalār» wanted to build a temple."
+        },
+        {
+          "t": "p",
+          "text": "He lived at «Tiruniṉṟavūr», and he was not a rich man. He had no land, no quarry, no elephants to drag stone, and no way of getting any of it."
+        },
+        {
+          "t": "p",
+          "text": "So he built the temple in his head."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He did not daydream it. That is the thing to understand. He built it the way a builder builds."
+        },
+        {
+          "t": "p",
+          "text": "First he chose the ground. He walked the village in his mind until he found the right rise — dry in the rains, facing east. He cleared it. He let the ground settle."
+        },
+        {
+          "t": "p",
+          "text": "Then he dug the foundation, and he did not skip that part just because nobody was watching."
+        },
+        {
+          "t": "p",
+          "text": "He laid the stones. He raised the walls course by course, and where the walls met he checked the corners. He set the pillars, and put the beams across them. He built the tower over the sanctum, narrowing it as it rose. He hung the doors."
+        },
+        {
+          "t": "p",
+          "text": "This took years."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And when it was finished — when the last thing was done and there was nothing left to do — he chose a day for the consecration. The day the god would be invited in."
+        },
+        {
+          "t": "p",
+          "text": "Now. At that same time, in «Kāñchipuram», the Pallava king was finishing a temple of his own."
+        },
+        {
+          "t": "p",
+          "text": "It was enormous. Cut stone, hundreds of men, years of work — one of the most beautiful buildings anyone in that country had ever seen. It is still standing, by the way. You can walk around it."
+        },
+        {
+          "t": "p",
+          "text": "And «Rājasiṃha» had chosen his day too. The same day."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The night before, the king was asleep, and «Śiva» came into his dream and said:"
+        },
+        {
+          "t": "p",
+          "text": "_I cannot come to yours tomorrow._"
+        },
+        {
+          "t": "p",
+          "text": "The king, in the dream, asked why."
+        },
+        {
+          "t": "p",
+          "text": "_Because I am going to Pūsalār's temple, at Tiruniṉṟavūr. He fixed his date first._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The king woke up. Then he did what any king would do, which was get on a horse and go and look at this other temple — the one that had beaten his."
+        },
+        {
+          "t": "p",
+          "text": "He rode to Tiruniṉṟavūr and found nothing. A village. Some houses. No temple, no scaffolding, not so much as a heap of stone."
+        },
+        {
+          "t": "p",
+          "text": "He asked for Pūsalār, and was shown a poor man who had built nothing at all."
+        },
+        {
+          "t": "p",
+          "text": "And the king — you have to picture him standing there in his good clothes, having ridden all that way — asked him where the temple was."
+        },
+        {
+          "t": "p",
+          "text": "And Pūsalār told him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The king went home and moved his own consecration to a different day."
+        },
+        {
+          "t": "slow",
+          "text": "He did not do it to be kind. He did it because the date was taken, and because standing in that empty village he could see that the thing was real."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "govardhana",
+    "reason": "another story where the small, invisible contribution turns out to be the one that counts"
+  },
+  "close": {
+    "question": "What have you built in your head that nobody has ever seen?",
+    "seed": "Care you take where nobody is watching is not wasted care.",
+    "ifTheyAsk": [
+      {
+        "q": "But was there a real temple?",
+        "a": "Not one you could touch. What there was, was a king who rode across his own kingdom to look at it and then rearranged his festival around it — which is more than most buildings manage. And notice what made it real in the story: he built it properly. Foundation first, corners checked, no shortcuts in the parts nobody could see. A sloppy imaginary temple would not have got the date."
+      },
+      {
+        "q": "Which temple did the king build?",
+        "a": "The Kailāsanātha temple at Kāñchipuram, put up by Rājasiṃha about thirteen hundred years ago. It is still standing and you can walk right around it. If you ever go, that is the one whose big day got moved."
+      },
+      {
+        "q": "Why did Śiva pick the poor man?",
+        "a": "The story does not say he was picked for being poor — it says he fixed his date first, which is a wonderfully ordinary reason. That is worth pointing out: nobody in this story is rewarded for suffering. He is simply first in the diary."
+      }
+    ]
+  }
+}

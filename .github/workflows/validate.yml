@@ -1,0 +1,26 @@
+name: content
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Validate the corpus
+        run: npm run validate:strict
+      - name: Build the shipped index
+        run: npm run content
+      - name: Unit tests
+        run: npm test
+      - name: Refuse an unlocked change to a published story
+        run: |
+          node scripts/lock.mjs
+          git diff --exit-code content/content.lock.json \
+            || (echo "::error::content.lock.json is stale — run 'npm run lock' and commit it with the story change" && exit 1)

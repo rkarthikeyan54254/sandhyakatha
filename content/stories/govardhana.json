@@ -1,0 +1,235 @@
+{
+  "id": "govardhana",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "The Mountain Held Up by Sticks",
+  "tease": "A seven-year-old holds a hill over a village for seven days. A cowherd puts his stick up to help.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 10, chapters 24–25",
+    "stability": "stable",
+    "traditionNote": "Told the same way in the Viṣṇu Purāṇa and the Harivaṃśa. This is one of the stable ones.",
+    "parallels": [
+      {
+        "work": "Viṣṇu Purāṇa",
+        "locus": "5.10–11"
+      },
+      {
+        "work": "Harivaṃśa",
+        "locus": "2.16–19"
+      }
+    ],
+    "checkedAgainst": [
+      "Gita Press Bhāgavata (Hindi-Sanskrit)",
+      "Tagare, Motilal Banarsidass"
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
+  },
+  "audience": {
+    "minAge": 5,
+    "sensitivity": []
+  },
+  "values": [
+    "letting others help",
+    "standing up gently"
+  ],
+  "themes": [
+    "monsoon",
+    "cattle",
+    "hubris",
+    "childhood-krishna"
+  ],
+  "calendar": {
+    "festivals": [
+      "govardhan-puja",
+      "annakut"
+    ],
+    "months": [
+      "bhadrapada",
+      "ashvina",
+      "kartika"
+    ],
+    "seasons": [
+      "monsoon-end"
+    ],
+    "weight": 8
+  },
+  "characters": [
+    {
+      "ref": "Kṛṣṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Govardhana",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "foil"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 2,
+      "words": 256,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» was seven when he asked the awkward question."
+        },
+        {
+          "t": "p",
+          "text": "Every year the village of «Vraja» sent its harvest offering up to «Indra», king of the gods, who sends the rain. Kṛṣṇa said: _whose grass do our cows eat? Whose streams do we drink? Whose shade do we sit in? «Govardhana»'s. Why do we never thank the hill?_"
+        },
+        {
+          "t": "p",
+          "text": "So that year the offering went to the mountain."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Indra was not thanked, and Indra had a temper. The rain came sideways, for a day, and then two. The cattle stood in water up to their knees. The roofs began to come apart."
+        },
+        {
+          "t": "p",
+          "text": "The people ran to Kṛṣṇa, because when you are frightened you run to whoever is not."
+        },
+        {
+          "t": "p",
+          "text": "He walked to the hill, put one hand under its edge, and lifted it — up out of the ground like a lid off a pot — and held it over the whole village on the little finger of his left hand. _Come in,_ he said."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They came in. Cows, calves, carts, grandmothers, dogs."
+        },
+        {
+          "t": "p",
+          "text": "And one cowherd, looking up at a seven-year-old holding a mountain, thought: _he must be getting tired._ So he raised his stick and pressed it against the underside of the hill. To help. And then another one did. And another."
+        },
+        {
+          "t": "p",
+          "text": "Seven days of rain, and a ring of cowherds standing with their sticks up against the roof of the world, absolutely certain they were holding it."
+        },
+        {
+          "t": "slow",
+          "text": "Kṛṣṇa never told them they weren't. That is the part I like best. Not the lifting — the not telling."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 3,
+      "words": 361,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Every year, when the rains were finishing, the people of «Vraja» made a great offering to «Indra», king of the gods, who sends the rain."
+        },
+        {
+          "t": "p",
+          "text": "That year, a boy asked a question."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» was seven. He said: _whose grass do the cows eat? The mountain's. Whose water do we drink? The mountain's streams. Whose shade do we sit in all afternoon? «Govardhana»'s. So why do we never thank the mountain?_"
+        },
+        {
+          "t": "p",
+          "text": "The elders argued about it. The boy was seven. But he was also — well. They knew what he was."
+        },
+        {
+          "t": "p",
+          "text": "So that year the food went to Govardhana. Mountains of rice, hills of butter, and the whole village walked around the hill and bowed to it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Indra, up in the sky, was not thanked. And Indra had a temper."
+        },
+        {
+          "t": "p",
+          "text": "The clouds he sent were black as wet stone. The rain came sideways. It came for a day, and then two, and then the cattle were standing in water up to their knees, and the children were crying, and the roofs were coming apart above them."
+        },
+        {
+          "t": "p",
+          "text": "The people ran to Kṛṣṇa, because when you are frightened you run to whoever is not."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He walked out to the hill. He put one hand under its edge."
+        },
+        {
+          "t": "p",
+          "text": "And he lifted it."
+        },
+        {
+          "t": "p",
+          "text": "Govardhana came up out of the earth like a lid off a pot, and he held it over the village on the little finger of his left hand, and he said, _come in._"
+        },
+        {
+          "t": "p",
+          "text": "They came in. Everyone. The cows, the calves, the carts, the grandmothers, the dogs."
+        },
+        {
+          "t": "p",
+          "text": "And they stood under the mountain and looked up at this seven-year-old holding it, and one of the cowherds — you can imagine him — thought: _he must be getting tired._"
+        },
+        {
+          "t": "p",
+          "text": "So he lifted his stick and pressed it up against the underside of the mountain. To help."
+        },
+        {
+          "t": "p",
+          "text": "And then another one did. And another."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Seven days. Seven days of rain, and the whole time, a ring of cowherds standing with their sticks up against the roof of the world, absolutely certain they were holding it up."
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa never told them they weren't."
+        },
+        {
+          "t": "slow",
+          "text": "That is the part I like best. Not the lifting. The not telling."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "squirrel-setu",
+    "reason": "another story about help that looks too small to matter"
+  },
+  "close": {
+    "question": "Kṛṣṇa could have said, _put your sticks down, I've got it._ Why do you think he didn't?",
+    "seed": "Letting someone help you is its own kind of kindness.",
+    "ifTheyAsk": [
+      {
+        "q": "Was Indra bad, then?",
+        "a": "No — and it is worth saying so out loud. Indra was used to being thanked, and he stopped checking whether he had earned it. That is not a monster; that is a very ordinary way for a powerful person to go wrong. Children recognise it immediately, usually in a grown-up they know."
+      },
+      {
+        "q": "Could a boy really lift a mountain?",
+        "a": "In the story, yes, and the story is not trying to be a report. What it is doing is putting a very large thing and a very small person in the same picture so you notice the difference. You can ask them back: what is the heaviest thing someone has ever carried for you?"
+      }
+    ]
+  }
+}
