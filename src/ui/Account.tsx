@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
-import { signInWithGoogle, signOut, createRecoveryCode, useRecoveryCode, authConfig,
+import { signInWithGoogle, createRecoveryCode, useRecoveryCode, authConfig,
          type AuthConfig, type Account as Acct } from '../lib/sync';
 import { track } from '../lib/track';
 
-export default function Account({ account, syncing, nudge, onChanged }: {
+export default function Account({ account, syncing, nudge, onChanged, onSignOut }: {
   account: Acct | null; syncing: boolean; nudge: boolean; onChanged: () => void;
+  onSignOut: () => Promise<'ok' | 'unsaved'>;
 }) {
   const [cfg, setCfg] = useState<AuthConfig | null>(null);
   const [mode, setMode] = useState<'none' | 'code'>('none');
@@ -22,7 +23,16 @@ export default function Account({ account, syncing, nudge, onChanged }: {
   if (account) return (
     <div className="account in">
       <p><b>Signed in</b>{account.email ? ` as ${account.email}` : ' with a recovery code'}. {syncing ? 'Syncing…' : 'Everything is backed up.'}</p>
-      <button className="linkbtn" onClick={async () => { await signOut(); onChanged(); }}>Sign out</button>
+      <p className="fine">Signing out clears this history from this browser. It stays in your account and
+        comes back when you sign in again — which is what keeps a shared computer safe.</p>
+      <button className="linkbtn" disabled={busy} onClick={async () => {
+        setBusy(true); setErr(null);
+        const r = await onSignOut();
+        setBusy(false);
+        if (r === 'unsaved')
+          setErr('Could not save tonight to your account, so you are still signed in. Check your connection and try again.');
+      }}>{busy ? 'Signing out…' : 'Sign out'}</button>
+      {err && <p className="err">{err}</p>}
     </div>
   );
 

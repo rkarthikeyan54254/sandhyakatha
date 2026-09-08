@@ -10,9 +10,9 @@
  * front of a bedtime story is how you lose the parent who came to try one.
  */
 import type { Profile } from './profile';
-import { merge } from './profile';
+import { merge, emptyProfile } from './profile';
 
-export interface Account { email: string | null; kind: 'google' | 'code' }
+export interface Account { id: string; email: string | null; kind: 'google' | 'code' }
 
 export interface AuthConfig { google: boolean; code: boolean }
 
@@ -63,18 +63,48 @@ export async function useRecoveryCode(code: string): Promise<void> {
   if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error ?? 'that code did not work');
 }
 
-export async function signOut() {
-  await fetch('/api/signout', { method: 'POST', credentials: 'same-origin' }).catch(() => {});
+/**
+ * Sign out, and only then let the caller forget this device's copy.
+ *
+ * Signing out has to clear the local profile: a browser is shared, and leaving
+ * one family's children's names on screen for whoever signs in next is not
+ * acceptable for a product that keeps children's data. But clearing before the
+ * last night is safely on the server would lose it, so a failed sync means we
+ * stay signed in and say so, rather than trading their history for a tidy
+ * screen.
+ */
+export async function signOut(local: Profile): Promise<'ok' | 'unsaved'> {
+  try { await syncProfile(local); } catch { return 'unsaved'; }
+  try {
+    const r = await fetch('/api/signout', { method: 'POST', credentials: 'same-origin' });
+    return r.ok ? 'ok' : 'unsaved';
+  } catch { return 'unsaved'; }
 }
 
-/** Merge this device with the account copy, then write the result back. */
+/**
+ * Reconcile this device with the account.
+ *
+ * The one rule that matters: a local copy belonging to a DIFFERENT account is
+ * never merged and never pushed. Anonymous local state (owner null) is claimed
+ * on first sign-in — that is the parent who set the app up before signing in,
+ * and they should keep what they did. Anything else is another family's, and
+ * the account's own copy replaces it.
+ */
 export async function syncProfile(local: Profile): Promise<Profile> {
   const d = await api('/api/profile');
   if (!d) return local;                       // signed out — nothing to do
-  const merged = d.profile ? merge(local, d.profile as Profile) : local;
+  const id = (d.account as Account).id;
+
+  if (local.owner && local.owner !== id) {
+    return d.profile
+      ? { ...(d.profile as Profile), owner: id }
+      : { ...emptyProfile(), owner: id, updatedAt: new Date().toISOString() };
+  }
+
+  const merged: Profile = { ...(d.profile ? merge(local, d.profile as Profile) : local), owner: id };
   const put = await api('/api/profile', {
     method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(merged)
   });
   // A stale write is answered with the server's copy; take it rather than argue.
-  return (put?.stale ? merge(merged, put.profile as Profile) : merged);
+  return put?.stale ? { ...merge(merged, put.profile as Profile), owner: id } : merged;
 }

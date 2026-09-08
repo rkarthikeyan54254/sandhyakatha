@@ -4,7 +4,7 @@ import { panchanga, type PanchangaTable } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
 import * as P from './lib/profile';
 import { track } from './lib/track';
-import { currentAccount, syncProfile, type Account as Acct } from './lib/sync';
+import { currentAccount, syncProfile, signOut, type Account as Acct } from './lib/sync';
 import { Header, Tabs, type Tab } from './ui/Chrome';
 import Tonight, { type Len } from './ui/Tonight';
 import Reader from './ui/Reader';
@@ -115,6 +115,18 @@ export default function App() {
     });
   }
 
+  /**
+   * Signing out forgets this device's copy — see sync.signOut. Only after the
+   * server has confirmed, and only if the last night was saved first; a failed
+   * save leaves the family signed in with their history intact.
+   */
+  async function handleSignOut(): Promise<'ok' | 'unsaved'> {
+    const r = await signOut(profile);
+    if (r === 'ok') { setProfile(P.emptyProfile()); setSkipped(false); setAccount(null); }
+    void refresh();
+    return r;
+  }
+
   const addChild = (name: string, age: number) => setProfile(p => {
     const c = P.newChild(name, age);
     return { ...p, children: [...p.children, c], activeId: c.id, updatedAt: new Date().toISOString() };
@@ -144,7 +156,7 @@ export default function App() {
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
                    profile={profile} child={child} heard={heard} cards={cards}
                    canon={canon} published={cards.length}
-                   account={account} syncing={syncing} onAccountChanged={refresh}
+                   account={account} syncing={syncing} onAccountChanged={refresh} onSignOut={handleSignOut}
                    setActive={id => setProfile(p => ({ ...p, activeId: id }))}
                    addChild={addChild} patchChild={patchChild}
                    setGate={g => setProfile(p => ({ ...p, gate: g, updatedAt: new Date().toISOString() }))}

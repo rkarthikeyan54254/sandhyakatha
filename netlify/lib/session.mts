@@ -46,3 +46,16 @@ export const clearCookie = () =>
 /** The blob key a session owns. Kinds are namespaced so a recovery code can
  *  never collide with a Google subject. */
 export const keyFor = (s: Session) => `${s.kind}:${s.sub}`;
+
+/**
+ * An opaque, stable id for the account, safe to keep on the device.
+ *
+ * The device needs to know WHICH account its local copy belongs to, or a second
+ * family signing in on the same browser inherits the first one's children. It
+ * does not need to know the Google subject to answer that, so this is a hash:
+ * enough to compare, nothing to leak out of localStorage.
+ */
+export async function accountId(s: Session): Promise<string> {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('sk:' + keyFor(s)));
+  return [...new Uint8Array(digest)].slice(0, 8).map(b => b.toString(16).padStart(2, '0')).join('');
+}

@@ -1,6 +1,6 @@
 import type { Context } from '@netlify/functions';
 import { getStore } from '@netlify/blobs';
-import { readSession, keyFor } from '../lib/session.mts';
+import { readSession, keyFor, accountId } from '../lib/session.mts';
 
 /**
  * The family's row. One JSON blob per account, in Netlify's own key-value
@@ -20,8 +20,10 @@ export default async (req: Request, _ctx: Context) => {
 
   if (req.method === 'GET') {
     const data = await store.get(key, { type: 'json' });
-    return Response.json({ account: { email: session.email ?? null, kind: session.kind }, profile: data ?? null },
-      { headers: { 'Cache-Control': 'no-store' } });
+    return Response.json({
+      account: { id: await accountId(session), email: session.email ?? null, kind: session.kind },
+      profile: data ?? null
+    }, { headers: { 'Cache-Control': 'no-store' } });
   }
 
   if (req.method === 'PUT') {

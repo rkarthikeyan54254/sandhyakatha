@@ -26,6 +26,13 @@ export interface Profile {
    */
   again?: Record<string, Record<string, string>>;
   firstNight: string | null;
+  /**
+   * Which account this device's copy belongs to — null while nobody has ever
+   * signed in here. Without it, signing out and signing in as someone else
+   * leaves the first family's children on screen and, worse, merges them into
+   * the second family's account on the next write. See sync.ts.
+   */
+  owner?: string | null;
   updatedAt: string;
 }
 
@@ -34,7 +41,8 @@ export const today = () => new Date().toISOString().slice(0, 10);
 const uid = () => Math.random().toString(36).slice(2, 10);
 
 export const emptyProfile = (): Profile =>
-  ({ v: 1, children: [], activeId: null, gate: false, heard: {}, again: {}, firstNight: null, updatedAt: new Date().toISOString() });
+  ({ v: 1, children: [], activeId: null, gate: false, heard: {}, again: {}, firstNight: null,
+     owner: null, updatedAt: new Date().toISOString() });
 
 export const newChild = (name: string, age: number): Child => ({ id: uid(), name: name.trim(), age });
 
@@ -130,6 +138,7 @@ export function merge(a: Profile, b: Profile): Profile {
     v: 1, children: [...byId.values()],
     activeId: newer.activeId ?? older.activeId,
     gate: newer.gate, heard, again,
+    owner: newer.owner ?? older.owner ?? null,
     firstNight: firsts[0] ?? null,
     updatedAt: newer.updatedAt
   };

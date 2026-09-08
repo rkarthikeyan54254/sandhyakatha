@@ -14,6 +14,7 @@ interface Props {
   profile: P.Profile; child: P.Child | null; heard: Record<string, string>;
   cards: Card[]; canon: CanonRow[]; published: number;
   account: Acct | null; syncing: boolean; onAccountChanged: () => void;
+  onSignOut: () => Promise<'ok' | 'unsaved'>;
   setActive: (id: string) => void;
   addChild: (name: string, age: number) => void;
   patchChild: (id: string, patch: Partial<P.Child>) => void;
@@ -31,6 +32,14 @@ export default function Tonight(p: Props) {
   const mins = s ? (len === 'short' ? s.minutes.short : len === 'full' ? s.minutes.full
       : s.minutes.full + (pick!.alternates[0]?.minutes.short ?? 3)) : 0;
   const date = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' });
+
+  /* Nothing new tonight is not the end of the evening. The stories they have
+     already heard are the ones most likely to be asked for, and a re-read is a
+     feature here rather than a fallback — longest ago first. */
+  const readAgain = !s
+    ? cards.filter(c => heard[c.id] && (child ? c.minAge <= child.age : true) && (!c.gated || profile.gate))
+           .sort((a, b) => (heard[a.id] < heard[b.id] ? -1 : 1)).slice(0, 3)
+    : [];
 
   // A gap worth naming: a whole section this child has not met anyone from.
   const metCorpora = new Set(cards.filter(c => heard[c.id]).map(c => c.corpus));
@@ -70,8 +79,28 @@ export default function Tonight(p: Props) {
         </p>
       )}
 
-      {!s && <p className="sub">Nothing new fits tonight — everything for this age has been heard in the last three
-        months, which is a good problem to have. Nudge the age up, or turn on the difficult ones below.</p>}
+      {!s && <>
+        <p className="sub">Nothing new fits tonight — everything written for this age has been read in the last
+          three months, which is a good problem to have. Nudge the age up, or turn on the difficult ones below.</p>
+        {readAgain.length > 0 && <>
+          <div className="hair"><span className="eyebrow">Or read one again</span></div>
+          <p className="sub">Every word will be exactly where it was. That is the whole reason they are written
+            down instead of made up each time — and it is usually what a child is asking for anyway.</p>
+          <div className="alts">
+            {readAgain.map(a => (
+              <button key={a.id} className="mini" onClick={() => onRead(a.id)}>
+                <span className="num">↺</span>
+                <span className="t">
+                  <h3>{a.title}</h3>
+                  <p>{a.work} · {a.locus} · ages {a.minAge}+</p>
+                  <p>{a.tease}</p>
+                  <span className="tags"><i className="tag val">read {ago(heard[a.id])}</i></span>
+                </span>
+              </button>
+            ))}
+          </div>
+        </>}
+      </>}
 
       {s && pick && (
         <section className="hero">
@@ -152,10 +181,20 @@ export default function Tonight(p: Props) {
       </label>
 
       <div className="hair"><span className="eyebrow">Keeping this</span></div>
-      <AccountPanel account={p.account} syncing={p.syncing} nudge={st.stories >= 3}
+      <AccountPanel account={p.account} syncing={p.syncing} nudge={st.stories >= 3} onSignOut={p.onSignOut}
                     onChanged={p.onAccountChanged} />
 
       <p className="foot">{published} of {canon.length} stories written.</p>
     </>
   );
+}
+
+/** "three weeks ago" — vague on purpose; the exact date is not the point. */
+function ago(date: string | undefined): string {
+  if (!date) return 'a while back';
+  const days = Math.round((Date.now() - Date.parse(date)) / 86_400_000);
+  if (days <= 1) return 'last night';
+  if (days < 14) return `${days} nights ago`;
+  if (days < 60) return `${Math.round(days / 7)} weeks ago`;
+  return `${Math.round(days / 30)} months ago`;
 }
