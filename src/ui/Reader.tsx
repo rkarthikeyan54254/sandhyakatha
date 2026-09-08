@@ -1,26 +1,40 @@
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import type { Lexicon, Story, Card } from '../lib/types';
 
 type Said = { term: string; rect: DOMRect } | null;
 
-/** Where the popover goes.
+/**
+ * Where the popover goes.
  *
- *  On a phone it is a sheet at the bottom, because a thumb is already there and
- *  a tooltip beside the word would sit under the hand. On a desktop the word
- *  can be anywhere in a tall window, and a sheet pinned to the bottom of the
- *  viewport is nowhere near what you clicked — so anchor it to the word, above
- *  it where there is room and below it near the top of the page.
+ * On a phone it is a sheet at the bottom, because a thumb is already there and
+ * a tooltip beside the word would sit under the hand. On a desktop the word can
+ * be anywhere in a tall window, so it anchors to the word — above it where
+ * there is room, below it near the top of the page.
+ *
+ * Two things here are deliberate, and both are scars:
+ *
+ * 1. The numbers are published as CSS custom properties rather than as `top`
+ *    and `bottom` directly, so the phone/desktop breakpoint lives in exactly
+ *    one place — the media query in styles.css. It used to live in both, in JS
+ *    and in CSS, which is two things to keep in agreement and one to forget.
+ *
+ * 2. The popover is rendered through a portal into <body>. `position: fixed`
+ *    resolves against the nearest *transformed* ancestor, not the viewport, and
+ *    <main> carries a transform from the page-transition animation — so the
+ *    popover was being positioned from the bottom of the story rather than the
+ *    bottom of the screen, and landed thousands of pixels down the page. The
+ *    portal makes that impossible to reintroduce from anywhere above it.
  */
-function place(rect: DOMRect): React.CSSProperties | undefined {
-  if (window.innerWidth < 900) return undefined;          // the sheet is right here
+function placeVars(rect: DOMRect): React.CSSProperties {
   const W = 320, M = 16;
   const left = Math.min(Math.max(M, rect.left + rect.width / 2 - W / 2), window.innerWidth - W - M);
   const above = rect.top > 190;
   return {
-    left, width: W, transform: 'none',
-    ...(above ? { bottom: window.innerHeight - rect.top + 10, top: 'auto' }
-              : { top: rect.bottom + 10, bottom: 'auto' })
-  };
+    '--pop-left': `${left}px`,
+    '--pop-top': above ? 'auto' : `${rect.bottom + 10}px`,
+    '--pop-bottom': above ? `${window.innerHeight - rect.top + 10}px` : 'auto',
+  } as React.CSSProperties;
 }
 
 export default function Reader({ story, lex, len, next, onBack, onHeard, onRead, backLabel = 'Tonight' }: {
@@ -87,16 +101,14 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead,
         )}
       </article>
 
-      {say && (
-        <button className={'pop' + (window.innerWidth >= 900 ? ' anchored' : '')}
-                style={place(say.rect)} onClick={() => setSay(null)}>
+      {say && createPortal(
+        <button className="pop" style={placeVars(say.rect)} onClick={() => setSay(null)}>
           <b>{lex[say.term]?.say}</b>
           <span>{lex[say.term]?.gloss}</span>
           {lex[say.term]?.native?.taml
             ? <i>{lex[say.term].native.taml}</i>
             : lex[say.term]?.native?.deva && <i>{lex[say.term].native.deva}</i>}
-        </button>
-      )}
+        </button>, document.body)}
     </>
   );
 }
