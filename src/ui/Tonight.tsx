@@ -65,6 +65,7 @@ export default function Tonight({ pick, pan, len, setLen, onRead, heard, canon, 
 
       {pick && pick.alternates.length > 0 && <>
         <div className="hair"><span className="eyebrow">If not that one</span></div>
+        <div className="alts">
         {pick.alternates.map((a: Card, i) => (
           <button key={a.id} className="mini" onClick={() => onRead(a.id)}>
             <span className="num">{String(i + 2).padStart(2, '0')}</span>
@@ -76,6 +77,7 @@ export default function Tonight({ pick, pan, len, setLen, onRead, heard, canon, 
             </span>
           </button>
         ))}
+        </div>
       </>}
 
       <div className="hair"><span className="eyebrow">Settings</span></div>

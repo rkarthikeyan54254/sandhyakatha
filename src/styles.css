@@ -226,3 +226,70 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .onemore p{margin:5px 0 0;font-size:12.5px;color:var(--muted);line-height:1.5}
 .onemore .link{color:var(--lamp-dim);margin-top:8px}
 .pop i{display:block;font-family:var(--display);font-style:normal;font-size:16px;color:var(--lamp-dim);margin-top:6px}
+
+/* ---------- narrow phones: the dial must not shred ---------- */
+.dial{margin-top:18px}
+.dial .lbl{gap:10px;flex-wrap:wrap}
+.dial .lbl .eyebrow{white-space:nowrap}
+.dial .lbl span:last-child{white-space:nowrap;margin-left:auto}
+@media (max-width:380px){
+  .dial .opts button{font-size:11px;padding:8px 2px}
+  .dial .opts button small{font-size:9.5px}
+  .greet{font-size:23px}
+  .hero h2{font-size:24px}
+}
+
+/* ---------- desktop: a reading room, not a stretched phone ---------- */
+@media (min-width:900px){
+  body{background-image:
+    radial-gradient(1200px 620px at 22% -10%,#2a2143 0%,rgba(42,33,67,0) 70%),
+    radial-gradient(900px 520px at 90% 110%,#241a2e 0%,rgba(36,26,46,0) 70%)}
+  .app{
+    max-width:1080px;background:none;
+    display:grid;grid-template-columns:250px minmax(0,1fr);
+    grid-template-rows:auto 1fr;grid-template-areas:"brand main" "nav main";
+    column-gap:44px;padding:0 32px;
+  }
+  .bar{grid-area:brand;position:static;background:none;backdrop-filter:none;
+    padding:44px 0 22px;border-bottom:1px solid var(--line)}
+  .bar .spacer{display:none}
+  .bar .iconbtn{display:none}          /* Why is a nav item on desktop */
+
+  .tabs{grid-area:nav;position:sticky;top:32px;align-self:start;
+    display:flex;flex-direction:column;gap:2px;border-top:0;background:none;backdrop-filter:none;padding:22px 0 0}
+  .tabs button{flex-direction:row;justify-content:flex-start;gap:11px;padding:10px 12px;border-radius:9px;
+    font-size:11px;letter-spacing:.15em;width:100%}
+  .tabs button:hover{background:rgba(240,180,88,.07);color:var(--paper-dim)}
+  .tabs button[aria-current=true]{background:rgba(240,180,88,.12)}
+  .tabs .dot{width:6px;height:6px}
+
+  .app > main{grid-area:main;padding:44px 0 90px;max-width:680px;
+    border-left:1px solid var(--line);padding-left:44px;margin-left:0}
+  .datestrip{padding-top:0}
+  .greet{font-size:32px;max-width:16em}
+  .page{font-size:34px;margin-top:0}
+  .sub,.thesis{font-size:15px}
+  .thesis{font-size:21px}
+
+  /* the hero gets room to be a card rather than a column */
+  .hero{display:grid;grid-template-columns:1fr;max-width:none}
+  .hero .body{padding:24px 26px 24px}
+  .hero h2{font-size:32px}
+  .tease{font-size:17px}
+
+  /* alternates read as a pair, not a stack */
+  .alts{display:grid;grid-template-columns:1fr 1fr;gap:0 26px}
+  .alts .mini{border-bottom:0;border-top:1px solid var(--line)}
+
+  .story h1{font-size:38px}
+  .prose p{font-size:20px}
+  .sky svg{min-width:0}
+  .readout{padding-left:16px}
+  .set{max-width:560px}
+  .pop{left:auto;right:auto;position:fixed;bottom:28px;width:min(420px,90vw);
+    left:50%;transform:translateX(-50%)}
+}
+@media (min-width:1180px){
+  .app{max-width:1200px;grid-template-columns:250px minmax(0,1fr)}
+  .app > main{max-width:760px}
+}

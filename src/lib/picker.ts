@@ -38,8 +38,10 @@ function score(c: Card, ctx: Ctx): Scored | null {
   } else if (!p.approximate && c.calendar.tithi?.includes(p.tithi)) {
     s += 20;  reason = `tonight is ${p.tithi.replace(/-/g, ' ')}`;
   } else if (c.calendar.seasons?.includes(p.season)) {
+    // Season survives the placeholder — a solar month tells you the monsoon is
+    // ending even when it cannot tell you the tithi.
     s += 12;  reason = `of where we are in the year — ${p.season.replace(/-/g, ' ')}`;
-  } else if (c.calendar.months?.includes(p.masa)) {
+  } else if (!p.approximate && c.calendar.months?.includes(p.masa)) {
     s += 6;   reason = `it belongs to ${p.masa[0].toUpperCase() + p.masa.slice(1)}`;
   }
 

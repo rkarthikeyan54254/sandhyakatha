@@ -53,3 +53,27 @@ describe('the night picker', () => {
     expect(p.reason).toContain('nothing on the calendar');
   });
 });
+
+describe('the placeholder calendar', () => {
+  const approx = (o = {}): Panchanga => ({
+    date: '2026-09-08', masa: 'bhadrapada', paksha: 'shukla', tithi: '', nakshatra: '',
+    festivals: [], season: 'monsoon-end', approximate: true, ...o
+  });
+  const c = (o: Partial<Card>): Card => ({
+    id: 'x', title: 'X', tease: '', version: 1, corpus: 'bhagavata', tradition: 'sanskrit',
+    work: '', locus: '', stability: 'stable', minAge: 5, sensitivity: [], gated: false,
+    careNote: null, values: [], calendar: {}, characters: [], minutes: { full: 6 }, linked: null, ...o
+  });
+
+  it('never names a Hindu month it only guessed', () => {
+    const p = pickTonight([c({ calendar: { months: ['bhadrapada'] } })],
+      { panchanga: approx(), childAge: 8, heard: {}, includeGated: false })!;
+    expect(p.reason).not.toMatch(/Bhadrapada/i);
+  });
+
+  it('still uses the season, which a solar month does know', () => {
+    const p = pickTonight([c({ calendar: { seasons: ['monsoon-end'] } })],
+      { panchanga: approx(), childAge: 8, heard: {}, includeGated: false })!;
+    expect(p.reason).toContain('monsoon end');
+  });
+});
