@@ -19,7 +19,8 @@
       "Vibhīṣaṇa",
       "Ayodhyā",
       "Setu",
-      "Jāmbavān"
+      "Jāmbavān",
+      "Daśaratha"
     ],
     "Mahābhārata": [
       "Bhīma",
@@ -74,14 +75,16 @@
       "Kārttikeya",
       "Pārvatī",
       "Nārada",
-      "Palani"
+      "Palani",
+      "Viṣṇu"
     ],
     "The Devī": [
       "Durgā",
       "Mahiṣāsura",
       "Kālī",
       "Annapūrṇā",
-      "Śākambharī"
+      "Śākambharī",
+      "Śatākṣī"
     ]
   },
   "edges": [
@@ -444,6 +447,56 @@
       "Kṛṣṇa",
       "Narakāsura",
       ""
+    ],
+    [
+      "Daśaratha",
+      "Rāma",
+      "father"
+    ],
+    [
+      "Daśaratha",
+      "Bharata",
+      "father"
+    ],
+    [
+      "Daśaratha",
+      "Kaikeyī",
+      "married"
+    ],
+    [
+      "Daśaratha",
+      "Śravaṇa",
+      "killed him by accident, in the dark"
+    ],
+    [
+      "Śravaṇa",
+      "Ayodhyā",
+      ""
+    ],
+    [
+      "Śākambharī",
+      "Śatākṣī",
+      "the same, nine nights earlier"
+    ],
+    [
+      "Viṣṇu",
+      "Kṛṣṇa",
+      "is him"
+    ],
+    [
+      "Viṣṇu",
+      "Rāma",
+      "is him"
+    ],
+    [
+      "Viṣṇu",
+      "Durgā",
+      "gave up a piece of himself to make her"
+    ],
+    [
+      "Śiva",
+      "Durgā",
+      "gave up a piece of himself to make her"
     ]
   ]
 }

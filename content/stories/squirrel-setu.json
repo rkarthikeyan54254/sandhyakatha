@@ -16,7 +16,9 @@
     "checkedAgainst": [
       "Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa — Critical Edition, Baroda",
       "Kamba Rāmāyaṇam, Yuddha Kāṇḍam — Tamil text"
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
   },
   "audience": {
     "minAge": 4,

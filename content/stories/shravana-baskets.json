@@ -1,0 +1,270 @@
+{
+  "id": "shravana-baskets",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "Śravaṇa and the Two Baskets",
+  "tease": "A boy carries both his parents across the country on a pole. Then, at the river, an arrow finds him in the dark.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Rāmāyaṇa",
+    "locus": "Ayodhyā Kāṇḍa, sargas 63–64 — Daśaratha's confession",
+    "stability": "stable",
+    "traditionNote": "Told by Daśaratha himself, near the end, as an explanation of why he is dying. That framing is in Vālmīki and we have kept it: the story is a confession, not an anecdote.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa — Critical Edition, Baroda",
+      "Goldman trans., Princeton"
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "death",
+      "loss"
+    ],
+    "careNote": "A boy of about ten is killed by accident, and his blind parents are told. Nothing is dwelt on — the arrow is one sentence — but it is the saddest thing in the collection and children ask about it afterwards. Read it yourself first. It ends by connecting forward to Rāma's exile rather than closing, which helps."
+  },
+  "values": [
+    "carrying the people who carried you",
+    "owning what you did"
+  ],
+  "themes": [
+    "parents",
+    "accident",
+    "grief",
+    "ayodhya"
+  ],
+  "calendar": {
+    "festivals": [
+      "pitru-paksha"
+    ],
+    "months": [
+      "bhadrapada"
+    ],
+    "weight": 8
+  },
+  "characters": [
+    {
+      "ref": "Śravaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Daśaratha",
+      "role": "foil"
+    },
+    {
+      "ref": "kāvaḍi",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Ayodhyā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 2,
+      "words": 255,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "When «Daśaratha» was young he could shoot by sound alone — go down to the river in the dark, wait, and put an arrow into whatever he heard drinking. He was very proud of it."
+        },
+        {
+          "t": "p",
+          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket hanging at each end — and he carried them in it, across most of the country, because they had wanted to see the holy places."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That night they were thirsty, and he went down with a pot."
+        },
+        {
+          "t": "p",
+          "text": "Daśaratha heard water going into a hollow thing. _Elephant,_ he thought — and he was so pleased with being quick that he let go of the string before he had finished the thought."
+        },
+        {
+          "t": "p",
+          "text": "The cry was not an elephant's."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He ran towards it. That matters. He did not hide and he did not wait for morning."
+        },
+        {
+          "t": "p",
+          "text": "The boy could still speak. He said: _I am not angry with you. But my mother and father have had no water since this morning and they cannot come and find me. Fill the pot. Take it up. Tell them yourself._"
+        },
+        {
+          "t": "p",
+          "text": "So he did. And the old man, who had nothing left to give anyone, said: _you will die the way I am dying. Grieving for a son. I am not inventing that to punish you._"
+        },
+        {
+          "t": "slow",
+          "text": "Years later Daśaratha sent his eldest son into the forest for fourteen years, and did not last a fortnight. He knew exactly why, and he said so."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 616,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Long before any of the rest of it, when «Daśaratha» was young and rather pleased with himself, he could shoot by sound alone."
+        },
+        {
+          "t": "p",
+          "text": "It is a real skill and very few people had it. He would go down to the river at night, in the dark, and wait, and when he heard an animal drinking he could put an arrow into the sound."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There was a family living near that river."
+        },
+        {
+          "t": "p",
+          "text": "An old man and an old woman, both blind, and their son. He was young — old enough to carry things, not old enough to have a beard."
+        },
+        {
+          "t": "p",
+          "text": "His name was «Śravaṇa», and he had made his parents a «kāvaḍi»: a pole, with a basket hanging from each end. His mother sat in one. His father sat in the other. He put the pole across his shoulders and he carried them."
+        },
+        {
+          "t": "p",
+          "text": "He had carried them across most of the country that way. They had wanted to see the holy places — which is a strange thing to want when you cannot see — and he had not argued about it. He had picked up the pole."
+        },
+        {
+          "t": "p",
+          "text": "He had worked out how to do it without jolting them. He knew which shoulder to change to, and when."
+        },
+        {
+          "t": "p",
+          "text": "And he had learned to describe things as he walked — _there is a tank on the left, there are women at it_ — because they could not see, and he had decided, without anyone asking him to, that they should still know."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That night they were thirsty, and he went down to the river with a pot."
+        },
+        {
+          "t": "p",
+          "text": "Daśaratha, some way off in the dark, heard water going into a hollow thing. Glug. Glug."
+        },
+        {
+          "t": "p",
+          "text": "_Elephant,_ he thought."
+        },
+        {
+          "t": "p",
+          "text": "And he was so quick, and so pleased with being quick, that he had let go of the string before he had finished having the thought."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He heard a cry that was not an elephant."
+        },
+        {
+          "t": "p",
+          "text": "He ran. This is the part I want you to keep — he did not hide, and he did not wait for morning. He ran towards it, in the dark, as fast as he could go."
+        },
+        {
+          "t": "p",
+          "text": "The boy was at the water's edge with the arrow in him and the pot spilled beside him. He could still speak."
+        },
+        {
+          "t": "p",
+          "text": "He said: _I am not angry with you._"
+        },
+        {
+          "t": "p",
+          "text": "He said: _but my mother and father are sitting up there and they have had no water since this morning, and they are blind, and they cannot come and find me. Fill the pot. Take it up to them._"
+        },
+        {
+          "t": "p",
+          "text": "And then: _tell them yourself._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Daśaratha filled the pot. He carried it up the bank to two old people sitting in the dark, who heard footsteps and said — oh, you have been a long time —"
+        },
+        {
+          "t": "p",
+          "text": "and then heard that the footsteps were wrong."
+        },
+        {
+          "t": "p",
+          "text": "He told them. He did not make it smaller than it was."
+        },
+        {
+          "t": "p",
+          "text": "The mother asked him to say it again. He said it again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They asked to be taken down to their son, and he took them, and they held him for a while."
+        },
+        {
+          "t": "p",
+          "text": "And then the father, who had nothing left to give anybody, said the only thing he could think of."
+        },
+        {
+          "t": "p",
+          "text": "He said: _you will die the way I am dying. Grieving for a son. I am not inventing that to punish you. It is simply what is going to happen to you._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "slow",
+          "text": "Many years later Daśaratha had four sons, and he loved the eldest one best, and one morning he had to send him away into the forest for fourteen years. He did not last a fortnight. He knew exactly why, and he said so out loud, to anyone who would sit with him."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "bharata-sandals",
+    "reason": "the other Ayodhyā story about a son doing the hard thing without being asked twice"
+  },
+  "close": {
+    "question": "Śravaṇa's parents wanted to see the holy places, and he picked up the pole without arguing. What is something someone has carried for you?",
+    "seed": "Everyone was carried before they could walk.",
+    "ifTheyAsk": [
+      {
+        "q": "Was Daśaratha a bad man?",
+        "a": "No, and the story works hard to make sure you know that. He was young and quick and proud of being quick, and he did something in one second that he could not undo in a lifetime. Notice that he runs towards the sound instead of away from it, and that he tells the parents himself rather than leaving them to find out. That is the difference between a bad man and a man who has done a terrible thing."
+      },
+      {
+        "q": "Why didn't they forgive him?",
+        "a": "In a way they did. Listen again to what the father actually says — _I am not inventing that to punish you._ He is describing what grief does, not casting a spell. Some retellings make him much angrier. Vālmīki's version reads more like a man too tired to be cruel."
+      },
+      {
+        "q": "Is this why Rāma had to go to the forest?",
+        "a": "No — and it is worth keeping those two things apart. Rāma leaves because of a promise Daśaratha made to Kaikeyī long before. This is the reason the leaving *killed* him. One is why it happened; the other is why he could not survive it."
+      }
+    ]
+  }
+}

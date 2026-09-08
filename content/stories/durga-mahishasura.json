@@ -1,0 +1,270 @@
+{
+  "id": "durga-mahishasura",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "The Buffalo Nobody Could Fight",
+  "tease": "No god can beat him alone. So they each give up a piece of what they have, and something walks out of the pile that none of them expected.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Devī Māhātmya (Mārkaṇḍeya Purāṇa)",
+    "locus": "Chapters 2–3",
+    "stability": "stable",
+    "traditionNote": "The Devī Māhātmya is recited whole during Navarātri and is unusually stable — the assembling, the arming and the laugh are in every recension, in that order.",
+    "checkedAgainst": [
+      "Devī Māhātmya — Coburn, 'Encountering the Goddess', SUNY",
+      "Mārkaṇḍeya Purāṇa — Pargiter trans."
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "violence"
+    ],
+    "careNote": "A battle over nine nights, ending in a death. Told the way the Devī Māhātmya tells it — grand rather than gory. Nobody is tortured and nothing lingers. The nine nights of Navarātri are these nine nights, which is usually the thing children most want explained."
+  },
+  "values": [
+    "made out of what everyone had left",
+    "nobody wins that alone"
+  ],
+  "themes": [
+    "devi",
+    "navaratri",
+    "boons",
+    "loopholes"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 9
+  },
+  "characters": [
+    {
+      "ref": "Durgā",
+      "role": "lead"
+    },
+    {
+      "ref": "Mahiṣāsura",
+      "role": "foil"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "present"
+    },
+    {
+      "ref": "Yama",
+      "role": "present"
+    },
+    {
+      "ref": "Vāyu",
+      "role": "present"
+    },
+    {
+      "ref": "Agni",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 2,
+      "words": 236,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Mahiṣāsura» asked cleverly. Not to live forever — he knew that never works — but that no man and no god should be able to kill him. It was granted, because nobody in the room thought about it for quite long enough."
+        },
+        {
+          "t": "p",
+          "text": "So he took heaven, the way you take a house. The gods went and stood outside."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They ended up in front of «Viṣṇu» and «Śiva», telling the story and getting angrier as they told it. And the anger came out of them as light."
+        },
+        {
+          "t": "p",
+          "text": "Not a metaphor. Light came out of every god standing there, and it did not disperse — it gathered, and went on gathering, until there was a mountain of it burning in the middle of the floor."
+        },
+        {
+          "t": "p",
+          "text": "And a woman walked out of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then they armed her, and each of them gave up something they had been keeping. Śiva his trident. Viṣṇu his discus. «Indra» the thunderbolt he was so proud of. The mountain gave her a lion to ride."
+        },
+        {
+          "t": "p",
+          "text": "She stood there holding all of it, looked at them, and laughed. The text says the world shook."
+        },
+        {
+          "t": "p",
+          "text": "It took nine nights. On the tenth morning heaven was empty again, and the gods went back up and found their things where they had left them."
+        },
+        {
+          "t": "slow",
+          "text": "He had asked that no man and no god could kill him. He had been so careful. He had simply never thought of her."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 616,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Nobody could fight the buffalo."
+        },
+        {
+          "t": "p",
+          "text": "Not because he was the strongest, although he was very strong. Because of the way he had asked."
+        },
+        {
+          "t": "p",
+          "text": "When «Mahiṣāsura» was granted his wish he thought about it properly first. He did not ask to live forever — he knew that never works. He asked that no man and no god should be able to kill him."
+        },
+        {
+          "t": "p",
+          "text": "And it was granted, because it was cleverly asked, and because nobody in the room thought about it for quite long enough."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he took heaven."
+        },
+        {
+          "t": "p",
+          "text": "He took it the way you take a house — he moved in, and the people who had been living there went and stood outside. «Indra» had nowhere to send rain from. «Agni» had no fire to keep. They went down and knocked on doors and were told, politely, that nothing could be done."
+        },
+        {
+          "t": "p",
+          "text": "It went on for a long time. Long enough that people stopped expecting it to end. The seasons came round wrong, and the offerings went up and landed on nobody, and after a while there were children who had never known it any other way."
+        },
+        {
+          "t": "p",
+          "text": "They ended up in front of «Viṣṇu» and «Śiva», telling the whole story, and getting angrier as they told it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And the anger came out of them as light."
+        },
+        {
+          "t": "p",
+          "text": "Not a metaphor — the text is quite literal about it. Light came out of Śiva's face, and out of Viṣṇu's, and then out of every god standing there, and it did not disperse. It gathered. It pooled and went on pooling until there was a mountain of it burning in the middle of the floor."
+        },
+        {
+          "t": "p",
+          "text": "And a woman walked out of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then they armed her, and this is the part to slow down for, because each of them gave up something they had been keeping."
+        },
+        {
+          "t": "p",
+          "text": "Śiva gave her his trident — pulled out of his own. Viṣṇu his discus. Indra the thunderbolt he had been so proud of. «Yama» his staff. «Vāyu» a bow and a quiver that did not empty. The mountain gave her a lion to ride."
+        },
+        {
+          "t": "p",
+          "text": "She stood there with all of it, and she looked at them, and she laughed."
+        },
+        {
+          "t": "p",
+          "text": "Nobody had told her anything. She had not been briefed. She looked at the weapons in her hands and at the gods who had handed them over, and she seemed to understand the whole situation immediately, which is possibly what they found so unnerving."
+        },
+        {
+          "t": "p",
+          "text": "The laugh is in the text. It says the world shook, and the sea moved, and every mountain leaned."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It took nine nights."
+        },
+        {
+          "t": "p",
+          "text": "He came at her as a buffalo, and then as a lion, and then as a man with a sword, and then as an elephant, and then as a buffalo again, which was a mistake."
+        },
+        {
+          "t": "p",
+          "text": "She was not in a hurry about any of it. That is the thing the paintings never manage to show — every image has her mid-strike, and the text has her mostly waiting, watching him become the next thing, and dealing with that."
+        },
+        {
+          "t": "p",
+          "text": "The lion was not decorative either. It fought."
+        },
+        {
+          "t": "p",
+          "text": "On the tenth morning it was finished, and heaven was empty again, and the gods went back up and found their things where they had left them."
+        },
+        {
+          "t": "p",
+          "text": "They were shy about asking for their weapons back. She gave them back anyway, one at a time, and said nothing about it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Durgā» had not been made out of nothing. She had been made out of what each of them had left when none of them could win alone."
+        },
+        {
+          "t": "slow",
+          "text": "He had asked that no man and no god could kill him. He had been so careful. He had simply never thought of her."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "shakambhari",
+    "reason": "the same Devī, a hundred years later, arriving with vegetables instead of a trident"
+  },
+  "close": {
+    "question": "Every one of them gave up something they had been keeping. What would you have handed over?",
+    "seed": "Some things can only be done by everyone at once.",
+    "ifTheyAsk": [
+      {
+        "q": "Isn't that just a loophole?",
+        "a": "It is, and the story rather enjoys being one. But look at what the loophole is made of: they could not beat him separately and could beat him together, and she is what together looked like when it stood up. The trick and the point are the same shape."
+      },
+      {
+        "q": "Why nine nights?",
+        "a": "That is exactly why Navarātri is nine nights, and why the tenth day has its own name. If your family keeps a golu or a pūjā, this is the thing being counted."
+      },
+      {
+        "q": "Did she enjoy the fighting?",
+        "a": "She laughed, and the text does not apologise for it. Worth being honest that this is a story that enjoys its battle. It is also careful about two things: she does not start it, and she stops the moment it is done."
+      }
+    ]
+  }
+}

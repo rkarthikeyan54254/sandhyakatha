@@ -1,9 +1,14 @@
 {
   "generated": "2026-09-08",
   "stories": {
-    "ganesha-circles": {
+    "durga-mahishasura": {
       "version": 1,
       "status": "in-review",
+      "hash": "93daca615a959d1f"
+    },
+    "ganesha-circles": {
+      "version": 1,
+      "status": "published",
       "hash": "36ccbde838e36f95"
     },
     "govardhana": {
@@ -16,9 +21,14 @@
       "status": "published",
       "hash": "5eddd52967c917b8"
     },
-    "squirrel-setu": {
+    "shravana-baskets": {
       "version": 1,
       "status": "in-review",
+      "hash": "867d0086be89788e"
+    },
+    "squirrel-setu": {
+      "version": 1,
+      "status": "published",
       "hash": "ed837cd445d6b263"
     }
   }

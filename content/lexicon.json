@@ -973,5 +973,63 @@
     "aliases": [
       "Ayodhya"
     ]
+  },
+  "Daśaratha": {
+    "id": "dasharatha",
+    "native": {
+      "deva": "दशरथ",
+      "taml": "தசரதன்"
+    },
+    "say": "duh-SHUH-ruh-thuh",
+    "ipa": "dɐˈʃɐ.rɐ.tʰɐ",
+    "kind": "person",
+    "gloss": "Rāma's father, king of Ayodhyā. As a young man he could shoot by sound alone, and was very proud of it.",
+    "aliases": [
+      "Dasharatha",
+      "Dasaratha"
+    ]
+  },
+  "kāvaḍi": {
+    "id": "kavadi",
+    "native": {
+      "taml": "காவடி",
+      "deva": "कावडि"
+    },
+    "say": "KAA-vuh-dee",
+    "ipa": "ˈkaː.ʋɐ.ɖi",
+    "kind": "word",
+    "gloss": "A pole carried across the shoulders with a basket hanging from each end. Pilgrims still carry them; Śravaṇa carried his parents in his.",
+    "aliases": [
+      "kavadi",
+      "kaavadi"
+    ]
+  },
+  "Viṣṇu": {
+    "id": "vishnu",
+    "native": {
+      "deva": "विष्णु",
+      "taml": "விஷ்ணு"
+    },
+    "say": "VISH-noo",
+    "ipa": "ˈʋɪʂ.ɳʊ",
+    "kind": "being",
+    "gloss": "The one who keeps things going. Kṛṣṇa and Rāma are both him, walking about in a body.",
+    "aliases": [
+      "Vishnu",
+      "Narayana"
+    ]
+  },
+  "Śatākṣī": {
+    "id": "shatakshi",
+    "native": {
+      "deva": "शताक्षी"
+    },
+    "say": "shuh-TAAK-shee",
+    "ipa": "ʃɐˈtaːk.ʂiː",
+    "kind": "being",
+    "gloss": "The hundred-eyed. The Devī's name for the nine nights she spent looking at a starving world before she did anything about it.",
+    "aliases": [
+      "Shatakshi"
+    ]
   }
 }
