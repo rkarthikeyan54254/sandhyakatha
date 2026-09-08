@@ -12,7 +12,7 @@ interface Props {
   pick: Pick | null; pan: Panchanga; len: Len; setLen: (l: Len) => void; onRead: (id: string) => void;
   profile: P.Profile; child: P.Child | null; heard: Record<string, string>;
   cards: Card[]; canon: CanonRow[]; published: number;
-  account: Acct | null; syncing: boolean;
+  account: Acct | null; syncing: boolean; onAccountChanged: () => void;
   setActive: (id: string) => void;
   addChild: (name: string, age: number) => void;
   patchChild: (id: string, patch: Partial<P.Child>) => void;
@@ -146,7 +146,8 @@ export default function Tonight(p: Props) {
       </label>
 
       <div className="hair"><span className="eyebrow">Keeping this</span></div>
-      <AccountPanel account={p.account} syncing={p.syncing} nudge={st.stories >= 3} />
+      <AccountPanel account={p.account} syncing={p.syncing} nudge={st.stories >= 3}
+                    onChanged={p.onAccountChanged} />
 
       <p className="foot">{published} of {canon.length} stories written.</p>
     </>

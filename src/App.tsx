@@ -3,7 +3,7 @@ import type { Card, CanonRow, Lexicon, Relations, Story } from './lib/types';
 import { panchanga } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
 import * as P from './lib/profile';
-import { currentAccount, onAuthChange, syncConfigured, syncProfile, type Account as Acct } from './lib/sync';
+import { currentAccount, syncProfile, type Account as Acct } from './lib/sync';
 import { Header, Tabs, type Tab } from './ui/Chrome';
 import Tonight, { type Len } from './ui/Tonight';
 import Reader from './ui/Reader';
@@ -37,20 +37,25 @@ export default function App() {
     j('/data/relations.json').then(setRel).catch(() => {});
   }, []);
 
-  /* account → merge this device with the account copy, both directions */
-  const pull = useCallback(async () => {
-    if (!syncConfigured) return;
+  /* Signed in? Then merge this device with the account copy, both directions. */
+  const refresh = useCallback(async () => {
+    const found = await currentAccount();
+    setAccount(found?.account ?? null);
+    if (!found) return;
     setSyncing(true);
-    try { setProfile(p => { syncProfile(p).then(setProfile).catch(() => {}); return p; }); }
-    finally { setTimeout(() => setSyncing(false), 600); }
+    try { setProfile(p => { void syncProfile(p).then(setProfile).catch(() => {}); return p; }); }
+    finally { setTimeout(() => setSyncing(false), 700); }
   }, []);
 
   useEffect(() => {
-    if (!syncConfigured) return;
-    currentAccount().then(a => { setAccount(a); if (a) pull(); });
-    const off = onAuthChange(a => { setAccount(a); if (a) pull(); });
-    return () => { off.then(f => f()); };
-  }, [pull]);
+    void refresh();
+    // Coming back from Google leaves ?signin= on the URL; clean it up.
+    const u = new URL(window.location.href);
+    if (u.searchParams.has('signin')) {
+      u.searchParams.delete('signin');
+      window.history.replaceState({}, '', u.pathname + u.search + u.hash);
+    }
+  }, [refresh]);
 
   const child = P.activeChild(profile);
   const heard = P.heardOf(profile, child?.id ?? null);
@@ -104,7 +109,7 @@ export default function App() {
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
                    profile={profile} child={child} heard={heard} cards={cards}
                    canon={canon} published={cards.length}
-                   account={account} syncing={syncing}
+                   account={account} syncing={syncing} onAccountChanged={refresh}
                    setActive={id => setProfile(p => ({ ...p, activeId: id }))}
                    addChild={addChild} patchChild={patchChild}
                    setGate={g => setProfile(p => ({ ...p, gate: g, updatedAt: new Date().toISOString() }))}

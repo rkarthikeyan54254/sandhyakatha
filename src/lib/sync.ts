@@ -1,85 +1,66 @@
 /**
- * Optional account sync.
+ * Optional account sync — served by this site's own functions.
  *
- * The app is fully usable signed out — that is the point, and a sign-in wall in
- * front of a bedtime story is how you lose the parent who came to try one. What
- * an account buys is that the constellation survives a cleared cache and shows
- * up on the second device.
+ * No third-party SDK in the page and no vendor dashboard: sessions are an
+ * HttpOnly cookie this site issues, and the family's row lives in Netlify's
+ * key-value store. The browser never holds a token, so nothing to leak from
+ * localStorage and nothing to refresh.
  *
- * Google first, because in India and among the diaspora almost everyone has a
- * Gmail account and a magic-link round trip at 8:40pm is friction a tired
- * parent will not push through. Email link stays as the quiet second option.
- * No passwords anywhere.
- *
- * Unconfigured (no env vars) every call is a no-op and the UI hides itself, so
- * the app ships and works before the backend exists.
+ * The app is fully usable signed out — that is the point. A sign-in wall in
+ * front of a bedtime story is how you lose the parent who came to try one.
  */
 import type { Profile } from './profile';
 import { merge } from './profile';
 
-const URL_ = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-const KEY_ = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+export interface Account { email: string | null; kind: 'google' | 'code' }
 
-export const syncConfigured = Boolean(URL_ && KEY_);
+/** The functions are always deployed; a 401 simply means "not signed in". */
+export const syncConfigured = true;
 
-export interface Account { email: string | null; id: string }
-
-type Client = Awaited<ReturnType<typeof make>>;
-let client: Promise<Client> | null = null;
-
-async function make() {
-  const { createClient } = await import('@supabase/supabase-js');
-  return createClient(URL_!, KEY_!, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true } });
-}
-const sb = () => (client ??= make());
-
-export async function currentAccount(): Promise<Account | null> {
-  if (!syncConfigured) return null;
-  const { data } = await (await sb()).auth.getUser();
-  return data.user ? { id: data.user.id, email: data.user.email ?? null } : null;
+async function api(path: string, init?: RequestInit) {
+  const r = await fetch(path, { credentials: 'same-origin', ...init });
+  if (r.status === 401) return null;
+  if (!r.ok) throw new Error(`${path} ${r.status}`);
+  return r.status === 204 ? {} : await r.json();
 }
 
-export async function onAuthChange(cb: (a: Account | null) => void) {
-  if (!syncConfigured) return () => {};
-  const { data } = (await sb()).auth.onAuthStateChange((_e, s) =>
-    cb(s?.user ? { id: s.user.id, email: s.user.email ?? null } : null));
-  return () => data.subscription.unsubscribe();
+/** Signed in? Returns the account and whatever the server holds. */
+export async function currentAccount(): Promise<{ account: Account; profile: Profile | null } | null> {
+  try {
+    const d = await api('/api/profile');
+    return d ? { account: d.account as Account, profile: (d.profile as Profile | null) ?? null } : null;
+  } catch { return null; }
 }
 
-export async function signInWithGoogle() {
-  if (!syncConfigured) return;
-  await (await sb()).auth.signInWithOAuth({
-    provider: 'google',
-    options: { redirectTo: window.location.origin, queryParams: { prompt: 'select_account' } }
+export function signInWithGoogle() { window.location.href = '/api/auth/start'; }
+
+/** Creates an account with no identity attached. Returns the code to keep. */
+export async function createRecoveryCode(): Promise<string> {
+  const r = await fetch('/api/code', { method: 'POST', credentials: 'same-origin' });
+  if (!r.ok) throw new Error('could not create a code');
+  return (await r.json()).code as string;
+}
+
+export async function useRecoveryCode(code: string): Promise<void> {
+  const r = await fetch('/api/code', {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'content-type': 'application/json' }, body: JSON.stringify({ code })
   });
-}
-
-export async function signInWithEmail(email: string) {
-  if (!syncConfigured) throw new Error('sync not configured');
-  const { error } = await (await sb()).auth.signInWithOtp({
-    email, options: { emailRedirectTo: window.location.origin }
-  });
-  if (error) throw error;
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error ?? 'that code did not work');
 }
 
 export async function signOut() {
-  if (!syncConfigured) return;
-  await (await sb()).auth.signOut();
+  await fetch('/api/signout', { method: 'POST', credentials: 'same-origin' }).catch(() => {});
 }
 
-/** Pull the account copy, merge it with this device's, write the result back. */
+/** Merge this device with the account copy, then write the result back. */
 export async function syncProfile(local: Profile): Promise<Profile> {
-  if (!syncConfigured) return local;
-  const c = await sb();
-  const { data: u } = await c.auth.getUser();
-  if (!u.user) return local;
-
-  const { data, error } = await c.from('profiles').select('data').eq('user_id', u.user.id).maybeSingle();
-  if (error) throw error;
-
-  const merged = data?.data ? merge(local, data.data as Profile) : local;
-  const { error: upErr } = await c.from('profiles')
-    .upsert({ user_id: u.user.id, data: merged, updated_at: new Date().toISOString() }, { onConflict: 'user_id' });
-  if (upErr) throw upErr;
-  return merged;
+  const d = await api('/api/profile');
+  if (!d) return local;                       // signed out — nothing to do
+  const merged = d.profile ? merge(local, d.profile as Profile) : local;
+  const put = await api('/api/profile', {
+    method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(merged)
+  });
+  // A stale write is answered with the server's copy; take it rather than argue.
+  return (put?.stale ? merge(merged, put.profile as Profile) : merged);
 }

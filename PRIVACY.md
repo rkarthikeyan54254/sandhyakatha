@@ -24,10 +24,16 @@ the child.**
   cache, reaches the second device, and later carries a subscription.
 - Google is the primary sign-in and an email magic link the alternative.
   **No passwords, ever.**
-- What an account stores, in one row the parent owns: a first name they typed,
+- What an account stores, in one blob the parent owns: a first name they typed,
   an age, which stories were read and on what night, and the difficult-stories
-  setting. Row-level security means no other account can read it. Deleting the
-  account cascades the row away.
+  setting. It lives in Netlify's key-value store beside the site, keyed by the
+  session's subject; a function refuses every request without that session.
+- **Google is an identity provider, not an embedded one.** The OAuth exchange
+  happens server-side and no Google script is ever loaded in the page, so
+  Google never sees a visitor who does not sign in. Only `openid` and `email`
+  are requested.
+- A parent who would rather not use Google can take a recovery code instead: an
+  account with no identity attached, where we never learn who they are.
 - What it does **not** store: behavioural events, per-child analytics, anything
   inferred, anything shared onward.
 - No third-party analytics, no ad SDK, no social embeds, no fonts or scripts

@@ -15,8 +15,10 @@ A chat window is a generator. At 8:40pm a parent does not want a generator — t
 
 ## Getting started
 
-Copy `.env.example` to `.env` if you want account sync locally; without it the
-app runs local-first and the account panel hides itself.
+Copy `.env.example` to `.env` if you want account sync locally, and see
+**docs/SETUP-ACCOUNTS.md** — it is free, and needs no service beyond Netlify
+and a Google OAuth client. Without it the app runs local-first and the account
+panel simply says "not signed in".
 
 ```bash
 npm install
@@ -46,8 +48,8 @@ studio/PIPELINE.md    the nine stages that produce one story
 src/lib/picker.ts     the "why tonight" engine — pure, deterministic, tested
 src/lib/panchanga.ts  interface only; wire to NalNaal's ephemeris
 src/lib/profile.ts    the family's state — children, nights heard, merge, stats
-src/lib/sync.ts       optional account sync; a no-op until the env vars exist
-supabase/migrations/  the one table an account needs
+src/lib/sync.ts       optional account sync, against this site's own /api
+netlify/functions/    Google OAuth, sessions, and the family's row in Netlify Blobs
 ```
 
 ## Content workflow
