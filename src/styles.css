@@ -293,3 +293,65 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   .app{max-width:1200px;grid-template-columns:250px minmax(0,1fr)}
   .app > main{max-width:760px}
 }
+
+/* ---------- first run ---------- */
+.app.plain{display:block;padding:0 20px 60px}
+.setup{max-width:420px;margin:0 auto;padding-top:14vh}
+.setup .greet{margin-top:10px}
+.setup .sub{margin-bottom:26px}
+.field{display:block;margin-bottom:14px}
+.field span{display:block;font-size:10.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:7px}
+.field input{width:100%;background:var(--night-3);border:1px solid var(--line);color:var(--paper);
+  border-radius:10px;padding:13px 14px;font:inherit;font-size:16px}
+.field input:focus{border-color:var(--lamp-dim);outline:none}
+.begin[disabled]{opacity:.4;cursor:not-allowed}
+.skiplink{display:block;width:100%;text-align:center;margin-top:14px;font-size:12.5px;color:var(--muted);padding:8px}
+.skiplink:hover{color:var(--lamp)}
+
+/* ---------- personalisation ---------- */
+.sofar{font-size:13px;color:var(--paper-dim);margin:12px 0 0;line-height:1.6}
+.sofar b{color:var(--lamp);font-weight:600}
+.anniv{display:block;width:100%;text-align:left;margin-top:16px;padding:14px 16px;border-radius:12px;
+  border:1px solid rgba(240,180,88,.35);background:rgba(240,180,88,.08)}
+.anniv .eyebrow{color:var(--lamp)}
+.anniv p{margin:6px 0 0;font-family:var(--read);font-size:16px;line-height:1.5;color:var(--paper-dim)}
+.anniv b{color:var(--paper);font-weight:400}
+.anniv:hover{border-color:var(--lamp)}
+.chip.lit{border-color:rgba(240,180,88,.45);color:var(--lamp)}
+.gap{display:block;width:100%;text-align:left;margin-top:18px;padding:13px 15px;border-radius:11px;
+  border:1px dashed var(--line);font-size:13px;color:var(--paper-dim);line-height:1.5}
+.gap b{color:var(--lamp);font-weight:600}
+.gap:hover{border-color:var(--lamp-dim)}
+
+/* ---------- children ---------- */
+.kid{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}
+.pickkid{width:22px;height:22px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;flex:none}
+.pickkid .dot{width:8px;height:8px;border-radius:50%;background:transparent}
+.kid.on .pickkid{border-color:var(--lamp)}
+.kid.on .pickkid .dot{background:var(--lamp);box-shadow:0 0 8px var(--lamp)}
+.kidname{flex:1;min-width:0;background:none;border:0;color:var(--paper);font:inherit;font-size:15px;padding:6px 0}
+.kidname::placeholder{color:var(--muted)}
+.kidname:focus{outline:none;border-bottom:1px solid var(--lamp-dim)}
+.kidage{width:56px;background:var(--night-3);border:1px solid var(--line);color:var(--paper-dim);
+  border-radius:8px;padding:6px 8px;font:inherit;font-size:13px;text-align:center}
+.linkbtn{font-size:12.5px;color:var(--muted);padding:8px 0}
+.linkbtn:hover{color:var(--lamp)}
+.linkbtn.add{display:block;margin-top:4px}
+
+/* ---------- account ---------- */
+.account{margin-top:6px;padding:16px;border:1px solid var(--line);border-radius:13px;background:#1b1526}
+.account.nudge{border-color:rgba(240,180,88,.4);background:rgba(240,180,88,.06)}
+.account .lede{margin:0 0 6px;font-size:13.5px;font-weight:700;color:var(--paper)}
+.account p{margin:0;font-size:12.5px;line-height:1.6;color:var(--muted)}
+.account.in p{color:var(--paper-dim)}
+.account.in b{color:var(--lamp);font-weight:600}
+.google{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:14px;
+  padding:13px;border-radius:11px;background:#fff;color:#1f1f1f;font-weight:700;font-size:14px}
+.google:hover{filter:brightness(.96)}
+.emailrow{display:flex;gap:7px;margin-top:10px}
+.emailrow input{flex:1;min-width:0;background:var(--night-3);border:1px solid var(--line);color:var(--paper);
+  border-radius:9px;padding:10px 12px;font:inherit;font-size:15px}
+.emailrow button{padding:0 16px;border-radius:9px;background:var(--lamp);color:#2a1c08;font-weight:700;font-size:13px}
+.account .ok{color:var(--lamp);margin-top:10px}
+.account .err{color:var(--ember-lit);margin-top:8px}
+.account .fine{margin-top:12px;font-size:11.5px;color:var(--muted);line-height:1.55}

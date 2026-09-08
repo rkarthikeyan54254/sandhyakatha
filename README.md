@@ -10,10 +10,13 @@ A chat window is a generator. At 8:40pm a parent does not want a generator — t
 2. **Written for a voice, not an eye.** Breath lines, printed pause beats, a final line flagged *slow down here*, tap-a-name pronunciation.
 3. **It ends with a question, not a moral.** Plus a fallback line, and honest pre-written answers to the follow-ups children actually ask.
 4. **It knows what day it is.** Tonight's pick runs against the pañcāṅga and the season.
-5. **It remembers the child, not the account.** Characters accumulate into a map the child builds by listening. Everything stays on the device.
+5. **It remembers the child.** Characters accumulate into a map the child builds by listening, and the app can tell you a year later what you read on this night. Local-first; an optional Google or email-link sign-in keeps it when the browser clears its storage or you pick up another phone. Read PRIVACY.md for exactly what that stores — it is a first name, an age and a list of nights.
 6. **Nothing is generated while you wait.** The corpus is drafted, source-checked, reviewed and versioned before it ships — which is why it is instant, works offline, gives the same story twice, and cannot invent a Purāṇa at bedtime.
 
 ## Getting started
+
+Copy `.env.example` to `.env` if you want account sync locally; without it the
+app runs local-first and the account panel hides itself.
 
 ```bash
 npm install
@@ -42,6 +45,9 @@ scripts/
 studio/PIPELINE.md    the nine stages that produce one story
 src/lib/picker.ts     the "why tonight" engine — pure, deterministic, tested
 src/lib/panchanga.ts  interface only; wire to NalNaal's ephemeris
+src/lib/profile.ts    the family's state — children, nights heard, merge, stats
+src/lib/sync.ts       optional account sync; a no-op until the env vars exist
+supabase/migrations/  the one table an account needs
 ```
 
 ## Content workflow

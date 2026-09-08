@@ -20,8 +20,8 @@ function layout(rel: Relations) {
   return pos;
 }
 
-export default function Constellation({ lex, rel, heard, cards }: {
-  lex: Lexicon; rel: Relations | null; heard: Record<string, string>; cards: Card[];
+export default function Constellation({ lex, rel, heard, cards, childName }: {
+  lex: Lexicon; rel: Relations | null; heard: Record<string, string>; cards: Card[]; childName?: string;
 }) {
   const [sel, setSel] = useState<string | null>(null);
   const pos = useMemo(() => rel ? layout(rel) : new Map(), [rel]);
@@ -39,9 +39,9 @@ export default function Constellation({ lex, rel, heard, cards }: {
 
   return (
     <>
-      <h1 className="page">The constellation</h1>
+      <h1 className="page">{childName?.trim() ? `${childName.trim()}'s constellation` : 'The constellation'}</h1>
       <p className="sub">Everyone in the collection, and how they connect. They light up as you read —
-        your child is building a map of the epics without being taught one.</p>
+        {childName?.trim() ? ` ${childName.trim()} is` : ' your child is'} building a map of the epics without being taught one.</p>
 
       <div className="sky">
         <svg viewBox="0 0 700 530" role="img" aria-label="Map of the people in the collection">
@@ -78,7 +78,9 @@ export default function Constellation({ lex, rel, heard, cards }: {
         {sel ? <>
           <h3>{sel} <em>{lex[sel]?.say}</em></h3>
           <p>{lex[sel]?.gloss}</p>
-          {!met.has(sel) && <p className="dim">Not met yet.</p>}
+          {met.has(sel)
+            ? <p className="dim">Met in {cards.filter(c => heard[c.id] && c.characters.includes(sel)).map(c => c.title).join(', ')}.</p>
+            : <p className="dim">Not met yet.</p>}
         </> : <>
           <h3>Tap anyone</h3>
           <p>Lit names are the people your child has met. The dashed lines are the connections that cross

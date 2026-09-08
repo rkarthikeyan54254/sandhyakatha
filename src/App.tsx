@@ -1,14 +1,16 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Card, CanonRow, Lexicon, Relations, Story } from './lib/types';
 import { panchanga } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
-import { useLocal } from './lib/store';
+import * as P from './lib/profile';
+import { currentAccount, onAuthChange, syncConfigured, syncProfile, type Account as Acct } from './lib/sync';
 import { Header, Tabs, type Tab } from './ui/Chrome';
 import Tonight, { type Len } from './ui/Tonight';
 import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
+import Setup from './ui/Setup';
 
 export default function App() {
   const [cards, setCards] = useState<Card[]>([]);
@@ -19,9 +21,13 @@ export default function App() {
   const [tab, setTab] = useState<Tab>('tonight');
   const [len, setLen] = useState<Len>('full');
 
-  const [age, setAge] = useLocal('age', 8);
-  const [gate, setGate] = useLocal('gate', false);
-  const [heard, setHeard] = useLocal<Record<string, string>>('heard', {});
+  const [profile, setProfile] = useState<P.Profile>(() => P.load());
+  const [skipped, setSkipped] = useState(false);
+  const [account, setAccount] = useState<Acct | null>(null);
+  const [syncing, setSyncing] = useState(false);
+
+  useEffect(() => { P.save(profile); }, [profile]);
+  useEffect(() => { P.requestPersistence(); }, []);
 
   useEffect(() => {
     const j = (p: string) => fetch(p).then(r => r.json());
@@ -31,10 +37,29 @@ export default function App() {
     j('/data/relations.json').then(setRel).catch(() => {});
   }, []);
 
+  /* account → merge this device with the account copy, both directions */
+  const pull = useCallback(async () => {
+    if (!syncConfigured) return;
+    setSyncing(true);
+    try { setProfile(p => { syncProfile(p).then(setProfile).catch(() => {}); return p; }); }
+    finally { setTimeout(() => setSyncing(false), 600); }
+  }, []);
+
+  useEffect(() => {
+    if (!syncConfigured) return;
+    currentAccount().then(a => { setAccount(a); if (a) pull(); });
+    const off = onAuthChange(a => { setAccount(a); if (a) pull(); });
+    return () => { off.then(f => f()); };
+  }, [pull]);
+
+  const child = P.activeChild(profile);
+  const heard = P.heardOf(profile, child?.id ?? null);
   const pan = useMemo(() => panchanga(new Date()), []);
   const pick = useMemo(
-    () => cards.length ? pickTonight(cards, { panchanga: pan, childAge: age, heard, includeGated: gate }) : null,
-    [cards, pan, age, heard, gate]);
+    () => cards.length ? pickTonight(cards, {
+      panchanga: pan, childAge: child?.age ?? 8, heard, includeGated: profile.gate
+    }) : null,
+    [cards, pan, child?.age, heard, profile.gate]);
 
   const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
 
@@ -44,8 +69,27 @@ export default function App() {
       setOpen(s); window.scrollTo({ top: 0 });
     } catch { /* not written yet */ }
   }
-  const markHeard = (id: string) =>
-    setHeard(h => ({ ...h, [id]: new Date().toISOString().slice(0, 10) }));
+
+  function markHeard(storyId: string) {
+    setProfile(p => {
+      const c = P.activeChild(p);
+      if (!c) return p;
+      const next = P.markHeard(p, c.id, storyId);
+      if (account) syncProfile(next).then(setProfile).catch(() => {});
+      return next;
+    });
+  }
+
+  const addChild = (name: string, age: number) => setProfile(p => {
+    const c = P.newChild(name, age);
+    return { ...p, children: [...p.children, c], activeId: c.id, updatedAt: new Date().toISOString() };
+  });
+  const patchChild = (id: string, patch: Partial<P.Child>) => setProfile(p => ({
+    ...p, children: p.children.map(c => c.id === id ? { ...c, ...patch } : c), updatedAt: new Date().toISOString()
+  }));
+
+  if (!profile.children.length && !skipped)
+    return <div className="app plain"><Setup onDone={addChild} onSkip={() => { setSkipped(true); addChild('', 8); }} /></div>;
 
   const nextCard = open?.linked ? cards.find(c => c.id === open.linked!.next) ?? null : null;
 
@@ -57,13 +101,18 @@ export default function App() {
           <Reader story={open} lex={lex} len={len} next={nextCard}
                   onBack={() => setOpen(null)} onHeard={markHeard} onRead={read} />
         ) : tab === 'tonight' ? (
-          <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read} heard={heard}
+          <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
+                   profile={profile} child={child} heard={heard} cards={cards}
                    canon={canon} published={cards.length}
-                   age={age} setAge={setAge} gate={gate} setGate={setGate} />
+                   account={account} syncing={syncing}
+                   setActive={id => setProfile(p => ({ ...p, activeId: id }))}
+                   addChild={addChild} patchChild={patchChild}
+                   setGate={g => setProfile(p => ({ ...p, gate: g, updatedAt: new Date().toISOString() }))}
+                   onShelf={() => setTab('shelf')} />
         ) : tab === 'shelf' ? (
-          <Shelf canon={canon} publishedIds={publishedIds} gate={gate} onRead={read} />
+          <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
         ) : tab === 'map' ? (
-          <Constellation lex={lex} rel={rel} heard={heard} cards={cards} />
+          <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} />
         ) : <Why />}
       </main>
       <Tabs tab={open ? 'tonight' : tab} onTab={t => { setOpen(null); setTab(t); }} />
