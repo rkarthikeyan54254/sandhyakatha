@@ -107,36 +107,59 @@ export function markHeard(p: Profile, childId: string, storyId: string): Profile
 }
 
 /**
+ * Two devices invent different ids for the same child — the id is minted where
+ * the name was typed. A name and an age is the only thing the two copies agree
+ * on, so that is what folds them together. Without this, typing "Rakshu, 8" on
+ * a second device produces a second Rakshu with no history, and the app makes
+ * her the active one.
+ */
+const childKey = (c: Child) => `${c.name.trim().toLowerCase()}|${c.age}`;
+
+/**
  * Merge a device and an account. Heard nights are a union and the earliest date
  * wins — a story read on the iPad was still read. Everything else follows the
  * more recently touched copy, which is the closest thing to intent we have.
  */
 export function merge(a: Profile, b: Profile): Profile {
   const [older, newer] = Date.parse(a.updatedAt) <= Date.parse(b.updatedAt) ? [a, b] : [b, a];
+
+  // Fold the child lists first, and carry anything the newer copy recorded
+  // against its own id over to the id the account already uses.
+  const byKey = new Map(older.children.map(c => [childKey(c), c]));
+  const folded: Child[] = [...older.children];
+  const remap: Record<string, string> = {};
+  for (const c of newer.children) {
+    const match = byKey.get(childKey(c));
+    if (match) { if (match.id !== c.id) remap[c.id] = match.id; }
+    else { folded.push(c); byKey.set(childKey(c), c); }
+  }
+  const to = (id: string) => remap[id] ?? id;
+
   const heard: Profile['heard'] = { ...older.heard };
   for (const [child, nights] of Object.entries(newer.heard)) {
-    heard[child] = { ...(heard[child] ?? {}) };
+    const k = to(child);
+    heard[k] = { ...(heard[k] ?? {}) };
     for (const [story, date] of Object.entries(nights)) {
-      const prev = heard[child][story];
-      heard[child][story] = prev && prev < date ? prev : date;
+      const prev = heard[k][story];
+      heard[k][story] = prev && prev < date ? prev : date;
     }
   }
   // Re-reads union too, but the LATEST wins — unlike a first night, what
   // matters about "again" is that it is still happening.
   const again: NonNullable<Profile['again']> = { ...(older.again ?? {}) };
   for (const [child, nights] of Object.entries(newer.again ?? {})) {
-    again[child] = { ...(again[child] ?? {}) };
+    const k = to(child);
+    again[k] = { ...(again[k] ?? {}) };
     for (const [story, date] of Object.entries(nights)) {
-      const prev = again[child][story];
-      again[child][story] = prev && prev > date ? prev : date;
+      const prev = again[k][story];
+      again[k][story] = prev && prev > date ? prev : date;
     }
   }
-  const byId = new Map(older.children.map(c => [c.id, c]));
-  for (const c of newer.children) byId.set(c.id, c);
   const firsts = [older.firstNight, newer.firstNight].filter(Boolean).sort() as string[];
+  const active = newer.activeId ? to(newer.activeId) : null;
   return {
-    v: 1, children: [...byId.values()],
-    activeId: newer.activeId ?? older.activeId,
+    v: 1, children: folded,
+    activeId: (active && folded.some(c => c.id === active) ? active : null) ?? older.activeId ?? folded[0]?.id ?? null,
     gate: newer.gate, heard, again,
     owner: newer.owner ?? older.owner ?? null,
     firstNight: firsts[0] ?? null,

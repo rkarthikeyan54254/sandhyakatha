@@ -64,15 +64,30 @@ describe('the ordinary paths still work', () => {
     expect(calls.filter(c => c.method === 'PUT')).toHaveLength(1);
   });
 
-  it('merges when the same account comes back', async () => {
-    const stored = profileFor(A, 'Rakshu');
+  it('merges when the same account comes back with nights of its own', async () => {
+    const stored = profileFor(A, 'Rakshu', { govardhana: '2026-09-01' });
     stored.updatedAt = '2026-09-07T20:00:00.000Z';
     server(A, stored);
-    const local = { ...profileFor(A, 'Rakshu'), gate: true };
+    const local = { ...profileFor(A, 'Rakshu', { 'squirrel-setu': '2026-09-08' }), gate: true };
+    // same child, same id in this fixture, so the two histories land together
     const out = await syncProfile(local);
     expect(out.owner).toBe(A);
     expect(out.gate).toBe(true);
+    expect(Object.keys(out.heard[out.activeId!])).toEqual(
+      expect.arrayContaining(['govardhana', 'squirrel-setu']));
     expect(calls.filter(c => c.method === 'PUT')).toHaveLength(1);
+  });
+
+  it('takes the account copy whole when this device has read nothing', async () => {
+    // A fresh install, or the screen just after signing out. Nothing here is
+    // worth merging, and merging anyway is what created a second empty child.
+    const stored = profileFor(A, 'Rakshu', { govardhana: '2026-09-01' });
+    stored.gate = true;
+    server(A, stored);
+    const out = await syncProfile({ ...profileFor(null, 'Rakshu'), gate: false });
+    expect(out.gate).toBe(true);
+    expect(out.children).toHaveLength(1);
+    expect(calls.filter(c => c.method === 'PUT')).toHaveLength(0);
   });
 
   it('does nothing at all when signed out', async () => {

@@ -122,7 +122,10 @@ export default function App() {
    */
   async function handleSignOut(): Promise<'ok' | 'unsaved'> {
     const r = await signOut(profile);
-    if (r === 'ok') { setProfile(P.emptyProfile()); setSkipped(false); setAccount(null); }
+    // skipped stays TRUE: dropping a signed-out parent onto the setup screen
+    // forces them to type a child's name before they can reach sign-in again,
+    // which mints a second child id and hides the history behind it.
+    if (r === 'ok') { setProfile(P.emptyProfile()); setSkipped(true); setAccount(null); }
     void refresh();
     return r;
   }

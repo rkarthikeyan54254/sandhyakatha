@@ -101,6 +101,15 @@ export async function syncProfile(local: Profile): Promise<Profile> {
       : { ...emptyProfile(), owner: id, updatedAt: new Date().toISOString() };
   }
 
+  /*
+   * This device has read nothing — a fresh install, or the screen right after
+   * signing out. There is nothing here worth merging into the account, and
+   * merging anyway is how a just-typed name became a second, empty child that
+   * the app then made active. The account's copy is the family; take it whole.
+   */
+  const readNothingHere = !Object.values(local.heard ?? {}).some(n => Object.keys(n).length > 0);
+  if (d.profile && readNothingHere) return { ...(d.profile as Profile), owner: id };
+
   const merged: Profile = { ...(d.profile ? merge(local, d.profile as Profile) : local), owner: id };
   const put = await api('/api/profile', {
     method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(merged)
