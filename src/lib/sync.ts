@@ -14,8 +14,22 @@ import { merge } from './profile';
 
 export interface Account { email: string | null; kind: 'google' | 'code' }
 
-/** The functions are always deployed; a 401 simply means "not signed in". */
-export const syncConfigured = true;
+export interface AuthConfig { google: boolean; code: boolean }
+
+/**
+ * Whether this deploy can actually sign anyone in. The functions may not be
+ * deployed yet at all, in which case the SPA catch-all answers with HTML and
+ * the parse throws — which is the same answer: not available. The panel says
+ * so plainly rather than offering a button that goes nowhere.
+ */
+export async function authConfig(): Promise<AuthConfig> {
+  try {
+    const r = await fetch('/api/config', { credentials: 'same-origin' });
+    if (!r.ok) return { google: false, code: false };
+    const d = await r.json();
+    return { google: !!d.google, code: !!d.code };
+  } catch { return { google: false, code: false }; }
+}
 
 async function api(path: string, init?: RequestInit) {
   const r = await fetch(path, { credentials: 'same-origin', ...init });

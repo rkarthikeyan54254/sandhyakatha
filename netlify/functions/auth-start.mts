@@ -2,8 +2,12 @@ import type { Context } from '@netlify/functions';
 
 /** Redirect the parent to Google. No Google script runs in our page. */
 export default async (req: Request, _ctx: Context) => {
+  // Back into the app with a reason, rather than a bare error page in a tab the
+  // parent now has to get themselves out of.
+  const unconfigured = new Response(null, { status: 302, headers: { Location: '/?signin=unconfigured' } });
   const id = process.env.GOOGLE_CLIENT_ID;
-  if (!id) return new Response('Sign-in is not configured yet.', { status: 503 });
+  if (!id || !process.env.GOOGLE_CLIENT_SECRET) return unconfigured;
+  if (!process.env.SESSION_SECRET || process.env.SESSION_SECRET.length < 32) return unconfigured;
 
   const origin = new URL(req.url).origin;
   const state = crypto.randomUUID();

@@ -369,3 +369,6 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .emailrow button[disabled]{opacity:.5}
 .festival{margin:8px 0 0;font-size:11px;letter-spacing:.15em;text-transform:uppercase;font-weight:700;
   color:#2a1c08;background:var(--lamp);display:inline-block;padding:4px 10px;border-radius:999px}
+.family{margin:34px 0 0;padding-top:20px;border-top:1px solid var(--lamp-dim)}
+.family h2{font-family:var(--display);font-weight:400;font-size:25px;margin:0;color:var(--lamp)}
+.family p{margin:6px 0 0;font-size:13px;line-height:1.6;color:var(--muted);max-width:36em}

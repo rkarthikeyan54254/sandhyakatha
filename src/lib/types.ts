@@ -43,3 +43,27 @@ export const STABILITY_NOTE: Record<string,string> = {
   regional:'not in the Sanskrit — this one reaches us through a regional tradition',
   folk:'oral tradition; no text to check it against'
 };
+
+/**
+ * The shelf is organised the way the tradition organises itself — Itihāsa,
+ * Purāṇa, Upaniṣad — because those are the words a parent already has. The
+ * `tradition` axis (Sanskrit, Tamil Śaiva, Jain…) is real and useful, but it
+ * is a classification we brought to the material, so it sits second.
+ */
+export const FAMILY: Record<string, string> = {
+  ramayana:'Itihāsa', 'other-ramayana':'Itihāsa', mahabharata:'Itihāsa',
+  bhagavata:'Purāṇa', 'vishnu-purana':'Purāṇa', 'shiva-purana':'Purāṇa',
+  purana:'Purāṇa', 'other-purana':'Purāṇa',
+  upanishad:'Upaniṣad',
+  nayanmar:'Bhakti', alvar:'Bhakti', sant:'Bhakti',
+  panchatantra:'Nīti', origin:'How the stories reached us'
+};
+export const FAMILY_ORDER = ['Itihāsa','Purāṇa','Upaniṣad','Bhakti','Nīti','How the stories reached us'];
+export const FAMILY_NOTE: Record<string,string> = {
+  'Itihāsa': 'What happened — the two great tellings, and the versions that disagree with them.',
+  'Purāṇa': 'The old lore: gods, kings, and the making and unmaking of worlds.',
+  'Upaniṣad': 'The questions, usually asked by someone very young.',
+  'Bhakti': 'Lives of people who loved something enough to be remembered for it.',
+  'Nīti': 'Worldly wisdom, told through animals who behave like us.',
+  'How the stories reached us': 'The stories about the stories — who wrote them down, and why.'
+};
