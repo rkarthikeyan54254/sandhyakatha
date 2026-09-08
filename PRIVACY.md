@@ -36,8 +36,18 @@ the child.**
   account with no identity attached, where we never learn who they are.
 - What it does **not** store: behavioural events, per-child analytics, anything
   inferred, anything shared onward.
-- No third-party analytics, no ad SDK, no social embeds, no fonts or scripts
-  from anywhere the CSP in `netlify.toml` does not name.
+- **Google Analytics 4 is used for measurement, and only measurement.**
+  `public/gtag-init.js` denies `ad_storage`, `ad_user_data` and
+  `ad_personalization` at consent default, switches off Google Signals and
+  ad-personalisation signals, and anonymises IP. Three events are sent —
+  a story was opened, a story was finished, sign-in was started — and nothing
+  else. No child name, no age, no free text, no cross-site identity.
+  DPDP prohibits behavioural advertising to children; the GA defaults are not
+  on our side, so they are overridden explicitly. If that ever becomes hard to
+  guarantee, the replacement is Netlify Analytics, which is server-side and
+  sets no cookie at all.
+- No ad SDK, no social embeds, no fonts or scripts from anywhere the CSP in
+  `netlify.toml` does not name.
 - Product questions get answered by aggregate, non-identifying counts at the
   edge if at all — never by a per-child event stream.
 

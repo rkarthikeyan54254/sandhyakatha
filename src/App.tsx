@@ -3,6 +3,7 @@ import type { Card, CanonRow, Lexicon, Relations, Story } from './lib/types';
 import { panchanga, type PanchangaTable } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
 import * as P from './lib/profile';
+import { track } from './lib/track';
 import { currentAccount, syncProfile, type Account as Acct } from './lib/sync';
 import { Header, Tabs, type Tab } from './ui/Chrome';
 import Tonight, { type Len } from './ui/Tonight';
@@ -75,6 +76,7 @@ export default function App() {
     setFrom(tab);
     try {
       const s: Story = await (await fetch(`/data/s/${id}.json`)).json();
+      track('story_opened', { story_id: s.id, corpus: s.source.corpus, from: tab });
       setOpen(s); window.scrollTo({ top: 0 });
     } catch { /* not written yet */ }
   }
@@ -83,6 +85,7 @@ export default function App() {
     setProfile(p => {
       const c = P.activeChild(p);
       if (!c) return p;
+      track('story_finished', { story_id: storyId });
       const next = P.markHeard(p, c.id, storyId);
       if (account) syncProfile(next).then(setProfile).catch(() => {});
       return next;
