@@ -36,4 +36,7 @@ writeFileSync(join(ROOT, 'public/data/lexicon.json'), JSON.stringify(read('conte
 // to see what is coming, and an honest empty shelf is worse than an honest plan.
 writeFileSync(join(ROOT, 'public/data/canon.json'), JSON.stringify(read('content/canon.json').canon));
 writeFileSync(join(ROOT, 'public/data/relations.json'), JSON.stringify(read('content/relations.json')));
+// The pañcāṅga table — generated offline by scripts/panchanga.py, shipped whole
+// so the picker never waits on an ephemeris and still works offline.
+writeFileSync(join(ROOT, 'public/data/panchanga.json'), JSON.stringify(read('content/panchanga.json')));
 console.log(`index: ${index.length} published of ${canon.length} planned`);

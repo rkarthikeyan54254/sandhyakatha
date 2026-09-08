@@ -9,7 +9,7 @@ A chat window is a generator. At 8:40pm a parent does not want a generator — t
 1. **Every line has an address.** Work and locus are printed above the story. Where traditions diverge, the page says so — the squirrel on the Setu is not in Vālmīki, and we tell you that on the page.
 2. **Written for a voice, not an eye.** Breath lines, printed pause beats, a final line flagged *slow down here*, tap-a-name pronunciation.
 3. **It ends with a question, not a moral.** Plus a fallback line, and honest pre-written answers to the follow-ups children actually ask.
-4. **It knows what day it is.** Tonight's pick runs against the pañcāṅga and the season.
+4. **It knows what day it is.** Tonight's pick runs against a real pañcāṅga — Swiss Ephemeris with the Lahiri ayanāṃśa, tithi sampled at 06:00 IST, amānta months, *the same engine and conventions as NalNaal* so the two apps never disagree about an Ekādaśī. Computed offline and shipped as a table, so nothing waits on an ephemeris and it still works on a flight.
 5. **It remembers the child.** Characters accumulate into a map the child builds by listening, and the app can tell you a year later what you read on this night. Local-first; an optional Google or email-link sign-in keeps it when the browser clears its storage or you pick up another phone. Read PRIVACY.md for exactly what that stores — it is a first name, an age and a list of nights.
 6. **Nothing is generated while you wait.** The corpus is drafted, source-checked, reviewed and versioned before it ships — which is why it is instant, works offline, gives the same story twice, and cannot invent a Purāṇa at bedtime.
 
@@ -29,6 +29,10 @@ npm test             # the night picker's rules
 
 `npm run build` runs `validate:strict` first. **A story that fails validation fails the deploy.** That is deliberate.
 
+The pañcāṅga table covers four years and is regenerated with `npm run calendar`
+(needs `pip install pyswisseph`). The validator fails if it no longer covers
+today, and warns a year before it runs out.
+
 ## Layout
 
 ```
@@ -46,7 +50,8 @@ scripts/
   render-audio.mjs    the TTS contract (script substitution + prosody), vendor-free
 studio/PIPELINE.md    the nine stages that produce one story
 src/lib/picker.ts     the "why tonight" engine — pure, deterministic, tested
-src/lib/panchanga.ts  interface only; wire to NalNaal's ephemeris
+scripts/panchanga.py  the pañcāṅga table — Swiss Ephemeris, offline, NalNaal's conventions
+src/lib/panchanga.ts  looks the date up in the shipped table; admits it when it can't
 src/lib/profile.ts    the family's state — children, nights heard, merge, stats
 src/lib/sync.ts       optional account sync, against this site's own /api
 netlify/functions/    Google OAuth, sessions, and the family's row in Netlify Blobs

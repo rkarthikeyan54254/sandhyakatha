@@ -4,7 +4,7 @@
     "moduleResolution": "bundler", "jsx": "react-jsx", "strict": true,
     "noUnusedLocals": true, "noUnusedParameters": true, "noFallthroughCasesInSwitch": true,
     "noEmit": true, "skipLibCheck": true, "resolveJsonModule": true, "isolatedModules": true,
-    "types": ["vite/client", "vitest/globals"]
+    "types": ["vite/client", "vitest/globals", "node"]
   },
   "include": ["src"]
 }

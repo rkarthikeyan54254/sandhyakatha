@@ -180,6 +180,35 @@ for (const [a, b] of rel.edges) {
   if (!placed.has(b)) err('relations.json', `edge references "${b}", which is in no cluster`);
 }
 
+/* ---------- the pañcāṅga table ---------- */
+try {
+  const cal = read('content/panchanga.json');
+  const today = new Date().toISOString().slice(0, 10);
+  if (!cal.days?.[today]) err('panchanga.json', `does not cover today (${today}) — run \`npm run calendar\``);
+  const horizon = new Date(Date.now() + 365 * 86400000).toISOString().slice(0, 10);
+  if (!cal.days?.[horizon]) warn('panchanga.json', `runs out within a year (ends ${cal.meta?.to}) — regenerate before it does`);
+
+  // Every festival the corpus schedules against must actually occur, every year
+  // the table covers. A kṣaya tithi silently dropping Govardhan Pūjā is exactly
+  // the bug this catches.
+  const wanted = new Set(canon.flatMap(c => c.festivals ?? []));
+  for (const st of Object.values(stories)) for (const f of st.calendar?.festivals ?? []) wanted.add(f);
+  const seen = new Map();
+  for (const [date, d] of Object.entries(cal.days))
+    for (const f of d.festivals ?? []) {
+      if (!seen.has(f)) seen.set(f, new Set());
+      seen.get(f).add(date.slice(0, 4));
+    }
+  const years = new Set(Object.keys(cal.days).map(d => d.slice(0, 4)));
+  for (const f of wanted) {
+    const got = seen.get(f);
+    if (!got) err('panchanga.json', `the corpus schedules against "${f}", which never occurs in the table`);
+    else for (const y of years) if (!got.has(y)) err('panchanga.json', `"${f}" is missing from ${y}`);
+  }
+} catch (e) {
+  err('panchanga.json', `unreadable — ${e.message}`);
+}
+
 /* ---------- report ---------- */
 const c = { r: '\x1b[31m', y: '\x1b[33m', g: '\x1b[32m', d: '\x1b[2m', x: '\x1b[0m' };
 for (const w of warnings) console.log(`${c.y}warn${c.x}  ${w}`);

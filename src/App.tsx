@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Card, CanonRow, Lexicon, Relations, Story } from './lib/types';
-import { panchanga } from './lib/panchanga';
+import { panchanga, type PanchangaTable } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
 import * as P from './lib/profile';
 import { currentAccount, syncProfile, type Account as Acct } from './lib/sync';
@@ -17,6 +17,7 @@ export default function App() {
   const [canon, setCanon] = useState<CanonRow[]>([]);
   const [lex, setLex] = useState<Lexicon>({});
   const [rel, setRel] = useState<Relations | null>(null);
+  const [cal, setCal] = useState<PanchangaTable | null>(null);
   const [open, setOpen] = useState<Story | null>(null);
   const [tab, setTab] = useState<Tab>('tonight');
   const [len, setLen] = useState<Len>('full');
@@ -35,6 +36,7 @@ export default function App() {
     j('/data/canon.json').then(setCanon).catch(() => {});
     j('/data/lexicon.json').then(setLex).catch(() => {});
     j('/data/relations.json').then(setRel).catch(() => {});
+    j('/data/panchanga.json').then(setCal).catch(() => {});
   }, []);
 
   /* Signed in? Then merge this device with the account copy, both directions. */
@@ -59,7 +61,7 @@ export default function App() {
 
   const child = P.activeChild(profile);
   const heard = P.heardOf(profile, child?.id ?? null);
-  const pan = useMemo(() => panchanga(new Date()), []);
+  const pan = useMemo(() => panchanga(new Date(), cal), [cal]);
   const pick = useMemo(
     () => cards.length ? pickTonight(cards, {
       panchanga: pan, childAge: child?.age ?? 8, heard, includeGated: profile.gate

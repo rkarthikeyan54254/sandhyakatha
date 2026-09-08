@@ -1,7 +1,7 @@
 import type { Card, CanonRow } from '../lib/types';
 import { CORPUS_LABEL, STABILITY_NOTE } from '../lib/types';
 import type { Pick } from '../lib/picker';
-import type { Panchanga } from '../lib/panchanga';
+import { titleCase, type Panchanga } from '../lib/panchanga';
 import * as P from '../lib/profile';
 import type { Account as Acct } from '../lib/sync';
 import AccountPanel from './Account';
@@ -41,8 +41,14 @@ export default function Tonight(p: Props) {
   return (
     <>
       <p className="datestrip"><span className="g">{date}</span>
-        {!pan.approximate && <span className="p">{pan.masa} · {pan.paksha} pakṣa · {pan.tithi}</span>}
+        {!pan.approximate && <span className="p">
+          {titleCase(pan.masa)} · {titleCase(pan.paksha)} pakṣa · {titleCase(pan.tithi.split('-')[1] ?? '')}
+          {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
+        </span>}
       </p>
+      {pan.festivals.length > 0 && (
+        <p className="festival">{pan.festivals.map(f => titleCase(f)).join(' · ')}</p>
+      )}
       <h1 className="greet">Good evening. {name
         ? <>Six minutes with <em>{name}</em>?</>
         : <><em>Six minutes,</em> if you have them.</>}</h1>

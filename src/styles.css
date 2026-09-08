@@ -366,3 +366,5 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   font-size:14px;word-break:break-all;user-select:all}
 .codebox.made .lede{color:var(--lamp)}
 .emailrow button[disabled]{opacity:.5}
+.festival{margin:8px 0 0;font-size:11px;letter-spacing:.15em;text-transform:uppercase;font-weight:700;
+  color:#2a1c08;background:var(--lamp);display:inline-block;padding:4px 10px;border-radius:999px}
