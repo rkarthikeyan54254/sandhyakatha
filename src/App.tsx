@@ -20,6 +20,7 @@ export default function App() {
   const [cal, setCal] = useState<PanchangaTable | null>(null);
   const [open, setOpen] = useState<Story | null>(null);
   const [tab, setTab] = useState<Tab>('tonight');
+  const [from, setFrom] = useState<Tab>('tonight');   // where the reader was opened from
   const [len, setLen] = useState<Len>('full');
 
   const [profile, setProfile] = useState<P.Profile>(() => P.load());
@@ -71,6 +72,7 @@ export default function App() {
   const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
 
   async function read(id: string) {
+    setFrom(tab);
     try {
       const s: Story = await (await fetch(`/data/s/${id}.json`)).json();
       setOpen(s); window.scrollTo({ top: 0 });
@@ -102,11 +104,14 @@ export default function App() {
 
   return (
     <div className="app">
-      <Header onWhy={() => { setOpen(null); setTab('why'); }} />
-      <main key={open ? open.id : tab}>
+      <a className="skip" href="#main">Skip to tonight's story</a>
+      <Header onHome={() => { setOpen(null); setTab('tonight'); }}
+              onWhy={() => { setOpen(null); setTab('why'); }} />
+      <main id="main" key={open ? open.id : tab}>
         {open ? (
           <Reader story={open} lex={lex} len={len} next={nextCard}
-                  onBack={() => setOpen(null)} onHeard={markHeard} onRead={read} />
+                  onBack={() => { setOpen(null); setTab(from); }} onHeard={markHeard} onRead={read}
+                  backLabel={from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight'} />
         ) : tab === 'tonight' ? (
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
                    profile={profile} child={child} heard={heard} cards={cards}
@@ -122,7 +127,7 @@ export default function App() {
           <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} />
         ) : <Why />}
       </main>
-      <Tabs tab={open ? 'tonight' : tab} onTab={t => { setOpen(null); setTab(t); }} />
+      <Tabs tab={open ? from : tab} onTab={t => { setOpen(null); setTab(t); }} />
     </div>
   );
 }

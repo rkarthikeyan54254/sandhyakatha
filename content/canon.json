@@ -18,6 +18,7 @@
       "sensitivity": [],
       "value": "small things count",
       "hook": "An army throws mountains into the sea. Nobody notices the squirrel with sand in her fur.",
+      "festivals": [],
       "status": "published",
       "wave": 1,
       "gated": false
@@ -37,6 +38,7 @@
       ],
       "value": "love outranks correctness",
       "hook": "She bites every berry first to check it is sweet, which ruins it. He eats them anyway.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -54,6 +56,9 @@
       "sensitivity": [],
       "value": "you need someone to remind you",
       "hook": "The strongest one on the beach is sitting down, because he has genuinely forgotten what he can do.",
+      "festivals": [
+        "hanuman-jayanti"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -73,6 +78,7 @@
       ],
       "value": "friendship across rank",
       "hook": "A prince with no kingdom left meets a boatman, and the boatman is the one who decides they are friends.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -93,6 +99,7 @@
       ],
       "value": "trying when you will lose",
       "hook": "An old vulture, too old to fight anyone, sees a chariot going the wrong way across the sky and goes up.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -113,6 +120,9 @@
       ],
       "value": "carrying the people who carried you",
       "hook": "A boy carries both his parents across the country on a pole. Then an arrow finds him at the river.",
+      "festivals": [
+        "pitru-paksha"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -130,6 +140,7 @@
       "sensitivity": [],
       "value": "how a story grows a new part",
       "hook": "The most famous line in the Rāmāyaṇa is not in the Rāmāyaṇa. This is the story of where it came from.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -147,6 +158,9 @@
       "sensitivity": [],
       "value": "strength meets its match, politely",
       "hook": "The strongest man alive cannot move an old monkey's tail off the path. The monkey apologises.",
+      "festivals": [
+        "hanuman-jayanti"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -164,6 +178,7 @@
       "sensitivity": [],
       "value": "what attention actually is",
       "hook": "A teacher asks each boy what he can see. Only one of them gives the answer that is not a list.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -181,6 +196,7 @@
       "sensitivity": [],
       "value": "one grain is enough",
       "hook": "Ten thousand hungry guests are on their way and the pot has been washed. There is one grain stuck to the rim.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -200,6 +216,7 @@
       ],
       "value": "answering honestly under pressure",
       "hook": "Four brothers drink and fall. The fifth is asked what the greatest wonder in the world is, and gets it right.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -219,6 +236,7 @@
       ],
       "value": "giving when it costs everything",
       "hook": "A beggar comes at noon, when Karṇa cannot refuse anyone, and asks for the skin off his body.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -239,6 +257,7 @@
       ],
       "value": "there is no clean moral here",
       "hook": "A forest boy teaches himself archery from a clay statue of the teacher who turned him away. Then the teacher comes to collect.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -259,6 +278,7 @@
       ],
       "value": "knowing half of something",
       "hook": "He learned how to get into the formation before he was born. Nobody finished telling him how to get out.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -276,6 +296,10 @@
       "sensitivity": [],
       "value": "letting others help",
       "hook": "A seven-year-old holds a hill over a village for seven days. A cowherd puts his stick up to help.",
+      "festivals": [
+        "govardhan-puja",
+        "annakut"
+      ],
       "status": "published",
       "wave": 1,
       "gated": false
@@ -293,6 +317,9 @@
       "sensitivity": [],
       "value": "you cannot tie love with a short rope",
       "hook": "Yaśodā tries to tie a small boy to a mortar. Every rope in the house is exactly two fingers too short.",
+      "festivals": [
+        "janmashtami"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -312,6 +339,7 @@
       ],
       "value": "a child who would not be told no",
       "hook": "He is told he cannot sit on his father's lap. He is five. He walks into the forest instead, and becomes a star.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -329,6 +357,7 @@
       "sensitivity": [],
       "value": "when your own strength runs out",
       "hook": "The strongest elephant in the forest pulls against a crocodile for a thousand years, and then stops pulling.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -346,6 +375,7 @@
       "sensitivity": [],
       "value": "the friend who could not ask",
       "hook": "He walks for days to see his rich old schoolfriend, carrying a knotted rag of beaten rice he is ashamed of.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -363,6 +393,9 @@
       "sensitivity": [],
       "value": "there is no nectar without the poison",
       "hook": "Gods and asuras churn the sea for the drink that ends death. The first thing that comes up is poison.",
+      "festivals": [
+        "mahashivaratri"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -383,6 +416,9 @@
       ],
       "value": "saying it in a dangerous house",
       "hook": "A boy keeps giving the wrong answer in his father's classroom, and his father is a king who does not lose.",
+      "festivals": [
+        "holi"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -400,6 +436,9 @@
       "sensitivity": [],
       "value": "what counts as the world",
       "hook": "Two brothers race around the world for a mango. One of them does not leave the room.",
+      "festivals": [
+        "ganesh-chaturthi"
+      ],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -419,6 +458,7 @@
       ],
       "value": "the cost of one small love",
       "hook": "A king gives up a kingdom without blinking, then loses everything again over an orphaned deer he cannot stop watching.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -438,6 +478,7 @@
       ],
       "value": "refusing an easy answer",
       "hook": "Death offers a boy the whole earth if he will only stop asking one question. The boy says no.",
+      "festivals": [],
       "status": "published",
       "wave": 1,
       "gated": false
@@ -455,6 +496,7 @@
       "sensitivity": [],
       "value": "who is holding your reins",
       "hook": "You are a chariot. Your senses are the horses, and somebody in there is supposed to be driving.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -472,6 +514,7 @@
       "sensitivity": [],
       "value": "the invisible thing that is everywhere",
       "hook": "His father hands him a lump of salt and a bowl of water, and asks him to bring the salt back in the morning.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -489,6 +532,7 @@
       "sensitivity": [],
       "value": "the tree you cannot see",
       "hook": "Break the fig. Break the seed inside it. What do you see? _Nothing, father._ Right. That is what the tree is made of.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -508,6 +552,7 @@
       ],
       "value": "honesty as the only qualification",
       "hook": "A boy is asked his family name at the school gate, and has to say the one thing he was hoping not to.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -525,6 +570,7 @@
       "sensitivity": [],
       "value": "borrowed power",
       "hook": "Fire is asked to burn one straw. Wind is asked to move it. Neither of them can, and both are very embarrassed.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -542,6 +588,7 @@
       "sensitivity": [],
       "value": "the one who eats and the one who watches",
       "hook": "Two birds sit on the same branch. One eats the fruit. The other just watches him eat it.",
+      "festivals": [],
       "status": "draft",
       "wave": 1,
       "gated": false
@@ -559,6 +606,7 @@
       "sensitivity": [],
       "value": "care spent where nobody is looking",
       "hook": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival.",
+      "festivals": [],
       "status": "published",
       "wave": 2,
       "gated": false
@@ -576,6 +624,7 @@
       "sensitivity": [],
       "value": "keeping a promise past the point it hurts",
       "hook": "A merchant promises to give any devotee whatever they need. A boy leaves one small cloth as a deposit, and nothing in the shop will outweigh it.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -593,6 +642,7 @@
       "sensitivity": [],
       "value": "losing an argument you were sure of",
       "hook": "A wedding is interrupted by an old man with a palm-leaf document claiming the groom belongs to him. They go to the village court. The old man wins.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -612,6 +662,7 @@
       ],
       "value": "the door that was never locked",
       "hook": "A man who is not allowed inside the temple stands outside for years. The stone bull in the doorway is what moves.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -629,6 +680,7 @@
       "sensitivity": [],
       "value": "the lie you cannot take back",
       "hook": "Two mangoes came to the house. She gave one away. Now her husband is home and wants the second one, and it is very good.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -646,6 +698,7 @@
       "sensitivity": [],
       "value": "choosing the smallest job on purpose",
       "hook": "A man who could have had anything asked to be allowed to pull weeds, and did it for the rest of his life with a hoe he carried everywhere.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -663,6 +716,7 @@
       "sensitivity": [],
       "value": "making room one more time",
       "hook": "A doorway with space for one man to lie down. Then two to sit. Then three to stand. Then someone else pushes in, in the dark.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -680,6 +734,7 @@
       "sensitivity": [],
       "value": "being caught by what you stole",
       "hook": "He robs a wedding party on the road and cannot get one ring off the bridegroom's toe. He bends to bite it off, and the groom speaks.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -699,6 +754,7 @@
       ],
       "value": "who gets to be carried",
       "hook": "The temple priest throws a stone at a singer who will not move off the path. That night he is told to go back and carry the man in on his shoulders.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -716,6 +772,7 @@
       "sensitivity": [],
       "value": "being properly inside a story",
       "hook": "Every time the reciters reach the part where Rāma needs an army, the king calls out his own and has to be talked down.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -733,6 +790,7 @@
       "sensitivity": [],
       "value": "being caught out and being right",
       "hook": "Her father makes the garland for the god every morning. She has been trying it on first, and today he sees her do it.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -750,6 +808,7 @@
       "sensitivity": [],
       "value": "waiting for the right question",
       "hook": "A baby who never cried, never fed, never spoke, sitting in a hollow tree for sixteen years. Then a stranger asks him one question and he answers it.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -769,6 +828,7 @@
       ],
       "value": "an argument nobody needed to have",
       "hook": "Two crowds arrive to claim the body of a man who spent his life telling them they were the same. They lift the cloth.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -788,6 +848,7 @@
       ],
       "value": "not stopping when told to",
       "hook": "Her family sends her a cup and asks her to drink it in front of them. She sings first, which is the part they had not planned for.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -805,6 +866,7 @@
       "sensitivity": [],
       "value": "vouching for someone with nothing",
       "hook": "A poor poet writes a note promising pilgrims their money in Dvārakā. He has no money in Dvārakā. He has no money anywhere.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -824,6 +886,7 @@
       ],
       "value": "the work nobody watches",
       "hook": "The servant girl's grindstone turns faster than it should. Then her necklace goes missing, and the household knows exactly who to blame.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -841,6 +904,9 @@
       "sensitivity": [],
       "value": "the cost of one small lie",
       "hook": "Two gods argue about who is greater. A column of fire appears with no top and no bottom, and they agree to race for the ends.",
+      "festivals": [
+        "mahashivaratri"
+      ],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -858,6 +924,7 @@
       "sensitivity": [],
       "value": "asking for the wrong thing",
       "hook": "He asks for a boon: whatever he puts his hand on turns to ash. It is granted immediately, and the first thing he reaches for is the one who granted it.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -875,6 +942,9 @@
       "sensitivity": [],
       "value": "a villain who is not only that",
       "hook": "He gets his hands under Kailāsa and starts to lift. Śiva presses down with one toe. Rāvaṇa is trapped for a thousand years — and spends them singing.",
+      "festivals": [
+        "mahashivaratri"
+      ],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -892,6 +962,7 @@
       "sensitivity": [],
       "value": "holding your ground politely",
       "hook": "A young student turns up while she is fasting and lists, at length and quite accurately, everything wrong with the man she intends to marry.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -911,6 +982,7 @@
       ],
       "value": "giving from the bottom",
       "hook": "Forty-eight days without food. The meal finally arrives. Then someone knocks, and then someone else, and then a dog.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -930,6 +1002,7 @@
       ],
       "value": "finishing what three generations started",
       "hook": "His great-grandfather's sixty thousand sons are ash. Bringing a river down out of the sky is the only way to do right by them, so he starts asking.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -947,6 +1020,7 @@
       "sensitivity": [],
       "value": "the choice you make on purpose",
       "hook": "A girl pokes a thorn into two glowing points in an anthill, out of curiosity. They turn out to be a very old man's eyes.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -964,6 +1038,7 @@
       "sensitivity": [],
       "value": "being very small on purpose",
       "hook": "The sage outlives the end of the world. He swims in the empty water for a long time, and then finds a baby asleep on a leaf.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -981,6 +1056,7 @@
       "sensitivity": [],
       "value": "asking instead of taking",
       "hook": "The earth has stopped giving anything and the king raises his bow. She turns into a cow and runs, and then stops and makes him a counter-offer.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -1000,6 +1076,7 @@
       ],
       "value": "the story is not settled",
       "hook": "In this one Rāvaṇa is not a demon, does not have ten heads, never harms Sītā — and is still the one who loses everything.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -1017,6 +1094,7 @@
       "sensitivity": [],
       "value": "letting the better one go",
       "hook": "Vālmīki finds that Hanumān has carved his own Rāmāyaṇa onto rocks, and that it is better than his. Hanumān throws the rocks into the sea.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -1037,6 +1115,7 @@
       ],
       "value": "where a poem comes from",
       "hook": "A hunter shoots one of two birds. The man watching shouts at him — and what comes out of his mouth has a metre in it, and he cannot work out why.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -1054,6 +1133,7 @@
       "sensitivity": [],
       "value": "buying yourself time to think",
       "hook": "He will write down the whole Mahābhārata, but only if the dictation never stops. So Vyāsa starts hiding knots in it.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -1071,6 +1151,7 @@
       "sensitivity": [],
       "value": "starting when you cannot start",
       "hook": "The king asks him to write the lives of all sixty-three saints. He sits down in the hall and cannot find the first word, for days.",
+      "festivals": [],
       "status": "draft",
       "wave": 2,
       "gated": false
@@ -1090,6 +1171,7 @@
       ],
       "value": "giving the thing you cannot spare",
       "hook": "A hunter who knows nothing about worship brings meat and river-water in his mouth. When the stone eye starts to bleed, he works out what to do about it with the only tools he has.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": true,
@@ -1112,6 +1194,7 @@
       ],
       "value": "a vow taken past the end of reason",
       "hook": "A guest will only eat one dish, and names it. The couple do not argue, and do not hesitate, and that is the part that has unsettled listeners for a thousand years.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": true,
@@ -1134,6 +1217,7 @@
       ],
       "value": "a rule kept when it should have bent",
       "hook": "A soldier comes home from a long campaign to find his family alive, and the grain he had set aside for the temple gone.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": true,
@@ -1155,6 +1239,7 @@
       ],
       "value": "a promise with no exceptions in it",
       "hook": "He has vowed to give any devotee whatever they ask for. A stranger arrives and asks for his wife, and he agrees, and so does she.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": true,
@@ -1178,6 +1263,7 @@
       ],
       "value": "a slight that could not be let go",
       "hook": "A father throws a great feast and leaves one name off the list: his own daughter's husband. She goes anyway, to ask him why.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": true,
@@ -1196,6 +1282,7 @@
       "sensitivity": [],
       "value": "the daydream that breaks the pot",
       "hook": "A poor man lies under a shelf holding one pot of rice and works out, step by step, how it will make him rich enough to kick his future wife. Then he kicks.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": false
@@ -1213,6 +1300,7 @@
       "sensitivity": [],
       "value": "the thing you cannot help doing",
       "hook": "A jackal falls into a vat of indigo, comes out a colour no animal has seen, and is promptly crowned king of the forest. He rules well until the evening the other jackals start howling.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": false
@@ -1229,6 +1317,7 @@
       "sensitivity": [],
       "value": "answering a lie in its own language",
       "hook": "A merchant leaves iron scales with a friend, who explains on his return that mice ate them. Shortly afterwards the friend's son is carried off by a hawk.",
+      "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": false

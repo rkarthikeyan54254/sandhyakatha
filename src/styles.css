@@ -372,3 +372,29 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .family{margin:34px 0 0;padding-top:20px;border-top:1px solid var(--lamp-dim)}
 .family h2{font-family:var(--display);font-weight:400;font-size:25px;margin:0;color:var(--lamp)}
 .family p{margin:6px 0 0;font-size:13px;line-height:1.6;color:var(--muted);max-width:36em}
+
+/* ---------- header as a home link ---------- */
+.brand{display:flex;align-items:center;gap:11px;text-align:left;border-radius:8px;padding:2px 4px;margin-left:-4px}
+.brand:hover .wordmark b{color:var(--lamp)}
+.wordmark b{transition:color .18s}
+.wordmark i{font-family:var(--ui);font-style:normal;font-size:10px;letter-spacing:.06em;
+  color:var(--lamp-dim);margin-top:4px;display:block}
+@media (max-width:400px){.wordmark i{font-size:9px;letter-spacing:.02em}}
+
+/* ---------- first-visit introduction ---------- */
+.intro{margin-top:20px;padding:20px 18px;border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(165deg,#221a30,#1a1526)}
+.intro h2{font-family:var(--display);font-weight:400;font-size:25px;line-height:1.22;margin:10px 0 0;text-wrap:balance}
+.intro > p{font-family:var(--read);font-size:16px;line-height:1.62;color:var(--paper-dim);margin:11px 0 0}
+.intro ul{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-direction:column;gap:11px}
+.intro li{font-size:13px;line-height:1.6;color:var(--muted);padding-left:15px;position:relative}
+.intro li:before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--lamp-dim)}
+.intro li b{color:var(--paper-dim);font-weight:600}
+.intro .fine{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);
+  font-family:var(--ui);font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+@media (min-width:900px){.intro{padding:26px 28px}.intro h2{font-size:29px}}
+
+/* ---------- skip link ---------- */
+.skip{position:absolute;left:-9999px;top:0;z-index:100}
+.skip:focus{left:12px;top:12px;position:fixed;background:var(--lamp);color:#2a1c08;
+  padding:10px 16px;border-radius:9px;font-weight:700;font-size:13px}

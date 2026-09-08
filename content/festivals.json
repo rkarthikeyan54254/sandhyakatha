@@ -1,0 +1,46 @@
+{
+  "_readme": "Landing pages for the nights people actually search. Each one is generated from this file plus the pañcāṅga table (for the real date) plus canon.json (for the stories tagged to it). Blurbs are written for a parent who typed 'Janmashtami story for kids' into a phone, not for a search engine.",
+  "festivals": {
+    "janmashtami": {
+      "name": "Janmāṣṭamī",
+      "also": "Gokulashtami, Krishna Jayanti",
+      "blurb": "The night Kṛṣṇa was born — in a prison cell, in the rain, with the guards asleep and the river parting for a father carrying a baby in a basket.",
+      "forParents": "Most families keep the children up. A story is the easiest way to hold a small child's attention until midnight, and the boyhood ones are the best in the whole collection."
+    },
+    "ganesh-chaturthi": {
+      "name": "Gaṇeśa Caturthī",
+      "also": "Vinayaka Chaturthi, Pillaiyar Chaturthi",
+      "blurb": "Ten days for the elephant-headed son of Śiva and Pārvatī — the one who won a race around the world without leaving the room.",
+      "forParents": "Children take to Gaṇeśa faster than to any other figure in these books. He is clever rather than mighty, and he loses arguments gracefully."
+    },
+    "govardhan-puja": {
+      "name": "Govardhan Pūjā",
+      "also": "Annakūṭ, the day after Diwali",
+      "blurb": "The day the village thanked a hill instead of a god — and a seven-year-old held that hill over their heads for a week while the rain came down.",
+      "forParents": "The story behind the mountain of food. If your child has ever asked why the hill gets the offering, this is the answer."
+    },
+    "mahashivaratri": {
+      "name": "Mahāśivarātri",
+      "also": "the great night of Śiva",
+      "blurb": "The night nobody sleeps. Śiva stories are strange and enormous — a column of fire with no ends, a mountain lifted by a demon who then sang for a thousand years.",
+      "forParents": "A long night to fill. These are the stories that reward being told slowly, to a child who is fighting to stay awake."
+    },
+    "holi": {
+      "name": "Holī",
+      "also": "Holika Dahan, Phalguna Purnima",
+      "blurb": "Before the colours, the fire — and before the fire, a boy who would not stop saying what he believed, in a house where saying it was dangerous.",
+      "forParents": "Prahlāda is one of the few stories where the child is braver than every adult in the room. Worth telling before the colours start."
+    },
+    "hanuman-jayanti": {
+      "name": "Hanumān Jayantī",
+      "blurb": "For the son of the wind — who could cross an ocean, and who once had to be reminded that he could.",
+      "forParents": "The story children ask for again. And the one where Hanumān turns out to be Bhīma's brother, six hundred years and one epic away."
+    },
+    "pitru-paksha": {
+      "name": "Pitṛ Pakṣa",
+      "also": "Mahalaya Paksha",
+      "blurb": "A fortnight for the people who came before — and the story of a boy who carried both his parents across the country on a pole.",
+      "forParents": "Śravaṇa's story is where many children first meet the idea of owing something to a generation they never met. It is tender, and it ends sadly; the page says so before you begin."
+    }
+  }
+}

@@ -23,9 +23,10 @@ function place(rect: DOMRect): React.CSSProperties | undefined {
   };
 }
 
-export default function Reader({ story, lex, len, next, onBack, onHeard, onRead }: {
+export default function Reader({ story, lex, len, next, onBack, onHeard, onRead, backLabel = 'Tonight' }: {
   story: Story; lex: Lexicon; len: 'short' | 'full' | 'more';
   next: Card | null; onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
+  backLabel?: string;
 }) {
   const [say, setSay] = useState<Said>(null);
   const [ask, setAsk] = useState<number | null>(null);
@@ -37,7 +38,7 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead 
     <>
       <div className="readtop">
         <button className="back" onClick={onBack}>
-          <svg width="13" height="13" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M16 10H5M9 6l-4 4 4 4" /></svg> Tonight
+          <svg width="13" height="13" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M16 10H5M9 6l-4 4 4 4" /></svg> {backLabel}
         </button>
         <span className="spacer" /><span className="len">{heardLabel}</span>
       </div>

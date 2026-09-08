@@ -5,6 +5,7 @@ import { titleCase, type Panchanga } from '../lib/panchanga';
 import * as P from '../lib/profile';
 import type { Account as Acct } from '../lib/sync';
 import AccountPanel from './Account';
+import { Intro } from './Chrome';
 
 export type Len = 'short' | 'full' | 'more';
 
@@ -40,6 +41,9 @@ export default function Tonight(p: Props) {
 
   return (
     <>
+      <h1 className="greet">Good evening. {name
+        ? <>Six minutes with <em>{name}</em>?</>
+        : <><em>Six minutes,</em> if you have them.</>}</h1>
       <p className="datestrip"><span className="g">{date}</span>
         {!pan.approximate && <span className="p">
           {titleCase(pan.masa)} · {titleCase(pan.paksha)} pakṣa · {titleCase(pan.tithi.split('-')[1] ?? '')}
@@ -49,9 +53,6 @@ export default function Tonight(p: Props) {
       {pan.festivals.length > 0 && (
         <p className="festival">{pan.festivals.map(f => titleCase(f)).join(' · ')}</p>
       )}
-      <h1 className="greet">Good evening. {name
-        ? <>Six minutes with <em>{name}</em>?</>
-        : <><em>Six minutes,</em> if you have them.</>}</h1>
 
       {annivStory && (
         <button className="anniv" onClick={() => onRead(annivStory.id)}>
@@ -60,8 +61,7 @@ export default function Tonight(p: Props) {
         </button>
       )}
 
-      {st.stories === 0 && <p className="sub">One story is chosen each night. You do not have to think of one,
-        search for one, or word a request. That is the whole idea.</p>}
+      {st.stories === 0 && <Intro published={published} planned={canon.length || 68} />}
 
       {st.stories > 0 && (
         <p className="sofar">{name || 'They'} {st.stories === 1 ? 'has heard one story' : `has heard ${st.stories} stories`}
