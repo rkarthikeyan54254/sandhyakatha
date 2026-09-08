@@ -10,6 +10,10 @@ export default defineConfig({
       manifest: false,               // public/manifest.webmanifest is hand-written
       workbox: {
         globPatterns: ['**/*.{js,css,html,woff2}'],
+        // Otherwise "Continue with Google" is swallowed: the SW treats
+        // /api/auth/start as a SPA navigation and serves index.html.
+        navigateFallback: 'index.html',
+        navigateFallbackDenylist: [/^\/api\//],
         runtimeCaching: [
           // A story downloaded once must still be there on a flight.
           { urlPattern: /\/data\/s\/.*\.json$/, handler: 'CacheFirst',
