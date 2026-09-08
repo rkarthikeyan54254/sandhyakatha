@@ -10,3 +10,4 @@ coverage
 tsconfig.tsbuildinfo
 *.tar.gz
 proof/
+social/
