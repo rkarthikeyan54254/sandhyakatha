@@ -506,20 +506,6 @@
       "Vinayaka"
     ]
   },
-  "Bharata": {
-    "id": "bharata-sage",
-    "native": {
-      "deva": "भरत"
-    },
-    "say": "BHUH-ruh-tuh",
-    "ipa": "ˈbʱɐ.rɐ.tɐ",
-    "kind": "person",
-    "gloss": "A king who gave up everything he owned, and then lost it all over again for the love of one orphaned fawn.",
-    "aliases": [
-      "Bharata",
-      "Jada Bharata"
-    ]
-  },
   "Pūsalār": {
     "id": "pusalar",
     "native": {
@@ -732,6 +718,260 @@
     "aliases": [
       "Ravana",
       "Ravanan"
+    ]
+  },
+  "Nārada": {
+    "id": "narada",
+    "native": {
+      "deva": "नारद",
+      "taml": "நாரதர்"
+    },
+    "say": "NAA-ruh-duh",
+    "ipa": "ˈnaː.rɐ.dɐ",
+    "kind": "person",
+    "gloss": "A wandering sage who turns up, says one thing, and leaves before the argument starts. He is almost never the villain and almost always the cause.",
+    "aliases": [
+      "Narada",
+      "Naradar"
+    ]
+  },
+  "Kārttikeya": {
+    "id": "karttikeya",
+    "native": {
+      "deva": "कार्त्तिकेय",
+      "taml": "முருகன்"
+    },
+    "say": "kaar-TIH-kay-uh",
+    "ipa": "kaːrˈtːɪ.keː.jɐ",
+    "kind": "being",
+    "gloss": "Śiva's older son — fast, armed with a spear, riding a peacock. In Tamil country he is Murugan, and the hills are his.",
+    "aliases": [
+      "Kartikeya",
+      "Murugan",
+      "Skanda",
+      "Subrahmanya"
+    ]
+  },
+  "Pārvatī": {
+    "id": "parvati",
+    "native": {
+      "deva": "पार्वती",
+      "taml": "பார்வதி"
+    },
+    "say": "PAAR-vuh-tee",
+    "ipa": "ˈpaːr.ʋɐ.tiː",
+    "kind": "being",
+    "gloss": "Śiva's wife, and the mother in these two boys' house. Daughter of the mountain, which is worth remembering when someone races around the world.",
+    "aliases": [
+      "Parvati",
+      "Uma",
+      "Gauri"
+    ]
+  },
+  "Palani": {
+    "id": "palani",
+    "native": {
+      "taml": "பழநி",
+      "deva": "पऴनि"
+    },
+    "say": "PUH-zhuh-nee",
+    "ipa": "ˈpɐ.ɻɐ.ni",
+    "kind": "place",
+    "gloss": "A hill in Tamil Nadu where Kārttikeya went to sulk, and stayed. People still climb it.",
+    "aliases": [
+      "Palani",
+      "Pazhani"
+    ]
+  },
+  "Setu": {
+    "id": "setu",
+    "native": {
+      "deva": "सेतु",
+      "taml": "சேது"
+    },
+    "say": "SAY-too",
+    "ipa": "ˈseː.tʊ",
+    "kind": "place",
+    "gloss": "The bridge of stones thrown across the sea to Laṅkā. You can still see a line of shoals where it is said to have run.",
+    "aliases": [
+      "Setu",
+      "Rama Setu",
+      "Adam's Bridge"
+    ]
+  },
+  "Jāmbavān": {
+    "id": "jambavan",
+    "native": {
+      "deva": "जाम्बवान्",
+      "taml": "ஜாம்பவான்"
+    },
+    "say": "JAAM-buh-vaan",
+    "ipa": "ˈd͡ʒaːm.bɐ.ʋaːn",
+    "kind": "person",
+    "gloss": "The old bear of the Rāmāyaṇa, who remembers everything and is the one who reminds Hanumān what he can do.",
+    "aliases": [
+      "Jambavan",
+      "Jambavantha"
+    ]
+  },
+  "Jaḍa Bharata": {
+    "id": "bharata-sage",
+    "native": {
+      "deva": "भरत"
+    },
+    "say": "BHUH-ruh-tuh",
+    "ipa": "ˈbʱɐ.rɐ.tɐ",
+    "kind": "person",
+    "gloss": "A king who gave up everything he owned, and then lost it all over again for the love of one orphaned fawn.",
+    "aliases": [
+      "Bharata",
+      "Jada Bharata"
+    ]
+  },
+  "Durgā": {
+    "id": "durga",
+    "native": {
+      "deva": "दुर्गा",
+      "taml": "துர்கை"
+    },
+    "say": "DOOR-gaa",
+    "ipa": "ˈdʊr.ɡaː",
+    "kind": "being",
+    "gloss": "Assembled out of what every god had left over when none of them could win alone. She arrives already fully armed and rather calm about it.",
+    "aliases": [
+      "Durga",
+      "Durgai"
+    ]
+  },
+  "Mahiṣāsura": {
+    "id": "mahishasura",
+    "native": {
+      "deva": "महिषासुर",
+      "taml": "மகிஷாசுரன்"
+    },
+    "say": "muh-hi-SHAA-soo-ruh",
+    "ipa": "mɐ.ɦɪˈʂaː.sʊ.rɐ",
+    "kind": "being",
+    "gloss": "The buffalo who could not be killed by any man or god — which is precisely the loophole the story walks through.",
+    "aliases": [
+      "Mahishasura",
+      "Mahisha"
+    ]
+  },
+  "Kālī": {
+    "id": "kali",
+    "native": {
+      "deva": "काली",
+      "taml": "காளி"
+    },
+    "say": "KAA-lee",
+    "ipa": "ˈkaː.liː",
+    "kind": "being",
+    "gloss": "The Devī when the fighting has gone past winning. The story is not about her rage; it is about the moment she looks down.",
+    "aliases": [
+      "Kali",
+      "Kaali"
+    ]
+  },
+  "Annapūrṇā": {
+    "id": "annapurna",
+    "native": {
+      "deva": "अन्नपूर्णा",
+      "taml": "அன்னபூரணி"
+    },
+    "say": "UN-nuh-poor-naa",
+    "ipa": "ɐn.nɐˈpuːr.ɳaː",
+    "kind": "being",
+    "gloss": "Pārvatī with a ladle. The one who settles an argument about whether the world is real by turning off the kitchens.",
+    "aliases": [
+      "Annapurna",
+      "Annapoorani"
+    ]
+  },
+  "Śākambharī": {
+    "id": "shakambhari",
+    "native": {
+      "deva": "शाकम्भरी"
+    },
+    "say": "SHAA-kum-bhuh-ree",
+    "ipa": "ˈʃaː.kɐm.bʱɐ.riː",
+    "kind": "being",
+    "gloss": "The Devī who ends a hundred-year famine by growing the food on her own body and handing it out before explaining anything.",
+    "aliases": [
+      "Shakambhari"
+    ]
+  },
+  "Narakāsura": {
+    "id": "narakasura",
+    "native": {
+      "deva": "नरकासुर",
+      "taml": "நரகாசுரன்"
+    },
+    "say": "nuh-ruh-KAA-soo-ruh",
+    "ipa": "nɐ.rɐˈkaː.sʊ.rɐ",
+    "kind": "being",
+    "gloss": "A king who asked, as he died, that the day be kept as a festival rather than as his defeat — and got it.",
+    "aliases": [
+      "Narakasura",
+      "Naraka"
+    ]
+  },
+  "Bharata": {
+    "id": "bharata-prince",
+    "native": {
+      "deva": "भरत",
+      "taml": "பரதன்"
+    },
+    "say": "BHUH-ruh-tuh",
+    "ipa": "ˈbʱɐ.rɐ.tɐ",
+    "kind": "person",
+    "gloss": "Rāma's brother, handed a kingdom he never wanted by a mother who took it for him. He ruled it for fourteen years without once sitting on the chair.",
+    "aliases": [
+      "Bharata",
+      "Bharatha"
+    ]
+  },
+  "Kaikeyī": {
+    "id": "kaikeyi",
+    "native": {
+      "deva": "कैकेयी",
+      "taml": "கைகேயி"
+    },
+    "say": "kai-KAY-yee",
+    "ipa": "kɐjˈkeː.jiː",
+    "kind": "person",
+    "gloss": "Bharata's mother, who called in an old promise at the worst possible moment. The epic does not let her off, and does not make her a monster either.",
+    "aliases": [
+      "Kaikeyi"
+    ]
+  },
+  "Vibhīṣaṇa": {
+    "id": "vibhishana",
+    "native": {
+      "deva": "विभीषण",
+      "taml": "விபீஷணன்"
+    },
+    "say": "vi-BHEE-shuh-nuh",
+    "ipa": "ʋɪˈbʱiː.ʂɐ.ɳɐ",
+    "kind": "person",
+    "gloss": "Rāvaṇa's younger brother, who said so in open court, was thrown out for it, and walked across an ocean to the other side.",
+    "aliases": [
+      "Vibhishana",
+      "Vibheeshana"
+    ]
+  },
+  "Ayodhyā": {
+    "id": "ayodhya",
+    "native": {
+      "deva": "अयोध्या",
+      "taml": "அயோத்தி"
+    },
+    "say": "uh-YODH-yaa",
+    "ipa": "ɐˈjoːdʱ.jaː",
+    "kind": "place",
+    "gloss": "Rāma's city. It waits fourteen years, and on the night he is due it lights every lamp it owns because nobody is sure of the hour.",
+    "aliases": [
+      "Ayodhya"
     ]
   }
 }

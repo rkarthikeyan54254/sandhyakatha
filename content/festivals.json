@@ -41,6 +41,18 @@
       "also": "Mahalaya Paksha",
       "blurb": "A fortnight for the people who came before — and the story of a boy who carried both his parents across the country on a pole.",
       "forParents": "Śravaṇa's story is where many children first meet the idea of owing something to a generation they never met. It is tender, and it ends sadly; the page says so before you begin."
+    },
+    "navaratri": {
+      "name": "Navarātri",
+      "also": "Durga Puja, Golu, Dussehra week",
+      "blurb": "Nine nights for the Devī — who was assembled, in a hurry, out of whatever each of the gods had left when none of them could win alone.",
+      "forParents": "The Devī stories are the ones most children's collections skip, and they are the best material in the Purāṇas for a child who is tired of being told to be gentle."
+    },
+    "diwali": {
+      "name": "Dīvālī",
+      "also": "Deepavali, Naraka Chaturdashi",
+      "blurb": "The night a city lit every lamp it owned because it did not know exactly when he was coming, and wanted the road lit whenever he did.",
+      "forParents": "Two stories, depending on where your family is from: Rāma walking home in the north, Naraka's last request in the south. Both are here, and both are worth telling."
     }
   }
 }

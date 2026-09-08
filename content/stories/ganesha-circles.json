@@ -1,0 +1,278 @@
+{
+  "id": "ganesha-circles",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "Gaṇeśa Goes Around the World",
+  "tease": "Two brothers race around the world for a mango. One of them does not leave the room.",
+  "source": {
+    "corpus": "shiva-purana",
+    "tradition": "sanskrit",
+    "work": "Śiva Purāṇa",
+    "locus": "Rudra Saṃhitā; also Skanda Purāṇa and the Tamil Vināyaka Purāṇam",
+    "stability": "regional",
+    "traditionNote": "The tellings differ on the prize and on who set the race. Sanskrit versions usually make it a fruit of wisdom; Tamil ones make it a mango and give Kārttikeya's departure to Palani as the reason that hill is his. We tell the Tamil shape, because it is the one with the sulk in it.",
+    "parallels": [
+      {
+        "work": "Skanda Purāṇa",
+        "locus": "Kaumārika Khaṇḍa"
+      }
+    ],
+    "checkedAgainst": [
+      "Śiva Purāṇa, Rudra Saṃhitā — Motilal Banarsidass ed.",
+      "Tamil Vināyaka Purāṇam, Ratna Nāyakar ed."
+    ]
+  },
+  "audience": {
+    "minAge": 4,
+    "sensitivity": []
+  },
+  "values": [
+    "what counts as the world",
+    "thinking before running"
+  ],
+  "themes": [
+    "brothers",
+    "cleverness",
+    "ganesha",
+    "tamil-nadu"
+  ],
+  "calendar": {
+    "festivals": [
+      "ganesh-chaturthi"
+    ],
+    "months": [
+      "bhadrapada"
+    ],
+    "weight": 9
+  },
+  "characters": [
+    {
+      "ref": "Gaṇeśa",
+      "role": "lead"
+    },
+    {
+      "ref": "Kārttikeya",
+      "role": "foil"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Pārvatī",
+      "role": "present"
+    },
+    {
+      "ref": "Nārada",
+      "role": "present"
+    },
+    {
+      "ref": "Palani",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 2,
+      "words": 251,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Nārada» left one mango in the house, and said that whoever ate it would know everything worth knowing. Then he left, quickly, the way people do when they have handed someone a problem."
+        },
+        {
+          "t": "p",
+          "text": "There were two boys in that house. «Kārttikeya» was fast — a peacock, a spear, and no memory of ever coming second. «Gaṇeśa» was round, rode a mouse, and was not fast at all."
+        },
+        {
+          "t": "p",
+          "text": "Both of them wanted the mango."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "_A race,_ said «Śiva». _Around the world. First one back gets it._"
+        },
+        {
+          "t": "p",
+          "text": "Kārttikeya was gone before the sentence finished. Gaṇeśa looked at his mouse, and the mouse looked back, and both of them could see how this was going to go."
+        },
+        {
+          "t": "p",
+          "text": "So he sat down and thought about it, for long enough that his mother asked if he was quite well."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he got up, walked over to his parents, and walked all the way around them. Slowly. Three times."
+        },
+        {
+          "t": "p",
+          "text": "And he said: _a world is the thing everything else is inside. Everything I have is inside the two of you. I have been round my world three times. Where is my mango?_"
+        },
+        {
+          "t": "p",
+          "text": "Śiva laughed. «Pārvatī» handed it over."
+        },
+        {
+          "t": "p",
+          "text": "Kārttikeya came back days later, filthy, having actually gone round the whole world on a bird, and found his brother on the floor with the juice running down to his elbows. He was angry enough to leave home over it."
+        },
+        {
+          "t": "slow",
+          "text": "Both boys answered the question they were asked. Only one of them stopped to ask what a world is."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 586,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A sage called «Nārada» came to visit, which in that house was usually a sign that something was about to go wrong."
+        },
+        {
+          "t": "p",
+          "text": "He had brought a mango. One mango. And not an ordinary one — whoever ate it, he said, would know everything worth knowing."
+        },
+        {
+          "t": "p",
+          "text": "He handed it to «Śiva» and «Pārvatī» and then left, fairly quickly, the way people do when they have just given someone a problem."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There were two boys in that house."
+        },
+        {
+          "t": "p",
+          "text": "«Kārttikeya» was the older one. He was fast. He rode a peacock, he carried a spear, and he had never in his life come second at anything."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» was the younger one. He was round. He rode a mouse. He was extremely fond of his food and he was not fast at all, and — this matters — he knew it."
+        },
+        {
+          "t": "p",
+          "text": "Both of them wanted the mango."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So their parents did what parents do when there is one of something and two children."
+        },
+        {
+          "t": "p",
+          "text": "_A race,_ said Śiva. _Around the world. First one back gets it._"
+        },
+        {
+          "t": "p",
+          "text": "Kārttikeya was gone before the sentence finished. The peacock went up off the terrace and out over the mountains, and by the time anyone thought to look for him he was a speck, and then he was not even that."
+        },
+        {
+          "t": "p",
+          "text": "He went east first, because you have to start somewhere, and he did it properly. Over the sea, down the far coast, across the ice at the top of the world where the peacock complained bitterly. He did not stop to eat. He counted rivers so he would know he had not missed any."
+        },
+        {
+          "t": "p",
+          "text": "Gaṇeśa looked at his mouse."
+        },
+        {
+          "t": "p",
+          "text": "The mouse looked back at him. Both of them could see how this was going to go."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he sat down and thought about it."
+        },
+        {
+          "t": "p",
+          "text": "This is the part people leave out of the story. He did not have the idea straight away. He sat there long enough that his mother asked whether he was feeling quite well."
+        },
+        {
+          "t": "p",
+          "text": "And then he got up."
+        },
+        {
+          "t": "p",
+          "text": "He walked over to where his parents were sitting. He walked all the way around them — slowly, because he did nothing quickly — and arrived back where he had started."
+        },
+        {
+          "t": "p",
+          "text": "Then he did it again. Three times in all."
+        },
+        {
+          "t": "p",
+          "text": "And he sat down in front of them and said: _a world is the thing everything else is inside. Everything I have is inside the two of you. I have been round my world three times. Where is my mango?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Śiva laughed. Pārvatī gave him the mango."
+        },
+        {
+          "t": "p",
+          "text": "She did not explain it to him, either. She just handed it over, the way you do when a child has surprised you and you would rather not spoil it by saying so."
+        },
+        {
+          "t": "p",
+          "text": "And when Kārttikeya finally came back — days later, filthy and exhausted, having actually done it, having actually gone the whole way round the world on a bird — his younger brother was sitting on the floor with mango juice running down to his elbows."
+        },
+        {
+          "t": "p",
+          "text": "You can imagine how that went."
+        },
+        {
+          "t": "p",
+          "text": "He said a great many things. Some of them were about the rules. Some of them were about the mouse. His mother let him finish."
+        },
+        {
+          "t": "p",
+          "text": "He was angry enough to leave home over it. He went south, and climbed a hill at «Palani», and sat down on it. There are people who will tell you he has not entirely got over it yet."
+        },
+        {
+          "t": "slow",
+          "text": "Both boys answered the question they were asked. Only one of them stopped to ask what a world is."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "pusalar-temple",
+    "reason": "another story where the small, unhurried person turns out to have understood the question"
+  },
+  "close": {
+    "question": "Gaṇeśa did not go round the world. Do you think he won fairly?",
+    "seed": "Sometimes the clever answer is to check what the question actually meant.",
+    "ifTheyAsk": [
+      {
+        "q": "Wasn't that cheating?",
+        "a": "It is a fair thing to be annoyed about, and Kārttikeya certainly was. The honest answer is that Gaṇeśa did not break the rule — he read it differently, and his parents accepted the reading. Ask your child which they would have done. Most children under seven side with Gaṇeśa and most over ten side with his brother, which is interesting in itself."
+      },
+      {
+        "q": "Why is Kārttikeya still angry?",
+        "a": "Because the story is also about being the one who does everything right and still loses. That happens to older brothers and sisters constantly. It is worth saying out loud that his anger is reasonable — the story does not punish him for it, it just tells you where he went."
+      },
+      {
+        "q": "Did he really have an elephant's head?",
+        "a": "Yes, in every telling — and how he got it is a separate story, and a harder one, involving his father not recognising him. That one is in the collection for older children. Tonight it is enough that he had it and that nobody in the room found it remarkable."
+      }
+    ]
+  }
+}

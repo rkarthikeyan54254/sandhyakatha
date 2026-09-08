@@ -2,7 +2,7 @@
   "id": "pusalar-temple",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
+  "version": 2,
   "updated": "2026-09-08",
   "title": "The Temple Nobody Could See",
   "tease": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival.",
@@ -128,8 +128,8 @@
       ]
     },
     "full": {
-      "minutes": 4,
-      "words": 450,
+      "minutes": 6,
+      "words": 597,
       "blocks": [
         {
           "t": "p",
@@ -137,7 +137,7 @@
         },
         {
           "t": "p",
-          "text": "He lived at «Tiruniṉṟavūr», and he was not a rich man. He had no land, no quarry, no elephants to drag stone, and no way of getting any of it."
+          "text": "He lived at «Tiruniṉṟavūr», and he was not a rich man. He had no land, no quarry, no elephants to drag stone, and no way at all of getting any of it. He asked. People were kind about it, and the answer was no."
         },
         {
           "t": "p",
@@ -152,7 +152,7 @@
         },
         {
           "t": "p",
-          "text": "First he chose the ground. He walked the village in his mind until he found the right rise — dry in the rains, facing east. He cleared it. He let the ground settle."
+          "text": "First he chose the ground. He walked the village in his mind until he found the right rise — dry in the rains, facing east, far enough from the tank that the wet would not creep. He cleared it. He let the ground settle through a season before he touched it again."
         },
         {
           "t": "p",
@@ -160,11 +160,11 @@
         },
         {
           "t": "p",
-          "text": "He laid the stones. He raised the walls course by course, and where the walls met he checked the corners. He set the pillars, and put the beams across them. He built the tower over the sanctum, narrowing it as it rose. He hung the doors."
+          "text": "He laid the stones. He raised the walls course by course, and where the walls met he checked the corners. He set the pillars and put the beams across them. He built the tower over the sanctum, narrowing it as it rose, the way they do. He hung the doors, and they were heavy, and he hung them properly."
         },
         {
           "t": "p",
-          "text": "This took years."
+          "text": "This took years. Nobody knew he was doing it. He went out to work and came back and ate and lay down, and in the dark he checked the corners of a wall that was not there, and slept, and went out to work again."
         },
         {
           "t": "beat"
@@ -179,7 +179,7 @@
         },
         {
           "t": "p",
-          "text": "It was enormous. Cut stone, hundreds of men, years of work — one of the most beautiful buildings anyone in that country had ever seen. It is still standing, by the way. You can walk around it."
+          "text": "It was enormous. Cut stone, hundreds of men, years of work, carvers brought in from elsewhere and housed and fed the whole time. One of the most beautiful buildings anyone in that country had ever seen. It is still standing, by the way. You can walk around it."
         },
         {
           "t": "p",
@@ -198,7 +198,7 @@
         },
         {
           "t": "p",
-          "text": "The king, in the dream, asked why."
+          "text": "The king, in the dream, asked why. He was, you have to remember, a king, and this was the largest thing he had ever done."
         },
         {
           "t": "p",
@@ -209,11 +209,11 @@
         },
         {
           "t": "p",
-          "text": "The king woke up. Then he did what any king would do, which was get on a horse and go and look at this other temple — the one that had beaten his."
+          "text": "The king woke up. Then he did what any king would do, which was get on a horse before it was properly light and go and look at this other temple — the one that had beaten his."
         },
         {
           "t": "p",
-          "text": "He rode to Tiruniṉṟavūr and found nothing. A village. Some houses. No temple, no scaffolding, not so much as a heap of stone."
+          "text": "He rode to Tiruniṉṟavūr and found nothing. A village. Some houses. A tank with buffalo in it. No temple, no scaffolding, not so much as a heap of stone waiting to be cut."
         },
         {
           "t": "p",
@@ -221,7 +221,7 @@
         },
         {
           "t": "p",
-          "text": "And the king — you have to picture him standing there in his good clothes, having ridden all that way — asked him where the temple was."
+          "text": "And the king — you have to picture him standing there in his good clothes, having ridden all that way, with his men waiting on the road — asked him where the temple was."
         },
         {
           "t": "p",
@@ -232,7 +232,7 @@
         },
         {
           "t": "p",
-          "text": "The king went home and moved his own consecration to a different day."
+          "text": "The king listened. Then he got back on the horse, rode home, and moved his own consecration to a different day."
         },
         {
           "t": "slow",

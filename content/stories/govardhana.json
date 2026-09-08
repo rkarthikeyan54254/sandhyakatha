@@ -2,7 +2,7 @@
   "id": "govardhana",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
+  "version": 2,
   "updated": "2026-09-08",
   "title": "The Mountain Held Up by Sticks",
   "tease": "A seven-year-old holds a hill over a village for seven days. A cowherd puts his stick up to help.",
@@ -127,12 +127,16 @@
       ]
     },
     "full": {
-      "minutes": 3,
-      "words": 361,
+      "minutes": 6,
+      "words": 589,
       "blocks": [
         {
           "t": "p",
           "text": "Every year, when the rains were finishing, the people of «Vraja» made a great offering to «Indra», king of the gods, who sends the rain."
+        },
+        {
+          "t": "p",
+          "text": "It took a month to get ready. The rice came in on carts. The butter was churned in the big pots and carried out in the cool of the morning, and the children were told not to touch it about four hundred times."
         },
         {
           "t": "p",
@@ -143,12 +147,19 @@
           "text": "«Kṛṣṇa» was seven. He said: _whose grass do the cows eat? The mountain's. Whose water do we drink? The mountain's streams. Whose shade do we sit in all afternoon? «Govardhana»'s. So why do we never thank the mountain?_"
         },
         {
-          "t": "p",
-          "text": "The elders argued about it. The boy was seven. But he was also — well. They knew what he was."
+          "t": "beat"
         },
         {
           "t": "p",
-          "text": "So that year the food went to Govardhana. Mountains of rice, hills of butter, and the whole village walked around the hill and bowed to it."
+          "text": "The elders argued about it, and you would have argued too. Indra had been thanked for as long as anyone could remember, and nobody could say what would happen if he weren't."
+        },
+        {
+          "t": "p",
+          "text": "But the boy was seven and would not let it go. And he was also — well. They knew what he was."
+        },
+        {
+          "t": "p",
+          "text": "So that year the food went to Govardhana. Mountains of rice, hills of butter, whole trees of banana leaf. The village walked the long way round the hill, the entire way, singing — and the cows walked it too, because nobody could think of a good reason to leave them behind."
         },
         {
           "t": "beat"
@@ -159,18 +170,22 @@
         },
         {
           "t": "p",
-          "text": "The clouds he sent were black as wet stone. The rain came sideways. It came for a day, and then two, and then the cattle were standing in water up to their knees, and the children were crying, and the roofs were coming apart above them."
+          "text": "The clouds he sent were black as wet stone. They came in low and they did not move on. The rain fell sideways."
         },
         {
           "t": "p",
-          "text": "The people ran to Kṛṣṇa, because when you are frightened you run to whoever is not."
+          "text": "It fell for a day, and then for two, and then the cattle were standing in water up to their knees, and the calves were being carried, and the children were crying, and the roofs were coming apart above them."
+        },
+        {
+          "t": "p",
+          "text": "The people ran to Kṛṣṇa. Because when you are frightened you run to whoever is not."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "He walked out to the hill. He put one hand under its edge."
+          "text": "He walked out to the hill in all that rain. He put one hand under its edge."
         },
         {
           "t": "p",
@@ -178,15 +193,15 @@
         },
         {
           "t": "p",
-          "text": "Govardhana came up out of the earth like a lid off a pot, and he held it over the village on the little finger of his left hand, and he said, _come in._"
+          "text": "Govardhana came up out of the earth like a lid off a pot — the whole hill, with its trees and its goat paths and its streams still running down the sides of it — and he held it over the village on the little finger of his left hand, and he said, _come in._"
         },
         {
           "t": "p",
-          "text": "They came in. Everyone. The cows, the calves, the carts, the grandmothers, the dogs."
+          "text": "They came in. Everyone. The cows, the calves, the carts, the grandmothers, the dogs, and a truly unreasonable number of cooking pots. It was dry under there. After a while it was warm. Somebody started a fire."
         },
         {
           "t": "p",
-          "text": "And they stood under the mountain and looked up at this seven-year-old holding it, and one of the cowherds — you can imagine him — thought: _he must be getting tired._"
+          "text": "And they stood under the mountain and looked up at this seven-year-old holding it — and one of the cowherds, standing with the rain roaring six feet away and not touching him, thought: _he must be getting tired._"
         },
         {
           "t": "p",
@@ -201,7 +216,11 @@
         },
         {
           "t": "p",
-          "text": "Seven days. Seven days of rain, and the whole time, a ring of cowherds standing with their sticks up against the roof of the world, absolutely certain they were holding it up."
+          "text": "Seven days. Seven days of rain, and the whole time a ring of cowherds standing with their sticks up against the roof of the world, absolutely certain they were holding it up. Changing shifts. Telling each other to mind their arms."
+        },
+        {
+          "t": "p",
+          "text": "On the eighth day the rain stopped, because Indra had run out of rain and had begun to work out what he had done. Kṛṣṇa waited until the last cow had wandered out. Then he set the hill down exactly where it had been."
         },
         {
           "t": "p",

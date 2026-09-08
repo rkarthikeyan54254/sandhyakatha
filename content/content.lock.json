@@ -1,15 +1,25 @@
 {
   "generated": "2026-09-08",
   "stories": {
-    "govardhana": {
+    "ganesha-circles": {
       "version": 1,
+      "status": "in-review",
+      "hash": "36ccbde838e36f95"
+    },
+    "govardhana": {
+      "version": 2,
       "status": "published",
-      "hash": "9842f0a89bc50590"
+      "hash": "f7255d433f914a35"
     },
     "pusalar-temple": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "829c015eb609098f"
+      "hash": "5eddd52967c917b8"
+    },
+    "squirrel-setu": {
+      "version": 1,
+      "status": "in-review",
+      "hash": "ed837cd445d6b263"
     }
   }
 }

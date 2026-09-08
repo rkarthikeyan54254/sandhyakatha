@@ -1,0 +1,264 @@
+{
+  "id": "squirrel-setu",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "The Squirrel Who Carried Sand",
+  "tease": "An army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "folk",
+    "work": "Rāmāyaṇa",
+    "locus": "Yuddha Kāṇḍa — the building of the Setu",
+    "stability": "regional",
+    "traditionNote": "The bridge is in Vālmīki. The squirrel is not. She reaches us through Tamil and other regional retellings and through a great many grandmothers, and there is no Sanskrit text to check her against — which is worth knowing, and does not make her less true.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa — Critical Edition, Baroda",
+      "Kamba Rāmāyaṇam, Yuddha Kāṇḍam — Tamil text"
+    ]
+  },
+  "audience": {
+    "minAge": 4,
+    "sensitivity": []
+  },
+  "values": [
+    "small things count",
+    "being overlooked"
+  ],
+  "themes": [
+    "bridge",
+    "sea",
+    "effort",
+    "tamil-nadu"
+  ],
+  "calendar": {
+    "seasons": [
+      "monsoon-end"
+    ],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Rāma",
+      "role": "lead"
+    },
+    {
+      "ref": "Nala",
+      "role": "present"
+    },
+    {
+      "ref": "vānaras",
+      "role": "present"
+    },
+    {
+      "ref": "Setu",
+      "role": "present"
+    },
+    {
+      "ref": "Sītā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Laṅkā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 2,
+      "words": 219,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The sea would not move. «Rāma»'s army had to cross to «Laṅkā», and there was no bridge — so the «vānaras» pulled the mountains apart and threw them into the water, boulder after boulder, for days."
+        },
+        {
+          "t": "p",
+          "text": "Nobody noticed the squirrel."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She was too small to lift a pebble. So she ran down to the shore, rolled in the wet sand until her fur was heavy with it, ran back up onto the bridge, and shook it out into the gaps between the stones."
+        },
+        {
+          "t": "p",
+          "text": "Then she ran down and did it again. All day, while the thunder went on over her head."
+        },
+        {
+          "t": "p",
+          "text": "A monkey laughed, picked her up the way you would move a leaf, and set her aside. _Not now, little one. This is work for big hands._"
+        },
+        {
+          "t": "p",
+          "text": "And Rāma turned around."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He knelt down. He let her climb into his palm. And he said, loudly enough for the monkeys to hear: _the bridge is not only rocks. Her sand fills what the rocks leave open. Without her it is a pile. With her it is a road._"
+        },
+        {
+          "t": "p",
+          "text": "Then he ran three fingers gently down her back."
+        },
+        {
+          "t": "p",
+          "text": "The army crossed it four days later. It held."
+        },
+        {
+          "t": "slow",
+          "text": "That is why every squirrel still carries three pale stripes. They are the marks of his fingers, and she never washed them off."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 579,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The sea would not move."
+        },
+        {
+          "t": "p",
+          "text": "On one side stood an army of «vānaras» — monkeys and bears, thousands of them, hands cupped and empty. On the other side, far across the water, was «Laṅkā». And in Laṅkā was «Sītā»."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» needed a bridge."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So «Nala» the builder walked down the beach and looked at the water for a long time, and then began giving orders."
+        },
+        {
+          "t": "p",
+          "text": "The mountains came apart in their hands. Boulders the size of houses went into the sea. Whole trees with the roots still on them. Rocks passed hand to hand down a line of monkeys a mile long, each one landing with a sound like thunder, and the water boiling white where it took them."
+        },
+        {
+          "t": "p",
+          "text": "It went on for days. The «Setu» crept out from the shore a little further every morning, and every evening the sea tried to take some of it back."
+        },
+        {
+          "t": "p",
+          "text": "Nala had a rule, and he shouted it all day until they were sick of him: _the big ones first, then the ones that fit the holes, then the small ones, then the sand._ Nobody was listening to the last part. There was no sand. There was nobody to bring any."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Nobody noticed the squirrel."
+        },
+        {
+          "t": "p",
+          "text": "She was small enough to sit in your palm. She could not lift a rock. She could not, honestly, lift a pebble."
+        },
+        {
+          "t": "p",
+          "text": "So she did the only thing she could think of."
+        },
+        {
+          "t": "p",
+          "text": "She ran down to the shore. She rolled in the wet sand until her fur was thick and heavy with it. She ran back up onto the growing bridge, and shook herself out, and a little grey dust fell into the spaces between the stones."
+        },
+        {
+          "t": "p",
+          "text": "Then she ran back down. And did it again."
+        },
+        {
+          "t": "p",
+          "text": "And again. All day, while the thunder went on over her head."
+        },
+        {
+          "t": "p",
+          "text": "She was not trying to be noticed. That is worth saying. Nobody had asked her, nobody was counting, and if she had stopped at midday and gone home to her tree, the only creature in the world who would have known was her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A monkey saw her and laughed. Then a few more of them laughed."
+        },
+        {
+          "t": "p",
+          "text": "And one of them picked her up by the scruff — gently, the way you would move a leaf off a step — and set her down on the beach out of the way, and said: _not now, little one. This is work for big hands._"
+        },
+        {
+          "t": "p",
+          "text": "She sat there. She was, I think, about to start again anyway."
+        },
+        {
+          "t": "p",
+          "text": "And «Rāma», who had been standing at the water's edge watching the sea, turned around."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He came back down the sand and knelt, which took a while, because everybody had to move."
+        },
+        {
+          "t": "p",
+          "text": "He held out his hand, and the squirrel climbed into it."
+        },
+        {
+          "t": "p",
+          "text": "And he said, so that the monkeys nearby could hear him: _the bridge is not only rocks. The sand she brings fills the spaces the rocks leave open. Without her it is a pile. With her it is a road._"
+        },
+        {
+          "t": "p",
+          "text": "Then he ran three fingers, very gently, down her back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The army went across it four days later. All of them. It held."
+        },
+        {
+          "t": "p",
+          "text": "Nala walked it first, the whole length, testing. He came back and said one word, which was _good_, and then would not say anything else for an hour."
+        },
+        {
+          "t": "slow",
+          "text": "And that is why, even now, every squirrel you see carries three pale stripes down her back. They are the marks of Rāma's fingers, and she never washed them off."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "govardhana",
+    "reason": "another story where the help that looks too small to matter turns out to be the part that holds"
+  },
+  "close": {
+    "question": "The monkeys thought her sand did not count. What is something small you did that you thought did not count?",
+    "seed": "A job is never only for big hands.",
+    "ifTheyAsk": [
+      {
+        "q": "But was it a real squirrel?",
+        "a": "Nobody can know. But tomorrow, look at the back of a squirrel — the three stripes really are there, and this is the story people made to explain them. That is what a lot of stories are for. Children usually find that more interesting than a yes."
+      },
+      {
+        "q": "Why didn't Rāma just tell the monkey off?",
+        "a": "Notice that he doesn't. He explains what the sand does instead, and he says it where the others can hear. That is a different thing from telling someone off, and it is worth pointing at — he corrected the monkey's understanding rather than his manners."
+      },
+      {
+        "q": "Is the bridge still there?",
+        "a": "There is a line of shoals and sandbanks between India and Sri Lanka that you can see from a plane and from space. People have argued about it for centuries. The honest answer is that something is there, and what it is depends on who you ask."
+      }
+    ]
+  }
+}

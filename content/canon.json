@@ -2,7 +2,8 @@
   "_readme": {
     "purpose": "Every story in the collection, in the order it enters the shelf. wave 1 = the famous ones that earn trust. wave 2 = the deep cuts that earn the subscription. wave 3 = the difficult ones, restored on Rama's call, gated rather than cut.",
     "the_gate": "audience.gated is the mechanism that makes 'parent's discretion' real rather than a slogan. A gated story never surfaces as tonight's pick and never appears in browse until the parent switches on 'Include the difficult ones', and its careNote is shown before the first line. Nothing is removed from the collection; the parent chooses when.",
-    "counts": "68 stories — wave 1: 30 · wave 2: 30 · wave 3: 8 · gated: 5"
+    "counts": "77 stories — wave 1: 30 · wave 2: 30 · wave 3: 8 · wave 4: 9 · gated: 5",
+    "wave_4": "The gaps, found by asking which nights of the year the collection could not speak to. No Devi cycle and no story of Rama coming home meant Navaratri and Diwali had nothing between them. Also thickens the character map: mothers, Ravana's family, and Ayodhya beyond Rama."
   },
   "canon": [
     {
@@ -19,7 +20,7 @@
       "value": "small things count",
       "hook": "An army throws mountains into the sea. Nobody notices the squirrel with sand in her fur.",
       "festivals": [],
-      "status": "published",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -427,7 +428,7 @@
       "n": 22,
       "id": "ganesha-circles",
       "title": "Gaṇeśa Goes Around the World",
-      "corpus": "purana",
+      "corpus": "shiva-purana",
       "tradition": "sanskrit",
       "work": "Śiva Purāṇa",
       "locus": "Rudra Saṃhitā; also Skanda Purāṇa",
@@ -439,7 +440,7 @@
       "festivals": [
         "ganesh-chaturthi"
       ],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -479,7 +480,7 @@
       "value": "refusing an easy answer",
       "hook": "Death offers a boy the whole earth if he will only stop asking one question. The boy says no.",
       "festivals": [],
-      "status": "published",
+      "status": "draft",
       "wave": 1,
       "gated": false
     },
@@ -1320,6 +1321,189 @@
       "festivals": [],
       "status": "draft",
       "wave": 3,
+      "gated": false
+    },
+    {
+      "n": 69,
+      "id": "durga-mahishasura",
+      "title": "The Buffalo Nobody Could Fight",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Devī Māhātmya (Mārkaṇḍeya Purāṇa)",
+      "locus": "Chapters 2–3",
+      "stability": "stable",
+      "minAge": 8,
+      "sensitivity": [
+        "violence"
+      ],
+      "value": "made out of what everyone had left",
+      "hook": "No god can beat him alone, so they each give up a piece of what they have, and out of the pile something walks that none of them expected.",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 70,
+      "id": "shakambhari",
+      "title": "The Woman Who Fed the World",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Devī Māhātmya (Mārkaṇḍeya Purāṇa)",
+      "locus": "Chapter 11",
+      "stability": "stable",
+      "minAge": 6,
+      "sensitivity": [],
+      "value": "feeding people before explaining anything",
+      "hook": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word.",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 71,
+      "id": "annapurna-bhiksha",
+      "title": "Śiva Goes Begging at His Own Door",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Kāśī Khaṇḍa, Skanda Purāṇa",
+      "locus": "The Annapūrṇā episode",
+      "stability": "variant",
+      "minAge": 6,
+      "sensitivity": [],
+      "value": "who actually feeds you",
+      "hook": "He has argued that the world is an illusion and food along with it. She turns the kitchens off. He lasts about a day, and then queues with a bowl.",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 72,
+      "id": "kali-stops",
+      "title": "The Foot She Almost Stepped On",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Devī Bhāgavata; Śiva Purāṇa",
+      "locus": "The dance of Kālī",
+      "stability": "variant",
+      "minAge": 10,
+      "sensitivity": [
+        "violence"
+      ],
+      "value": "stopping",
+      "hook": "She has won and she cannot stop. So he lies down in front of her, in the middle of it, and waits to see whether she looks down.",
+      "festivals": [],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 73,
+      "id": "rama-returns",
+      "title": "The Night They Lit the Whole Road",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Rāmāyaṇa",
+      "locus": "Yuddha Kāṇḍa — the return to Ayodhyā",
+      "stability": "stable",
+      "minAge": 5,
+      "sensitivity": [],
+      "value": "coming home",
+      "hook": "Fourteen years to the day. Nobody knows exactly when he will arrive, so the whole city puts out lamps and leaves them burning all night, just in case.",
+      "festivals": [
+        "diwali"
+      ],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 74,
+      "id": "narakasura",
+      "title": "The Morning After Naraka",
+      "corpus": "bhagavata",
+      "tradition": "sanskrit",
+      "work": "Bhāgavata Purāṇa",
+      "locus": "Skandha 10, chapter 59",
+      "stability": "stable",
+      "minAge": 8,
+      "sensitivity": [
+        "violence",
+        "death"
+      ],
+      "value": "the mercy nobody had to give",
+      "hook": "He asks for one thing as he dies — that the day be remembered as a festival rather than as his defeat. He gets it, and we still keep it.",
+      "festivals": [
+        "diwali"
+      ],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 75,
+      "id": "bharata-sandals",
+      "title": "The Empty Chair",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Rāmāyaṇa",
+      "locus": "Ayodhyā Kāṇḍa",
+      "stability": "stable",
+      "minAge": 6,
+      "sensitivity": [
+        "parental-conflict"
+      ],
+      "value": "refusing what you were handed",
+      "hook": "He is offered a kingdom his mother took for him. He goes to the forest to give it back, is refused, and comes home with a pair of sandals instead.",
+      "festivals": [],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 76,
+      "id": "vibhishana-crosses",
+      "title": "The Brother Who Walked Out",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Rāmāyaṇa",
+      "locus": "Yuddha Kāṇḍa",
+      "stability": "stable",
+      "minAge": 9,
+      "sensitivity": [
+        "injustice"
+      ],
+      "value": "leaving your own side",
+      "hook": "He tells his brother the truth in open court, is thrown out for it, and walks across an ocean to the people his family is at war with.",
+      "festivals": [],
+      "status": "draft",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 77,
+      "id": "krishna-embassy",
+      "title": "The Last Errand Before the War",
+      "corpus": "mahabharata",
+      "tradition": "sanskrit",
+      "work": "Mahābhārata",
+      "locus": "Udyoga Parva",
+      "stability": "stable",
+      "minAge": 11,
+      "sensitivity": [],
+      "value": "trying anyway when you know",
+      "hook": "He goes to ask for five villages instead of a kingdom, knowing the answer, because nobody afterwards should be able to say it was not asked.",
+      "festivals": [],
+      "status": "draft",
+      "wave": 4,
       "gated": false
     }
   ]

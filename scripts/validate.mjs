@@ -209,6 +209,25 @@ try {
   err('panchanga.json', `unreadable — ${e.message}`);
 }
 
+/* ---------- the canon itself ---------- */
+// The canon is not schema-validated (only stories are), so its enums used to
+// drift unchecked — a bare "purana" corpus rendered fine in the UI and was
+// never legal. Check it against the same enums the stories obey.
+{
+  const cEnum = new Set(schema.properties.source.properties.corpus.enum);
+  const tEnum = new Set(schema.properties.source.properties.tradition.enum);
+  const sEnum = new Set(schema.properties.status.enum);
+  for (const c of canon) {
+    if (!cEnum.has(c.corpus))    err('canon.json', `"${c.id}" has corpus "${c.corpus}", which is not in the schema`);
+    if (!tEnum.has(c.tradition)) err('canon.json', `"${c.id}" has tradition "${c.tradition}", which is not in the schema`);
+    if (!sEnum.has(c.status))    err('canon.json', `"${c.id}" has status "${c.status}", which is not in the schema`);
+    // A canon row claiming publication with no story behind it is the worst
+    // kind of drift: the shelf promises something that does not exist.
+    if (c.status === 'published' && !stories.has(c.id))
+      err('canon.json', `"${c.id}" is marked published but has no story file`);
+  }
+}
+
 /* ---------- report ---------- */
 const c = { r: '\x1b[31m', y: '\x1b[33m', g: '\x1b[32m', d: '\x1b[2m', x: '\x1b[0m' };
 for (const w of warnings) console.log(`${c.y}warn${c.x}  ${w}`);

@@ -45,6 +45,11 @@ them. That is the entire trust proposition, and it is worth more than the story.
   (3 minutes) and `full` is 650–720 words (6 minutes). The validator recomputes
   `minutes` from the actual text and will not let a label lie — if your full
   telling comes out at 4 minutes, the telling is short, not the label wrong.
+  **The whole product promises six minutes. A `full` rendition that does not
+  reach 6 is not finished.** Do not pad it to get there: add a scene, a
+  consequence, an aftermath — the thing the clipped version left out. The
+  eighth day, when Indra runs out of rain, was missing from Govardhana for
+  exactly this reason, and the story is better for having it.
 - Read it out loud, all the way through, before you approve it. Every sentence
   you stumble on gets rewritten. This is not optional and there is no substitute.
 
