@@ -1,0 +1,328 @@
+{
+  "id": "shakambhari",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "The Woman Who Fed the World",
+  "tease": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Devī Māhātmya (Mārkaṇḍeya Purāṇa)",
+    "locus": "Chapter 11, expanded from Devī Bhāgavata Purāṇa 7.28",
+    "stability": "variant",
+    "traditionNote": "The Devī Māhātmya gives this as a promise, not a scene: in chapter 11 the Devī says what she will do when the rain fails for a hundred years, and it takes six verses. The full story — Durgama, the hundred eyes, the nine nights of weeping — is told at length in the later Devī Bhāgavata Purāṇa. We tell that one.",
+    "checkedAgainst": [
+      "Devī Māhātmya — Coburn, 'Encountering the Goddess', SUNY",
+      "Devī Bhāgavata Purāṇa — Vijnanananda trans., Book VII"
+    ],
+    "sourcing": [
+      {
+        "claim": "The Devī promises that when rain fails for a hundred years she will appear",
+        "locus": "Devī Māhātmya 11.44"
+      },
+      {
+        "claim": "She will be praised as Śatākṣī, the hundred-eyed",
+        "locus": "Devī Māhātmya 11.44"
+      },
+      {
+        "claim": "She will support the world with vegetables grown from her own body, and be called Śākambharī",
+        "locus": "Devī Māhātmya 11.45–46"
+      },
+      {
+        "claim": "She will then kill the asura Durgama and take the name Durgā from him",
+        "locus": "Devī Māhātmya 11.49–50"
+      },
+      {
+        "claim": "Durgama obtains the Vedas by austerity; they vanish from memory and the rites stop",
+        "locus": "Devī Bhāgavata Purāṇa 7.28"
+      },
+      {
+        "claim": "Rain fails for a hundred years as a consequence of the rites stopping",
+        "locus": "ibid."
+      },
+      {
+        "claim": "She appears, weeps for nine nights, and the tears fill the rivers",
+        "locus": "ibid."
+      },
+      {
+        "claim": "She gives the Vedas back",
+        "locus": "ibid."
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Whether this is a scene or a promise",
+        "tellings": "The Devī Māhātmya (ch. 11) has the Devī foretell it in six verses and move on. The Devī Bhāgavata Purāṇa (7.28) tells it as a full episode with Durgama, the theft of the Vedas and the nine nights of weeping.",
+        "weTell": "The Devī Bhāgavata's long version, because the short one is only where the names come from."
+      },
+      {
+        "differs": "Where the name Durgā comes from",
+        "tellings": "The same Devī Māhātmya calls her Durgā throughout the Mahiṣāsura chapters, then in chapter 11 says the name is taken from Durgama.",
+        "weTell": "Both, and we say so — the name is plainly older than either story attached to it."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [
+      "death",
+      "loss"
+    ],
+    "careNote": "A famine, described plainly: wells going dry, the seed grain eaten, animals dying, children who have never seen rain. Nothing gruesome, but the hunger is not skipped over, because the story is about someone arriving in the middle of it. The asura's death is one sentence at the end and is not dwelt on."
+  },
+  "values": [
+    "looking at it before fixing it",
+    "feeding people before explaining"
+  ],
+  "themes": [
+    "devi",
+    "navaratri",
+    "famine",
+    "names"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 8
+  },
+  "characters": [
+    {
+      "ref": "Śākambharī",
+      "role": "lead"
+    },
+    {
+      "ref": "Durgama",
+      "role": "foil"
+    },
+    {
+      "ref": "Śatākṣī",
+      "role": "present"
+    },
+    {
+      "ref": "Durgā",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 351,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There was a hundred years without rain, and it started with a man asking for exactly the right thing."
+        },
+        {
+          "t": "p",
+          "text": "«Durgama» sat still for a very long time, and at the end of it he was offered anything he liked. He asked for the «Vedas». Not books — the words people said. Over a fire, over a field, over a morning. He took them, and nobody could remember any of it."
+        },
+        {
+          "t": "p",
+          "text": "The fires went out. The rain, which in those days came when it was called, was not called. So it did not come."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The wells went first, and then the rivers. Then the seed grain, which is the last thing a family eats, because eating it means there is no next year. Then there were children who had heard the word _rain_ and had no picture to put with it."
+        },
+        {
+          "t": "p",
+          "text": "The ones who were left said her name. They said it badly, in cracked voices, with none of the right words, because the right words were gone."
+        },
+        {
+          "t": "p",
+          "text": "She came anyway. And then she did nothing at all, for nine nights."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She looked at them. The text gives her a hundred eyes to do it with, so that she could see all of it at once and never have to choose which part to look at. They called her «Śatākṣī» afterwards, which only means the hundred-eyed, and it is not a name about power."
+        },
+        {
+          "t": "p",
+          "text": "And she cried. For nine nights, without stopping, and it ran off her onto the ground and filled the rivers, and it was the first water anything had had in a hundred years."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then she fed them, and the food was growing on her. Greens and roots and gourds and grain — the ordinary things, the things you would actually cook."
+        },
+        {
+          "t": "p",
+          "text": "She handed them out. She made no speech first and asked nobody anything. She fed the nearest person, and then the next one, and then the next. «Śākambharī», they called her for that: the one who carries the vegetables."
+        },
+        {
+          "t": "slow",
+          "text": "She could have started with the food. She started with the looking, and the looking took nine nights."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 684,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There was a hundred years without rain."
+        },
+        {
+          "t": "p",
+          "text": "Not a dry summer. Not a bad year people still talk about afterwards. A hundred years — and it began because a man wanted something and asked for it carefully."
+        },
+        {
+          "t": "p",
+          "text": "«Durgama» sat down and did not move for a very long time, and at the end of it he was offered anything he liked. He did not ask for strength. He asked for the «Vedas»."
+        },
+        {
+          "t": "p",
+          "text": "Which sounds like asking for books."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It is not like asking for books. The Vedas were what people said — the words for the morning, the words for the fire, the words you said over a field before you planted it."
+        },
+        {
+          "t": "p",
+          "text": "None of it was written down anywhere. All of it was known by heart."
+        },
+        {
+          "t": "p",
+          "text": "So when Durgama took them they were simply gone. The priests opened their mouths at dawn and nothing came. The fires went out and stayed out."
+        },
+        {
+          "t": "p",
+          "text": "And the rain, which in those days came when it was called, was not called. So it did not come."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A hundred years is longer than it sounds. It is longer than anybody alive."
+        },
+        {
+          "t": "p",
+          "text": "The wells went first and the rivers second, which surprised everybody. Then the seed grain — the last thing a family eats, because the day you eat it is the day you have decided there is no next year."
+        },
+        {
+          "t": "p",
+          "text": "Then the animals. Then there were children who had heard the word _rain_ and had no picture to put with it, the way you might know the word for an animal nobody has seen."
+        },
+        {
+          "t": "p",
+          "text": "The ones who were left went up the mountain and said her name."
+        },
+        {
+          "t": "p",
+          "text": "They said it badly. Cracked voices, no fire lit, none of the right words, because the right words were the thing that had been taken."
+        },
+        {
+          "t": "p",
+          "text": "She came anyway."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then she did nothing at all, for nine nights."
+        },
+        {
+          "t": "p",
+          "text": "She stood there and she looked at them. The text gives her a hundred eyes to do it with — so that she could take in all of it at once, and never have to choose which part to look at."
+        },
+        {
+          "t": "p",
+          "text": "They called her «Śatākṣī» afterwards. It only means the hundred-eyed. It is not a name about power. It is a name about how long she looked."
+        },
+        {
+          "t": "p",
+          "text": "And she cried."
+        },
+        {
+          "t": "p",
+          "text": "For nine nights, without stopping. It ran off her onto the ground and did not soak away, until the rivers had something in them again. That was the first water anything had had in a hundred years, and it came out of her face."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then she fed them."
+        },
+        {
+          "t": "p",
+          "text": "This is the part children want described properly, so: the food was growing on her. Out of her own body. Greens and roots and gourds and grain, and it kept coming, and all of it completely ordinary. The things you would actually cook."
+        },
+        {
+          "t": "p",
+          "text": "She began handing them out."
+        },
+        {
+          "t": "p",
+          "text": "She made no speech. She did not explain where she had been for a hundred years, or ask why they had stopped saying her name. She fed the nearest person, and then the next one."
+        },
+        {
+          "t": "p",
+          "text": "«Śākambharī», they called her for that. The one who carries the vegetables. Of all her names, that is the one that remembers the afternoon she turned up with food on her back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Durgama came out to see what was happening, and that part took her considerably less time than the crying had."
+        },
+        {
+          "t": "p",
+          "text": "Then she gave the Vedas back. She had them the whole time. The giving back takes about one line, with no ceremony at all, the way you hand something back to someone who left it at your house."
+        },
+        {
+          "t": "p",
+          "text": "And she took his name and kept it. That is where it comes from. «Durgā» is the one who dealt with Durgama — so the grandest name in the collection has a hundred-year drought behind it, a hundred eyes, and an armful of vegetables."
+        },
+        {
+          "t": "slow",
+          "text": "She could have fed them the minute she arrived. She looked at them first, for nine nights, until she had properly seen it. The feeding is the famous part. The looking is the part she is named for."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "annapurna-bhiksha",
+    "reason": "the same argument from the other side — a goddess who settles something by deciding who eats"
+  },
+  "close": {
+    "question": "She could have handed out food the moment she got there, and instead she looked at everybody for nine nights first. Why do you think she did that?",
+    "seed": "Looking at someone properly is part of helping them.",
+    "ifTheyAsk": [
+      {
+        "q": "Wasn't she called Durgā because of the buffalo?",
+        "a": "Good catch — and both are in the same book. The Devī Māhātmya tells the Mahiṣāsura story in chapters two and three and calls her Durgā all the way through it, then in chapter eleven says the name came from Durgama. Texts this old are not tidy about that sort of thing, and it is usually a sign that a name is older than the stories attached to it. Nobody is lying; the name simply arrived before anyone wrote down where it came from."
+      },
+      {
+        "q": "Why did taking the Vedas stop the rain?",
+        "a": "Because in this story the world runs on things being said at the right time — the fire lit with the right words, the field planted with the right words, the rain asked for. Take the words away and the machinery stops. You do not have to believe the world works that way to see what the story is doing: it is asking what happens to a people when they lose the things they knew by heart."
+      },
+      {
+        "q": "Did she really cry for nine nights?",
+        "a": "That is the Devī Bhāgavata's telling, and it is one of the reasons Navarātri is nine nights — those nights and the nine nights of the buffalo are counted as the same nine. The older text, the Devī Māhātmya, just gives her the hundred eyes and moves on. We have told the longer one because it explains the name."
+      }
+    ]
+  }
+}

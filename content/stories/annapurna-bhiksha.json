@@ -1,0 +1,326 @@
+{
+  "id": "annapurna-bhiksha",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-08",
+  "title": "Śiva Goes Begging at His Own Door",
+  "tease": "He has argued that the world is an illusion and food along with it. She turns the kitchens off. He lasts about a day, and then queues with a bowl.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Kāśī Khaṇḍa, Skanda Purāṇa",
+    "locus": "The Annapūrṇā of Kāśī",
+    "stability": "regional",
+    "traditionNote": "The Kāśī Khaṇḍa establishes Annapūrṇā at Kāśī and has Śiva receive alms from her. The famous frame — the argument that food is māyā, and Pārvatī withdrawing until he is hungry — is how Kāśī itself tells the story and is not a verse you can point at. We tell the Kāśī version and say which part is the city's.",
+    "checkedAgainst": [
+      "Skanda Purāṇa, Kāśī Khaṇḍa — Tagare trans. (Motilal Banarsidass)",
+      "Annapūrṇā Sahasranāma / Kāśī temple tradition"
+    ],
+    "sourcing": [
+      {
+        "claim": "Annapūrṇā is the form of Pārvatī who feeds Kāśī",
+        "locus": "Kāśī Khaṇḍa, Skanda Purāṇa"
+      },
+      {
+        "claim": "Śiva receives alms from her hand at Kāśī",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Kāśī is the city Śiva does not leave",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Śiva goes from door to door with a bowl as Bhikṣāṭana",
+        "locus": "Śiva Purāṇa; Kūrma Purāṇa, the Bhikṣāṭana episode"
+      },
+      {
+        "claim": "The world, and the body's need of food with it, is māyā",
+        "locus": "Śiva's standing position in the Purāṇas, not specific to this episode"
+      },
+      {
+        "claim": "The argument about food, Pārvatī's withdrawal, and the famine that follows",
+        "locus": "Kāśī temple tradition — no single textual locus. Told this way in the living Annapūrṇā tradition."
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Whether the argument about food is in the text at all",
+        "tellings": "The Kāśī Khaṇḍa gives Annapūrṇā feeding Kāśī and Śiva taking alms from her hand. The frame — that he called food māyā and she withdrew until he was hungry — is carried by the Kāśī temple tradition and the later Annapūrṇā literature rather than by a citable verse.",
+        "weTell": "The Kāśī version, with the join marked. Some stories live in a text and some live in a place."
+      },
+      {
+        "differs": "Whether Śiva concedes",
+        "tellings": "Some tellings have him praise her at length; others end at the bowl and say nothing more.",
+        "weTell": "The quiet ending, with what he said afterwards flagged as something only some tellings bother to report."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [
+      "loss"
+    ],
+    "careNote": "A famine, but a strange one: there is food everywhere and none of it feeds anybody. Hunger is described — pots that stay raw, a city queueing — and nobody dies in front of the child. The argument in the house is between two people who are not angry with each other, which is worth knowing before you read it aloud."
+  },
+  "values": [
+    "an argument nobody needed to have",
+    "letting others help"
+  ],
+  "themes": [
+    "devi",
+    "navaratri",
+    "food",
+    "pride"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Annapūrṇā",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "foil"
+    },
+    {
+      "ref": "Pārvatī",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 360,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Śiva» had been saying, for some time and to anyone who would sit still, that the world is «māyā». Not that it does not exist — that it is not what it looks like, and you should not get attached to any of it."
+        },
+        {
+          "t": "p",
+          "text": "«Pārvatī» let this run for a while. Then she asked him whether that included food."
+        },
+        {
+          "t": "p",
+          "text": "He said it did. Obviously it did. Food is a thing in the world, and a man who has understood the world does not need it."
+        },
+        {
+          "t": "p",
+          "text": "She said: _all right._ And she left."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Not in a temper, and not for long, but completely. What went with her was every part of the world that feeds anything."
+        },
+        {
+          "t": "p",
+          "text": "Nothing ripened. The rice stood green and hard in the fields. Fruit hung and never came ready. Fires burned under pots, and whatever was in them was exactly as raw at the end as it had been at the beginning."
+        },
+        {
+          "t": "p",
+          "text": "So it was not a drought. There was food everywhere. It simply would not feed anybody."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Kāśī» went hungry first, being her city and his. And after a while Śiva was hungry too, which he had not expected, having a whole position on the matter."
+        },
+        {
+          "t": "p",
+          "text": "A god who has gone a thousand years on a mountain without a meal found that he was thinking about food, and could not stop, and that the thinking was not philosophical."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then somebody said there was a kitchen in Kāśī. She had come back and set up in the middle of the city with a ladle and a pot that did not run out, and there was a queue, and everyone in it was being fed."
+        },
+        {
+          "t": "p",
+          "text": "So he took his bowl and went and stood in the line. He is a beggar by trade. He had begged at ten thousand doors. He had never once had to do it at his own."
+        },
+        {
+          "t": "p",
+          "text": "She saw him coming and said nothing clever. She filled the bowl. Then she filled it again, because he was very hungry."
+        },
+        {
+          "t": "slow",
+          "text": "He had been right that the world is not what it looks like. He was still holding out the bowl when he stopped saying so."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 668,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "This one starts with an argument in a house."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» had been saying, for some time and to anyone who would sit still, that the world is «māyā»."
+        },
+        {
+          "t": "p",
+          "text": "Not that it does not exist. That it is not what it looks like — a trick of the light that goes all the way down — and that you should not get attached to any of it."
+        },
+        {
+          "t": "p",
+          "text": "«Pārvatī» let this run for a while."
+        },
+        {
+          "t": "p",
+          "text": "Then she asked him whether that included food."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He said it did. Obviously it did. Food is a thing in the world, the world is māyā, and a man who has properly understood that does not need it and should not want it."
+        },
+        {
+          "t": "p",
+          "text": "It is worth saying he was not being stupid, and not being unkind. He is the one who sits on a mountain for a thousand years without eating. He was not asking anything he had not already tested on himself."
+        },
+        {
+          "t": "p",
+          "text": "She said: _all right._"
+        },
+        {
+          "t": "p",
+          "text": "And she left."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Not in a temper, and not for long, but completely. She took herself out of the world — and what went with her was every part of the world that feeds anything."
+        },
+        {
+          "t": "p",
+          "text": "Nothing ripened. The rice stood in the fields and stayed green and hard. The fruit went on hanging and never came ready. Cows had milk in them and it would not come down."
+        },
+        {
+          "t": "p",
+          "text": "And fires burned under pots, and the pots got hot, and whatever was in them was exactly as raw at the end as it had been at the beginning."
+        },
+        {
+          "t": "p",
+          "text": "That is the detail people remember, because it is the one that tells you this was not a drought. There was food everywhere. It simply would not feed anybody."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Kāśī» went hungry first, being her city and his."
+        },
+        {
+          "t": "p",
+          "text": "It is the city he is said never to leave, and it went quiet in the particular way a place goes quiet when everybody in it is thinking about the same thing."
+        },
+        {
+          "t": "p",
+          "text": "And after a while — the tellings enjoy being vague about exactly how long — Śiva was hungry too."
+        },
+        {
+          "t": "p",
+          "text": "Which he had not expected. He had a whole position on this."
+        },
+        {
+          "t": "p",
+          "text": "A god who has gone a thousand years on a mountain without a meal discovered that he was thinking about food and could not stop, and that the thinking was not philosophical in the slightest."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then somebody said there was a kitchen in Kāśī."
+        },
+        {
+          "t": "p",
+          "text": "She had come back and set up in the middle of the city. There was a queue. She stood at the front of it with a ladle and a pot that did not run out, serving people one at a time, personally."
+        },
+        {
+          "t": "p",
+          "text": "So he took his bowl and went and stood in the line."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Begging is his oldest job. «Bhikṣāṭana», they call him for it — the one who goes door to door with a bowl and takes whatever he is handed. He chose that. He had done it at ten thousand doors."
+        },
+        {
+          "t": "p",
+          "text": "He had never once had to do it at his own."
+        },
+        {
+          "t": "p",
+          "text": "She saw him coming down the line. She did not say anything clever, and this is the best thing in the story: she never wins the argument out loud. She filled the bowl."
+        },
+        {
+          "t": "p",
+          "text": "And then she filled it again, because he was very hungry."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "What he says afterwards, in the tellings that bother to say, is not an apology. It is nearer to a correction. The world may well be māyā; the hunger is real anyway; and a person in front of you with an empty stomach is not a philosophical problem."
+        },
+        {
+          "t": "p",
+          "text": "She has been «Annapūrṇā» ever since, which means _full of food_. And Kāśī has never let the story go: it is why the city still insists nobody inside it should be hungry, and why there is a kitchen attached to her temple to this day."
+        },
+        {
+          "t": "slow",
+          "text": "He had been right that the world is not what it looks like. He was still holding out the bowl when he stopped saying so."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "durga-mahishasura",
+    "reason": "the same goddess, considerably less patient"
+  },
+  "close": {
+    "question": "He had to hold out a bowl to someone in his own house. Has anyone ever had to help you with something you had said you did not need help with?",
+    "seed": "Being fed by someone is not losing an argument.",
+    "ifTheyAsk": [
+      {
+        "q": "Was she being mean?",
+        "a": "She was not, and the story is careful about it — she never taunts him, and she does not make him say he was wrong. But she did let a whole city go hungry to make a point, and it is fair to say so out loud. If your child thinks that was too far, they have noticed something real, and the story does not have a tidy answer for them."
+      },
+      {
+        "q": "Was Śiva wrong, then?",
+        "a": "Only about one thing. He is not wrong that the world is not what it looks like — that is a serious idea and the Purāṇas mean it. He is wrong that understanding it lets you skip the ordinary business of being fed. That is why he ends up in the queue and not in a debate."
+      },
+      {
+        "q": "Is this actually in the book?",
+        "a": "Partly. The Kāśī Khaṇḍa has Annapūrṇā feeding Kāśī, and has Śiva take alms from her hand. The argument about food being an illusion, and her switching the kitchens off, is how Kāśī tells it rather than a verse anyone can point to — so we have told the city's version and labelled it. This is worth saying to a child: some stories live in a text, and some live in a place."
+      }
+    ]
+  }
+}
