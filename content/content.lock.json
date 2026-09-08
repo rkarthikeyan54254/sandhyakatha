@@ -3,12 +3,12 @@
   "stories": {
     "durga-mahishasura": {
       "version": 1,
-      "status": "in-review",
+      "status": "published",
       "hash": "93daca615a959d1f"
     },
     "ganesha-circles": {
       "version": 2,
-      "status": "in-review",
+      "status": "published",
       "hash": "7df7a8eab519772c"
     },
     "govardhana": {
@@ -23,7 +23,7 @@
     },
     "shravana-baskets": {
       "version": 1,
-      "status": "in-review",
+      "status": "published",
       "hash": "867d0086be89788e"
     },
     "squirrel-setu": {

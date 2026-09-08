@@ -1,7 +1,7 @@
 {
   "id": "shravana-baskets",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-08",
   "title": "Śravaṇa and the Two Baskets",
@@ -46,7 +46,9 @@
         "claim": "Daśaratha tells this story himself, as he is dying after Rāma's exile",
         "locus": "framing of Ayodhyā Kāṇḍa 63–64"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
   },
   "audience": {
     "minAge": 8,

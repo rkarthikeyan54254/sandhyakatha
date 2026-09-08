@@ -1,7 +1,7 @@
 {
   "id": "durga-mahishasura",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-08",
   "title": "The Buffalo Nobody Could Fight",
@@ -50,7 +50,9 @@
         "claim": "Mahiṣāsura changes form repeatedly during the battle and is killed",
         "locus": "Devī Māhātmya 3"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
   },
   "audience": {
     "minAge": 8,

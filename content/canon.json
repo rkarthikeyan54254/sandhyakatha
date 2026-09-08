@@ -124,7 +124,7 @@
       "festivals": [
         "pitru-paksha"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -440,7 +440,7 @@
       "festivals": [
         "ganesh-chaturthi"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -1341,7 +1341,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 4,
       "gated": false
     },

@@ -1,7 +1,7 @@
 {
   "id": "ganesha-circles",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 2,
   "updated": "2026-09-09",
   "title": "Gaṇeśa Goes Around the World",
@@ -69,7 +69,9 @@
         "claim": "At Palani he stands as Daṇḍāyudhapāṇi, having given up all but a staff and a cloth",
         "locus": "Tamil tradition / the Palani mūrti"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
   },
   "audience": {
     "minAge": 4,
