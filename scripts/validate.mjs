@@ -104,6 +104,13 @@ for (const file of files) {
       if (/\bhttps?:\/\//.test(text)) err(where, `block ${i}: links are not allowed in story text`);
       if (/[“”‘]/.test(text)) warn(where, `block ${i}: curly quotes — speech is marked with _underscores_, not quotation marks`);
 
+      // Never belittle a divine figure. The stories are free to show a god
+      // being wrong, outwitted or hungry — that is most of the Purāṇas — but
+      // the narration does not call one stupid, silly or foolish. A word list
+      // cannot tell who a sentence is about, so this warns and a person looks.
+      for (const m of text.matchAll(/\b(stupid|silly|idiot\w*|dumb|foolish|fool|daft|ridiculous|absurd)\b/gi))
+        warn(where, `block ${i}: "${m[0]}" — check who this refers to; it must never be a god`);
+
       // A breath line is one thought. Five short sentences can be one thought;
       // sixty words never are. Measure length, not punctuation.
       const w = text.replace(/[«»_]/g, '').split(/\s+/).filter(Boolean).length;

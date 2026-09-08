@@ -14,6 +14,25 @@ beautiful line is not in the text, it does not go in.
 Where the recensions disagree, that disagreement is not a problem to smooth
 over. It is content: set `stability` and write the `traditionNote`.
 
+## How the gods are spoken about
+
+A god in these stories can be wrong, outwitted, hungry, jealous, embarrassed or
+asleep — that is most of the Purāṇas, and flattening it produces a collection
+nobody needs. What the narration never does is **belittle them**. No god is
+called stupid, silly, foolish or ridiculous, and no aside invites the child to
+look down on one.
+
+The distinction is between the story and the voice telling it. *Śiva argued that
+food was an illusion and then queued for a meal* is the story, and it is funny,
+and it stays. *Śiva was being stupid* is the narrator sneering, and it goes.
+Show the position, show what it cost, and let the child draw the conclusion —
+which is the same rule as `close.question`, applied to the narration.
+
+Rewrite for the same beat without the judgement: "he was not being stupid"
+becomes "he was not speaking carelessly". The validator warns on a small list of
+belittling words wherever they appear, because a word list cannot tell who a
+sentence is about and a person has to look.
+
 ## Stability, and why we print it
 
 | value | means | example |
