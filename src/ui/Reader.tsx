@@ -1,11 +1,33 @@
 import { useState } from 'react';
 import type { Lexicon, Story, Card } from '../lib/types';
 
+type Said = { term: string; rect: DOMRect } | null;
+
+/** Where the popover goes.
+ *
+ *  On a phone it is a sheet at the bottom, because a thumb is already there and
+ *  a tooltip beside the word would sit under the hand. On a desktop the word
+ *  can be anywhere in a tall window, and a sheet pinned to the bottom of the
+ *  viewport is nowhere near what you clicked — so anchor it to the word, above
+ *  it where there is room and below it near the top of the page.
+ */
+function place(rect: DOMRect): React.CSSProperties | undefined {
+  if (window.innerWidth < 900) return undefined;          // the sheet is right here
+  const W = 320, M = 16;
+  const left = Math.min(Math.max(M, rect.left + rect.width / 2 - W / 2), window.innerWidth - W - M);
+  const above = rect.top > 190;
+  return {
+    left, width: W, transform: 'none',
+    ...(above ? { bottom: window.innerHeight - rect.top + 10, top: 'auto' }
+              : { top: rect.bottom + 10, bottom: 'auto' })
+  };
+}
+
 export default function Reader({ story, lex, len, next, onBack, onHeard, onRead }: {
   story: Story; lex: Lexicon; len: 'short' | 'full' | 'more';
   next: Card | null; onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
 }) {
-  const [say, setSay] = useState<string | null>(null);
+  const [say, setSay] = useState<Said>(null);
   const [ask, setAsk] = useState<number | null>(null);
   const key = len === 'short' ? 'short' : 'full';
   const r = story.lengths[key] ?? story.lengths.full;
@@ -65,11 +87,13 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead 
       </article>
 
       {say && (
-        <button className="pop" onClick={() => setSay(null)}>
-          <b>{lex[say]?.say}</b>
-          <span>{lex[say]?.gloss}</span>
-          {lex[say]?.native?.taml && <i>{lex[say].native.taml}</i>}
-          {!lex[say]?.native?.taml && lex[say]?.native?.deva && <i>{lex[say].native.deva}</i>}
+        <button className={'pop' + (window.innerWidth >= 900 ? ' anchored' : '')}
+                style={place(say.rect)} onClick={() => setSay(null)}>
+          <b>{lex[say.term]?.say}</b>
+          <span>{lex[say.term]?.gloss}</span>
+          {lex[say.term]?.native?.taml
+            ? <i>{lex[say.term].native.taml}</i>
+            : lex[say.term]?.native?.deva && <i>{lex[say.term].native.deva}</i>}
         </button>
       )}
     </>
@@ -77,12 +101,13 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead 
 }
 
 /** «Term» becomes a tappable pronunciation; _text_ becomes emphasis. */
-function Line({ text, lex, onSay }: { text: string; lex: Lexicon; onSay: (t: string) => void }) {
+function Line({ text, lex, onSay }: { text: string; lex: Lexicon; onSay: (s: Said) => void }) {
   const parts = text.split(/(«[^»]+»|_[^_]+_)/g).filter(Boolean);
   return <>{parts.map((p, i) => {
     if (p.startsWith('«')) {
       const t = p.slice(1, -1);
-      return <button key={i} className="name" title={lex[t]?.say} onClick={() => onSay(t)}>{t}</button>;
+      return <button key={i} className="name" title={lex[t]?.say}
+                     onClick={e => onSay({ term: t, rect: e.currentTarget.getBoundingClientRect() })}>{t}</button>;
     }
     if (p.startsWith('_')) return <em key={i}>{p.slice(1, -1)}</em>;
     return <span key={i}>{p}</span>;
