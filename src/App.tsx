@@ -63,12 +63,35 @@ export default function App() {
 
   const child = P.activeChild(profile);
   const heard = P.heardOf(profile, child?.id ?? null);
+  const favourites = P.againOf(profile, child?.id ?? null);
   const pan = useMemo(() => panchanga(new Date(), cal), [cal]);
   const pick = useMemo(
     () => cards.length ? pickTonight(cards, {
-      panchanga: pan, childAge: child?.age ?? 8, heard, includeGated: profile.gate
+      panchanga: pan, childAge: child?.age ?? 8, heard, favourites, includeGated: profile.gate
     }) : null,
-    [cards, pan, child?.age, heard, profile.gate]);
+    [cards, pan, child?.age, heard, favourites, profile.gate]);
+
+  /**
+   * Tomorrow night, named tonight.
+   *
+   * The pick is a pure function of (date, corpus, what has been heard), so the
+   * app can say what tomorrow holds without a server and without waiting for
+   * tomorrow. Ending a story on a named, dated appointment is the difference
+   * between a shelf someone finishes and a routine someone keeps — and it is
+   * the honest answer to "why would I come back", because the reason is on the
+   * calendar rather than in a notification.
+   *
+   * Tonight's story counts as heard for this calculation even if the parent
+   * has not pressed the button yet; otherwise tomorrow offers the same story.
+   */
+  const tomorrow = useMemo(() => {
+    if (!cards.length || !pick) return null;
+    const d = new Date(); d.setDate(d.getDate() + 1);
+    return pickTonight(cards, {
+      panchanga: panchanga(d, cal), childAge: child?.age ?? 8,
+      heard: { ...heard, [pick.story.id]: P.today() }, favourites, includeGated: profile.gate
+    });
+  }, [cards, cal, pick, child?.age, heard, favourites, profile.gate]);
 
   const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
 
@@ -113,6 +136,8 @@ export default function App() {
       <main id="main" key={open ? open.id : tab}>
         {open ? (
           <Reader story={open} lex={lex} len={len} next={nextCard}
+                  tomorrow={open.id === pick?.story.id ? tomorrow : null}
+                  readBefore={!!heard[open.id]}
                   onBack={() => { setOpen(null); setTab(from); }} onHeard={markHeard} onRead={read}
                   backLabel={from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight'} />
         ) : tab === 'tonight' ? (

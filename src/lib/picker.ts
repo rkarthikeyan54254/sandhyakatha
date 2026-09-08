@@ -6,6 +6,8 @@ export interface Ctx {
   panchanga: Panchanga;
   childAge: number;
   heard: Record<string, string>;   // id -> yyyy-mm-dd last heard
+  /** id -> yyyy-mm-dd a story was asked for again. A favourite comes back sooner. */
+  favourites?: Record<string, string>;
   includeGated: boolean;
 }
 
@@ -28,7 +30,11 @@ function score(c: Card, ctx: Ctx): Scored | null {
 
   const p = ctx.panchanga;
   const last = ctx.heard[c.id];
-  if (last && daysSince(last, p.date) < 90) return null;   // don't repeat within a season
+  // A story heard recently does not come round again — except one the child has
+  // already asked for a second time. Repetition is the point of bedtime reading,
+  // and a favourite waits a month rather than a season.
+  const favourite = !!ctx.favourites?.[c.id];
+  if (last && daysSince(last, p.date) < (favourite ? 30 : 90)) return null;
 
   let s = (c.calendar.weight ?? 5);
   let reason = '';
@@ -48,6 +54,7 @@ function score(c: Card, ctx: Ctx): Scored | null {
   // gently prefer a story pitched at the child rather than well under them
   s -= Math.max(0, ctx.childAge - c.minAge) * 0.4;
   if (last) s -= 3;
+  if (favourite) { s += 8; if (!reason) reason = 'this is one that got asked for twice'; }
   s += jitter(p.date, c.id) * 4;
 
   return { card: c, score: s, reason };

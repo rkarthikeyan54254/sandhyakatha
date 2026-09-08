@@ -26,7 +26,10 @@ export default function Shelf({ canon, publishedIds, gate, onRead }: {
     <>
       <h1 className="page">The shelf</h1>
       <p className="sub">Every story is written before you open it, checked against a named edition, and dated.
-        Nothing is generated while you wait — which is also why it works on a flight with no signal.</p>
+        Nothing is generated while you wait — which is also why it works on a flight with no signal, and why a
+        story a child asks for twice comes back word for word.</p>
+      <p className="sub">The whole collection is listed here, including the ones still being written. You can see
+        what is coming.</p>
 
       <div className="facet">
         <span className="lab">Where it comes from</span>
@@ -50,7 +53,9 @@ export default function Shelf({ canon, publishedIds, gate, onRead }: {
             .map(([k, l]) => <Chip key={k} on={only === k} onClick={() => setOnly(k)}>{l}</Chip>)}
         </div>
       </div>
-      <p className="count"><b>{visible.length}</b> of {canon.length} stories{gate ? '' : ' · the difficult ones are hidden'}</p>
+      <p className="count"><b>{visible.filter(c => publishedIds.has(c.id)).length}</b> written
+        · <b>{visible.filter(c => !publishedIds.has(c.id)).length}</b> still being written
+        · {visible.length} of {canon.length} shown{gate ? '' : ' · the difficult ones are hidden'}</p>
 
       {FAMILY_ORDER.map(family => {
         const inFamily = CORPUS_ORDER.filter(k => FAMILY[k] === family && visible.some(c => c.corpus === k));
@@ -74,7 +79,7 @@ export default function Shelf({ canon, publishedIds, gate, onRead }: {
                            {...(written ? { onClick: () => onRead(c.id) } : {})}>
                         <span className="num">{String(c.n).padStart(2, '0')}</span>
                         <span className="t">
-                          <h3>{c.title}{written && <em className="pub">Written</em>}</h3>
+                          <h3>{c.title}{written ? <em className="pub">Written</em> : <em className="soon">Being written</em>}</h3>
                           <p>{c.work} · {c.locus} · ages {c.minAge}+</p>
                           <p>{c.hook}</p>
                           <span className="tags">

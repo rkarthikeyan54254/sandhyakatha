@@ -1,7 +1,7 @@
 {
   "id": "shakambhari",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-08",
   "title": "The Woman Who Fed the World",
@@ -62,7 +62,9 @@
         "tellings": "The same Devī Māhātmya calls her Durgā throughout the Mahiṣāsura chapters, then in chapter 11 says the name is taken from Durgama.",
         "weTell": "Both, and we say so — the name is plainly older than either story attached to it."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-08"
   },
   "audience": {
     "minAge": 6,

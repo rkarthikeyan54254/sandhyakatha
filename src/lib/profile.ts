@@ -16,6 +16,15 @@ export interface Profile {
   gate: boolean;
   /** childId -> storyId -> yyyy-mm-dd of the night it was read */
   heard: Record<string, Record<string, string>>;
+  /**
+   * childId -> storyId -> the last night it was asked for AGAIN.
+   *
+   * The one thing a generator cannot do is tell the same story twice, and a
+   * child asking for a story a second time is the strongest signal in the whole
+   * system. Optional because profiles written before this existed do not have
+   * it; read it through `againOf`, never directly.
+   */
+  again?: Record<string, Record<string, string>>;
   firstNight: string | null;
   updatedAt: string;
 }
@@ -25,7 +34,7 @@ export const today = () => new Date().toISOString().slice(0, 10);
 const uid = () => Math.random().toString(36).slice(2, 10);
 
 export const emptyProfile = (): Profile =>
-  ({ v: 1, children: [], activeId: null, gate: false, heard: {}, firstNight: null, updatedAt: new Date().toISOString() });
+  ({ v: 1, children: [], activeId: null, gate: false, heard: {}, again: {}, firstNight: null, updatedAt: new Date().toISOString() });
 
 export const newChild = (name: string, age: number): Child => ({ id: uid(), name: name.trim(), age });
 
@@ -67,12 +76,23 @@ export function save(p: Profile) {
 
 export const activeChild = (p: Profile) => p.children.find(c => c.id === p.activeId) ?? p.children[0] ?? null;
 export const heardOf = (p: Profile, childId: string | null) => (childId && p.heard[childId]) || {};
+export const againOf = (p: Profile, childId: string | null) => (childId && p.again?.[childId]) || {};
 
+/**
+ * A second reading is not a duplicate. The first night goes in `heard`; every
+ * night after that also lands in `again`, which is what marks a story as one
+ * this child comes back to.
+ */
 export function markHeard(p: Profile, childId: string, storyId: string): Profile {
   const d = today();
+  const before = p.heard[childId]?.[storyId];
+  const again = before
+    ? { ...(p.again ?? {}), [childId]: { ...(p.again?.[childId] ?? {}), [storyId]: d } }
+    : (p.again ?? {});
   return {
     ...p,
-    heard: { ...p.heard, [childId]: { ...(p.heard[childId] ?? {}), [storyId]: d } },
+    heard: { ...p.heard, [childId]: { ...(p.heard[childId] ?? {}), [storyId]: before ?? d } },
+    again,
     firstNight: p.firstNight ?? d,
     updatedAt: new Date().toISOString()
   };
@@ -93,13 +113,23 @@ export function merge(a: Profile, b: Profile): Profile {
       heard[child][story] = prev && prev < date ? prev : date;
     }
   }
+  // Re-reads union too, but the LATEST wins — unlike a first night, what
+  // matters about "again" is that it is still happening.
+  const again: NonNullable<Profile['again']> = { ...(older.again ?? {}) };
+  for (const [child, nights] of Object.entries(newer.again ?? {})) {
+    again[child] = { ...(again[child] ?? {}) };
+    for (const [story, date] of Object.entries(nights)) {
+      const prev = again[child][story];
+      again[child][story] = prev && prev > date ? prev : date;
+    }
+  }
   const byId = new Map(older.children.map(c => [c.id, c]));
   for (const c of newer.children) byId.set(c.id, c);
   const firsts = [older.firstNight, newer.firstNight].filter(Boolean).sort() as string[];
   return {
     v: 1, children: [...byId.values()],
     activeId: newer.activeId ?? older.activeId,
-    gate: newer.gate, heard,
+    gate: newer.gate, heard, again,
     firstNight: firsts[0] ?? null,
     updatedAt: newer.updatedAt
   };

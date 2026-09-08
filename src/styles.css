@@ -400,3 +400,22 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .skip{position:absolute;left:-9999px;top:0;z-index:100}
 .skip:focus{left:12px;top:12px;position:fixed;background:var(--lamp);color:#2a1c08;
   padding:10px 16px;border-radius:9px;font-weight:700;font-size:13px}
+
+/* ---- read it again, and what is coming ---- */
+/* A second reading is the strongest signal the product gets, so it is said out
+   loud rather than treated as a duplicate. */
+.attrib .again{margin-top:10px;color:var(--paper-dim);font-size:13px;line-height:1.55}
+.attrib .again b{color:var(--ember-lit)}
+.mini h3 .soon{margin-left:9px;font-style:normal;font-size:10px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);border:1px solid var(--line);
+  border-radius:99px;padding:2px 7px;vertical-align:middle}
+
+/* ---- tomorrow: an appointment, deliberately not a link ---- */
+.tomorrow{display:block;margin-top:26px;padding:20px 19px;border-radius:14px;
+  border:1px solid var(--line);background:linear-gradient(180deg,rgba(240,180,88,.05),transparent)}
+.tomorrow .eyebrow{display:block;font-size:10.5px;letter-spacing:.19em;text-transform:uppercase;
+  font-weight:700;color:var(--lamp-dim)}
+.tomorrow h3{margin:11px 0 0;font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;
+  font-size:23px;line-height:1.24;color:var(--paper)}
+.tomorrow p{margin:9px 0 0;font-size:14.5px;line-height:1.6;color:var(--paper-dim)}
+.tomorrow p.why{margin-top:11px;font-size:13px;color:var(--muted);font-style:italic}

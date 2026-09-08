@@ -52,6 +52,35 @@ describe('the night picker', () => {
     const p = pickTonight([card({ id: 'a' })], ctx({ panchanga: pan({ festivals: [], season: 'winter' }) }))!;
     expect(p.reason).toContain('nothing on the calendar');
   });
+
+  it('holds a story back for a season after it was read', () => {
+    const cards = [card({ id: 'read', calendar: { weight: 10 } })];
+    expect(pickTonight(cards, ctx({ heard: { read: '2026-10-20' } }))).toBeNull();
+  });
+
+  it('lets a story the child asked for twice come back after a month', () => {
+    const cards = [card({ id: 'loved', calendar: { weight: 10 } })];
+    const heard = { loved: '2026-10-05' };            // 37 nights before the test date
+    expect(pickTonight(cards, ctx({ heard }))).toBeNull();
+    const p = pickTonight(cards, ctx({ heard, favourites: { loved: '2026-10-05' } }));
+    expect(p!.story.id).toBe('loved');
+  });
+
+  it('still holds a favourite back inside the month', () => {
+    const cards = [card({ id: 'loved', calendar: { weight: 10 } })];
+    expect(pickTonight(cards, ctx({
+      heard: { loved: '2026-11-01' }, favourites: { loved: '2026-11-01' }
+    }))).toBeNull();
+  });
+
+  it('says why when a favourite comes round with nothing on the calendar', () => {
+    const cards = [card({ id: 'loved', calendar: { weight: 10 } })];
+    const p = pickTonight(cards, ctx({
+      panchanga: pan({ festivals: [] }),
+      heard: { loved: '2026-10-05' }, favourites: { loved: '2026-10-05' }
+    }))!;
+    expect(p.reason).toContain('asked for twice');
+  });
 });
 
 describe('the placeholder calendar', () => {

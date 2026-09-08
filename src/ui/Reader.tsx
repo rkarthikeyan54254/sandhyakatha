@@ -37,9 +37,10 @@ function placeVars(rect: DOMRect): React.CSSProperties {
   } as React.CSSProperties;
 }
 
-export default function Reader({ story, lex, len, next, onBack, onHeard, onRead, backLabel = 'Tonight' }: {
+export default function Reader({ story, lex, len, next, tomorrow, readBefore, onBack, onHeard, onRead, backLabel = 'Tonight' }: {
   story: Story; lex: Lexicon; len: 'short' | 'full' | 'more';
-  next: Card | null; onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
+  next: Card | null; tomorrow?: { story: Card; reason: string } | null; readBefore?: boolean;
+  onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
   backLabel?: string;
 }) {
   const [say, setSay] = useState<Said>(null);
@@ -63,6 +64,8 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead,
           <p className="s"><b>{story.source.work}</b> — {story.source.locus}</p>
           {story.source.traditionNote && <p className="trad"><b>Tradition note.</b> {story.source.traditionNote}</p>}
           {story.audience.careNote && <p className="care"><b>Before you begin.</b> {story.audience.careNote}</p>}
+          {readBefore && <p className="again"><b>You have read this one before.</b> Every word is where it was.
+            That is the whole reason it is written down and not made up each time.</p>}
         </div>
 
         <div className="prose">
@@ -88,7 +91,9 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead,
               {ask === i && <p className="ans"><Line text={f.a} lex={lex} onSay={setSay} /></p>}
             </div>
           ))}
-          <button className="mark" onClick={() => { onHeard(story.id); onBack(); }}>We read this tonight</button>
+          <button className="mark" onClick={() => { onHeard(story.id); onBack(); }}>
+            {readBefore ? 'We read this again tonight' : 'We read this tonight'}
+          </button>
         </section>
 
         {len === 'more' && next && (
@@ -98,6 +103,16 @@ export default function Reader({ story, lex, len, next, onBack, onHeard, onRead,
             <p>{next.tease}</p>
             {story.linked?.next === next.id && <p className="link">Linked to tonight's: {story.linked.reason}.</p>}
           </button>
+        )}
+
+        {/* Not a link. Tomorrow is an appointment, not another thing to read now. */}
+        {tomorrow && (
+          <aside className="tomorrow">
+            <span className="eyebrow">Tomorrow night</span>
+            <h3>{tomorrow.story.title}</h3>
+            <p>{tomorrow.story.tease}</p>
+            <p className="why">Chosen because {tomorrow.reason}.</p>
+          </aside>
         )}
       </article>
 
