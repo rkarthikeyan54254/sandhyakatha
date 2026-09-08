@@ -21,7 +21,8 @@
     "next": "node scripts/next.mjs",
     "approve": "node scripts/approve.mjs",
     "proof": "node scripts/proof.mjs",
-    "social": "node scripts/social.mjs"
+    "social": "node scripts/social.mjs",
+    "reel": "node scripts/reel.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",
