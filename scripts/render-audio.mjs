@@ -19,16 +19,38 @@ const read = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
 const SCRIPT_FOR = { hi: 'deva', mr: 'deva', sa: 'deva', ta: 'taml', en: 'deva' };
 export const PROSODY = { beatMs: 900, slowRate: 0.85, paraGapMs: 400, baseRate: 0.95 };
 
-/** Replace «Term» with the term in the script the voice actually reads correctly. */
+/**
+ * Replace every name with the script the voice actually reads correctly.
+ *
+ * Two passes, and the second one matters more than it looks. Story text wraps
+ * only the FIRST mention in «guillemets» — that is right for the reader, who
+ * needs one tappable pronunciation and not a page of underlined words. It is
+ * wrong for a speech engine, which mispronounces the plain-Latin mentions that
+ * follow. So after the wrapped terms, sweep the bare ones and their aliases
+ * too, longest first, on whole-word boundaries, keeping the English possessive
+ * outside the substituted name.
+ */
 export function forSpeech(text, lexicon, lang = 'en') {
   const want = SCRIPT_FOR[lang] ?? 'deva';
-  return text
-    .replace(/«([^»]+)»/g, (_, term) => {
-      const e = lexicon[term];
-      if (!e) throw new Error(`«${term}» missing from the lexicon — refusing to render`);
-      return e.native?.[want] ?? e.native?.deva ?? term;
-    })
-    .replace(/_([^_]+)_/g, '$1');
+  const script = e => e.native?.[want] ?? e.native?.deva ?? null;
+
+  let out = text.replace(/«([^»]+)»/g, (_, term) => {
+    const e = lexicon[term];
+    if (!e) throw new Error(`«${term}» missing from the lexicon — refusing to render`);
+    return script(e) ?? term;
+  });
+
+  const forms = [];
+  for (const [key, e] of Object.entries(lexicon)) {
+    if (key === '_readme' || !script(e)) continue;
+    for (const form of [key, ...(e.aliases ?? [])]) forms.push([form, script(e)]);
+  }
+  forms.sort((a, b) => b[0].length - a[0].length);
+  for (const [form, native] of forms) {
+    const esc = form.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    out = out.replace(new RegExp(`(?<![\\p{L}\\p{M}])${esc}(?![\\p{L}\\p{M}])`, 'gu'), native);
+  }
+  return out.replace(/_([^_]+)_/g, '$1');
 }
 
 export function toSSML(rendition, lexicon, lang = 'en') {
