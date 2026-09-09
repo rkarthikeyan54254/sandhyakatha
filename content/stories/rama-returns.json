@@ -1,0 +1,317 @@
+{
+  "id": "rama-returns",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The Night They Lit the Whole Road",
+  "tease": "Fourteen years, to the day. Nobody knows what hour he will arrive, so the whole city puts out lamps and leaves them burning all night, in case.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Yuddha Kāṇḍa, sargas 125–128",
+    "stability": "variant",
+    "traditionNote": "Vālmīki has the city washed, hung with flags and garlands and rejoicing all night. The lamps — and the idea that this is where Diwali comes from — are carried by later telling, above all Tulsīdās. We tell the lamps and say whose they are.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa — Baroda critical edition, Yuddha Kāṇḍa",
+      "Goldman & Goldman trans., Princeton, vol. 6",
+      "Tulsīdās, Rāmcaritmānas — Laṅkākāṇḍ / Uttarkāṇḍ"
+    ],
+    "sourcing": [
+      {
+        "claim": "The exile is fourteen years and the return is on the appointed day",
+        "locus": "Ayodhyā Kāṇḍa; Yuddha Kāṇḍa 125"
+      },
+      {
+        "claim": "Bharata waits at Nandigrāma, outside the city, with Rāma's sandals on the throne",
+        "locus": "Ayodhyā Kāṇḍa 115; Yuddha Kāṇḍa 127"
+      },
+      {
+        "claim": "Hanumān is sent ahead to tell Bharata that Rāma is coming",
+        "locus": "Yuddha Kāṇḍa 125–126"
+      },
+      {
+        "claim": "They return in the Puṣpaka, taken from Rāvaṇa",
+        "locus": "Yuddha Kāṇḍa 121–123"
+      },
+      {
+        "claim": "Ayodhyā is washed, hung with flags and garlands, and rejoices through the night",
+        "locus": "Yuddha Kāṇḍa 127–128"
+      },
+      {
+        "claim": "Bharata puts the sandals on Rāma's feet himself",
+        "locus": "Yuddha Kāṇḍa 127"
+      },
+      {
+        "claim": "The rows of lamps, and this night as the origin of Dīpāvalī, come from later telling",
+        "locus": "Rāmcaritmānas and living tradition; not in Vālmīki"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Whether there are lamps at all",
+        "tellings": "Vālmīki decorates the city and has it awake all night, but does not light the rows of lamps everyone pictures. Tulsīdās and the tradition that follows him do, and that is where Dīpāvalī attaches to this night.",
+        "weTell": "The lamps, because they are what the festival is — and we say they arrive later than the story does."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 5,
+    "sensitivity": [],
+    "careNote": "Nothing frightening. One thing is kept out of the telling and put in the follow-ups instead: Bharata had promised to walk into a fire if Rāma was not back by that day. Older children usually ask why everyone is so anxious, and that is the answer waiting there for you."
+  },
+  "values": [
+    "waiting where you can see the road",
+    "coming home"
+  ],
+  "themes": [
+    "diwali",
+    "homecoming",
+    "waiting",
+    "brothers"
+  ],
+  "calendar": {
+    "festivals": [
+      "diwali"
+    ],
+    "months": [
+      "kartika"
+    ],
+    "weight": 9
+  },
+  "characters": [
+    {
+      "ref": "Rāma",
+      "role": "lead"
+    },
+    {
+      "ref": "Bharata",
+      "role": "lead"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Hanumān",
+      "role": "present"
+    },
+    {
+      "ref": "Nandigrāma",
+      "role": "present"
+    },
+    {
+      "ref": "Ayodhyā",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 287,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Bharata» had been counting for fourteen years."
+        },
+        {
+          "t": "p",
+          "text": "He was not living in the palace. He had never sat on the throne. He lived in a village called «Nandigrāma», just outside the city, near enough to see the road — and on the throne, where a king would sit, he had put his brother's sandals."
+        },
+        {
+          "t": "p",
+          "text": "Every day he brought them what a king would be brought, and told them what a king would be told, and then went and looked at the road."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The fourteen years ended on a particular day, and that day arrived, and the road was empty."
+        },
+        {
+          "t": "p",
+          "text": "It stayed empty all morning."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then there was a monkey on the road, running, and getting bigger, and shouting something nobody could hear yet."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» had gone ahead. That is all he had been sent to do — to get there first, so that Bharata would not have to spend one more hour of the day not knowing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Ayodhyā» had a few hours' warning and used every one of them. They washed the streets. They hung flags off everything that would hold one. Every doorway got a garland."
+        },
+        {
+          "t": "p",
+          "text": "And because nobody knew what hour he would come, and nobody was going to risk him arriving in the dark, they put lamps out — along the walls, along the roofs, down both sides of the road — and lit them, and did not let them go out."
+        },
+        {
+          "t": "p",
+          "text": "That is the night. That is the whole festival: a city that did not know exactly when, and so lit everything, and stayed up."
+        },
+        {
+          "t": "slow",
+          "text": "Nobody in that city knew what hour he would come. They lit the road anyway, the whole length of it, and sat up to watch it burn."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 663,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Bharata» had been counting for fourteen years."
+        },
+        {
+          "t": "p",
+          "text": "He had not wanted the kingdom. He had been given it while he was away and had come back to find his brother gone into the forest and his father dead, and he had gone straight out after «Rāma» to give it back, and Rāma had said no."
+        },
+        {
+          "t": "p",
+          "text": "So Bharata did the strangest thing in the whole book. He took his brother's sandals off his brother's feet, carried them home, and put them on the throne."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He did not live in the palace after that. He lived in a village called «Nandigrāma», just outside «Ayodhyā» — near enough to see the road."
+        },
+        {
+          "t": "p",
+          "text": "He wore what a man in the forest wears and ate what a man in the forest eats."
+        },
+        {
+          "t": "p",
+          "text": "And every morning he brought the sandals what a king would be brought, and told them what a king would be told — because as far as he was concerned that was who was on the throne, and he was only holding the chair."
+        },
+        {
+          "t": "p",
+          "text": "Fourteen years of that."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The fourteen years ended on a particular day, and everybody knew which day, and that day came."
+        },
+        {
+          "t": "p",
+          "text": "And the road was empty."
+        },
+        {
+          "t": "p",
+          "text": "It stayed empty through the morning. There is no way to make that morning sound short. He had been right for fourteen years and there was still a whole day left in which to have been wrong."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then there was something on the road. Far off, and moving fast, and getting bigger, and after a while it turned out to be a monkey, running flat out and shouting something nobody could hear yet."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» had been sent ahead. That was the entire errand — not to carry anything, not to fight anybody. To get there first, so that Bharata would not have to spend one more hour of that day not knowing."
+        },
+        {
+          "t": "p",
+          "text": "Somebody thought of that, in the middle of packing up a war."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Ayodhyā got a few hours' warning and used every minute of them."
+        },
+        {
+          "t": "p",
+          "text": "They washed the streets down. They hung flags off anything that would hold a flag. Every doorway in the city got a garland, and the ones that ran out of flowers used leaves."
+        },
+        {
+          "t": "p",
+          "text": "And because nobody knew what hour he would actually come, and nobody was willing to risk him arriving in the dark, they put out lamps."
+        },
+        {
+          "t": "p",
+          "text": "Along the tops of the walls. Along the roofs. Down both sides of the road, all the way out, as far as the lamps went. And lit them. And did not let them go out."
+        },
+        {
+          "t": "p",
+          "text": "That is the night, and that is the whole festival. A city that did not know exactly when, and so lit everything it had, and stayed awake."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They came down in the «Puṣpaka», which had been Rāvaṇa's, and before that somebody else's, and which had spent the last ten years carrying a man who stole people."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» was in it. «Lakṣmaṇa» was in it. Half of Laṅkā's army seemed to be in it, because Rāma had refused to leave without the people who had come with him."
+        },
+        {
+          "t": "p",
+          "text": "And Bharata was standing there holding a pair of sandals."
+        },
+        {
+          "t": "p",
+          "text": "He did not make a speech. He knelt down and put them back on his brother's feet, which is where they had come from fourteen years earlier, and which is the only thing he had been waiting to do."
+        },
+        {
+          "t": "p",
+          "text": "They made him king a few days later, and the book describes it properly — the water, the crowns, the whole city in the streets."
+        },
+        {
+          "t": "p",
+          "text": "But the moment everybody remembers is the one in the road, before any of that: a man kneeling in bark clothes, putting a pair of old sandals back where they belonged, having kept them warm for fourteen years without once trying them on."
+        },
+        {
+          "t": "slow",
+          "text": "He came back on the day he said he would. But they had lit the road long before anybody could see him — which is a different thing, and a much harder one."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "narakasura",
+    "reason": "the other night the lamps are for, and a very different reason for lighting them"
+  },
+  "close": {
+    "question": "They lit the lamps before they could see him coming. What is something you would get ready for even if you were not certain it was going to happen?",
+    "seed": "Getting ready is its own way of believing somebody.",
+    "ifTheyAsk": [
+      {
+        "q": "Why was everyone so worried about the day?",
+        "a": "Because Bharata had made a promise he should probably not have made: that if Rāma was not back by the end of that day, he would walk into a fire. Everyone in the city knew it. That is why the morning is unbearable and why Hanumān is sent running — not to announce good news, but to get there before the end of the day. Older children usually work out that something is being left unsaid, and this is it."
+      },
+      {
+        "q": "Are the lamps really in the Rāmāyaṇa?",
+        "a": "The city being washed, hung with flags and awake all night — yes, that is Vālmīki. The rows of lamps everyone pictures, and the idea that this night is where Dīpāvalī comes from, arrive later, above all with Tulsīdās a very long time afterwards. So when you light lamps this week you are doing something people have done for centuries, which is not quite the same as something the oldest book describes. Both of those are worth knowing."
+      },
+      {
+        "q": "Why did Bharata not just rule?",
+        "a": "He could have. Everybody told him to. The kingdom was legally his and the man who should have had it had told him to keep it. He decided that being given something did not make it his, and then he held that position for fourteen years in a village, wearing bark, in sight of a palace he was entitled to walk into. It is the least dramatic act of stubbornness in the book and possibly the most impressive."
+      }
+    ]
+  }
+}

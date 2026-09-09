@@ -1421,7 +1421,7 @@
       "tradition": "sanskrit",
       "work": "Rāmāyaṇa",
       "locus": "Yuddha Kāṇḍa — the return to Ayodhyā",
-      "stability": "stable",
+      "stability": "variant",
       "minAge": 5,
       "sensitivity": [],
       "value": "coming home",
@@ -1429,7 +1429,7 @@
       "festivals": [
         "diwali"
       ],
-      "status": "draft",
+      "status": "in-review",
       "wave": 4,
       "gated": false
     },
@@ -1441,7 +1441,7 @@
       "tradition": "sanskrit",
       "work": "Bhāgavata Purāṇa",
       "locus": "Skandha 10, chapter 59",
-      "stability": "stable",
+      "stability": "variant",
       "minAge": 8,
       "sensitivity": [
         "violence",
@@ -1452,7 +1452,7 @@
       "festivals": [
         "diwali"
       ],
-      "status": "draft",
+      "status": "in-review",
       "wave": 4,
       "gated": false
     },

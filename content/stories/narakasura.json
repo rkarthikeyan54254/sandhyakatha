@@ -1,0 +1,332 @@
+{
+  "id": "narakasura",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The Morning After Naraka",
+  "tease": "He asks for one thing as he dies: that the day be kept as a festival rather than as his defeat. He gets it, and people still keep it.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 10, chapter 59",
+    "stability": "variant",
+    "traditionNote": "The Bhāgavata gives the war, Satyabhāmā's hand on the weapon, and the sixteen thousand women brought out of his house. Naraka's dying request that the day be remembered with lamps rather than mourning is carried by tradition and by later tellings, and is why the fourteenth night has the name it has.",
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa, Skandha 10 — Tagare trans. (Motilal Banarsidass)",
+      "Viṣṇu Purāṇa, Book 5 — Wilson trans."
+    ],
+    "sourcing": [
+      {
+        "claim": "Naraka rules Prāgjyotiṣa and has taken what belongs to others, including Aditi's earrings",
+        "locus": "Bhāgavata 10.59.2–3"
+      },
+      {
+        "claim": "Prāgjyotiṣa is ringed with defences — hills, water, fire, wind, and a net of nooses",
+        "locus": "Bhāgavata 10.59.2–4"
+      },
+      {
+        "claim": "Kṛṣṇa cuts through the fortifications before reaching the city",
+        "locus": "Bhāgavata 10.59.5–9"
+      },
+      {
+        "claim": "The kingdom is given to Naraka's son at his mother's asking",
+        "locus": "Bhāgavata 10.59.25–27"
+      },
+      {
+        "claim": "The earrings are returned to Aditi",
+        "locus": "Bhāgavata 10.59.38–40"
+      },
+      {
+        "claim": "Kṛṣṇa goes against him with Satyabhāmā",
+        "locus": "Bhāgavata 10.59.2"
+      },
+      {
+        "claim": "Satyabhāmā is on the field and it is her hand at the end",
+        "locus": "Bhāgavata 10.59; and the tradition that follows it"
+      },
+      {
+        "claim": "Sixteen thousand one hundred women are found held in his house and are freed",
+        "locus": "Bhāgavata 10.59.33–34"
+      },
+      {
+        "claim": "Kṛṣṇa marries them rather than leave them unplaceable in that society",
+        "locus": "Bhāgavata 10.59.42–45"
+      },
+      {
+        "claim": "Naraka's mother is the earth, and she asks for his son to be spared",
+        "locus": "Bhāgavata 10.59.25–27"
+      },
+      {
+        "claim": "The dying request that the day be a festival is tradition, not a verse of the Bhāgavata",
+        "locus": "Living tradition; Naraka Chaturdaśī"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Whose hand it is",
+        "tellings": "The Bhāgavata puts Satyabhāmā on the field and the tradition around it is firm that she strikes the blow, because a boon protected Naraka from Kṛṣṇa. Some retellings quietly give the whole thing to Kṛṣṇa.",
+        "weTell": "Hers, because the text put her there and the reason is the interesting part."
+      },
+      {
+        "differs": "The dying request",
+        "tellings": "The Bhāgavata does not have it. It is the standard explanation of why the fourteenth night is lamps rather than mourning, and it is told everywhere the festival is kept.",
+        "weTell": "The request, marked as the festival's story rather than the book's."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "violence",
+      "death"
+    ],
+    "careNote": "A war and a death, told at a distance — no wounds described. Two harder things sit in the middle of it: thousands of women were being held in his house against their will, said plainly and without detail, and the man who dies is somebody's son, and his mother is in the room. Both are the point rather than decoration."
+  },
+  "values": [
+    "the mercy nobody had to give",
+    "a villain who is not only that"
+  ],
+  "themes": [
+    "diwali",
+    "mercy",
+    "mothers",
+    "what a festival is for"
+  ],
+  "calendar": {
+    "festivals": [
+      "diwali"
+    ],
+    "months": [
+      "kartika"
+    ],
+    "weight": 9
+  },
+  "characters": [
+    {
+      "ref": "Kṛṣṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Satyabhāmā",
+      "role": "lead"
+    },
+    {
+      "ref": "Narakāsura",
+      "role": "foil"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 306,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Narakāsura» had taken a great deal that was not his, and the last of it was a pair of earrings belonging to the mother of the gods."
+        },
+        {
+          "t": "p",
+          "text": "So «Kṛṣṇa» went to get them back. And he did not go alone."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Satyabhāmā» went with him, onto the field, which queens in these stories generally do not."
+        },
+        {
+          "t": "p",
+          "text": "There was a reason. Naraka had a protection on him — he could not be brought down by Kṛṣṇa. Nobody had thought to include Kṛṣṇa's wife."
+        },
+        {
+          "t": "p",
+          "text": "It was her hand at the end. The tellings are firm about that, and it is the part most people have never been told."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then they went into his house, and found sixteen thousand women being kept there who did not want to be."
+        },
+        {
+          "t": "p",
+          "text": "They were let out. And then there was the question nobody wants in a story — where sixteen thousand women were supposed to go, in a world that would not take them back. Kṛṣṇa married all of them, which was not romance. It was a roof."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And Naraka was somebody's son. His mother is the earth, and she was there, and she asked for his boy to be left alone, and she was listened to."
+        },
+        {
+          "t": "p",
+          "text": "Then he asked for something himself, at the end, which is the strangest request in the whole festival: that when people remembered this day, they should not remember it as the day he lost. They should light lamps and be glad."
+        },
+        {
+          "t": "p",
+          "text": "His city had been ringed with hills and water and fire and a net of nooses, and all of it had to come apart before anyone could even see him. She stood in the same chariot for the whole of it."
+        },
+        {
+          "t": "slow",
+          "text": "Everyone remembers the lamps. Almost nobody remembers that the man they are for asked for them himself, on the worst day of his life."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 661,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Narakāsura» had taken a great deal that was not his."
+        },
+        {
+          "t": "p",
+          "text": "Kingdoms, mostly, and whatever was in them. The last thing on the list was a pair of earrings belonging to the mother of the gods, which is the sort of theft that gets noticed."
+        },
+        {
+          "t": "p",
+          "text": "So «Kṛṣṇa» went to get them back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And he did not go alone, which is the first surprising thing in this story."
+        },
+        {
+          "t": "p",
+          "text": "«Satyabhāmā» went with him. Onto the field. Not to wave anybody off — into it, in the chariot, for the whole thing."
+        },
+        {
+          "t": "p",
+          "text": "There was a reason, and it is a good one. Naraka had a protection on him: he could not be brought down by Kṛṣṇa. Somebody had been careful when they asked for that, and had thought of everything except a wife."
+        },
+        {
+          "t": "p",
+          "text": "So it was her hand at the end."
+        },
+        {
+          "t": "p",
+          "text": "That is the part most people have never been told, and it is why she was there at all. The story is not a husband's with a wife watching. It is hers, and he drove."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Getting to him was not simple, and the book takes its time over it."
+        },
+        {
+          "t": "p",
+          "text": "His city sat inside rings. Hills first, then water, then fire, then wind — and then, strung across everything, a net of nooses that tightened on whatever came through. Each ring had to be taken apart in turn before the next one was even visible."
+        },
+        {
+          "t": "p",
+          "text": "That took a while, and the whole time she was standing in the same chariot, and neither of them left."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then they went into his house."
+        },
+        {
+          "t": "p",
+          "text": "And in it were sixteen thousand women, and they were being kept there, and they did not want to be. The book says it in about one line and does not describe anything, and one line is enough."
+        },
+        {
+          "t": "p",
+          "text": "The doors were opened. That is the victory, and it is not the sort that gets painted."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then there is a question in the middle of this story that most stories would leave out."
+        },
+        {
+          "t": "p",
+          "text": "Where were sixteen thousand women supposed to go?"
+        },
+        {
+          "t": "p",
+          "text": "Not home. Not in that world. Everybody they had come from would have looked at where they had been and decided something about them, and there would have been nowhere for any of them to stand."
+        },
+        {
+          "t": "p",
+          "text": "So Kṛṣṇa married all of them."
+        },
+        {
+          "t": "p",
+          "text": "Which sounds like a fairy tale and is not one. It is a legal answer to a cruel arithmetic — the only thing that could be done, in that world, to give sixteen thousand people a name to give when somebody asked. It was a roof, not a romance."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The last part is the one the festival is actually about."
+        },
+        {
+          "t": "p",
+          "text": "Naraka was somebody's son. His mother is the earth herself, and she was there, and she did not argue that he had been good, because he had not been. She asked for one thing: that his boy be left alone. And she was listened to, on the field, immediately."
+        },
+        {
+          "t": "p",
+          "text": "And she got more than she asked. The kingdom went to the boy — the same throne, the same city, handed over on the field the morning his father died on it."
+        },
+        {
+          "t": "p",
+          "text": "And then he asked for something."
+        },
+        {
+          "t": "p",
+          "text": "Not to live. Not to be forgiven. He asked that when people remembered this day — and he knew they would — they should not keep it as the day he was beaten. They should light lamps, and give things to each other, and be glad."
+        },
+        {
+          "t": "p",
+          "text": "And that is what happened. That is what people do on the fourteenth night, every year, in his name."
+        },
+        {
+          "t": "p",
+          "text": "The earrings went back to the old woman they had been taken from, which was what the whole journey had been for, and which by then nobody was thinking about."
+        },
+        {
+          "t": "slow",
+          "text": "The lamps on that night are his idea. He asked for a festival on the one day of the year that was always going to be about him losing, and he got it, and we are still keeping it."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "rama-returns",
+    "reason": "the other night of lamps, two days later, and a completely different reason for lighting them"
+  },
+  "close": {
+    "question": "He could have asked for anything at the end. He asked that people be happy on the day he lost. Why do you think that was what he wanted?",
+    "seed": "How a day gets remembered is sometimes the last thing anybody can choose.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Satyabhāmā really kill him?",
+        "a": "The Bhāgavata puts her on the field with Kṛṣṇa, and the tradition around it is firm that the blow is hers, because the protection Naraka had asked for did not cover her. Plenty of retellings quietly hand the whole thing back to Kṛṣṇa. If you have only ever heard it that way, that is why — and it is worth telling a daughter the other version."
+      },
+      {
+        "q": "Why did Kṛṣṇa marry sixteen thousand women?",
+        "a": "Not for love, and the book does not pretend otherwise. In that world a woman who had been in Naraka's house could not go home — her family would not have taken her, and she would have had no standing anywhere. Marriage was the only arrangement that gave her one. It is worth saying plainly to an older child that this is a solution to an injustice, not a happy ending, and that the injustice is the part to be angry about."
+      },
+      {
+        "q": "Is the last bit really in the book?",
+        "a": "No, and that is worth knowing. The Bhāgavata has the war, the earrings, the women and his mother. The dying request — lamps rather than mourning — is the festival's own story, told wherever Naraka Chaturdaśī is kept, rather than a verse anyone can point at. It is the reason the day has the shape it has, and it arrived after the book did."
+      }
+    ]
+  }
+}

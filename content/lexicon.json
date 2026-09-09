@@ -1311,5 +1311,79 @@
   "aliases": [
    "Aparna"
   ]
+ },
+ "Nandigrāma": {
+  "id": "nandigrama",
+  "native": {
+   "deva": "नन्दिग्राम"
+  },
+  "say": "NUN-dee-graa-muh",
+  "ipa": "ˈnɐn.di.ɡraː.mɐ",
+  "kind": "place",
+  "gloss": "The village outside Ayodhyā where Bharata waited fourteen years rather than live in the palace. Close enough to see the road.",
+  "aliases": [
+   "Nandigrama",
+   "Nandigram"
+  ]
+ },
+ "Puṣpaka": {
+  "id": "pushpaka",
+  "native": {
+   "deva": "पुष्पक"
+  },
+  "say": "POOSH-puh-kuh",
+  "ipa": "ˈpʊʂ.pɐ.kɐ",
+  "kind": "word",
+  "gloss": "The flying chariot that brings them home — taken from Rāvaṇa, who had taken it from somebody else. It goes where it is told.",
+  "aliases": [
+   "Pushpaka",
+   "Pushpak",
+   "Pushpaka Vimana"
+  ]
+ },
+ "Satyabhāmā": {
+  "id": "satyabhama",
+  "native": {
+   "deva": "सत्यभामा",
+   "taml": "சத்யபாமா"
+  },
+  "say": "sut-yuh-BHAA-maa",
+  "ipa": "sɐt.jɐˈbʱaː.maː",
+  "kind": "person",
+  "gloss": "Kṛṣṇa's wife, who goes to the war with him and is the one who brings Naraka down. The Bhāgavata is quite clear about whose hand it was.",
+  "aliases": [
+   "Satyabhama",
+   "Sathyabhama"
+  ]
+ },
+ "cakravyūha": {
+  "id": "cakravyuha",
+  "native": {
+   "deva": "चक्रव्यूह",
+   "taml": "சக்கரவியூகம்"
+  },
+  "say": "CHUCK-ruh-vyoo-huh",
+  "ipa": "ˈtɕɐ.krɐˌʋjuː.ɦɐ",
+  "kind": "word",
+  "gloss": "A battle formation shaped like a coiled wheel. Getting in is a skill; getting out again is a different skill.",
+  "aliases": [
+   "chakravyuha",
+   "chakravyuh",
+   "padmavyuha"
+  ]
+ },
+ "Jayadratha": {
+  "id": "jayadratha",
+  "native": {
+   "deva": "जयद्रथ"
+  },
+  "say": "juh-yuh-DRUH-thuh",
+  "ipa": "dʒɐ.jɐˈdrɐ.tʰɐ",
+  "kind": "person",
+  "gloss": "The king who holds the gap shut behind Abhimanyu. One man, one doorway, and the whole rest of the story turns on it.",
+  "aliases": [
+   "Jayadratha",
+   "Jayadrath"
+  ]
  }
 }
