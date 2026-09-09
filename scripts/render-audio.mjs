@@ -56,6 +56,9 @@ export function forSpeech(text, lexicon, lang = 'en') {
 export function toSSML(rendition, lexicon, lang = 'en') {
   const body = rendition.blocks.map(b => {
     if (b.t === 'beat') return `<break time="${PROSODY.beatMs}ms"/>`;
+    // An aside is addressed to the parent. A voice reading it to a child would
+    // be reading the stage directions out loud.
+    if (b.t === 'aside') return '';
     const said = forSpeech(b.text, lexicon, lang);
     return b.t === 'slow'
       ? `<prosody rate="${PROSODY.slowRate}">${said}</prosody><break time="${PROSODY.beatMs}ms"/>`

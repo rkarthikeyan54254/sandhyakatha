@@ -1206,22 +1206,6 @@
    "Himalayas"
   ]
  },
- "Durvāsas": {
-  "id": "durvasas",
-  "native": {
-   "deva": "दुर्वासस्",
-   "taml": "துர்வாசர்"
-  },
-  "say": "door-VAA-sus",
-  "ipa": "dʊrˈʋaː.sɐs",
-  "kind": "person",
-  "gloss": "A sage with a famous temper. Almost every story he is in turns on someone not paying attention to him for one second.",
-  "aliases": [
-   "Durvasa",
-   "Durvasas",
-   "Durvasar"
-  ]
- },
  "krauñca": {
   "id": "kraunca",
   "native": {
@@ -1443,6 +1427,24 @@
    "svargam",
    "swarga",
    "swargam"
+  ]
+ },
+ "Durvāsa": {
+  "id": "durvasas",
+  "native": {
+   "deva": "दुर्वासस्",
+   "taml": "துர்வாசர்"
+  },
+  "say": "door-VAA-suh",
+  "ipa": "dʊrˈʋaː.sɐ",
+  "kind": "person",
+  "gloss": "A sage with a famous temper. Almost every story he is in turns on someone not paying attention to him for one second.",
+  "aliases": [
+   "Durvasa",
+   "Durvāsas",
+   "Durvasas",
+   "Durvasar",
+   "Durvaasa"
   ]
  }
 }

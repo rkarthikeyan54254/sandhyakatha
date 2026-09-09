@@ -19,7 +19,7 @@
     ],
     "sourcing": [
       {
-        "claim": "Durvāsas is given a garland of unfading flowers and meets Indra on the road",
+        "claim": "Durvāsa is given a garland of unfading flowers and meets Indra on the road",
         "locus": "Viṣṇu Purāṇa 1.9"
       },
       {
@@ -31,7 +31,7 @@
         "locus": "ibid."
       },
       {
-        "claim": "Durvāsas curses the three worlds to lose Śrī, saying the garland was her seat",
+        "claim": "Durvāsa curses the three worlds to lose Śrī, saying the garland was her seat",
         "locus": "ibid."
       },
       {
@@ -93,7 +93,7 @@
       "role": "lead"
     },
     {
-      "ref": "Durvāsas",
+      "ref": "Durvāsa",
       "role": "foil"
     },
     {
@@ -120,7 +120,7 @@
       "blocks": [
         {
           "t": "p",
-          "text": "«Durvāsas» was walking along a road with a garland he had been given — flowers that did not wilt, the real thing, worth more than it looked."
+          "text": "«Durvāsa» was walking along a road with a garland he had been given — flowers that did not wilt, the real thing, worth more than it looked."
         },
         {
           "t": "p",
@@ -128,7 +128,7 @@
         },
         {
           "t": "p",
-          "text": "And Durvāsas gave him the garland. Which, if you know anything about Durvāsas, is the surprising part of this story. He was not a man who gave people things."
+          "text": "And Durvāsa gave him the garland. Which, if you know anything about Durvāsa, is the surprising part of this story. He was not a man who gave people things."
         },
         {
           "t": "beat"
@@ -150,7 +150,7 @@
         },
         {
           "t": "p",
-          "text": "Durvāsas stood in the road and watched it happen."
+          "text": "Durvāsa stood in the road and watched it happen."
         },
         {
           "t": "p",
@@ -183,7 +183,7 @@
       "blocks": [
         {
           "t": "p",
-          "text": "«Durvāsas» was walking along a road carrying a garland."
+          "text": "«Durvāsa» was walking along a road carrying a garland."
         },
         {
           "t": "p",
@@ -195,11 +195,11 @@
         },
         {
           "t": "p",
-          "text": "And Durvāsas gave him the garland."
+          "text": "And Durvāsa gave him the garland."
         },
         {
           "t": "p",
-          "text": "If you know anything at all about Durvāsas, that is the surprising sentence in this story. He is the sage with the famous temper, the one every other story is about somebody accidentally offending. He did not give people things. He gave Indra this."
+          "text": "If you know anything at all about Durvāsa, that is the surprising sentence in this story. He is the sage with the famous temper, the one every other story is about somebody accidentally offending. He did not give people things. He gave Indra this."
         },
         {
           "t": "beat"
@@ -225,7 +225,7 @@
         },
         {
           "t": "p",
-          "text": "Durvāsas stood in the road and watched all of it happen."
+          "text": "Durvāsa stood in the road and watched all of it happen."
         },
         {
           "t": "p",
@@ -312,7 +312,7 @@
     "seed": "Good things leave quietly, and usually while nobody is looking at them.",
     "ifTheyAsk": [
       {
-        "q": "Wasn't Durvāsas overreacting?",
+        "q": "Wasn't Durvāsa overreacting?",
         "a": "Enormously, and the stories know it — he is famous for it and half the Purāṇas turn on somebody accidentally annoying him. But listen to what he actually says. He is not angry that his present was refused; he is angry that good fortune was handed over and treated as ordinary. Both things can be true: the punishment is out of all proportion, and the thing he noticed was real."
       },
       {

@@ -112,7 +112,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 328,
+      "words": 307,
       "blocks": [
         {
           "t": "p",
@@ -145,8 +145,12 @@
           "t": "beat"
         },
         {
+          "t": "aside",
+          "text": "Kept short on purpose. It is frightening rather than admirable, and it is not a thing to copy."
+        },
+        {
           "t": "p",
-          "text": "What she did up there, the poem tells at length and I will tell shortly, because it is frightening rather than admirable: she sat out in the heat, and in the rains, and in the cold, and ate less and less, until she was living on leaves that had fallen by themselves, and then gave up the leaves too."
+          "text": "She sat out in the heat, and in the rains, and in the cold, and ate less and less — until she was living on leaves that had fallen by themselves, and then gave up the leaves too."
         },
         {
           "t": "p",
@@ -179,7 +183,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 623,
+      "words": 658,
       "blocks": [
         {
           "t": "p",
@@ -223,12 +227,24 @@
           "t": "beat"
         },
         {
+          "t": "aside",
+          "text": "What comes next is told at length in the poem and is kept short here on purpose. It is frightening rather than admirable, and it is not a thing to copy — do not let it sound like one."
+        },
+        {
           "t": "p",
-          "text": "What she did up there is told at length in the poem, and I am going to tell it briefly, because it is frightening rather than admirable and it is not a thing to copy."
+          "text": "What she did up there, she did for years."
         },
         {
           "t": "p",
           "text": "She sat out through the hot months. She sat through the rains. She sat through a winter in water. She ate less and less, until she was living on leaves that had fallen off the trees by themselves — and then she gave up the leaves as well."
+        },
+        {
+          "t": "p",
+          "text": "People came to look. That is the part nobody mentions — she was not alone up there in the sense of being unobserved. Sages came past and stopped. Word went down the mountain and back up it."
+        },
+        {
+          "t": "p",
+          "text": "And every one of them who spoke to her was, in the end, saying the same thing her mother had said, in better Sanskrit."
         },
         {
           "t": "p",

@@ -49,6 +49,10 @@
       {
         "claim": "The teacher sees his face and says he shines like one who knows; Satyakāma asks to be taught anyway",
         "locus": "Chāndogya 4.9"
+      },
+      {
+        "claim": "Satyakāma becomes a teacher himself, with students of his own",
+        "locus": "Chāndogya 4.10"
       }
     ]
   },
@@ -170,7 +174,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 618,
+      "words": 644,
       "blocks": [
         {
           "t": "p",
@@ -182,7 +186,11 @@
         },
         {
           "t": "p",
-          "text": "So he went and asked his mother, which is the part of this story I would slow down for."
+          "text": "So he went and asked his mother."
+        },
+        {
+          "t": "aside",
+          "text": "This is the part to slow down for. It is three sentences long and it is the whole story."
         },
         {
           "t": "beat"
@@ -226,8 +234,12 @@
           "text": "And Hāridrumata looked at him and said: _nobody who was not a brāhmaṇa could have spoken like that. Fetch the firewood. I will take you._"
         },
         {
+          "t": "aside",
+          "text": "Worth stopping on. It is a strange sentence and the whole story turns on it."
+        },
+        {
           "t": "p",
-          "text": "Which is a strange sentence, and worth stopping on. He does not say _it does not matter._ He says the boy has just proved the thing the question was supposed to be testing for, and proved it better than a name could have."
+          "text": "He does not say _it does not matter._ He says the boy has just proved the thing the question was supposed to be testing for, and proved it better than a name could have."
         },
         {
           "t": "p",
@@ -270,6 +282,14 @@
         {
           "t": "p",
           "text": "And then — and this is the last thing he does in the story — he asked to be taught it again anyway, by a person, because he had heard that what you learn from a teacher is the kind that holds."
+        },
+        {
+          "t": "p",
+          "text": "He became a teacher himself, later, with students at his own door — and the book tells one of their stories next, a boy left behind to tend the fires who is taught by the fires."
+        },
+        {
+          "t": "p",
+          "text": "Nobody at that door was ever asked whose son he was."
         },
         {
           "t": "slow",

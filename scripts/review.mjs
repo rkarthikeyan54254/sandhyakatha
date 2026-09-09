@@ -117,6 +117,17 @@ function reviewStory(s) {
   });
   for (const c of unused) findings.push(['unused-claim', `nothing in the telling uses: "${c.claim}"`]);
 
+  /* 5. The narrator's own voice in a block the parent has to say aloud.
+        Rama's question: "am I supposed to read this as well?" If it instructs
+        the reader how to read, it belongs in an aside, not in their mouth. */
+  for (const [len, r] of Object.entries(s.lengths))
+    r.blocks.forEach((b, i) => {
+      if (b.t !== 'p' && b.t !== 'slow') return;
+      const t = b.text ?? '';
+      if (/\b(I would|I am going to|I will tell|I like|worth stopping on|worth imagining|the part to slow down)\b/i.test(t))
+        findings.push(['voice', `${len} block ${i}: reads as a note to the parent, not a line of the story — consider an aside: "${t.slice(0, 60)}…"`]);
+    });
+
   /* 5. Age against what is in the story. */
   const heavy = (s.audience.sensitivity ?? []).filter(x => ['death','violence'].includes(x));
   if (heavy.length && s.audience.minAge < 8)

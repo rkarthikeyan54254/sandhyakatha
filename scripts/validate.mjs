@@ -84,13 +84,17 @@ for (const file of files) {
     if (r.blocks[0]?.t === 'beat') err(where, 'a rendition cannot open on a pause');
 
     let words = 0;
+    if (r.blocks[0]?.t === 'aside') err(where, 'a rendition cannot open on an aside — the first thing on the page is read aloud');
+    if (r.blocks.at(-1)?.t === 'aside') err(where, 'an aside cannot be the last block');
     r.blocks.forEach((b, i) => {
       if (b.t === 'beat') {
         if (r.blocks[i + 1]?.t === 'beat') err(where, `block ${i}: two pauses in a row`);
         return;
       }
       const text = b.text ?? '';
-      words += text.replace(/[«»_]/g, '').split(/\s+/).filter(Boolean).length;
+      // An aside is addressed to the parent and is never spoken, so it buys no
+      // minutes. Every other check applies to it exactly as to a breath line.
+      if (b.t !== 'aside') words += text.replace(/[«»_]/g, '').split(/\s+/).filter(Boolean).length;
 
       for (const m of text.matchAll(/«([^»]*)»/g)) {
         const term = m[1];
@@ -117,6 +121,7 @@ for (const file of files) {
       // Sentence count is a poor proxy — a run of short call-and-response
       // questions is one breath. Length is the honest signal.
       if (b.t === 'p' && w > 60) warn(where, `block ${i}: ${w} words — too much for one breath line, split it`);
+      if (b.t === 'aside' && w > 70) warn(where, `block ${i}: ${w} words — an aside that long will get read out by mistake`);
     });
 
     // 130 wpm is a bedtime pace with pauses, not a newsreader's 150+
@@ -137,7 +142,8 @@ for (const file of files) {
     const slowOf = l => s.lengths[l].blocks.find(b => b.t === 'slow')?.text ?? '';
     if (slowOf('short') && slowOf('short') === slowOf('full'))
       warn(at, 'the short and the full land on the same last line — each rendition needs its own');
-    const wc = l => s.lengths[l].blocks.reduce((n, b) => n + (b.text ?? '').split(/\s+/).length, 0);
+    const wc = l => s.lengths[l].blocks.filter(b => b.t !== 'aside')
+      .reduce((n, b) => n + (b.text ?? '').split(/\s+/).length, 0);
     if (wc('short') >= wc('full')) err(at, 'the short rendition is not shorter than the full one');
   }
 

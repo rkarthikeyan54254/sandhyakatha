@@ -1,7 +1,7 @@
 {
   "id": "kali-stops",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "The Foot She Almost Stepped On",
@@ -67,7 +67,9 @@
         "tellings": "The Devī Māhātmya already gives her a lolling tongue when she arrives, chapters before any Śiva-underfoot scene exists. The later tradition explains the same feature as shock at what her foot has landed on.",
         "weTell": "The later explanation, and we say that the oldest text had the tongue there first — which is a good argument that the scene was built to explain the picture, rather than the picture painted from the scene."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 10,
@@ -187,7 +189,7 @@
     },
     "full": {
       "minutes": 7,
-      "words": 693,
+      "words": 698,
       "blocks": [
         {
           "t": "p",
@@ -233,7 +235,7 @@
         },
         {
           "t": "p",
-          "text": "It is a horrible solution and it is the only one there was, and the text does not pretend otherwise."
+          "text": "It is the only thing that works on a problem shaped like that, and the text says so plainly and does not dress it up."
         },
         {
           "t": "p",

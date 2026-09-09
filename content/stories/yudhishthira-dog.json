@@ -175,7 +175,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 674,
+      "words": 656,
       "blocks": [
         {
           "t": "p",
@@ -251,8 +251,8 @@
           "text": "He pointed out, reasonably, that Yudhiṣṭhira had left his own brothers on that road without breaking step, and that a dog was a strange place to draw a line."
         },
         {
-          "t": "p",
-          "text": "Which is the best argument in the chapter, and it is Indra's, and it is meant to land."
+          "t": "aside",
+          "text": "That is the best argument in the chapter, and it belongs to Indra. It is meant to land — do not rush past it."
         },
         {
           "t": "beat"

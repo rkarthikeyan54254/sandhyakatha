@@ -477,9 +477,10 @@
           "enum": [
             "p",
             "beat",
-            "slow"
+            "slow",
+            "aside"
           ],
-          "description": "p = a breath line (one thought; never more than three sentences). beat = a printed pause; the reader stops. slow = the last line, set apart and flagged 'slow down here'. Exactly one slow block per rendition, and it is always last."
+          "description": "p = a breath line (one thought; never more than three sentences). beat = a printed pause; the reader stops. slow = the last line, set apart and flagged 'slow down here'. Exactly one slow block per rendition, and it is always last. aside = a note to the PARENT about the telling. It is shown on the page, marked as not to be read aloud, skipped by the voice renderer, and does not count towards the minutes. Never first, never last."
         },
         "text": {
           "type": "string",
@@ -493,7 +494,8 @@
               "t": {
                 "enum": [
                   "p",
-                  "slow"
+                  "slow",
+                  "aside"
                 ]
               }
             }

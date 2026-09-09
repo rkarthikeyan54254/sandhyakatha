@@ -24,7 +24,9 @@ const mark = t => esc(t)
 
 const rendition = r => r.blocks.map(b => b.t === 'beat'
   ? '<div class="beat"><span>pause</span></div>'
-  : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${mark(b.text)}</p>`).join('');
+  : b.t === 'aside'
+    ? `<aside class="note"><span>for you, not aloud</span><p>${mark(b.text)}</p></aside>`
+    : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${mark(b.text)}</p>`).join('');
 
 const stories = readdirSync(join(ROOT, 'content/stories'))
   .filter(f => f.endsWith('.json')).map(f => read(`content/stories/${f}`))

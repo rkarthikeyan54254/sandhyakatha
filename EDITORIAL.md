@@ -52,6 +52,18 @@ them. That is the entire trust proposition, and it is worth more than the story.
 - **`p` is a breath line.** One thought. At most three sentences.
 - **`beat` is a printed pause.** The reader stops. Use it before a turn, not as punctuation.
 - **`slow` is the landing.** Exactly one per rendition, always last.
+- **`aside` is a note to you, not to the child.** Anything that tells the reader
+  *how to read* — slow down here, keep this short, do not let it sound
+  admirable — is an aside. It is printed on the page marked *for you, not
+  aloud*, the voice renderer skips it, and it does not count towards the
+  minutes, so a six-minute telling is six minutes of actual speech. Never first,
+  never last.
+
+  The test is simple. If the sentence speaks to the child about the story, it is
+  narration and stays a `p` — *"That is the part the text spends its time on"*
+  reads aloud fine. If it instructs the person holding the phone, it is an
+  aside — *"which is the part of this story I would slow down for"* puts an
+  editorial "I" in a parent's mouth that is not theirs.
 - Speech is marked `_like this_`, never with quotation marks.
 - Every name is wrapped `«Like This»` and must exist in the lexicon with native
   script, respelling and gloss. A parent must never have to guess how to say a

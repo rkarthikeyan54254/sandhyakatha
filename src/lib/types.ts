@@ -1,6 +1,8 @@
 export type Tradition = 'sanskrit'|'tamil-shaiva'|'tamil-vaishnava'|'north-bhakti'|'jain'|'buddhist'|'folk';
 export type Stability = 'stable'|'variant'|'regional'|'folk';
-export type Block = { t:'p'|'slow'; text:string } | { t:'beat' };
+/** `aside` is a note to the parent: shown on the page, marked as not to be
+    read aloud, skipped by the voice renderer, and not counted in the minutes. */
+export type Block = { t:'p'|'slow'|'aside'; text:string } | { t:'beat' };
 
 export interface Card {
   id:string; title:string; tease:string; version:number;

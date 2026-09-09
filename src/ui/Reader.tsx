@@ -71,6 +71,11 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, on
         <div className="prose">
           {r.blocks.map((b, i) => b.t === 'beat'
             ? <div className="beat" key={i}><span>pause</span></div>
+            : b.t === 'aside'
+            ? <aside className="note" key={i}>
+                <span>for you, not aloud</span>
+                <p><Line text={b.text!} lex={lex} onSay={setSay} /></p>
+              </aside>
             : <p key={i} className={b.t === 'slow' ? 'slow' : ''}>
                 {b.t === 'slow' && <span className="slowtag">slow down here</span>}
                 <Line text={b.text} lex={lex} onSay={setSay} />

@@ -439,3 +439,13 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .wrong button:hover:not(:disabled){background:rgba(240,180,88,.08)}
 .wrong button:disabled{opacity:.55;cursor:default}
 .wrong.done p{color:var(--ember-lit);font-size:14px;margin:0}
+
+/* ---- an aside is for the parent, and is never read aloud ---- */
+/* Rama's question: "when I am reading this aloud, am I supposed to read this
+   as well?" The answer was no and there was no way to tell. Now there is. */
+.prose aside.note{margin:0 0 20px;padding:11px 14px;border-left:2px solid var(--line);
+  background:rgba(148,138,166,.06);border-radius:0 8px 8px 0}
+.prose aside.note span{display:block;font-family:Karla,system-ui,sans-serif;font-size:9.5px;
+  letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:6px}
+.prose aside.note p{font-family:Karla,system-ui,sans-serif;font-size:14px;line-height:1.6;
+  color:var(--paper-dim);margin:0}

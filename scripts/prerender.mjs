@@ -44,7 +44,9 @@ function page(s) {
   const r = s.lengths.short ?? s.lengths.full;
   const body = r.blocks.map(b => b.t === 'beat'
     ? '<div class="beat"><span>pause</span></div>'
-    : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${render(b.text, seen)}</p>`).join('\n');
+    : b.t === 'aside'
+      ? `<aside class="note"><span>for you, not aloud</span><p>${render(b.text, seen)}</p></aside>`
+      : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${render(b.text, seen)}</p>`).join('\n');
   const says = [...seen].map(t => `<li><b>${t}</b><span>${esc(lex[t].say)}</span><i>${esc(lex[t].gloss)}</i></li>`).join('');
   const url = `${SITE}/s/${s.id}/`;
   const og = existsSync(join(ROOT, `public/og/${s.id}.png`)) ? `${SITE}/og/${s.id}.png` : `${SITE}/og/default.png`;
@@ -126,6 +128,9 @@ p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
 .wrong button:hover{background:rgba(240,180,88,.08)}
 .wrong button:disabled{opacity:.6;cursor:default}
 .wrong .thanks{color:var(--ember-lit);font-size:14px;margin:0}
+aside.note{margin:0 0 20px;padding:11px 14px;border-left:2px solid var(--line);background:rgba(148,138,166,.07);border-radius:0 8px 8px 0}
+aside.note span{display:block;font-family:Karla,sans-serif;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:6px}
+aside.note p{font-family:Karla,sans-serif;font-size:14px;line-height:1.6;color:var(--paper-dim);margin:0}
 footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
 </style></head>
 <body><div class="w">

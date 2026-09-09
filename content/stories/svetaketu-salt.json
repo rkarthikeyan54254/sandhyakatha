@@ -167,7 +167,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 599,
+      "words": 662,
       "blocks": [
         {
           "t": "p",
@@ -220,8 +220,12 @@
           "text": "That was the lesson for that night. A young man with twelve years of the finest education in the country, standing in his father's house, dropping a lump of salt into a bowl of water and then going to bed."
         },
         {
+          "t": "aside",
+          "text": "Worth a pause here, and worth imagining properly before you go on."
+        },
+        {
           "t": "p",
-          "text": "It is worth imagining that night properly. He is twenty-four. He has been top of everything for a decade. And he has been given a chore."
+          "text": "He is twenty-four. He has been top of everything for a decade. And he has been given a chore."
         },
         {
           "t": "beat"
@@ -279,6 +283,14 @@
         {
           "t": "p",
           "text": "Most of those came before the salt. This was never the first night."
+        },
+        {
+          "t": "p",
+          "text": "And Śvetaketu says nothing back. Not in this chapter and not in the next eight. He asks to be told again, and again, and each time his father does it with something else — but he never once says that he has understood."
+        },
+        {
+          "t": "p",
+          "text": "The chapter ends with the sentence and not with him agreeing to it, which is either the most frustrating thing in the Upaniṣads or the most honest."
         },
         {
           "t": "slow",
