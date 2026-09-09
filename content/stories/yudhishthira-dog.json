@@ -1,0 +1,324 @@
+{
+  "id": "yudhishthira-dog",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "He Would Not Go In Without the Dog",
+  "tease": "At the very end he is offered heaven, in a chariot, by name. There is one condition, and it is about the dog that has been walking with him.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Mahāprasthānika Parva",
+    "stability": "stable",
+    "traditionNote": "One of the very last chapters, and one of the shortest — the whole walk and the argument at the end take only a few pages after eighteen books of war. It is told the same way everywhere.",
+    "checkedAgainst": [
+      "Mahābhārata — Poona critical edition, Mahāprasthānika Parva",
+      "Ganguli trans., Mahaprasthanika Parva"
+    ],
+    "sourcing": [
+      {
+        "claim": "The five brothers and Draupadī set out north on foot to die, having given up the kingdom",
+        "locus": "Mahāprasthānika Parva 1"
+      },
+      {
+        "claim": "A dog attaches itself to them and follows the whole way",
+        "locus": "Mahāprasthānika Parva 2"
+      },
+      {
+        "claim": "They fall one at a time — Draupadī first, then Sahadeva, Nakula, Arjuna, Bhīma",
+        "locus": "Mahāprasthānika Parva 2"
+      },
+      {
+        "claim": "Yudhiṣṭhira does not stop or look back, and gives a reason for each fall when asked",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Indra arrives with a chariot and offers him heaven in his own body",
+        "locus": "Mahāprasthānika Parva 3"
+      },
+      {
+        "claim": "Yudhiṣṭhira asks that the dog come too",
+        "locus": "Mahāprasthānika Parva 3.7–12"
+      },
+      {
+        "claim": "Indra refuses: there is no place in heaven for dogs",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Yudhiṣṭhira refuses heaven rather than abandon one who took refuge with him",
+        "locus": "Mahāprasthānika Parva 3.13–17"
+      },
+      {
+        "claim": "The dog is Dharma, his father, and this was the last test",
+        "locus": "Mahāprasthānika Parva 3.18–20"
+      },
+      {
+        "claim": "Dharma names this as a test and refers to the earlier one at the lake",
+        "locus": "Mahāprasthānika Parva 3.18–20; cf. Vana Parva, the yakṣa"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 13,
+    "sensitivity": [
+      "death",
+      "loss"
+    ],
+    "careNote": "His wife and all four of his brothers die on this walk, one at a time, and he keeps walking without looking back. Nothing violent — they simply fall — but the accumulation is the point and it is bleak before it turns. The turn is worth waiting for."
+  },
+  "values": [
+    "who you will not leave behind",
+    "refusing the reward"
+  ],
+  "themes": [
+    "mahabharata",
+    "loyalty",
+    "endings",
+    "what you owe"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "lead"
+    },
+    {
+      "ref": "Draupadī",
+      "role": "present"
+    },
+    {
+      "ref": "Bhīma",
+      "role": "present"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "foil"
+    },
+    {
+      "ref": "svarga",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 328,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "At the end of everything the five brothers gave the kingdom away and started walking north, on foot, to die. «Draupadī» went with them. So did a dog, which nobody had invited and nobody sent away."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They fell one at a time on that road. Draupadī first. Then the youngest, then the next, then «Arjuna», then «Bhīma»."
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» did not stop and did not look back. When somebody still walking asked him why the one behind had fallen, he gave an answer, and kept going."
+        },
+        {
+          "t": "p",
+          "text": "In the end there was a man and a dog, and a mountain, and nothing else."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Indra» came down with a chariot. Get in — you are the only person ever to be offered this in your own body, without dying first."
+        },
+        {
+          "t": "p",
+          "text": "Yudhiṣṭhira said: the dog comes."
+        },
+        {
+          "t": "p",
+          "text": "Indra said there was no place in «svarga» for a dog. He was not being cruel. It was simply the rule, and he said so several times, patiently, the way you explain something obvious."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And Yudhiṣṭhira — who had lost a war's worth of people, and his wife, and all four brothers on that same road, and had not turned round for any of them — got out of the chariot."
+        },
+        {
+          "t": "p",
+          "text": "He said the dog had come to him for shelter and he was not going to leave it standing on a mountain to buy himself something. Not heaven. Not anything."
+        },
+        {
+          "t": "p",
+          "text": "The dog was his father. It had been the whole time, and it had been the last test, and it was the only one that had ever actually been about him."
+        },
+        {
+          "t": "p",
+          "text": "His father told him so where he stood: that he had been watched the whole way, and that nobody else had ever turned that down."
+        },
+        {
+          "t": "slow",
+          "text": "Everything he had was gone by then, and the one thing left was a hungry dog with nobody. He chose the dog over heaven, and that turned out to be the only question he was ever really asked."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 674,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "This is nearly the last thing in the book, and after eighteen volumes of war it takes about four pages."
+        },
+        {
+          "t": "p",
+          "text": "The war was over and won and had cost everything it was possible to lose. The five brothers gave the kingdom to somebody younger, took nothing with them, and started walking north, on foot, to die."
+        },
+        {
+          "t": "p",
+          "text": "«Draupadī» went with them."
+        },
+        {
+          "t": "p",
+          "text": "And so did a dog. Nobody invited it. Nobody sent it away. It fell in beside them somewhere early on and stayed there."
+        },
+        {
+          "t": "p",
+          "text": "They walked a long way. Round the whole country first, the book says, and then north, towards the mountain, in the direction people go when they are not coming back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They fell on that road one at a time."
+        },
+        {
+          "t": "p",
+          "text": "Draupadī first. Then the youngest brother, then the next one, then «Arjuna», then «Bhīma», who was the last and the strongest and went down like all the rest of them."
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» did not stop. He did not turn round. He did not go back to any of them."
+        },
+        {
+          "t": "p",
+          "text": "Each time, whoever was still walking would ask him why, and he would give an answer — she loved one of us more than the others; he was vain about his looks; he was proud of his bow — and then keep walking."
+        },
+        {
+          "t": "p",
+          "text": "You are allowed to find him cold here, and readers have for two thousand years. He has decided the walk is the last thing he must do properly, and that stopping would be a kind of arguing. But he sounds cold, and the book lets him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "By the end there was a man, and a dog, and a mountain, and nothing else at all."
+        },
+        {
+          "t": "p",
+          "text": "And then the sky opened and «Indra» came down in a chariot."
+        },
+        {
+          "t": "p",
+          "text": "Get in, he said. Heaven, now, in the body you are standing in — no dying first, no waiting. Nobody has ever been offered this. You have earned it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Yudhiṣṭhira said: the dog comes with me."
+        },
+        {
+          "t": "p",
+          "text": "And Indra said no. Not unkindly, and not as a test — as a fact. There is no place in «svarga» for dogs. It is not done. He explained it more than once, the way you explain something to somebody who has misunderstood a small practical detail."
+        },
+        {
+          "t": "p",
+          "text": "He pointed out, reasonably, that Yudhiṣṭhira had left his own brothers on that road without breaking step, and that a dog was a strange place to draw a line."
+        },
+        {
+          "t": "p",
+          "text": "Which is the best argument in the chapter, and it is Indra's, and it is meant to land."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Yudhiṣṭhira's answer is one sentence long and it has outlived everybody in the book."
+        },
+        {
+          "t": "p",
+          "text": "The dog came to me, he said. It has nobody else, and it is frightened, and it has done nothing wrong. I will not throw off somebody who took shelter with me to buy something for myself — not a kingdom, and not heaven either."
+        },
+        {
+          "t": "p",
+          "text": "And he got down out of the chariot."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The dog was his father."
+        },
+        {
+          "t": "p",
+          "text": "It had been the whole way — Dharma himself, walking beside him on that road, saying nothing, being ignored, getting hungry and tired, waiting to find out what this man would do when there was nothing left to be seen doing it for."
+        },
+        {
+          "t": "p",
+          "text": "It was the last test. It was also the only one in the entire book that was not about a kingdom, or a war, or a promise made in front of witnesses."
+        },
+        {
+          "t": "p",
+          "text": "And his father told him so, out loud, standing there on the mountain: that he had been watched, and weighed, and that nobody else had ever refused what he had just refused."
+        },
+        {
+          "t": "p",
+          "text": "It was not the first time the two of them had done this. Years earlier there had been a lake, and a voice asking questions, and the same man giving the same kind of answer. His father had wanted to see whether it held when there was nothing left to gain."
+        },
+        {
+          "t": "slow",
+          "text": "He walked past his own brothers on that road and did not break step. He would not walk past a dog that had nobody else."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "abhimanyu-spiral",
+    "reason": "the same war, from the other end of it, and the boy this man had a hand in sending in"
+  },
+  "close": {
+    "question": "Indra's question is a fair one — he left his brothers and would not leave a dog. What do you think the difference was?",
+    "seed": "Somebody who has nobody else has a claim on you that a family does not need to make.",
+    "ifTheyAsk": [
+      {
+        "q": "Why didn't he help his brothers?",
+        "a": "Because they were dying of what they had done and he could not have stopped it, and because he had decided the walk was the last thing he would do properly. That is his reasoning and the book gives it to you without deciding whether it is good enough. The dog is different in one way that matters to him: it had come to him for shelter, and nobody else was going to look after it. Family does not have to ask."
+      },
+      {
+        "q": "Was Indra being unfair?",
+        "a": "No, and that is what makes the scene work. He is not testing anybody and he is not being cruel — he is applying a rule he did not write, and he is genuinely puzzled. The story is not gods against a man. It is a rule against a person, and the person turns down the largest reward ever offered rather than break something smaller."
+      },
+      {
+        "q": "What happened after?",
+        "a": "It gets stranger. He is taken up, and finds Duryodhana — the man who caused the war — sitting there comfortably, and no sign of his own brothers, and he asks to be taken to wherever they are instead, even if it is the other place. That is the next chapter and it is worth reading when you are ready for it."
+      }
+    ]
+  }
+}

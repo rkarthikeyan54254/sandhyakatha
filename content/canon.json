@@ -271,16 +271,17 @@
       "tradition": "sanskrit",
       "work": "Mahābhārata",
       "locus": "Droṇa Parva",
-      "stability": "stable",
+      "stability": "variant",
       "minAge": 13,
       "sensitivity": [
         "death",
-        "violence"
+        "violence",
+        "injustice"
       ],
-      "value": "knowing half of something",
+      "value": "being sent in by people who knew",
       "hook": "He learned how to get into the formation before he was born. Nobody finished telling him how to get out.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -1386,7 +1387,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 4,
       "gated": false
     },
@@ -1579,6 +1580,48 @@
       "status": "in-review",
       "wave": 5,
       "gated": true
+    },
+    {
+      "n": 81,
+      "id": "yudhishthira-dog",
+      "title": "He Would Not Go In Without the Dog",
+      "corpus": "mahabharata",
+      "tradition": "sanskrit",
+      "work": "Mahābhārata",
+      "locus": "Mahāprasthānika Parva",
+      "stability": "stable",
+      "minAge": 13,
+      "sensitivity": [
+        "death",
+        "loss"
+      ],
+      "value": "who you will not leave behind",
+      "hook": "At the very end he is offered heaven, in a chariot, by name. There is one condition, and it is about the dog that has been walking with him.",
+      "festivals": [],
+      "status": "in-review",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 82,
+      "id": "kunti-and-karna",
+      "title": "What Kuntī Came to the River to Say",
+      "corpus": "mahabharata",
+      "tradition": "sanskrit",
+      "work": "Mahābhārata",
+      "locus": "Udyoga Parva 144–146",
+      "stability": "stable",
+      "minAge": 14,
+      "sensitivity": [
+        "parental-conflict",
+        "loss"
+      ],
+      "value": "a thing said sixty years too late",
+      "hook": "She waits until he has finished praying, and then tells him the one fact about himself that everybody has kept from him, on the day before the war.",
+      "festivals": [],
+      "status": "draft",
+      "wave": 5,
+      "gated": false
     }
   ]
 }

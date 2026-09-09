@@ -1,0 +1,354 @@
+{
+  "id": "abhimanyu-spiral",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "Abhimanyu and the Spiral",
+  "tease": "He knew how to get into the formation. Nobody had ever finished telling him how to get out of it, and the grown-ups sent him in anyway.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Droṇa Parva, the Abhimanyu-vadha",
+    "stability": "variant",
+    "traditionNote": "The Mahābhārata has him say plainly that he was taught how to break into the formation and not how to come out. That he learned it in the womb, from his father explaining it to a mother who fell asleep halfway, is how it is told everywhere — and is not in the Sanskrit.",
+    "checkedAgainst": [
+      "Mahābhārata — Poona critical edition, Droṇa Parva",
+      "van Buitenen / Bowles trans., Chicago, Droṇa Parva"
+    ],
+    "sourcing": [
+      {
+        "claim": "Droṇa draws up the cakravyūha on a day when Arjuna has been drawn away to another part of the field",
+        "locus": "Droṇa Parva 33–34"
+      },
+      {
+        "claim": "Only a few men living know how to break it, and Arjuna is not there",
+        "locus": "Droṇa Parva 34"
+      },
+      {
+        "claim": "Abhimanyu tells Yudhiṣṭhira he can get in but does not know the way out",
+        "locus": "Droṇa Parva 34.13–17"
+      },
+      {
+        "claim": "He is sent in on the understanding that the others will follow him through the gap",
+        "locus": "Droṇa Parva 34.18–20"
+      },
+      {
+        "claim": "Jayadratha holds the entrance against the Pāṇḍavas, on the strength of a boon",
+        "locus": "Droṇa Parva 41"
+      },
+      {
+        "claim": "Alone inside, he fights for a long time and does great damage",
+        "locus": "Droṇa Parva 35–46"
+      },
+      {
+        "claim": "Six great warriors attack him together; Karṇa cuts his bowstring from behind at Droṇa's word",
+        "locus": "Droṇa Parva 47"
+      },
+      {
+        "claim": "His chariot, horses and driver are destroyed; he fights on foot with a chariot wheel",
+        "locus": "Droṇa Parva 47"
+      },
+      {
+        "claim": "Duḥśāsana's son kills him with a mace",
+        "locus": "Droṇa Parva 47.15–18"
+      },
+      {
+        "claim": "He is sixteen",
+        "locus": "Droṇa Parva; and the tradition throughout"
+      },
+      {
+        "claim": "The womb-learning is later telling, not the Sanskrit",
+        "locus": "Living tradition; not in the critical edition"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Where the half-lesson came from",
+        "tellings": "The Sanskrit has him state the fact — in, but not out — without explaining how that came about. The universal popular telling has him hear it in the womb, with Subhadrā falling asleep before Arjuna reaches the way out.",
+        "weTell": "The popular one, because it is the version your child will meet everywhere else, with the seam named."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 13,
+    "sensitivity": [
+      "death",
+      "violence",
+      "injustice"
+    ],
+    "careNote": "A sixteen-year-old is sent into a trap by adults who knew he half knew the way, shut in deliberately, surrounded by six grown men and killed. No wounds are described and nothing lingers. The story offers no consolation and this telling does not invent one."
+  },
+  "values": [
+    "being sent in by people who knew",
+    "half a lesson"
+  ],
+  "themes": [
+    "mahabharata",
+    "war",
+    "adults",
+    "half-knowing"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Abhimanyu",
+      "role": "lead"
+    },
+    {
+      "ref": "cakravyūha",
+      "role": "present"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "present"
+    },
+    {
+      "ref": "Subhadrā",
+      "role": "present"
+    },
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "present"
+    },
+    {
+      "ref": "Jayadratha",
+      "role": "foil"
+    },
+    {
+      "ref": "Droṇa",
+      "role": "foil"
+    },
+    {
+      "ref": "Karṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Duḥśāsana",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 302,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Abhimanyu» was sixteen."
+        },
+        {
+          "t": "p",
+          "text": "On the thirteenth day of the war «Droṇa» drew the army up as a «cakravyūha» — a formation coiled like a wheel, ring inside ring, that closes behind whatever comes in. Very few men alive knew how to open it. «Arjuna» was one of them and Arjuna had been drawn away to the other end of the field on purpose."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So they asked his son."
+        },
+        {
+          "t": "p",
+          "text": "And here is what he told them, before he went, plainly and to their faces: _I know how to get in. I do not know how to get out._"
+        },
+        {
+          "t": "p",
+          "text": "The story everyone tells is that he heard it before he was born — his father explaining it to his mother, and his mother falling asleep partway through, so he got the going in and never got the coming out."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They sent him anyway. He would open the gap and they would come through it behind him. That was the arrangement and everybody agreed to it."
+        },
+        {
+          "t": "p",
+          "text": "He went in. And behind him, one man — «Jayadratha» — stood in the gap and held it shut, and the rest of them could not get past."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He was alone in there for a long time, and he was extraordinary. The book spends chapter after chapter on it and does not hurry."
+        },
+        {
+          "t": "p",
+          "text": "Then six of them came at him at once. His bowstring was cut from behind. His chariot went, his horses went, his driver went, and he pulled a wheel off the wreck and fought on with that."
+        },
+        {
+          "t": "p",
+          "text": "And then somebody hit him from behind with a mace, and that was the end of it."
+        },
+        {
+          "t": "slow",
+          "text": "Every adult in that field knew he only half knew it. He told them so himself. They sent him in, and then the door shut, and none of them could reach him."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 669,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Abhimanyu» was sixteen years old."
+        },
+        {
+          "t": "p",
+          "text": "That is worth holding on to for the whole of this, because the story is very good at making you forget it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "On the thirteenth day «Droṇa» drew the army up into a «cakravyūha»."
+        },
+        {
+          "t": "p",
+          "text": "It is a formation shaped like a coiled wheel — ring inside ring, turning, closing behind whatever comes in. Getting in is one skill. Getting out is a different one, and only a handful of men alive had both."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» was one of them. Which is precisely why, that morning, a part of the enemy army had gone off and challenged Arjuna somewhere else entirely, and Arjuna had gone."
+        },
+        {
+          "t": "p",
+          "text": "So the formation was there, and the man who could open it was a long way off, and the day was going badly."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They asked his son."
+        },
+        {
+          "t": "p",
+          "text": "And this is the sentence the whole story turns on, because Abhimanyu did not pretend. He told them, before he went, to their faces: _I know how to get in. I do not know the way out._"
+        },
+        {
+          "t": "p",
+          "text": "The reason everybody gives is one of the most famous things in the book, and it is not actually in the Sanskrit."
+        },
+        {
+          "t": "p",
+          "text": "They say he heard it before he was born — «Arjuna» explaining the formation to «Subhadrā» while she was carrying him, and Subhadrā falling asleep partway through, so the child got the going in and never got the coming out."
+        },
+        {
+          "t": "p",
+          "text": "Half a lesson, because somebody was tired."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They sent him in anyway."
+        },
+        {
+          "t": "p",
+          "text": "Not carelessly — there was a plan, and it was a reasonable one. He would break the gap open and the rest of them would come straight through behind him, and once they were inside it would not matter that he could not get out alone, because he would not be alone."
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» agreed to it. Everybody agreed to it. It is important that this was not a trick played on him by his own side."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He went in, and the gap opened, and it worked."
+        },
+        {
+          "t": "p",
+          "text": "And then one man stood in that gap and held it."
+        },
+        {
+          "t": "p",
+          "text": "«Jayadratha» had a boon — for one day, he could hold off four of the five brothers. This was the day. He stood in the mouth of the formation and the rest of the army came at him and could not get past him, and the rings turned, and closed."
+        },
+        {
+          "t": "p",
+          "text": "Somewhere on the other side of that, a boy who had been told he would not be alone found out that he was."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "What he did in there takes the book a dozen chapters and it does not hurry any of it."
+        },
+        {
+          "t": "p",
+          "text": "He went through the army. Commanders, chariots, elephants, whole sections of it. Men who had fought for thirty years could not stand in front of him, and the book names them one after another so you understand this was not luck."
+        },
+        {
+          "t": "p",
+          "text": "He was, by an enormous margin, the best thing on that field, and he was sixteen, and he could not leave."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So they stopped fighting him one at a time."
+        },
+        {
+          "t": "p",
+          "text": "Six of them came at once — the teacher who had taught half of them, and «Karṇa», and four more. His bowstring was cut from behind, on Droṇa's word. Then the bow. Then the chariot, then the horses, then the man driving it."
+        },
+        {
+          "t": "p",
+          "text": "He got down and pulled a wheel off the wreck and fought on with that, on foot, holding a wheel, which is how every painting of him shows him and is not an exaggeration."
+        },
+        {
+          "t": "p",
+          "text": "And then «Duḥśāsana»'s son came up behind him with a mace, and that was the end of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There is no consolation in this chapter. Nobody is rewarded. Arjuna comes back that evening and has to be told."
+        },
+        {
+          "t": "slow",
+          "text": "Every adult on that field knew he only half knew it, because he had said so out loud before he went. They sent him in on a promise to be right behind him, and then one man shut the door, and not one of them could reach him."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "ekalavya-thumb",
+    "reason": "the other story where a boy is asked to pay for something the adults arranged between themselves"
+  },
+  "close": {
+    "question": "He told them exactly what he did not know, and they sent him anyway — and they were not lying about following him. Whose fault is it that he was alone in there?",
+    "seed": "Saying what you do not know is not the same as being protected from it.",
+    "ifTheyAsk": [
+      {
+        "q": "Did the Pāṇḍavas do something wrong?",
+        "a": "That is the argument, and the book leaves it open on purpose. They did not deceive him — he volunteered knowing exactly what he did not know, and the plan to follow him in was real and it failed because of one man and a boon. But they were the adults, he was sixteen, and the shape of the plan was that a boy went first. Both of those are true at once and neither cancels the other. An older child is entitled to be angry about it."
+      },
+      {
+        "q": "Is the story about the womb real?",
+        "a": "It is not in the Sanskrit. The Mahābhārata has Abhimanyu simply state that he knows the way in and not the way out, and never explains how that happened. The mother falling asleep partway through the lesson is later telling — but it is told so universally that your child will meet it everywhere else, which is why it is here, marked."
+      },
+      {
+        "q": "Why did six of them attack at once?",
+        "a": "Because they could not beat him any other way, and the book knows it and says so. Everything that happens to Abhimanyu at the end — the six of them, the bowstring cut from behind, the mace from behind — breaks the rules those same men had agreed to fight by. The Mahābhārata records it as the point where the war stops being honourable, and much of what the Pāṇḍavas do afterwards is coloured by this afternoon."
+      }
+    ]
+  }
+}

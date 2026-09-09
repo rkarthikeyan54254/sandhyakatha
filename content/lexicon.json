@@ -1385,5 +1385,64 @@
    "Jayadratha",
    "Jayadrath"
   ]
+ },
+ "Kuntī": {
+  "id": "kunti",
+  "native": {
+   "deva": "कुन्ती",
+   "taml": "குந்தி"
+  },
+  "say": "KOON-tee",
+  "ipa": "ˈkʊn.tiː",
+  "kind": "person",
+  "gloss": "Mother of the eldest three Pāṇḍavas, and of Karṇa before any of them. She kept the second fact for sixty years.",
+  "aliases": [
+   "Kunti",
+   "Kunthi",
+   "Pritha"
+  ]
+ },
+ "Subhadrā": {
+  "id": "subhadra",
+  "native": {
+   "deva": "सुभद्रा"
+  },
+  "say": "soo-BHUD-raa",
+  "ipa": "sʊˈbʱɐd.raː",
+  "kind": "person",
+  "gloss": "Kṛṣṇa's sister, Arjuna's wife, Abhimanyu's mother. In the popular telling she is the one who falls asleep halfway through the lesson.",
+  "aliases": [
+   "Subhadra"
+  ]
+ },
+ "Duḥśāsana": {
+  "id": "duhshasana",
+  "native": {
+   "deva": "दुःशासन"
+  },
+  "say": "dooh-SHAA-suh-nuh",
+  "ipa": "dʊɦˈɕaː.sɐ.nɐ",
+  "kind": "person",
+  "gloss": "Duryodhana's brother. It is his son who lands the last blow on Abhimanyu.",
+  "aliases": [
+   "Duhshasana",
+   "Dushasana"
+  ]
+ },
+ "svarga": {
+  "id": "svarga",
+  "native": {
+   "deva": "स्वर्ग",
+   "taml": "சொர்க்கம்"
+  },
+  "say": "SVUR-guh",
+  "ipa": "ˈsʋɐr.ɡɐ",
+  "kind": "word",
+  "gloss": "Heaven — but a heaven you can be let into and can also walk out of again, which is what makes the last story about it interesting.",
+  "aliases": [
+   "svargam",
+   "swarga",
+   "swargam"
+  ]
  }
 }
