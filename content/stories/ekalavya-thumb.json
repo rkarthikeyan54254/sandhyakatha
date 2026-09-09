@@ -1,0 +1,323 @@
+{
+  "id": "ekalavya-thumb",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "Ekalavya's Thumb",
+  "tease": "A forest boy teaches himself archery in front of a clay statue of the teacher who turned him away. Years later the teacher comes to collect his fee.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Ādi Parva — the training of the princes",
+    "stability": "stable",
+    "traditionNote": "Told the same way everywhere and never softened by the text itself. The Mahābhārata records what Droṇa does without defending it, and without condemning it either — which is why people have been arguing about this chapter for two thousand years.",
+    "checkedAgainst": [
+      "Mahābhārata — Poona critical edition, Ādi Parva",
+      "van Buitenen trans., Chicago, vol. 1"
+    ],
+    "sourcing": [
+      {
+        "claim": "Ekalavya is a Niṣāda prince and comes to Droṇa to be taught",
+        "locus": "Ādi Parva, the training of the princes"
+      },
+      {
+        "claim": "Droṇa refuses him",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He makes a statue of Droṇa out of earth and practises in front of it",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He becomes extraordinary — the text says surpassingly skilled",
+        "locus": "ibid."
+      },
+      {
+        "claim": "A dog barks at him and he fills its mouth with seven arrows without wounding it",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The Pāṇḍavas find the dog, then find him; he names himself Droṇa's pupil",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Arjuna reminds Droṇa of a promise that no pupil would surpass him",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Droṇa asks for the right thumb as his teacher's fee, and Ekalavya gives it without hesitating",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Afterwards he shoots with his fingers and is no longer as fast",
+        "locus": "ibid."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 12,
+    "sensitivity": [
+      "injustice",
+      "social-hierarchy"
+    ],
+    "careNote": "A boy cuts off his own thumb because a teacher asks for it, and does it cheerfully. Nothing is described beyond the fact of it. The story offers no consolation and no lesson, and this telling does not supply one — a child will be angry, and the anger is the correct response rather than something to be talked out of."
+  },
+  "values": [
+    "there is no clean moral here",
+    "what a teacher owes"
+  ],
+  "themes": [
+    "mahabharata",
+    "teachers",
+    "unfairness",
+    "what it costs"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Ekalavya",
+      "role": "lead"
+    },
+    {
+      "ref": "Droṇa",
+      "role": "foil"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 324,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Ekalavya» walked out of the forest and asked «Droṇa» to teach him archery, and Droṇa said no."
+        },
+        {
+          "t": "p",
+          "text": "The reason was his birth. He was a forest people's prince, and Droṇa taught kings' sons, and that was the whole of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he went back into the forest, and made a statue of Droṇa out of earth, and put it up, and stood in front of it every day, and taught himself."
+        },
+        {
+          "t": "p",
+          "text": "For years. Nobody was watching and nobody was correcting him."
+        },
+        {
+          "t": "p",
+          "text": "And he became extraordinary. Not good. The text says he passed everybody."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The princes were out hunting when a dog got ahead of them and started barking at somebody in the trees."
+        },
+        {
+          "t": "p",
+          "text": "And seven arrows came, so fast the dog never stopped barking, and filled its mouth without cutting it anywhere. The dog trotted back to the princes exactly as it had left, unable to make a sound."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» looked at that dog for a long time."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They found him. He was delighted to meet them. He told them, proudly, that he was a pupil of Droṇa's."
+        },
+        {
+          "t": "p",
+          "text": "And Arjuna went to Droṇa and reminded him of something he had once said — that no pupil of his would ever be greater than Arjuna."
+        },
+        {
+          "t": "p",
+          "text": "So Droṇa walked into the forest, and found the boy who had built a statue of him, and was greeted like a god. And he asked for his teacher's fee."
+        },
+        {
+          "t": "p",
+          "text": "The right thumb. The one you draw a bowstring with."
+        },
+        {
+          "t": "p",
+          "text": "And Ekalavya cut it off and gave it to him, cheerfully, without one second of hesitation, because he had been asked by his teacher."
+        },
+        {
+          "t": "p",
+          "text": "He went on shooting afterwards, with his fingers, for the rest of his life. He was still good. He was never that fast again, and everybody involved knew that was the point."
+        },
+        {
+          "t": "slow",
+          "text": "He had never been taught a thing by that man. He was the only one in the story who behaved as though he had."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 642,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Ekalavya» came out of the forest and asked to be taught."
+        },
+        {
+          "t": "p",
+          "text": "«Droṇa» was the best archery teacher in the world and he was teaching the princes, and Ekalavya walked up and asked to be one of them, and Droṇa said no."
+        },
+        {
+          "t": "p",
+          "text": "The reason was not that he lacked talent, because nobody had tested him. The reason was his birth. He was a prince too, of a forest people, and it was the wrong kind — and the refusal was the ordinary sort that everybody present would have thought unremarkable."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he went back into the forest and built a statue."
+        },
+        {
+          "t": "p",
+          "text": "Out of earth, with his hands. Of Droṇa. And he set it up in a clearing and stood in front of it every morning as though the lesson were about to start."
+        },
+        {
+          "t": "p",
+          "text": "Then he taught himself."
+        },
+        {
+          "t": "p",
+          "text": "For years. With no one watching, no one correcting him, and nothing at the end of it — no place, no tournament, nobody to tell. Just a boy and a mud statue and a bow, every day, for years."
+        },
+        {
+          "t": "p",
+          "text": "And he became extraordinary. The text does not say good, or promising. It says he surpassed everyone."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The princes were out hunting when a dog ran ahead of them, found somebody in the trees, and barked at him."
+        },
+        {
+          "t": "p",
+          "text": "Seven arrows came. So fast that the dog was still barking when they landed, and they filled its open mouth without cutting it anywhere at all."
+        },
+        {
+          "t": "p",
+          "text": "The dog came trotting back to the princes exactly as it had gone, entirely unhurt, and unable to make a sound."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» looked at that dog for a long time. He was the best archer alive and he had just been shown something he could not do."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They went and found him, and he was delighted. He had been alone in a forest for years and here were the princes, and he told them who he was, and then he told them the thing he was proudest of."
+        },
+        {
+          "t": "p",
+          "text": "He said he was a pupil of Droṇa's."
+        },
+        {
+          "t": "p",
+          "text": "He believed it. He had said it to the statue every morning. As far as he was concerned it was simply true."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Arjuna went back and reminded Droṇa of something Droṇa had once promised him — that no student of his would ever be greater than Arjuna."
+        },
+        {
+          "t": "p",
+          "text": "And Droṇa walked into the forest."
+        },
+        {
+          "t": "p",
+          "text": "He found a young man who had built a statue of his face out of mud, and who came running when he saw the original, and put his head on the ground, and could not believe his luck."
+        },
+        {
+          "t": "p",
+          "text": "And Droṇa said: then give your teacher his fee."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He asked for the right thumb. The one you draw a bowstring with. From an archer."
+        },
+        {
+          "t": "p",
+          "text": "And Ekalavya cut it off and handed it over, cheerfully, without a second's hesitation and without asking a single question, because his teacher had asked him for it."
+        },
+        {
+          "t": "p",
+          "text": "He went on shooting afterwards. With his fingers, without the thumb, for the rest of his life. He was still good. He was never that fast again, and everybody involved knew that was the point."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The book does not tell you what to think about this. Nobody in it is punished for it and nobody apologises. It happens, and the chapter moves on to the next thing, and Droṇa goes back to teaching the princes."
+        },
+        {
+          "t": "p",
+          "text": "What it does record is what the fee was for. Not a lesson, because there had not been one. Not a debt, because nothing had been given. It was for the one thing Droṇa had actually promised — to somebody else, about a tournament, years earlier."
+        },
+        {
+          "t": "p",
+          "text": "A boy who had never been let into the room paid for a promise made inside it."
+        },
+        {
+          "t": "slow",
+          "text": "He was never taught one thing by that man. He was the only person in the whole story who behaved as though he had been."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "abhimanyu-spiral",
+    "reason": "the same teacher, years later, giving an order about another boy who was better than he was meant to be"
+  },
+  "close": {
+    "question": "Ekalavya gave it cheerfully, and that is the part that is hardest to sit with. Why do you think he did not argue?",
+    "seed": "Somebody behaving well does not make what was done to them all right.",
+    "ifTheyAsk": [
+      {
+        "q": "Was Droṇa a bad man?",
+        "a": "He does an indefensible thing here and the book lets it stand. He is also, elsewhere, a man who loves his students and dies of grief over a lie about his son. Both are in the same person, and the Mahābhārata is unusual in refusing to resolve that for you. It is worth saying to an older child that a person can be genuinely admirable and do something like this, because that is more useful than deciding he was simply a villain."
+      },
+      {
+        "q": "Why didn't Ekalavya say no?",
+        "a": "Nothing in the text suggests it occurred to him. He had spent years treating Droṇa as his teacher, and a teacher's fee was the one thing a student owed. He was not being weak — by his own lights he was being exactly what he had spent those years becoming. That is what makes it hard, and if it makes your child angry on his behalf, the anger is the right response and does not need talking down."
+      },
+      {
+        "q": "Does he come back in the story?",
+        "a": "Briefly, much later, on the wrong side of the war and killed by Kṛṣṇa. It is a few lines and it is easy to miss. The book that spends a whole chapter on his thumb gives his death almost nothing, which some readers find is the most telling thing about the whole episode."
+      }
+    ]
+  }
+}

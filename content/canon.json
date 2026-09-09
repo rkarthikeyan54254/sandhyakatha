@@ -218,7 +218,7 @@
       "value": "answering honestly under pressure",
       "hook": "Four brothers drink and fall. The fifth is asked what the greatest wonder in the world is, and gets it right.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -259,7 +259,7 @@
       "value": "there is no clean moral here",
       "hook": "A forest boy teaches himself archery from a clay statue of the teacher who turned him away. Then the teacher comes to collect.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -1080,10 +1080,10 @@
       "sensitivity": [
         "death"
       ],
-      "value": "the story is not settled",
+      "value": "the same story told another way",
       "hook": "In this one Rāvaṇa is not a demon, does not have ten heads, never harms Sītā — and is still the one who loses everything.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
       "gated": false
     },

@@ -87,7 +87,7 @@ function reviewStory(s) {
   /* 2. Capitalised words mid-sentence that the lexicon has never heard of.
         This is where an invented person or place shows up. */
   const unknown = new Map();
-  for (const m of body.matchAll(/(?<![.!?]\s|^|«|\n)\b([A-ZĀĪŪṚṆṢŚṬḌṄÑḶḤṂ][a-zāīūṛṇṣśṭḍṅñḷḥṃ'’]{2,})\b/gm)) {
+  for (const m of body.matchAll(/(?<![.!?_]\s|^|«|\n)\b([A-ZĀĪŪṚṆṢŚṬḌṄÑḶḤṂ][a-zāīūṛṇṣśṭḍṅñḷḥṃ'’]{2,})\b/gm)) {
     const w = m[1];
     if (IGNORE.has(w) || known.has(w) || knownPlain.has(strip(w))) continue;
     if (srcPlain.includes(strip(w).toLowerCase())) continue;   // named in the sourcing
@@ -123,7 +123,9 @@ function reviewStory(s) {
   for (const [len, r] of Object.entries(s.lengths))
     r.blocks.forEach((b, i) => {
       if (b.t !== 'p' && b.t !== 'slow') return;
-      const t = b.text ?? '';
+      // Strip marked speech first: a character saying "I am going to tell you"
+      // is dialogue, not the narrator instructing the reader.
+      const t = (b.text ?? '').replace(/_[^_]+_/g, '');
       if (/\b(I would|I am going to|I will tell|I like|worth stopping on|worth imagining|the part to slow down)\b/i.test(t))
         findings.push(['voice', `${len} block ${i}: reads as a note to the parent, not a line of the story — consider an aside: "${t.slice(0, 60)}…"`]);
     });

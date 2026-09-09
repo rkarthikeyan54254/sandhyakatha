@@ -1446,5 +1446,121 @@
    "Durvasar",
    "Durvaasa"
   ]
+ },
+ "Nakula": {
+  "id": "nakula",
+  "native": {
+   "deva": "नकुल"
+  },
+  "say": "NUH-koo-luh",
+  "ipa": "ˈnɐ.kʊ.lɐ",
+  "kind": "person",
+  "gloss": "The fourth Pāṇḍava, and Mādrī's son rather than Kuntī's — which is the whole reason he is the one asked for at the lake.",
+  "aliases": [
+   "Nakula",
+   "Nakul"
+  ]
+ },
+ "Sahadeva": {
+  "id": "sahadeva",
+  "native": {
+   "deva": "सहदेव"
+  },
+  "say": "suh-huh-DAY-vuh",
+  "ipa": "sɐ.ɦɐˈdeː.ʋɐ",
+  "kind": "person",
+  "gloss": "The youngest of the five, and the first sent for water at the lake.",
+  "aliases": [
+   "Sahadeva",
+   "Sahadev"
+  ]
+ },
+ "Mādrī": {
+  "id": "madri",
+  "native": {
+   "deva": "माद्री"
+  },
+  "say": "MAAD-ree",
+  "ipa": "ˈmaːd.riː",
+  "kind": "person",
+  "gloss": "The Pāṇḍavas' other mother, and Nakula and Sahadeva's. She died long before this, which is why Yudhiṣṭhira is counting.",
+  "aliases": [
+   "Madri"
+  ]
+ },
+ "yakṣa": {
+  "id": "yaksha",
+  "native": {
+   "deva": "यक्ष",
+   "taml": "யட்சன்"
+  },
+  "say": "YUCK-shuh",
+  "ipa": "ˈjɐk.ʂɐ",
+  "kind": "word",
+  "gloss": "A spirit of a place — a lake, a tree, a hill. Not a god and not a demon; something that belongs to somewhere and expects to be asked.",
+  "aliases": [
+   "yaksha",
+   "yaksa",
+   "yakshan"
+  ]
+ },
+ "Vidyādhara": {
+  "id": "vidyadhara",
+  "native": {
+   "deva": "विद्याधर"
+  },
+  "say": "vid-YAA-dhuh-ruh",
+  "ipa": "ʋɪdˈjaː.dʱɐ.rɐ",
+  "kind": "word",
+  "gloss": "In the Jain telling, what Rāvaṇa actually is: a human being of a line that has mastered great arts. Not a demon, and not a different kind of creature.",
+  "aliases": [
+   "Vidyadhara",
+   "vidyadhar"
+  ]
+ },
+ "Vimalasūri": {
+  "id": "vimalasuri",
+  "native": {
+   "deva": "विमलसूरि"
+  },
+  "say": "vi-muh-luh-SOO-ree",
+  "ipa": "ʋɪ.mɐ.lɐˈsuː.ri",
+  "kind": "person",
+  "gloss": "The Jain monk who wrote the Paumacariya, the oldest Jain Rāmāyaṇa, in Prakrit — and who opens it by saying the version everyone knows cannot be true.",
+  "aliases": [
+   "Vimalasuri",
+   "Vimala Suri"
+  ]
+ },
+ "Paumacariya": {
+  "id": "paumacariya",
+  "native": {
+   "deva": "पउमचरिय"
+  },
+  "say": "pow-muh-CHUH-ri-yuh",
+  "ipa": "pɐʊ.mɐˈtɕɐ.ri.jɐ",
+  "kind": "text",
+  "gloss": "The Jain Rāmāyaṇa, written in Prakrit. Paüma is Padma, which is what Rāma is called in it.",
+  "aliases": [
+   "Paumacariya",
+   "Paumachariya",
+   "Padmacarita"
+  ]
+ },
+ "Rāmāyaṇa": {
+  "id": "ramayana",
+  "native": {
+   "deva": "रामायण",
+   "taml": "ராமாயணம்"
+  },
+  "say": "raa-MAA-yuh-nuh",
+  "ipa": "raːˈmaː.jɐ.ɳɐ",
+  "kind": "text",
+  "gloss": "Rāma's journey. There is more than one — Vālmīki's is the oldest in Sanskrit, and there are hundreds of others in dozens of languages, several of which disagree with it.",
+  "aliases": [
+   "Ramayana",
+   "Ramayanam",
+   "Ramayan"
+  ]
  }
 }

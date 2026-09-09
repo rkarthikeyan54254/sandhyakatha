@@ -1,0 +1,357 @@
+{
+  "id": "yaksha-lake",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The Crane at the Lake",
+  "tease": "Four brothers drink and fall. The fifth is asked what the greatest wonder in the world is, and answers it in one sentence.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Vana Parva — the Yakṣa Praśna",
+    "stability": "stable",
+    "traditionNote": "The questions and answers are quoted rather than summarised, which is why they have survived word for word — people have memorised this exchange for two thousand years without necessarily knowing the story around it.",
+    "checkedAgainst": [
+      "Mahābhārata — Poona critical edition, Vana Parva (Āraṇyaka Parva)",
+      "van Buitenen trans., Chicago, vol. 2"
+    ],
+    "sourcing": [
+      {
+        "claim": "The five brothers are in exile and thirsty; Yudhiṣṭhira sends them for water one at a time",
+        "locus": "Vana Parva, Yakṣa Praśna"
+      },
+      {
+        "claim": "A voice forbids drinking until its questions are answered; each brother drinks anyway and falls — one, then two, then three of them lying by the water",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Yudhiṣṭhira finds the four of them and does not drink",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The voice belongs to a yakṣa, in the form of a crane",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Asked the greatest wonder, he answers that everyone sees others die and each still believes himself exempt",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He is offered one brother back and asks for Nakula",
+        "locus": "ibid."
+      },
+      {
+        "claim": "His reason: he is Kuntī's son, so let a son of Mādrī live too",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The yakṣa is Dharma, his father, and revives all four",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Dharma tells him the exile is not over and the thirteenth year lies ahead",
+        "locus": "Vana Parva, end of the Yakṣa Praśna"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "Four brothers die and lie beside a lake for most of the story, and are alive again at the end. The dying is not described — they drink and fall. The questions in the middle are about death, plainly, and a child may want to sit with one of them."
+  },
+  "values": [
+    "answering honestly under pressure",
+    "who you will not leave behind"
+  ],
+  "themes": [
+    "mahabharata",
+    "questions",
+    "death",
+    "fairness"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "lead"
+    },
+    {
+      "ref": "yakṣa",
+      "role": "foil"
+    },
+    {
+      "ref": "Nakula",
+      "role": "present"
+    },
+    {
+      "ref": "Sahadeva",
+      "role": "present"
+    },
+    {
+      "ref": "Bhīma",
+      "role": "present"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "present"
+    },
+    {
+      "ref": "Mādrī",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 322,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Five brothers in a forest, a long way into an exile, and no water anywhere."
+        },
+        {
+          "t": "p",
+          "text": "«Sahadeva» went to look and found a lake — clear, cold, full. And as he knelt down, a voice said: _answer me first, then drink._"
+        },
+        {
+          "t": "p",
+          "text": "He drank. And he fell down beside it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Nakula» went after him and found his brother lying there and the water beside him, and the voice said the same thing, and he drank, and fell."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» went. Then «Bhīma». Each of them saw the ones before, and each of them was told, and each of them drank."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» came last and found all four of them on the ground."
+        },
+        {
+          "t": "p",
+          "text": "He was as thirsty as any of them. He did not drink."
+        },
+        {
+          "t": "p",
+          "text": "He said: ask."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There was a «yakṣa» there — a crane on the bank, which is what the voice had been — and it asked a great many questions, and he answered every one."
+        },
+        {
+          "t": "p",
+          "text": "Then it asked the famous one. _What is the greatest wonder in the world?_"
+        },
+        {
+          "t": "p",
+          "text": "And he said: every day, people watch other people die. And every single one of them goes on believing it will not happen to him. Nothing is stranger than that."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The crane said: you have answered. I will give you one brother back. Choose."
+        },
+        {
+          "t": "p",
+          "text": "And he said: «Nakula». Not «Bhīma», who is the strongest. Not «Arjuna», who is the reason they have any chance at all."
+        },
+        {
+          "t": "p",
+          "text": "He explained it in one breath. My father had two wives. I am «Kuntī»'s son and I am standing here — so let a son of «Mādrī» stand up too. If only one of us lives, it should not be that one whole mother is left with nobody."
+        },
+        {
+          "t": "p",
+          "text": "The crane was his father, and had been from the first question. All four of them got up."
+        },
+        {
+          "t": "slow",
+          "text": "Four of them saw four brothers lying beside the water and drank it anyway. He was the only one who stopped."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 646,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Five brothers in a forest, deep into an exile that had years left in it, and no water anywhere."
+        },
+        {
+          "t": "p",
+          "text": "«Sahadeva», the youngest, went to look, and found a lake. Clear, cold, completely still. He knelt down."
+        },
+        {
+          "t": "p",
+          "text": "And a voice said: _this water is mine. Answer my questions, and then drink._"
+        },
+        {
+          "t": "p",
+          "text": "He drank. And he fell down beside it and did not get up."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Nakula» went after him."
+        },
+        {
+          "t": "p",
+          "text": "He came through the trees and saw his brother lying on the bank, and the lake beside him, and — this is the part to notice — he went to the water first."
+        },
+        {
+          "t": "p",
+          "text": "The voice said the same thing to him. He drank, and he fell."
+        },
+        {
+          "t": "p",
+          "text": "Then «Arjuna» went, and found two of them. Then «Bhīma» went, and found three. Each of them was told. Each of them drank."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» came last."
+        },
+        {
+          "t": "p",
+          "text": "And what he found was the worst thing in the story and the book does not linger on it: four men on the ground, all of them his brothers, none of them marked, none of them breathing, beside a lake with nothing wrong with it."
+        },
+        {
+          "t": "p",
+          "text": "He was as thirsty as any of them had been. He had walked further."
+        },
+        {
+          "t": "p",
+          "text": "He did not drink. He said: ask."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There was a «yakṣa» on the bank — in the shape of a crane, which is what had been talking — and it asked him question after question, and he answered them all."
+        },
+        {
+          "t": "p",
+          "text": "Some of them are riddles. Some are almost jokes. And a few of them are the kind of question you can still be turning over when you are grown."
+        },
+        {
+          "t": "p",
+          "text": "_What is faster than the wind?_ The mind. _What travels alone?_ The sun. _Who is a friend to the one about to die?_ What he has done."
+        },
+        {
+          "t": "p",
+          "text": "_What is heavier than the earth?_ A mother. _What is higher than the sky?_ A father. _What is more numerous than grass?_ Thoughts."
+        },
+        {
+          "t": "p",
+          "text": "He is not showing off. He answers the way you answer someone you have decided to take seriously — quickly, without decoration, and without once asking how much longer this is going to take."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then it asked the one everybody knows. _What is the greatest wonder in the world?_"
+        },
+        {
+          "t": "p",
+          "text": "And he said: every day, people watch other people die. And every single one of them goes on believing, in the middle of watching, that it will not be happening to him. There is nothing stranger than that anywhere."
+        },
+        {
+          "t": "p",
+          "text": "The yakṣa did not argue."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It said: you have answered. I will give you one of your brothers back. Choose."
+        },
+        {
+          "t": "p",
+          "text": "And he said: «Nakula»."
+        },
+        {
+          "t": "p",
+          "text": "Which is not what anybody expects. Not Bhīma, who is the strongest and would be needed in a war. Not Arjuna, who is the reason they have any chance at all. Nakula."
+        },
+        {
+          "t": "p",
+          "text": "He explained it, and it takes one breath. My father had two wives. I am «Kuntī»'s son and I am standing here. So let a son of «Mādrī» stand up too. If only one of us can be alive, it should not be that one whole mother is left with nothing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The crane was his father. It was Dharma, and it had been from the first question, and this was the test — not the riddles, which he had been answering easily, but what he would do with a choice that could not be checked by anybody."
+        },
+        {
+          "t": "p",
+          "text": "All four of them got up."
+        },
+        {
+          "t": "p",
+          "text": "And his father said what he had come to say: that he had watched him, and that this was the second thing being weighed, not the first."
+        },
+        {
+          "t": "p",
+          "text": "Then he told them the exile was not over, and that the hardest year of it was still ahead, and left them to walk on."
+        },
+        {
+          "t": "slow",
+          "text": "Four men walked to that lake, saw their own brothers lying on the bank, and drank anyway. He was the only one who stopped to ask whose water it was."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "yudhishthira-dog",
+    "reason": "the same father testing the same man, at the very end, with a dog instead of a crane"
+  },
+  "close": {
+    "question": "The yakṣa let him choose one brother and he chose the one who was not his mother's son. Would you have chosen the same way?",
+    "seed": "Fair does not always mean the one you would miss most.",
+    "ifTheyAsk": [
+      {
+        "q": "Why didn't the others just answer the questions?",
+        "a": "The story does not say, and the silence is doing work. They were not stupid — one of them is the best archer alive. They were thirsty, they had walked a long way, and there was clean water in front of them. That is all it takes. It is also exactly the answer Yudhiṣṭhira gives later about the greatest wonder: everybody can see what happened to the person in front of them and still not think it applies."
+      },
+      {
+        "q": "Is it sad that he did not choose Arjuna?",
+        "a": "It is meant to catch you, and it catches most people. He is not saying he loves Nakula more. He is saying that if one mother's son gets to live, then the other mother's son should be the one, because he himself is already standing there. It is a piece of arithmetic about fairness done at the worst possible moment, which is when arithmetic about fairness actually counts."
+      },
+      {
+        "q": "What were the other questions?",
+        "a": "Dozens, and they are worth looking up together when your child is a bit older, because they read like a very old quiz with occasional sentences that stop you. What is heavier than the earth — a mother. What is higher than the sky — a father. What is the path — what the great have walked. Some are riddles; a few are not."
+      }
+    ]
+  }
+}

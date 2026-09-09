@@ -1,0 +1,318 @@
+{
+  "id": "jain-ravana",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The Rāmāyaṇa Where Rāvaṇa Is a Good King",
+  "tease": "In this one he is not a demon, has no ten heads, and never touches Sītā — and he still loses everything, for a reason of his own.",
+  "source": {
+    "corpus": "other-ramayana",
+    "tradition": "jain",
+    "work": "Paumacariya of Vimalasūri",
+    "locus": "The Jain Rāmāyaṇa, in Prakrit",
+    "stability": "variant",
+    "traditionNote": "This is not a retelling of Vālmīki with the edges rubbed off. It is an older tradition's own Rāmāyaṇa, in Prakrit rather than Sanskrit, which opens by saying that the version everybody knows cannot be true — and then explains what it thinks happened instead.",
+    "checkedAgainst": [
+      "Vimalasūri, Paumacariya — Jacobi's edition; Chandra's study of the Jain Rāma story",
+      "Ramanujan, 'Three Hundred Rāmāyaṇas'"
+    ],
+    "sourcing": [
+      {
+        "claim": "Vimalasūri begins by saying the familiar version of the story cannot be true",
+        "locus": "Paumacariya, opening cantos"
+      },
+      {
+        "claim": "Rāvaṇa is a Vidyādhara — a human line that has mastered great arts — not a rākṣasa",
+        "locus": "Paumacariya"
+      },
+      {
+        "claim": "The ten heads are a necklace of nine jewels given at his birth, in which his face is reflected",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He is a devout Jain layman and does not eat meat",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He has taken a vow never to take a woman who does not want him, and keeps it with Sītā",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Lakṣmaṇa kills Rāvaṇa, not Rāma",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Rāma — called Padma here — ends as a Jain ascetic and attains liberation",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Rāvaṇa's fall is his own doing and follows from his karma, not from being born wicked",
+        "locus": "ibid."
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Almost everything about Rāvaṇa",
+        "tellings": "Vālmīki's Rāvaṇa is a rākṣasa king with ten heads who takes Sītā by force. Vimalasūri's is a Vidyādhara, a vegetarian, a Jain layman under a vow, who does not touch her.",
+        "weTell": "The Jain one, on its own terms, without treating it as a correction of the other or the other as a corruption of it."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 11,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "A war and Rāvaṇa's death, told at a distance. The harder thing for some families is the story itself: a child who knows Rāvaṇa as the villain meets a version where he is a good man who does one wrong thing. That is the point, and it can unsettle an adult more than a child."
+  },
+  "values": [
+    "the same story told another way",
+    "a villain who is not only that"
+  ],
+  "themes": [
+    "ramayana",
+    "jain",
+    "who tells it",
+    "where the stories come from"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Rāvaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Vimalasūri",
+      "role": "present"
+    },
+    {
+      "ref": "Paumacariya",
+      "role": "present"
+    },
+    {
+      "ref": "Vidyādhara",
+      "role": "present"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 312,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There is more than one «Rāmāyaṇa». This is a different one, and it is very old."
+        },
+        {
+          "t": "p",
+          "text": "A Jain monk called «Vimalasūri» wrote it, in Prakrit rather than Sanskrit, and he begins by saying — politely, and at some length — that the version everybody knows cannot be true."
+        },
+        {
+          "t": "p",
+          "text": "Demons who eat people? Ten heads on one neck? He says: think about it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So in his telling «Rāvaṇa» is a «Vidyādhara» — a human being, of a family that has mastered extraordinary arts. Not a demon. Not another kind of creature at all."
+        },
+        {
+          "t": "p",
+          "text": "The ten heads are a necklace. Nine jewels, given to him when he was born, and his own face reflected in them, and people looking at that and telling the story badly ever since."
+        },
+        {
+          "t": "p",
+          "text": "He does not eat meat. He is a serious and devout man."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And he had taken a vow, years before any of this: that he would never take a woman who did not want him."
+        },
+        {
+          "t": "p",
+          "text": "He keeps it. He takes «Sītā», and he wants her, and he does not touch her, for the whole of it — because the vow is his and breaking it would cost him more than she is worth to him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He still loses. He loses everything, and «Lakṣmaṇa» is the one who kills him, not «Rāma»."
+        },
+        {
+          "t": "p",
+          "text": "But not because he was born a monster, because in this book nobody is. He wanted something he should not have wanted, and would not put it down, and everything followed from that."
+        },
+        {
+          "t": "p",
+          "text": "And «Rāma» — called Padma here, which is what the book is named after — does not end on a throne. He gives it up, becomes a Jain ascetic, and is released."
+        },
+        {
+          "t": "p",
+          "text": "That is the ending this tradition thinks the story was always walking towards."
+        },
+        {
+          "t": "slow",
+          "text": "Same war. Same names. A completely different man inside them — and both books are somebody's Rāmāyaṇa."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 623,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There is more than one «Rāmāyaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "Not versions with small differences — different books, told by different people, that disagree about what happened and about who everybody was. This is one of the oldest of them and hardly anybody has heard of it."
+        },
+        {
+          "t": "p",
+          "text": "A Jain monk called «Vimalasūri» wrote the «Paumacariya» in Prakrit, which is not Sanskrit but the ordinary spoken language of the time."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And he begins by saying that the story everybody knows cannot be true."
+        },
+        {
+          "t": "p",
+          "text": "He is polite about it and he takes his time. Demons that eat human flesh? A man with ten heads on one neck — picture it. Monkeys holding conversations. He goes through it, item by item, and says: _people have been exaggerating, and I am going to tell you what actually happened._"
+        },
+        {
+          "t": "p",
+          "text": "Which is a startling way to begin a religious epic, and he does it in the first few pages."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So in his telling «Rāvaṇa» is a man."
+        },
+        {
+          "t": "p",
+          "text": "A «Vidyādhara» — one of a line of human beings who have mastered great arts, which is why they can do things other people cannot. Not a demon. Not a different species. A person, from a very accomplished family."
+        },
+        {
+          "t": "p",
+          "text": "The ten heads are a necklace. Nine jewels, given to him when he was born, and his own face reflected in them when the light catches — so that anyone glancing at him sees ten. People saw that, and told it, and by the time it had been told enough times he had ten heads."
+        },
+        {
+          "t": "p",
+          "text": "He does not eat meat. He is a devout man and takes it seriously. He is a good king and the book says so plainly, without hedging, in the way it would say it of anybody it approved of."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And there is the vow."
+        },
+        {
+          "t": "p",
+          "text": "Long before any of this, Rāvaṇa had vowed that he would never take a woman who did not want him. He made it himself, nobody made him, and he was not thinking of anybody in particular at the time."
+        },
+        {
+          "t": "p",
+          "text": "Then he takes «Sītā». And he wants her — the book does not pretend he does not, and that is the whole difficulty of his life for the rest of it."
+        },
+        {
+          "t": "p",
+          "text": "And he does not touch her. Not once, through the entire war, because the vow is his own and he will not be the man who broke it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He loses anyway."
+        },
+        {
+          "t": "p",
+          "text": "He loses the war and his city and his family and his life, and it is «Lakṣmaṇa» who kills him and not «Rāma» — which is its own surprise, and follows from how this book thinks about who may do what."
+        },
+        {
+          "t": "p",
+          "text": "But he does not lose because he was born wicked, because in this book nobody is born wicked. He wanted one thing he had no business wanting and would not put it down, and everything after that followed from it, in order, the way things do."
+        },
+        {
+          "t": "p",
+          "text": "That is the whole engine of the story: not good against evil, but a good man who would not let go of one thing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And «Rāma» — called Padma here, which is what the book is named after — does not end on a throne."
+        },
+        {
+          "t": "p",
+          "text": "He gives it all up, becomes a Jain ascetic, and is released. That is the ending this tradition thinks the story was always heading towards."
+        },
+        {
+          "t": "aside",
+          "text": "If your child already knows Rāvaṇa as the villain, expect a pause here. It usually unsettles the adult in the room more than the child."
+        },
+        {
+          "t": "p",
+          "text": "Vimalasūri is not being kind to Rāvaṇa, incidentally. He thinks the man was ruined, and says so. He simply does not think he was born that way, because his religion does not have a category for anybody being born that way."
+        },
+        {
+          "t": "slow",
+          "text": "Same war, same names, same island. A completely different man standing inside them — and this book is somebody's Rāmāyaṇa too, and has been for a very long time."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "squirrel-setu",
+    "reason": "the war from another angle again, and a detail that is not in the Sanskrit either"
+  },
+  "close": {
+    "question": "The same story is told two ways by two sets of people who both love it. Does knowing that make the one you were told feel different?",
+    "seed": "A story that belongs to a lot of people gets told a lot of ways.",
+    "ifTheyAsk": [
+      {
+        "q": "So which one is the real one?",
+        "a": "Both are real, and that is not a dodge. Vālmīki's is older and is the one most of India tells; Vimalasūri's is very old too and is the one Jain families have been telling for something like fifteen hundred years. Neither is a version of the other — they are two traditions telling a story they both own. There are hundreds more, in dozens of languages, and several of them disagree with both of these."
+      },
+      {
+        "q": "Why would Jains tell it differently?",
+        "a": "Because the story has to fit what they believe, exactly as Vālmīki's fits what he believed. Non-violence is central to Jainism, so the hero cannot be a killer — Lakṣmaṇa does that, and pays for it. Nobody is born a monster, so Rāvaṇa cannot be one. And release, not victory, is the point, so Rāma ends as a monk rather than a king."
+      },
+      {
+        "q": "Did Rāvaṇa really not harm Sītā?",
+        "a": "In this book, no, and it is not a small detail — it is load-bearing. His vow is the thing that makes him a person with a rule rather than a force with an appetite, and it is what makes his fall his own. Vālmīki's Rāvaṇa is also, it is worth saying, held back by a curse rather than by a vow. Two books, two very different reasons, and Sītā unharmed in both."
+      }
+    ]
+  }
+}
