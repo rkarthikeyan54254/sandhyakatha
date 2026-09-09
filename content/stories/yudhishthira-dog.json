@@ -1,7 +1,7 @@
 {
   "id": "yudhishthira-dog",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "He Would Not Go In Without the Dog",
@@ -58,7 +58,9 @@
         "claim": "Dharma names this as a test and refers to the earlier one at the lake",
         "locus": "Mahāprasthānika Parva 3.18–20; cf. Vana Parva, the yakṣa"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 13,

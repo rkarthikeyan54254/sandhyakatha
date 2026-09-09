@@ -1,7 +1,7 @@
 {
   "id": "valmiki-first-shloka",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "The First Poem Was an Accident",
@@ -54,7 +54,9 @@
         "claim": "The Rāmāyaṇa is reckoned at twenty-four thousand verses",
         "locus": "Bāla Kāṇḍa 4; the traditional count"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 8,

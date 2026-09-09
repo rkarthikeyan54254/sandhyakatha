@@ -281,7 +281,7 @@
       "value": "being sent in by people who knew",
       "hook": "He learned how to get into the formation before he was born. Nobody finished telling him how to get out.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -519,7 +519,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -559,7 +559,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -1430,7 +1430,7 @@
       "festivals": [
         "diwali"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 4,
       "gated": false
     },
@@ -1453,7 +1453,7 @@
       "festivals": [
         "diwali"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 4,
       "gated": false
     },
@@ -1534,7 +1534,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 5,
       "gated": false
     },
@@ -1554,7 +1554,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 5,
       "gated": false
     },
@@ -1577,7 +1577,7 @@
       "festivals": [
         "navaratri"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 5,
       "gated": true
     },
@@ -1598,7 +1598,7 @@
       "value": "who you will not leave behind",
       "hook": "At the very end he is offered heaven, in a chariot, by name. There is one condition, and it is about the dog that has been walking with him.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 5,
       "gated": false
     },

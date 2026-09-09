@@ -1,7 +1,7 @@
 {
   "id": "rama-returns",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "The Night They Lit the Whole Road",
@@ -54,7 +54,9 @@
         "tellings": "Vālmīki decorates the city and has it awake all night, but does not light the rows of lamps everyone pictures. Tulsīdās and the tradition that follows him do, and that is where Dīpāvalī attaches to this night.",
         "weTell": "The lamps, because they are what the festival is — and we say they arrive later than the story does."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 5,

@@ -1,7 +1,7 @@
 {
   "id": "svetaketu-salt",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "Śvetaketu and the Salt",
@@ -58,7 +58,9 @@
         "claim": "The rivers, the tree and the banyan seed come before the salt, not after",
         "locus": "Chāndogya 6.10–6.12, then 6.13"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 10,

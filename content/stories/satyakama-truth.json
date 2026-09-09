@@ -1,7 +1,7 @@
 {
   "id": "satyakama-truth",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "Satyakāma Says the Hard Thing",
@@ -54,7 +54,9 @@
         "claim": "Satyakāma becomes a teacher himself, with students of his own",
         "locus": "Chāndogya 4.10"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 8,

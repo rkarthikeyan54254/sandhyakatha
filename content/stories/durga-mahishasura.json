@@ -2,8 +2,8 @@
   "id": "durga-mahishasura",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-08",
+  "version": 2,
+  "updated": "2026-09-09",
   "title": "The Buffalo Nobody Could Fight",
   "tease": "No god can beat him alone. So they each give up a piece of what they have, and something walks out of the pile that none of them expected.",
   "source": {
@@ -118,7 +118,7 @@
   "lengths": {
     "short": {
       "minutes": 2,
-      "words": 236,
+      "words": 242,
       "blocks": [
         {
           "t": "p",
@@ -160,7 +160,7 @@
         },
         {
           "t": "slow",
-          "text": "He had asked that no man and no god could kill him. He had been so careful. He had simply never thought of her."
+          "text": "They gave away the things they were each proudest of, and stood back — and what stood up out of that pile was nobody any of them had met before."
         }
       ]
     },

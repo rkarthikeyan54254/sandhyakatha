@@ -2,7 +2,7 @@
   "id": "ganesha-circles",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 2,
+  "version": 3,
   "updated": "2026-09-09",
   "title": "Gaṇeśa Goes Around the World",
   "tease": "Two brothers race around the world for a mango. One of them does not leave the room.",
@@ -125,7 +125,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 273,
+      "words": 280,
       "blocks": [
         {
           "t": "p",
@@ -175,7 +175,7 @@
         },
         {
           "t": "slow",
-          "text": "Both boys answered the question they were asked. Only one of them stopped to ask what a world is."
+          "text": "His brother went round the whole world to answer it. He went round the two people standing in the room, and that was an answer too."
         }
       ]
     },

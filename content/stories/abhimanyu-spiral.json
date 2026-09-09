@@ -1,7 +1,7 @@
 {
   "id": "abhimanyu-spiral",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "Abhimanyu and the Spiral",
@@ -69,7 +69,9 @@
         "tellings": "The Sanskrit has him state the fact — in, but not out — without explaining how that came about. The universal popular telling has him hear it in the womb, with Subhadrā falling asleep before Arjuna reaches the way out.",
         "weTell": "The popular one, because it is the version your child will meet everywhere else, with the seam named."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 13,

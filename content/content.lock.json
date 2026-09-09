@@ -1,25 +1,70 @@
 {
-  "generated": "2026-09-08",
+  "generated": "2026-09-09",
   "stories": {
-    "durga-mahishasura": {
+    "abhimanyu-spiral": {
       "version": 1,
       "status": "published",
-      "hash": "93daca615a959d1f"
+      "hash": "6cdf504502dfa332"
     },
-    "ganesha-circles": {
+    "annapurna-bhiksha": {
+      "version": 1,
+      "status": "published",
+      "hash": "7fe3c2185b4ca32d"
+    },
+    "durga-mahishasura": {
       "version": 2,
       "status": "published",
-      "hash": "7df7a8eab519772c"
+      "hash": "8f4ec0e495222777"
+    },
+    "ganesha-circles": {
+      "version": 3,
+      "status": "published",
+      "hash": "f2bcbb0b40f7100b"
     },
     "govardhana": {
       "version": 2,
       "status": "published",
       "hash": "f7255d433f914a35"
     },
+    "kali-stops": {
+      "version": 1,
+      "status": "published",
+      "hash": "046b472407b255bf"
+    },
+    "lakshmi-leaves-indra": {
+      "version": 1,
+      "status": "published",
+      "hash": "b22093487c92fa6f"
+    },
+    "narakasura": {
+      "version": 1,
+      "status": "published",
+      "hash": "753688f3d28d927f"
+    },
+    "parvati-decides": {
+      "version": 1,
+      "status": "published",
+      "hash": "d480ae18c2206468"
+    },
     "pusalar-temple": {
       "version": 2,
       "status": "published",
       "hash": "5eddd52967c917b8"
+    },
+    "rama-returns": {
+      "version": 1,
+      "status": "published",
+      "hash": "426730455bbc0e1f"
+    },
+    "satyakama-truth": {
+      "version": 1,
+      "status": "published",
+      "hash": "deb29a93e0b501c3"
+    },
+    "shakambhari": {
+      "version": 1,
+      "status": "published",
+      "hash": "b96915cf09ca676f"
     },
     "shravana-baskets": {
       "version": 1,
@@ -30,6 +75,21 @@
       "version": 1,
       "status": "published",
       "hash": "ed837cd445d6b263"
+    },
+    "svetaketu-salt": {
+      "version": 1,
+      "status": "published",
+      "hash": "d4e54b144bfa90d5"
+    },
+    "valmiki-first-shloka": {
+      "version": 1,
+      "status": "published",
+      "hash": "80af02908fc090ec"
+    },
+    "yudhishthira-dog": {
+      "version": 1,
+      "status": "published",
+      "hash": "9f32a48b7b83f8b9"
     }
   }
 }

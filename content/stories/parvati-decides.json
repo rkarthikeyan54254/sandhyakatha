@@ -1,7 +1,7 @@
 {
   "id": "parvati-decides",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "Everyone Told Her to Be Sensible",
@@ -61,7 +61,9 @@
         "tellings": "The Śiva Purāṇa has the resolve, the austerity and the wedding. The disguised suitor arguing against himself is Kālidāsa's, and it is so good that it has been absorbed into the telling everywhere.",
         "weTell": "Both, with the seam pointed at — the poem is not scripture and is not pretending to be."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 10,

@@ -1,7 +1,7 @@
 {
   "id": "narakasura",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-09",
   "title": "The Morning After Naraka",
@@ -74,7 +74,9 @@
         "tellings": "The Bhāgavata does not have it. It is the standard explanation of why the fourteenth night is lamps rather than mourning, and it is told everywhere the festival is kept.",
         "weTell": "The request, marked as the festival's story rather than the book's."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-09"
   },
   "audience": {
     "minAge": 8,
