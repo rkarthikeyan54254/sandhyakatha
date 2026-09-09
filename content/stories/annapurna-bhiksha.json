@@ -31,16 +31,16 @@
         "locus": "ibid."
       },
       {
-        "claim": "Śiva goes from door to door with a bowl as Bhikṣāṭana",
-        "locus": "Śiva Purāṇa; Kūrma Purāṇa, the Bhikṣāṭana episode"
-      },
-      {
         "claim": "The world, and the body's need of food with it, is māyā",
         "locus": "Śiva's standing position in the Purāṇas, not specific to this episode"
       },
       {
         "claim": "The argument about food, Pārvatī's withdrawal, and the famine that follows",
         "locus": "Kāśī temple tradition — no single textual locus. Told this way in the living Annapūrṇā tradition."
+      },
+      {
+        "claim": "Bhikṣāṭana is a penance Śiva carries, not a form he chose, and it is released at Kāśī",
+        "locus": "Śiva Purāṇa; Kūrma Purāṇa, the Bhikṣāṭana episode"
       }
     ],
     "variants": [
@@ -59,9 +59,10 @@
   "audience": {
     "minAge": 6,
     "sensitivity": [
-      "loss"
+      "loss",
+      "parental-conflict"
     ],
-    "careNote": "A famine, but a strange one: there is food everywhere and none of it feeds anybody. Hunger is described — pots that stay raw, a city queueing — and nobody dies in front of the child. The argument in the house is between two people who are not angry with each other, which is worth knowing before you read it aloud."
+    "careNote": "A famine with food everywhere that will not feed anybody. And be ready for the real shape of it: she ends an argument by withholding food from a whole city until he gives in, and a child may well say that was too far. Nobody dies in the story. The two of them are not angry with each other, which is the strange part."
   },
   "values": [
     "an argument nobody needed to have",
@@ -90,20 +91,16 @@
     {
       "ref": "Śiva",
       "role": "foil"
-    },
-    {
-      "ref": "Pārvatī",
-      "role": "present"
     }
   ],
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 363,
+      "words": 366,
       "blocks": [
         {
           "t": "p",
-          "text": "«Śiva» had been saying, for some time and to anyone who would sit still, that the world is «māyā». Not that it does not exist — that it is not what it looks like, and you should not get attached to any of it."
+          "text": "«Śiva» had been saying, to anyone who would sit still, that the world is «māyā» — not that it does not exist, but that it is not what it looks like, and you should not get attached to any of it."
         },
         {
           "t": "p",
@@ -126,7 +123,7 @@
         },
         {
           "t": "p",
-          "text": "Nothing ripened. The rice stood green and hard in the fields. Fruit hung and never came ready. Fires burned under pots, and whatever was in them was exactly as raw at the end as it had been at the beginning."
+          "text": "Nothing ripened. The rice stood green and hard. Fruit hung and never came ready. Fires burned under pots, and whatever was in them was exactly as raw at the end as at the beginning."
         },
         {
           "t": "p",
@@ -148,11 +145,11 @@
         },
         {
           "t": "p",
-          "text": "Then somebody said there was a kitchen in Kāśī. She had come back and set up in the middle of the city with a ladle and a pot that did not run out, and there was a queue, and everyone in it was being fed."
+          "text": "Then somebody said there was a kitchen in Kāśī. She had set up in the middle of the city with a ladle and a pot that did not run out, and there was a queue, and everyone in it was being fed."
         },
         {
           "t": "p",
-          "text": "So he took his bowl and went and stood in the line. He is a beggar by trade. He had begged at more doors than anybody could count. He had never once had to do it at his own."
+          "text": "So he took his bowl and went and stood in the line. He is a beggar by trade — not by choice, but as an old penance — and he had carried the bowl to more doors than anybody could count. He had never once had to do it at his own."
         },
         {
           "t": "p",
@@ -160,13 +157,13 @@
         },
         {
           "t": "slow",
-          "text": "He had been right that the world is not what it looks like. He was still holding out the bowl when he stopped saying so."
+          "text": "He had argued that nobody really needs feeding. He was the one who found out otherwise — in a queue, holding a bowl, at his own door."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 670,
+      "words": 680,
       "blocks": [
         {
           "t": "p",
@@ -224,7 +221,7 @@
         },
         {
           "t": "p",
-          "text": "That is the detail people remember, because it is the one that tells you this was not a drought. There was food everywhere. It simply would not feed anybody."
+          "text": "That is the detail people remember, because it tells you this was not a drought. There was food everywhere. It simply would not feed anybody."
         },
         {
           "t": "beat"
@@ -235,7 +232,7 @@
         },
         {
           "t": "p",
-          "text": "It is the city he is said never to leave, and it went quiet in the particular way a place goes quiet when everybody in it is thinking about the same thing."
+          "text": "It is the city he is said never to leave, and it went quiet the way a place goes quiet when everybody in it is thinking about the same thing."
         },
         {
           "t": "p",
@@ -247,7 +244,7 @@
         },
         {
           "t": "p",
-          "text": "A god who has gone a thousand years on a mountain without a meal discovered that he was thinking about food and could not stop, and that the thinking was not philosophical in the slightest."
+          "text": "A god who had gone longer than anyone counts without a meal discovered that he was thinking about food and could not stop, and that the thinking was not philosophical in the slightest."
         },
         {
           "t": "beat"
@@ -269,7 +266,7 @@
         },
         {
           "t": "p",
-          "text": "Begging is his oldest job. «Bhikṣāṭana», they call him for it — the one who goes door to door with a bowl and takes whatever he is handed. He chose that. He had done it at more doors than anybody could count."
+          "text": "Begging is his oldest job. «Bhikṣāṭana», they call him for it — the one who goes door to door with a bowl and takes whatever he is handed. He did not choose it; it was laid on him, long ago, as a penance for something he had done, and he had carried it to more doors than anybody could count."
         },
         {
           "t": "p",

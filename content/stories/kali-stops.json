@@ -19,8 +19,8 @@
     ],
     "sourcing": [
       {
-        "claim": "The battle against Mahiṣāsura's armies runs nine nights, ending on the tenth morning",
-        "locus": "Devī Māhātmya 2–4"
+        "claim": "Kālī belongs to the Śumbha–Niśumbha war, not the Mahiṣāsura one",
+        "locus": "Devī Māhātmya 5–11; Mahiṣāsura dies in ch. 3"
       },
       {
         "claim": "Kālī issues from the brow of the angry Devī, already armed",
@@ -45,6 +45,10 @@
       {
         "claim": "The out-thrust tongue is read as her biting it in shock",
         "locus": "ibid. — a gesture still made in South Asia"
+      },
+      {
+        "claim": "Her lolling tongue is described at her first appearance, before any of this",
+        "locus": "Devī Māhātmya 7.7"
       }
     ],
     "variants": [
@@ -57,6 +61,11 @@
         "differs": "What the tongue means",
         "tellings": "Usually she has bitten it in shock at what her foot has landed on. Some tellings make it the blood-drinking; some make it plain ferocity.",
         "weTell": "The shock, which is the reading that makes the story about stopping rather than about winning."
+      },
+      {
+        "differs": "Where the out-thrust tongue comes from",
+        "tellings": "The Devī Māhātmya already gives her a lolling tongue when she arrives, chapters before any Śiva-underfoot scene exists. The later tradition explains the same feature as shock at what her foot has landed on.",
+        "weTell": "The later explanation, and we say that the oldest text had the tongue there first — which is a good argument that the scene was built to explain the picture, rather than the picture painted from the scene."
       }
     ]
   },
@@ -107,11 +116,11 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 322,
+      "words": 360,
       "blocks": [
         {
           "t": "p",
-          "text": "The battle was going badly, and «Durgā» got angry, and «Kālī» came out of her forehead already holding everything she needed."
+          "text": "Caṇḍa and Muṇḍa came onto the field with their army, and «Durgā» looked at them and got angry, and «Kālī» came out of her forehead already holding everything she needed."
         },
         {
           "t": "p",
@@ -141,7 +150,7 @@
         },
         {
           "t": "p",
-          "text": "She was still going. The field was empty and she was still going, and the ground was taking it, and nobody could get near enough to say anything to her, and the gods stood at the edge of it and understood that they had made something they had no way of turning off."
+          "text": "She was still going. The field was empty and she was still going, and the ground was taking it, and nobody could get near enough to say anything to her, and the gods stood at the edge of it and understood that nobody had any way of turning this off."
         },
         {
           "t": "beat"
@@ -160,21 +169,29 @@
         },
         {
           "t": "p",
-          "text": "In every painting you have ever seen of her, her tongue is out. That is this moment. That is not fierceness. That is a person biting their tongue because of what they have just done."
+          "text": "In every painting you have ever seen of her, her tongue is out. This is the moment people point to for it."
+        },
+        {
+          "t": "p",
+          "text": "Though the oldest book already gives her that tongue on the day she arrives — so the picture may have come first, and the scene been built to explain it."
+        },
+        {
+          "t": "p",
+          "text": "Told this way it is not fierceness. It is a person biting their tongue at what they have just done."
         },
         {
           "t": "slow",
-          "text": "She had won. Winning was never the hard part. Stopping was the hard part, and somebody had to lie down in front of her before she could do it."
+          "text": "Everyone had been frightened of what she would do to the enemy. What actually frightened them was what she did once there wasn't one."
         }
       ]
     },
     "full": {
-      "minutes": 6,
-      "words": 664,
+      "minutes": 7,
+      "words": 693,
       "blocks": [
         {
           "t": "p",
-          "text": "The battle was going badly, and «Durgā» got angry."
+          "text": "Caṇḍa and Muṇḍa came onto the field with their army, and «Durgā» looked at them and got angry."
         },
         {
           "t": "p",
@@ -235,7 +252,15 @@
         },
         {
           "t": "p",
-          "text": "The ground took it. Then the ground began to have trouble taking it. And the gods who had been so pleased with themselves an hour earlier stood at the edge of the field and worked out, slowly, that they had made something and had no way at all of turning it off."
+          "text": "The ground took the shock of it. Then the ground began to have trouble taking it."
+        },
+        {
+          "t": "p",
+          "text": "And the gods who had been so relieved an hour earlier stood at the edge of the field and worked out, slowly, that nothing they had was any use here."
+        },
+        {
+          "t": "p",
+          "text": "She had not come out of them. She had come out of the Devī, and she was not theirs to call back."
         },
         {
           "t": "p",
@@ -273,7 +298,11 @@
         },
         {
           "t": "p",
-          "text": "That is this moment. It is not fierceness and it is not a taunt. It is what a person's face does when they have just realised what they have done: the tongue caught between the teeth, the way people here still do it when they have knocked something over or put a foot somewhere it should not have gone."
+          "text": "That is the moment people point to for it — though the oldest book already gives her that tongue on the day she arrives, which is worth knowing."
+        },
+        {
+          "t": "p",
+          "text": "Told this way it is not a taunt. It is what a face does when it has just understood what it has done: the tongue caught between the teeth, the way people here still do when they have knocked something over."
         },
         {
           "t": "p",
@@ -285,7 +314,7 @@
         },
         {
           "t": "p",
-          "text": "Nobody thanked him. The tellings do not have anyone thank him. He gets up, and she is herself again, and the story goes back to being about the nine nights and the tenth morning, and the thing he did in the middle of it is left lying there for whoever notices."
+          "text": "Nobody thanked him. The tellings do not have anyone thank him. He gets up, and she is herself again, and the story goes back to the war it was in the middle of, and the thing he did is left lying there for whoever notices."
         },
         {
           "t": "slow",
@@ -296,7 +325,7 @@
   },
   "linked": {
     "next": "durga-mahishasura",
-    "reason": "the same nine nights, and the fight this one came out of"
+    "reason": "the same Devī, an earlier war, and the nine nights people count at Navarātri"
   },
   "close": {
     "question": "Śiva did not try to stop her by being stronger. He lay down. When somebody you know is too upset to hear you, what actually works?",
@@ -304,7 +333,7 @@
     "ifTheyAsk": [
       {
         "q": "Is it wrong that she drank his blood?",
-        "a": "It is meant to be shocking, and softening it would make nonsense of the story — the whole point is that Raktabīja could not be beaten by any decent method, and she is what gets sent when decent methods have run out. What the story does next is the part worth noticing: it does not celebrate her. It shows the gods frightened of what they asked for."
+        "a": "It is meant to be shocking, and softening it would make nonsense of the story — Raktabīja could not be beaten by any decent method, and she is what arrives when decent methods have run out. What the story does next is the part worth noticing: it does not celebrate her. It shows everyone else frightened, and unable to do anything about it, because she did not come out of them."
       },
       {
         "q": "Was Śiva not scared?",

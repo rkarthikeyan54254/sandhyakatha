@@ -49,6 +49,14 @@
       {
         "claim": "The father says: that subtle essence is the self of all this — tat tvam asi, that you are",
         "locus": "Chāndogya 6.13.3"
+      },
+      {
+        "claim": "Uddālaka is himself a noted teacher, who sends his son away saying nobody in the family is a brahmin by birth alone",
+        "locus": "Chāndogya 6.1.1"
+      },
+      {
+        "claim": "The rivers, the tree and the banyan seed come before the salt, not after",
+        "locus": "Chāndogya 6.10–6.12, then 6.13"
       }
     ]
   },
@@ -88,7 +96,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 345,
+      "words": 335,
       "blocks": [
         {
           "t": "p",
@@ -115,7 +123,7 @@
         },
         {
           "t": "p",
-          "text": "That was the whole lesson for the night. Twelve years of study, and a bowl of water on a shelf."
+          "text": "That was the lesson for that night. Twelve years of study, and a bowl of water on a shelf."
         },
         {
           "t": "beat"
@@ -153,13 +161,13 @@
         },
         {
           "t": "slow",
-          "text": "Twelve years of learning things he could say back. Then one night, a bowl of water, and a thing he could not point to and could not get out again."
+          "text": "He had come home able to answer anything. His father asked him for a lump of salt, and he could not."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 600,
+      "words": 599,
       "blocks": [
         {
           "t": "p",
@@ -167,7 +175,7 @@
         },
         {
           "t": "p",
-          "text": "Twelve years. That is not a course, it is a childhood. He had learned all of it — the recitation, the metres, the commentaries, the arguments about the commentaries — and he had done well, and he knew he had done well."
+          "text": "Twelve years. That is not a course, it is a childhood. He had learned all of it — the recitation, the metres, the arguments about what the words meant — and he had done well, and he knew he had done well."
         },
         {
           "t": "p",
@@ -182,7 +190,7 @@
         },
         {
           "t": "p",
-          "text": "«Uddālaka» ran cattle. He had not been away for twelve years learning the metres. And what he asked was not _what did you learn_ — which is what Śvetaketu had spent the walk home preparing for."
+          "text": "«Uddālaka» had been a student himself once, and a teacher since, and was not remotely impressed. And what he asked was not _what did you learn_ — which is what Śvetaketu had spent the walk home preparing for."
         },
         {
           "t": "p",
@@ -209,7 +217,7 @@
         },
         {
           "t": "p",
-          "text": "That was it. That was the whole lesson for the night. A young man with twelve years of the finest education in the country, standing in his father's house, dropping a lump of salt into a bowl of water and then going to bed."
+          "text": "That was the lesson for that night. A young man with twelve years of the finest education in the country, standing in his father's house, dropping a lump of salt into a bowl of water and then going to bed."
         },
         {
           "t": "p",
@@ -266,7 +274,11 @@
         },
         {
           "t": "p",
-          "text": "He does not explain it further. He does the same demonstration eight more ways over the following days, with a seed, with a tree, with a river, with a man led blindfold out of a forest — and every one of them ends in the same sentence, and none of them explains it either."
+          "text": "He does the same thing eight other ways — with rivers, with a tree, with a seed, with a man led blindfold out of a forest — and every one ends in that same sentence, and none of them explains it either."
+        },
+        {
+          "t": "p",
+          "text": "Most of those came before the salt. This was never the first night."
         },
         {
           "t": "slow",
@@ -276,8 +288,8 @@
     }
   },
   "linked": {
-    "next": "banyan-seed",
-    "reason": "the same father, the same week, and the demonstration he gave just before this one"
+    "next": "satyakama-truth",
+    "reason": "the other of Sarasvatī's nights, and a boy who arrives at a teacher's door with nothing to show"
   },
   "close": {
     "question": "His father made him find it out instead of telling him. Is there something you only believed once you had tried it yourself?",
@@ -292,7 +304,7 @@
         "a": "It broke apart into pieces far too small to see and spread evenly through the water — which is exactly what the story is counting on. Uddālaka is not making a claim about chemistry; he picked the one substance a child could taste in every part of the bowl and could not pick out of any part of it. If you want to do it at the table tonight, it works."
       },
       {
-        "q": "Was Śvetaketu stupid?",
+        "q": "Was Śvetaketu showing off?",
         "a": "Not at all, and it is worth defending him. He had genuinely learned a great deal and the story never says otherwise. What he had not done was ask whether there was a kind of question his teachers were not asking. And notice what he does the moment he is caught out — he does not argue, he asks to be taught. That is the sign of somebody who is actually good at learning."
       }
     ]

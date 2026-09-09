@@ -63,7 +63,7 @@ them. That is the entire trust proposition, and it is worth more than the story.
   minute, and each printed beat is a real silence. Working backwards from the
   validator's own arithmetic — `words/110 + beats × 0.05`, rounded — the bands
   that actually produce the labels we print are **`short` 300–360 words
-  (3 minutes)** and **`full` 650–690 words (6 minutes)**. The older numbers
+  (3 minutes)** and **`full` 650–680 words (6 minutes — the ceiling drops as you add beats, since each is 0.05 of a minute)**. The older numbers
   here said 330–390 and 650–720; both top ends round up to the next minute, and
   the public story page promises "the three-minute telling". The validator recomputes
   `minutes` from the actual text and will not let a label lie — if your full

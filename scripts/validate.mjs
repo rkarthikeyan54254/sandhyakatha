@@ -131,6 +131,12 @@ for (const file of files) {
   if (s.lengths.short && s.lengths.full) {
     const t = l => JSON.stringify(s.lengths[l].blocks.map(b => b.text ?? ''));
     if (t('short') === t('full')) err(at, 'short and full are identical — each length is written, not truncated');
+    // The landing is the one line the child takes to bed. A short that reuses
+    // the long one's last line is the long one with paragraphs deleted, which
+    // is the thing EDITORIAL forbids — and it is invisible to the check above.
+    const slowOf = l => s.lengths[l].blocks.find(b => b.t === 'slow')?.text ?? '';
+    if (slowOf('short') && slowOf('short') === slowOf('full'))
+      warn(at, 'the short and the full land on the same last line — each rendition needs its own');
     const wc = l => s.lengths[l].blocks.reduce((n, b) => n + (b.text ?? '').split(/\s+/).length, 0);
     if (wc('short') >= wc('full')) err(at, 'the short rendition is not shorter than the full one');
   }

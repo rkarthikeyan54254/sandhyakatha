@@ -1566,7 +1566,7 @@
       "work": "Śiva Purāṇa, Rudra Saṃhitā",
       "locus": "Pārvatī Khaṇḍa",
       "stability": "variant",
-      "minAge": 7,
+      "minAge": 10,
       "sensitivity": [
         "parental-conflict",
         "gender-norms"
@@ -1578,7 +1578,7 @@
       ],
       "status": "in-review",
       "wave": 5,
-      "gated": false
+      "gated": true
     }
   ]
 }

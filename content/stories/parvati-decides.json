@@ -49,6 +49,10 @@
       {
         "claim": "He drops the disguise",
         "locus": "Kumārasambhava 5.85–86"
+      },
+      {
+        "claim": "She rebuts each charge in turn before refusing to listen further",
+        "locus": "Kumārasambhava 5.75–5.82"
       }
     ],
     "variants": [
@@ -60,12 +64,13 @@
     ]
   },
   "audience": {
-    "minAge": 7,
+    "minAge": 10,
     "sensitivity": [
       "parental-conflict",
       "gender-norms"
     ],
-    "careNote": "She spends years fasting and sitting out in heat, rain and cold. The story treats that as alarming rather than as anything to copy — her own mother begs her to stop — and it is told that way here. Her parents object to her choice throughout, which is the other thing to know before bedtime."
+    "careNote": "She fasts until she is eating nothing at all, and sits out through heat, rain and a winter in water. Her mother begs her to stop and she does not. Gated because a story where a girl stops eating and is proved right can read to a younger child as a method. Her parents oppose her choice throughout.",
+    "gated": true
   },
   "values": [
     "deciding, and not being talked out of it",
@@ -107,7 +112,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 332,
+      "words": 328,
       "blocks": [
         {
           "t": "p",
@@ -160,7 +165,7 @@
         },
         {
           "t": "p",
-          "text": "And when she told him, he laughed. And then he went through Śiva, item by item — no house, no money, ashes all over him, snakes, keeps a graveyard for company, nobody knows his family. He was extremely thorough and he was extremely funny."
+          "text": "And when she told him, he went through Śiva, item by item — no house, no money, ashes all over him, snakes, keeps a graveyard for company, nobody knows his family. He was extremely thorough and he was extremely funny."
         },
         {
           "t": "p",
@@ -174,7 +179,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 601,
+      "words": 623,
       "blocks": [
         {
           "t": "p",
@@ -246,7 +251,7 @@
         },
         {
           "t": "p",
-          "text": "And he laughed."
+          "text": "And then he began."
         },
         {
           "t": "beat"
@@ -261,7 +266,7 @@
         },
         {
           "t": "p",
-          "text": "She did not argue with him. That is the thing to notice: she does not defend Śiva point by point, because the points are all correct."
+          "text": "She answered him. That is the thing to notice — she takes the charges one at a time and gives him an answer to each, and then tells him that a person who slanders and a person who sits and listens are as bad as each other."
         },
         {
           "t": "p",
@@ -303,7 +308,7 @@
       },
       {
         "q": "Did her parents come round?",
-        "a": "Eventually, and rather grandly — the Purāṇa spends a long time on the wedding. But it is honest to say they were not persuaded by her arguments. They were worn down by the fact that she did not change, for years, while they waited for her to."
+        "a": "Eventually, and rather grandly — the Purāṇa spends a long time on the wedding. But it is honest to say they were not talked round by her. The Seven Sages came to Himavat and asked for her hand on Śiva's behalf, and he consented to them. She had already been right for years by then."
       }
     ]
   }
