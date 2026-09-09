@@ -1,0 +1,310 @@
+{
+  "id": "parvati-decides",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "Everyone Told Her to Be Sensible",
+  "tease": "A mountain's daughter decides who she will marry. Everyone argues her out of it — and then the man himself turns up in disguise to argue, and he is the one who loses.",
+  "source": {
+    "corpus": "shiva-purana",
+    "tradition": "sanskrit",
+    "work": "Śiva Purāṇa, Rudra Saṃhitā",
+    "locus": "Pārvatī Khaṇḍa",
+    "stability": "variant",
+    "traditionNote": "The Purāṇa gives the decision, the years on the mountain and the wedding. The scene everyone quotes — Śiva arriving disguised and running his own name down to see what she does — is Kālidāsa's, from a poem rather than a scripture. We tell both and mark the seam.",
+    "checkedAgainst": [
+      "Śiva Purāṇa, Rudra Saṃhitā — Śāstri trans. (Motilal Banarsidass)",
+      "Kālidāsa, Kumārasambhava, cantos 1 and 5 — Smith trans., Clay Sanskrit Library"
+    ],
+    "sourcing": [
+      {
+        "claim": "Pārvatī is the daughter of Himavat, the mountain",
+        "locus": "Śiva Purāṇa, Rudra Saṃhitā, Pārvatī Khaṇḍa"
+      },
+      {
+        "claim": "She resolves to marry Śiva, who is deep in meditation and wants no one",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Her family try to talk her out of it",
+        "locus": "ibid.; Kumārasambhava 5"
+      },
+      {
+        "claim": "She undertakes years of austerity on the mountain",
+        "locus": "ibid."
+      },
+      {
+        "claim": "She gives up even fallen leaves, and is called Aparṇā — without a leaf",
+        "locus": "Kumārasambhava 5.28"
+      },
+      {
+        "claim": "Śiva comes disguised as a young ascetic and abuses his own name to test her",
+        "locus": "Kumārasambhava 5.30–5.83"
+      },
+      {
+        "claim": "She refuses to listen and turns to leave rather than hear him spoken of that way",
+        "locus": "Kumārasambhava 5.83–84"
+      },
+      {
+        "claim": "He drops the disguise",
+        "locus": "Kumārasambhava 5.85–86"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Where the disguise scene comes from",
+        "tellings": "The Śiva Purāṇa has the resolve, the austerity and the wedding. The disguised suitor arguing against himself is Kālidāsa's, and it is so good that it has been absorbed into the telling everywhere.",
+        "weTell": "Both, with the seam pointed at — the poem is not scripture and is not pretending to be."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [
+      "parental-conflict",
+      "gender-norms"
+    ],
+    "careNote": "She spends years fasting and sitting out in heat, rain and cold. The story treats that as alarming rather than as anything to copy — her own mother begs her to stop — and it is told that way here. Her parents object to her choice throughout, which is the other thing to know before bedtime."
+  },
+  "values": [
+    "deciding, and not being talked out of it",
+    "a child who would not be told no"
+  ],
+  "themes": [
+    "devi",
+    "navaratri",
+    "resolve",
+    "being told to be sensible"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Pārvatī",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "foil"
+    },
+    {
+      "ref": "Himavat",
+      "role": "present"
+    },
+    {
+      "ref": "Aparṇā",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 332,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Pārvatī» was the daughter of «Himavat», who is the Himālaya, and who is a mountain, and who was accustomed to being the largest thing in any conversation."
+        },
+        {
+          "t": "p",
+          "text": "She decided, quite young, that she was going to marry «Śiva»."
+        },
+        {
+          "t": "p",
+          "text": "This was not a good plan. Śiva at that point was sitting on a mountain in meditation and had been for a very long time, and wanted nothing and no one, and was not going to be charmed, argued with, or waited out."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Everyone told her so."
+        },
+        {
+          "t": "p",
+          "text": "Her mother told her. The sages who came through told her. The general opinion, put kindly and repeatedly, was that she should choose somebody else — somebody with a house."
+        },
+        {
+          "t": "p",
+          "text": "She said no, and went up the mountain, and stayed there."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "What she did up there, the poem tells at length and I will tell shortly, because it is frightening rather than admirable: she sat out in the heat, and in the rains, and in the cold, and ate less and less, until she was living on leaves that had fallen by themselves, and then gave up the leaves too."
+        },
+        {
+          "t": "p",
+          "text": "That is where one of her names comes from. «Aparṇā». Without even a leaf."
+        },
+        {
+          "t": "p",
+          "text": "Her mother stood at the bottom of the mountain and called up to her to stop. She did not stop."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then a young man in ascetic's clothes came and sat down beside her, and asked, pleasantly, who she was doing all this for."
+        },
+        {
+          "t": "p",
+          "text": "And when she told him, he laughed. And then he went through Śiva, item by item — no house, no money, ashes all over him, snakes, keeps a graveyard for company, nobody knows his family. He was extremely thorough and he was extremely funny."
+        },
+        {
+          "t": "p",
+          "text": "She stood up to leave rather than sit and listen to it."
+        },
+        {
+          "t": "slow",
+          "text": "And of course it was him. He had come all that way to argue her out of it in his own voice, and she would not stay to hear the end of the argument."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 601,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Pārvatī» was the daughter of «Himavat» — who is the Himālaya, and is a mountain, and was accustomed to being the largest thing in any room he was in."
+        },
+        {
+          "t": "p",
+          "text": "And she decided, quite young, that she was going to marry «Śiva»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It is worth saying clearly that this was not a sensible plan."
+        },
+        {
+          "t": "p",
+          "text": "Śiva at that point was sitting on a mountain with his eyes shut and had been for longer than anybody could remember. He was not lonely. He was not looking. He had been sent one god of desire to soften him up and had burnt him to ash without opening both eyes, which everybody had heard about."
+        },
+        {
+          "t": "p",
+          "text": "He was not going to be charmed, or argued with, or waited out."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Everyone told her."
+        },
+        {
+          "t": "p",
+          "text": "Her mother told her, more than once, and the way mothers do — starting reasonable and ending upset. Sages came through and told her. The whole household had an opinion and the opinion was the same: choose somebody else. Somebody with a house. Somebody who answers when you speak to him."
+        },
+        {
+          "t": "p",
+          "text": "She heard all of it. She was not rude about any of it. And then she went up the mountain and stayed there."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "What she did up there is told at length in the poem, and I am going to tell it briefly, because it is frightening rather than admirable and it is not a thing to copy."
+        },
+        {
+          "t": "p",
+          "text": "She sat out through the hot months. She sat through the rains. She sat through a winter in water. She ate less and less, until she was living on leaves that had fallen off the trees by themselves — and then she gave up the leaves as well."
+        },
+        {
+          "t": "p",
+          "text": "That is where one of her names comes from, and it is the name she earned rather than the one she was given. «Aparṇā». Without even a leaf."
+        },
+        {
+          "t": "p",
+          "text": "Her mother stood at the foot of that mountain and called up to her to stop, in a voice the poem records, and she did not stop. Years went by like this. The story does not say how many and does not make it sound short."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then one afternoon a young man in an ascetic's clothes walked up and sat down beside her, and made conversation, and asked her — pleasantly, the way you might — who all this was for."
+        },
+        {
+          "t": "p",
+          "text": "She told him."
+        },
+        {
+          "t": "p",
+          "text": "And he laughed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he went through Śiva item by item, and it is the best speech in the poem, because every single thing he says is true."
+        },
+        {
+          "t": "p",
+          "text": "No house. No money, and no interest in getting any. Covered in ash. Wears snakes — actual snakes. Keeps company in a burning-ground. Rides a bull. Nobody has ever met his family, because he does not appear to have one. Is this, he asked, seriously the plan?"
+        },
+        {
+          "t": "p",
+          "text": "She did not argue with him. That is the thing to notice: she does not defend Śiva point by point, because the points are all correct."
+        },
+        {
+          "t": "p",
+          "text": "She stood up to leave rather than sit there and listen to any more of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And that is when he stopped being a young man in ascetic's clothes."
+        },
+        {
+          "t": "p",
+          "text": "He had come all that way — through the argument everybody else had already made, in his own voice, about himself — and she would not stay for the end of it."
+        },
+        {
+          "t": "slow",
+          "text": "Everyone had told her to be sensible. Her mother, the sages, the whole house, and finally the man himself, sitting next to her, doing the best job of it anybody had managed. She got up and walked away from the last one too."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "ganesha-circles",
+    "reason": "the same household, some years on, and the two boys who came out of it"
+  },
+  "close": {
+    "question": "Everybody she trusted told her she was wrong, and she listened to all of them and did it anyway. How do you tell the difference between being stubborn and being sure?",
+    "seed": "Being talked out of something is not the same as being wrong about it.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Śiva pretend to be somebody else?",
+        "a": "To find out what she actually had. Anyone can hold out against strangers. He wanted to know whether she would hold out against the best possible argument, made warmly, by someone she liked, sitting right next to her — and the only person who could make that argument properly was him. It is a slightly outrageous thing to do and the poem enjoys it."
+      },
+      {
+        "q": "Should she have starved herself like that?",
+        "a": "No, and the story does not really think so either — her mother begs her to stop, and the poem describes it as something to be amazed by rather than something to imitate. What it is showing is a person who will not be moved, in the strongest language it has. The strength is the point; the not-eating is the poem's way of measuring it."
+      },
+      {
+        "q": "Did her parents come round?",
+        "a": "Eventually, and rather grandly — the Purāṇa spends a long time on the wedding. But it is honest to say they were not persuaded by her arguments. They were worn down by the fact that she did not change, for years, while they waited for her to."
+      }
+    ]
+  }
+}

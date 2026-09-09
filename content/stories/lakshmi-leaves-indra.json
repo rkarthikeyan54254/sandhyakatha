@@ -1,0 +1,328 @@
+{
+  "id": "lakshmi-leaves-indra",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The Garland Indra Did Not Get Down For",
+  "tease": "A sage hands the king of the gods a gift on the road. He takes it without getting off his elephant, and that is how the world loses its luck.",
+  "source": {
+    "corpus": "vishnu-purana",
+    "tradition": "sanskrit",
+    "work": "Viṣṇu Purāṇa",
+    "locus": "Book 1, chapter 9",
+    "stability": "variant",
+    "traditionNote": "The churning of the ocean is told in several books and they do not agree on what came out of it or in what order. The Viṣṇu Purāṇa is the one that explains why it had to happen at all — the garland, the elephant, the curse — and that is the half most people have never heard.",
+    "checkedAgainst": [
+      "Viṣṇu Purāṇa — Wilson trans., Book I ch. 9",
+      "Bhāgavata Purāṇa, Skandha 8, chapters 5–9 — Tagare trans."
+    ],
+    "sourcing": [
+      {
+        "claim": "Durvāsas is given a garland of unfading flowers and meets Indra on the road",
+        "locus": "Viṣṇu Purāṇa 1.9"
+      },
+      {
+        "claim": "He gives it to Indra, who places it on his elephant's head",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Airāvata throws it down and tramples it",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Durvāsas curses the three worlds to lose Śrī, saying the garland was her seat",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Lakṣmī leaves; plants fail, offerings stop, people become grasping",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The weakened gods lose to the asuras and are sent by Viṣṇu to churn the ocean",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Mandara is the churning stick and Vāsuki the rope; gods and asuras pull together",
+        "locus": "Viṣṇu Purāṇa 1.9; Bhāgavata 8.6–7"
+      },
+      {
+        "claim": "A poison comes up before anything good does",
+        "locus": "Bhāgavata 8.7"
+      },
+      {
+        "claim": "Lakṣmī rises at last, on a lotus, and goes to Viṣṇu",
+        "locus": "Viṣṇu Purāṇa 1.9; Bhāgavata 8.8"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "What came out of the ocean, and in what order",
+        "tellings": "The Viṣṇu Purāṇa, the Bhāgavata and the Mahābhārata all give lists, and the lists differ — in what appears, how many things, and where the poison falls in the sequence.",
+        "weTell": "The Viṣṇu Purāṇa's frame with the Bhāgavata's poison, and we say the lists differ rather than pretending there is one."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [],
+    "careNote": "Nothing frightening. A poison comes out of the ocean and is dealt with in one line; if your child wants that story it is a different night."
+  },
+  "values": [
+    "what you stop noticing",
+    "what you were handed without asking"
+  ],
+  "themes": [
+    "lakshmi",
+    "navaratri",
+    "pride",
+    "good fortune"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Indra",
+      "role": "lead"
+    },
+    {
+      "ref": "Durvāsas",
+      "role": "foil"
+    },
+    {
+      "ref": "Lakṣmī",
+      "role": "present"
+    },
+    {
+      "ref": "Airāvata",
+      "role": "present"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    },
+    {
+      "ref": "Vāsuki",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 323,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Durvāsas» was walking along a road with a garland he had been given — flowers that did not wilt, the real thing, worth more than it looked."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» came the other way on «Airāvata», his white elephant, at the head of everything."
+        },
+        {
+          "t": "p",
+          "text": "And Durvāsas gave him the garland. Which, if you know anything about Durvāsas, is the surprising part of this story. He was not a man who gave people things."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Indra took it without getting down."
+        },
+        {
+          "t": "p",
+          "text": "He was not being cruel. He was being king. He had been given a great many garlands. He reached out, took it, and — not knowing what else to do with it while riding — put it on the elephant's head."
+        },
+        {
+          "t": "p",
+          "text": "The elephant did not care for the smell. He shook it off, and it landed in the road, and he trod on it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Durvāsas watched this happen from about six feet away."
+        },
+        {
+          "t": "p",
+          "text": "What he said was not really about a flower. He said: that was where good fortune was sitting, and you did not get down. And he cursed the three worlds to do without her."
+        },
+        {
+          "t": "p",
+          "text": "«Lakṣmī» left. Not dramatically. Things simply stopped coming right — crops thinned, milk soured, people began to hold on to things, and nobody could say exactly when it had started."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The gods, weaker every year, lost their war. «Viṣṇu» told them what it would take to get her back, and they did not like it: churn the sea, and you cannot do it alone. You will have to ask the asuras to pull the other end."
+        },
+        {
+          "t": "p",
+          "text": "So a mountain went in as the stick and «Vāsuki» agreed to be the rope, and gods and asuras stood at opposite ends of a snake and pulled, for a very long time, together."
+        },
+        {
+          "t": "slow",
+          "text": "Nobody stole her. She was handed to him on a road, by a man who never gave anyone anything — and he did not get down off his elephant."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 674,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Durvāsas» was walking along a road carrying a garland."
+        },
+        {
+          "t": "p",
+          "text": "It had been given to him that morning. The flowers on it did not wilt, which tells you what kind of garland it was — not a nice one, an important one."
+        },
+        {
+          "t": "p",
+          "text": "Coming the other way was «Indra», king of the gods, on «Airāvata» his white elephant, with the whole procession behind him."
+        },
+        {
+          "t": "p",
+          "text": "And Durvāsas gave him the garland."
+        },
+        {
+          "t": "p",
+          "text": "If you know anything at all about Durvāsas, that is the surprising sentence in this story. He is the sage with the famous temper, the one every other story is about somebody accidentally offending. He did not give people things. He gave Indra this."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Indra took it without getting down."
+        },
+        {
+          "t": "p",
+          "text": "And it is worth being fair to him here, because he was not being cruel and he was not sneering. He was being king. People handed him things all day. He had been given a great many garlands by a great many people and this looked like one more."
+        },
+        {
+          "t": "p",
+          "text": "So he reached down, took it, and — not really knowing what to do with a garland while riding an elephant — laid it on the elephant's head."
+        },
+        {
+          "t": "p",
+          "text": "Airāvata did not care for the smell of it. He shook his head, and the garland came off into the road, and then, because he was an elephant and it was in the road, he trod on it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Durvāsas watched all of this from about six feet away."
+        },
+        {
+          "t": "p",
+          "text": "And what he said was not really about a flower, which is the thing to catch. He said: that was where good fortune herself was sitting, and I put her into your hands, and you did not get down."
+        },
+        {
+          "t": "p",
+          "text": "Then he cursed the three worlds to manage without her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Lakṣmī» left."
+        },
+        {
+          "t": "p",
+          "text": "Not in a thunderclap. This is the part the story is careful about, and it is the part children recognise, because it is what a house feels like when something has gone wrong that nobody has named yet."
+        },
+        {
+          "t": "p",
+          "text": "Things stopped coming right. Crops came up thin. Milk turned early. The offerings went up and nothing came back down."
+        },
+        {
+          "t": "p",
+          "text": "And people began to hold on to things — to count what they had, and to mind about it. The text lists that alongside the failing crops, as one more symptom, as though meanness were a kind of weather."
+        },
+        {
+          "t": "p",
+          "text": "Nobody could have said which morning it started."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The gods got weaker every year, and eventually they lost their war, properly lost it, and went to «Viṣṇu» to be told what to do."
+        },
+        {
+          "t": "p",
+          "text": "What he told them, they did not like. You will have to churn the sea to get her back. And you cannot churn a sea by yourselves — there are not enough of you. You will have to go and ask the asuras to hold the other end."
+        },
+        {
+          "t": "p",
+          "text": "The asuras. The ones they had just lost to."
+        },
+        {
+          "t": "p",
+          "text": "So they went, and asked, and were agreed to. A mountain was put in as the churning stick and «Vāsuki» the great snake agreed to be wound round it as the rope, and gods took one end of him and asuras took the other, and they pulled."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It took an extremely long time. Nobody's account makes it quick."
+        },
+        {
+          "t": "p",
+          "text": "And the first thing that came up out of that ocean was not treasure. It was a poison, enough of it to finish everything, and it had to be dealt with before anybody could go on — which is its own night and its own story."
+        },
+        {
+          "t": "p",
+          "text": "Then things began to come up. The texts disagree about what and in what order, and each has its own list, and no two are the same."
+        },
+        {
+          "t": "p",
+          "text": "And late, and last, she came up: sitting on a lotus, entirely composed, as though she had been somewhere perfectly reasonable all along, and everyone on both ends of the snake stopped pulling."
+        },
+        {
+          "t": "slow",
+          "text": "Nobody stole her. She was handed to him on a road, by a man who never gave anyone anything — and he did not get down off his elephant."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "annapurna-bhiksha",
+    "reason": "another of the nights that belong to her, and another god who finds out what he had been taking for granted"
+  },
+  "close": {
+    "question": "Indra did not lose everything by doing something wicked. He lost it by not paying attention for one second. What is something good in your life that you might have stopped noticing?",
+    "seed": "Good things leave quietly, and usually while nobody is looking at them.",
+    "ifTheyAsk": [
+      {
+        "q": "Wasn't Durvāsas overreacting?",
+        "a": "Enormously, and the stories know it — he is famous for it and half the Purāṇas turn on somebody accidentally annoying him. But listen to what he actually says. He is not angry that his present was refused; he is angry that good fortune was handed over and treated as ordinary. Both things can be true: the punishment is out of all proportion, and the thing he noticed was real."
+      },
+      {
+        "q": "Why did they have to work with the asuras?",
+        "a": "Because the job was too big for one side, and this is the only story where both ends of the rope are pulling the same way. It is also worth being honest about how it finishes: when the nectar finally came up, the gods did not share it, and the asuras were tricked out of their half. The story does not pretend the cooperation lasted."
+      },
+      {
+        "q": "What else came out of the ocean?",
+        "a": "Depending on which book you read: a wish-granting cow, a tree, the moon, a white horse, Airāvata the elephant himself, the physician of the gods with the nectar — and the poison, first. The lists genuinely differ between the Viṣṇu Purāṇa, the Bhāgavata and the Mahābhārata, which is why this one is marked as a story the tellings disagree about."
+      }
+    ]
+  }
+}

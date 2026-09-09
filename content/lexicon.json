@@ -1248,5 +1248,65 @@
    "Haridrumata Gautama",
    "Gautama"
   ]
+ },
+ "Raktabīja": {
+  "id": "raktabija",
+  "native": {
+   "deva": "रक्तबीज",
+   "taml": "ரக்தபீஜன்"
+  },
+  "say": "RUCK-tuh-bee-juh",
+  "ipa": "ˈrɐk.tɐ.biː.dʒɐ",
+  "kind": "being",
+  "gloss": "The asura whose name means blood-seed: every drop of his blood that reaches the ground stands up as another of him. Wounding him is the one thing that does not work.",
+  "aliases": [
+   "Raktabija",
+   "Raktabeeja",
+   "Rakthabeejan"
+  ]
+ },
+ "Airāvata": {
+  "id": "airavata",
+  "native": {
+   "deva": "ऐरावत",
+   "taml": "ஐராவதம்"
+  },
+  "say": "eye-RAA-vuh-tuh",
+  "ipa": "ɐɪˈraː.ʋɐ.tɐ",
+  "kind": "being",
+  "gloss": "Indra's white elephant, who came out of the churned ocean himself. He is the one who throws the garland down, and he is not sorry.",
+  "aliases": [
+   "Airavata",
+   "Airavatam"
+  ]
+ },
+ "Vāsuki": {
+  "id": "vasuki",
+  "native": {
+   "deva": "वासुकि",
+   "taml": "வாசுகி"
+  },
+  "say": "VAA-soo-kee",
+  "ipa": "ˈʋaː.sʊ.ki",
+  "kind": "being",
+  "gloss": "The great snake who agreed to be used as the rope for churning the ocean. Nobody in the story asks him twice how it went.",
+  "aliases": [
+   "Vasuki",
+   "Vaasuki"
+  ]
+ },
+ "Aparṇā": {
+  "id": "aparna",
+  "native": {
+   "deva": "अपर्णा",
+   "taml": "அபர்ணா"
+  },
+  "say": "uh-PUR-naa",
+  "ipa": "ɐˈpɐr.ɳaː",
+  "kind": "being",
+  "gloss": "A name Pārvatī earned rather than was given: it means without even a leaf. It is what people called her after the years on the mountain.",
+  "aliases": [
+   "Aparna"
+  ]
  }
 }

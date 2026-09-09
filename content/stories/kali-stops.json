@@ -1,0 +1,319 @@
+{
+  "id": "kali-stops",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The Foot She Almost Stepped On",
+  "tease": "She has won, and she cannot stop. So he lies down in front of her, in the middle of it, and waits to see whether she looks down.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Devī Māhātmya; and the later tellings",
+    "locus": "Chapters 7–8, then tradition",
+    "stability": "variant",
+    "traditionNote": "The Devī Māhātmya gives Kālī her arrival and her battles, and stops there. The scene everyone actually pictures — her unable to stop, Śiva lying down in her path — is carried by later Purāṇic tellings and by living tradition rather than by those chapters. It is also the reason she is painted the way she is.",
+    "checkedAgainst": [
+      "Devī Māhātmya — Coburn, 'Encountering the Goddess', SUNY",
+      "Kinsley, 'Hindu Goddesses' — on the iconography and its sources"
+    ],
+    "sourcing": [
+      {
+        "claim": "Kālī issues from the brow of the angry Devī, already armed",
+        "locus": "Devī Māhātmya 7.5–7"
+      },
+      {
+        "claim": "She kills Caṇḍa and Muṇḍa and is named Cāmuṇḍā for it",
+        "locus": "Devī Māhātmya 7.22–27"
+      },
+      {
+        "claim": "Raktabīja: every drop of his blood that lands becomes another of him",
+        "locus": "Devī Māhātmya 8.41–49"
+      },
+      {
+        "claim": "She drinks the blood before it can land, and the copies with it",
+        "locus": "Devī Māhātmya 8.50–62"
+      },
+      {
+        "claim": "She dances after the battle and cannot be stopped",
+        "locus": "Not in the Devī Māhātmya — later tellings and living tradition"
+      },
+      {
+        "claim": "Śiva lies down in her path; she steps on him, sees him, and stops",
+        "locus": "ibid. — the standard explanation of her iconography"
+      },
+      {
+        "claim": "The out-thrust tongue is read as her biting it in shock",
+        "locus": "ibid. — a gesture still made in South Asia"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Whether the stopping is in the text at all",
+        "tellings": "The Devī Māhātmya has Kālī fight and win and says nothing about a dance that would not end. The scene is told across later Purāṇic material and, more than anywhere, in Bengali and Tamil practice.",
+        "weTell": "The later scene, with the join marked — because it is what every painting of her is of."
+      },
+      {
+        "differs": "What the tongue means",
+        "tellings": "Usually she has bitten it in shock at what her foot has landed on. Some tellings make it the blood-drinking; some make it plain ferocity.",
+        "weTell": "The shock, which is the reading that makes the story about stopping rather than about winning."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [
+      "violence",
+      "death"
+    ],
+    "careNote": "A battlefield, told at a distance but not softened: an asura who copies himself from his own spilt blood, and a goddess who drinks it before it can land so that he cannot. Nobody is tortured and there is no dwelling on wounds, but the drinking is in the text and is in the story. The end is quiet."
+  },
+  "values": [
+    "stopping when you have won"
+  ],
+  "themes": [
+    "devi",
+    "navaratri",
+    "anger",
+    "stopping"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 8
+  },
+  "characters": [
+    {
+      "ref": "Kālī",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Durgā",
+      "role": "present"
+    },
+    {
+      "ref": "Raktabīja",
+      "role": "foil"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 322,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The battle was going badly, and «Durgā» got angry, and «Kālī» came out of her forehead already holding everything she needed."
+        },
+        {
+          "t": "p",
+          "text": "She was made for a job. The job was «Raktabīja»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His name means blood-seed, and it is a description. Every drop of his blood that touched the ground stood up as another one of him. So every sword-stroke made the problem worse, and the army had been doing that all morning, and there were thousands of him by the time anyone worked out what was happening."
+        },
+        {
+          "t": "p",
+          "text": "Kālī did the only thing that works. She did not wound him more carefully. She caught the blood before it could land — drank it out of the air — and the copies with it, until there were none of him left anywhere."
+        },
+        {
+          "t": "p",
+          "text": "And that was the end of the battle."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "But it was not the end of Kālī."
+        },
+        {
+          "t": "p",
+          "text": "She was still going. The field was empty and she was still going, and the ground was taking it, and nobody could get near enough to say anything to her, and the gods stood at the edge of it and understood that they had made something they had no way of turning off."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So «Śiva» walked out into the middle of it and lay down."
+        },
+        {
+          "t": "p",
+          "text": "He did not fight her. He did not hold anything up. He lay down in her path, on the ground, where she was going to come next, and waited to find out whether she would look down."
+        },
+        {
+          "t": "p",
+          "text": "Her foot came down on his chest. And she looked."
+        },
+        {
+          "t": "p",
+          "text": "In every painting you have ever seen of her, her tongue is out. That is this moment. That is not fierceness. That is a person biting their tongue because of what they have just done."
+        },
+        {
+          "t": "slow",
+          "text": "She had won. Winning was never the hard part. Stopping was the hard part, and somebody had to lie down in front of her before she could do it."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 664,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The battle was going badly, and «Durgā» got angry."
+        },
+        {
+          "t": "p",
+          "text": "Not the ordinary kind. The text says her face went black with it, and out of her forehead came «Kālī» — already there, already armed, holding a sword and a noose and wearing what she wears, needing nothing explained to her."
+        },
+        {
+          "t": "p",
+          "text": "She was made for a job, and the job had a name."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Raktabīja». It means blood-seed, and it is not a title, it is a description of the problem."
+        },
+        {
+          "t": "p",
+          "text": "Every drop of his blood that reached the ground stood up as another one of him. Full size. Fully armed. Exactly as difficult as the original."
+        },
+        {
+          "t": "p",
+          "text": "So the harder the army fought him, the more of him there was. Every cut made two. They had been at it all morning, doing the sensible thing, and the sensible thing was manufacturing the enemy."
+        },
+        {
+          "t": "p",
+          "text": "By the time anybody understood what was happening, the field was full of him. Thousands. All the same. All coming."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Kālī did not fight him more carefully. That was never going to work and she did not try it."
+        },
+        {
+          "t": "p",
+          "text": "She caught the blood before it could land. Out of the air, before it reached the ground, so that the ground never got the chance to make anything of it — and the copies that were already standing, she took those too, until there was nothing of him anywhere and nothing left to make more from."
+        },
+        {
+          "t": "p",
+          "text": "It is a horrible solution and it is the only one there was, and the text does not pretend otherwise."
+        },
+        {
+          "t": "p",
+          "text": "And that was the end of the battle."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It was not the end of Kālī."
+        },
+        {
+          "t": "p",
+          "text": "This is the part the older chapters do not tell you and everybody knows anyway. She did not stop. The field was empty — no enemy, nobody left to fight, nothing to do — and she was still going."
+        },
+        {
+          "t": "p",
+          "text": "The ground took it. Then the ground began to have trouble taking it. And the gods who had been so pleased with themselves an hour earlier stood at the edge of the field and worked out, slowly, that they had made something and had no way at all of turning it off."
+        },
+        {
+          "t": "p",
+          "text": "Nobody could go near her. There was no sentence anyone could say from that distance that would arrive."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So «Śiva» walked out into the middle of it and lay down on the ground."
+        },
+        {
+          "t": "p",
+          "text": "Not fighting her. Not holding anything up, not blocking, not shouting her name. He lay down in her path — in the place she was going to come next — and waited to find out whether she would look down."
+        },
+        {
+          "t": "p",
+          "text": "Which is the most frightening thing anybody does in any of these stories, and he does it lying still."
+        },
+        {
+          "t": "p",
+          "text": "Her foot came down on his chest."
+        },
+        {
+          "t": "p",
+          "text": "And she looked down."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "In every painting you have ever seen of her — and you have seen them, on calendars, on shop walls, over doorways — her tongue is out."
+        },
+        {
+          "t": "p",
+          "text": "That is this moment. It is not fierceness and it is not a taunt. It is what a person's face does when they have just realised what they have done: the tongue caught between the teeth, the way people here still do it when they have knocked something over or put a foot somewhere it should not have gone."
+        },
+        {
+          "t": "p",
+          "text": "She stopped."
+        },
+        {
+          "t": "p",
+          "text": "And then there was a field with nobody moving on it, and a great many gods a long way off, not saying anything, working out what to do with their faces."
+        },
+        {
+          "t": "p",
+          "text": "Nobody thanked him. The tellings do not have anyone thank him. He gets up, and she is herself again, and the story goes back to being about the nine nights and the tenth morning, and the thing he did in the middle of it is left lying there for whoever notices."
+        },
+        {
+          "t": "slow",
+          "text": "She had won. Winning was never the hard part. Stopping was the hard part, and somebody had to lie down in front of her before she could do it."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "durga-mahishasura",
+    "reason": "the same nine nights, and the fight this one came out of"
+  },
+  "close": {
+    "question": "Śiva did not try to stop her by being stronger. He lay down. When somebody you know is too upset to hear you, what actually works?",
+    "seed": "Stopping is its own skill, and it is not the same skill as winning.",
+    "ifTheyAsk": [
+      {
+        "q": "Is it wrong that she drank his blood?",
+        "a": "It is meant to be shocking, and softening it would make nonsense of the story — the whole point is that Raktabīja could not be beaten by any decent method, and she is what gets sent when decent methods have run out. What the story does next is the part worth noticing: it does not celebrate her. It shows the gods frightened of what they asked for."
+      },
+      {
+        "q": "Was Śiva not scared?",
+        "a": "The story does not say, which is its own answer. He does not do anything clever — no weapon, no argument, no trick. He makes himself the one thing she cannot walk over without seeing. If he had been wrong about her, the story would have ended very differently, and everyone telling it knows that."
+      },
+      {
+        "q": "Why is her tongue out in the pictures?",
+        "a": "This story is the explanation, and it is why the image is everywhere. Some tellings say the tongue is about the blood and some say it is plain ferocity. The version told here — that she has bitten her tongue in shock at where her foot has landed — is the one that makes the picture a picture about stopping rather than about winning."
+      }
+    ]
+  }
+}

@@ -1401,12 +1401,15 @@
       "stability": "variant",
       "minAge": 10,
       "sensitivity": [
-        "violence"
+        "violence",
+        "death"
       ],
-      "value": "stopping",
+      "value": "stopping when you have won",
       "hook": "She has won and she cannot stop. So he lies down in front of her, in the middle of it, and waits to see whether she looks down.",
-      "festivals": [],
-      "status": "draft",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "in-review",
       "wave": 4,
       "gated": false
     },
@@ -1527,6 +1530,49 @@
       ],
       "value": "grief that turns into something",
       "hook": "A man walks to the river to bathe and comes back with the first line of poetry anyone in that language had made. He did not mean to make it.",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "in-review",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 79,
+      "id": "lakshmi-leaves-indra",
+      "title": "The Garland Indra Did Not Get Down For",
+      "corpus": "vishnu-purana",
+      "tradition": "sanskrit",
+      "work": "Viṣṇu Purāṇa",
+      "locus": "Book 1, chapter 9",
+      "stability": "variant",
+      "minAge": 7,
+      "sensitivity": [],
+      "value": "what you stop noticing",
+      "hook": "A sage hands the king of the gods a gift on the road. He takes it without getting off his elephant, and that is how the world loses its luck.",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "in-review",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 80,
+      "id": "parvati-decides",
+      "title": "Everyone Told Her to Be Sensible",
+      "corpus": "shiva-purana",
+      "tradition": "sanskrit",
+      "work": "Śiva Purāṇa, Rudra Saṃhitā",
+      "locus": "Pārvatī Khaṇḍa",
+      "stability": "variant",
+      "minAge": 7,
+      "sensitivity": [
+        "parental-conflict",
+        "gender-norms"
+      ],
+      "value": "deciding, and not being talked out of it",
+      "hook": "A mountain's daughter decides who she will marry. Everyone argues her out of it — and then the man himself turns up in disguise to argue, and he is the one who loses.",
       "festivals": [
         "navaratri"
       ],
