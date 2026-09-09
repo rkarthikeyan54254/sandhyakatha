@@ -70,3 +70,15 @@ netlify dev            # serves the app and /api/* together on :8888
 `docs/alternative-supabase.sql` holds the equivalent table and RLS policy.
 The client interface in `src/lib/sync.ts` is small enough to swap in an
 afternoon — but there is no reason to.
+
+## CORRECTIONS_KEY — reading what readers report
+
+`/api/correction` accepts a report from anybody, with no account. Reading the
+reports back needs one more Netlify environment variable:
+
+    CORRECTIONS_KEY = <32+ random characters>
+
+Then `npm run corrections` prints them, newest first, grouped by story. Put the
+same value in a local `.env` (gitignored) so the script finds it. Without the
+variable set, the read endpoint returns 404 and only writing works — which is
+the safe default.

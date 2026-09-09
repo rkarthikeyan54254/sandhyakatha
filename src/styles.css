@@ -419,3 +419,23 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   font-size:23px;line-height:1.24;color:var(--paper)}
 .tomorrow p{margin:9px 0 0;font-size:14.5px;line-height:1.6;color:var(--paper-dim)}
 .tomorrow p.why{margin-top:11px;font-size:13px;color:var(--muted);font-style:italic}
+
+/* ---- "something isn't right here" ---- */
+/* The correction path. Quiet on the page, because it is for the one reader in
+   a hundred who knows the story better than we do — and it must be there for
+   them without nagging everybody else. */
+.wrong{display:block;margin-top:26px;padding-top:18px;border-top:1px solid var(--line)}
+.wrong summary{cursor:pointer;font-size:13px;color:var(--muted);list-style:none}
+.wrong summary::-webkit-details-marker{display:none}
+.wrong summary:before{content:"→";margin-right:8px;color:var(--lamp-dim)}
+.wrong[open] summary{color:var(--paper-dim)}
+.wrong form{margin-top:14px}
+.wrong p{margin:0 0 12px;font-size:13px;line-height:1.6;color:var(--muted)}
+.wrong textarea{width:100%;background:#1b1526;color:var(--paper);border:1px solid var(--line);
+  border-radius:9px;padding:11px 12px;font:inherit;font-size:14px;line-height:1.5;resize:vertical}
+.wrong textarea:focus{outline:2px solid var(--lamp-dim);outline-offset:1px}
+.wrong button{margin-top:10px;padding:9px 18px;border-radius:9px;border:1px solid var(--line);
+  background:transparent;color:var(--lamp);font:inherit;font-size:13.5px;font-weight:700;cursor:pointer}
+.wrong button:hover:not(:disabled){background:rgba(240,180,88,.08)}
+.wrong button:disabled{opacity:.55;cursor:default}
+.wrong.done p{color:var(--ember-lit);font-size:14px;margin:0}

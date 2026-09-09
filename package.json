@@ -22,7 +22,9 @@
     "approve": "node scripts/approve.mjs",
     "proof": "node scripts/proof.mjs",
     "social": "node scripts/social.mjs",
-    "reel": "node scripts/reel.mjs"
+    "reel": "node scripts/reel.mjs",
+    "review": "node scripts/review.mjs",
+    "corrections": "node scripts/corrections.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

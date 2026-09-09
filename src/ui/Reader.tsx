@@ -105,6 +105,8 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, on
           </button>
         )}
 
+        <Wrong id={story.id} version={story.version} />
+
         {/* Not a link. Tomorrow is an appointment, not another thing to read now. */}
         {tomorrow && (
           <aside className="tomorrow">
@@ -140,4 +142,50 @@ function Line({ text, lex, onSay }: { text: string; lex: Lexicon; onSay: (s: Sai
     if (p.startsWith('_')) return <em key={i}>{p.slice(1, -1)}</em>;
     return <span key={i}>{p}</span>;
   })}</>;
+}
+
+
+/**
+ * "Something isn't right here."
+ *
+ * The best reviewer this collection will ever have is somebody who knows the
+ * story better than we do, reading it to a child and stopping. This is how
+ * they tell us. No account, no name, nothing joined to a reading history —
+ * which is also why the box says not to put your own details in it.
+ */
+function Wrong({ id, version }: { id: string; version: number }) {
+  const [note, setNote] = useState('');
+  const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'failed'>('idle');
+
+  if (state === 'sent') return (
+    <aside className="wrong done">
+      <p>Thank you. That goes to the person who wrote it, and every report is read.</p>
+    </aside>
+  );
+
+  return (
+    <details className="wrong">
+      <summary>Something isn't right here</summary>
+      <form onSubmit={async e => {
+        e.preventDefault();
+        if (note.trim().length < 4) return;
+        setState('sending');
+        try {
+          const r = await fetch('/api/correction', {
+            method: 'POST', headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ storyId: id, version, note: note.trim() })
+          });
+          setState(r.ok ? 'sent' : 'failed');
+        } catch { setState('failed'); }
+      }}>
+        <p>If a name, a detail or a tradition is wrong here, tell us. Nobody needs an account and we do
+          not ask who you are — so please leave your own details out of the box.</p>
+        <textarea rows={4} maxLength={2000} value={note} onChange={e => setNote(e.target.value)}
+                  placeholder="What is wrong, and how do you know?" />
+        <button type="submit" disabled={state === 'sending' || note.trim().length < 4}>
+          {state === 'sending' ? 'Sending…' : state === 'failed' ? 'That did not send — try again' : 'Send'}
+        </button>
+      </form>
+    </details>
+  );
 }

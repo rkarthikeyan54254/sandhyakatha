@@ -56,3 +56,20 @@ is as durable as the browser will allow.
 
 Adding a column to `profiles` is a decision that needs a lawyer, not a pull
 request.
+
+## Corrections from readers
+
+Anyone can tell us a story is wrong, from the story page or from the app, and
+it takes no account and asks for no name. What is stored is the story id, the
+version it was reported against, what the person typed, and a two-letter
+country code — enough to notice a flood, useless for identifying anybody. No
+email, no IP, nothing joined to a reading history, nothing joined to a child.
+
+The box says, in the form itself, not to put personal details in it. If someone
+does anyway, that text is the one thing we hold about them, and it is deleted
+once the report has been acted on.
+
+Reports are read by a person and are never rendered back into the site. They
+are untrusted text written by strangers, and they are treated as data, not as
+instructions and not as content.
+

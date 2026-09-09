@@ -64,6 +64,7 @@ function page(s) {
 <meta name="theme-color" content="#14101c">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script>
 <script src="/gtag-init.js"></script>
+<script src="/report.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
 <script type="application/ld+json">${JSON.stringify({
@@ -109,6 +110,22 @@ p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
 .cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}
 .cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;
   font-weight:700;font-size:14px;text-decoration:none}
+.wrong{margin-top:30px;border-top:1px solid var(--line);padding-top:16px}
+.wrong summary{cursor:pointer;font-size:13px;color:var(--muted);list-style:none}
+.wrong summary::-webkit-details-marker{display:none}
+.wrong summary:before{content:"→";margin-right:8px;color:var(--lamp-dim)}
+.wrong[open] summary{color:var(--paper-dim)}
+.wrong form{margin-top:14px}
+.wrong p{margin:0 0 12px;font-size:13px;line-height:1.6;color:var(--muted)}
+.wrong .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.wrong textarea{width:100%;background:#1b1526;color:var(--paper);border:1px solid var(--line);
+  border-radius:9px;padding:11px 12px;font:inherit;font-size:14px;line-height:1.5;resize:vertical}
+.wrong textarea:focus{outline:2px solid var(--lamp-dim);outline-offset:1px}
+.wrong button{margin-top:10px;padding:9px 18px;border-radius:9px;border:1px solid var(--line);
+  background:transparent;color:var(--lamp);font:inherit;font-size:13.5px;font-weight:700;cursor:pointer}
+.wrong button:hover{background:rgba(240,180,88,.08)}
+.wrong button:disabled{opacity:.6;cursor:default}
+.wrong .thanks{color:var(--ember-lit);font-size:14px;margin:0}
 footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
 </style></head>
 <body><div class="w">
@@ -127,6 +144,16 @@ footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
   <p class="s">And if they shrug, you can leave it at this: <b>${esc(s.close.seed)}</b></p>
 </div>
 ${says ? `<ul class="says">${says}</ul>` : ''}
+<details class="wrong">
+  <summary>Something isn't right here</summary>
+  <form data-report="${s.id}" data-version="${s.version}">
+    <p>If a name, a detail or a tradition is wrong here, tell us. Nobody needs an account and we do not
+      ask who you are — so please leave your own details out of the box.</p>
+    <label class="hp"><span>Leave this empty</span><input name="hp" tabindex="-1" autocomplete="off"></label>
+    <textarea rows="4" maxlength="2000" placeholder="What is wrong, and how do you know?"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</details>
 <div class="cta">
   <p>This is the short telling. The longer one, tonight's pick, and the rest of the collection are in the app — free, nothing to install.</p>
   <a href="/">Open Sandhya Katha</a>
