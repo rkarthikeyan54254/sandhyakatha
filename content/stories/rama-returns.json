@@ -12,7 +12,7 @@
     "work": "Vālmīki Rāmāyaṇa",
     "locus": "Yuddha Kāṇḍa, sargas 125–128",
     "stability": "variant",
-    "traditionNote": "Vālmīki has the city washed, hung with flags and garlands and rejoicing all night. The lamps — and the idea that this is where Diwali comes from — are carried by later telling, above all Tulsīdās. We tell the lamps and say whose they are.",
+    "traditionNote": "Vālmīki has the city washed, hung with flags and rejoicing all night. The lamps, and the idea that this is where Diwali comes from, are later telling — above all Tulsīdās. In the north this is the story of the new-moon night; in the south that night belongs to Naraka, a day earlier.",
     "checkedAgainst": [
       "Vālmīki Rāmāyaṇa — Baroda critical edition, Yuddha Kāṇḍa",
       "Goldman & Goldman trans., Princeton, vol. 6",
@@ -78,7 +78,10 @@
     "months": [
       "kartika"
     ],
-    "weight": 9
+    "weight": 9,
+    "tithi": [
+      "krishna-amavasya"
+    ]
   },
   "characters": [
     {
@@ -301,16 +304,16 @@
     "seed": "Getting ready is its own way of believing somebody.",
     "ifTheyAsk": [
       {
-        "q": "Why was everyone so worried about the day?",
-        "a": "Because Bharata had made a promise he should probably not have made: that if Rāma was not back by the end of that day, he would walk into a fire. Everyone in the city knew it. That is why the morning is unbearable and why Hanumān is sent running — not to announce good news, but to get there before the end of the day. Older children usually work out that something is being left unsaid, and this is it."
-      },
-      {
         "q": "Are the lamps really in the Rāmāyaṇa?",
         "a": "The city being washed, hung with flags and awake all night — yes, that is Vālmīki. The rows of lamps everyone pictures, and the idea that this night is where Dīpāvalī comes from, arrive later, above all with Tulsīdās a very long time afterwards. So when you light lamps this week you are doing something people have done for centuries, which is not quite the same as something the oldest book describes. Both of those are worth knowing."
       },
       {
         "q": "Why did Bharata not just rule?",
         "a": "He could have. Everybody told him to. The kingdom was legally his and the man who should have had it had told him to keep it. He decided that being given something did not make it his, and then he held that position for fourteen years in a village, wearing bark, in sight of a palace he was entitled to walk into. It is the least dramatic act of stubbornness in the book and possibly the most impressive."
+      },
+      {
+        "q": "My friend says Diwali is about Kṛṣṇa and Naraka.",
+        "a": "Because two stories settled on the same few nights, and where you grew up decides which one you were told. In the south the festival is the fourteenth — Naraka Chaturdaśī, kept before sunrise with an oil bath — and Naraka is the story. Further north the big night is the new moon after it, and the story is Rāma coming home, with Lakṣmī. Neither is a corruption of the other. And they are genuinely an age apart: Rāma belongs to the Tretā Yuga and Kṛṣṇa to the Dvāpara, landing on adjoining nights of the same month. Whether the festival gathered them because the dates matched, or the dates are remembered that way because it gathered them, nobody can say."
       }
     ]
   }

@@ -12,7 +12,7 @@
     "work": "Bhāgavata Purāṇa",
     "locus": "Skandha 10, chapter 59",
     "stability": "variant",
-    "traditionNote": "The Bhāgavata gives the war, Satyabhāmā's hand on the weapon, and the sixteen thousand women brought out of his house. Naraka's dying request that the day be remembered with lamps rather than mourning is carried by tradition and by later tellings, and is why the fourteenth night has the name it has.",
+    "traditionNote": "The Bhāgavata gives the war, Satyabhāmā's hand and the women brought out of his house. The dying request — lamps rather than mourning — is the festival's own story. It is why the fourteenth of the dark fortnight is called Naraka Chaturdaśī, and why in the south that day, not the new moon after it, is Deepavali.",
     "checkedAgainst": [
       "Bhāgavata Purāṇa, Skandha 10 — Tagare trans. (Motilal Banarsidass)",
       "Viṣṇu Purāṇa, Book 5 — Wilson trans."
@@ -101,7 +101,10 @@
     "months": [
       "kartika"
     ],
-    "weight": 9
+    "weight": 9,
+    "tithi": [
+      "krishna-chaturdashi"
+    ]
   },
   "characters": [
     {
@@ -120,7 +123,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 306,
+      "words": 312,
       "blocks": [
         {
           "t": "p",
@@ -165,7 +168,7 @@
         },
         {
           "t": "p",
-          "text": "Then he asked for something himself, at the end, which is the strangest request in the whole festival: that when people remembered this day, they should not remember it as the day he lost. They should light lamps and be glad."
+          "text": "Then he asked for something himself, at the end, which is the strangest request in the whole festival: that when people remembered this day — the fourteenth, the _chaturdaśī_ — they should not remember it as the day he lost. They should light lamps and be glad."
         },
         {
           "t": "p",
@@ -179,7 +182,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 661,
+      "words": 679,
       "blocks": [
         {
           "t": "p",
@@ -294,7 +297,7 @@
         },
         {
           "t": "p",
-          "text": "And that is what happened. That is what people do on the fourteenth night, every year, in his name."
+          "text": "And that is what happened. The fourteenth night of the waning fortnight is _chaturdaśī_, and the day carries his name because of this — Naraka Chaturdaśī, kept every year, in the name of the man who lost."
         },
         {
           "t": "p",
@@ -316,16 +319,16 @@
     "seed": "How a day gets remembered is sometimes the last thing anybody can choose.",
     "ifTheyAsk": [
       {
-        "q": "Did Satyabhāmā really kill him?",
-        "a": "The Bhāgavata puts her on the field with Kṛṣṇa, and the tradition around it is firm that the blow is hers, because the protection Naraka had asked for did not cover her. Plenty of retellings quietly hand the whole thing back to Kṛṣṇa. If you have only ever heard it that way, that is why — and it is worth telling a daughter the other version."
-      },
-      {
         "q": "Why did Kṛṣṇa marry sixteen thousand women?",
         "a": "Not for love, and the book does not pretend otherwise. In that world a woman who had been in Naraka's house could not go home — her family would not have taken her, and she would have had no standing anywhere. Marriage was the only arrangement that gave her one. It is worth saying plainly to an older child that this is a solution to an injustice, not a happy ending, and that the injustice is the part to be angry about."
       },
       {
         "q": "Is the last bit really in the book?",
         "a": "No, and that is worth knowing. The Bhāgavata has the war, the earrings, the women and his mother. The dying request — lamps rather than mourning — is the festival's own story, told wherever Naraka Chaturdaśī is kept, rather than a verse anyone can point at. It is the reason the day has the shape it has, and it arrived after the book did."
+      },
+      {
+        "q": "Why do people say Diwali is about Rāma, then?",
+        "a": "Because two stories settled on the same few nights, and where you grew up decides which one you were told. In the south the festival is the fourteenth — Naraka Chaturdaśī, kept before sunrise with an oil bath — and Naraka is the story. Further north the big night is the new moon after it, and the story is Rāma coming home, with Lakṣmī. Neither is a corruption of the other. And they are genuinely an age apart: Rāma belongs to the Tretā Yuga and Kṛṣṇa to the Dvāpara, landing on adjoining nights of the same month. Whether the festival gathered them because the dates matched, or the dates are remembered that way because it gathered them, nobody can say."
       }
     ]
   }
