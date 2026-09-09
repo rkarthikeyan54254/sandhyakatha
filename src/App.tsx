@@ -110,7 +110,11 @@ export default function App() {
       if (!c) return p;
       track('story_finished', { story_id: storyId });
       const next = P.markHeard(p, c.id, storyId);
-      if (account) syncProfile(next).then(setProfile).catch(() => {});
+      // Always attempt the push. `account` is set asynchronously after load, so
+      // gating on it meant a story marked in the first second of a session was
+      // saved on the device and never uploaded — and sign-out then cleared the
+      // device. syncProfile already does nothing when signed out.
+      syncProfile(next).then(setProfile).catch(() => {});
       return next;
     });
   }

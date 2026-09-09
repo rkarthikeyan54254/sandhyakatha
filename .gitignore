@@ -11,3 +11,9 @@ tsconfig.tsbuildinfo
 *.tar.gz
 proof/
 social/
+
+# local preview bundles, never committed
+*-preview.tgz
+vite.config.ts.timestamp-*
+_to_delete/
+flow-preview.tgz

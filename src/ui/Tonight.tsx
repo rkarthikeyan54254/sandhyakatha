@@ -73,7 +73,7 @@ export default function Tonight(p: Props) {
       {st.stories === 0 && <Intro published={published} planned={canon.length || 68} />}
 
       {st.stories > 0 && (
-        <p className="sofar">{name || 'They'} {st.stories === 1 ? 'has heard one story' : `has heard ${st.stories} stories`}
+        <p className="sofar">{name || 'They'} {name ? 'has' : 'have'} heard {st.stories === 1 ? 'one story' : `${st.stories} stories`}
           {st.nights > 1 && ` across ${st.nights} nights`}
           {st.streak > 1 && <> · <b>{st.streak} nights running</b></>}.
         </p>
