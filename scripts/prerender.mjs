@@ -128,7 +128,7 @@ footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
 </div>
 ${says ? `<ul class="says">${says}</ul>` : ''}
 <div class="cta">
-  <p>This is the three-minute telling. The longer one, tonight's pick, and ${'the rest of the collection'} are in the app — free, nothing to install.</p>
+  <p>This is the short telling. The longer one, tonight's pick, and the rest of the collection are in the app — free, nothing to install.</p>
   <a href="/">Open Sandhya Katha</a>
 </div>
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>

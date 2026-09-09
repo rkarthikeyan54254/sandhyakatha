@@ -1,0 +1,300 @@
+{
+  "id": "svetaketu-salt",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "Śvetaketu and the Salt",
+  "tease": "His father hands him a lump of salt and a bowl of water, and asks him to bring the salt back in the morning.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Chāndogya Upaniṣad",
+    "locus": "6.1 and 6.13",
+    "stability": "stable",
+    "traditionNote": "The salt is one of nine demonstrations the father gives in chapter six, each ending in the same sentence. We tell this one on its own; the banyan seed, which comes just before it, is its own night in this collection.",
+    "checkedAgainst": [
+      "Chāndogya Upaniṣad — Olivelle, 'Upaniṣads', Oxford World's Classics",
+      "Chāndogya Upaniṣad with Śaṅkara's commentary — Gambhirananda trans."
+    ],
+    "sourcing": [
+      {
+        "claim": "Śvetaketu is sent away at twelve and returns at twenty-four, conceited and thinking himself learned",
+        "locus": "Chāndogya 6.1.1–2"
+      },
+      {
+        "claim": "Uddālaka asks whether he asked for the teaching by which the unheard becomes heard and the unknown known",
+        "locus": "Chāndogya 6.1.3"
+      },
+      {
+        "claim": "Śvetaketu admits he did not, and asks to be taught it",
+        "locus": "Chāndogya 6.1.7"
+      },
+      {
+        "claim": "The father tells him to put salt in water and come back in the morning",
+        "locus": "Chāndogya 6.13.1"
+      },
+      {
+        "claim": "In the morning the salt cannot be found or retrieved",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He is told to sip from the top, the middle and the bottom; each is salt",
+        "locus": "Chāndogya 6.13.2"
+      },
+      {
+        "claim": "He is told to set it aside; the salt is still there though unseen",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The father says: that subtle essence is the self of all this — tat tvam asi, that you are",
+        "locus": "Chāndogya 6.13.3"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": []
+  },
+  "values": [
+    "the invisible thing that is everywhere",
+    "knowing half of something"
+  ],
+  "themes": [
+    "sarasvati",
+    "navaratri",
+    "learning",
+    "what is everywhere"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Śvetaketu",
+      "role": "lead"
+    },
+    {
+      "ref": "Uddālaka",
+      "role": "foil"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 345,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Śvetaketu» went away to study at twelve and came home at twenty-four, and he came home insufferable."
+        },
+        {
+          "t": "p",
+          "text": "Twelve years. He had learned everything there was, and he was fairly sure everyone could tell."
+        },
+        {
+          "t": "p",
+          "text": "His father «Uddālaka» let him get through the door, and then asked one question. Not what he had learned. Whether he had asked for _the teaching by which what you have not heard becomes heard, and what you have not thought becomes thought._"
+        },
+        {
+          "t": "p",
+          "text": "Śvetaketu said he had not. He said he did not think his teachers knew that one, or they would have taught it. Then he asked to be taught it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His father gave him a lump of salt and a bowl of water and said: _put that in there, and come to me in the morning._"
+        },
+        {
+          "t": "p",
+          "text": "That was the whole lesson for the night. Twelve years of study, and a bowl of water on a shelf."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "In the morning his father said: _bring me back the salt you put in last night._"
+        },
+        {
+          "t": "p",
+          "text": "He put his hand in. There was nothing to bring. He felt around the bottom of the bowl like a man looking for keys."
+        },
+        {
+          "t": "p",
+          "text": "_Sip from this end,_ his father said. Salt. _From the middle._ Salt. _From that end._ Salt."
+        },
+        {
+          "t": "p",
+          "text": "_Now put it down and come here. It is still there — you simply cannot pick it up._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And that is the whole demonstration. The salt has not gone anywhere. It is in every mouthful of that water, you cannot see one grain of it, and you could not get it out again if you tried all day."
+        },
+        {
+          "t": "p",
+          "text": "_You cannot see it here,_ his father said, _and it is here._"
+        },
+        {
+          "t": "p",
+          "text": "Then he said the sentence people have been arguing about ever since: that the finest thing, the thing you cannot point at, is what all of this is made of — _and that, Śvetaketu, is what you are._"
+        },
+        {
+          "t": "slow",
+          "text": "Twelve years of learning things he could say back. Then one night, a bowl of water, and a thing he could not point to and could not get out again."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 600,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Śvetaketu» went away to study when he was twelve, and came home when he was twenty-four."
+        },
+        {
+          "t": "p",
+          "text": "Twelve years. That is not a course, it is a childhood. He had learned all of it — the recitation, the metres, the commentaries, the arguments about the commentaries — and he had done well, and he knew he had done well."
+        },
+        {
+          "t": "p",
+          "text": "The text is blunt about how he arrived. Conceited. Thinking himself learned. Rather stiff about it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His father let him get through the door before he asked anything."
+        },
+        {
+          "t": "p",
+          "text": "«Uddālaka» ran cattle. He had not been away for twelve years learning the metres. And what he asked was not _what did you learn_ — which is what Śvetaketu had spent the walk home preparing for."
+        },
+        {
+          "t": "p",
+          "text": "He asked whether his son had thought to ask for _the teaching by which what you have not heard becomes heard, and what you have not thought becomes thought, and what you do not know becomes known._"
+        },
+        {
+          "t": "p",
+          "text": "Which is not a fair question, and is meant not to be."
+        },
+        {
+          "t": "p",
+          "text": "Śvetaketu said he had not. Then, to his enormous credit, he said something better: he said he did not believe his teachers had known that one, because if they had, they would surely have taught it to him. And he asked his father to teach him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So his father gave him a lump of salt and a bowl of water."
+        },
+        {
+          "t": "p",
+          "text": "_Put that in there,_ he said, _and come to me in the morning._"
+        },
+        {
+          "t": "p",
+          "text": "That was it. That was the whole lesson for the night. A young man with twelve years of the finest education in the country, standing in his father's house, dropping a lump of salt into a bowl of water and then going to bed."
+        },
+        {
+          "t": "p",
+          "text": "It is worth imagining that night properly. He is twenty-four. He has been top of everything for a decade. And he has been given a chore."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "In the morning his father said: _bring me back the salt you put in last night._"
+        },
+        {
+          "t": "p",
+          "text": "And he put his hand in the bowl, and there was nothing to bring."
+        },
+        {
+          "t": "p",
+          "text": "He would have felt around the bottom of it. Anyone would. Turning his hand over, spreading his fingers, the way you search a bag for keys that are definitely in the bag."
+        },
+        {
+          "t": "p",
+          "text": "_Sip from this end,_ his father said."
+        },
+        {
+          "t": "p",
+          "text": "Salt."
+        },
+        {
+          "t": "p",
+          "text": "_From the middle._ Salt. _From the far end._ Salt. Every part of it, the same."
+        },
+        {
+          "t": "p",
+          "text": "_Now put it down over there and come and sit._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And this is the part that does the work, and it is only a few words. The salt has not gone anywhere. It is in every mouthful of that water and you cannot see one grain of it, and you could not get it out again if you tried all day."
+        },
+        {
+          "t": "p",
+          "text": "_You cannot see it here,_ his father said, _and it is here._"
+        },
+        {
+          "t": "p",
+          "text": "Then he said the sentence that people have been arguing about ever since: that the finest thing, the thing you cannot point at, is what all of this is made of and what it belongs to — _and that, Śvetaketu, is what you are._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He does not explain it further. He does the same demonstration eight more ways over the following days, with a seed, with a tree, with a river, with a man led blindfold out of a forest — and every one of them ends in the same sentence, and none of them explains it either."
+        },
+        {
+          "t": "slow",
+          "text": "Twelve years of learning things he could say back. Then one night, a bowl of water, and a thing he could not point to and could not get out again."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "banyan-seed",
+    "reason": "the same father, the same week, and the demonstration he gave just before this one"
+  },
+  "close": {
+    "question": "His father made him find it out instead of telling him. Is there something you only believed once you had tried it yourself?",
+    "seed": "You cannot always point at the thing that is everywhere.",
+    "ifTheyAsk": [
+      {
+        "q": "What does that last sentence mean?",
+        "a": "In Sanskrit it is _tat tvam asi_ — that you are. It is one of the most argued-over sentences in Indian philosophy, and whole schools disagree with each other about it, politely and for centuries. So if it does not resolve neatly at bedtime, that is not you missing something. The story deliberately leaves you holding it."
+      },
+      {
+        "q": "Where did the salt actually go?",
+        "a": "It broke apart into pieces far too small to see and spread evenly through the water — which is exactly what the story is counting on. Uddālaka is not making a claim about chemistry; he picked the one substance a child could taste in every part of the bowl and could not pick out of any part of it. If you want to do it at the table tonight, it works."
+      },
+      {
+        "q": "Was Śvetaketu stupid?",
+        "a": "Not at all, and it is worth defending him. He had genuinely learned a great deal and the story never says otherwise. What he had not done was ask whether there was a kind of question his teachers were not asking. And notice what he does the moment he is caught out — he does not argue, he asks to be taught. That is the sign of somebody who is actually good at learning."
+      }
+    ]
+  }
+}

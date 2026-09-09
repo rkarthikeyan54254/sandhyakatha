@@ -1111,5 +1111,142 @@
    "Bhikshatanar",
    "Pitchadanar"
   ]
+ },
+ "Vālmīki": {
+  "id": "valmiki",
+  "native": {
+   "deva": "वाल्मीकि",
+   "taml": "வால்மீகி"
+  },
+  "say": "vaal-MEE-kee",
+  "ipa": "ʋaːlˈmiː.ki",
+  "kind": "person",
+  "gloss": "The sage who wrote the Rāmāyaṇa. The first poem in the language came out of him by accident, while he was upset about a bird.",
+  "aliases": [
+   "Valmiki"
+  ]
+ },
+ "Lakṣmī": {
+  "id": "lakshmi",
+  "native": {
+   "deva": "लक्ष्मी",
+   "taml": "லட்சுமி"
+  },
+  "say": "LUCK-shmee",
+  "ipa": "ˈlɐkʂ.miː",
+  "kind": "being",
+  "gloss": "Good fortune itself, in person. She is not owned by anyone, which is the part people forget until she leaves.",
+  "aliases": [
+   "Lakshmi",
+   "Laxmi",
+   "Lakshmy",
+   "Sri",
+   "Shri"
+  ]
+ },
+ "Sarasvatī": {
+  "id": "sarasvati",
+  "native": {
+   "deva": "सरस्वती",
+   "taml": "சரஸ்வதி"
+  },
+  "say": "suh-RUS-vuh-tee",
+  "ipa": "sɐˈrɐs.ʋɐ.tiː",
+  "kind": "being",
+  "gloss": "Speech, learning and music. The last three nights of Navarātri are hers, which is why books and instruments are put in front of her then.",
+  "aliases": [
+   "Saraswati",
+   "Saraswathi",
+   "Sarasvathi"
+  ]
+ },
+ "Brahmā": {
+  "id": "brahma",
+  "native": {
+   "deva": "ब्रह्मा",
+   "taml": "பிரம்மா"
+  },
+  "say": "BRUH-maa",
+  "ipa": "ˈbrɐh.maː",
+  "kind": "being",
+  "gloss": "The one who makes things. In these stories he mostly turns up to tell someone what they have just done.",
+  "aliases": [
+   "Brahma"
+  ]
+ },
+ "Jābālā": {
+  "id": "jabala",
+  "native": {
+   "deva": "जाबाला"
+  },
+  "say": "JAA-baa-laa",
+  "ipa": "ˈdʒaː.baː.laː",
+  "kind": "person",
+  "gloss": "Satyakāma's mother, who answers a hard question about her own life plainly and tells her son to say exactly that.",
+  "aliases": [
+   "Jabala"
+  ]
+ },
+ "Himavat": {
+  "id": "himavat",
+  "native": {
+   "deva": "हिमवत्",
+   "taml": "இமவான்"
+  },
+  "say": "HIH-muh-vut",
+  "ipa": "ˈɦɪ.mɐ.ʋɐt",
+  "kind": "person",
+  "gloss": "The Himālaya, as a person, and Pārvatī's father. When a mountain tells you to sit down and be sensible, it is him.",
+  "aliases": [
+   "Himavan",
+   "Himavaan",
+   "Parvataraja"
+  ]
+ },
+ "Durvāsas": {
+  "id": "durvasas",
+  "native": {
+   "deva": "दुर्वासस्",
+   "taml": "துர்வாசர்"
+  },
+  "say": "door-VAA-sus",
+  "ipa": "dʊrˈʋaː.sɐs",
+  "kind": "person",
+  "gloss": "A sage with a famous temper. Almost every story he is in turns on someone not paying attention to him for one second.",
+  "aliases": [
+   "Durvasa",
+   "Durvasas",
+   "Durvasar"
+  ]
+ },
+ "krauñca": {
+  "id": "kraunca",
+  "native": {
+   "deva": "क्रौञ्च"
+  },
+  "say": "KROWN-chuh",
+  "ipa": "ˈkrɐʊɲ.tɕɐ",
+  "kind": "word",
+  "gloss": "A large water bird — usually translated curlew or heron. A pair of them are the reason the Rāmāyaṇa exists.",
+  "aliases": [
+   "kraunca",
+   "krauncha",
+   "kraunch"
+  ]
+ },
+ "Hāridrumata": {
+  "id": "haridrumata",
+  "native": {
+   "deva": "हारिद्रुमत"
+  },
+  "say": "HAA-ri-droo-muh-tuh",
+  "ipa": "ˈɦaː.ri.drʊ.mɐ.tɐ",
+  "kind": "person",
+  "gloss": "The teacher Satyakāma walks to. Also called Gautama — a different Gautama from the Buddha, who came much later.",
+  "aliases": [
+   "Haridrumata",
+   "Haridrumata Gautama",
+   "Gautama"
+  ]
  }
 }

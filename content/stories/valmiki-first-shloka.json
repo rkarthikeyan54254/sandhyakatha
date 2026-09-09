@@ -1,0 +1,295 @@
+{
+  "id": "valmiki-first-shloka",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "The First Poem Was an Accident",
+  "tease": "A man walks to the river to bathe. He comes back with the first line of poetry anyone in that language had ever made, and he did not mean to make it.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Bāla Kāṇḍa, sarga 2",
+    "stability": "stable",
+    "traditionNote": "This is how the Rāmāyaṇa introduces itself — the poem explaining where it came from, before it begins. It sits the same way in every recension, and the four lines Vālmīki says are quoted in full rather than described.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa — Baroda critical edition, Bāla Kāṇḍa",
+      "Goldman trans., Princeton Library of Asian Translations, vol. 1"
+    ],
+    "sourcing": [
+      {
+        "claim": "Vālmīki goes to the Tamasā river to bathe, with a disciple",
+        "locus": "Bāla Kāṇḍa 2"
+      },
+      {
+        "claim": "He sees a pair of krauñca birds, absorbed in each other",
+        "locus": "ibid."
+      },
+      {
+        "claim": "A hunter kills the male; the female cries piteously over him",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Vālmīki, overcome, curses the hunter — that he shall never find rest",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He then notices the curse came out in four equal quarters, fit to be sung to a lyre",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He names it śloka because it arose from śoka, grief",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Brahmā appears and tells him to compose the whole story of Rāma in that metre",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Brahmā promises that nothing he says in it will be untrue",
+        "locus": "ibid."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "death",
+      "loss"
+    ],
+    "careNote": "A bird is shot with an arrow and dies, and its mate calls over the body — that grief is the centre of the story, not an incident on the way to something else. Nothing is gruesome and the killing takes one line. The bird is not avenged and is not mentioned again, which children sometimes want to talk about."
+  },
+  "values": [
+    "grief that turns into something",
+    "a first word nobody had"
+  ],
+  "themes": [
+    "sarasvati",
+    "navaratri",
+    "poetry",
+    "where the stories come from"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Vālmīki",
+      "role": "lead"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "present"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 359,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The first poem in that language happened by accident, to a man who was not trying to write one."
+        },
+        {
+          "t": "p",
+          "text": "«Vālmīki» went down to the river one morning to bathe. On the bank stood two «krauñca» birds — big water birds, the kind that stand very still and then move all at once. A pair. They were paying attention to nothing except each other."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A hunter shot one of them."
+        },
+        {
+          "t": "p",
+          "text": "One arrow, out of the trees. The male came down onto the sand, still moving, and then not."
+        },
+        {
+          "t": "p",
+          "text": "The female stood over him and made a sound. That is the part the text stays with — not the arrow. Her going round and round the place where he was, calling, not stopping."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Something went through Vālmīki that he did not choose. He was not being wise. He turned to the trees and cursed the hunter: _you will never rest, not for as long as you live, because you killed one of a pair while they were lost in each other._"
+        },
+        {
+          "t": "p",
+          "text": "Then he stopped, because of how it had come out."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It had come out in four parts, each the same length as the others, with a beat in it. You could sing it. He said it again to check, and it was still true."
+        },
+        {
+          "t": "p",
+          "text": "He stood on the riverbank with a dead bird in front of him, saying his own sentence back to himself, completely bewildered, because he had not done any of it on purpose."
+        },
+        {
+          "t": "p",
+          "text": "He named it that afternoon. The word for grief is _śoka_. He called the thing that came out of his grief a _śloka_."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Brahmā» arrived and told him the verse had not been an accident — it had been put into his mouth — and that he was now to tell the whole life of «Rāma» in it."
+        },
+        {
+          "t": "p",
+          "text": "And he did. Twenty-four thousand verses, every one of them in the shape that arrived on the riverbank that morning."
+        },
+        {
+          "t": "slow",
+          "text": "The first line of poetry in that language was not made for a king or a god. It was shouted at a hunter, over a bird, by a man who could not keep it in."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 657,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "This is the story of how the first poem happened. It happened by accident, to a man who was not trying to write one."
+        },
+        {
+          "t": "p",
+          "text": "«Vālmīki» went down to the river in the morning to bathe, with a student behind him carrying the clothes. It was an ordinary morning. Nothing about it was supposed to be important."
+        },
+        {
+          "t": "p",
+          "text": "On the bank were two «krauñca» birds. Big water birds, long-legged, the kind that stand completely still and then move all at once. A pair of them, who had been together a long time, paying attention to nothing in the world except each other."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A hunter shot one of them."
+        },
+        {
+          "t": "p",
+          "text": "One arrow, out of the trees. The male came down onto the sand with the arrow through him, and he was still moving, and then he was not."
+        },
+        {
+          "t": "p",
+          "text": "And the female stood over him and made a sound."
+        },
+        {
+          "t": "p",
+          "text": "That is the part the text spends its time on. Not the arrow, which takes half a line. The sound she made — going round and round the place where he lay, calling, in a voice the poem calls pitiable, over and over, not stopping."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki heard it, and something went through him that he did not choose."
+        },
+        {
+          "t": "p",
+          "text": "He was not calm. He was not being wise about it. He turned towards the trees and he cursed the hunter — that he would never find rest, not for as long as he lived, because he had killed one of a pair while the two of them were lost in each other."
+        },
+        {
+          "t": "p",
+          "text": "Then he stopped, because of the way it had come out of him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It had come out in four parts. Each part the same length as the others. There was a beat running through it, and you could have set it to a string instrument and sung it, and it would have fitted."
+        },
+        {
+          "t": "p",
+          "text": "He said it again to check. It was still true."
+        },
+        {
+          "t": "p",
+          "text": "So he stood on the riverbank with a dead bird in front of him and a hunter somewhere in the trees, saying his own sentence back to himself, completely bewildered, because he had not done any of it on purpose."
+        },
+        {
+          "t": "p",
+          "text": "It would not leave him after that. He walked home still saying it. He would begin doing something else and find the sentence still going underneath. He said it to his students, who did not know what to make of it. He said it into the fire while he was building it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He gave it a name that afternoon, and the name is a joke that is not a joke. The word for grief is _śoka_. He called the thing that had come out of his grief a _śloka_."
+        },
+        {
+          "t": "p",
+          "text": "Then «Brahmā» arrived, which in these stories usually means somebody is about to be told what they have just done."
+        },
+        {
+          "t": "p",
+          "text": "He told Vālmīki the verse had not been an accident at all — that it had been put into his mouth — and that he was now to tell the whole life of «Rāma» in it. All of it. Everything Rāma did, and everything that was done to him."
+        },
+        {
+          "t": "p",
+          "text": "And one more thing, which is the strangest promise in the book: _nothing you say in it will be untrue._ Not because Vālmīki would be careful. Because he would be shown."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He did it. Twenty-four thousand verses, every one of them in the shape that had arrived on the riverbank that morning — four parts, same length, a beat you could sing to."
+        },
+        {
+          "t": "p",
+          "text": "The bird does not come back later in the book. Nothing is made better for her, and the hunter is not followed. She got the first four lines of the first poem, and then the poem went away to be about somebody else."
+        },
+        {
+          "t": "slow",
+          "text": "The first line of poetry in that language was not made for a king or a god. It was shouted at a hunter, over a bird, by a man who could not keep it in."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "satyakama-truth",
+    "reason": "another night of Sarasvatī's three, and another person who says the true thing before he has worked out what it costs"
+  },
+  "close": {
+    "question": "He was too upset to talk properly, and what came out was the first poem anyone had made. What do you do when you are too upset to say things properly?",
+    "seed": "Sometimes the thing you cannot keep in is the thing worth keeping.",
+    "ifTheyAsk": [
+      {
+        "q": "What were the actual words?",
+        "a": "In Sanskrit the first line is _mā niṣāda pratiṣṭhāṃ tvam agamaḥ śāśvatīḥ samāḥ_ — roughly, hunter, may you never come to rest through all the endless years. Then it says why: because you killed one of a pair of krauñcas while they were lost in love. It is worth reading out loud even if you do not know the language, because the whole point of the story is the shape of it, and you can hear the shape."
+      },
+      {
+        "q": "Was the hunter punished?",
+        "a": "The curse is the whole of it. The poem never goes back to him, never says what happened to him, never gives him a name beyond his trade. It is honest to say to a child that this story is not interested in punishing anybody — it is interested in what came out of Vālmīki's mouth, and the hunter is only there to make it happen."
+      },
+      {
+        "q": "Why is it called a śloka?",
+        "a": "Because of the grief. Śoka is grief; śloka is the verse. The Rāmāyaṇa makes that pun about itself, on purpose, in its second chapter — the whole poem is named after the feeling that produced its first line. Sanskrit poetry has thousands of ślokas after this one, and every one of them is called that because of a bird on a riverbank."
+      }
+    ]
+  }
+}

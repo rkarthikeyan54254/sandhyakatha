@@ -1,0 +1,303 @@
+{
+  "id": "satyakama-truth",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-09",
+  "title": "Satyakāma Says the Hard Thing",
+  "tease": "A boy is asked his family name at the school gate, and has to say the one thing he was hoping not to.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Chāndogya Upaniṣad",
+    "locus": "4.4–4.9",
+    "stability": "stable",
+    "traditionNote": "One of the oldest teaching stories in the language, and it is told the same way everywhere. The exchange at the gate is quoted rather than summarised, which is why the mother's answer has survived word for word for something like three thousand years.",
+    "checkedAgainst": [
+      "Chāndogya Upaniṣad — Olivelle, 'Upaniṣads', Oxford World's Classics",
+      "Chāndogya Upaniṣad with Śaṅkara's commentary — Gambhirananda trans."
+    ],
+    "sourcing": [
+      {
+        "claim": "Satyakāma wants to become a student and asks his mother for his family line",
+        "locus": "Chāndogya 4.4.1"
+      },
+      {
+        "claim": "Jābālā says she does not know it; she had him in her youth while moving about a great deal as a servant",
+        "locus": "Chāndogya 4.4.2"
+      },
+      {
+        "claim": "She tells him to give his name as Satyakāma Jābāla — after her",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He repeats her answer to Hāridrumata Gautama exactly, including that she does not know",
+        "locus": "Chāndogya 4.4.3–4"
+      },
+      {
+        "claim": "The teacher accepts him for not departing from the truth",
+        "locus": "Chāndogya 4.4.5"
+      },
+      {
+        "claim": "He is given four hundred thin cows and sent away; he vows not to return until they are a thousand",
+        "locus": "Chāndogya 4.4.5"
+      },
+      {
+        "claim": "A bull, a fire, a haṃsa and a water bird each teach him a quarter of brahman",
+        "locus": "Chāndogya 4.5–4.8"
+      },
+      {
+        "claim": "The teacher sees his face and says he shines like one who knows; Satyakāma asks to be taught anyway",
+        "locus": "Chāndogya 4.9"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "social-hierarchy"
+    ],
+    "careNote": "His mother says plainly that she does not know who his father was, and the story treats it as fact, not shame. If your child has not met that idea, this is where they will — in one sentence — and they may ask. The story's world also gates schooling by birth; the teacher makes an exception, not an end to it."
+  },
+  "values": [
+    "saying the thing you dreaded saying",
+    "honesty as the only qualification"
+  ],
+  "themes": [
+    "sarasvati",
+    "navaratri",
+    "learning",
+    "truth"
+  ],
+  "calendar": {
+    "festivals": [
+      "navaratri"
+    ],
+    "months": [
+      "ashvina"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Satyakāma",
+      "role": "lead"
+    },
+    {
+      "ref": "Jābālā",
+      "role": "present"
+    },
+    {
+      "ref": "Hāridrumata",
+      "role": "present"
+    },
+    {
+      "ref": "Agni",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 329,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Satyakāma» wanted to go and study, and he knew what the first question at the gate would be. Not what he could do. Whose son he was."
+        },
+        {
+          "t": "p",
+          "text": "So he asked his mother."
+        },
+        {
+          "t": "p",
+          "text": "«Jābālā» did not soften it. She said: _I do not know. I had you when I was young, and I moved about a great deal in those days, working in other people's houses. I am Jābālā. You are Satyakāma. Say you are Satyakāma Jābāla — say you are mine._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He walked to the teacher's house carrying that answer the whole way."
+        },
+        {
+          "t": "p",
+          "text": "«Hāridrumata» asked the question. And Satyakāma said it — all of it, including the part where his mother did not know, in her words, without making anything up."
+        },
+        {
+          "t": "p",
+          "text": "The teacher looked at him and said: _no one who was not a brāhmaṇa could have spoken like that. Fetch the firewood. I will take you._"
+        },
+        {
+          "t": "p",
+          "text": "The thing he had been dreading saying was the thing that got him in."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he was handed four hundred thin cows and told to look after them. He said he would not come back until there were a thousand."
+        },
+        {
+          "t": "p",
+          "text": "It took years. Nobody taught him anything. He was alone with cattle."
+        },
+        {
+          "t": "p",
+          "text": "And then a bull spoke to him. And later a fire. And later two birds. Each of them gave him one quarter of the thing he had gone there to learn, and by the time the herd was a thousand, he had all four."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When he finally came back, the teacher looked up and said, before Satyakāma had spoken at all: _you are shining like a man who knows. Who has been teaching you?_"
+        },
+        {
+          "t": "p",
+          "text": "Satyakāma said: not people."
+        },
+        {
+          "t": "p",
+          "text": "And then he asked to be taught it again anyway, by a person, because he had heard that what you learn from a teacher is the kind that holds."
+        },
+        {
+          "t": "slow",
+          "text": "He had been dreading one sentence the whole way there. It turned out to be the only thing the teacher needed to hear."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 618,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Satyakāma» wanted to go and study."
+        },
+        {
+          "t": "p",
+          "text": "And he knew what would happen at the gate, because it happened to everyone. The teacher would ask one question first, before anything else, and it was not what you could do or what you wanted. It was whose son you were. What line you came from."
+        },
+        {
+          "t": "p",
+          "text": "So he went and asked his mother, which is the part of this story I would slow down for."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Jābālā» did not soften it and she did not apologise for it."
+        },
+        {
+          "t": "p",
+          "text": "She said: _I do not know. I had you when I was young, and I moved about a great deal in those days, working in other people's houses, and I did not come to know it. I am Jābālā. You are Satyakāma. So say you are Satyakāma Jābāla — say you are mine._"
+        },
+        {
+          "t": "p",
+          "text": "There is no scene after that. No arguing, no crying, nobody telling him it will be all right. He is simply told the true thing and sent off with it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He walked to «Hāridrumata»'s house carrying that answer the whole way, which is a long walk when you already know how the conversation ends."
+        },
+        {
+          "t": "p",
+          "text": "He could have said anything. Nobody at the other end knew his village. A made-up family name would have been believed, and there would have been no way of checking it, and he would have been admitted the ordinary way like everybody else."
+        },
+        {
+          "t": "p",
+          "text": "The teacher asked. And Satyakāma said it."
+        },
+        {
+          "t": "p",
+          "text": "All of it, in her words. That he had asked. That she had said she did not know. That she had been young and had moved about a great deal. That she was Jābālā and he was Satyakāma and so he was Satyakāma Jābāla."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And Hāridrumata looked at him and said: _nobody who was not a brāhmaṇa could have spoken like that. Fetch the firewood. I will take you._"
+        },
+        {
+          "t": "p",
+          "text": "Which is a strange sentence, and worth stopping on. He does not say _it does not matter._ He says the boy has just proved the thing the question was supposed to be testing for, and proved it better than a name could have."
+        },
+        {
+          "t": "p",
+          "text": "Then he handed him four hundred cows — thin ones, weak ones, the poor end of the herd — and said: look after these."
+        },
+        {
+          "t": "p",
+          "text": "Satyakāma said he would not come back until there were a thousand of them."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This is the part that gets skipped, and it is years long."
+        },
+        {
+          "t": "p",
+          "text": "He was not taught anything. He was given no lessons, no books, no recitation. He was sent away with animals and left there, in the forest, for as long as it took four hundred thin cows to become a thousand good ones — which is not a thing you can hurry."
+        },
+        {
+          "t": "p",
+          "text": "And out there, one at a time, four things taught him."
+        },
+        {
+          "t": "p",
+          "text": "A bull spoke to him first. Then a fire. Then a large white bird, and then a bird that dives. Each one gave him a quarter of the thing he had walked all that way to learn, and by the time the herd was a thousand he had the whole of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He came back. And the teacher looked up at him and said, before Satyakāma had said anything at all: _you are shining like a man who knows. Who has been teaching you?_"
+        },
+        {
+          "t": "p",
+          "text": "Satyakāma said: not people."
+        },
+        {
+          "t": "p",
+          "text": "And then — and this is the last thing he does in the story — he asked to be taught it again anyway, by a person, because he had heard that what you learn from a teacher is the kind that holds."
+        },
+        {
+          "t": "slow",
+          "text": "He had been dreading one sentence the whole way there. It turned out to be the only thing the teacher needed to hear."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "svetaketu-salt",
+    "reason": "the next of Sarasvatī's nights, and a boy who comes home from school certain he has learned everything"
+  },
+  "close": {
+    "question": "He could have made up a family name at the gate and nobody would ever have found out. Why do you think he didn't?",
+    "seed": "Saying you do not know is still telling the truth.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did the teacher care who his father was?",
+        "a": "Because in that world teaching was fenced by birth, and the question at the gate was the fence. It is worth being straight about that rather than pretending it was a friendly enquiry. What the story does is put a boy in front of the fence who cannot answer it, and then have the teacher decide he belongs on the inside because of how he handled not being able to. It does not tear the fence down. It makes one very loud exception, and it has been remembered for three thousand years."
+      },
+      {
+        "q": "Did a bull really talk?",
+        "a": "The Upaniṣads do this often — a fire, an animal, a bird turns out to know something, and a person has to be quiet enough to hear it. Whether that happened the way a thing happens on a Tuesday is a question your family can answer for itself. What the story is certainly saying is that he learned it alone, from the world, without a school, and that this counted."
+      },
+      {
+        "q": "If he already knew it, why ask to be taught again?",
+        "a": "He says so himself: what you learn from a teacher is the kind that stays. It is a surprising ending — he has just been taught by a bull and a fire and does not treat that as better than a person, only different. Coming from the boy who was nearly turned away at the gate, it is also rather generous."
+      }
+    ]
+  }
+}

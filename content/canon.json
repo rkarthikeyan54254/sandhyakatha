@@ -515,8 +515,10 @@
       "sensitivity": [],
       "value": "the invisible thing that is everywhere",
       "hook": "His father hands him a lump of salt and a bowl of water, and asks him to bring the salt back in the morning.",
-      "festivals": [],
-      "status": "draft",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -551,10 +553,12 @@
       "sensitivity": [
         "social-hierarchy"
       ],
-      "value": "honesty as the only qualification",
+      "value": "saying the thing you dreaded saying",
       "hook": "A boy is asked his family name at the school gate, and has to say the one thing he was hoping not to.",
-      "festivals": [],
-      "status": "draft",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -1505,6 +1509,29 @@
       "festivals": [],
       "status": "draft",
       "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 78,
+      "id": "valmiki-first-shloka",
+      "title": "The First Poem Was an Accident",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Bāla Kāṇḍa, sarga 2",
+      "stability": "stable",
+      "minAge": 8,
+      "sensitivity": [
+        "death",
+        "loss"
+      ],
+      "value": "grief that turns into something",
+      "hook": "A man walks to the river to bathe and comes back with the first line of poetry anyone in that language had made. He did not mean to make it.",
+      "festivals": [
+        "navaratri"
+      ],
+      "status": "in-review",
+      "wave": 5,
       "gated": false
     }
   ]

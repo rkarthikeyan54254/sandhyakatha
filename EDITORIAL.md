@@ -60,8 +60,12 @@ them. That is the entire trust proposition, and it is worth more than the story.
   telling with its own turn and its own last line — not the long one with
   paragraphs deleted.
 - **Target lengths.** A parent reading slowly to a child runs about 110 words a
-  minute, and each printed beat is a real silence. So `short` is 330–390 words
-  (3 minutes) and `full` is 650–720 words (6 minutes). The validator recomputes
+  minute, and each printed beat is a real silence. Working backwards from the
+  validator's own arithmetic — `words/110 + beats × 0.05`, rounded — the bands
+  that actually produce the labels we print are **`short` 300–360 words
+  (3 minutes)** and **`full` 650–690 words (6 minutes)**. The older numbers
+  here said 330–390 and 650–720; both top ends round up to the next minute, and
+  the public story page promises "the three-minute telling". The validator recomputes
   `minutes` from the actual text and will not let a label lie — if your full
   telling comes out at 4 minutes, the telling is short, not the label wrong.
   **The whole product promises six minutes. A `full` rendition that does not
