@@ -14,8 +14,8 @@
     "stability": "variant",
     "traditionNote": "Tellings differ on Śabarī's background. The berry-tasting is constant; the frame around it shifts. We tell the version where Lakṣmaṇa hesitates and Rāma does not.",
     "checkedAgainst": [
-      "Vālmīki Rāmāyaṇa, Araṇya Kāṇḍa — Critical Edition, Baroda, Sarga 73–74",
-      "Rāmcaritmānas, Araṇya Kāṇḍ — Tulsidas (for the bhakti framing)"
+      "Vālmīki Rāmāyaṇa, Araṇya Kāṇḍa — Critical Edition, Baroda, Sarga 73–74 (for Śabarī's ashram, welcome, liberation)",
+      "Rāmcaritmānas, Araṇya Kāṇḍ — Tulsidas (for the berry-tasting episode)"
     ],
     "variants": [
       {
@@ -28,32 +28,28 @@
     "reviewedOn": "2026-09-10",
     "sourcing": [
       {
-        "claim": "Rāma and Lakṣmaṇa are in the forest during exile",
-        "locus": "Vālmīki, Araṇya Kāṇḍa 73.1–5"
-      },
-      {
-        "claim": "They meet Śabarī at her ashram",
+        "claim": "Rāma and Lakṣmaṇa reach Pampā and Matanga hermitage",
         "locus": "Vālmīki, Araṇya Kāṇḍa 73.6–10"
       },
       {
-        "claim": "Śabarī offers tasted berries to Rāma",
-        "locus": "Vālmīki, Araṇya Kāṇḍa 73.11–18"
+        "claim": "Kabandha directs them to Śabarī and Sugrīva",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.11–25"
       },
       {
-        "claim": "Lakṣmaṇa hesitates at her touch/caste",
-        "locus": "Vālmīki, Araṇya Kāṇḍa 73.19–22"
+        "claim": "Śabarī welcomes them, washes feet, shows sacred places of the sages",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 74.1–15"
       },
       {
-        "claim": "Rāma accepts and eats the berries",
-        "locus": "Vālmīki, Araṇya Kāṇḍa 73.23–28"
+        "claim": "Śabarī asks permission to leave her body; enters fire, attains liberation",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 74.16–35"
       },
       {
-        "claim": "Śabarī's backstory as hunter's daughter given to sage",
-        "locus": "Vālmīki, Araṇya Kāṇḍa 73.29–74.5"
+        "claim": "Śabarī tastes berries before offering them to Rāma",
+        "locus": "NOT IN VĀLMĪKI — Rāmcaritmānas, Araṇya Kāṇḍ and later devotional retellings"
       },
       {
-        "claim": "Śabarī dies after Rāma's visit",
-        "locus": "Vālmīki, Araṇya Kāṇḍa 74.6–12"
+        "claim": "Lakṣmaṇa hesitates at the tasted berries; Rāma accepts",
+        "locus": "NOT IN VĀLMĪKI — later tradition framing"
       }
     ]
   },
