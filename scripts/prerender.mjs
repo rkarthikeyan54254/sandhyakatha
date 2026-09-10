@@ -49,7 +49,11 @@ function page(s) {
       : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${render(b.text, seen)}</p>`).join('\n');
   const says = [...seen].map(t => `<li><b>${t}</b><span>${esc(lex[t].say)}</span><i>${esc(lex[t].gloss)}</i></li>`).join('');
   const url = `${SITE}/s/${s.id}/`;
-  const og = existsSync(join(ROOT, `public/og/${s.id}.png`)) ? `${SITE}/og/${s.id}.png` : `${SITE}/og/default.png`;
+  // ?v= carries the story's own version so that revising a story busts the card
+  // caches (WhatsApp especially) that would otherwise serve the old one for weeks.
+  const og = existsSync(join(ROOT, `public/og/${s.id}.png`))
+    ? `${SITE}/og/${s.id}.png?v=${s.version}`
+    : `${SITE}/og/default.png`;
   const desc = `${s.tease} — ${s.source.work}, ${s.source.locus}. Ages ${s.audience.minAge}+.`;
 
   return `<!doctype html>
@@ -83,6 +87,8 @@ body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,syste
 .w{max-width:620px;margin:0 auto;padding:0 22px 70px}
 header{display:flex;align-items:center;gap:10px;padding:22px 0 18px;border-bottom:1px solid var(--line)}
 header a{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+header .mark{display:flex;align-items:center;flex:none}
+header .mark svg{display:block}
 header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px}
 header i{font-family:"Tiro Devanagari Sanskrit",serif;font-style:normal;font-size:11px;color:var(--lamp-dim);display:block}
 h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(30px,7vw,40px);line-height:1.15;margin:26px 0 0;text-wrap:balance}
@@ -134,7 +140,7 @@ aside.note p{font-family:Karla,sans-serif;font-size:14px;line-height:1.6;color:v
 footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
 </style></head>
 <body><div class="w">
-<header><a href="/"><span aria-hidden="true">🪔</span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
+<header><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
 <h1>${esc(s.title)}</h1>
 <div class="attrib">
   <p><b>${esc(s.source.work)}</b> — ${esc(s.source.locus)}</p>
@@ -226,6 +232,8 @@ body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,syste
 .w{max-width:640px;margin:0 auto;padding:0 22px 70px}
 header{display:flex;align-items:center;gap:10px;padding:22px 0 18px;border-bottom:1px solid var(--line)}
 header a{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+header .mark{display:flex;align-items:center;flex:none}
+header .mark svg{display:block}
 header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px;display:block}
 header i{font-style:normal;font-size:10px;letter-spacing:.05em;color:var(--lamp-dim);display:block;margin-top:3px}
 .kick{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700;margin:26px 0 0}
@@ -253,7 +261,7 @@ footer{margin-top:30px;font-size:11.5px;color:var(--muted);line-height:1.7}
 footer a{color:var(--lamp-dim)}
 </style></head>
 <body><div class="w">
-<header><a href="/"><span aria-hidden="true">🪔</span><span><b>Sandhya Katha</b><i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i></span></a></header>
+<header><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i></span></a></header>
 <p class="kick">${esc(f.also ? f.name + ' · ' + f.also : f.name)}</p>
 <h1>${esc(f.name)} stories for children</h1>
 <p class="lede">${esc(f.blurb)}</p>

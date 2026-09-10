@@ -51,7 +51,10 @@ function fitTitle(title) {
 function card(s) {
   const { size, lines } = fitTitle(s.title);
   const tease = wrap(s.tease ?? '', 980, 27, 0.49).slice(0, 2);
-  const r = s.lengths.full ?? s.lengths.short;
+  // The card advertises what /s/ actually serves, and prerender publishes the
+  // SHORT rendition only. Reading lengths.full here promised six minutes on a
+  // page that delivers three.
+  const r = s.lengths.short ?? s.lengths.full;
   const titleTop = 232 - (lines.length - 1) * (size * 0.55);
   const teaseTop = titleTop + lines.length * (size * 1.14) + 34;
 
