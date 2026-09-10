@@ -18,7 +18,11 @@
     "there too, or better, both should read one file."
   ],
 
-  "moveFestival": {},
+  "moveFestival": {
+     "ganesh-chaturthi": { "2026": "2026-09-14" } ,
+     "vijayadashami": { "2026": "2026-09-20" } ,
+     "govardhan-puja": { "2026": "2026-11-09" } 
+  },
 
   "_candidates": {
     "note": "computed -> published. Unverified. Source: panchang.org 2026 festival list, Sep 2026.",

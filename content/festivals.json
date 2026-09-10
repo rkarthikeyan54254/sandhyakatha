@@ -1,64 +1,236 @@
 {
-  "_readme": "Landing pages for the nights people actually search. Each one is generated from this file plus the pañcāṅga table (for the real date) plus canon.json (for the stories tagged to it). Blurbs are written for a parent who typed 'Janmashtami story for kids' into a phone, not for a search engine.",
-  "festivals": {
-    "janmashtami": {
-      "name": "Janmāṣṭamī",
-      "also": "Gokulashtami, Krishna Jayanti",
-      "blurb": "The night Kṛṣṇa was born — in a prison cell, in the rain, with the guards asleep and the river parting for a father carrying a baby in a basket.",
-      "forParents": "Most families keep the children up. A story is the easiest way to hold a small child's attention until midnight, and the boyhood ones are the best in the whole collection."
+ "_readme": "Landing pages for the nights people actually search. Each one is generated from this file plus the pañcāṅga table (for the real date) plus canon.json (for the stories tagged to it). Blurbs are written for a parent who typed 'Janmashtami story for kids' into a phone, not for a search engine.  'plain' is the spelling people actually type; 'names' explains why the festival is called different things in different places; 'faq' is rendered visibly AND as FAQPage schema — the answer must be on the page for the markup to count.",
+ "festivals": {
+  "janmashtami": {
+   "name": "Janmāṣṭamī",
+   "also": "Gokulashtami, Krishna Jayanti",
+   "blurb": "The night Kṛṣṇa was born — in a prison cell, in the rain, with the guards asleep and the river parting for a father carrying a baby in a basket.",
+   "forParents": "Most families keep the children up. A story is the easiest way to hold a small child's attention until midnight, and the boyhood ones are the best in the whole collection.",
+   "plain": "Janmashtami",
+   "names": "Janmāṣṭamī in Sanskrit, Gokulāṣṭamī in much of the south, Kṛṣṇa Jayantī and Śrī Jayantī in Tamil households. The eighth tithi of the dark half — the aṣṭamī of the name — is the same in all of them, though the fast is broken at different hours depending on which reckoning a family follows.",
+   "faq": [
+    {
+     "q": "When is Janmashtami?",
+     "a": "{{dates}} The eighth tithi of the dark half of the month, kept through to midnight."
     },
-    "ganesh-chaturthi": {
-      "name": "Gaṇeśa Caturthī",
-      "also": "Vinayaka Chaturthi, Pillaiyar Chaturthi",
-      "blurb": "Ten days for the elephant-headed son of Śiva and Pārvatī — the one who won a race around the world without leaving the room.",
-      "forParents": "Children take to Gaṇeśa faster than to any other figure in these books. He is clever rather than mighty, and he loses arguments gracefully."
+    {
+     "q": "What story should I read my child on Janmashtami?",
+     "a": "The birth itself is the obvious one — a prison cell, a river that parts, a father carrying a basket. The boyhood stories that follow are the strongest material in the collection for young children."
     },
-    "govardhan-puja": {
-      "name": "Govardhan Pūjā",
-      "also": "Annakūṭ, the day after Diwali",
-      "blurb": "The day the village thanked a hill instead of a god — and a seven-year-old held that hill over their heads for a week while the rain came down.",
-      "forParents": "The story behind the mountain of food. If your child has ever asked why the hill gets the offering, this is the answer."
-    },
-    "mahashivaratri": {
-      "name": "Mahāśivarātri",
-      "also": "the great night of Śiva",
-      "blurb": "The night nobody sleeps. Śiva stories are strange and enormous — a column of fire with no ends, a mountain lifted by a demon who then sang for a thousand years.",
-      "forParents": "A long night to fill. These are the stories that reward being told slowly, to a child who is fighting to stay awake."
-    },
-    "holi": {
-      "name": "Holī",
-      "also": "Holika Dahan, Phalguna Purnima",
-      "blurb": "Before the colours, the fire — and before the fire, a boy who would not stop saying what he believed, in a house where saying it was dangerous.",
-      "forParents": "Prahlāda is one of the few stories where the child is braver than every adult in the room. Worth telling before the colours start."
-    },
-    "hanuman-jayanti": {
-      "name": "Hanumān Jayantī",
-      "blurb": "For the son of the wind — who could cross an ocean, and who once had to be reminded that he could.",
-      "forParents": "The story children ask for again. And the one where Hanumān turns out to be Bhīma's brother, six hundred years and one epic away."
-    },
-    "pitru-paksha": {
-      "name": "Pitṛ Pakṣa",
-      "also": "Mahalaya Paksha",
-      "blurb": "A fortnight for the people who came before — and the story of a boy who carried both his parents across the country on a pole.",
-      "forParents": "Śravaṇa's story is where many children first meet the idea of owing something to a generation they never met. It is tender, and it ends sadly; the page says so before you begin."
-    },
-    "navaratri": {
-      "name": "Navarātri",
-      "also": "Durga Puja, Golu, Dussehra week",
-      "blurb": "Nine nights for the Devī — who was assembled, in a hurry, out of whatever each of the gods had left when none of them could win alone.",
-      "forParents": "The Devī stories are the ones most children's collections skip, and they are the best material in the Purāṇas for a child who is tired of being told to be gentle."
-    },
-    "diwali": {
-      "name": "Dīvālī",
-      "also": "Deepavali, Naraka Chaturdashi",
-      "blurb": "The night a city lit every lamp it owned because it did not know exactly when he was coming, and wanted the road lit whenever he did.",
-      "forParents": "Two stories, depending on where your family is from: Rāma walking home in the north, Naraka's last request in the south. Both are here, and both are worth telling."
-    },
-    "vijayadashami": {
-      "name": "Vijayadaśamī",
-      "also": "Dussehra, Dasara, the tenth day",
-      "blurb": "The tenth morning, when it is over. Heaven is empty again and the gods go up and find their weapons where they left them — which is the part of the nine nights nobody tells.",
-      "forParents": "Children usually meet this day as the one where an effigy burns. It is worth telling them the other tenth day too: the one at the end of the Devī's nine nights, where the story ends not with a victory speech but with everybody quietly getting their things back."
+    {
+     "q": "How do I keep a small child awake until midnight?",
+     "a": "A story is easier than anything else, and one that runs six minutes at a time can be spaced across the evening rather than spent at once."
     }
+   ]
+  },
+  "ganesh-chaturthi": {
+   "name": "Gaṇeśa Caturthī",
+   "also": "Vinayaka Chaturthi, Pillaiyar Chaturthi",
+   "blurb": "Ten days for the elephant-headed son of Śiva and Pārvatī — the one who won a race around the world without leaving the room.",
+   "forParents": "Children take to Gaṇeśa faster than to any other figure in these books. He is clever rather than mighty, and he loses arguments gracefully.",
+   "plain": "Ganesh Chaturthi",
+   "names": "Vināyaka Caturthī in Tamil Nadu, Piḷḷaiyār Caturthī in many Tamil households, Gaṇeśa Caturthī across much of the country, and Gaṇeśotsava in Maharashtra, where the ten-day public form began in the 1890s. All of them are the same day: the fourth tithi of the bright half of Bhādrapada. If you grew up calling it one thing and your neighbours called it another, you were both right.",
+   "faq": [
+    {
+     "q": "When is Ganesh Chaturthi?",
+     "a": "{{dates}} These are computed from the pañcāṅga rather than copied from a list, so they hold for the years shown."
+    },
+    {
+     "q": "Why do some people call it Vinayaka Chaturthi and others Ganesh Chaturthi?",
+     "a": "They are the same festival. Vināyaka and Piḷḷaiyār are the names used in Tamil Nadu; Gaṇeśa is the more widely used Sanskrit name; Gaṇeśotsava refers to the ten-day public celebration that began in Maharashtra. The day itself — the fourth tithi of śukla pakṣa in Bhādrapada — does not change."
+    },
+    {
+     "q": "What story should I read my child on Ganesh Chaturthi?",
+     "a": "The race for the mango, in which Gaṇeśa wins without leaving the room. It runs about three minutes read aloud, suits ages four and up, and ends by asking the child whether he won fairly — which is usually a better conversation than the story."
+    },
+    {
+     "q": "Who is the elder brother, Ganesha or Kartikeya?",
+     "a": "It depends on the telling, and this is a real difference rather than a confusion. Northern tellings generally make Kārttikeya the elder; Tamil tradition makes Gaṇeśa the elder, which is part of why Vināyaka is worshipped first. We tell the Tamil shape and list the differences rather than smoothing them over."
+    }
+   ]
+  },
+  "govardhan-puja": {
+   "name": "Govardhan Pūjā",
+   "also": "Annakūṭ, the day after Diwali",
+   "blurb": "The day the village thanked a hill instead of a god — and a seven-year-old held that hill over their heads for a week while the rain came down.",
+   "forParents": "The story behind the mountain of food. If your child has ever asked why the hill gets the offering, this is the answer.",
+   "plain": "Govardhan Puja",
+   "names": "Govardhan Pūjā and Annakūṭ name the same day — the second name meaning the mountain of food built to stand for the hill. It falls the day after Dīvālī in the north; in Gujarat the same morning opens the new year.",
+   "faq": [
+    {
+     "q": "When is Govardhan Puja?",
+     "a": "{{dates}} The day after Dīvālī."
+    },
+    {
+     "q": "Why is a hill worshipped instead of a god?",
+     "a": "That is the story. A village was persuaded to thank the hill that actually fed its cattle rather than the god who was owed the offering by custom — and then had to be sheltered when the rain came for it."
+    },
+    {
+     "q": "Why is the food piled into a mountain?",
+     "a": "The Annakūṭ is the hill, rebuilt in food. If a child has ever asked why the pile is shaped that way, the story is the answer."
+    }
+   ]
+  },
+  "mahashivaratri": {
+   "name": "Mahāśivarātri",
+   "also": "the great night of Śiva",
+   "blurb": "The night nobody sleeps. Śiva stories are strange and enormous — a column of fire with no ends, a mountain lifted by a demon who then sang for a thousand years.",
+   "forParents": "A long night to fill. These are the stories that reward being told slowly, to a child who is fighting to stay awake.",
+   "plain": "Maha Shivaratri",
+   "names": "Mahāśivarātri is the great night of Śiva, on the fourteenth tithi of the dark half of Phālguna or Māgha depending on whether a family keeps amānta or pūrṇimānta months. The same night is Śivarātri without the mahā every month; the annual one is the one people mean.",
+   "faq": [
+    {
+     "q": "When is Maha Shivaratri?",
+     "a": "{{dates}} Kept as a night rather than a day — the vigil is the observance."
+    },
+    {
+     "q": "What stories suit the night vigil?",
+     "a": "The Śiva material is strange and large — a column of fire with no top or bottom, a mountain lifted by someone who then sang for a thousand years. These are stories that reward being told slowly to a child fighting sleep."
+    },
+    {
+     "q": "Why does nobody sleep on Shivaratri?",
+     "a": "The observance is the waking itself. For children the practical version is a long evening to fill, which is what the stories are for."
+    }
+   ]
+  },
+  "holi": {
+   "name": "Holī",
+   "also": "Holika Dahan, Phalguna Purnima",
+   "blurb": "Before the colours, the fire — and before the fire, a boy who would not stop saying what he believed, in a house where saying it was dangerous.",
+   "forParents": "Prahlāda is one of the few stories where the child is braver than every adult in the room. Worth telling before the colours start.",
+   "plain": "Holi",
+   "names": "The fire the night before is Holikā Dahan; the colours the next day are Holī or Raṅgvālī Holī. The whole falls on Phālguna Pūrṇimā. In parts of the south the same full moon is kept as Kāmadahana, which tells a different story for the same fire.",
+   "faq": [
+    {
+     "q": "When is Holi?",
+     "a": "{{dates}} The fire is lit the night before, on Holikā Dahan."
+    },
+    {
+     "q": "What is the story behind Holi?",
+     "a": "Prahlāda — a boy who kept saying what he believed in a house where saying it was dangerous, and the aunt who walked into the fire holding him. It is one of the few stories in which the child is braver than every adult present."
+    },
+    {
+     "q": "Is Holi a good story for young children?",
+     "a": "The Prahlāda story carries a fire and a threat to a child, so it reads better from about age six, and the page says so before you begin rather than after."
+    }
+   ]
+  },
+  "hanuman-jayanti": {
+   "name": "Hanumān Jayantī",
+   "blurb": "For the son of the wind — who could cross an ocean, and who once had to be reminded that he could.",
+   "forParents": "The story children ask for again. And the one where Hanumān turns out to be Bhīma's brother, six hundred years and one epic away.",
+   "plain": "Hanuman Jayanti",
+   "names": "This one is genuinely on different dates in different places. Much of the north keeps Hanumān Jayantī on Caitra Pūrṇimā, in spring. Tamil Nadu and Kerala keep Hanumath Jayantī in Mārgaḻi, around December and January, on Mūla nakṣatra. Neither is a mistake — they are separate reckonings of the same birth, and a family that has moved between regions may well keep both.",
+   "faq": [
+    {
+     "q": "When is Hanuman Jayanti?",
+     "a": "{{dates}} Note that the date differs by region — Caitra Pūrṇimā in much of the north, and Mārgaḻi on Mūla nakṣatra in Tamil Nadu and Kerala."
+    },
+    {
+     "q": "Why do north and south celebrate Hanuman Jayanti on different dates?",
+     "a": "Because they follow different reckonings of the birth, both long established. It is one of the clearer cases where two traditions simply differ and neither has displaced the other."
+    },
+    {
+     "q": "What story should I read my child?",
+     "a": "The one where the strongest figure on the beach is sitting down because he has genuinely forgotten what he can do, and has to be reminded. Children ask for it again."
+    }
+   ]
+  },
+  "pitru-paksha": {
+   "name": "Pitṛ Pakṣa",
+   "also": "Mahalaya Paksha",
+   "blurb": "A fortnight for the people who came before — and the story of a boy who carried both his parents across the country on a pole.",
+   "forParents": "Śravaṇa's story is where many children first meet the idea of owing something to a generation they never met. It is tender, and it ends sadly; the page says so before you begin.",
+   "plain": "Pitru Paksha",
+   "names": "Pitṛ Pakṣa is the fortnight; Mahālaya Pakṣa is the same fortnight in the south, and Mahālaya Amāvāsyā the day it closes. In Bengal that closing day opens the Durgā Pūjā season, so the fortnight for the dead runs straight into the nine nights.",
+   "faq": [
+    {
+     "q": "When is Pitru Paksha?",
+     "a": "{{dates}} A fortnight, closing on Mahālaya Amāvāsyā."
+    },
+    {
+     "q": "Is this a suitable subject for a child?",
+     "a": "Śravaṇa's story is where many children first meet the idea of owing something to a generation they never met. It is tender and it ends sadly, and the page says so before you begin rather than leaving you to find out mid-sentence."
+    },
+    {
+     "q": "What is the fortnight for?",
+     "a": "Remembering the people who came before — parents, grandparents, the ones further back whose names a family may no longer have. The story attached to it carries a son who literally carried his parents."
+    }
+   ]
+  },
+  "navaratri": {
+   "name": "Navarātri",
+   "also": "Durga Puja, Golu, Dussehra week",
+   "blurb": "Nine nights for the Devī — who was assembled, in a hurry, out of whatever each of the gods had left when none of them could win alone.",
+   "forParents": "The Devī stories are the ones most children's collections skip, and they are the best material in the Purāṇas for a child who is tired of being told to be gentle.",
+   "plain": "Navratri",
+   "names": "Navarātri is nine nights, but they are not counted the same way everywhere. The most widely known arrangement gives each night one of the Navadurgā — Śailaputrī, Brahmacāriṇī, Candraghaṇṭā, Kūṣmāṇḍā, Skandamātā, Kātyāyanī, Kālarātri, Mahāgaurī and Siddhidātrī. In Tamil Nadu and much of the south the nine are kept instead as three sets of three, for Durgā, Lakṣmī and Sarasvatī in turn, which is why the last three days belong to Sarasvatī and to the Āyudha Pūjā, and why the Golu is arranged the way it is. Both countings are real. Most pages pick one and do not mention the other.",
+   "faq": [
+    {
+     "q": "When is Navratri?",
+     "a": "{{dates}} Nine nights, with Vijayadaśamī on the tenth morning."
+    },
+    {
+     "q": "How are the nine nights counted?",
+     "a": "Two ways, both current. One night each for the nine forms of the Navadurgā; or three nights each for Durgā, Lakṣmī and Sarasvatī, which is the arrangement common in Tamil Nadu and much of the south. The second is why Sarasvatī Pūjā and Āyudha Pūjā fall at the end of the nine."
+    },
+    {
+     "q": "Which goddess belongs to which night?",
+     "a": "Under the Navadurgā counting, in order: Śailaputrī, Brahmacāriṇī, Candraghaṇṭā, Kūṣmāṇḍā, Skandamātā, Kātyāyanī, Kālarātri, Mahāgaurī, Siddhidātrī. Under the southern counting, nights one to three are Durgā's, four to six Lakṣmī's, and seven to nine Sarasvatī's."
+    },
+    {
+     "q": "What stories should I read my child during Navratri?",
+     "a": "One a night for the nine, matched to the way your family counts them. They range from ages six upward; the buffalo who could not be fought is the usual opening, and the last three are quieter stories about learning rather than battle."
+    }
+   ]
+  },
+  "diwali": {
+   "name": "Dīvālī",
+   "also": "Deepavali, Naraka Chaturdashi",
+   "blurb": "The night a city lit every lamp it owned because it did not know exactly when he was coming, and wanted the road lit whenever he did.",
+   "forParents": "Two stories, depending on where your family is from: Rāma walking home in the north, Naraka's last request in the south. Both are here, and both are worth telling.",
+   "plain": "Diwali",
+   "names": "Dīvālī and Deepavali are the same word, shortened differently. The bigger difference is which story the night belongs to: in the north it is Rāma coming home to Ayodhyā and the city lighting every lamp it owned; in the south it is the morning after Naraka, and the day before is kept as Naraka Caturdaśī. Neither is the correct one. If your family tells one and your neighbours tell the other, that is the actual tradition, not a mistake in it.",
+   "faq": [
+    {
+     "q": "When is Diwali?",
+     "a": "{{dates}} In the south, Naraka Caturdaśī falls on the day before."
+    },
+    {
+     "q": "Is the Diwali story about Rama or about Krishna?",
+     "a": "Both, depending on where your family is from. The northern telling is Rāma's return from exile; the southern telling is Kṛṣṇa and Satyabhāmā and the last request Naraka made. We keep both, told properly, rather than choosing one."
+    },
+    {
+     "q": "Which one should I read to my child?",
+     "a": "The one your family tells, and then the other one the following year. Children take the difference better than adults expect — the fact that a festival can carry two stories is itself worth them knowing."
+    },
+    {
+     "q": "Why is it called Deepavali in some places and Diwali in others?",
+     "a": "Dīpāvali is the Sanskrit — a row of lamps. Deepavali keeps the longer form, common in the south; Diwali is the shortened form more usual in the north and in English. Same festival, same lamps."
+    }
+   ]
+  },
+  "vijayadashami": {
+   "name": "Vijayadaśamī",
+   "also": "Dussehra, Dasara, the tenth day",
+   "blurb": "The tenth morning, when it is over. Heaven is empty again and the gods go up and find their weapons where they left them — which is the part of the nine nights nobody tells.",
+   "forParents": "Children usually meet this day as the one where an effigy burns. It is worth telling them the other tenth day too: the one at the end of the Devī's nine nights, where the story ends not with a victory speech but with everybody quietly getting their things back.",
+   "plain": "Dussehra",
+   "names": "Dussehra, Dasara and Vijayadaśamī all name the tenth morning, and it closes two different stories at once. In much of the north it is the day Rāvaṇa falls, marked by burning the effigy. At the end of the Devī's nine nights it is something quieter — the fighting is over, and the gods collect the weapons they had lent out. In Karnataka it is Dasara and belongs to the state; in Tamil Nadu it follows the Golu and the Āyudha Pūjā.",
+   "faq": [
+    {
+     "q": "When is Dussehra?",
+     "a": "{{dates}} It falls on the tenth morning, immediately after the nine nights of Navarātri."
+    },
+    {
+     "q": "What is the difference between Dussehra and Vijayadashami?",
+     "a": "They are the same day under different names — Dussehra and Dasara are the more common forms in the north and in Karnataka, Vijayadaśamī the Sanskrit name used across the south."
+    },
+    {
+     "q": "Why do some places burn an effigy and others do not?",
+     "a": "Because the day closes two different stories. Where the tenth day is read as the fall of Rāvaṇa, the effigy is the point. Where it closes the Devī's nine nights, the day is about things being put back — which is why in the south it goes with the Āyudha Pūjā and the taking down of the Golu."
+    }
+   ]
   }
+ }
 }

@@ -55,6 +55,12 @@ function page(s) {
     ? `${SITE}/og/${s.id}.png?v=${s.version}`
     : `${SITE}/og/default.png`;
   const desc = `${s.tease} — ${s.source.work}, ${s.source.locus}. Ages ${s.audience.minAge}+.`;
+  // Link back up to any festival this story is tagged to. Without this the flow is
+  // festival -> story only, and a growing corpus passes no authority to the pages
+  // that actually have to rank.
+  const myFests = ((canon.find(c => c.id === s.id) ?? {}).festivals ?? [])
+    .filter(slug => fests[slug])
+    .map(slug => ({ slug, name: fests[slug].plain ?? fests[slug].name }));
 
   return `<!doctype html>
 <html lang="en"><head>
@@ -134,6 +140,9 @@ p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
 .wrong button:hover{background:rgba(240,180,88,.08)}
 .wrong button:disabled{opacity:.6;cursor:default}
 .wrong .thanks{color:var(--ember-lit);font-size:14px;margin:0}
+.belongs{margin:26px 0 0;font-size:13.5px;line-height:1.7;color:var(--muted)}
+.belongs a{color:var(--lamp-dim);text-decoration:none;border-bottom:1px solid rgba(169,124,58,.4)}
+.belongs a:hover{color:var(--lamp);border-bottom-color:var(--lamp)}
 aside.note{margin:0 0 20px;padding:11px 14px;border-left:2px solid var(--line);background:rgba(148,138,166,.07);border-radius:0 8px 8px 0}
 aside.note span{display:block;font-family:Karla,sans-serif;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:6px}
 aside.note p{font-family:Karla,sans-serif;font-size:14px;line-height:1.6;color:var(--paper-dim);margin:0}
@@ -165,6 +174,8 @@ ${says ? `<ul class="says">${says}</ul>` : ''}
     <button type="submit">Send</button>
   </form>
 </details>
+${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
+  `<a href="/f/${f.slug}/">${esc(f.name)} stories for children</a>`).join(' · ')}</p>` : ''}
 <div class="cta">
   <p>This is the short telling. The longer one, tonight's pick, and the rest of the collection are in the app — free, nothing to install.</p>
   <a href="/">Open Sandhya Katha</a>
@@ -195,7 +206,15 @@ function festivalPage(slug, f, written) {
   const dates = festivalDates(slug);
   const stories = canon.filter(c => (c.festivals ?? []).includes(slug) && !c.gated);
   const url = `${SITE}/f/${slug}/`;
-  const desc = `${f.name} stories for children — ${f.blurb}`.slice(0, 300);
+  // The spelling people type, not the spelling we set. Falls back to the display name.
+  const plain = f.plain ?? f.name;
+  const desc = f.blurb.length > 158 ? f.blurb.slice(0, 155).replace(/\s+\S*$/, '') + '…' : f.blurb;
+  // Dates as a sentence, for answers that quote them.
+  const dateSentence = dates.length
+    ? dates.map(d => pretty(d)).reduce((a, d, i, arr) =>
+        i === 0 ? d : i === arr.length - 1 ? `${a} and ${d}` : `${a}, ${d}`, '') + '.'
+    : '';
+  const faq = (f.faq ?? []).map(x => ({ q: x.q, a: x.a.replace('{{dates}}', dateSentence).trim() }));
   const rows = stories.map(c => {
     const isWritten = written.has(c.id);
     const inner = `<b>${esc(c.title)}</b><span>${esc(c.work)} · ${esc(c.locus)} · ages ${c.minAge}+</span><i>${esc(c.hook)}</i>`;
@@ -207,12 +226,12 @@ function festivalPage(slug, f, written) {
   return `<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>${esc(f.name)} stories for children · Sandhya Katha</title>
+<title>${esc(plain)} stories for children · Sandhya Katha</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha">
-<meta property="og:title" content="${esc(f.name)} stories for children">
+<meta property="og:title" content="${esc(plain)} stories for children">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}/og/default.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#14101c">
@@ -224,6 +243,11 @@ function festivalPage(slug, f, written) {
   about: { '@type':'Event', name: f.name, ...(dates[0] ? { startDate: dates[0] } : {}) },
   publisher: { '@type':'Organization', name:'Sandhya Katha', url: SITE }
 })}</script>
+${faq.length ? `<script type="application/ld+json">${JSON.stringify({
+  '@context':'https://schema.org','@type':'FAQPage',
+  mainEntity: faq.map(x => ({ '@type':'Question', name: x.q,
+    acceptedAnswer: { '@type':'Answer', text: x.a } }))
+})}</script>` : ''}
 <style>
 :root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--ember-lit:#e0937f;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
 *{box-sizing:border-box}
@@ -257,6 +281,13 @@ a.srow:hover b{color:var(--lamp)}
 .cta{margin-top:32px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}
 .cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}
 .cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;font-weight:700;font-size:14px;text-decoration:none}
+.names{margin:26px 0 0;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:rgba(148,138,166,.05)}
+.names b{display:block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
+.names p{margin:0;font-family:"Gentium Book Plus",Georgia,serif;font-size:16.5px;line-height:1.68;color:var(--paper-dim)}
+.faq{margin-top:34px;padding-top:18px;border-top:1px solid var(--line)}
+.faq h2{margin-top:0;border-top:0;padding-top:0}
+.faq dt{font-family:"Tiro Devanagari Sanskrit",serif;font-size:17px;color:var(--paper);margin:20px 0 0}
+.faq dd{margin:8px 0 0;font-family:"Gentium Book Plus",Georgia,serif;font-size:16px;line-height:1.66;color:var(--paper-dim)}
 footer{margin-top:30px;font-size:11.5px;color:var(--muted);line-height:1.7}
 footer a{color:var(--lamp-dim)}
 </style></head>
@@ -267,8 +298,12 @@ footer a{color:var(--lamp-dim)}
 <p class="lede">${esc(f.blurb)}</p>
 ${dates.length ? `<div class="when"><b>When it falls</b><p>${dates.map(d => pretty(d)).join('<br>')}</p></div>` : ''}
 <p class="for">${esc(f.forParents)}</p>
+${f.names ? `<div class="names"><b>Why it has more than one name</b><p>${esc(f.names)}</p></div>` : ''}
 <h2>${stories.length} ${stories.length === 1 ? 'story' : 'stories'} for this night</h2>
 ${rows || '<p class="for">Stories for this night are still being written.</p>'}
+${faq.length ? `<section class="faq"><h2>Questions parents ask</h2><dl>
+${faq.map(x => `<dt>${esc(x.q)}</dt><dd>${esc(x.a)}</dd>`).join('\n')}
+</dl></section>` : ''}
 <div class="cta">
   <p>Sandhya Katha chooses one story each night against the pañcāṅga, for your child's age, and lays it out to be read aloud. Free, nothing to install.</p>
   <a href="/">Open tonight's story</a>
