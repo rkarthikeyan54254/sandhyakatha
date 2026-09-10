@@ -47,20 +47,20 @@
     {
       "n": 3,
       "id": "hanuman-reminded",
-      "title": "Hanumān Forgets His Own Strength",
+      "title": "Jāmbavān Reminds Hanumān",
       "corpus": "ramayana",
       "tradition": "sanskrit",
       "work": "Rāmāyaṇa",
-      "locus": "Kiṣkindhā Kāṇḍa",
-      "stability": "stable",
+      "locus": "Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 (Critical Edition)",
+      "stability": "variant",
       "minAge": 6,
       "sensitivity": [],
       "value": "you need someone to remind you",
-      "hook": "The strongest one on the beach is sitting down, because he has genuinely forgotten what he can do.",
+      "hook": "Everyone on the shore says how far they can jump. Hanumān says nothing. Then Jāmbavān begins telling him his own story.",
       "festivals": [
         "hanuman-jayanti"
       ],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },

@@ -1,0 +1,622 @@
+{
+  "id": "hanuman-reminded",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-10",
+  "title": "Jāmbavān Reminds Hanumān",
+  "tease": "Everyone on the shore says how far they can jump. Hanumān says nothing. Then Jāmbavān begins telling him his own story.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)",
+    "stability": "variant",
+    "traditionNote": "Kiṣkindhākāṇḍa shows Jāmbavān urging the silent Hanumān by recounting his strength and childhood; it does not explicitly say a curse is lifted there. Uttarakāṇḍa 7.36 gives the sages' curse that Hanumān would remain unaware of his strength for a long time; fuller transmitted readings add a reminder condition.",
+    "parallels": [],
+    "checkedAgainst": [
+      "D. R. Mankad, ed., The Vālmīki-Rāmāyaṇa: Critical Edition, Vol. IV, Kiṣkindhākāṇḍa, Oriental Institute, Baroda, 1965",
+      "U. P. Shah, ed., The Vālmīki-Rāmāyaṇa: Critical Edition, Vol. VII, Uttarakāṇḍa, Oriental Institute, Baroda, 1975",
+      "Muneo Tokunaga / John Smith electronic text of the Baroda Critical Edition, GRETIL"
+    ],
+    "variants": [
+      {
+        "differs": "How the childhood curse is connected explicitly to Jāmbavān's speech at the sea.",
+        "tellings": "The Baroda Critical Edition's Uttarakāṇḍa says the sages cursed Hanumān so that he would remain unaware of his strength for a long time. Fuller transmitted and later tellings explicitly add that he remembers it when another person reminds him.",
+        "weTell": "The Kiṣkindhākāṇḍa scene exactly as the Critical Edition gives it: Hanumān sits silent, Jāmbavān recounts his strength and childhood and urges him to rise, and Hanumān enlarges his form. The curse is explained only in the tradition note and follow-up."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "After Sampāti's information renews their search, the vānaras reach the southern sea and become discouraged at the crossing. Aṅgada asks who can cross the hundred-yojana ocean.",
+        "locus": "Critical Edition 4.62.12–15; 4.63.1–24"
+      },
+      {
+        "claim": "The vānaras state their individual leaping ranges. Jāmbavān says he can now manage ninety yojanas; Aṅgada says he can cross one hundred but is uncertain of returning. Jāmbavān refuses to send Aṅgada because the leader should not be sent, then says he will urge the one who can accomplish the task.",
+        "locus": "4.64.1–35"
+      },
+      {
+        "claim": "Hanumān is seated quietly apart. Jāmbavān asks why he is silent, compares his power with Sugrīva, Rāma and Lakṣmaṇa and his arm strength with Garuḍa's wings, praises his strength, intelligence, brilliance and courage, and asks why he does not know himself.",
+        "locus": "4.64.35; 4.65.1–7"
+      },
+      {
+        "claim": "Jāmbavān recounts Hanumān's birth through Vāyu and his childhood leap towards the rising sun, the three-hundred-yojana flight, Indra's thunderbolt breaking his left jaw, Vāyu stopping the wind, and boons from Brahmā and Indra including protection from weapons and death at Hanumān's own choosing.",
+        "locus": "4.65.8–29"
+      },
+      {
+        "claim": "Jāmbavān contrasts his own old age with Hanumān's present fitness for the task, tells him to rise and cross the ocean, and asks why he remains inactive while the vānaras are discouraged. Urged by Jāmbavān, Hanumān makes his body immense.",
+        "locus": "4.65.30–36"
+      },
+      {
+        "claim": "Praised by the vānaras, Hanumān grows in size and strength, bows to the elders, describes his immense leaping power, says he can shake mountains and disturb the ocean, and declares that he will see Sītā.",
+        "locus": "4.66.1–25"
+      },
+      {
+        "claim": "Jāmbavān says Hanumān has removed his people's grief and that their lives depend on him. Hanumān chooses Mount Mahendra as ground strong enough for his leap, climbs it, and the mountain shakes under the pressure of his feet as he prepares for Laṅkā.",
+        "locus": "4.66.26–44"
+      },
+      {
+        "claim": "In Uttarakāṇḍa, the sages curse the mischievous young Hanumān so that he will remain unaware of the strength with which he troubles them for a long time; the Critical Edition presents this as background to his subdued behaviour.",
+        "locus": "Uttarakāṇḍa 7.36.28–35"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "you need someone to remind you"
+  ],
+  "themes": [
+    "ramayana",
+    "hanuman",
+    "jambavan",
+    "courage",
+    "encouragement",
+    "self-knowledge"
+  ],
+  "calendar": {
+    "festivals": [
+      "hanuman-jayanti"
+    ],
+    "weight": 8
+  },
+  "characters": [
+    {
+      "ref": "Hanumān",
+      "role": "lead"
+    },
+    {
+      "ref": "Jāmbavān",
+      "role": "lead"
+    },
+    {
+      "ref": "Aṅgada",
+      "role": "present"
+    },
+    {
+      "ref": "Sītā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sugrīva",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Vāyu",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Garuḍa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Indra",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 305,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The vānaras had reached the sea while searching for «Sītā»."
+        },
+        {
+          "t": "p",
+          "text": "Across that water lay their task."
+        },
+        {
+          "t": "p",
+          "text": "One by one they said how far they could jump."
+        },
+        {
+          "t": "p",
+          "text": "Ten yojanas. Twenty. Thirty."
+        },
+        {
+          "t": "p",
+          "text": "Others could manage more."
+        },
+        {
+          "t": "p",
+          "text": "Old «Jāmbavān» said he could go ninety now."
+        },
+        {
+          "t": "p",
+          "text": "«Aṅgada» said he could cross the hundred-yojana sea, but he was not sure he could return."
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān would not send him."
+        },
+        {
+          "t": "p",
+          "text": "_This work will not fail,_ he said. _I will call upon the one who can accomplish it._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A little apart sat «Hanumān»."
+        },
+        {
+          "t": "p",
+          "text": "He had said nothing."
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān turned to him."
+        },
+        {
+          "t": "p",
+          "text": "_Why are you sitting here silently?_"
+        },
+        {
+          "t": "p",
+          "text": "Then he began telling Hanumān about Hanumān."
+        },
+        {
+          "t": "p",
+          "text": "He spoke of his strength, intelligence and speed."
+        },
+        {
+          "t": "p",
+          "text": "He told him that his arms were as powerful as «Garuḍa»'s wings."
+        },
+        {
+          "t": "p",
+          "text": "He reminded him that he was the son of «Vāyu»."
+        },
+        {
+          "t": "p",
+          "text": "As a child, Hanumān had seen the rising sun and leapt towards it as though it were a fruit."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» struck him with the thunderbolt and broke his jaw."
+        },
+        {
+          "t": "p",
+          "text": "When Vāyu stopped the wind in anger, the gods came and gave Hanumān extraordinary boons."
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān finished."
+        },
+        {
+          "t": "p",
+          "text": "_I am old now. This is your time._"
+        },
+        {
+          "t": "p",
+          "text": "_Rise. Cross the ocean._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The Rāmāyaṇa says that, urged by Jāmbavān, Hanumān made his body enormous."
+        },
+        {
+          "t": "p",
+          "text": "The other vānaras praised him."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān stood up among them and began saying what he could do."
+        },
+        {
+          "t": "p",
+          "text": "He could shake mountains."
+        },
+        {
+          "t": "p",
+          "text": "He could disturb the sea."
+        },
+        {
+          "t": "p",
+          "text": "He could travel immense distances through the sky."
+        },
+        {
+          "t": "p",
+          "text": "Then he said the thing the others needed to hear."
+        },
+        {
+          "t": "p",
+          "text": "_I will see Sītā._"
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān told him that he had taken away their grief."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān climbed Mount «Mahendra», choosing it as the place from which he would leap."
+        },
+        {
+          "t": "p",
+          "text": "As he pressed his feet against the mountain, it shook beneath him."
+        },
+        {
+          "t": "slow",
+          "text": "The one who had been sitting silently stood up and said, _I will see Sītā._"
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 670,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The search for «Sītā» had brought the vānaras to the edge of the sea."
+        },
+        {
+          "t": "p",
+          "text": "The water before them stretched a hundred yojanas."
+        },
+        {
+          "t": "p",
+          "text": "They had learned that Sītā was across it. Now someone had to cross."
+        },
+        {
+          "t": "p",
+          "text": "One by one, the vānaras said how far they could leap."
+        },
+        {
+          "t": "p",
+          "text": "Ten yojanas. Twenty. Thirty. Forty."
+        },
+        {
+          "t": "p",
+          "text": "Others offered fifty, sixty, seventy, eighty."
+        },
+        {
+          "t": "p",
+          "text": "Old «Jāmbavān» said that in his youth his strength had been far greater, but now he could manage ninety."
+        },
+        {
+          "t": "p",
+          "text": "«Aṅgada» said he could cross the hundred yojanas."
+        },
+        {
+          "t": "p",
+          "text": "But he was not certain he could cross back."
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān would not send him."
+        },
+        {
+          "t": "p",
+          "text": "A leader, he said, was not the one to be sent when others could do the work."
+        },
+        {
+          "t": "p",
+          "text": "Aṅgada looked at the great company around him."
+        },
+        {
+          "t": "p",
+          "text": "If he did not go, and no other vānara could go, what were they to do?"
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān answered him."
+        },
+        {
+          "t": "p",
+          "text": "_This work will not fail. I will call upon the one who can accomplish it._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A little apart from the others sat «Hanumān»."
+        },
+        {
+          "t": "p",
+          "text": "He had not joined the measuring."
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān turned to him."
+        },
+        {
+          "t": "p",
+          "text": "_Hanumān, why are you sitting here silently?_"
+        },
+        {
+          "t": "p",
+          "text": "Then Jāmbavān began telling Hanumān about Hanumān."
+        },
+        {
+          "t": "p",
+          "text": "He spoke of his strength and his speed."
+        },
+        {
+          "t": "p",
+          "text": "He told him that in brilliance and power he stood with «Sugrīva», with «Rāma» and with «Lakṣmaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "He compared the strength of Hanumān's arms to the strength of «Garuḍa»'s wings."
+        },
+        {
+          "t": "p",
+          "text": "_Your strength, intelligence, brilliance and courage are extraordinary,_ Jāmbavān told him."
+        },
+        {
+          "t": "p",
+          "text": "_Why do you not know yourself?_"
+        },
+        {
+          "t": "p",
+          "text": "Then the old one went further back."
+        },
+        {
+          "t": "p",
+          "text": "He told the story of Hanumān's birth as a son of «Vāyu», the Wind."
+        },
+        {
+          "t": "p",
+          "text": "He reminded him of what he had done as a child."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān had seen the rising sun and taken it for a fruit."
+        },
+        {
+          "t": "p",
+          "text": "He had leapt into the sky after it."
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān said the child had travelled three hundred yojanas towards the sun."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» had struck him with the thunderbolt."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān had fallen onto a mountain, and his left jaw had been broken."
+        },
+        {
+          "t": "p",
+          "text": "That broken jaw, Jāmbavān said, was why he was called Hanumān."
+        },
+        {
+          "t": "p",
+          "text": "When Vāyu saw what had happened to his son, the Wind stopped moving."
+        },
+        {
+          "t": "p",
+          "text": "The worlds were troubled."
+        },
+        {
+          "t": "p",
+          "text": "The gods came and gave the child boons."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» granted that weapons would not kill him."
+        },
+        {
+          "t": "p",
+          "text": "Indra granted that even death would come only when Hanumān chose it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān had reached the point of his story."
+        },
+        {
+          "t": "p",
+          "text": "_I am old now,_ he said."
+        },
+        {
+          "t": "p",
+          "text": "_My former strength has gone._"
+        },
+        {
+          "t": "p",
+          "text": "_But this is your time._"
+        },
+        {
+          "t": "p",
+          "text": "He told Hanumān to rise."
+        },
+        {
+          "t": "p",
+          "text": "He told him to cross the ocean."
+        },
+        {
+          "t": "p",
+          "text": "All the vānaras were discouraged, Jāmbavān said."
+        },
+        {
+          "t": "p",
+          "text": "_Why do you remain still?_"
+        },
+        {
+          "t": "p",
+          "text": "_Move._"
+        },
+        {
+          "t": "p",
+          "text": "And Hanumān did."
+        },
+        {
+          "t": "p",
+          "text": "The Rāmāyaṇa says that, urged on by Jāmbavān, the son of the Wind made his body immense."
+        },
+        {
+          "t": "p",
+          "text": "The vānaras praised him."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān grew larger, and his strength rose with their praise."
+        },
+        {
+          "t": "p",
+          "text": "He stood among them with his hair bristling in joy."
+        },
+        {
+          "t": "p",
+          "text": "Then he bowed to the elders and spoke."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now Hanumān began saying what he could do."
+        },
+        {
+          "t": "p",
+          "text": "He said no one could equal him in leaping."
+        },
+        {
+          "t": "p",
+          "text": "He could circle «Meru» again and again."
+        },
+        {
+          "t": "p",
+          "text": "He could disturb the ocean and shake mountains as he flew."
+        },
+        {
+          "t": "p",
+          "text": "He could follow the sun across the sky before it set."
+        },
+        {
+          "t": "p",
+          "text": "He could cross thousands of yojanas."
+        },
+        {
+          "t": "p",
+          "text": "Then he came to the task in front of them."
+        },
+        {
+          "t": "p",
+          "text": "_I will see Sītā._"
+        },
+        {
+          "t": "p",
+          "text": "_Rejoice._"
+        },
+        {
+          "t": "p",
+          "text": "Jāmbavān answered him with delight."
+        },
+        {
+          "t": "p",
+          "text": "_You have taken away the great grief of your people._"
+        },
+        {
+          "t": "p",
+          "text": "He told Hanumān that all their lives now depended on him."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān looked for ground strong enough to bear the force of his leap."
+        },
+        {
+          "t": "p",
+          "text": "He chose Mount «Mahendra»."
+        },
+        {
+          "t": "p",
+          "text": "He climbed it."
+        },
+        {
+          "t": "p",
+          "text": "The mountain was covered with trees and animals."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān walked across its great peaks, preparing to launch himself over the sea."
+        },
+        {
+          "t": "p",
+          "text": "As he pressed down with his feet, the great mountain shook. Water streamed from it, rocks broke loose, animals fled, and birds rose into the air."
+        },
+        {
+          "t": "p",
+          "text": "This was the ground Hanumān had chosen for the leap."
+        },
+        {
+          "t": "slow",
+          "text": "Urged on by Jāmbavān, Hanumān rose, enlarged his form, and prepared to cross the sea."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "hanuman-tail",
+    "reason": "another night when someone sees Hanumān's strength clearly — this time his brother Bhīma meets it"
+  },
+  "close": {
+    "question": "Has someone ever reminded you of something you could do when you had gone quiet? What did they say that helped?",
+    "seed": "Sometimes another person can see our strength before we are ready to use it.",
+    "ifTheyAsk": [
+      {
+        "q": "Had Hanumān really forgotten his strength?",
+        "a": "In the Kiṣkindhākāṇḍa scene itself, the text does not simply say, 'Hanumān had forgotten.' It shows him sitting silently apart while the others discuss their limits. Jāmbavān asks why he is silent and even asks why Hanumān does not know himself, then recounts his strength and childhood. Uttarakāṇḍa 7.36 gives a related background: sages had cursed young Hanumān so that he would remain unaware of his strength for a long time. Fuller transmitted tellings make the reminder condition more explicit."
+      },
+      {
+        "q": "Why didn't Aṅgada make the jump?",
+        "a": "Aṅgada says he can cross the hundred-yojana sea but is not certain he can return. Jāmbavān tells him that the leader is not the one who should be sent when another can do the task, and that Aṅgada must be protected as the root of the mission. Jāmbavān then says he will urge the one who can accomplish it, and turns to Hanumān."
+      },
+      {
+        "q": "Did Jāmbavān actually break Hanumān's curse?",
+        "a": "The Kiṣkindhākāṇḍa passage does not describe Jāmbavān performing a ritual or explicitly say, 'the curse was now broken.' What it does say is that Jāmbavān urges Hanumān by recounting his strength and childhood, and that Hanumān then enlarges his form. The separate Uttarakāṇḍa curse explains why Hanumān had been unaware of his strength for a long time; later tellings often join the two scenes by saying the reminder restores that awareness."
+      }
+    ]
+  }
+}

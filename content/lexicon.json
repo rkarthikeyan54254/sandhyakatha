@@ -1645,5 +1645,72 @@
     "aliases": [
       "Godavari"
     ]
+  },
+  "Aṅgada": {
+    "id": "angada",
+    "native": {
+      "deva": "अङ्गद"
+    },
+    "say": "UNG-guh-duh",
+    "ipa": "ˈɐŋ.ɡɐ.d̪ɐ",
+    "kind": "person",
+    "gloss": "Son of Vālī and leader of the southern search party for Sītā. At the sea he says he can cross one hundred yojanas but is unsure he can return.",
+    "aliases": [
+      "Angada",
+      "Angad"
+    ]
+  },
+  "Sugrīva": {
+    "id": "sugriva",
+    "native": {
+      "deva": "सुग्रीव"
+    },
+    "say": "soo-GREE-vuh",
+    "ipa": "sʊˈɡriː.ʋɐ",
+    "kind": "person",
+    "gloss": "King of the vānaras and Rāma's ally, who sends the search parties looking for Sītā.",
+    "aliases": [
+      "Sugriva"
+    ]
+  },
+  "Garuḍa": {
+    "id": "garuda",
+    "native": {
+      "deva": "गरुड"
+    },
+    "say": "guh-ROO-duh",
+    "ipa": "ɡɐˈruː.ɖɐ",
+    "kind": "being",
+    "gloss": "The mighty king of birds associated with Viṣṇu. Jāmbavān compares the strength of Hanumān's arms with Garuḍa's wings.",
+    "aliases": [
+      "Garuda"
+    ]
+  },
+  "Meru": {
+    "id": "meru",
+    "native": {
+      "deva": "मेरु"
+    },
+    "say": "MAY-roo",
+    "ipa": "ˈmeː.rʊ",
+    "kind": "place",
+    "gloss": "The great cosmic mountain. Hanumān uses circling Meru as one measure of the speed he says he can achieve.",
+    "aliases": [
+      "Mount Meru"
+    ]
+  },
+  "Mahendra": {
+    "id": "mahendra-mountain",
+    "native": {
+      "deva": "महेन्द्र"
+    },
+    "say": "muh-HEN-druh",
+    "ipa": "mɐˈɦeːn.drɐ",
+    "kind": "place",
+    "gloss": "The mountain Hanumān chooses as the firm launching ground for his leap across the sea toward Laṅkā.",
+    "aliases": [
+      "Mount Mahendra",
+      "Mahendra Mountain"
+    ]
   }
 }
