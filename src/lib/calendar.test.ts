@@ -30,9 +30,16 @@ describe('the pañcāṅga table', () => {
   });
 
   it('hands the right story to the right night', () => {
-    // Govardhan Pūjā 2026. The story of the hill should win outright.
-    const p = panchanga(new Date('2026-11-10T20:00:00'), table);
+    // Govardhan Pūjā 2026. The checked override places the observance on Nov 9.
+    // Annakut is an alias for the same observance and must move with it.
+    const p = panchanga(new Date('2026-11-09T20:00:00'), table);
     expect(p.festivals).toContain('govardhan-puja');
+    expect(p.festivals).toContain('annakut');
+
+    const next = panchanga(new Date('2026-11-10T20:00:00'), table);
+    expect(next.festivals).not.toContain('govardhan-puja');
+    expect(next.festivals).not.toContain('annakut');
+
     const pick = pickTonight(index.stories, { panchanga: p, childAge: 8, heard: {}, includeGated: false });
     expect(pick?.story.id).toBe('govardhana');
     expect(pick?.reason).toContain('govardhan puja');

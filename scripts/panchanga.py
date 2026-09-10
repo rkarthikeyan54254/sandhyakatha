@@ -100,14 +100,22 @@ FESTIVALS = {
     ("phalguna","shukla",15):"holi",
 }
 
+# Alternate names that are useful for browse/search but must travel with the
+# canonical festival slug when a hand-corrected observance date moves.
+FESTIVAL_ALIASES = {
+    "govardhan-puja": ["annakut"],
+}
+
+def festival_slugs(slug):
+    return [slug, *FESTIVAL_ALIASES.get(slug, [])]
+
 def festivals(masa, paksha, n, tamil_idx, nak_idx, adhika=False):
     # Nothing in this table is observed in an intercalary month.
     if adhika:
         return []
     out = []
     f = FESTIVALS.get((masa, paksha, n))
-    if f: out.append(f)
-    if f == "govardhan-puja": out.append("annakut")
+    if f: out.extend(festival_slugs(f))
     if masa == "bhadrapada" and paksha == "krishna": out.append("pitru-paksha")
     if masa == "ashvina" and paksha == "shukla" and n <= 9: out.append("navaratri")
     if tamil_idx == 7 and NAK[nak_idx] == "krithigai": out.append("karthigai-deepam")
@@ -154,11 +162,21 @@ def apply_overrides(days, root):
     moved = 0
     for slug, years_ in ov.items():
         for year, target in years_.items():
+            slugs = festival_slugs(slug)
+            changed = False
             for k, v in days.items():
-                if k.startswith(str(year)) and slug in v["festivals"] and k != target:
-                    v["festivals"].remove(slug)
-            if target in days and slug not in days[target]["festivals"]:
-                days[target]["festivals"].append(slug)
+                if not k.startswith(str(year)) or k == target:
+                    continue
+                for name in slugs:
+                    while name in v["festivals"]:
+                        v["festivals"].remove(name)
+                        changed = True
+            if target in days:
+                for name in slugs:
+                    if name not in days[target]["festivals"]:
+                        days[target]["festivals"].append(name)
+                        changed = True
+            if changed:
                 moved += 1
     return moved
 
@@ -196,8 +214,9 @@ for run in _runs():
                 # the day before the tithi was superseded
                 target = run[i - 1] if i else order[max(0, order.index(k) - 1)]
                 if slug not in days[target]["festivals"]:
-                    days[target]["festivals"].append(slug)
-                    if slug == "govardhan-puja": days[target]["festivals"].append("annakut")
+                    for name in festival_slugs(slug):
+                        if name not in days[target]["festivals"]:
+                            days[target]["festivals"].append(name)
                     days[target]["skippedTithi"] = True
                     repaired += 1
                 break
