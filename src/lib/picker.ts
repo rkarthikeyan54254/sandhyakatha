@@ -83,7 +83,7 @@ export function pickTonight(cards: Card[], ctx: Ctx): Pick | null {
   const top = ranked[0];
   return {
     story: top.card,
-    reason: top.reason || 'nothing on the calendar claims tonight, so this is simply the one that fits her',
+    reason: top.reason || 'nothing on the calendar claims tonight, so this is simply the one that fits',
     alternates: ranked.slice(1, 3).map(r => r.card)
   };
 }
