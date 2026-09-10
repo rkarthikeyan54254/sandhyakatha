@@ -218,7 +218,7 @@
       "value": "answering honestly under pressure",
       "hook": "Four brothers drink and fall. The fifth is asked what the greatest wonder in the world is, and gets it right.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -259,7 +259,7 @@
       "value": "there is no clean moral here",
       "hook": "A forest boy teaches himself archery from a clay statue of the teacher who turned him away. Then the teacher comes to collect.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -1083,9 +1083,10 @@
       "value": "the same story told another way",
       "hook": "In this one Rāvaṇa is not a demon, does not have ten heads, never harms Sītā — and is still the one who loses everything.",
       "festivals": [],
-      "status": "in-review",
+      "status": "retired",
       "wave": 2,
-      "gated": false
+      "gated": false,
+      "note": "Shelved 2026-09-10 — Vālmīki is the authority here; a good-king Rāvaṇa confuses rather than widens. Draft kept in content/shelved/."
     },
     {
       "n": 57,

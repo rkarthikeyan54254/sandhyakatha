@@ -1,9 +1,9 @@
 {
   "id": "ekalavya-thumb",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "title": "Ekalavya's Thumb",
   "tease": "A forest boy teaches himself archery in front of a clay statue of the teacher who turned him away. Years later the teacher comes to collect his fee.",
   "source": {
@@ -54,7 +54,9 @@
         "claim": "Afterwards he shoots with his fingers and is no longer as fast",
         "locus": "ibid."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
   },
   "audience": {
     "minAge": 12,

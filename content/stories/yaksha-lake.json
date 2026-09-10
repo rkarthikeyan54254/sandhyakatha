@@ -1,9 +1,9 @@
 {
   "id": "yaksha-lake",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "title": "The Crane at the Lake",
   "tease": "Four brothers drink and fall. The fifth is asked what the greatest wonder in the world is, and answers it in one sentence.",
   "source": {
@@ -54,7 +54,9 @@
         "claim": "Dharma tells him the exile is not over and the thirteenth year lies ahead",
         "locus": "Vana Parva, end of the Yakṣa Praśna"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
   },
   "audience": {
     "minAge": 10,

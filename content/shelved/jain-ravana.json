@@ -1,7 +1,7 @@
 {
   "id": "jain-ravana",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "retired",
   "version": 1,
   "updated": "2026-09-09",
   "title": "The Rāmāyaṇa Where Rāvaṇa Is a Good King",
@@ -314,5 +314,9 @@
         "a": "In this book, no, and it is not a small detail — it is load-bearing. His vow is the thing that makes him a person with a rule rather than a force with an appetite, and it is what makes his fall his own. Vālmīki's Rāvaṇa is also, it is worth saying, held back by a curse rather than by a vow. Two books, two very different reasons, and Sītā unharmed in both."
       }
     ]
+  },
+  "shelved": {
+    "on": "2026-09-10",
+    "why": "Editorial decision: Vālmīki is the Rāmāyaṇa authority on this site. A telling in which Rāvaṇa is a good king reads to a child as a contradiction of the story they are being raised on, not as a second tradition. Kept for the record, not published."
   }
 }
