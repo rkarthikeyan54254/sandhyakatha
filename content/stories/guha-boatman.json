@@ -1,0 +1,541 @@
+{
+  "id": "guha-boatman",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-10",
+  "title": "Guha the Boatman",
+  "tease": "A prince with no kingdom left meets a boatman, and the boatman is the one who decides they are friends.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Rāmāyaṇa",
+    "locus": "Ayodhyā Kāṇḍa, Sargas 50–52",
+    "stability": "stable",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa — Critical Edition, Baroda, Sargas 50–52"
+    ],
+    "sourcing": [
+      {
+        "claim": "Rāma, Sītā, Lakṣmaṇa and Sumantra reach the Gaṅgā near Śṛṅgaverapura and halt near a large iṅgudī tree",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 50.25–32"
+      },
+      {
+        "claim": "Guha is king/ruler of the Niṣādas and is already described as Rāma's intimate friend. He comes with elders, ministers and relatives; Guha and Rāma embrace",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 50.33–36"
+      },
+      {
+        "claim": "Guha offers Rāma his land and kingdom, along with food, drinks, beds and fodder for the horses",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 50.37–39"
+      },
+      {
+        "claim": "Rāma honours Guha's affection but declines the provisions because of his forest vow, asking only that Daśaratha's horses be fed. That evening he takes only water",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 50.40–49"
+      },
+      {
+        "claim": "Guha keeps watch over Rāma. He offers Lakṣmaṇa a bed and says that he and his people will guard Rāma; Lakṣmaṇa refuses to sleep while Rāma and Sītā lie on the ground. The two remain awake, and Guha weeps while hearing Lakṣmaṇa speak of Ayodhyā and Daśaratha",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 50.50–51; 51.1–27"
+      },
+      {
+        "claim": "At dawn Rāma asks to cross the Gaṅgā; Guha orders a sturdy boat with a helmsman to be brought",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 52.1–10"
+      },
+      {
+        "claim": "Before entering deeper forest life, Rāma asks Guha for banyan latex and uses it to make matted locks for himself and Lakṣmaṇa",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 52.67–70"
+      },
+      {
+        "claim": "Rāma bids Guha farewell and advises him to remain vigilant in governing his kingdom",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 52.71–73"
+      },
+      {
+        "claim": "Sītā boards first, then Lakṣmaṇa and Rāma. Guha orders his kinsmen to row them across; in midstream Sītā prays to Gaṅgā for their safe return after fourteen years",
+        "locus": "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 52.74–end"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [
+      "social-hierarchy"
+    ],
+    "careNote": "Guha is a Niṣāda king and one of Rāma's close friends. The text places their friendship plainly alongside differences of community and royal position without turning the scene into a speech about those differences."
+  },
+  "values": [
+    "friendship across rank"
+  ],
+  "themes": [
+    "exile",
+    "river",
+    "forest",
+    "friendship"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Guha",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "lead"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Gaṅgā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sumantra",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 297,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "When «Rāma» reached the «Gaṅgā», «Sītā», «Lakṣmaṇa» and the charioteer «Sumantra» were still with him."
+        },
+        {
+          "t": "p",
+          "text": "They stopped beneath a great iṅgudī tree near the river."
+        },
+        {
+          "t": "p",
+          "text": "This was the land of «Guha», king of the Niṣādas — and already one of Rāma's closest friends."
+        },
+        {
+          "t": "p",
+          "text": "When Guha heard that Rāma had arrived, he came with his ministers and relatives."
+        },
+        {
+          "t": "p",
+          "text": "He embraced Rāma."
+        },
+        {
+          "t": "p",
+          "text": "_This place is as much yours as Ayodhyā,_ he told him."
+        },
+        {
+          "t": "p",
+          "text": "Then Guha offered everything he could."
+        },
+        {
+          "t": "p",
+          "text": "Food. Drinks. Beds."
+        },
+        {
+          "t": "p",
+          "text": "Even his kingdom."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Rāma thanked his friend but refused."
+        },
+        {
+          "t": "p",
+          "text": "He had taken the discipline of forest life. He would not live like a prince here."
+        },
+        {
+          "t": "p",
+          "text": "There was only one thing he asked Guha for: _Feed my father's horses._"
+        },
+        {
+          "t": "p",
+          "text": "So Guha did."
+        },
+        {
+          "t": "p",
+          "text": "That evening Rāma drank only water and lay down on the ground beside Sītā."
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa stayed awake."
+        },
+        {
+          "t": "p",
+          "text": "Guha offered him a bed."
+        },
+        {
+          "t": "p",
+          "text": "_No one is dearer to me than Rāma,_ Guha said. _My people and I will guard him._"
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa answered, _How can I sleep while Rāma and Sītā sleep on the earth?_"
+        },
+        {
+          "t": "p",
+          "text": "So neither man slept."
+        },
+        {
+          "t": "p",
+          "text": "They kept watch together."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At dawn Rāma said it was time to cross the Gaṅgā."
+        },
+        {
+          "t": "p",
+          "text": "Guha had a strong boat brought."
+        },
+        {
+          "t": "p",
+          "text": "Rāma also asked him for the sap of a banyan tree. Guha fetched it, and Rāma used it to bind his own hair and Lakṣmaṇa's into the matted locks of forest ascetics."
+        },
+        {
+          "t": "p",
+          "text": "Then it was time to leave."
+        },
+        {
+          "t": "p",
+          "text": "Sītā entered the boat first, then Lakṣmaṇa, then Rāma."
+        },
+        {
+          "t": "p",
+          "text": "Guha ordered his kinsmen to row them across."
+        },
+        {
+          "t": "p",
+          "text": "In the middle of the river, Sītā folded her hands and prayed that after fourteen years they would all return safely."
+        },
+        {
+          "t": "slow",
+          "text": "Guha could not stop his friend's exile. He could make sure his friend did not face that night, or that river, alone."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 7,
+      "words": 797,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "By the time «Rāma» reached the «Gaṅgā», he had crossed the country of Kosala."
+        },
+        {
+          "t": "p",
+          "text": "But he had not come alone on foot."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» and «Lakṣmaṇa» were with him, and so was «Sumantra», the charioteer who had brought them away from Ayodhyā. The horses of King Daśaratha still stood harnessed to the chariot."
+        },
+        {
+          "t": "p",
+          "text": "Near Śṛṅgaverapura, Rāma saw the Gaṅgā — sacred, swift, full of waves and whirlpools. Not far from the river stood a great iṅgudī tree, covered in new shoots and flowers."
+        },
+        {
+          "t": "p",
+          "text": "_We will stay here tonight,_ Rāma told Sumantra."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This was the country of «Guha», king of the Niṣādas."
+        },
+        {
+          "t": "p",
+          "text": "And Guha was not a stranger."
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki calls him Rāma's friend already — a friend dear to him as his own life."
+        },
+        {
+          "t": "p",
+          "text": "When word reached Guha that Rāma had entered his land, he came with his elders, ministers and relatives."
+        },
+        {
+          "t": "p",
+          "text": "Rāma saw him coming and went forward with Lakṣmaṇa to meet him."
+        },
+        {
+          "t": "p",
+          "text": "Guha embraced Rāma."
+        },
+        {
+          "t": "p",
+          "text": "_Think of this place as you would Ayodhyā,_ he said. _What can I do for you?_"
+        },
+        {
+          "t": "p",
+          "text": "Then Guha began to offer things."
+        },
+        {
+          "t": "p",
+          "text": "Food had been prepared. Drinks. Beds. Fodder for the royal horses."
+        },
+        {
+          "t": "p",
+          "text": "And more than that."
+        },
+        {
+          "t": "p",
+          "text": "_All this land is yours,_ Guha told him. _We are at your service. Rule this kingdom._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Rāma answered him with affection."
+        },
+        {
+          "t": "p",
+          "text": "Guha had come himself, on foot, to welcome him. That alone, Rāma said, had honoured them."
+        },
+        {
+          "t": "p",
+          "text": "He embraced Guha and asked after his kingdom, his friends and his treasury."
+        },
+        {
+          "t": "p",
+          "text": "But then he looked at everything Guha had prepared."
+        },
+        {
+          "t": "p",
+          "text": "_I cannot accept these things._"
+        },
+        {
+          "t": "p",
+          "text": "Rāma was beginning his life in the forest. He had taken a vow to live as an ascetic, wearing bark and deerskin and living on roots and fruits."
+        },
+        {
+          "t": "p",
+          "text": "There was only one thing he asked Guha to provide."
+        },
+        {
+          "t": "p",
+          "text": "Food for the horses."
+        },
+        {
+          "t": "p",
+          "text": "_These horses belong to my father,_ Rāma said."
+        },
+        {
+          "t": "p",
+          "text": "So Guha had them fed."
+        },
+        {
+          "t": "p",
+          "text": "That evening Rāma performed his prayers at sunset."
+        },
+        {
+          "t": "p",
+          "text": "And instead of the meal Guha had prepared, he drank only water brought to him by Lakṣmaṇa."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāma and Sītā lay down on the ground."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa did not sleep."
+        },
+        {
+          "t": "p",
+          "text": "Guha saw him standing awake and offered him a comfortable bed."
+        },
+        {
+          "t": "p",
+          "text": "_You are used to comfort,_ Guha told him. _My people and I are used to hardship. We will guard Rāma tonight._"
+        },
+        {
+          "t": "p",
+          "text": "Then Guha said something that explained why he had come running to the riverbank with so much to give."
+        },
+        {
+          "t": "p",
+          "text": "_No one in this world is dearer to me than Rāma._"
+        },
+        {
+          "t": "p",
+          "text": "He knew this forest. He had men with him. He said that even a great army could not surprise them there."
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa answered that with Guha guarding them, they had nothing to fear."
+        },
+        {
+          "t": "p",
+          "text": "But he still would not lie down."
+        },
+        {
+          "t": "p",
+          "text": "_How can I sleep while Rāma and Sītā are lying on the earth?_"
+        },
+        {
+          "t": "p",
+          "text": "So Lakṣmaṇa remained awake."
+        },
+        {
+          "t": "p",
+          "text": "Guha remained awake too."
+        },
+        {
+          "t": "p",
+          "text": "Through the night the two men talked while Rāma and Sītā slept on the ground."
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa spoke of Ayodhyā. Of his father. Of the mothers they had left behind. He wondered whether Daśaratha would survive the grief of Rāma's exile."
+        },
+        {
+          "t": "p",
+          "text": "Guha listened."
+        },
+        {
+          "t": "p",
+          "text": "And as Lakṣmaṇa spoke, Guha wept."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At dawn Rāma heard the birds of the forest."
+        },
+        {
+          "t": "p",
+          "text": "_It is morning,_ he said. _Let us cross the Gaṅgā._"
+        },
+        {
+          "t": "p",
+          "text": "Guha immediately gave the order."
+        },
+        {
+          "t": "p",
+          "text": "A strong boat was brought to the landing place, with a helmsman ready."
+        },
+        {
+          "t": "p",
+          "text": "But before Rāma left, there was something else to do."
+        },
+        {
+          "t": "p",
+          "text": "He had decided that from here he would live fully in the manner of an ascetic. He asked Guha to bring him the milky sap of a banyan tree."
+        },
+        {
+          "t": "p",
+          "text": "Guha brought it at once."
+        },
+        {
+          "t": "p",
+          "text": "With it, Rāma bound his hair into matted locks, and did the same for Lakṣmaṇa."
+        },
+        {
+          "t": "p",
+          "text": "The two brothers, already dressed in bark, now looked like forest ascetics."
+        },
+        {
+          "t": "p",
+          "text": "Only then did Rāma say goodbye to his friend."
+        },
+        {
+          "t": "p",
+          "text": "He even left Guha with advice: watch your army, your treasury, your fortifications and your people carefully. A kingdom, he said, is difficult to protect."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Sītā entered the boat first."
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa followed her."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāma climbed in."
+        },
+        {
+          "t": "p",
+          "text": "Guha did not climb in after them. He ordered his own kinsmen to take the oars."
+        },
+        {
+          "t": "p",
+          "text": "Rāma said farewell to Guha and to Sumantra, who would carry messages back toward Ayodhyā."
+        },
+        {
+          "t": "p",
+          "text": "The boat pushed away."
+        },
+        {
+          "t": "p",
+          "text": "In the middle of the Gaṅgā, Sītā joined her hands and prayed to the river."
+        },
+        {
+          "t": "p",
+          "text": "_Let Rāma fulfil his father's command, she prayed. Let the fourteen years pass safely. And let all three of them return to this river again._"
+        },
+        {
+          "t": "p",
+          "text": "Then the boat carried them to the other bank."
+        },
+        {
+          "t": "p",
+          "text": "Guha had offered his friend food, beds, men and even a kingdom."
+        },
+        {
+          "t": "p",
+          "text": "Rāma had accepted almost none of them."
+        },
+        {
+          "t": "slow",
+          "text": "But when there was a night to keep watch and a river that had to be crossed, Guha was there."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "jatayu-last-flight",
+    "reason": "another meeting on the edge of the forest where someone gives everything without being asked"
+  },
+  "close": {
+    "question": "Guha kept offering big things, but Rāma needed small ones — food for horses, a night watch, banyan sap, a boat. Which was the best gift?",
+    "seed": "Helping someone does not always mean fixing everything. Sometimes it means being there for the next thing they need.",
+    "ifTheyAsk": [
+      {
+        "q": "Was Guha really a king?",
+        "a": "Yes. Vālmīki calls Guha a king and the ruler of the Niṣādas. He is not introduced as a poor boatman who happens to meet Rāma. He has his own territory, ministers, relatives and men, and he offers Rāma his kingdom. The text also tells us that he and Rāma are already close friends."
+      },
+      {
+        "q": "Why didn't Rāma eat Guha's food?",
+        "a": "Guha prepared food, drinks and beds because he wanted to honour his friend. Rāma thanked him but said that he had undertaken the discipline of forest life and should live on roots and fruits. He asked Guha only to feed Daśaratha's horses. That evening the text says Rāma himself took only water brought by Lakṣmaṇa."
+      },
+      {
+        "q": "Did Guha row them across?",
+        "a": "Not in Vālmīki's telling. Guha had the boat brought and made sure it had a helmsman. When Rāma, Sītā and Lakṣmaṇa boarded, Guha ordered his kinsmen to row them across. Guha's part was making sure the crossing was ready."
+      }
+    ]
+  }
+}
