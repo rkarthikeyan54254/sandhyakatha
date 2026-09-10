@@ -68,7 +68,8 @@ export default async (req: Request, _ctx: Context) => {
   if (note.length > MAX_NOTE) return Response.json({ error: 'too long' }, { status: 413 });
 
   const at = new Date().toISOString();
-  const key = `${storyId}/${at}-${crypto.randomUUID().slice(0, 8)}`;
+  const rand = crypto.getRandomValues(new Uint8Array(4));
+  const key = `${storyId}/${at}-${Array.from(rand).map(b => b.toString(16).padStart(2, '0')).join('')}`;
   await store.setJSON(key, {
     storyId, at, note,
     version: Number.isFinite(body.version) ? Number(body.version) : null,
