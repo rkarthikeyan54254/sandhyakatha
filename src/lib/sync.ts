@@ -10,7 +10,7 @@
  * front of a bedtime story is how you lose the parent who came to try one.
  */
 import type { Profile } from './profile';
-import { merge, emptyProfile } from './profile';
+import { merge, emptyProfile, tidy} from './profile';
 
 export interface Account { id: string; email: string | null; kind: 'google' | 'code' }
 
@@ -108,7 +108,7 @@ export async function syncProfile(local: Profile): Promise<Profile> {
    * the app then made active. The account's copy is the family; take it whole.
    */
   const readNothingHere = !Object.values(local.heard ?? {}).some(n => Object.keys(n).length > 0);
-  if (d.profile && readNothingHere) return { ...(d.profile as Profile), owner: id };
+  if (d.profile && readNothingHere) return tidy({ ...(d.profile as Profile), owner: id });
 
   const merged: Profile = { ...(d.profile ? merge(local, d.profile as Profile) : local), owner: id };
   const put = await api('/api/profile', {

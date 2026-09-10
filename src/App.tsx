@@ -134,9 +134,29 @@ export default function App() {
     return r;
   }
 
+  // A second blank row helps nobody. If one is already sitting there waiting
+  // for a name, make that one active instead of stacking another underneath —
+  // this is how a settings screen ends up nine rows of "Add a name" deep.
   const addChild = (name: string, age: number) => setProfile(p => {
+    if (!name.trim()) {
+      const blank = p.children.find(c => !c.name.trim());
+      if (blank) return { ...p, activeId: blank.id, updatedAt: new Date().toISOString() };
+    }
     const c = P.newChild(name, age);
     return { ...p, children: [...p.children, c], activeId: c.id, updatedAt: new Date().toISOString() };
+  });
+
+  /** Remove a child, and the nights recorded against them. There was no way to
+   *  do this at all, which is the reason the list could only ever grow. */
+  const removeChild = (id: string) => setProfile(p => {
+    const children = p.children.filter(c => c.id !== id);
+    const heard = { ...p.heard }; delete heard[id];
+    const again = { ...(p.again ?? {}) }; delete again[id];
+    return {
+      ...p, children, heard, again,
+      activeId: p.activeId === id ? (children[0]?.id ?? null) : p.activeId,
+      updatedAt: new Date().toISOString()
+    };
   });
   const patchChild = (id: string, patch: Partial<P.Child>) => setProfile(p => ({
     ...p, children: p.children.map(c => c.id === id ? { ...c, ...patch } : c), updatedAt: new Date().toISOString()
@@ -165,7 +185,7 @@ export default function App() {
                    canon={canon} published={cards.length}
                    account={account} syncing={syncing} onAccountChanged={refresh} onSignOut={handleSignOut}
                    setActive={id => setProfile(p => ({ ...p, activeId: id }))}
-                   addChild={addChild} patchChild={patchChild}
+                   addChild={addChild} patchChild={patchChild} removeChild={removeChild}
                    setGate={g => setProfile(p => ({ ...p, gate: g, updatedAt: new Date().toISOString() }))}
                    onShelf={() => setTab('shelf')} />
         ) : tab === 'shelf' ? (

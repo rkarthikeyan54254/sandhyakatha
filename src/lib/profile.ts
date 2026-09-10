@@ -57,7 +57,7 @@ export async function requestPersistence() {
 export function load(): Profile {
   try {
     const raw = localStorage.getItem(KEY);
-    if (raw) return JSON.parse(raw) as Profile;
+    if (raw) return tidy(JSON.parse(raw) as Profile);
   } catch { /* fall through */ }
   return migrate();
 }
@@ -116,6 +116,77 @@ export function markHeard(p: Profile, childId: string, storyId: string): Profile
 const childKey = (c: Child) => `${c.name.trim().toLowerCase()}|${c.age}`;
 
 /**
+ * One child list, cleaned. Three things go wrong on their own, and they are
+ * fixed in one place because fixing them at each call site is how they came
+ * back last time.
+ *
+ * 1. Duplicates. merge() folds two lists against each other but never folds a
+ *    list against itself, so the same name and age twice in one list stayed
+ *    twice, and then synced.
+ * 2. Blanks. Skipping setup mints a nameless child so the app has an age to
+ *    work with. Do that on five sign-ins and there are five of them, and the
+ *    settings screen turns into a wall of "Add a name" that the parent has no
+ *    way to clear.
+ * 3. An activeId pointing at a child that is no longer in the list.
+ *
+ * A nameless child that has actually heard something is never dropped —
+ * somebody skipped setup and then read six stories, and those six nights are
+ * the entire point of the product. One nameless empty is kept only when there
+ * is no named child at all, because that one is holding the age.
+ */
+export function tidy(p: Profile): Profile {
+  const lived = (id: string) =>
+    Object.keys(p.heard[id] ?? {}).length > 0 || Object.keys(p.again?.[id] ?? {}).length > 0;
+
+  // Fold same name + age within the one list, moving nights onto the survivor.
+  const byKey = new Map<string, Child>();
+  const remap: Record<string, string> = {};
+  const folded: Child[] = [];
+  for (const c of p.children) {
+    const first = byKey.get(childKey(c));
+    if (first) { if (first.id !== c.id) remap[c.id] = first.id; }
+    else { byKey.set(childKey(c), c); folded.push(c); }
+  }
+
+  // Then the blanks. Named children are never dropped, whatever else is true.
+  const named = folded.filter(c => c.name.trim() || lived(c.id));
+  const kept = named.length
+    ? named
+    : folded.slice(0, 1);   // nothing named: keep one, it is holding the age
+
+  const dropped = new Set(folded.filter(c => !kept.includes(c)).map(c => c.id));
+  if (!Object.keys(remap).length && !dropped.size && p.children.length === kept.length) {
+    const stillThere = p.activeId && kept.some(c => c.id === p.activeId);
+    if (stillThere || (!p.activeId && !kept.length)) return p;   // nothing to do
+  }
+
+  const move = (id: string) => remap[id] ?? id;
+  const roll = (src: Record<string, Record<string, string>> | undefined,
+                pick: (a: string, b: string) => string) => {
+    const out: Record<string, Record<string, string>> = {};
+    for (const [child, nights] of Object.entries(src ?? {})) {
+      const k = move(child);
+      if (dropped.has(k)) continue;              // a dropped blank had no nights
+      out[k] = { ...(out[k] ?? {}) };
+      for (const [story, date] of Object.entries(nights)) {
+        const prev = out[k][story];
+        out[k][story] = prev ? pick(prev, date) : date;
+      }
+    }
+    return out;
+  };
+
+  const active = p.activeId ? move(p.activeId) : null;
+  return {
+    ...p,
+    children: kept,
+    activeId: active && kept.some(c => c.id === active) ? active : (kept[0]?.id ?? null),
+    heard: roll(p.heard, (a, b) => (a < b ? a : b)),      // earliest first night wins
+    again: roll(p.again, (a, b) => (a > b ? a : b))       // latest re-read wins
+  };
+}
+
+/**
  * Merge a device and an account. Heard nights are a union and the earliest date
  * wins — a story read on the iPad was still read. Everything else follows the
  * more recently touched copy, which is the closest thing to intent we have.
@@ -157,14 +228,14 @@ export function merge(a: Profile, b: Profile): Profile {
   }
   const firsts = [older.firstNight, newer.firstNight].filter(Boolean).sort() as string[];
   const active = newer.activeId ? to(newer.activeId) : null;
-  return {
+  return tidy({
     v: 1, children: folded,
     activeId: (active && folded.some(c => c.id === active) ? active : null) ?? older.activeId ?? folded[0]?.id ?? null,
     gate: newer.gate, heard, again,
     owner: newer.owner ?? older.owner ?? null,
     firstNight: firsts[0] ?? null,
     updatedAt: newer.updatedAt
-  };
+  });
 }
 
 /* ---------- what the app says back to the parent ---------- */

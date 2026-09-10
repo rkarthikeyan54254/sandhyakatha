@@ -449,3 +449,12 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:6px}
 .prose aside.note p{font-family:Karla,system-ui,sans-serif;font-size:14px;line-height:1.6;
   color:var(--paper-dim);margin:0}
+
+/* Removing a child. Small and grey until it is armed, then it says exactly
+   what it is about to take away — a parent should never lose a month of
+   evenings to a stray tap on an ×. */
+.dropkid{background:none;border:0;color:var(--muted);font:inherit;font-size:15px;line-height:1;
+  padding:6px 8px;margin-left:4px;border-radius:6px;cursor:pointer;opacity:.55;transition:opacity .15s,color .15s}
+.dropkid:hover,.dropkid:focus-visible{opacity:1;color:var(--paper)}
+.dropkid.armed{opacity:1;font-size:12px;letter-spacing:.02em;color:var(--lamp);
+  border:1px solid var(--lamp-dim);padding:5px 9px;white-space:nowrap}

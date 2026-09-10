@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { Card, CanonRow } from '../lib/types';
 import { CORPUS_LABEL, STABILITY_NOTE } from '../lib/types';
 import type { Pick } from '../lib/picker';
@@ -18,12 +19,14 @@ interface Props {
   setActive: (id: string) => void;
   addChild: (name: string, age: number) => void;
   patchChild: (id: string, patch: Partial<P.Child>) => void;
+  removeChild: (id: string) => void;
   setGate: (g: boolean) => void;
   onShelf: () => void;
 }
 
 export default function Tonight(p: Props) {
   const { pick, pan, len, setLen, onRead, profile, child, heard, cards, canon, published } = p;
+  const [armed, setArmed] = useState<string | null>(null);   // child id whose removal is one click from happening
   const name = child?.name?.trim() ?? '';
   const s = pick?.story;
   const st = P.stats(profile, child?.id ?? null);
@@ -160,17 +163,34 @@ export default function Tonight(p: Props) {
       </>}
 
       <div className="hair"><span className="eyebrow">{profile.children.length > 1 ? 'Children' : 'Who you are reading to'}</span></div>
-      {profile.children.map(c => (
-        <div key={c.id} className={'kid' + (c.id === child?.id ? ' on' : '')}>
-          <button className="pickkid" onClick={() => p.setActive(c.id)} aria-pressed={c.id === child?.id}>
-            <span className="dot" />
-          </button>
-          <input className="kidname" value={c.name} placeholder="Add a name"
-                 onChange={e => p.patchChild(c.id, { name: e.target.value })} />
-          <input className="kidage" type="number" min={3} max={15} value={c.age}
-                 onChange={e => p.patchChild(c.id, { age: +e.target.value })} />
-        </div>
-      ))}
+      {profile.children.map(c => {
+        const nights = Object.keys(profile.heard[c.id] ?? {}).length;
+        return (
+          <div key={c.id} className={'kid' + (c.id === child?.id ? ' on' : '')}>
+            <button className="pickkid" onClick={() => p.setActive(c.id)} aria-pressed={c.id === child?.id}
+                    aria-label={`Read to ${c.name.trim() || 'this child'}`}>
+              <span className="dot" />
+            </button>
+            <input className="kidname" value={c.name} placeholder="Add a name"
+                   onChange={e => p.patchChild(c.id, { name: e.target.value })} />
+            <input className="kidage" type="number" min={3} max={15} value={c.age}
+                   aria-label="Age"
+                   onChange={e => p.patchChild(c.id, { age: +e.target.value })} />
+            <button className={'dropkid' + (armed === c.id ? ' armed' : '')}
+                    aria-label={armed === c.id
+                      ? `Confirm removing ${c.name.trim() || 'this child'}`
+                      : `Remove ${c.name.trim() || 'this child'}`}
+                    onClick={() => {
+                      // Nothing recorded against them: just go. Nights on the
+                      // record are somebody's evenings — ask once first.
+                      if (!nights || armed === c.id) { setArmed(null); p.removeChild(c.id); }
+                      else setArmed(c.id);
+                    }}>
+              {armed === c.id ? `Remove, and ${nights} night${nights === 1 ? '' : 's'}?` : '×'}
+            </button>
+          </div>
+        );
+      })}
       <button className="linkbtn add" onClick={() => p.addChild('', 8)}>+ Add another child</button>
 
       <label className="set check">
