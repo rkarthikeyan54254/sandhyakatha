@@ -47,6 +47,30 @@ Write it plainly and without apology. A parent who learns that the squirrel is
 Tamil and not Vālmīki has learned something true, and has learned that we tell
 them. That is the entire trust proposition, and it is worth more than the story.
 
+## Vālmīki is the Rāmāyaṇa
+
+Other Rāmāyaṇas exist, and scholars are right that there are hundreds. This site
+is not the place a child meets them for the first time.
+
+A regional *addition* is welcome: the squirrel, Śabarī's tasted berries, the line
+Lakṣmaṇa drew. These add a scene to a story the child already holds, and the
+tradition note tells the parent where it came from. That is widening.
+
+A telling that *reverses* the Rāmāyaṇa is not. A Rāvaṇa who is a good king, a
+Sītā who is Rāvaṇa's daughter, a Rāma who is not the one who kills — a child who
+is being raised on Vālmīki does not hear these as a second tradition. They hear
+them as the story being wrong, or as us saying their family has it wrong. The
+adult pleasure of *look how many Rāmāyaṇas there are* costs the child the one
+they have. We do not spend it.
+
+So: additions to Vālmīki, yes, marked. Contradictions of Vālmīki, no — however
+old, however well attested, however interesting. `jain-ravana` was written and
+shelved under this rule; the draft is in `content/shelved/` with the reason on it.
+
+This rule is about the Rāmāyaṇa specifically. Elsewhere — the Purāṇas above all —
+tellings genuinely do disagree, everyone knows it, and `variant` with an honest
+note is the right answer.
+
 ## Writing for a voice
 
 - **`p` is a breath line.** One thought. At most three sentences.
