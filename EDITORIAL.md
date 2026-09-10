@@ -47,6 +47,39 @@ Write it plainly and without apology. A parent who learns that the squirrel is
 Tamil and not Vālmīki has learned something true, and has learned that we tell
 them. That is the entire trust proposition, and it is worth more than the story.
 
+## What we do not adjudicate
+
+Set 2026-09-10, on review: *"never question the belief system — remember this is
+faith and not just story. You can say I cannot find a reference, that is fair,
+but don't say it did not happen."*
+
+The line is between **our sourcing**, which is ours to report, and **whether it
+happened**, which is not ours to settle. We are scrupulous about the first and
+silent on the second.
+
+Fine, and the whole trust proposition:
+
+- "Told the same way in every recension."
+- "Present in the Tamil retelling and not in the Sanskrit."
+- "Carried down rather than written down — we could find no early text for it."
+- "The recensions differ here, and this is the one we tell."
+
+Not fine, whatever the hedging:
+
+- "Nobody knows whether it really happened."
+- "Did that really happen?" answered with a verdict either way.
+- "It is just a story" / "only a legend" / "mythical".
+- "Whether that happened the way a thing happens on a Tuesday…" — a soft version
+  of the same ruling, and it was in `satyakama-truth` until this rule existed.
+
+A child asking *did a bull really talk?* still deserves an answer. The answer
+says what the text says and what the story is doing, and stops there. It does
+not hand down a finding.
+
+`scripts/review.mjs` checks for this — a `faith` finding — across the prose, the
+tease, the tradition note and every `ifTheyAsk`. A word list cannot judge a
+sentence, so it flags and a person decides.
+
 ## What this collection is
 
 Set 2026-09-10. This is a collection of Hindu stories. Itihāsa, Purāṇa, Upaniṣad,

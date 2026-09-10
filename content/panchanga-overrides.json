@@ -1,0 +1,38 @@
+{
+  "_readme": [
+    "Hand corrections to the computed table. scripts/panchanga.py places a festival on whichever day",
+    "carries its tithi at 06:00 IST. That is not how observance is fixed: Ganesh Chaturthi goes by",
+    "madhyahna, Mahashivaratri by nishita, Diwali by pradosh, Janmashtami by midnight, most others by",
+    "sunrise. Sampling one instant gets roughly half of them right and puts the rest a day late.",
+    "Until the generator carries per-festival observance rules, this file is the source of truth.",
+    "",
+    "moveFestival is what gets applied: festival slug -> year -> the correct date. The festival is",
+    "removed from wherever the table put it and placed on the date given. An empty object changes",
+    "nothing. Add an entry only when you have checked the date against a panchangam you trust.",
+    "",
+    "_candidates is NOT applied. It is the list of dates where the computed table disagrees with a",
+    "published 2026 festival list, recorded so the checking has a starting point. Verify each against",
+    "the Pambu Panchangam, then move it up into moveFestival.",
+    "",
+    "NalNaal shares this generator, so it shares these errors. A correction made here should be made",
+    "there too, or better, both should read one file."
+  ],
+
+  "moveFestival": {},
+
+  "_candidates": {
+    "note": "computed -> published. Unverified. Source: panchang.org 2026 festival list, Sep 2026.",
+    "mahashivaratri":   { "2026": { "computed": "2026-02-16", "published": "2026-02-15" } },
+    "holi":             { "2026": { "computed": "2026-03-03", "published": "2026-03-04" } },
+    "rama-navami":      { "2026": { "computed": "2026-03-27", "published": "2026-03-26" } },
+    "akshaya-tritiya":  { "2026": { "computed": "2026-04-20", "published": "2026-04-19" } },
+    "ganesh-chaturthi": { "2026": { "computed": "2026-09-15", "published": "2026-09-14" } },
+    "vijayadashami":    { "2026": { "computed": "2026-10-21", "published": "2026-10-20" } },
+    "govardhan-puja":   { "2026": { "computed": "2026-11-10", "published": "2026-11-09" } }
+  },
+
+  "_agree": [
+    "hanuman-jayanti 2026-04-02", "guru-purnima 2026-07-29", "janmashtami 2026-09-04",
+    "navaratri from 2026-10-11", "diwali 2026-11-08"
+  ]
+}

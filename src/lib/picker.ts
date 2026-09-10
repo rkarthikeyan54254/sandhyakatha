@@ -39,16 +39,32 @@ function score(c: Card, ctx: Ctx): Scored | null {
   let s = (c.calendar.weight ?? 5);
   let reason = '';
 
+  // A lunar month has two names. The dark fortnight that ends Ashvina in the
+  // amānta reckoning is the dark fortnight of Kārtika in the pūrṇimānta one,
+  // and the festival names everybody uses are pūrṇimānta — Naraka Chaturdaśī
+  // is "Kārtika kṛṣṇa chaturdaśī" on a day this table calls Ashvina. Matching
+  // only `masa` meant a story keyed to Kārtika never matched its own night.
+  const monthHit = c.calendar.months?.find(m => m === p.masa || m === p.masaN) ?? null;
+  const title = (m: string) => m[0].toUpperCase() + m.slice(1);
+
   if (!p.approximate && c.calendar.festivals?.some(f => p.festivals.includes(f))) {
     s += 100; reason = `it is ${c.calendar.festivals.find(f => p.festivals.includes(f))!.replace(/-/g, ' ')}`;
-  } else if (!p.approximate && c.calendar.tithi?.includes(p.tithi)) {
-    s += 20;  reason = `tonight is ${p.tithi.replace(/-/g, ' ')}`;
+  } else if (!p.approximate && c.calendar.tithi?.includes(p.tithi)
+             && (!c.calendar.months?.length || monthHit)) {
+    // A tithi ALONE recurs every month: there is a kṛṣṇa chaturdaśī twelve
+    // times a year. When a story also names its month, the two are a
+    // conjunction and not alternatives — otherwise the Naraka Chaturdaśī story
+    // came up every single month, saying "tonight is krishna chaturdashi" on a
+    // night that was nothing of the kind.
+    s += 20;
+    reason = monthHit ? `tonight is ${title(monthHit)} ${p.tithi.replace(/-/g, ' ')}`
+                      : `tonight is ${p.tithi.replace(/-/g, ' ')}`;
   } else if (c.calendar.seasons?.includes(p.season)) {
     // Season survives the placeholder — a solar month tells you the monsoon is
     // ending even when it cannot tell you the tithi.
     s += 12;  reason = `of where we are in the year — ${p.season.replace(/-/g, ' ')}`;
-  } else if (!p.approximate && c.calendar.months?.includes(p.masa)) {
-    s += 6;   reason = `it belongs to ${p.masa[0].toUpperCase() + p.masa.slice(1)}`;
+  } else if (!p.approximate && monthHit) {
+    s += 6;   reason = `it belongs to ${title(monthHit)}`;
   }
 
   // gently prefer a story pitched at the child rather than well under them

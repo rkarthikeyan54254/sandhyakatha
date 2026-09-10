@@ -2,7 +2,7 @@
   "id": "hanuman-own-ramayana",
   "schemaVersion": "1.0",
   "status": "in-review",
-  "version": 1,
+  "version": 2,
   "updated": "2026-09-10",
   "title": "Hanumān Wrote One Too",
   "tease": "Vālmīki climbs a mountain to read the Rāmāyaṇa somebody else wrote, and finds it is better than his. What happens next is Hanumān's decision, not his.",
@@ -12,7 +12,7 @@
     "work": "Told about the Hanumannāṭaka, a Sanskrit play attributed to Dāmodara Miśra",
     "locus": "The traditional account of how the Hanumannāṭaka came to exist",
     "stability": "folk",
-    "traditionNote": "No text tells this as an event. It is the story told about a text — the Sanskrit play Hanumannāṭaka, whose own tradition says it was built from a stone fragment of Hanumān's writing found in King Bhoja's reign. The play is real and translated. The mountain is the story about the play.",
+    "traditionNote": "Carried down rather than written down: we could find no early text that tells it. It comes with the Sanskrit play Hanumannāṭaka, whose own tradition says the play was built from a stone fragment of Hanumān's writing found in King Bhoja's reign. The play is real and translated.",
     "checkedAgainst": [
       "Dāmodara Miśra, Hanumannāṭaka — A.N.D. Haksar trans., 'Hanuman Drama' (India Penguin Classics, 2023)",
       "Critical study of the Hanumannāṭaka: the Bhojacarita anecdote, the two recensions, and Dāmodara Miśra's date"
@@ -178,7 +178,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 664,
+      "words": 660,
       "blocks": [
         {
           "t": "p",
@@ -269,7 +269,7 @@
         },
         {
           "t": "aside",
-          "text": "There is no book that tells this. It is the story people tell about a book — an old Sanskrit play called the Hanumannāṭaka, whose own tradition says it was built out of a piece of Hanumān's writing that washed up an age later. The play is real and you can read it in English. Whether any of the rest happened, nobody knows."
+          "text": "This one is not written down anywhere we could find. It comes to us alongside an old Sanskrit play, the Hanumannāṭaka, whose own tradition says the play was built from a piece of Hanumān's writing that washed up an age later. The play is real and you can read it in English. The rest has been kept by memory."
         },
         {
           "t": "beat"
@@ -280,7 +280,7 @@
         },
         {
           "t": "p",
-          "text": "An age afterwards — long enough that the war had become something people only had poems about — a broken stone with writing on it is said to have come out of the sea."
+          "text": "An age afterwards — long enough that the war had become something people only had poems about — a broken stone with writing on it came out of the sea."
         },
         {
           "t": "p",
@@ -317,12 +317,12 @@
         "a": "The story refuses to say, and that is worth noticing. It does not claim he wrote better lines or knew things Vālmīki did not. It only says Vālmīki read it and could tell. Anyone who gives you a reason is adding one."
       },
       {
-        "q": "Did that really happen?",
-        "a": "Nobody knows, and there is no book old enough to check. What is real is the play it is told about, the Hanumannāṭaka, which is very old — around a thousand years — and which you can read in English. The mountain part is the story that grew up around it."
+        "q": "How do we know about this one?",
+        "a": "It was carried by memory rather than written down — we could not find an early text that tells it. What you can put your hands on is the play it comes with, the Hanumannāṭaka, which people have been reading for around a thousand years."
       },
       {
         "q": "Is Hanumān's Rāmāyaṇa still out there?",
-        "a": "In the story, one broken piece of it came out of the sea long afterwards and became the play. The rest is meant to still be down there."
+        "a": "One broken piece of it came out of the sea long afterwards and became the play. The rest is still down there."
       }
     ]
   }

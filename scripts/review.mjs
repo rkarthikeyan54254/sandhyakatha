@@ -130,6 +130,38 @@ function reviewStory(s) {
         findings.push(['voice', `${len} block ${i}: reads as a note to the parent, not a line of the story — consider an aside: "${t.slice(0, 60)}…"`]);
     });
 
+  /* 5b. Adjudicating whether it happened.
+        Rama, 2026-09-10: "never question the belief system — this is faith and
+        not just story. You can say I cannot find a reference, that is fair, but
+        do not say it did not happen." The distinction is between OUR sourcing
+        (ours to report) and the truth of the event (not ours to rule on).
+        Checks the parent-facing surfaces too, since that is where it crept in. */
+  {
+    const DOUBT = [
+      [/\bnobody knows\b(?![ ,]*(?:his|her|their|what hour|which|who he|who she))/i, 'nobody knows'],
+      [/\b(did|does) (that|this|it) really happen\b/i, 'did that really happen'],
+      [/\bwhether (?:any of )?(?:that|this|it|the rest) (?:really )?happened\b/i, 'whether it happened'],
+      [/\b(?:it is |it's )?(?:just|only) a (?:story|legend|myth)\b/i, 'just a story'],
+      [/\bnever (?:really )?happened\b/i, 'never happened'],
+      [/\bno way (?:to|of) know(?:ing)?\b/i, 'no way to know'],
+      [/\bmade up\b(?! a family name)/i, 'made up'],
+      [/\bmythical\b|\bmerely\b/i, 'mythical / merely']
+    ];
+    const surfaces = [['tease', s.tease], ['traditionNote', s.source.traditionNote],
+                      ['close.seed', s.close?.seed], ['close.question', s.close?.question]];
+    for (const [i, q] of (s.close?.ifTheyAsk ?? []).entries())
+      surfaces.push([`ifTheyAsk[${i}].q`, q.q], [`ifTheyAsk[${i}].a`, q.a]);
+    for (const [len, r] of Object.entries(s.lengths))
+      r.blocks.forEach((b, i) => { if (b.text) surfaces.push([`${len} block ${i}`, b.text]); });
+
+    for (const [where, text] of surfaces) {
+      if (!text) continue;
+      for (const [re, label] of DOUBT)
+        if (re.test(text))
+          findings.push(['faith', `${where}: "${label}" — rules on whether it happened. Report what we could not find a reference for; do not settle the question.`]);
+    }
+  }
+
   /* 5. Age against what is in the story. */
   const heavy = (s.audience.sensitivity ?? []).filter(x => ['death','violence'].includes(x));
   if (heavy.length && s.audience.minAge < 8)

@@ -70,7 +70,7 @@ const card = s => {
       ${rendition(s.lengths.short)}
     </div>
 
-    <aside>
+    <aside class="panel">
       <div class="box">
         <p class="lab">Everything this story was allowed to say</p>
         <ol class="src">${(s.source.sourcing ?? [{claim:'— no sourcing block —',locus:''}])
@@ -127,7 +127,7 @@ body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,syste
 .tease{font-family:"Gentium Book Plus",serif;font-size:17px;color:var(--paper-dim);margin:8px 0 0}
 .cols{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;margin-top:26px}
 @media(min-width:960px){.cols{grid-template-columns:minmax(0,1fr) 360px;gap:44px}
- aside{position:sticky;top:20px;align-self:start;max-height:calc(100vh - 40px);overflow-y:auto}}
+ aside.panel{position:sticky;top:20px;align-self:start;max-height:calc(100vh - 40px);overflow-y:auto}}
 .lab{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:26px 0 10px}
 .prose .lab:first-child{margin-top:0}
 .prose p{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.72;margin:0 0 18px}
@@ -136,6 +136,11 @@ p.slow{border-left:2px solid var(--lamp);padding-left:14px}
 .beat{display:flex;align-items:center;gap:10px;margin:0 0 18px;color:var(--lamp-dim)}
 .beat:before,.beat:after{content:"";flex:1;height:1px;background:var(--line)}
 .beat span{font-size:9px;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
+aside.note{margin:0 0 18px;padding:11px 14px;border-left:2px solid var(--line);
+  background:rgba(148,138,166,.07);border-radius:0 8px 8px 0}
+aside.note span{display:block;font-family:Karla,system-ui,sans-serif;font-size:9.5px;letter-spacing:.2em;
+  text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:6px}
+aside.note p{font-family:Karla,system-ui,sans-serif;font-size:14px;line-height:1.6;color:var(--paper-dim);margin:0}
 .close{border:1px solid rgba(240,180,88,.34);border-radius:14px;padding:18px;background:rgba(240,180,88,.06)}
 .close .q{font-size:20px;color:#ffe9c4;margin:0}
 .close .seed{font-size:15px;font-style:italic;color:var(--paper-dim)}

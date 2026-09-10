@@ -26,6 +26,7 @@ interface Props {
 
 export default function Tonight(p: Props) {
   const { pick, pan, len, setLen, onRead, profile, child, heard, cards, canon, published } = p;
+  const an = (n: number) => ([8, 11, 18].includes(n) ? 'an' : 'a');
   const [armed, setArmed] = useState<string | null>(null);   // child id whose removal is one click from happening
   const name = child?.name?.trim() ?? '';
   const s = pick?.story;
@@ -118,7 +119,7 @@ export default function Tonight(p: Props) {
             <h2>{s.title}</h2>
             <p className="tease">{s.tease}</p>
             <div className="meta">
-              <span className="chip lit">Chosen for {child ? `a ${child.age}-year-old` : 'tonight'}</span>
+              <span className="chip lit">Chosen for {child ? `${an(child.age)} ${child.age}-year-old` : 'tonight'}</span>
               {s.values.slice(0, 2).map(v => <span key={v} className="chip val">{v}</span>)}
               {s.stability !== 'stable' && <span className="chip trad">{STABILITY_NOTE[s.stability]}</span>}
             </div>

@@ -130,10 +130,18 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .hero .body{padding:18px 16px 16px}
 .srcline{font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700}
 .hero h2{font-family:var(--display);font-weight:400;font-size:27px;line-height:1.2;margin:9px 0 0;text-wrap:balance}
+/* the chip row */
 .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
-.chip{font-size:11px;padding:4px 9px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
-.chip.val{border-color:rgba(201,87,63,.45);color:var(--ember-lit)}
-.chip.trad{border-color:rgba(127,176,163,.45);color:#7fb0a3;font-style:italic}
+/* Four outlined pills of equal weight is four things shouting. They are not
+   equal: the age is who tonight is for, the values are what it is about, and
+   the stability line is a caveat. Only the caveat keeps a border — ember in
+   this palette means "look at this", and spending it on "the mercy nobody had
+   to give" made a lovely phrase read like a warning label. */
+.chip{font-size:11px;padding:3px 10px;border:1px solid transparent;border-radius:999px;
+  color:var(--muted);background:rgba(148,138,166,.10);white-space:nowrap}
+.chip.lit{background:rgba(240,180,88,.13);color:var(--lamp);font-weight:600}
+.chip.val{background:rgba(148,138,166,.10);color:var(--paper-dim)}
+.chip.trad{background:none;border-color:rgba(201,87,63,.42);color:var(--ember-lit);font-style:italic}
 .dial .lbl{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
 .dial .lbl span:last-child{font-size:11.5px;color:var(--muted)}
 .dial .opts{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;background:var(--night-3);padding:4px;border-radius:11px}
@@ -320,7 +328,6 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .anniv p{margin:6px 0 0;font-family:var(--read);font-size:16px;line-height:1.5;color:var(--paper-dim)}
 .anniv b{color:var(--paper);font-weight:400}
 .anniv:hover{border-color:var(--lamp)}
-.chip.lit{border-color:rgba(240,180,88,.45);color:var(--lamp)}
 .gap{display:block;width:100%;text-align:left;margin-top:18px;padding:13px 15px;border-radius:11px;
   border:1px dashed var(--line);font-size:13px;color:var(--paper-dim);line-height:1.5}
 .gap b{color:var(--lamp);font-weight:600}

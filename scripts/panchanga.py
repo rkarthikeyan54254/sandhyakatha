@@ -57,6 +57,27 @@ def month_start(d):
             return a
     return d
 
+def next_month_start(ms):
+    """First day of the lunar month after the one beginning at `ms`."""
+    probe = ms + datetime.timedelta(days=25)
+    for _ in range(12):
+        if month_start(probe) != ms:
+            return month_start(probe)
+        probe += datetime.timedelta(days=2)
+    return probe
+
+def is_adhika(ms):
+    """A lunar month with no saṅkrānti in it — the sun never changes rāśi
+    between one new moon and the next — is adhika (intercalary). It carries the
+    same name as the nija month that follows it, which is why 2026 produced two
+    Āṣāḍhas and, with them, two Guru Pūrṇimās. Festivals belong to the nija
+    month; the adhika one is for vrata and pilgrimage, not for these."""
+    # Compare the rāśi at the two new moons that bound the month, not at the
+    # last day inside it: a saṅkrānti that happens late on that final day is
+    # still inside the month, and testing the day itself missed it — which
+    # flagged Jyeṣṭha 2026 adhika when only Āṣāḍha was.
+    return sun_rasi(ms) == sun_rasi(next_month_start(ms))
+
 def tamil_month_day(d):
     r = sun_rasi(d); probe, n = d, 1
     while sun_rasi(probe - datetime.timedelta(days=1)) == r:
@@ -79,7 +100,10 @@ FESTIVALS = {
     ("phalguna","shukla",15):"holi",
 }
 
-def festivals(masa, paksha, n, tamil_idx, nak_idx):
+def festivals(masa, paksha, n, tamil_idx, nak_idx, adhika=False):
+    # Nothing in this table is observed in an intercalary month.
+    if adhika:
+        return []
     out = []
     f = FESTIVALS.get((masa, paksha, n))
     if f: out.append(f)
@@ -96,11 +120,14 @@ def day(d):
     t = int(e // 12)
     paksha = "shukla" if t < 15 else "krishna"
     n = t + 1 if t < 15 else t - 14
-    masa = MASA[(sun_rasi(month_start(d)) + 1) % 12]
+    ms = month_start(d)
+    masa = MASA[(sun_rasi(ms) + 1) % 12]
+    adhika = is_adhika(ms)
     nak_i = int(_lon(jd, swe.MOON) // (360 / 27)) % 27
     tm, td = tamil_month_day(d)
     return {
         "masa": masa,
+        **({"adhika": True} if adhika else {}),
         # Purṇimānta (North Indian) names the dark fortnight after the next
         # month. Recorded so a festival sourced from a North Indian almanac
         # can still be matched without re-deriving anything.
@@ -111,8 +138,29 @@ def day(d):
         "nakshatra": NAK[nak_i],
         "tamil": TAMIL[tm], "tamilDay": td,
         "season": SEASON[tm],
-        "festivals": festivals(masa, paksha, n, tm, nak_i),
+        "festivals": festivals(masa, paksha, n, tm, nak_i, adhika),
     }
+
+def apply_overrides(days, root):
+    """Hand corrections win over the computation. See content/panchanga-overrides.json
+    for why they are needed: this table places a festival by the tithi running at
+    06:00, and real observance is fixed by madhyahna, nishita, pradosh or midnight
+    depending on the festival."""
+    path = os.path.join(root, "content", "panchanga-overrides.json")
+    if not os.path.exists(path):
+        return 0
+    with open(path, encoding="utf-8") as fh:
+        ov = json.load(fh).get("moveFestival") or {}
+    moved = 0
+    for slug, years_ in ov.items():
+        for year, target in years_.items():
+            for k, v in days.items():
+                if k.startswith(str(year)) and slug in v["festivals"] and k != target:
+                    v["festivals"].remove(slug)
+            if target in days and slug not in days[target]["festivals"]:
+                days[target]["festivals"].append(slug)
+                moved += 1
+    return moved
 
 years = int(sys.argv[1]) if len(sys.argv) > 1 else 4
 start = datetime.date(datetime.date.today().year, 1, 1)
@@ -156,14 +204,16 @@ for run in _runs():
 print(f"tithi-skip repairs: {repaired}")
 
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+moved = apply_overrides(days, root)
+print(f"hand corrections applied: {moved}")
 out = {
     "meta": {
         "engine": "Swiss Ephemeris (pyswisseph), Lahiri ayanāṃśa",
-        "convention": "Tithi and nakshatra sampled at 06:00 IST; amānta lunar months; Chennai",
+        "convention": "Tithi and nakshatra sampled at 06:00 IST; amānta lunar months; Chennai; adhika months carry no festivals",
         "sharedWith": "NalNaal (tamil-nal-app/generate_panchangam.py) — same engine, same conventions, on purpose",
         "generated": datetime.date.today().isoformat(),
         "from": start.isoformat(), "to": (end - datetime.timedelta(days=1)).isoformat(),
-        "caveat": "Computed, not checked against a printed Pambu Panchangam. NalNaal carries a manual override layer for that; if a date is ever disputed, that is the source of truth.",
+        "caveat": "Computed. A festival is placed on the day carrying its tithi at 06:00, which is NOT how observance is fixed — madhyahna, nishita, pradosh and midnight rules each move some of them by a day. content/panchanga-overrides.json is the correction layer and the source of truth; see its _candidates list for the known disagreements.",
     },
     "days": days,
 }

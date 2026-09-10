@@ -106,3 +106,47 @@ describe('the placeholder calendar', () => {
     expect(p.reason).toContain('monsoon end');
   });
 });
+
+/**
+ * Reported 2026-09-10 from an incognito window: the site offered the Naraka
+ * Chaturdaśī story on 10 September and explained "tonight is krishna
+ * chaturdashi". It was — an ordinary one, in Bhādrapada. Naraka Chaturdaśī
+ * 2026 is 8 November. Two faults met here.
+ */
+describe('a tithi is not a date', () => {
+  // Exactly what public/data/panchanga.json holds for the two nights.
+  const sep10 = pan({ date: '2026-09-10', masa: 'shravana', masaN: 'bhadrapada',
+                      paksha: 'krishna', tithi: 'krishna-chaturdashi', festivals: [],
+                      season: 'monsoon-end' });
+  const nov8  = pan({ date: '2026-11-08', masa: 'ashvina', masaN: 'kartika',
+                      paksha: 'krishna', tithi: 'krishna-chaturdashi', festivals: ['diwali'],
+                      season: 'harvest' });
+  const naraka = card({ id: 'narakasura', minAge: 8,
+    calendar: { festivals: ['diwali'], months: ['kartika'], tithi: ['krishna-chaturdashi'], weight: 9 } });
+  const plain = card({ id: 'plain', calendar: { weight: 9 } });
+
+  it('does not fire a Kārtika story on a Bhādrapada chaturdaśī', () => {
+    const p = pickTonight([naraka, plain], ctx({ panchanga: sep10 }))!;
+    expect(p.story.id).toBe('plain');
+  });
+
+  it('still fires it on the real night', () => {
+    const p = pickTonight([naraka, plain], ctx({ panchanga: nov8 }))!;
+    expect(p.story.id).toBe('narakasura');
+  });
+
+  it('matches the month by either reckoning — amānta Ashvina IS pūrṇimānta Kārtika', () => {
+    // Same night, festival list emptied, so only the tithi+month rule can fire.
+    const noFest = { ...nov8, festivals: [] };
+    const p = pickTonight([naraka, plain], ctx({ panchanga: noFest }))!;
+    expect(p.story.id).toBe('narakasura');
+    expect(p.reason).toMatch(/Kartika krishna chaturdashi/i);
+  });
+
+  it('a story that names a tithi and NO month still recurs monthly', () => {
+    const ekadashi = card({ id: 'any-ekadashi', calendar: { tithi: ['krishna-chaturdashi'], weight: 1 } });
+    const p = pickTonight([ekadashi, card({ id: 'plain2', calendar: { weight: 5 } })],
+                          ctx({ panchanga: sep10 }))!;
+    expect(p.story.id).toBe('any-ekadashi');
+  });
+});

@@ -2,8 +2,8 @@
   "id": "satyakama-truth",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-10",
   "title": "Satyakāma Says the Hard Thing",
   "tease": "A boy is asked his family name at the school gate, and has to say the one thing he was hoping not to.",
   "source": {
@@ -314,7 +314,7 @@
       },
       {
         "q": "Did a bull really talk?",
-        "a": "The Upaniṣads do this often — a fire, an animal, a bird turns out to know something, and a person has to be quiet enough to hear it. Whether that happened the way a thing happens on a Tuesday is a question your family can answer for itself. What the story is certainly saying is that he learned it alone, from the world, without a school, and that this counted."
+        "a": "The Upaniṣads do this often — a fire, an animal, a bird turns out to know something, and a person has to be quiet enough to hear it. The text says it, plainly and without any fuss, and the point it is making is that he learned alone, from the world, without a school, and that this counted."
       },
       {
         "q": "If he already knew it, why ask to be taught again?",
