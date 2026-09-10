@@ -1604,5 +1604,46 @@
       "Sumantra",
       "Sumant"
     ]
+  },
+  "Viśravas": {
+    "id": "visravas",
+    "native": {
+      "deva": "विश्रवस्"
+    },
+    "say": "VISH-ruh-vus",
+    "ipa": "ʋɪˈʃrɐ.ʋɐs",
+    "kind": "person",
+    "gloss": "Rāvaṇa's father. Jaṭāyu identifies Rāvaṇa to Rāma as the son of Viśravas.",
+    "aliases": [
+      "Vishravas",
+      "Visravas"
+    ]
+  },
+  "Vaiśravaṇa": {
+    "id": "vaisravana",
+    "native": {
+      "deva": "वैश्रवण"
+    },
+    "say": "vai-SHRUH-vuh-nuh",
+    "ipa": "ʋai̯ˈʃrɐ.ʋɐ.ɳɐ",
+    "kind": "person",
+    "gloss": "A name of Kubera, lord of wealth and Rāvaṇa's brother. Jaṭāyu uses this relationship while identifying Rāvaṇa to Rāma.",
+    "aliases": [
+      "Vaishravana",
+      "Kubera"
+    ]
+  },
+  "Godāvarī": {
+    "id": "godavari",
+    "native": {
+      "deva": "गोदावरी"
+    },
+    "say": "goh-DAA-vuh-ree",
+    "ipa": "ɡoːˈd̪aː.ʋɐ.riː",
+    "kind": "place",
+    "gloss": "The river near Pañcavaṭī in the Araṇya Kāṇḍa. Rāma and Lakṣmaṇa make water offerings for Jaṭāyu there.",
+    "aliases": [
+      "Godavari"
+    ]
   }
 }

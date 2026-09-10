@@ -1,0 +1,545 @@
+{
+  "id": "jatayu-last-flight",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-10",
+  "title": "Jaṭāyu's Last Flight",
+  "tease": "An old king of birds sees Rāvaṇa carrying Sītā away. Rāma and Lakṣmaṇa are far away. Jaṭāyu says: while I am alive, you will not take her.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Araṇyakāṇḍa 3.13.33–36; 3.47.36–3.50; 3.63–64 (Baroda Critical Edition)",
+    "stability": "stable",
+    "traditionNote": "Critical Edition chapter numbering differs from many public editions: the principal confrontation and fight are 3.48–50 and Jaṭāyu's final report and rites are 3.63–64; Southern-recension presentations commonly number these scenes later.",
+    "parallels": [],
+    "checkedAgainst": [
+      "P. C. Divanji, ed., The Vālmīki-Rāmāyaṇa: Critical Edition, Vol. III, Araṇyakāṇḍa, Oriental Institute, Baroda, 1963",
+      "Muneo Tokunaga / John Smith electronic text of the Baroda Critical Edition, GRETIL",
+      "Southern recension, Araṇya Kāṇḍa 50–52 and 67–68, cross-checked through the SanskritDocuments presentation"
+    ],
+    "sourcing": [
+      {
+        "claim": "Jaṭāyu identifies himself to Rāma as a friend of Rāma's father. He offers to stay near them and specifically says he will protect Sītā when Rāma and Lakṣmaṇa are away; Rāma honours and embraces him and entrusts Sītā to him.",
+        "locus": "Critical Edition 3.13.33–36"
+      },
+      {
+        "claim": "As Rāvaṇa carries Sītā away, Sītā calls to Jaṭāyu and asks him to tell Rāma and Lakṣmaṇa everything about her abduction. Jaṭāyu hears her cry and sees Rāvaṇa carrying her.",
+        "locus": "3.47.36; 3.48.1–2"
+      },
+      {
+        "claim": "Jaṭāyu confronts Rāvaṇa, identifies Sītā as Rāma's wife, asks what wrong Rāma has done, and argues that a king must protect rather than violate another man's wife and should not do what he would condemn in another.",
+        "locus": "3.48.3–18"
+      },
+      {
+        "claim": "Jaṭāyu says sixty thousand years have passed since his birth and contrasts his old age with Rāvaṇa's youth, weapons, armour and chariot. He notes that Rāma and Lakṣmaṇa are far away, declares that Rāvaṇa will not take Sītā while he is alive, and says he must act for Rāma and Daśaratha even at the cost of his life.",
+        "locus": "3.48.19–27"
+      },
+      {
+        "claim": "Rāvaṇa attacks Jaṭāyu with arrows. Jaṭāyu is struck, but attacks again when he sees the tearful Sītā. He wounds Rāvaṇa, breaks his bow, strikes away his armour, kills the creatures drawing the chariot, destroys the chariot, and brings Rāvaṇa to the ground. Witnessing beings praise Jaṭāyu; the text then says Jaṭāyu is exhausted by age.",
+        "locus": "3.49.5–17"
+      },
+      {
+        "claim": "Jaṭāyu attacks Rāvaṇa again with claws and beak. After continued fighting, Rāvaṇa draws his sword and cuts Jaṭāyu's wings, feet and sides. Jaṭāyu falls with a little life remaining; Sītā runs to him, embraces him like a relative and weeps, after which Rāvaṇa carries her onward.",
+        "locus": "3.49.18–40; 3.50.1–5"
+      },
+      {
+        "claim": "Later Rāma and Lakṣmaṇa find the wounded Jaṭāyu. Rāma initially mistakes him for a hostile creature. Jaṭāyu tells Rāma that Rāvaṇa carried Sītā away, says he fought Rāvaṇa, points to the broken bow, armour and chariot, and explains that Rāvaṇa cut his wings when he was exhausted. Rāma embraces Jaṭāyu, weeps, calls him his father's friend and touches him with paternal affection.",
+        "locus": "3.63.9–26"
+      },
+      {
+        "claim": "With little strength left, Jaṭāyu tells Rāma that Rāvaṇa took Sītā southward and identifies Rāvaṇa as the son of Viśravas and brother of Vaiśravaṇa. Jaṭāyu dies while Rāma is still asking him to speak.",
+        "locus": "3.64.1–17"
+      },
+      {
+        "claim": "Rāma says Jaṭāyu gave his life trying to help him and says the king of birds deserves the same honour as Daśaratha. Rāma prepares the funeral, places Jaṭāyu on the pyre and cremates him as though he were his own relative. Rāma and Lakṣmaṇa then go to the Godāvarī and make water offerings for Jaṭāyu.",
+        "locus": "3.64.22–36"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [
+      "death",
+      "violence"
+    ],
+    "careNote": "Jaṭāyu is badly wounded while trying to stop Rāvaṇa and dies after telling Rāma what happened. The fight is described clearly, but without dwelling on gore; Rāma performs Jaṭāyu's funeral rites.",
+    "gated": false
+  },
+  "values": [
+    "doing what you can when help is far away"
+  ],
+  "themes": [
+    "ramayana",
+    "jatayu",
+    "dharma",
+    "courage",
+    "family"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Jaṭāyu",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "foil"
+    },
+    {
+      "ref": "Daśaratha",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Viśravas",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Vaiśravaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Godāvarī",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 306,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sītā» called out to «Jaṭāyu»."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» was carrying her away, and «Rāma» and «Lakṣmaṇa» were far from her."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu knew them. He was a friend of Rāma's father, «Daśaratha», and he had already promised to protect Sītā when the brothers were away."
+        },
+        {
+          "t": "p",
+          "text": "So the old king of birds called to Rāvaṇa and told him to stop."
+        },
+        {
+          "t": "p",
+          "text": "He said Sītā was Rāma's wife. He said taking another man's wife was against dharma."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu did not hide his age. Sixty thousand years had passed since his birth, he said, while Rāvaṇa was younger and armed."
+        },
+        {
+          "t": "p",
+          "text": "Then Jaṭāyu said, _While I am alive, you will not take Sītā._"
+        },
+        {
+          "t": "p",
+          "text": "For Rāma and Daśaratha, he would act even if it cost him his life."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa attacked with arrows."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu fought back."
+        },
+        {
+          "t": "p",
+          "text": "He broke Rāvaṇa's bow, struck away his armour, killed the creatures drawing his chariot and destroyed the chariot itself."
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa fell to the ground."
+        },
+        {
+          "t": "p",
+          "text": "But age was exhausting Jaṭāyu."
+        },
+        {
+          "t": "p",
+          "text": "He attacked again."
+        },
+        {
+          "t": "p",
+          "text": "At last Rāvaṇa drew his sword and cut Jaṭāyu's wings, feet and sides."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu fell with a little life still in him."
+        },
+        {
+          "t": "p",
+          "text": "Sītā ran to him, embraced him like a relative and wept."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāvaṇa carried her away."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Later, Rāma and Lakṣmaṇa found Jaṭāyu."
+        },
+        {
+          "t": "p",
+          "text": "He told Rāma that Rāvaṇa had taken Sītā and that he had fought him."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu pointed to the broken bow, armour and chariot."
+        },
+        {
+          "t": "p",
+          "text": "He said Rāvaṇa had gone south."
+        },
+        {
+          "t": "p",
+          "text": "Then, while Rāma was still asking him to speak, Jaṭāyu died."
+        },
+        {
+          "t": "p",
+          "text": "Rāma embraced his father's friend and wept."
+        },
+        {
+          "t": "p",
+          "text": "He said Jaṭāyu had given his life trying to help him, and that the bird deserved the same honour as Daśaratha."
+        },
+        {
+          "t": "p",
+          "text": "Rāma prepared Jaṭāyu's funeral and cremated him as one of his own relatives."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāma and Lakṣmaṇa went to the «Godāvarī» and offered water for him."
+        },
+        {
+          "t": "slow",
+          "text": "Jaṭāyu's last words gave Rāma the direction Rāvaṇa had gone."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 658,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Earlier in the forest, «Jaṭāyu» had come to «Rāma» and «Lakṣmaṇa» and told them who he was."
+        },
+        {
+          "t": "p",
+          "text": "He was a friend of their father, «Daśaratha»."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu offered to stay near them. When Rāma and Lakṣmaṇa were away, he said, he would protect «Sītā»."
+        },
+        {
+          "t": "p",
+          "text": "Rāma honoured the old bird, embraced him, and entrusted Sītā to his care."
+        },
+        {
+          "t": "p",
+          "text": "Later, when «Rāvaṇa» carried Sītā away and the brothers were nowhere near, Sītā called to Jaṭāyu by name."
+        },
+        {
+          "t": "p",
+          "text": "She asked him to tell Rāma and Lakṣmaṇa everything that had happened."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu heard her cry."
+        },
+        {
+          "t": "p",
+          "text": "He saw Rāvaṇa carrying her away."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu called out and told Rāvaṇa to stop. He said Sītā was Rāma's wife, and asked what wrong Rāma had done to deserve this."
+        },
+        {
+          "t": "p",
+          "text": "Taking another man's wife, he said, was against dharma."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu reminded Rāvaṇa that a king is supposed to protect, not violate, another man's wife. A wise man should not do what he would condemn in someone else. Rāma, he said, had done Rāvaṇa no wrong."
+        },
+        {
+          "t": "p",
+          "text": "_Release Sītā._"
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu spoke plainly about himself too."
+        },
+        {
+          "t": "p",
+          "text": "He said that sixty thousand years had passed since his birth. Rāvaṇa was younger, armed, armoured and riding in a chariot."
+        },
+        {
+          "t": "p",
+          "text": "Rāma and Lakṣmaṇa had gone too far away for Jaṭāyu to bring them back in time."
+        },
+        {
+          "t": "p",
+          "text": "So Jaṭāyu said, _While I am alive, you will not take Sītā._"
+        },
+        {
+          "t": "p",
+          "text": "For Rāma, and for his old friend Daśaratha, he would act even if it cost him his life."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa attacked Jaṭāyu with arrows."
+        },
+        {
+          "t": "p",
+          "text": "The arrows struck him."
+        },
+        {
+          "t": "p",
+          "text": "But when Jaṭāyu saw Sītā in Rāvaṇa's chariot with tears in her eyes, he rushed at Rāvaṇa again."
+        },
+        {
+          "t": "p",
+          "text": "He wounded Rāvaṇa and broke his bow with his feet."
+        },
+        {
+          "t": "p",
+          "text": "With his wings, Jaṭāyu struck away Rāvaṇa's armour."
+        },
+        {
+          "t": "p",
+          "text": "Then he killed the creatures drawing the chariot and destroyed the chariot itself."
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa, still holding Sītā, fell to the ground."
+        },
+        {
+          "t": "p",
+          "text": "The beings who saw Rāvaṇa fall praised Jaṭāyu."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu had stopped the chariot completely."
+        },
+        {
+          "t": "p",
+          "text": "But the Rāmāyaṇa says that age was exhausting him."
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa rose again with Sītā."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu attacked again."
+        },
+        {
+          "t": "p",
+          "text": "He landed on Rāvaṇa's back and struck him with his claws and beak."
+        },
+        {
+          "t": "p",
+          "text": "The fight continued."
+        },
+        {
+          "t": "p",
+          "text": "At last Rāvaṇa drew his sword."
+        },
+        {
+          "t": "p",
+          "text": "He cut Jaṭāyu's wings, his feet and his sides."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu fell to the ground with a little life still remaining in him."
+        },
+        {
+          "t": "p",
+          "text": "Sītā ran to where he had fallen."
+        },
+        {
+          "t": "p",
+          "text": "She embraced Jaṭāyu as she would a relative and wept over him."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāvaṇa carried Sītā away again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Much later, Rāma and Lakṣmaṇa came to the place where Jaṭāyu lay."
+        },
+        {
+          "t": "p",
+          "text": "At first Rāma did not recognise him."
+        },
+        {
+          "t": "p",
+          "text": "Seeing the great wounded creature before him, Rāma thought he might be a hostile being."
+        },
+        {
+          "t": "p",
+          "text": "Then Jaṭāyu spoke."
+        },
+        {
+          "t": "p",
+          "text": "He told Rāma that Rāvaṇa had carried Sītā away."
+        },
+        {
+          "t": "p",
+          "text": "He told him that he had fought Rāvaṇa."
+        },
+        {
+          "t": "p",
+          "text": "The signs of that fight were still there."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu pointed to the broken bow, the armour and the ruined chariot."
+        },
+        {
+          "t": "p",
+          "text": "He told Rāma that Rāvaṇa had cut his wings after exhaustion had weakened him."
+        },
+        {
+          "t": "p",
+          "text": "Now Rāma knew who lay before him."
+        },
+        {
+          "t": "p",
+          "text": "This was his father's friend."
+        },
+        {
+          "t": "p",
+          "text": "Rāma embraced Jaṭāyu and wept."
+        },
+        {
+          "t": "p",
+          "text": "The Rāmāyaṇa says that Rāma touched him with the affection one gives a father."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu still had words to give."
+        },
+        {
+          "t": "p",
+          "text": "He told Rāma that Rāvaṇa had taken Sītā towards the south."
+        },
+        {
+          "t": "p",
+          "text": "He told him who Rāvaṇa was: the son of «Viśravas» and the brother of «Vaiśravaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "Rāma kept asking Jaṭāyu to speak."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu died while Rāma was still asking him for words."
+        },
+        {
+          "t": "p",
+          "text": "Rāma said that Jaṭāyu had given his life trying to help him."
+        },
+        {
+          "t": "p",
+          "text": "He told Lakṣmaṇa that Jaṭāyu's death for his sake caused him immense grief."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāma said that Jaṭāyu deserved the same honour as Daśaratha."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Rāma prepared Jaṭāyu's funeral."
+        },
+        {
+          "t": "p",
+          "text": "He placed the king of birds on the funeral pyre."
+        },
+        {
+          "t": "p",
+          "text": "He cremated Jaṭāyu as one of his own relatives."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāma and Lakṣmaṇa went to the «Godāvarī»."
+        },
+        {
+          "t": "p",
+          "text": "There, together, the two brothers offered water for Jaṭāyu."
+        },
+        {
+          "t": "slow",
+          "text": "Rāma gave his father's friend the honours of family."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "guha-boatman",
+    "reason": "another friend of Rāma who cannot change the journey, but does what he can when Rāma needs him"
+  },
+  "close": {
+    "question": "Have you ever tried to help someone even when you knew you could not control how everything would end? What made you try?",
+    "seed": "Sometimes helping means doing the part that is yours, even when you cannot control the ending.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Jaṭāyu fight Rāvaṇa when he was so old?",
+        "a": "Jaṭāyu was a friend of Daśaratha and had already told Rāma that he would protect Sītā when Rāma and Lakṣmaṇa were away. When the abduction happened, he said openly that he was old and Rāvaṇa was younger and armed. He also said the two princes were too far away for him to bring them back in time. Even so, he told Rāvaṇa that Sītā would not be taken while he was alive and that he had to act for Rāma and Daśaratha even at the cost of his life."
+      },
+      {
+        "q": "Did Jaṭāyu manage to save Sītā?",
+        "a": "He did not prevent Rāvaṇa from carrying her away in the end. But the Rāmāyaṇa gives Jaṭāyu a real fight: he breaks Rāvaṇa's bow, strikes away his armour, destroys the chariot and brings Rāvaṇa to the ground before age exhausts him. Later, while still alive, Jaṭāyu tells Rāma what happened and that Rāvaṇa went south. The text does not pretend that Jaṭāyu won the fight; it shows exactly what he was able to do."
+      },
+      {
+        "q": "Why did Rāma perform Jaṭāyu's funeral himself?",
+        "a": "Rāma says that Jaṭāyu gave his life trying to help him. He also says Jaṭāyu deserves the same honour as his father Daśaratha. The text then says Rāma placed Jaṭāyu on the funeral pyre and cremated him as though he were his own relative, after which Rāma and Lakṣmaṇa made water offerings for him at the Godāvarī."
+      }
+    ]
+  }
+}

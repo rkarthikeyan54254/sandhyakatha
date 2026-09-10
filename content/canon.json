@@ -91,17 +91,17 @@
       "corpus": "ramayana",
       "tradition": "sanskrit",
       "work": "Rāmāyaṇa",
-      "locus": "Araṇya Kāṇḍa",
+      "locus": "Araṇyakāṇḍa 3.13, 3.47–50, 3.63–64 (Critical Edition)",
       "stability": "stable",
       "minAge": 7,
       "sensitivity": [
         "death",
         "violence"
       ],
-      "value": "trying when you will lose",
-      "hook": "An old vulture, too old to fight anyone, sees a chariot going the wrong way across the sky and goes up.",
+      "value": "doing what you can when help is far away",
+      "hook": "An old king of birds sees Rāvaṇa carrying Sītā away. Rāma and Lakṣmaṇa are far away. Jaṭāyu says: while I am alive, you will not take her.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
