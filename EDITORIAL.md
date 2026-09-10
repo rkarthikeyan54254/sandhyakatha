@@ -47,6 +47,35 @@ Write it plainly and without apology. A parent who learns that the squirrel is
 Tamil and not Vālmīki has learned something true, and has learned that we tell
 them. That is the entire trust proposition, and it is worth more than the story.
 
+## What this collection is
+
+Set 2026-09-10. This is a collection of Hindu stories. Itihāsa, Purāṇa, Upaniṣad,
+the Nāyaṉmārs and Āḻvārs, the sants, and the regional and folk material that
+grew around all of it. That is the shelf, and it is deep enough for a lifetime.
+
+Material from other traditions — Jain, Buddhist — does not ship, however old,
+however beautiful, however much it rhymes with something we already tell. This
+is not a judgement on those traditions. It is what the site is for: a parent
+comes here to give a child the stories of their own tradition, in a form they
+can trust, and a collection that wanders is no longer that.
+
+`scripts/validate.mjs` enforces this — a canon row whose tradition is `jain` or
+`buddhist` fails unless the row is `retired`. The enum keeps those values so the
+retired rows stay honest about what they were.
+
+Two things this rule does **not** decide, and a person still has to:
+
+- **Hindu stories about non-Hindus.** Some Nāyaṉmār material is set against
+  Jains, and some of it ends badly for them. Being Hindu material puts it in
+  scope; it does not put it in the collection. The older test still governs —
+  does the story ask a child to admire the harm — and a story whose pleasure is
+  a rival community losing is a story a child carries to school the next day.
+- **Figures both traditions claim.** Kabīr is the live case: he sits in the
+  bhakti canon and is sung in Hindu households, and he was raised in a Muslim
+  weaver's family, and the story we had planned for him is precisely the one
+  where both crowds come for his body. `kabir-shroud` (canon row 43) is
+  unresolved and stays `draft` until it is decided deliberately.
+
 ## Vālmīki is the Rāmāyaṇa
 
 Other Rāmāyaṇas exist, and scholars are right that there are hundreds. This site

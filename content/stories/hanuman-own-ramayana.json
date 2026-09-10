@@ -1,0 +1,329 @@
+{
+  "id": "hanuman-own-ramayana",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-10",
+  "title": "Hanumān Wrote One Too",
+  "tease": "Vālmīki climbs a mountain to read the Rāmāyaṇa somebody else wrote, and finds it is better than his. What happens next is Hanumān's decision, not his.",
+  "source": {
+    "corpus": "other-ramayana",
+    "tradition": "folk",
+    "work": "Told about the Hanumannāṭaka, a Sanskrit play attributed to Dāmodara Miśra",
+    "locus": "The traditional account of how the Hanumannāṭaka came to exist",
+    "stability": "folk",
+    "traditionNote": "No text tells this as an event. It is the story told about a text — the Sanskrit play Hanumannāṭaka, whose own tradition says it was built from a stone fragment of Hanumān's writing found in King Bhoja's reign. The play is real and translated. The mountain is the story about the play.",
+    "checkedAgainst": [
+      "Dāmodara Miśra, Hanumannāṭaka — A.N.D. Haksar trans., 'Hanuman Drama' (India Penguin Classics, 2023)",
+      "Critical study of the Hanumannāṭaka: the Bhojacarita anecdote, the two recensions, and Dāmodara Miśra's date"
+    ],
+    "sourcing": [
+      {
+        "claim": "Tradition holds that Hanumān composed a Rāmāyaṇa of his own and cut it into rock with his nails",
+        "locus": "traditional account of the Hanumannāṭaka"
+      },
+      {
+        "claim": "Vālmīki saw it and judged his own poem would lose its readers to it",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The stone writing went into the sea",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The tradition gives no explanation of why Hanumān's was the better poem",
+        "locus": "ibid. — absence noted deliberately"
+      },
+      {
+        "claim": "In devotional retellings Hanumān gives his reason: it was an offering to Rāma, not a thing written for readers",
+        "locus": "popular devotional retellings, not the Hanumannāṭaka account"
+      },
+      {
+        "claim": "Vālmīki's Rāmāyaṇa is the one that survives and the one every later telling descends from",
+        "locus": "general"
+      },
+      {
+        "claim": "A broken stone with writing on it was found and carried to King Bhoja, who read a line from it on the spot",
+        "locus": "Bhojacarita anecdote, as reported in the critical study"
+      },
+      {
+        "claim": "Bhoja had his court poet remake what was left, and the Hanumannāṭaka is the result",
+        "locus": "ibid.; Dāmodara Miśra placed in the 11th century, court of Bhoja of Dhārā"
+      },
+      {
+        "claim": "The Hanumannāṭaka is a real Sanskrit play, in fourteen acts, readable today in English",
+        "locus": "Haksar trans."
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Who decided the writing should go into the sea",
+        "tellings": "Devotional retellings have Hanumān decide it himself on seeing Vālmīki's face. The account attached to the play has Vālmīki ask him to, out of concern that his own poem would lose its readers.",
+        "weTell": "Hanumān decides. The other telling is named here rather than buried, because it is the more uncomfortable one and a parent may know it."
+      },
+      {
+        "differs": "Which king found the fragment, and which play we mean",
+        "tellings": "The Bhojacarita anecdote names Bhoja of Dhārā. A second, Bengali recension of the play — nine acts, edited by Madhusūdana Miśra and usually called the Mahānāṭaka — names Vikramāditya instead. Popular retellings sometimes put Kālidāsa in the finder's place.",
+        "weTell": "Bhoja, and the fourteen-act Hanumannāṭaka of Dāmodara Miśra, which is the older recension and the one in English."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "letting the better one go"
+  ],
+  "themes": [
+    "ramayana",
+    "hanuman",
+    "making things",
+    "giving something up"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Hanumān",
+      "role": "lead"
+    },
+    {
+      "ref": "Vālmīki",
+      "role": "foil"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 319,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "After the war was over, after «Rāma» was king and everyone had gone home to their own lives, «Hanumān» went up into the mountains by himself."
+        },
+        {
+          "t": "p",
+          "text": "He had been in the story. He had crossed the sea for it and carried the news back. Now he wanted to write it down — not for anyone, just written down, the way it had been."
+        },
+        {
+          "t": "p",
+          "text": "He had no paper and no ink. So he wrote it on the rocks, with his nails, one line at a time, and it took him years."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And «Vālmīki» came up the mountain to read it."
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki was writing a «Rāmāyaṇa» too. His is the one we have. His is the one everybody has."
+        },
+        {
+          "t": "p",
+          "text": "He walked along the rock face, reading. When he got to the end he sat down on one of the stones and did not say anything for a long time."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Because Hanumān's was better."
+        },
+        {
+          "t": "p",
+          "text": "The story does not explain how. It just says he read it, and knew, and could not get up."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān watched his face and asked what was wrong. And Vālmīki said the true thing, which was a hard thing to say out loud: that now nobody would ever read his."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So Hanumān got up. He gathered the rocks — all of them, all those years of them — carried them to the edge of the mountain, and threw them into the sea."
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki shouted at him. _What have you done?_"
+        },
+        {
+          "t": "p",
+          "text": "And Hanumān said he had not written it for readers. He had written it for Rāma. It was finished the moment it was finished, and it had already done everything it was for."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The Rāmāyaṇa people have been reading ever since is Vālmīki's, and it is a great poem, and it is the one we have partly because Hanumān wanted it that way."
+        },
+        {
+          "t": "slow",
+          "text": "The strongest one in the story turned out to be strong about something else entirely."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 664,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "After the war was over, after «Rāma» was crowned and the city had stopped celebrating and everyone had gone home to their own lives, «Hanumān» went up into the mountains by himself."
+        },
+        {
+          "t": "p",
+          "text": "He had been in the story. He had crossed the sea for it, walked into a burning city and out again, and carried the news that she was alive."
+        },
+        {
+          "t": "p",
+          "text": "And now it was over, and he wanted to write it down. Not for anybody. Just written down once, the way it had been."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He had no paper and no ink and nothing to make them from, so he used what was there. He wrote on the rock faces of the mountain, cutting the letters with his nails, one line at a time."
+        },
+        {
+          "t": "p",
+          "text": "It took years, and nobody was watching him do it. When he finished, the whole thing stood along the mountainside in the open air, where there was nobody to read it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Vālmīki» came up the mountain."
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki was writing a «Rāmāyaṇa» of his own — the one we have, the one every telling since has come from, including this one. He had heard there was another, and came to see it."
+        },
+        {
+          "t": "p",
+          "text": "He walked along the rock face reading it, beginning to end. Then he sat down on one of the stones and said nothing at all."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Because Hanumān's was better."
+        },
+        {
+          "t": "p",
+          "text": "The story is not interested in explaining how. It does not say Hanumān had a better ear, or knew things Vālmīki could not have known. It says only that Vālmīki read it and knew, the way you know, and that he could not get up off the stone afterwards."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān waited a while, and then asked him what was wrong."
+        },
+        {
+          "t": "p",
+          "text": "Understand what Vālmīki had put in. Years of it. He had found the metre for it and then built the whole thing inside that metre, line after line, and he had done it well enough that we still have every word."
+        },
+        {
+          "t": "p",
+          "text": "And Vālmīki told him, which took some getting out. If this one existed, nobody was going to read his. Not out of unfairness. Just because people read the better one."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Hanumān stood up and started gathering the rocks."
+        },
+        {
+          "t": "p",
+          "text": "All of them. Every slab, all those years of them, stacked and carried in armfuls to the edge of the mountain. And then he threw the whole thing into the sea."
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki ran after him shouting. _What have you done?_"
+        },
+        {
+          "t": "p",
+          "text": "And Hanumān said — this is the part of the story people remember — that he had not written it for readers. He had written it for Rāma. It was finished the moment it was finished. It had already done every single thing it was for, and being read was never one of them."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Vālmīki went back down the mountain and wrote his. It is what we have. It is a great poem, and it is the one this whole collection comes out of — and it is the one we have partly because somebody decided it should be."
+        },
+        {
+          "t": "aside",
+          "text": "There is no book that tells this. It is the story people tell about a book — an old Sanskrit play called the Hanumannāṭaka, whose own tradition says it was built out of a piece of Hanumān's writing that washed up an age later. The play is real and you can read it in English. Whether any of the rest happened, nobody knows."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That washed-up piece is the last part of the story, and it is a good one."
+        },
+        {
+          "t": "p",
+          "text": "An age afterwards — long enough that the war had become something people only had poems about — a broken stone with writing on it is said to have come out of the sea."
+        },
+        {
+          "t": "p",
+          "text": "A trader found it. It was carried inland to a king called «Bhoja», and he read a line of it standing there and knew exactly what he was holding."
+        },
+        {
+          "t": "p",
+          "text": "Most of it was gone. He gave what was left to a poet at his court and told him to make something of it, and the poet did, and that is the play."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So a piece of the thing Hanumān threw away came back as a play, most of it missing, finished by somebody else, an age too late to matter to him."
+        },
+        {
+          "t": "slow",
+          "text": "He gave away the best thing he ever made and did not appear to feel it as a loss."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "valmiki-first-shloka",
+    "reason": "the same poet, at the other end of his life, on the day the first line arrived without being asked for"
+  },
+  "close": {
+    "question": "He worked on it for years and then threw it in the sea. Do you think he was sad about it?",
+    "seed": "Making a thing and being known for it are two different wants, and you can have the first without the second.",
+    "ifTheyAsk": [
+      {
+        "q": "Why was Hanumān's better?",
+        "a": "The story refuses to say, and that is worth noticing. It does not claim he wrote better lines or knew things Vālmīki did not. It only says Vālmīki read it and could tell. Anyone who gives you a reason is adding one."
+      },
+      {
+        "q": "Did that really happen?",
+        "a": "Nobody knows, and there is no book old enough to check. What is real is the play it is told about, the Hanumannāṭaka, which is very old — around a thousand years — and which you can read in English. The mountain part is the story that grew up around it."
+      },
+      {
+        "q": "Is Hanumān's Rāmāyaṇa still out there?",
+        "a": "In the story, one broken piece of it came out of the sea long afterwards and became the play. The rest is meant to still be down there."
+      }
+    ]
+  }
+}

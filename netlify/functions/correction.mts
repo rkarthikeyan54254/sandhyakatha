@@ -14,17 +14,32 @@ import { getStore } from '@netlify/blobs';
  * one thing we hold, and PRIVACY.md says what happens to it.
  *
  * POST /api/correction        { storyId, version, note }
- * GET  /api/correction?key=…  everything, for whoever holds CORRECTIONS_KEY
+ * GET  /api/correction         everything, for whoever holds CORRECTIONS_KEY,
+ *                              sent as `Authorization: Bearer <key>`.
+ *
+ * The key goes in a header, never a query string. A query string is written to
+ * Netlify's access log, kept in shell history, and handed to every proxy in
+ * between; a header is not logged. Compared in constant time so that a wrong
+ * key cannot be found one character at a time by timing the replies.
  */
 const MAX_NOTE = 2000;
+
+/** Constant-time compare. Length is allowed to leak; the bytes are not. */
+const sameSecret = (a: string, b: string) => {
+  if (a.length !== b.length) return false;
+  let d = 0;
+  for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return d === 0;
+};
 
 export default async (req: Request, _ctx: Context) => {
   const store = getStore({ name: 'corrections', consistency: 'strong' });
 
   if (req.method === 'GET') {
-    const key = new URL(req.url).searchParams.get('key');
-    const expected = process.env.CORRECTIONS_KEY;
-    if (!expected || expected.length < 16 || key !== expected)
+    const auth = req.headers.get('authorization') ?? '';
+    const key = /^Bearer\s+(.+)$/i.exec(auth)?.[1]?.trim() ?? '';
+    const expected = process.env.CORRECTIONS_KEY ?? '';
+    if (expected.length < 16 || !sameSecret(key, expected))
       return new Response('not found', { status: 404 });
     const { blobs } = await store.list();
     const out = [];

@@ -23,8 +23,8 @@ if (!key) {
   process.exit(1);
 }
 
-const r = await fetch(`${SITE}/api/correction?key=${encodeURIComponent(key)}`);
-if (!r.ok) { console.error(`${r.status} — wrong key, or the function is not deployed yet.`); process.exit(1); }
+const r = await fetch(`${SITE}/api/correction`, { headers: { authorization: `Bearer ${key}` } });
+if (!r.ok) { console.error(`${r.status} — wrong key, or CORRECTIONS_KEY is not set on the site, or the function is not deployed yet.`); process.exit(1); }
 const { count, corrections } = await r.json();
 
 if (!count) { console.log('\nNothing reported. That is either very good or very quiet.\n'); process.exit(0); }

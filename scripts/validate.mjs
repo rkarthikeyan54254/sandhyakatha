@@ -240,6 +240,8 @@ try {
 // The canon is not schema-validated (only stories are), so its enums used to
 // drift unchecked — a bare "purana" corpus rendered fine in the UI and was
 // never legal. Check it against the same enums the stories obey.
+const OUT_OF_SCOPE = new Set(['jain', 'buddhist']);
+
 {
   const cEnum = new Set(schema.properties.source.properties.corpus.enum);
   const tEnum = new Set(schema.properties.source.properties.tradition.enum);
@@ -248,6 +250,13 @@ try {
     if (!cEnum.has(c.corpus))    err('canon.json', `"${c.id}" has corpus "${c.corpus}", which is not in the schema`);
     if (!tEnum.has(c.tradition)) err('canon.json', `"${c.id}" has tradition "${c.tradition}", which is not in the schema`);
     if (!sEnum.has(c.status))    err('canon.json', `"${c.id}" has status "${c.status}", which is not in the schema`);
+    // Scope, set 2026-09-10: the collection draws on Hindu tradition. The enum
+    // still carries jain and buddhist because retired rows use them and the
+    // record is kept, but nothing in those traditions ships. See EDITORIAL.md,
+    // "What this collection is". A rule written only in prose gets forgotten by
+    // the third batch; this is the same rule with teeth.
+    if (OUT_OF_SCOPE.has(c.tradition) && c.status !== 'retired')
+      err('canon.json', `"${c.id}" is tradition "${c.tradition}", which is outside what this collection tells — retire the row or change the tradition (EDITORIAL.md, "What this collection is")`);
     // A canon row claiming publication with no story behind it is the worst
     // kind of drift: the shelf promises something that does not exist.
     if (c.status === 'published' && !stories.has(c.id))
