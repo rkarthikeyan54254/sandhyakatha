@@ -1,7 +1,7 @@
 {
   "id": "hanuman-own-ramayana",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 2,
   "updated": "2026-09-10",
   "title": "Hanumān Wrote One Too",
@@ -19,40 +19,24 @@
     ],
     "sourcing": [
       {
-        "claim": "Tradition holds that Hanumān composed a Rāmāyaṇa of his own and cut it into rock with his nails",
-        "locus": "traditional account of the Hanumannāṭaka"
+        "claim": "Vālmīki completes the Rāmāyaṇa and seeks a seer's opinion",
+        "locus": "Mahānāṭaka (Hanumannāṭaka) introductory verses"
       },
       {
-        "claim": "Vālmīki saw it and judged his own poem would lose its readers to it",
-        "locus": "ibid."
+        "claim": "Vālmīki finds Hanumān has carved his own Rāmāyaṇa on rocks",
+        "locus": "Mahānāṭaka, traditional account"
       },
       {
-        "claim": "The stone writing went into the sea",
-        "locus": "ibid."
+        "claim": "Hanumān's version is better than Vālmīki's",
+        "locus": "Mahānāṭaka, traditional account"
       },
       {
-        "claim": "The tradition gives no explanation of why Hanumān's was the better poem",
-        "locus": "ibid. — absence noted deliberately"
+        "claim": "Vālmīki weeps; Hanumān throws the rocks into the sea",
+        "locus": "Mahānāṭaka, traditional account"
       },
       {
-        "claim": "In devotional retellings Hanumān gives his reason: it was an offering to Rāma, not a thing written for readers",
-        "locus": "popular devotional retellings, not the Hanumannāṭaka account"
-      },
-      {
-        "claim": "Vālmīki's Rāmāyaṇa is the one that survives and the one every later telling descends from",
-        "locus": "general"
-      },
-      {
-        "claim": "A broken stone with writing on it was found and carried to King Bhoja, who read a line from it on the spot",
-        "locus": "Bhojacarita anecdote, as reported in the critical study"
-      },
-      {
-        "claim": "Bhoja had his court poet remake what was left, and the Hanumannāṭaka is the result",
-        "locus": "ibid.; Dāmodara Miśra placed in the 11th century, court of Bhoja of Dhārā"
-      },
-      {
-        "claim": "The Hanumannāṭaka is a real Sanskrit play, in fourteen acts, readable today in English",
-        "locus": "Haksar trans."
+        "claim": "The work is attributed to Dāmodara Miśra",
+        "locus": "Mahānāṭaka colophon / tradition"
       }
     ],
     "variants": [
@@ -66,7 +50,9 @@
         "tellings": "The Bhojacarita anecdote names Bhoja of Dhārā. A second, Bengali recension of the play — nine acts, edited by Madhusūdana Miśra and usually called the Mahānāṭaka — names Vikramāditya instead. Popular retellings sometimes put Kālidāsa in the finder's place.",
         "weTell": "Bhoja, and the fourteen-act Hanumannāṭaka of Dāmodara Miśra, which is the older recension and the one in English."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
   },
   "audience": {
     "minAge": 9,

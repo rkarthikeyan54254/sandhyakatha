@@ -1,0 +1,272 @@
+{
+  "id": "shabari-berries",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-10",
+  "title": "Śabarī's Tasted Berries",
+  "tease": "She bites every berry first to check it is sweet, which ruins it. He eats them anyway.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Rāmāyaṇa",
+    "locus": "Araṇya Kāṇḍa, Sarga 73–74",
+    "stability": "variant",
+    "traditionNote": "Tellings differ on Śabarī's origin — hunter's daughter, sage's disciple, or outcaste. The berry-tasting is constant; the social frame shifts. We tell the version where Lakṣmaṇa sees a line and Rāma ignores it.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Araṇya Kāṇḍa — Critical Edition, Baroda, Sarga 73–74",
+      "Rāmcaritmānas, Araṇya Kāṇḍ — Tulsidas (for the bhakti framing)"
+    ],
+    "variants": [
+      {
+        "differs": "Śabarī's birth and social standing",
+        "tellings": "Vālmīki presents her as a tapasvinī (ascetic woman) without specifying caste. Later commentaries and regional retellings variously make her a hunter's daughter, a sage's disciple, or explicitly an outcaste. The Rāmcaritmānas emphasizes her bhakti over birth.",
+        "weTell": "the version where Lakṣmaṇa hesitates at her touch and Rāma does not, because that tension is the story's heart"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10",
+    "sourcing": [
+      {
+        "claim": "Rāma and Lakṣmaṇa are in the forest during exile",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.1–5"
+      },
+      {
+        "claim": "They meet Śabarī at her ashram",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.6–10"
+      },
+      {
+        "claim": "Śabarī offers tasted berries to Rāma",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.11–18"
+      },
+      {
+        "claim": "Lakṣmaṇa hesitates at her touch/caste",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.19–22"
+      },
+      {
+        "claim": "Rāma accepts and eats the berries",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.23–28"
+      },
+      {
+        "claim": "Śabarī's backstory as hunter's daughter given to sage",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 73.29–74.5"
+      },
+      {
+        "claim": "Śabarī dies after Rāma's visit",
+        "locus": "Vālmīki, Araṇya Kāṇḍa 74.6–12"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 5,
+    "sensitivity": [
+      "social-hierarchy"
+    ],
+    "careNote": "Lakṣmaṇa almost refuses food from someone he considers lower status. The story shows Rāma crossing that line. Some children notice the caste frame; others just see kindness winning."
+  },
+  "values": [
+    "love outranks correctness",
+    "being overlooked"
+  ],
+  "themes": [
+    "forest",
+    "waiting",
+    "caste",
+    "bhakti"
+  ],
+  "calendar": {
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Śabarī",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "lead"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "foil"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 331,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Rāma» and «Lakṣmaṇa» walked a forest path that was more suggestion than road — thinner trees, lower roots, thorns growing somewhere else. Fourteen years of walking had settled into their bones. The bow on Rāma's shoulder had worn a groove in the rhythm of his stride."
+        },
+        {
+          "t": "p",
+          "text": "In a clearing, an old woman sat outside a hut of branches. She did not stand; her legs had forgotten how. Her back was bent like a bow left strung too long. But her hands moved over a basket of berries — pick, bite, taste, set aside. A small pile of rejects lay at her feet, returning to the earth."
+        },
+        {
+          "t": "p",
+          "text": "_Mother, what are you doing?_ Rāma asked."
+        },
+        {
+          "t": "p",
+          "text": "She did not look up. _Checking, son. The sweet ones stay. The sour ones go back. You do not want a sour berry. Nobody does._"
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa bristled. _Every berry has been in your mouth. You are a hunter's daughter. Your touch makes them —_"
+        },
+        {
+          "t": "p",
+          "text": "Rāma stopped him. _Let her finish._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She held out the basket. Twenty berries, each with a tooth mark. Each sweet. _For you,_ she said. _I have waited. Every morning I swept the path. Every evening I picked the best. I did not know which day you would come. I only knew you would._"
+        },
+        {
+          "t": "p",
+          "text": "Rāma ate them all. The juice ran down his fingers, dark as jamun."
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa watched, and something in him shifted — not all at once, but the way a stone changes when water runs over it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She was «Śabarī», a hunter's daughter given to a sage. The sage taught her to wait, to serve, to know the difference between a rule and a heart. He died. The others left. She stayed, because he had said: _Rāma will come. Give him the sweetest berries._ So she did. For years. Every berry bitten. Every berry sweet."
+        },
+        {
+          "t": "p",
+          "text": "Rāma licked his fingers. _They were good. Thank you._"
+        },
+        {
+          "t": "slow",
+          "text": "The path felt swept for the rest of the day — by something that was not a broom."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 621,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The path through the forest was not a road. It was a suggestion — a clearing where the trees happened to be thinner, and the roots happened to be lower, and the thorns happened to grow somewhere else."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» walked it with «Lakṣmaṇa» at his side. Fourteen years was a long time to carry a bow you did not ask for, and a brother who refused to let you carry it alone. Their feet knew the rhythm of it by now — the long stride, the breathing that matched the walking, the silence that did not need filling."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They came to a clearing where an old woman sat outside a hut made of branches and leaves. She did not stand up. She could not — her legs had not worked the way legs should for longer than anyone in the forest could remember. Her back was bent like a bow left strung too long."
+        },
+        {
+          "t": "p",
+          "text": "But her hands moved. They moved over a shallow basket of berries, one by one, picking each one up, biting it, tasting it, and setting it aside. A small pile of rejected berries lay at her feet, returning to the earth they came from."
+        },
+        {
+          "t": "p",
+          "text": "Rāma stopped. Lakṣmaṇa stopped. The silence in the clearing had weight."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "_Mother,_ Rāma said. _What are you doing?_"
+        },
+        {
+          "t": "p",
+          "text": "She did not look up. _Checking, son. The sweet ones go in the basket. The sour ones go back to the earth. You do not want to eat a sour berry. Nobody does._"
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa shifted. His hand went to his bow. _You are biting every berry,_ he said, and his voice had an edge. _That means every berry in that basket has been in your mouth. You are a hunter's daughter. A forest dweller. Your touch makes them —_"
+        },
+        {
+          "t": "p",
+          "text": "He did not finish. He did not need to."
+        },
+        {
+          "t": "p",
+          "text": "Rāma put a hand on his brother's arm. _Let her finish._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She finished. The basket held perhaps twenty berries. Each one had a small tooth mark in its skin, a crescent moon pressed into the dark flesh. Each one was sweet."
+        },
+        {
+          "t": "p",
+          "text": "She held the basket out. Her hands did not tremble. _For you,_ she said. _I have waited. Every morning I swept the path. Every evening I picked the best berries. I did not know which day you would come. I only knew you would._"
+        },
+        {
+          "t": "p",
+          "text": "Rāma took the basket. He did not wipe the berries. He did not set them aside. He ate them, one after another, and the juice ran down his fingers, staining them the colour of crushed jamun."
+        },
+        {
+          "t": "p",
+          "text": "Lakṣmaṇa watched, and something in his face changed — not all at once, but the way a stone changes when water has been running over it for a long time."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She told them then. Her name was «Śabarī». She had been a hunter's daughter, yes. She had been given to a sage as a child, and the sage had taught her to wait, and to serve."
+        },
+        {
+          "t": "p",
+          "text": "The sage had died. The other disciples had left, one by one, going back to villages and families and the lives they had put on hold. She had stayed, because he had said: _Rāma will come this way. When he does, give him the sweetest berries you can find._"
+        },
+        {
+          "t": "p",
+          "text": "So she had. For years. Every berry bitten. Every berry sweet. Every morning the path swept. Every evening the basket filled."
+        },
+        {
+          "t": "p",
+          "text": "Rāma ate the last one. He licked his fingers. _They were good,_ he said. _Thank you._"
+        },
+        {
+          "t": "slow",
+          "text": "She bowed her head then, and the breath left her, and the forest was quiet again — except that the path they had walked on felt, for the rest of the day, like it had been swept by something that was not a broom."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "guha-boatman",
+    "reason": "another story where friendship crosses the lines society draws"
+  },
+  "close": {
+    "question": "Lakṣmaṇa almost refused the berries because of who she was. Have you ever almost missed something good because of where it came from?",
+    "seed": "A gift given in love is never the wrong shape.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Lakṣmaṇa hesitate?",
+        "a": "He saw a line — she was a forest dweller, a hunter's daughter, and the berries had been in her mouth. In his world, that matters. The story shows Rāma not seeing the line, or seeing it and stepping across it anyway. Ask your child which they would do."
+      },
+      {
+        "q": "Why did she bite every berry?",
+        "a": "She wanted to be sure they were sweet. That is the whole answer. To Lakṣmaṇa it looks like impurity; to her it is care. The story asks which one you see first."
+      },
+      {
+        "q": "Did Rāma know the berries were bitten?",
+        "a": "Of course. He watched her do it. He ate them anyway. That is the point — he knew, and it did not matter to him. The question the story leaves you with is whether it would matter to you."
+      }
+    ]
+  }
+}

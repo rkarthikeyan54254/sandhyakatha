@@ -40,7 +40,7 @@
       "value": "love outranks correctness",
       "hook": "She bites every berry first to check it is sweet, which ruins it. He eats them anyway.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -1102,7 +1102,7 @@
       "value": "letting the better one go",
       "hook": "Vālmīki finds that Hanumān has carved his own Rāmāyaṇa onto rocks, and that it is better than his. Hanumān throws the rocks into the sea.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
