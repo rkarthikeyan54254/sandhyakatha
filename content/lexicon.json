@@ -1576,5 +1576,33 @@
       "Bhoja of Dhara",
       "Bhoja of Dhārā"
     ]
+  },
+  "Gaṅgā": {
+    "id": "ganga",
+    "native": {
+      "deva": "गङ्गा"
+    },
+    "say": "GUNG-gaa",
+    "ipa": "ˈɡɐŋ.ɡaː",
+    "kind": "place",
+    "gloss": "The river that falls from heaven. Bhagīratha brought her down; she still carries the ash of sixty thousand sons.",
+    "aliases": [
+      "Ganga",
+      "Ganges"
+    ]
+  },
+  "Sumantra": {
+    "id": "sumantra",
+    "native": {
+      "deva": "सुमन्त्र"
+    },
+    "say": "soo-MUN-truh",
+    "ipa": "suːˈmʊn.trɐ",
+    "kind": "person",
+    "gloss": "King Daśaratha's charioteer and trusted minister, who drove Rāma, Sītā and Lakṣmaṇa to the forest and brought the news back to Ayodhyā.",
+    "aliases": [
+      "Sumantra",
+      "Sumant"
+    ]
   }
 }
