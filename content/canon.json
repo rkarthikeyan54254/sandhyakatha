@@ -67,7 +67,7 @@
     {
       "n": 4,
       "id": "guha-boatman",
-      "title": "Guha the Boatman",
+      "title": "Guha Keeps Watch",
       "corpus": "ramayana",
       "tradition": "sanskrit",
       "work": "Rāmāyaṇa",
@@ -78,9 +78,9 @@
         "social-hierarchy"
       ],
       "value": "friendship across rank",
-      "hook": "A prince with no kingdom left meets a boatman, and the boatman is the one who decides they are friends.",
+      "hook": "Rāma's friend offers him a kingdom. Rāma asks for only one thing: feed my father's horses.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -158,11 +158,11 @@
       "minAge": 6,
       "sensitivity": [],
       "value": "strength meets its match, politely",
-      "hook": "The strongest man alive cannot move an old monkey's tail off the path. The monkey apologises.",
+      "hook": "The strongest man alive cannot move an old monkey's tail off the path. So he stops, bows, and asks who is in front of him.",
       "festivals": [
         "hanuman-jayanti"
       ],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },

@@ -1,0 +1,401 @@
+{
+  "id": "hanuman-tail",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-10",
+  "title": "The Tail Bhīma Could Not Lift",
+  "tease": "The strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān",
+    "stability": "stable",
+    "traditionNote": "This telling follows the Sanskrit Mahābhārata episode in which Bhīma meets Hanumān on Gandhamādana. The familiar tail episode, their shared father Vāyu, Hanumān's expanded form, and his promises concerning Bhīma's roar and Arjuna's flag are all present in this passage.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Mahābhārata Critical Edition, Bhandarkar Oriental Research Institute, Āraṇyakaparvan 3.146–150",
+      "Kisari Mohan Ganguli trans., Mahābhārata, Vana Parva, Sections CXLV–CL"
+    ],
+    "sourcing": [
+      {
+        "claim": "A thousand-petalled fragrant lotus is carried by the wind to Draupadī; she asks Bhīma to obtain more, and Bhīma sets out towards their source through Gandhamādana.",
+        "locus": "Critical Edition 3.146.1–54"
+      },
+      {
+        "claim": "Bhīma moves noisily through the forest and blows his conch; Hanumān lies in a plantain grove with his tail across the route, warns Bhīma that the path ahead is inaccessible to mortals, and tells him to turn back.",
+        "locus": "3.146.55–81"
+      },
+      {
+        "claim": "Bhīma identifies himself as a son of Pāṇḍu and Kuntī and of Vāyu; he refuses to leap over the monkey, speaks of Hanumān's ocean leap, calls Hanumān his brother, and boasts of being his equal in strength.",
+        "locus": "3.147.1–16"
+      },
+      {
+        "claim": "Hanumān tells Bhīma to move his tail. Bhīma first tries with his left hand, then with both arms; he cannot lift it, sweats, becomes ashamed, bows with joined hands, apologises, and asks who the monkey really is.",
+        "locus": "3.147.17–24"
+      },
+      {
+        "claim": "Hanumān identifies himself and tells Bhīma that he too is a son of Vāyu. He recounts his connection with Rāma and explains that he obstructed Bhīma because the route ahead was dangerous and not for mortals.",
+        "locus": "3.147.25–41"
+      },
+      {
+        "claim": "Bhīma asks to see the great form Hanumān had when he crossed the ocean. After discussing how the ages differ, Hanumān grants the request and expands to a vast, mountain-like, radiant form that Bhīma cannot continue looking at.",
+        "locus": "3.148.1–39; 3.149.1–13"
+      },
+      {
+        "claim": "Hanumān contracts his form and embraces Bhīma, removing his fatigue. He offers assistance; Bhīma is satisfied with Hanumān's favour and protection rather than asking him to destroy his enemies.",
+        "locus": "3.150.1–10"
+      },
+      {
+        "claim": "Hanumān promises to strengthen Bhīma's roar in battle with his own voice and to remain on Arjuna's flagstaff, directs Bhīma onward towards the flowers, and disappears; Bhīma continues while remembering Hanumān and Rāma.",
+        "locus": "3.150.11–17"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-10"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "strength meets its match, politely"
+  ],
+  "themes": [
+    "mahabharata",
+    "hanuman",
+    "strength",
+    "brothers"
+  ],
+  "calendar": {
+    "festivals": [
+      "hanuman-jayanti"
+    ],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Bhīma",
+      "role": "lead"
+    },
+    {
+      "ref": "Hanumān",
+      "role": "foil"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 317,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A thousand-petalled lotus came riding on the wind, wonderfully fragrant. «Bhīma» was asked to bring back more like it."
+        },
+        {
+          "t": "p",
+          "text": "So he took his weapons and followed the direction of the wind into the mountain forest."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma went loudly. He pushed through the growth, shouted across the slopes, and blew his conch."
+        },
+        {
+          "t": "p",
+          "text": "He was looking for the source of the flower, and nothing in the forest had yet given him a reason to doubt that he could go wherever he chose."
+        },
+        {
+          "t": "p",
+          "text": "Then the path narrowed. A monkey lay across it, his tail stretched over the way."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma told him to move. The monkey said he was old and had no strength to rise. _Then move my tail aside and pass._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bhīma reached down with his left hand."
+        },
+        {
+          "t": "p",
+          "text": "The tail did not move."
+        },
+        {
+          "t": "p",
+          "text": "He tried with both arms. Still nothing. Bhīma pulled until sweat covered him."
+        },
+        {
+          "t": "p",
+          "text": "The strongest of the Pāṇḍavas could not lift one monkey's tail."
+        },
+        {
+          "t": "p",
+          "text": "So he stopped. He bowed and joined his hands. _Forgive my harsh words. Who are you?_"
+        },
+        {
+          "t": "p",
+          "text": "The monkey answered: _I am «Hanumān»._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bhīma had just been boasting about Hanumān and calling him his brother. Now that brother stood before him."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān explained that the path ahead was dangerous and not a road for mortals. He had blocked it to protect Bhīma, and he showed him another way towards the flowers."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma asked to see the great form Hanumān had taken when he crossed the ocean for «Rāma»."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān granted his request. He grew until the Mahābhārata compares him to a mountain, shining so brilliantly that Bhīma could not keep looking."
+        },
+        {
+          "t": "p",
+          "text": "Then Hanumān became small again and embraced his brother. Bhīma's weariness left him."
+        },
+        {
+          "t": "p",
+          "text": "Before they parted, Hanumān promised that one day in battle he would add his own cry to Bhīma's roar and remain upon «Arjuna»'s flagstaff."
+        },
+        {
+          "t": "slow",
+          "text": "Bhīma walked on, remembering the brother whose tail he had not been able to move."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 677,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A thousand-petalled lotus came riding on the wind, wonderfully fragrant. It had been blown into the Pāṇḍavas' camp, and «Bhīma» was asked to bring back more like it."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma took his bow, arrows and sword and followed the direction from which the flower had come."
+        },
+        {
+          "t": "p",
+          "text": "He pushed through the mountain forest, shouted across the slopes and blew his conch until the sound rolled through the trees."
+        },
+        {
+          "t": "p",
+          "text": "Ahead was a grove of plantain trees. Across the narrow way lay a monkey, his long tail stretched across the path."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bhīma made himself heard."
+        },
+        {
+          "t": "p",
+          "text": "The monkey opened his eyes and asked why a sleeping creature had been disturbed. He warned Bhīma that the path ahead was not for mortals and told him to turn back."
+        },
+        {
+          "t": "p",
+          "text": "He even offered Bhīma roots and fruits and told him to rest instead."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma announced who he was: a son of Pāṇḍu and Kuntī, born through the Wind."
+        },
+        {
+          "t": "p",
+          "text": "The monkey still would not move. _I am old and have no strength to rise. If you must go on, leap over me._"
+        },
+        {
+          "t": "p",
+          "text": "Bhīma refused. He said he would not leap over another being. Otherwise, he added, he could leap as «Hanumān» had once leapt across the ocean."
+        },
+        {
+          "t": "p",
+          "text": "He explained why he would not simply step or leap across: the same divine presence dwells in every being, and he would not show it disrespect."
+        },
+        {
+          "t": "p",
+          "text": "The monkey asked who Hanumān was."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma answered proudly. Hanumān was his brother, the one who crossed the ocean for «Rāma», and Bhīma declared himself his equal in strength and courage."
+        },
+        {
+          "t": "p",
+          "text": "The monkey answered simply: _Then move my tail aside and pass._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bhīma took the tail with his left hand."
+        },
+        {
+          "t": "p",
+          "text": "It did not move."
+        },
+        {
+          "t": "p",
+          "text": "He took it with both arms. Still it did not rise."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma pulled with the strength for which he was famous. Sweat covered him. The tail stayed where it was."
+        },
+        {
+          "t": "p",
+          "text": "Now Bhīma stopped."
+        },
+        {
+          "t": "p",
+          "text": "He bowed, joined his hands, and asked forgiveness for the harsh words he had spoken. Then he asked who the monkey really was."
+        },
+        {
+          "t": "p",
+          "text": "The answer came: _I am «Hanumān»._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Hanumān told Bhīma that they were indeed brothers: both were sons of the Wind."
+        },
+        {
+          "t": "p",
+          "text": "The brother Bhīma had just boasted about had been lying across his path."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān explained why he had stopped him. The way ahead was dangerous and not for mortals, so he showed Bhīma the route he should take towards the fragrant flowers."
+        },
+        {
+          "t": "p",
+          "text": "Then Hanumān spoke of Rāma and of his own journey across the ocean in Rāma's service."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma listened and then asked for something: _Show me the form you had when you crossed the ocean._"
+        },
+        {
+          "t": "p",
+          "text": "Hanumān explained that the ages change, and that the world in Rāma's time was not the world Bhīma now knew. Bhīma still wished to see."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma kept asking, not for another proof of strength, but because he wanted to see the form his elder brother had borne in Rāma's service."
+        },
+        {
+          "t": "p",
+          "text": "So Hanumān granted his brother's request."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The monkey grew."
+        },
+        {
+          "t": "p",
+          "text": "His body expanded across the grove until the Mahābhārata compares him to a mountain. He shone with such brilliance that Bhīma could not continue looking at him."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma closed his eyes and asked Hanumān to return to the form he had before."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān did. Then he embraced Bhīma."
+        },
+        {
+          "t": "p",
+          "text": "The Mahābhārata says that in his brother's embrace, Bhīma's tiredness disappeared."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Before they parted, Hanumān offered Bhīma a boon. He even offered help against the sons of Dhṛtarāṣṭra."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma did not ask Hanumān to fight for him. Hanumān's favour and protection were enough."
+        },
+        {
+          "t": "p",
+          "text": "Hanumān promised him something anyway."
+        },
+        {
+          "t": "p",
+          "text": "_When you roar like a lion in the enemy army, I will strengthen your roar with my own voice._"
+        },
+        {
+          "t": "p",
+          "text": "Hanumān also said he would remain upon the flagstaff of «Arjuna»'s chariot and send his cries across the battlefield."
+        },
+        {
+          "t": "p",
+          "text": "Then Hanumān showed Bhīma the way towards the flowers and disappeared."
+        },
+        {
+          "t": "p",
+          "text": "Bhīma continued across the mountain, carrying with him the memory of Hanumān's form, his embrace and the story of Rāma."
+        },
+        {
+          "t": "slow",
+          "text": "The strongest man on the path went forward only after he had stopped pulling, bowed, and asked who was in front of him."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "hanuman-reminded",
+    "reason": "another night when Hanumān's strength is not the interesting part — what matters is how he comes to use it"
+  },
+  "close": {
+    "question": "Have you ever thought something would be easy, then found that you could not do it? What did you do next?",
+    "seed": "Being strong also means knowing when to stop, bow, and learn.",
+    "ifTheyAsk": [
+      {
+        "q": "Why couldn't Bhīma move Hanumān's tail?",
+        "a": "Because Hanumān was no ordinary monkey. The Mahābhārata presents both brothers as sons of the Wind and both as extraordinarily powerful. Bhīma first tries the tail with his left hand and then with both arms, but cannot move it. That failure is what makes him stop boasting, bow, and ask who is really in front of him."
+      },
+      {
+        "q": "How can Hanumān and Bhīma be brothers?",
+        "a": "In this Mahābhārata episode, both are sons of Vāyu, the Wind. Bhīma introduces himself that way before he knows whom he is speaking to, and Hanumān later identifies the same divine father. That is why Bhīma receives Hanumān as his elder brother."
+      },
+      {
+        "q": "Was Hanumān really on Arjuna's flag?",
+        "a": "In this episode Hanumān promises Bhīma that when Bhīma gives his great roar in battle, Hanumān will strengthen it with his own cry. He also says that he will remain on the flagstaff of Arjuna's chariot. The promise is part of the Sanskrit Mahābhārata passage itself."
+      }
+    ]
+  }
+}

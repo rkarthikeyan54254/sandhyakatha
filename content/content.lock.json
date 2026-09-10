@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -16,6 +16,11 @@
       "status": "published",
       "hash": "8f4ec0e495222777"
     },
+    "ekalavya-thumb": {
+      "version": 1,
+      "status": "published",
+      "hash": "176e56c5f5a693b8"
+    },
     "ganesha-circles": {
       "version": 3,
       "status": "published",
@@ -25,6 +30,21 @@
       "version": 2,
       "status": "published",
       "hash": "f7255d433f914a35"
+    },
+    "guha-boatman": {
+      "version": 1,
+      "status": "published",
+      "hash": "f02e078b6f1f668e"
+    },
+    "hanuman-own-ramayana": {
+      "version": 2,
+      "status": "published",
+      "hash": "e2154a826637d636"
+    },
+    "hanuman-tail": {
+      "version": 1,
+      "status": "published",
+      "hash": "c1d04fe1923b79a4"
     },
     "kali-stops": {
       "version": 1,
@@ -57,9 +77,14 @@
       "hash": "426730455bbc0e1f"
     },
     "satyakama-truth": {
+      "version": 2,
+      "status": "published",
+      "hash": "38d9ece4cf1fc37c"
+    },
+    "shabari-berries": {
       "version": 1,
       "status": "published",
-      "hash": "deb29a93e0b501c3"
+      "hash": "ae6f2aa89fbbf94d"
     },
     "shakambhari": {
       "version": 1,
@@ -85,6 +110,11 @@
       "version": 1,
       "status": "published",
       "hash": "80af02908fc090ec"
+    },
+    "yaksha-lake": {
+      "version": 1,
+      "status": "published",
+      "hash": "07765163752fa510"
     },
     "yudhishthira-dog": {
       "version": 1,
