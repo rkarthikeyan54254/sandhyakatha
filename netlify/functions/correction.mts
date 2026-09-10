@@ -74,7 +74,7 @@ export default async (req: Request, _ctx: Context) => {
     storyId, at, note,
     version: Number.isFinite(body.version) ? Number(body.version) : null,
     // Coarse enough to spot a flood, useless for identifying anybody.
-    country: req.headers.get('x-nf-geo') ? JSON.parse(req.headers.get('x-nf-geo')!)?.country?.code ?? null : null
+    country: req.headers.get('x-nf-geo') ? JSON.parse(atob(req.headers.get('x-nf-geo')!))?.country?.code ?? null : null
   });
   return Response.json({ ok: true }, { headers: { 'Cache-Control': 'no-store' } });
 };
