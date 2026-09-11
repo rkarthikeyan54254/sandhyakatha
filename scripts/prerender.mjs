@@ -426,6 +426,7 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
 }
 
 // corpus pages — no thin pages: require at least two published, ungated stories.
+const corpusPages = [];
 let cp = 0;
 for (const [corpus, meta] of Object.entries(CORPUS_META)) {
   const stories = publishedStories.filter(s => s.source.corpus === corpus);
@@ -433,6 +434,7 @@ for (const [corpus, meta] of Object.entries(CORPUS_META)) {
   mkdirSync(join(dist, meta.slug), { recursive: true });
   writeFileSync(join(dist, meta.slug, 'index.html'), corpusPage(meta, stories));
   urls.push(`${SITE}/${meta.slug}/`);
+  corpusPages.push({ ...meta, count: stories.length });
   cp++;
 }
 console.log(`prerendered ${cp} corpus landing page(s)`);
@@ -450,6 +452,24 @@ for (const [slug, f] of Object.entries(fests)) {
   fp++;
 }
 console.log(`prerendered ${fp} festival page(s)`);
+
+// Put static source links into the initial homepage HTML too. React replaces
+// #root as soon as the app boots, but crawlers and no-JS clients receive real
+// links without waiting for client rendering. This uses the exact pages emitted
+// above, so it cannot point at a corpus landing page that does not exist.
+{
+  const homePath = join(dist, 'index.html');
+  let home = readFileSync(homePath, 'utf8');
+  const links = corpusPages.map(x =>
+    `<a href="/${x.slug}/" style="color:#f0b458;text-decoration:none">${esc(x.label)} <small style="color:#948aa6">(${x.count})</small></a>`
+  ).join(' · ');
+  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Sandhya Katha</h1><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav></main></div>`;
+  if (!home.includes('<div id="root"></div>'))
+    throw new Error('homepage root placeholder not found; static source links were not injected');
+  home = home.replace('<div id="root"></div>', fallback);
+  writeFileSync(homePath, home);
+  console.log(`injected ${corpusPages.length} static source link(s) into homepage`);
+}
 
 writeFileSync(join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
