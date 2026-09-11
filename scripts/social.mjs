@@ -39,7 +39,7 @@ const canon = JSON.parse(readFileSync(join(ROOT, 'content/canon.json'), 'utf8'))
 const canonById = new Map(canon.map(row => [row.id, row]));
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-                          .replace(/\"/g, '&quot;').replace(/'/g, '&apos;');
+                          .replace(/\"/g, '&quot;').replace(/\\\"/g, '&quot;');
 const plain = s => String(s).replace(/[«»]/g, '').replace(/_([^_]+)_/g, '$1');
 
 function wrap(text, maxPx, sizePx, em = 0.50) {
