@@ -240,7 +240,7 @@ function festivalPage(slug, f, written) {
 <script type="application/ld+json">${JSON.stringify({
   '@context':'https://schema.org','@type':'CollectionPage',name:`${f.name} stories for children`,
   url, description: desc, isAccessibleForFree: true,
-  about: { '@type':'Event', name: f.name, ...(dates[0] ? { startDate: dates[0] } : {}) },
+  about: { '@type':'Thing', name: f.name, ...(dates[0] ? { startDate: dates[0] } : {}) },
   publisher: { '@type':'Organization', name:'Sandhya Katha', url: SITE }
 })}</script>
 ${faq.length ? `<script type="application/ld+json">${JSON.stringify({
