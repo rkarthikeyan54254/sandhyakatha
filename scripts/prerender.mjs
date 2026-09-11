@@ -32,6 +32,26 @@ const STABILITY = {
   folk: 'Oral tradition; there is no text to check it against.'
 };
 
+
+// Search landing pages over verified corpus metadata — never a second body of
+// generated mythology prose. A page is emitted only once >=2 public stories
+// exist, so the site does not manufacture thin SEO pages ahead of the corpus.
+const CORPUS_META = {
+  ramayana:          { slug: 'ramayana',        label: 'Rāmāyaṇa' },
+  'other-ramayana':  { slug: 'other-ramayanas', label: 'Other Rāmāyaṇas' },
+  mahabharata:       { slug: 'mahabharata',     label: 'Mahābhārata' },
+  bhagavata:         { slug: 'bhagavata',       label: 'Bhāgavatam' },
+  purana:            { slug: 'puranas',         label: 'Purāṇas' },
+  'shiva-purana':    { slug: 'shiva-purana',    label: 'Śiva Purāṇa' },
+  'vishnu-purana':   { slug: 'vishnu-purana',   label: 'Viṣṇu Purāṇa' },
+  'other-purana':    { slug: 'other-puranas',   label: 'Other Purāṇas' },
+  upanishad:         { slug: 'upanishads',      label: 'Upaniṣads' },
+  nayanmar:          { slug: 'nayanmars',       label: 'Nāyaṉmārs' },
+  alvar:             { slug: 'alvars',          label: 'Āḻvārs' },
+  sant:              { slug: 'sants',           label: 'Sants of the North' },
+  panchatantra:      { slug: 'panchatantra',     label: 'Pañcatantra' }
+};
+
 /** «Term» → plain name (collected for the pronunciation list); _x_ → <em>x</em>. */
 function render(text, seen) {
   return esc(text)
@@ -61,6 +81,10 @@ function page(s) {
   const myFests = ((canon.find(c => c.id === s.id) ?? {}).festivals ?? [])
     .filter(slug => fests[slug])
     .map(slug => ({ slug, name: fests[slug].plain ?? fests[slug].name }));
+  const myCorpus = CORPUS_META[s.source.corpus];
+  const corpusStoryCount = canon.filter(c =>
+    c.corpus === s.source.corpus && c.status === 'published' && !c.gated
+  ).length;
 
   return `<!doctype html>
 <html lang="en"><head>
@@ -174,6 +198,9 @@ ${says ? `<ul class="says">${says}</ul>` : ''}
     <button type="submit">Send</button>
   </form>
 </details>
+${myCorpus && corpusStoryCount >= 2
+  ? `<p class="belongs">More source-linked stories from <a href="/${myCorpus.slug}/">${esc(myCorpus.label)}</a>.</p>`
+  : ''}
 ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
   `<a href="/f/${f.slug}/">${esc(f.name)} stories for children</a>`).join(' · ')}</p>` : ''}
 <div class="cta">
@@ -182,6 +209,75 @@ ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
 </div>
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
 Everything about your child stays on your device.</footer>
+</div></body></html>`;
+}
+
+
+/* ---------- corpus landing pages ---------- */
+/**
+ * A corpus page is an index over already-published ground truth. It contains
+ * no new story claims: title, tease, work/locus, age and stability all come
+ * from approved story objects.
+ */
+function corpusPage(meta, stories) {
+  const url = `${SITE}/${meta.slug}/`;
+  const desc = `Source-linked ${meta.label} stories for children. Each story names its source and passage, age guidance, and where traditions or recensions differ.`;
+  const ordered = stories.slice().sort((a, b) =>
+    (canon.find(c => c.id === a.id)?.n ?? 9999) - (canon.find(c => c.id === b.id)?.n ?? 9999));
+  const rows = ordered.map(s => {
+    const stability = s.source.stability === 'stable' ? 'stable in the checked source'
+      : s.source.stability === 'variant' ? 'variant'
+      : s.source.stability === 'regional' ? 'regional tradition'
+      : 'oral / folk tradition';
+    return `<a class="srow" href="/s/${s.id}/">
+  <b>${esc(s.title)}</b>
+  <span>${esc(s.source.work)} · ${esc(s.source.locus)}</span>
+  <span>Ages ${s.audience.minAge}+ · ${esc(stability)}</span>
+  <i>${esc(s.tease)}</i>
+  <em>Read the sourced telling →</em>
+</a>`;
+  }).join('\n');
+  const itemList = ordered.map((s, i) => ({
+    '@type': 'ListItem', position: i + 1,
+    url: `${SITE}/s/${s.id}/`, name: s.title
+  }));
+
+  return `<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>${esc(meta.label)} stories for children · Sandhya Katha</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${url}"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha">
+<meta property="og:title" content="${esc(meta.label)} stories for children — with sources">
+<meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
+<meta property="og:image" content="${SITE}/og/default.png"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#14101c">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script><script src="/gtag-init.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
+<script type="application/ld+json">${JSON.stringify({
+  '@context':'https://schema.org','@type':'CollectionPage',name:`${meta.label} stories for children`,
+  url, description: desc, isAccessibleForFree: true,
+  mainEntity: { '@type':'ItemList', itemListElement:itemList },
+  publisher: { '@type':'Organization', name:'Sandhya Katha', url:SITE }
+})}</script>
+<style>
+:root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
+*{box-sizing:border-box}body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,sans-serif;background-image:radial-gradient(900px 500px at 50% -10%,#282040 0,rgba(40,32,64,0) 70%);background-attachment:fixed}
+.w{max-width:680px;margin:0 auto;padding:0 22px 70px}header{padding:22px 0 18px;border-bottom:1px solid var(--line)}header a{text-decoration:none;color:inherit}header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px;display:block}header i{font-style:normal;font-size:10px;color:var(--lamp-dim);display:block;margin-top:3px}
+.kick{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700;margin:28px 0 0}h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(32px,7vw,44px);line-height:1.14;margin:12px 0 0;text-wrap:balance}.lede{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.65;color:var(--paper-dim);margin:16px 0 8px}
+.contract{margin:22px 0 8px;padding:15px 17px;border-left:2px solid var(--lamp);background:rgba(240,180,88,.06);font-size:13.5px;line-height:1.65;color:var(--paper-dim)}.contract b{color:var(--lamp)}h2{font-size:10.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:34px 0 4px;padding-top:18px;border-top:1px solid var(--line)}
+.srow{display:block;padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}.srow b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:21px;display:block;line-height:1.3}.srow span{display:block;font-size:12px;color:var(--muted);margin-top:5px;line-height:1.5}.srow i{display:block;font-family:"Gentium Book Plus",Georgia,serif;font-style:normal;font-size:16.5px;line-height:1.58;color:var(--paper-dim);margin-top:10px}.srow em{display:inline-block;font-style:normal;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--lamp);margin-top:11px}a.srow:hover b{color:var(--lamp)}
+.cta{margin-top:34px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}.cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}.cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;font-weight:700;font-size:14px;text-decoration:none}footer{margin-top:30px;font-size:11.5px;color:var(--muted);line-height:1.7}footer a{color:var(--lamp-dim)}
+</style></head><body><div class="w">
+<header><a href="/"><b>Sandhya Katha</b><i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i></a></header>
+<p class="kick">Source-linked collection</p><h1>${esc(meta.label)} stories for children</h1>
+<p class="lede">Stories from ${esc(meta.label)}, laid out to read aloud. This page is generated from stories that have already passed Sandhya Katha's publication gate.</p>
+<div class="contract"><b>What “with sources” means here.</b> Every story below names the work and passage we checked, carries age guidance, and says when the tradition is variant, regional or oral instead of smoothing those differences away.</div>
+<h2>${ordered.length} published stories</h2>${rows}
+<div class="cta"><p>Sandhya Katha chooses one story each night for your child's age and the calendar, and lays it out to be read aloud.</p><a href="/">Open tonight's story</a></div>
+<footer><a href="/">Home</a> · <a href="/sitemap.xml">All pages</a></footer>
 </div></body></html>`;
 }
 
@@ -317,6 +413,7 @@ const dist = join(ROOT, 'dist');
 if (!existsSync(dist)) { console.error('run vite build first'); process.exit(1); }
 
 const urls = [`${SITE}/`];
+const publishedStories = [];
 let n = 0;
 for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWith('.json'))) {
   const s = read(`content/stories/${f}`);
@@ -324,8 +421,21 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
   mkdirSync(join(dist, 's', s.id), { recursive: true });
   writeFileSync(join(dist, 's', s.id, 'index.html'), page(s));
   urls.push(`${SITE}/s/${s.id}/`);
+  publishedStories.push(s);
   n++;
 }
+
+// corpus pages — no thin pages: require at least two published, ungated stories.
+let cp = 0;
+for (const [corpus, meta] of Object.entries(CORPUS_META)) {
+  const stories = publishedStories.filter(s => s.source.corpus === corpus);
+  if (stories.length < 2) continue;
+  mkdirSync(join(dist, meta.slug), { recursive: true });
+  writeFileSync(join(dist, meta.slug, 'index.html'), corpusPage(meta, stories));
+  urls.push(`${SITE}/${meta.slug}/`);
+  cp++;
+}
+console.log(`prerendered ${cp} corpus landing page(s)`);
 
 // festival pages
 const writtenIds = new Set(readdirSync(join(ROOT, 'content/stories'))
