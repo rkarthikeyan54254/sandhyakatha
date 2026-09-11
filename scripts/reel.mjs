@@ -14,7 +14,7 @@
  *
  *   npm run reel -- <story-id>
  */
-import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { Resvg } from '@resvg/resvg-js';
@@ -25,32 +25,70 @@ const OUT = join(ROOT, 'social');
 const W = 1080, H = 1920, HOLD = 3.6, XF = 0.7;
 
 const id = process.argv[2];
-if (!id) { console.error('usage: npm run reel -- <story-id>'); process.exit(1); }
-const s = JSON.parse(readFileSync(join(ROOT, `content/stories/${id}.json`), 'utf8'));
+if (!id) {
+  console.error('usage: npm run reel -- <story-id>');
+  process.exit(1);
+}
 
-const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-                          .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
-const plain = t => t.replace(/[«»]/g, '').replace(/_([^_]+)_/g, '$1');
+const s = JSON.parse(
+  readFileSync(join(ROOT, `content/stories/${id}.json`), 'utf8')
+);
+
+const canon = JSON.parse(
+  readFileSync(join(ROOT, 'content/canon.json'), 'utf8')
+).canon;
+
+const canonById = new Map(canon.map(row => [row.id, row]));
+
+const social = JSON.parse(
+  readFileSync(join(ROOT, 'content/social.json'), 'utf8')
+);
+
+const socialById = social.stories ?? {};
+
+const esc = t =>
+  String(t)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+
+const plain = t =>
+  String(t)
+    .replace(/[«»]/g, '')
+    .replace(/_([^_]+)_/g, '$1');
 
 function wrap(text, maxPx, sizePx, em = 0.47) {
-  const per = sizePx * em, out = []; let line = '';
+  const per = sizePx * em, out = [];
+  let line = '';
+
   for (const w of text.split(/\s+/)) {
-    const t = line ? `${line} ${w}` : w;
-    if (t.length * per > maxPx && line) { out.push(line); line = w; } else line = t;
+    const candidate = line ? `${line} ${w}` : w;
+
+    if (candidate.length * per > maxPx && line) {
+      out.push(line);
+      line = w;
+    } else {
+      line = candidate;
+    }
   }
+
   if (line) out.push(line);
   return out;
 }
 
 /** First sentence of a block — a reel card holds one thought, not a paragraph. */
 const firstSentence = t => {
-  const p = plain(t).match(/^.*?[.?!](?=\s|$)/);
-  return (p ? p[0] : plain(t)).trim();
+  const cleaned = plain(t);
+  const match = cleaned.match(/^.*?[.?!](?=\s|$)/);
+  return (match ? match[0] : cleaned).trim();
 };
 
 function card(lines, { size, color = '#f3e7d3', kicker = null, url = false }) {
   const lh = size * 1.36;
   const top = H / 2 - ((lines.length - 1) * lh) / 2 + size * 0.32;
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
 <defs>
   <radialGradient id="g" cx="50%" cy="12%" r="70%">
@@ -79,19 +117,95 @@ ${url ? `<text x="96" y="1742" font-family="Karla" font-size="42" font-weight="7
 </svg>`;
 }
 
-/* ---- the cards ---- */
-const body = s.lengths.short.blocks.filter(b => b.t !== 'beat');
-const slow = body[body.length - 1];
-const mid = body.slice(0, -1);
-const at = f => mid[Math.min(mid.length - 1, Math.round((mid.length - 1) * f))];
+function selectedReelBeats(story) {
+  // Only spoken narrative blocks count toward social.json indexes.
+  // `beat` is structural silence; `aside` is parent-only.
+  const blocks = story.lengths.short.blocks.filter(
+    b => b.t === 'p' || b.t === 'slow'
+  );
+
+  const spec = socialById[story.id]?.reel?.blocks;
+
+  // Curated sequence when available.
+  if (spec?.length) {
+    return spec.map(({ index, mode = 'full', size = 56, color }, i) => {
+      const block = blocks[index];
+
+      if (!block) {
+        throw new Error(
+          `Invalid reel block index ${index} for story ${story.id}`
+        );
+      }
+
+      const text =
+        mode === 'firstSentence'
+          ? firstSentence(block.text)
+          : plain(block.text);
+
+      const beatColor =
+        color ?? (i === spec.length - 1 ? '#ffe9c4' : undefined);
+
+      return {
+        lines: wrap(text, 890, size),
+        size,
+        ...(beatColor ? { color: beatColor } : {})
+      };
+    });
+  }
+
+  // Fallback for stories not yet curated.
+  const slow = blocks[blocks.length - 1];
+  const mid = blocks.slice(0, -1);
+
+  const at = f =>
+    mid[
+      Math.min(
+        mid.length - 1,
+        Math.round((mid.length - 1) * f)
+      )
+    ];
+
+  return [
+    at(0),
+    at(0.38),
+    at(0.72),
+    slow
+  ].map((b, i) => ({
+    lines: wrap(firstSentence(b.text), 890, i === 3 ? 60 : 56),
+    size: i === 3 ? 60 : 56,
+    ...(i === 3 ? { color: '#ffe9c4' } : {})
+  }));
+}
+
+const hook = plain(
+  canonById.get(s.id)?.hook || s.tease
+);
 
 const cards = [
-  { lines: wrap(s.title, 890, 92, 0.46), size: 92 },
-  { lines: wrap(plain(s.tease), 890, 46), size: 46, color: '#c9baa4' },
-  ...[0, 0.38, 0.72].map(f => ({ lines: wrap(firstSentence(at(f).text), 890, 56), size: 56 })),
-  { lines: wrap(firstSentence(slow.text), 890, 60), size: 60, color: '#ffe9c4' },
-  { lines: wrap(plain(s.close.question), 890, 50), size: 50, color: '#ffe9c4', kicker: 'NOW TURN TO YOUR CHILD' },
-  { lines: wrap('The whole telling, free.', 890, 54), size: 54, url: true },
+  {
+    lines: wrap(hook, 890, 68),
+    size: 68,
+    color: '#ffe9c4'
+  },
+
+  ...selectedReelBeats(s),
+
+  {
+    lines: wrap(plain(s.close.question), 890, 50),
+    size: 50,
+    color: '#ffe9c4',
+    kicker: 'NOW TURN TO YOUR CHILD'
+  },
+
+  {
+    lines: wrap(
+      `Read the ${s.lengths.full.minutes}-minute telling tonight.`,
+      890,
+      54
+    ),
+    size: 54,
+    url: true
+  }
 ];
 
 const tmp = join(OUT, `.reel-${id}`);
@@ -100,31 +214,84 @@ mkdirSync(tmp, { recursive: true });
 mkdirSync(OUT, { recursive: true });
 
 cards.forEach((c, i) => {
-  const r = new Resvg(card(c.lines, c), { fitTo: { mode: 'width', value: W },
-    font: { fontDirs: [FONTS], loadSystemFonts: false, defaultFontFamily: 'Gentium Book Plus' } });
-  writeFileSync(join(tmp, `${String(i).padStart(2, '0')}.png`), r.render().asPng());
+  const r = new Resvg(card(c.lines, c), {
+    fitTo: { mode: 'width', value: W },
+    font: {
+      fontDirs: [FONTS],
+      loadSystemFonts: false,
+      defaultFontFamily: 'Gentium Book Plus'
+    }
+  });
+
+  writeFileSync(
+    join(tmp, `${String(i).padStart(2, '0')}.png`),
+    r.render().asPng()
+  );
 });
 
-/* ---- xfade chain: offset of the k-th transition is (k+1)*(hold - xfade) ---- */
+/* xfade chain: offset of the k-th transition is (k+1)*(hold - xfade) */
 const n = cards.length;
 const args = [];
-for (let i = 0; i < n; i++) args.push('-loop', '1', '-t', String(HOLD), '-i', join(tmp, `${String(i).padStart(2, '0')}.png`));
+
+for (let i = 0; i < n; i++) {
+  args.push(
+    '-loop',
+    '1',
+    '-t',
+    String(HOLD),
+    '-i',
+    join(tmp, `${String(i).padStart(2, '0')}.png`)
+  );
+}
+
 let filter = '', prev = '[0:v]';
+
 for (let i = 1; i < n; i++) {
   const off = (i * (HOLD - XF)).toFixed(3);
   const out = i === n - 1 ? '[v]' : `[x${i}]`;
+
   filter += `${prev}[${i}:v]xfade=transition=fadeblack:duration=${XF}:offset=${off}${out};`;
   prev = `[x${i}]`;
 }
+
 filter = filter.replace(/;$/, '');
 
 const mp4 = join(OUT, `${id}-reel.mp4`);
-execFileSync('ffmpeg', ['-y', ...args, '-filter_complex', filter, '-map', '[v]',
-  '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-r', '30', mp4],
-  { stdio: ['ignore', 'ignore', 'pipe'] });
+
+execFileSync(
+  'ffmpeg',
+  [
+    '-y',
+    ...args,
+    '-filter_complex',
+    filter,
+    '-map',
+    '[v]',
+    '-c:v',
+    'libx264',
+    '-preset',
+    'veryfast',
+    '-crf',
+    '20',
+    '-pix_fmt',
+    'yuv420p',
+    '-r',
+    '30',
+    mp4
+  ],
+  { stdio: ['ignore', 'ignore', 'pipe'] }
+);
+
 rmSync(tmp, { recursive: true, force: true });
 
 const secs = (n * HOLD - (n - 1) * XF).toFixed(1);
-console.log(`${id}-reel.mp4 — ${n} cards, ${secs}s, ${W}×${H}, silent`);
+
+console.log(
+  `${id}-reel.mp4 — ${n} cards, ${secs}s, ${W}×${H}, silent`
+);
+
 console.log('\ncards:');
-cards.forEach((c, i) => console.log(`  ${i + 1}. ${c.lines.join(' ')}`));
+
+cards.forEach((c, i) =>
+  console.log(`  ${i + 1}. ${c.lines.join(' ')}`)
+);

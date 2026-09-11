@@ -1,0 +1,786 @@
+{
+  "_readme": {
+    "purpose": "Social presentation metadata only. Story text stays in content/stories; reel entries select approved blocks from each story's short rendition.",
+    "indexing": "Reel block indexes count only narrative blocks (t=p or t=slow). beat and aside blocks are excluded.",
+    "rule": "Do not put new story prose here. Select reviewed story blocks only; canon.json owns the acquisition hook."
+  },
+  "stories": {
+    "squirrel-setu": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence",
+            "size": 58
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence",
+            "size": 54
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence",
+            "size": 54
+          }
+        ]
+      }
+    },
+    "shabari-berries": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence",
+            "size": 54
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence",
+            "size": 54
+          },
+          {
+            "index": 11,
+            "mode": "full",
+            "size": 54
+          }
+        ]
+      }
+    },
+    "hanuman-reminded": {
+  "reel": {
+    "blocks": [
+      { "index": 12, "mode": "full", "size": 58 },
+      { "index": 13, "mode": "full", "size": 58 },
+      { "index": 21, "mode": "full", "size": 60 },
+      { "index": 23, "mode": "full", "size": 54 },
+      { "index": 30, "mode": "full", "size": 60 }
+    ]
+  }
+},
+    "guha-boatman": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 8,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 11,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 19,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 27,
+            "mode": "full",
+            "size": 54
+          }
+        ]
+      }
+    },
+    "jatayu-last-flight": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 10,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 18,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 23,
+            "mode": "full",
+            "size": 54
+          }
+        ]
+      }
+    },
+    "shravana-baskets": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence",
+            "size": 54
+          },
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence",
+            "size": 52
+          }
+        ]
+      }
+    },
+    "hanuman-tail": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 8,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 10,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 11,
+            "mode": "full",
+            "size": 60
+          }
+        ]
+      }
+    },
+    "yaksha-lake": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 10,
+            "mode": "full",
+            "size": 50
+          },
+          {
+            "index": 12,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 14,
+            "mode": "full",
+            "size": 52
+          }
+        ]
+      }
+    },
+    "ekalavya-thumb": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 10,
+            "mode": "full",
+            "size": 50
+          },
+          {
+            "index": 11,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 14,
+            "mode": "full",
+            "size": 54
+          }
+        ]
+      }
+    },
+    "abhimanyu-spiral": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence",
+            "size": 60
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 10,
+            "mode": "firstSentence",
+            "size": 52
+          }
+        ]
+      }
+    },
+    "govardhana": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "firstSentence",
+            "size": 56
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 50
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 8,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence",
+            "size": 58
+          }
+        ]
+      }
+    },
+    "ganesha-circles": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence",
+            "size": 56
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence",
+            "size": 56
+          }
+        ]
+      }
+    },
+    "svetaketu-salt": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence",
+            "size": 54
+          },
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 8,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "satyakama-truth": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence",
+            "size": 50
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 50
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 13,
+            "mode": "full",
+            "size": 50
+          }
+        ]
+      }
+    },
+"pusalar-temple": {
+  "reel": {
+    "blocks": [
+      { "index": 1, "mode": "full", "size": 58 },
+      { "index": 4, "mode": "full", "size": 52 },
+      { "index": 6, "mode": "full", "size": 60 },
+      { "index": 7, "mode": "firstSentence", "size": 52 },
+      { "index": 11, "mode": "full", "size": 50 }
+    ]
+  }
+},
+    "hanuman-own-ramayana": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 9,
+            "mode": "full",
+            "size": 50
+          },
+          {
+            "index": 11,
+            "mode": "firstSentence",
+            "size": 54
+          }
+        ]
+      }
+    },
+    "durga-mahishasura": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 52
+          }
+        ]
+      }
+    },
+    "shakambhari": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 50
+          },
+          {
+            "index": 8,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 10,
+            "mode": "full",
+            "size": 52
+          }
+        ]
+      }
+    },
+    "annapurna-bhiksha": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 6,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 10,
+            "mode": "firstSentence",
+            "size": 56
+          },
+          {
+            "index": 12,
+            "mode": "full",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "kali-stops": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 6,
+            "mode": "firstSentence",
+            "size": 60
+          },
+          {
+            "index": 7,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 9,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 13,
+            "mode": "firstSentence",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "rama-returns": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence",
+            "size": 50
+          },
+          {
+            "index": 10,
+            "mode": "full",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "narakasura": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence",
+            "size": 48
+          },
+          {
+            "index": 10,
+            "mode": "full",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "bharata-sandals": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 4,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 15,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 21,
+            "mode": "full",
+            "size": 52
+          }
+        ]
+      }
+    },
+    "valmiki-first-shloka": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence",
+            "size": 54
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 9,
+            "mode": "full",
+            "size": 52
+          },
+          {
+            "index": 10,
+            "mode": "firstSentence",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "lakshmi-leaves-indra": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "firstSentence",
+            "size": 56
+          },
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 54
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence",
+            "size": 60
+          },
+          {
+            "index": 11,
+            "mode": "full",
+            "size": 50
+          }
+        ]
+      }
+    },
+    "parvati-decides": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "full",
+            "size": 60
+          },
+          {
+            "index": 5,
+            "mode": "full",
+            "size": 56
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence",
+            "size": 52
+          },
+          {
+            "index": 11,
+            "mode": "full",
+            "size": 58
+          },
+          {
+            "index": 12,
+            "mode": "full",
+            "size": 50
+          }
+        ]
+      }
+    },
+"yudhishthira-dog": {
+  "reel": {
+    "blocks": [
+      { "index": 3, "mode": "full", "size": 56 },
+      { "index": 4, "mode": "firstSentence", "size": 50 },
+      { "index": 5, "mode": "full", "size": 60 },
+      { "index": 6, "mode": "firstSentence", "size": 54 },
+      { "index": 9, "mode": "firstSentence", "size": 60 }
+    ]
+  }
+}
+  }
+}
