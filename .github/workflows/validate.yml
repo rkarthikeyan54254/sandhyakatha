@@ -19,6 +19,14 @@ jobs:
         run: npm run content
       - name: Unit tests
         run: npm test
+      - name: Production build
+        run: npm run build
+      - name: Verify static SEO outputs
+        run: |
+          test -f dist/ramayana/index.html
+          test -f dist/sitemap.xml
+          grep -q '<loc>https://sandhyakatha.com/ramayana/</loc>' dist/sitemap.xml
+          grep -q 'href="/ramayana/"' dist/index.html
       - name: Refuse an unlocked change to a published story
         run: |
           node scripts/lock.mjs
