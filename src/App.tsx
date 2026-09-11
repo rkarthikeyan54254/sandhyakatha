@@ -13,6 +13,10 @@ import Constellation from './ui/Constellation';
 import Why from './ui/Why';
 import Setup from './ui/Setup';
 
+function analyticsMode(len: Len): 'short' | 'full' {
+  return len === 'short' ? 'short' : 'full';
+}
+
 export default function App() {
   const [cards, setCards] = useState<Card[]>([]);
   const [canon, setCanon] = useState<CanonRow[]>([]);
@@ -99,7 +103,14 @@ export default function App() {
     setFrom(tab);
     try {
       const s: Story = await (await fetch(`/data/s/${id}.json`)).json();
-      track('story_opened', { story_id: s.id, corpus: s.source.corpus, from: tab });
+      track('story_opened', {
+        story_id: s.id,
+        corpus: s.source.corpus,
+        from: tab,
+        mode: analyticsMode(len),
+        repeat: !!heard[id],
+        one_more: len === 'more'
+      });
       setOpen(s); window.scrollTo({ top: 0 });
     } catch { /* not written yet */ }
   }
@@ -108,7 +119,17 @@ export default function App() {
     setProfile(p => {
       const c = P.activeChild(p);
       if (!c) return p;
-      track('story_finished', { story_id: storyId });
+      const corpus = open?.id === storyId
+        ? open.source.corpus
+        : cards.find(card => card.id === storyId)?.corpus ?? 'unknown';
+      track('story_finished', {
+        story_id: storyId,
+        corpus,
+        from,
+        mode: analyticsMode(len),
+        repeat: !!heard[storyId],
+        one_more: len === 'more'
+      });
       const next = P.markHeard(p, c.id, storyId);
       // Always attempt the push. `account` is set asynchronously after load, so
       // gating on it meant a story marked in the first second of a session was

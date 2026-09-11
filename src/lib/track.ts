@@ -1,10 +1,12 @@
 /**
  * Three events, because three questions are worth answering.
  *
- * Not pageviews. The only numbers that decide whether this is a business are:
- * does a parent open a story, do they finish it, and do they come back. GA
- * counts returning users on its own, so we send the first two and the sign-in
- * intent, and nothing else. No child name, no age, no free text — ever.
+ * GA already measures acquisition, page views and returning users. We add only
+ * the product actions it cannot infer: whether a parent opened a story, whether
+ * they finished it, and sign-in intent. Story events carry low-cardinality
+ * context (`from`, `mode`, `repeat`, `one_more`, corpus and story id) so the
+ * acquisition → read → finish funnel can be analysed without collecting child
+ * names, ages, account ids or free text. Analytics must stay measurement-only.
  */
 type Params = Record<string, string | number | boolean>;
 
