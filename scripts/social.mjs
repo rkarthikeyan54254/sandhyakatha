@@ -38,8 +38,12 @@ const SITE = 'https://sandhyakatha.com';
 const canon = JSON.parse(readFileSync(join(ROOT, 'content/canon.json'), 'utf8')).canon;
 const canonById = new Map(canon.map(row => [row.id, row]));
 
-const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-                          .replace(/\"/g, '&quot;').replace(/\\\"/g, '&quot;');
+const esc = s => String(s)
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&apos;');
 const plain = s => String(s).replace(/[«»]/g, '').replace(/_([^_]+)_/g, '$1');
 
 function wrap(text, maxPx, sizePx, em = 0.50) {
@@ -215,14 +219,16 @@ function hashtagSet(s) {
     ...(CORPUS_TAGS[s.source.corpus] ?? [])
   ];
 
-  const searchable = asciiLower([
-    s.title,
-    ...(s.themes ?? []),
-    ...(s.characters ?? []).map(c => c.ref)
-  ].join(' '));
+const searchable = asciiLower([
+  s.title,
+  ...(s.themes ?? []),
+  ...(s.characters ?? [])
+    .filter(c => c.role !== 'mentioned')
+    .map(c => c.ref)
+].join(' '));
 
   for (const [needle, tag] of CHARACTER_TAGS) {
-    if (searchable.includes(needle)) tags.push(tag);
+    if (new RegExp(`\\b${needle}\\b`).test(searchable)) tags.push(tag);
   }
 
   for (const slug of (s.calendar?.festivals ?? [])) {
@@ -265,7 +271,6 @@ let made = 0;
 for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWith('.json'))) {
   const s = JSON.parse(readFileSync(join(ROOT, 'content/stories', f), 'utf8'));
   if (s.status !== 'published') continue;
-  if (canonById.get(s.id)?.gated) continue;
   if (only.length && !only.includes(s.id)) continue;
 
   const body = pick(s);
