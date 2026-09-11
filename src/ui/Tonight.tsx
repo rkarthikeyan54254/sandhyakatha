@@ -10,6 +10,22 @@ import { Intro } from './Chrome';
 
 export type Len = 'short' | 'full' | 'more';
 
+const SOURCE_PAGES = [
+  { corpus: 'ramayana', href: '/ramayana/' },
+  { corpus: 'mahabharata', href: '/mahabharata/' },
+  { corpus: 'bhagavata', href: '/bhagavata/' },
+  { corpus: 'upanishad', href: '/upanishads/' },
+  { corpus: 'other-purana', href: '/other-puranas/' },
+  { corpus: 'shiva-purana', href: '/shiva-purana/' },
+  { corpus: 'vishnu-purana', href: '/vishnu-purana/' },
+  { corpus: 'purana', href: '/puranas/' },
+  { corpus: 'other-ramayana', href: '/other-ramayanas/' },
+  { corpus: 'nayanmar', href: '/nayanmars/' },
+  { corpus: 'alvar', href: '/alvars/' },
+  { corpus: 'sant', href: '/sants/' },
+  { corpus: 'panchatantra', href: '/panchatantra/' }
+] as const;
+
 interface Props {
   pick: Pick | null; pan: Panchanga; len: Len; setLen: (l: Len) => void; onRead: (id: string) => void;
   profile: P.Profile; child: P.Child | null; heard: Record<string, string>;
@@ -51,6 +67,16 @@ export default function Tonight(p: Props) {
     ? [...new Set(cards.filter(c => !heard[c.id] && (child ? c.minAge <= child.age : true)).map(c => c.corpus))]
         .find(c => !metCorpora.has(c))
     : undefined;
+
+  // Mirror the static corpus-page rule: no homepage link until that source has
+  // at least two published, ungated stories. `cards` is the shipped corpus, so
+  // this grows with publication rather than with an SEO checklist.
+  const sourcePages = SOURCE_PAGES
+    .map(x => ({
+      ...x,
+      count: cards.filter(c => c.corpus === x.corpus && !c.gated).length
+    }))
+    .filter(x => x.count >= 2);
 
   return (
     <>
@@ -161,6 +187,19 @@ export default function Tonight(p: Props) {
             </button>
           ))}
         </div>
+      </>}
+
+      {sourcePages.length > 0 && <>
+        <div className="hair"><span className="eyebrow">Browse by source</span></div>
+        <p className="sub sourceintro">Every story names the text and passage we checked, and says when the tellings differ.</p>
+        <nav className="sourcegrid" aria-label="Browse stories by source">
+          {sourcePages.map(x => (
+            <a key={x.corpus} className="sourcecard" href={x.href}>
+              <b>{CORPUS_LABEL[x.corpus] ?? x.corpus}</b>
+              <span>{x.count} published {x.count === 1 ? 'story' : 'stories'} →</span>
+            </a>
+          ))}
+        </nav>
       </>}
 
       <div className="hair"><span className="eyebrow">{profile.children.length > 1 ? 'Children' : 'Who you are reading to'}</span></div>
