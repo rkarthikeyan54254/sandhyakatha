@@ -1,0 +1,394 @@
+{
+  "id": "bharata-sandals",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-11",
+  "title": "The Empty Chair",
+  "tease": "He is offered a kingdom his mother took for him. He goes to the forest to give it back, is refused, and comes home with a pair of sandals instead.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Ayodhyā Kāṇḍa 2.106–115; sandals 2.112.21–29; Nandigrāma 2.115.1–27",
+    "stability": "stable",
+    "traditionNote": "",
+    "parallels": [],
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 2.112, IIT Kanpur Valmiki Ramayanam text and translation",
+      "Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa 2.113 and 2.115, SanskritDocuments text and translation"
+    ],
+    "sourcing": [
+      {
+        "claim": "Bharata has been urging Rāma to return to Ayodhyā and take the throne, but Rāma refuses to abandon the fourteen-year exile undertaken to uphold Daśaratha's word.",
+        "locus": "Ayodhyā Kāṇḍa 2.106–112"
+      },
+      {
+        "claim": "Bharata asks Rāma to place his feet in gold-decorated sandals, saying they will secure the welfare of the realm. Rāma puts the sandals on, takes them off and gives them to Bharata.",
+        "locus": "2.112.21–22"
+      },
+      {
+        "claim": "Bharata bows to the sandals and vows that for fourteen years he will wear matted hair and bark, live on fruits and roots, stay outside the city awaiting Rāma, and place responsibility for the kingdom on the sandals.",
+        "locus": "2.112.23–24"
+      },
+      {
+        "claim": "Bharata says that if he does not see Rāma when the fourteen years are complete, he will enter the fire.",
+        "locus": "2.112.25"
+      },
+      {
+        "claim": "Rāma accepts Bharata's resolve, embraces Bharata and Śatrughna, and sends them away; Bharata worships the sandals, circumambulates Rāma and places the sandals on a great elephant.",
+        "locus": "2.112.26–29"
+      },
+      {
+        "claim": "On the return journey Bharata carries Rāma's sandals on his head.",
+        "locus": "2.113.1"
+      },
+      {
+        "claim": "Bharata goes to Nandigrāma rather than ruling from Ayodhyā, describes the kingdom as a trust from Rāma, and asks that the royal canopy be held over the sandals until Rāma returns.",
+        "locus": "2.115.1–16"
+      },
+      {
+        "claim": "Bharata lives in Nandigrāma wearing bark and matted hair, consecrates the sandals, governs while subordinating himself to them, reports affairs of state to them first and presents valuable gifts to them before acting.",
+        "locus": "2.115.17–27"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-11"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [
+      "parental-conflict"
+    ],
+    "careNote": "The story begins after Kaikeyī's demand has sent Rāma into exile and placed the kingdom in Bharata's hands. Bharata refuses to treat that outcome as his own victory.",
+    "gated": false
+  },
+  "values": [
+    "what you were handed without asking"
+  ],
+  "themes": [
+    "ramayana",
+    "bharata",
+    "rama",
+    "dharma",
+    "kingship",
+    "promise"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Bharata",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 311,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Bharata» had come to the forest for one reason: he wanted «Rāma» to return to Ayodhyā and be king."
+        },
+        {
+          "t": "p",
+          "text": "Rāma would not go back. Their father's promise had sent him into the forest for fourteen years, and Rāma would keep it."
+        },
+        {
+          "t": "p",
+          "text": "Bharata could not make him change his mind."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So Bharata asked for something else."
+        },
+        {
+          "t": "p",
+          "text": "He asked Rāma to place his feet in a pair of sandals decorated with gold."
+        },
+        {
+          "t": "p",
+          "text": "Rāma put them on, took them off, and gave them to Bharata."
+        },
+        {
+          "t": "p",
+          "text": "Bharata bowed to the sandals."
+        },
+        {
+          "t": "p",
+          "text": "Then he made a promise of his own."
+        },
+        {
+          "t": "p",
+          "text": "For the same fourteen years, he said, he would wear bark and matted hair, live on fruits and roots, and stay outside the city waiting for Rāma."
+        },
+        {
+          "t": "p",
+          "text": "The responsibility of the kingdom would rest on Rāma's sandals."
+        },
+        {
+          "t": "p",
+          "text": "Bharata honoured them, went around Rāma in reverence, and placed the sandals on a great elephant for the journey home."
+        },
+        {
+          "t": "p",
+          "text": "Rāma embraced Bharata and Śatrughna before they left."
+        },
+        {
+          "t": "p",
+          "text": "Bharata then carried the sandals on his head as the procession travelled away from Chitrakūṭa."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Back near Ayodhyā, Bharata did not move into the palace and sit on Rāma's throne."
+        },
+        {
+          "t": "p",
+          "text": "He went to Nandigrāma instead."
+        },
+        {
+          "t": "p",
+          "text": "There he placed the royal canopy over the sandals and treated the kingdom as something Rāma had left in his care."
+        },
+        {
+          "t": "p",
+          "text": "The text says Bharata governed under the sandals."
+        },
+        {
+          "t": "p",
+          "text": "When an affair of state came up, he reported it to them first. When a valuable gift arrived, he presented it to them first."
+        },
+        {
+          "t": "p",
+          "text": "Bharata was doing the work of a king without pretending the kingdom had become his."
+        },
+        {
+          "t": "p",
+          "text": "He wore bark and matted hair at Nandigrāma, just as he had promised in the forest."
+        },
+        {
+          "t": "p",
+          "text": "He said he was preserving the kingdom as a trust until Rāma came back."
+        },
+        {
+          "t": "slow",
+          "text": "There was an empty throne in Ayodhyā, and a pair of sandals showing whose place Bharata was keeping."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 678,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Bharata» had not come to Chitrakūṭa to ask for a favour."
+        },
+        {
+          "t": "p",
+          "text": "He had come to give a kingdom back."
+        },
+        {
+          "t": "p",
+          "text": "Their father was dead. «Rāma» had been sent into the forest for fourteen years. Bharata had been given the throne, but he did not want to keep it."
+        },
+        {
+          "t": "p",
+          "text": "He asked Rāma again and again to return to Ayodhyā and rule."
+        },
+        {
+          "t": "p",
+          "text": "Rāma would not."
+        },
+        {
+          "t": "p",
+          "text": "Their father's promise had to be kept. Rāma would finish the years of exile."
+        },
+        {
+          "t": "p",
+          "text": "The sages, ministers and brothers had said what they could say. Bharata finally understood that he was not going to bring Rāma home that day."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So Bharata asked for something smaller than a king, and stranger than a crown."
+        },
+        {
+          "t": "p",
+          "text": "A pair of sandals."
+        },
+        {
+          "t": "p",
+          "text": "He asked Rāma to put his feet into sandals decorated with gold."
+        },
+        {
+          "t": "p",
+          "text": "Rāma did exactly that. He put them on, stepped out of them, and handed them to Bharata."
+        },
+        {
+          "t": "p",
+          "text": "Bharata bowed before the sandals."
+        },
+        {
+          "t": "p",
+          "text": "Then he told Rāma what he would do."
+        },
+        {
+          "t": "p",
+          "text": "For fourteen years, Bharata said, he too would wear bark and matted hair and live on fruits and roots."
+        },
+        {
+          "t": "p",
+          "text": "He would stay outside Ayodhyā and wait for Rāma's return."
+        },
+        {
+          "t": "p",
+          "text": "The responsibility for the kingdom would be placed on Rāma's sandals."
+        },
+        {
+          "t": "p",
+          "text": "And Bharata set himself a hard end to the promise: if the fourteen years finished and Rāma had not returned, he said he would enter the fire."
+        },
+        {
+          "t": "p",
+          "text": "Bharata's vow did not make him king in his own right. It made him the keeper of something he believed belonged to Rāma."
+        },
+        {
+          "t": "p",
+          "text": "Rāma accepted Bharata's vow and embraced him before they parted."
+        },
+        {
+          "t": "p",
+          "text": "Bharata honoured the sandals, walked around Rāma in reverence, and placed them high on a great elephant."
+        },
+        {
+          "t": "p",
+          "text": "Then the long procession turned away from Chitrakūṭa."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bharata carried the sandals on his head as he travelled back."
+        },
+        {
+          "t": "p",
+          "text": "The ministers, teachers and people travelled with him. The sandals were not packed away with the luggage; Bharata carried them openly as the sign of the arrangement he had just made with his brother."
+        },
+        {
+          "t": "p",
+          "text": "When he reached the country around Ayodhyā, he did not simply enter the palace and become king in Rāma's place."
+        },
+        {
+          "t": "p",
+          "text": "He went to Nandigrāma, outside the city."
+        },
+        {
+          "t": "p",
+          "text": "There Bharata told the ministers that the kingdom was a trust from his brother."
+        },
+        {
+          "t": "p",
+          "text": "He said the sandals represented Rāma's feet and that the trust would be preserved until Rāma returned."
+        },
+        {
+          "t": "p",
+          "text": "He also said that when Rāma came back, the sandals would be placed again at Rāma's feet and the burden of the kingdom handed back with them."
+        },
+        {
+          "t": "p",
+          "text": "He ordered the royal canopy to be held over the sandals."
+        },
+        {
+          "t": "p",
+          "text": "He said he would preserve what had been placed in his care until Rāma returned."
+        },
+        {
+          "t": "p",
+          "text": "Bharata wore bark and matted hair and lived at Nandigrāma."
+        },
+        {
+          "t": "p",
+          "text": "So his life matched the promise he had made at Chitrakūṭa: he would not live as though the exile had turned into an opportunity for him."
+        },
+        {
+          "t": "p",
+          "text": "The sandals were consecrated, and the text says Bharata governed the kingdom while remaining subordinate to them."
+        },
+        {
+          "t": "p",
+          "text": "That was not only a ceremony."
+        },
+        {
+          "t": "p",
+          "text": "The sandals stayed at the centre of the administration. Bharata himself held the royal parasol and fan over them."
+        },
+        {
+          "t": "p",
+          "text": "Whenever some matter of state came before him, Bharata reported it to the sandals first."
+        },
+        {
+          "t": "p",
+          "text": "Whenever a valuable gift was brought, he offered it to the sandals first, and only afterwards dealt with it."
+        },
+        {
+          "t": "p",
+          "text": "Day after day, he did the work that had to be done."
+        },
+        {
+          "t": "p",
+          "text": "The text does not describe Bharata refusing responsibility. It describes him accepting responsibility while refusing ownership."
+        },
+        {
+          "t": "p",
+          "text": "That distinction is the whole shape of the episode: Rāma keeps one promise in the forest, and Bharata builds his own fourteen-year promise around it."
+        },
+        {
+          "t": "p",
+          "text": "But he kept one fact visible in the middle of that work: he was not trying to turn Rāma's absence into his own possession."
+        },
+        {
+          "t": "p",
+          "text": "The kingdom could be administered. Decisions could be made. Gifts could be received. The years could pass."
+        },
+        {
+          "t": "p",
+          "text": "And still Bharata could refuse to call the throne his."
+        },
+        {
+          "t": "slow",
+          "text": "For fourteen years, the sandals stayed where the king should have been, and Bharata kept the place without taking it."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think Bharata wanted Rāma's sandals instead of simply taking the throne?",
+    "seed": "He could do the king's work without pretending the kingdom had become his.",
+    "ifTheyAsk": [
+      {
+        "q": "Did the sandals really rule the kingdom?",
+        "a": "The Vālmīki Rāmāyaṇa says Bharata consecrated Rāma's sandals and governed while keeping himself subordinate to them. It even says he reported affairs of state and valuable gifts to the sandals first. Bharata was still the person doing the work; the sandals made visible that he regarded the kingdom as Rāma's trust, not his own possession."
+      },
+      {
+        "q": "Did Bharata live in the palace?",
+        "a": "The text says he stayed at Nandigrāma outside Ayodhyā, wearing bark and matted hair while he waited for Rāma's return."
+      }
+    ]
+  }
+}

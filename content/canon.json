@@ -2,7 +2,7 @@
   "_readme": {
     "purpose": "Every story in the collection, in the order it enters the shelf. wave 1 = the famous ones that earn trust. wave 2 = the deep cuts that earn the subscription. wave 3 = the difficult ones, restored on Rama's call, gated rather than cut.",
     "the_gate": "audience.gated is the mechanism that makes 'parent's discretion' real rather than a slogan. A gated story never surfaces as tonight's pick and never appears in browse until the parent switches on 'Include the difficult ones', and its careNote is shown before the first line. Nothing is removed from the collection; the parent chooses when.",
-    "counts": "77 stories — wave 1: 30 · wave 2: 30 · wave 3: 8 · wave 4: 9 · gated: 5",
+    "counts": "76 stories — wave 1: 30 · wave 2: 30 · wave 3: 8 · wave 4: 9 · gated: 5",
     "wave_4": "The gaps, found by asking which nights of the year the collection could not speak to. No Devi cycle and no story of Rama coming home meant Navaratri and Diwali had nothing between them. Also thickens the character map: mothers, Ravana's family, and Ayodhya beyond Rama."
   },
   "canon": [
@@ -1107,27 +1107,6 @@
       "gated": false
     },
     {
-      "n": 58,
-      "id": "valmiki-two-birds",
-      "title": "The First Line Was an Accident",
-      "corpus": "origin",
-      "tradition": "sanskrit",
-      "work": "Rāmāyaṇa",
-      "locus": "Bāla Kāṇḍa, chapter 2",
-      "stability": "stable",
-      "minAge": 7,
-      "sensitivity": [
-        "death",
-        "violence"
-      ],
-      "value": "where a poem comes from",
-      "hook": "A hunter shoots one of two birds. The man watching shouts at him — and what comes out of his mouth has a metre in it, and he cannot work out why.",
-      "festivals": [],
-      "status": "draft",
-      "wave": 2,
-      "gated": false
-    },
-    {
       "n": 59,
       "id": "ganesha-condition",
       "title": "Gaṇeśa's One Condition",
@@ -1327,7 +1306,8 @@
       "festivals": [],
       "status": "draft",
       "wave": 3,
-      "gated": false
+      "gated": false,
+      "locus": "Book I — The Mice That Ate Iron"
     },
     {
       "n": 69,
@@ -1464,17 +1444,17 @@
       "title": "The Empty Chair",
       "corpus": "ramayana",
       "tradition": "sanskrit",
-      "work": "Rāmāyaṇa",
-      "locus": "Ayodhyā Kāṇḍa",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Ayodhyā Kāṇḍa 2.106–115; sandals 2.112.21–29; Nandigrāma 2.115",
       "stability": "stable",
       "minAge": 6,
       "sensitivity": [
         "parental-conflict"
       ],
-      "value": "refusing what you were handed",
+      "value": "what you were handed without asking",
       "hook": "He is offered a kingdom his mother took for him. He goes to the forest to give it back, is refused, and comes home with a pair of sandals instead.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 4,
       "gated": false
     },

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -10,6 +10,11 @@
       "version": 1,
       "status": "published",
       "hash": "7fe3c2185b4ca32d"
+    },
+    "bharata-sandals": {
+      "version": 1,
+      "status": "published",
+      "hash": "11bd021f0cf31587"
     },
     "durga-mahishasura": {
       "version": 2,

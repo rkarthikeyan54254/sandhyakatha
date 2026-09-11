@@ -25,11 +25,10 @@ export default function Shelf({ canon, publishedIds, gate, onRead }: {
   return (
     <>
       <h1 className="page">The shelf</h1>
-      <p className="sub">Every story is written before you open it, checked against a named edition, and dated.
+      <p className="sub">Every written story is checked against a named source before publication.
         Nothing is generated while you wait — which is also why it works on a flight with no signal, and why a
         story a child asks for twice comes back word for word.</p>
-      <p className="sub">The whole collection is listed here, including the ones still being written. You can see
-        what is coming.</p>
+      <p className="sub">Planned stories are listed here too, so you can see what is coming.</p>
 
       <div className="facet">
         <span className="lab">Where it comes from</span>
@@ -85,7 +84,7 @@ export default function Shelf({ canon, publishedIds, gate, onRead }: {
                           <span className="tags">
                             <i className="tag trad">{TRADITION_LABEL[c.tradition]}</i>
                             <i className="tag val">{c.value}</i>
-                            {c.stability !== 'stable' && <i className="tag stab">{c.stability === 'regional' ? 'not in the Sanskrit' : c.stability === 'folk' ? 'oral, no text' : 'recensions differ'}</i>}
+                            {c.stability !== 'stable' && <i className="tag stab">{c.stability === 'regional' ? 'regional tradition' : c.stability === 'folk' ? 'oral, no text' : 'recensions differ'}</i>}
                             {c.sensitivity.map(s => <i key={s} className="tag sens">{s.replace(/-/g, ' ')}</i>)}
                           </span>
                         </span>
