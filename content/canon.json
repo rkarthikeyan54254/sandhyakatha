@@ -56,7 +56,7 @@
       "minAge": 6,
       "sensitivity": [],
       "value": "you need someone to remind you",
-      "hook": "Everyone on the shore says how far they can jump. Hanumān says nothing. Then Jāmbavān begins telling him his own story.",
+      "hook": "Hanumān says nothing while everyone measures how far they can jump. Then Jāmbavān reminds him who he is.," ,
       "festivals": [
         "hanuman-jayanti"
       ],
@@ -78,7 +78,7 @@
         "social-hierarchy"
       ],
       "value": "friendship across rank",
-      "hook": "Rāma's friend offers him a kingdom. Rāma asks for only one thing: feed my father's horses.",
+      "hook": "Guha offers Rāma a kingdom. Rāma asks for only one thing: feed my father's horses.",
       "festivals": [],
       "status": "published",
       "wave": 1,
@@ -99,7 +99,7 @@
         "violence"
       ],
       "value": "doing what you can when help is far away",
-      "hook": "An old king of birds sees Rāvaṇa carrying Sītā away. Rāma and Lakṣmaṇa are far away. Jaṭāyu says: while I am alive, you will not take her.",
+      "hook": "Rāvaṇa is carrying Sītā away. Rāma is far away. One old bird decides to stop him alone.",
       "festivals": [],
       "status": "published",
       "wave": 1,
@@ -437,7 +437,7 @@
       "minAge": 4,
       "sensitivity": [],
       "value": "what counts as the world",
-      "hook": "Two brothers race around the world for a mango. One of them does not leave the room.",
+      "hook": "Gaṇeśa never went around the world. He won the race anyway.",
       "festivals": [
         "ganesh-chaturthi"
       ],
@@ -515,7 +515,7 @@
       "minAge": 10,
       "sensitivity": [],
       "value": "the invisible thing that is everywhere",
-      "hook": "His father hands him a lump of salt and a bowl of water, and asks him to bring the salt back in the morning.",
+      "hook": "His father drops salt into water and asks him to bring it back the next morning. He cannot.",
       "festivals": [
         "navaratri"
       ],
@@ -1100,7 +1100,7 @@
       "minAge": 9,
       "sensitivity": [],
       "value": "letting the better one go",
-      "hook": "Vālmīki finds that Hanumān has carved his own Rāmāyaṇa onto rocks, and that it is better than his. Hanumān throws the rocks into the sea.",
+      "hook": "Vālmīki discovers Hanumān wrote a better Rāmāyaṇa than his. Hanumān throws it into the sea.",
       "festivals": [],
       "status": "published",
       "wave": 2,
@@ -1364,7 +1364,7 @@
       "minAge": 6,
       "sensitivity": [],
       "value": "who actually feeds you",
-      "hook": "He has argued that the world is an illusion and food along with it. She turns the kitchens off. He lasts about a day, and then queues with a bowl.",
+      "hook": "Śiva says the world — and food — are an illusion. Annapūrṇā turns the kitchens off. Soon he appears with a bowl.",
       "festivals": [
         "navaratri"
       ],
@@ -1387,7 +1387,7 @@
         "death"
       ],
       "value": "stopping when you have won",
-      "hook": "She has won and she cannot stop. So he lies down in front of her, in the middle of it, and waits to see whether she looks down.",
+      "hook": "Kālī has won and cannot stop. Śiva lies down in her path and waits to see whether she looks down.",
       "festivals": [
         "navaratri"
       ],
@@ -1407,7 +1407,7 @@
       "minAge": 5,
       "sensitivity": [],
       "value": "coming home",
-      "hook": "Fourteen years to the day. Nobody knows exactly when he will arrive, so the whole city puts out lamps and leaves them burning all night, just in case.",
+      "hook": "Rāma is coming home after fourteen years. Nobody knows exactly when, so Ayodhyā lights the whole road and waits.",
       "festivals": [
         "diwali"
       ],
@@ -1430,7 +1430,7 @@
         "death"
       ],
       "value": "the mercy nobody had to give",
-      "hook": "He asks for one thing as he dies — that the day be remembered as a festival rather than as his defeat. He gets it, and we still keep it.",
+      "hook": "Narakāsura asks for one thing as he dies: remember this day as a festival, not as his defeat. We still do",
       "festivals": [
         "diwali"
       ],
@@ -1452,7 +1452,7 @@
         "parental-conflict"
       ],
       "value": "what you were handed without asking",
-      "hook": "He is offered a kingdom his mother took for him. He goes to the forest to give it back, is refused, and comes home with a pair of sandals instead.",
+      "hook": "Bharata is handed a kingdom he never asked for. He walks into the forest to give it back — and returns with Rāma's sandals.",
       "festivals": [],
       "status": "published",
       "wave": 4,
@@ -1511,7 +1511,7 @@
         "loss"
       ],
       "value": "grief that turns into something",
-      "hook": "A man walks to the river to bathe and comes back with the first line of poetry anyone in that language had made. He did not mean to make it.",
+      "hook": "Vālmīki goes to the river to bathe. He returns having spoken the first poem — without meaning to write one.",
       "festivals": [
         "navaratri"
       ],
@@ -1531,7 +1531,7 @@
       "minAge": 7,
       "sensitivity": [],
       "value": "what you stop noticing",
-      "hook": "A sage hands the king of the gods a gift on the road. He takes it without getting off his elephant, and that is how the world loses its luck.",
+      "hook": "Indra accepts a sage's gift without getting off his elephant. That small discourtesy is how the world loses its luck.",
       "festivals": [
         "navaratri"
       ],
@@ -1577,7 +1577,7 @@
         "loss"
       ],
       "value": "who you will not leave behind",
-      "hook": "At the very end he is offered heaven, in a chariot, by name. There is one condition, and it is about the dog that has been walking with him.",
+      "hook": "Yudhiṣṭhira is offered heaven. He refuses to enter without the dog that followed him there.",
       "festivals": [],
       "status": "published",
       "wave": 5,
