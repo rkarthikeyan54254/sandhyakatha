@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-12",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -11,10 +11,25 @@
       "status": "published",
       "hash": "7fe3c2185b4ca32d"
     },
+    "bharata-fawn": {
+      "version": 1,
+      "status": "published",
+      "hash": "62f1760dc8eb158b"
+    },
     "bharata-sandals": {
       "version": 1,
       "status": "published",
       "hash": "11bd021f0cf31587"
+    },
+    "churning-ocean": {
+      "version": 1,
+      "status": "published",
+      "hash": "8a2982c242da2163"
+    },
+    "dhruva-still": {
+      "version": 1,
+      "status": "published",
+      "hash": "65c35ca52191f97f"
     },
     "durga-mahishasura": {
       "version": 2,
@@ -25,6 +40,11 @@
       "version": 1,
       "status": "published",
       "hash": "176e56c5f5a693b8"
+    },
+    "gajendra-lake": {
+      "version": 1,
+      "status": "published",
+      "hash": "79ecb1be8aa8d905"
     },
     "ganesha-circles": {
       "version": 3,
@@ -66,10 +86,20 @@
       "status": "published",
       "hash": "046b472407b255bf"
     },
+    "kena-blade-grass": {
+      "version": 1,
+      "status": "published",
+      "hash": "b0e4551f82e43223"
+    },
     "lakshmi-leaves-indra": {
       "version": 1,
       "status": "published",
       "hash": "b22093487c92fa6f"
+    },
+    "nachiketa-three-nights": {
+      "version": 1,
+      "status": "published",
+      "hash": "ac509259bfabfaf6"
     },
     "narakasura": {
       "version": 1,
@@ -81,6 +111,16 @@
       "status": "published",
       "hash": "d480ae18c2206468"
     },
+    "prahlada-pillar": {
+      "version": 1,
+      "status": "published",
+      "hash": "85a77ce54f1eb60a"
+    },
+    "prithu-earth-cow": {
+      "version": 1,
+      "status": "published",
+      "hash": "e63c3229a01fa8e4"
+    },
     "pusalar-temple": {
       "version": 2,
       "status": "published",
@@ -90,6 +130,11 @@
       "version": 1,
       "status": "published",
       "hash": "426730455bbc0e1f"
+    },
+    "rantideva-water": {
+      "version": 1,
+      "status": "published",
+      "hash": "f9fa5bfa6a0062bb"
     },
     "satyakama-truth": {
       "version": 2,
@@ -115,6 +160,11 @@
       "version": 1,
       "status": "published",
       "hash": "ed837cd445d6b263"
+    },
+    "sudama-poha": {
+      "version": 1,
+      "status": "published",
+      "hash": "3584c177884aa036"
     },
     "svetaketu-salt": {
       "version": 1,

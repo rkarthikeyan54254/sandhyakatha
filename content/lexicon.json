@@ -1712,5 +1712,279 @@
       "Mount Mahendra",
       "Mahendra Mountain"
     ]
+  },
+  "Bharata Mahārāja": {
+    "id": "bharata-maharaja",
+    "native": {
+      "deva": "भरत महाराज"
+    },
+    "say": "BHUH-ruh-tuh muh-HAA-raaj",
+    "kind": "person",
+    "gloss": "The king in the Bhāgavata Purāṇa who renounces his kingdom and later becomes attached to a fawn; distinct from Rāma's brother Bharata.",
+    "aliases": [
+      "Bharata Maharaja"
+    ]
+  },
+  "Rantideva": {
+    "id": "rantideva",
+    "native": {
+      "deva": "रन्तिदेव"
+    },
+    "say": "RUN-ti-day-vuh",
+    "kind": "person",
+    "gloss": "A king in the Bhāgavata Purāṇa remembered for giving food and finally his last drinking water to guests while he himself was hungry and thirsty.",
+    "aliases": [
+      "Rantidev"
+    ]
+  },
+  "Pṛthu": {
+    "id": "prithu",
+    "native": {
+      "deva": "पृथु"
+    },
+    "say": "PRIH-thoo",
+    "kind": "person",
+    "gloss": "The king in the Bhāgavata Purāṇa who confronts the personified Earth over famine and then arranges for her to yield nourishment like a cow.",
+    "aliases": [
+      "Prithu"
+    ]
+  },
+  "Naciketā": {
+    "id": "nachiketa",
+    "native": {
+      "deva": "नचिकेता"
+    },
+    "say": "nuh-chi-KAY-taa",
+    "kind": "person",
+    "gloss": "The boy in the Kaṭha Upaniṣad who waits three nights at Yama’s house and asks what happens after death.",
+    "aliases": [
+      "Nachiketa",
+      "Naciketa"
+    ]
+  },
+  "Amarka": {
+    "id": "amarka",
+    "native": {
+      "deva": "अमर्क"
+    },
+    "say": "uh-MUR-kuh",
+    "kind": "person",
+    "gloss": "One of the teachers assigned to Prahlāda in his father's household.",
+    "aliases": [
+      "Amarka"
+    ]
+  },
+  "Bhavānī": {
+    "id": "bhavani",
+    "native": {
+      "deva": "भवानी"
+    },
+    "say": "bhuh-VAA-nee",
+    "kind": "being",
+    "gloss": "A name of Pārvatī, Śiva's consort; present beside him during the poison episode in the ocean churning.",
+    "aliases": [
+      "Bhavani",
+      "Parvati",
+      "Pārvatī"
+    ]
+  },
+  "Brahman": {
+    "id": "brahman",
+    "native": {
+      "deva": "ब्रह्मन्"
+    },
+    "say": "BRUH-mun",
+    "kind": "word",
+    "gloss": "In the Upaniṣads, the ultimate reality on which the powers of gods and beings depend.",
+    "aliases": [
+      "Brahman"
+    ]
+  },
+  "Earth": {
+    "id": "earth",
+    "native": {
+      "deva": "पृथ्वी"
+    },
+    "say": "EARTH",
+    "kind": "being",
+    "gloss": "The Earth personified; in Pṛthu's story she takes the form of a cow and negotiates how nourishment will be drawn from her.",
+    "aliases": [
+      "Earth",
+      "Pṛthvī",
+      "Prithvi"
+    ]
+  },
+  "Hiraṇyakaśipu": {
+    "id": "hiranyakashipu",
+    "native": {
+      "deva": "हिरण्यकशिपु"
+    },
+    "say": "hi-RUN-yuh-kuh-shi-poo",
+    "kind": "person",
+    "gloss": "Prahlāda's father, a powerful king who tries to force his son to abandon devotion to Viṣṇu.",
+    "aliases": [
+      "Hiranyakashipu",
+      "Hiranyakasipu"
+    ]
+  },
+  "Jātavedas": {
+    "id": "jatavedas",
+    "native": {
+      "deva": "जातवेदस्"
+    },
+    "say": "JAA-tuh-VAY-dus",
+    "kind": "word",
+    "gloss": "An epithet of Agni used in the Kena Upaniṣad.",
+    "aliases": [
+      "Jatavedas"
+    ]
+  },
+  "Mandara": {
+    "id": "mandara",
+    "native": {
+      "deva": "मन्दर"
+    },
+    "say": "MUN-duh-ruh",
+    "kind": "place",
+    "gloss": "The mountain used as the churning rod when gods and asuras churn the ocean.",
+    "aliases": [
+      "Mandara",
+      "Mount Mandara"
+    ]
+  },
+  "Mātariśvan": {
+    "id": "matarishvan",
+    "native": {
+      "deva": "मातरिश्वन्"
+    },
+    "say": "MAA-tuh-rish-vun",
+    "kind": "word",
+    "gloss": "A name used for Vāyu in the Kena Upaniṣad.",
+    "aliases": [
+      "Matarishvan"
+    ]
+  },
+  "Nārāyaṇa": {
+    "id": "narayana",
+    "native": {
+      "deva": "नारायण"
+    },
+    "say": "NAA-raa-yuh-nuh",
+    "kind": "being",
+    "gloss": "A name of the Supreme Lord; in Gajendra's story he comes to the elephant king's rescue.",
+    "aliases": [
+      "Narayana"
+    ]
+  },
+  "Nṛsiṃha": {
+    "id": "nrisimha",
+    "native": {
+      "deva": "नृसिंह"
+    },
+    "say": "NRI-sim-huh",
+    "kind": "being",
+    "gloss": "The man-lion form of Viṣṇu who appears from the pillar in Prahlāda's story.",
+    "aliases": [
+      "Narasimha",
+      "Nrisimha"
+    ]
+  },
+  "Rukmiṇī": {
+    "id": "rukmini",
+    "native": {
+      "deva": "रुक्मिणी"
+    },
+    "say": "ROOK-mi-nee",
+    "kind": "person",
+    "gloss": "Kṛṣṇa's queen, present when he receives Sudāmā's humble gift.",
+    "aliases": [
+      "Rukmini"
+    ]
+  },
+  "Sunīti": {
+    "id": "suniti",
+    "native": {
+      "deva": "सुनीति"
+    },
+    "say": "soo-NEE-ti",
+    "kind": "person",
+    "gloss": "Dhruva's mother, who tells him not to wish harm on those who hurt him and directs him toward the Lord.",
+    "aliases": [
+      "Suniti"
+    ]
+  },
+  "Suruci": {
+    "id": "suruchi",
+    "native": {
+      "deva": "सुरुचि"
+    },
+    "say": "soo-ROO-chi",
+    "kind": "person",
+    "gloss": "Dhruva's stepmother, whose words at the king's lap set his journey in motion.",
+    "aliases": [
+      "Suruchi"
+    ]
+  },
+  "Svāyambhuva Manu": {
+    "id": "svayambhuva-manu",
+    "native": {
+      "deva": "स्वायम्भुव मनु"
+    },
+    "say": "SVAA-yum-bhoo-vuh MUH-noo",
+    "kind": "person",
+    "gloss": "The Manu used as the calf when Pṛthu draws herbs and grains from the cow-shaped Earth.",
+    "aliases": [
+      "Svayambhuva Manu"
+    ]
+  },
+  "Umā Haimavatī": {
+    "id": "uma-haimavati",
+    "native": {
+      "deva": "उमा हैमवती"
+    },
+    "say": "OO-maa HY-muh-vuh-tee",
+    "kind": "being",
+    "gloss": "Umā, daughter of Himavat; in the Kena Upaniṣad she explains to Indra who the mysterious presence was.",
+    "aliases": [
+      "Uma Haimavati",
+      "Umā"
+    ]
+  },
+  "Uttānapāda": {
+    "id": "uttanapada",
+    "native": {
+      "deva": "उत्तानपाद"
+    },
+    "say": "oot-TAA-nuh-paa-duh",
+    "kind": "person",
+    "gloss": "Dhruva's father and king; his failure to intervene at the lap begins Dhruva's story.",
+    "aliases": [
+      "Uttanapada"
+    ]
+  },
+  "Vājaśravas": {
+    "id": "vajashravas",
+    "native": {
+      "deva": "वाजश्रवस्"
+    },
+    "say": "VAA-juh-shruh-vus",
+    "kind": "person",
+    "gloss": "Naciketā's father in the Kaṭha Upaniṣad, whose angry words send the boy to Death.",
+    "aliases": [
+      "Vajasravas",
+      "Vajashravas"
+    ]
+  },
+  "Ṣaṇḍa": {
+    "id": "shanda",
+    "native": {
+      "deva": "षण्ड"
+    },
+    "say": "SHUN-duh",
+    "kind": "person",
+    "gloss": "One of the teachers assigned to Prahlāda in his father's household.",
+    "aliases": [
+      "Shanda"
+    ]
   }
 }

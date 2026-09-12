@@ -1,0 +1,370 @@
+{
+  "id": "kena-blade-grass",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "The Gods Who Could Not Burn a Blade of Grass",
+  "tease": "The gods win a victory and begin to think the victory is theirs. Then a mysterious being places a single blade of grass before them.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Kena Upaniṣad",
+    "locus": "3.1–12; 4.1",
+    "stability": "stable",
+    "traditionNote": "The Kena’s teaching comes through a compact parable: the gods’ pride is checked not by defeat in battle, but by inability to act upon the smallest test-object.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Sri Aurobindo, Kena Upanishad, final published translation, CWSA vol. 18 — Parts 3–4",
+      "F. Max Müller, Talavakāra/Kena Upaniṣad, Sacred Books of the East vol. 1, Clarendon Press, 1879"
+    ],
+    "sourcing": [
+      {
+        "claim": "Brahman wins the victory; the gods become proud and think the victory/greatness is theirs.",
+        "locus": "3.1"
+      },
+      {
+        "claim": "An unknown yakṣa appears; the gods send Agni.",
+        "locus": "3.2–3"
+      },
+      {
+        "claim": "Agni names himself Jātavedas, claims power to burn everything, and cannot burn a blade of grass.",
+        "locus": "3.4–6"
+      },
+      {
+        "claim": "Vāyu names himself Mātariśvan, claims power to carry everything, and cannot move the blade of grass.",
+        "locus": "3.7–10"
+      },
+      {
+        "claim": "Indra approaches; the yakṣa disappears; Umā Haimavatī appears and tells him it was Brahman and the victory was Brahman’s.",
+        "locus": "3.11–12, 4.1"
+      },
+      {
+        "claim": "Agni, Vāyu and Indra are singled out for coming nearest; Indra is placed first.",
+        "locus": "4.2–3"
+      },
+      {
+        "claim": "The text compares indication/recognition to lightning and an eyelid, then to the mind reaching and remembering.",
+        "locus": "4.4–5"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "borrowed power"
+  ],
+  "themes": [
+    "upanishad",
+    "kena",
+    "agni",
+    "vayu",
+    "indra",
+    "humility"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Agni",
+      "role": "present"
+    },
+    {
+      "ref": "Vāyu",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 312,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The gods had won a victory, and they were proud."
+        },
+        {
+          "t": "p",
+          "text": "The Kena Upaniṣad says the victory really belonged to «Brahman», but the gods thought: _The victory is ours. The greatness is ours._"
+        },
+        {
+          "t": "p",
+          "text": "Then a mysterious yakṣa appeared before them."
+        },
+        {
+          "t": "p",
+          "text": "They sent «Agni», Fire, to discover who it was."
+        },
+        {
+          "t": "p",
+          "text": "_Who are you?_ the yakṣa asked."
+        },
+        {
+          "t": "p",
+          "text": "«Agni» gave his name and title, «Jātavedas», and said he could burn everything on earth."
+        },
+        {
+          "t": "p",
+          "text": "The yakṣa placed one blade of grass before him."
+        },
+        {
+          "t": "p",
+          "text": "_Burn this._"
+        },
+        {
+          "t": "p",
+          "text": "«Agni» rushed at it with all his speed and could not burn it. He returned to the gods admitting that he still did not know who the yakṣa was."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Next came «Vāyu», Wind."
+        },
+        {
+          "t": "p",
+          "text": "He gave his title, «Mātariśvan», and said he could carry away everything on earth."
+        },
+        {
+          "t": "p",
+          "text": "Again the yakṣa placed down a blade of grass."
+        },
+        {
+          "t": "p",
+          "text": "_Take this away._"
+        },
+        {
+          "t": "p",
+          "text": "«Vāyu» rushed at it with all his speed, but he could not take the grass away. He too returned without discovering the yakṣa's identity."
+        },
+        {
+          "t": "p",
+          "text": "Then «Indra» approached. Before he could try, the yakṣa disappeared."
+        },
+        {
+          "t": "p",
+          "text": "In the same place «Indra» saw «Umā Haimavatī» and asked who the mysterious being had been."
+        },
+        {
+          "t": "p",
+          "text": "Umā told him: it was «Brahman». The victory in which the gods had become proud was «Brahman»'s victory. The Upaniṣad then places «Indra» first among these three because he came nearest and learned what the presence was."
+        },
+        {
+          "t": "p",
+          "text": "Fire can still burn and Wind can still move. The blade of grass exposes a different mistake: saying _our victory, our greatness_ as though those real powers began entirely with the gods themselves. Afterward the text compares the recognition of «Brahman» to a lightning flash — brief, unmistakable, and not something the gods captured by force."
+        },
+        {
+          "t": "p",
+          "text": "The boast was enormous. The test was one blade of grass."
+        },
+        {
+          "t": "slow",
+          "text": "«Agni» and «Vāyu» kept their power; what the grass took away was the idea that they owned its source."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 664,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The Kena Upaniṣad tells a very short story about a victory."
+        },
+        {
+          "t": "p",
+          "text": "The gods have won."
+        },
+        {
+          "t": "p",
+          "text": "But the text immediately corrects the way they understand what happened. The victory was «Brahman»'s victory. The gods become proud and think: _The victory is ours. The greatness is ours._"
+        },
+        {
+          "t": "p",
+          "text": "«Brahman» knows what they are thinking and appears before them as something they do not recognize."
+        },
+        {
+          "t": "p",
+          "text": "The Upaniṣad calls the mysterious presence a yakṣa."
+        },
+        {
+          "t": "p",
+          "text": "The gods want to know who it is."
+        },
+        {
+          "t": "p",
+          "text": "They send «Agni», Fire."
+        },
+        {
+          "t": "p",
+          "text": "«Agni» approaches the yakṣa. The first question is simple: _Who are you?_"
+        },
+        {
+          "t": "p",
+          "text": "«Agni» gives his name and title: «Agni», «Jātavedas» — the name by which the text addresses him when the gods send him to investigate. The yakṣa does not argue with that identity. It asks what force comes with it."
+        },
+        {
+          "t": "p",
+          "text": "Then comes the more revealing question: _What power is in you?_"
+        },
+        {
+          "t": "p",
+          "text": "«Agni» answers that he can burn everything on earth."
+        },
+        {
+          "t": "p",
+          "text": "The yakṣa places a single blade of grass before him."
+        },
+        {
+          "t": "p",
+          "text": "_Burn this._"
+        },
+        {
+          "t": "p",
+          "text": "«Agni» rushes at the grass with all his power."
+        },
+        {
+          "t": "p",
+          "text": "He cannot burn it."
+        },
+        {
+          "t": "p",
+          "text": "There is no larger obstacle behind it. No enchanted forest. No army. The test is deliberately smaller than the boast."
+        },
+        {
+          "t": "p",
+          "text": "«Agni» returns to the gods and says plainly that he could not discover who the yakṣa was. His report is not that the grass was unusually strong; it is that the identity of the presence remains beyond him."
+        },
+        {
+          "t": "p",
+          "text": "Next they send «Vāyu», Wind."
+        },
+        {
+          "t": "p",
+          "text": "The exchange repeats."
+        },
+        {
+          "t": "p",
+          "text": "_Who are you?_"
+        },
+        {
+          "t": "p",
+          "text": "«Vāyu» gives his name and title: «Vāyu», «Mātariśvan». Again the next question is not about rank but power: what force is in you?"
+        },
+        {
+          "t": "p",
+          "text": "_What power is in you?_"
+        },
+        {
+          "t": "p",
+          "text": "«Vāyu» says he can carry away everything on earth."
+        },
+        {
+          "t": "p",
+          "text": "Again the yakṣa puts down a blade of grass."
+        },
+        {
+          "t": "p",
+          "text": "_Take this away._"
+        },
+        {
+          "t": "p",
+          "text": "«Vāyu» goes at it with all his speed."
+        },
+        {
+          "t": "p",
+          "text": "The grass does not move."
+        },
+        {
+          "t": "p",
+          "text": "«Vāyu» returns with the same report: he could not discover who this presence was. Fire and Wind have each stated a real cosmic power, each has been given one tiny test, and neither test explains itself to the god who fails it."
+        },
+        {
+          "t": "p",
+          "text": "Then the gods send «Indra»."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» approaches, but before he can undergo the same little test, the yakṣa disappears."
+        },
+        {
+          "t": "p",
+          "text": "In that very place he sees «Umā Haimavatī», radiant and resplendent."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» asks her who the yakṣa was."
+        },
+        {
+          "t": "p",
+          "text": "Umā gives the answer that Fire and Wind could not obtain by displaying their power."
+        },
+        {
+          "t": "p",
+          "text": "It was «Brahman»."
+        },
+        {
+          "t": "p",
+          "text": "And the victory the gods were celebrating as their own had been «Brahman»'s victory. Only then, the text says, does «Indra» know what the yakṣa was."
+        },
+        {
+          "t": "p",
+          "text": "The Kena then singles out «Agni», «Vāyu» and «Indra» because they came nearest to that presence, with «Indra» placed first because he came nearest and first understood, through Umā's teaching, that it was «Brahman»."
+        },
+        {
+          "t": "p",
+          "text": "The Upaniṣad keeps going for a few lines after the story. Its own image for the recognition is not a long possession of something captured: it compares the indication of «Brahman» to a flash of lightning or the quick fall of an eyelid."
+        },
+        {
+          "t": "p",
+          "text": "Then it turns inward and speaks of the mind seeming to reach toward That and repeatedly remembering it. Fire and Wind return unable to identify the presence; «Indra» learns because Umā tells him what it was."
+        },
+        {
+          "t": "p",
+          "text": "Fire and Wind are cosmic powers. The challenge placed before each of them is a single blade of grass."
+        },
+        {
+          "t": "p",
+          "text": "Their powers are real; the Upaniṣad does not take them away."
+        },
+        {
+          "t": "p",
+          "text": "What collapses is the claim that the power and greatness belong to the gods as if their victory began entirely with themselves."
+        },
+        {
+          "t": "p",
+          "text": "«Agni» does not lose the ability to burn because one blade of grass defeats him. «Vāyu» does not stop being the wind because the grass stays still."
+        },
+        {
+          "t": "p",
+          "text": "Instead, the tiny object exposes a dependence that victory had allowed them to forget."
+        },
+        {
+          "t": "p",
+          "text": "The smaller the blade, the larger the correction."
+        },
+        {
+          "t": "slow",
+          "text": "The gods did not lose their powers; they lost the idea that the powers began and ended with them."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think the test is a blade of grass instead of something grand?",
+    "seed": "The point is not the size of the task. It is whether the power truly belongs to you.",
+    "ifTheyAsk": []
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "prahlada-pillar",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Prahlāda and the Pillar",
+  "tease": "A boy keeps giving the answer his father forbids. At last the king points to a pillar and asks whether the power Prahlāda trusts is inside that too.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 7, chapters 5 and 8",
+    "stability": "stable",
+    "traditionNote": "The emotional center is Prahlāda’s repeated refusal to replace his answer with the “safe” one; the pillar and Nṛsiṃha climax serve that earlier tension.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 7",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 7.3, 7.5, 7.8"
+    ],
+    "sourcing": [
+      {
+        "claim": "Ṣaṇḍa and Amarka teach Prahlāda politics/material statecraft; he rejects the friend/enemy division and answers with devotion to Viṣṇu.",
+        "locus": "7.5.1–37"
+      },
+      {
+        "claim": "Hiraṇyakaśipu orders repeated killing attempts: weapons, elephants, snakes, spells, poison, starvation, cold, wind, fire, water, a fall and crushing weight; they fail.",
+        "locus": "7.5.38–44"
+      },
+      {
+        "claim": "Hiraṇyakaśipu’s earlier boon closes ordinary categories of death, including man/animal, day/night, indoors/outdoors, earth/sky and weapons.",
+        "locus": "7.3"
+      },
+      {
+        "claim": "Prahlāda says the Lord is everywhere; Hiraṇyakaśipu strikes a pillar; a tremendous sound comes from it.",
+        "locus": "7.8.1–16"
+      },
+      {
+        "claim": "Nṛsiṃha emerges in a form neither simply man nor animal.",
+        "locus": "7.8.17"
+      },
+      {
+        "claim": "The death occurs at the threshold/twilight, on Nṛsiṃha’s lap and by claws, intersecting the boon’s categories.",
+        "locus": "7.8.18–30"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "violence",
+      "parental-conflict"
+    ],
+    "careNote": "Prahlāda’s father tries to have him killed, and Nṛsiṃha kills Hiraṇyakaśipu. The telling states this clearly without gore.",
+    "gated": false
+  },
+  "values": [
+    "saying it in a dangerous house"
+  ],
+  "themes": [
+    "bhagavata",
+    "prahlada",
+    "narasimha",
+    "truth",
+    "parental-conflict"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Prahlāda",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 304,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Prahlāda» was the son of King «Hiraṇyakaśipu», but the two of them did not believe the same thing."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda»'s teachers, «Ṣaṇḍa» and «Amarka», taught him politics: who is a friend, who is an enemy, how power is kept. «Prahlāda» listened, but his answer to his father's questions was always about devotion to «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "At first «Hiraṇyakaśipu» was angry with the teachers. They insisted the devotion had not come from them. «Prahlāda» was sent back, threatened and taught again. Then the king became angry with his son."
+        },
+        {
+          "t": "p",
+          "text": "The argument became dangerous. The Bhāgavata says «Hiraṇyakaśipu» ordered repeated attempts to kill «Prahlāda»: elephants, snakes, poison, starvation, fire, water and a fall from a mountain. The boy survived them."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Finally the king demanded to know where the supreme power «Prahlāda» spoke about could be found."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda» said the Lord was everywhere."
+        },
+        {
+          "t": "p",
+          "text": "«Hiraṇyakaśipu» pointed at a pillar in the hall. «Prahlāda»'s claim left no safe exception: if the Lord was everywhere, the pillar could not be outside that everywhere. If the Lord was everywhere, was he in that pillar too?"
+        },
+        {
+          "t": "p",
+          "text": "The king struck it."
+        },
+        {
+          "t": "p",
+          "text": "«Nṛsiṃha» appeared from the pillar, in a form neither simply human nor simply animal."
+        },
+        {
+          "t": "p",
+          "text": "Long before this, «Hiraṇyakaśipu» had asked for protections against ordinary ways of dying: not indoors or outdoors, not by day or night, not on earth or in the sky, not by a weapon, human, or animal."
+        },
+        {
+          "t": "p",
+          "text": "«Nṛsiṃha» meets those boundaries exactly: at the doorway, at twilight, with the king on his lap, using claws rather than a weapon."
+        },
+        {
+          "t": "p",
+          "text": "This is not an ordinary family disagreement. «Prahlāda»'s danger comes because honest devotion has been made punishable in his own home, and because his father has made survival depend on giving the approved answer."
+        },
+        {
+          "t": "slow",
+          "text": "When «Prahlāda» said the Lord was everywhere, even the pillar his father challenged became part of the answer."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 652,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Prahlāda» goes to school in a house where the wrong answer can get him killed."
+        },
+        {
+          "t": "p",
+          "text": "His father, «Hiraṇyakaśipu», has built his rule around power and hostility to «Viṣṇu». The teachers «Ṣaṇḍa» and «Amarka» are assigned to train «Prahlāda» in the knowledge expected at that court: politics, economics, alliances, enemies, punishment, and the habits of ruling."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda» listens, but he does not accept the basic division of the world into \"ours\" and \"theirs.\""
+        },
+        {
+          "t": "p",
+          "text": "One day «Hiraṇyakaśipu» lifts his son onto his lap, embraces him affectionately, and asks a question that sounds almost ordinary: what is the best thing you have learned? The tenderness of that opening makes what follows harder, not easier."
+        },
+        {
+          "t": "p",
+          "text": "He expects an answer from the curriculum."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda» answers with devotion to «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "His father is furious. The teachers insist that they did not teach him this. «Prahlāda» is sent back for more instruction. The teachers chastise and threaten him and go on teaching the techniques of worldly success they have been assigned to teach."
+        },
+        {
+          "t": "p",
+          "text": "The second attempt changes nothing."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda» is brought before his father again and again speaks about devotion. What begins as a disagreement stops being safe. «Hiraṇyakaśipu» orders that the boy be killed."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata gathers several attempts together. Weapons are used against him. He is thrown under elephants and among poisonous snakes. There are spells, poison, starvation, severe cold, wind, fire and water, and a fall from a mountain. None of these attempts succeeds."
+        },
+        {
+          "t": "p",
+          "text": "Every attempt fails. «Prahlāda»'s father keeps trying to destroy the child who will not say what the king wants to hear, and «Prahlāda» survives each danger without changing the answer that brought the danger on him."
+        },
+        {
+          "t": "p",
+          "text": "The conflict finally returns to one question: where is the power «Prahlāda» trusts?"
+        },
+        {
+          "t": "p",
+          "text": "«Hiraṇyakaśipu» demands to know where this supreme ruler is. «Prahlāda»'s answer is that the Lord is everywhere."
+        },
+        {
+          "t": "p",
+          "text": "There is a pillar in the hall."
+        },
+        {
+          "t": "p",
+          "text": "«Hiraṇyakaśipu» points to it. If the Lord is everywhere, why is he not visible there?"
+        },
+        {
+          "t": "p",
+          "text": "Then he strikes the pillar."
+        },
+        {
+          "t": "p",
+          "text": "A terrible sound comes from within it, and the assembly looks for its source."
+        },
+        {
+          "t": "p",
+          "text": "The answer comes from the pillar itself."
+        },
+        {
+          "t": "p",
+          "text": "«Nṛsiṃha» appears: neither simply human nor simply animal, the form of a man-lion."
+        },
+        {
+          "t": "p",
+          "text": "That matters because «Hiraṇyakaśipu» had earlier asked «Brahmā» for protections designed to close every ordinary route to death. He had asked not to die indoors or outdoors, by day or by night, on the ground or in the sky, by a weapon, a human being, or an animal."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata is careful about how the end happens."
+        },
+        {
+          "t": "p",
+          "text": "«Nṛsiṃha» takes «Hiraṇyakaśipu» at the doorway of the assembly hall. He places him on his lap rather than on earth or in the sky. The killing happens at the meeting of day and night. The weapon is not a sword or spear but «Nṛsiṃha»'s claws."
+        },
+        {
+          "t": "p",
+          "text": "The details are not random cleverness added by a later storyteller. The chapter itself gives the threshold, the lap and the claws, while the earlier boon explains why those boundaries matter."
+        },
+        {
+          "t": "p",
+          "text": "The ending is violent, but its pattern is precise. The king had tried to make every ordinary path to death impossible; the form from the pillar meets the boundaries he thought would protect him."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda»'s situation is not an ordinary family disagreement. He is asked to abandon the devotion that defines him, and the answer he gives places him in mortal danger inside his own home."
+        },
+        {
+          "t": "p",
+          "text": "The school tried to teach him who counted as friend and enemy. His father tried to make survival depend on giving the approved answer."
+        },
+        {
+          "t": "p",
+          "text": "«Prahlāda» does not win by becoming more powerful than the king."
+        },
+        {
+          "t": "p",
+          "text": "He keeps saying what he believes to be true about where power actually resides."
+        },
+        {
+          "t": "p",
+          "text": "The pillar scene turns that claim into the visible centre of the story."
+        },
+        {
+          "t": "slow",
+          "text": "«Prahlāda» says the Lord is everywhere; the story chooses the hardest possible place to test him — the pillar his father is standing beside."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What makes telling the truth different when the person asking has already decided what answer is allowed?",
+    "seed": "Prahlāda’s courage is not that he likes arguing; it is that fear does not make him replace his answer.",
+    "ifTheyAsk": []
+  }
+}

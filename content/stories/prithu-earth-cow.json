@@ -1,0 +1,285 @@
+{
+  "id": "prithu-earth-cow",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "What the Earth Agreed To",
+  "tease": "A king chases the Earth because people have no food. She flees in the form of a cow — and then explains why simply forcing her is not the answer.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 4, chapters 17–18",
+    "stability": "stable",
+    "traditionNote": "The Bhāgavata frames this as a negotiation as much as a pursuit: Pṛthu threatens, Earth explains, and the world becomes fruitful through an agreed arrangement rather than brute seizure alone.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 4",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 4.17–4.18"
+    ],
+    "sourcing": [
+      {
+        "claim": "Hungry citizens appeal to Pṛthu; he concludes Earth is withholding seeds/grains and aims his bow.",
+        "locus": "4.17"
+      },
+      {
+        "claim": "Earth takes cow form and flees; Pṛthu pursues; she turns and argues that a protector cannot destroy the ground of his people.",
+        "locus": "4.17"
+      },
+      {
+        "claim": "Pṛthu accuses Earth of withholding food while taking her share; the threat remains real.",
+        "locus": "4.17"
+      },
+      {
+        "claim": "Earth proposes conditions for “milking”: calf, vessel, milker, and prepared/level ground.",
+        "locus": "4.18.1–8"
+      },
+      {
+        "claim": "Pṛthu accepts, uses Svāyambhuva Manu as calf and his cupped hands as vessel, drawing herbs/grains.",
+        "locus": "4.18"
+      },
+      {
+        "claim": "Other groups repeat the pattern with different calves/vessels/substances.",
+        "locus": "4.18"
+      },
+      {
+        "claim": "Pṛthu becomes affectionate toward Earth and arranges settlements, grazing/agriculture and livelihoods.",
+        "locus": "4.18"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "asking instead of taking"
+  ],
+  "themes": [
+    "bhagavata",
+    "prithu",
+    "earth",
+    "cow",
+    "stewardship"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Pṛthu",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 300,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "King «Pṛthu»'s citizens came to him hungry. Food grain had become scarce, and they told their king that they were growing thin."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» decided the «Earth» was withholding the seeds of herbs and grains."
+        },
+        {
+          "t": "p",
+          "text": "He took up his bow."
+        },
+        {
+          "t": "p",
+          "text": "The «Earth» became a cow and ran."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» chased her until she finally turned and spoke to him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She reminded him that a king was supposed to protect living beings. If he destroyed the «Earth» herself, what would happen to the people he was trying to save?"
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» answered that people were starving and accused her of keeping the seeds hidden."
+        },
+        {
+          "t": "p",
+          "text": "«Earth» did not deny that nourishment had to be brought out. Instead she proposed a method."
+        },
+        {
+          "t": "p",
+          "text": "If «Pṛthu» wanted her to give nourishment like a cow gives milk, he should provide a calf, a vessel and someone to milk her. She also asked him to level the ground so rainwater could remain and production could continue instead of disappearing after one harvest."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» accepted the arrangement."
+        },
+        {
+          "t": "p",
+          "text": "Using «Svāyambhuva Manu» as the calf and his own cupped hands as the vessel, he drew herbs and grains from the cow-shaped «Earth». Other beings then followed the same pattern as well, choosing their own calves and vessels and drawing the kinds of \"milk\" appropriate to them."
+        },
+        {
+          "t": "p",
+          "text": "By the end, the king who had chased «Earth» with a weapon had become satisfied with her and treated her with affection like a daughter. He then leveled rough ground and marked out villages, towns, grazing places and agricultural settlements so people could continue to live and work."
+        },
+        {
+          "t": "p",
+          "text": "The story does not pretend the threat never happened. Its turn comes because the threatened «Earth» is allowed to answer."
+        },
+        {
+          "t": "slow",
+          "text": "«Pṛthu» came demanding food; he left with an arrangement for receiving it without destroying the one who gave it."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 657,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The citizens come to King «Pṛthu» with a basic complaint: they are hungry."
+        },
+        {
+          "t": "p",
+          "text": "Food grain has become scarce. People are growing thin. They tell the king that they are drying up from hunger and ask him to do what a protector is supposed to do."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» takes the problem seriously because, in this story, the king is responsible for whether the people can live."
+        },
+        {
+          "t": "p",
+          "text": "He thinks about the cause and concludes that the «Earth» is withholding the seeds of herbs and grains."
+        },
+        {
+          "t": "p",
+          "text": "His first response is not gentle."
+        },
+        {
+          "t": "p",
+          "text": "He takes up his bow and aims an arrow at the «Earth»."
+        },
+        {
+          "t": "p",
+          "text": "The «Earth» sees the weapon, becomes afraid, takes the form of a cow and runs."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» chases her."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata makes the pursuit enormous. The cow-shaped «Earth» flees through the spaces available to her, but «Pṛthu» follows with his weapon ready. Finally she turns back because she cannot escape him."
+        },
+        {
+          "t": "p",
+          "text": "Then the thing being threatened speaks."
+        },
+        {
+          "t": "p",
+          "text": "«Earth» appeals to the king by reminding him of the office he holds. You are supposed to protect living beings, she says in effect; how can the protector destroy the ground on which all of them depend?"
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» does not immediately lower his bow."
+        },
+        {
+          "t": "p",
+          "text": "He accuses «Earth» of taking her share while failing to produce food for the citizens. He specifically says that the seeds of herbs and grains are hidden within her. His anger is tied to the sight of people starving."
+        },
+        {
+          "t": "p",
+          "text": "The threat remains real. «Pṛthu» has not yet found another answer to the hunger in front of him, and «Earth» is still facing an armed king."
+        },
+        {
+          "t": "p",
+          "text": "But the conversation changes what happens next."
+        },
+        {
+          "t": "p",
+          "text": "«Earth» does not simply deny the shortage. She proposes a way to make what is hidden available again."
+        },
+        {
+          "t": "p",
+          "text": "If «Pṛthu» wants nourishment from her as milk from a cow, he should provide the conditions for milking: a suitable calf, a vessel and someone to do the milking. She also asks for the land to be prepared so that water can remain and production can continue."
+        },
+        {
+          "t": "p",
+          "text": "This is the turn in the story."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» had approached scarcity as something to force open with an arrow. «Earth» answers with an arrangement."
+        },
+        {
+          "t": "p",
+          "text": "«Pṛthu» listens."
+        },
+        {
+          "t": "p",
+          "text": "He accepts her proposal. He makes «Svāyambhuva Manu» the calf and uses his own cupped hands as the vessel. From the cow-shaped «Earth» he draws herbs and grains."
+        },
+        {
+          "t": "p",
+          "text": "Then the image expands."
+        },
+        {
+          "t": "p",
+          "text": "Other groups follow the same pattern, each choosing an appropriate calf and vessel and drawing from «Earth» the substance suited to them. Sages, gods, other communities and living beings receive different things through the same image. The chapter turns \"milk\" into a broad image for the different forms of nourishment and value living beings receive from the world."
+        },
+        {
+          "t": "p",
+          "text": "By the end, the relationship between «Pṛthu» and «Earth» has changed completely."
+        },
+        {
+          "t": "p",
+          "text": "The king who chased her with a bow is satisfied because the living beings have food. The Bhāgavata says he develops affection for «Earth» as though she were his daughter."
+        },
+        {
+          "t": "p",
+          "text": "The story then continues into practical rule: «Pṛthu» levels rough ground and arranges places for villages, settlements, grazing, agriculture and other forms of livelihood."
+        },
+        {
+          "t": "p",
+          "text": "That aftermath matters. The answer to hunger is not a single miraculous milking and then nothing more. The king reorganizes conditions so people can continue living and producing."
+        },
+        {
+          "t": "p",
+          "text": "The chapter does not erase either half of what happened."
+        },
+        {
+          "t": "p",
+          "text": "It does not teach that force is always useless; «Pṛthu»'s threat is part of the story. It does not teach that «Earth» will give endlessly without conditions; «Earth» herself names conditions."
+        },
+        {
+          "t": "p",
+          "text": "What it does show is a ruler moving from accusation and pursuit into listening, arrangement and responsibility."
+        },
+        {
+          "t": "p",
+          "text": "The hungry citizens still need food at the end. The difference is that food now comes from a relationship that leaves the source alive."
+        },
+        {
+          "t": "slow",
+          "text": "«Pṛthu» began with an arrow aimed at the «Earth»; the answer to hunger arrived only after he heard what the «Earth» said she needed in order to give."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think the Earth story becomes a conversation instead of ending with the chase?",
+    "seed": "The story suggests that stewardship means responsibility plus understanding, not force alone.",
+    "ifTheyAsk": []
+  }
+}

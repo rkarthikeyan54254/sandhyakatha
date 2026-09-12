@@ -1,0 +1,331 @@
+{
+  "id": "nachiketa-three-nights",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "The Boy Who Waited Three Nights",
+  "tease": "A father, angry in the middle of a sacrifice, says he gives his son to Death. The boy goes, arrives at Death’s house, and waits there three nights unfed.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Kaṭha Upaniṣad",
+    "locus": "1.1.1–29",
+    "stability": "stable",
+    "traditionNote": "The turning point is not spectacle but the integrity of Naciketā’s question: after receiving two boons, he persists in asking what happens after death.",
+    "parallels": [],
+    "checkedAgainst": [
+      "F. Max Müller, The Upanishads, Part II, Sacred Books of the East vol. 15, Clarendon Press, 1884 — Kaṭha Upaniṣad I.1",
+      "Sri Aurobindo, Katha Upanishad translation (1910) — First Cycle, First Chapter"
+    ],
+    "sourcing": [
+      {
+        "claim": "Vājaśravas gives away exhausted cows; Naciketā asks three times to whom he will be given; his father angrily gives him to Death.",
+        "locus": "1.1.1–6"
+      },
+      {
+        "claim": "Naciketā waits unfed at Yama’s house for three nights; Yama offers three boons.",
+        "locus": "1.1.7–9"
+      },
+      {
+        "claim": "First boon: reconciliation and peaceful welcome from his father.",
+        "locus": "1.1.10–11"
+      },
+      {
+        "claim": "Second boon: knowledge of the fire-sacrifice; Naciketā repeats it correctly and it receives his name.",
+        "locus": "1.1.12–19"
+      },
+      {
+        "claim": "Third boon: the question of what remains after death; Yama initially asks him to choose another boon.",
+        "locus": "1.1.20–22"
+      },
+      {
+        "claim": "Yama offers long-lived descendants, cattle, elephants, gold, horses, land, long life, chariots/music/pleasures.",
+        "locus": "1.1.23–25"
+      },
+      {
+        "claim": "Naciketā refuses because these pleasures are temporary and do not answer his question.",
+        "locus": "1.1.26–29"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "The story begins with anger between father and son and then moves into a philosophical question about death. The tone is serious but not frightening.",
+    "gated": false
+  },
+  "values": [
+    "refusing an easy answer"
+  ],
+  "themes": [
+    "upanishad",
+    "naciketas",
+    "yama",
+    "death",
+    "truth"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Naciketā",
+      "role": "lead"
+    },
+    {
+      "ref": "Yama",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 311,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Naciketā» watched his father, «Vājaśravas», giving away possessions during a sacrifice."
+        },
+        {
+          "t": "p",
+          "text": "The boy noticed that the cows being given were old: they had already drunk their water, eaten their grass, given their milk and borne their calves. Worried about what such gifts could mean, he asked his father a strange question:"
+        },
+        {
+          "t": "p",
+          "text": "_Father, to whom will you give me?_"
+        },
+        {
+          "t": "p",
+          "text": "He asked three times."
+        },
+        {
+          "t": "p",
+          "text": "His father finally answered in anger: _I give you to Death._"
+        },
+        {
+          "t": "p",
+          "text": "The Upaniṣad then brings «Naciketā» to the house of «Yama», Lord Death. «Yama» is away, so «Naciketā» waits there unfed for three nights."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When «Yama» returns, he offers three boons to make up for the three nights."
+        },
+        {
+          "t": "p",
+          "text": "For the first, «Naciketā» asks that his father be calm, free from anger and happy to welcome him home."
+        },
+        {
+          "t": "p",
+          "text": "For the second, he asks to learn the sacred fire connected with the heavenly world. «Yama» teaches him the arrangement carefully; «Naciketā» repeats it correctly, and «Yama» names that fire after him."
+        },
+        {
+          "t": "p",
+          "text": "For the third, «Naciketā» asks what happens when a person dies. Some say something remains; others say it does not. He wants «Yama» to teach him."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» tries to change the question."
+        },
+        {
+          "t": "p",
+          "text": "He offers sons and grandsons who will live a hundred years, cattle, elephants, gold, horses, a wide kingdom, as much life as «Naciketā» wants, then chariots, music and pleasures difficult for mortals to obtain."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» refuses."
+        },
+        {
+          "t": "p",
+          "text": "He does not say those things have no value. He says they do not last, that even a long human life is short, and that pleasures eventually wear out the senses that enjoy them. None of them answers what he asked."
+        },
+        {
+          "t": "p",
+          "text": "So he tells «Yama» to keep the pleasures and asks again about death."
+        },
+        {
+          "t": "p",
+          "text": "The great philosophical teaching begins after that."
+        },
+        {
+          "t": "slow",
+          "text": "«Naciketā» was offered many wonderful things, but he would not trade away the one question he had actually come to ask."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 660,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Naciketā»'s story begins at a sacrifice being performed by his father, «Vājaśravas»."
+        },
+        {
+          "t": "p",
+          "text": "His father is giving away possessions. «Naciketā» watches the gifts closely and notices that the cows being given are old: they have finished drinking, eating, giving milk and bearing calves. The boy begins to worry about what kind of result such gifts can bring."
+        },
+        {
+          "t": "p",
+          "text": "Then he turns the logic of giving onto himself."
+        },
+        {
+          "t": "p",
+          "text": "_Father, to whom will you give me?_"
+        },
+        {
+          "t": "p",
+          "text": "He asks once."
+        },
+        {
+          "t": "p",
+          "text": "He asks again."
+        },
+        {
+          "t": "p",
+          "text": "He asks a third time."
+        },
+        {
+          "t": "p",
+          "text": "At last his father answers in anger: _I give you to Death._"
+        },
+        {
+          "t": "p",
+          "text": "The Kaṭha Upaniṣad does not spend time describing a road, a chariot or a supernatural journey. It simply brings «Naciketā» into the presence of the consequence of those words."
+        },
+        {
+          "t": "p",
+          "text": "He reaches the house of «Yama», Death."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» is away."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» waits there as a guest without food."
+        },
+        {
+          "t": "p",
+          "text": "One night."
+        },
+        {
+          "t": "p",
+          "text": "Two nights."
+        },
+        {
+          "t": "p",
+          "text": "Three nights."
+        },
+        {
+          "t": "p",
+          "text": "When «Yama» returns, the failure of hospitality matters. A brāhmaṇa guest has waited unfed in his house for three nights. To make amends, «Yama» offers three boons, one for each night."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» chooses the first boon for home."
+        },
+        {
+          "t": "p",
+          "text": "He asks that his father be peaceful, free from anger, recognize him and welcome him when «Yama» sends him back. The first thing he repairs is the relationship from which the story began."
+        },
+        {
+          "t": "p",
+          "text": "For the second boon, «Naciketā» asks to learn the fire-sacrifice associated with reaching the heavenly world, a state described there as beyond fear of old age, hunger and thirst. «Yama» teaches him the fire, the arrangement of its bricks and the ritual knowledge connected with it."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» repeats the teaching back correctly. «Yama» is pleased, gives him an additional gift, and declares that this fire will carry «Naciketā»'s name."
+        },
+        {
+          "t": "p",
+          "text": "Then comes the third boon."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» asks the question that opens the rest of the Upaniṣad: when a person dies, some say that something remains and others say it does not. Teach me what is true."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» does not answer immediately."
+        },
+        {
+          "t": "p",
+          "text": "He says even the gods have doubted about this matter. It is subtle. Choose another boon."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» hears that differently. If even the gods have found the question difficult, and if Death himself is the teacher in front of him, then there is no better question and no better person to ask."
+        },
+        {
+          "t": "p",
+          "text": "So «Yama» raises the price of abandoning it."
+        },
+        {
+          "t": "p",
+          "text": "He offers sons and grandsons who will live a hundred years. Herds of cattle. Elephants. Gold. Horses. A wide stretch of earth. As many years of life as «Naciketā» wants. He even offers to make the boy a king with the power to enjoy whatever desires he chooses."
+        },
+        {
+          "t": "p",
+          "text": "Then the offer becomes more dazzling: chariots, music, attendants and pleasures difficult for ordinary people to obtain. «Yama» says these are things mortals struggle to obtain and places them directly in front of him."
+        },
+        {
+          "t": "p",
+          "text": "Take these, «Yama» says in effect. Do not ask about death."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» refuses."
+        },
+        {
+          "t": "p",
+          "text": "His answer is not that horses, music or long life are ugly. It is that they are temporary. They wear out the vigour of the senses that enjoy them. Even the longest human life remains short beside the question he is asking."
+        },
+        {
+          "t": "p",
+          "text": "He tells «Yama» to keep the chariots, dance and song. He adds that wealth never finally satisfies a person; if wealth were what he needed, standing before «Yama» would already make wealth available."
+        },
+        {
+          "t": "p",
+          "text": "Long life only postpones death. Another pleasure is not an answer to what happens when pleasure, wealth and life itself come to their limit."
+        },
+        {
+          "t": "p",
+          "text": "So «Naciketā» asks again."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» keeps the question. «Yama» has offered almost everything except the answer, and the boy has refused to trade the question away. Only after that refusal does the larger teaching begin."
+        },
+        {
+          "t": "p",
+          "text": "By this point the pattern is exact."
+        },
+        {
+          "t": "p",
+          "text": "«Naciketā» is offered excellent answers to questions he did not ask."
+        },
+        {
+          "t": "p",
+          "text": "He refuses to confuse value with relevance."
+        },
+        {
+          "t": "slow",
+          "text": "«Yama» could offer «Naciketā» almost everything except an easy answer; the boy kept the difficult question instead."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think Naciketā uses his third boon on a question instead of on something easier to enjoy?",
+    "seed": "A reward is only valuable if it helps answer the question you actually came with.",
+    "ifTheyAsk": []
+  }
+}

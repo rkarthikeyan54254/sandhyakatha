@@ -56,7 +56,7 @@
       "minAge": 6,
       "sensitivity": [],
       "value": "you need someone to remind you",
-      "hook": "Hanumān says nothing while everyone measures how far they can jump. Then Jāmbavān reminds him who he is." ,
+      "hook": "Hanumān says nothing while everyone measures how far they can jump. Then Jāmbavān reminds him who he is.",
       "festivals": [
         "hanuman-jayanti"
       ],
@@ -342,7 +342,7 @@
       "value": "a child who would not be told no",
       "hook": "He is told he cannot sit on his father's lap. He is five. He walks into the forest instead, and becomes a star.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -360,7 +360,7 @@
       "value": "when your own strength runs out",
       "hook": "The strongest elephant in the forest pulls against a crocodile for a thousand years, and then stops pulling.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -378,7 +378,7 @@
       "value": "the friend who could not ask",
       "hook": "He walks for days to see his rich old schoolfriend, carrying a knotted rag of beaten rice he is ashamed of.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -398,7 +398,7 @@
       "festivals": [
         "mahashivaratri"
       ],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -421,7 +421,7 @@
       "festivals": [
         "holi"
       ],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -461,7 +461,7 @@
       "value": "the cost of one small love",
       "hook": "A king gives up a kingdom without blinking, then loses everything again over an orphaned deer he cannot stop watching.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -481,7 +481,7 @@
       "value": "refusing an easy answer",
       "hook": "Death offers a boy the whole earth if he will only stop asking one question. The boy says no.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -577,7 +577,7 @@
       "value": "borrowed power",
       "hook": "Fire is asked to burn one straw. Wind is asked to move it. Neither of them can, and both are very embarrassed.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 1,
       "gated": false
     },
@@ -989,7 +989,7 @@
       "value": "giving from the bottom",
       "hook": "Forty-eight days without food. The meal finally arrives. Then someone knocks, and then someone else, and then a dog.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -1063,7 +1063,7 @@
       "value": "asking instead of taking",
       "hook": "The earth has stopped giving anything and the king raises his bow. She turns into a cow and runs, and then stops and makes him a counter-offer.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 2,
       "gated": false
     },

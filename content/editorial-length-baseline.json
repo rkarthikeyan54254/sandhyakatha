@@ -1,0 +1,329 @@
+{
+  "_readme": "SEALED migration baseline for stories published before the 3/6-minute hard gate. Each exception is exact id+version+content hash. Any edit invalidates it. The validator contains the initial sealed set, so this file may only shrink.",
+  "created": "2026-09-12",
+  "policy": {
+    "short": "300–360 spoken words and 3 computed minutes",
+    "full": "650–680 spoken words and 6 computed minutes",
+    "rule": "legacy exceptions may only shrink; new and in-review stories are never exempt"
+  },
+  "exceptions": [
+    {
+      "id": "annapurna-bhiksha",
+      "version": 1,
+      "hash": "7fe3c2185b4ca32d",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 366,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 680,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: 366 words not 300–360"
+      ]
+    },
+    {
+      "id": "durga-mahishasura",
+      "version": 2,
+      "hash": "8f4ec0e495222777",
+      "stats": {
+        "short": {
+          "declaredMinutes": 2,
+          "spokenWords": 242,
+          "computedMinutes": 2
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 616,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: declares 2m not 3m",
+        "short: 242 words not 300–360",
+        "short: reads 2m not 3m",
+        "full: 616 words not 650–680"
+      ]
+    },
+    {
+      "id": "ekalavya-thumb",
+      "version": 1,
+      "hash": "176e56c5f5a693b8",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 324,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 642,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "full: 642 words not 650–680"
+      ]
+    },
+    {
+      "id": "ganesha-circles",
+      "version": 3,
+      "hash": "f2bcbb0b40f7100b",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 280,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 601,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: 280 words not 300–360",
+        "full: 601 words not 650–680"
+      ]
+    },
+    {
+      "id": "govardhana",
+      "version": 2,
+      "hash": "f7255d433f914a35",
+      "stats": {
+        "short": {
+          "declaredMinutes": 2,
+          "spokenWords": 256,
+          "computedMinutes": 2
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 589,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: declares 2m not 3m",
+        "short: 256 words not 300–360",
+        "short: reads 2m not 3m",
+        "full: 589 words not 650–680"
+      ]
+    },
+    {
+      "id": "guha-boatman",
+      "version": 1,
+      "hash": "f02e078b6f1f668e",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 297,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 7,
+          "spokenWords": 797,
+          "computedMinutes": 7
+        }
+      },
+      "violations": [
+        "short: 297 words not 300–360",
+        "full: declares 7m not 6m",
+        "full: 797 words not 650–680",
+        "full: reads 7m not 6m"
+      ]
+    },
+    {
+      "id": "kali-stops",
+      "version": 1,
+      "hash": "046b472407b255bf",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 360,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 7,
+          "spokenWords": 698,
+          "computedMinutes": 7
+        }
+      },
+      "violations": [
+        "full: declares 7m not 6m",
+        "full: 698 words not 650–680",
+        "full: reads 7m not 6m"
+      ]
+    },
+    {
+      "id": "pusalar-temple",
+      "version": 2,
+      "hash": "5eddd52967c917b8",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 315,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 597,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "full: 597 words not 650–680"
+      ]
+    },
+    {
+      "id": "rama-returns",
+      "version": 1,
+      "hash": "426730455bbc0e1f",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 287,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 663,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: 287 words not 300–360"
+      ]
+    },
+    {
+      "id": "satyakama-truth",
+      "version": 2,
+      "hash": "38d9ece4cf1fc37c",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 334,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 644,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "full: 644 words not 650–680"
+      ]
+    },
+    {
+      "id": "shabari-berries",
+      "version": 1,
+      "hash": "ae6f2aa89fbbf94d",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 331,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 621,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "full: 621 words not 650–680"
+      ]
+    },
+    {
+      "id": "shakambhari",
+      "version": 1,
+      "hash": "b96915cf09ca676f",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 351,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 684,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "full: 684 words not 650–680"
+      ]
+    },
+    {
+      "id": "shravana-baskets",
+      "version": 1,
+      "hash": "867d0086be89788e",
+      "stats": {
+        "short": {
+          "declaredMinutes": 2,
+          "spokenWords": 255,
+          "computedMinutes": 2
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 616,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: declares 2m not 3m",
+        "short: 255 words not 300–360",
+        "short: reads 2m not 3m",
+        "full: 616 words not 650–680"
+      ]
+    },
+    {
+      "id": "squirrel-setu",
+      "version": 1,
+      "hash": "ed837cd445d6b263",
+      "stats": {
+        "short": {
+          "declaredMinutes": 2,
+          "spokenWords": 219,
+          "computedMinutes": 2
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 579,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "short: declares 2m not 3m",
+        "short: 219 words not 300–360",
+        "short: reads 2m not 3m",
+        "full: 579 words not 650–680"
+      ]
+    },
+    {
+      "id": "yaksha-lake",
+      "version": 1,
+      "hash": "07765163752fa510",
+      "stats": {
+        "short": {
+          "declaredMinutes": 3,
+          "spokenWords": 322,
+          "computedMinutes": 3
+        },
+        "full": {
+          "declaredMinutes": 6,
+          "spokenWords": 646,
+          "computedMinutes": 6
+        }
+      },
+      "violations": [
+        "full: 646 words not 650–680"
+      ]
+    }
+  ]
+}

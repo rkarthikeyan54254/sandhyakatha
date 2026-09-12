@@ -1,0 +1,275 @@
+{
+  "id": "bharata-fawn",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Bharata and the Fawn",
+  "tease": "A king gives away his kingdom to live quietly in the forest. Then one frightened fawn begins to occupy more of his mind than the renunciation ever did.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 5, chapter 8",
+    "stability": "stable",
+    "traditionNote": "This is not the later Jaḍa Bharata episode but the earlier account explaining how attachment to the deer reshapes Bharata’s next birth.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 5",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 5.8"
+    ],
+    "sourcing": [
+      {
+        "claim": "Bharata has renounced kingship and is living in forest spiritual practice.",
+        "locus": "5.8"
+      },
+      {
+        "claim": "A pregnant doe is frightened by a lion; the fawn falls into the water; the mother later dies.",
+        "locus": "5.8"
+      },
+      {
+        "claim": "Bharata rescues the fawn from compassion and raises/protects it.",
+        "locus": "5.8"
+      },
+      {
+        "claim": "Care grows into constant mental occupation; Bharata carries the deer, worries about it, and his spiritual practice weakens.",
+        "locus": "5.8"
+      },
+      {
+        "claim": "At death his mind is fixed on the deer and he is reborn as a deer.",
+        "locus": "5.8"
+      },
+      {
+        "claim": "In the deer body he retains memory, understands the attachment, returns toward his former holy place and avoids rebuilding it.",
+        "locus": "5.8"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 11,
+    "sensitivity": [
+      "loss"
+    ],
+    "careNote": "The fawn’s mother dies soon after giving birth, and the story ends with Bharata’s death and rebirth. The focus is on attachment, not shock.",
+    "gated": false
+  },
+  "values": [
+    "the cost of one small love"
+  ],
+  "themes": [
+    "bhagavata",
+    "bharata",
+    "deer",
+    "renunciation",
+    "attachment"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Bharata Mahārāja",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 302,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Bharata Mahārāja» had once been a king, but he gave up his kingdom and went to live in the forest for spiritual practice."
+        },
+        {
+          "t": "p",
+          "text": "One day, beside the river, he saw a pregnant doe come to drink. A lion roared. The frightened doe leapt across the water, and her newborn fawn fell into the river. The mother reached the other side but died."
+        },
+        {
+          "t": "p",
+          "text": "«Bharata Mahārāja» saw the tiny deer in the current and rescued it."
+        },
+        {
+          "t": "p",
+          "text": "That rescue is not the mistake in the story."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He brought the fawn to his āśrama, fed it, protected it and cared for it. He feared dogs, jackals, tigers and other dangers when he had to go into the forest, so he often took the deer with him. Gradually the care took over more and more of his mind."
+        },
+        {
+          "t": "p",
+          "text": "He worried about predators whenever the deer was away. He carried it on his shoulders, kept it on his lap and near him when he slept, and his spiritual practices began to weaken because his thoughts kept returning to the animal."
+        },
+        {
+          "t": "p",
+          "text": "When the deer disappeared, «Bharata Mahārāja» became frantic searching for it."
+        },
+        {
+          "t": "p",
+          "text": "At the end of his life, the Bhāgavata says his mind was fixed on the deer, and he was born again in a deer's body."
+        },
+        {
+          "t": "p",
+          "text": "But he remembered."
+        },
+        {
+          "t": "p",
+          "text": "As a deer he understood his previous life and the attachment that had overtaken him. He returned toward the place of his earlier practice, now careful about what had happened and determined not to rebuild the same attachment."
+        },
+        {
+          "t": "p",
+          "text": "The story does not say compassion itself is wrong. A helpless newborn fawn needed rescue. It says something subtler: care can become attachment when fear of losing someone occupies the whole mind."
+        },
+        {
+          "t": "slow",
+          "text": "The fawn needed «Bharata Mahārāja»'s care; it did not need to become the only place his mind could live."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 659,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before the fawn appears, «Bharata Mahārāja» has already given up a kingdom."
+        },
+        {
+          "t": "p",
+          "text": "He has left royal life behind and is living in a forest āśrama, absorbed in spiritual practice. That beginning matters because the story is not about a careless person who never learned discipline. «Bharata Mahārāja» has already walked away from power, household life and comfort."
+        },
+        {
+          "t": "p",
+          "text": "One day he is sitting by a river after his morning duties and prayer."
+        },
+        {
+          "t": "p",
+          "text": "A pregnant doe comes to drink."
+        },
+        {
+          "t": "p",
+          "text": "Then a lion roars nearby."
+        },
+        {
+          "t": "p",
+          "text": "The doe panics and leaps across the river. In the shock of the jump, her fawn falls into the flowing water. The mother reaches the other side but, distressed and separated from the herd, falls in a cave and dies."
+        },
+        {
+          "t": "p",
+          "text": "«Bharata Mahārāja» sees the helpless newborn fawn being carried by the current."
+        },
+        {
+          "t": "p",
+          "text": "He rescues it."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata does not criticize that rescue. It says he feels compassion for the motherless animal, lifts it from the water and brings it back to his āśrama."
+        },
+        {
+          "t": "p",
+          "text": "That distinction is the whole reason to tell this story carefully."
+        },
+        {
+          "t": "p",
+          "text": "The problem is not kindness."
+        },
+        {
+          "t": "p",
+          "text": "The problem grows afterward."
+        },
+        {
+          "t": "p",
+          "text": "«Bharata Mahārāja» feeds the deer grass, protects it from tigers and other animals, pets it when it itches, keeps it comfortable and becomes increasingly absorbed in its safety."
+        },
+        {
+          "t": "p",
+          "text": "He begins taking it with him when he goes into the forest because he fears what might happen if it is left alone. He carries it on his shoulders. He keeps it on his lap and even on his chest when he sleeps."
+        },
+        {
+          "t": "p",
+          "text": "The text says he walks with it, bathes with it and eats with it. What began as protection becomes constant companionship."
+        },
+        {
+          "t": "p",
+          "text": "The text then says his spiritual practices begin to weaken."
+        },
+        {
+          "t": "p",
+          "text": "The animal has not become evil. «Bharata Mahārāja»'s care has changed into a mind that cannot leave the deer alone even when he is trying to do the work for which he entered the forest."
+        },
+        {
+          "t": "p",
+          "text": "When the deer disappears for a time, «Bharata Mahārāja» becomes frantic and searches for it. He looks for tracks and imagines dangers, reading the landscape through the single question of where the deer might be."
+        },
+        {
+          "t": "p",
+          "text": "His thoughts follow tracks, signs and possibilities. The mind that had once been trained to stay on one object is now pulled everywhere by fear for the fawn."
+        },
+        {
+          "t": "p",
+          "text": "At the end of «Bharata Mahārāja»'s life, his mind is fixed on the deer."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata then makes its difficult claim: because his consciousness is absorbed that way at death, «Bharata Mahārāja» is born again in the body of a deer."
+        },
+        {
+          "t": "p",
+          "text": "But the story does not erase everything he had already become."
+        },
+        {
+          "t": "p",
+          "text": "In the deer body he remembers his previous life. He understands why this birth happened. He does not congratulate himself for having cared; he recognizes that his mind became bound by attachment."
+        },
+        {
+          "t": "p",
+          "text": "That memory changes what he does next."
+        },
+        {
+          "t": "p",
+          "text": "He leaves the company of the deer that gave him birth and returns toward the holy place where he had practiced before. In that body he eats dry leaves, keeps his history to himself and waits out the life without rebuilding the attachment that trapped him before."
+        },
+        {
+          "t": "p",
+          "text": "The text presents him as watchful now, determined not to repeat the same mistake."
+        },
+        {
+          "t": "p",
+          "text": "There is a sharp difference between that ending and a moral like _never love anything too much_. That would be both cruel and inaccurate."
+        },
+        {
+          "t": "p",
+          "text": "The chapter itself says compassion for a helpless being matters. «Bharata Mahārāja» even reasons that someone who has taken shelter should not simply be abandoned."
+        },
+        {
+          "t": "p",
+          "text": "The warning comes later: care can quietly change from service to possession, fear and constant mental occupation, even when it began in compassion."
+        },
+        {
+          "t": "p",
+          "text": "The rescued fawn needed food and protection from him."
+        },
+        {
+          "t": "p",
+          "text": "It did not need to become the only thing «Bharata Mahārāja» could think about."
+        },
+        {
+          "t": "slow",
+          "text": "«Bharata Mahārāja» did not fall because he lifted a fawn from the river; he fell when he could no longer set the fawn down inside his mind."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "How can something good like caring for a helpless creature slowly become a problem?",
+    "seed": "The story does not say kindness is bad. It says even kindness can become attachment if it takes over the whole mind.",
+    "ifTheyAsk": []
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "dhruva-still",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Dhruva Stands Still",
+  "tease": "He is told he cannot sit on his father's lap. He is five. He walks into the forest instead, and is promised a fixed place among the stars.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 4, chapters 8–9; especially 4.8.8–12, 4.8.65, 4.8.72–81, 4.9.20–25",
+    "stability": "stable",
+    "traditionNote": "The point of the episode is not merely that Dhruva becomes a star, but that the text first makes him return and rule before attaining the fixed station later identified with the pole star.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 4",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 4.8–4.9"
+    ],
+    "sourcing": [
+      {
+        "claim": "Dhruva is five; Suruci rejects him from Uttānapāda’s lap because he was not born from her; the king does not intervene.",
+        "locus": "4.8.8–12"
+      },
+      {
+        "claim": "Sunīti tells Dhruva not to wish harm on those who hurt him and directs him toward the Lord.",
+        "locus": "4.8.17–23"
+      },
+      {
+        "claim": "Nārada first discourages the severe undertaking, then teaches Dhruva worship and the mantra after Dhruva refuses to turn back.",
+        "locus": "4.8.25–54"
+      },
+      {
+        "claim": "The austerity is counted month by month; in the fifth month Dhruva stands motionless on one leg with breath controlled.",
+        "locus": "4.8.72–81"
+      },
+      {
+        "claim": "Viṣṇu appears; Dhruva initially cannot find words; the conch touches him before his prayer.",
+        "locus": "4.9.1–6"
+      },
+      {
+        "claim": "Dhruva recognizes the smallness of the material desire that began his quest.",
+        "locus": "4.9.31–35"
+      },
+      {
+        "claim": "Dhruva is promised a fixed luminous station, but first returns, receives the kingdom, and rules before attaining it.",
+        "locus": "4.9.20–25"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [
+      "parental-conflict"
+    ],
+    "careNote": "Dhruva is rejected by his father and stepmother. The hurt is real, but the telling keeps the emphasis on what he does next.",
+    "gated": false
+  },
+  "values": [
+    "a child who would not be told no"
+  ],
+  "themes": [
+    "bhagavata",
+    "dhruva",
+    "family",
+    "resolve",
+    "stars"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Dhruva",
+      "role": "lead"
+    },
+    {
+      "ref": "Nārada",
+      "role": "present"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 319,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The story of «Dhruva» begins with his father's lap."
+        },
+        {
+          "t": "p",
+          "text": "King «Uttānapāda» was sitting with «Suruci»'s son when five-year-old «Dhruva» tried to climb up too. «Suruci» stopped him. She told him that because he had not been born from her, he did not deserve that place. The king heard her and did not stop her."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» went to his mother, «Sunīti», hurt and angry. She could not change the palace for him. She told him not to wish harm on those who had hurt him, and pointed him toward the Lord."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» left for the forest."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The sage «Nārada» met him and first tried to persuade him to return home. «Dhruva» refused. He even said what he wanted: a position no ancestor of his had held. «Nārada» did not pretend the ambition was already wisdom. He taught him instead: go to a forest retreat, steady your mind, worship, and repeat _oṁ namo bhagavate vāsudevāya_."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata counts what «Dhruva» did month by month. First fruit and berries every third day. Then leaves every sixth day. Then water every ninth day. Then only air at longer intervals."
+        },
+        {
+          "t": "p",
+          "text": "By the fifth month, «Dhruva» stood on one leg like an unmoving column, controlling his breath and fixing his mind on «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "At last «Viṣṇu» came to him. The form «Dhruva» had been seeing in meditation disappeared from his heart; when he opened his eyes, that same Lord stood before him."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» had entered the forest because a small place had been denied to him. What he was promised was far larger: a fixed shining station around which the other lights of the sky would turn."
+        },
+        {
+          "t": "p",
+          "text": "But not yet. First he would go home. His father would give him the kingdom, and «Dhruva» would grow up and rule before finally reaching that fixed place."
+        },
+        {
+          "t": "slow",
+          "text": "He went looking for a place no one could take away; he came home before the sky became his answer."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 654,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The story of «Dhruva» begins with a very small piece of furniture: his father's lap."
+        },
+        {
+          "t": "p",
+          "text": "King «Uttānapāda» had two queens. «Suruci» was his favourite; «Sunīti», «Dhruva»'s mother, was not. One day «Suruci»'s son was sitting on the king's lap. «Dhruva» tried to climb up too."
+        },
+        {
+          "t": "p",
+          "text": "«Suruci» spoke while the king listened. She told «Dhruva» that although he was the king's son, he was not qualified for that lap because he had not been born from her. The king did not stop her."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» went to his mother carrying the insult with him. He was five years old."
+        },
+        {
+          "t": "p",
+          "text": "«Sunīti» could not make the palace fair for him. She did something harder. She told him not to wish harm on the people who had hurt him, and pointed him toward the lotus-eyed Lord as the refuge she knew for his distress."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» took that advice with the complete seriousness of a five-year-old who had decided something. He left home and went toward the forest."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The sage «Nārada» met him on the way. At first «Nārada» tried to turn him back from such a severe undertaking. «Dhruva» would not go home."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» told «Nārada» plainly what was driving him: «Suruci»'s words still pierced him, and he wanted a position no ancestor of his had ever occupied. He had entered the forest carrying both hurt and ambition, and both remained part of the journey."
+        },
+        {
+          "t": "p",
+          "text": "So «Nārada» changed from discouraging him to teaching him. He sent «Dhruva» to a forest retreat, taught him how to meditate, and gave him the mantra _oṁ namo bhagavate vāsudevāya_."
+        },
+        {
+          "t": "p",
+          "text": "«Dhruva» began."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata does not hurry over what followed. It counts the practice month by month."
+        },
+        {
+          "t": "p",
+          "text": "In the first month «Dhruva» ate fruit and berries only every third day. In the second he ate dried grass and leaves every sixth day. In the third he drank water every ninth day. In the fourth, controlling his breath, he took in air only every twelfth day."
+        },
+        {
+          "t": "p",
+          "text": "By the fifth month he stood motionless on one leg like a column, his breath controlled and his mind fixed on the Lord."
+        },
+        {
+          "t": "p",
+          "text": "The story makes the practice so intense that the gods become alarmed. They go for help. Then «Viṣṇu» goes to Madhuvana on «Garuḍa» to see «Dhruva»."
+        },
+        {
+          "t": "p",
+          "text": "The form «Dhruva» had held in meditation disappears from within his heart. He opens his eyes and sees that same Lord standing before him. «Dhruva» wants to pray but is still a small boy and cannot find the words. «Viṣṇu» touches a conch to his forehead, and then «Dhruva» speaks."
+        },
+        {
+          "t": "p",
+          "text": "What follows matters because the story does not pretend «Dhruva» had entered the forest with perfect motives. He had come wounded and ambitious. Standing before «Viṣṇu», he recognizes how small those earlier desires were beside what he has now encountered."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» nevertheless answers the child whose hurt began the journey. He grants «Dhruva» a fixed, luminous station around which the heavenly lights will turn, compared in the text to bulls circling a central post while threshing grain."
+        },
+        {
+          "t": "p",
+          "text": "But «Dhruva» does not become a star that afternoon."
+        },
+        {
+          "t": "p",
+          "text": "The Lord tells him first to return. His father will give him the kingdom and retire to the forest. The text gives the astonishing span of thirty-six thousand years for «Dhruva»'s rule. Only after that life of kingship, worship and responsibility will he attain the station that will carry his name."
+        },
+        {
+          "t": "p",
+          "text": "So the story returns him to the world he had walked away from. He does not have to push another child off a lap to receive his place. He grows up and governs before the promise of the sky is fulfilled."
+        },
+        {
+          "t": "p",
+          "text": "The lap at the beginning of the story can hold one child. The place at the end is a point by which everyone else can find their bearings."
+        },
+        {
+          "t": "slow",
+          "text": "«Dhruva» left home because one place was denied to him; the story ends by giving him a place no one else has to lose."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What do you think Dhruva was really looking for when he left home?",
+    "seed": "He began from hurt, but he refused to let the hurt decide how small his world would be.",
+    "ifTheyAsk": []
+  }
+}

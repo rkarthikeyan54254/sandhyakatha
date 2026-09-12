@@ -23,6 +23,50 @@ const errors = [], warnings = [], pending = [], unused = [];
 const err  = (where, msg) => errors.push(`${where}: ${msg}`);
 const warn = (where, msg) => warnings.push(`${where}: ${msg}`);
 
+// SANDHYAKATHA_HARD_EDITORIAL_GATES
+// These are product invariants, not advisory targets.
+// Once a story enters human review, the actual spoken text must satisfy them.
+const LENGTH_GATES = Object.freeze({
+  short: { minutes: 3, minWords: 300, maxWords: 360 },
+  full:  { minutes: 6, minWords: 650, maxWords: 680 },
+});
+const REVIEW_READY = new Set(['in-review', 'published']);
+
+// SANDHYAKATHA_LEGACY_LENGTH_RATCHET
+// Exact pre-gate published bytes may remain live while deliberately remediated.
+// This sealed set is generated once from content.lock. The baseline may SHRINK,
+// but no new id/version/hash may ever be added without changing validator policy.
+const SEALED_LEGACY_LENGTH_EXCEPTIONS = new Map([
+  ['annapurna-bhiksha', { version: 1, hash: '7fe3c2185b4ca32d' }],
+  ['durga-mahishasura', { version: 2, hash: '8f4ec0e495222777' }],
+  ['ekalavya-thumb', { version: 1, hash: '176e56c5f5a693b8' }],
+  ['ganesha-circles', { version: 3, hash: 'f2bcbb0b40f7100b' }],
+  ['govardhana', { version: 2, hash: 'f7255d433f914a35' }],
+  ['guha-boatman', { version: 1, hash: 'f02e078b6f1f668e' }],
+  ['kali-stops', { version: 1, hash: '046b472407b255bf' }],
+  ['pusalar-temple', { version: 2, hash: '5eddd52967c917b8' }],
+  ['rama-returns', { version: 1, hash: '426730455bbc0e1f' }],
+  ['satyakama-truth', { version: 2, hash: '38d9ece4cf1fc37c' }],
+  ['shabari-berries', { version: 1, hash: 'ae6f2aa89fbbf94d' }],
+  ['shakambhari', { version: 1, hash: 'b96915cf09ca676f' }],
+  ['shravana-baskets', { version: 1, hash: '867d0086be89788e' }],
+  ['squirrel-setu', { version: 1, hash: 'ed837cd445d6b263' }],
+  ['yaksha-lake', { version: 1, hash: '07765163752fa510' }]
+]);
+
+const lengthBaseline = existsSync(join(ROOT, 'content/editorial-length-baseline.json'))
+  ? read('content/editorial-length-baseline.json')
+  : { exceptions: [] };
+const lengthExceptionById = new Map();
+for (const e of lengthBaseline.exceptions ?? []) {
+  if (lengthExceptionById.has(e.id))
+    err('editorial-length-baseline.json', `duplicate exception "${e.id}"`);
+  const sealed = SEALED_LEGACY_LENGTH_EXCEPTIONS.get(e.id);
+  if (!sealed || sealed.version !== e.version || sealed.hash !== e.hash)
+    err('editorial-length-baseline.json', `unsealed exception "${e.id}" — legacy exceptions may only shrink, never grow or change`);
+  lengthExceptionById.set(e.id, e);
+}
+
 const schema  = read('schema/story.schema.json');
 const lexicon = read('content/lexicon.json');
 const canon   = read('content/canon.json').canon;
@@ -62,8 +106,12 @@ for (const file of files) {
   // "is this right?" and becomes "is this the one we said we were telling?"
   if (s.source.stability !== 'stable' && !s.source.variants?.length)
     warn(at, `stability is "${s.source.stability}" but no variants are listed — say what the tellings disagree about`);
-  if (s.status === 'published' && !s.source.sourcing?.length)
-    warn(at, 'published without a sourcing block — a reviewer has nothing to check the prose against');
+  if (REVIEW_READY.has(s.status)) {
+    if (!s.source.sourcing?.length)
+      err(at, `${s.status} without a sourcing block — it is not ready for human review`);
+    if (!s.source.checkedAgainst?.length)
+      err(at, `${s.status} without checkedAgainst — name the edition/witness before review`);
+  }
 
   const flagged = (s.audience.sensitivity ?? []).length > 0 || s.audience.gated;
   if (flagged && !s.audience.careNote)
@@ -76,6 +124,15 @@ for (const file of files) {
   }
 
   // -- the read-aloud score ---------------------------------------------
+  const currentContentHash = createHash('sha256')
+    .update(JSON.stringify(s.lengths) + JSON.stringify(s.close))
+    .digest('hex').slice(0, 16);
+  const lengthException = lengthExceptionById.get(s.id);
+  const grandfatheredLength = s.status === 'published'
+    && lengthException
+    && lengthException.version === s.version
+    && lengthException.hash === currentContentHash;
+
   for (const [len, r] of Object.entries(s.lengths)) {
     const where = `${at} [${len}]`;
     const slow = r.blocks.filter(b => b.t === 'slow');
@@ -127,11 +184,25 @@ for (const file of files) {
     // 130 wpm is a bedtime pace with pauses, not a newsreader's 150+
     // 110 wpm is a parent reading slowly to a child, and each printed beat is a real silence.
     const spoken = Math.round(words / 110 + r.blocks.filter(b => b.t === 'beat').length * 0.05);
+
+    const gate = LENGTH_GATES[len];
+    if (gate && REVIEW_READY.has(s.status) && !grandfatheredLength) {
+      if (r.minutes !== gate.minutes)
+        err(where, `${s.status} ${len} must declare ${gate.minutes} minutes, not ${r.minutes}`);
+      if (words < gate.minWords || words > gate.maxWords)
+        err(where, `${s.status} ${len} must be ${gate.minWords}–${gate.maxWords} spoken words; found ${words}`);
+      if (spoken !== gate.minutes)
+        err(where, `${s.status} ${len} reads as ${spoken} minutes at bedtime pace; target is ${gate.minutes}`);
+    }
+
     if (Math.abs(spoken - r.minutes) > Math.max(1, r.minutes * 0.25))
       warn(where, `minutes says ${r.minutes} but ${words} words reads as about ${spoken} at a bedtime pace`);
     if (r.words && Math.abs(r.words - words) > 15)
       warn(where, `words says ${r.words}, actual count is ${words}`);
   }
+
+  if (s.status === 'published' && !s.lengths.short)
+    err(at, 'published without a short rendition — publication requires both 3-minute and 6-minute tellings');
 
   if (s.lengths.short && s.lengths.full) {
     const t = l => JSON.stringify(s.lengths[l].blocks.map(b => b.text ?? ''));
@@ -171,7 +242,7 @@ for (const file of files) {
   }
 
   // -- published text is frozen unless the version moves ------------------
-  const hash = createHash('sha256').update(JSON.stringify(s.lengths) + JSON.stringify(s.close)).digest('hex').slice(0, 16);
+  const hash = currentContentHash;
   const prev = lock.stories?.[s.id];
   if (prev && prev.hash !== hash && prev.version === s.version)
     err(at, `text changed but version is still ${s.version} — bump it, or any rendered audio silently goes stale`);
@@ -179,6 +250,22 @@ for (const file of files) {
     if (a.fromVersion !== s.version) warn(at, `audio [${len}] was rendered from v${a.fromVersion}, story is v${s.version} — stale, app will fall back to text`);
     if (!a.approved) warn(at, `audio [${len}] is not approved — a human must listen before it ships`);
   }
+}
+
+/* ---------- sealed legacy length baseline ---------- */
+for (const e of lengthBaseline.exceptions ?? []) {
+  const st = stories.get(e.id);
+  if (!st) {
+    err('editorial-length-baseline.json', `exception "${e.id}" has no written story`);
+    continue;
+  }
+  const h = createHash('sha256')
+    .update(JSON.stringify(st.lengths) + JSON.stringify(st.close))
+    .digest('hex').slice(0, 16);
+  if (st.status !== 'published')
+    err('editorial-length-baseline.json', `exception "${e.id}" is no longer published — remove the exception`);
+  if (st.version !== e.version || h !== e.hash)
+    err('editorial-length-baseline.json', `exception "${e.id}" no longer matches the sealed legacy bytes — remove the exception; the story must now meet the hard length gate`);
 }
 
 /* ---------- collection-wide ---------- */

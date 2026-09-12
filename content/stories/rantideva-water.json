@@ -1,0 +1,311 @@
+{
+  "id": "rantideva-water",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Rantideva Gives Away the Water",
+  "tease": "After long hunger, food finally arrives. So does a line of guests. The last thing left is a single drink of water.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 9, chapter 21",
+    "stability": "stable",
+    "traditionNote": "The chapter’s force lies in the sequence of guests and the last water given away, together with Rantideva’s prayer not to seek personal liberation apart from relieving others’ suffering.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 9",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 9.21.2–15"
+    ],
+    "sourcing": [
+      {
+        "claim": "Rantideva does not accumulate; he and his family suffer hunger/thirst; after 48 days food with milk/ghee and water arrive.",
+        "locus": "9.21.3–5"
+      },
+      {
+        "claim": "A brāhmaṇa arrives and receives a share with faith/respect.",
+        "locus": "9.21.6"
+      },
+      {
+        "claim": "A śūdra arrives while Rantideva is about to eat and receives a share.",
+        "locus": "9.21.7"
+      },
+      {
+        "claim": "A man with dogs arrives; Rantideva gives them the remaining food with respect.",
+        "locus": "9.21.8–9"
+      },
+      {
+        "claim": "Only enough water for one person remains; a caṇḍāla asks for it.",
+        "locus": "9.21.10–11"
+      },
+      {
+        "claim": "Rantideva says he seeks neither yogic powers nor liberation but relief from the suffering of living beings.",
+        "locus": "9.21.12"
+      },
+      {
+        "claim": "Near death from thirst, he gives the water.",
+        "locus": "9.21.13–14"
+      },
+      {
+        "claim": "Only afterward do the divine visitors reveal their identities.",
+        "locus": "9.21.15"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "loss"
+    ],
+    "careNote": "The story begins with prolonged hunger and thirst. The telling keeps the emphasis on hospitality and compassion rather than on bodily distress.",
+    "gated": false
+  },
+  "values": [
+    "giving from the bottom"
+  ],
+  "themes": [
+    "bhagavata",
+    "rantideva",
+    "hospitality",
+    "compassion",
+    "hunger"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Rantideva",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 302,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Rantideva» and his family had gone forty-eight days without food or water when a meal finally arrived."
+        },
+        {
+          "t": "p",
+          "text": "They were physically weak and trembling when they were about to eat and a brāhmaṇa guest came. «Rantideva» gave him a share with respect."
+        },
+        {
+          "t": "p",
+          "text": "Then, after dividing what remained with his family and just as he was about to eat his own portion, a śūdra guest arrived. «Rantideva» shared again."
+        },
+        {
+          "t": "p",
+          "text": "A third man came surrounded by dogs and said they were hungry. «Rantideva» gave the man and the dogs the rest of the food. The meal was now gone before he had eaten."
+        },
+        {
+          "t": "p",
+          "text": "Now only water remained — enough for one person."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» had been without water for forty-eight days. He was about to drink when another visitor appeared, identified in the Bhāgavata as a caṇḍāla, someone his society placed very low in its hierarchy."
+        },
+        {
+          "t": "p",
+          "text": "The man asked for water."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» said he did not want special powers or even freedom from suffering for himself; he wanted the suffering of living beings to end. His words make the gift more than a sudden generous impulse."
+        },
+        {
+          "t": "p",
+          "text": "Then, although the text says he was close to death from thirst, he gave the man his water."
+        },
+        {
+          "t": "p",
+          "text": "Only afterward did the visitors reveal that gods had appeared in these different forms."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» had not known that during the test, and he had not held back a reserve in case a more important visitor appeared later."
+        },
+        {
+          "t": "p",
+          "text": "The sequence matters: a respected guest, a lower-ranked guest, a man with dogs, and finally the person placed lowest — while the food and water become less and less."
+        },
+        {
+          "t": "p",
+          "text": "His respect does not decrease as his supplies disappear, and the last visitor receives what his own body most needs."
+        },
+        {
+          "t": "slow",
+          "text": "«Rantideva» gave the last cup before he knew who was really standing at the door."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 658,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "By the time food finally arrives, «Rantideva» and his family have been fasting for forty-eight days."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata introduces «Rantideva» as someone who does not make accumulation his safety plan. He accepts what comes by providence and gives when guests arrive. The text says that he and his family sometimes suffer hunger and thirst themselves because of that habit, yet he remains steady."
+        },
+        {
+          "t": "p",
+          "text": "On the forty-ninth morning, food prepared with milk and ghee arrives, along with water."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» and his family are hungry, thirsty and physically weak. They are about to eat when a brāhmaṇa guest comes to the door."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» sees the guest in relation to the divine and gives him a share with faith and respect."
+        },
+        {
+          "t": "p",
+          "text": "The guest eats and leaves."
+        },
+        {
+          "t": "p",
+          "text": "The family divides what remains. Just as «Rantideva» is about to take his portion, another guest arrives, identified in the text as a śūdra."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» gives him food too. The verse again explains the act through the way «Rantideva» sees the guest, not through the guest's social rank."
+        },
+        {
+          "t": "p",
+          "text": "Then another man appears with dogs around him. He says that he and the dogs are hungry."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» gives the man and the dogs the rest of the food, with respect. By now the meal that arrived after forty-eight days has completely disappeared without «Rantideva» eating it."
+        },
+        {
+          "t": "p",
+          "text": "Now there is no meal left."
+        },
+        {
+          "t": "p",
+          "text": "Only water remains — enough for one person."
+        },
+        {
+          "t": "p",
+          "text": "After forty-eight days without food and water, this is not a decorative final gift. It is the thing his body most urgently needs."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» lifts it to drink."
+        },
+        {
+          "t": "p",
+          "text": "A fourth visitor arrives."
+        },
+        {
+          "t": "p",
+          "text": "The text identifies him as a caṇḍāla and has him ask for water."
+        },
+        {
+          "t": "p",
+          "text": "The sequence crosses social boundaries that «Rantideva»'s world ranked differently: brāhmaṇa, śūdra, a man with dogs, and finally a person placed at the lowest edge of the social order. The verses repeat the same reason for his hospitality: he sees each visitor in relation to the divine."
+        },
+        {
+          "t": "p",
+          "text": "«Rantideva» hears the exhausted man's request."
+        },
+        {
+          "t": "p",
+          "text": "Before giving the water, he says something much larger than _I can spare this_. He says he does not seek extraordinary yogic powers or even liberation for himself. He wants to remain with living beings and bear suffering so that their suffering may end."
+        },
+        {
+          "t": "p",
+          "text": "Then he gives away the water."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata says he is on the verge of death from thirst when he does it. Afterward the text lists the hunger, thirst, fatigue, trembling, sorrow and distress that had pressed on him and describes him as freed from their grip through the act of giving."
+        },
+        {
+          "t": "p",
+          "text": "Only after the last water is gone does the episode reveal what has been happening."
+        },
+        {
+          "t": "p",
+          "text": "The visitors disclose divine identities. Gods had appeared through these different forms, and they can grant the kinds of rewards ambitious people ask for. But the story has already told us «Rantideva» is not bargaining for those rewards."
+        },
+        {
+          "t": "p",
+          "text": "But «Rantideva» did not know that when each person arrived."
+        },
+        {
+          "t": "p",
+          "text": "That is important."
+        },
+        {
+          "t": "p",
+          "text": "He did not honour the first visitor because a god was hiding under respectable clothing, then tolerate the later visitors because he knew the test would end well. He met each arrival as a guest before knowing anything about the reveal."
+        },
+        {
+          "t": "p",
+          "text": "The order of the gifts also matters."
+        },
+        {
+          "t": "p",
+          "text": "First he gives from a meal."
+        },
+        {
+          "t": "p",
+          "text": "Then from what remains."
+        },
+        {
+          "t": "p",
+          "text": "Then the rest of the food."
+        },
+        {
+          "t": "p",
+          "text": "Then the water his own body is waiting for."
+        },
+        {
+          "t": "p",
+          "text": "And as the material reserve shrinks, the social status of the visitors does not make his hospitality shrink with it."
+        },
+        {
+          "t": "p",
+          "text": "The hierarchy remains part of the scene. «Rantideva» crosses it rather than letting rank decide how much respect or relief each guest deserves."
+        },
+        {
+          "t": "p",
+          "text": "The last visitor is the one to whom «Rantideva» gives the one thing left."
+        },
+        {
+          "t": "p",
+          "text": "That is why this story is not really about sharing from abundance."
+        },
+        {
+          "t": "p",
+          "text": "There is no hidden second cup."
+        },
+        {
+          "t": "slow",
+          "text": "«Rantideva»'s last gift was the water left when nothing remained underneath it — not even enough for himself."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why does the story save the water for the very end?",
+    "seed": "The hardest test is often not the first generous act, but the last one, when almost nothing remains.",
+    "ifTheyAsk": []
+  }
+}

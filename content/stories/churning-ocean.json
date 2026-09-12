@@ -1,0 +1,253 @@
+{
+  "id": "churning-ocean",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Whoever Drinks the Poison First",
+  "tease": "Gods and asuras churn the ocean for nectar. The first great thing that rises is a poison spreading fast enough to threaten everyone.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 8, chapter 7; framed within chapters 5–9",
+    "stability": "stable",
+    "traditionNote": "This telling stays with the Bhāgavata’s own emphasis: the poison arises first, Śiva accepts it, and the blue neck remains as the mark. Later popular motifs not stated in this witness are left out.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 8",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 8.7"
+    ],
+    "sourcing": [
+      {
+        "claim": "Mandara is the churning rod, Vāsuki the rope; the mountain sinks and is supported before churning resumes.",
+        "locus": "8.7.1–17"
+      },
+      {
+        "claim": "The ocean is disturbed; hālāhala poison emerges first and spreads uncontrollably in all directions.",
+        "locus": "8.7.18–20"
+      },
+      {
+        "claim": "Śiva sees living beings in danger, speaks to Bhavānī about the duty to protect the distressed, and decides to drink the poison.",
+        "locus": "8.7.36–40"
+      },
+      {
+        "claim": "Bhavānī knows Śiva’s capacity and gives consent.",
+        "locus": "8.7.41"
+      },
+      {
+        "claim": "Śiva compassionately takes the whole quantity into his palm and drinks it.",
+        "locus": "8.7.42"
+      },
+      {
+        "claim": "The poison leaves the blue line on his neck, treated as an ornament; gods and people praise the deed.",
+        "locus": "8.7.43–45"
+      },
+      {
+        "claim": "A small remainder falls from his hand and is connected with poisonous creatures/plants.",
+        "locus": "8.7.46"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "there is no nectar without the poison"
+  ],
+  "themes": [
+    "bhagavata",
+    "shiva",
+    "samudra-manthana",
+    "responsibility",
+    "poison"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Śiva",
+      "role": "lead"
+    },
+    {
+      "ref": "Vāsuki",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 300,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The gods and asuras were churning the Ocean of Milk because they wanted nectar."
+        },
+        {
+          "t": "p",
+          "text": "They used Mount «Mandara» as the churning rod and the serpent «Vāsuki» as the rope. The mountain had already sunk once and needed divine support before the work could continue, so the project had been difficult even before anything emerged. The task was enormous, and everyone was waiting for something precious to rise from the water."
+        },
+        {
+          "t": "p",
+          "text": "The first great thing to appear was poison."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata calls it hālāhala. The ocean's creatures are already in turmoil, and now the poison spreads in every direction, threatening living beings far beyond the people doing the churning."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The gods went to «Śiva» for help. He was with «Bhavānī»."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» looked at the danger and told «Bhavānī» that a powerful protector should help all suffering living beings in distress. He did not describe the poison as harmless; he described the situation as one in which suffering beings needed protection. He told her what he intended to do. Knowing his capacity, she agreed."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» gathered all the poison into his palm and drank it."
+        },
+        {
+          "t": "p",
+          "text": "The poison marks «Śiva»'s neck with a blue line. The chapter treats that mark not as disgrace but as an ornament of the act."
+        },
+        {
+          "t": "p",
+          "text": "A little poison falls from his palm, and the chapter links the remainder with scorpions, cobras, poisonous plants and other creatures whose bite carries poison. But the poison spreading through the world has been stopped. The beings who were afraid praise «Śiva», and the churning can continue toward the nectar everyone originally wanted."
+        },
+        {
+          "t": "p",
+          "text": "The blue neck stays."
+        },
+        {
+          "t": "p",
+          "text": "The story does not make rescue consequence-free. «Śiva» saves others and carries a visible sign of what he accepted."
+        },
+        {
+          "t": "slow",
+          "text": "They were searching for nectar, but first someone had to face the poison that came before it."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 652,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The Ocean of Milk was being churned for nectar."
+        },
+        {
+          "t": "p",
+          "text": "That was the prize that had brought gods and asuras into the same enormous task. Mount «Mandara» served as the churning rod and the serpent «Vāsuki» as the rope. Even getting the work started required help, because the mountain sank and had to be supported before the churning could continue."
+        },
+        {
+          "t": "p",
+          "text": "Then the ocean began to give up what was hidden inside it."
+        },
+        {
+          "t": "p",
+          "text": "The first great thing to emerge was not nectar."
+        },
+        {
+          "t": "p",
+          "text": "It was poison."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata calls it hālāhala. The chapter describes the ocean in turmoil and says the poison spread forcefully in every direction. This was not a vessel someone could put a lid on. The danger escaped the project that had produced it and threatened living beings who had never agreed to churn anything."
+        },
+        {
+          "t": "p",
+          "text": "The gods and other leaders became afraid and went to «Śiva», who was sitting with «Bhavānī». The chapter has already shown fish, sharks, tortoises, snakes and enormous creatures in the ocean thrown into confusion by the churning; now the poison makes the disturbance a danger to the wider world."
+        },
+        {
+          "t": "p",
+          "text": "They asked for protection."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» did not pretend the poison was harmless, and he did not speak as though the danger belonged only to the people who had caused it. The text has him turn to «Bhavānī» and point directly at the living beings now suffering because the poison is spreading."
+        },
+        {
+          "t": "p",
+          "text": "He says that those who have power have a duty to protect those in distress, even when protection carries risk for themselves. He frames the act as protection of dependents and as service pleasing to the Lord, not as a contest to prove that poison cannot hurt him."
+        },
+        {
+          "t": "p",
+          "text": "Then he tells her what he intends to do."
+        },
+        {
+          "t": "p",
+          "text": "«Bhavānī» knows his power and gives her consent."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» gathers the poison into his palm and drinks it. The verse names compassion for living beings as the reason for the act. It is explicit that he takes the whole quantity into his palm, not only a portion of it."
+        },
+        {
+          "t": "p",
+          "text": "«Bhavānī» has already given her consent because she knows «Śiva»'s power. She does not need to take the act away from him: «Śiva» gathers the whole quantity into his palm and drinks it himself."
+        },
+        {
+          "t": "p",
+          "text": "The poison leaves a blue mark on his neck."
+        },
+        {
+          "t": "p",
+          "text": "The chapter immediately changes the meaning of that mark. Something that shows the force of the poison becomes an ornament because of the reason «Śiva» accepted it. The text says gods and people alike praise the deed after they hear what he has done."
+        },
+        {
+          "t": "p",
+          "text": "A small amount spills from his hand while he drinks. That detail is unusually concrete after such a cosmic crisis: even the remnant is not treated as harmless. The text connects that remainder with scorpions, cobras, poisonous plants and other creatures whose bite or substance carries poison."
+        },
+        {
+          "t": "p",
+          "text": "Only after the poison has been contained can the churning continue toward the nectar everyone came to seek."
+        },
+        {
+          "t": "p",
+          "text": "The work did not immediately reward the people doing it. It produced a crisis first."
+        },
+        {
+          "t": "p",
+          "text": "And the person who absorbs that crisis is not taking the nectar for himself afterward. «Śiva»'s role in this chapter is to make it possible for everyone else to continue."
+        },
+        {
+          "t": "p",
+          "text": "The blue neck remains after the danger has passed. Helping has left a visible sign."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» does not drink hālāhala and emerge looking untouched. His neck carries the colour of what he took in."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» does not accept the danger because he has nothing to lose. He accepts it because living beings are in distress and he has unusual power to protect them."
+        },
+        {
+          "t": "p",
+          "text": "Only then can the search for nectar resume, after the danger that nobody came seeking has been carried by someone who chose to protect the rest."
+        },
+        {
+          "t": "slow",
+          "text": "Everyone came to the ocean for nectar; before anyone could receive it, «Śiva» took into himself the thing that could have ended the whole attempt."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think the story makes the poison come before the nectar?",
+    "seed": "Sometimes the first result of a big effort is the problem that has to be handled before anyone gets the reward.",
+    "ifTheyAsk": []
+  }
+}

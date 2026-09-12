@@ -1,0 +1,278 @@
+{
+  "id": "sudama-poha",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Sudāmā's Handful of Rice",
+  "tease": "His wife borrows four handfuls of flattened rice for him to take to an old schoolfriend. He carries it to Dvārakā and still cannot bring himself to ask for help.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 10, chapters 80–81",
+    "stability": "stable",
+    "traditionNote": "The power of the story lies in Sudāmā’s hesitation and Kṛṣṇa’s recognition, not in later embellishments of miraculous wealth-dropping mechanics.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 10",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 10.80–10.81"
+    ],
+    "sourcing": [
+      {
+        "claim": "Sudāmā and his wife live in poverty; she obtains four handfuls of flattened rice for him to carry.",
+        "locus": "10.80.12–21"
+      },
+      {
+        "claim": "Kṛṣṇa rises to receive Sudāmā, embraces him, washes his feet and honours him; Rukmiṇī serves him.",
+        "locus": "10.80.22–35"
+      },
+      {
+        "claim": "The friends remember their student years together.",
+        "locus": "10.80.36–45"
+      },
+      {
+        "claim": "Sudāmā is ashamed of the rice; Kṛṣṇa takes the bundle, eats a handful, and Rukmiṇī stops another.",
+        "locus": "10.81.1–10"
+      },
+      {
+        "claim": "Sudāmā never asks for wealth and leaves satisfied by the meeting.",
+        "locus": "10.81.11–15"
+      },
+      {
+        "claim": "He returns to find extraordinary prosperity and understands it as Kṛṣṇa’s gift.",
+        "locus": "10.81.16–24"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "the friend who could not ask"
+  ],
+  "themes": [
+    "bhagavata",
+    "sudama",
+    "krishna",
+    "friendship",
+    "poverty",
+    "gift"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Sudāmā",
+      "role": "lead"
+    },
+    {
+      "ref": "Kṛṣṇa",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 301,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sudāmā» and «Kṛṣṇa» had once been students together. Years later, «Kṛṣṇa» lived in a palace while «Sudāmā» lived in deep poverty with his wife."
+        },
+        {
+          "t": "p",
+          "text": "His wife asked him to visit his old friend and hoped «Kṛṣṇa» might help them. «Sudāmā» did not want to arrive asking for money, but he wanted to see «Kṛṣṇa»."
+        },
+        {
+          "t": "p",
+          "text": "He asked what gift he could take."
+        },
+        {
+          "t": "p",
+          "text": "There was almost nothing in the house. So his wife begged four handfuls of flattened rice from neighbours, tied them in a torn cloth, and gave the bundle to him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When «Sudāmā» reached «Kṛṣṇa»'s city, «Kṛṣṇa» saw him and stood up at once. He embraced him, seated him with honour, washed his feet, and placed the water on his own head. «Rukmiṇī» helped serve the poorly dressed guest while the people in the palace stared at the honour being given to him."
+        },
+        {
+          "t": "p",
+          "text": "Later «Kṛṣṇa» asked whether «Sudāmā» had brought anything from home."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» was ashamed of the little bundle and kept his head down."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» took it himself."
+        },
+        {
+          "t": "p",
+          "text": "He opened the cloth, found the flattened rice, and ate a handful with pleasure. When he reached for another, «Rukmiṇī» stopped his hand."
+        },
+        {
+          "t": "p",
+          "text": "The friends also talked about the years they had spent together as students. «Sudāmā» left the next morning without ever asking for wealth. The Bhāgavata says he went home satisfied simply by having seen «Kṛṣṇa» and received his affection."
+        },
+        {
+          "t": "p",
+          "text": "Then he reached the place where his poor house had stood and found abundance there instead."
+        },
+        {
+          "t": "p",
+          "text": "The surprise of the story is not only that «Sudāmā» becomes rich. It is that «Kṛṣṇa» never lets poverty decide how his friend will be received, even before «Sudāmā» asks for anything."
+        },
+        {
+          "t": "slow",
+          "text": "«Sudāmā» hid his tiny gift; his friend saw both the gift and the need he could not bring himself to say aloud."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 674,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sudāmā» and «Kṛṣṇa» had been students together long before one of them lived in a palace."
+        },
+        {
+          "t": "p",
+          "text": "By the time this story begins, «Sudāmā» and his wife are living in real poverty. The Bhāgavata describes him as peaceful and detached, maintaining himself on whatever came without special effort. Sometimes there was not enough food."
+        },
+        {
+          "t": "p",
+          "text": "His wife asked him to visit «Kṛṣṇa». She hoped his old friend might help them."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» did not want to go to a friend simply to ask for wealth. But he did want to see «Kṛṣṇa». At last he agreed, then asked his wife whether there was anything in the house he could carry as a gift."
+        },
+        {
+          "t": "p",
+          "text": "There was almost nothing."
+        },
+        {
+          "t": "p",
+          "text": "So she went to neighbouring brāhmaṇa households and begged four handfuls of flattened rice. She tied the rice in a torn piece of cloth and gave the small bundle to her husband."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» set out carrying it."
+        },
+        {
+          "t": "p",
+          "text": "When he arrived, the difference between the two friends' circumstances could hardly have been greater. «Sudāmā» arrived thin and poorly dressed, with four borrowed handfuls of rice hidden in cloth."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» saw him from a distance and stood up immediately. The palace scene is deliberately excessive in the opposite direction from «Sudāmā»'s poverty: the Lord of the house does not merely allow the old friend inside."
+        },
+        {
+          "t": "p",
+          "text": "He went forward and embraced his old friend. Then he seated «Sudāmā» on the bed, personally washed his feet, placed the water on his own head, and honoured him as a guest. «Rukmiṇī» herself stood there fanning the shabby visitor while the people of the palace watched in astonishment."
+        },
+        {
+          "t": "p",
+          "text": "Then the two friends held hands and remembered the years when they had lived together at their teacher's house. They remember those years before «Kṛṣṇa» asks about the gift «Sudāmā» has brought."
+        },
+        {
+          "t": "p",
+          "text": "Nothing in that reunion becomes «Sudāmā» making his request."
+        },
+        {
+          "t": "p",
+          "text": "Eventually «Kṛṣṇa» asks whether he has brought anything from home."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» has, of course."
+        },
+        {
+          "t": "p",
+          "text": "But now the four handfuls of flattened rice seem even smaller than they did when his wife tied them up. The text says he lowers his head in embarrassment and does not offer them."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» does not make him force the words out."
+        },
+        {
+          "t": "p",
+          "text": "He takes the hidden bundle himself, sees the flattened rice, and eats a handful with pleasure. He reaches for another, and «Rukmiṇī» takes hold of his hand and stops him."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» stays the night. The next morning he leaves for home."
+        },
+        {
+          "t": "p",
+          "text": "He has not asked for wealth. He has not been handed a purse. The verse is unusually clear: he did not ask «Kṛṣṇa» for money, and he went home satisfied simply by having seen him."
+        },
+        {
+          "t": "p",
+          "text": "On the road «Sudāmā» keeps thinking about how «Kṛṣṇa» received him. He even reasons that perhaps «Kṛṣṇa» gave him nothing because sudden wealth might make him forget what mattered. At that point he still believes he is returning to the same poor house."
+        },
+        {
+          "t": "p",
+          "text": "He remembers: the embrace, the seat of honour, the service given to someone whose clothes announced poverty before he spoke."
+        },
+        {
+          "t": "p",
+          "text": "Then he reaches the place where his house had stood."
+        },
+        {
+          "t": "p",
+          "text": "The broken dwelling is gone. In its place are splendid buildings, gardens and attendants. His wife comes to meet him surrounded by the same abundance."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» understands the change as «Kṛṣṇa»'s gift."
+        },
+        {
+          "t": "p",
+          "text": "The wealth comes later. Before it appears, «Sudāmā» has already been received as a friend rather than measured by what he can bring."
+        },
+        {
+          "t": "p",
+          "text": "«Sudāmā» cannot ask."
+        },
+        {
+          "t": "p",
+          "text": "He can barely give."
+        },
+        {
+          "t": "p",
+          "text": "The gift itself had been borrowed because his house had nothing suitable to send. And «Kṛṣṇa» has to take it from the place where «Sudāmā» is hiding it."
+        },
+        {
+          "t": "p",
+          "text": "This is not a rule that people should remain silent when they need help. It is one particular friendship noticing a need that shame has made difficult to name."
+        },
+        {
+          "t": "p",
+          "text": "By the time the wealth arrives, the welcome has already answered a need «Sudāmā» never managed to name."
+        },
+        {
+          "t": "slow",
+          "text": "«Sudāmā» carried four borrowed handfuls of rice into a palace; «Kṛṣṇa» made sure the smallest thing in the room was not his friend's dignity."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think Sudāmā could carry a gift all that way but still could not ask his friend for help?",
+    "seed": "Needing help and being able to say that you need it are two different things.",
+    "ifTheyAsk": []
+  }
+}

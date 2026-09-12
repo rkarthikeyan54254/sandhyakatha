@@ -1,0 +1,273 @@
+{
+  "id": "gajendra-lake",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-12",
+  "title": "Gajendra Lets Go",
+  "tease": "An elephant king fights a crocodile for a thousand years. When his strength fails and his herd cannot free him, he reaches for a different kind of help.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 8, chapters 2–4; especially 8.2.25–33 and 8.3.30–33",
+    "stability": "stable",
+    "traditionNote": "The central turn in the source is not that Gajendra becomes passive, but that he recognizes where bodily strength and herd support end.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa Sanskrit text — GRETIL, Skandha 8",
+      "Śrīmad-Bhāgavatam verse-by-verse Sanskrit/English — 8.2–8.4"
+    ],
+    "sourcing": [
+      {
+        "claim": "Gajendra enters the lake with herd/family, bathes and sprays water before the crocodile seizes his leg.",
+        "locus": "8.2.23–27"
+      },
+      {
+        "claim": "The herd tries and cannot rescue him; the struggle lasts a thousand years.",
+        "locus": "8.2.28–29"
+      },
+      {
+        "claim": "Gajendra weakens while the crocodile gains strength in water; he recognizes bodily help has failed.",
+        "locus": "8.2.30–33"
+      },
+      {
+        "claim": "A prayer from his previous birth returns and he turns toward supreme refuge.",
+        "locus": "8.3.1–29"
+      },
+      {
+        "claim": "Nārāyaṇa comes on Garuḍa; Gajendra raises a lotus; Nārāyaṇa pulls both animals from the water and uses the discus to free him.",
+        "locus": "8.3.30–33"
+      },
+      {
+        "claim": "The following chapter explains the previous births of elephant and crocodile.",
+        "locus": "8.4"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-12"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "when your own strength runs out"
+  ],
+  "themes": [
+    "bhagavata",
+    "gajendra",
+    "help",
+    "strength",
+    "surrender"
+  ],
+  "calendar": {
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Gajendra",
+      "role": "lead"
+    },
+    {
+      "ref": "Garuḍa",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 301,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Gajendra» was the king of a great elephant herd. One day he entered a beautiful lake with the other elephants to drink and bathe."
+        },
+        {
+          "t": "p",
+          "text": "A crocodile seized his leg."
+        },
+        {
+          "t": "p",
+          "text": "«Gajendra» pulled. The crocodile pulled back. The herd tried to drag their king out of the water, but they could not free him."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata says this struggle lasted a thousand years."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The problem was not only how strong each animal was. The crocodile was fighting in water, where it became stronger. «Gajendra» was fighting in the place where his own strength slowly failed."
+        },
+        {
+          "t": "p",
+          "text": "At last «Gajendra» understood that neither his herd nor his own body could rescue him by pulling harder. This conclusion comes only after the text has shown the herd trying and «Gajendra» enduring for an impossible length of time."
+        },
+        {
+          "t": "p",
+          "text": "Then something from much earlier returned to him: a prayer he had learned in a previous birth."
+        },
+        {
+          "t": "p",
+          "text": "Still caught by the crocodile, he prayed."
+        },
+        {
+          "t": "p",
+          "text": "«Nārāyaṇa» came quickly on «Garuḍa», carrying his discus. «Gajendra» saw him while he was still in pain. With difficulty, he lifted a lotus in his trunk and offered it."
+        },
+        {
+          "t": "p",
+          "text": "Then the long struggle ended very quickly."
+        },
+        {
+          "t": "p",
+          "text": "«Nārāyaṇa» came down from «Garuḍa», pulled both elephant and crocodile from the lake together, and used the discus to break the crocodile's hold. The elephant who could not be dragged free by an entire herd is finally lifted out with his enemy still attached."
+        },
+        {
+          "t": "p",
+          "text": "«Gajendra» had already used his strength for longer than anyone could imagine. The turning point was not that he suddenly became weak in character. It was that he recognized the limit of what his strength could do."
+        },
+        {
+          "t": "p",
+          "text": "He still had one action left: remember, call, and lift the lotus."
+        },
+        {
+          "t": "slow",
+          "text": "The strongest moment in «Gajendra»'s story is the moment he stops pretending strength has no end."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 654,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The lake in «Gajendra»'s story is beautiful before it becomes dangerous."
+        },
+        {
+          "t": "p",
+          "text": "The king of the elephants comes to it with his herd, hot and thirsty. He enters the water, drinks and bathes until his fatigue is gone."
+        },
+        {
+          "t": "p",
+          "text": "Then he uses his trunk to spray lake water over his wives and young ones. The chapter is explicit that he is not alone when the attack happens."
+        },
+        {
+          "t": "p",
+          "text": "Then a crocodile closes its jaws around his leg. His wives cry as the struggle begins around them in the lake."
+        },
+        {
+          "t": "p",
+          "text": "«Gajendra» fights back. The other elephants see what has happened and pull at him from behind. His herd is there. His family is there. Their combined strength is not enough to free him."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata says the struggle lasts a thousand years."
+        },
+        {
+          "t": "p",
+          "text": "That number is not asking us to picture an ordinary afternoon stretched slightly longer. It tells us the contest has passed far beyond what a body should be able to sustain."
+        },
+        {
+          "t": "p",
+          "text": "And the two fighters are not in equal conditions. The crocodile is in water, the place that strengthens it. «Gajendra» is being forced to fight where his own strength slowly drains away."
+        },
+        {
+          "t": "p",
+          "text": "After those long years, the text says his physical, mental and sensory strength diminishes while the crocodile grows stronger. The water that exhausts one fighter is the home of the other. The story has turned the lake itself into part of the struggle, not merely its background at all."
+        },
+        {
+          "t": "p",
+          "text": "«Gajendra» thinks for a long time. The other elephants cannot rescue him. His own strength cannot solve the problem by doing more of the same."
+        },
+        {
+          "t": "p",
+          "text": "That is the turn."
+        },
+        {
+          "t": "p",
+          "text": "He does not discover a better wrestling move. He changes where he seeks help."
+        },
+        {
+          "t": "p",
+          "text": "A prayer learned in a previous birth returns to his memory. Still held by the crocodile, he fixes his mind and begins to pray."
+        },
+        {
+          "t": "p",
+          "text": "Much of the next chapter is that prayer. It reaches past the visible bodies around him toward the supreme shelter he understands to be behind everything. The prayer is not simply _make the crocodile let go_. It asks for refuge at a deeper level than the fight."
+        },
+        {
+          "t": "p",
+          "text": "«Nārāyaṇa» answers."
+        },
+        {
+          "t": "p",
+          "text": "The Bhāgavata says he comes quickly on «Garuḍa», carrying the discus. «Gajendra» is still trapped and in pain when he sees him coming through the sky."
+        },
+        {
+          "t": "p",
+          "text": "Even then the elephant does one thing that is still his to do. With difficulty he lifts a lotus in his trunk and offers it, calling to «Nārāyaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "The rescue itself is fast after the thousand-year struggle."
+        },
+        {
+          "t": "p",
+          "text": "«Nārāyaṇa» comes down from «Garuḍa». He pulls «Gajendra» and the crocodile out of the water together. Then he uses the discus to sever the crocodile's hold and free the elephant."
+        },
+        {
+          "t": "p",
+          "text": "The following chapter explains that «Gajendra» had once been a king in a previous birth. The crocodile had also been another being before this birth, and its release is tied to the same rescue."
+        },
+        {
+          "t": "p",
+          "text": "That earlier life is why the old prayer could return to him. By then, the lake has already shown what happens when strength reaches its limit."
+        },
+        {
+          "t": "p",
+          "text": "«Gajendra» begins surrounded by every kind of strength he normally trusts: his own size, his herd, his place as king among elephants."
+        },
+        {
+          "t": "p",
+          "text": "None of those things are mocked. They work until they do not."
+        },
+        {
+          "t": "p",
+          "text": "The crocodile has the water. Time changes the balance. A body can reach a limit even when it has been extraordinarily strong for an extraordinarily long time."
+        },
+        {
+          "t": "p",
+          "text": "The story does not make that limit shameful."
+        },
+        {
+          "t": "p",
+          "text": "«Gajendra» notices the truth of his condition and turns toward a refuge his muscles cannot provide."
+        },
+        {
+          "t": "p",
+          "text": "And asking for help does not make him passive. He still remembers. He still prays. He still lifts the lotus while the crocodile is holding him."
+        },
+        {
+          "t": "p",
+          "text": "Strength did not become worthless. It became honest about where it ended."
+        },
+        {
+          "t": "slow",
+          "text": "«Gajendra» is remembered not because he could pull forever, but because he knew when strength had told him to reach beyond strength."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think it took Gajendra so long to ask for a different kind of help?",
+    "seed": "Sometimes strength is also knowing what your strength cannot do.",
+    "ifTheyAsk": []
+  }
+}
