@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { Lexicon, Story, Card } from '../lib/types';
 
@@ -37,17 +37,67 @@ function placeVars(rect: DOMRect): React.CSSProperties {
   } as React.CSSProperties;
 }
 
-export default function Reader({ story, lex, len, next, tomorrow, readBefore, onBack, onHeard, onRead, backLabel = 'Tonight' }: {
+export default function Reader({ story, lex, len, next, tomorrow, readBefore, hasProfile,
+  onBack, onHeard, onRead, onPersonalize, backLabel = 'Tonight' }: {
   story: Story; lex: Lexicon; len: 'short' | 'full' | 'more';
   next: Card | null; tomorrow?: { story: Card; reason: string } | null; readBefore?: boolean;
+  hasProfile: boolean;
   onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
+  onPersonalize: (age: number) => void;
   backLabel?: string;
 }) {
   const [say, setSay] = useState<Said>(null);
   const [ask, setAsk] = useState<number | null>(null);
+  const [completed, setCompleted] = useState(false);
+  const [age, setAge] = useState(8);
+  const [shareState, setShareState] = useState<'idle' | 'copied'>('idle');
+  const completionGuard = useRef(false);
   const key = len === 'short' ? 'short' : 'full';
   const r = story.lengths[key] ?? story.lengths.full;
   const heardLabel = `${key === 'short' ? 'Short' : 'Full'} · ${r.minutes} min`;
+  const canShare = !story.audience.gated;
+
+  function completeStory() {
+    // The button disappears after one press, but the guard also protects an
+    // impatient double-tap from recording two finishes before React rerenders.
+    if (completionGuard.current) return;
+    completionGuard.current = true;
+    onHeard(story.id);
+    setCompleted(true);
+  }
+
+  async function shareStory() {
+    // Public story routes contain no child/profile state. Gated stories never
+    // render this action because they are deliberately not prerendered.
+    const url = new URL(`/s/${story.id}/`, window.location.origin);
+    url.searchParams.set('utm_source', 'parent_share');
+    url.searchParams.set('utm_medium', 'referral');
+    url.searchParams.set('utm_campaign', 'story');
+    url.searchParams.set('utm_content', story.id);
+
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: `${story.title} · Sandhya Katha`,
+          text:
+            `🌙 ${story.title}\n\n` +
+            `${story.tease}\n\n` +
+            `A ${story.lengths.full.minutes}-minute, source-checked story to read aloud with your child tonight.`,
+          url: url.toString()
+        });
+        return;
+      }
+    } catch (err) {
+      if (err instanceof DOMException && err.name === 'AbortError') return;
+    }
+
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url.toString());
+        setShareState('copied');
+      }
+    } catch { /* sharing is optional; never disturb a completed story */ }
+  }
 
   return (
     <>
@@ -96,9 +146,11 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, on
               {ask === i && <p className="ans"><Line text={f.a} lex={lex} onSay={setSay} /></p>}
             </div>
           ))}
-          <button className="mark" onClick={() => { onHeard(story.id); onBack(); }}>
-            {readBefore ? 'We read this again tonight' : 'We read this tonight'}
-          </button>
+          {!completed && (
+            <button className="mark" onClick={completeStory}>
+              {readBefore ? 'We read this again tonight' : 'We read this tonight'}
+            </button>
+          )}
         </section>
 
         {len === 'more' && next && (
@@ -110,17 +162,49 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, on
           </button>
         )}
 
-        <Wrong id={story.id} version={story.version} />
+        {completed && (
+          <section className="afterread" aria-live="polite">
+            <p className="saved"><b>{hasProfile ? 'Tonight is saved.' : 'Story complete.'}</b></p>
 
-        {/* Not a link. Tomorrow is an appointment, not another thing to read now. */}
-        {tomorrow && (
-          <aside className="tomorrow">
-            <span className="eyebrow">Tomorrow night</span>
-            <h3>{tomorrow.story.title}</h3>
-            <p>{tomorrow.story.tease}</p>
-            <p className="why">Chosen because {tomorrow.reason}.</p>
-          </aside>
+            {!hasProfile && (
+              <div className="afterage">
+                <p><b>Want tomorrow's story chosen for your child?</b> Their age is enough. A name can wait.</p>
+                <div className="agerow">
+                  <label>
+                    <span>Age</span>
+                    <input type="number" min={3} max={15} value={age}
+                           onChange={e => setAge(+e.target.value)} />
+                  </label>
+                  <button onClick={() => onPersonalize(age)}>Choose tomorrow</button>
+                </div>
+              </div>
+            )}
+
+            {hasProfile && tomorrow && (
+              <aside className="tomorrow">
+                <span className="eyebrow">Tomorrow night</span>
+                <h3>{tomorrow.story.title}</h3>
+                <p>{tomorrow.story.tease}</p>
+                <p className="why">Chosen because {tomorrow.reason}.</p>
+              </aside>
+            )}
+
+            {canShare && (
+              <button className="begin sharebtn" onClick={shareStory}>
+                <svg className="shareicon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 16V4" />
+                  <path d="m7.5 8.5 4.5-4.5 4.5 4.5" />
+                  <path d="M5 11.5v7A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5v-7" />
+                </svg>
+                <span>{shareState === 'copied' ? 'Story link copied' : 'Share this story'}</span>
+              </button>
+            )}
+
+            <button className="mark" onClick={onBack}>Done</button>
+          </section>
         )}
+
+        <Wrong id={story.id} version={story.version} />
       </article>
 
       {say && createPortal(

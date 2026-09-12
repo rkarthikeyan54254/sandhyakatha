@@ -7,8 +7,9 @@
  * note. Not an app-store interstitial, and not a JavaScript shell that shows
  * a spinner in an in-app browser.
  *
- * Only the SHORT rendition goes public. The full telling, the length dial and
- * everything that accrues live in the app.
+ * The full telling goes public. The growth loop must deliver the thing the
+ * social post promised; personalisation, history and tomorrow's choice accrue
+ * in the app.
  *
  * Runs after `vite build`; Netlify serves an existing file before it applies
  * the SPA rewrite, so /s/<id>/ resolves here and every other path still boots
@@ -21,6 +22,7 @@ const ROOT = new URL('..', import.meta.url).pathname;
 const SITE = process.env.SITE_URL ?? 'https://sandhyakatha.com';
 const read = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const clamp = (s, n = 158) => s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…';
 
 const lex = read('content/lexicon.json');
 const canon = read('content/canon.json').canon;
@@ -61,7 +63,7 @@ function render(text, seen) {
 
 function page(s) {
   const seen = new Set();
-  const r = s.lengths.short ?? s.lengths.full;
+  const r = s.lengths.full;
   const body = r.blocks.map(b => b.t === 'beat'
     ? '<div class="beat"><span>pause</span></div>'
     : b.t === 'aside'
@@ -74,7 +76,8 @@ function page(s) {
   const og = existsSync(join(ROOT, `public/og/${s.id}.png`))
     ? `${SITE}/og/${s.id}.png?v=${s.version}`
     : `${SITE}/og/default.png`;
-  const desc = `${s.tease} — ${s.source.work}, ${s.source.locus}. Ages ${s.audience.minAge}+.`;
+  const seoTitle = `${s.title} — ${s.source.work} story for children | Sandhya Katha`;
+  const desc = clamp(`A ${r.minutes}-minute, source-checked ${s.source.work} story for children, from ${s.source.locus}. Ages ${s.audience.minAge}+. ${s.tease}`);
   // Link back up to any festival this story is tagged to. Without this the flow is
   // festival -> story only, and a growing corpus passes no authority to the pages
   // that actually have to rank.
@@ -89,7 +92,7 @@ function page(s) {
   return `<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>${esc(s.title)} · Sandhya Katha</title>
+<title>${esc(seoTitle)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -172,7 +175,7 @@ aside.note span{display:block;font-family:Karla,sans-serif;font-size:9.5px;lette
 aside.note p{font-family:Karla,sans-serif;font-size:14px;line-height:1.6;color:var(--paper-dim);margin:0}
 footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
 </style></head>
-<body><div class="w">
+<body data-story-id="${esc(s.id)}" data-story-corpus="${esc(s.source.corpus)}"><div class="w">
 <header><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
 <h1>${esc(s.title)}</h1>
 <div class="attrib">
@@ -204,11 +207,11 @@ ${myCorpus && corpusStoryCount >= 2
 ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
   `<a href="/f/${f.slug}/">${esc(f.name)} stories for children</a>`).join(' · ')}</p>` : ''}
 <div class="cta">
-  <p>This is the short telling. The longer one, tonight's pick, and the rest of the collection are in the app — free, nothing to install.</p>
-  <a href="/">Open Sandhya Katha</a>
+  <p>This is the complete telling. Sandhya Katha chooses one for your child's age and the calendar each night — free, nothing to install.</p>
+  <a href="/">Open tonight's pick</a>
 </div>
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
-Everything about your child stays on your device.</footer>
+Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.</footer>
 </div></body></html>`;
 }
 
@@ -463,7 +466,7 @@ console.log(`prerendered ${fp} festival page(s)`);
   const links = corpusPages.map(x =>
     `<a href="/${x.slug}/" style="color:#f0b458;text-decoration:none">${esc(x.label)} <small style="color:#948aa6">(${x.count})</small></a>`
   ).join(' · ');
-  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Sandhya Katha</h1><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav></main></div>`;
+  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav></main></div>`;
   if (!home.includes('<div id="root"></div>'))
     throw new Error('homepage root placeholder not found; static source links were not injected');
   home = home.replace('<div id="root"></div>', fallback);

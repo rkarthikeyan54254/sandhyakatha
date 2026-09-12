@@ -100,8 +100,6 @@ export default function Tonight(p: Props) {
         </button>
       )}
 
-      {st.stories === 0 && <Intro published={published} planned={canon.length || 68} />}
-
       {st.stories > 0 && (
         <p className="sofar">{name || 'They'} {name ? 'has' : 'have'} heard {st.stories === 1 ? 'one story' : `${st.stories} stories`}
           {st.nights > 1 && ` across ${st.nights} nights`}
@@ -167,6 +165,9 @@ export default function Tonight(p: Props) {
         </section>
       )}
 
+      {/* Let a first-time parent meet the product before reading the pitch. */}
+      {st.stories === 0 && <Intro published={published} planned={canon.length || 68} />}
+
       {gap && (
         <button className="gap" onClick={p.onShelf}>
           {name || 'They'} hasn't met anyone from the <b>{CORPUS_LABEL[gap] ?? gap}</b> yet. →
@@ -202,43 +203,45 @@ export default function Tonight(p: Props) {
         </nav>
       </>}
 
-      <div className="hair"><span className="eyebrow">{profile.children.length > 1 ? 'Children' : 'Who you are reading to'}</span></div>
-      {profile.children.map(c => {
-        const nights = Object.keys(profile.heard[c.id] ?? {}).length;
-        return (
-          <div key={c.id} className={'kid' + (c.id === child?.id ? ' on' : '')}>
-            <button className="pickkid" onClick={() => p.setActive(c.id)} aria-pressed={c.id === child?.id}
-                    aria-label={`Read to ${c.name.trim() || 'this child'}`}>
-              <span className="dot" />
-            </button>
-            <input className="kidname" value={c.name} placeholder="Add a name"
-                   onChange={e => p.patchChild(c.id, { name: e.target.value })} />
-            <input className="kidage" type="number" min={3} max={15} value={c.age}
-                   aria-label="Age"
-                   onChange={e => p.patchChild(c.id, { age: +e.target.value })} />
-            <button className={'dropkid' + (armed === c.id ? ' armed' : '')}
-                    aria-label={armed === c.id
-                      ? `Confirm removing ${c.name.trim() || 'this child'}`
-                      : `Remove ${c.name.trim() || 'this child'}`}
-                    onClick={() => {
-                      // Nothing recorded against them: just go. Nights on the
-                      // record are somebody's evenings — ask once first.
-                      if (!nights || armed === c.id) { setArmed(null); p.removeChild(c.id); }
-                      else setArmed(c.id);
-                    }}>
-              {armed === c.id ? `Remove, and ${nights} night${nights === 1 ? '' : 's'}?` : '×'}
-            </button>
-          </div>
-        );
-      })}
-      <button className="linkbtn add" onClick={() => p.addChild('', 8)}>+ Add another child</button>
+      {profile.children.length > 0 && <>
+        <div className="hair"><span className="eyebrow">{profile.children.length > 1 ? 'Children' : 'Who you are reading to'}</span></div>
+        {profile.children.map(c => {
+          const nights = Object.keys(profile.heard[c.id] ?? {}).length;
+          return (
+            <div key={c.id} className={'kid' + (c.id === child?.id ? ' on' : '')}>
+              <button className="pickkid" onClick={() => p.setActive(c.id)} aria-pressed={c.id === child?.id}
+                      aria-label={`Read to ${c.name.trim() || 'this child'}`}>
+                <span className="dot" />
+              </button>
+              <input className="kidname" value={c.name} placeholder="Add a name"
+                     onChange={e => p.patchChild(c.id, { name: e.target.value })} />
+              <input className="kidage" type="number" min={3} max={15} value={c.age}
+                     aria-label="Age"
+                     onChange={e => p.patchChild(c.id, { age: +e.target.value })} />
+              <button className={'dropkid' + (armed === c.id ? ' armed' : '')}
+                      aria-label={armed === c.id
+                        ? `Confirm removing ${c.name.trim() || 'this child'}`
+                        : `Remove ${c.name.trim() || 'this child'}`}
+                      onClick={() => {
+                        // Nothing recorded against them: just go. Nights on the
+                        // record are somebody's evenings — ask once first.
+                        if (!nights || armed === c.id) { setArmed(null); p.removeChild(c.id); }
+                        else setArmed(c.id);
+                      }}>
+                {armed === c.id ? `Remove, and ${nights} night${nights === 1 ? '' : 's'}?` : '×'}
+              </button>
+            </div>
+          );
+        })}
+        <button className="linkbtn add" onClick={() => p.addChild('', 8)}>+ Add another child</button>
 
-      <label className="set check">
-        <input type="checkbox" checked={profile.gate} onChange={e => p.setGate(e.target.checked)} />
-        <span>Include the difficult ones
-          <small>Siṟuttoṇḍar, Kaṇṇappar, Kōṭpuli and others. Nothing is cut from the collection — these simply
-            wait until you have read them yourself. Each tells you what is coming before you begin.</small></span>
-      </label>
+        <label className="set check">
+          <input type="checkbox" checked={profile.gate} onChange={e => p.setGate(e.target.checked)} />
+          <span>Include the difficult ones
+            <small>Siṟuttoṇḍar, Kaṇṇappar, Kōṭpuli and others. Nothing is cut from the collection — these simply
+              wait until you have read them yourself. Each tells you what is coming before you begin.</small></span>
+        </label>
+      </>}
 
       <div className="hair"><span className="eyebrow">Keeping this</span></div>
       <AccountPanel account={p.account} syncing={p.syncing} nudge={st.stories >= 3} onSignOut={p.onSignOut}

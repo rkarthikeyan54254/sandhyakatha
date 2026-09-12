@@ -1,5 +1,31 @@
 /* "Something isn't right here" — the correction form on a shared story page.
    A separate file, not an inline script, so script-src can stay 'self'. */
+
+/* The static /s/<id>/ pages are real reading surfaces, not marketing shells.
+   Reuse the same two product events as the React reader; no child/profile data,
+   no free text, and no new behavioural event vocabulary. */
+document.addEventListener('DOMContentLoaded', function () {
+  var storyId = document.body.getAttribute('data-story-id');
+  var corpus = document.body.getAttribute('data-story-corpus');
+  if (!storyId || !corpus) return;
+
+  function send(name) {
+    try {
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', name, {
+        story_id: storyId,
+        corpus: corpus,
+        from: 'static_story',
+        mode: 'full',
+        repeat: false,
+        one_more: false
+      });
+    } catch (_) { /* analytics must never break reading */ }
+  }
+
+  send('story_opened');
+});
+
 document.addEventListener('submit', async function (e) {
   var form = e.target.closest && e.target.closest('form[data-report]');
   if (!form) return;

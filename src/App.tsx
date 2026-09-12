@@ -11,7 +11,6 @@ import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
-import Setup from './ui/Setup';
 
 function analyticsMode(len: Len): 'short' | 'full' {
   return len === 'short' ? 'short' : 'full';
@@ -27,9 +26,10 @@ export default function App() {
   const [tab, setTab] = useState<Tab>('tonight');
   const [from, setFrom] = useState<Tab>('tonight');   // where the reader was opened from
   const [len, setLen] = useState<Len>('full');
+  const [readerWasTonightPick, setReaderWasTonightPick] = useState(false);
+  const [readerWasReadBefore, setReaderWasReadBefore] = useState(false);
 
   const [profile, setProfile] = useState<P.Profile>(() => P.load());
-  const [skipped, setSkipped] = useState(false);
   const [account, setAccount] = useState<Acct | null>(null);
   const [syncing, setSyncing] = useState(false);
 
@@ -71,36 +71,36 @@ export default function App() {
   const pan = useMemo(() => panchanga(new Date(), cal), [cal]);
   const pick = useMemo(
     () => cards.length ? pickTonight(cards, {
-      panchanga: pan, childAge: child?.age ?? 8, heard, favourites, includeGated: profile.gate
+      // Before a parent gives us an age, choose conservatively. A story that is
+      // safe for a four-year-old is still usable by an older child; the reverse
+      // is not true.
+      panchanga: pan, childAge: child?.age ?? 4, heard, favourites, includeGated: profile.gate
     }) : null,
     [cards, pan, child?.age, heard, favourites, profile.gate]);
 
   /**
-   * Tomorrow night, named tonight.
+   * Tomorrow night, named while this reader is still open.
    *
-   * The pick is a pure function of (date, corpus, what has been heard), so the
-   * app can say what tomorrow holds without a server and without waiting for
-   * tomorrow. Ending a story on a named, dated appointment is the difference
-   * between a shelf someone finishes and a routine someone keeps — and it is
-   * the honest answer to "why would I come back", because the reason is on the
-   * calendar rather than in a notification.
-   *
-   * Tonight's story counts as heard for this calculation even if the parent
-   * has not pressed the button yet; otherwise tomorrow offers the same story.
+   * This is anchored to the story that was the primary Tonight pick when the
+   * reader opened. It deliberately does not follow `pick` after completion:
+   * marking tonight heard changes `pick`, which used to make tomorrow vanish at
+   * exactly the moment we wanted to show it.
    */
-  const tomorrow = useMemo(() => {
-    if (!cards.length || !pick) return null;
+  const tomorrowForOpen = useMemo(() => {
+    if (!cards.length || !open || !readerWasTonightPick) return null;
     const d = new Date(); d.setDate(d.getDate() + 1);
     return pickTonight(cards, {
-      panchanga: panchanga(d, cal), childAge: child?.age ?? 8,
-      heard: { ...heard, [pick.story.id]: P.today() }, favourites, includeGated: profile.gate
+      panchanga: panchanga(d, cal), childAge: child?.age ?? 4,
+      heard: { ...heard, [open.id]: P.today() }, favourites, includeGated: profile.gate
     });
-  }, [cards, cal, pick, child?.age, heard, favourites, profile.gate]);
+  }, [cards, cal, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate]);
 
   const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
 
   async function read(id: string) {
     setFrom(tab);
+    setReaderWasTonightPick(tab === 'tonight' && id === pick?.story.id);
+    setReaderWasReadBefore(!!heard[id]);
     try {
       const s: Story = await (await fetch(`/data/s/${id}.json`)).json();
       track('story_opened', {
@@ -116,25 +116,55 @@ export default function App() {
   }
 
   function markHeard(storyId: string) {
+    const current = P.activeChild(profile);
+    const corpus = open?.id === storyId
+      ? open.source.corpus
+      : cards.find(card => card.id === storyId)?.corpus ?? 'unknown';
+
+    track('story_finished', {
+      story_id: storyId,
+      corpus,
+      from,
+      mode: analyticsMode(len),
+      repeat: !!(current && P.heardOf(profile, current.id)[storyId]),
+      one_more: len === 'more'
+    });
+
+    // A first-time visitor can finish a story without giving us any child data.
+    // The aggregate event above is still useful measurement; reading history
+    // begins only after the parent explicitly gives us an age.
+    if (!current) return;
+
     setProfile(p => {
       const c = P.activeChild(p);
       if (!c) return p;
-      const corpus = open?.id === storyId
-        ? open.source.corpus
-        : cards.find(card => card.id === storyId)?.corpus ?? 'unknown';
-      track('story_finished', {
-        story_id: storyId,
-        corpus,
-        from,
-        mode: analyticsMode(len),
-        repeat: !!heard[storyId],
-        one_more: len === 'more'
-      });
       const next = P.markHeard(p, c.id, storyId);
       // Always attempt the push. `account` is set asynchronously after load, so
       // gating on it meant a story marked in the first second of a session was
       // saved on the device and never uploaded — and sign-out then cleared the
       // device. syncProfile already does nothing when signed out.
+      syncProfile(next).then(setProfile).catch(() => {});
+      return next;
+    });
+  }
+
+  /** The first personal detail we need is age, and only after the product has
+   *  delivered a story. The name can stay blank indefinitely. */
+  function startProfileAfterRead(storyId: string, age: number) {
+    const safeAge = Math.max(3, Math.min(15, Math.round(age)));
+    setProfile(p => {
+      let base = p;
+      let c = P.activeChild(base);
+      if (!c) {
+        c = P.newChild('', safeAge);
+        base = {
+          ...base,
+          children: [...base.children, c],
+          activeId: c.id,
+          updatedAt: new Date().toISOString()
+        };
+      }
+      const next = P.markHeard(base, c.id, storyId);
       syncProfile(next).then(setProfile).catch(() => {});
       return next;
     });
@@ -147,10 +177,7 @@ export default function App() {
    */
   async function handleSignOut(): Promise<'ok' | 'unsaved'> {
     const r = await signOut(profile);
-    // skipped stays TRUE: dropping a signed-out parent onto the setup screen
-    // forces them to type a child's name before they can reach sign-in again,
-    // which mints a second child id and hides the history behind it.
-    if (r === 'ok') { setProfile(P.emptyProfile()); setSkipped(true); setAccount(null); }
+    if (r === 'ok') { setProfile(P.emptyProfile()); setAccount(null); }
     void refresh();
     return r;
   }
@@ -183,9 +210,6 @@ export default function App() {
     ...p, children: p.children.map(c => c.id === id ? { ...c, ...patch } : c), updatedAt: new Date().toISOString()
   }));
 
-  if (!profile.children.length && !skipped)
-    return <div className="app plain"><Setup onDone={addChild} onSkip={() => { setSkipped(true); addChild('', 8); }} /></div>;
-
   const nextCard = open?.linked ? cards.find(c => c.id === open.linked!.next) ?? null : null;
 
   return (
@@ -196,9 +220,11 @@ export default function App() {
       <main id="main" key={open ? open.id : tab}>
         {open ? (
           <Reader story={open} lex={lex} len={len} next={nextCard}
-                  tomorrow={open.id === pick?.story.id ? tomorrow : null}
-                  readBefore={!!heard[open.id]}
+                  tomorrow={tomorrowForOpen}
+                  readBefore={readerWasReadBefore}
+                  hasProfile={!!child}
                   onBack={() => { setOpen(null); setTab(from); }} onHeard={markHeard} onRead={read}
+                  onPersonalize={age => startProfileAfterRead(open.id, age)}
                   backLabel={from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight'} />
         ) : tab === 'tonight' ? (
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}

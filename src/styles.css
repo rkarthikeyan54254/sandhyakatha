@@ -238,6 +238,27 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .mark{display:block;width:100%;margin-top:18px;padding:14px;border-radius:12px;border:1px solid var(--line);
   font-weight:700;font-size:13.5px;color:var(--paper-dim);text-align:center}
 .mark:hover{border-color:var(--lamp-dim);color:var(--lamp)}
+.afterread{margin-top:22px}
+.afterread .saved{margin:0;font-size:13px;line-height:1.5;color:var(--lamp)}
+.afterread .saved b{font-weight:600}
+.afterread .tomorrow{margin-top:14px}
+.afterread .begin{margin-top:14px}
+.sharebtn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:52px;
+  font-size:15px;line-height:1.2}
+.shareicon{width:21px;height:21px;flex:0 0 auto;fill:none;stroke:currentColor;
+  stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.afterread .mark{margin-top:10px}
+.afterage{margin-top:14px;padding:16px;border:1px solid var(--line);border-radius:13px;background:#1b1526}
+.afterage p{margin:0;font-size:13px;line-height:1.6;color:var(--paper-dim)}
+.afterage p b{color:var(--paper);font-weight:600}
+.agerow{display:flex;align-items:end;gap:9px;margin-top:13px}
+.agerow label{width:76px}
+.agerow label span{display:block;margin-bottom:6px;font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--muted);font-weight:700}
+.agerow input{width:100%;background:var(--night-3);border:1px solid var(--line);color:var(--paper);
+  border-radius:9px;padding:10px 9px;font:inherit;font-size:15px;text-align:center}
+.agerow button{flex:1;padding:11px 13px;border-radius:9px;background:var(--lamp);color:#2a1c08;
+  font-size:13px;font-weight:700;text-align:center}
 .onemore{display:block;width:100%;margin-top:22px;border:1px dashed var(--line);border-radius:14px;padding:16px;text-align:left}
 .onemore:hover{border-color:var(--lamp-dim)}
 .onemore h3{font-family:var(--display);font-weight:400;font-size:19px;margin:9px 0 0}

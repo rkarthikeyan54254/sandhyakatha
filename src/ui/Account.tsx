@@ -38,17 +38,17 @@ export default function Account({ account, syncing, nudge, onChanged, onSignOut 
 
   if (cfg && !cfg.google && !cfg.code) return (
     <div className="account">
-      <p className="lede">Not switched on yet.</p>
-      <p>This history lives in this browser only. Backing it up needs a one-time setup on the site —
-        see <code>docs/SETUP-ACCOUNTS.md</code>. Everything else works exactly as it does now.</p>
+      <p className="lede">Backup is unavailable here.</p>
+      <p>Your reading history is still safe in this browser. Everything works signed out; you can
+        keep reading and try account backup again later.</p>
     </div>
   );
 
   return (
     <div className={'account' + (nudge ? ' nudge' : '')}>
-      <p className="lede">{nudge ? 'Keep this safe.' : 'Right now this lives only in this browser.'}</p>
-      <p>Clearing your history, or picking up a different phone, starts the constellation over.
-        Signing in keeps it — and puts it on every device you read from.</p>
+      <p className="lede">{nudge ? 'Keep this safe.' : 'Keep your family’s reading history across devices.'}</p>
+      <p>Signing in lets the same history follow you from laptop to tablet to phone. It is optional:
+        signed out, everything still works on this device.</p>
 
       {cfg?.google !== false && (
         <button className="google" disabled={!cfg} onClick={() => { track('signin_started', { method: 'google' }); signInWithGoogle(); }}>
@@ -97,8 +97,8 @@ export default function Account({ account, syncing, nudge, onChanged, onSignOut 
       )}
 
       {err && <p className="err">{err}</p>}
-      <p className="fine">We store a first name, an age, and which stories were read. Nothing else,
-        and nothing is shared onward.</p>
+      <p className="fine">If you sign in, we store only a first name, an age, and which stories were read.
+        Nothing else, and nothing is shared onward.</p>
     </div>
   );
 }

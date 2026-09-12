@@ -8,7 +8,7 @@ const POINTS: [string, string][] = [
   ['It knows what day it is',
    'Tonight’s pick is chosen against the pañcāṅga and the season — the story of too much rain, on the week the rain is ending. That is the reason to open this on an ordinary Tuesday.'],
   ['It remembers the child, not the account',
-   'Characters accumulate into a map your child builds by listening. Hanumān and Bhīma turn out to be brothers. Kṛṣṇa the seven-year-old turns out to be the sixty-year-old from the other epic. Nothing in a chat thread accrues — and nothing here leaves the device.'],
+   'Characters accumulate into a map your child builds by listening. Hanumān and Bhīma turn out to be brothers. Kṛṣṇa the seven-year-old turns out to be the sixty-year-old from the other epic. Signed out, that history stays on this device. If a parent chooses to sign in, only the minimum needed to preserve it is backed up.'],
   ['Nothing is generated while you wait',
    'The collection is drafted, source-checked, reviewed and versioned before it ships. Which means it is instant, it is offline on the flight, it is the same story twice when they ask again — and it cannot invent a Purāṇa at bedtime.']
 ];
