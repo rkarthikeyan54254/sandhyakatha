@@ -1,0 +1,482 @@
+{
+  "schemaVersion": "1.0",
+  "_readme": "Operational media metadata only. Story text/source truth remains in content/stories/*.json and canonical planning truth in content/canon.json. storyVersion records which reviewed story version the media was approved against. If storyVersion is null, the illustration exists before the story file and must be re-reviewed when that story is written/published.",
+  "stories": {
+    "ganesha-circles": {
+      "canonStatus": "published",
+      "storyVersion": 3,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ganesha-circles/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "hanuman-reminded": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/hanuman-reminded/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "yudhishthira-dog": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/yudhishthira-dog/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "pusalar-temple": {
+      "canonStatus": "published",
+      "storyVersion": 2,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/pusalar-temple/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "squirrel-setu": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/squirrel-setu/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "hanuman-tail": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/hanuman-tail/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "shabari-berries": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/shabari-berries/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "govardhana": {
+      "canonStatus": "published",
+      "storyVersion": 2,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/govardhana/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "dhruva-still": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/dhruva-still/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "gajendra-lake": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/gajendra-lake/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "churning-ocean": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/churning-ocean/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "nachiketa-three-nights": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/nachiketa-three-nights/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "kena-blade-grass": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/kena-blade-grass/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "prahlada-pillar": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/prahlada-pillar/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "jatayu-last-flight": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/jatayu-last-flight/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "bharata-sandals": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/bharata-sandals/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "bhagiratha-ganga": {
+      "canonStatus": "draft",
+      "storyVersion": null,
+      "image": {
+        "status": "approved_pending_story_review",
+        "type": "illustration",
+        "file": "/media/stories/bhagiratha-ganga/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "markandeya-leaf": {
+      "canonStatus": "draft",
+      "storyVersion": null,
+      "image": {
+        "status": "approved_pending_story_review",
+        "type": "illustration",
+        "file": "/media/stories/markandeya-leaf/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "andal-garland": {
+      "canonStatus": "draft",
+      "storyVersion": null,
+      "image": {
+        "status": "approved_pending_story_review",
+        "type": "illustration",
+        "file": "/media/stories/andal-garland/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "ekalavya-thumb": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ekalavya-thumb/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "guha-boatman": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/guha-boatman/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "lingodbhava-pillar": {
+      "canonStatus": "draft",
+      "storyVersion": null,
+      "image": {
+        "status": "approved_pending_story_review",
+        "type": "illustration",
+        "file": "/media/stories/lingodbhava-pillar/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "sudama-poha": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/sudama-poha/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "shravana-baskets": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/shravana-baskets/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "abhimanyu-spiral": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/abhimanyu-spiral/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "svetaketu-salt": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/svetaketu-salt/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "satyakama-truth": {
+      "canonStatus": "published",
+      "storyVersion": 2,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/satyakama-truth/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "durga-mahishasura": {
+      "canonStatus": "published",
+      "storyVersion": 2,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/durga-mahishasura/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    }
+  }
+}
