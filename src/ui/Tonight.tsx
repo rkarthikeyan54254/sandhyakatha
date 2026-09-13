@@ -30,12 +30,13 @@ interface Props {
   pick: Pick | null; pan: Panchanga; len: Len; setLen: (l: Len) => void; onRead: (id: string) => void;
   profile: P.Profile; child: P.Child | null; heard: Record<string, string>;
   cards: Card[]; canon: CanonRow[]; published: number;
-  account: Acct | null; syncing: boolean; onAccountChanged: () => void;
+  account: Acct | null; syncing: boolean; syncPending: boolean; onAccountChanged: () => void;
   onSignOut: () => Promise<'ok' | 'unsaved'>;
   setActive: (id: string) => void;
   addChild: (name: string, age: number) => void;
   patchChild: (id: string, patch: Partial<P.Child>) => void;
   removeChild: (id: string) => void;
+  repairChildConflict: (id: string, historyOwnerIndex: number) => void;
   setGate: (g: boolean) => void;
   onShelf: () => void;
 }
@@ -44,6 +45,7 @@ export default function Tonight(p: Props) {
   const { pick, pan, len, setLen, onRead, profile, child, heard, cards, canon, published } = p;
   const an = (n: number) => ([8, 11, 18].includes(n) ? 'an' : 'a');
   const [armed, setArmed] = useState<string | null>(null);   // child id whose removal is one click from happening
+  const identityConflicts = P.duplicateIdConflicts(profile);
   const name = child?.name?.trim() ?? '';
   const s = pick?.story;
   const st = P.stats(profile, child?.id ?? null);
@@ -203,7 +205,29 @@ export default function Tonight(p: Props) {
         </nav>
       </>}
 
-      {profile.children.length > 0 && <>
+      {identityConflicts.length > 0 ? <>
+        <div className="hair"><span className="eyebrow">Family profile needs repair</span></div>
+        {identityConflicts.map(conflict => {
+          const stories = Object.keys(profile.heard[conflict.id] ?? {}).length;
+          return (
+            <div className="account nudge" key={`repair-${conflict.id}`}>
+              <p className="lede">An earlier sync bug gave two child entries one stored history.</p>
+              <p>Nothing has been deleted. Because that history is stored under one shared internal id,
+                Sandhya Katha will not guess which child it belongs to.</p>
+              <p className="fine">Choose the child whose past {stories === 1 ? 'story' : `${stories} stories`} this history belongs to.
+                Both child entries will receive fresh ids; the recorded history moves only to the child you choose.</p>
+              {conflict.children.map((c, i) => (
+                <button key={`${i}-${c.name}-${c.age}`} className="ghost"
+                        onClick={() => p.repairChildConflict(conflict.id, i)}>
+                  Past reading belongs to {c.name.trim() || `the ${c.age}-year-old`}
+                </button>
+              ))}
+              <p className="fine">If those recorded stories include reading done with both children, do not choose yet.
+                Leave this as it is; the app will preserve the conflict rather than invent an attribution.</p>
+            </div>
+          );
+        })}
+      </> : profile.children.length > 0 && <>
         <div className="hair"><span className="eyebrow">{profile.children.length > 1 ? 'Children' : 'Who you are reading to'}</span></div>
         {profile.children.map(c => {
           const nights = Object.keys(profile.heard[c.id] ?? {}).length;
@@ -223,8 +247,6 @@ export default function Tonight(p: Props) {
                         ? `Confirm removing ${c.name.trim() || 'this child'}`
                         : `Remove ${c.name.trim() || 'this child'}`}
                       onClick={() => {
-                        // Nothing recorded against them: just go. Nights on the
-                        // record are somebody's evenings — ask once first.
                         if (!nights || armed === c.id) { setArmed(null); p.removeChild(c.id); }
                         else setArmed(c.id);
                       }}>
@@ -244,7 +266,7 @@ export default function Tonight(p: Props) {
       </>}
 
       <div className="hair"><span className="eyebrow">Keeping this</span></div>
-      <AccountPanel account={p.account} syncing={p.syncing} nudge={st.stories >= 3} onSignOut={p.onSignOut}
+      <AccountPanel account={p.account} syncing={p.syncing} pending={p.syncPending} nudge={st.stories >= 3} onSignOut={p.onSignOut}
                     onChanged={p.onAccountChanged} />
 
       <p className="foot">{published} of {canon.length} stories written.</p>

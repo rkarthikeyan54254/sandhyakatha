@@ -1,4 +1,6 @@
 /**
+ * PERSISTED STATE: read docs/PERSISTED-STATE-SAFETY.md before changing this file.
+ *
  * Optional account sync — served by this site's own functions.
  *
  * No third-party SDK in the page and no vendor dashboard: sessions are an
@@ -10,18 +12,11 @@
  * front of a bedtime story is how you lose the parent who came to try one.
  */
 import type { Profile } from './profile';
-import { merge, emptyProfile, tidy} from './profile';
+import { merge, emptyProfile, tidy } from './profile';
 
 export interface Account { id: string; email: string | null; kind: 'google' | 'code' }
-
 export interface AuthConfig { google: boolean; code: boolean }
 
-/**
- * Whether this deploy can actually sign anyone in. The functions may not be
- * deployed yet at all, in which case the SPA catch-all answers with HTML and
- * the parse throws — which is the same answer: not available. The panel says
- * so plainly rather than offering a button that goes nowhere.
- */
 export async function authConfig(): Promise<AuthConfig> {
   try {
     const r = await fetch('/api/config', { credentials: 'same-origin' });
@@ -38,7 +33,6 @@ async function api(path: string, init?: RequestInit) {
   return r.status === 204 ? {} : await r.json();
 }
 
-/** Signed in? Returns the account and whatever the server holds. */
 export async function currentAccount(): Promise<{ account: Account; profile: Profile | null } | null> {
   try {
     const d = await api('/api/profile');
@@ -48,7 +42,6 @@ export async function currentAccount(): Promise<{ account: Account; profile: Pro
 
 export function signInWithGoogle() { window.location.href = '/api/auth/start'; }
 
-/** Creates an account with no identity attached. Returns the code to keep. */
 export async function createRecoveryCode(): Promise<string> {
   const r = await fetch('/api/code', { method: 'POST', credentials: 'same-origin' });
   if (!r.ok) throw new Error('could not create a code');
@@ -64,14 +57,9 @@ export async function useRecoveryCode(code: string): Promise<void> {
 }
 
 /**
- * Sign out, and only then let the caller forget this device's copy.
- *
- * Signing out has to clear the local profile: a browser is shared, and leaving
- * one family's children's names on screen for whoever signs in next is not
- * acceptable for a product that keeps children's data. But clearing before the
- * last night is safely on the server would lose it, so a failed sync means we
- * stay signed in and say so, rather than trading their history for a tidy
- * screen.
+ * Sign out only after syncProfile has received a server acknowledgement. A
+ * conflict that cannot be written safely is an unsaved sign-out, not permission
+ * to clear the browser and hope.
  */
 export async function signOut(local: Profile): Promise<'ok' | 'unsaved'> {
   try { await syncProfile(local); } catch { return 'unsaved'; }
@@ -97,23 +85,38 @@ export async function syncProfile(local: Profile): Promise<Profile> {
 
   if (local.owner && local.owner !== id) {
     return d.profile
-      ? { ...(d.profile as Profile), owner: id }
+      ? tidy({ ...(d.profile as Profile), owner: id })
       : { ...emptyProfile(), owner: id, updatedAt: new Date().toISOString() };
   }
 
   /*
-   * This device has read nothing — a fresh install, or the screen right after
-   * signing out. There is nothing here worth merging into the account, and
-   * merging anyway is how a just-typed name became a second, empty child that
-   * the app then made active. The account's copy is the family; take it whole.
+   * Only a genuinely anonymous, unread device gets replaced wholesale by the
+   * account copy. A signed-in profile with zero reading nights may still contain
+   * a rename, age edit or deletion that must be merged rather than discarded.
    */
   const readNothingHere = !Object.values(local.heard ?? {}).some(n => Object.keys(n).length > 0);
-  if (d.profile && readNothingHere) return tidy({ ...(d.profile as Profile), owner: id });
+  if (d.profile && readNothingHere && local.owner !== id)
+    return tidy({ ...(d.profile as Profile), owner: id });
 
-  const merged: Profile = { ...(d.profile ? merge(local, d.profile as Profile) : local), owner: id };
-  const put = await api('/api/profile', {
-    method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(merged)
-  });
-  // A stale write is answered with the server's copy; take it rather than argue.
-  return put?.stale ? { ...merge(merged, put.profile as Profile), owner: id } : merged;
+  let candidate: Profile = {
+    ...(d.profile ? merge(local, d.profile as Profile, { canonicalIdsFrom: 'b' }) : tidy(local)),
+    owner: id
+  };
+
+  /*
+   * GET -> merge -> PUT can race another device. The server answers a stale PUT
+   * with its current profile. Merge that response and retry; resolving without a
+   * successful acknowledgement is not safe because sign-out may clear local
+   * storage immediately afterward.
+   */
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const put = await api('/api/profile', {
+      method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(candidate)
+    });
+    if (!put?.stale)
+      return put?.profile ? tidy({ ...(put.profile as Profile), owner: id }) : candidate;
+    candidate = { ...merge(candidate, put.profile as Profile, { canonicalIdsFrom: 'b' }), owner: id };
+  }
+
+  throw new Error('profile changed repeatedly while syncing');
 }

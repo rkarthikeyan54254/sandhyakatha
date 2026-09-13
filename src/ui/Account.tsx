@@ -3,8 +3,8 @@ import { signInWithGoogle, createRecoveryCode, useRecoveryCode, authConfig,
          type AuthConfig, type Account as Acct } from '../lib/sync';
 import { track } from '../lib/track';
 
-export default function Account({ account, syncing, nudge, onChanged, onSignOut }: {
-  account: Acct | null; syncing: boolean; nudge: boolean; onChanged: () => void;
+export default function Account({ account, syncing, pending, nudge, onChanged, onSignOut }: {
+  account: Acct | null; syncing: boolean; pending: boolean; nudge: boolean; onChanged: () => void;
   onSignOut: () => Promise<'ok' | 'unsaved'>;
 }) {
   const [cfg, setCfg] = useState<AuthConfig | null>(null);
@@ -22,7 +22,7 @@ export default function Account({ account, syncing, nudge, onChanged, onSignOut 
 
   if (account) return (
     <div className="account in">
-      <p><b>Signed in</b>{account.email ? ` as ${account.email}` : ' with a recovery code'}. {syncing ? 'Syncing…' : 'Everything is backed up.'}</p>
+      <p><b>Signed in</b>{account.email ? ` as ${account.email}` : ' with a recovery code'}. {syncing ? 'Syncing…' : pending ? 'Saved on this device — backup pending.' : 'Everything is backed up.'}</p>
       <p className="fine">Signing out clears this history from this browser. It stays in your account and
         comes back when you sign in again — which is what keeps a shared computer safe.</p>
       <button className="linkbtn" disabled={busy} onClick={async () => {

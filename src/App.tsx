@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Card, CanonRow, Lexicon, Relations, Story } from './lib/types';
 import { panchanga, type PanchangaTable } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
@@ -32,9 +32,71 @@ export default function App() {
   const [profile, setProfile] = useState<P.Profile>(() => P.load());
   const [account, setAccount] = useState<Acct | null>(null);
   const [syncing, setSyncing] = useState(false);
+  const [syncPending, setSyncPending] = useState(false);
+  const profileRef = useRef(profile);
+  const syncInFlight = useRef(0);
+  const syncGeneration = useRef(0);
+  profileRef.current = profile;
+
+  // Never let an older async sync response overwrite a profile the parent has
+  // edited since that request began.
+  const adoptSynced = useCallback((next: P.Profile) => {
+    setProfile(current => Date.parse(current.updatedAt) > Date.parse(next.updatedAt) ? current : next);
+  }, []);
+
+  const syncAndAdopt = useCallback(async (snapshot: P.Profile, generation = syncGeneration.current) => {
+    // A queued task from an account generation that has already been signed out
+    // is stale before it even reaches the network.
+    if (generation !== syncGeneration.current) return snapshot;
+    setSyncPending(true);
+    syncInFlight.current += 1;
+    setSyncing(true);
+    try {
+      const next = await syncProfile(snapshot);
+      // Sign-out (or another account boundary) invalidates every response that
+      // began in the previous generation. Never repopulate cleared family data.
+      if (generation !== syncGeneration.current) return next;
+      // Capture this before adoptSynced can schedule a render with the normalized
+      // server copy. We only clear pending if no newer local edit exists.
+      const snapshotStillCurrent = JSON.stringify(profileRef.current) === JSON.stringify(snapshot);
+      adoptSynced(next);
+      if (snapshotStillCurrent) setSyncPending(false);
+      return next;
+    } catch (e) {
+      setSyncPending(true);
+      throw e;
+    } finally {
+      syncInFlight.current -= 1;
+      if (syncInFlight.current === 0) setSyncing(false);
+    }
+  }, [adoptSynced]);
 
   useEffect(() => { P.save(profile); }, [profile]);
   useEffect(() => { P.requestPersistence(); }, []);
+
+  /*
+   * Story completion already syncs immediately. Settings used not to sync at
+   * all: rename, age, active child, gate and deletion lived only in localStorage
+   * until some unrelated later action. Debounce just those settings so typing a
+   * name does not issue one request per keystroke.
+   */
+  const settingsKey = useMemo(() => JSON.stringify({
+    children: profile.children,
+    activeId: profile.activeId,
+    gate: profile.gate,
+    deletedChildren: profile.deletedChildren ?? {}
+  }), [profile.children, profile.activeId, profile.gate, profile.deletedChildren]);
+
+  useEffect(() => {
+    if (!account || profile.owner !== account.id) return;
+    const snapshot = profile;
+    const generation = syncGeneration.current;
+    setSyncPending(true);
+    const timer = window.setTimeout(() => {
+      void syncAndAdopt(snapshot, generation).catch(() => {});
+    }, 400);
+    return () => window.clearTimeout(timer);
+  }, [account?.id, profile.owner, settingsKey, syncAndAdopt]);
 
   useEffect(() => {
     const j = (p: string) => fetch(p).then(r => r.json());
@@ -47,13 +109,14 @@ export default function App() {
 
   /* Signed in? Then merge this device with the account copy, both directions. */
   const refresh = useCallback(async () => {
+    const generation = syncGeneration.current;
     const found = await currentAccount();
+    if (generation !== syncGeneration.current) return;
     setAccount(found?.account ?? null);
-    if (!found) return;
-    setSyncing(true);
-    try { setProfile(p => { void syncProfile(p).then(setProfile).catch(() => {}); return p; }); }
-    finally { setTimeout(() => setSyncing(false), 700); }
-  }, []);
+    if (!found) { setSyncPending(false); return; }
+    setSyncPending(true);
+    setProfile(p => { void syncAndAdopt(p, generation).catch(() => {}); return p; });
+  }, [syncAndAdopt]);
 
   useEffect(() => {
     void refresh();
@@ -143,7 +206,7 @@ export default function App() {
       // gating on it meant a story marked in the first second of a session was
       // saved on the device and never uploaded — and sign-out then cleared the
       // device. syncProfile already does nothing when signed out.
-      syncProfile(next).then(setProfile).catch(() => {});
+      void syncAndAdopt(next).catch(() => {});
       return next;
     });
   }
@@ -156,16 +219,12 @@ export default function App() {
       let base = p;
       let c = P.activeChild(base);
       if (!c) {
-        c = P.newChild('', safeAge);
-        base = {
-          ...base,
-          children: [...base.children, c],
-          activeId: c.id,
-          updatedAt: new Date().toISOString()
-        };
+        base = P.addChildToProfile(base, '', safeAge);
+        c = P.activeChild(base);
+        if (!c) return p;
       }
       const next = P.markHeard(base, c.id, storyId);
-      syncProfile(next).then(setProfile).catch(() => {});
+      void syncAndAdopt(next).catch(() => {});
       return next;
     });
   }
@@ -177,38 +236,28 @@ export default function App() {
    */
   async function handleSignOut(): Promise<'ok' | 'unsaved'> {
     const r = await signOut(profile);
-    if (r === 'ok') { setProfile(P.emptyProfile()); setAccount(null); }
+    if (r === 'ok') {
+      // Cross an account boundary before clearing React/local state so every
+      // older in-flight or queued sync becomes permanently ineligible to adopt.
+      syncGeneration.current += 1;
+      const empty = P.emptyProfile();
+      profileRef.current = empty;
+      setProfile(empty);
+      setAccount(null);
+      setSyncPending(false);
+      setSyncing(false);
+    }
     void refresh();
     return r;
   }
 
-  // A second blank row helps nobody. If one is already sitting there waiting
-  // for a name, make that one active instead of stacking another underneath —
-  // this is how a settings screen ends up nine rows of "Add a name" deep.
-  const addChild = (name: string, age: number) => setProfile(p => {
-    if (!name.trim()) {
-      const blank = p.children.find(c => !c.name.trim());
-      if (blank) return { ...p, activeId: blank.id, updatedAt: new Date().toISOString() };
-    }
-    const c = P.newChild(name, age);
-    return { ...p, children: [...p.children, c], activeId: c.id, updatedAt: new Date().toISOString() };
-  });
+  const addChild = (name: string, age: number) => setProfile(p => P.addChildToProfile(p, name, age));
+  const removeChild = (id: string) => setProfile(p => P.removeChild(p, id));
+  const repairChildConflict = (id: string, historyOwnerIndex: number) =>
+    setProfile(p => P.repairDuplicateId(p, id, historyOwnerIndex));
+  const patchChild = (id: string, patch: Partial<P.Child>) =>
+    setProfile(p => P.patchChildProfile(p, id, patch));
 
-  /** Remove a child, and the nights recorded against them. There was no way to
-   *  do this at all, which is the reason the list could only ever grow. */
-  const removeChild = (id: string) => setProfile(p => {
-    const children = p.children.filter(c => c.id !== id);
-    const heard = { ...p.heard }; delete heard[id];
-    const again = { ...(p.again ?? {}) }; delete again[id];
-    return {
-      ...p, children, heard, again,
-      activeId: p.activeId === id ? (children[0]?.id ?? null) : p.activeId,
-      updatedAt: new Date().toISOString()
-    };
-  });
-  const patchChild = (id: string, patch: Partial<P.Child>) => setProfile(p => ({
-    ...p, children: p.children.map(c => c.id === id ? { ...c, ...patch } : c), updatedAt: new Date().toISOString()
-  }));
 
   const nextCard = open?.linked ? cards.find(c => c.id === open.linked!.next) ?? null : null;
 
@@ -230,10 +279,11 @@ export default function App() {
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
                    profile={profile} child={child} heard={heard} cards={cards}
                    canon={canon} published={cards.length}
-                   account={account} syncing={syncing} onAccountChanged={refresh} onSignOut={handleSignOut}
-                   setActive={id => setProfile(p => ({ ...p, activeId: id }))}
+                   account={account} syncing={syncing} syncPending={syncPending} onAccountChanged={refresh} onSignOut={handleSignOut}
+                   setActive={id => setProfile(p => P.setActiveChild(p, id))}
                    addChild={addChild} patchChild={patchChild} removeChild={removeChild}
-                   setGate={g => setProfile(p => ({ ...p, gate: g, updatedAt: new Date().toISOString() }))}
+                   repairChildConflict={repairChildConflict}
+                   setGate={g => setProfile(p => P.setGateSetting(p, g))}
                    onShelf={() => setTab('shelf')} />
         ) : tab === 'shelf' ? (
           <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
