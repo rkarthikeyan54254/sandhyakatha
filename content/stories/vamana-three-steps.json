@@ -1,0 +1,415 @@
+{
+  "id": "vamana-three-steps",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Three Steps of Land",
+  "tease": "A dwarf asks for three steps of land. Bali is warned those three steps may cost him everything.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 8, chapters 18–23",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa, Gita Press Sanskrit text, Skandha 8, chapters 18–23",
+      "Bhāgavata.org English/Sanskrit chapter text, Skandha 8.19–23, for cross-check"
+    ],
+    "sourcing": [
+      {
+        "claim": "Vāmana comes to Bali's sacrifice as a dwarf brāhmaṇa; Bali offers wealth and Vāmana asks for three paces of land, saying that someone unsatisfied with three steps may not be satisfied even by a continent.",
+        "locus": "Bhāgavata 8.18–19"
+      },
+      {
+        "claim": "Śukrācārya recognizes Vāmana as Viṣṇu and warns Bali before the gift is completed that the request will consume his possessions; one step can take earth, a second the higher worlds, leaving no place for the third.",
+        "locus": "8.19"
+      },
+      {
+        "claim": "Bali decides that loss, poverty or danger are less serious to him than breaking his pledged word and completes the gift despite the warning.",
+        "locus": "8.20"
+      },
+      {
+        "claim": "Vāmana expands into the cosmic form; his first two strides cover earth and the higher worlds. Bali is bound when no place remains for the third.",
+        "locus": "8.20–21"
+      },
+      {
+        "claim": "Bali offers his own head for the third step. The resolution honours his steadfastness: Prahlāda appears, Bali is assigned Sutala and receives Viṣṇu's protection.",
+        "locus": "8.22–23"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "a promise with no exceptions in it"
+  ],
+  "themes": [
+    "vamana",
+    "bali",
+    "promise",
+    "gift"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Vāmana",
+      "role": "lead"
+    },
+    {
+      "ref": "Bali",
+      "role": "present"
+    },
+    {
+      "ref": "Śukrācārya",
+      "role": "present"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    },
+    {
+      "ref": "Prahlāda",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sutala",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 314,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The request sounded almost too small for a king to take seriously."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana», a dwarf brāhmaṇa, came to «Bali»'s sacrifice. Bali offered wealth, cattle and land. Vāmana asked for only three paces of ground."
+        },
+        {
+          "t": "p",
+          "text": "Bali thought he should ask for more."
+        },
+        {
+          "t": "p",
+          "text": "Vāmana answered that someone who is not satisfied with three steps of land may not become satisfied by possessing a whole continent."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bali agreed to the gift."
+        },
+        {
+          "t": "p",
+          "text": "Then his teacher «Śukrācārya» stopped him."
+        },
+        {
+          "t": "p",
+          "text": "He had recognized Vāmana as «Viṣṇu». He warned Bali that these would not be ordinary steps. One could take the earth, another the higher worlds, and there might be nowhere left for the third."
+        },
+        {
+          "t": "p",
+          "text": "Withdraw the promise, he advised."
+        },
+        {
+          "t": "p",
+          "text": "This warning matters because Bali now knew the danger before the gift was completed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bali chose not to withdraw."
+        },
+        {
+          "t": "p",
+          "text": "He completed the act of giving."
+        },
+        {
+          "t": "p",
+          "text": "Then the dwarf form expanded until it filled the universe."
+        },
+        {
+          "t": "p",
+          "text": "With one step Vāmana covered the earth. With the second he covered the higher worlds."
+        },
+        {
+          "t": "p",
+          "text": "There was nowhere left that belonged to Bali for the promised third step."
+        },
+        {
+          "t": "p",
+          "text": "Bali was bound and challenged about the promise he had made."
+        },
+        {
+          "t": "p",
+          "text": "He did not claim the bargain no longer counted."
+        },
+        {
+          "t": "p",
+          "text": "He offered what remained: his own head."
+        },
+        {
+          "t": "p",
+          "text": "Place the third step here."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» does not treat Bali as a careless king who simply failed to notice a trick. His teacher warned him. Bali understood that the promise could cost his kingdom and continued anyway."
+        },
+        {
+          "t": "p",
+          "text": "That makes the episode harder and more interesting."
+        },
+        {
+          "t": "p",
+          "text": "A promise can be admirable and still make us ask whether promises should have limits."
+        },
+        {
+          "t": "p",
+          "text": "The later resolution honours Bali rather than treating him as nothing more than a defeated ruler. The story keeps his steadfastness visible even after the worlds are no longer his to command."
+        },
+        {
+          "t": "slow",
+          "text": "Bali's promise becomes meaningful at the moment he learns its cost and decides that his word still stands."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 672,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The request sounded too small for the king offering it."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana», appearing as a dwarf brāhmaṇa, came to the sacrifice of «Bali». Bali welcomed him and offered wealth."
+        },
+        {
+          "t": "p",
+          "text": "Ask for land. Ask for cattle. Ask for what you need."
+        },
+        {
+          "t": "p",
+          "text": "Vāmana asked for only three paces of ground."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Bali thought the request showed how little the young petitioner understood his opportunity."
+        },
+        {
+          "t": "p",
+          "text": "Why ask for three steps, he said in effect, when the giver can provide an entire region? A person who comes to me should not have to beg again."
+        },
+        {
+          "t": "p",
+          "text": "Vāmana answered that someone who cannot be satisfied with three steps will not necessarily become satisfied with a continent. Desire can keep enlarging after possession enlarges."
+        },
+        {
+          "t": "p",
+          "text": "Bali agreed to the small request."
+        },
+        {
+          "t": "p",
+          "text": "Then his teacher «Śukrācārya» intervened."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Śukrācārya had recognized the dwarf."
+        },
+        {
+          "t": "p",
+          "text": "This was «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "And the three steps would not remain the steps of a small body."
+        },
+        {
+          "t": "p",
+          "text": "He warned Bali plainly. With one step, Viṣṇu could take the earth. With another, the higher regions. Once the form expanded, where would there be any place left for a third step?"
+        },
+        {
+          "t": "p",
+          "text": "The warning went further: if Bali promised what he could no longer deliver, the promise itself would fail. His wealth, position and livelihood would be endangered."
+        },
+        {
+          "t": "p",
+          "text": "Śukrācārya advised him to withdraw."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This is the point that prevents the episode from becoming a simple story about a careless king being tricked by a tiny visitor."
+        },
+        {
+          "t": "p",
+          "text": "Bali now understood the danger before completing the gift."
+        },
+        {
+          "t": "p",
+          "text": "He answered that poverty, loss of position and even death frightened him less than speaking falsely after giving his word."
+        },
+        {
+          "t": "p",
+          "text": "If the visitor truly was Viṣṇu, Bali did not see that as a reason to become less truthful."
+        },
+        {
+          "t": "p",
+          "text": "He completed the gift."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then Vāmana changed."
+        },
+        {
+          "t": "p",
+          "text": "The dwarf form expanded until it filled the universe. Bali and those around him saw the worlds contained in that vast body."
+        },
+        {
+          "t": "p",
+          "text": "The first stride covered the earth."
+        },
+        {
+          "t": "p",
+          "text": "The second reached through the higher worlds."
+        },
+        {
+          "t": "p",
+          "text": "Everything Bali had claimed the power to give was already contained in two steps."
+        },
+        {
+          "t": "p",
+          "text": "There was nowhere left for the third."
+        },
+        {
+          "t": "p",
+          "text": "Bali was bound and confronted with the unfulfilled remainder of his promise."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He did not answer that the bargain had become unfair."
+        },
+        {
+          "t": "p",
+          "text": "He did not say that two cosmic strides should count as three ordinary ones."
+        },
+        {
+          "t": "p",
+          "text": "He offered what remained under his control."
+        },
+        {
+          "t": "p",
+          "text": "His own head."
+        },
+        {
+          "t": "p",
+          "text": "Place the third step here."
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata»'s resolution does not reduce Bali to a loser who has simply been outsmarted. His steadfastness is honoured."
+        },
+        {
+          "t": "p",
+          "text": "He is given «Sutala» to rule, and the relationship with Viṣṇu continues under protection rather than ending in abandonment."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That is why the story holds two ideas at once."
+        },
+        {
+          "t": "p",
+          "text": "Vāmana is the one who reveals how little three steps can mean when the measurer changes."
+        },
+        {
+          "t": "p",
+          "text": "Bali is the one who reveals what a promise means when the cost changes after the words have already been spoken."
+        },
+        {
+          "t": "p",
+          "text": "A child can still argue with his decision. The source itself gives Śukrācārya a serious argument for limits, livelihood and prudence."
+        },
+        {
+          "t": "p",
+          "text": "But Bali hears that argument before he chooses."
+        },
+        {
+          "t": "p",
+          "text": "Bali's answer to Śukrācārya is not a claim that the warning must be mistaken. He accepts that the giver may lose wealth, rank and even safety. What he rejects is the idea that those losses are worse than becoming a person whose pledged word cannot be trusted."
+        },
+        {
+          "t": "p",
+          "text": "When Vāmana expands, the «Bhāgavata» lingers on the universal body: land, sky, seas, beings and the worlds appear within it. The small request has not secretly changed wording. The meaning of a 'pace' has changed because the one taking the pace is now revealed in cosmic measure."
+        },
+        {
+          "t": "p",
+          "text": "After Bali offers his head, the ending keeps developing. His grandfather «Prahlāda» appears, Bali's steadfastness is praised, and Vāmana assigns him Sutala rather than leaving him without a place. He also promises protection there. Loss of the three worlds is therefore followed by a different form of honour and nearness."
+        },
+        {
+          "t": "slow",
+          "text": "Bali's promise becomes his only remaining possession, and he keeps giving until even the third step has somewhere to land."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Have you ever kept a promise after realizing it would cost much more than you expected?",
+    "seed": "Bali is warned before he gives; the important part is that he keeps giving with his eyes open.",
+    "ifTheyAsk": [
+      {
+        "q": "Was Bali fooled because Vāmana looked small?",
+        "a": "The story does not leave Bali unwarned. He is cautioned before the gift is completed and still chooses to honour what he has promised."
+      },
+      {
+        "q": "How can three steps take everything?",
+        "a": "The tiny request does not remain tiny. Vāmana's measure becomes vast enough for the promised steps to encompass the worlds."
+      },
+      {
+        "q": "So was Bali foolish to promise?",
+        "a": "That is not the way we tell this episode. The source gives him warning and therefore a genuine choice. What follows comes from his decision to keep the gift once he understands what it may cost."
+      }
+    ]
+  }
+}

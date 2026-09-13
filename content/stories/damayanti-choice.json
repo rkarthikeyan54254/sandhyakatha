@@ -1,0 +1,351 @@
+{
+  "id": "damayanti-choice",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Damayantī Chooses Nala",
+  "tease": "Damayantī enters to choose Nala and finds five identical Nalas waiting.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Vana Parva, Nalopākhyāna Parva, K.M. Ganguli LIII–LVII",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "K.M. Ganguli, trans., The Mahabharata — Vana Parva, Nalopākhyāna Parva, sections LIII–LVII"
+    ],
+    "sourcing": [
+      {
+        "claim": "Damayantī and Nala hear of one another through the swans before meeting; Damayantī has already chosen Nala by the time of the svayaṃvara.",
+        "locus": "Vana Parva LIII–LIV"
+      },
+      {
+        "claim": "Indra and other gods make Nala carry their marriage proposal to Damayantī even though Nala is himself a suitor; he delivers the message faithfully.",
+        "locus": "LV–LVI"
+      },
+      {
+        "claim": "Damayantī tells Nala she has chosen him and asks him to attend openly with the gods so she can choose without making him betray his task.",
+        "locus": "LVI"
+      },
+      {
+        "claim": "At the svayaṃvara four gods take Nala's appearance, leaving five apparent Nalas; Damayantī prays for the gods to let the distinctions become visible.",
+        "locus": "LVII"
+      },
+      {
+        "claim": "The divine figures show signs unlike the mortal Nala: no perspiration, blinking, dust, fading garlands, ordinary shadow or feet resting on earth. Damayantī recognizes the human Nala and garlands him; the gods accept the choice and grant blessings.",
+        "locus": "LVII"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "the choice you make on purpose"
+  ],
+  "themes": [
+    "damayanti",
+    "nala",
+    "choice",
+    "truth"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Damayantī",
+      "role": "lead"
+    },
+    {
+      "ref": "Indra",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 333,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Damayantī» entered her svayaṃvara ready to choose Nala."
+        },
+        {
+          "t": "p",
+          "text": "Then she looked across the hall and saw five Nalas."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She and «Nala» had heard about one another before meeting. In the tale, swans carried words between them, and by the time her father announced the svayaṃvara, «Damayantī» had already chosen him in her heart."
+        },
+        {
+          "t": "p",
+          "text": "But the gods wanted to attend too."
+        },
+        {
+          "t": "p",
+          "text": "On the way, «Indra» and the other deities met Nala and gave him a painful task: carry their proposal to «Damayantī» and ask her to choose one of them."
+        },
+        {
+          "t": "p",
+          "text": "Nala loved her, but he delivered the message faithfully."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» answered that she had chosen Nala. She asked him to come to the svayaṃvara with the gods so that she could make that choice openly, without forcing him to betray the message he had carried."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At the ceremony, the gods took Nala's appearance."
+        },
+        {
+          "t": "p",
+          "text": "Same face. Same form. Five figures who looked like the man «Damayantī» meant to choose."
+        },
+        {
+          "t": "p",
+          "text": "She did not guess."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» prayed that the gods would let the truth become visible. She reminded them that her choice had been made sincerely and asked to recognize the mortal Nala."
+        },
+        {
+          "t": "p",
+          "text": "The point of her prayer is not to ask the gods to choose for her. She asks them to make it possible for her own declared choice to be carried through truthfully."
+        },
+        {
+          "t": "p",
+          "text": "The divine signs became clear. The gods did not carry the ordinary marks of a human body in the same way. Nala did."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» recognized him and placed the marriage garland on him while the gods themselves watched."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The scene is not really about choosing the best-looking person. That has been made impossible on purpose."
+        },
+        {
+          "t": "p",
+          "text": "It is about holding onto a choice when the surroundings are designed to confuse it."
+        },
+        {
+          "t": "p",
+          "text": "And Nala has his own test: he carries a message for rivals instead of quietly changing it to help himself."
+        },
+        {
+          "t": "slow",
+          "text": "«Damayantī» does not choose by guessing which face is Nala's. She asks for enough truth to choose the person she already meant."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 669,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Damayantī» entered the svayaṃvara expecting to choose one man."
+        },
+        {
+          "t": "p",
+          "text": "She found five of him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The problem had begun before the ceremony."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī», princess of «Vidarbha», had heard of «Nala», king of «Niṣadha». Nala had heard of her. In the «Mahābhārata»'s tale, swans carry messages between them until each knows the other's name and desire."
+        },
+        {
+          "t": "p",
+          "text": "By the time «Damayantī»'s father announced her svayaṃvara, she had already decided whom she wished to choose."
+        },
+        {
+          "t": "p",
+          "text": "Kings came from many places."
+        },
+        {
+          "t": "p",
+          "text": "So did gods."
+        },
+        {
+          "t": "p",
+          "text": "On the way, «Indra» and other guardians of the worlds met Nala and gave him an impossible assignment for a man travelling to the same ceremony as a suitor."
+        },
+        {
+          "t": "p",
+          "text": "Go to «Damayantī» and ask her to choose one of us."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Nala protested, but he had accepted their command. Through divine aid he reached «Damayantī»'s guarded apartments and delivered their proposal."
+        },
+        {
+          "t": "p",
+          "text": "He did not quietly change the message to improve his own chances."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» answered that she had already chosen Nala."
+        },
+        {
+          "t": "p",
+          "text": "Nala reminded her that he stood there as the gods' messenger and urged her to consider them."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» found a way that did not require him to betray the task he had accepted."
+        },
+        {
+          "t": "p",
+          "text": "Let the gods come to the svayaṃvara with you, she said. I will choose you openly in their presence."
+        },
+        {
+          "t": "p",
+          "text": "Nala returned and reported her answer."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At the appointed ceremony the hall filled with kings. «Damayantī» entered carrying the choice she had already made."
+        },
+        {
+          "t": "p",
+          "text": "Then she saw five figures with Nala's appearance."
+        },
+        {
+          "t": "p",
+          "text": "Four gods had taken his form."
+        },
+        {
+          "t": "p",
+          "text": "Face and body were no help. She could not simply point to the one who looked like Nala, because every one of them did."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» did not guess."
+        },
+        {
+          "t": "p",
+          "text": "She folded her hands and appealed to the gods themselves. From the time she had heard the swans, she said, she had chosen Nala truthfully. She asked them to reveal enough of themselves that she could keep that choice without accidentally garlanding someone else."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The distinctions became visible."
+        },
+        {
+          "t": "p",
+          "text": "The gods were untouched by perspiration. Their eyes did not blink. Their garlands remained fresh. Dust did not cling to them. Their feet did not rest on the earth, and they cast no ordinary shadow."
+        },
+        {
+          "t": "p",
+          "text": "The mortal Nala looked mortal."
+        },
+        {
+          "t": "p",
+          "text": "He had a shadow. His garland showed fading. Dust and sweat marked his body. His feet touched the ground and his eyelids moved."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» recognized him."
+        },
+        {
+          "t": "p",
+          "text": "She caught the edge of his garment and placed the marriage garland around his neck."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The assembled kings cried out in disappointment. The gods and sages praised the choice."
+        },
+        {
+          "t": "p",
+          "text": "The gods did not punish Nala for being chosen over them. The episode continues with blessings given to him before they depart."
+        },
+        {
+          "t": "p",
+          "text": "The scene is often remembered because of the five identical Nalas, but the harder decision happened earlier."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī» is not making a beauty contest out of five faces. She is trying to remain truthful to a commitment already made when appearances have been deliberately made unreliable."
+        },
+        {
+          "t": "p",
+          "text": "Nala has his own version of the same test. Desire would make dishonesty convenient, but he carries the gods' message faithfully even though it works against him."
+        },
+        {
+          "t": "p",
+          "text": "Their choices meet in the hall: one person refuses to alter a message; the other refuses to let confusion alter a decision."
+        },
+        {
+          "t": "p",
+          "text": "«Damayantī», for her part, does not insult the gods when Nala presents their proposal. She bows to them in her answer and still states that Nala is the one she has chosen. Her plan for the public ceremony is a way to keep that truth without asking Nala to break faith with the messengers who sent him."
+        },
+        {
+          "t": "p",
+          "text": "After the garland is placed, the gods openly accept what has happened. They praise Nala and grant him boons before departing. The scene therefore ends neither in divine punishment nor in a secret escape. «Damayantī» makes her human choice in the gods' presence, and the gods allow it to stand."
+        },
+        {
+          "t": "slow",
+          "text": "«Damayantī» asks the gods not to choose for her, but to let truth become visible enough for her to choose as she already meant to."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If several choices looked exactly the same, what would help you slow down enough to know which one was right for you?",
+    "seed": "Damayantī does not guess; she pauses, asks for help, notices what becomes visible, and chooses.",
+    "ifTheyAsk": [
+      {
+        "q": "Why were there five Nalas?",
+        "a": "The gods take Nala's appearance when Damayantī must choose, so she sees five figures who look like him."
+      },
+      {
+        "q": "How did she know which one was really Nala?",
+        "a": "She prays for help, and the distinctions between the gods and the human Nala become perceptible. She then chooses Nala rather than making a blind guess."
+      },
+      {
+        "q": "Had Nala tried to stop her choosing the gods?",
+        "a": "No. Earlier, although he himself loves Damayantī, he honestly carries the gods' proposal to her. His own interest does not make him falsify their message."
+      }
+    ]
+  }
+}

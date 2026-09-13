@@ -1,0 +1,324 @@
+{
+  "id": "karna-armour",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Karṇa Gives Away His Armour",
+  "tease": "Karṇa is warned exactly what Indra will ask for. When the request comes, he gives anyway.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Vana Parva, K.M. Ganguli sections CCC and CCCVIII; birth notice Ādi Parva CXI",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "K.M. Ganguli, trans., The Mahabharata — Ādi Parva CXI; Vana Parva CCC and CCCVIII"
+    ],
+    "sourcing": [
+      {
+        "claim": "Karṇa is born with natural armour and earrings that protect him, and is known for giving to brāhmaṇas who ask during his worship of Sūrya.",
+        "locus": "Ādi Parva CXI; Vana Parva CCC"
+      },
+      {
+        "claim": "Sūrya warns Karṇa beforehand, in a dream and again in the warning sequence, that Indra will come disguised as a brāhmaṇa to ask for the armour and earrings in order to help Arjuna.",
+        "locus": "Vana Parva CCC"
+      },
+      {
+        "claim": "Karṇa says death frightens him less than untruth and insists that his giving vow should not disappear when the gift becomes dangerous.",
+        "locus": "CCC"
+      },
+      {
+        "claim": "Sūrya advises Karṇa to ask for Indra's unfailing dart if he is determined to make the gift.",
+        "locus": "CCC"
+      },
+      {
+        "claim": "When Indra comes, Karṇa understands who is asking, negotiates for the dart under Indra's conditions, and gives away his body-born armour and earrings.",
+        "locus": "Vana Parva CCCVIII"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 11,
+    "sensitivity": [
+      "violence",
+      "injustice"
+    ],
+    "gated": false,
+    "careNote": "Karṇa knowingly gives away the natural armour and earrings born with his body. The telling does not linger on injury; it stays with the warning, the exchange and the cost of his choice."
+  },
+  "values": [
+    "giving when it costs everything"
+  ],
+  "themes": [
+    "karna",
+    "generosity",
+    "promise",
+    "cost"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Karṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Sūrya",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "present"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 322,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Karṇa» knew what the stranger was going to ask before the stranger arrived."
+        },
+        {
+          "t": "p",
+          "text": "He had been born with armour joined to his body and with shining earrings. They were not ordinary possessions. They were protection, and giving them away would make him easier to kill."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» was also known for refusing no brāhmaṇa who asked him for a gift during his worship."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Sūrya» warned him. «Indra», father of «Arjuna», would come disguised as a brāhmaṇa and ask for the armour and earrings so that «Karṇa» would be less protected in the battle ahead."
+        },
+        {
+          "t": "p",
+          "text": "The warning was not vague. «Sūrya» told him why «Indra» wanted the gift: «Arjuna» would benefit if «Karṇa» lost the protection he had carried from birth."
+        },
+        {
+          "t": "p",
+          "text": "So «Karṇa» had time to refuse."
+        },
+        {
+          "t": "p",
+          "text": "He could say that this request was different. He could say that a promise to give should stop before the gift becomes your own safety."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» gave «Sūrya» a severe answer: death frightened him less than falsehood. He did not want to be generous only while generosity was easy."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "But he did not simply throw away his protection. «Sūrya» advised him that if he insisted on giving, he should ask something in return."
+        },
+        {
+          "t": "p",
+          "text": "When «Indra» came in disguise, «Karṇa» understood who stood before him. He agreed to give the armour and earrings if «Indra» gave him an unfailing dart in exchange."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» agreed, with limits on how the weapon could be used."
+        },
+        {
+          "t": "p",
+          "text": "Then «Karṇa» gave away the armour and earrings he had been born with."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The «Mahābhārata» remembers the act as extraordinary generosity. It also makes the cost impossible to ignore. «Karṇa» is warned. He understands. He chooses."
+        },
+        {
+          "t": "p",
+          "text": "That is why the story does not fit neatly into _sharing is good._ A child can admire the keeping of the vow and still wonder whether the vow should have had a boundary."
+        },
+        {
+          "t": "slow",
+          "text": "The gift matters because «Karṇa» knows exactly what it may cost before he gives it."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 672,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Karṇa» knew the request was coming."
+        },
+        {
+          "t": "p",
+          "text": "That is what makes this story difficult."
+        },
+        {
+          "t": "p",
+          "text": "He had been born wearing natural armour and earrings. They were not ordinary possessions added later. The «Mahābhārata» describes them as part of the protection with which he entered the world, and while he possessed them he was extraordinarily difficult to defeat."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» was also known for another practice. At midday, after worshipping «Sūrya», he would give to brāhmaṇas who came asking. His reputation was that he did not send such a petitioner away empty-handed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then Sūrya warned him."
+        },
+        {
+          "t": "p",
+          "text": "The warning came before «Indra» arrived. Indra, father of «Arjuna», intended to approach in the form of a brāhmaṇa and ask for exactly the things «Karṇa» should least want to surrender: the armour and earrings born with his body."
+        },
+        {
+          "t": "p",
+          "text": "Sūrya explained why. If «Karṇa» kept them, even «Arjuna» would struggle to defeat him. If he gave them away, that protection would be gone."
+        },
+        {
+          "t": "p",
+          "text": "So «Karṇa» was not being asked to make a blind gift. He had advance notice of the request, the petitioner and the consequence."
+        },
+        {
+          "t": "p",
+          "text": "Sūrya urged him to refuse."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» answered that the loss of reputation for truth and generosity frightened him more than death. He did not want his vow to mean that he gave only when the gift was cheap."
+        },
+        {
+          "t": "p",
+          "text": "He even asked Sūrya to permit him to keep the promise when Indra came."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Sūrya then gave different advice. If «Karṇa» was determined to give away the armour and earrings, he should not give them without asking something in exchange."
+        },
+        {
+          "t": "p",
+          "text": "Ask Indra for his unfailing dart, Sūrya said — a weapon that would not fail against the enemy for whom it was used."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» accepted that counsel."
+        },
+        {
+          "t": "p",
+          "text": "The next day, after his worship, the expected petitioner appeared."
+        },
+        {
+          "t": "p",
+          "text": "Indra came disguised as a brāhmaṇa and asked for the armour and earrings."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» did not behave as though he had been fooled. He knew who was standing in front of him and said what the gift would mean: without the armour and earrings, his destruction became possible."
+        },
+        {
+          "t": "p",
+          "text": "He offered an exchange."
+        },
+        {
+          "t": "p",
+          "text": "If Indra wanted the protection born with «Karṇa»'s body, then Indra must give him the dart."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Indra acknowledged that Sūrya had revealed the plan and agreed to the exchange, while setting conditions on the weapon."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» received the dart."
+        },
+        {
+          "t": "p",
+          "text": "Then he gave Indra the armour and earrings."
+        },
+        {
+          "t": "p",
+          "text": "The text does not hide the physical cost of that act. The protection was body-born; surrendering it was not like handing over a necklace from a chest."
+        },
+        {
+          "t": "p",
+          "text": "Nor does the story hide the strategic cost. Indra wants the gift precisely because «Arjuna» will benefit from «Karṇa» becoming vulnerable."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That is why the episode cannot honestly be reduced to _sharing is good_."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa»'s generosity is remembered because this is the point where generosity and self-protection collide. Sūrya gives him every reason to draw a boundary. «Karṇa» hears the reasons and chooses not to draw it there."
+        },
+        {
+          "t": "p",
+          "text": "At the same time, he does negotiate. He is not careless about the future and he does not pretend the danger is unreal. He asks for a weapon in return."
+        },
+        {
+          "t": "p",
+          "text": "A child does not have to copy «Karṇa»'s choice in order to understand why the epic remembers it."
+        },
+        {
+          "t": "p",
+          "text": "The real question is harder: what should happen when a promise that seemed noble in ordinary circumstances reaches a cost you never want anyone you love to pay?"
+        },
+        {
+          "t": "p",
+          "text": "The warning itself comes to «Karṇa» at night, with Sūrya appearing in the form of a brāhmaṇa during a dream. «Karṇa» listens, argues for the importance of his vow, and asks for a way to preserve both his truthfulness and some chance in the battle ahead."
+        },
+        {
+          "t": "p",
+          "text": "The next day he reports the dream back to Sūrya during worship. Sūrya confirms that the warning was true. «Karṇa» therefore waits for Indra knowing that the conversation is not a guess or a fear; it is the event he has been told to expect."
+        },
+        {
+          "t": "slow",
+          "text": "«Karṇa» gives with his eyes open, and that is exactly what makes the gift both admirable and troubling."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you knew keeping a promise would cost you something very important, what would make you keep it — or change your mind?",
+    "seed": "Karṇa's gift matters because he knows the cost before he gives.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Indra trick Karṇa?",
+        "a": "Not without warning. Sūrya warns Karṇa beforehand about what Indra is likely to ask for. When the request comes, Karṇa knows what giving away the armour and earrings will cost him. He still agrees, and asks for Indra's powerful dart in exchange."
+      },
+      {
+        "q": "Then why did Karṇa give them away?",
+        "a": "Because the story does not present his generosity as something he keeps only when it is convenient. The warning gives him a chance to refuse. He chooses not to."
+      }
+    ]
+  }
+}

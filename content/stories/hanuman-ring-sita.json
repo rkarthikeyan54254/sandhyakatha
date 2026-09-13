@@ -1,0 +1,396 @@
+{
+  "id": "hanuman-ring-sita",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "The Ring in the Aśoka Grove",
+  "tease": "Hanumān finds Sītā. Now he has to prove that a stranger in Laṅkā really comes from Rāma.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Sundara Kāṇḍa 5.34–38",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Critical Edition (Oriental Institute, Baroda), Sundara Kāṇḍa 5.34–38",
+      "Vālmīki Rāmāyaṇa received-text sargas 34–38, SanskritDocuments e-text, for ring and return-token wording"
+    ],
+    "sourcing": [
+      {
+        "claim": "Hanumān first speaks with Sītā about Rāma, Lakṣmaṇa, Sugrīva and the search so that his identity as messenger is established through conversation before the token appears.",
+        "locus": "Sundara Kāṇḍa 5.34–35"
+      },
+      {
+        "claim": "Rāma's ring bears his name and is shown by Hanumān specifically to give Sītā confidence that he truly comes from Rāma; Sītā becomes joyful on recognizing it.",
+        "locus": "5.36"
+      },
+      {
+        "claim": "The ring does not itself rescue Sītā; the episode continues with discussion of what Hanumān can carry back to Rāma.",
+        "locus": "5.36–38"
+      },
+      {
+        "claim": "Sītā gives Hanumān a private memory from Citrakūṭa involving the crow as a recognition-token that Rāma will know.",
+        "locus": "5.38"
+      },
+      {
+        "claim": "Sītā also gives Hanumān her cūḍāmaṇi to carry back to Rāma as physical proof, so authentication travels in two directions: Rāma's ring to Sītā and Sītā's memory and jewel back to Rāma.",
+        "locus": "5.38"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "what counts as real"
+  ],
+  "themes": [
+    "hanuman",
+    "sita",
+    "ring",
+    "trust"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Hanumān",
+      "role": "lead"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sugrīva",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Laṅkā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Citrakūṭa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Ayodhyā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 335,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Hanumān» had found «Sītā» in «Laṅkā». Now he had to solve a quieter problem: how could she know he was really «Rāma»'s messenger?"
+        },
+        {
+          "t": "p",
+          "text": "From «Sītā»'s side, a stranger had appeared inside the enemy's city and claimed to bring hope."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So «Hanumān» did not begin by demanding trust."
+        },
+        {
+          "t": "p",
+          "text": "He spoke about «Rāma» and «Lakṣmaṇa». He explained how «Rāma» had met «Sugrīva», how the search had begun, and who he himself was."
+        },
+        {
+          "t": "p",
+          "text": "The conversation matters because a token without a trustworthy story around it could also be stolen or misused. «Hanumān» first gives «Sītā» reasons to understand who he is and how he reached her."
+        },
+        {
+          "t": "p",
+          "text": "Then he brought out the object «Rāma» had given him for exactly this moment."
+        },
+        {
+          "t": "p",
+          "text": "A ring."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma»'s ring, bearing «Rāma»'s name."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» showed it to «Sītā» so that she could recognize that his words were connected to the person he named."
+        },
+        {
+          "t": "p",
+          "text": "The «Rāmāyaṇa» says «Sītā» became joyful on seeing the ornament associated with «Rāma», almost as though «Rāma» himself had reached her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The ring did not rescue her. It did not open the grove or defeat «Rāvaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "It did something smaller and necessary first: it made help believable."
+        },
+        {
+          "t": "p",
+          "text": "Now «Hanumān» could tell her that «Rāma» was searching, that the army would come, and that someone had crossed the ocean and truly found her."
+        },
+        {
+          "t": "p",
+          "text": "Before «Hanumān» left, the proof had to travel in the other direction."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» gave him her «cūḍāmaṇi», the jewel worn on her head, as a recognition-token for «Rāma»."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» carried it back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma»'s ring reached «Sītā». «Sītā»'s jewel would reach «Rāma»."
+        },
+        {
+          "t": "p",
+          "text": "The two objects do not replace speech; they anchor it. Each person receives words together with something recognizable from the one who sent them."
+        },
+        {
+          "t": "p",
+          "text": "The messenger's success was not only that he travelled farther than anyone else. It was that the person he found could believe him, and the person waiting at home could believe what he brought back."
+        },
+        {
+          "t": "slow",
+          "text": "Trust crosses the ocean twice in this scene: once in a ring, and once in a jewel coming home."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 661,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Finding «Sītā» was only half of «Hanumān»'s problem."
+        },
+        {
+          "t": "p",
+          "text": "He had crossed the ocean, entered «Laṅkā» and finally found her in the «Aśoka» grove."
+        },
+        {
+          "t": "p",
+          "text": "Now imagine the meeting from «Sītā»'s side."
+        },
+        {
+          "t": "p",
+          "text": "She was a prisoner in «Rāvaṇa»'s city. A stranger she had never met appeared and said that he came from «Rāma»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» did not ask her to trust the claim simply because he said it confidently."
+        },
+        {
+          "t": "p",
+          "text": "He spoke about «Rāma» and «Lakṣmaṇa». He described how «Rāma» had met «Sugrīva», how their alliance had formed, and how the search for «Sītā» had spread outward until «Hanumān» crossed the sea."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» questioned him and listened to the account."
+        },
+        {
+          "t": "p",
+          "text": "The conversation comes before the object."
+        },
+        {
+          "t": "p",
+          "text": "Then «Hanumān» brought out what «Rāma» had given him for exactly this purpose."
+        },
+        {
+          "t": "p",
+          "text": "A ring."
+        },
+        {
+          "t": "p",
+          "text": "The ring bore «Rāma»'s name."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» told «Sītā» that «Rāma» had given it to him as a sign so that she could have confidence in the messenger standing before her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» looked at the ornament associated with her husband."
+        },
+        {
+          "t": "p",
+          "text": "The «Rāmāyaṇa» says that seeing it filled her with joy, almost as though «Rāma» himself had come into her presence."
+        },
+        {
+          "t": "p",
+          "text": "The ring did not rescue her."
+        },
+        {
+          "t": "p",
+          "text": "It did not open the grove, defeat Rāvaṇa or carry her across the sea."
+        },
+        {
+          "t": "p",
+          "text": "It did something smaller that had to happen first."
+        },
+        {
+          "t": "p",
+          "text": "It made the message believable."
+        },
+        {
+          "t": "p",
+          "text": "Now the words _«Rāma» is searching for you_ did not stand alone. Someone had crossed the ocean carrying something «Rāma» had deliberately placed in his hand."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Later «Hanumān» offered to carry «Sītā» away himself."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» did not accept that route. The conversation therefore turned toward what «Hanumān» could carry back instead."
+        },
+        {
+          "t": "p",
+          "text": "He asked her for a sign that «Rāma» would recognize."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» first gave him something no stolen object could provide: a private memory connected to their time near «Citrakūṭa», the episode of the crow. She told «Hanumān» to repeat it to «Rāma» as a token of recognition."
+        },
+        {
+          "t": "p",
+          "text": "Then she added a physical token."
+        },
+        {
+          "t": "p",
+          "text": "She took out her «cūḍāmaṇi», the jewel worn on her head, and gave it to «Hanumān» to carry to «Rāma»."
+        },
+        {
+          "t": "p",
+          "text": "The text is explicit about its purpose: «Rāma» should recognize it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» received the jewel, bowed to «Sītā» and prepared to return."
+        },
+        {
+          "t": "p",
+          "text": "The meeting now contained verification in both directions."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma»'s ring had reached «Sītā» together with a messenger who knew the story of the search."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» would carry «Sītā»'s private memory and «cūḍāmaṇi» to «Rāma» together; he was the messenger who had actually stood before her."
+        },
+        {
+          "t": "p",
+          "text": "Neither side is asked to rely on an unsupported sentence."
+        },
+        {
+          "t": "p",
+          "text": "That is why this quiet scene matters as much as the spectacular leap that brought «Hanumān» to «Laṅkā»."
+        },
+        {
+          "t": "p",
+          "text": "Crossing an ocean gets the messenger into the right place. Recognition is what turns arrival into communication."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The ring and jewel do not replace words; they make the words accountable."
+        },
+        {
+          "t": "p",
+          "text": "Each belongs to a person. Each travels away from that person. Each helps the receiver say: yes, this message is connected to the one I love."
+        },
+        {
+          "t": "p",
+          "text": "The private memory «Sītā» chooses is not vague. She reminds «Rāma», through «Hanumān», of an episode near Citrakūṭa involving a crow that attacked her. It is the kind of recollection that belongs to their shared life, not a public description that any resident of «Ayodhyā» could supply."
+        },
+        {
+          "t": "p",
+          "text": "In that remembered episode «Rāma» had protected her when the crow injured her and eventually spared the crow when it sought refuge. «Sītā» gives the memory to «Hanumān» because «Rāma» will know where it came from. The message therefore has a second kind of authentication before the jewel is even produced."
+        },
+        {
+          "t": "p",
+          "text": "Only after that does she untie the cūḍāmaṇi and hand it over. «Hanumān» receives the jewel and keeps it for the return journey. A private memory and a recognizable object now travel together, just as «Rāma»'s words and ring had travelled together on the way into «Laṅkā»."
+        },
+        {
+          "t": "slow",
+          "text": "«Hanumān»'s greatest journey in the grove is not across distance but across doubt: ring one way, memory and jewel the other."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If a stranger brought you a message from someone you loved, what would make you believe the message was really theirs?",
+    "seed": "Trust has to travel both ways: Rāma's ring goes to Sītā, and Sītā sends something back.",
+    "ifTheyAsk": [
+      {
+        "q": "Does Sītā trust Hanumān just because he shows the ring?",
+        "a": "No. Hanumān first speaks with her. The ring then becomes additional proof connecting him directly to Rāma."
+      },
+      {
+        "q": "What does Sītā send back?",
+        "a": "She gives Hanumān her cūḍāmaṇi to carry to Rāma as proof from her side."
+      },
+      {
+        "q": "Why do they need proof in both directions?",
+        "a": "Because both people receiving the message are far from the person they love. Each sends something the other will recognize, so the messenger does not have to rely on words alone."
+      }
+    ]
+  }
+}

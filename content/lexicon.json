@@ -111,9 +111,10 @@
     "say": "NUH-luh",
     "ipa": "ˈnɐ.lɐ",
     "kind": "person",
-    "gloss": "The vānara engineer who designed the sea bridge, the Setu. The only architect in the Rāmāyaṇa with a name.",
+    "gloss": "A name shared by two figures in this collection: the vānara engineer who directs the Setu in the Rāmāyaṇa, and King Nala of Niṣadha in the Mahābhārata's Damayantī story.",
     "aliases": [
-      "Nala"
+      "Nala",
+      "King Nala"
     ]
   },
   "Śabarī": {
@@ -305,7 +306,7 @@
     "say": "UR-juh-nuh",
     "ipa": "ˈɐr.d͡ʒʊ.nɐ",
     "kind": "person",
-    "gloss": "The archer among the Pāṇḍavas; the one who could see only the eye of the bird.",
+    "gloss": "The archer among the Pāṇḍavas; in Droṇa's bird test he narrows his attention from the bird to its head.",
     "aliases": [
       "Arjuna",
       "Arjun"
@@ -2029,6 +2030,341 @@
       "Chandra",
       "Chandran",
       "Moon"
+    ]
+  },
+  "Ambarīṣa": {
+    "id": "ambarisha",
+    "native": {
+      "deva": "अम्बरीष"
+    },
+    "say": "um-buh-REE-shuh",
+    "kind": "person",
+    "gloss": "A king in the Bhāgavata Purāṇa who tries to honour both a fast and a guest when the two obligations collide.",
+    "aliases": [
+      "Ambarisha"
+    ]
+  },
+  "Bali": {
+    "id": "bali-mahabali",
+    "native": {
+      "deva": "बलि"
+    },
+    "say": "BUH-lee",
+    "kind": "person",
+    "gloss": "The generous asura king who promises Vāmana three paces of land even after being warned what the gift may cost.",
+    "aliases": [
+      "Mahabali",
+      "Mahābali",
+      "Bali"
+    ]
+  },
+  "Damayantī": {
+    "id": "damayanti",
+    "native": {
+      "deva": "दमयन्ती"
+    },
+    "say": "duh-muh-YUN-tee",
+    "kind": "person",
+    "gloss": "Princess of Vidarbha who chooses Nala at her svayaṃvara even when the gods take his appearance.",
+    "aliases": [
+      "Damayanti"
+    ]
+  },
+  "Durvāsā": {
+    "id": "durvasa",
+    "native": {
+      "deva": "दुर्वासा"
+    },
+    "say": "door-VAA-saa",
+    "kind": "person",
+    "gloss": "A formidable sage whose delayed return creates Ambarīṣa's dilemma and whose anger sets Sudarśana in pursuit.",
+    "aliases": [
+      "Durvasa"
+    ]
+  },
+  "Duryodhana": {
+    "id": "duryodhana",
+    "native": {
+      "deva": "दुर्योधन"
+    },
+    "say": "door-YOH-dhuh-nuh",
+    "kind": "person",
+    "gloss": "Eldest of Dhṛtarāṣṭra's sons and one of the Kuru princes trained by Droṇa.",
+    "aliases": [
+      "Duryodhan"
+    ]
+  },
+  "Kātyāyanī": {
+    "id": "katyayani-maitreyi",
+    "native": {
+      "deva": "कात्यायनी"
+    },
+    "say": "kaa-tyaa-YUH-nee",
+    "kind": "person",
+    "gloss": "A member of Yājñavalkya's household named alongside Maitreyi when he proposes dividing his property.",
+    "aliases": [
+      "Katyayani"
+    ]
+  },
+  "Maitreyi": {
+    "id": "maitreyi",
+    "native": {
+      "deva": "मैत्रेयी"
+    },
+    "say": "my-TRAY-yee",
+    "kind": "person",
+    "gloss": "The questioner in the Bṛhadāraṇyaka Upaniṣad who asks whether all the wealth of the earth could make her immortal.",
+    "aliases": [
+      "Maitreyī",
+      "Maitreyee"
+    ]
+  },
+  "Niśākara": {
+    "id": "nishakara-sage",
+    "native": {
+      "deva": "निशाकर"
+    },
+    "say": "ni-SHAA-kuh-ruh",
+    "kind": "person",
+    "gloss": "The sage in the received Sampāti sequence who foretells that Rāma's searchers will one day need Sampāti's words.",
+    "aliases": [
+      "Nishakara"
+    ]
+  },
+  "Sampāti": {
+    "id": "sampati",
+    "native": {
+      "deva": "सम्पाति"
+    },
+    "say": "sum-PAA-tee",
+    "kind": "being",
+    "gloss": "Jaṭāyu's elder brother, wingless when Rāma's search party finds him and able to help them through what he knows.",
+    "aliases": [
+      "Sampati"
+    ]
+  },
+  "Satyavān": {
+    "id": "satyavan",
+    "native": {
+      "deva": "सत्यवान्"
+    },
+    "say": "sut-yuh-VAAN",
+    "kind": "person",
+    "gloss": "Sāvitrī's husband, whose foretold death becomes the reason she follows Yama.",
+    "aliases": [
+      "Satyavan"
+    ]
+  },
+  "Sudarśana": {
+    "id": "sudarshana",
+    "native": {
+      "deva": "सुदर्शन"
+    },
+    "say": "soo-DUR-shuh-nuh",
+    "kind": "being",
+    "gloss": "Viṣṇu's discus; in Ambarīṣa's story it destroys Durvāsā's attacker and then pursues the sage.",
+    "aliases": [
+      "Sudarshana",
+      "Sudarshan"
+    ]
+  },
+  "Sāvitrī": {
+    "id": "savitri",
+    "native": {
+      "deva": "सावित्री"
+    },
+    "say": "SAA-vi-tree",
+    "kind": "person",
+    "gloss": "The woman in the Mahābhārata who follows Yama after Satyavān's death and keeps the conversation going through a series of boons.",
+    "aliases": [
+      "Savitri"
+    ]
+  },
+  "Sūrya": {
+    "id": "surya",
+    "native": {
+      "deva": "सूर्य"
+    },
+    "say": "SOOR-yuh",
+    "kind": "being",
+    "gloss": "The Sun; in Karṇa's story he warns Karṇa beforehand about Indra's intended request.",
+    "aliases": [
+      "Surya"
+    ]
+  },
+  "Vāmana": {
+    "id": "vamana",
+    "native": {
+      "deva": "वामन"
+    },
+    "say": "VAA-muh-nuh",
+    "kind": "being",
+    "gloss": "Viṣṇu in dwarf-brāhmaṇa form, who asks Bali for three paces of land.",
+    "aliases": [
+      "Vamana"
+    ]
+  },
+  "Yājñavalkya": {
+    "id": "yajnavalkya",
+    "native": {
+      "deva": "याज्ञवल्क्य"
+    },
+    "say": "YAAG-nyuh-vul-kyuh",
+    "kind": "person",
+    "gloss": "The sage in the Bṛhadāraṇyaka Upaniṣad who answers Maitreyi's question about wealth and immortality.",
+    "aliases": [
+      "Yajnavalkya"
+    ]
+  },
+  "cūḍāmaṇi": {
+    "id": "cudamani",
+    "native": {
+      "deva": "चूडामणि"
+    },
+    "say": "choo-DAA-muh-nee",
+    "kind": "word",
+    "gloss": "Sītā's head-jewel, given to Hanumān as a recognition-token for Rāma.",
+    "aliases": [
+      "chudamani",
+      "choodamani"
+    ]
+  },
+  "Śukrācārya": {
+    "id": "shukracharya",
+    "native": {
+      "deva": "शुक्राचार्य"
+    },
+    "say": "shook-RAA-chaar-yuh",
+    "kind": "person",
+    "gloss": "Bali's teacher, who recognizes Vāmana as Viṣṇu and warns Bali what the promise may cost.",
+    "aliases": [
+      "Shukracharya",
+      "Sukracharya"
+    ]
+  },
+  "Dhṛtarāṣṭra": {
+    "id": "dhritarashtra",
+    "native": {
+      "deva": "धृतराष्ट्र"
+    },
+    "say": "dhri-tuh-RAASH-truh",
+    "kind": "person",
+    "gloss": "The blind king of Hastināpura and father of Duryodhana and his brothers.",
+    "aliases": [
+      "Dhritarashtra"
+    ]
+  },
+  "Drupada": {
+    "id": "drupada",
+    "native": {
+      "deva": "द्रुपद"
+    },
+    "say": "DROO-puh-duh",
+    "kind": "person",
+    "gloss": "King of Pañcāla, remembered in Droṇa's story as the ruler against whom Droṇa later sends his pupils.",
+    "aliases": [
+      "Drupad"
+    ]
+  },
+  "Citrakūṭa": {
+    "id": "chitrakuta",
+    "native": {
+      "deva": "चित्रकूट"
+    },
+    "say": "chi-truh-KOO-tuh",
+    "kind": "place",
+    "gloss": "The forested place where Rāma and Sītā lived during part of the exile; Sītā recalls a private episode from there for Hanumān to carry back.",
+    "aliases": [
+      "Chitrakuta",
+      "Chitrakoot"
+    ]
+  },
+  "Sutala": {
+    "id": "sutala",
+    "native": {
+      "deva": "सुतल"
+    },
+    "say": "SOO-tuh-luh",
+    "kind": "place",
+    "gloss": "The realm given to Bali after the three-step episode, where Viṣṇu promises him protection.",
+    "aliases": [
+      "Sutala"
+    ]
+  },
+  "Yamunā": {
+    "id": "yamuna",
+    "native": {
+      "deva": "यमुना"
+    },
+    "say": "yuh-MOO-naa",
+    "kind": "place",
+    "gloss": "The river where Durvāsā goes to bathe after accepting Ambarīṣa's invitation to eat.",
+    "aliases": [
+      "Yamuna"
+    ]
+  },
+  "Mahābhārata": {
+    "id": "mahabharata",
+    "native": {
+      "deva": "महाभारत"
+    },
+    "say": "muh-HAA-bhaa-ruh-tuh",
+    "kind": "text",
+    "gloss": "The Sanskrit epic of the Pāṇḍavas and Kauravas. These stories cite a specific parva and passage rather than treating every later retelling as the same witness.",
+    "aliases": [
+      "Mahabharata"
+    ]
+  },
+  "Vidarbha": {
+    "id": "vidarbha",
+    "native": {
+      "deva": "विदर्भ"
+    },
+    "say": "vi-DUR-bhuh",
+    "kind": "place",
+    "gloss": "Damayantī's kingdom in the Nalopākhyāna of the Mahābhārata.",
+    "aliases": [
+      "Vidarbha"
+    ]
+  },
+  "Niṣadha": {
+    "id": "nishadha",
+    "native": {
+      "deva": "निषध"
+    },
+    "say": "NIH-shuh-dhuh",
+    "kind": "place",
+    "gloss": "The kingdom ruled by Nala in the Nalopākhyāna of the Mahābhārata.",
+    "aliases": [
+      "Nishadha",
+      "Nisadha"
+    ]
+  },
+  "Aśoka": {
+    "id": "ashoka",
+    "native": {
+      "deva": "अशोक"
+    },
+    "say": "uh-SHOH-kuh",
+    "kind": "word",
+    "gloss": "The aśoka tree. Sītā is found in an aśoka grove in Laṅkā in the Sundara Kāṇḍa.",
+    "aliases": [
+      "Ashoka"
+    ]
+  },
+  "Bhāgavata": {
+    "id": "bhagavata",
+    "native": {
+      "deva": "भागवत"
+    },
+    "say": "BHAA-guh-vuh-tuh",
+    "kind": "text",
+    "gloss": "Short form of the Bhāgavata Purāṇa, the Sanskrit Purāṇa used for several stories in this collection.",
+    "aliases": [
+      "Bhagavata",
+      "Bhagavatam",
+      "Bhāgavata Purāṇa",
+      "Bhagavata Purana"
     ]
   }
 }

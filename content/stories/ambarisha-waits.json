@@ -1,0 +1,403 @@
+{
+  "id": "ambarisha-waits",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Ambarīṣa Waits for His Guest",
+  "tease": "A king sips water to save a vow without eating before his guest. His guest returns furious.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 9, chapters 4–5",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa, Gita Press Sanskrit text, Skandha 9, chapters 4–5",
+      "Bhāgavata.org English/Sanskrit chapter text, Skandha 9.4–5, for cross-check"
+    ],
+    "sourcing": [
+      {
+        "claim": "Ambarīṣa faces two obligations: he must break his Dvādaśī fast in the prescribed time and has invited Durvāsā to eat; Durvāsā goes to bathe and is delayed.",
+        "locus": "Bhāgavata 9.4.37–40"
+      },
+      {
+        "claim": "After consulting learned brāhmaṇas, Ambarīṣa drinks only water because it can be treated as both eating and not eating for the purpose of preserving the two obligations as far as possible.",
+        "locus": "9.4.39–41"
+      },
+      {
+        "claim": "Durvāsā returns angry, creates a fiery attacker, and Sudarśana destroys it and pursues Durvāsā; Ambarīṣa does not send the discus as an act of revenge.",
+        "locus": "9.4.42–51"
+      },
+      {
+        "claim": "Durvāsā seeks safety in the divine realms and is ultimately directed back to Ambarīṣa; he returns and Ambarīṣa prays for him rather than rejoicing at his humiliation.",
+        "locus": "9.4.52–9.5"
+      },
+      {
+        "claim": "A full year passes while Ambarīṣa waits, sustaining himself on water; when Durvāsā returns safely, Ambarīṣa feeds his guest before he himself eats.",
+        "locus": "9.5"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "violence"
+    ],
+    "gated": false,
+    "careNote": "Durvāsā creates a fiery attacker; Sudarśana destroys it and then pursues him. The action is brief and not graphic; the story stays with Ambarīṣa's restraint and hospitality."
+  },
+  "values": [
+    "holding your ground politely"
+  ],
+  "themes": [
+    "ambarisha",
+    "durvasa",
+    "hospitality",
+    "restraint"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Ambarīṣa",
+      "role": "lead"
+    },
+    {
+      "ref": "Durvāsā",
+      "role": "present"
+    },
+    {
+      "ref": "Sudarśana",
+      "role": "present"
+    },
+    {
+      "ref": "Yamunā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Śiva",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Nārāyaṇa",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 309,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ambarīṣa had invited a guest to eat, but the proper time to end his fast was running out."
+        },
+        {
+          "t": "p",
+          "text": "The guest was the sage «Durvāsā». He had accepted the invitation and then gone to the «Yamunā» to bathe. He did not return quickly."
+        },
+        {
+          "t": "p",
+          "text": "If «Ambarīṣa» ate, he would eat before his guest. If he let the sacred Dvādaśī time pass, he would fail the vow he had been keeping."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So the king asked learned brāhmaṇas what he should do."
+        },
+        {
+          "t": "p",
+          "text": "He chose the smallest possible action: drink water."
+        },
+        {
+          "t": "p",
+          "text": "The text gives the reasoning. Water could be treated as both eating and not eating, allowing him to mark the end of the fast without sitting down to a meal before Durvāsā."
+        },
+        {
+          "t": "p",
+          "text": "Then Ambarīṣa waited."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Durvāsā returned and, by his powers, understood what the king had done. He was furious. He accused Ambarīṣa of insulting his guest and created a fiery being to attack him."
+        },
+        {
+          "t": "p",
+          "text": "Ambarīṣa himself does not send Sudarśana after the sage. The weapon intervenes against the attacker and then continues the pursuit while the king remains where he is."
+        },
+        {
+          "t": "p",
+          "text": "The «Sudarśana» discus destroyed the attacker and then pursued Durvāsā."
+        },
+        {
+          "t": "p",
+          "text": "Now the angry guest became the person running for refuge."
+        },
+        {
+          "t": "p",
+          "text": "Eventually Durvāsā learned that the danger could not be settled by going around Ambarīṣa. He had to return to him."
+        },
+        {
+          "t": "p",
+          "text": "He came back and fell at the king's feet."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Ambarīṣa did not enjoy the sight. The «Bhāgavata» says he was embarrassed that the great sage was bowing before him."
+        },
+        {
+          "t": "p",
+          "text": "He prayed to Sudarśana to spare Durvāsā."
+        },
+        {
+          "t": "p",
+          "text": "The danger ended."
+        },
+        {
+          "t": "p",
+          "text": "And Ambarīṣa still had not eaten his proper meal. He had continued waiting for the guest he had invited."
+        },
+        {
+          "t": "p",
+          "text": "He fed Durvāsā first. Only afterwards did he eat."
+        },
+        {
+          "t": "slow",
+          "text": "The strongest part of Ambarīṣa's decision may be what comes after it: he is still ready to feed the person who came back angry."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 654,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ambarīṣa had two duties and not enough time to perform both in the ordinary way."
+        },
+        {
+          "t": "p",
+          "text": "He had observed a fast with care, and the proper Dvādaśī period for ending it was nearly over."
+        },
+        {
+          "t": "p",
+          "text": "Then the sage «Durvāsā» arrived as a guest."
+        },
+        {
+          "t": "p",
+          "text": "«Ambarīṣa» welcomed him and invited him to eat."
+        },
+        {
+          "t": "p",
+          "text": "Durvāsā accepted, but first went to the «Yamunā» to bathe and perform his observance."
+        },
+        {
+          "t": "p",
+          "text": "He did not return before the breaking time began to disappear."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "If Ambarīṣa ate, he would eat before the guest he had invited."
+        },
+        {
+          "t": "p",
+          "text": "If he did nothing, the prescribed time for completing his own vow would pass."
+        },
+        {
+          "t": "p",
+          "text": "The king consulted learned brāhmaṇas."
+        },
+        {
+          "t": "p",
+          "text": "He settled on the smallest action he could take: water."
+        },
+        {
+          "t": "p",
+          "text": "The source gives the reasoning directly. Drinking water could be treated as eating and also as not eating. Ambarīṣa could mark the fast's completion without sitting down to a meal before Durvāsā."
+        },
+        {
+          "t": "p",
+          "text": "He drank a little water."
+        },
+        {
+          "t": "p",
+          "text": "Then he waited."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Durvāsā returned and understood what had happened."
+        },
+        {
+          "t": "p",
+          "text": "He was furious."
+        },
+        {
+          "t": "p",
+          "text": "From his point of view, the host had broken the fast before feeding the guest."
+        },
+        {
+          "t": "p",
+          "text": "His anger became an attack. Durvāsā tore out a lock of hair and created a fiery being to destroy the king."
+        },
+        {
+          "t": "p",
+          "text": "Ambarīṣa did not send a weapon after him."
+        },
+        {
+          "t": "p",
+          "text": "The «Sudarśana» discus intervened, destroyed the attacker and then turned toward Durvāsā."
+        },
+        {
+          "t": "p",
+          "text": "Now the guest who had arrived angry became the person fleeing for safety."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Durvāsā ran through the worlds seeking someone who could stop the discus."
+        },
+        {
+          "t": "p",
+          "text": "He appealed in the great divine realms, but the pursuit did not end."
+        },
+        {
+          "t": "p",
+          "text": "At last he learned that the path out of the danger led back to the person he had tried to harm."
+        },
+        {
+          "t": "p",
+          "text": "Durvāsā returned to Ambarīṣa and fell at his feet."
+        },
+        {
+          "t": "p",
+          "text": "Ambarīṣa did not celebrate the reversal."
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» says he was embarrassed to see the great sage bowing before him."
+        },
+        {
+          "t": "p",
+          "text": "He prayed to Sudarśana for Durvāsā's safety."
+        },
+        {
+          "t": "p",
+          "text": "The danger ended."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then the story reveals how long the host had been waiting."
+        },
+        {
+          "t": "p",
+          "text": "A full year had passed."
+        },
+        {
+          "t": "p",
+          "text": "During that year, while Durvāsā travelled under pursuit, Ambarīṣa had not gone ahead and eaten the meal without him. The text says the king maintained himself on water while waiting for the sage's return."
+        },
+        {
+          "t": "p",
+          "text": "When Durvāsā was finally safe, Ambarīṣa fed him well."
+        },
+        {
+          "t": "p",
+          "text": "Only after his guest had eaten did the king himself eat."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That last detail changes the shape of the episode."
+        },
+        {
+          "t": "p",
+          "text": "It would be easy to tell this as a story in which a careful king is proven right and an angry sage is proven wrong."
+        },
+        {
+          "t": "p",
+          "text": "But Ambarīṣa does not use vindication as permission to stop being a host."
+        },
+        {
+          "t": "p",
+          "text": "His first problem was how to honour two obligations at once. His last action shows that the obligation to Durvāsā never vanished from his mind, even after the attack and the pursuit."
+        },
+        {
+          "t": "p",
+          "text": "He holds his ground without turning the other person's humiliation into a victory scene."
+        },
+        {
+          "t": "p",
+          "text": "Durvāsā's flight is long because each place he reaches points him onward. He goes to «Brahmā» and to «Śiva», and finally to «Nārāyaṇa», but none simply cancels what has happened. He is directed back toward Ambarīṣa, the person against whom the offence was committed."
+        },
+        {
+          "t": "p",
+          "text": "That return is important to the structure. The same sage who had treated the sip of water as an intolerable insult now has to place his safety in the hands of the host he attacked. Ambarīṣa's response is not to demand an apology scene for his own satisfaction; he immediately turns to prayer for Durvāsā's protection."
+        },
+        {
+          "t": "p",
+          "text": "After eating, Durvāsā praises the king and departs satisfied. Only then does Ambarīṣa take food. The meal that was delayed at the beginning of the story is finally completed after an entire year, with the guest still fed first."
+        },
+        {
+          "t": "p",
+          "text": "The waiting ends only when hospitality can finally be completed without fear."
+        },
+        {
+          "t": "slow",
+          "text": "Ambarīṣa's restraint lasts longer than the quarrel: he is still waiting to feed his guest when the guest finally comes home."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Have you ever stayed ready to make peace with someone even while they were still angry with you?",
+    "seed": "Ambarīṣa's restraint does not end when the danger ends; he waits for Durvāsā to return.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Ambarīṣa drink water in the first place?",
+        "a": "He is caught between completing his observance at the proper time and waiting for his guest. After consultation, water is chosen because it can be treated as a middle action — both eating and not eating for the purpose of the observance."
+      },
+      {
+        "q": "Did Ambarīṣa send the Sudarśana after Durvāsā?",
+        "a": "No. Durvāsā attacks Ambarīṣa, and Sudarśana intervenes and pursues Durvāsā. The story does not turn Ambarīṣa into someone taking revenge."
+      },
+      {
+        "q": "What happens when Durvāsā finally comes back?",
+        "a": "Ambarīṣa receives him, forgives him and feeds him. He has been waiting rather than using Durvāsā's absence as permission to forget the guest."
+      }
+    ]
+  }
+}

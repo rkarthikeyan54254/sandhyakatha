@@ -1,0 +1,408 @@
+{
+  "id": "maitreyi-wealth",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Maitreyi's Question",
+  "tease": "Maitreyi is offered a share of a household's wealth and asks one question: can it make me immortal?",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Bṛhadāraṇyaka Upaniṣad",
+    "locus": "2.4.1–5; parallel dialogue at 4.5",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bṛhadāraṇyaka Upaniṣad 2.4.1–5, Sanskrit text and Swami Madhavananda translation, Advaita Ashrama",
+      "Bṛhadāraṇyaka Upaniṣad 4.5, parallel dialogue, for cross-check"
+    ],
+    "sourcing": [
+      {
+        "claim": "Yājñavalkya tells Maitreyi that he intends to leave household life and proposes dividing property between Maitreyi and Kātyāyanī.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 2.4.1"
+      },
+      {
+        "claim": "Maitreyi asks whether possessing the whole earth filled with wealth would make her immortal; Yājñavalkya says it would not and that wealth can give only the life of the wealthy.",
+        "locus": "2.4.2"
+      },
+      {
+        "claim": "Maitreyi asks what she should do with something that cannot give immortality and asks Yājñavalkya to teach what he knows instead; he praises the question and begins teaching.",
+        "locus": "2.4.3–4"
+      },
+      {
+        "claim": "The first teaching that follows says husband, wife, sons, wealth, worlds, gods and beings are dear for the sake of the Self, and that the Self is to be heard about, reflected on and understood.",
+        "locus": "2.4.5"
+      },
+      {
+        "claim": "The dialogue appears again later in the same Upaniṣad at 4.5; the full telling notes that parallel, while the short remains focused on the original question.",
+        "locus": "4.5"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "refusing an easy answer"
+  ],
+  "themes": [
+    "maitreyi",
+    "wealth",
+    "immortality",
+    "self"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Maitreyi",
+      "role": "lead"
+    },
+    {
+      "ref": "Yājñavalkya",
+      "role": "present"
+    },
+    {
+      "ref": "Kātyāyanī",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 324,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Yājñavalkya came to Maitreyi with a practical offer."
+        },
+        {
+          "t": "p",
+          "text": "He was preparing to leave household life and wanted to divide his property between «Maitreyi» and «Kātyāyanī»."
+        },
+        {
+          "t": "p",
+          "text": "Maitreyi did not begin by asking how much she would receive."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She asked a different question."
+        },
+        {
+          "t": "p",
+          "text": "Suppose the whole earth belonged to me and was filled with wealth. Would that make me immortal?"
+        },
+        {
+          "t": "p",
+          "text": "«Yājñavalkya» answered directly."
+        },
+        {
+          "t": "p",
+          "text": "No."
+        },
+        {
+          "t": "p",
+          "text": "Wealth could give her the life that wealthy people live. It could provide the things wealth can provide. But it could not give the immortality she was asking about."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Maitreyi did not say that wealth was evil."
+        },
+        {
+          "t": "p",
+          "text": "She did not say that food, property, comfort or security were useless."
+        },
+        {
+          "t": "p",
+          "text": "She asked something more exact: if wealth cannot do the particular thing I am asking for, what should I do with it? Teach me what you know about that instead."
+        },
+        {
+          "t": "p",
+          "text": "Her question is precise enough that Yājñavalkya does not evade it. He does not promise that enough wealth will eventually become something else. He says its limit plainly."
+        },
+        {
+          "t": "p",
+          "text": "Yājñavalkya was pleased by the question."
+        },
+        {
+          "t": "p",
+          "text": "He told her to sit down and listen, and the Bṛhadāraṇyaka Upaniṣad moves from there into a much larger teaching about the self, love and immortality."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "For a bedtime story, the doorway is already enough."
+        },
+        {
+          "t": "p",
+          "text": "Maitreyi tests an offer by taking it to its largest imaginable form."
+        },
+        {
+          "t": "p",
+          "text": "Not a little money. The entire earth filled with wealth."
+        },
+        {
+          "t": "p",
+          "text": "Would even that solve this problem?"
+        },
+        {
+          "t": "p",
+          "text": "No."
+        },
+        {
+          "t": "p",
+          "text": "So she changes the conversation instead of asking for a larger amount of the wrong answer."
+        },
+        {
+          "t": "p",
+          "text": "That is a useful habit far beyond money. Something can be valuable and still be unable to do the job in front of you."
+        },
+        {
+          "t": "p",
+          "text": "That distinction is what opens the teaching: not rejection for its own sake, but asking whether the offered thing reaches the goal under discussion."
+        },
+        {
+          "t": "slow",
+          "text": "Maitreyi does not ask whether wealth is good or bad. She asks whether it can answer the question she actually has."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 676,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Yājñavalkya» came to «Maitreyi» with a practical conversation."
+        },
+        {
+          "t": "p",
+          "text": "He was preparing to leave household life."
+        },
+        {
+          "t": "p",
+          "text": "Before leaving, he intended to settle the property of the household between Maitreyi and «Kātyāyanī»."
+        },
+        {
+          "t": "p",
+          "text": "For many people, the next question would have been: how much will each person receive?"
+        },
+        {
+          "t": "p",
+          "text": "Maitreyi asked something else."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Suppose, she said, that the whole earth belonged to me."
+        },
+        {
+          "t": "p",
+          "text": "Not one field. Not one house. Not a large inheritance."
+        },
+        {
+          "t": "p",
+          "text": "The entire earth, filled with wealth."
+        },
+        {
+          "t": "p",
+          "text": "Would that make me immortal?"
+        },
+        {
+          "t": "p",
+          "text": "Yājñavalkya answered directly."
+        },
+        {
+          "t": "p",
+          "text": "No."
+        },
+        {
+          "t": "p",
+          "text": "Her life could become the life of someone who possessed many things. Wealth could provide what wealth provides."
+        },
+        {
+          "t": "p",
+          "text": "But there was no hope of immortality through wealth."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Maitreyi did not respond by calling wealth evil."
+        },
+        {
+          "t": "p",
+          "text": "She did not claim that ordinary household needs were unreal or worthless."
+        },
+        {
+          "t": "p",
+          "text": "She kept the question narrow."
+        },
+        {
+          "t": "p",
+          "text": "If this cannot make me immortal, she asked, what should I do with it? Tell me instead what you know about that."
+        },
+        {
+          "t": "p",
+          "text": "Yājñavalkya was pleased by the question."
+        },
+        {
+          "t": "p",
+          "text": "He told her that what she had said was dear to him. Sit down, he said in the passage; I will explain, and while I explain, attend carefully to what is being said."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The Upaniṣad then begins the teaching Maitreyi has asked for."
+        },
+        {
+          "t": "p",
+          "text": "Yājñavalkya starts with a repeated pattern."
+        },
+        {
+          "t": "p",
+          "text": "A husband is not dear only for the sake of the husband, he says, but for the sake of the Self."
+        },
+        {
+          "t": "p",
+          "text": "A wife is not dear only for the sake of the wife, but for the sake of the Self."
+        },
+        {
+          "t": "p",
+          "text": "He continues through sons, wealth, social and sacred standing, worlds, gods and beings."
+        },
+        {
+          "t": "p",
+          "text": "Again and again the sentence changes only the object in front."
+        },
+        {
+          "t": "p",
+          "text": "The point is not that husband, wife, children or wealth suddenly stop mattering."
+        },
+        {
+          "t": "p",
+          "text": "The teaching asks what makes anything dear at the deepest level."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then Yājñavalkya turns the pattern into an instruction."
+        },
+        {
+          "t": "p",
+          "text": "The Self, he says, is to be seen, heard about, reflected upon and deeply understood. Through knowledge of the Self, the rest of what is being asked about becomes intelligible."
+        },
+        {
+          "t": "p",
+          "text": "That larger teaching continues far beyond a bedtime story."
+        },
+        {
+          "t": "p",
+          "text": "But Maitreyi's doorway into it is already complete."
+        },
+        {
+          "t": "p",
+          "text": "She is offered something undeniably valuable and does not confuse value with usefulness for every purpose."
+        },
+        {
+          "t": "p",
+          "text": "Instead she tests the offer at its maximum."
+        },
+        {
+          "t": "p",
+          "text": "If I had all of it — the whole earth full of wealth — would it answer the question I am actually asking?"
+        },
+        {
+          "t": "p",
+          "text": "When the answer is no, she does not ask for twice as much of the wrong thing."
+        },
+        {
+          "t": "p",
+          "text": "She asks for a different kind of knowledge."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That habit is useful far beyond money."
+        },
+        {
+          "t": "p",
+          "text": "Food is valuable, but it cannot solve every kind of hunger. A map is valuable, but it cannot decide why you are travelling. A tool can be excellent and still be the wrong tool for the problem in front of you."
+        },
+        {
+          "t": "p",
+          "text": "Maitreyi's strength is the precision of her question."
+        },
+        {
+          "t": "p",
+          "text": "She refuses to let the size of the offer distract her from the limit Yājñavalkya has named."
+        },
+        {
+          "t": "p",
+          "text": "And because she asks so exactly, the conversation is able to move from property into one of the great teachings in the Upaniṣad."
+        },
+        {
+          "t": "p",
+          "text": "Yājñavalkya's repeated examples matter because the teaching does not isolate wealth as though money were uniquely suspect. The pattern passes through the closest human relationships as well as possessions, social roles, worlds and gods. Wealth is one item inside a much larger question about what makes anything dear."
+        },
+        {
+          "t": "p",
+          "text": "That protects Maitreyi's question from turning into a slogan about rejecting ordinary life. The very first scene is a household settlement, and the teaching immediately includes husband, wife and children. The Upaniṣad is not pretending those relationships are absent; it is asking what is deepest within the love by which they are known."
+        },
+        {
+          "t": "p",
+          "text": "The same dialogue appears again later in the Bṛhadāraṇyaka, at 4.5. The text itself returns to this household question as a doorway into teaching about the Self."
+        },
+        {
+          "t": "slow",
+          "text": "Maitreyi does not ask whether wealth is good or bad; she asks where its power ends, and then asks for what begins beyond that."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you could own everything you wanted, what is something you think ownership still could not give you?",
+    "seed": "Maitreyī does not say wealth is bad; she asks what it cannot do, and follows that question.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Maitreyī just hate money?",
+        "a": "No. Her question is more precise. She asks whether possessing all the wealth of the earth would make her immortal. When Yājñavalkya says it would not, she asks for the knowledge that could lead toward immortality instead."
+      },
+      {
+        "q": "What does she mean by immortality?",
+        "a": "In this passage she is asking about what does not end with ordinary possession and ordinary life. Once wealth is ruled out as the answer, she asks Yājñavalkya for the teaching directed toward that deeper question."
+      },
+      {
+        "q": "So does the story say money is useless?",
+        "a": "No. That would flatten Maitreyī's question. The point is that wealth can do many things, but Yājñavalkya tells her it cannot produce the immortality she is asking about. She chooses to ask for what wealth cannot supply."
+      }
+    ]
+  }
+}

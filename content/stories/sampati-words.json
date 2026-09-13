@@ -1,0 +1,375 @@
+{
+  "id": "sampati-words",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Sampāti Can Help Only With Words",
+  "tease": "The search party needs a direction. The bird who knows where Sītā is has no wings.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Kiṣkindhā Kāṇḍa 4.58–63",
+    "stability": "variant",
+    "parallels": [],
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Critical Edition (Oriental Institute, Baroda), Kiṣkindhā Kāṇḍa 4.58–63",
+      "Vālmīki Rāmāyaṇa received-text sargas 58–63, SanskritDocuments e-text, for the extended Sampāti sequence"
+    ],
+    "sourcing": [
+      {
+        "claim": "Sampāti is Jaṭāyu's elder brother; long before, the two brothers fly toward the sun, Sampāti shields Jaṭāyu, his wings are burned, and he falls to the Vindhya region.",
+        "locus": "Kiṣkindhā 4.58–60 in the received sequence"
+      },
+      {
+        "claim": "The search party tells Sampāti of Jaṭāyu's death while resisting Rāvaṇa; Sampāti is old and wingless and asks to make the water offering for his brother.",
+        "locus": "4.58–60"
+      },
+      {
+        "claim": "Sampāti explicitly says that, with his wings gone, the substantial help he can give Rāma is through words; he identifies Laṅkā across the ocean and gives the searchers the information about Sītā they need.",
+        "locus": "4.58"
+      },
+      {
+        "claim": "In the received continuation, Niśākara had foretold that one day Rāma's messengers would come and Sampāti should live to give them news; the extended account explains his waiting.",
+        "locus": "4.59–62"
+      },
+      {
+        "claim": "In that received continuation the promised wings later return after Sampāti has helped; the story does not have him regain them first and fly reconnaissance for the search party.",
+        "locus": "4.63"
+      }
+    ],
+    "traditionNote": "The core scene of wingless Sampāti directing the search is firm. The extended prophecy and restoration of his wings in 4.59–63 are absent from some manuscript traditions but preserved in the received sequence we tell here.",
+    "variants": [
+      {
+        "differs": "the extended Sampāti history and restoration of his wings",
+        "tellings": "Some manuscript traditions omit parts of Kiṣkindhā 4.59–63; received editions preserve the prophecy, waiting and restored wings.",
+        "weTell": "The received sequence, while marking the manuscript difference."
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [
+      "loss"
+    ],
+    "gated": false,
+    "careNote": "Sampāti learns that his younger brother Jaṭāyu died fighting Rāvaṇa. Jaṭāyu's death is not retold graphically; the story stays with what Sampāti can still do."
+  },
+  "values": [
+    "when your own strength runs out"
+  ],
+  "themes": [
+    "sampati",
+    "jatayu",
+    "search",
+    "words"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Sampāti",
+      "role": "lead"
+    },
+    {
+      "ref": "Jaṭāyu",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sītā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Niśākara",
+      "role": "present"
+    },
+    {
+      "ref": "Laṅkā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 314,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The «vānaras» searching for «Sītā» had reached a terrible point: they still did not know where she was."
+        },
+        {
+          "t": "p",
+          "text": "Then they met an old bird who could not fly."
+        },
+        {
+          "t": "p",
+          "text": "His name was «Sampāti», elder brother of «Jaṭāyu». Long before, the heat of the sun had burned away his wings."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The searchers spoke about Jaṭāyu. They told how he had fought «Rāvaṇa» while «Sītā» was being carried away and how he had died after giving «Rāma» the direction in which Rāvaṇa had gone."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» learned that the dead bird was his younger brother."
+        },
+        {
+          "t": "p",
+          "text": "Then the «vānaras» asked what he knew."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» did not pretend he could still do what he once could. His wings were gone. His strength was not what it had been."
+        },
+        {
+          "t": "p",
+          "text": "He told them that the substantial help he could now give «Rāma» was through his words."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And those words changed the search."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» told them where Rāvaṇa had gone. He identified «Laṅkā» across the ocean and gave them the destination they had been missing."
+        },
+        {
+          "t": "p",
+          "text": "The strongest jumpers in the world now knew where they had to jump."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» then asked the «vānaras» to carry him to the sea so he could offer water for Jaṭāyu. They did."
+        },
+        {
+          "t": "p",
+          "text": "Afterwards he told them the older story of how his wings had been lost. A sage named «Niśākara» had once foretold that «Sampāti» would help in «Rāma»'s work by giving news of «Sītā»."
+        },
+        {
+          "t": "p",
+          "text": "As he finished telling that history, new wings began to grow."
+        },
+        {
+          "t": "p",
+          "text": "Red feathers appeared. «Sampāti» saw his strength returning and rose again into the air."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His help came before the wings returned."
+        },
+        {
+          "t": "p",
+          "text": "That order matters. «Sampāti» was useful not because the old power suddenly came back in time, but because he noticed the knowledge he still had while the power was gone."
+        },
+        {
+          "t": "slow",
+          "text": "Sometimes the thing you can no longer do is not the same as the help you can no longer give."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 651,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The «vānaras» searching for «Sītā» had reached the point where they believed the search had failed."
+        },
+        {
+          "t": "p",
+          "text": "They had no destination left to follow."
+        },
+        {
+          "t": "p",
+          "text": "Then they met an old bird who could no longer fly."
+        },
+        {
+          "t": "p",
+          "text": "His name was «Sampāti». He was the elder brother of «Jaṭāyu»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When the «vānaras» spoke of Jaṭāyu, «Sampāti» learned what had happened to his younger brother: Jaṭāyu had fought «Rāvaṇa» while «Sītā» was being carried away and had died after giving «Rāma» the direction in which Rāvaṇa had gone."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» grieved, but he also had to admit what age and injury had done to him. He had no wings with which to pursue his brother's enemy."
+        },
+        {
+          "t": "p",
+          "text": "He told the «vānaras» how the wings had been lost."
+        },
+        {
+          "t": "p",
+          "text": "Long before, the two brothers had flown upward toward the sun, competing in their strength. When the heat overwhelmed Jaṭāyu, «Sampāti» spread his own wings over his younger brother to shield him."
+        },
+        {
+          "t": "p",
+          "text": "Jaṭāyu survived the heat. «Sampāti»'s wings were burned, and he fell to the Vindhya mountain."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now the searchers asked the question that mattered: did he know where Rāvaṇa had taken «Sītā»?"
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» answered with extraordinary precision about what he could and could not offer."
+        },
+        {
+          "t": "p",
+          "text": "His wings were burned. His strength was diminished."
+        },
+        {
+          "t": "p",
+          "text": "_The best help I can give «Rāma» now is through my words,_ he said in the sense of the Sanskrit passage."
+        },
+        {
+          "t": "p",
+          "text": "Those words gave the search a destination."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» identified «Laṅkā» across the ocean and told them that «Sītā» was there."
+        },
+        {
+          "t": "p",
+          "text": "He described the direction and distance well enough that the «vānaras» who had been preparing to give up now knew where their effort had to go."
+        },
+        {
+          "t": "p",
+          "text": "The strongest jumpers in the world had finally been told where to jump."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» then asked the «vānaras» to carry him to the sea so that he could offer water for Jaṭāyu."
+        },
+        {
+          "t": "p",
+          "text": "They carried the wingless bird to the shore, and afterwards brought him back."
+        },
+        {
+          "t": "p",
+          "text": "The later part of this sequence gives another layer to his history."
+        },
+        {
+          "t": "p",
+          "text": "A sage named «Niśākara» had once told «Sampāti» that a time would come when «Rāma»'s messengers would arrive searching for «Sītā». «Sampāti»'s role would be to give them the news they needed."
+        },
+        {
+          "t": "p",
+          "text": "The prophecy also said that his wings would return."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» had waited through the years with that promise in mind."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "After he had given the «vānaras» the information and finished telling his history, new wings appeared."
+        },
+        {
+          "t": "p",
+          "text": "Red feathers grew. His strength returned enough for him to rise again."
+        },
+        {
+          "t": "p",
+          "text": "Then he flew away, while the «vānaras» turned toward the southern journey and the ocean that still had to be crossed."
+        },
+        {
+          "t": "p",
+          "text": "Not every manuscript preserves the later chapters in the same form. Some received versions include the prophecy and restored wings; others do not."
+        },
+        {
+          "t": "p",
+          "text": "That difference does not change the heart of «Sampāti»'s help here: he gives the searchers the direction to «Laṅkā» while he is still wingless."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The part common to the story's heart is simpler."
+        },
+        {
+          "t": "p",
+          "text": "«Sampāti» does not wait until his old physical power returns before he becomes useful."
+        },
+        {
+          "t": "p",
+          "text": "He helps while still wingless."
+        },
+        {
+          "t": "p",
+          "text": "Knowledge, memory, sight and words are enough to change what the searchers can do next."
+        },
+        {
+          "t": "p",
+          "text": "The received continuation also explains how «Sampāti» knew so much after years on the mountain. His son had been bringing him food, and in the extended account «Sampāti» tells the «vānaras» what had been reported about Rāvaṇa carrying «Sītā» through the sky. That material belongs to the same textually debated stretch as the prophecy and restored wings."
+        },
+        {
+          "t": "p",
+          "text": "Niśākara's prophecy is unusually specific about «Sampāti»'s waiting. The sage tells him that «Rāma»'s messengers will one day come seeking «Sītā» and that «Sampāti» must remain alive long enough to tell them what he knows. His old age is therefore not empty delay inside this received version; it carries a task he cannot perform until the searchers arrive."
+        },
+        {
+          "t": "slow",
+          "text": "«Sampāti»'s wings return later; the help that saves the search comes first, from what he still knows."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Have you ever helped with something you could not physically do yourself? What could you still contribute?",
+    "seed": "Sampāti cannot make the journey, but what he knows makes the journey possible for someone else.",
+    "ifTheyAsk": [
+      {
+        "q": "Why doesn't Sampāti just fly there himself?",
+        "a": "At this point in the story he has no wings. He explicitly says that what he can offer is help through his words."
+      },
+      {
+        "q": "So what does he actually do?",
+        "a": "He gives the search party the information they need about the direction and location of Laṅkā and where Sītā has been taken. That knowledge changes their search."
+      },
+      {
+        "q": "Do his wings ever come back?",
+        "a": "Yes. Their return comes later, in fulfilment of the earlier prophecy associated with his helping the search. The story does not have him regain them first and then fly reconnaissance for the others."
+      }
+    ]
+  }
+}

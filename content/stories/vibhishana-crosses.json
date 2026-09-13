@@ -1,0 +1,375 @@
+{
+  "id": "vibhishana-crosses",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Vibhīṣaṇa Comes Across the Sky",
+  "tease": "Rāvaṇa's brother appears over Rāma's camp asking for refuge. The camp thinks he may be a spy.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Yuddha Kāṇḍa 6.17–19",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Critical Edition (Oriental Institute, Baroda), Yuddha Kāṇḍa 6.17–19",
+      "Vālmīki Rāmāyaṇa received-text sargas 17–19, SanskritDocuments e-text, for wording cross-check"
+    ],
+    "sourcing": [
+      {
+        "claim": "Vibhīṣaṇa repeatedly advises Rāvaṇa to return Sītā, is insulted and rejected, and leaves Laṅkā with four companions.",
+        "locus": "Yuddha Kāṇḍa 6.16–17"
+      },
+      {
+        "claim": "Vibhīṣaṇa and his four companions appear in the sky over Rāma's camp; Sugrīva suspects espionage and some vānaras are ready to attack the five arrivals.",
+        "locus": "6.17"
+      },
+      {
+        "claim": "Rāma asks the leaders for counsel; Aṅgada and others propose caution or tests, while Hanumān argues from Vibhīṣaṇa's words, conduct and the circumstances already visible.",
+        "locus": "6.17–18"
+      },
+      {
+        "claim": "Rāma declares that anyone who seeks refuge and says even once 'I am yours' will receive protection, pushing the principle to the edge case of Vibhīṣaṇa or even Rāvaṇa himself.",
+        "locus": "6.18"
+      },
+      {
+        "claim": "Vibhīṣaṇa descends, identifies himself and seeks refuge; Rāma accepts him, hears information about Laṅkā and has him recognized as its future king.",
+        "locus": "6.19"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "injustice"
+    ],
+    "gated": false,
+    "careNote": "Vibhīṣaṇa is insulted and rejected by his brother after opposing him, then arrives in Rāma's wartime camp under suspicion of being a spy. The story centres on the debate over refuge."
+  },
+  "values": [
+    "vouching for someone with nothing"
+  ],
+  "themes": [
+    "vibhishana",
+    "refuge",
+    "trust",
+    "war"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Vibhīṣaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    },
+    {
+      "ref": "Sugrīva",
+      "role": "present"
+    },
+    {
+      "ref": "Hanumān",
+      "role": "present"
+    },
+    {
+      "ref": "Aṅgada",
+      "role": "present"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sītā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Laṅkā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 331,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A man from the enemy's city appeared in the sky above «Rāma»'s camp and asked to be accepted."
+        },
+        {
+          "t": "p",
+          "text": "Before leaving, he had repeatedly urged his brother to return «Sītā». The advice was rejected, and Vibhīṣaṇa was driven from the side he had belonged to."
+        },
+        {
+          "t": "p",
+          "text": "He was «Vibhīṣaṇa», younger brother of «Rāvaṇa». He had advised Rāvaṇa to return «Sītā», had been rejected and insulted, and had now left «Laṅkā» with four companions."
+        },
+        {
+          "t": "p",
+          "text": "That did not make him automatically trustworthy."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Sugrīva» suspected a spy. Vibhīṣaṇa knew «Laṅkā», its defenses and its ruler. What if Rāvaṇa had sent him to learn the army's plans?"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» asked the leaders around him what they thought."
+        },
+        {
+          "t": "p",
+          "text": "The camp debated the risk."
+        },
+        {
+          "t": "p",
+          "text": "Then «Hanumān» spoke. He had been inside «Laṅkā». He considered Vibhīṣaṇa's words, his conduct and the circumstances of his arrival, and argued that he should be accepted."
+        },
+        {
+          "t": "p",
+          "text": "This is not a secret decision made by one person after everyone else leaves. «Rāma» hears the objections in front of the camp and then states the rule he intends to follow."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» then made the decision larger than one man's trustworthiness."
+        },
+        {
+          "t": "p",
+          "text": "He declared that someone who truly came seeking refuge and said, even once, _I am yours,_ would receive protection."
+        },
+        {
+          "t": "p",
+          "text": "Only after that decision did Vibhīṣaṇa descend."
+        },
+        {
+          "t": "p",
+          "text": "He prostrated before «Rāma» and spoke plainly: he was Rāvaṇa's younger brother; he had left «Laṅkā», friends and wealth; he had come for protection."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» accepted him."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa then gave «Rāma» what he knew about Rāvaṇa and the city. «Rāma» promised that Rāvaṇa would be defeated and that Vibhīṣaṇa would become king. He had «Lakṣmaṇa» bring sea water and had Vibhīṣaṇa ceremonially recognized as «Laṅkā»'s future ruler."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The episode does not pretend caution is a mistake. «Sugrīva»'s suspicion makes sense."
+        },
+        {
+          "t": "p",
+          "text": "That is precisely why «Rāma»'s declaration matters. A protection principle that operates only when nobody is afraid would be easy."
+        },
+        {
+          "t": "slow",
+          "text": "The camp cannot remove every risk before deciding. It has to decide what refuge means while the risk is still real."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 680,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A man from the enemy's city appeared in the sky above «Rāma»'s camp and asked for refuge."
+        },
+        {
+          "t": "p",
+          "text": "That was enough to make the camp reach for weapons."
+        },
+        {
+          "t": "p",
+          "text": "The man was «Vibhīṣaṇa», younger brother of «Rāvaṇa». He came with four companions from «Laṅkā», the city «Rāma»'s army was preparing to attack."
+        },
+        {
+          "t": "p",
+          "text": "Before leaving, Vibhīṣaṇa had repeatedly urged Rāvaṇa to return «Sītā». His advice had been rejected, and he had been insulted."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "But none of that automatically made him safe."
+        },
+        {
+          "t": "p",
+          "text": "From the «vānaras»' point of view, an armed brother of the enemy king had arrived unexpectedly above their position."
+        },
+        {
+          "t": "p",
+          "text": "«Sugrīva» immediately suspected a trap. Rāvaṇa might have sent Vibhīṣaṇa to enter the army, learn its weaknesses and strike when trust had been granted."
+        },
+        {
+          "t": "p",
+          "text": "Some «vānaras» were ready to attack the five figures before they came down."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa remained in the sky and announced who he was. He named Rāvaṇa as his brother, said that he had urged him to return «Sītā», and said that he had left «Laṅkā» to seek «Rāma»'s protection."
+        },
+        {
+          "t": "p",
+          "text": "«Sugrīva» carried the problem to «Rāma»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» did not dismiss «Sugrīva»'s fear."
+        },
+        {
+          "t": "p",
+          "text": "He asked the leaders around him to give their opinions one by one."
+        },
+        {
+          "t": "p",
+          "text": "«Aṅgada» advised caution. Other leaders proposed testing, questioning or watching the newcomer before accepting him."
+        },
+        {
+          "t": "p",
+          "text": "Then «Hanumān» spoke."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» had already been inside «Laṅkā» and had observed its people. He also pointed out a practical difficulty in some of the proposed tests: you cannot fully discover a stranger's ability or character without first entrusting something to him, and that itself creates risk."
+        },
+        {
+          "t": "p",
+          "text": "So he looked instead at Vibhīṣaṇa's words, the timing of his arrival, what he knew of Rāvaṇa, and the reasons someone in «Laṅkā» might judge «Rāma»'s side to be the better one."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān» argued for accepting him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» then stated his own position."
+        },
+        {
+          "t": "p",
+          "text": "His decision was larger than whether Vibhīṣaṇa personally seemed pleasant or whether every doubt had been removed."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» said that someone who came seeking refuge and said, even once, _I am yours,_ would receive safety from him."
+        },
+        {
+          "t": "p",
+          "text": "«Sugrīva» still pressed the danger: what if someone who abandoned his own brother in difficulty later abandoned them too?"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» kept the rule."
+        },
+        {
+          "t": "p",
+          "text": "He pushed it to its sharpest edge. Bring him, he said — whether the one asking is Vibhīṣaṇa or even Rāvaṇa himself, the assurance of safety has been given."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Only then did Vibhīṣaṇa come down."
+        },
+        {
+          "t": "p",
+          "text": "He prostrated himself and identified himself plainly: Rāvaṇa's younger brother, rejected after giving counsel, leaving behind «Laṅkā», family ties and possessions, now seeking protection."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» accepted him."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa then gave information about Rāvaṇa and «Laṅkā». «Rāma» promised that Rāvaṇa would be defeated and that Vibhīṣaṇa would become king."
+        },
+        {
+          "t": "p",
+          "text": "«Lakṣmaṇa» brought water from the sea, and Vibhīṣaṇa was ceremonially recognized as «Laṅkā»'s future ruler."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Nothing in the episode asks the listener to pretend there was no security problem."
+        },
+        {
+          "t": "p",
+          "text": "«Sugrīva»'s suspicion is not mocked. The camp really is at war, and Vibhīṣaṇa really does come from the other side."
+        },
+        {
+          "t": "p",
+          "text": "That is why the refuge pledge has weight. If safety were promised only after all danger had disappeared, the rule would cost almost nothing."
+        },
+        {
+          "t": "p",
+          "text": "The advisers do not all object for the same reason. Aṅgada wants the stranger examined; others propose questioning him before trust is given. The camp is deciding with incomplete information."
+        },
+        {
+          "t": "p",
+          "text": "«Hanumān»'s answer is equally practical. A spy sent to investigate Vibhīṣaṇa cannot easily test a man who has just arrived openly in front of the whole camp, and assigning him work only to see how he behaves would itself require trust. «Hanumān» therefore weighs the facts already visible instead of pretending certainty can be manufactured."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» also distinguishes his pledge from a claim that Vibhīṣaṇa must be perfect. He says that he will not reject someone who comes in the appearance of friendship even if defects exist. The refuge is a commitment made by «Rāma»; it is not a certificate saying the newcomer has been proven flawless."
+        },
+        {
+          "t": "slow",
+          "text": "«Rāma» makes the promise while the doubt is still standing in front of him, because that is the moment a promise of refuge has to mean something."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If somebody from the other side asked you to trust them, what would you want to know before deciding?",
+    "seed": "Rāma's camp does not pretend trust is easy; they argue through the danger before Rāma decides what refuge must mean.",
+    "ifTheyAsk": [
+      {
+        "q": "Did everyone trust Vibhīṣaṇa immediately?",
+        "a": "No. Members of Rāma's camp suspect that he may be a spy. Hanumān is one of the voices arguing that Vibhīṣaṇa should be judged by what he has actually said and done."
+      },
+      {
+        "q": "Why does Rāma accept him?",
+        "a": "Rāma makes the decision larger than Vibhīṣaṇa alone. He states the principle that someone who comes seeking refuge is to be protected."
+      },
+      {
+        "q": "Was Vibhīṣaṇa secretly spying on his brother?",
+        "a": "That is not how this episode presents his crossing. He has already opposed Rāvaṇa's course openly. The debate in Rāma's camp is precisely about whether that break can be trusted."
+      }
+    ]
+  }
+}

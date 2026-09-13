@@ -1,0 +1,442 @@
+{
+  "id": "savitri-yama",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "Sāvitrī Follows Yama",
+  "tease": "Yama tells Sāvitrī to turn back. She keeps walking beside him until his own boons change what is possible.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Vana Parva, Pativratā-māhātmya Parva, K.M. Ganguli CCLXLIII–CCLXLVI",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "K.M. Ganguli, trans., The Mahabharata — Vana Parva, Pativratā-māhātmya Parva, sections CCLXLIII–CCLXLVI"
+    ],
+    "sourcing": [
+      {
+        "claim": "Nārada foretells that Satyavān will die one year after Sāvitrī chooses him; she marries him knowingly and observes a severe vow as the date approaches.",
+        "locus": "Vana Parva CCLXLIII–CCLXLIV"
+      },
+      {
+        "claim": "Satyavān collapses in the forest, dies with his head in Sāvitrī's lap, and Yama comes personally to take his life.",
+        "locus": "CCLXLV"
+      },
+      {
+        "claim": "Sāvitrī follows Yama; he repeatedly tells her to turn back, while she speaks about duty, the righteous and the friendship created by walking seven steps together.",
+        "locus": "CCLXLV"
+      },
+      {
+        "claim": "Yama repeatedly grants boons other than Satyavān's life: sight and strength for her father-in-law, restoration of his kingdom, a hundred sons for her father, and a hundred sons for Sāvitrī and Satyavān.",
+        "locus": "CCLXLV"
+      },
+      {
+        "claim": "Sāvitrī points out that the promised sons require Satyavān to live; Yama releases him. The two then begin the journey back to the hermitage.",
+        "locus": "CCLXLV–CCLXLVI"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "death"
+    ],
+    "gated": false,
+    "careNote": "Satyavān dies quietly with his head in Sāvitrī's lap and is later restored. The telling is not graphic; its centre is Sāvitrī walking and speaking with Yama."
+  },
+  "values": [
+    "not stopping when told to"
+  ],
+  "themes": [
+    "savitri",
+    "yama",
+    "persistence",
+    "boons"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Sāvitrī",
+      "role": "lead"
+    },
+    {
+      "ref": "Satyavān",
+      "role": "present"
+    },
+    {
+      "ref": "Yama",
+      "role": "present"
+    },
+    {
+      "ref": "Nārada",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 333,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sāvitrī» knew the day her husband was expected to die."
+        },
+        {
+          "t": "p",
+          "text": "Before she married «Satyavān», «Nārada» had foretold that he would live only one more year. Sāvitrī was urged to choose someone else. She chose Satyavān anyway, married him, and remembered the date."
+        },
+        {
+          "t": "p",
+          "text": "When that day arrived, she followed him into the forest."
+        },
+        {
+          "t": "p",
+          "text": "Satyavān became weak while cutting wood. He laid his head in Sāvitrī's lap and died."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Yama» came for his life and began to leave."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» was carrying Satyavān away. Sāvitrī did not try to seize him back or block «Yama»'s path. Her power in the scene is that she stays beside the journey and keeps speaking."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī followed."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» told her to turn back. She had done what a faithful wife could do; she should return."
+        },
+        {
+          "t": "p",
+          "text": "She kept walking and speaking with him."
+        },
+        {
+          "t": "p",
+          "text": "Pleased by her words, «Yama» offered a boon — anything except Satyavān's life."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī asked that her blind father-in-law regain his sight."
+        },
+        {
+          "t": "p",
+          "text": "Granted. Now go back."
+        },
+        {
+          "t": "p",
+          "text": "She kept walking."
+        },
+        {
+          "t": "p",
+          "text": "A second boon: she asked that her father-in-law recover his lost kingdom."
+        },
+        {
+          "t": "p",
+          "text": "Granted. Go back."
+        },
+        {
+          "t": "p",
+          "text": "She continued."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Another boon: a hundred sons for her own father."
+        },
+        {
+          "t": "p",
+          "text": "Granted."
+        },
+        {
+          "t": "p",
+          "text": "Still Sāvitrī walked beside «Yama»."
+        },
+        {
+          "t": "p",
+          "text": "At last he offered another boon, again excluding Satyavān's life."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī asked for a hundred sons for herself and Satyavān."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» granted it."
+        },
+        {
+          "t": "p",
+          "text": "Now the promise itself created the question. How could Sāvitrī have sons with Satyavān if Satyavān remained dead?"
+        },
+        {
+          "t": "p",
+          "text": "She finally asked that he be restored."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» released him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī returned to the forest, and Satyavān woke."
+        },
+        {
+          "t": "p",
+          "text": "The earlier boons also take effect: sight and kingdom are restored to Satyavān's father, and the promises «Yama» has made are allowed to stand."
+        },
+        {
+          "t": "p",
+          "text": "The story is often reduced to one clever trick. The text gives something slower: a long walk, repeated refusals to turn back, and a conversation in which each freely granted promise changes what can still happen."
+        },
+        {
+          "t": "slow",
+          "text": "Sāvitrī does not defeat «Yama» with one sentence. She keeps the conversation alive until life can return."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 673,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sāvitrī» knew the date."
+        },
+        {
+          "t": "p",
+          "text": "Before she married «Satyavān», the sage «Nārada» had said that Satyavān possessed the qualities people praised in him — and that he would die one year from that day."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī was urged to choose someone else. She did not. She married Satyavān, went to live with him and his parents in the forest, and remembered the prediction."
+        },
+        {
+          "t": "p",
+          "text": "As the appointed day approached, she observed a severe vow."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "On that day Satyavān went into the forest to gather fruit and cut wood. Sāvitrī went with him."
+        },
+        {
+          "t": "p",
+          "text": "While working, he began to perspire. His head hurt badly and his limbs weakened. He told Sāvitrī that he could no longer stand."
+        },
+        {
+          "t": "p",
+          "text": "She sat on the ground and placed his head in her lap."
+        },
+        {
+          "t": "p",
+          "text": "Satyavān died there."
+        },
+        {
+          "t": "p",
+          "text": "Then Sāvitrī saw «Yama»."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» had come personally for Satyavān. He took the prince's life and began travelling south."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī followed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Yama» told her to turn back. Her duties to her husband had reached their end; she should return and perform the rites."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī kept walking."
+        },
+        {
+          "t": "p",
+          "text": "She spoke about the path people share, about duty, and about how even walking seven steps together is said to create a bond of friendship."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» was pleased by her words."
+        },
+        {
+          "t": "p",
+          "text": "Ask for a boon, he said. Anything except Satyavān's life."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī asked that her blind father-in-law regain his sight and strength."
+        },
+        {
+          "t": "p",
+          "text": "Granted. Now turn back."
+        },
+        {
+          "t": "p",
+          "text": "She continued."
+        },
+        {
+          "t": "p",
+          "text": "She spoke again, this time about the value of keeping company with the good."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» offered a second boon."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī asked that her father-in-law regain the kingdom he had lost and remain firm in his duties."
+        },
+        {
+          "t": "p",
+          "text": "Granted. Go back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Still she walked."
+        },
+        {
+          "t": "p",
+          "text": "She spoke about justice, mercy and the way good people protect even those who come to them seeking shelter."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» offered another boon."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī asked that her own father, who had no sons, receive a hundred sons."
+        },
+        {
+          "t": "p",
+          "text": "Granted. You have come far enough."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī said that beside her husband she did not notice how long the road had become."
+        },
+        {
+          "t": "p",
+          "text": "Again she spoke about trust in the righteous."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» offered a fourth boon, still excluding Satyavān's life."
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī asked for a hundred sons for herself and Satyavān."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» granted it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī continued the conversation until «Yama», increasingly pleased by what she said, offered an incomparable boon."
+        },
+        {
+          "t": "p",
+          "text": "Now she pointed to the promise already made."
+        },
+        {
+          "t": "p",
+          "text": "How could she have a hundred sons with Satyavān if Satyavān remained dead?"
+        },
+        {
+          "t": "p",
+          "text": "She asked directly for his life so that «Yama»'s own words could stand true."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» released Satyavān and promised him a long life."
+        },
+        {
+          "t": "p",
+          "text": "Then «Yama» departed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Sāvitrī returned to the place where her husband's body lay and again placed his head in her lap."
+        },
+        {
+          "t": "p",
+          "text": "Satyavān woke as though from deep sleep. He remembered the pain in his head and a dark, powerful figure, but not the whole journey Sāvitrī had just taken beside «Yama»."
+        },
+        {
+          "t": "p",
+          "text": "The other boons also unfold: sight and kingdom return to Satyavān's father, and the promises «Yama» made are allowed to stand."
+        },
+        {
+          "t": "p",
+          "text": "The story is sometimes compressed into a single clever loophole. The «Mahābhārata» gives something slower and more demanding."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» says _turn back_ again and again. Sāvitrī does not insult him, seize what he carries or pretend death has no authority. She keeps walking, reasoning and speaking until the promises freely given along the road require a different ending."
+        },
+        {
+          "t": "p",
+          "text": "«Yama» tells Sāvitrī why he has come personally instead of sending his messengers: Satyavān is so virtuous that «Yama» himself has come to take him. The scene therefore never turns «Yama» into a villain hiding from her. He tells her who he is and what he is doing."
+        },
+        {
+          "t": "p",
+          "text": "When Satyavān wakes, night has fallen. He wants to return to his blind parents because they will be worried by his absence. Sāvitrī helps him up, takes the axe, and the two begin the journey back to the hermitage with the conversation with «Yama» still unknown to everyone waiting there."
+        },
+        {
+          "t": "slow",
+          "text": "Sāvitrī's strength is not one perfect sentence; it is that every time the road says stop, she still has truth left to say."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When someone keeps telling you to turn back, how do you decide whether to stop or keep going?",
+    "seed": "Sāvitrī does not win with one clever sentence; she keeps walking, listening and speaking.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Sāvitrī trick Yama?",
+        "a": "Not with one hidden loophole. Their conversation continues through a series of boons. One of the boons promises Sāvitrī descendants through Satyavān, and that promise cannot be fulfilled unless Satyavān lives. The story builds toward that point step by step."
+      },
+      {
+        "q": "Why didn't Yama just make her go away?",
+        "a": "He does repeatedly tell her she has followed far enough. She keeps accompanying him and speaking with him, and he keeps answering her. The persistence and conversation are the shape of the episode, not just the final boon."
+      }
+    ]
+  }
+}

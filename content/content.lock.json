@@ -6,6 +6,11 @@
       "status": "published",
       "hash": "6cdf504502dfa332"
     },
+    "ambarisha-waits": {
+      "version": 1,
+      "status": "published",
+      "hash": "d20b5932222cbfa6"
+    },
     "annapurna-bhiksha": {
       "version": 1,
       "status": "published",
@@ -21,10 +26,20 @@
       "status": "published",
       "hash": "11bd021f0cf31587"
     },
+    "birds-eye": {
+      "version": 1,
+      "status": "published",
+      "hash": "9e82c75266b3be7a"
+    },
     "churning-ocean": {
       "version": 1,
       "status": "published",
       "hash": "8a2982c242da2163"
+    },
+    "damayanti-choice": {
+      "version": 1,
+      "status": "published",
+      "hash": "4f50110f4f63e9c3"
     },
     "dhruva-still": {
       "version": 1,
@@ -81,6 +96,11 @@
       "status": "published",
       "hash": "41c2ee26f423ca09"
     },
+    "hanuman-ring-sita": {
+      "version": 1,
+      "status": "published",
+      "hash": "33e56eba476f727a"
+    },
     "hanuman-tail": {
       "version": 1,
       "status": "published",
@@ -96,6 +116,11 @@
       "status": "published",
       "hash": "046b472407b255bf"
     },
+    "karna-armour": {
+      "version": 1,
+      "status": "published",
+      "hash": "f5465976d46c2e2b"
+    },
     "kena-blade-grass": {
       "version": 1,
       "status": "published",
@@ -105,6 +130,11 @@
       "version": 1,
       "status": "published",
       "hash": "b22093487c92fa6f"
+    },
+    "maitreyi-wealth": {
+      "version": 1,
+      "status": "published",
+      "hash": "6ae097b2e726316b"
     },
     "nachiketa-three-nights": {
       "version": 1,
@@ -146,10 +176,20 @@
       "status": "published",
       "hash": "f9fa5bfa6a0062bb"
     },
+    "sampati-words": {
+      "version": 1,
+      "status": "published",
+      "hash": "75da86b922c69375"
+    },
     "satyakama-truth": {
       "version": 2,
       "status": "published",
       "hash": "38d9ece4cf1fc37c"
+    },
+    "savitri-yama": {
+      "version": 1,
+      "status": "published",
+      "hash": "a2e5b71006a264cb"
     },
     "shabari-berries": {
       "version": 1,
@@ -185,6 +225,16 @@
       "version": 1,
       "status": "published",
       "hash": "80af02908fc090ec"
+    },
+    "vamana-three-steps": {
+      "version": 1,
+      "status": "published",
+      "hash": "7ec25488250d39cd"
+    },
+    "vibhishana-crosses": {
+      "version": 1,
+      "status": "published",
+      "hash": "3cadb2be7ad34072"
     },
     "yaksha-lake": {
       "version": 1,

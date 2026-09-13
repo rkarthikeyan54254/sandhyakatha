@@ -1,0 +1,384 @@
+{
+  "id": "birds-eye",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "The Eye of the Bird",
+  "tease": "A teacher asks each prince what he can see. Only one answer keeps getting smaller.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Ādi Parva, Sambhava Parva, K.M. Ganguli sections CXXXIV–CXXXV",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "K.M. Ganguli, trans., The Mahabharata — Ādi Parva, Sambhava Parva, sections CXXXIV–CXXXV"
+    ],
+    "sourcing": [
+      {
+        "claim": "Droṇa trains the princes broadly in weapons; Arjuna practises constantly, learns from the lamp going out while he eats, practises archery at night, and Droṇa hears the bowstring and embraces him.",
+        "locus": "Ādi Parva, Sambhava Parva, K.M. Ganguli CXXXIV"
+      },
+      {
+        "claim": "Droṇa places one artificial bird in a tree after the training and tests the pupils with bows ready; Yudhiṣṭhira and the others name the surrounding scene and are sent aside.",
+        "locus": "CXXXV"
+      },
+      {
+        "claim": "Duryodhana, Bhīma and the other pupils are included in the comparison before Arjuna is called.",
+        "locus": "CXXXV"
+      },
+      {
+        "claim": "Arjuna says he sees the bird, then only its head and not the body; Droṇa gives the order and Arjuna cuts off the bird's head.",
+        "locus": "CXXXV"
+      },
+      {
+        "claim": "The chosen Ganguli witness says bird and then head; it does not give the famous exact classroom wording 'I see only the eye'.",
+        "locus": "CXXXV"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 5,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "what attention actually is"
+  ],
+  "themes": [
+    "attention",
+    "archery",
+    "teacher",
+    "arjuna"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Arjuna",
+      "role": "lead"
+    },
+    {
+      "ref": "Droṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "present"
+    },
+    {
+      "ref": "Bhīma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Duryodhana",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Dhṛtarāṣṭra",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Drupada",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 327,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Droṇa» did not begin his test by asking anyone to shoot."
+        },
+        {
+          "t": "p",
+          "text": "He placed an artificial bird high in a tree, called the princes together, and had each student stand ready with bow and arrow. The target was the bird's head. But before anyone could release an arrow, Droṇa asked a question."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» went first."
+        },
+        {
+          "t": "p",
+          "text": "Could he see the bird? Yes. Could he see the tree, Droṇa, and his brothers too? Yes. He could see the whole scene around the target."
+        },
+        {
+          "t": "p",
+          "text": "Droṇa sent him aside without letting him shoot."
+        },
+        {
+          "t": "p",
+          "text": "The other princes were tested in the same way. They too named the bird and the things around it. One after another, they were sent away from the shooting place."
+        },
+        {
+          "t": "p",
+          "text": "Droṇa was not testing whether they knew those other things existed. Every prince knew where he was standing. The test was what remained in the answer once the bow was drawn and the target had been chosen."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Arjuna» took his position."
+        },
+        {
+          "t": "p",
+          "text": "Do you see the bird? Droṇa asked."
+        },
+        {
+          "t": "p",
+          "text": "Yes."
+        },
+        {
+          "t": "p",
+          "text": "The tree? No. Your teacher? No. Your brothers? No."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» said he saw the bird only."
+        },
+        {
+          "t": "p",
+          "text": "Droṇa narrowed the question once more. If you see the bird, what part of it do you see?"
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» answered that he could see only its head, not the rest of its body."
+        },
+        {
+          "t": "p",
+          "text": "Now Droṇa told him to shoot."
+        },
+        {
+          "t": "p",
+          "text": "The arrow flew. The artificial bird's head came down from the tree."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The famous version of this lesson is often remembered as _I see only the eye._ That is not the wording of the witness we are following. Here «Arjuna» narrows from the bird to its head."
+        },
+        {
+          "t": "p",
+          "text": "The point is still sharp. The others were not wrong about what existed around them. There really was a tree, a teacher, and a group of students."
+        },
+        {
+          "t": "p",
+          "text": "The difference was what each student kept inside the task."
+        },
+        {
+          "t": "slow",
+          "text": "Attention is not pretending the rest of the world is gone. It is knowing what, for this moment, must stay."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 677,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before the bird was ever placed in the tree, «Droṇa» had already noticed something about «Arjuna». The princes received the same instruction, but «Arjuna» stayed close to his teacher, practised constantly, and became unusually quick with the bow."
+        },
+        {
+          "t": "p",
+          "text": "One evening, while «Arjuna» was eating, the lamp went out in the wind. His hand still found its way to his mouth by habit. The text says that this made him think about what practice could do, and he began practising archery at night as well."
+        },
+        {
+          "t": "p",
+          "text": "Droṇa heard the bowstring in the darkness and came to him. From then on, the teacher was certain that «Arjuna»'s persistence was setting him apart."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Later, when the princes' education had been completed, Droṇa decided to compare his pupils directly."
+        },
+        {
+          "t": "p",
+          "text": "Before calling them together, he had an artificial bird placed at the top of a nearby tree. Then he ordered the students to stand ready with bows bent and arrows fitted. When he gave the command, each was to cut off the bird's head."
+        },
+        {
+          "t": "p",
+          "text": "But the command did not come immediately."
+        },
+        {
+          "t": "p",
+          "text": "First came a question."
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» was called forward. Droṇa asked whether he could see the bird."
+        },
+        {
+          "t": "p",
+          "text": "Yes."
+        },
+        {
+          "t": "p",
+          "text": "Could he also see the tree? Droṇa himself? His brothers?"
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» said that he could see the tree, himself, his brothers and the bird."
+        },
+        {
+          "t": "p",
+          "text": "Droṇa asked again. The answer remained the same."
+        },
+        {
+          "t": "p",
+          "text": "So «Yudhiṣṭhira» was told to stand aside. He was not allowed to shoot."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Droṇa repeated the test with «Duryodhana», the other sons of «Dhṛtarāṣṭra», «Bhīma», and the rest of the pupils, including princes who had come from other lands to study with him."
+        },
+        {
+          "t": "p",
+          "text": "Their answers were much like «Yudhiṣṭhira»'s. They saw the teacher, the tree, the other students and the target. One after another, they were sent aside."
+        },
+        {
+          "t": "p",
+          "text": "Nothing they named was imaginary. The tree really was there. Their teacher really was standing nearby. Their fellow students really were watching."
+        },
+        {
+          "t": "p",
+          "text": "Then Droṇa called «Arjuna»."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» stood with the bow bent and the arrow ready."
+        },
+        {
+          "t": "p",
+          "text": "Do you see the bird?"
+        },
+        {
+          "t": "p",
+          "text": "Yes."
+        },
+        {
+          "t": "p",
+          "text": "Do you see the tree?"
+        },
+        {
+          "t": "p",
+          "text": "No."
+        },
+        {
+          "t": "p",
+          "text": "Do you see me?"
+        },
+        {
+          "t": "p",
+          "text": "No."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» said that he saw the bird only."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Droṇa narrowed the question once more. If you see the bird, describe what you see."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» answered that he could see only the bird's head, not its body."
+        },
+        {
+          "t": "p",
+          "text": "The source says that Droṇa was so delighted that the hair on his body stood on end."
+        },
+        {
+          "t": "p",
+          "text": "Now he gave the command."
+        },
+        {
+          "t": "p",
+          "text": "Shoot."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» released the arrow. It struck off the artificial bird's head and brought it down from the tree."
+        },
+        {
+          "t": "p",
+          "text": "Droṇa embraced him. The test was over."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The episode is often retold with the line _I see only the eye_. That is not what the K.M. Ganguli witness says. In this text, «Arjuna» first says that he sees the bird, and when pressed again he says that he sees only its head."
+        },
+        {
+          "t": "p",
+          "text": "That difference is worth keeping because it shows attention tightening in stages. The target becomes smaller as the question becomes more exact."
+        },
+        {
+          "t": "p",
+          "text": "The lesson is not that everything outside the target has ceased to exist. Every student knows the tree and teacher are still there."
+        },
+        {
+          "t": "p",
+          "text": "It is that a chosen task can become clearer when the mind stops carrying everything else into the same instant."
+        },
+        {
+          "t": "p",
+          "text": "The bird test also comes after a training period in which Droṇa had taught «Arjuna» to fight from horseback, from an elephant, from a chariot and on the ground, and to use several kinds of weapons. The test is not measuring whether he has learned one trick with one bow. It comes after a broad education in arms."
+        },
+        {
+          "t": "p",
+          "text": "After «Arjuna»'s arrow brings the head down, Droṇa clasps him to his chest. In the text, the teacher immediately thinks ahead to the conflict with «Drupada» that has long been in his mind."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna»'s concentration is not treated as a classroom ornament; Droṇa sees it as proof of what this pupil may be able to do when a real task comes."
+        },
+        {
+          "t": "slow",
+          "text": "«Arjuna»'s answer becomes smaller and smaller until it is exactly the size of the thing he has to do."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What do you think Droṇa was really testing — eyesight, archery, or the ability to leave other things out?",
+    "seed": "He moved his attention.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Droṇa keep asking what Arjuna could see?",
+        "a": "Because the test keeps narrowing. In the Ganguli witness, Arjuna first says he sees the bird. When Droṇa asks him to describe it more precisely, Arjuna says he sees only the bird's head, not its body."
+      },
+      {
+        "q": "Isn't the answer supposed to be 'only the eye'?",
+        "a": "That is the famous later classroom wording. The K.M. Ganguli passage we are following says bird first, then only the head. We keep the wording of the chosen witness rather than silently replacing it with the better-known line."
+      }
+    ]
+  }
+}
