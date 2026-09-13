@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { reconcileStored, writeReconciled } from './profile.mts';
+import { reconcileStored, writeReconciled } from '../netlify/functions/profile.mts';
 
 describe('server-side profile safety', () => {
   it('does not let an older client resurrect a tombstoned child', () => {
