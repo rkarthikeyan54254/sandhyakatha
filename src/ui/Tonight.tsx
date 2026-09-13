@@ -144,6 +144,12 @@ export default function Tonight(p: Props) {
             <div className="srcline">{s.work} · {s.locus}</div>
             <h2>{s.title}</h2>
             <p className="tease">{s.tease}</p>
+            {s.hero && (
+              <figure className="storyart tonightart">
+                <img src={s.hero} alt={`Illustration for ${s.title}`} loading="eager" decoding="async" />
+                <figcaption>Illustration</figcaption>
+              </figure>
+            )}
             <div className="meta">
               <span className="chip lit">Chosen for {child ? `${an(child.age)} ${child.age}-year-old` : 'tonight'}</span>
               {s.values.slice(0, 2).map(v => <span key={v} className="chip val">{v}</span>)}

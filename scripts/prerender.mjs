@@ -28,6 +28,15 @@ const lex = read('content/lexicon.json');
 const canon = read('content/canon.json').canon;
 const cal = read('content/panchanga.json');
 const fests = read('content/festivals.json').festivals;
+const media = read('content/media.json').stories ?? {};
+
+function approvedHero(s) {
+  const m = media[s.id];
+  if (!m || m.image?.status !== 'approved' || m.storyVersion !== s.version) return null;
+  const file = m.image.file;
+  if (typeof file !== 'string' || !file.startsWith('/media/stories/')) return null;
+  return existsSync(join(ROOT, 'public', file.replace(/^\//, ''))) ? file : null;
+}
 const STABILITY = {
   variant: 'The recensions differ here.',
   regional: 'Not in the Sanskrit — this one reaches us through a regional tradition.',
@@ -64,6 +73,7 @@ function render(text, seen) {
 function page(s) {
   const seen = new Set();
   const r = s.lengths.full;
+  const hero = approvedHero(s);
   const body = r.blocks.map(b => b.t === 'beat'
     ? '<div class="beat"><span>pause</span></div>'
     : b.t === 'aside'
@@ -130,6 +140,11 @@ h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(
 .attrib p+p{margin-top:8px}.attrib .t b{color:var(--ember-lit)}.attrib .c b{color:var(--ember-lit)}
 .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
 .meta span{font-size:11px;padding:4px 9px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+.storyart{margin:18px 0 0}
+.storyart img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid rgba(240,180,88,.16);
+  background:#100c17;box-shadow:0 12px 28px rgba(0,0,0,.18)}
+.storyart figcaption{margin-top:6px;text-align:right;font-size:9px;line-height:1.2;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--muted);font-weight:700}
 main p{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.72;margin:0 0 20px}
 main{margin-top:28px}
 main em{color:#ffe3b0}
@@ -185,6 +200,7 @@ footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
   ${s.audience.careNote ? `<p class="c"><b>Before you begin.</b> ${esc(s.audience.careNote)}</p>` : ''}
 </div>
 <div class="meta"><span>Ages ${s.audience.minAge}+</span><span>${r.minutes} min aloud</span>${s.values.map(v => `<span>${esc(v)}</span>`).join('')}</div>
+${hero ? `<figure class="storyart"><img src="${esc(hero)}" alt="Illustration for ${esc(s.title)}" decoding="async"><figcaption>Illustration</figcaption></figure>` : ''}
 <main>${body}</main>
 <div class="turn"><span class="e">Now turn to your child</span>
   <p>${render(s.close.question, new Set())}</p>

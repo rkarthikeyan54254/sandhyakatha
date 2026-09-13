@@ -22,6 +22,10 @@ export default defineConfig({
             options: { cacheName: 'stories', expiration: { maxEntries: 300 } } },
           { urlPattern: /\/data\/(index|lexicon)\.json$/, handler: 'StaleWhileRevalidate',
             options: { cacheName: 'corpus' } },
+          // Illustrations are optional enrichment: cache only the ones a family
+          // actually sees, rather than adding the whole art library to precache.
+          { urlPattern: /\/media\/stories\/[^/]+\/hero\.webp$/, handler: 'CacheFirst',
+            options: { cacheName: 'story-art', expiration: { maxEntries: 80 } } },
           { urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\//, handler: 'CacheFirst',
             options: { cacheName: 'fonts', expiration: { maxEntries: 20 } } }
         ]

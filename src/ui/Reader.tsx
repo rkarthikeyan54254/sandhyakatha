@@ -118,6 +118,13 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
             That is the whole reason it is written down and not made up each time.</p>}
         </div>
 
+        {story.hero && (
+          <figure className="storyart readerart">
+            <img src={story.hero} alt={`Illustration for ${story.title}`} loading="eager" decoding="async" />
+            <figcaption>Illustration</figcaption>
+          </figure>
+        )}
+
         <div className="prose">
           {r.blocks.map((b, i) => b.t === 'beat'
             ? <div className="beat" key={i}><span>pause</span></div>

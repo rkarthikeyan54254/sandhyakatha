@@ -5,7 +5,7 @@ export type Stability = 'stable'|'variant'|'regional'|'folk';
 export type Block = { t:'p'|'slow'|'aside'; text:string } | { t:'beat' };
 
 export interface Card {
-  id:string; title:string; tease:string; version:number;
+  id:string; title:string; tease:string; version:number; hero?:string;
   corpus:string; tradition:Tradition; work:string; locus:string; stability:Stability;
   minAge:number; sensitivity:string[]; gated:boolean; careNote:string|null;
   values:string[]; calendar:{festivals?:string[];months?:string[];tithi?:string[];seasons?:string[];weight?:number};
