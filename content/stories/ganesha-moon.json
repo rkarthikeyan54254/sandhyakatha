@@ -1,0 +1,341 @@
+{
+  "id": "ganesha-moon",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "The Night We Don't Look at the Moon",
+  "tease": "Families are careful about looking at the Moon on one night of Bhādrapada. The Gaṇeśa Purāṇa tells why.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Gaṇeśa Purāṇa",
+    "locus": "Upāsanā Khaṇḍa, chapter 62 — Description of the Moon's Curse and Favour",
+    "stability": "variant",
+    "traditionNote": "This telling follows Gaṇeśa Purāṇa, Upāsanā Khaṇḍa 62. Popular tellings often have the Moon laugh after Gaṇeśa falls from his mouse following a feast of modakas. This chapter gives a different scene: the Moon laughs at Gaṇeśa's fierce form while he is obstructing Brahmā's creation. We keep the two tellings separate.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Greg Bailey, trans., Gaṇeśapurāṇa: Upāsanākhaṇḍa (Harrassowitz, 1995), chapter 62"
+    ],
+    "variants": [
+      {
+        "differs": "what makes the Moon laugh",
+        "tellings": "A widely told later version places the laughter after a modaka feast and a fall from Gaṇeśa's mouse; Gaṇeśa Purāṇa 62 instead places it after Gaṇeśa assumes a fierce form while obstructing Brahmā's creation.",
+        "weTell": "Gaṇeśa Purāṇa 62: Candra laughs at Gaṇeśa's fierce form."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Nārada brings Śiva a special fruit; young Gaṇeśa asks for it, Brahmā advises that it be given to him, and Śiva gives it to Gaṇeśa.",
+        "locus": "Upāsanā Khaṇḍa 62.1–4"
+      },
+      {
+        "claim": "Gaṇeśa obstructs Brahmā's creation and assumes a fierce appearance; Candra sees him and laughs in ridicule.",
+        "locus": "62.5–7"
+      },
+      {
+        "claim": "Gaṇeśa curses Candra so he becomes unseen in the three worlds and says seeing him will carry distress; Candra loses his brightness and becomes invisible.",
+        "locus": "62.7–13"
+      },
+      {
+        "claim": "The gods, led in the episode by Agni and Indra, appeal to Gaṇeśa because Candra's disappearance affects the worlds.",
+        "locus": "62.14–20"
+      },
+      {
+        "claim": "Gaṇeśa refuses to make his spoken word false; the text compares this firmness with Meru shaking, the sun falling, fire becoming cold and the ocean crossing its boundary.",
+        "locus": "62.21–25"
+      },
+      {
+        "claim": "Gaṇeśa limits the curse to seeing Candra on the fourth day of the bright fortnight, and the gods specify the bright fourth of Bhādrapada; the effect is stated whether Candra is seen knowingly or unknowingly.",
+        "locus": "62.26–32"
+      },
+      {
+        "claim": "Candra seeks refuge, goes to the southern bank of the Gaṅgā, repeats Gaṇeśa's one-syllable mantra and performs austerity for one hundred and twenty years until Gaṇeśa appears.",
+        "locus": "62.33–40"
+      },
+      {
+        "claim": "Gaṇeśa appears in red dress, red garlands and red sandal paste, four-armed and elephant-faced; Candra admits a transgression committed in ignorance and asks pardon.",
+        "locus": "62.39–44"
+      },
+      {
+        "claim": "Gaṇeśa restores Candra's former appearance while preserving the Bhādrapada-fourth restriction, gives Candra a crescent place on his forehead and prescribes occasions for Candra's worship.",
+        "locus": "62.45–50"
+      },
+      {
+        "claim": "Candra erects and worships an image of Gaṇeśa; gods and sages honour the place, and Candra returns home restored.",
+        "locus": "62.51–56"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "owning what you did"
+  ],
+  "themes": [
+    "ganesha",
+    "candra",
+    "moon",
+    "forgiveness",
+    "ganesh-chaturthi"
+  ],
+  "calendar": {
+    "festivals": [
+      "ganesh-chaturthi"
+    ],
+    "months": [
+      "bhadrapada"
+    ],
+    "weight": 10
+  },
+  "characters": [
+    {
+      "ref": "Gaṇeśa",
+      "role": "lead"
+    },
+    {
+      "ref": "Candra",
+      "role": "present"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "present"
+    },
+    {
+      "ref": "Nārada",
+      "role": "present"
+    },
+    {
+      "ref": "Agni",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "present"
+    },
+    {
+      "ref": "Gaṅgā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Meru",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 301,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There is one night in Bhādrapada when families are told not to look at «Candra», the Moon. This story gives a reason."
+        },
+        {
+          "t": "p",
+          "text": "«Nārada» had brought a special fruit to «Śiva». Young «Gaṇeśa» asked for it, and the fruit was given to him. Afterwards, when «Brahmā» returned to his work of creation, «Gaṇeśa» placed an extraordinary obstacle in his way and appeared in a fierce form."
+        },
+        {
+          "t": "p",
+          "text": "«Candra» saw him and laughed."
+        },
+        {
+          "t": "p",
+          "text": "The text treats the laughter as ridicule, not as a harmless accident."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» was furious. He cursed «Candra» so that he would no longer be seen, and said that seeing him would bring distress."
+        },
+        {
+          "t": "p",
+          "text": "The gods quickly understood what that would mean. They went to «Gaṇeśa» and asked him to show favour to «Candra» and to the worlds that depended on him."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» would not pretend his spoken word had never been spoken. Instead he limited it. «Candra» was not to be seen on the fourth day of the bright fortnight of Bhādrapada. That is the restriction the chapter gives."
+        },
+        {
+          "t": "p",
+          "text": "They tell him that «Candra»'s disappearance has put the whole world into difficulty."
+        },
+        {
+          "t": "p",
+          "text": "The gods carried the news to «Candra» and told him to seek refuge in «Gaṇeśa»."
+        },
+        {
+          "t": "p",
+          "text": "So «Candra» went to the southern bank of the «Gaṅgā». He repeated «Gaṇeśa»'s mantra and performed a long austerity until «Gaṇeśa» appeared before him."
+        },
+        {
+          "t": "p",
+          "text": "«Candra» bowed. He admitted that his offence had been committed in ignorance and asked for pardon."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» restored him to his former brightness. But the fourth-day restriction remained. He also gave «Candra» a place on his own forehead as a crescent and established occasions on which «Candra» should be worshipped."
+        },
+        {
+          "t": "p",
+          "text": "The chapter ends with «Candra» restored, not discarded."
+        },
+        {
+          "t": "slow",
+          "text": "The night remembers both things: the laugh that caused the hurt, and the refuge that was still given to him afterwards."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 661,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There is one night in the month of Bhādrapada when many families are careful not to look at «Candra», the Moon. This is the story told for that restriction."
+        },
+        {
+          "t": "p",
+          "text": "It begins at «Śiva»'s home on «Kailāsa». «Nārada» arrives carrying a new fruit and gives it to «Śiva». Young «Gaṇeśa» asks for it. «Śiva» turns to «Brahmā» and asks who should receive the fruit; «Brahmā» says it should go to the young boy, and «Śiva» gives it to «Gaṇeśa»."
+        },
+        {
+          "t": "p",
+          "text": "The chapter then moves away from the fruit. «Brahmā» returns to his work of creation, and «Gaṇeśa» places an extraordinary obstacle in his way."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» assumes a fierce form. «Brahmā» reels before him. «Candra» sees that form, sees «Gaṇeśa»'s attendants, and laughs."
+        },
+        {
+          "t": "p",
+          "text": "The text does not treat the laughter as harmless amusement. It treats it as ridicule."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» becomes angry and curses «Candra»: he is not to be seen in the three worlds, and anyone who sees him will share in the distress attached to that curse."
+        },
+        {
+          "t": "p",
+          "text": "«Candra» loses his brightness and becomes invisible. He is overcome with anxiety and begins to wonder how this happened to him."
+        },
+        {
+          "t": "p",
+          "text": "The other gods quickly understand that this is not a private quarrel. A world without «Candra» has a problem. Led by «Agni» and «Indra», they go to «Gaṇeśa», praise him and ask him to show favour to «Candra» and to the worlds affected by the curse."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» is pleased with their appeal, but there is a difficulty. He will not make his own word false."
+        },
+        {
+          "t": "p",
+          "text": "The chapter makes him say that even if «Meru» shook, the sun fell, fire became cold or the ocean crossed its boundary, his spoken word would not become false."
+        },
+        {
+          "t": "p",
+          "text": "So he does not erase the curse. He narrows it."
+        },
+        {
+          "t": "p",
+          "text": "The wording is unusually strict: the effect applies whether «Candra» is seen knowingly or unknowingly. The gods accept the limited form of the curse, bow to «Gaṇeśa» and shower flowers before carrying his decision back to «Candra»."
+        },
+        {
+          "t": "p",
+          "text": "The restriction is placed on seeing «Candra» on the fourth day of the bright fortnight. The gods then tell «Candra» more specifically: he must not be seen on that fourth day in Bhādrapada."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They also tell him what to do next: go to «Gaṇeśa» for refuge."
+        },
+        {
+          "t": "p",
+          "text": "«Candra» does."
+        },
+        {
+          "t": "p",
+          "text": "He goes to the southern bank of the «Gaṅgā», repeats «Gaṇeśa»'s one-syllable mantra and undertakes a severe austerity. The Purāṇa gives the enormous span of one hundred and twenty years."
+        },
+        {
+          "t": "p",
+          "text": "At last «Gaṇeśa» appears before him, dressed in red, wearing red garlands and red sandal paste, with four arms and an elephant's face, his splendour filling the worlds."
+        },
+        {
+          "t": "p",
+          "text": "«Candra» is frightened at first. Then he steadies himself, folds his hands and praises «Gaṇeśa»."
+        },
+        {
+          "t": "p",
+          "text": "Most importantly, he does not argue that the laugh meant nothing. In his prayer he calls what he did a transgression committed through ignorance and asks to be pardoned."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» accepts the prayer."
+        },
+        {
+          "t": "p",
+          "text": "He restores «Candra» to his former appearance, but the Bhādrapada-fourth restriction remains. The chapter says that looking at «Candra» then carries the effect of the curse."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» also changes the relationship between them. He gives «Candra» a place on his own forehead in the form of a crescent, and prescribes occasions on which «Candra» is to be worshipped."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Candra» then erects an image of «Gaṇeśa» and worships it. The gods and sages honour the place, and the chapter closes with «Candra» restored to his previous condition and returning home."
+        },
+        {
+          "t": "p",
+          "text": "The new image is named for «Gaṇeśa» as the one who bears «Candra», and the place is honoured as a place of accomplishment. The reconciliation is made visible in worship rather than left as a private exchange."
+        },
+        {
+          "t": "p",
+          "text": "So the story does not end with someone being mocked and permanently cast away. The offence remains real; the spoken curse is not pretended away; refuge, austerity and pardon change what can still be changed."
+        },
+        {
+          "t": "slow",
+          "text": "The night remembers both things: the laugh that caused the hurt, and the refuge that was still given afterwards."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If someone laughed at you and later came back sorry, what would you want to change — and what would you still remember?",
+    "seed": "Pardon does not erase the hurt; it changes what happens next.",
+    "ifTheyAsk": [
+      {
+        "q": "Why couldn't Gaṇeśa just take the curse back?",
+        "a": "In this chapter Gaṇeśa says precisely that his word must not become false. The solution is not to pretend it was never spoken but to restrict its effect and then restore Candra."
+      },
+      {
+        "q": "Why don't we look at the Moon that night?",
+        "a": "In the Gaṇeśa Purāṇa version, Gaṇeśa specifically limits the restriction to seeing Candra on the fourth day of the bright fortnight of Bhādrapada."
+      },
+      {
+        "q": "Isn't this the story where Gaṇeśa ate lots of modaks and fell off his mouse?",
+        "a": "That is another widely told version. This telling deliberately follows Gaṇeśa Purāṇa chapter 62, where Candra laughs after seeing Gaṇeśa's fierce form during the episode with Brahmā. We do not combine the two."
+      }
+    ]
+  }
+}

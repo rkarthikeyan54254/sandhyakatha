@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12",
+  "generated": "2026-09-13",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -36,6 +36,11 @@
       "status": "published",
       "hash": "8f4ec0e495222777"
     },
+    "durva-kubera-scale": {
+      "version": 1,
+      "status": "published",
+      "hash": "f1cd500d8ff04436"
+    },
     "ekalavya-thumb": {
       "version": 1,
       "status": "published",
@@ -50,6 +55,11 @@
       "version": 3,
       "status": "published",
       "hash": "f2bcbb0b40f7100b"
+    },
+    "ganesha-moon": {
+      "version": 1,
+      "status": "published",
+      "hash": "6db81bead3b582bc"
     },
     "govardhana": {
       "version": 2,

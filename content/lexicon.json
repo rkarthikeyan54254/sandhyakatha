@@ -1986,5 +1986,49 @@
     "aliases": [
       "Shanda"
     ]
+  },
+  "Janaka": {
+    "id": "janaka-ganesha-purana",
+    "native": {
+      "deva": "जनक"
+    },
+    "say": "JUH-nuh-kuh",
+    "ipa": "ˈdʒɐ.nɐ.kɐ",
+    "kind": "person",
+    "gloss": "A king in the Gaṇeśa Purāṇa's dūrvā episode, renowned for feeding guests and tested when Gaṇeśa arrives hungry.",
+    "aliases": [
+      "Janaka"
+    ]
+  },
+  "dūrvā": {
+    "id": "durva",
+    "native": {
+      "deva": "दूर्वा"
+    },
+    "say": "DOOR-vaa",
+    "ipa": "ˈduːr.ʋaː",
+    "kind": "word",
+    "gloss": "Sacred grass used in Gaṇeśa worship. The Gaṇeśa Purāṇa devotes a sequence of chapters to its offering and merit.",
+    "aliases": [
+      "durva",
+      "dūrvā grass",
+      "durva grass",
+      "doob grass"
+    ]
+  },
+  "Candra": {
+    "id": "candra-moon",
+    "native": {
+      "deva": "चन्द्र"
+    },
+    "say": "CHUN-druh",
+    "ipa": "ˈtɕɐn.drɐ",
+    "kind": "being",
+    "gloss": "The Moon as a deity. In this Gaṇeśa Purāṇa episode he laughs at Gaṇeśa, is cursed, seeks refuge and is restored.",
+    "aliases": [
+      "Chandra",
+      "Chandran",
+      "Moon"
+    ]
   }
 }

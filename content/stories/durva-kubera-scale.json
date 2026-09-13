@@ -1,0 +1,317 @@
+{
+  "id": "durva-kubera-scale",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-13",
+  "title": "The Blade of Grass Kubera Couldn't Outweigh",
+  "tease": "Kubera puts his treasury, his wife and his city on a scale. One blade of grass offered to Gaṇeśa still weighs more.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Gaṇeśa Purāṇa",
+    "locus": "Upāsanā Khaṇḍa, chapters 66–68 (Dūrvā-māhātmya sequence)",
+    "stability": "variant",
+    "traditionNote": "This telling follows the complete Dūrvā-māhātmya sequence in the Gaṇeśa Purāṇa, including the later weighing test. Popular retellings often end earlier, after the poor couple's single blade satisfies Gaṇeśa. We keep the complete sequence rather than merging or shortening its shape.",
+    "parallels": [],
+    "checkedAgainst": [
+      "Greg Bailey, trans., Gaṇeśapurāṇa: Upāsanākhaṇḍa (Harrassowitz, 1995), chapters 66–68"
+    ],
+    "variants": [
+      {
+        "differs": "where the dūrvā story ends",
+        "tellings": "The Gaṇeśa Purāṇa sequence continues from the poor couple's single-blade offering into the weighing test through Indra and Vaiśravaṇa; many modern retellings stop once Gaṇeśa is satisfied.",
+        "weTell": "The complete Gaṇeśa Purāṇa sequence through the weighing test."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Janaka is renowned for feeding and giving, but speaks as though the generosity, wealth and agency are his own; Nārada reports this to Gaṇeśa.",
+        "locus": "Upāsanā Khaṇḍa 66.7–18"
+      },
+      {
+        "claim": "Gaṇeśa comes disguised as an old, suffering and extraordinarily hungry brahmin guest; Janaka's food and grain stores are exhausted without satisfying him.",
+        "locus": "66.19–43"
+      },
+      {
+        "claim": "The guest reaches a poor devoted couple who have no food but one remaining blade of dūrvā from their Gaṇeśa worship.",
+        "locus": "67.1–12"
+      },
+      {
+        "claim": "A little offered with devotion can satisfy where abundance without devotion did not; the couple offers the one blade and Gaṇeśa's hunger ends immediately.",
+        "locus": "67.9–19"
+      },
+      {
+        "claim": "Gaṇeśa reveals his four-armed elephant-faced form, with lotus, axe, garland and tusk, and offers a boon; the couple asks for firm devotion and liberation rather than wealth.",
+        "locus": "67.12–22"
+      },
+      {
+        "claim": "A sage sends one blade of dūrvā to be matched exactly with its weight in gold; Indra directs the test to Vaiśravaṇa (Kubera).",
+        "locus": "67.27–30; 68.1–9"
+      },
+      {
+        "claim": "Vaiśravaṇa tries different balances and adds gold, then his whole treasury, his wife and his city, but cannot raise the dūrvā blade.",
+        "locus": "68.10–24"
+      },
+      {
+        "claim": "Indra brings his wealth; Viṣṇu and Śiva also join the weighing, yet the dūrvā remains heavier; the chapter says even the three worlds are not equal to such an offered blade.",
+        "locus": "68.24–32"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-13"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "small things count"
+  ],
+  "themes": [
+    "ganesha",
+    "durva",
+    "kubera",
+    "devotion",
+    "ganesh-chaturthi"
+  ],
+  "calendar": {
+    "festivals": [
+      "ganesh-chaturthi"
+    ],
+    "months": [
+      "bhadrapada"
+    ],
+    "weight": 9
+  },
+  "characters": [
+    {
+      "ref": "Gaṇeśa",
+      "role": "lead"
+    },
+    {
+      "ref": "Janaka",
+      "role": "present"
+    },
+    {
+      "ref": "Nārada",
+      "role": "present"
+    },
+    {
+      "ref": "Indra",
+      "role": "present"
+    },
+    {
+      "ref": "Vaiśravaṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 300,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A sage once wanted to show his wife why a single blade of «dūrvā» could matter so much to «Gaṇeśa»."
+        },
+        {
+          "t": "p",
+          "text": "The answer began with «Janaka», a king famous for giving food. He fed visitors, the poor and anyone who asked, and his great stores seemed impossible to empty. But pride had entered the giving. «Janaka» had begun to speak as though the generosity, the wealth and even the power behind it all were his alone."
+        },
+        {
+          "t": "p",
+          "text": "So «Gaṇeśa» came to his door disguised as a hungry brahmin guest."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Janaka» brought food. The guest ate it. More came; he ate that too. Rice, porridge, stores from houses, grain from city and village — the story keeps enlarging the meal until there is nothing left to bring. The guest is still hungry."
+        },
+        {
+          "t": "p",
+          "text": "He walks on and reaches a poor couple's house. They have almost nothing. That morning they had worshipped «Gaṇeśa» with fresh shoots and flowers. One blade of «dūrvā» remains."
+        },
+        {
+          "t": "p",
+          "text": "The guest tells them that a little given with devotion can satisfy him when abundance without devotion could not. They offer the single blade. He eats it. His hunger ends at once, and he reveals himself as «Gaṇeśa»."
+        },
+        {
+          "t": "p",
+          "text": "Later the sage sends that same lesson into the court of «Indra»: weigh one blade of «dūrvā» against exactly as much gold."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» sends it to «Vaiśravaṇa», keeper of the gods' wealth."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A goldsmith's scale cannot balance it. Nor a merchant's. «Vaiśravaṇa» adds gold, then more gold, then the whole treasury piled like a mountain. The blade stays down."
+        },
+        {
+          "t": "p",
+          "text": "«Vaiśravaṇa» adds his wife. Then his city. «Indra» arrives with his own wealth. «Viṣṇu» and «Śiva» come too. Still the blade does not rise."
+        },
+        {
+          "t": "slow",
+          "text": "A whole treasury, a city and the gods could not lift what one poor house had given that day with devotion."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 672,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The story of why «Gaṇeśa» is offered «dūrvā» grass begins with a king who was very good at giving."
+        },
+        {
+          "t": "p",
+          "text": "«Janaka» was famous for feeding people. He honoured brahmins, gave to those in need, and seemed to possess stores that never emptied. «Nārada» visited him and praised his generosity, but «Janaka» answered with words that made the problem clear: he spoke as though the giving, the wealth and the power behind it all belonged to him alone."
+        },
+        {
+          "t": "p",
+          "text": "«Nārada» went to «Gaṇeśa» and told him what he had heard."
+        },
+        {
+          "t": "p",
+          "text": "So «Gaṇeśa» took the appearance of an old, suffering brahmin guest and came to «Janaka»'s door asking for food — not a little food, but enough to make him full."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Janaka» welcomed him and ordered a meal."
+        },
+        {
+          "t": "p",
+          "text": "The guest ate it."
+        },
+        {
+          "t": "p",
+          "text": "More food came. He ate that too. The text says an amount sufficient for thousands disappeared, then plate after plate of good rice and porridge. Grain was gathered from stores, houses, the city and the villages. Everything brought before the guest was eaten, and he was still hungry."
+        },
+        {
+          "t": "p",
+          "text": "At last «Janaka»'s messengers had to tell the king that no grain could be found anywhere."
+        },
+        {
+          "t": "p",
+          "text": "The guest left the palace and went from house to house asking for food. People could only tell him the same thing: the stores had already been emptied."
+        },
+        {
+          "t": "p",
+          "text": "Then he reached a house with almost nothing in it."
+        },
+        {
+          "t": "p",
+          "text": "A poor husband and wife lived there. When the guest entered, he found them worshipping an image of «Gaṇeśa» with fresh shoots and flowers. He told them that «Janaka»'s abundance had not satisfied him and asked whether their house could give him anything."
+        },
+        {
+          "t": "p",
+          "text": "They answered that they were poor and had no food. That morning they had gathered «dūrvā» for worship. After the offering, only one blade remained."
+        },
+        {
+          "t": "p",
+          "text": "The guest told them that a little offered with devotion could satisfy him, while a great deal offered without devotion could fail."
+        },
+        {
+          "t": "p",
+          "text": "They gave him the one remaining blade."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The text makes the turn immediate. The guest eats the blade and his hunger is extinguished. Then the disguise falls away and «Gaṇeśa» stands before them. He offers them a boon. They do not ask for wealth. They ask that their devotion remain firm and that they be freed from the difficult ocean of existence."
+        },
+        {
+          "t": "p",
+          "text": "The revealed form has four arms and an elephant's trunk, with a lotus, an axe, a garland and a tusk in his hands. The starving guest is gone; the one they had been worshipping is standing in their house."
+        },
+        {
+          "t": "p",
+          "text": "That story is later told to explain why «dūrvā» is offered to «Gaṇeśa». But the Purāṇa does not stop with an explanation. It turns the lesson into a weighing test."
+        },
+        {
+          "t": "p",
+          "text": "A sage tells his wife to take one blade of «dūrvā» and ask «Indra» for exactly its weight in gold — neither more nor less."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» sends her to «Vaiśravaṇa», the keeper of divine wealth."
+        },
+        {
+          "t": "p",
+          "text": "«Vaiśravaṇa» is astonished by the request. A blade of grass should be easy to match."
+        },
+        {
+          "t": "p",
+          "text": "A goldsmith's scale is brought. The gold does not equal the blade. A merchant's scale is tried. Then another balance. «Vaiśravaṇa» adds one piece of gold, then many."
+        },
+        {
+          "t": "p",
+          "text": "Still the side holding the «dūrvā» stays down."
+        },
+        {
+          "t": "p",
+          "text": "He puts the entire treasury on the scale, piled up like a mountain. It is not enough. He summons his wife; she climbs onto the balance. Still not enough. Then he places his whole city there."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Indra» hears what has happened and comes with his own wealth. He too cannot raise the blade. He thinks of «Viṣṇu» and «Śiva»; they come with their cities and join the test."
+        },
+        {
+          "t": "p",
+          "text": "The blade does not rise."
+        },
+        {
+          "t": "p",
+          "text": "The gods finally go to the sage and admit that they do not understand the power of the «dūrvā» he has offered to «Gaṇeśa». The chapter ends by saying that even the three worlds are not equal in weight to one such blade."
+        },
+        {
+          "t": "slow",
+          "text": "A whole treasury, a city and the gods could not lift what one poor house had given with devotion."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If two gifts cost very different amounts, what else could make the smaller one matter more?",
+    "seed": "The story measures the offering by what was inside the giving, not by what was inside the treasury.",
+    "ifTheyAsk": [
+      {
+        "q": "Is grass really worth more than gold?",
+        "a": "The story is not setting a market price for dūrvā. It says that this particular blade had been offered to Gaṇeśa with devotion, and when its value is tested through the scale, material wealth cannot match it."
+      },
+      {
+        "q": "Was Janaka a bad king?",
+        "a": "No. The text goes out of its way to say that he really was extraordinarily generous. The problem it tests is the pride that made him speak as though the generosity and its power began and ended with him."
+      },
+      {
+        "q": "Why do we offer dūrvā to Gaṇeśa?",
+        "a": "The Gaṇeśa Purāṇa devotes a whole dūrvā-māhātmya sequence to that question, and elsewhere in its worship instructions explicitly prescribes dūrvā among Gaṇeśa's offerings. This story is one of the text's answers."
+      }
+    ]
+  }
+}

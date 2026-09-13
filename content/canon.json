@@ -1603,6 +1603,46 @@
       "status": "draft",
       "wave": 5,
       "gated": false
+    },
+    {
+      "n": 83,
+      "id": "durva-kubera-scale",
+      "title": "The Blade of Grass Kubera Couldn't Outweigh",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Gaṇeśa Purāṇa",
+      "locus": "Upāsanā Khaṇḍa, chapters 66–68",
+      "stability": "variant",
+      "minAge": 6,
+      "sensitivity": [],
+      "value": "small things count",
+      "hook": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more.",
+      "festivals": [
+        "ganesh-chaturthi"
+      ],
+      "status": "published",
+      "wave": 4,
+      "gated": false
+    },
+    {
+      "n": 84,
+      "id": "ganesha-moon",
+      "title": "The Night We Don't Look at the Moon",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Gaṇeśa Purāṇa",
+      "locus": "Upāsanā Khaṇḍa, chapter 62",
+      "stability": "variant",
+      "minAge": 6,
+      "sensitivity": [],
+      "value": "owning what you did",
+      "hook": "There is one night in Bhādrapada when families are careful about looking at the Moon. This chapter tells why.",
+      "festivals": [
+        "ganesh-chaturthi"
+      ],
+      "status": "published",
+      "wave": 4,
+      "gated": false
     }
   ]
 }
