@@ -477,6 +477,40 @@
           "file": null
         }
       }
+    },
+    "ganesha-moon": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ganesha-moon/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "durva-kubera-scale": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/durva-kubera-scale/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-13"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }
