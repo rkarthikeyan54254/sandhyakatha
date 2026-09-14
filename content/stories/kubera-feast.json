@@ -1,0 +1,403 @@
+{
+  "id": "kubera-feast",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-14",
+  "title": "The Feast Kubera Could Not Finish",
+  "tease": "Kubera builds a feast to prove how much he owns. Gaṇeśa keeps eating until a few grains offered differently finally become enough.",
+  "source": {
+    "corpus": "folk",
+    "tradition": "folk",
+    "work": "Popular Gaṇeśa tradition",
+    "locus": "Modern oral/children's retellings; early textual locus unverified",
+    "stability": "folk",
+    "traditionNote": "Carried down in popular Gaṇeśa telling. We found modern witnesses for the feast but could not verify the often-repeated Śiva Purāṇa chapter citation, so this story is labelled folk rather than given a false Purāṇic locus.",
+    "parallels": [],
+    "checkedAgainst": [
+      "HinduScriptures, 'The Feast of Kubera' (2014) — modern retelling",
+      "Newsday, 'Stories about Lord Ganesh' (2010) — modern retelling",
+      "Śiva Purāṇa, J. L. Shastri trans., Rudra-saṃhitā, Kumāra-khaṇḍa — checked through its closing chapter; the commonly cited chapter 22 attribution could not be verified"
+    ],
+    "variants": [
+      {
+        "differs": "the final food, the scale of Gaṇeśa's appetite, and the story's claimed textual home",
+        "tellings": "Modern versions agree on Kubera's proud feast, Gaṇeśa exhausting it, and a small humble offering ending the hunger, but differ on the final food and added comic escalations. A verified early Sanskrit locus was not found.",
+        "weTell": "The modern witness in which Pārvatī gives Kubera a few grains of rice to offer humbly. We omit furniture/palace-eating embellishments and do not claim a Śiva Purāṇa chapter."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Kubera prepares a lavish feast to display his wealth, invites Śiva and Pārvatī, and one guest — Gaṇeśa — is sent in their place.",
+        "locus": "HinduScriptures, 'The Feast of Kubera'; cross-checked with Newsday modern retelling"
+      },
+      {
+        "claim": "Gaṇeśa consumes serving after serving, including food held in the kitchens, and remains hungry while Kubera's stores run down.",
+        "locus": "HinduScriptures, 'The Feast of Kubera'"
+      },
+      {
+        "claim": "Kubera returns to Śiva and Pārvatī for help after admitting that the feast cannot satisfy Gaṇeśa.",
+        "locus": "HinduScriptures, 'The Feast of Kubera'; Newsday modern retelling"
+      },
+      {
+        "claim": "Pārvatī gives Kubera a few grains of rice and tells him to offer them with humility; the small offering satisfies Gaṇeśa.",
+        "locus": "HinduScriptures, 'The Feast of Kubera'"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-14"
+  },
+  "audience": {
+    "minAge": 5,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "small things count"
+  ],
+  "themes": [
+    "ganesha",
+    "kubera",
+    "giving",
+    "pride",
+    "hospitality"
+  ],
+  "calendar": {
+    "festivals": [
+      "ganesh-chaturthi"
+    ],
+    "months": [
+      "bhadrapada"
+    ],
+    "tithi": [],
+    "seasons": [],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Kubera",
+      "role": "lead"
+    },
+    {
+      "ref": "Gaṇeśa",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Pārvatī",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 317,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Kubera» wanted to give a feast so splendid that everyone would see how much wealth he possessed."
+        },
+        {
+          "t": "p",
+          "text": "He went to invite «Śiva» and «Pārvatī». They did not come themselves. Instead, «Gaṇeśa» was sent to eat at «Kubera»'s table."
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» was not worried. He had built a great feast for many guests, with kitchens, storerooms, servants and more food than he could imagine one small guest eating."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» sat down."
+        },
+        {
+          "t": "p",
+          "text": "The first dishes disappeared. Then the next ones. Then food meant for the other guests. More came from the kitchens, and that vanished too."
+        },
+        {
+          "t": "p",
+          "text": "The cooks kept working. The serving vessels kept returning empty. In the modern telling we are following, «Gaṇeśa» even went toward the kitchens while the other guests still waited to be fed."
+        },
+        {
+          "t": "p",
+          "text": "«Kubera»'s enormous feast was becoming smaller while «Gaṇeśa»'s hunger did not seem to change."
+        },
+        {
+          "t": "p",
+          "text": "At last «Kubera» understood that his wealth was not going to solve the problem he had created."
+        },
+        {
+          "t": "p",
+          "text": "He went back to «Śiva» and «Pārvatī» and admitted that he could not satisfy their son."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Pārvatī» gave «Kubera» only a few grains of rice and told him to offer them differently: without showing off, and with humility."
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» returned. This time the offering was not a performance of how rich he was. He bowed and gave the small portion with respect."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» accepted it. His hunger ended."
+        },
+        {
+          "t": "p",
+          "text": "The feast had contained food for a hall of guests. The final offering was almost nothing beside it. The difference was not the size of the plate, but what the giver was trying to prove."
+        },
+        {
+          "t": "p",
+          "text": "What had changed was not «Gaṇeśa»'s stomach. The story makes the change happen in «Kubera»: from host who wants to be admired to host who is finally willing simply to offer."
+        },
+        {
+          "t": "slow",
+          "text": "«Kubera» had spent the whole day proving how much he owned; only at the end did he learn that a gift can carry something wealth cannot buy."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 662,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Kubera» was known for wealth. In the popular «Gaṇeśa» story we are following, that wealth had become something he wanted other people to notice."
+        },
+        {
+          "t": "p",
+          "text": "So he planned a feast large enough to display it."
+        },
+        {
+          "t": "p",
+          "text": "A great hall was prepared for gods and other guests. Food was made in abundance. «Kubera» wanted the scale of the meal to say something about the scale of the person providing it."
+        },
+        {
+          "t": "p",
+          "text": "He went to invite «Śiva» and «Pārvatī» personally."
+        },
+        {
+          "t": "p",
+          "text": "They did not come themselves. «Gaṇeśa» was sent in their place."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» looked at the guest and remained confident."
+        },
+        {
+          "t": "p",
+          "text": "Whatever appetite «Gaṇeśa» brought with him, «Kubera» had kitchens. He had cooks. He had servants carrying vessels in and out. He had food prepared for a gathering, not just one child."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» arrived hungry."
+        },
+        {
+          "t": "p",
+          "text": "The first set of dishes was served."
+        },
+        {
+          "t": "p",
+          "text": "He ate it."
+        },
+        {
+          "t": "p",
+          "text": "A second helping came."
+        },
+        {
+          "t": "p",
+          "text": "He ate that too."
+        },
+        {
+          "t": "p",
+          "text": "Then another."
+        },
+        {
+          "t": "p",
+          "text": "The story keeps repeating the same motion until repetition becomes the joke and then the problem: food arrives, «Gaṇeśa» eats it, and he is still hungry."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The servants returned to the kitchen."
+        },
+        {
+          "t": "p",
+          "text": "The cooks sent out more."
+        },
+        {
+          "t": "p",
+          "text": "Food prepared for the larger gathering was consumed. The other guests had not yet been fed, while «Gaṇeśa»'s plates kept emptying."
+        },
+        {
+          "t": "p",
+          "text": "In the modern witness chosen for this draft, he eventually moved toward the kitchen itself and consumed what had been kept there."
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» had arranged the feast so that nobody could miss his abundance."
+        },
+        {
+          "t": "p",
+          "text": "Now nobody could miss that the abundance was running out."
+        },
+        {
+          "t": "p",
+          "text": "His wealth was becoming a public problem instead of a public triumph."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» remained hungry."
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» could order another plate, but not an endless one."
+        },
+        {
+          "t": "p",
+          "text": "He could command servants, but not command the appetite in front of him to become satisfied."
+        },
+        {
+          "t": "p",
+          "text": "The boast hidden inside the feast had reached a limit."
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» left and returned to «Śiva» and «Pārvatī»."
+        },
+        {
+          "t": "p",
+          "text": "He admitted that he could not feed «Gaṇeśa» enough."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Pārvatī» did not answer by giving him a greater treasure or a secret storehouse."
+        },
+        {
+          "t": "p",
+          "text": "In the telling we are following, she gave him only a few grains of rice."
+        },
+        {
+          "t": "p",
+          "text": "The new offering was almost absurdly small beside the banquet already eaten."
+        },
+        {
+          "t": "p",
+          "text": "But «Kubera» was instructed to change the manner of giving."
+        },
+        {
+          "t": "p",
+          "text": "He was to return without the pride that had turned hospitality into display, and to offer the small portion with humility."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Kubera» went back."
+        },
+        {
+          "t": "p",
+          "text": "This time he did not arrive as the richest host proving what he could afford."
+        },
+        {
+          "t": "p",
+          "text": "He bowed."
+        },
+        {
+          "t": "p",
+          "text": "He offered the few grains with respect."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» accepted them."
+        },
+        {
+          "t": "p",
+          "text": "His hunger ended."
+        },
+        {
+          "t": "p",
+          "text": "The final portion was not materially better than everything that had come before it. It was smaller than almost any serving in the feast."
+        },
+        {
+          "t": "p",
+          "text": "The person offering it was different."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That reversal is why this story survives so well in children's and oral telling."
+        },
+        {
+          "t": "p",
+          "text": "A god of wealth discovers that wealth cannot perform every job simply by becoming larger."
+        },
+        {
+          "t": "p",
+          "text": "A feast meant to demonstrate abundance fails, while a tiny offering succeeds once it is no longer being used to demonstrate the giver."
+        },
+        {
+          "t": "p",
+          "text": "The popular story ends with «Kubera» relieved rather than triumphant. He has not found a richer food than the banquet. He has stopped using the meal to measure himself against the people he invited."
+        },
+        {
+          "t": "p",
+          "text": "The guests and servants matter to the shape of the lesson too. «Kubera»'s pride was public, so the failure of the feast became public. The story does not let him privately discover humility while everyone else continues admiring the display."
+        },
+        {
+          "t": "p",
+          "text": "He has to leave the hall, ask for help, return with something tiny, and approach the same hungry guest in a different spirit."
+        },
+        {
+          "t": "p",
+          "text": "That is why the last few grains do not function like a magic recipe. If another rich host copied only the quantity while keeping the same pride, the point of the telling would disappear."
+        },
+        {
+          "t": "slow",
+          "text": "The smallest thing on «Kubera»'s table becomes enough only after the largest thing in the room — his pride in being the giver — becomes smaller."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When does giving stop being about the person receiving it and start becoming a way to show something about yourself?",
+    "seed": "The food changes at the end only because the giver does.",
+    "ifTheyAsk": [
+      {
+        "q": "Is this really in the Śiva Purāṇa?",
+        "a": "I could not verify that claim. The standard Kumāra-khaṇḍa used for our checking ends at chapter 20, so Sandhya Katha should label this as a popular folk telling rather than invent a Purāṇic citation."
+      },
+      {
+        "q": "What was the final food?",
+        "a": "Modern tellings differ. The witness chosen for this draft gives a few grains of rice from Pārvatī. Other retellings say roasted rice or a sweet. We keep the chosen witness rather than blend them."
+      },
+      {
+        "q": "Was Gaṇeśa punishing Kubera?",
+        "a": "This telling frames the episode as Kubera's pride being corrected. We do not add a motive beyond what the chosen popular telling supplies."
+      }
+    ]
+  }
+}

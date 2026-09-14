@@ -1,0 +1,402 @@
+{
+  "id": "ganesha-condition",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-14",
+  "title": "Gaṇeśa's One Condition",
+  "tease": "Gaṇeśa will write the whole Mahābhārata only if Vyāsa never stops. Vyāsa answers with one condition of his own.",
+  "source": {
+    "corpus": "origin",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Ādi Parva, chapter 1",
+    "stability": "variant",
+    "traditionNote": "This famous scribe episode is present in the transmitted/vulgate Mahābhārata opening used by Ganguli but not in the BORI constituted text. This telling keeps that witness and omits the later broken-tusk-as-pen detail.",
+    "parallels": [],
+    "checkedAgainst": [
+      "K. M. Ganguli trans., Mahābhārata, Ādi Parva, Section I",
+      "Bhandarkar Oriental Research Institute Critical Edition, Ādi Parva opening — cross-check for the constituted text"
+    ],
+    "variants": [
+      {
+        "differs": "whether Gaṇeśa appears as the Mahābhārata's scribe, and whether the broken tusk is the writing instrument",
+        "tellings": "The transmitted/vulgate opening has Gaṇeśa agree to write under two conditions with Vyāsa; the BORI (Bhandarkar Oriental Research Institute) constituted text omits the scribe episode. Later popular tellings add the broken-tusk pen.",
+        "weTell": "The Ganguli/vulgate scribe episode: the pen must not stop, Gaṇeśa must understand before writing, and difficult verses create thinking time. No broken-tusk pen."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "In the Ganguli transmitted opening, Brahmā gives Vyāsa one practical recommendation: think of Gaṇeśa as the writer for the Bhārata.",
+        "locus": "Mahābhārata, Ādi Parva, Section I"
+      },
+      {
+        "claim": "Gaṇeśa and Vyāsa agree on two conditions: the pen must not stop, and Gaṇeśa must understand each passage before writing; Gaṇeśa assents with Om.",
+        "locus": "Ādi Parva, Section I"
+      },
+      {
+        "claim": "Vyāsa composes difficult, tightly knotted verses so Gaṇeśa must pause to understand them, giving Vyāsa time to compose what comes next.",
+        "locus": "Ādi Parva, Section I"
+      },
+      {
+        "claim": "The passage names eight thousand eight hundred verses as especially difficult and says their meaning is known to the narrator, Śuka and perhaps Sañjaya.",
+        "locus": "Ādi Parva, Section I"
+      },
+      {
+        "claim": "The selected Ganguli passage speaks of Gaṇeśa's pen but does not narrate a broken tusk becoming the pen; that belongs to later popular retelling.",
+        "locus": "Ādi Parva, Section I; compared with later popular tradition"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-14"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "careNote": "",
+    "gated": false
+  },
+  "values": [
+    "buying yourself time to think"
+  ],
+  "themes": [
+    "ganesha",
+    "vyasa",
+    "mahabharata",
+    "writing",
+    "understanding"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Gaṇeśa",
+      "role": "lead"
+    },
+    {
+      "ref": "Vyāsa",
+      "role": "lead"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 312,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Vyāsa» had formed the great «Bhārata» in his mind, but a poem that large needed someone capable of writing as fast as he could recite."
+        },
+        {
+          "t": "p",
+          "text": "In the transmitted «Mahābhārata» opening we are following, «Brahmā» praised the work and told «Vyāsa» to think of «Gaṇeśa» as his writer."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» came, listened to the request, and agreed with a condition: once the writing began, his pen must not stop."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» accepted, but placed a condition of his own."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» must not write anything he did not understand."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» agreed with an _Om_, and the work began."
+        },
+        {
+          "t": "p",
+          "text": "That changed the task from a race of hand against voice into a partnership between speed and meaning."
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» dictated. «Gaṇeśa» wrote."
+        },
+        {
+          "t": "p",
+          "text": "When «Vyāsa» needed time to continue composing, the text says he made some verses tightly knotted and difficult in meaning."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» had to pause long enough to understand them before his hand could continue."
+        },
+        {
+          "t": "p",
+          "text": "While the scribe thought, the poet shaped what came next."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The passage remembers eight thousand eight hundred verses as especially difficult, saying that their meaning was hard to penetrate."
+        },
+        {
+          "t": "p",
+          "text": "The agreement worked because neither person got everything his own way. «Gaṇeśa» protected continuity. «Vyāsa» protected understanding."
+        },
+        {
+          "t": "p",
+          "text": "A popular later addition says «Gaṇeśa»'s pen broke and he used his tusk. That detail is not in the witness chosen for this telling, so we leave it outside the story."
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» is therefore not slowing «Gaṇeśa» by giving him nonsense. The verses have meaning; they are simply difficult enough that the agreement requires real thought before the next line can be written."
+        },
+        {
+          "t": "p",
+          "text": "That makes the pause part of the work, not a failure of the work."
+        },
+        {
+          "t": "p",
+          "text": "In other words, the pause belongs to understanding, not to distraction. The difficult line slows the hand because the agreement says meaning comes first."
+        },
+        {
+          "t": "slow",
+          "text": "The fastest hand in the room was still required to stop for one thing: meaning."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 656,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Vyāsa» had formed an enormous work in his mind."
+        },
+        {
+          "t": "p",
+          "text": "The transmitted «Mahābhārata» opening preserved in the Ganguli translation presents a practical question inside that grand claim: who could write while «Vyāsa» recited?"
+        },
+        {
+          "t": "p",
+          "text": "The story first has «Brahmā» speak to «Vyāsa» about the work."
+        },
+        {
+          "t": "p",
+          "text": "He praises «Vyāsa»'s knowledge, calls what he has made a poem, and says that no poet's work will equal it."
+        },
+        {
+          "t": "p",
+          "text": "Then he gives one piece of practical advice."
+        },
+        {
+          "t": "p",
+          "text": "Think of «Gaṇeśa» for the writing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» does."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» appears and is received respectfully."
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» asks him to become the writer of the «Bhārata» that has already been formed in his imagination and that he is about to recite."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» agrees, but not without setting a condition."
+        },
+        {
+          "t": "p",
+          "text": "Once he begins, his pen must not cease writing."
+        },
+        {
+          "t": "p",
+          "text": "That condition puts pressure on the poet. A long pause in composition would break the arrangement."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» answers with a condition of his own."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» must not continue writing anything he does not understand."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» accepts with an _Om_."
+        },
+        {
+          "t": "p",
+          "text": "Now the task has two rules at once: the flow of writing must continue, and understanding must come before inscription."
+        },
+        {
+          "t": "p",
+          "text": "Neither rule cancels the other."
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» begins."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The source then explains how he creates room for composition while keeping his agreement."
+        },
+        {
+          "t": "p",
+          "text": "He makes some verses densely constructed and difficult in meaning."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» cannot simply race across them."
+        },
+        {
+          "t": "p",
+          "text": "Because of «Vyāsa»'s counter-condition, the scribe has to understand before writing."
+        },
+        {
+          "t": "p",
+          "text": "So he pauses to consider the tightly knotted verse."
+        },
+        {
+          "t": "p",
+          "text": "During that thinking time, «Vyāsa» continues composing what will come next."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The passage goes on to speak of eight thousand eight hundred especially difficult verses."
+        },
+        {
+          "t": "p",
+          "text": "Its narrator says that their meaning is mysterious and hard to penetrate, known fully only to a very small number."
+        },
+        {
+          "t": "p",
+          "text": "Even «Gaṇeśa», extraordinary enough to keep pace with «Vyāsa»'s recitation, is described as taking time to consider them."
+        },
+        {
+          "t": "p",
+          "text": "The tale therefore gives thought a visible place inside speed."
+        },
+        {
+          "t": "p",
+          "text": "Fast writing is not enough."
+        },
+        {
+          "t": "p",
+          "text": "Fast speaking is not enough."
+        },
+        {
+          "t": "p",
+          "text": "The work continues because one person cannot rush the other past understanding."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There is a useful symmetry in the two conditions."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa» protects the poem from endless hesitation: keep speaking."
+        },
+        {
+          "t": "p",
+          "text": "«Vyāsa» protects the writing from empty speed: understand first."
+        },
+        {
+          "t": "p",
+          "text": "Each person's strength becomes the other person's boundary."
+        },
+        {
+          "t": "p",
+          "text": "That is why the scene works even before anyone asks whether every detail is historical or symbolic."
+        },
+        {
+          "t": "p",
+          "text": "It is a story about the discipline required to carry something enormous from a mind into words."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The source label must be exact."
+        },
+        {
+          "t": "p",
+          "text": "This «Gaṇeśa»-as-scribe episode belongs to the transmitted «Mahābhārata» tradition and appears in the Ganguli vulgate opening, but the Bhandarkar Critical Edition did not include it in its constituted text."
+        },
+        {
+          "t": "p",
+          "text": "And the chosen passage does not say that «Gaṇeśa» broke off his tusk when a pen failed. That famous image belongs to later popular retelling."
+        },
+        {
+          "t": "p",
+          "text": "So our illustration uses an ordinary stylus, and our story keeps the older scene to the two conditions, the difficult verses and the thinking pauses."
+        },
+        {
+          "t": "p",
+          "text": "The passage is also careful about who knows the difficult verses. Its narrator says he knows the eight thousand eight hundred; «Śuka» knows them; perhaps «Sañjaya» does. The point is not that they are meaningless riddles, but that their meaning is unusually hard to penetrate."
+        },
+        {
+          "t": "p",
+          "text": "That distinction protects «Vyāsa»'s counter-condition. He is not cheating by inserting gibberish. He is composing verses dense enough to demand the very thing he required from his scribe: comprehension."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṇeśa»'s condition and «Vyāsa»'s condition therefore keep meeting on every difficult line. The pen must continue, but only after the mind has caught up."
+        },
+        {
+          "t": "p",
+          "text": "A child who is proud of finishing first can hear a different measure of intelligence here. Sometimes the quickest useful response is not the first mark on the page. It is the moment you refuse to write what you have not yet understood."
+        },
+        {
+          "t": "slow",
+          "text": "«Gaṇeśa»'s hand is asked to move without stopping, but his mind is never given permission to hurry past what it does not understand."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you can do something very quickly, how do you know when you still need to slow down enough to understand it?",
+    "seed": "Speed mattered, but understanding mattered more.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Gaṇeśa really write with his broken tusk?",
+        "a": "That is a famous later telling. The Mahābhārata passage chosen here mentions the writing arrangement and difficult verses, but it does not say his tusk became the pen."
+      },
+      {
+        "q": "Why did Vyāsa make difficult verses?",
+        "a": "Because Gaṇeśa had agreed to write continuously, while Vyāsa had required him to understand before writing. A difficult verse created thinking time without breaking either condition."
+      },
+      {
+        "q": "Is this in the Critical Edition?",
+        "a": "No. It belongs to the transmitted Mahābhārata tradition and is present in the vulgate used by Ganguli, but the BORI Critical Edition did not include it in the constituted text."
+      }
+    ]
+  }
+}

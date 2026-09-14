@@ -511,6 +511,91 @@
           "file": null
         }
       }
+    },
+    "lakshmi-leaves-indra": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/lakshmi-leaves-indra/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-14"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "ganesha-condition": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ganesha-condition/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-14"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "kubera-feast": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/kubera-feast/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-14"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "bhrigu-vishnu": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/bhrigu-vishnu/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-14"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "sukra-spout": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/sukra-spout/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-14"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13",
+  "generated": "2026-09-14",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -25,6 +25,11 @@
       "version": 1,
       "status": "published",
       "hash": "11bd021f0cf31587"
+    },
+    "bhrigu-vishnu": {
+      "version": 1,
+      "status": "published",
+      "hash": "2d8abd93e11dc645"
     },
     "birds-eye": {
       "version": 1,
@@ -70,6 +75,11 @@
       "version": 3,
       "status": "published",
       "hash": "f2bcbb0b40f7100b"
+    },
+    "ganesha-condition": {
+      "version": 1,
+      "status": "published",
+      "hash": "396facac83766768"
     },
     "ganesha-moon": {
       "version": 1,
@@ -125,6 +135,11 @@
       "version": 1,
       "status": "published",
       "hash": "b0e4551f82e43223"
+    },
+    "kubera-feast": {
+      "version": 1,
+      "status": "published",
+      "hash": "d7780f34312b1122"
     },
     "lakshmi-leaves-indra": {
       "version": 1,
@@ -215,6 +230,11 @@
       "version": 1,
       "status": "published",
       "hash": "3584c177884aa036"
+    },
+    "sukra-spout": {
+      "version": 1,
+      "status": "published",
+      "hash": "153d9b871e8aafb8"
     },
     "svetaketu-salt": {
       "version": 1,

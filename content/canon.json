@@ -1121,7 +1121,7 @@
       "value": "buying yourself time to think",
       "hook": "He will write down the whole Mahābhārata, but only if the dictation never stops. So Vyāsa starts hiding knots in it.",
       "festivals": [],
-      "status": "draft",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -1776,6 +1776,68 @@
       "status": "published",
       "wave": 5,
       "gated": false
+    },
+    {
+      "n": 92,
+      "id": "kubera-feast",
+      "title": "The Feast Kubera Could Not Finish",
+      "corpus": "folk",
+      "tradition": "folk",
+      "work": "Popular Gaṇeśa tradition",
+      "locus": "Modern oral/children's retellings; early textual locus unverified",
+      "stability": "folk",
+      "minAge": 5,
+      "sensitivity": [],
+      "value": "small things count",
+      "hook": "Kubera builds a feast to prove how much he owns. Gaṇeśa keeps eating until a few grains offered differently finally become enough.",
+      "festivals": [
+        "ganesh-chaturthi"
+      ],
+      "status": "published",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 93,
+      "id": "bhrigu-vishnu",
+      "title": "The Test at Vaikuṇṭha",
+      "corpus": "bhagavata",
+      "tradition": "sanskrit",
+      "work": "Bhāgavata Purāṇa",
+      "locus": "Skandha 10, chapter 89, verses 1–13",
+      "stability": "stable",
+      "minAge": 8,
+      "sensitivity": [
+        "violence"
+      ],
+      "value": "standing up gently",
+      "hook": "Bhṛgu provokes Brahmā and Śiva, then kicks Viṣṇu in the chest. The last response ends the test.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false,
+      "careNote": "Bhṛgu deliberately provokes Brahmā and Śiva, and kicks Viṣṇu on the chest. Śiva briefly raises his trident; nothing is described graphically."
+    },
+    {
+      "n": 94,
+      "id": "sukra-spout",
+      "title": "The Blade of Darbha in the Water Spout",
+      "corpus": "other-purana",
+      "tradition": "sanskrit",
+      "work": "Uṣāharaṇa-kāvya; Skanda Purāṇa",
+      "locus": "Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya 6.51b–53",
+      "stability": "variant",
+      "minAge": 8,
+      "sensitivity": [
+        "violence"
+      ],
+      "value": "a promise with no exceptions in it",
+      "hook": "Before Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false,
+      "careNote": "A blade of darbha pierces one of Śukrācārya's eyes while he blocks the water-pot. The injury is brief and not graphic."
     }
   ]
 }

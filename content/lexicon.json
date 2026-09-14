@@ -2366,5 +2366,112 @@
       "Bhāgavata Purāṇa",
       "Bhagavata Purana"
     ]
+  },
+  "Vyāsa": {
+    "id": "vyasa",
+    "native": {
+      "deva": "व्यास"
+    },
+    "say": "VYAA-suh",
+    "ipa": "ʋjaː.sɐ",
+    "kind": "person",
+    "gloss": "The sage traditionally associated with arranging the Vedas and composing the Mahābhārata.",
+    "aliases": [
+      "Vyasa"
+    ]
+  },
+  "Bhārata": {
+    "id": "bharata-epic-name",
+    "native": {
+      "deva": "भारत"
+    },
+    "say": "BHAA-ruh-tuh",
+    "ipa": "bʱaː.rɐ.tɐ",
+    "kind": "text",
+    "gloss": "A traditional short name for the Mahābhārata in its transmitted opening.",
+    "aliases": [
+      "Bharata"
+    ]
+  },
+  "Śuka": {
+    "id": "shuka-sage",
+    "native": {
+      "deva": "शुक"
+    },
+    "say": "SHOO-kuh",
+    "ipa": "ɕu.kɐ",
+    "kind": "person",
+    "gloss": "Vyāsa's son, named in the transmitted Mahābhārata opening among those who know the difficult verses.",
+    "aliases": [
+      "Shuka"
+    ]
+  },
+  "Sañjaya": {
+    "id": "sanjaya",
+    "native": {
+      "deva": "सञ्जय"
+    },
+    "say": "SUN-juh-yuh",
+    "ipa": "sɐɲ.dʑɐ.jɐ",
+    "kind": "person",
+    "gloss": "The narrator who reports the Kurukṣetra war to Dhṛtarāṣṭra in the Mahābhārata.",
+    "aliases": [
+      "Sanjaya"
+    ]
+  },
+  "Kubera": {
+    "id": "kubera",
+    "native": {
+      "deva": "कुबेर"
+    },
+    "say": "koo-BAY-ruh",
+    "ipa": "ku.beː.rɐ",
+    "kind": "being",
+    "gloss": "The lord of wealth in Sanskrit tradition, also called Vaiśravaṇa.",
+    "aliases": [
+      "Vaiśravaṇa",
+      "Vaisravana"
+    ]
+  },
+  "Bhṛgu": {
+    "id": "bhrigu",
+    "native": {
+      "deva": "भृगु"
+    },
+    "say": "BHRIG-oo",
+    "ipa": "bʱr̩.ɡu",
+    "kind": "person",
+    "gloss": "An ancient sage. In Bhāgavata Purāṇa 10.89 he is sent to test Brahmā, Śiva and Viṣṇu.",
+    "aliases": [
+      "Bhrigu"
+    ]
+  },
+  "Vaikuṇṭha": {
+    "id": "vaikuntha",
+    "native": {
+      "deva": "वैकुण्ठ"
+    },
+    "say": "vai-KOON-tuh",
+    "ipa": "ʋɛː.kuɳ.ʈʰɐ",
+    "kind": "place",
+    "gloss": "The divine abode of Viṣṇu in Vaiṣṇava tradition.",
+    "aliases": [
+      "Vaikuntha"
+    ]
+  },
+  "darbha": {
+    "id": "darbha",
+    "native": {
+      "deva": "दर्भ"
+    },
+    "say": "DUR-bhuh",
+    "ipa": "dɐr.bʱɐ",
+    "kind": "word",
+    "gloss": "A sacred grass used in Vedic and ritual contexts.",
+    "aliases": [
+      "Darbha",
+      "kusa grass",
+      "kuśa"
+    ]
   }
 }

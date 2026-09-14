@@ -1,0 +1,444 @@
+{
+  "id": "bhrigu-vishnu",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-14",
+  "title": "The Test at Vaikuṇṭha",
+  "tease": "Bhṛgu withholds honour from Brahmā, provokes Śiva, then kicks Viṣṇu in the chest. The last response ends the test.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 10, chapter 89, verses 1–13",
+    "stability": "stable",
+    "parallels": [],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa 10.89.1–13, Sanskrit/English verse text",
+      "Bhāgavata 10.89.10–11 — cross-check for the foot-massage line preserved in some editions"
+    ],
+    "sourcing": [
+      {
+        "claim": "Sages by the Sarasvatī debate which of three deities is greatest and send Bhṛgu to test Brahmā, Śiva and Viṣṇu one after another.",
+        "locus": "Bhāgavata 10.89.1–2"
+      },
+      {
+        "claim": "Bhṛgu withholds the expected honour from his father Brahmā; Brahmā becomes angry but controls the anger.",
+        "locus": "10.89.3"
+      },
+      {
+        "claim": "Śiva rises to embrace Bhṛgu, Bhṛgu rejects and insults him, Śiva raises his trident, and Pārvatī pacifies Śiva.",
+        "locus": "10.89.4–5"
+      },
+      {
+        "claim": "At Vaikuṇṭha Bhṛgu kicks Viṣṇu on the chest; Viṣṇu rises, bows, welcomes him and apologizes for not receiving him sooner.",
+        "locus": "10.89.6–10"
+      },
+      {
+        "claim": "Some editions preserve an additional line in which Viṣṇu massages Bhṛgu's foot while speaking gently about the contact with his chest.",
+        "locus": "10.89.10–11, textual/edition variant"
+      },
+      {
+        "claim": "Bhṛgu is overcome, returns to the sages and reports what happened; the sages in this Bhāgavata episode conclude that Viṣṇu is supreme and associate the conclusion with peace and fearlessness.",
+        "locus": "10.89.11–13"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-14"
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "violence"
+    ],
+    "careNote": "Bhṛgu deliberately provokes Brahmā and Śiva, and kicks Viṣṇu on the chest. Śiva briefly raises his trident. The actions are described plainly and without graphic detail.",
+    "gated": false
+  },
+  "values": [
+    "standing up gently"
+  ],
+  "themes": [
+    "bhrigu",
+    "vishnu",
+    "shiva",
+    "brahma",
+    "self-control",
+    "vaikuntha"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Bhṛgu",
+      "role": "lead"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "present"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Pārvatī",
+      "role": "present"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "lead"
+    },
+    {
+      "ref": "Lakṣmī",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 307,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A group of sages by the «Sarasvatī» were arguing about which of three great deities was greatest."
+        },
+        {
+          "t": "p",
+          "text": "They sent «Bhṛgu» to test them."
+        },
+        {
+          "t": "p",
+          "text": "He began with «Brahmā», his father. «Bhṛgu» deliberately did not bow or offer praise. «Brahmā» became angry, but controlled the anger."
+        },
+        {
+          "t": "p",
+          "text": "Next «Bhṛgu» went to «Śiva». «Śiva» rose happily to embrace him. «Bhṛgu» rejected the embrace and insulted him. «Śiva» raised his trident, until «Pārvatī» calmed him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Bhṛgu» went to «Vaikuṇṭha»."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» was resting with «Lakṣmī»."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» made the test harsher. He kicked «Viṣṇu» on the chest."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» stood up."
+        },
+        {
+          "t": "p",
+          "text": "Instead of striking back, he bowed to «Bhṛgu» and apologized for not noticing his arrival sooner."
+        },
+        {
+          "t": "p",
+          "text": "He invited the sage to sit and spoke respectfully about the feet that had just kicked him."
+        },
+        {
+          "t": "p",
+          "text": "Some editions also preserve a line in which «Viṣṇu» massages «Bhṛgu»'s foot."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu»'s test ended there."
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» says he became overwhelmed and returned to the sages to describe what he had experienced."
+        },
+        {
+          "t": "p",
+          "text": "In this episode, the sages take «Viṣṇu»'s response as the answer to their argument and conclude that he is supreme."
+        },
+        {
+          "t": "p",
+          "text": "We can report that as the «Bhāgavata»'s conclusion without turning the bedtime narrator into a judge between living Hindu traditions."
+        },
+        {
+          "t": "p",
+          "text": "The scene already asks a question every child understands: when someone insults you on purpose, how much control do they get over what you become next?"
+        },
+        {
+          "t": "p",
+          "text": "The test is not fair in the ordinary sense: «Bhṛgu» provokes people without telling them they are being examined."
+        },
+        {
+          "t": "p",
+          "text": "That discomfort is part of the story. The surprising response at «Vaikuṇṭha» matters precisely because «Bhṛgu» has done something that could reasonably produce anger."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» is testing reactions, and the final reaction changes the test itself."
+        },
+        {
+          "t": "slow",
+          "text": "«Bhṛgu» came looking for greatness in power; the answer he carried back was hidden in how power behaved when it had every reason to be angry."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 657,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "On the bank of the «Sarasvatī», a group of sages performing a sacrifice fell into an argument."
+        },
+        {
+          "t": "p",
+          "text": "Which of the three great deities — «Brahmā», «Śiva» or «Viṣṇu» — was greatest?"
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» Purāṇa says they sent «Bhṛgu», «Brahmā»'s son, to find out."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» did not conduct the test politely."
+        },
+        {
+          "t": "p",
+          "text": "He seems to make each provocation stronger than the one before it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He went first to «Brahmā»'s court."
+        },
+        {
+          "t": "p",
+          "text": "A son would normally greet his father with honour. «Bhṛgu» deliberately did not bow and did not offer praise."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» became angry."
+        },
+        {
+          "t": "p",
+          "text": "The text says anger rose within him, but he controlled it."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» left without explaining the test."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he went to «Kailāsa»."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» was glad to see him and rose to embrace his brother."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» refused the embrace."
+        },
+        {
+          "t": "p",
+          "text": "He insulted «Śiva» with words the text presents as deliberately offensive."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva»'s anger flared. His eyes burned and he raised his trident."
+        },
+        {
+          "t": "p",
+          "text": "«Pārvatī» intervened, fell at «Śiva»'s feet and calmed him."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» left again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His third visit was to «Vaikuṇṭha»."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» was resting with «Lakṣmī»."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» made the test physical."
+        },
+        {
+          "t": "p",
+          "text": "He walked up and kicked «Viṣṇu» in the chest."
+        },
+        {
+          "t": "p",
+          "text": "The source then gives the response that the episode has been arranging."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» rose from his bed with «Lakṣmī»."
+        },
+        {
+          "t": "p",
+          "text": "He bowed to «Bhṛgu»."
+        },
+        {
+          "t": "p",
+          "text": "He welcomed him and apologized for not noticing his arrival sooner."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Viṣṇu» spoke about the very foot that had struck him."
+        },
+        {
+          "t": "p",
+          "text": "He asked «Bhṛgu» to sit and rest."
+        },
+        {
+          "t": "p",
+          "text": "He spoke of the sage's feet as worthy of honour and of the water washing them as purifying."
+        },
+        {
+          "t": "p",
+          "text": "He even says, in the chapter's language, that «Bhṛgu»'s foot has made his chest a fitting place for «Lakṣmī»."
+        },
+        {
+          "t": "p",
+          "text": "A verse preserved in some editions adds that «Viṣṇu» massages «Bhṛgu»'s foot, saying the sage's foot is tender while his own chest is hard."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The insult has not been denied."
+        },
+        {
+          "t": "p",
+          "text": "The response simply refuses to mirror it."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» stops testing."
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» says he is pleased, silent and overcome, with tears in his eyes."
+        },
+        {
+          "t": "p",
+          "text": "He returns to the sacrifice and tells the sages everything he personally experienced."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The sages in this «Bhāgavata» episode then reach their conclusion."
+        },
+        {
+          "t": "p",
+          "text": "They take «Viṣṇu»'s response as evidence of supreme greatness and associate it with peace and fearlessness."
+        },
+        {
+          "t": "p",
+          "text": "That theological ending belongs to the source and should stay visible."
+        },
+        {
+          "t": "p",
+          "text": "But the narrator does not need to turn it into a modern competition in which a child is told that another family's worship is wrong."
+        },
+        {
+          "t": "p",
+          "text": "The precise wording is enough: _the sages in this text concluded that «Viṣṇu» was supreme after «Bhṛgu» returned._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The human question survives the theological setting."
+        },
+        {
+          "t": "p",
+          "text": "«Bhṛgu» tries three kinds of provocation: withheld honour, spoken insult and finally a physical blow."
+        },
+        {
+          "t": "p",
+          "text": "The episode measures greatness not by whether someone has enough power to punish him, but by what happens to that power under provocation."
+        },
+        {
+          "t": "p",
+          "text": "A child can dislike «Bhṛgu»'s method and still see why the final reaction surprises him."
+        },
+        {
+          "t": "p",
+          "text": "He arrives ready to produce anger."
+        },
+        {
+          "t": "p",
+          "text": "He leaves with the experiment ended, because the person he kicked refuses to become the anger he was testing for."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu»'s apology also reverses the social situation. «Bhṛgu» is the one who has arrived without greeting and has struck his host, yet «Viṣṇu» speaks as though the failure of hospitality were his own for not rising sooner."
+        },
+        {
+          "t": "p",
+          "text": "The chapter does not say «Bhṛgu» won an argument by force. It says the opposite: the kick leaves him without another escalation to try because the person struck refuses to answer in the expected way."
+        },
+        {
+          "t": "p",
+          "text": "When «Bhṛgu» returns, he reports experience rather than a philosophical proof. The sages make their theological conclusion from the reactions he has observed."
+        },
+        {
+          "t": "p",
+          "text": "The episode therefore ends not with a punishment for «Bhṛgu», but with «Bhṛgu» carrying a report back to the people who sent him."
+        },
+        {
+          "t": "slow",
+          "text": "The last test is the harshest one, and the answer is not a stronger blow; it is a refusal to let «Bhṛgu» decide what kind of person «Viṣṇu» will become."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What do you really learn about someone by trying to make them angry?",
+    "seed": "Bhṛgu tests power by provoking it; the final response refuses to become the provocation.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Bhṛgu actually kick Viṣṇu?",
+        "a": "Yes. Bhāgavata Purāṇa 10.89 explicitly says he kicked Viṣṇu on the chest."
+      },
+      {
+        "q": "Why does Viṣṇu apologize when Bhṛgu was the one who kicked him?",
+        "a": "That reversal is the center of the episode. Viṣṇu treats his own failure to greet the visitor as the fault and responds to the kick with honour rather than retaliation."
+      },
+      {
+        "q": "Does Sandhya Katha say Viṣṇu is greater than Śiva and Brahmā?",
+        "a": "The Bhāgavata episode says the sages reached that conclusion. We report the source's conclusion without making our narrator an umpire between living Hindu traditions."
+      }
+    ]
+  }
+}

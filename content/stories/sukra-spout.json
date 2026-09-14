@@ -1,0 +1,445 @@
+{
+  "id": "sukra-spout",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-09-14",
+  "title": "The Blade of Darbha in the Water Spout",
+  "tease": "Before Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.",
+  "source": {
+    "corpus": "other-purana",
+    "tradition": "sanskrit",
+    "work": "Uṣāharaṇa-kāvya; Skanda Purāṇa",
+    "locus": "Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53",
+    "stability": "variant",
+    "traditionNote": "The Bhāgavata gives Śukrācārya's warning and Bali's gift but not the blocked spout or eye injury. Later Sanskrit witnesses preserve that inside-story. This telling uses the Uṣāharaṇa's mote-like form, not the later bee wording.",
+    "parallels": [
+      {
+        "work": "Bhāgavata Purāṇa",
+        "locus": "Skandha 8, chapters 19–20"
+      },
+      {
+        "work": "Skanda Purāṇa",
+        "locus": "Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53"
+      }
+    ],
+    "checkedAgainst": [
+      "Trivikrama Paṇḍita, Uṣāharaṇa-kāvya, Canto I — as summarized in Pranesh R. Archak's study",
+      "Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa, chapter 6, verses 51b–53",
+      "Bhāgavata Purāṇa 8.19–20 — cross-check for Śukrācārya's warning, Bali's refusal and the gift ritual"
+    ],
+    "variants": [
+      {
+        "differs": "whether Śukrācārya physically blocks the water-pot, what tiny form he takes, and what happens to the injured eye",
+        "tellings": "Bhāgavata 8.19–20 contains the warning and gift but omits the spout episode. Uṣāharaṇa-kāvya gives a mote-like tiny form and the darbha injury. Skanda Purāṇa independently remembers the obstruction and eye injury, then says Śukrācārya later regains the eye.",
+        "weTell": "The Uṣāharaṇa-kāvya sequence: Śukrācārya becomes tiny, blocks the spout, Vāmana clears it with darbha, one eye is struck and the water flows. We note the Skanda restoration and do not call the form a bee."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Bali performs the sacrifice, Vāmana asks for three paces of land, and Śukrācārya warns Bali not to complete the gift; Bali refuses to withdraw his word.",
+        "locus": "Bhāgavata 8.19–20; Uṣāharaṇa-kāvya, Canto I"
+      },
+      {
+        "claim": "The gift is ritually completed with water from Bali's vessel, and the larger three-step episode follows after the donation is completed.",
+        "locus": "Bhāgavata 8.20; Uṣāharaṇa-kāvya, Canto I"
+      },
+      {
+        "claim": "In the Uṣāharaṇa-kāvya telling, Śukrācārya takes a tiny mote-like form and blocks the water-pot opening; Vāmana uses one blade of darbha to clear it, piercing one eye, after which the water flows.",
+        "locus": "Uṣāharaṇa-kāvya, Canto I"
+      },
+      {
+        "claim": "Two later Sanskrit source streams preserve the obstruction/darbha/eye motif, while their details differ; Skanda Purāṇa says Śukrācārya later performs penance at Śoṇācala and regains the eye.",
+        "locus": "Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya 6.51b–53"
+      },
+      {
+        "claim": "Bhārgava priests guide Bali's sacrifice in the received telling used here; Śukrācārya is Bali's teacher and the one opposing the gift, not Durvāsa.",
+        "locus": "Uṣāharaṇa-kāvya, Canto I; Bhāgavata 8.19"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-14"
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "violence"
+    ],
+    "careNote": "A blade of darbha pierces one of Śukrācārya's eyes while he blocks the water-pot. The injury is one brief line with no gore; a parallel source later restores the eye.",
+    "gated": false
+  },
+  "values": [
+    "a promise with no exceptions in it"
+  ],
+  "themes": [
+    "vamana",
+    "bali",
+    "shukracharya",
+    "gift",
+    "darbha",
+    "inside-story"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Vāmana",
+      "role": "lead"
+    },
+    {
+      "ref": "Bali",
+      "role": "lead"
+    },
+    {
+      "ref": "Śukrācārya",
+      "role": "foil"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 314,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before «Vāmana» took three steps, there was a much smaller obstruction."
+        },
+        {
+          "t": "p",
+          "text": "«Bali» was performing a great sacrifice when the dwarf brahmacārin arrived and asked for three paces of land."
+        },
+        {
+          "t": "p",
+          "text": "«Bali» agreed."
+        },
+        {
+          "t": "p",
+          "text": "His teacher «Śukrācārya» warned him not to complete the gift. «Bali» decided to give anyway."
+        },
+        {
+          "t": "p",
+          "text": "The donation had to be sealed by pouring water."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "In the medieval telling we are following, «Śukrācārya» made himself tiny — the source summary calls the form a mote — and entered the mouth of «Bali»'s water-pot."
+        },
+        {
+          "t": "p",
+          "text": "The water would not flow."
+        },
+        {
+          "t": "p",
+          "text": "The king could hold the pot. «Vāmana» could hold out his hand. The promise could be spoken. But the ritual act that completed the gift was physically blocked at the spout."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana» understood what had happened."
+        },
+        {
+          "t": "p",
+          "text": "He took a blade of «darbha» grass and pushed it into the opening."
+        },
+        {
+          "t": "p",
+          "text": "The grass struck «Śukrācārya» in one eye."
+        },
+        {
+          "t": "p",
+          "text": "He came away from the spout, and the water flowed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bali»'s gift was completed."
+        },
+        {
+          "t": "p",
+          "text": "Only after this tiny scene does the enormous one begin: «Vāmana» expands, the promised steps become cosmic, and the familiar story of «Bali» and the three paces continues."
+        },
+        {
+          "t": "p",
+          "text": "Two details matter for our version. The figure in the spout is «Śukrācārya», not «Durvāsa». And the witness says a mote-like tiny form, not specifically a bee."
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» tells «Śukrācārya»'s warning and «Bali»'s gift, but not this eye episode; later Sanskrit tradition preserves the extra scene."
+        },
+        {
+          "t": "p",
+          "text": "That small difference matters. A bee is easy to picture, but the selected source does not give us permission to choose one. The rarer story becomes stronger, not weaker, when we resist adding the familiar insect."
+        },
+        {
+          "t": "p",
+          "text": "The eye injury is also not the end in every source stream. The Aruṇācala Māhātmya says «Śukrācārya» later performed penance at Śoṇācala and regained the eye."
+        },
+        {
+          "t": "slow",
+          "text": "Before the three steps could cross the worlds, one blade of grass had to clear one very small opening."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 655,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Everyone remembers the enormous part of «Vāmana»'s story."
+        },
+        {
+          "t": "p",
+          "text": "Three paces become large enough to cover worlds."
+        },
+        {
+          "t": "p",
+          "text": "But a medieval Sanskrit telling pauses just before that expansion and gives us a scene no wider than the mouth of a water-pot."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bali» was performing a great horse sacrifice under the guidance of Bhārgava priests when «Vāmana» arrived in the form of a dwarf brahmacārin."
+        },
+        {
+          "t": "p",
+          "text": "The Uṣāharaṇa-kāvya tradition we are using says «Bali» welcomed him with devotion and was delighted by his presence."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana» asked for only three paces of land."
+        },
+        {
+          "t": "p",
+          "text": "«Bali» agreed to give them."
+        },
+        {
+          "t": "p",
+          "text": "His teacher «Śukrācārya» opposed the gift."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That warning is also familiar from the «Bhāgavata» Purāṇa."
+        },
+        {
+          "t": "p",
+          "text": "There «Śukrācārya» recognizes that the dwarf is «Viṣṇu» and tells «Bali» that three apparently small paces will cost him his sovereignty, splendour and position."
+        },
+        {
+          "t": "p",
+          "text": "«Bali» hears the warning and still refuses to withdraw his word."
+        },
+        {
+          "t": "p",
+          "text": "The donation now has to be completed ritually."
+        },
+        {
+          "t": "p",
+          "text": "«Bali» takes up the vessel of water."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Here the rarer inside story begins."
+        },
+        {
+          "t": "p",
+          "text": "The medieval source summary says «Śukrācārya» tried one more way to prevent the gift."
+        },
+        {
+          "t": "p",
+          "text": "He made himself tiny — the English study uses the word _mote_ — and entered the mouth of the water-pot."
+        },
+        {
+          "t": "p",
+          "text": "The passage was blocked."
+        },
+        {
+          "t": "p",
+          "text": "Water would not come out."
+        },
+        {
+          "t": "p",
+          "text": "The entire donation was now stopped by something almost too small to see."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bali» could still intend to give."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana» could still stand ready to receive."
+        },
+        {
+          "t": "p",
+          "text": "The promise could still be repeated."
+        },
+        {
+          "t": "p",
+          "text": "But the water that made the gift formal would not reach «Vāmana»'s hand."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana» understood the obstruction."
+        },
+        {
+          "t": "p",
+          "text": "He picked up a blade of «darbha» grass."
+        },
+        {
+          "t": "p",
+          "text": "He pushed the grass into the mouth of the pot to clear it."
+        },
+        {
+          "t": "p",
+          "text": "The point struck «Śukrācārya» in one eye."
+        },
+        {
+          "t": "p",
+          "text": "«Śukrācārya» moved away."
+        },
+        {
+          "t": "p",
+          "text": "The water flowed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The gift was completed."
+        },
+        {
+          "t": "p",
+          "text": "Then the scale of the story changes completely."
+        },
+        {
+          "t": "p",
+          "text": "«Vāmana» begins to measure the promised land and his form expands."
+        },
+        {
+          "t": "p",
+          "text": "The tiny obstruction at the spout gives way to the cosmic stride that everyone remembers."
+        },
+        {
+          "t": "p",
+          "text": "The first stride covers the earth. The higher region is covered. «Bali» must answer the question of the third step."
+        },
+        {
+          "t": "p",
+          "text": "That larger episode already has its own telling."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This story is the hinge immediately before it."
+        },
+        {
+          "t": "p",
+          "text": "It shows the exact moment a promise moves from intention into completed gift."
+        },
+        {
+          "t": "p",
+          "text": "The sources do not all preserve this smaller scene in the same place."
+        },
+        {
+          "t": "p",
+          "text": "The «Bhāgavata» Purāṇa gives «Śukrācārya»'s warning, «Bali»'s refusal, his curse on «Bali» and the ritual with the water vessel, but it does not narrate the tiny-form spout blockage or eye injury."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The later Uṣāharaṇa-kāvya tradition does narrate the mote in the pot and the «darbha» striking «Śukrācārya»'s eye."
+        },
+        {
+          "t": "p",
+          "text": "The Aruṇācala Māhātmya independently remembers the core motif: «Śukrācārya» obstructed the water at «Bali»'s gift, «Vāmana»'s «darbha» pierced his eye, and «Śukrācārya» later went to Śoṇācala for penance and regained it."
+        },
+        {
+          "t": "p",
+          "text": "That last detail also means we should be careful with the popular claim that the incident permanently explains why «Śukrācārya» is one-eyed."
+        },
+        {
+          "t": "p",
+          "text": "One source stream explicitly gives him the eye back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And one more correction belongs in the telling."
+        },
+        {
+          "t": "p",
+          "text": "The figure inside the pot is «Śukrācārya», «Bali»'s teacher, not «Durvāsa»."
+        },
+        {
+          "t": "p",
+          "text": "This telling also avoids saying he became a bee. Later retellings use insect, fly or bee, but the witness checked here says a tiny mote-like form."
+        },
+        {
+          "t": "p",
+          "text": "The rare detail stays surprising without adding a creature or ending that the selected witness does not give us."
+        },
+        {
+          "t": "p",
+          "text": "The scene also makes «Śukrācārya» more interesting than a simple villain. He has already told «Bali» what he believes will happen and why the gift endangers the daitya king. Blocking the vessel is an extreme continuation of that attempt to protect his disciple's position."
+        },
+        {
+          "t": "p",
+          "text": "«Bali», however, has already chosen the opposite priority: once he has promised the land, preventing the water from flowing will not change what he intends to give."
+        },
+        {
+          "t": "slow",
+          "text": "The famous three steps begin only after one tiny blocked spout is cleared and «Bali»'s water finally reaches «Vāmana»'s hand."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you believe someone you care about is making a disastrous promise, how far should you go to stop them?",
+    "seed": "Śukrācārya tries to block the gift; Bali has already decided what keeping his word means.",
+    "ifTheyAsk": [
+      {
+        "q": "Was it Durvāsa inside the pot?",
+        "a": "No. The checked telling names Śukrācārya, Bali's teacher."
+      },
+      {
+        "q": "Did Śukrācārya become a bee?",
+        "a": "The witness chosen for this draft says he took a tiny mote-like form. Later retellings often say insect, fly or bee, but we do not need to add that."
+      },
+      {
+        "q": "Did he stay one-eyed forever?",
+        "a": "Not in every source stream. The Skanda Purāṇa's Aruṇācala Māhātmya says he later performed penance at Śoṇācala and regained the eye."
+      }
+    ]
+  }
+}
