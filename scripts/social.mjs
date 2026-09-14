@@ -23,6 +23,7 @@
  *
  *   npm run social              # every published story
  *   npm run social -- <id>      # just one
+ *   npm run social -- --invitation <id> # four-slide invitation, separate output
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -32,6 +33,7 @@ const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = join(ROOT, 'social');
 const FONTS = join(ROOT, 'assets/fonts');
 const only = process.argv.slice(2).filter(a => !a.startsWith('-'));
+const invitation = process.argv.includes('--invitation');
 const S = 1080;
 const SITE = 'https://sandhyakatha.com';
 
@@ -104,7 +106,7 @@ ${lines.map((l, i) => `<text x="90" y="${top + i * lh}" font-family="Gentium Boo
 }
 
 function acquisitionHook(s) {
-  return plain(canonById.get(s.id)?.hook || s.tease);
+  return plain(invitation ? s.tease : (canonById.get(s.id)?.hook || s.tease));
 }
 
 function hookSlide(s, total) {
@@ -171,9 +173,9 @@ function pick(story) {
 function trackedStoryUrl(s) {
   const params = new URLSearchParams({
     utm_source: 'instagram',
-    utm_medium: 'carousel',
+    utm_medium: 'social',
     utm_campaign: 'story',
-    utm_content: s.id
+    utm_content: `carousel_${s.id}`
   });
   return `${SITE}/s/${s.id}/?${params.toString()}`;
 }
@@ -273,9 +275,11 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
   if (s.status !== 'published') continue;
   if (only.length && !only.includes(s.id)) continue;
 
-  const body = pick(s);
+  // Invitations use the published tease and question, not isolated narrative
+  // paragraphs that may lose their speaker or causal transition when sampled.
+  const body = invitation ? [] : pick(s);
   const total = 1 + body.length + 1 + 1 + 1;       // hook + body + question + source + CTA
-  const dir = join(OUT, s.id);
+  const dir = join(OUT, invitation ? `${s.id}-invitation` : s.id);
   mkdirSync(dir, { recursive: true });
 
   png(hookSlide(s, total), join(dir, '01.png'));
@@ -286,7 +290,8 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
 
   const questionN = body.length + 1;
   png(slide(s.close.question, questionN, total,
-            { size: 46, italic: true, color: '#ffe9c4', kicker: 'NOW TURN TO YOUR CHILD' }),
+            { size: 46, italic: true, color: '#ffe9c4',
+              kicker: invitation ? 'AFTER THE STORY, ASK' : 'NOW TURN TO YOUR CHILD' }),
       join(dir, String(questionN + 1).padStart(2, '0') + '.png'));
 
   const sourceN = questionN + 1;
