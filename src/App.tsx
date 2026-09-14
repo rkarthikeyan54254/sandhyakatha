@@ -5,6 +5,7 @@ import { pickTonight } from './lib/picker';
 import * as P from './lib/profile';
 import { track } from './lib/track';
 import { currentAccount, syncProfile, signOut, type Account as Acct } from './lib/sync';
+import { adoptSnapshot, sameSnapshot } from './lib/sync-adoption';
 import { Header, Tabs, type Tab } from './ui/Chrome';
 import Tonight, { type Len } from './ui/Tonight';
 import Reader from './ui/Reader';
@@ -29,22 +30,22 @@ export default function App() {
   const [readerWasTonightPick, setReaderWasTonightPick] = useState(false);
   const [readerWasReadBefore, setReaderWasReadBefore] = useState(false);
 
-  const [profile, setProfile] = useState<P.Profile>(() => P.load());
+  const [profile, renderProfile] = useState<P.Profile>(() => P.load());
   const [account, setAccount] = useState<Acct | null>(null);
   const [syncing, setSyncing] = useState(false);
   const [syncPending, setSyncPending] = useState(false);
   const profileRef = useRef(profile);
   const syncInFlight = useRef(0);
   const syncGeneration = useRef(0);
-  profileRef.current = profile;
-
-  // Never let an older async sync response overwrite a profile the parent has
-  // edited since that request began.
-  const adoptSynced = useCallback((next: P.Profile) => {
-    setProfile(current => Date.parse(current.updatedAt) > Date.parse(next.updatedAt) ? current : next);
+  // Keep the snapshot current synchronously, including edits before React's
+  // next render. Updaters run once here, never as replayable React side effects.
+  const setProfile = useCallback((update: P.Profile | ((p: P.Profile) => P.Profile)) => {
+    const next = typeof update === 'function' ? update(profileRef.current) : update;
+    profileRef.current = next;
+    renderProfile(next);
   }, []);
 
-  const syncAndAdopt = useCallback(async (snapshot: P.Profile, generation = syncGeneration.current) => {
+  const syncAndAdopt = useCallback(async (snapshot: P.Profile, generation = syncGeneration.current, expectedAccount?: string) => {
     // A queued task from an account generation that has already been signed out
     // is stale before it even reaches the network.
     if (generation !== syncGeneration.current) return snapshot;
@@ -52,24 +53,32 @@ export default function App() {
     syncInFlight.current += 1;
     setSyncing(true);
     try {
-      const next = await syncProfile(snapshot);
-      // Sign-out (or another account boundary) invalidates every response that
-      // began in the previous generation. Never repopulate cleared family data.
-      if (generation !== syncGeneration.current) return next;
-      // Capture this before adoptSynced can schedule a render with the normalized
-      // server copy. We only clear pending if no newer local edit exists.
-      const snapshotStillCurrent = JSON.stringify(profileRef.current) === JSON.stringify(snapshot);
-      adoptSynced(next);
-      if (snapshotStillCurrent) setSyncPending(false);
-      return next;
+      for (let attempt = 0; attempt < 3; attempt++) {
+        // A retry may contain real edits made during first sign-in. Such an
+        // anonymous snapshot is no longer an untouched fresh-device placeholder.
+        const next = await syncProfile(snapshot, expectedAccount, attempt > 0);
+        // Sign-out (or another account boundary) invalidates every response that
+        // began in the previous generation. Never repopulate cleared family data.
+        if (generation !== syncGeneration.current) return next;
+        const current = profileRef.current;
+        if (!sameSnapshot(current, snapshot)) {
+          // Preserve an intervening edit and reconcile it before claiming backup.
+          snapshot = current;
+          continue;
+        }
+        setProfile(adoptSnapshot(current, snapshot, next, generation, syncGeneration.current));
+        setSyncPending(false);
+        return next;
+      }
+      throw new Error('local profile changed repeatedly while syncing');
     } catch (e) {
-      setSyncPending(true);
+      if (generation === syncGeneration.current) setSyncPending(true);
       throw e;
     } finally {
       syncInFlight.current -= 1;
       if (syncInFlight.current === 0) setSyncing(false);
     }
-  }, [adoptSynced]);
+  }, [setProfile]);
 
   useEffect(() => { P.save(profile); }, [profile]);
   useEffect(() => { P.requestPersistence(); }, []);
@@ -109,13 +118,13 @@ export default function App() {
 
   /* Signed in? Then merge this device with the account copy, both directions. */
   const refresh = useCallback(async () => {
-    const generation = syncGeneration.current;
+    const generation = ++syncGeneration.current;
     const found = await currentAccount();
     if (generation !== syncGeneration.current) return;
     setAccount(found?.account ?? null);
-    if (!found) { setSyncPending(false); return; }
+    if (!found) { setSyncPending(!!profileRef.current.owner); return; }
     setSyncPending(true);
-    setProfile(p => { void syncAndAdopt(p, generation).catch(() => {}); return p; });
+    void syncAndAdopt(profileRef.current, generation, found.account.id).catch(() => {});
   }, [syncAndAdopt]);
 
   useEffect(() => {
@@ -235,7 +244,9 @@ export default function App() {
    * save leaves the family signed in with their history intact.
    */
   async function handleSignOut(): Promise<'ok' | 'unsaved'> {
-    const r = await signOut(profile);
+    const generation = ++syncGeneration.current;
+    const snapshot = profileRef.current;
+    const r = await signOut(snapshot, () => generation === syncGeneration.current && sameSnapshot(profileRef.current, snapshot));
     if (r === 'ok') {
       // Cross an account boundary before clearing React/local state so every
       // older in-flight or queued sync becomes permanently ineligible to adopt.

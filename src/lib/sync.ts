@@ -61,11 +61,14 @@ export async function useRecoveryCode(code: string): Promise<void> {
  * conflict that cannot be written safely is an unsaved sign-out, not permission
  * to clear the browser and hope.
  */
-export async function signOut(local: Profile): Promise<'ok' | 'unsaved'> {
-  try { await syncProfile(local); } catch { return 'unsaved'; }
+export async function signOut(local: Profile, isCurrent = () => true): Promise<'ok' | 'unsaved'> {
+  try {
+    const saved = await syncProfile(local);
+    if (!saved.owner || (local.owner && saved.owner !== local.owner) || !isCurrent()) return 'unsaved';
+  } catch { return 'unsaved'; }
   try {
     const r = await fetch('/api/signout', { method: 'POST', credentials: 'same-origin' });
-    return r.ok ? 'ok' : 'unsaved';
+    return r.ok && isCurrent() ? 'ok' : 'unsaved';
   } catch { return 'unsaved'; }
 }
 
@@ -78,10 +81,14 @@ export async function signOut(local: Profile): Promise<'ok' | 'unsaved'> {
  * and they should keep what they did. Anything else is another family's, and
  * the account's own copy replaces it.
  */
-export async function syncProfile(local: Profile): Promise<Profile> {
+export async function syncProfile(local: Profile, expectedAccount?: string, preserveAnonymousEdits = false): Promise<Profile> {
   const d = await api('/api/profile');
-  if (!d) return local;                       // signed out — nothing to do
+  if (!d) {
+    if (local.owner || expectedAccount) throw new Error('sign in again to back up this device');
+    return local; // genuinely anonymous — nothing to do
+  }
   const id = (d.account as Account).id;
+  if (expectedAccount && id !== expectedAccount) throw new Error('account changed while syncing');
 
   if (local.owner && local.owner !== id) {
     return d.profile
@@ -95,7 +102,7 @@ export async function syncProfile(local: Profile): Promise<Profile> {
    * a rename, age edit or deletion that must be merged rather than discarded.
    */
   const readNothingHere = !Object.values(local.heard ?? {}).some(n => Object.keys(n).length > 0);
-  if (d.profile && readNothingHere && local.owner !== id)
+  if (d.profile && readNothingHere && local.owner !== id && !preserveAnonymousEdits)
     return tidy({ ...(d.profile as Profile), owner: id });
 
   let candidate: Profile = {
@@ -113,8 +120,9 @@ export async function syncProfile(local: Profile): Promise<Profile> {
     const put = await api('/api/profile', {
       method: 'PUT', headers: { 'content-type': 'application/json' }, body: JSON.stringify(candidate)
     });
-    if (!put?.stale)
-      return put?.profile ? tidy({ ...(put.profile as Profile), owner: id }) : candidate;
+    if (!put?.profile) throw new Error('profile write was not acknowledged');
+    if (!put.stale)
+      return tidy({ ...(put.profile as Profile), owner: id });
     candidate = { ...merge(candidate, put.profile as Profile, { canonicalIdsFrom: 'b' }), owner: id };
   }
 
