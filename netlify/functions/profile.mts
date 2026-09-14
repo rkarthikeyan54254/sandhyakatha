@@ -278,6 +278,10 @@ export default async (req: Request, _ctx: Context) => {
     let incoming: any;
     try { incoming = await req.json(); } catch { return Response.json({ error: 'bad json' }, { status: 400 }); }
     if (!incoming || incoming.v !== 1) return Response.json({ error: 'unknown profile version' }, { status: 400 });
+    // A cookie can switch accounts between the client's GET and PUT. Never
+    // store the prior family's explicitly owned snapshot under the new key.
+    if (incoming.owner && incoming.owner !== await accountId(session))
+      return Response.json({ error: 'account changed while saving' }, { status: 409 });
     if (JSON.stringify(incoming).length > 512_000) return Response.json({ error: 'too large' }, { status: 413 });
     try {
       return Response.json({ profile: await writeReconciled(store, key, incoming) });
