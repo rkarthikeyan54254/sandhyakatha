@@ -84,9 +84,12 @@ function card(s) {
   const { size, lines } = fitTitle(s.title, colW);
   const tease = wrap(s.tease ?? '', colW, 27, 0.49).slice(0, heroPeek ? 3 : 2);
   // The card advertises what /s/ actually serves, and prerender publishes the
-  // SHORT rendition only. Reading lengths.full here promised six minutes on a
-  // page that delivers three.
-  const r = s.lengths.short ?? s.lengths.full;
+  // Match what /s/ actually serves, which is the FULL telling (prerender.mjs
+  // takes s.lengths.full). This read short for a while, from back when the
+  // share page published the short rendition — so the card was advertising
+  // three minutes over a six-minute page and halving the thing the whole
+  // brand promises.
+  const r = s.lengths.full ?? s.lengths.short;
   const hero = heroDataUri(s.id);
   // The right-hand block (minutes, age) starts around x=900, so with the art
   // column the locus has ~350px, not the full width it used to have. Clip it

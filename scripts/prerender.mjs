@@ -246,24 +246,7 @@ Signed out, family reading history stays on your device. If you choose to sign i
 <button type="button" class="lexpop" id="lexpop" hidden aria-live="polite">
   <b></b><span></span><i></i>
 </button>
-<script>
-(() => {
-  const pop = document.getElementById('lexpop');
-  if (!pop) return;
-  document.addEventListener('click', e => {
-    const el = e.target.closest?.('.name[data-term]');
-    if (!el) return;
-    pop.querySelector('b').textContent = el.dataset.say || el.textContent || '';
-    pop.querySelector('span').textContent = el.dataset.gloss || '';
-    pop.querySelector('i').textContent = el.dataset.native || '';
-    pop.hidden = false;
-  });
-  pop.addEventListener('click', () => { pop.hidden = true; });
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') pop.hidden = true;
-  });
-})();
-</script>
+<script src="/lexicon.js" defer></script>
 </body></html>`;
 }
 
