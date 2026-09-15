@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0",
+  "previews": [
+    {
+      "storyId": "hanuman-reminded",
+      "defaultLocale": "ta-IN",
+      "locales": ["ta-IN", "hi-IN"]
+    }
+  ]
+}

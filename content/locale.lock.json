@@ -1,4 +1,15 @@
 {
   "generated": "2026-09-15",
-  "locales": {}
+  "locales": {
+    "hi-IN/hanuman-reminded": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "10539670a8e51dbe"
+    },
+    "ta-IN/hanuman-reminded": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "7cb8116c2097df62"
+    }
+  }
 }

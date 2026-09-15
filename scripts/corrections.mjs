@@ -37,7 +37,10 @@ for (const [story, list] of Object.entries(byStory)) {
   console.log(`\x1b[33m${story}\x1b[0m  \x1b[2m${list.length} report(s)\x1b[0m`);
   for (const c of list) {
     const when = c.at.slice(0, 16).replace('T', ' ');
-    console.log(`  \x1b[2m${when}  against version ${c.version ?? '?'}${c.country ? '  ' + c.country : ''}\x1b[0m`);
+    const locale = c.locale ? `  ${c.locale}` : '';
+    const category = c.category ? `  ${c.category}` : '';
+    const surface = c.surface ? `  ${c.surface}` : '';
+    console.log(`  \x1b[2m${when}  against version ${c.version ?? '?'}${locale}${category}${surface}${c.country ? '  ' + c.country : ''}\x1b[0m`);
     for (const line of String(c.note).split('\n')) console.log(`    ${line}`);
     console.log('');
   }

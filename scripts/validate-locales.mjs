@@ -121,7 +121,11 @@ for (const [langDir, file] of localeFiles()) {
     }
   }
 
-  for (const text of textFields(doc)) checkMarkup(rel, text, doc);
+  for (const text of textFields(doc)) {
+    checkMarkup(rel, text, doc);
+    if (script && !script.test(text.replace(/«[^»]+»/g, '')))
+      err(rel, `localized reader-facing text has no ${doc.language} script outside canonical entity markers`);
+  }
 
   const claimCount = source.source?.sourcing?.length ?? 0;
   if (!claimCount) err(rel, 'canonical story has no source.sourcing ledger');
@@ -184,6 +188,37 @@ for (const [langDir, file] of localeFiles()) {
 for (const key of Object.keys(lock.locales ?? {}))
   if (!docs.has(key)) err('content/locale.lock.json', `orphan locale lock ${key}`);
 
+/* ---------- explicit public preview allowlist ------------------------- */
+const previewPath = join(ROOT, 'content/locale-previews.json');
+let previewEditions = 0;
+if (existsSync(previewPath)) {
+  const preview = read('content/locale-previews.json');
+  if (preview.schemaVersion !== '1.0') err('content/locale-previews.json', 'schemaVersion must be 1.0');
+  const seenStories = new Set();
+  for (const [i, p] of (preview.previews ?? []).entries()) {
+    const where = `content/locale-previews.json previews[${i}]`;
+    if (!p?.storyId || !Array.isArray(p.locales) || !p.locales.length)
+      { err(where, 'storyId and at least one locale are required'); continue; }
+    if (seenStories.has(p.storyId)) err(where, `duplicate preview story ${p.storyId}`);
+    seenStories.add(p.storyId);
+    if (!p.locales.includes(p.defaultLocale)) err(where, `defaultLocale ${p.defaultLocale ?? 'missing'} is not in locales`);
+    if (new Set(p.locales).size !== p.locales.length) err(where, 'duplicate locale in allowlist');
+    const storyRel = `content/stories/${p.storyId}.json`;
+    if (!existsSync(join(ROOT, storyRel))) { err(where, `canonical story ${storyRel} is missing`); continue; }
+    const story = read(storyRel);
+    if (story.status !== 'published') err(where, `public preview source must be published, found ${story.status}`);
+    if (story.audience?.gated) err(where, 'gated stories cannot be exposed through the public locale preview lane');
+    for (const locale of p.locales) {
+      previewEditions += 1;
+      const key = `${locale}/${p.storyId}`;
+      const doc = docs.get(key);
+      if (!doc) { err(where, `allowlisted locale edition ${key} does not exist`); continue; }
+      if (doc.status === 'draft') err(where, `${key} is draft; only in-review or approved editions may be previewed`);
+      if (!doc.lengths?.short) err(where, `${key} has no independently written short rendition`);
+    }
+  }
+}
+
 if (warnings.length) {
   for (const w of warnings) console.warn(`WARN locale: ${w}`);
   if (STRICT) errors.push(...warnings.map(w => `strict warning: ${w}`));
@@ -193,5 +228,5 @@ if (errors.length) {
   console.error(`FAILED — ${errors.length} locale error(s)`);
   process.exit(1);
 }
-console.log(`locale editions: ${docs.size} · approved ${docs.size - awaiting} · awaiting human review ${awaiting}`);
+console.log(`locale editions: ${docs.size} · approved ${docs.size - awaiting} · awaiting human review ${awaiting} · public previews ${previewEditions}`);
 console.log(`OK — ${warnings.length} warning(s)`);

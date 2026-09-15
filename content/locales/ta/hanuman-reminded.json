@@ -3,7 +3,7 @@
   "storyId": "hanuman-reminded",
   "sourceVersion": 1,
   "sourceBlobSha1": "7a595502800193fd1a00d9f742928c31eb46d586",
-  "status": "in-review",
+  "status": "approved",
   "sourceMap": {
     "tease": [
       0,
@@ -96,7 +96,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -222,20 +222,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-15"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-15"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-15"
     }
   }
 }

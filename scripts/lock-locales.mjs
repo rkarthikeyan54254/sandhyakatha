@@ -2,7 +2,7 @@
 /** Freeze approved locale bytes after all human review gates pass. */
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { localeContentHash } from './lib/locale-content.mjs';
+import { gitBlobSha1, localeContentHash } from './lib/locale-content.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const localeRoot = join(ROOT, 'content/locales');
@@ -16,6 +16,25 @@ if (existsSync(localeRoot)) {
     for (const f of readdirSync(join(localeRoot, lang.name)).filter(x => x.endsWith('.json')).sort()) {
       const doc = JSON.parse(readFileSync(join(localeRoot, lang.name, f), 'utf8'));
       if (doc.status !== 'approved') continue;
+      const gates = [
+        ['languageEditor', doc.review?.languageEditor],
+        ['sourceFidelity', doc.review?.sourceFidelity],
+        ...Object.entries(doc.review?.nativeReadAloud ?? {}).map(([len, gate]) => [`nativeReadAloud.${len}`, gate])
+      ];
+      for (const [name, gate] of gates) {
+        if (gate?.status !== 'approved' || !gate.reviewer?.trim() || !gate.reviewedOn)
+          throw new Error(`${doc.locale}/${doc.storyId}: cannot lock — ${name} review is not fully approved`);
+      }
+      for (const [len, rendition] of Object.entries(doc.lengths ?? {})) {
+        if (!Number.isInteger(rendition.measuredSeconds) || rendition.measuredSeconds < 1)
+          throw new Error(`${doc.locale}/${doc.storyId}: cannot lock — ${len} has no measured native read-aloud duration`);
+      }
+      const sourcePath = join(ROOT, 'content/stories', `${doc.storyId}.json`);
+      if (!existsSync(sourcePath)) throw new Error(`${doc.locale}/${doc.storyId}: cannot lock — canonical story is missing`);
+      const sourceText = readFileSync(sourcePath, 'utf8');
+      const source = JSON.parse(sourceText);
+      if (source.version !== doc.sourceVersion) throw new Error(`${doc.locale}/${doc.storyId}: cannot lock — source version changed`);
+      if (gitBlobSha1(sourceText) !== doc.sourceBlobSha1) throw new Error(`${doc.locale}/${doc.storyId}: cannot lock — canonical story bytes changed`);
       const key = `${doc.locale}/${doc.storyId}`;
       out.locales[key] = {
         sourceVersion: doc.sourceVersion,

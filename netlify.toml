@@ -49,6 +49,17 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
+  for = "/preview/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/locale-preview.*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
   for = "/og/*"
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"

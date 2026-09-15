@@ -13,7 +13,7 @@ import { getStore } from '@netlify/blobs';
  * person typed. If they put personal details in the note anyway, that is the
  * one thing we hold, and PRIVACY.md says what happens to it.
  *
- * POST /api/correction        { storyId, version, note }
+ * POST /api/correction        { storyId, version, note, locale?, category?, surface? }
  * GET  /api/correction         everything, for whoever holds CORRECTIONS_KEY,
  *                              sent as `Authorization: Bearer <key>`.
  *
@@ -54,7 +54,10 @@ export default async (req: Request, _ctx: Context) => {
 
   if (req.method !== 'POST') return new Response('method not allowed', { status: 405 });
 
-  let body: { storyId?: string; version?: number; note?: string; hp?: string };
+  let body: {
+    storyId?: string; version?: number; note?: string; hp?: string;
+    locale?: string; category?: string; surface?: string;
+  };
   try { body = await req.json(); } catch { return Response.json({ error: 'bad json' }, { status: 400 }); }
 
   // A field no human sees and no human fills in.
@@ -62,8 +65,18 @@ export default async (req: Request, _ctx: Context) => {
 
   const storyId = String(body.storyId ?? '').trim();
   const note = String(body.note ?? '').trim();
+  const locale = String(body.locale ?? '').trim();
+  const category = String(body.category ?? '').trim();
+  const surface = String(body.surface ?? '').trim();
   if (!/^[a-z0-9-]{3,60}$/.test(storyId))
     return Response.json({ error: 'unknown story' }, { status: 400 });
+  if (locale && !/^[a-z]{2}-[A-Z]{2}$/.test(locale))
+    return Response.json({ error: 'bad locale' }, { status: 400 });
+  const allowedCategories = new Set(['unnatural-wording','name-pronunciation','source-tradition','tone-delivery','other']);
+  if (category && !allowedCategories.has(category))
+    return Response.json({ error: 'bad category' }, { status: 400 });
+  if (surface && surface !== 'locale-preview')
+    return Response.json({ error: 'bad surface' }, { status: 400 });
   if (note.length < 4) return Response.json({ error: 'tell us what is wrong' }, { status: 400 });
   if (note.length > MAX_NOTE) return Response.json({ error: 'too long' }, { status: 413 });
 
@@ -73,6 +86,9 @@ export default async (req: Request, _ctx: Context) => {
   await store.setJSON(key, {
     storyId, at, note,
     version: Number.isFinite(body.version) ? Number(body.version) : null,
+    locale: locale || null,
+    category: category || null,
+    surface: surface || null,
     // Coarse enough to spot a flood, useless for identifying anybody.
     country: req.headers.get('x-nf-geo') ? JSON.parse(atob(req.headers.get('x-nf-geo')!))?.country?.code ?? null : null
   });
