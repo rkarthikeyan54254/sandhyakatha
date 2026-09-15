@@ -309,14 +309,14 @@
       }
     },
     "andal-garland": {
-      "canonStatus": "draft",
-      "storyVersion": null,
+      "canonStatus": "published",
+      "storyVersion": 1,
       "image": {
-        "status": "approved_pending_story_review",
+        "status": "approved",
         "type": "illustration",
         "file": "/media/stories/andal-garland/hero.webp",
         "reviewedBy": "rama",
-        "reviewedOn": "2026-09-13"
+        "reviewedOn": "2026-09-15"
       },
       "voiceover": {
         "en": {

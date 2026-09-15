@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -10,6 +10,11 @@
       "version": 1,
       "status": "published",
       "hash": "d20b5932222cbfa6"
+    },
+    "andal-garland": {
+      "version": 1,
+      "status": "published",
+      "hash": "fbafeb4c4d0180a1"
     },
     "annapurna-bhiksha": {
       "version": 1,
@@ -126,6 +131,11 @@
       "status": "published",
       "hash": "046b472407b255bf"
     },
+    "karaikkal-mangoes": {
+      "version": 1,
+      "status": "published",
+      "hash": "b1fc3fd41b9527e6"
+    },
     "karna-armour": {
       "version": 1,
       "status": "published",
@@ -156,10 +166,25 @@
       "status": "published",
       "hash": "ac509259bfabfaf6"
     },
+    "nammalvar-silence": {
+      "version": 1,
+      "status": "published",
+      "hash": "24fa97085115f26e"
+    },
+    "nandanar-bull": {
+      "version": 1,
+      "status": "published",
+      "hash": "b3b6bb06dd240c71"
+    },
     "narakasura": {
       "version": 1,
       "status": "published",
       "hash": "753688f3d28d927f"
+    },
+    "panar-shoulders": {
+      "version": 1,
+      "status": "published",
+      "hash": "b0e837aca72a5b28"
     },
     "parvati-decides": {
       "version": 1,
@@ -240,6 +265,11 @@
       "version": 1,
       "status": "published",
       "hash": "d4e54b144bfa90d5"
+    },
+    "three-in-doorway": {
+      "version": 1,
+      "status": "published",
+      "hash": "239b93201411107c"
     },
     "valmiki-first-shloka": {
       "version": 1,
