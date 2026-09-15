@@ -970,6 +970,91 @@
           "file": null
         }
       }
+    },
+    "karaikkal-mangoes": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/karaikkal-mangoes/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "three-in-doorway": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/three-in-doorway/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "nammalvar-silence": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/nammalvar-silence/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "nandanar-bull": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/nandanar-bull/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "panar-shoulders": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/panar-shoulders/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

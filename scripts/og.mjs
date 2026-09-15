@@ -82,7 +82,13 @@ function card(s) {
   const heroPeek = existsSync(join(ROOT, `public/media/stories/${s.id}/hero.webp`));
   const colW = heroPeek ? 1122 - (HERO_W + 56) : 1044;
   const { size, lines } = fitTitle(s.title, colW);
-  const tease = wrap(s.tease ?? '', colW, 27, 0.49).slice(0, heroPeek ? 3 : 2);
+  // A tease cut at the line limit used to just stop -- "What happens next is"
+  // with no mark, which reads as a bug rather than as a withheld ending.
+  const teaseAll = wrap(s.tease ?? '', colW, 27, 0.49);
+  const teaseMax = heroPeek ? 3 : 2;
+  const tease = teaseAll.slice(0, teaseMax);
+  if (teaseAll.length > teaseMax && tease.length)
+    tease[tease.length - 1] = tease[tease.length - 1].replace(/[\s,;:—-]+$/, '') + '…';
   // The card advertises what /s/ actually serves, and prerender publishes the
   // Match what /s/ actually serves, which is the FULL telling (prerender.mjs
   // takes s.lengths.full). This read short for a while, from back when the
@@ -94,10 +100,16 @@ function card(s) {
   // The right-hand block (minutes, age) starts around x=900, so with the art
   // column the locus has ~350px, not the full width it used to have. Clip it
   // rather than let it run underneath.
-  const locusRoom = Math.floor((900 - (hero ? HERO_W + 56 : 78)) / (21 * 0.46));
-  const locus = (s.source.locus ?? '').length > locusRoom
-    ? (s.source.locus ?? '').slice(0, locusRoom - 1).replace(/[\s,—-]+$/, '') + '…'
-    : (s.source.locus ?? '');
+  // The reading time and age sit top-right now, so the footer owns the full
+  // width of the type column; a long work title no longer runs underneath
+  // "6 minutes, read aloud". Both lines still get clipped if they overrun.
+  const fit = (t, px, room) => {
+    const n = Math.floor(room / px);
+    return t.length > n ? t.slice(0, n - 1).replace(/[\s,;—-]+$/, '') + '…' : t;
+  };
+  const footRoom = 1122 - (hero ? HERO_W + 56 : 78);
+  const locus = fit(s.source.locus ?? '', 21 * 0.46, footRoom);
+  const work = fit(s.source.work ?? '', 22 * 0.52, footRoom);
   const X = hero ? HERO_W + 56 : 78;          // left edge of the type
   const RIGHT = 1122;                          // right edge, unchanged
   const titleTop = 232 - (lines.length - 1) * (size * 0.55);
@@ -129,6 +141,10 @@ ${hero ? `<clipPath id="art"><rect x="0" y="0" width="${HERO_W}" height="630"/><
 <text x="${X + 40}" y="80" font-family="Karla" font-size="23" font-weight="700"
       letter-spacing="1.6" fill="#f3e7d3">SANDHYA KATHA</text>
 <text x="${X + 40}" y="105" font-family="Tiro Devanagari Sanskrit" font-size="17" fill="#a97c3a">संध्या कथा</text>
+<text x="1122" y="80" text-anchor="end" font-family="Karla" font-size="21" font-weight="600"
+      fill="#c9baa4">${r.minutes} minutes, read aloud</text>
+<text x="1122" y="105" text-anchor="end" font-family="Karla" font-size="19"
+      fill="#948aa6">Ages ${s.audience.minAge} and up</text>
 
 ${lines.map((l, i) => `<text x="${X}" y="${titleTop + i * size * 1.14}" font-family="Gentium Book Plus"
       font-size="${size}" fill="#f3e7d3">${esc(l)}</text>`).join('\n')}
@@ -137,13 +153,9 @@ ${tease.map((l, i) => `<text x="${X}" y="${teaseTop + i * 38}" font-family="Gent
       font-size="27" font-style="italic" fill="#c9baa4">${esc(l)}</text>`).join('\n')}
 
 <line x1="${X}" y1="516" x2="1122" y2="516" stroke="#302941" stroke-width="1.5"/>
-<text x="${X}" y="558" font-family="Karla" font-size="22" font-weight="600" fill="#f0b458">${esc(s.source.work)}</text>
+<text x="${X}" y="558" font-family="Karla" font-size="22" font-weight="600" fill="#f0b458">${esc(work)}</text>
 <text x="${X}" y="589" font-family="Gentium Book Plus" font-size="21" font-style="italic"
       fill="#948aa6">${esc(locus)}</text>
-<text x="1122" y="558" text-anchor="end" font-family="Karla" font-size="21" font-weight="600"
-      fill="#c9baa4">${r.minutes} minutes, read aloud</text>
-<text x="1122" y="588" text-anchor="end" font-family="Karla" font-size="19"
-      fill="#948aa6">Ages ${s.audience.minAge} and up</text>
 </svg>`;
 }
 

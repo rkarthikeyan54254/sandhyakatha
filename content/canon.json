@@ -671,7 +671,7 @@
       "value": "a rule that did not move",
       "hook": "A man who is not allowed inside the temple stands outside for years. The stone bull in the doorway is what moves.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -691,7 +691,7 @@
       "value": "a guest fed before the household",
       "hook": "Two mangoes came to the house. She gave one away. Now her husband is home and wants the second one, and it is very good.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -727,7 +727,7 @@
       "value": "room made where there was none",
       "hook": "A doorway with space for one man to lie down. Then two to sit. Then three to stand. Then someone else pushes in, in the dark.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -766,7 +766,7 @@
       "value": "what you do to him you do to me",
       "hook": "The temple priest throws a stone at a singer who will not move off the path. That night he is told to go back and carry the man in on his shoulders.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -820,7 +820,7 @@
       "value": "a question worth a long walk",
       "hook": "A baby who never cried, never fed, never spoke, sitting in a hollow tree for sixteen years. Then a stranger asks him one question and he answers it.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 2,
       "gated": false
     },
@@ -1099,8 +1099,8 @@
       "title": "Hanumān Wrote One Too",
       "corpus": "other-ramayana",
       "tradition": "folk",
-      "work": "Told about the Hanumannāṭaka (Mahānāṭaka), attributed to Dāmodara Miśra",
-      "locus": "The traditional account of how the Hanumannāṭaka came to exist",
+      "work": "Hanumannāṭaka (Mahānāṭaka)",
+      "locus": "The traditional account of how the play came to exist",
       "stability": "folk",
       "minAge": 9,
       "sensitivity": [],
