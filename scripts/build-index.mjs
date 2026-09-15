@@ -5,6 +5,7 @@
  *    public/data/lexicon.json  pronunciation and glosses
  *  Gated stories are included but flagged; the client decides whether to show them. */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { approvedHeroUrl } from './lib/media.mjs';
 const ROOT = new URL('..', import.meta.url).pathname;
@@ -28,11 +29,12 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
   const s = read(`content/stories/${f}`);
   if (s.status !== 'published') continue;
   const hero = approvedHero(s);
-  writeFileSync(join(ROOT, `public/data/s/${s.id}.json`), JSON.stringify({
-    ...s, ...(hero ? { hero } : {})
-  }));
+  const builtStory = { ...s, ...(hero ? { hero } : {}) };
+  const builtStoryJson = JSON.stringify(builtStory);
+  const storyRevision = createHash('sha256').update(builtStoryJson).digest('hex').slice(0, 12);
+  writeFileSync(join(ROOT, `public/data/s/${s.id}.json`), builtStoryJson);
   index.push({
-    id: s.id, title: s.title, tease: s.tease, version: s.version, ...(hero ? { hero } : {}),
+    id: s.id, title: s.title, tease: s.tease, version: s.version, storyRevision, ...(hero ? { hero } : {}),
     corpus: s.source.corpus, tradition: s.source.tradition, work: s.source.work,
     locus: s.source.locus, stability: s.source.stability,
     minAge: s.audience.minAge, sensitivity: s.audience.sensitivity ?? [],

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { existsSync, readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { CACHE_NAMES, RUNTIME_CACHING } from './lib/cache-policy.mjs';
 
@@ -25,6 +26,10 @@ function assertNetworkFirst(route, label, expectedCache) {
 
 assertNetworkFirst(routeByCacheName(CACHE_NAMES.stories), 'story JSON', CACHE_NAMES.stories);
 assertNetworkFirst(routeByCacheName(CACHE_NAMES.corpus), 'index/lexicon JSON', CACHE_NAMES.corpus);
+
+const storyRoute = routeByCacheName(CACHE_NAMES.stories);
+if (storyRoute && !String(storyRoute.urlPattern).includes('v=[a-f0-9]{12}'))
+  fail('story JSON: route does not recognize content-revision query URLs');
 
 const art = routeByCacheName(CACHE_NAMES.art);
 if (!art) fail('story art: route is missing');
@@ -70,19 +75,26 @@ else {
   let heroes = 0;
 
   for (const card of index.stories ?? []) {
-    if (!card.hero) continue;
-    heroes += 1;
-
-    if (!/\/media\/stories\/[^/]+\/hero\.webp\?v=[a-f0-9]{12}$/.test(card.hero))
-      fail(`${card.id}: hero is not content-addressed: ${card.hero}`);
-
     const storyPath = join(dist, 'data', 's', `${card.id}.json`);
     if (!existsSync(storyPath)) {
       fail(`${card.id}: built story JSON missing`);
       continue;
     }
 
-    const story = JSON.parse(readFileSync(storyPath, 'utf8'));
+    const storyJson = readFileSync(storyPath, 'utf8');
+    const expectedRevision = createHash('sha256').update(storyJson).digest('hex').slice(0, 12);
+    if (!/^[a-f0-9]{12}$/.test(card.storyRevision ?? ''))
+      fail(`${card.id}: index has invalid storyRevision ${card.storyRevision ?? 'missing'}`);
+    else if (card.storyRevision !== expectedRevision)
+      fail(`${card.id}: storyRevision does not match built story JSON`);
+
+    if (!card.hero) continue;
+    heroes += 1;
+
+    if (!/\/media\/stories\/[^/]+\/hero\.webp\?v=[a-f0-9]{12}$/.test(card.hero))
+      fail(`${card.id}: hero is not content-addressed: ${card.hero}`);
+
+    const story = JSON.parse(storyJson);
     if (story.hero !== card.hero)
       fail(`${card.id}: card hero and story hero differ`);
 
@@ -95,6 +107,14 @@ else {
     fail('no content-addressed heroes found in built index');
 }
 
+const appSource = readFileSync(join(ROOT, 'src', 'App.tsx'), 'utf8');
+if (!appSource.includes('card?.storyRevision') || !appSource.includes('.json?v=${card.storyRevision}'))
+  fail('App reader does not request content-revisioned story JSON');
+for (const retired of ['stories', 'corpus', 'story-art', 'stories-v2', 'corpus-v2']) {
+  if (!appSource.includes(`'${retired}'`))
+    fail(`App cache migration does not retire ${retired}`);
+}
+
 if (errors.length) {
   for (const e of errors) console.error(`ERROR cache gate: ${e}`);
   console.error(`FAILED — ${errors.length} cache correctness error(s)`);
@@ -103,5 +123,5 @@ if (errors.length) {
 
 console.log(
   `cache gates: PASS — editorial JSON is network-first/revalidated; ` +
-  `art is content-addressed; runtime caches are ${CACHE_NAMES.stories}, ${CACHE_NAMES.corpus}, ${CACHE_NAMES.art}`
+  `story JSON is content-revisioned; art is content-addressed; runtime caches are ${CACHE_NAMES.stories}, ${CACHE_NAMES.corpus}, ${CACHE_NAMES.art}`
 );

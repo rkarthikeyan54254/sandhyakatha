@@ -84,6 +84,28 @@ export default function App() {
   useEffect(() => { P.requestPersistence(); }, []);
 
   /*
+   * One-time-by-existence cache migration.
+   *
+   * Older Sandhya Katha service workers cached story JSON at stable URLs such
+   * as /data/s/pusalar-temple.json. Those entries can outlive both a story
+   * version change and the addition of reviewed art. The app now requests a
+   * content-revisioned URL, so these caches are no longer valid inputs.
+   *
+   * Cache deletion is intentionally best-effort and does not touch profile
+   * storage, account state, the Workbox precache, fonts, or current art.
+   */
+  useEffect(() => {
+    if (!('caches' in window)) return;
+    const retired = new Set([
+      'stories', 'corpus', 'story-art',
+      'stories-v2', 'corpus-v2'
+    ]);
+    void caches.keys()
+      .then(names => Promise.all(names.filter(n => retired.has(n)).map(n => caches.delete(n))))
+      .catch(() => {});
+  }, []);
+
+  /*
    * Story completion already syncs immediately. Settings used not to sync at
    * all: rename, age, active child, gate and deletion lived only in localStorage
    * until some unrelated later action. Debounce just those settings so typing a
@@ -174,7 +196,11 @@ export default function App() {
     setReaderWasTonightPick(tab === 'tonight' && id === pick?.story.id);
     setReaderWasReadBefore(!!heard[id]);
     try {
-      const s: Story = await (await fetch(`/data/s/${id}.json`)).json();
+      const card = cards.find(c => c.id === id);
+      const storyUrl = card?.storyRevision
+        ? `/data/s/${id}.json?v=${card.storyRevision}`
+        : `/data/s/${id}.json`;
+      const s: Story = await (await fetch(storyUrl)).json();
       track('story_opened', {
         story_id: s.id,
         corpus: s.source.corpus,

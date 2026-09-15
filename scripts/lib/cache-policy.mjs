@@ -7,15 +7,15 @@
  * Artwork is content-addressed in the URL, so CacheFirst is safe.
  */
 export const CACHE_NAMES = Object.freeze({
-  stories: 'stories-v2',
-  corpus: 'corpus-v2',
+  stories: 'stories-v3',
+  corpus: 'corpus-v3',
   art: 'story-art-v2',
   fonts: 'fonts'
 });
 
 export const RUNTIME_CACHING = [
   {
-    urlPattern: /\/data\/s\/.*\.json$/,
+    urlPattern: /\/data\/s\/.*\.json(?:\?v=[a-f0-9]{12})?$/,
     handler: 'NetworkFirst',
     options: {
       cacheName: CACHE_NAMES.stories,

@@ -4,7 +4,7 @@ import type { Card } from './types';
 import type { Panchanga } from './panchanga';
 
 const card = (o: Partial<Card>): Card => ({
-  id: 'x', title: 'X', tease: '', version: 1, corpus: 'bhagavata', tradition: 'sanskrit',
+  id: 'x', title: 'X', tease: '', version: 1, storyRevision: '000000000000', corpus: 'bhagavata', tradition: 'sanskrit',
   work: '', locus: '', stability: 'stable', minAge: 5, sensitivity: [], gated: false,
   careNote: null, values: [], calendar: {}, characters: [], minutes: { full: 6 }, linked: null, ...o
 });
@@ -89,7 +89,7 @@ describe('the placeholder calendar', () => {
     festivals: [], season: 'monsoon-end', approximate: true, ...o
   });
   const c = (o: Partial<Card>): Card => ({
-    id: 'x', title: 'X', tease: '', version: 1, corpus: 'bhagavata', tradition: 'sanskrit',
+    id: 'x', title: 'X', tease: '', version: 1, storyRevision: '000000000000', corpus: 'bhagavata', tradition: 'sanskrit',
     work: '', locus: '', stability: 'stable', minAge: 5, sensitivity: [], gated: false,
     careNote: null, values: [], calendar: {}, characters: [], minutes: { full: 6 }, linked: null, ...o
   });
