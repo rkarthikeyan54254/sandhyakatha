@@ -5,38 +5,45 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const draft = JSON.parse(readFileSync(resolve(here, 'adaptations.json'), 'utf8'));
 const sourceText = readFileSync(resolve(here, '../../../content/stories/hanuman-reminded.json'), 'utf8');
 const source = JSON.parse(sourceText);
 const lexicon = JSON.parse(readFileSync(resolve(here, '../../../content/lexicon.json'), 'utf8'));
-assert.equal(source.id, draft.storyId);
-assert.equal(source.version, draft.sourceVersion, 'Source changed: adaptations need review');
+const localeDocs = Object.fromEntries(['hi', 'ta'].map(lang => [lang,
+  JSON.parse(readFileSync(resolve(here, `../../../content/locales/${lang}/hanuman-reminded.json`), 'utf8'))
+]));
+const sourceBlobSha1 = createHash('sha1')
+  .update(`blob ${Buffer.byteLength(sourceText, 'utf8')}\0`)
+  .update(sourceText)
+  .digest('hex');
 assert.equal(source.status, 'published');
-assert.equal(draft.publicationApproved, false);
-assert.equal(draft.rendition, 'short');
 const requiredScenes = ['shore', 'limits', 'angada', 'silence', 'reminder', 'childhood', 'call', 'growth', 'declaration', 'promise', 'relief', 'mountain', 'landing'];
 for (const lang of ['hi', 'ta']) {
-  const edition = draft[lang];
+  const doc = localeDocs[lang];
+  const edition = { ...doc, blocks: doc.lengths.short.blocks };
+  assert.equal(doc.storyId, source.id);
+  assert.equal(doc.sourceVersion, source.version, 'Source version changed: locale needs review');
+  assert.equal(doc.sourceBlobSha1, sourceBlobSha1, 'Source bytes changed: locale needs review');
+  assert.notEqual(doc.status, 'approved', 'Pilot preview should not bypass human locale review');
   assert.equal(edition.blocks.filter(b => b.t === 'slow').length, 1);
   assert.equal(edition.blocks.at(-1).t, 'slow');
-  assert.equal(edition.blocks.filter(b => b.t === 'beat').length, 2);
   for (const scene of requiredScenes) assert(edition.blocks.some(b => b.scene === scene), `Missing ${scene}`);
-  const names = new Set(Object.values(draft.names).map(n => n[lang]));
+  const names = new Set(Object.keys(doc.displayNames));
   for (const b of edition.blocks) {
-    assert(['p', 'beat', 'slow'].includes(b.t));
-    for (const [, name] of (b.text ?? '').matchAll(/«([^»]+)»/g)) assert(names.has(name), `Unknown ${lang} name: ${name}`);
+    assert(['p', 'beat', 'slow', 'aside'].includes(b.t));
+    for (const [, name] of (b.text ?? '').matchAll(/«([^»]+)»/g)) assert(names.has(name), `Unknown ${lang} canonical name: ${name}`);
     assert.equal(((b.text ?? '').match(/_/g) ?? []).length % 2, 0, 'Unpaired speech marker');
   }
-  assert.equal(edition.close.ifTheyAsk.length, 3);
+  assert.equal(edition.close.ifTheyAsk.length, doc.sourceMap.ifTheyAsk.length);
   assert((lang === 'hi' ? /\p{Script=Devanagari}/u : /\p{Script=Tamil}/u).test(edition.title));
+  for (const name of Object.keys(doc.displayNames)) assert(lexicon[name], `Missing canonical name: ${name}`);
 }
-for (const name of Object.keys(draft.names)) assert(lexicon[name], `Missing canonical name: ${name}`);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
-const prose = s => esc(s).replace(/«([^»]+)»/g, '$1').replace(/_([^_]+)_/g, '<em>$1</em>');
+const prose = (s, names = {}) => esc(s).replace(/«([^»]+)»/g, (_, term) => esc(names[term] ?? term)).replace(/_([^_]+)_/g, '<em>$1</em>');
 const editions = {
   en: { ...source, blocks: source.lengths.short.blocks, traditionNote: source.source.traditionNote,
     parentNote: 'This telling briefly mentions a broken jaw from Indra’s thunderbolt. Keep it brief; do not elaborate the injury. Yojana is an old unit of distance; no kilometre conversion is needed here.' },
-  hi: draft.hi, ta: draft.ta
+  hi: { ...localeDocs.hi, blocks: localeDocs.hi.lengths.short.blocks },
+  ta: { ...localeDocs.ta, blocks: localeDocs.ta.lengths.short.blocks }
 };
 const labels = {
   en: ['English', 'Published baseline · 3-minute edition', 'Pause', 'Slowly', 'After the story', 'Only if your child needs a starting point', 'If they ask', 'For the adult · not aloud', 'Source & tradition'],
@@ -45,7 +52,7 @@ const labels = {
 };
 const panels = Object.entries(editions).map(([lang, e]) => {
   const l = labels[lang];
-  return `<article id="${lang}" lang="${lang}" ${lang === 'en' ? '' : 'hidden'}><div class="eyebrow">${l[0]} / ${l[1]}</div><h2>${esc(e.title)}</h2><p class="tease">${esc(e.tease)}</p><div class="story">${e.blocks.map(b => b.t === 'beat' ? `<div class="beat" aria-label="${l[2]}">· · · <span>${l[2]}</span></div>` : `<div class="${b.t}">${b.t === 'slow' ? `<span class="cue">${l[3]}</span>` : ''}<p>${prose(b.text)}</p></div>`).join('')}</div><section class="close"><h3>${l[4]}</h3><p>${prose(e.close.question)}</p><details><summary>${l[5]}</summary><p>${prose(e.close.seed)}</p></details></section><section class="notes"><h3>${l[7]}</h3><p>${esc(e.parentNote)}</p><details><summary>${l[8]}</summary><p>${esc(e.traditionNote)}</p><p lang="en">Vālmīki Rāmāyaṇa · Kiṣkindhākāṇḍa 4.63–66. Separate curse background: Uttarakāṇḍa 7.36. Adaptation follows the existing approved source ledger; not a new independent source review.</p></details><h3>${l[6]}</h3>${e.close.ifTheyAsk.map(f => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section></article>`;
+  return `<article id="${lang}" lang="${lang}" ${lang === 'en' ? '' : 'hidden'}><div class="eyebrow">${l[0]} / ${l[1]}</div><h2>${esc(e.title)}</h2><p class="tease">${esc(e.tease)}</p><div class="story">${e.blocks.map(b => b.t === 'beat' ? `<div class="beat" aria-label="${l[2]}">· · · <span>${l[2]}</span></div>` : `<div class="${b.t}">${b.t === 'slow' ? `<span class="cue">${l[3]}</span>` : ''}<p>${prose(b.text, e.displayNames)}</p></div>`).join('')}</div><section class="close"><h3>${l[4]}</h3><p>${prose(e.close.question, e.displayNames)}</p><details><summary>${l[5]}</summary><p>${prose(e.close.seed, e.displayNames)}</p></details></section><section class="notes"><h3>${l[7]}</h3><p>${esc(e.parentNote)}</p><details><summary>${l[8]}</summary><p>${esc(e.traditionNote)}</p><p lang="en">Vālmīki Rāmāyaṇa · Kiṣkindhākāṇḍa 4.63–66. Separate curse background: Uttarakāṇḍa 7.36. Adaptation follows the existing approved source ledger; not a new independent source review.</p></details><h3>${l[6]}</h3>${e.close.ifTheyAsk.map(f => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('')}</section></article>`;
 }).join('');
 const html = `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>One story, three voices · Sandhya Katha pilot</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f7f1e6;color:#292820;font-family:Georgia,serif}header{max-width:1100px;margin:auto;padding:48px 24px 24px}.eyebrow{font:12px/1.8 system-ui,sans-serif;letter-spacing:.04em;color:#75654d}h1{font-size:clamp(32px,5vw,52px);font-weight:400;margin:12px 0}header p{max-width:740px;line-height:1.7}.notice{padding:12px 16px;background:#ebe2d1;border-left:3px solid #a65a38;font:14px/1.6 system-ui,sans-serif}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}button{font:16px/1.5 system-ui,sans-serif;padding:10px 20px;border:1px solid #b7a68a;border-radius:24px;background:transparent;color:#433c2d;cursor:pointer}button[aria-pressed=true]{background:#344d40;border-color:#344d40;color:white}button:focus-visible,summary:focus-visible{outline:3px solid #aa5935;outline-offset:3px}main{max-width:790px;margin:auto;padding:20px 24px 60px}article[hidden]{display:none}article h2{font-size:32px;font-weight:500;line-height:1.6;margin:12px 0}article p{font-size:21px;line-height:1.85;margin:0 0 17px}.tease{color:#73634c;font-style:italic;border-bottom:1px solid #d8cdb9;padding-bottom:25px}.story{padding-top:14px}em{font-style:normal;color:#70462d}.beat{margin:28px 0;color:#9f7751;letter-spacing:8px}.beat span,.cue{font:12px/1.8 system-ui,sans-serif;letter-spacing:0;color:#77654e}.slow{margin:28px 0;padding:18px 22px;border-left:3px solid #a65a38;background:#f0e7d8}.slow p{margin:6px 0}.close{padding-top:16px;border-top:1px solid #cbbda4}.notes{margin-top:32px;border-top:1px solid #cbbda4;padding-top:20px}.notes p,details p{font-size:17px;line-height:1.85}h3{font:600 15px/1.8 system-ui,sans-serif;color:#506052}summary{cursor:pointer;font-size:17px;line-height:1.8;padding:10px 0}details{border-bottom:1px solid #dfd4c0}footer{max-width:1000px;margin:auto;padding:20px 24px 40px;font:12px/1.8 system-ui,sans-serif;color:#75654d}article:lang(hi){font-family:'Kohinoor Devanagari','Noto Serif Devanagari',serif}article:lang(ta){font-family:'Tamil MN','Noto Serif Tamil',serif}article:lang(ta) p{font-size:20px;line-height:2}main.compare{max-width:1600px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}main.compare article h2{font-size:25px}main.compare article p{font-size:18px}main.compare article{min-width:0}@media(max-width:1000px){main.compare{display:block}main.compare article{padding-bottom:48px;margin-bottom:30px;border-bottom:2px solid #b7a68a}}@media print{nav{display:none}article[hidden]{display:block}article{break-before:page}main.compare{display:block}.notice{background:none}}

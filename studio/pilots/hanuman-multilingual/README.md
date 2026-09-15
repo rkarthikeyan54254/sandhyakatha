@@ -69,3 +69,31 @@ Run `node studio/pilots/hanuman-multilingual/preview.mjs /absolute/path/to/previ
 English is loaded directly from its source JSON; never maintain a second English copy. The preview validates status/version, script presence, known name markers, scene coverage and the single final landing. These are mechanical checks, **not grammar or source certification**.
 
 If the pilot passes: use one story identity with independently reviewed locale editions and source-version linkage. Switching language must never change which child/story owns reading history. Design that persisted-state interaction separately under `docs/PERSISTED-STATE-SAFETY.md`. Don't add a global automatic translation fallback, silently serve unreviewed languages, or publish mass-localized versions.
+
+## Phase 1/2 implementation status
+
+The pilot has now been migrated into the production-shaped locale contract under
+`content/locales/hi/hanuman-reminded.json` and
+`content/locales/ta/hanuman-reminded.json`. `adaptations.json` is retained as the
+original Codex pilot snapshot only; do not make new editorial changes there.
+
+The locale files keep canonical entity identity inside `«... »` markers (for
+example `«Hanumān»`) and supply language-specific `displayNames`. This prevents
+Tamil/Hindi spelling from becoming a second entity identity. Every localized
+scene maps back to one or more entries in the canonical story's `source.sourcing`
+ledger. The files are also pinned to the exact canonical story bytes by Git blob
+SHA-1, so any source-story edit forces an explicit locale review.
+
+Mechanical checks:
+
+```bash
+npm run validate:locales
+npm run validate:strict
+node studio/pilots/hanuman-multilingual/preview.mjs /tmp/hanuman-multilingual.html
+```
+
+These checks do **not** approve either language. Both editions remain `in-review`
+with native read-aloud, second-language-editor and source-fidelity gates pending.
+Only an `approved` locale may be entered into `content/locale.lock.json`; run
+`npm run lock:locales` after those human gates are actually complete.
+

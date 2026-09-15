@@ -14,9 +14,9 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "preview": "vite preview",
     "content": "node scripts/build-index.mjs",
-    "validate": "node scripts/validate.mjs",
-    "validate:strict": "node scripts/validate.mjs --strict",
-    "lock": "node scripts/lock.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs",
+    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict",
+    "lock": "node scripts/lock.mjs && node scripts/lock-locales.mjs",
     "ssml": "node scripts/render-audio.mjs",
     "og": "node scripts/og.mjs",
     "calendar": "python3 scripts/panchanga.py 4",
@@ -27,7 +27,9 @@
     "social": "node scripts/social.mjs",
     "reel": "node scripts/reel.mjs",
     "review": "node scripts/review.mjs",
-    "corrections": "node scripts/corrections.mjs"
+    "corrections": "node scripts/corrections.mjs",
+    "validate:locales": "node scripts/validate-locales.mjs",
+    "lock:locales": "node scripts/lock-locales.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

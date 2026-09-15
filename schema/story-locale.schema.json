@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sandhyakatha/schema/story-locale.schema.json",
+  "title": "SandhyaKatha reviewed locale edition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion", "storyId", "sourceVersion", "sourceBlobSha1",
+    "locale", "language", "status", "register", "title", "tease",
+    "displayNames", "sourceMap", "lengths", "parentNote",
+    "traditionNote", "close", "review"
+  ],
+  "$defs": {
+    "claimRefs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "integer", "minimum": 0 }
+    },
+    "block": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["t", "scene", "text"],
+          "properties": {
+            "t": { "enum": ["p", "slow", "aside"] },
+            "scene": { "type": "string", "minLength": 1 },
+            "text": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["t", "scene"],
+          "properties": {
+            "t": { "const": "beat" },
+            "scene": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "rendition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["measuredSeconds", "blocks"],
+      "properties": {
+        "measuredSeconds": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "integer", "minimum": 1 }
+          ]
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/block" }
+        }
+      }
+    },
+    "reviewGate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reviewer", "reviewedOn"],
+      "properties": {
+        "status": { "enum": ["pending", "changes-requested", "approved"] },
+        "reviewer": { "type": ["string", "null"] },
+        "reviewedOn": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "format": "date" }
+          ]
+        }
+      }
+    },
+    "followup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["q", "a"],
+      "properties": {
+        "q": { "type": "string", "minLength": 1 },
+        "a": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "storyId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "sourceVersion": { "type": "integer", "minimum": 1 },
+    "sourceBlobSha1": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+    "locale": { "type": "string", "pattern": "^[a-z]{2}-[A-Z]{2}$" },
+    "language": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "status": { "enum": ["draft", "in-review", "approved"] },
+    "register": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "tease": { "type": "string", "minLength": 1 },
+    "displayNames": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "sourceMap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tease", "scenes", "parentNote", "traditionNote", "ifTheyAsk"],
+      "properties": {
+        "tease": { "$ref": "#/$defs/claimRefs" },
+        "scenes": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "$ref": "#/$defs/claimRefs" }
+        },
+        "parentNote": { "$ref": "#/$defs/claimRefs" },
+        "traditionNote": { "$ref": "#/$defs/claimRefs" },
+        "ifTheyAsk": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/claimRefs" }
+        }
+      }
+    },
+    "lengths": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "short": { "$ref": "#/$defs/rendition" },
+        "full": { "$ref": "#/$defs/rendition" }
+      }
+    },
+    "parentNote": { "type": "string", "minLength": 1 },
+    "traditionNote": { "type": "string", "minLength": 1 },
+    "close": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "seed", "ifTheyAsk"],
+      "properties": {
+        "question": { "type": "string", "minLength": 1 },
+        "seed": { "type": "string", "minLength": 1 },
+        "ifTheyAsk": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/followup" }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nativeReadAloud", "languageEditor", "sourceFidelity"],
+      "properties": {
+        "nativeReadAloud": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "short": { "$ref": "#/$defs/reviewGate" },
+            "full": { "$ref": "#/$defs/reviewGate" }
+          }
+        },
+        "languageEditor": { "$ref": "#/$defs/reviewGate" },
+        "sourceFidelity": { "$ref": "#/$defs/reviewGate" }
+      }
+    }
+  }
+}
