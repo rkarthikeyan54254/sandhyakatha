@@ -1,0 +1,332 @@
+{
+  "id": "nandanar-bull",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-15",
+  "title": "Nandanār and the Bull",
+  "tease": "He made the drums the temples played on, and was never allowed in to hear them. At Tiruppuṅkūr the stone bull is in the way.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Periya Purāṇam",
+    "locus": "Tiru Nāḷaippōvār Nāyaṉār Purāṇam",
+    "stability": "regional",
+    "traditionNote": "Sēkkiḻār set this down in the twelfth century; Nampiyāṇṭār Nampi a century earlier already calls him the servant who was outside the castes. The Tiruppuṅkūr episode is told the same way everywhere. What follows at Chidambaram is not, and this telling does not go there.",
+    "checkedAgainst": [
+      "Sēkkiḻār, Periya Purāṇam — Tiru Nāḷaippōvār Nāyaṉār Purāṇam, Mummaiyāl Ulakāṇṭa Sarukkam; T. N. Ramachandran's English verse translation, st. 11–17",
+      "G. Vanmikanathan, Periya Puranam: A Tamil Classic",
+      "Sivalōkanāthar temple, Tiruppuṅkūr — the off-centre Nandi, and the tank he dug"
+    ],
+    "sourcing": [
+      {
+        "claim": "He is the eighteenth of the sixty-three Nāyaṉmārs, of Ādaṉūr in the Chola country",
+        "locus": "Periya Purāṇam, Tiru Nāḷaippōvār Nāyaṉār Purāṇam"
+      },
+      {
+        "claim": "He was born into a family kept outside the temple; Sēkkiḻār names the community Pulaiyar",
+        "locus": "ibid. st. 11"
+      },
+      {
+        "claim": "He supplied temples with hide for drum heads, gut for the strings of the yāḻ, and gōrōcanā pigment",
+        "locus": "ibid. st. 13"
+      },
+      {
+        "claim": "He longed to go to Chidambaram and put it off daily, saying he would go tomorrow, from which he is called Tirunāḷaippōvār",
+        "locus": "ibid."
+      },
+      {
+        "claim": "At Tiruppuṅkūr he stood outside and the view of the shrine was blocked by the unusually large stone Nandi",
+        "locus": "ibid. st. 17 and the translator's note"
+      },
+      {
+        "claim": "Śiva commanded the bull to step aside, and it did, giving him an unobstructed sight",
+        "locus": "ibid. st. 17"
+      },
+      {
+        "claim": "The Nandi at the Sivalōkanāthar temple stands off-axis to this day and is shown as this",
+        "locus": "Tiruppuṅkūr temple"
+      },
+      {
+        "claim": "He also dug the temple tank at Tiruppuṅkūr",
+        "locus": "Periya Purāṇam; the Kuḷam Veṭṭiya Vināyakar shrine there"
+      },
+      {
+        "claim": "Nobody lets him in, and no rule is repealed in the episode",
+        "locus": "ibid. — absence noted deliberately"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Everything after Tiruppuṅkūr",
+        "tellings": "Sēkkiḻār has Śiva instruct Nandanār in a dream to enter a fire at Chidambaram, and instruct the brahmins of Tillai separately to prepare it; he emerges transformed and merges into Naṭarāja. Gopalakrishna Bhārati's Tamil opera of 1861 adds a cruel landlord and an impossible task that are not in Sēkkiḻār. Indira Parthasarathy's play of 1978 removes the miracles entirely. Some Tamil readers today hold that the fire conceals a killing.",
+        "weTell": "None of it, at this age. The telling stops at Tiruppuṅkūr and says plainly that the rest is told in more than one way."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "injustice",
+      "social-hierarchy"
+    ],
+    "gated": false,
+    "careNote": "A man is kept out of a temple for the family he was born into, and the story says plainly that this was wrong and did not stop. Nobody is made a villain; the rule is the wrong thing. What follows at Chidambaram is contested, including by Tamil readers today, and is not told here."
+  },
+  "values": [
+    "a rule that did not move",
+    "made the music and could not hear it"
+  ],
+  "themes": [
+    "nayanmar",
+    "tamil",
+    "being kept out",
+    "who the god sided with"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Nandanār",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 320,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The drums in the temples were made by a man called «Nandanār»."
+        },
+        {
+          "t": "p",
+          "text": "He cut the hide and stretched it and dried it. He twisted the gut for the strings of the yāḻ. When they wanted the yellow pigment for the marks on the stone, he brought that too."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He made the music. He was never allowed inside to hear it."
+        },
+        {
+          "t": "p",
+          "text": "He wanted to go to Chidambaram and see the Lord who dances, and he kept saying he would go tomorrow, until that became the name people called him by."
+        },
+        {
+          "t": "p",
+          "text": "There was a rule, in that time and that place, that people born into his family stood outside. Not near the door. Outside."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So that is where he stood. At «Tiruppuṅkūr» he came up to the gate and stopped where he was supposed to stop and looked in."
+        },
+        {
+          "t": "p",
+          "text": "And he could not see anything at all."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Because in the middle of the way, between the gate and the shrine, there is a stone bull. There is one in every «Śiva» temple, sitting and facing in, looking at his lord. At «Tiruppuṅkūr» the bull is a big one."
+        },
+        {
+          "t": "p",
+          "text": "So a man stood at the gate on his toes, as far in as he was permitted to be, and what he had a clear view of was the back of a bull."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The story says «Śiva» looked out at the man standing in the road, and spoke to the bull, and what he said was: move."
+        },
+        {
+          "t": "p",
+          "text": "And the bull got up and stepped to one side."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Nobody opened the gate. Nobody said the rule had been wrong. Nobody came out and took him by the arm and walked him in, then or for a long time afterwards."
+        },
+        {
+          "t": "p",
+          "text": "The bull moved, and the man in the road could see, and that was all that happened that day."
+        },
+        {
+          "t": "slow",
+          "text": "It is still sitting off to one side. You can go to «Tiruppuṅkūr» and look at it."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 653,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Somebody has to make the drums."
+        },
+        {
+          "t": "p",
+          "text": "Every temple has them, and the skin on the head of a drum wears out and has to be replaced, and before it is a drum it is an animal that has died and a man who knows how to cut a hide and stretch it and dry it flat."
+        },
+        {
+          "t": "p",
+          "text": "In the Chola country there was a man who did that work, in a village called Ādaṉūr by the river, and his name was «Nandanār»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He did more than the drums. He twisted gut into strings for the yāḻ, which is the old Tamil harp. When a temple needed the yellow pigment they use for marking the stone, he brought that as well."
+        },
+        {
+          "t": "p",
+          "text": "So on any morning, in any of those temples, most of the sound and some of the colour had come out of his hands."
+        },
+        {
+          "t": "p",
+          "text": "And he had never been inside any of them."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There was a rule. In that time and in that place, people born into his family did not go into the temple. They did not stand at the door either. They stood outside, at a distance that was understood by everybody and did not have to be said."
+        },
+        {
+          "t": "p",
+          "text": "It was not invented that morning to be cruel to him. It was old, and it was simply how things were done."
+        },
+        {
+          "t": "p",
+          "text": "That is the part that is hardest to explain and most important to say. He was kept out because of the family he was born into, and it was wrong, and almost nobody around him thought so."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He wanted, more than he wanted anything, to go to Chidambaram and see the Lord who dances. He would tell himself he would go — tomorrow, he would say, I will go tomorrow — and then not go, and say it again the next day."
+        },
+        {
+          "t": "p",
+          "text": "He said it so often that it became his name. In Tamil they call him Tirunāḷaippōvār: the holy man who will go tomorrow."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "On the way, he came to a place called «Tiruppuṅkūr»."
+        },
+        {
+          "t": "p",
+          "text": "And he did what he always did. He came up as far as he was permitted to come, and stopped, and stood in the road, and looked in through the gate towards the shrine."
+        },
+        {
+          "t": "p",
+          "text": "And he could not see a thing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Here is why, and you can check it yourself, because the building is still standing."
+        },
+        {
+          "t": "p",
+          "text": "In a «Śiva» temple there is always a bull outside the shrine, lying down, facing in, looking at his lord. He has been looking for a very long time and he is not going to stop. At «Tiruppuṅkūr» the bull is unusually large, and he was sitting exactly in the middle of the line between the gate and the god."
+        },
+        {
+          "t": "p",
+          "text": "If you were allowed inside you would simply walk round him. If you were not allowed inside, and the gate was as close as you were ever going to get, then what you had come all that way to see was the back of a stone bull."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So «Nandanār» stood in the road and looked at the back of the bull."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And the story says that «Śiva» looked out at the man standing in the road, and did not call him in, and did not argue with anybody about the rule."
+        },
+        {
+          "t": "p",
+          "text": "He spoke to his own bull, in his own house, and told him to move."
+        },
+        {
+          "t": "p",
+          "text": "And the bull stood up and stepped to the side."
+        },
+        {
+          "t": "aside",
+          "text": "«Nandanār»'s last journey was to Chidambaram, and what happened there is told in more than one way — by «Sēkkiḻār» in the twelfth century, very differently in a Tamil opera of 1861, and differently again by writers today who find the ending hard. It is a real argument and worth having. This telling stops at «Tiruppuṅkūr», where nobody disagrees."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Nothing else changed that day. The gate was not opened. No one came out to him. Nobody announced that the rule had been a mistake, and it went on being the rule for a very long time after he was dead."
+        },
+        {
+          "t": "p",
+          "text": "One man in the road got to see, because the furniture was moved for him."
+        },
+        {
+          "t": "slow",
+          "text": "The bull at «Tiruppuṅkūr» is still sitting off to one side, out of the way of the door. You can go and stand where he stood and look."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "panar-shoulders",
+    "reason": "the same wrong, on the other side of the country, and there the person who kept the rule is the one who changes"
+  },
+  "close": {
+    "question": "Śiva moved the bull instead of opening the gate. Why do you think the story tells it that way round?",
+    "seed": "Somebody can be completely in the right and still be left standing outside.",
+    "ifTheyAsk": [
+      {
+        "q": "Why wasn't he allowed in?",
+        "a": "Because of the family he was born into. That was the rule where he lived, and it was wrong, and most people around him did not think so. Saying it plainly is better than explaining it away."
+      },
+      {
+        "q": "Did the rule change after that?",
+        "a": "No. Not then. People are still working on it, and there are people alive now who will tell you it is not finished. That is a truer answer than saying it was fixed."
+      },
+      {
+        "q": "Is the bull really still there?",
+        "a": "Yes. At the Sivalōkanāthar temple at Tiruppuṅkūr, sitting off to one side instead of in the middle, so you can see straight in from the gate."
+      }
+    ]
+  }
+}

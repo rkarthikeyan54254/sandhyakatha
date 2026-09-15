@@ -1,0 +1,322 @@
+{
+  "id": "andal-garland",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-15",
+  "title": "Āṇḍāḷ Wears It First",
+  "tease": "Her father makes the garland for the god every morning. She has been trying it on first, and today he sees her do it.",
+  "source": {
+    "corpus": "alvar",
+    "tradition": "tamil-vaishnava",
+    "work": "Guruparamparā Prabhāvam (Āṟāyirappaḍi)",
+    "locus": "The life of Āṇḍāḷ",
+    "stability": "variant",
+    "traditionNote": "Āṇḍāḷ's own two poems never mention the garland. This story reaches us through the Śrīvaiṣṇava Guruparamparā Prabhāvam, four to five centuries after her. The practice it explains is real and still kept at Śrīvilliputtūr every day.",
+    "checkedAgainst": [
+      "Piṉpaḻakiya Perumāḷ Jīyar, Guruparamparā Prabhāvam Āṟāyirappaḍi (13th–14th c.)",
+      "Āṇḍāḷ, Tiruppāvai 30 — her own signature naming herself, her father and her town",
+      "Krishnadevarāya, Āmuktamālyada ('Giver of the Worn Garland'), early 16th c."
+    ],
+    "sourcing": [
+      {
+        "claim": "Her name was Kōtai; Āṇḍāḷ is a later title",
+        "locus": "Tiruppāvai 30, her own signature"
+      },
+      {
+        "claim": "Her father was Periyāḻvār of Śrīvilliputtūr, and the deity is Vaṭapatraśāyī",
+        "locus": "Tiruppāvai 30; Śrīvilliputtūr temple tradition"
+      },
+      {
+        "claim": "Periyāḻvār's daily service was making and offering flower garlands from the temple garden",
+        "locus": "Guruparamparā Prabhāvam"
+      },
+      {
+        "claim": "He found her as an infant under a tulasi plant in that garden",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Kōtai wore the garland before it was offered, imagining herself as Viṣṇu's bride, and returned it",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Her father discovered it, was horrified, set that garland aside and made a fresh one",
+        "locus": "ibid."
+      },
+      {
+        "claim": "That night Viṣṇu appeared to Periyāḻvār in a dream and asked why the worn garland had been withheld, saying that was the one he wanted",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The practice of offering a worn garland continues at Śrīvilliputtūr",
+        "locus": "temple practice"
+      },
+      {
+        "claim": "From this she is called Cūḍikkoḍutta Nācciyār — she who wore it and gave it",
+        "locus": "Śrīvaiṣṇava tradition"
+      },
+      {
+        "claim": "Her own works are the Tiruppāvai and the Nācciyār Tirumoḻi, and she is the only woman among the twelve Āḻvārs",
+        "locus": "Nālāyira Divya Prabandham"
+      },
+      {
+        "claim": "Her two works are the Tiruppāvai, of thirty verses, and the Nācciyār Tirumoḻi, of one hundred and forty-three",
+        "locus": "Nālāyira Divya Prabandham"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "How her father found out",
+        "tellings": "A strand of her hair caught in the flowers, in one telling. In another he came upon her at the well, using the water as a mirror — the well is still shown at Śrīvilliputtūr.",
+        "weTell": "Both, named as two tellings, because neither can be traced further back than the other."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "what a person wants unprompted",
+    "who the god turned out to prefer"
+  ],
+  "themes": [
+    "alvar",
+    "tamil",
+    "flowers",
+    "wanting something completely"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [
+      "margashirsha"
+    ],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Āṇḍāḷ",
+      "role": "lead"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 318,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In the town of «Śrīvilliputtūr» there was a man who grew flowers for one reason only. He grew them for the god in the temple, and every morning he made a garland and carried it in."
+        },
+        {
+          "t": "p",
+          "text": "He had a daughter called «Kōtai». She had been found under a tulasi plant in his garden when she was a baby, and he had brought her up, and she had grown up in the smell of flowers being tied."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The garland was made the night before and left ready."
+        },
+        {
+          "t": "p",
+          "text": "And «Kōtai», before it went anywhere, would put it on."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She would lift it over her own head and let it hang down the front of her, and go and look at herself in the water of the well, and see whether she looked like somebody who was going to marry «Viṣṇu». Because that is what she intended to do."
+        },
+        {
+          "t": "p",
+          "text": "Then she took it off, and laid it back exactly where it had been, and said nothing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "One morning her father found out."
+        },
+        {
+          "t": "p",
+          "text": "He was not angry in a shouting way. He was horrified. In his understanding of the world he had been carrying the god a garland that had already been worn, which was the one thing it must never be, and he had been doing it for a long time without knowing."
+        },
+        {
+          "t": "p",
+          "text": "He threw that garland away. He made a fresh one, and clean hands carried it in, and the day's worship went as it should."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That night «Viṣṇu» came to him in a dream and asked him a question."
+        },
+        {
+          "t": "p",
+          "text": "_Where is the other one?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Not: I forgive her. The god wanted the garland she had worn. He said it had her on it, and that was the one he had been waiting for all those mornings, and the fresh one was only flowers."
+        },
+        {
+          "t": "slow",
+          "text": "So they call her Cūḍikkoḍutta Nācciyār — she who wore it first, and gave it after."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 653,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In «Śrīvilliputtūr» there was a man who had given up everything else to grow flowers. Not to sell. He grew them for the god of that town, who lies on a banyan leaf and is called Vaṭapatraśāyī, and every single morning he tied a garland and carried it into the temple himself."
+        },
+        {
+          "t": "p",
+          "text": "He had a daughter. He had found her as a baby under a tulasi plant in the flower garden and brought her home, and he had named her «Kōtai», and she had grown up inside the smell of jasmine being knotted onto thread."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The garland was always made the evening before and left ready in the house overnight."
+        },
+        {
+          "t": "p",
+          "text": "And every night, before it went anywhere, «Kōtai» put it on."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She lifted it over her head with both hands, the way you would lift something you were being given, and let it hang down the front of her. Then she went out to the well in the yard and leaned over and looked at herself in the water."
+        },
+        {
+          "t": "p",
+          "text": "She was not playing dress-up. She was checking. She had decided, somewhere quite early and entirely on her own, that she was going to marry «Viṣṇu» — not somebody like him, not somebody he sent, him — and she wanted to see whether she looked like a person that was going to happen to."
+        },
+        {
+          "t": "p",
+          "text": "Then she took it off, and put it back exactly as it had been lying, so that the loops fell the same way, and she went to bed and said nothing about it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This went on for a long time. Nobody knew."
+        },
+        {
+          "t": "p",
+          "text": "What she was doing was not vanity, and it is worth being exact about it. A garland is what you put on somebody at a wedding. She was putting on the one thing in the house that was going to touch him, and then going to look at the two of them together in the water."
+        },
+        {
+          "t": "p",
+          "text": "And every morning her father carried that garland into the temple in both hands, with the care of a man handling the one thing in his life he is completely sure of."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then one morning he found out."
+        },
+        {
+          "t": "p",
+          "text": "The tellings differ about how — a single long hair caught in the flowers, or he came round the corner of the house early and simply saw her at the well with it on."
+        },
+        {
+          "t": "p",
+          "text": "He was not angry in a shouting way. What he felt was much worse than anger. In everything he understood about the world, a garland for a god must be untouched, and he had been carrying up a worn one, morning after morning, for months, without knowing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he did the only thing he could think of. He took that garland away and threw it out. He tied a fresh one, and nobody wore it, and he carried it in, and the worship that day was correct in every particular."
+        },
+        {
+          "t": "p",
+          "text": "And that night he dreamed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» came and stood in his dream and asked him one question, and the question was not about rules."
+        },
+        {
+          "t": "p",
+          "text": "_Where is the other one?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This is the part to go slowly over, because it is easy to hear it as the god being kind about a child's mistake, and that is not what the story says."
+        },
+        {
+          "t": "p",
+          "text": "He wanted the worn one. He said so. The garland his daughter had put over her own head and looked at herself in — that was the one he had been waiting for every morning, and had been getting, and had liked. The fresh one was flowers on a string."
+        },
+        {
+          "t": "aside",
+          "text": "«Āṇḍāḷ» left two poems of her own, the Tiruppāvai and the Nācciyār Tirumoḻi, and neither one tells this story. It comes to us from the Guruparamparā Prabhāvam, written four or five hundred years after she lived. What is hers in her own words is the wanting; the garland is what the tradition remembered about her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And in «Śrīvilliputtūr» they never went back to the correct way. To this day the garland is worn by her first, and then it goes to the god, and that is not an indulgence but the order of service."
+        },
+        {
+          "t": "slow",
+          "text": "So nobody calls her «Kōtai» now either. They call her the one who wore it first and gave it after."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "karaikkal-mangoes",
+    "reason": "the other girl in this collection whose real name stopped being used, because of what she was called instead"
+  },
+  "close": {
+    "question": "Her father thought he had ruined the garland. The god thought it was better. Who was right?",
+    "seed": "Something can be improved by the very thing you thought spoiled it.",
+    "ifTheyAsk": [
+      {
+        "q": "Was she being naughty?",
+        "a": "Her father certainly thought so for one morning. But the story is not about her being forgiven — the god says plainly that hers was the garland he wanted. That is a different ending from being let off."
+      },
+      {
+        "q": "Did she really marry Viṣṇu?",
+        "a": "That is what she said she was going to do, in her own poems, from when she was very young. The tradition holds that at Srirangam she went to him and did not come back."
+      },
+      {
+        "q": "Do they still do it?",
+        "a": "Every day at Śrīvilliputtūr. A garland is worn by her image first and then taken to the god — not as a special occasion, just as the way it is done there."
+      }
+    ]
+  }
+}

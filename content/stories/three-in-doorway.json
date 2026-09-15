@@ -1,0 +1,365 @@
+{
+  "id": "three-in-doorway",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-15",
+  "title": "Three in a Doorway",
+  "tease": "A doorway with space for one man to lie down. Then two to sit. Then three to stand. Then somebody else presses in, in the dark.",
+  "source": {
+    "corpus": "alvar",
+    "tradition": "tamil-vaishnava",
+    "work": "Mudhal Tiruvantāti, with the commentators' account",
+    "locus": "Tirukkōvalūr; Mudhal Tiruvantāti 1 and 86",
+    "stability": "variant",
+    "traditionNote": "The doorway is in Poygai's own verse — Mudhal Tiruvantāti 86 names Kōval and the iḍaikaḻi and says 'you and Tirumagaḷ stood there'. The night as a story, with the knocking and the answers, comes from Nampiḷḷai and Periyavāccāṉ Piḷḷai, some five centuries later.",
+    "checkedAgainst": [
+      "Mudhal Tiruvantāti 1 and 86, with the avatārikai of Nampiḷḷai and Periyavāccāṉ Piḷḷai (koyil.org)",
+      "Iraṇḍām Tiruvantāti 1; Mūṉṟām Tiruvantāti 1",
+      "Vedānta Deśika, Dehalīśa Stuti, on Trivikrama of Tirukkōvalūr"
+    ],
+    "sourcing": [
+      {
+        "claim": "The first three Āḻvārs are Poygai of Tiruvekkā, Bhūtam of Tirukkaḍalmallai and Pēy of Tirumayilai",
+        "locus": "Śrīvaiṣṇava guruparamparai"
+      },
+      {
+        "claim": "All three sheltered from a storm in the iḍaikaḻi — the narrow front passage — of a hut at Tirukkōvalūr",
+        "locus": "avatārikai to Mudhal Tiruvantāti"
+      },
+      {
+        "claim": "Poygai arrives first and lies down; Bhūtam answers that where one may lie, two may sit; Pēy answers that where two sit, three may stand",
+        "locus": "ibid."
+      },
+      {
+        "claim": "Somebody presses in among them who had not knocked, and it is two and not one — the Lord with Tiru, the goddess",
+        "locus": "ibid.; Mudhal Tiruvantāti 86, 'you and Tirumagaḷ stood there'"
+      },
+      {
+        "claim": "There is no physical lamp; each composes verses, and the verses are the lamps",
+        "locus": "Śrīvaiṣṇava commentary"
+      },
+      {
+        "claim": "Poygai's first verse makes the earth the lamp-dish, the ocean the oil and the sun the flame",
+        "locus": "Mudhal Tiruvantāti 1"
+      },
+      {
+        "claim": "Bhūtam's first verse makes love the dish, longing the oil and a mind melting with joy the wick",
+        "locus": "Iraṇḍām Tiruvantāti 1"
+      },
+      {
+        "claim": "Pēy's first verse begins by seeing Tiru — the goddess — before the golden body, the sun's colour, the discus and the conch",
+        "locus": "Mūṉṟām Tiruvantāti 1"
+      },
+      {
+        "claim": "Each composed one hundred verses in antāti form, three hundred together, and the tradition holds they were made there",
+        "locus": "Nālāyira Divya Prabandham; temple tradition at Tirukkōvalūr"
+      },
+      {
+        "claim": "The lord of Tirukkōvalūr is Trivikrama, and his other name there, Dehalīśa, means lord of the threshold",
+        "locus": "Tirukkōvalūr temple; Vedānta Deśika, Dehalīśa Stuti"
+      },
+      {
+        "claim": "Poygai was of Tiruvekkā near Kāñcīpuram, Bhūtam of Tirukkaḍalmallai at Mahābalipuram, and Pēy of Tirumayilai at Mylapore",
+        "locus": "Śrīvaiṣṇava guruparamparai"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Whether they saw by lightning",
+        "tellings": "Several popular retellings have them glimpse his face by flashes of lightning. No Śrīvaiṣṇava commentary carries it.",
+        "weTell": "Without it. The verses are the light, and putting a lamp or a lightning flash in the doorway takes the point out of the story."
+      },
+      {
+        "differs": "Whose doorway it was",
+        "tellings": "The commentary makes it the hut of the sage Mṛgaṇḍu. Some temple accounts place it in a maṇḍapam of the Ulagaḷanda Perumāḷ temple instead.",
+        "weTell": "The doorway of a hut, unnamed. The owner is not in the scene in any telling."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "room made where there was none",
+    "three strangers doing the same thing"
+  ],
+  "themes": [
+    "alvar",
+    "tamil",
+    "poems",
+    "making room"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 311,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Three men were walking in three different directions, in the dark, in rain that had set in for the night."
+        },
+        {
+          "t": "p",
+          "text": "They did not know each other. All three were going through a town called «Tirukkōvalūr», and all three were looking for somewhere out of the water."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The first one, «Poygai», found a doorway. Not a room — the narrow passage between the front door of a hut and the road, just deep enough to lie down in. He lay down in it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then somebody knocked."
+        },
+        {
+          "t": "p",
+          "text": "_There is only room here for one to lie down,_ said «Poygai»."
+        },
+        {
+          "t": "p",
+          "text": "_If there is room for one to lie down,_ said «Bhūtam» from out in the rain, _there is room for two to sit._"
+        },
+        {
+          "t": "p",
+          "text": "«Poygai» thought about it, and sat up, and let him in."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then somebody knocked again."
+        },
+        {
+          "t": "p",
+          "text": "_There are two of us sitting,_ they said. _There is no more room._"
+        },
+        {
+          "t": "p",
+          "text": "_Where two can sit,_ said «Pēy» from out in the rain, _three can stand._"
+        },
+        {
+          "t": "p",
+          "text": "And they got up, and let him in, and the three of them stood pressed together in a doorway in the dark."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then it got tighter."
+        },
+        {
+          "t": "p",
+          "text": "Somebody was standing in the middle of them who had not knocked."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It was too dark to see. So the first one made light — not with a lamp. He said a poem. _The earth for the lamp, the wide sea for the oil, the burning sun for the flame._"
+        },
+        {
+          "t": "p",
+          "text": "And the second one said one too. _Love for the lamp, longing for the oil, a mind melting with joy for the wick._"
+        },
+        {
+          "t": "p",
+          "text": "And by that light the third one looked, and saw who it was, and what he said first was: _I have seen Tiru._"
+        },
+        {
+          "t": "slow",
+          "text": "He had come in out of the rain as well, and he had not come alone, and there had never been room for any of them."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 669,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Three men were walking that night, in three directions, in rain that had set in."
+        },
+        {
+          "t": "p",
+          "text": "They had never met. One had come from a pond near Kāñcīpuram, one from the shore at Mahābalipuram, one from Mylapore by the sea. What they had in common was that none of them could stop thinking about «Viṣṇu», and all three happened to be passing through a town called «Tirukkōvalūr» on the same wet night."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The first to give up on walking was «Poygai»."
+        },
+        {
+          "t": "p",
+          "text": "He found a doorway. Not a room and not a porch — the narrow passage between a hut's outer door and the street, roofed, open at one end. There was room in it for a man to lie down, and he did."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Some time later somebody knocked."
+        },
+        {
+          "t": "p",
+          "text": "_There is only room here for one to lie down,_ «Poygai» said. He was not being unkind. He was describing the doorway."
+        },
+        {
+          "t": "p",
+          "text": "And out of the rain the second man, «Bhūtam», said: _if there is room for one to lie down, then there is room for two to sit._"
+        },
+        {
+          "t": "p",
+          "text": "Which was true. «Poygai» thought about it in the dark, and sat up, and let him in, and the two of them sat."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Some time after that, somebody knocked again."
+        },
+        {
+          "t": "p",
+          "text": "_There are two of us sitting in here,_ they said, _and that is the whole of it._"
+        },
+        {
+          "t": "p",
+          "text": "And out of the rain the third man, «Pēy», said: _where two can sit, three can stand._"
+        },
+        {
+          "t": "p",
+          "text": "Which was also true. So they stood, and let him in, and there were three men standing shoulder to shoulder in a doorway wide enough for one, in the dark, with the rain going past the open end."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That is already a good story, and it is not the story."
+        },
+        {
+          "t": "p",
+          "text": "Notice what each of them actually did. Nobody argued. Nobody said the man outside should have set off earlier, or that there were other doorways."
+        },
+        {
+          "t": "p",
+          "text": "Each one was told the honest size of the space and answered by finding a smaller way to be in it — from lying, to sitting, to standing. And each time, the person already inside got up and made the change himself."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Because then it got tighter."
+        },
+        {
+          "t": "p",
+          "text": "Not a squeeze from outside. From the middle. There was somebody standing between them who had not come down the road and had not knocked, and they could all feel him, and not one of them could see a thing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So the first of them made light."
+        },
+        {
+          "t": "p",
+          "text": "Not with a lamp — this is the part the tradition is careful about, and it matters. There was no lamp in that doorway. What «Poygai» did was say a poem, and the poem was about making a lamp."
+        },
+        {
+          "t": "p",
+          "text": "_The earth for the lamp-dish,_ he said. _The wide sea poured in for the oil. And the burning sun for the flame._"
+        },
+        {
+          "t": "p",
+          "text": "And the second one answered him with another one, and made a smaller and much closer lamp. _Love for the dish,_ said «Bhūtam». _Longing poured in for the oil. And for the wick, a mind melting with joy._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And by the light of those two the third one looked, and saw, and began to say what he could see."
+        },
+        {
+          "t": "p",
+          "text": "And the first thing out of «Pēy»'s mouth was not the god."
+        },
+        {
+          "t": "p",
+          "text": "Three men who had never met, soaked through, in a doorway meant for one, and the third one opens his mouth and the first word is hers."
+        },
+        {
+          "t": "p",
+          "text": "_I have seen Tiru,_ he said — the goddess, «Lakṣmī», standing there. _And then I saw the golden body. And the colour of the sun on it. And the wheel in one hand, and the conch in the other._"
+        },
+        {
+          "t": "aside",
+          "text": "They kept going. They kept going all night — one hundred verses each, three hundred together, and they are the beginning of the Nālāyira Divya Prabandham — the first Tamil poems of this tradition, made in a doorway. The story of the night is told by the commentators five hundred years later, but the doorway itself is in «Poygai»'s own verse."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So: two of them had pressed in, not one. He had brought her with him."
+        },
+        {
+          "t": "p",
+          "text": "And the lord of «Tirukkōvalūr» has a second name in that town, which he had before any of this and has kept since. They call him the lord of the threshold."
+        },
+        {
+          "t": "slow",
+          "text": "Nobody in that doorway had ever had room. That was never what the night was about."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "andal-garland",
+    "reason": "the other Tamil one where somebody turns out to have been wanted all along"
+  },
+  "close": {
+    "question": "Each time, the answer to 'there is no room' was a different way of standing. Can you think of a fourth one?",
+    "seed": "There is usually one more way to make room than the people already inside can see.",
+    "ifTheyAsk": [
+      {
+        "q": "Who was the fourth person?",
+        "a": "Viṣṇu — and not by himself. Poygai's own verse says 'you and Tirumagaḷ stood there', so it is the two of them. That is why the doorway got tighter and not just fuller."
+      },
+      {
+        "q": "Did they light a real lamp?",
+        "a": "No, and that is the whole point of the night. There was nothing to light. Each one said a poem about a lamp, and that is what they saw by."
+      },
+      {
+        "q": "Why is the third one called Pēy?",
+        "a": "It is a Tamil word for somebody taken over by something — someone not in charge of themselves any more. It was meant as a description of how he was about God, and he kept it."
+      }
+    ]
+  }
+}

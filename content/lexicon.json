@@ -635,13 +635,14 @@
       "taml": "சேக்கிழார்",
       "deva": "सेक्किऴार्"
     },
-    "say": "SAY-ki-zhaar",
-    "ipa": "ˈseː.kːɪ.ɻaːr",
+    "say": "SAYK-ki-zhaar",
+    "ipa": "seːk.ki.ɻaːr",
     "kind": "person",
-    "gloss": "Minister to a Chola king, and the man who wrote down the lives of the sixty-three saints.",
+    "gloss": "The twelfth-century Chola minister who wrote down the lives of all sixty-three Nāyaṉmārs.",
     "aliases": [
       "Sekkizhar",
-      "Chekkilar"
+      "Chekkilar",
+      "Cēkkiḻār"
     ]
   },
   "Āṇḍāḷ": {
@@ -2472,6 +2473,227 @@
       "Darbha",
       "kusa grass",
       "kuśa"
+    ]
+  },
+  "Puṉitavati": {
+    "id": "punitavati",
+    "native": {
+      "taml": "புனிதவதி",
+      "deva": "पुनितवती"
+    },
+    "say": "poo-nee-tha-VA-thee",
+    "ipa": "pu.ni.t̪ɐ.ʋɐ.t̪i",
+    "kind": "person",
+    "gloss": "The name Kāraikkāl Ammaiyār was born with, and the one nobody uses any more.",
+    "aliases": [
+      "Punitavati",
+      "Punithavathi"
+    ]
+  },
+  "Kōtai": {
+    "id": "kotai",
+    "native": {
+      "taml": "கோதை",
+      "deva": "कोदै"
+    },
+    "say": "KOH-thai",
+    "ipa": "koː.t̪ɐj",
+    "kind": "person",
+    "gloss": "Āṇḍāḷ's name before she was Āṇḍāḷ. She signs it herself at the end of the Tiruppāvai.",
+    "aliases": [
+      "Kodhai",
+      "Kothai",
+      "Goda"
+    ]
+  },
+  "Śrīvilliputtūr": {
+    "id": "srivilliputtur",
+    "native": {
+      "taml": "ஸ்ரீவில்லிபுத்தூர்",
+      "deva": "श्रीविल्लिपुत्तूर्"
+    },
+    "say": "shree-VIL-li-put-TOOR",
+    "ipa": "ʃriː.ʋil.li.put̪.t̪uːr",
+    "kind": "place",
+    "gloss": "Āṇḍāḷ's town in the far south of Tamil Nadu, where the garland is still worn by her first.",
+    "aliases": [
+      "Srivilliputhur",
+      "Srivilliputtur"
+    ]
+  },
+  "Poygai": {
+    "id": "poygai",
+    "native": {
+      "taml": "பொய்கையாழ்வார்",
+      "deva": "पोय्गै"
+    },
+    "say": "POY-gai",
+    "ipa": "poj.gɐj",
+    "kind": "person",
+    "gloss": "First of the twelve Āḻvārs, and the first into the doorway. Poygai means a pond.",
+    "aliases": [
+      "Poigai",
+      "Poygai Alvar",
+      "Poigai Azhwar"
+    ]
+  },
+  "Bhūtam": {
+    "id": "bhutam",
+    "native": {
+      "taml": "பூதத்தாழ்வார்",
+      "deva": "भूतत्ताऴ्वार्"
+    },
+    "say": "BHOO-tham",
+    "ipa": "bʱuː.t̪ɐm",
+    "kind": "person",
+    "gloss": "Second of the Āḻvārs, who pointed out that where one can lie down, two can sit.",
+    "aliases": [
+      "Bhutattalvar",
+      "Bhoothathazhwar",
+      "Bhutam"
+    ]
+  },
+  "Pēy": {
+    "id": "pey",
+    "native": {
+      "taml": "பேயாழ்வார்",
+      "deva": "पेय्"
+    },
+    "say": "pay",
+    "ipa": "peːj",
+    "kind": "person",
+    "gloss": "Third of the Āḻvārs. The name means somebody taken over by something — how he was about God, and he kept it.",
+    "aliases": [
+      "Peyalvar",
+      "Pey Azhwar",
+      "Peyazhwar"
+    ]
+  },
+  "Tirukkōvalūr": {
+    "id": "tirukkovalur",
+    "native": {
+      "taml": "திருக்கோவலூர்",
+      "deva": "तिरुक्कोवलूर्"
+    },
+    "say": "thi-ruk-KOH-va-loor",
+    "ipa": "t̪i.ruk.koː.ʋɐ.luːr",
+    "kind": "place",
+    "gloss": "The town with the doorway. Its lord is Trivikrama, and his other name there means lord of the threshold.",
+    "aliases": [
+      "Thirukkovilur",
+      "Tirukkoyilur",
+      "Tirukkovalur"
+    ]
+  },
+  "Madhurakavi": {
+    "id": "madhurakavi",
+    "native": {
+      "taml": "மதுரகவி ஆழ்வார்",
+      "deva": "मधुरकवि"
+    },
+    "say": "ma-thu-ra-KA-vi",
+    "ipa": "mɐ.d̪ʱu.rɐ.kɐ.ʋi",
+    "kind": "person",
+    "gloss": "The Āḻvār who wrote eleven verses, all of them about his teacher and none about God.",
+    "aliases": [
+      "Madhurakavi Alvar",
+      "Madhurakavi Azhwar"
+    ]
+  },
+  "Tirukkurukūr": {
+    "id": "tirukkurukur",
+    "native": {
+      "taml": "திருக்குருகூர்",
+      "deva": "तिरुक्कुरुकूर्"
+    },
+    "say": "thi-ruk-ku-ru-KOOR",
+    "ipa": "t̪i.ruk.ku.ru.kuːr",
+    "kind": "place",
+    "gloss": "Nammāḻvār's town on the Tāmiraparaṇi, called Āḻvārtirunagari now. The tamarind is still there.",
+    "aliases": [
+      "Thirukkurugur",
+      "Alwarthirunagari",
+      "Azhwarthirunagari"
+    ]
+  },
+  "Nandanār": {
+    "id": "nandanar",
+    "native": {
+      "taml": "நந்தனார்",
+      "deva": "नन्दनार्"
+    },
+    "say": "NUN-dun-aar",
+    "ipa": "n̪ɐn̪.d̪ɐ.n̪aːr",
+    "kind": "person",
+    "gloss": "The Nāyaṉār who made the drums the temples played on. Also called Tirunāḷaippōvār, the one who will go tomorrow.",
+    "aliases": [
+      "Nandanar",
+      "Nandan",
+      "Tirunalaippovar",
+      "Thirunalaippovar"
+    ]
+  },
+  "Tiruppuṅkūr": {
+    "id": "tiruppunkur",
+    "native": {
+      "taml": "திருப்புன்கூர்",
+      "deva": "तिरुप्पुन्कूर्"
+    },
+    "say": "thi-ru-PPUNG-koor",
+    "ipa": "t̪i.rup.puŋ.kuːr",
+    "kind": "place",
+    "gloss": "The temple where the stone bull sits off to one side instead of in the middle of the way.",
+    "aliases": [
+      "Tirupunkur",
+      "Thirupunkur"
+    ]
+  },
+  "Tiruppāṇāḻvār": {
+    "id": "tiruppanalvar",
+    "native": {
+      "taml": "திருப்பாணாழ்வார்",
+      "deva": "तिरुप्पाणाऴ्वार्"
+    },
+    "say": "thi-rup-PAA-naazh-vaar",
+    "ipa": "t̪i.rup.paː.ɳaː.ɻʋaːr",
+    "kind": "person",
+    "gloss": "The singer of Śrīraṅgam, who sang from the far bank and was carried in. His ten verses are the Amalanādipirāṉ.",
+    "aliases": [
+      "Tiruppanalvar",
+      "Thiruppaan Alvar",
+      "Panar Perumal"
+    ]
+  },
+  "Raṅganātha": {
+    "id": "ranganatha",
+    "native": {
+      "taml": "ரங்கநாதர்",
+      "deva": "रङ्गनाथ"
+    },
+    "say": "RUNG-ga-NAA-tha",
+    "ipa": "rɐŋ.gɐ.n̪aː.t̪ʰɐ",
+    "kind": "being",
+    "gloss": "Viṣṇu asleep on his serpent at Śrīraṅgam, lying down rather than standing, and very old.",
+    "aliases": [
+      "Ranganatha",
+      "Ranganathar",
+      "Periya Perumal"
+    ]
+  },
+  "Kāvēri": {
+    "id": "kaveri",
+    "native": {
+      "taml": "காவிரி",
+      "deva": "कावेरी"
+    },
+    "say": "KAA-vi-ri",
+    "ipa": "kaː.ʋeː.ri",
+    "kind": "place",
+    "gloss": "The great river of the Tamil country. Śrīraṅgam sits on an island in it.",
+    "aliases": [
+      "Kaveri",
+      "Cauvery",
+      "Kaviri"
     ]
   }
 }

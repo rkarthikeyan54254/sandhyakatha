@@ -1,0 +1,357 @@
+{
+  "id": "nammalvar-silence",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-15",
+  "title": "Sixteen Years Without a Word",
+  "tease": "A baby who never cried and never fed, sitting under a tamarind tree for sixteen years. Then a stranger walks a thousand miles and asks him one question.",
+  "source": {
+    "corpus": "alvar",
+    "tradition": "tamil-vaishnava",
+    "work": "Divya Sūri Caritam and the Guruparamparā Prabhāvam",
+    "locus": "The life of Nammāḻvār and of Madhurakavi Āḻvār",
+    "stability": "variant",
+    "traditionNote": "Madhurakavi's own eleven verses name Nammāḻvār, his father and his town, and say that he saw him and took him in. The silence, the tree, the light and the riddle come from the hagiographies, centuries later. The tamarind at Āḻvārtirunagari is still there and still venerated.",
+    "checkedAgainst": [
+      "Kaṇṇinuṇ Ciṟuttāmpu, all 11 verses, with commentary (koyil.org)",
+      "Divya Sūri Caritam, cited by the Śrīvaiṣṇava ācārya tradition for the riddle exchange",
+      "A. K. Ramanujan, Hymns for the Drowning (Princeton, 1981), for the legend and the riddle in English"
+    ],
+    "sourcing": [
+      {
+        "claim": "His birth name was Māṟaṉ; Nammāḻvār — 'our own Āḻvār' — is a title the community gave him",
+        "locus": "Śrīvaiṣṇava tradition"
+      },
+      {
+        "claim": "His father was Kāri of Tirukkurukūr, which is attested inside the canon",
+        "locus": "Kaṇṇinuṇ Ciṟuttāmpu 7, 'Kārimāṟaṉ'"
+      },
+      {
+        "claim": "As a newborn he did not cry, would not feed, and kept his eyes shut",
+        "locus": "Guruparamparā tradition"
+      },
+      {
+        "claim": "His parents offered him at the Ādinātha temple at Tirukkurukūr and set him at the tamarind tree",
+        "locus": "ibid."
+      },
+      {
+        "claim": "He remained there sixteen years without speaking, eating or sleeping",
+        "locus": "ibid."
+      },
+      {
+        "claim": "The tamarind is itself venerated as Tiruppuḷi Āḻvār and still stands at Āḻvārtirunagari",
+        "locus": "Āḻvārtirunagari temple"
+      },
+      {
+        "claim": "Madhurakavi, returning from pilgrimage in the north, saw a light in the southern sky and followed it to Tirukkurukūr",
+        "locus": "Guruparamparā tradition"
+      },
+      {
+        "claim": "He put a riddle to the silent boy, and the boy's answer was his first speech",
+        "locus": "Divya Sūri Caritam, as cited by the ācārya tradition"
+      },
+      {
+        "claim": "Madhurakavi's own eleven verses say that Nammāḻvār saw him and took him in, and nothing of the silence or the tree",
+        "locus": "Kaṇṇinuṇ Ciṟuttāmpu, all 11"
+      },
+      {
+        "claim": "Nammāḻvār left four works totalling 1,296 verses, of which the Tiruvāymoḻi is called the Tamil Veda, and he lived thirty-two years",
+        "locus": "Nālāyira Divya Prabandham; Śrīvaiṣṇava tradition"
+      },
+      {
+        "claim": "He had walked to Ayodhyā and Mathurā and the northern places before turning south",
+        "locus": "Guruparamparā tradition"
+      },
+      {
+        "claim": "Tirukkurukūr stands on the Tāmiraparaṇi river",
+        "locus": "Āḻvārtirunagari"
+      },
+      {
+        "claim": "His four works total one thousand two hundred and ninety-six verses and the Tiruvāymoḻi is called the Tamil Veda",
+        "locus": "Nālāyira Divya Prabandham"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Under the tree, or inside it",
+        "tellings": "The Tamil institutional sources have him seated under the tamarind. Ramanujan and others have him enter a hollow in the trunk.",
+        "weTell": "Under it, which is what the Tamil sources say."
+      },
+      {
+        "differs": "What the answer means",
+        "tellings": "The commentators read it as the soul that identifies with the body, feeding on and staying in worldly pleasure and pain. The popular reading is the other way up — it feeds on God and rests in God.",
+        "weTell": "Neither, out loud. The six words are given as he gave them."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [],
+    "gated": false,
+    "careNote": "A newborn who does not cry or feed, and parents who leave him at a temple, can alarm a child who takes it literally. The telling gives the tradition's frame first — he was already full, already looking at something — and is precise that his parents gave him back, in the town where they went on living."
+  },
+  "values": [
+    "a question worth a long walk",
+    "knowing who the teacher is"
+  ],
+  "themes": [
+    "alvar",
+    "tamil",
+    "silence",
+    "teachers"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 340,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The baby did not cry."
+        },
+        {
+          "t": "p",
+          "text": "Babies cry when they are born. This one did not, and everybody in the room waited for it, and it did not come."
+        },
+        {
+          "t": "p",
+          "text": "Then he would not feed. Not weakly, not as though he were ill — he simply was not interested, the way you are not interested in food when you are already thinking about something else."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His parents had asked for him for a long time. They looked at him, and they understood, in the way parents sometimes do understand, that he was not going to be theirs in the ordinary way."
+        },
+        {
+          "t": "p",
+          "text": "So they carried him to the temple at «Tirukkurukūr» and gave him back to the one they had asked him from, and they left him at the foot of an old tamarind tree in the temple ground."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He sat down under that tree, and he sat there for sixteen years."
+        },
+        {
+          "t": "p",
+          "text": "He did not speak. He did not eat. People came and looked, and went away again, and he stayed where he was, and the tree grew over him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A long way north, a man called «Madhurakavi» was on pilgrimage."
+        },
+        {
+          "t": "p",
+          "text": "He was older, and learned, and had walked to «Ayodhyā» and Mathurā and seen everything there was to see."
+        },
+        {
+          "t": "p",
+          "text": "And one night he saw a light standing in the southern sky. It was there the next night too. So he turned round and walked south towards it, town after town, until it stopped over «Tirukkurukūr»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He came to the tree and found a sixteen-year-old boy sitting under it with his eyes shut, and he understood that the walking was over."
+        },
+        {
+          "t": "p",
+          "text": "And because he did not know what else to do, he asked him a riddle. _If the small is born inside the great and lifeless,_ he said, _what will it eat, and where will it lie?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The boy opened his eyes and answered in six words."
+        },
+        {
+          "t": "p",
+          "text": "_That it will eat. There it will lie._"
+        },
+        {
+          "t": "slow",
+          "text": "Sixteen years of silence, and the first thing he ever said was an answer to somebody else's question."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 660,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The first strange thing was that the baby did not cry."
+        },
+        {
+          "t": "p",
+          "text": "Everybody in the room was waiting for it, the way you wait for it, and it did not come. He was breathing and he was well and he was entirely quiet."
+        },
+        {
+          "t": "p",
+          "text": "The second strange thing was that he would not feed. Not weakly — he was not a sick child. He simply had no interest in it, the way a person has no interest in dinner when they are in the middle of something."
+        },
+        {
+          "t": "p",
+          "text": "The third was his eyes, which he kept shut."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His parents had wanted a child a long time and had gone to a temple and asked for one. Now they had him, and they sat and looked at him, and worked out something very hard to work out: he had not quite arrived here. He was somewhere else already, and full already, and looking at something already."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So they did the thing the story is careful to describe properly. They did not leave him anywhere. They carried him to the temple at «Tirukkurukūr», where they had asked for him, and they gave him back."
+        },
+        {
+          "t": "p",
+          "text": "And they set him down at the foot of an old tamarind tree in the temple ground, in the town where they went on living."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He sat down under that tree. And then he sat there for sixteen years."
+        },
+        {
+          "t": "p",
+          "text": "He did not speak in all that time, or eat, or sleep. He sat cross-legged with his eyes closed and the tamarind grew over him. The tree is still there and people still go and see it."
+        },
+        {
+          "t": "p",
+          "text": "Children who were born after he sat down were sixteen by the time anything happened."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "What happened came from about as far away as it could."
+        },
+        {
+          "t": "p",
+          "text": "Far north, a man named «Madhurakavi» was on pilgrimage — older, learned, a long time travelling, «Ayodhyā» and Mathurā and all the northern places."
+        },
+        {
+          "t": "p",
+          "text": "One night he noticed a light low in the southern sky. Not a star. It was in the same place the next night, and the night after, and on the fourth he stopped arguing with himself, turned round and walked south."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He walked south a long way, town after town, each time the light further on, until he came to a small place on the Tāmiraparaṇi river and it stopped and stayed."
+        },
+        {
+          "t": "p",
+          "text": "And he looked, and under a tamarind tree in the temple ground there was a boy of sixteen sitting with his eyes shut."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now here is the thing about «Madhurakavi», who is the older one, and the travelled one, and the one who has read everything."
+        },
+        {
+          "t": "p",
+          "text": "He did not wake him. He did not introduce himself. He did not explain about the light."
+        },
+        {
+          "t": "p",
+          "text": "He asked him a question — a hard one, the kind you would put to a teacher — because he had worked out within about a minute who was the teacher here and who was not."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "_If the small is born inside the great and lifeless,_ he asked, _what will it eat, and where will it lie?_"
+        },
+        {
+          "t": "p",
+          "text": "He meant the soul, which is small, inside a body, which is not alive by itself."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And the boy who had not made a sound in sixteen years opened his eyes and said six words back to him."
+        },
+        {
+          "t": "p",
+          "text": "_That it will eat. There it will lie._"
+        },
+        {
+          "t": "aside",
+          "text": "«Madhurakavi» wrote eleven verses in his life, all of them about his teacher rather than about God. In them he says only that Nammāḻvār saw him and took him in. The silence, the tree, the light and the riddle are not in his poem — they were written down by others, some centuries afterwards."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The boy's name was Māṟaṉ, and nobody uses it. He lived to thirty-two — sixteen years silent, sixteen talking — and in the second half he made one thousand two hundred and ninety-six verses, and one of his four books is held to be the Tamil counterpart of the «Vedas»."
+        },
+        {
+          "t": "p",
+          "text": "And the man who had walked from «Ayodhyā» to ask him one question spent the rest of his life saying that he had no god of his own, only a teacher, and that this was enough."
+        },
+        {
+          "t": "slow",
+          "text": "They call him Nammāḻvār now — our own one. Not his name either. Something a whole people decided to call him."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "three-in-doorway",
+    "reason": "the other Tamil one where the first words anybody says turn out to be a poem"
+  },
+  "close": {
+    "question": "Madhurakavi was older, had read more, and had travelled further. Why do you think he decided the boy was the teacher?",
+    "seed": "Knowing more than someone and having more to learn from them are not opposites.",
+    "ifTheyAsk": [
+      {
+        "q": "How did he live for sixteen years without eating?",
+        "a": "The tradition says he did, and does not explain it. What it is telling you is not a fact about food — it is that he was somewhere else the whole time, and that being there was enough to live on."
+      },
+      {
+        "q": "Why did his parents leave him?",
+        "a": "They did not leave him — they gave him back. They had asked for him at that temple, they understood he was not going to be theirs in the usual way, and they went on living in the same town. It is a different thing from walking away."
+      },
+      {
+        "q": "What does the answer mean?",
+        "a": "People have argued about those six words for a thousand years and they still do. One reading is about what a soul settles for; another is about what it really lives on. The story does not choose, and neither will I."
+      }
+    ]
+  }
+}

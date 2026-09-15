@@ -131,6 +131,8 @@ function reviewStory(s) {
     });
 
   /* 5b. Adjudicating whether it happened.
+        Tightened 2026-09-15: bare "merely", "mythical" and "made up" matched
+        ordinary prose ("not merely its background") and buried the real hits.
         Rama, 2026-09-10: "never question the belief system — this is faith and
         not just story. You can say I cannot find a reference, that is fair, but
         do not say it did not happen." The distinction is between OUR sourcing
@@ -142,10 +144,10 @@ function reviewStory(s) {
       [/\b(did|does) (that|this|it) really happen\b/i, 'did that really happen'],
       [/\bwhether (?:any of )?(?:that|this|it|the rest) (?:really )?happened\b/i, 'whether it happened'],
       [/\b(?:it is |it's )?(?:just|only) a (?:story|legend|myth)\b/i, 'just a story'],
-      [/\bnever (?:really )?happened\b/i, 'never happened'],
+      [/\b(?:it|this|that|the story|any of it) never (?:really )?happened\b/i, 'never happened'],
       [/\bno way (?:to|of) know(?:ing)?\b/i, 'no way to know'],
-      [/\bmade up\b(?! a family name)/i, 'made up'],
-      [/\bmythical\b|\bmerely\b/i, 'mythical / merely']
+      [/\b(?:story|legend|tale|it|this|that) (?:was|is) (?:just |simply |only )?made up\b/i, 'made up'],
+      [/\bpurely (?:a )?myth(?:ical)?\b|\bnothing but a (?:story|legend|myth)\b/i, 'purely myth']
     ];
     const surfaces = [['tease', s.tease], ['traditionNote', s.source.traditionNote],
                       ['close.seed', s.close?.seed], ['close.question', s.close?.question]];
