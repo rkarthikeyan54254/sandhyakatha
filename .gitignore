@@ -17,3 +17,7 @@ social/
 vite.config.ts.timestamp-*
 _to_delete/
 flow-preview.tgz
+
+# iCloud sync conflict copies ("hero 2.webp", "lock 2.mjs")
+* [0-9]
+* [0-9].*
