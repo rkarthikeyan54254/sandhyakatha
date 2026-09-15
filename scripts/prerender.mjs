@@ -18,6 +18,7 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { displayTerm } from './lib/lexicon-display.mjs';
+import { approvedHeroUrl } from './lib/media.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const SITE = process.env.SITE_URL ?? 'https://sandhyakatha.com';
@@ -32,11 +33,7 @@ const fests = read('content/festivals.json').festivals;
 const media = read('content/media.json').stories ?? {};
 
 function approvedHero(s) {
-  const m = media[s.id];
-  if (!m || m.image?.status !== 'approved' || m.storyVersion !== s.version) return null;
-  const file = m.image.file;
-  if (typeof file !== 'string' || !file.startsWith('/media/stories/')) return null;
-  return existsSync(join(ROOT, 'public', file.replace(/^\//, ''))) ? file : null;
+  return approvedHeroUrl({ root: ROOT, story: s, media });
 }
 const STABILITY = {
   variant: 'The recensions differ here.',

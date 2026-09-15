@@ -2,6 +2,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { audienceText, displayTerm, lexiconTerms } from './lib/lexicon-display.mjs';
+import { approvedHeroUrl } from './lib/media.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const read = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -41,11 +42,7 @@ function escAttr(s) {
 }
 
 function approvedHero(s) {
-  const m = media[s.id];
-  if (!m || m.image?.status !== 'approved' || m.storyVersion !== s.version) return null;
-  const f = m.image.file;
-  if (typeof f !== 'string' || !f.startsWith('/media/stories/')) return null;
-  return existsSync(join(ROOT, 'public', f.replace(/^\//, ''))) ? f : null;
+  return approvedHeroUrl({ root: ROOT, story: s, media });
 }
 
 function expectText(id, pageText, raw, label) {

@@ -1,0 +1,107 @@
+#!/usr/bin/env node
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { CACHE_NAMES, RUNTIME_CACHING } from './lib/cache-policy.mjs';
+
+const ROOT = new URL('..', import.meta.url).pathname;
+const dist = join(ROOT, 'dist');
+const errors = [];
+const fail = msg => errors.push(msg);
+
+function routeByCacheName(name) {
+  return RUNTIME_CACHING.find(r => r.options?.cacheName === name);
+}
+
+function assertNetworkFirst(route, label, expectedCache) {
+  if (!route) return fail(`${label}: route is missing`);
+  if (route.handler !== 'NetworkFirst')
+    fail(`${label}: expected NetworkFirst, found ${route.handler}`);
+  if (route.options?.cacheName !== expectedCache)
+    fail(`${label}: expected cache ${expectedCache}, found ${route.options?.cacheName}`);
+  const timeout = route.options?.networkTimeoutSeconds;
+  if (!(Number.isFinite(timeout) && timeout > 0 && timeout <= 5))
+    fail(`${label}: networkTimeoutSeconds must be between 1 and 5`);
+}
+
+assertNetworkFirst(routeByCacheName(CACHE_NAMES.stories), 'story JSON', CACHE_NAMES.stories);
+assertNetworkFirst(routeByCacheName(CACHE_NAMES.corpus), 'index/lexicon JSON', CACHE_NAMES.corpus);
+
+const art = routeByCacheName(CACHE_NAMES.art);
+if (!art) fail('story art: route is missing');
+else {
+  if (art.handler !== 'CacheFirst')
+    fail(`story art: expected CacheFirst, found ${art.handler}`);
+  if (!String(art.urlPattern).includes('v=[a-f0-9]{12}'))
+    fail('story art: route does not recognize content-hash query URLs');
+}
+
+const netlify = readFileSync(join(ROOT, 'netlify.toml'), 'utf8');
+const requiredHeaderBlocks = [
+  ['story JSON', 'for = "/data/s/*"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
+  ['index JSON', 'for = "/data/index.json"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
+  ['lexicon JSON', 'for = "/data/lexicon.json"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
+  ['public story pages', 'for = "/s/*"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
+  ['service worker', 'for = "/sw.js"', 'Cache-Control = "no-cache"'],
+  ['service worker register', 'for = "/registerSW.js"', 'Cache-Control = "no-cache"']
+];
+
+for (const [label, selector, policy] of requiredHeaderBlocks) {
+  const at = netlify.indexOf(selector);
+  if (at < 0) { fail(`${label}: Netlify header block missing`); continue; }
+  const next = netlify.indexOf('[[headers]]', at + selector.length);
+  const block = netlify.slice(at, next < 0 ? netlify.length : next);
+  if (!block.includes(policy))
+    fail(`${label}: expected ${policy}`);
+}
+
+if (!existsSync(join(dist, 'sw.js')))
+  fail('dist/sw.js missing — run the full build before cache gates');
+else {
+  const sw = readFileSync(join(dist, 'sw.js'), 'utf8');
+  for (const name of [CACHE_NAMES.stories, CACHE_NAMES.corpus, CACHE_NAMES.art]) {
+    if (!sw.includes(name)) fail(`generated sw.js does not contain runtime cache ${name}`);
+  }
+}
+
+const indexPath = join(dist, 'data', 'index.json');
+if (!existsSync(indexPath)) fail('dist/data/index.json missing');
+else {
+  const index = JSON.parse(readFileSync(indexPath, 'utf8'));
+  let heroes = 0;
+
+  for (const card of index.stories ?? []) {
+    if (!card.hero) continue;
+    heroes += 1;
+
+    if (!/\/media\/stories\/[^/]+\/hero\.webp\?v=[a-f0-9]{12}$/.test(card.hero))
+      fail(`${card.id}: hero is not content-addressed: ${card.hero}`);
+
+    const storyPath = join(dist, 'data', 's', `${card.id}.json`);
+    if (!existsSync(storyPath)) {
+      fail(`${card.id}: built story JSON missing`);
+      continue;
+    }
+
+    const story = JSON.parse(readFileSync(storyPath, 'utf8'));
+    if (story.hero !== card.hero)
+      fail(`${card.id}: card hero and story hero differ`);
+
+    const raw = card.hero.split('?')[0];
+    if (!existsSync(join(dist, raw.replace(/^\/+/, ''))))
+      fail(`${card.id}: content-addressed hero points at missing file ${raw}`);
+  }
+
+  if (heroes === 0)
+    fail('no content-addressed heroes found in built index');
+}
+
+if (errors.length) {
+  for (const e of errors) console.error(`ERROR cache gate: ${e}`);
+  console.error(`FAILED — ${errors.length} cache correctness error(s)`);
+  process.exit(1);
+}
+
+console.log(
+  `cache gates: PASS — editorial JSON is network-first/revalidated; ` +
+  `art is content-addressed; runtime caches are ${CACHE_NAMES.stories}, ${CACHE_NAMES.corpus}, ${CACHE_NAMES.art}`
+);

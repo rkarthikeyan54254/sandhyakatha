@@ -30,11 +30,12 @@
     # 'unsafe-inline'. OAuth still happens in a function.
     Content-Security-Policy = "default-src 'self'; img-src 'self' data: https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://accounts.google.com"
 
-# Story bodies are immutable per version — cache them hard.
+# Editorial JSON is mutable at a stable URL. The service worker owns offline
+# fallback; browser/CDN caches must revalidate before treating a copy as current.
 [[headers]]
   for = "/data/s/*"
   [headers.values]
-    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 # Shareable story pages are static and change only when the story does.
 [[headers]]
@@ -45,7 +46,7 @@
 [[headers]]
   for = "/s/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
   for = "/og/*"
@@ -55,4 +56,20 @@
 [[headers]]
   for = "/data/index.json"
   [headers.values]
-    Cache-Control = "public, max-age=300, must-revalidate"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/data/lexicon.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# The browser should discover a new service worker promptly after deploy.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/registerSW.js"
+  [headers.values]
+    Cache-Control = "no-cache"
