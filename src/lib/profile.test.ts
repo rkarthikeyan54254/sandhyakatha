@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import {emptyProfile, newChild, markHeard, heardOf, againOf, merge, tidy, removeChild, duplicateIdConflicts, repairDuplicateId, patchChildProfile, addChildToProfile} from './profile';
+import {emptyProfile, newChild, markHeard, heardOf, againOf, merge, tidy, removeChild, duplicateIdConflicts, repairDuplicateId, patchChildProfile, addChildToProfile, stats} from './profile';
 import type { Profile } from './profile';
 
 function withChild() {
@@ -316,5 +316,55 @@ describe('intentional child placeholder', () => {
     const normalized = tidy(added);
     expect(normalized.children).toHaveLength(2);
     expect(normalized.children.some(c => c.id === draft!.id)).toBe(true);
+  });
+});
+
+/**
+ * Reported 2026-09-15: "Rishi has heard 8 stories across 2 nights" after far
+ * more than two evenings. `heard` stores only the FIRST night a story was read,
+ * so an evening spent re-reading an old favourite was counted as no evening at
+ * all — and re-reading is the behaviour the whole product is built to reward.
+ */
+describe('an evening of re-reading is still an evening', () => {
+  const kid = (): { p: Profile; id: string } => {
+    const c = newChild('Rishi', 8);
+    return { p: { ...emptyProfile(), children: [c], activeId: c.id }, id: c.id };
+  };
+
+  it('counts a re-read night that brought no new story', () => {
+    const { id } = kid();
+    let p: Profile = kid().p;
+    p = { ...p, children: [{ id, name: 'Rishi', age: 8 }], activeId: id };
+    p = markHeard(p, id, 'govardhana');
+    // Force the first night into the past, then re-read it today.
+    p = { ...p, heard: { [id]: { govardhana: '2026-09-01' } } };
+    p = markHeard(p, id, 'govardhana');
+    const s = stats(p, id);
+    expect(s.stories).toBe(1);
+    expect(s.nights).toBe(2);            // was 1 — the re-read evening vanished
+  });
+
+  it('does not double-count a story read and re-read on the same night', () => {
+    const k = kid(); let p: Profile = k.p; const id = k.id;
+    p = markHeard(p, id, 'govardhana');
+    p = markHeard(p, id, 'govardhana');
+    expect(stats(p, id).nights).toBe(1);
+  });
+
+  it('dates the history from the earliest evening, re-reads included', () => {
+    const { p: base, id } = kid();
+    const p: Profile = { ...base,
+      heard: { [id]: { a: '2026-09-05', b: '2026-09-06' } },
+      again: { [id]: { a: '2026-09-02' } } };   // an older evening, only in `again`
+    expect(stats(p, id).since).toBe('2026-09-02');
+  });
+
+  it('keeps a streak alive through a night of only re-reading', () => {
+    const { p: base, id } = kid();
+    const d = (n: number) => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
+    const p: Profile = { ...base,
+      heard: { [id]: { a: d(2) } },
+      again: { [id]: { a: d(1) } } };           // last night was a re-read
+    expect(stats(p, id).streak).toBe(2);        // was 0 — the streak broke on a good night
   });
 });

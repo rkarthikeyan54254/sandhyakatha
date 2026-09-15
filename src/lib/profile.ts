@@ -540,7 +540,12 @@ export interface Stats { stories: number; nights: number; streak: number; since:
 
 export function stats(p: Profile, childId: string | null): Stats {
   const nights = Object.values(heardOf(p, childId));
-  const days = [...new Set(nights)].sort();
+  // A night spent re-reading a favourite is still a night. `heard` holds only
+  // the FIRST night a story was read, so counting it alone made an evening of
+  // "read me the squirrel one again" disappear: it broke the streak, undercounted
+  // the nights, and moved `since`. Coming back to the same story is the exact
+  // behaviour this product exists to encourage, so it counts.
+  const days = [...new Set([...nights, ...Object.values(againOf(p, childId))])].sort();
   let streak = 0;
   const d = new Date();
   for (;;) {

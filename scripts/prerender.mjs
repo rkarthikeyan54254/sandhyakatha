@@ -465,11 +465,13 @@ const writtenIds = new Set(readdirSync(join(ROOT, 'content/stories'))
   .filter(f => f.endsWith('.json'))
   .map(f => read(`content/stories/${f}`))
   .filter(x => x.status === 'published' && !x.audience.gated).map(x => x.id));
+const festivalPages = [];
 let fp = 0;
 for (const [slug, f] of Object.entries(fests)) {
   mkdirSync(join(dist, 'f', slug), { recursive: true });
   writeFileSync(join(dist, 'f', slug, 'index.html'), festivalPage(slug, f, writtenIds));
   urls.push(`${SITE}/f/${slug}/`);
+  festivalPages.push({ slug, name: f.plain ?? f.name });
   fp++;
 }
 console.log(`prerendered ${fp} festival page(s)`);
@@ -484,12 +486,19 @@ console.log(`prerendered ${fp} festival page(s)`);
   const links = corpusPages.map(x =>
     `<a href="/${x.slug}/" style="color:#f0b458;text-decoration:none">${esc(x.label)} <small style="color:#948aa6">(${x.count})</small></a>`
   ).join(' · ');
-  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav></main></div>`;
+  // The festival pages were reachable only from individual story pages, two
+  // clicks in. Google indexed the corpus pages — linked straight from here —
+  // and left every festival page out, which is the half a parent searches for
+  // ("navaratri stories for kids"). Same treatment, same crawl depth.
+  const festLinks = festivalPages.map(x =>
+    `<a href="/f/${x.slug}/" style="color:#f0b458;text-decoration:none">${esc(x.name)}</a>`
+  ).join(' · ');
+  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav><nav aria-label="Browse stories by festival"><p style="color:#c9baa4">Stories for a festival night</p><p>${festLinks}</p></nav></main></div>`;
   if (!home.includes('<div id="root"></div>'))
     throw new Error('homepage root placeholder not found; static source links were not injected');
   home = home.replace('<div id="root"></div>', fallback);
   writeFileSync(homePath, home);
-  console.log(`injected ${corpusPages.length} static source link(s) into homepage`);
+  console.log(`injected ${corpusPages.length} source + ${festivalPages.length} festival link(s) into homepage`);
 }
 
 writeFileSync(join(dist, 'sitemap.xml'),
