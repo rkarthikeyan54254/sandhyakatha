@@ -240,7 +240,9 @@ const searchable = asciiLower([
     tags.push(tag);
   }
 
-  return [...new Set(tags)].slice(0, 10);
+  // Ordered most-specific first so the slice keeps what is actually searched:
+  // the festival and the character, not #StoriesForKids.
+  return [...new Set([...tags.slice(-4), ...tags])].slice(0, 5);
 }
 
 function caption(s) {
@@ -265,6 +267,8 @@ ${plain(s.close.question)}
 
 Read it tonight → link in bio
 ${tracked}
+
+Know a parent who would read this to their child tonight? Send it to them — that is how it travels.
 
 ${hashtagSet(s).join(' ')}
 `;

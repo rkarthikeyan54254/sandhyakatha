@@ -30,6 +30,51 @@ const lex = read('content/lexicon.json');
 const canon = read('content/canon.json').canon;
 const cal = read('content/panchanga.json');
 const fests = read('content/festivals.json').festivals;
+
+/* ---------- follow + send ----------------------------------------------
+ * A reader who has just finished a story is the highest-intent follower this
+ * site will ever get, and until now the page gave them nowhere to go.
+ * "Send to a parent" is first on purpose: a forward into a DM is both how this
+ * actually spreads and the signal Instagram weighs most for reaching people
+ * who do not already follow.
+ */
+const CHANNEL = 'https://whatsapp.com/channel/0029VbDPZyP8KMqsuZX2GJ10';
+const INSTAGRAM = 'https://www.instagram.com/the_sandhyakatha/';
+
+const FOLLOW_CSS = `
+.send{margin:26px 0 0;padding:18px;border:1px solid var(--line);border-radius:14px;background:#1b1526}
+.send p{margin:0 0 13px;font-size:13.5px;line-height:1.6;color:var(--paper-dim)}
+.send button{display:block;width:100%;padding:13px 18px;border:0;border-radius:11px;background:var(--lamp);
+ color:#2a1c08;font-family:Karla,system-ui,sans-serif;font-weight:700;font-size:14px;cursor:pointer}
+.send button:hover{filter:brightness(1.06)}
+.follow{margin:18px 0 0;display:flex;flex-wrap:wrap;gap:10px}
+.follow a{flex:1 1 150px;text-align:center;padding:11px 14px;border:1px solid var(--line);border-radius:11px;
+ text-decoration:none;color:var(--paper-dim);font-family:Karla,system-ui,sans-serif;font-size:13px;font-weight:600}
+.follow a:hover{border-color:var(--lamp-dim);color:var(--lamp)}
+.follow small{display:block;font-weight:400;font-size:11px;color:var(--muted);margin-top:3px}
+`;
+
+function followBlock(shareText, url) {
+  const payload = JSON.stringify({ text: shareText, url });
+  return `<div class="send">
+  <p>If you know a parent who would read this to their child tonight, this is the whole of how Sandhya Katha travels.</p>
+  <button type="button" data-share='${payload.replace(/'/g, '&#39;')}'>Send this to a parent</button>
+  <div class="follow">
+    <a href="${CHANNEL}" target="_blank" rel="noopener">Follow on WhatsApp<small>one story a night</small></a>
+    <a href="${INSTAGRAM}" target="_blank" rel="noopener">Follow on Instagram<small>@the_sandhyakatha</small></a>
+  </div>
+</div>
+<script>
+document.querySelectorAll('button[data-share]').forEach(function(b){
+  b.addEventListener('click', function(){
+    var d = JSON.parse(b.getAttribute('data-share'));
+    var full = d.text + '\n\n' + d.url;
+    if (navigator.share) { navigator.share({ text: d.text, url: d.url }).catch(function(){}); return; }
+    window.open('https://wa.me/?text=' + encodeURIComponent(full), '_blank', 'noopener');
+  });
+});
+</script>`;
+}
 const media = read('content/media.json').stories ?? {};
 
 function approvedHero(s) {
@@ -196,6 +241,7 @@ p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
 .wrong button:hover{background:rgba(240,180,88,.08)}
 .wrong button:disabled{opacity:.6;cursor:default}
 .wrong .thanks{color:var(--ember-lit);font-size:14px;margin:0}
+${FOLLOW_CSS}
 .belongs{margin:26px 0 0;font-size:13.5px;line-height:1.7;color:var(--muted)}
 .belongs a{color:var(--lamp-dim);text-decoration:none;border-bottom:1px solid rgba(169,124,58,.4)}
 .belongs a:hover{color:var(--lamp);border-bottom-color:var(--lamp)}
@@ -240,6 +286,7 @@ ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
   <p>This is the complete telling. Sandhya Katha chooses one for your child's age and the calendar each night — free, nothing to install.</p>
   <a href="/">Open tonight's pick</a>
 </div>
+${followBlock(`${s.title} — tonight's story for the children. About ${r.minutes} minutes, read aloud, and it says at the top which text it comes from.`, url)}
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
 Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.</footer>
 </div>
@@ -307,7 +354,7 @@ function corpusPage(meta, stories) {
 .kick{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700;margin:28px 0 0}h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(32px,7vw,44px);line-height:1.14;margin:12px 0 0;text-wrap:balance}.lede{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.65;color:var(--paper-dim);margin:16px 0 8px}
 .contract{margin:22px 0 8px;padding:15px 17px;border-left:2px solid var(--lamp);background:rgba(240,180,88,.06);font-size:13.5px;line-height:1.65;color:var(--paper-dim)}.contract b{color:var(--lamp)}h2{font-size:10.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:34px 0 4px;padding-top:18px;border-top:1px solid var(--line)}
 .srow{display:block;padding:18px 0;border-bottom:1px solid var(--line);text-decoration:none;color:inherit}.srow b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:21px;display:block;line-height:1.3}.srow span{display:block;font-size:12px;color:var(--muted);margin-top:5px;line-height:1.5}.srow i{display:block;font-family:"Gentium Book Plus",Georgia,serif;font-style:normal;font-size:16.5px;line-height:1.58;color:var(--paper-dim);margin-top:10px}.srow em{display:inline-block;font-style:normal;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--lamp);margin-top:11px}a.srow:hover b{color:var(--lamp)}
-.cta{margin-top:34px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}.cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}.cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;font-weight:700;font-size:14px;text-decoration:none}footer{margin-top:30px;font-size:11.5px;color:var(--muted);line-height:1.7}footer a{color:var(--lamp-dim)}
+.cta{margin-top:34px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}.cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}.cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;font-weight:700;font-size:14px;text-decoration:none}footer{margin-top:30px;font-size:11.5px;color:var(--muted);line-height:1.7}footer a{color:var(--lamp-dim)}${FOLLOW_CSS}
 </style></head><body><div class="w">
 <header><a href="/"><b>Sandhya Katha</b><i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i></a></header>
 <p class="kick">Source-linked collection</p><h1>${esc(meta.label)} stories for children</h1>
@@ -315,6 +362,7 @@ function corpusPage(meta, stories) {
 <div class="contract"><b>What “with sources” means here.</b> Every story below names the work and passage we checked, carries age guidance, and says when the tradition is variant, regional or oral instead of smoothing those differences away.</div>
 <h2>${ordered.length} published stories</h2>${rows}
 <div class="cta"><p>Sandhya Katha chooses one story each night for your child's age and the calendar, and lays it out to be read aloud.</p><a href="/">Open tonight's story</a></div>
+${followBlock(`${meta.label} stories for children — each one cited to its source and written to be read aloud.`, url)}
 <footer><a href="/">Home</a> · <a href="/sitemap.xml">All pages</a></footer>
 </div></body></html>`;
 }
@@ -417,6 +465,7 @@ a.srow:hover b{color:var(--lamp)}
 .cta{margin-top:32px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}
 .cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}
 .cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;font-weight:700;font-size:14px;text-decoration:none}
+${FOLLOW_CSS}
 .names{margin:26px 0 0;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:rgba(148,138,166,.05)}
 .names b{display:block;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
 .names p{margin:0;font-family:"Gentium Book Plus",Georgia,serif;font-size:16.5px;line-height:1.68;color:var(--paper-dim)}
@@ -444,6 +493,7 @@ ${faq.map(x => `<dt>${esc(x.q)}</dt><dd>${esc(x.a)}</dd>`).join('\n')}
   <p>Sandhya Katha chooses one story each night against the pañcāṅga, for your child's age, and lays it out to be read aloud. Free, nothing to install.</p>
   <a href="/">Open tonight's story</a>
 </div>
+${followBlock(`${plain} stories for children — each one cited to its source and written to be read aloud.`, url)}
 <footer>Dates computed with Swiss Ephemeris (Lahiri ayanāṃśa, amānta months, Chennai). Every story names its source, and says so when the tellings differ.<br>
 <a href="/">Home</a> · <a href="/sitemap.xml">All pages</a></footer>
 </div></body></html>`;
