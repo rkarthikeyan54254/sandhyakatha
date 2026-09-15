@@ -92,8 +92,8 @@ function page(s) {
   const url = `${SITE}/s/${s.id}/`;
   // ?v= carries the story's own version so that revising a story busts the card
   // caches (WhatsApp especially) that would otherwise serve the old one for weeks.
-  const og = existsSync(join(ROOT, `public/og/${s.id}.png`))
-    ? `${SITE}/og/${s.id}.png?v=${s.version}`
+  const og = existsSync(join(ROOT, `public/og/${s.id}.jpg`))
+    ? `${SITE}/og/${s.id}.jpg?v=${s.version}`
     : `${SITE}/og/default.png`;
   const seoTitle = `${s.title} — ${s.source.work} story for children | Sandhya Katha`;
   const desc = clamp(`A ${r.minutes}-minute, source-checked ${s.source.work} story for children, from ${s.source.locus}. Ages ${s.audience.minAge}+. ${s.tease}`);
