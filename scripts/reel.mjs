@@ -18,6 +18,7 @@ import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { Resvg } from '@resvg/resvg-js';
+import { audienceText } from './lib/lexicon-display.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const FONTS = join(ROOT, 'assets/fonts');
@@ -32,6 +33,9 @@ if (!id) {
 
 const s = JSON.parse(
   readFileSync(join(ROOT, `content/stories/${id}.json`), 'utf8')
+);
+const lex = JSON.parse(
+  readFileSync(join(ROOT, 'content/lexicon.json'), 'utf8')
 );
 
 const canon = JSON.parse(
@@ -54,10 +58,7 @@ const esc = t =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;');
 
-const plain = t =>
-  String(t)
-    .replace(/[«»]/g, '')
-    .replace(/_([^_]+)_/g, '$1');
+const plain = t => audienceText(t, lex);
 
 function wrap(text, maxPx, sizePx, em = 0.47) {
   const per = sizePx * em, out = [];
@@ -198,6 +199,13 @@ const cards = [
   },
 
   {
+    lines: wrap(`${s.source.work} · ${s.source.locus}`, 890, 38),
+    size: 38,
+    color: '#c9baa4',
+    kicker: 'SOURCE CHECKED'
+  },
+
+  {
     lines: wrap(
       `Read the ${s.lengths.full.minutes}-minute telling tonight.`,
       890,
@@ -207,6 +215,24 @@ const cards = [
     url: true
   }
 ];
+
+// Hard mobile-readability gate: reels are acquisition, not transcription.
+cards.forEach((c, i) => {
+  const text = c.lines.join(' ').trim();
+  const words = text ? text.split(/\s+/).length : 0;
+  const isHook = i === 0;
+  const isQuestion = i === cards.length - 3;
+  const isSource = i === cards.length - 2;
+  const isCta = i === cards.length - 1;
+  const maxWords = isHook ? 22 : isQuestion ? 22 : isSource ? 24 : isCta ? 14 : 18;
+  const maxLines = isSource ? 5 : 4;
+  if (words > maxWords || c.lines.length > maxLines) {
+    throw new Error(
+      `Social readability gate: card ${i + 1} for ${id} is ${words} words / ${c.lines.length} lines ` +
+      `(max ${maxWords} / ${maxLines}). Curate the reel; do not shrink the text.`
+    );
+  }
+});
 
 const tmp = join(OUT, `.reel-${id}`);
 rmSync(tmp, { recursive: true, force: true });

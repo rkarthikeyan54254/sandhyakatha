@@ -282,6 +282,16 @@ for (const [k, v] of Object.entries(lexicon)) {
     err('lexicon.json', `"${k}" has no native script — TTS will read the Latin and mispronounce it`);
   if (!v.say)   err('lexicon.json', `"${k}" has no say (respelling) — the parent needs it before they read aloud`);
   if (!v.gloss) err('lexicon.json', `"${k}" has no gloss`);
+  if (v.display !== undefined) {
+    if (typeof v.display !== 'string' || !v.display.trim())
+      err('lexicon.json', `"${k}" display must be a non-empty string`);
+    else {
+      if (/[«»_<>]/.test(v.display))
+        err('lexicon.json', `"${k}" display contains story markup`);
+      if (v.display !== k && !(v.aliases ?? []).includes(v.display))
+        err('lexicon.json', `"${k}" display "${v.display}" must also be an alias so search can find what parents see`);
+    }
+  }
 }
 
 /* ---------- the constellation ---------- */

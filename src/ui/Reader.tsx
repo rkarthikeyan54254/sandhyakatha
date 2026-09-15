@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { Lexicon, Story, Card } from '../lib/types';
+import { displayTerm } from '../lib/lexicon';
 
 type Said = { term: string; rect: DOMRect } | null;
 
@@ -233,9 +234,13 @@ function Line({ text, lex, onSay }: { text: string; lex: Lexicon; onSay: (s: Sai
     if (p.startsWith('«')) {
       const t = p.slice(1, -1);
       return <button key={i} className="name" title={lex[t]?.say}
-                     onClick={e => onSay({ term: t, rect: e.currentTarget.getBoundingClientRect() })}>{t}</button>;
+                     onClick={e => onSay({ term: t, rect: e.currentTarget.getBoundingClientRect() })}>
+        {displayTerm(lex, t)}
+      </button>;
     }
-    if (p.startsWith('_')) return <em key={i}>{p.slice(1, -1)}</em>;
+    if (p.startsWith('_')) return <em key={i}>
+      <Line text={p.slice(1, -1)} lex={lex} onSay={onSay} />
+    </em>;
     return <span key={i}>{p}</span>;
   })}</>;
 }

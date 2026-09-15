@@ -5,6 +5,7 @@
     "say_vs_ipa": "`say` is shown to the parent (English respelling, capitalised stress). `ipa` is for a future engine that accepts phonemes. `native` is for the engine we will actually use.",
     "schema": {
       "id": "slug",
+      "display": "optional reader-facing spelling; the object key remains the canonical entity key",
       "native": {
         "deva": "Devanagari",
         "taml": "Tamil"

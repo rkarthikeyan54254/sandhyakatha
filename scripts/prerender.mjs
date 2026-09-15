@@ -17,6 +17,7 @@
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { displayTerm } from './lib/lexicon-display.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const SITE = process.env.SITE_URL ?? 'https://sandhyakatha.com';
@@ -63,11 +64,20 @@ const CORPUS_META = {
   panchatantra:      { slug: 'panchatantra',     label: 'Pañcatantra' }
 };
 
-/** «Term» → plain name (collected for the pronunciation list); _x_ → <em>x</em>. */
+/** Same reading semantics as the React Reader: names are tappable; emphasis stays emphasis. */
 function render(text, seen) {
-  return esc(text)
-    .replace(/«([^»]+)»/g, (_, t) => { if (lex[t]) seen.add(t); return `<b class="n">${t}</b>`; })
-    .replace(/_([^_]+)_/g, '<em>$1</em>');
+  return String(text).split(/(«[^»]+»|_[^_]+_)/g).filter(Boolean).map(part => {
+    if (part.startsWith('«')) {
+      const t = part.slice(1, -1);
+      const entry = lex[t];
+      if (entry) seen.add(t);
+      const display = displayTerm(lex, t);
+      const native = entry?.native?.taml ?? entry?.native?.deva ?? '';
+      return `<button type="button" class="name" data-term="${esc(t)}" data-say="${esc(entry?.say ?? '')}" data-gloss="${esc(entry?.gloss ?? '')}" data-native="${esc(native)}">${esc(display)}</button>`;
+    }
+    if (part.startsWith('_')) return `<em>${render(part.slice(1, -1), seen)}</em>`;
+    return esc(part);
+  }).join('');
 }
 
 function page(s) {
@@ -78,8 +88,10 @@ function page(s) {
     ? '<div class="beat"><span>pause</span></div>'
     : b.t === 'aside'
       ? `<aside class="note"><span>for you, not aloud</span><p>${render(b.text, seen)}</p></aside>`
-      : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${render(b.text, seen)}</p>`).join('\n');
-  const says = [...seen].map(t => `<li><b>${t}</b><span>${esc(lex[t].say)}</span><i>${esc(lex[t].gloss)}</i></li>`).join('');
+      : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${b.t === 'slow' ? '<span class="slowtag">slow down here</span>' : ''}${render(b.text, seen)}</p>`).join('\n');
+  const asks = (s.close.ifTheyAsk ?? []).map(f =>
+    `<details class="ask"><summary>If they ask: “${render(f.q, new Set())}”</summary><p>${render(f.a, new Set())}</p></details>`
+  ).join('');
   const url = `${SITE}/s/${s.id}/`;
   // ?v= carries the story's own version so that revising a story busts the card
   // caches (WhatsApp especially) that would otherwise serve the old one for weeks.
@@ -148,8 +160,10 @@ h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(
 main p{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.72;margin:0 0 20px}
 main{margin-top:28px}
 main em{color:#ffe3b0}
-main .n{font-weight:400;color:var(--lamp)}
+.name{appearance:none;border:0;background:none;padding:0;margin:0;font:inherit;color:var(--lamp);cursor:pointer;border-bottom:1px dotted rgba(240,180,88,.45)}
+.name:focus-visible{outline:2px solid var(--lamp-dim);outline-offset:2px;border-radius:2px}
 p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
+.slowtag{display:block;font-family:Karla,sans-serif;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--lamp-dim);margin-bottom:7px}
 .beat{display:flex;align-items:center;gap:10px;margin:0 0 20px;color:var(--lamp-dim)}
 .beat:before,.beat:after{content:"";flex:1;height:1px;background:var(--line)}
 .beat span{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
@@ -157,11 +171,14 @@ p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
 .turn span.e{font-size:10.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--lamp);font-weight:700}
 .turn p{font-family:"Gentium Book Plus",Georgia,serif;font-size:20px;line-height:1.5;margin:12px 0 0;color:#ffe9c4}
 .turn p.s{font-size:15px;font-style:italic;color:var(--paper-dim);margin-top:14px}
-.says{margin:30px 0 0;padding:0;list-style:none;border-top:1px solid var(--line)}
-.says li{padding:12px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.5}
-.says b{font-family:"Gentium Book Plus",serif;color:var(--paper);margin-right:9px}
-.says span{color:var(--lamp);font-weight:700;letter-spacing:.03em}
-.says i{display:block;color:var(--muted);margin-top:4px;font-style:normal}
+.ask{margin-top:10px;border-top:1px solid var(--line);padding-top:10px}
+.ask summary{cursor:pointer;color:var(--paper-dim);font-size:13px;line-height:1.5}
+.ask p{font-family:"Gentium Book Plus",Georgia,serif;font-size:16px;line-height:1.6;color:var(--paper-dim);margin:10px 0 0}
+.lexpop{position:fixed;z-index:50;left:16px;right:16px;bottom:16px;max-width:520px;margin:0 auto;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:#21192e;color:var(--paper);box-shadow:0 18px 50px rgba(0,0,0,.46);text-align:left;font-family:Karla,system-ui,sans-serif;cursor:pointer}
+.lexpop[hidden]{display:none}
+.lexpop b{display:block;color:var(--lamp);font-size:15px}
+.lexpop span{display:block;color:var(--paper-dim);font-size:13px;line-height:1.5;margin-top:4px}
+.lexpop i{display:block;color:var(--muted);font-style:normal;font-size:16px;margin-top:7px}
 .cta{margin-top:32px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}
 .cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}
 .cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;
@@ -204,9 +221,9 @@ ${hero ? `<figure class="storyart"><img src="${esc(hero)}" alt="Illustration for
 <main>${body}</main>
 <div class="turn"><span class="e">Now turn to your child</span>
   <p>${render(s.close.question, new Set())}</p>
-  <p class="s">And if they shrug, you can leave it at this: <b>${esc(s.close.seed)}</b></p>
+  <p class="s">And if they shrug, you can leave it at this: <b>${render(s.close.seed, new Set())}</b></p>
 </div>
-${says ? `<ul class="says">${says}</ul>` : ''}
+${asks}
 <details class="wrong">
   <summary>Something isn't right here</summary>
   <form data-report="${s.id}" data-version="${s.version}">
@@ -228,7 +245,29 @@ ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
 </div>
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
 Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.</footer>
-</div></body></html>`;
+</div>
+<button type="button" class="lexpop" id="lexpop" hidden aria-live="polite">
+  <b></b><span></span><i></i>
+</button>
+<script>
+(() => {
+  const pop = document.getElementById('lexpop');
+  if (!pop) return;
+  document.addEventListener('click', e => {
+    const el = e.target.closest?.('.name[data-term]');
+    if (!el) return;
+    pop.querySelector('b').textContent = el.dataset.say || el.textContent || '';
+    pop.querySelector('span').textContent = el.dataset.gloss || '';
+    pop.querySelector('i').textContent = el.dataset.native || '';
+    pop.hidden = false;
+  });
+  pop.addEventListener('click', () => { pop.hidden = true; });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') pop.hidden = true;
+  });
+})();
+</script>
+</body></html>`;
 }
 
 

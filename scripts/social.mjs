@@ -28,6 +28,7 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { Resvg } from '@resvg/resvg-js';
+import { audienceText } from './lib/lexicon-display.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = join(ROOT, 'social');
@@ -39,6 +40,7 @@ const SITE = 'https://sandhyakatha.com';
 
 const canon = JSON.parse(readFileSync(join(ROOT, 'content/canon.json'), 'utf8')).canon;
 const canonById = new Map(canon.map(row => [row.id, row]));
+const lex = JSON.parse(readFileSync(join(ROOT, 'content/lexicon.json'), 'utf8'));
 
 const esc = s => String(s)
   .replace(/&/g, '&amp;')
@@ -46,7 +48,7 @@ const esc = s => String(s)
   .replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;')
   .replace(/'/g, '&apos;');
-const plain = s => String(s).replace(/[«»]/g, '').replace(/_([^_]+)_/g, '$1');
+const plain = s => audienceText(s, lex);
 
 function wrap(text, maxPx, sizePx, em = 0.50) {
   const per = sizePx * em, out = [];

@@ -18,7 +18,7 @@ export interface Story extends Omit<Card,'characters'|'minutes'> {
   close:{question:string;seed:string;ifTheyAsk?:{q:string;a:string}[]};
   characters:{ref:string;role:string}[];
 }
-export interface LexEntry { id:string; native:{deva?:string;taml?:string}; say:string; ipa?:string; kind:string; gloss:string; aliases?:string[] }
+export interface LexEntry { id:string; display?:string; native:{deva?:string;taml?:string}; say:string; ipa?:string; kind:string; gloss:string; aliases?:string[] }
 export type Lexicon = Record<string, LexEntry>;
 
 export interface CanonRow {
