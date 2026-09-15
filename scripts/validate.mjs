@@ -72,6 +72,9 @@ const lexicon = read('content/lexicon.json');
 const canon   = read('content/canon.json').canon;
 const values  = read('content/values.json').values;
 const lock    = existsSync(join(ROOT, 'content/content.lock.json')) ? read('content/content.lock.json') : { stories: {} };
+const media   = existsSync(join(ROOT, 'content/media.json'))
+  ? (read('content/media.json').stories ?? {})
+  : {};
 
 const ajv = addFormats(new Ajv({ allErrors: true, strict: false }));
 const validate = ajv.compile(schema);
@@ -121,6 +124,28 @@ for (const file of files) {
     if (!s.source.checkedAgainst?.length) err(at, 'published without checkedAgainst — name the edition it was verified against');
     if (!s.source.reviewedBy)  err(at, 'published without reviewedBy');
     if (!s.source.reviewedOn)  err(at, 'published without reviewedOn');
+
+    // SANDHYAKATHA_PUBLISHED_HERO_GATE
+    // A published story must have reviewed art for this exact story version.
+    const m = media[s.id];
+    const expectedHero = `/media/stories/${s.id}/hero.webp`;
+
+    if (!m) {
+      err(at, 'published without content/media.json entry');
+    } else {
+      if (m.storyVersion !== s.version)
+        err(at, `hero storyVersion ${m.storyVersion ?? 'none'} does not match published story v${s.version}`);
+
+      if (m.image?.status !== 'approved')
+        err(at, `published hero status must be "approved", found "${m.image?.status ?? 'missing'}"`);
+
+      if (m.image?.file !== expectedHero)
+        err(at, `published hero must be "${expectedHero}", found "${m.image?.file ?? 'missing'}"`);
+
+      if (m.image?.file === expectedHero &&
+          !existsSync(join(ROOT, 'public', expectedHero.replace(/^\//, ''))))
+        err(at, `published hero file is missing: public${expectedHero}`);
+    }
   }
 
   // -- the read-aloud score ---------------------------------------------

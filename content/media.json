@@ -596,6 +596,380 @@
           "file": null
         }
       }
+    },
+    "hanuman-own-ramayana": {
+      "canonStatus": "published",
+      "storyVersion": 2,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/hanuman-own-ramayana/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "ambarisha-waits": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ambarisha-waits/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "annapurna-bhiksha": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/annapurna-bhiksha/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "birds-eye": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/birds-eye/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "karna-armour": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/karna-armour/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "maitreyi-wealth": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/maitreyi-wealth/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "savitri-yama": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/savitri-yama/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "vamana-three-steps": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/vamana-three-steps/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "yaksha-lake": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/yaksha-lake/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "vibhishana-crosses": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/vibhishana-crosses/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "rama-returns": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/rama-returns/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "bharata-fawn": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/bharata-fawn/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "hanuman-ring-sita": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/hanuman-ring-sita/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "kali-stops": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/kali-stops/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "narakasura": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/narakasura/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "prithu-earth-cow": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/prithu-earth-cow/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "rantideva-water": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/rantideva-water/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "sampati-words": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/sampati-words/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "shakambhari": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/shakambhari/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "valmiki-first-shloka": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/valmiki-first-shloka/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "parvati-decides": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/parvati-decides/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "damayanti-choice": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/damayanti-choice/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }
