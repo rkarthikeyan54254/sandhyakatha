@@ -5,6 +5,19 @@
     "rule": "Do not put new story prose here. Select reviewed story blocks only; canon.json owns the acquisition hook."
   },
   "stories": {
+    "durva-kubera-scale": {
+      "reel": {
+        "hook": { "from": "title", "mode": "full" },
+        "blocks": [
+          { "index": 3, "mode": "sentence", "sentence": 5 },
+          { "index": 4, "mode": "sentence", "sentence": 4 },
+          { "index": 5, "mode": "sentence", "sentence": 2 },
+          { "index": 5, "mode": "sentence", "sentence": 4 },
+          { "index": 8, "mode": "sentence", "sentence": 3 },
+          { "index": 9, "mode": "sentence", "sentence": 5 }
+        ]
+      }
+    },
     "squirrel-setu": {
       "reel": {
         "blocks": [

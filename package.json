@@ -26,6 +26,7 @@
     "proof": "node scripts/proof.mjs",
     "social": "node scripts/social.mjs",
     "reel": "node scripts/reel.mjs",
+    "reel:check": "node scripts/reel.mjs --check",
     "review": "node scripts/review.mjs",
     "corrections": "node scripts/corrections.mjs",
     "validate:locales": "node scripts/validate-locales.mjs",
