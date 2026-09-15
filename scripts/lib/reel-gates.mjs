@@ -42,12 +42,15 @@ export function gatePlan({ root, story, spec, heroUrl, cards }) {
   }
 
   const coverCards = cards.filter(c => c.role === 'cover');
+  const heroCards = cards.filter(c => c.role === 'hero');
   const bodyCards = cards.filter(c => c.role === 'body');
   const sourceCards = cards.filter(c => c.role === 'source');
   const ctaCards = cards.filter(c => c.role === 'cta');
 
   if (coverCards.length !== 1 || cards[0]?.role !== 'cover')
-    fail('exactly one image cover is required, and it must be card 1');
+    fail('exactly one cover is required, and it must be card 1');
+  if (heroCards.length !== 1 || cards[1]?.role !== 'hero')
+    fail('exactly one clean hero image card is required, and it must be card 2');
   if (bodyCards.length !== spec?.blocks?.length)
     fail('body card count does not match curated source selection');
   if (sourceCards.length !== 1)
@@ -62,6 +65,11 @@ export function gatePlan({ root, story, spec, heroUrl, cards }) {
         fail(`card ${i + 1} hook is ${words(c.text)} words; max ${S.maxHookWords}`);
       if (c.lines.length > S.maxLines)
         fail(`card ${i + 1} hook is ${c.lines.length} lines; max ${S.maxLines}`);
+    }
+
+    if (c.role === 'hero') {
+      if (c.text !== '' || c.lines.length !== 0)
+        fail(`card ${i + 1} hero must contain no story text`);
     }
 
     if (c.role === 'body') {
@@ -122,7 +130,7 @@ export function gatePlan({ root, story, spec, heroUrl, cards }) {
 
   return [
     'source integrity',
-    'approved image cover',
+    'approved cover + clean hero image',
     'curated card count',
     'brand typography',
     'brand palette/layout',

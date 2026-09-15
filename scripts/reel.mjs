@@ -9,6 +9,8 @@
  *   npm run reel -- <story-id> --open
  */
 import {
+  existsSync,
+  statSync,
   readFileSync,
   writeFileSync,
   mkdirSync,
@@ -145,6 +147,13 @@ const cards = [
     lines: wrap(hook, 860, S.hookSize),
     color: S.highlight
   },
+  {
+    role: 'hero',
+    text: '',
+    size: S.bodySize,
+    lines: [],
+    color: S.paper
+  },
   ...body.map((text, i) => ({
     role: 'body',
     text,
@@ -247,6 +256,19 @@ ${c.url
 </svg>`;
 }
 
+function heroSvg(dataUri) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${S.width}" height="${S.height}"
+     viewBox="0 0 ${S.width} ${S.height}">
+${defs()}
+<image href="${dataUri}" x="0" y="0" width="${S.width}" height="${S.height}"
+       preserveAspectRatio="xMidYMid slice"/>
+<rect width="${S.width}" height="${S.height}" fill="#0e0a16" opacity="0.10"/>
+${brand()}
+<text x="${S.left}" y="${S.footerY}" font-family="${S.sans}" font-size="26"
+      fill="${S.paperDim}">sandhyakatha.com</text>
+</svg>`;
+}
+
 function coverSvg(c, dataUri) {
   const lh = c.size * 1.24;
   const blockH = (c.lines.length - 1) * lh;
@@ -279,18 +301,73 @@ rmSync(reviewDir, { recursive: true, force: true });
 mkdirSync(reviewDir, { recursive: true });
 
 const framePaths = [];
-cards.forEach((c, i) => {
-  const svg = c.role === 'cover' ? coverSvg(c, heroData) : textCardSvg(c);
-  const rendered = new Resvg(svg, {
-    fitTo: { mode: 'width', value: S.width },
-    font: {
-      fontDirs: [FONTS],
-      loadSystemFonts: false,
-      defaultFontFamily: S.serif
-    }
-  }).render().asPng();
+const resvgOptions = {
+  fitTo: { mode: 'width', value: S.width },
+  font: {
+    fontDirs: [FONTS],
+    loadSystemFonts: false,
+    defaultFontFamily: S.serif
+  }
+};
 
+cards.forEach((c, i) => {
   const path = join(reviewDir, `card-${String(i + 1).padStart(2, '0')}.png`);
+
+  if (c.role === 'hero') {
+    execFileSync(
+      'ffmpeg',
+      [
+        '-y',
+        '-v', 'error',
+        '-i', heroDisk,
+        '-vf',
+        `scale=${S.width}:${S.height}:force_original_aspect_ratio=increase,` +
+          `crop=${S.width}:${S.height}`,
+        '-frames:v', '1',
+        path
+      ],
+      { stdio: ['ignore', 'ignore', 'pipe'] }
+    );
+
+    if (!existsSync(path))
+      throw new Error(`FAIL hero raster gate: frame was not written for ${id}`);
+
+    const heroStat = statSync(path);
+    if (heroStat.size < 50_000)
+      throw new Error(
+        `FAIL hero raster gate: rendered hero is suspiciously small (${heroStat.size} bytes)`
+      );
+
+    const probe = JSON.parse(
+      execFileSync(
+        'ffprobe',
+        [
+          '-v', 'error',
+          '-select_streams', 'v:0',
+          '-show_entries', 'stream=width,height',
+          '-of', 'json',
+          path
+        ],
+        { encoding: 'utf8' }
+      )
+    );
+    const stream = probe.streams?.[0];
+
+    if (+stream?.width !== S.width || +stream?.height !== S.height)
+      throw new Error(
+        `FAIL hero raster gate: got ${stream?.width}x${stream?.height}, ` +
+        `expected ${S.width}x${S.height}`
+      );
+
+    console.log(
+      `hero raster gate: PASS — ${S.width}x${S.height}, ${heroStat.size} bytes`
+    );
+    framePaths.push(path);
+    return;
+  }
+
+  const svg = textCardSvg(c);
+  const rendered = new Resvg(svg, resvgOptions).render().asPng();
   writeFileSync(path, rendered);
   framePaths.push(path);
 });
