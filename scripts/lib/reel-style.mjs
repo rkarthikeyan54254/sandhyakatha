@@ -20,7 +20,7 @@ export const REEL_STYLE = Object.freeze({
   gold: '#f0b458',
   goldDim: '#a97c3a',
   highlight: '#ffe9c4',
-  footer: '#5d5474',
+  footer: '#8f86a3',
 
   left: 96,
   brandY: 150,
@@ -31,6 +31,7 @@ export const REEL_STYLE = Object.freeze({
   sourceSize: 38,
   ctaSize: 54,
   urlSize: 34,
+  footerSize: 30,
 
   holdSeconds: 3.1,
   fadeSeconds: 0.45,

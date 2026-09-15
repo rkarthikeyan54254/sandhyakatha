@@ -155,6 +155,31 @@ export function gateRendered(mp4) {
   else {
     if (+video.width !== S.width || +video.height !== S.height)
       errors.push(`render is ${video.width}x${video.height}, expected ${S.width}x${S.height}`);
+
+    if (video.codec_name !== 'h264')
+      errors.push(`render codec is ${video.codec_name}; expected h264`);
+
+    if (video.profile !== 'High')
+      errors.push(`render H.264 profile is ${video.profile}; expected High`);
+
+    if (video.pix_fmt !== 'yuv420p')
+      errors.push(`render pixel format is ${video.pix_fmt}; expected yuv420p`);
+
+    const fps = (() => {
+      const [n, d] = String(video.avg_frame_rate ?? '').split('/').map(Number);
+      return d ? n / d : Number(video.avg_frame_rate ?? 0);
+    })();
+    if (Math.abs(fps - 30) > 0.01)
+      errors.push(`render frame rate is ${fps}; expected 30`);
+
+    if (video.color_space && video.color_space !== 'bt709')
+      errors.push(`render colorspace is ${video.color_space}; expected bt709`);
+
+    if (video.color_primaries && video.color_primaries !== 'bt709')
+      errors.push(`render color primaries are ${video.color_primaries}; expected bt709`);
+
+    if (video.color_transfer && video.color_transfer !== 'bt709')
+      errors.push(`render color transfer is ${video.color_transfer}; expected bt709`);
   }
   if (audio) errors.push('reel must be silent; audio stream found');
 

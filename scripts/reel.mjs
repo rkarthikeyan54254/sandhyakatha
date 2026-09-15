@@ -251,8 +251,8 @@ ${textLines(c.lines, { size: c.size, color: c.color, startY: top })}
 ${c.url
   ? `<text x="${S.left}" y="${S.footerY}" font-family="${S.sans}" font-size="${S.urlSize}"
        font-weight="700" fill="${S.gold}">${esc(c.url)}</text>`
-  : `<text x="${S.left}" y="${S.footerY}" font-family="${S.sans}" font-size="26"
-       fill="${S.footer}">sandhyakatha.com</text>`}
+  : `<text x="${S.left}" y="${S.footerY}" font-family="${S.sans}" font-size="${S.footerSize}"
+       font-weight="600" letter-spacing="0.8" fill="${S.footer}">sandhyakatha.com</text>`}
 </svg>`;
 }
 
@@ -397,10 +397,16 @@ execFileSync('ffmpeg', [
   '-filter_complex', filter,
   '-map', '[v]',
   '-c:v', 'libx264',
-  '-preset', 'veryfast',
-  '-crf', '20',
+  '-profile:v', 'high',
+  '-level:v', '4.1',
+  '-preset', 'slow',
+  '-tune', 'stillimage',
+  '-crf', '14',
   '-pix_fmt', 'yuv420p',
   '-r', '30',
+  '-colorspace', 'bt709',
+  '-color_primaries', 'bt709',
+  '-color_trc', 'bt709',
   '-movflags', '+faststart',
   mp4
 ], { stdio: ['ignore', 'ignore', 'pipe'] });
