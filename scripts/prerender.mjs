@@ -159,6 +159,7 @@ function page(s) {
 <title>${esc(seoTitle)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
+<link rel="alternate" type="application/rss+xml" title="Sandhya Katha" href="${SITE}/feed.xml">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha">
 <meta property="og:title" content="${esc(s.title)}"><meta property="og:description" content="${esc(desc)}">
@@ -332,7 +333,8 @@ function corpusPage(meta, stories) {
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${esc(meta.label)} stories for children · Sandhya Katha</title>
 <meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${url}"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="${url}">
+<link rel="alternate" type="application/rss+xml" title="Sandhya Katha" href="${SITE}/feed.xml"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha">
 <meta property="og:title" content="${esc(meta.label)} stories for children — with sources">
 <meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}">
@@ -411,6 +413,7 @@ function festivalPage(slug, f, written) {
 <title>${esc(plain)} stories for children · Sandhya Katha</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${url}">
+<link rel="alternate" type="application/rss+xml" title="Sandhya Katha" href="${SITE}/feed.xml">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha">
 <meta property="og:title" content="${esc(plain)} stories for children">
@@ -574,5 +577,50 @@ writeFileSync(join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   urls.map(u => `  <url><loc>${u}</loc><changefreq>weekly</changefreq></url>`).join('\n') +
   `\n</urlset>\n`);
+
+/* ---------- RSS feed ----------------------------------------------------
+ * A nightly story is exactly the shape RSS was made for, and a feed is the
+ * entry format directories like Kagi Small Web actually accept — the site had
+ * a sitemap (for crawlers) but nothing a reader could subscribe to.
+ * Newest first by the story's own `updated` date.
+ */
+const xmlEsc = t => String(t)
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+
+const feedItems = publishedStories
+  .slice()
+  .sort((a, b) => String(b.updated ?? '').localeCompare(String(a.updated ?? '')))
+  .slice(0, 50)
+  .map(st => {
+    const link = `${SITE}/s/${st.id}/`;
+    const when = new Date(`${st.updated ?? '1970-01-01'}T18:30:00Z`).toUTCString();
+    const body = `${st.tease} — ${st.source.work}, ${st.source.locus}. `
+      + `Ages ${st.audience.minAge}+, about ${st.lengths.full.minutes} minutes read aloud.`;
+    return `  <item>
+    <title>${xmlEsc(st.title)}</title>
+    <link>${link}</link>
+    <guid isPermaLink="false">sandhyakatha:${xmlEsc(st.id)}:v${st.version ?? 1}</guid>
+    <pubDate>${when}</pubDate>
+    <description>${xmlEsc(body)}</description>
+  </item>`;
+  }).join('\n');
+
+writeFileSync(join(dist, 'feed.xml'),
+  `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Sandhya Katha</title>
+  <link>${SITE}/</link>
+  <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>One story a night for children, from the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads. Every story names the work and passage it was checked against, and says where the tellings differ.</description>
+  <language>en</language>
+  <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${feedItems}
+</channel>
+</rss>
+`);
+console.log(`feed.xml — ${Math.min(publishedStories.length, 50)} item(s)`);
+
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log(`prerendered ${n} shareable story page(s) + sitemap`);
