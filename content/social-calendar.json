@@ -1,0 +1,189 @@
+{
+  "version": 2,
+  "timezone": "Asia/Kolkata",
+  "postingTime": "19:00",
+  "generatedOn": "2026-09-15",
+  "policy": "Only published, non-gated stories that pass the real reel preflight and have approved exact-version art. Festival matches get priority once; otherwise rotate without repeats.",
+  "days": {
+    "2026-09-15": {
+      "storyId": "ganesha-circles",
+      "title": "Gaṇeśa Goes Around the World",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-16": {
+      "storyId": "rama-returns",
+      "title": "The Night They Lit the Whole Road",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-17": {
+      "storyId": "shabari-berries",
+      "title": "Śabarī's Tasted Berries",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-18": {
+      "storyId": "durva-kubera-scale",
+      "title": "The Blade of Grass Kubera Couldn't Outweigh",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-19": {
+      "storyId": "shakambhari",
+      "title": "The Woman Who Fed the World",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-20": {
+      "storyId": "hanuman-tail",
+      "title": "The Tail Bhīma Could Not Lift",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-21": {
+      "storyId": "bharata-sandals",
+      "title": "The Empty Chair",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-22": {
+      "storyId": "jatayu-last-flight",
+      "title": "Jaṭāyu's Last Flight",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-23": {
+      "storyId": "narakasura",
+      "title": "The Morning After Naraka",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-24": {
+      "storyId": "satyakama-truth",
+      "title": "Satyakāma Says the Hard Thing",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-25": {
+      "storyId": "hanuman-own-ramayana",
+      "title": "Hanumān Wrote One Too",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-26": {
+      "storyId": "yaksha-lake",
+      "title": "The Crane at the Lake",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-27": {
+      "storyId": "shravana-baskets",
+      "title": "Śravaṇa and the Two Baskets",
+      "reason": "festival:pitru-paksha",
+      "status": "planned"
+    },
+    "2026-09-28": {
+      "storyId": "abhimanyu-spiral",
+      "title": "Abhimanyu and the Spiral",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-29": {
+      "storyId": "squirrel-setu",
+      "title": "The Squirrel Who Carried Sand",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-09-30": {
+      "storyId": "hanuman-reminded",
+      "title": "Jāmbavān Reminds Hanumān",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-01": {
+      "storyId": "lakshmi-leaves-indra",
+      "title": "The Garland Indra Did Not Get Down For",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-02": {
+      "storyId": "kali-stops",
+      "title": "The Foot She Almost Stepped On",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-03": {
+      "storyId": "yudhishthira-dog",
+      "title": "He Would Not Go In Without the Dog",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-04": {
+      "storyId": "annapurna-bhiksha",
+      "title": "Śiva Goes Begging at His Own Door",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-05": {
+      "storyId": "svetaketu-salt",
+      "title": "Śvetaketu and the Salt",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-06": {
+      "storyId": "guha-boatman",
+      "title": "Guha Keeps Watch",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-07": {
+      "storyId": "pusalar-temple",
+      "title": "The Temple Nobody Could See",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-08": {
+      "storyId": "valmiki-first-shloka",
+      "title": "The First Poem Was an Accident",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-09": {
+      "storyId": "ekalavya-thumb",
+      "title": "Ekalavya's Thumb",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-10": {
+      "storyId": "govardhana",
+      "title": "The Mountain Held Up by Sticks",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-11": {
+      "storyId": "durga-mahishasura",
+      "title": "The Buffalo Nobody Could Fight",
+      "reason": "festival:navaratri",
+      "status": "planned"
+    },
+    "2026-10-12": {
+      "storyId": "abhimanyu-spiral",
+      "title": "Abhimanyu and the Spiral",
+      "reason": "rotation",
+      "status": "planned"
+    },
+    "2026-10-13": {
+      "storyId": "shakambhari",
+      "title": "The Woman Who Fed the World",
+      "reason": "festival:navaratri",
+      "status": "planned"
+    },
+    "2026-10-14": {
+      "storyId": "kali-stops",
+      "title": "The Foot She Almost Stepped On",
+      "reason": "festival:navaratri",
+      "status": "planned"
+    }
+  }
+}
