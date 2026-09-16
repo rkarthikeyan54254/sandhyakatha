@@ -287,7 +287,8 @@ ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
 </div>
 ${followBlock(`${s.title} — tonight's story for the children. About ${r.minutes} minutes, read aloud, and it says at the top which text it comes from.`, url)}
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
-Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.</footer>
+Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.<br>
+<a href="/privacy/">Privacy</a></footer>
 </div>
 <button type="button" class="lexpop" id="lexpop" hidden aria-live="polite">
   <b></b><span></span><i></i>
@@ -363,7 +364,7 @@ function corpusPage(meta, stories) {
 <h2>${ordered.length} published stories</h2>${rows}
 <div class="cta"><p>Sandhya Katha chooses one story each night for your child's age and the calendar, and lays it out to be read aloud.</p><a href="/">Open tonight's story</a></div>
 ${followBlock(`${meta.label} stories for children — each one cited to its source and written to be read aloud.`, url)}
-<footer><a href="/">Home</a> · <a href="/sitemap.xml">All pages</a></footer>
+<footer><a href="/">Home</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a></footer>
 </div></body></html>`;
 }
 
@@ -496,12 +497,108 @@ ${faq.map(x => `<dt>${esc(x.q)}</dt><dd>${esc(x.a)}</dd>`).join('\n')}
 </div>
 ${followBlock(`${plain} stories for children — each one cited to its source and written to be read aloud.`, url)}
 <footer>Dates computed with Swiss Ephemeris (Lahiri ayanāṃśa, amānta months, Chennai). Every story names its source, and says so when the tellings differ.<br>
-<a href="/">Home</a> · <a href="/sitemap.xml">All pages</a></footer>
+<a href="/">Home</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a></footer>
 </div></body></html>`;
 }
 
 const dist = join(ROOT, 'dist');
 if (!existsSync(dist)) { console.error('run vite build first'); process.exit(1); }
+
+
+/* ---------- privacy ------------------------------------------------------
+ * A real page at a real URL. PRIVACY.md is for us; parents, school librarians
+ * and district reviewers need something they can read and link to. Everything
+ * here must stay true to what the code actually does — if the analytics or the
+ * account shape changes, this page changes in the same commit.
+ */
+function privacyPage() {
+  const url = `${SITE}/privacy/`;
+  const desc = 'What Sandhya Katha stores, what it does not, and why. Written for parents and for anyone reviewing the site for classroom use.';
+  return `<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Privacy · Sandhya Katha</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${url}">
+<link rel="alternate" type="application/rss+xml" title="Sandhya Katha" href="${SITE}/feed.xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha">
+<meta property="og:title" content="Privacy — Sandhya Katha">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}/og/default.png">
+<meta name="theme-color" content="#14101c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
+<style>
+:root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
+*{box-sizing:border-box}
+body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,sans-serif;
+ background-image:radial-gradient(900px 500px at 50% -10%,#282040 0,rgba(40,32,64,0) 70%);background-attachment:fixed}
+.w{max-width:660px;margin:0 auto;padding:0 22px 70px}
+header{padding:22px 0 18px;border-bottom:1px solid var(--line)}
+header a{text-decoration:none;color:inherit}
+header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px;display:block}
+header i{font-style:normal;font-size:10px;color:var(--lamp-dim);display:block;margin-top:3px}
+.kick{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700;margin:28px 0 0}
+h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(30px,7vw,42px);line-height:1.14;margin:12px 0 0}
+.lede{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.65;color:var(--paper-dim);margin:16px 0 0}
+h2{font-size:11px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:38px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+p{font-family:"Gentium Book Plus",Georgia,serif;font-size:17px;line-height:1.68;color:var(--paper-dim);margin:12px 0 0}
+strong{color:var(--paper)}
+ul{margin:12px 0 0;padding-left:20px}
+li{font-family:"Gentium Book Plus",Georgia,serif;font-size:17px;line-height:1.62;color:var(--paper-dim);margin-bottom:9px}
+li::marker{color:var(--lamp-dim)}
+.box{margin:20px 0 0;padding:15px 17px;border-left:2px solid var(--lamp);background:rgba(240,180,88,.06)}
+.box p{font-size:16px;margin:0}
+a.lnk{color:var(--lamp)}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.7}
+footer a{color:var(--lamp-dim)}
+</style></head>
+<body><div class="w">
+<header><a href="/"><b>Sandhya Katha</b><i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i></a></header>
+<p class="kick">Privacy</p>
+<h1>What we store, and what we don't</h1>
+<p class="lede">This is a site used by children. That single fact decided every choice below, and we would rather write them in plain words than in the usual paragraph of legal fog.</p>
+
+<div class="box"><p><strong>The short version.</strong> You can read every story without an account, and signed out we store nothing about you on our servers at all. There is no advertising anywhere on this site, and nothing here profiles a child.</p></div>
+
+<h2>Reading signed out</h2>
+<p>No account, no wall in front of the first story. Which stories you have read, your child's first name if you typed one, their age band and the difficult-stories setting are kept <strong>in your own browser</strong>, and never sent to us. Clearing your browser data erases them.</p>
+
+<h2>If you choose to sign in</h2>
+<p>Signing in is optional and does exactly three things: it survives a cleared cache, it reaches a second device, and later it will carry a subscription.</p>
+<ul>
+<li>An account holds one thing: a first name you typed, an age, which stories were read and on which night, and the difficult-stories setting.</li>
+<li><strong>There are no passwords.</strong> Sign-in is through Google, or through a recovery code if you would rather we never learn who you are.</li>
+<li><strong>Google is an identity provider, not an embedded one.</strong> The exchange happens on our server, so no Google sign-in script ever loads in the page and Google never sees a visitor who does not sign in. Only an email address and an account identifier are requested.</li>
+</ul>
+
+<h2>Measurement, and its limits</h2>
+<p>We use Google Analytics to count how the site is used, and we have switched off the parts of it that exist to serve advertising. Advertising storage, advertising user data and ad personalisation are all denied by default; Google Signals and ad-personalisation signals are off; IP addresses are anonymised.</p>
+<p>Three events are recorded and nothing else: a story was opened, a story was finished, sign-in was started. <strong>No child's name, no age, no free text, and nothing that follows anyone across other websites.</strong> India's DPDP Act prohibits behavioural advertising to children; the analytics defaults are not on a child's side, so we override them explicitly rather than trusting them.</p>
+
+<h2>Telling us a story is wrong</h2>
+<p>Anyone can report an error from a story page. It takes no account and asks for no name. We keep the story, the version it was reported against, what you wrote, and a two-letter country code — enough to notice a flood of reports, useless for identifying anybody. The form asks you not to include personal details; if you do anyway, that text is deleted once the report has been acted on.</p>
+
+<h2>What is never done here</h2>
+<ul>
+<li>No advertising, no ad network, no sponsored content.</li>
+<li>No selling or sharing of anyone's data with anybody.</li>
+<li>No profile of a child, and nothing inferred about one.</li>
+<li>No social media embeds, and no scripts or fonts from anywhere our content security policy does not name.</li>
+<li>No tracking of a child across other sites, because nothing here can.</li>
+</ul>
+
+<h2>For schools and libraries</h2>
+<p>The site is free, needs no account or licence, and can be used by a whole class without anyone signing in — in which case nothing reaches our servers. There is no student roster, no classroom code, and no per-pupil record to administer or delete. If your district needs something in writing beyond this page, write to us and we will answer properly.</p>
+
+<h2>Asking us anything, or asking us to delete</h2>
+<p>Write to <a class="lnk" href="mailto:sandhyakathas@gmail.com">sandhyakathas@gmail.com</a>. If you have an account and want it gone, say so and it is deleted along with everything in it — there is no retention period and nothing is kept back.</p>
+
+<footer>Last reviewed 16 September 2026. When what the site does changes, this page changes in the same commit — it is generated from the project's own privacy record, not written separately.<br>
+<a href="/">Home</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a></footer>
+</div></body></html>`;
+}
 
 const urls = [`${SITE}/`];
 const publishedStories = [];
@@ -570,6 +667,11 @@ console.log(`prerendered ${fp} festival page(s)`);
   writeFileSync(homePath, home);
   console.log(`injected ${corpusPages.length} source + ${festivalPages.length} festival link(s) into homepage`);
 }
+
+mkdirSync(join(dist, 'privacy'), { recursive: true });
+writeFileSync(join(dist, 'privacy', 'index.html'), privacyPage());
+urls.push(`${SITE}/privacy/`);
+console.log('privacy page written');
 
 writeFileSync(join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
