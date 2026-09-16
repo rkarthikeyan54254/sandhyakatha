@@ -288,7 +288,7 @@ ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
 ${followBlock(`${s.title} — tonight's story for the children. About ${r.minutes} minutes, read aloud, and it says at the top which text it comes from.`, url)}
 <footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
 Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.<br>
-<a href="/privacy/">Privacy</a></footer>
+<a href="/about/">About</a> · <a href="/privacy/">Privacy</a></footer>
 </div>
 <button type="button" class="lexpop" id="lexpop" hidden aria-live="polite">
   <b></b><span></span><i></i>
@@ -364,7 +364,7 @@ function corpusPage(meta, stories) {
 <h2>${ordered.length} published stories</h2>${rows}
 <div class="cta"><p>Sandhya Katha chooses one story each night for your child's age and the calendar, and lays it out to be read aloud.</p><a href="/">Open tonight's story</a></div>
 ${followBlock(`${meta.label} stories for children — each one cited to its source and written to be read aloud.`, url)}
-<footer><a href="/">Home</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a></footer>
+<footer>${SITE_NAV}</footer>
 </div></body></html>`;
 }
 
@@ -497,7 +497,7 @@ ${faq.map(x => `<dt>${esc(x.q)}</dt><dd>${esc(x.a)}</dd>`).join('\n')}
 </div>
 ${followBlock(`${plain} stories for children — each one cited to its source and written to be read aloud.`, url)}
 <footer>Dates computed with Swiss Ephemeris (Lahiri ayanāṃśa, amānta months, Chennai). Every story names its source, and says so when the tellings differ.<br>
-<a href="/">Home</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a></footer>
+${SITE_NAV}</footer>
 </div></body></html>`;
 }
 
@@ -505,31 +505,15 @@ const dist = join(ROOT, 'dist');
 if (!existsSync(dist)) { console.error('run vite build first'); process.exit(1); }
 
 
-/* ---------- privacy ------------------------------------------------------
- * A real page at a real URL. PRIVACY.md is for us; parents, school librarians
- * and district reviewers need something they can read and link to. Everything
- * here must stay true to what the code actually does — if the analytics or the
- * account shape changes, this page changes in the same commit.
+/* ---------- static pages -------------------------------------------------
+ * /about/ and /privacy/ are the two pages a stranger reads before they trust
+ * the stories, and a school librarian or a directory reviewer reads before
+ * they list us. They share one shell so they cannot drift apart visually.
+ * Everything on them must stay true to what the code actually does — if the
+ * analytics, the account shape or the studio pipeline changes, these change
+ * in the same commit.
  */
-function privacyPage() {
-  const url = `${SITE}/privacy/`;
-  const desc = 'What Sandhya Katha stores, what it does not, and why. Written for parents and for anyone reviewing the site for classroom use.';
-  return `<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Privacy · Sandhya Katha</title>
-<meta name="description" content="${esc(desc)}">
-<link rel="canonical" href="${url}">
-<link rel="alternate" type="application/rss+xml" title="Sandhya Katha" href="${SITE}/feed.xml">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha">
-<meta property="og:title" content="Privacy — Sandhya Katha">
-<meta property="og:description" content="${esc(desc)}">
-<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}/og/default.png">
-<meta name="theme-color" content="#14101c">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
-<style>
+const STATIC_CSS = `
 :root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
 *{box-sizing:border-box}
 body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,sans-serif;
@@ -545,21 +529,108 @@ h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(
 h2{font-size:11px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:38px 0 0;padding-top:20px;border-top:1px solid var(--line)}
 p{font-family:"Gentium Book Plus",Georgia,serif;font-size:17px;line-height:1.68;color:var(--paper-dim);margin:12px 0 0}
 strong{color:var(--paper)}
+em{color:var(--paper-dim)}
 ul{margin:12px 0 0;padding-left:20px}
 li{font-family:"Gentium Book Plus",Georgia,serif;font-size:17px;line-height:1.62;color:var(--paper-dim);margin-bottom:9px}
 li::marker{color:var(--lamp-dim)}
 .box{margin:20px 0 0;padding:15px 17px;border-left:2px solid var(--lamp);background:rgba(240,180,88,.06)}
 .box p{font-size:16px;margin:0}
+.box p + p{margin-top:9px}
 a.lnk{color:var(--lamp)}
 footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.7}
 footer a{color:var(--lamp-dim)}
-</style></head>
+`;
+
+const SITE_NAV = '<a href="/">Home</a> · <a href="/about/">About</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a>';
+
+function staticPage({ slug, title, ogTitle, desc, kick, h1, lede, body, foot }) {
+  const url = `${SITE}/${slug}/`;
+  return `<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${url}">
+<link rel="alternate" type="application/rss+xml" title="Sandhya Katha" href="${SITE}/feed.xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha">
+<meta property="og:title" content="${esc(ogTitle)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}/og/default.png">
+<meta name="theme-color" content="#14101c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
+<style>${STATIC_CSS}</style></head>
 <body><div class="w">
 <header><a href="/"><b>Sandhya Katha</b><i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i></a></header>
-<p class="kick">Privacy</p>
-<h1>What we store, and what we don't</h1>
-<p class="lede">This is a site used by children. That single fact decided every choice below, and we would rather write them in plain words than in the usual paragraph of legal fog.</p>
+<p class="kick">${esc(kick)}</p>
+<h1>${h1}</h1>
+<p class="lede">${lede}</p>
+${body}
+<footer>${foot}<br>
+${SITE_NAV}</footer>
+</div></body></html>`;
+}
 
+/* The counts are generated, never typed — a hand-written "63 stories" on a page
+ * nobody remembers to edit is exactly the kind of small lie that costs trust. */
+function aboutPage({ published, planned }) {
+  return staticPage({
+    slug: 'about',
+    title: 'About · Sandhya Katha',
+    ogTitle: 'About — Sandhya Katha',
+    desc: 'A free, ad-free collection of Hindu stories for children, written to be read aloud in six minutes. Every story names the text it comes from, and says so where the tellings differ.',
+    kick: 'About',
+    h1: 'One story a night, and it tells you where it came from',
+    lede: `A free collection of Hindu stories for children — the Rāmāyaṇa, the Mahābhārata, the Purāṇas and the Upaniṣads, and the Tamil and North Indian saints that most collections leave out. ${published} are written and published so far, of ${planned} planned.`,
+    body: `
+<div class="box"><p><strong>The short version.</strong> Every story names the work and the chapter it comes from, at the top of the page. Where the tellings genuinely differ, we print which one we are telling and why. It is free, there is no advertising, and you do not need an account to read any of it.</p></div>
+
+<h2>Why it exists</h2>
+<p>At twenty to nine at night, a parent does not want a generator. They want the one right story — already chosen, already checked, laid out for a voice — and a reason to come back tomorrow. You can ask a chat window for a bedtime story and it will give you one, but you will not know whether the ending was invented, and neither will your child.</p>
+
+<h2>Every line has an address</h2>
+<p>The source sits at the top of each story: <em>Bhāgavata Purāṇa, Skandha 10, chapters 24–25.</em> Underneath the collection, each story carries a list of the claims its writer was allowed to use, each tied to where it came from — so checking a story means checking it against that list, not against somebody's memory.</p>
+<p>And where a telling is not the one you might expect, the page says so before the story starts. The squirrel who carried sand to the bridge is <strong>not in Vālmīki</strong> — it reaches us through the Tamil retellings, and that is printed rather than hidden. A parent who learns that has learned something true, and has learned that we tell them.</p>
+
+<h2>Written for a voice, not an eye</h2>
+<p>Short breath lines. A printed pause before the turn, where the reader stops. A last line marked to slow down for. Every name tappable for a respelling, so nobody has to guess <em>nuh-chi-KAY-taa</em> in front of a seven-year-old.</p>
+<p>Each story exists in two lengths, and the short one is not the long one with paragraphs deleted — it is written separately, with its own turn and its own last line. Three minutes on a school night, six when there is time.</p>
+
+<h2>It ends with a question, not a moral</h2>
+<p>Every story closes with one open question to ask your child, a plain fallback line for when they shrug, and honest answers to the follow-ups children actually ask — including the awkward ones. <em>Was Indra bad, then?</em> gets a real answer, not a deflection. The moral is arrived at, not delivered.</p>
+
+<h2>Ages, and the difficult ones</h2>
+<p>Every story carries an age floor, set by asking whether we would read this, tonight, to a child of exactly that age — not by how famous it is. Where a story touches death, injustice or a parent doing real harm, a short note tells you what is actually coming, in plain words, before you begin. No parent should be ambushed at bedtime.</p>
+<p>Nothing is cut from the collection. The Mahābhārata is a war and the Periya Purāṇam is in places brutal, and sanitising them produces a collection nobody needs. Instead the hardest stories are <strong>held behind a setting</strong>: they never turn up as tonight's pick until you switch them on, and the care note is shown first. You decide when your child is ready, because you are the only one who can.</p>
+
+<h2>How a story gets here</h2>
+<p>Choose the night, not the story. Pull the sources and write down every claim the telling is allowed to make. Draft the long version, then draft the short one separately. An age and care pass, a read-aloud pass, then the closing question. Then a person approves it. Then it is published.</p>
+<p>Between those, the drafts go through mechanical checks and an adversarial review that argues against them from the editions. Those layers have caught real mistakes — a birth order taken from the wrong region, an episode quietly borrowed from the chapter next door, an Upaniṣad verse said to stop where it does not. They are also not enough on their own: <strong>checking a story against sources its own drafter chose is marking your own homework.</strong> That is why a person still reads every story out loud before it ships, and why the last check is the one below.</p>
+
+<h2>When we are wrong</h2>
+<p>At the foot of every story there is a link to tell us something is wrong. It takes no account and asks for no name. Reports are checked against the source before anything changes — and when a story does change, its version moves, so anything made from the old text is detectable rather than silently stale.</p>
+
+<h2>What it costs</h2>
+<p>Nothing, and there is no advertising anywhere on the site. No account is needed to read. If you sign in it is only so your place survives a cleared cache and reaches a second device. What we do and do not store is set out on the <a class="lnk" href="/privacy/">privacy page</a>, including exactly what part artificial intelligence plays in making these stories and what it is not allowed anywhere near.</p>
+
+<h2>Following along</h2>
+<p>There is a story chosen for you every night, against the calendar and the season. You can follow on <a class="lnk" href="https://whatsapp.com/channel/0029VbDPZyP8KMqsuZX2GJ10">WhatsApp</a> or <a class="lnk" href="https://www.instagram.com/the_sandhyakatha/">Instagram</a>, subscribe to the <a class="lnk" href="/feed.xml">feed</a>, or simply open the site at dusk. Anything else — a question, a correction, a school or library asking for something in writing — reaches us at <a class="lnk" href="mailto:sandhyakathas@gmail.com">sandhyakathas@gmail.com</a>.</p>
+`,
+    foot: `${published} of ${planned} stories published. Story text is all rights reserved.`,
+  });
+}
+
+function privacyPage() {
+  return staticPage({
+    slug: 'privacy',
+    title: 'Privacy · Sandhya Katha',
+    ogTitle: 'Privacy — Sandhya Katha',
+    desc: 'What Sandhya Katha stores, what it does not, and why. Written for parents and for anyone reviewing the site for classroom use.',
+    kick: 'Privacy',
+    h1: "What we store, and what we don't",
+    lede: 'This is a site used by children. That single fact decided every choice below, and we would rather write them in plain words than in the usual paragraph of legal fog.',
+    body: `
 <div class="box"><p><strong>The short version.</strong> You can read every story without an account, and signed out we store nothing about you on our servers at all. There is no advertising anywhere on this site, and nothing here profiles a child.</p></div>
 
 <h2>Reading signed out</h2>
@@ -577,6 +648,12 @@ footer a{color:var(--lamp-dim)}
 <p>We use Google Analytics to count how the site is used, and we have switched off the parts of it that exist to serve advertising. Advertising storage, advertising user data and ad personalisation are all denied by default; Google Signals and ad-personalisation signals are off; IP addresses are anonymised.</p>
 <p>Three events are recorded and nothing else: a story was opened, a story was finished, sign-in was started. <strong>No child's name, no age, no free text, and nothing that follows anyone across other websites.</strong> India's DPDP Act prohibits behavioural advertising to children; the analytics defaults are not on a child's side, so we override them explicitly rather than trusting them.</p>
 
+<h2>Artificial intelligence, and what it does not touch</h2>
+<p>Two different questions usually get run together here, so we answer them separately.</p>
+<p><strong>In making the stories: yes, and here is exactly how.</strong> A story's first draft is written with a large language model, working only from a list of claims pulled out of a named source beforehand. Nothing is published from that draft. A person checks the telling line by line against that list, a further adversarial review argues against it from the editions themselves, and a person reads the whole story aloud and approves it before it goes anywhere. Every one of those stages has caught real errors, which is why every one of them exists. Where the tellings genuinely differ, the published page says which one we tell.</p>
+<p><strong>While your child is reading: none at all.</strong> Nothing is generated at read time. Tonight's story is a fixed, versioned file — the same words tomorrow, the same words offline, and no possibility of a Purāṇa being invented at bedtime.</p>
+<p><strong>With anybody's data: none at all.</strong> No AI system of ours or anyone else's processes anything about a reader. There is no personalisation model, no recommendation engine trained on behaviour, and nothing about any visitor is sent to a model provider. The three analytics events above are counters. What a child reads stays in their browser unless they sign in, and if they do it sits in their own account and is used to show them their own history — never to train anything, here or elsewhere.</p>
+
 <h2>Telling us a story is wrong</h2>
 <p>Anyone can report an error from a story page. It takes no account and asks for no name. We keep the story, the version it was reported against, what you wrote, and a two-letter country code — enough to notice a flood of reports, useless for identifying anybody. The form asks you not to include personal details; if you do anyway, that text is deleted once the report has been acted on.</p>
 
@@ -587,6 +664,7 @@ footer a{color:var(--lamp-dim)}
 <li>No profile of a child, and nothing inferred about one.</li>
 <li>No social media embeds, and no scripts or fonts from anywhere our content security policy does not name.</li>
 <li>No tracking of a child across other sites, because nothing here can.</li>
+<li>No reader's data given to any AI system, for training or for anything else.</li>
 </ul>
 
 <h2>For schools and libraries</h2>
@@ -594,10 +672,9 @@ footer a{color:var(--lamp-dim)}
 
 <h2>Asking us anything, or asking us to delete</h2>
 <p>Write to <a class="lnk" href="mailto:sandhyakathas@gmail.com">sandhyakathas@gmail.com</a>. If you have an account and want it gone, say so and it is deleted along with everything in it — there is no retention period and nothing is kept back.</p>
-
-<footer>Last reviewed 16 September 2026. When what the site does changes, this page changes in the same commit — it is generated from the project's own privacy record, not written separately.<br>
-<a href="/">Home</a> · <a href="/privacy/">Privacy</a> · <a href="/sitemap.xml">All pages</a></footer>
-</div></body></html>`;
+`,
+    foot: 'Last reviewed 16 September 2026. When what the site does changes, this page changes in the same commit — it is generated from the project’s own privacy record, not written separately.',
+  });
 }
 
 const urls = [`${SITE}/`];
@@ -668,10 +745,20 @@ console.log(`prerendered ${fp} festival page(s)`);
   console.log(`injected ${corpusPages.length} source + ${festivalPages.length} festival link(s) into homepage`);
 }
 
+mkdirSync(join(dist, 'about'), { recursive: true });
+// publishedStories deliberately excludes gated stories, because they are not
+// public browse. They ARE in the collection, so the count on /about/ comes from
+// the canon instead — otherwise the page quietly undercounts itself.
+writeFileSync(join(dist, 'about', 'index.html'), aboutPage({
+  published: canon.filter(c => c.status === 'published').length,
+  planned: canon.filter(c => c.status !== 'retired').length,
+}));
+urls.push(`${SITE}/about/`);
+
 mkdirSync(join(dist, 'privacy'), { recursive: true });
 writeFileSync(join(dist, 'privacy', 'index.html'), privacyPage());
 urls.push(`${SITE}/privacy/`);
-console.log('privacy page written');
+console.log('about + privacy pages written');
 
 writeFileSync(join(dist, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
