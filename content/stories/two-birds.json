@@ -1,0 +1,313 @@
+{
+  "id": "two-birds",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-16",
+  "title": "Two Birds on One Tree",
+  "tease": "Two birds hold on to the same branch. One of them is eating the fruit. The other is not eating anything at all, and has not stopped looking at him.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Muṇḍaka Upaniṣad",
+    "locus": "3.1.1–2; the same verse at Ṛgveda 1.164.20 and Śvetāśvatara Upaniṣad 4.6",
+    "stability": "stable",
+    "checkedAgainst": [
+      "Muṇḍaka Upaniṣad with Śaṅkara's bhāṣya, 3.1.1–4",
+      "Muṇḍaka Upaniṣad with Madhva's commentary, third muṇḍaka",
+      "Ralph Griffith, The Hymns of the Rigveda, 1.164",
+      "H. H. Wilson with Sāyaṇa's notes, Ṛgveda 1.164.20",
+      "Śvetāśvatara Upaniṣad 4.6–7",
+      "Per-Johan Norelius, Notes on Ṛgveda 1.164.20–22, Acta Orientalia"
+    ],
+    "sourcing": [
+      {
+        "claim": "There are two birds, fine-feathered, yoked together and always companions",
+        "locus": "Muṇḍaka Upaniṣad 3.1.1 — dvā suparṇā sayujā sakhāyā"
+      },
+      {
+        "claim": "The two hold on to one and the same tree, and the verb says they clasp it rather than merely perch on it",
+        "locus": "Muṇḍaka Upaniṣad 3.1.1 — samānaṃ vṛkṣaṃ pariṣasvajāte"
+      },
+      {
+        "claim": "One of the two eats the fruit, and the fruit is sweet",
+        "locus": "Muṇḍaka Upaniṣad 3.1.1 — svādu pippalam atti"
+      },
+      {
+        "claim": "The other does not eat at all, and keeps looking",
+        "locus": "Muṇḍaka Upaniṣad 3.1.1 — anaśnann anyo abhicākaśīti"
+      },
+      {
+        "claim": "The verse never gives the tree a name; it says only the tree, and the only tree-word in it is the name of the fruit, the fig",
+        "locus": "Muṇḍaka Upaniṣad 3.1.1 — vṛkṣa, pippala"
+      },
+      {
+        "claim": "On that same tree the one who eats is sunk, and grieves because he feels he is not the master, and is bewildered",
+        "locus": "Muṇḍaka Upaniṣad 3.1.2 — nimagno 'nīśayā śocati muhyamānaḥ"
+      },
+      {
+        "claim": "What changes is that he sees the other, and sees the other's greatness, and then his grief goes away",
+        "locus": "Muṇḍaka Upaniṣad 3.1.2 — juṣṭaṃ yadā paśyaty anyam īśam asya mahimānam iti vītaśokaḥ"
+      },
+      {
+        "claim": "The second verse calls the other one the lord",
+        "locus": "Muṇḍaka Upaniṣad 3.1.2 — īśam"
+      },
+      {
+        "claim": "Nothing in the two verses has the watching bird move, speak or come down; the only thing that happens is that the first one looks",
+        "locus": "Muṇḍaka Upaniṣad 3.1.1–2 — the second bird's only verbs are gazing, and being seen"
+      },
+      {
+        "claim": "The birds and the tree stand in two verses only, and the passage then leaves the picture behind",
+        "locus": "Muṇḍaka Upaniṣad 3.1.3–4"
+      },
+      {
+        "claim": "The verse is older than the book it is famous from: it is already there in the Ṛgveda, word for word",
+        "locus": "Ṛgveda 1.164.20, quoted at Muṇḍaka Upaniṣad 3.1.1"
+      },
+      {
+        "claim": "In the Ṛgveda it sits inside a long hymn of riddles by the seer Dīrghatamas",
+        "locus": "Ṛgveda 1.164, ṛṣi Dīrghatamas Aucathya"
+      },
+      {
+        "claim": "Three books carry the same verse — the Ṛgveda, the Muṇḍaka and the Śvetāśvatara",
+        "locus": "Ṛgveda 1.164.20; Muṇḍaka Upaniṣad 3.1.1; Śvetāśvatara Upaniṣad 4.6"
+      },
+      {
+        "claim": "In the Ṛgveda the picture goes a little further: many birds in the tree, and the sweetest fig at the very top, which only one who knows the Father reaches",
+        "locus": "Ṛgveda 1.164.21–22"
+      },
+      {
+        "claim": "Identifying the tree with the body is Śaṅkara's explanation, not the verse's own words",
+        "locus": "Śaṅkara, bhāṣya on Muṇḍaka Upaniṣad 3.1.1"
+      },
+      {
+        "claim": "Śaṅkara reads the eater as the self caught in a body and the other as the lord who does not eat and only witnesses; Madhva reads the two as staying separate for ever; scholars reading the verse in its Ṛgvedic setting have taken the pair for the sun and the moon",
+        "locus": "Śaṅkara and Madhva on Muṇḍaka 3.1.1–2; Norelius on Ṛgveda 1.164.20–22"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-16"
+  },
+  "audience": {
+    "minAge": 11,
+    "sensitivity": []
+  },
+  "values": [
+    "the one who eats and the one who watches"
+  ],
+  "themes": [
+    "upanishad",
+    "rigveda",
+    "self",
+    "attention",
+    "birds"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Dīrghatamas",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Start with the one that is not eating."
+        },
+        {
+          "t": "p",
+          "text": "There are two birds in this verse and they are holding on to the same branch, and the one to watch is the one doing nothing. He has no fruit. He is not hungry. He is looking at the other one."
+        },
+        {
+          "t": "p",
+          "text": "The other one is eating. The fruit is sweet — the verse says so, and says nothing else at all about it — and he is getting on with it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now, the two of them are friends. The verse is careful about that. Yoked together, it says, and always companions."
+        },
+        {
+          "t": "p",
+          "text": "So this is not one bird guarding another. It is two who belong together, on one branch, doing two completely different things."
+        },
+        {
+          "t": "p",
+          "text": "Nobody ever names the tree, by the way. The fruit gets a name — «pippala», the fig — and the tree is only ever the tree."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then comes the second line, which is where people stop reading and go quiet."
+        },
+        {
+          "t": "p",
+          "text": "It stops saying bird. It says a man. On that same tree, it says, a man is sunk down and grieving — and the reason it gives for the grief is that he feels he is not the master of anything."
+        },
+        {
+          "t": "p",
+          "text": "Until he sees the other one. Until he sees how great the other one is. Then the grief is gone."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Nothing about the second bird changes in any of that. He never comes down. He says nothing. He does not take the fruit away, and he never once stops the eating."
+        },
+        {
+          "t": "p",
+          "text": "And the verse is older than the book it is famous from. It is already sitting in the «Ṛgveda», word for word, in a hymn full of riddles."
+        },
+        {
+          "t": "slow",
+          "text": "One of them eats and grieves, and one of them watches and does not, and the only thing that ever happens on that branch is that the first one looks."
+        }
+      ],
+      "words": 312
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There are no people in this one. There is no king, nobody is banished, nothing is won. There is one line, and it is one of the oldest lines anybody says out loud."
+        },
+        {
+          "t": "p",
+          "text": "Two birds, it says. Both of them beautiful. Yoked together — that is the word the verse uses — and friends, and they have hold of the same tree. Not perched on it: the verb is closer to clasping it."
+        },
+        {
+          "t": "p",
+          "text": "One of the two is eating the fruit. The verse says the fruit is sweet, and it gives the fruit a name, «pippala», which is the fig."
+        },
+        {
+          "t": "p",
+          "text": "The other bird is not eating anything at all. He is looking. The word is stronger than looking — it is the kind of watching you cannot break off."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That is the whole picture. One tree, two birds, one of them busy and one of them still. You could draw it on the back of an envelope."
+        },
+        {
+          "t": "p",
+          "text": "The next verse does something odd, and it is the one that stops people. It stops saying bird. It says a man."
+        },
+        {
+          "t": "p",
+          "text": "On that same tree, it says, a man is sunk down and grieving. And the reason it gives for the grief is not hunger and not loneliness — it is that he feels he is not the master of anything. Things are happening to him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then the turn, and it takes half a line."
+        },
+        {
+          "t": "p",
+          "text": "When he sees the other one. When he sees the other one, and sees how great he is — then the grief is gone. Not lessened. Gone."
+        },
+        {
+          "t": "p",
+          "text": "The verse has a name for the second bird at that point. It calls him the lord. It does not say anything more about him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now go back and look at what the second bird actually does in all of this."
+        },
+        {
+          "t": "p",
+          "text": "Nothing. He does not come down. He does not call out or explain. He does not take the fruit away, and he never once stops the other one eating it."
+        },
+        {
+          "t": "p",
+          "text": "In those two verses he has two things he does: he does not eat, and he keeps looking. He is not even the one who moves at the end. The entire change is in the one who looked."
+        },
+        {
+          "t": "aside",
+          "text": "The commonest way this gets retold to children is _the second bird is God, watching what you do_. The verse does not say that, and the watching in it is a witness's rather than a supervisor's — that is how Śaṅkara reads it. Let the child have the picture before anybody hands them the meaning."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So who are they? Here is the honest answer, which is more interesting than a tidy one."
+        },
+        {
+          "t": "p",
+          "text": "The old teachers do not agree. One great commentator reads the eating bird as you, caught up in a body, and the watching one as the same self, never caught at all. Another insists that the two never become one and were never meant to. The verse itself names neither."
+        },
+        {
+          "t": "p",
+          "text": "It also never says what the tree is. The tree is only ever the tree. That it stands for the body is a teacher's explanation, and it is not in the line."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And there is one more thing, which children like better than adults do."
+        },
+        {
+          "t": "p",
+          "text": "The first of the two lines is older than the book it is famous from. It is already sitting in the «Ṛgveda», word for word, inside a long hymn of riddles by a seer called «Dīrghatamas». Three books carry that one."
+        },
+        {
+          "t": "p",
+          "text": "And people reading it back there, in the oldest of the three, have taken the two birds for something else entirely — the sun and the moon. That is a different argument from the teachers' one, and it is not closed either."
+        },
+        {
+          "t": "p",
+          "text": "In the «Ṛgveda» the picture also goes a little further than it does here. There are many birds in that tree, not two. And the sweetest fig of all is at the very top, and the hymn says only one kind of person ever gets up there to it."
+        },
+        {
+          "t": "slow",
+          "text": "Whatever else is unsettled, the line itself is not: two of them on the same branch, one eating and grieving, one watching and still — and everything that happens in it happens because one of them looked."
+        }
+      ],
+      "words": 651
+    }
+  },
+  "linked": {
+    "next": "chariot-and-horses",
+    "reason": "the other Upaniṣad that answers an enormous question by drawing one picture and then refusing to explain it"
+  },
+  "close": {
+    "question": "One bird is busy and one bird is quiet. Which of the two have you been today?",
+    "seed": "Nothing in the picture changes except which way one of them is looking.",
+    "ifTheyAsk": [
+      {
+        "q": "Which bird is God?",
+        "a": "The verse will not tell you. It calls the second one only the other, and the next verse calls him the lord, and stops. The teachers who came after do not agree with each other: Śaṅkara reads the two as one self, seen once tangled up and once free; Madhva argues the opposite, that they stay two for ever and that the whole point is seeing the lord as someone other than yourself. Both of them are reading the same two lines you just heard. That disagreement is a real thing in the tradition and worth knowing about."
+      },
+      {
+        "q": "Why doesn't the watching bird just come down and tell him?",
+        "a": "Because in the verse he does not do anything at all. He has exactly two acts in the whole passage: he does not eat, and he watches. In the second verse he is not even the subject of a sentence — he is the thing that gets seen. Whether that is a shame or the entire point is the question the verse leaves you holding."
+      },
+      {
+        "q": "Is the fruit bad for him, then?",
+        "a": "The verse says the fruit is sweet, and says nothing more about it. The idea that the fruit is really bitter, or sweet and bitter by turns, comes from teachers explaining it afterwards, not from the line. And in the Ṛgveda, where the same verse is older, the picture goes further the same way: the finest fig of all is at the very top of the tree, and reaching it is the reward."
+      }
+    ]
+  }
+}

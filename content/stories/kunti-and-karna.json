@@ -1,0 +1,463 @@
+{
+  "id": "kunti-and-karna",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-16",
+  "title": "What Kuntī Came to the River to Say",
+  "tease": "She waits behind him in the sun until his prayers are finished, and then says out loud the one thing about him she has never said to anyone.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Udyoga Parva — Ganguli sections CXLIV–CXLVI",
+    "stability": "stable",
+    "checkedAgainst": [
+      "Kisari Mohan Ganguli, The Mahābhārata, Udyoga Parva sections CXL–CXLVI",
+      "the same sections at wisdomlib",
+      "Ādi Parva section CXI and Vana Parva sections CCCIII–CCCVII, for the birth"
+    ],
+    "sourcing": [
+      {
+        "claim": "As a girl Kuntī looked after a demanding sage for a full year, and he gave her a mantra by which she could call down any god",
+        "locus": "Vana Parva, Ganguli Section CCCIII; Ādi Parva, Section CXI"
+      },
+      {
+        "claim": "Out of curiosity she used it and called the Sun, and a son was born to her wearing armour and earrings",
+        "locus": "Ādi Parva, Ganguli Section CXI; Vana Parva, Sections CCCV–CCCVI"
+      },
+      {
+        "claim": "She put the baby in a box and set it on the water, and Adhiratha the sūta and his wife Rādhā found him and brought him up as their own",
+        "locus": "Ādi Parva, Ganguli Section CXI; Vana Parva, Sections CCCVI–CCCVII"
+      },
+      {
+        "claim": "Days before this, Kṛṣṇa had taken Karṇa onto his chariot leaving the city, told him he was Kuntī's son, and offered to make him king of the earth with the brothers behind him",
+        "locus": "Udyoga Parva, Ganguli Section CXL"
+      },
+      {
+        "claim": "Karṇa refused, saying Adhiratha took him home the moment he saw him and Rādhā's milk came for him that day, and that through Duryodhana he had held a kingdom for thirteen years and could not turn false now",
+        "locus": "Udyoga Parva, Ganguli Section CXLI"
+      },
+      {
+        "claim": "Vidura came to Kuntī and told her he had argued for peace and Duryodhana would not have it",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "Grieving over the war, she remembered the boon and the day she had called the Sun, and decided to go and speak to Karṇa herself",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "She went to the bank of the Gaṅgā and heard her son saying his prayers, standing with his face to the east and his arms raised",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "She stood behind him and waited, without interrupting, until the prayers were finished",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "The sun beat down on her while she waited and she began to look like a faded garland of lotuses, and at last she moved into the shade thrown by his own upper garment",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "He went on praying until the sun's rays had heated his back, then turned, saw her, and greeted her properly with joined palms",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "He named himself to her — Karṇa, son of Rādhā and of Adhiratha — and asked why she had come and what he could do for her",
+        "locus": "Udyoga Parva, Ganguli Section CXLV"
+      },
+      {
+        "claim": "She told him he was her son and not Rādhā's, that Adhiratha was not his father, that the Sun had begotten him upon her and he was born with armour and earrings",
+        "locus": "Udyoga Parva, Ganguli Section CXLV"
+      },
+      {
+        "claim": "She told him the name sūta's son did not belong to him, and that he was a Pārtha",
+        "locus": "Udyoga Parva, Ganguli Section CXLV"
+      },
+      {
+        "claim": "She asked him to leave Dhṛtarāṣṭra's sons, take back what had been seized, and let the Kurus see him and Arjuna standing together, because nothing would be beyond the two of them",
+        "locus": "Udyoga Parva, Ganguli Section CXLV"
+      },
+      {
+        "claim": "She told him that pleasing one's father and mother is called the highest duty of all",
+        "locus": "Udyoga Parva, Ganguli Section CXLV"
+      },
+      {
+        "claim": "A voice came from the sun, at a great distance, saying that what she had said was true and that he should do as his mother told him",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "Karṇa answered that she had thrown him away the moment he was born, that the injury had put his very life at risk and had cost him his achievements and his fame",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He said that because of her he had been kept from the rites he was born to, and asked what enemy could have done him a greater injury",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He said she had never done him a mother's service before, and that she was speaking to him now because it was good for her",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He called her mother while he was saying it",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He said Dhṛtarāṣṭra's sons had given him everything he wanted and honoured him, and that he could not throw that friendship away as worthless",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He said they were counting on him as a boat to carry them across the ocean of the battle, and that this was the hour in which a man who has been kept pays it back, and that men who take their master's food and then fail him are thieves",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He told her plainly that what she asked could not be done, and then said her coming would not be fruitless all the same",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He promised that of her sons only Arjuna would be his enemy, and that Yudhiṣṭhira, Bhīma and the twins — four of them — would not be killed by him",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "He told her the number of her sons would never be less than five, either way",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI — Ganguli: the number of thy sons will never be less than five"
+      },
+      {
+        "claim": "Shaking with grief she embraced him, and he was unmoved; she said the Kauravas would certainly be destroyed and that destiny decides everything",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "Her last request was that he remember, when he was shooting, the safety he had promised to four of her sons, and she blessed him with health",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "Karṇa answered be it so, and the two of them walked away in different directions",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      },
+      {
+        "claim": "Kuntī says none of it to him: she never apologises, never explains herself and never answers the accusation, and Karṇa never withdraws the name he gave himself at the start",
+        "locus": "Udyoga Parva, Ganguli Sections CXLV–CXLVI — stated as an absence"
+      },
+      {
+        "claim": "Before she goes she thinks to herself that she acted from a girl's curiosity and folly, and from fear of reproach and for her father's honour — and she says none of this to Karṇa",
+        "locus": "Udyoga Parva, Ganguli Section CXLIV"
+      },
+      {
+        "claim": "His first reason for refusing is how it would look: if he went over to the Pārthas on the eve of battle, every kshatriya would say he had done it from fright",
+        "locus": "Udyoga Parva, Ganguli Section CXLVI"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-16"
+  },
+  "audience": {
+    "minAge": 14,
+    "gated": true,
+    "sensitivity": [
+      "parental-conflict",
+      "loss",
+      "death",
+      "social-hierarchy"
+    ],
+    "careNote": "A mother tells a grown son, days before a war, that she gave him away the day he was born. He says she has come back because she needs something, and the story does not answer him. They then agree, calmly, which of her sons will die. Nothing is settled and there is no villain in it, which is what makes it hard."
+  },
+  "values": [
+    "an apology that never comes"
+  ],
+  "themes": [
+    "mahabharata",
+    "mothers",
+    "loyalty",
+    "what is owed",
+    "too late"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Kuntī",
+      "role": "lead"
+    },
+    {
+      "ref": "Karṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Sūrya",
+      "role": "present"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rādhā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Adhiratha",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Vidura",
+      "role": "present"
+    },
+    {
+      "ref": "Duryodhana",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Kṛṣṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Bhīma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Dhṛtarāṣṭra",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Gaṅgā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "She got to the river while he was still praying, and then she did the hardest thing in the story: nothing."
+        },
+        {
+          "t": "p",
+          "text": "He was on the bank with his face to the east and his arms up. She stood behind him and did not speak."
+        },
+        {
+          "t": "p",
+          "text": "The sun was straight overhead. The book says she started to look like a faded garland of lotuses."
+        },
+        {
+          "t": "p",
+          "text": "There was one patch of shade in that whole place — the shade thrown by his own upper garment, hanging there — and in the end she stepped into it and went on waiting."
+        },
+        {
+          "t": "p",
+          "text": "He prayed on. The text says he kept at it until the sun's rays had heated his back."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he turned round and was astonished, and put his palms together, and introduced himself."
+        },
+        {
+          "t": "p",
+          "text": "_I am «Karṇa». Son of «Rādhā», and of «Adhiratha». What can I do for you?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That is the sentence to hold on to, because everything after it is her taking it away from him."
+        },
+        {
+          "t": "p",
+          "text": "You are not «Rādhā»'s. You are mine, and the Sun is your father, and you were born wearing armour. Come and stand with «Arjuna». Let them all see the two of you together."
+        },
+        {
+          "t": "p",
+          "text": "He already knew. «Kṛṣṇa» had told him days before, on a chariot out of the city, and had offered him a crown with it, and he had said no to that too."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He called her _mother_ while he refused her. You threw me away the day I was born, he said. And you are here now because now it is good for you."
+        },
+        {
+          "t": "p",
+          "text": "You never once did me a mother's service. And they over there gave me everything I wanted, and honoured me, and this is the hour a man who has been kept pays it back."
+        },
+        {
+          "t": "p",
+          "text": "He gave her one thing. Of her sons, only «Arjuna» would ever be his enemy — the other four were safe from him, whatever happened."
+        },
+        {
+          "t": "slow",
+          "text": "And when it was over he was still exactly what he had told her he was at the start: «Rādhā»'s son, and «Adhiratha»'s."
+        }
+      ],
+      "words": 341
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Vidura» came and told her he had done everything he could, and «Duryodhana» would not have peace."
+        },
+        {
+          "t": "p",
+          "text": "«Kuntī» thought about the war for a long time. Then about him — the one man on that side who could end her sons. And then about a mantra a sage had given her as a girl, and the afternoon she tried it out to see whether it worked."
+        },
+        {
+          "t": "p",
+          "text": "It had worked. There had been a baby, with armour on him and earrings in his ears. She had put him in a box and set it on the water."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She walked down to the «Gaṅgā». He was standing on the bank with his face to the east and his arms raised, saying his prayers."
+        },
+        {
+          "t": "p",
+          "text": "She did not call out. She did not put a hand on his shoulder. She stood behind him and waited for him to finish."
+        },
+        {
+          "t": "p",
+          "text": "The sun came down on her the whole time. The book says she began to look like a faded garland of lotuses."
+        },
+        {
+          "t": "p",
+          "text": "The only shade in that place was the shade thrown by his own upper garment. In the end she moved into it, and went on waiting."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He prayed until the sun had heated his back. Then he turned, and saw her, and was astonished, and greeted her with his palms together."
+        },
+        {
+          "t": "p",
+          "text": "And he told her who he was, because that is what you do. _I am «Karṇa». Son of «Rādhā», and of «Adhiratha». What can I do for you?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And she told him. You are not «Rādhā»'s son, you are mine. «Adhiratha» is not your father. The Sun is your father, and you were born to me wearing armour and earrings."
+        },
+        {
+          "t": "p",
+          "text": "The name they call you by is not your name. You are not a driver's son. You are mine."
+        },
+        {
+          "t": "p",
+          "text": "Leave «Dhṛtarāṣṭra»'s sons. Take back what they took. Come and stand next to «Arjuna», and let the Kurus see the two of you together — there would be nothing you could not do."
+        },
+        {
+          "t": "p",
+          "text": "And she said: to please your mother and your father is called the highest duty there is."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then a voice came out of the sun, a long way off. It said that what she had told him was true, and that he should do as his mother said."
+        },
+        {
+          "t": "p",
+          "text": "«Karṇa» called her _mother_. Then he told her what it had been like."
+        },
+        {
+          "t": "p",
+          "text": "You threw me away, he said, the same day I was born. No enemy could have done me a worse injury. It put my life at risk, and it took from me everything I might have been."
+        },
+        {
+          "t": "p",
+          "text": "You never once did me a mother's service. And you are here now because now it is good for you."
+        },
+        {
+          "t": "aside",
+          "text": "She does not apologise. She thinks all of it to herself a page earlier — that she was young, that she did it out of curiosity and fear of what people would say — and she says none of it to him. Resist the urge to supply her defence. That silence is the scene."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he told her why the answer was still no."
+        },
+        {
+          "t": "p",
+          "text": "Go over to them today, he said, and every man on that field would say I crossed from fright."
+        },
+        {
+          "t": "p",
+          "text": "They gave me what I wanted and honoured me. I am the boat they mean to cross deep water in. This is the hour a man who has been kept pays it back, and one who eats at his master's table and fails him is a thief."
+        },
+        {
+          "t": "p",
+          "text": "What you are asking cannot be done, he said. And then: but you will not have come here for nothing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Of your sons, only «Arjuna» will be my enemy. «Yudhiṣṭhira», «Bhīma» and the twins — I can kill them and I will not."
+        },
+        {
+          "t": "p",
+          "text": "You will have five sons when this is finished, he said. Five either way. Either «Arjuna», and me dead. Or me, and «Arjuna» dead. But five."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She was shaking. She put her arms round him, and he did not move. She said «Dhṛtarāṣṭra»'s sons were certain to be destroyed, and that these things are decided somewhere else."
+        },
+        {
+          "t": "p",
+          "text": "Then she asked one more thing. When you are shooting, remember what you promised about the four of them. And she wished him good health."
+        },
+        {
+          "t": "slow",
+          "text": "He said: be it so. And the two of them turned and walked away from that river in different directions, and neither of them says another word."
+        }
+      ],
+      "words": 676
+    }
+  },
+  "linked": {
+    "next": "karna-armour",
+    "reason": "the other time he was told exactly what a thing would cost him before he agreed to it"
+  },
+  "close": {
+    "question": "She waited in the sun until his prayers were finished before she said a word. What do you think the waiting was for?",
+    "seed": "She got something for coming. It was not the thing she came for.",
+    "ifTheyAsk": [
+      {
+        "q": "Why doesn't she say sorry?",
+        "a": "She never says any of it to him. A page earlier, on her own, she thinks it — that she was a girl, that she used the mantra out of curiosity and folly, that she was afraid of the reproach and of what it would do to her father. Standing in front of him she says none of that, and she does not argue with a word of what he accuses her of. What she does is hold him, tell him the other side will be destroyed anyway, and ask him to remember his promise. Whether that is a woman who will not explain herself, or a book that refuses to let her off, is a real question and it is not settled."
+      },
+      {
+        "q": "What did he mean about her still having five sons?",
+        "a": "It is arithmetic, and it is cold. He has just promised not to kill four of them. So on the day, either he kills Arjuna — and she still has five sons, because he is one of them — or Arjuna kills him, and the five who are left are the five she raised. Ganguli's English is 'the number of thy sons will never be less than five.' It sounds like a kindness. It is a way of telling his mother that one of her sons is going to die and she does not get to choose which."
+      },
+      {
+        "q": "Did he already know?",
+        "a": "Yes. Earlier the same day, as Kṛṣṇa left the city, he had taken Karṇa up onto his chariot and told him the same fact, and offered him much more than she does — the crown, with his brothers walking behind him. He refused that too, and asked Kṛṣṇa to keep it quiet, because if Yudhiṣṭhira learned he was the eldest he would hand the kingdom over, and Karṇa would only pass it straight to Duryodhana. So when his mother reaches him at the river, she is not telling him anything he has not already turned down once."
+      }
+    ]
+  }
+}

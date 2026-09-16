@@ -1,0 +1,346 @@
+{
+  "id": "chariot-and-horses",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-16",
+  "title": "The Chariot",
+  "tease": "A boy asks Death what happens to a person afterwards. Death answers by telling him he is a chariot — and that the one holding the reins is not the one riding in it.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Kaṭha Upaniṣad",
+    "locus": "First Adhyāya, Third Vallī — 1.3.3–9",
+    "stability": "stable",
+    "checkedAgainst": [
+      "Max Müller, The Upanishads Part II, Sacred Books of the East vol. 15",
+      "R. E. Hume, The Thirteen Principal Upanishads, Oxford 1921",
+      "Patrick Olivelle, Upaniṣads, Oxford 1996",
+      "Kaṭha Upaniṣad with Śaṅkara's bhāṣya",
+      "GRETIL e-text, where the same verses are numbered 3.3–3.9"
+    ],
+    "sourcing": [
+      {
+        "claim": "The boy's third question, the one he will not trade, is what becomes of a person who has died",
+        "locus": "Kaṭha Upaniṣad 1.1.20"
+      },
+      {
+        "claim": "Yama offers him sons and grandsons, cattle, elephants, gold, horses, wide lands and as many years as he likes, and he refuses all of it",
+        "locus": "Kaṭha Upaniṣad 1.1.23–25"
+      },
+      {
+        "claim": "Everything Yama says here is his answer to that third question",
+        "locus": "Kaṭha Upaniṣad 1.1.20, 1.2.1 onward, 1.3.3–9"
+      },
+      {
+        "claim": "Before the picture, Yama tells him that what is good and what is pleasant are two different things, and both come to a person",
+        "locus": "Kaṭha Upaniṣad 1.2.1"
+      },
+      {
+        "claim": "The steady one looks at both and takes the good; the dull one grabs at the pleasant",
+        "locus": "Kaṭha Upaniṣad 1.2.2"
+      },
+      {
+        "claim": "Know the self as the one riding in the chariot, and the body as the chariot itself",
+        "locus": "Kaṭha Upaniṣad 1.3.3"
+      },
+      {
+        "claim": "The understanding is the charioteer, and the mind is the reins",
+        "locus": "Kaṭha Upaniṣad 1.3.3"
+      },
+      {
+        "claim": "The senses are the horses, and the things the senses run after are the roads those horses travel",
+        "locus": "Kaṭha Upaniṣad 1.3.4"
+      },
+      {
+        "claim": "The self joined with the mind and the senses is what the wise call the enjoyer — the one who tastes what the journey brings",
+        "locus": "Kaṭha Upaniṣad 1.3.4"
+      },
+      {
+        "claim": "If the driver has no sense and the mind is never held, the horses will not obey him, like the bad horses of a careless driver",
+        "locus": "Kaṭha Upaniṣad 1.3.5"
+      },
+      {
+        "claim": "If the driver has sense and the mind is held, the horses obey him, like good horses",
+        "locus": "Kaṭha Upaniṣad 1.3.6"
+      },
+      {
+        "claim": "The one whose driver has no sense, whose reins are loose and who is not clean does not reach that place, and comes round again to be born",
+        "locus": "Kaṭha Upaniṣad 1.3.7"
+      },
+      {
+        "claim": "The one whose driver has sense, whose reins are held and who is clean reaches that place, and is not born again",
+        "locus": "Kaṭha Upaniṣad 1.3.8"
+      },
+      {
+        "claim": "The person who has understanding for a charioteer and holds the reins of the mind reaches the far end of the road, and that end is the highest step of Viṣṇu",
+        "locus": "Kaṭha Upaniṣad 1.3.9"
+      },
+      {
+        "claim": "Arise, awake, you have been given your boons, now understand",
+        "locus": "Kaṭha Upaniṣad 1.3.14"
+      },
+      {
+        "claim": "The path is as hard to walk as the sharpened edge of a razor, and that is what the wise say of it",
+        "locus": "Kaṭha Upaniṣad 1.3.14"
+      },
+      {
+        "claim": "The text gives no number of horses and names none of them",
+        "locus": "Kaṭha Upaniṣad 1.3.4 — a bare plural, indriyāṇi"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-16"
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "The whole story is Death's answer to a boy who asked what becomes of a person after they die. Nobody dies in it and nothing in it is frightening. The idea a child may want to sit with afterwards is being born again, and coming round to the same road."
+  },
+  "values": [
+    "who is holding your reins"
+  ],
+  "themes": [
+    "upanishad",
+    "self",
+    "attention",
+    "death",
+    "chariot"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Naciketā",
+      "role": "lead"
+    },
+    {
+      "ref": "Yama",
+      "role": "lead"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "He was a boy standing in the house of death, and he had said no to everything he had been offered."
+        },
+        {
+          "t": "p",
+          "text": "Gold, long life, horses, land. He wanted the answer to one question and he would not take anything instead of it."
+        },
+        {
+          "t": "p",
+          "text": "So «Yama» told him — and what he gave him was not an explanation. It was a picture."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "You are a chariot, he said. The body is the chariot. Your senses are the horses in front of it, and everything they want is the road."
+        },
+        {
+          "t": "p",
+          "text": "Your mind is the reins. Your understanding — the part of you that weighs things up and chooses — is the driver."
+        },
+        {
+          "t": "p",
+          "text": "And you are none of those. You are the one being carried."
+        },
+        {
+          "t": "p",
+          "text": "The Upaniṣad is careful about that, and most people who tell you this story afterwards are not. The rider and the driver are two different things."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he said what happens to the two kinds of traveller, and it is the thing the whole picture was built for."
+        },
+        {
+          "t": "p",
+          "text": "If the driver has no sense and the reins are slack, the horses take the chariot wherever they like, and that man does not arrive. He comes round again. He is born again and starts over."
+        },
+        {
+          "t": "p",
+          "text": "If the driver has sense and the reins are held, he arrives. And he is not born again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And then the «Kaṭha Upaniṣad» stops talking about chariots altogether and speaks straight out, to anybody who happens to be listening."
+        },
+        {
+          "t": "p",
+          "text": "_Get up. Wake up. Now understand._ And then, so nobody mistakes it for something easy: this path is as hard to walk as the sharpened edge of a razor. That is what the wise say of it."
+        },
+        {
+          "t": "slow",
+          "text": "He asked what happens at the end of a life, and he was told what it is like to be in the middle of one — going fast, in something you are not driving."
+        }
+      ],
+      "words": 315
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Naciketā» was standing in «Yama»'s house, and he had been offered a great deal to go away. Sons and grandsons. Cattle and elephants and gold. Horses. Wide lands, and as many years as he liked."
+        },
+        {
+          "t": "p",
+          "text": "He had one question and would not trade it for any of that: what becomes of a person after they have died. He had come to the one who could not pretend not to know."
+        },
+        {
+          "t": "p",
+          "text": "Before the picture, «Yama» told him one other thing. There is what is _good_ for a person and there is what is _pleasant_ to them, and they are two different things. Both of them come. A steady person looks at both and takes the good one."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he answered the question. And he did not begin by explaining. He drew a picture."
+        },
+        {
+          "t": "p",
+          "text": "Think of yourself, he said, as a chariot."
+        },
+        {
+          "t": "p",
+          "text": "Not riding in one. _Being_ one. The body you are walking around in is the chariot — the frame of it, the wheels, the boards under your feet."
+        },
+        {
+          "t": "p",
+          "text": "The horses pulling it are your senses. Everything in you that reaches out and wants to get hold of something. Those are the horses, and horses are strong, and horses run."
+        },
+        {
+          "t": "p",
+          "text": "And the roads they run down are everything there is out there to be reached for. That is what a road is here. Somewhere a horse can take you."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then he said the part everybody forgets."
+        },
+        {
+          "t": "p",
+          "text": "There is a driver up on the chariot, and there is somebody being carried in it. «Yama» is careful about this. They are not the same one."
+        },
+        {
+          "t": "p",
+          "text": "The driver is your understanding — the part of you that puts one thing beside another and decides between them. The reins in the driver's hands are your mind. And the one being carried, the one the chariot belongs to, is you."
+        },
+        {
+          "t": "p",
+          "text": "All of it moving together — the rider, the mind, the horses — is what the wise call the one who tastes."
+        },
+        {
+          "t": "aside",
+          "text": "The passage turns on the driver and the passenger being two different things, and most retellings quietly fold them into one. If only one thing survives tonight, let it be that your child is not the driver."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "If the driver has no sense, said «Yama», and the reins lie slack in his hands, the horses stop listening to him. They go where they like. He is a man with bad horses, and everybody has met one."
+        },
+        {
+          "t": "p",
+          "text": "If the driver has sense, and holds the reins, the horses do what he asks. The same horses. The same road."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Notice what he has not said. He has not said the horses are the trouble. A chariot with nothing harnessed in front of it does not go anywhere at all."
+        },
+        {
+          "t": "p",
+          "text": "And he has not told you to take the reins yourself. You are not the driver in this picture. You are the one being carried, and the question he is handing you is who you have got up there."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The one whose driver has no sense does not arrive, he said. He comes round again, and is born again, and finds himself back on the same road."
+        },
+        {
+          "t": "p",
+          "text": "The one whose driver has sense arrives. He reaches that place, and he is not born again."
+        },
+        {
+          "t": "p",
+          "text": "There is a third word «Yama» sets down beside the sense and the reins, in both of those verses, and it is harder to carry across. _Clean._ Not washed — something more like unmuddied. The verse does not explain it."
+        },
+        {
+          "t": "p",
+          "text": "And to the one who gets there he gives a name for the end of the road — the highest step of «Viṣṇu» — and no explanation at all, and then goes on to something else."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A few verses further on, the «Kaṭha Upaniṣad» puts the chariot down and speaks straight out, to anybody who happens to be listening."
+        },
+        {
+          "t": "p",
+          "text": "_Get up_, it says. _Wake up. Now understand._"
+        },
+        {
+          "t": "p",
+          "text": "And then, so nobody mistakes it for an easy morning: the path is as hard to walk as the sharpened edge of a razor. So the wise say."
+        },
+        {
+          "t": "slow",
+          "text": "He had asked what becomes of a person after they die, and «Yama» answered by describing what it is like to be one — a chariot, moving fast, with strong horses in front of it and somebody up there holding the reins."
+        }
+      ],
+      "words": 677
+    }
+  },
+  "linked": {
+    "next": "nachiketa-three-nights",
+    "reason": "the same boy at the same door, three nights earlier, before any of this was answered"
+  },
+  "close": {
+    "question": "If your senses are the horses, which road do yours keep wanting to run down?",
+    "seed": "The question is never whether the horses are fast. It is who is holding the reins.",
+    "ifTheyAsk": [
+      {
+        "q": "So am I the driver, or the one in the chariot?",
+        "a": "The one in the chariot. Both of them are you, but the Upaniṣad keeps them apart on purpose. The driver is your understanding — the part that weighs things up and chooses. The one being carried is the self the whole chariot exists for. That is why the verses about a good driver and a bad driver make sense: they are about the part of you that decides, not about the part of you that is. Almost every retelling you will meet says 'you are the driver of your own chariot'. It is a nice sentence and it is not what the text says."
+      },
+      {
+        "q": "What is the highest step of Viṣṇu?",
+        "a": "The text gives the phrase and no explanation. It says the far end of the road is that, and goes on to something else. Teachers since have filled it in a hundred ways and they do not agree with each other. We could find no line in this Upaniṣad that tells you what it is, so we are not going to tell you either."
+      },
+      {
+        "q": "Is this the same chariot as in the Bhagavad Gītā?",
+        "a": "No, and they are easy to mix up. The Gītā's is an actual chariot in the story — a battlefield, Kṛṣṇa holding the reins, horses in front. This one is nobody's chariot. It is a way of describing a person, and the point of it is that the person is the passenger. Different book, different scene."
+      }
+    ]
+  }
+}

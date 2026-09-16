@@ -2696,5 +2696,199 @@
       "Cauvery",
       "Kaviri"
     ]
+  },
+  "Kaṭha Upaniṣad": {
+    "id": "katha-upanishad",
+    "native": {
+      "deva": "कठोपनिषद्"
+    },
+    "say": "KUT-huh oo-PUH-ni-shud",
+    "kind": "text",
+    "gloss": "The Upaniṣad in which a boy named Naciketā goes to the house of death and will not leave without an answer. It is where the chariot picture comes from.",
+    "aliases": [
+      "Katha Upanishad",
+      "Kathopanishad"
+    ]
+  },
+  "Ṛgveda": {
+    "id": "rigveda",
+    "native": {
+      "deva": "ऋग्वेद"
+    },
+    "say": "RIG-vay-duh",
+    "kind": "text",
+    "gloss": "The oldest of the four Vedas — a collection of hymns, some of them riddles. Several famous Upaniṣadic lines are already sitting in it.",
+    "aliases": [
+      "Rigveda",
+      "Rig Veda"
+    ]
+  },
+  "Dīrghatamas": {
+    "id": "dirghatamas",
+    "native": {
+      "deva": "दीर्घतमस्"
+    },
+    "say": "DEERG-huh-tuh-muss",
+    "kind": "person",
+    "gloss": "The seer of a long hymn of riddles in the Ṛgveda, the hymn that holds the verse about the two birds.",
+    "aliases": [
+      "Dirghatamas"
+    ]
+  },
+  "pippala": {
+    "id": "pippala",
+    "native": {
+      "deva": "पिप्पल"
+    },
+    "say": "PIP-puh-luh",
+    "kind": "word",
+    "gloss": "The fruit of the fig — the word the verse uses for what the eating bird is eating. The tree itself is never named.",
+    "aliases": [
+      "pippal"
+    ]
+  },
+  "Mārkaṇḍeya": {
+    "id": "markandeya",
+    "native": {
+      "deva": "मार्कण्डेय",
+      "taml": "மார்க்கண்டேயர்"
+    },
+    "say": "maar-KUN-day-yuh",
+    "kind": "person",
+    "gloss": "A sage who lives long enough to be the only one left when the world dissolves, and who asked to be shown that on purpose.",
+    "aliases": [
+      "Markandeya"
+    ]
+  },
+  "Nara": {
+    "id": "nara",
+    "native": {
+      "deva": "नर"
+    },
+    "say": "NUH-ruh",
+    "kind": "being",
+    "gloss": "One of a pair of sages, Nara and Nārāyaṇa, who appear together and are understood as two forms of one presence.",
+    "aliases": []
+  },
+  "Vidura": {
+    "id": "vidura",
+    "native": {
+      "deva": "विदुर"
+    },
+    "say": "vi-DOO-ruh",
+    "kind": "person",
+    "gloss": "Half-brother to the blind king and the one person in that court who says the true thing every time, and is listened to by nobody who matters.",
+    "aliases": [
+      "Vidur"
+    ]
+  },
+  "Sātyaki": {
+    "id": "satyaki",
+    "native": {
+      "deva": "सात्यकि"
+    },
+    "say": "SAAT-yuh-ki",
+    "kind": "person",
+    "gloss": "A warrior of Kṛṣṇa's own people who goes with him as his second, and who finds out about the plan to seize him.",
+    "aliases": [
+      "Satyaki"
+    ]
+  },
+  "Gāndhārī": {
+    "id": "gandhari",
+    "native": {
+      "deva": "गान्धारी"
+    },
+    "say": "gaan-DHAA-ree",
+    "kind": "person",
+    "gloss": "Queen of Hastināpura and Duryodhana's mother, who tied a cloth over her own eyes when she married a blind husband.",
+    "aliases": [
+      "Gandhari"
+    ]
+  },
+  "Hastināpura": {
+    "id": "hastinapura",
+    "native": {
+      "deva": "हस्तिनापुर"
+    },
+    "say": "huss-ti-NAA-poo-ruh",
+    "kind": "place",
+    "gloss": "The Kuru capital, where the blind king holds his court and where the war is decided on before it is fought.",
+    "aliases": [
+      "Hastinapura",
+      "Hastinapur"
+    ]
+  },
+  "Bhīṣma": {
+    "id": "bhishma",
+    "native": {
+      "deva": "भीष्म"
+    },
+    "say": "BHEESH-muh",
+    "kind": "person",
+    "gloss": "The grand-uncle of both sides, bound by an old vow to whoever holds the throne — which is why he is always in the room and never able to stop anything.",
+    "aliases": [
+      "Bhishma"
+    ]
+  },
+  "Rādhā": {
+    "id": "radha-suta",
+    "display": "Rādhā",
+    "native": {
+      "deva": "राधा"
+    },
+    "say": "RAA-dhaa",
+    "kind": "person",
+    "gloss": "Karṇa's mother — the woman who lifted him out of the river and raised him. Not the Rādhā of the Vraja stories; a different woman with the same name.",
+    "aliases": [
+      "Radha"
+    ]
+  },
+  "Adhiratha": {
+    "id": "adhiratha",
+    "native": {
+      "deva": "अधिरथ"
+    },
+    "say": "uh-dhi-RUH-thuh",
+    "kind": "person",
+    "gloss": "A charioteer by trade, and Karṇa's father — the man who found the box on the water and took the child home the same hour.",
+    "aliases": [
+      "Adhirath"
+    ]
+  },
+  "Manu": {
+    "id": "manu",
+    "native": {
+      "deva": "मनु"
+    },
+    "say": "MUH-noo",
+    "kind": "being",
+    "gloss": "The first man of an age — and, because each one presides over an age, also the name of that stretch of time. Fourteen of them make one day of Brahmā.",
+    "aliases": []
+  },
+  "Mṛkaṇḍu": {
+    "id": "mrikandu",
+    "native": {
+      "deva": "मृकण्डु"
+    },
+    "say": "mri-KUN-du",
+    "kind": "person",
+    "gloss": "A sage, and Mārkaṇḍeya's father.",
+    "aliases": [
+      "Mrikandu",
+      "Mṛkaṇḍa"
+    ]
+  },
+  "Rudra": {
+    "id": "rudra",
+    "native": {
+      "deva": "रुद्र"
+    },
+    "say": "ROO-druh",
+    "kind": "being",
+    "gloss": "An ancient name of Śiva — the one who howls, the one in the storm.",
+    "aliases": [
+      "Rudran"
+    ]
   }
 }

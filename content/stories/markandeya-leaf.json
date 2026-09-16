@@ -1,0 +1,444 @@
+{
+  "id": "markandeya-leaf",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-16",
+  "title": "The Child on the Banyan Leaf",
+  "tease": "He asked to be shown the power that makes everyone take what they see for the plain truth. So the rain came, and did not stop, and there was nothing left to swim towards.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 12, chapters 8–10",
+    "stability": "variant",
+    "traditionNote": "The older telling is in the Mahābhārata, where the boy sits on a bough and speaks to Mārkaṇḍeya and afterwards says who he is. We tell the Bhāgavata's, where he lies in the cup of a leaf and never says a word. The leaf and the silence are the Bhāgavata's. This episode is not in the Mārkaṇḍeya Purāṇa.",
+    "parallels": [
+      {
+        "work": "Mahābhārata",
+        "locus": "Vana Parva, the Mārkaṇḍeya-samāsya — Ganguli sections CLXXXVII–CLXXXVIII"
+      },
+      {
+        "work": "Matsya Purāṇa",
+        "locus": "chapter 167"
+      }
+    ],
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa 12.8, 12.9 and 12.10, Sanskrit with word-for-word gloss",
+      "Kisari Mohan Ganguli, Mahābhārata, Vana Parva sections CLXXXVI–CLXXXIX",
+      "F. E. Pargiter, The Mārkaṇḍeya Purāṇa — checked chapter by chapter; this episode is not in it",
+      "Matsya Purāṇa 167"
+    ],
+    "variants": [
+      {
+        "differs": "Where the child is, and whether he speaks",
+        "tellings": "The Mahābhārata seats him on a couch on a far-reaching bough and gives him a line — enter my body and rest there. The Matsya Purāṇa has him asleep on a branch, and swallows the sage first and shows him the child afterwards. The Bhāgavata lays him in the cup of a leaf and never lets him speak at all.",
+        "weTell": "The Bhāgavata's — the leaf, and the silence, and the toe in the mouth. The title of this story is the Bhāgavata's title."
+      },
+      {
+        "differs": "Which book this belongs to",
+        "tellings": "The name invites you to look in the Mārkaṇḍeya Purāṇa. That book holds the Devī Māhātmya and a frame in which wise birds answer Jaimini's questions, and it does not carry this episode anywhere.",
+        "weTell": "The Bhāgavata, with the Mahābhārata named as the older telling."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "The sages ask how one man came to live long enough to be the only one left at the end of a day of Brahmā",
+        "locus": "Bhāgavata Purāṇa 12.8.1–2"
+      },
+      {
+        "claim": "Mārkaṇḍeya is the son of the sage Mṛkaṇḍu",
+        "locus": "Bhāgavata Purāṇa 12.8"
+      },
+      {
+        "claim": "He sat in meditation so long that six lifetimes of Manu went by",
+        "locus": "Bhāgavata Purāṇa 12.8.14"
+      },
+      {
+        "claim": "Indra grew afraid of what he was gathering and sent musicians, dancers, the god of love and the spirits of spring to break his concentration; he was not moved, and it did not swell him with false ego",
+        "locus": "Bhāgavata Purāṇa 12.8.15 onward; 12.8.30"
+      },
+      {
+        "claim": "Then the Lord came to him in the twin form — two sages, Nara and Nārāyaṇa — and offered him any boon he wished",
+        "locus": "Bhāgavata Purāṇa 12.8.32–34, 12.9.3"
+      },
+      {
+        "claim": "What he asked to be shown was māyā — the power by which the whole world takes what it sees for the plain truth",
+        "locus": "Bhāgavata Purāṇa 12.9.6"
+      },
+      {
+        "claim": "He was told: so be it",
+        "locus": "Bhāgavata Purāṇa 12.9.7"
+      },
+      {
+        "claim": "It began on an ordinary evening while he was at his worship, when a tremendous wind got up",
+        "locus": "Bhāgavata Purāṇa 12.9.10"
+      },
+      {
+        "claim": "Then clouds with lightning and thunder, and rain in torrents",
+        "locus": "Bhāgavata Purāṇa 12.9.11"
+      },
+      {
+        "claim": "The four great oceans rose and came over the land, and huge sea creatures came with them",
+        "locus": "Bhāgavata Purāṇa 12.9.12"
+      },
+      {
+        "claim": "The rain went on until the water covered every hill and every piece of dry ground",
+        "locus": "Bhāgavata Purāṇa 12.9.14"
+      },
+      {
+        "claim": "Everything was flooded and he was the only one left, wandering alone",
+        "locus": "Bhāgavata Purāṇa 12.9.15"
+      },
+      {
+        "claim": "Monstrous fish struck at him and the waves threw him about until he lost all sense of direction",
+        "locus": "Bhāgavata Purāṇa 12.9.16"
+      },
+      {
+        "claim": "Whirlpools took him down and let him go, and he was hungry, and thirsty, and frightened, and sad, and so ill he could hardly hold his head up",
+        "locus": "Bhāgavata Purāṇa 12.9.17–18"
+      },
+      {
+        "claim": "It went on for years that nobody has ever counted",
+        "locus": "Bhāgavata Purāṇa 12.9.19 — an idiom for countlessness, not a sum"
+      },
+      {
+        "claim": "He came upon a small rise of land with a young banyan tree on it, and the tree was in blossom and in fruit",
+        "locus": "Bhāgavata Purāṇa 12.9.20"
+      },
+      {
+        "claim": "On a branch on the north-eastern side he saw a baby lying in the cup of a leaf, and the child's own brightness was swallowing the darkness",
+        "locus": "Bhāgavata Purāṇa 12.9.21"
+      },
+      {
+        "claim": "The infant was dark as a flawless emerald, with a lotus face and ears like pomegranate flowers, and as he breathed the folds of skin moved about his deep navel",
+        "locus": "Bhāgavata Purāṇa 12.9.22–25"
+      },
+      {
+        "claim": "The child took hold of one of his own feet with his small fingers, put a toe in his mouth, and sucked it",
+        "locus": "Bhāgavata Purāṇa 12.9.22–25"
+      },
+      {
+        "claim": "At the sight of him the sage's weariness went away",
+        "locus": "Bhāgavata Purāṇa 12.9.26"
+      },
+      {
+        "claim": "The child breathed in and drew him inside his body like a mosquito",
+        "locus": "Bhāgavata Purāṇa 12.9.27"
+      },
+      {
+        "claim": "Inside he saw the sky and the stars, the mountains, the oceans, the great islands, the directions stretching away, and forests and countries and rivers and cities and farming villages and cow pastures, and people at every kind of work and worship",
+        "locus": "Bhāgavata Purāṇa 12.9.28–29"
+      },
+      {
+        "claim": "He saw the Himālaya, the river Puṣpabhadrā, and his own hermitage, the place where he had seen Nara and Nārāyaṇa",
+        "locus": "Bhāgavata Purāṇa 12.9.30"
+      },
+      {
+        "claim": "The child breathed out, and the breath put him back into the water",
+        "locus": "Bhāgavata Purāṇa 12.9.30"
+      },
+      {
+        "claim": "He saw the tree and the child a second time, and the child gave him a loving look, and he ran towards him",
+        "locus": "Bhāgavata Purāṇa 12.9.31–32"
+      },
+      {
+        "claim": "Then there was nothing there - he became invisible and was gone",
+        "locus": "Bhāgavata Purāṇa 12.9.33"
+      },
+      {
+        "claim": "And Mārkaṇḍeya found himself back in his own hermitage, exactly as before",
+        "locus": "Bhāgavata Purāṇa 12.9.34"
+      },
+      {
+        "claim": "The child is never named at the moment the sage sees him",
+        "locus": "Bhāgavata Purāṇa 12.9.21–25"
+      },
+      {
+        "claim": "A chapter later the book says plainly that Nārāyaṇa had arranged this whole display of his bewildering power",
+        "locus": "Bhāgavata Purāṇa 12.10.1"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-16"
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [
+      "death",
+      "loss"
+    ],
+    "careNote": "Every living thing in the world dies here — the rain simply does not stop, and none of it is shown. What is shown is the long middle: he is alone in the water for uncounted years, sea-monsters strike at him, whirlpools pull him under, and he is frightened and ill. The world is whole again at the end."
+  },
+  "values": [
+    "being very small on purpose"
+  ],
+  "themes": [
+    "bhagavata",
+    "dissolution",
+    "maya",
+    "smallness",
+    "water"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Mārkaṇḍeya",
+      "role": "lead"
+    },
+    {
+      "ref": "Nārāyaṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Nara",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Indra",
+      "role": "foil"
+    },
+    {
+      "ref": "māyā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Mārkaṇḍeya» had asked for one thing, and it was not more life. He had asked to be shown «māyā» — the power that makes everyone take what they are looking at for the plain truth."
+        },
+        {
+          "t": "p",
+          "text": "He was told: so be it. And then he went back to his worship, and waited."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It started on an ordinary evening, at his worship, with a wind. Then clouds, and lightning, and rain that did not stop."
+        },
+        {
+          "t": "p",
+          "text": "The four oceans came up over the land with their creatures still in them. The water went over the hills. Then there were no hills."
+        },
+        {
+          "t": "p",
+          "text": "And there was one man in all that water, and nothing to swim towards."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Fish struck at him. The waves turned him around until he could not tell one direction from another. He was hungry, and frightened, and ill, and it went on for years nobody has counted."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then a little rise of land, with a young banyan on it, in flower and in fruit."
+        },
+        {
+          "t": "p",
+          "text": "And on a branch, in the cup of one leaf, a baby. Dark as a good emerald. The light coming off him was eating the dark."
+        },
+        {
+          "t": "p",
+          "text": "He had hold of one of his own feet in his fingers, and a toe in his mouth, and he was sucking it."
+        },
+        {
+          "t": "p",
+          "text": "«Mārkaṇḍeya» stopped being tired."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then the baby breathed in, and drew him inside the way a breath draws in a mosquito."
+        },
+        {
+          "t": "p",
+          "text": "And inside there was the sky, and the mountains, and the oceans, and the cities, and the fields with cattle standing in them. And then his own river. And his own hut, and the ground in front of it."
+        },
+        {
+          "t": "p",
+          "text": "Then the baby breathed out, and put him back in the water, and the tree was not there any more, and neither was the child."
+        },
+        {
+          "t": "slow",
+          "text": "There was no world left anywhere, and no ground, and no light in any direction except what was coming off one sleeping child on a leaf."
+        }
+      ],
+      "words": 323
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The question the sages asked was not about the story. It was about the man. How does anybody come to be alive so long that he is the only one left at the end of everything?"
+        },
+        {
+          "t": "p",
+          "text": "«Mārkaṇḍeya», son of «Mṛkaṇḍu». He had sat still, keeping his vow, through six lifetimes of «Manu» — which is not a figure of speech; it is the unit the book counts in."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» grew worried about what a man might be gathering by sitting that still, and sent dancers and musicians and the spirits of spring to interrupt him. He did not move. It also did not go to his head, which is the harder part."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then the Lord came to him in the twin form of two sages, «Nara» and «Nārāyaṇa», and offered him anything he wanted."
+        },
+        {
+          "t": "p",
+          "text": "And here is where the story turns, before anything has happened. He did not ask to live longer. He asked to be shown «māyā» — the power by which everyone takes what they are looking at for the plain truth."
+        },
+        {
+          "t": "p",
+          "text": "He was told: so be it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It began on an ordinary evening while he was at his worship. A wind got up — an enormous one."
+        },
+        {
+          "t": "p",
+          "text": "Then clouds with lightning in them and thunder behind it, and rain coming down in torrents. The four great oceans stood up and came over the land, with the things that live in them still in them."
+        },
+        {
+          "t": "p",
+          "text": "The rain did not stop. It went over the low ground and then over the hills, and then there was no high ground anywhere to go over."
+        },
+        {
+          "t": "p",
+          "text": "And in the whole of it there was one man, and nothing at all to swim towards."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This is the part the book spends its time on, and it is not grand."
+        },
+        {
+          "t": "p",
+          "text": "Monstrous fish struck at him. The waves turned him until he could not tell one direction from another. Whirlpools took him down and let him go."
+        },
+        {
+          "t": "p",
+          "text": "He was hungry. He was thirsty, in all that water. He was frightened, then sad, then so ill he could hardly hold his head up."
+        },
+        {
+          "t": "p",
+          "text": "It went on for years nobody has ever counted. The thing to keep hold of is that he asked for this."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then, after a very long time, a small rise of land — and on it a young banyan, in blossom and in fruit."
+        },
+        {
+          "t": "p",
+          "text": "On a branch on the north-eastern side, lying in the cup of one leaf, there was a baby."
+        },
+        {
+          "t": "p",
+          "text": "Dark as a flawless emerald, with a lotus face and ears like pomegranate flowers, and the light coming off him was swallowing the darkness all round him."
+        },
+        {
+          "t": "p",
+          "text": "He had taken hold of one of his own feet in his fingers, and put a toe in his mouth, and he was sucking it."
+        },
+        {
+          "t": "p",
+          "text": "And «Mārkaṇḍeya», who had been in that water longer than there are words for, stopped being tired."
+        },
+        {
+          "t": "aside",
+          "text": "In the «Bhāgavata» the child never speaks — not here, not at the end. The line you may know, _come inside and rest_, belongs to the older telling in the «Mahābhārata». If your child asks why he says nothing, that is the honest answer, and it is a good one."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The baby breathed in. And the breath drew him inside, the way a breath draws in a mosquito."
+        },
+        {
+          "t": "p",
+          "text": "And inside there was the sky. The stars, the mountains, the oceans, the great islands, the directions going away on every side."
+        },
+        {
+          "t": "p",
+          "text": "Forests and countries and rivers, cities and farming villages and cattle at pasture. People working. People at their worship."
+        },
+        {
+          "t": "p",
+          "text": "And then the hills he knew. His own river. His own hermitage, and the ground in front of it where the two sages had stood."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The baby breathed out, and put him back in the water."
+        },
+        {
+          "t": "p",
+          "text": "He saw the tree again, and the child again, and the child looked at him — a long, fond look — and he went towards him. And then there was nothing there."
+        },
+        {
+          "t": "p",
+          "text": "And he was sitting in his own hut, on the bank of his own river, exactly as before."
+        },
+        {
+          "t": "slow",
+          "text": "He had asked to be shown how everyone takes what they see for the plain truth. What he was shown was a baby on a leaf with a toe in his mouth — and, inside the baby, his own house."
+        }
+      ],
+      "words": 663
+    }
+  },
+  "linked": {
+    "next": "svetaketu-salt",
+    "reason": "the other story that answers an enormous question by handing you one very small thing and waiting"
+  },
+  "close": {
+    "question": "He saw his own house inside the child. What would you go looking for first, in there?",
+    "seed": "Some things only fit inside something smaller than they are.",
+    "ifTheyAsk": [
+      {
+        "q": "Was it a dream?",
+        "a": "The Bhāgavata does not say so. It ends the scene by putting him back in his hermitage exactly as it was before, and then, a chapter later, it tells you plainly that the whole display had been arranged for him. He had asked to be shown the power by which everyone takes what they see for the plain truth, and that is what he was shown. Whether being shown a thing counts as living through it is a fair question, and the text leaves it with you."
+      },
+      {
+        "q": "Why doesn't the baby say anything?",
+        "a": "In the Bhāgavata he never does. He breathes in, he breathes out, he looks. In the older telling, in the Mahābhārata, the boy speaks — he sees the sage is exhausted and tells him to come inside and rest — and he is sitting on a bough, not lying in a leaf. Two books, two versions of the same meeting. We tell the quiet one, and the leaf is why the story has the name it has."
+      },
+      {
+        "q": "Is this in the Mārkaṇḍeya Purāṇa?",
+        "a": "No, and it is the first place everybody looks, because of the name. The Mārkaṇḍeya Purāṇa carries the Devī Māhātmya — the long account of the Goddess — and a frame in which four wise birds answer a questioner, and the ages of the world, and lists of kings. This episode is not in it anywhere. It is in the Bhāgavata and in the Mahābhārata, and there is a third version in the Matsya Purāṇa where the sage is swallowed first and shown the child afterwards."
+      }
+    ]
+  }
+}

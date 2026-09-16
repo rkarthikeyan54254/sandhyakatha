@@ -1,0 +1,450 @@
+{
+  "id": "krishna-embassy",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-16",
+  "title": "The Last Errand Before the War",
+  "tease": "He goes to ask for five villages instead of a kingdom, and everyone in the room has already told him what the answer will be.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Udyoga Parva — Ganguli sections XXXI, LVIII, LXXII–CXXXI, CXLVII",
+    "stability": "stable",
+    "checkedAgainst": [
+      "Kisari Mohan Ganguli, The Mahābhārata, Udyoga Parva, sections I, XXXI, LVIII, LXXII–XCV, CXXIV–CXXXII, CXXXVII, CXLVII–CXLVIII",
+      "the same passages at wisdomlib",
+      "Poona critical edition adhyāyas 5.31, 5.70, 5.125, 5.127, 5.129, checked at five anchors only"
+    ],
+    "sourcing": [
+      {
+        "claim": "Thirteen years were over — twelve of them in the forest and the thirteenth in hiding — and the brothers came back and asked for their kingdom",
+        "locus": "Udyoga Parva, Ganguli Section LXXII"
+      },
+      {
+        "claim": "Sañjaya came from Dhṛtarāṣṭra as his envoy, and Yudhiṣṭhira sent his answer back with him — a message asking for five villages",
+        "locus": "Udyoga Parva, Ganguli Section XXXI"
+      },
+      {
+        "claim": "Yudhiṣṭhira told Kṛṣṇa the five of them wanted only five villages or towns, because they did not want this family destroyed",
+        "locus": "Udyoga Parva, Ganguli Section LXXII"
+      },
+      {
+        "claim": "Four villages are named and the fifth is left to the other side to pick",
+        "locus": "Udyoga Parva, Ganguli Sections XXXI, LXXII, LXXXII"
+      },
+      {
+        "claim": "Duryodhana had already told his father he would not give up as much land as the sharp point of a needle could cover",
+        "locus": "Udyoga Parva, Ganguli Section LVIII"
+      },
+      {
+        "claim": "Kṛṣṇa said he would go to the court of the Kurus for the sake of both sides",
+        "locus": "Udyoga Parva, Ganguli Section LXXII"
+      },
+      {
+        "claim": "Bhīma, of all of them, argued for peace and asked Kṛṣṇa to speak gently, and said his patience came from wanting to keep the family from being wiped out, not from fear",
+        "locus": "Udyoga Parva, Ganguli Section LXXIV"
+      },
+      {
+        "claim": "His mildness startled the room; the book says it was as unexpected as hills losing their weight",
+        "locus": "Udyoga Parva, Ganguli Section LXXV"
+      },
+      {
+        "claim": "Bhīma answered that his patience came from wanting to save the family, not from fear",
+        "locus": "Udyoga Parva, Ganguli Section LXXVI"
+      },
+      {
+        "claim": "Arjuna said peace was worth proposing properly, though good advice on Duryodhana would be seed sown in barren soil",
+        "locus": "Udyoga Parva, Ganguli Section LXXVIII"
+      },
+      {
+        "claim": "Sahadeva and Sātyaki both said plainly that they wanted the war, and the warriors round them roared their agreement",
+        "locus": "Udyoga Parva, Ganguli Section LXXXI"
+      },
+      {
+        "claim": "Draupadī said she had kept thirteen years of anger in her heart like a fire that would not go out, and told him that whatever else he did he was to remember her hair, which Duḥśāsana had seized",
+        "locus": "Udyoga Parva, Ganguli Section LXXXII"
+      },
+      {
+        "claim": "He stopped one night on the road at Vṛkasthala, ate with the brahmins there, and went on in the morning",
+        "locus": "Udyoga Parva, Ganguli Section LXXXIV"
+      },
+      {
+        "claim": "At Hastināpura he greeted Dhṛtarāṣṭra and Bhīṣma first, then the other kings by age",
+        "locus": "Udyoga Parva, Ganguli Section LXXXIX"
+      },
+      {
+        "claim": "That afternoon he went to see his aunt Kuntī, who wept and told him everything her sons had suffered",
+        "locus": "Udyoga Parva, Ganguli Section XC"
+      },
+      {
+        "claim": "Duryodhana invited him to eat and he refused, saying an envoy eats at your table and takes honour only after his errand has succeeded, and that a man does not eat the food of people who hate his friends",
+        "locus": "Udyoga Parva, Ganguli Section XCI"
+      },
+      {
+        "claim": "He said it was not from desire, nor from anger, nor from spite, nor for anything he wanted",
+        "locus": "Udyoga Parva, Ganguli Section XCI"
+      },
+      {
+        "claim": "He went to Vidura's house and ate there",
+        "locus": "Udyoga Parva, Ganguli Section XCI"
+      },
+      {
+        "claim": "Vidura told him not to go into the assembly at all, because his words there would certainly prove vain",
+        "locus": "Udyoga Parva, Ganguli Section XCII"
+      },
+      {
+        "claim": "Kṛṣṇa answered that a man who strives his hardest for a good thing and fails still has the merit of the attempt",
+        "locus": "Udyoga Parva, Ganguli Section XCIII"
+      },
+      {
+        "claim": "He said that having tried to make peace he would escape the censure of all the kings",
+        "locus": "Udyoga Parva, Ganguli Section XCIII"
+      },
+      {
+        "claim": "He entered the court with Vidura on one side and Sātyaki on the other, and sages were there with Nārada at their head",
+        "locus": "Udyoga Parva, Ganguli Section XCIV"
+      },
+      {
+        "claim": "He asked Dhṛtarāṣṭra to set his own sons right, saying he would set the Pāṇḍavas right, so peace could come without slaughter",
+        "locus": "Udyoga Parva, Ganguli Section XCV"
+      },
+      {
+        "claim": "Bhīṣma, Droṇa, Vidura and Dhṛtarāṣṭra each begged Duryodhana to listen, and Bhīṣma and Droṇa asked again that the quarrel be let go",
+        "locus": "Udyoga Parva, Ganguli Sections CXXV and CXXVI"
+      },
+      {
+        "claim": "Duryodhana told Kṛṣṇa to his face that he would not give them as much land as the point of a sharp needle could cover",
+        "locus": "Udyoga Parva, Ganguli Section CXXVII"
+      },
+      {
+        "claim": "Duryodhana walked out of the court in anger",
+        "locus": "Udyoga Parva, Ganguli Section CXXVIII"
+      },
+      {
+        "claim": "After Duryodhana walked out, Dhṛtarāṣṭra sent Vidura for Gāndhārī, and Duryodhana was brought back into the court to hear his mother, and she too told him to make peace",
+        "locus": "Udyoga Parva, Ganguli Section CXXIX"
+      },
+      {
+        "claim": "Duryodhana made a plan to seize Kṛṣṇa and tie him up; Sātyaki found out and warned him, and Kṛṣṇa said he would do nothing blameable in return",
+        "locus": "Udyoga Parva, Ganguli Section CXXX"
+      },
+      {
+        "claim": "Then Kṛṣṇa showed a form in which Brahmā appeared at his forehead and Rudra at his breast, the guardians of the world on his arms, and fire and the gods from his mouth",
+        "locus": "Udyoga Parva, Ganguli Section CXXXI"
+      },
+      {
+        "claim": "Balarāma stood at one of his arms and Arjuna at the other, with Bhīma, Yudhiṣṭhira and the twins around him",
+        "locus": "Udyoga Parva, Ganguli Section CXXXI"
+      },
+      {
+        "claim": "The frightened kings shut their eyes, but Droṇa, Bhīṣma, Vidura, Sañjaya and the sages were given the sight to see it",
+        "locus": "Udyoga Parva, Ganguli Section CXXXI"
+      },
+      {
+        "claim": "When it was over he walked out in full view of the Kurus and went to his aunt's house",
+        "locus": "Udyoga Parva, Ganguli Section CXXXI"
+      },
+      {
+        "claim": "He came back and told the brothers that his words to Duryodhana had been true, reasonable and good for him, and had not been accepted",
+        "locus": "Udyoga Parva, Ganguli Section CXLVII"
+      },
+      {
+        "claim": "Kṛṣṇa told Arjuna that Duryodhana would not part with the smallest portion of the kingdom for even the shortest time",
+        "locus": "Udyoga Parva, Ganguli Section LXXIX"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-16"
+  },
+  "audience": {
+    "minAge": 11,
+    "sensitivity": [
+      "injustice",
+      "violence"
+    ],
+    "careNote": "Nobody is hurt in this story — it stops before the war starts. But Draupadī asks him to remember her hair and the hands that seized it, and a child who asks what that means is asking about the dicing hall. Sātyaki says plainly that he wants the war. The weight of it is that the last attempt to stop it failed."
+  },
+  "values": [
+    "trying anyway when you have been told"
+  ],
+  "themes": [
+    "mahabharata",
+    "peace",
+    "messenger",
+    "war",
+    "effort"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Kṛṣṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Duryodhana",
+      "role": "foil"
+    },
+    {
+      "ref": "Vidura",
+      "role": "present"
+    },
+    {
+      "ref": "Dhṛtarāṣṭra",
+      "role": "present"
+    },
+    {
+      "ref": "Bhīṣma",
+      "role": "present"
+    },
+    {
+      "ref": "Droṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "present"
+    },
+    {
+      "ref": "Bhīma",
+      "role": "present"
+    },
+    {
+      "ref": "Arjuna",
+      "role": "present"
+    },
+    {
+      "ref": "Draupadī",
+      "role": "present"
+    },
+    {
+      "ref": "Kuntī",
+      "role": "present"
+    },
+    {
+      "ref": "Gāndhārī",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sātyaki",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sañjaya",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Everybody in that room wanted something different, and only one of them was going to have to get into a chariot and go and say it out loud."
+        },
+        {
+          "t": "p",
+          "text": "The brothers had come out of thirteen years away and asked for their kingdom. Then they had come down, and down, to five villages — four of them named and one left for the other side to choose."
+        },
+        {
+          "t": "p",
+          "text": "The answer had already come back, before anybody set out, and it was about a needle."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» said he would go and put it to them in person."
+        },
+        {
+          "t": "p",
+          "text": "In the city «Duryodhana» invited him to dinner, and he would not eat it. A messenger eats at your table after his errand has worked, he said, and not before. He went and ate at «Vidura»'s table instead."
+        },
+        {
+          "t": "p",
+          "text": "It is a small thing and it tells you the whole of him. He had not come there to be anybody's guest."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Vidura», who was on his side and loved him, said it plainly: do not go into that hall. They will not listen. You will be wasting your breath."
+        },
+        {
+          "t": "p",
+          "text": "And this is the answer the story is kept for. If a man does everything he can to bring about a good thing, «Kṛṣṇa» said, and it fails — the good of having tried is still his."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he went in, and asked, and every old man in the room asked with him. «Bhīṣma». «Droṇa». «Vidura». The blind king."
+        },
+        {
+          "t": "p",
+          "text": "And when «Duryodhana» had stormed out of the court, his own mother was sent for, and he was fetched back in to hear her say it too."
+        },
+        {
+          "t": "p",
+          "text": "He refused them all, twice, and the second time he said it to «Kṛṣṇa»'s face."
+        },
+        {
+          "t": "slow",
+          "text": "There was nothing left to do after that but go home and report it — which he did, word for word, so that it would be on the record for ever that somebody had asked."
+        }
+      ],
+      "words": 318
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Thirteen years were up. Twelve of them in the forest and the thirteenth spent in hiding, and the five brothers came back and asked for what was theirs."
+        },
+        {
+          "t": "p",
+          "text": "They had already asked once. «Sañjaya» had come from the old king, and «Yudhiṣṭhira» sent his answer back with him. Not a kingdom. Five villages. Four of them named, and the fifth — pick any you like."
+        },
+        {
+          "t": "p",
+          "text": "Give us five villages, he said, because we do not want this family destroyed."
+        },
+        {
+          "t": "p",
+          "text": "And «Duryodhana» had answered it before anybody came, to his own father: he would not give up as much land as the sharp point of a needle could cover."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» said he would go himself, for the sake of both sides. Then the room argued."
+        },
+        {
+          "t": "p",
+          "text": "«Bhīma», of all people, spoke for peace. He asked «Kṛṣṇa» to speak gently — not out of fear, he said, but to keep the family from being wiped out — and it startled everyone, as though the hills had lost their weight."
+        },
+        {
+          "t": "p",
+          "text": "«Arjuna» said peace was worth proposing, then said what he thought: advice given to that man is seed sown where nothing grows. «Sātyaki» wanted the war, and the soldiers round him roared when he said so."
+        },
+        {
+          "t": "p",
+          "text": "And «Draupadī» said: thirteen years I have kept this in my chest, like a fire that will not go out. Whatever else you do over there — remember my hair, and the hands that took hold of it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He went. One night on the road, then «Hastināpura»."
+        },
+        {
+          "t": "p",
+          "text": "He greeted the blind old king and «Bhīṣma» first and the rest by age, then spent the afternoon with his aunt «Kuntī», who cried and told him what had been done to her sons."
+        },
+        {
+          "t": "p",
+          "text": "«Duryodhana» invited him to dinner and he said no. A messenger eats at your table when his errand has worked, he said, not before; and a man does not eat the food of people who hate his friends. _Not from anger_, he said. _Not from spite._"
+        },
+        {
+          "t": "p",
+          "text": "He ate at «Vidura»'s house instead."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "And it was «Vidura» — who was on his side, who loved him — who told him not to go into the hall. They will not listen. Whatever you say in there is wasted."
+        },
+        {
+          "t": "p",
+          "text": "And «Kṛṣṇa» answered him. If a man does everything in his power to bring about a good thing and it comes to nothing, the good of the trying is still his."
+        },
+        {
+          "t": "p",
+          "text": "And then, plainly, he added: having tried for peace, no king anywhere can blame me afterwards."
+        },
+        {
+          "t": "aside",
+          "text": "The text never says he knew it would fail — that is a later habit of retelling, and it makes the errand pointless. What it gives him is better: he was told it would fail, by someone who loved him, and he went and did it properly anyway."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he went in, «Vidura» on one side and «Sātyaki» on the other. Hold your own sons, he said, and I will hold the five. There can be peace, and nobody need be killed for it."
+        },
+        {
+          "t": "p",
+          "text": "«Bhīṣma» begged. «Droṇa» begged. «Vidura» begged. The father begged his son in front of the whole court."
+        },
+        {
+          "t": "p",
+          "text": "And «Duryodhana» said it to «Kṛṣṇa»'s face, in front of all of them. Not as much land as the point of a sharp needle could cover. Then he walked out of the court."
+        },
+        {
+          "t": "p",
+          "text": "«Gāndhārī», his own mother, was sent for, and he was fetched back in to hear her. He said the same thing again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There was a plan to seize him and tie him up before he left. «Sātyaki» found out. «Kṛṣṇa» said he would do nothing blameable in return."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» at his forehead and «Rudra» at his chest. The guardians of the world along his arms, and fire and the gods out of his mouth. And round him — in a hall they were nowhere near — «Arjuna», «Bhīma», «Yudhiṣṭhira» and the twins."
+        },
+        {
+          "t": "p",
+          "text": "The frightened kings shut their eyes. «Bhīṣma», «Droṇa», «Vidura», «Sañjaya» and the sages were given eyes to see it."
+        },
+        {
+          "t": "p",
+          "text": "Then he walked out through the middle of them."
+        },
+        {
+          "t": "slow",
+          "text": "He came home and told them what he had said: that it was true, and reasonable, and good for the man he said it to, and that it had not been accepted. He had been told beforehand that it would not be. He said it anyway, so nobody could ever say it had not been asked."
+        }
+      ],
+      "words": 678
+    }
+  },
+  "linked": {
+    "next": "kunti-and-karna",
+    "reason": "the very next thing that happens in the same book — the other conversation on that road that nobody could win"
+  },
+  "close": {
+    "question": "Everybody told him it would not work before he went. Is there something you would still say?",
+    "seed": "Some things are said so that nobody can ever claim afterwards that they were not asked.",
+    "ifTheyAsk": [
+      {
+        "q": "Did he know it would fail?",
+        "a": "The book does not say he knew. It says three things that sit next to knowing. Vidura told him his words would certainly be wasted. He himself told Arjuna that Duryodhana would not part with the smallest piece of the kingdom. And when Vidura pressed him, he did not argue that it might work — he argued that the attempt is worth making even when it does not. That is a different and a harder position than knowing the future, and it is the one the text actually gives him."
+      },
+      {
+        "q": "Which five villages were they?",
+        "a": "Ganguli's translation names four of them and leaves the fifth open — take any other you like. The four are Avishthala, Vrikasthala, Makandi and Varanavata in one passage, and the first of them appears as Kusasthala in another, so even the text is not perfectly steady about it. The tidy list of five you may find online, all ending in -prastha, is not the list the text gives, and we could find no early source for it — though Indraprastha, the first name on that list, is very much in the Mahābhārata as the brothers' own capital."
+      },
+      {
+        "q": "Is this the same as the great form in the Bhagavad Gītā?",
+        "a": "No, though they are easy to confuse. The Gītā's comes later, on the battlefield, and is shown to Arjuna alone, who has to be given new eyes to bear it. This one is in a crowded hall, shown to a court in which four men had just agreed to tie him up, and the Pāṇḍavas appear inside it although they are not in that city at all. Two different moments, in two different books of the same epic."
+      }
+    ]
+  }
+}

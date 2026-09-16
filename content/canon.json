@@ -500,7 +500,7 @@
       "value": "who is holding your reins",
       "hook": "You are a chariot. Your senses are the horses, and somebody in there is supposed to be driving.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -596,7 +596,7 @@
       "value": "the one who eats and the one who watches",
       "hook": "Two birds sit on the same branch. One eats the fruit. The other just watches him eat it.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
       "gated": false
     },
@@ -1040,19 +1040,22 @@
       "n": 54,
       "id": "markandeya-leaf",
       "title": "The Child on the Banyan Leaf",
-      "corpus": "other-purana",
+      "corpus": "bhagavata",
       "tradition": "sanskrit",
-      "work": "Mārkaṇḍeya Purāṇa; Bhāgavata Skandha 12",
-      "locus": "The dissolution",
-      "stability": "stable",
+      "work": "Bhāgavata Purāṇa",
+      "locus": "Skandha 12, chapters 8–9",
+      "stability": "variant",
       "minAge": 10,
-      "sensitivity": [],
+      "sensitivity": [
+        "loss"
+      ],
       "value": "being very small on purpose",
       "hook": "The sage outlives the end of the world. He swims in the empty water for a long time, and then finds a baby asleep on a leaf.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
-      "gated": false
+      "gated": false,
+      "careNote": "The world ends and he is the only one left in it, frightened and alone in the water for a long time. Nobody dies where the child can see it, and the world is there again at the end."
     },
     {
       "n": 55,
@@ -1493,11 +1496,14 @@
       "locus": "Udyoga Parva",
       "stability": "stable",
       "minAge": 11,
-      "sensitivity": [],
-      "value": "trying anyway when you know",
+      "sensitivity": [
+        "injustice",
+        "violence"
+      ],
+      "value": "trying anyway when you have been told",
       "hook": "He goes to ask for five villages instead of a kingdom, knowing the answer, because nobody afterwards should be able to say it was not asked.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 4,
       "gated": false
     },
@@ -1600,14 +1606,17 @@
       "minAge": 14,
       "sensitivity": [
         "parental-conflict",
-        "loss"
+        "loss",
+        "death",
+        "social-hierarchy"
       ],
-      "value": "a thing said sixty years too late",
+      "value": "an apology that never comes",
       "hook": "She waits until he has finished praying, and then tells him the one fact about himself that everybody has kept from him, on the day before the war.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 5,
-      "gated": false
+      "gated": true,
+      "careNote": "A mother tells a grown son, days before a war, that she gave him away at birth. He says she has come back because she needs something, and the story does not answer him. They then agree which of her sons will die."
     },
     {
       "n": 83,
