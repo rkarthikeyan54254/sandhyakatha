@@ -292,14 +292,14 @@
       }
     },
     "markandeya-leaf": {
-      "canonStatus": "draft",
-      "storyVersion": null,
+      "canonStatus": "published",
+      "storyVersion": 1,
       "image": {
-        "status": "approved_pending_story_review",
+        "status": "approved",
         "type": "illustration",
         "file": "/media/stories/markandeya-leaf/hero.webp",
         "reviewedBy": "rama",
-        "reviewedOn": "2026-09-13"
+        "reviewedOn": "2026-09-16"
       },
       "voiceover": {
         "en": {
@@ -1048,6 +1048,74 @@
         "file": "/media/stories/panar-shoulders/hero.webp",
         "reviewedBy": "rama",
         "reviewedOn": "2026-09-15"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "chariot-and-horses": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/chariot-and-horses/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-16"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "two-birds": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/two-birds/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-16"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "krishna-embassy": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/krishna-embassy/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-16"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "kunti-and-karna": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/kunti-and-karna/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-16"
       },
       "voiceover": {
         "en": {

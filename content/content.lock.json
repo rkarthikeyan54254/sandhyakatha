@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "stories": {
     "abhimanyu-spiral": {
       "version": 1,
@@ -40,6 +40,11 @@
       "version": 1,
       "status": "published",
       "hash": "9e82c75266b3be7a"
+    },
+    "chariot-and-horses": {
+      "version": 1,
+      "status": "published",
+      "hash": "0acfbed5659f8f49"
     },
     "churning-ocean": {
       "version": 1,
@@ -146,10 +151,20 @@
       "status": "published",
       "hash": "b0e4551f82e43223"
     },
+    "krishna-embassy": {
+      "version": 1,
+      "status": "published",
+      "hash": "953d80be91400d6d"
+    },
     "kubera-feast": {
       "version": 1,
       "status": "published",
       "hash": "d7780f34312b1122"
+    },
+    "kunti-and-karna": {
+      "version": 1,
+      "status": "published",
+      "hash": "ef4bd255fe803450"
     },
     "lakshmi-leaves-indra": {
       "version": 1,
@@ -160,6 +175,11 @@
       "version": 1,
       "status": "published",
       "hash": "6ae097b2e726316b"
+    },
+    "markandeya-leaf": {
+      "version": 1,
+      "status": "published",
+      "hash": "3ed08b76632ca704"
     },
     "nachiketa-three-nights": {
       "version": 1,
@@ -183,7 +203,7 @@
     },
     "panar-shoulders": {
       "version": 1,
-      "status": "published",
+      "status": "draft",
       "hash": "b0e837aca72a5b28"
     },
     "parvati-decides": {
@@ -270,6 +290,11 @@
       "version": 1,
       "status": "published",
       "hash": "239b93201411107c"
+    },
+    "two-birds": {
+      "version": 1,
+      "status": "published",
+      "hash": "7c93712ab8203b16"
     },
     "valmiki-first-shloka": {
       "version": 1,
