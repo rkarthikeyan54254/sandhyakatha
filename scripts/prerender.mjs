@@ -838,5 +838,5 @@ ${feedItems}
 `);
 console.log(`feed.xml — ${Math.min(publishedStories.length, 50)} item(s)`);
 
-writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
+writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /preview/\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log(`prerendered ${n} shareable story page(s) + sitemap`);
