@@ -8,7 +8,7 @@
  *
  * No router dependency: this is a PWA that has to stay small and work offline,
  * and four routes do not need one. pushState on the way in, popstate on the way
- * back, and a pure function in between so it can be tested without a DOM.
+ * back, and pure functions in between so they can be tested without a DOM.
  */
 import type { Tab } from '../ui/Chrome';
 
@@ -19,8 +19,18 @@ export const TAB_PATHS: Record<Tab, string> = {
   why: '/why/',
 };
 
-/** Trailing slash optional, case-insensitive, anything unknown is tonight. */
-export function tabFromPath(pathname: string): Tab {
+/**
+ * Trailing slash optional, case-insensitive, and anything we cannot make sense
+ * of is tonight's story.
+ *
+ * The argument is deliberately permissive. This runs in a `useState`
+ * initialiser, which is the very first thing the app does, and it is handed
+ * whatever `window.location.pathname` happens to be — which is `undefined`
+ * under the test renderer, and can be missing in any non-browser environment.
+ * A bad path must never be the reason a parent gets a blank screen.
+ */
+export function tabFromPath(pathname?: string | null): Tab {
+  if (typeof pathname !== 'string') return 'tonight';
   switch (pathname.toLowerCase().replace(/\/+$/, '')) {
     case '/shelf': return 'shelf';
     case '/map': return 'map';
@@ -31,4 +41,16 @@ export function tabFromPath(pathname: string): Tab {
 
 export function pathForTab(tab: Tab): string {
   return TAB_PATHS[tab] ?? '/';
+}
+
+/** Where we are now, safe to call before we know there is a browser. */
+export function currentPath(): string {
+  if (typeof window === 'undefined') return '/';
+  const p = window.location?.pathname;
+  return typeof p === 'string' ? p : '/';
+}
+
+/** The surface the current address names. */
+export function currentTab(): Tab {
+  return tabFromPath(currentPath());
 }

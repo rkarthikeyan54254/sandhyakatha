@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pathForTab, tabFromPath } from './route';
+import { currentTab, pathForTab, tabFromPath } from './route';
 
 describe('tabFromPath', () => {
   it('maps the four surfaces, with or without a trailing slash', () => {
@@ -21,6 +21,17 @@ describe('tabFromPath', () => {
   it('falls back to tonight for anything unknown', () => {
     expect(tabFromPath('/nonsense/')).toBe('tonight');
     expect(tabFromPath('/s/two-birds/')).toBe('tonight');
+  });
+
+  // Regression: this ran inside App's useState initialiser against
+  // window.location.pathname, which is undefined under the test renderer. It
+  // threw before the app had rendered anything, taking all eight session tests
+  // with it. A missing path must degrade to tonight, never to a blank screen.
+  it('survives a missing or non-string path', () => {
+    expect(tabFromPath(undefined)).toBe('tonight');
+    expect(tabFromPath(null)).toBe('tonight');
+    expect(tabFromPath(undefined as unknown as string)).toBe('tonight');
+    expect(currentTab()).toBe('tonight');
   });
 
   it('round-trips every tab', () => {
