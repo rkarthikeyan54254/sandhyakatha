@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { currentTab, pathForTab, tabFromPath } from './route';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { currentTab, onRoutePop, pathForTab, pushTabPath, tabFromPath } from './route';
 
 describe('tabFromPath', () => {
   it('maps the four surfaces, with or without a trailing slash', () => {
@@ -37,5 +37,48 @@ describe('tabFromPath', () => {
   it('round-trips every tab', () => {
     for (const t of ['tonight', 'shelf', 'map', 'why'] as const)
       expect(tabFromPath(pathForTab(t))).toBe(t);
+  });
+});
+
+describe('partial browser environments', () => {
+  afterEach(() => vi.unstubAllGlobals());
+
+  it('does not assume a partial window has History or event APIs', () => {
+    vi.stubGlobal('window', {
+      location: { href: 'https://test.invalid/' },
+      history: { replaceState() {} },
+      setTimeout,
+      clearTimeout
+    });
+
+    expect(currentTab()).toBe('tonight');
+    expect(pushTabPath('map')).toBe(false);
+
+    let called = false;
+    const dispose = onRoutePop(() => { called = true; });
+    expect(() => dispose()).not.toThrow();
+    expect(called).toBe(false);
+  });
+
+  it('uses History and popstate when the browser provides them', () => {
+    const pushState = vi.fn();
+    const addEventListener = vi.fn();
+    const removeEventListener = vi.fn();
+
+    vi.stubGlobal('window', {
+      location: { pathname: '/', search: '?x=1' },
+      history: { pushState },
+      addEventListener,
+      removeEventListener
+    });
+
+    expect(pushTabPath('map')).toBe(true);
+    expect(pushState).toHaveBeenCalledWith({ tab: 'map' }, '', '/map/?x=1');
+
+    const listener = vi.fn();
+    const dispose = onRoutePop(listener);
+    expect(addEventListener).toHaveBeenCalledWith('popstate', listener);
+    dispose();
+    expect(removeEventListener).toHaveBeenCalledWith('popstate', listener);
   });
 });

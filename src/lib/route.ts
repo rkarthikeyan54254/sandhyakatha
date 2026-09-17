@@ -54,3 +54,38 @@ export function currentPath(): string {
 export function currentTab(): Tab {
   return tabFromPath(currentPath());
 }
+
+/**
+ * Push a surface address only when this environment actually implements the
+ * History API. A partial `window` is common in tests and embedded renderers;
+ * existence alone is not a capability guarantee.
+ *
+ * Returns true only when a new history entry was written.
+ */
+export function pushTabPath(tab: Tab): boolean {
+  if (typeof window === 'undefined') return false;
+  const pushState = window.history?.pushState;
+  if (typeof pushState !== 'function') return false;
+
+  const path = pathForTab(tab);
+  if (currentPath() === path) return false;
+
+  const search = typeof window.location?.search === 'string' ? window.location.search : '';
+  pushState.call(window.history, { tab }, '', path + search);
+  return true;
+}
+
+/**
+ * Subscribe to browser back/forward only when the host really provides the
+ * event API. Returns a cleanup function in every environment.
+ */
+export function onRoutePop(listener: () => void): () => void {
+  if (
+    typeof window === 'undefined' ||
+    typeof window.addEventListener !== 'function' ||
+    typeof window.removeEventListener !== 'function'
+  ) return () => {};
+
+  window.addEventListener('popstate', listener);
+  return () => window.removeEventListener('popstate', listener);
+}

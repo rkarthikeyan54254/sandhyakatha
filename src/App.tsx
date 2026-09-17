@@ -12,7 +12,7 @@ import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
-import { currentPath, currentTab, pathForTab } from './lib/route';
+import { currentTab, onRoutePop, pushTabPath } from './lib/route';
 
 function analyticsMode(len: Len): 'short' | 'full' {
   return len === 'short' ? 'short' : 'full';
@@ -171,28 +171,23 @@ export default function App() {
   const go = useCallback((next: Tab) => {
     setOpen(null);
     setTab(next);
-    const path = pathForTab(next);
-    // Everything below needs a real browser. The surface still changes without
-    // one; only the address does not.
-    if (typeof window === 'undefined') return;
-    if (currentPath() !== path) {
-      window.history?.pushState({ tab: next }, '', path + (window.location?.search ?? ''));
-    }
-    window.scrollTo?.({ top: 0 });
+    // The surface changes even in a partial/non-browser environment; the route
+    // helper writes history only when that capability really exists.
+    pushTabPath(next);
+    if (typeof window !== 'undefined' && typeof window.scrollTo === 'function')
+      window.scrollTo({ top: 0 });
   }, []);
 
   // The back button should go back a screen, not leave the site. On Android it
   // is a hardware button and this is the commonest way out of a PWA by accident.
   useEffect(() => {
-    if (typeof window === 'undefined') return;
     const onPop = () => {
       const next = currentTab();
       setOpen(null);
       setTab(next);
       setFrom(next);
     };
-    window.addEventListener('popstate', onPop);
-    return () => window.removeEventListener('popstate', onPop);
+    return onRoutePop(onPop);
   }, []);
 
   const child = P.activeChild(profile);
