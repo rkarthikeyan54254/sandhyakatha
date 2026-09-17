@@ -30,6 +30,12 @@ export default function Shelf({ canon, publishedIds, gate, onRead }: {
         story a child asks for twice comes back word for word.</p>
       <p className="sub">Planned stories are listed here too, so you can see what is coming.</p>
 
+      <a className="locale-shelf-door" href="/hi/">
+        <span className="eyebrow">हिन्दी · 5 reviewed stories</span>
+        <b>पाँच कहानियाँ, पढ़कर सुनाने के लिए</b>
+        <span>Rāma, Kṛṣṇa, Gaṇeśa, Devī and Hanumān — independently reviewed Hindi editions of the same source-linked stories.</span>
+      </a>
+
       <div className="facet">
         <span className="lab">Where it comes from</span>
         <div className="opts">

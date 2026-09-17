@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "npm run content && vite",
-    "build": "npm run validate:strict && npm run content && tsc -b && vite build && node scripts/prerender.mjs && node scripts/prerender-locales.mjs && node scripts/locale-preview-gates.mjs && node scripts/surface-gates.mjs && node scripts/cache-gates.mjs",
+    "build": "npm run validate:strict && npm run content && tsc -b && vite build && node scripts/prerender.mjs && node scripts/prerender-locales.mjs && node scripts/prerender-public-locales.mjs && node scripts/locale-preview-gates.mjs && node scripts/public-locale-gates.mjs && node scripts/surface-gates.mjs && node scripts/cache-gates.mjs",
     "verify:surfaces": "node scripts/surface-gates.mjs",
     "verify:cache": "node scripts/cache-gates.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
@@ -34,7 +34,8 @@
     "corrections": "node scripts/corrections.mjs",
     "validate:locales": "node scripts/validate-locales.mjs",
     "lock:locales": "node scripts/lock-locales.mjs",
-    "verify:locale-previews": "node scripts/locale-preview-gates.mjs"
+    "verify:locale-previews": "node scripts/locale-preview-gates.mjs",
+    "verify:public-locales": "node scripts/public-locale-gates.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

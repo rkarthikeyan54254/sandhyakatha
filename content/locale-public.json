@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "landing": {
+    "locale": "hi-IN",
+    "language": "hi",
+    "path": "/hi/",
+    "label": "हिन्दी"
+  },
+  "editions": [
+    {
+      "storyId": "rama-returns",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "govardhana",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ganesha-circles",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "durga-mahishasura",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "hanuman-reminded",
+      "locale": "hi-IN"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { localeLanguage, publicLocaleHref } from './lib/locale-paths.mjs';
-const ROOT = new URL('..', import.meta.url).pathname; const DIST = join(ROOT,'dist'); const read = p => JSON.parse(readFileSync(join(ROOT,p),'utf8')); const cfg = read('content/locale-previews.json'); const errors=[]; const fail=m=>errors.push(m); let editions=0;
+const ROOT = new URL('..', import.meta.url).pathname; const DIST = join(ROOT,'dist'); const read = p => JSON.parse(readFileSync(join(ROOT,p),'utf8')); const cfg = read('content/locale-previews.json'); const publicCfg = read('content/locale-public.json'); const publicKeys = new Set((publicCfg.editions ?? []).map(x => `${x.locale}/${x.storyId}`)); const errors=[]; const fail=m=>errors.push(m); let editions=0;
 function localeDoc(locale, storyId) {
   const lang = localeLanguage(locale);
   return read(`content/locales/${lang}/${storyId}.json`);
@@ -20,12 +20,19 @@ for (const p of cfg.previews ?? []) {
     editions += 1; const lang=localeLanguage(locale);
     const reservedPublicHref=publicLocaleHref(p.storyId,locale);
     if (reservedPublicHref !== `/s/${p.storyId}/${lang}/`) fail(`${p.storyId}/${lang}: public locale URL contract drifted: ${reservedPublicHref}`);
-    const prematurePublicPage=join(DIST,'s',p.storyId,lang,'index.html');
-    if (existsSync(prematurePublicPage)) fail(`${p.storyId}/${lang}: public locale page was emitted before human approval/promotion`);
+    const publicKey=`${locale}/${p.storyId}`;
+    const publicPage=join(DIST,'s',p.storyId,lang,'index.html');
     const page=join(DIST,'preview',p.storyId,lang,'index.html'); if (!existsSync(page)) { fail(`${p.storyId}/${lang}: preview page missing`); continue; } const html=readFileSync(page,'utf8');
     if (!html.includes('<meta name="robots" content="noindex,nofollow,noarchive">')) fail(`${p.storyId}/${lang}: preview is indexable`);
-    if (!html.includes(`href="/s/${p.storyId}/"`)) fail(`${p.storyId}/${lang}: reviewed English canonical link is missing`);
     const doc = localeDoc(locale, p.storyId);
+    if (publicKeys.has(publicKey)) {
+      if (!existsSync(publicPage)) fail(`${p.storyId}/${lang}: promoted public page is missing`);
+      if (!html.includes(`href="${reservedPublicHref}"`)) fail(`${p.storyId}/${lang}: promoted preview does not hand off to public edition`);
+      if (html.includes('Share this preview') || html.includes('data-locale-report')) fail(`${p.storyId}/${lang}: promoted preview still exposes review UI`);
+      continue;
+    }
+    if (existsSync(publicPage)) fail(`${p.storyId}/${lang}: public locale page was emitted without explicit promotion`);
+    if (!html.includes(`href="/s/${p.storyId}/"`)) fail(`${p.storyId}/${lang}: reviewed English canonical link is missing`);
     if (doc.status === 'approved') {
       if (!html.includes('Reviewed language edition')) fail(`${p.storyId}/${lang}: approved-edition disclosure is missing`);
       if (!html.includes('Human review complete')) fail(`${p.storyId}/${lang}: approved human-review disclosure is missing`);

@@ -535,3 +535,10 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .dropkid:hover,.dropkid:focus-visible{opacity:1;color:var(--paper)}
 .dropkid.armed{opacity:1;font-size:12px;letter-spacing:.02em;color:var(--lamp);
   border:1px solid var(--lamp-dim);padding:5px 9px;white-space:nowrap}
+\n\n/* hindi-public-shelf */
+.locale-shelf-door{display:block;margin:18px 0 23px;padding:15px 16px;border:1px solid var(--line);border-radius:13px;
+  background:rgba(240,180,88,.045);text-decoration:none;color:inherit}
+.locale-shelf-door:hover,.locale-shelf-door:focus-visible{border-color:var(--lamp-dim);background:rgba(240,180,88,.075)}
+.locale-shelf-door>.eyebrow{display:block;margin-bottom:6px;color:var(--lamp-dim)}
+.locale-shelf-door>b{display:block;font-family:var(--display);font-size:19px;font-weight:400;color:var(--paper)}
+.locale-shelf-door>span:last-child{display:block;margin-top:6px;font-size:12px;line-height:1.5;color:var(--muted)}
