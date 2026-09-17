@@ -355,7 +355,7 @@ export default function App() {
         ) : tab === 'shelf' ? (
           <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
         ) : tab === 'map' ? (
-          <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} />
+          <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} onTonight={() => go('tonight')} />
         ) : <Why />}
       </main>
       <Tabs tab={open ? from : tab} onTab={go} />
