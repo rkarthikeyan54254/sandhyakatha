@@ -12,6 +12,7 @@ import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
+import { pathForTab, tabFromPath } from './lib/route';
 
 function analyticsMode(len: Len): 'short' | 'full' {
   return len === 'short' ? 'short' : 'full';
@@ -24,8 +25,8 @@ export default function App() {
   const [rel, setRel] = useState<Relations | null>(null);
   const [cal, setCal] = useState<PanchangaTable | null>(null);
   const [open, setOpen] = useState<Story | null>(null);
-  const [tab, setTab] = useState<Tab>('tonight');
-  const [from, setFrom] = useState<Tab>('tonight');   // where the reader was opened from
+  const [tab, setTab] = useState<Tab>(() => tabFromPath(window.location.pathname));
+  const [from, setFrom] = useState<Tab>(() => tabFromPath(window.location.pathname));   // where the reader was opened from
   const [len, setLen] = useState<Len>('full');
   const [readerWasTonightPick, setReaderWasTonightPick] = useState(false);
   const [readerWasReadBefore, setReaderWasReadBefore] = useState(false);
@@ -158,6 +159,37 @@ export default function App() {
       window.history.replaceState({}, '', u.pathname + u.search + u.hash);
     }
   }, [refresh]);
+
+  /**
+   * One surface, one address.
+   *
+   * `go` is the only thing that changes the current surface: it pushes unless we
+   * are already on that path, so closing the reader back onto the tab it was
+   * opened from does not stack a duplicate entry the user then has to press
+   * back through twice.
+   */
+  const go = useCallback((next: Tab) => {
+    setOpen(null);
+    setTab(next);
+    const path = pathForTab(next);
+    if (window.location.pathname !== path) {
+      window.history.pushState({ tab: next }, '', path + window.location.search);
+    }
+    window.scrollTo({ top: 0 });
+  }, []);
+
+  // The back button should go back a screen, not leave the site. On Android it
+  // is a hardware button and this is the commonest way out of a PWA by accident.
+  useEffect(() => {
+    const onPop = () => {
+      const next = tabFromPath(window.location.pathname);
+      setOpen(null);
+      setTab(next);
+      setFrom(next);
+    };
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
 
   const child = P.activeChild(profile);
   const heard = P.heardOf(profile, child?.id ?? null);
@@ -301,15 +333,14 @@ export default function App() {
   return (
     <div className="app">
       <a className="skip" href="#main">Skip to tonight's story</a>
-      <Header onHome={() => { setOpen(null); setTab('tonight'); }}
-              onWhy={() => { setOpen(null); setTab('why'); }} />
+      <Header onHome={() => go('tonight')} onWhy={() => go('why')} />
       <main id="main" key={open ? open.id : tab}>
         {open ? (
           <Reader story={open} lex={lex} len={len} next={nextCard}
                   tomorrow={tomorrowForOpen}
                   readBefore={readerWasReadBefore}
                   hasProfile={!!child}
-                  onBack={() => { setOpen(null); setTab(from); }} onHeard={markHeard} onRead={read}
+                  onBack={() => go(from)} onHeard={markHeard} onRead={read}
                   onPersonalize={age => startProfileAfterRead(open.id, age)}
                   backLabel={from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight'} />
         ) : tab === 'tonight' ? (
@@ -321,14 +352,14 @@ export default function App() {
                    addChild={addChild} patchChild={patchChild} removeChild={removeChild}
                    repairChildConflict={repairChildConflict}
                    setGate={g => setProfile(p => P.setGateSetting(p, g))}
-                   onShelf={() => setTab('shelf')} />
+                   onShelf={() => go('shelf')} />
         ) : tab === 'shelf' ? (
           <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
         ) : tab === 'map' ? (
           <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} />
         ) : <Why />}
       </main>
-      <Tabs tab={open ? from : tab} onTab={t => { setOpen(null); setTab(t); }} />
+      <Tabs tab={open ? from : tab} onTab={go} />
     </div>
   );
 }

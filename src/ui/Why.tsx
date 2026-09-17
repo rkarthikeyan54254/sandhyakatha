@@ -28,6 +28,12 @@ export default function Why() {
           the Mahābhārata is a war. The hardest stories wait behind a switch until you have read them yourself,
           and each one tells you what is coming before you begin. You decide when your child is ready,
           because you are the only person who can.</p>
+        {/* One canonical account of the project lives at /about/ — how a story is
+            sourced and reviewed, and exactly what part AI plays in making one.
+            This page is the argument; that page is the record. */}
+        <p className="fine">The longer version — how a story gets here, who checks it, and what
+          artificial intelligence is and is not allowed to touch — is on the{' '}
+          <a href="/about/">about page</a>.</p>
       </div>
     </>
   );
