@@ -39,6 +39,8 @@ interface Props {
   repairChildConflict: (id: string, historyOwnerIndex: number) => void;
   setGate: (g: boolean) => void;
   onShelf: () => void;
+  onMap: () => void;
+  onWhy: () => void;
 }
 
 export default function Tonight(p: Props) {
@@ -174,7 +176,10 @@ export default function Tonight(p: Props) {
       )}
 
       {/* Let a first-time parent meet the product before reading the pitch. */}
-      {st.stories === 0 && <Intro published={published} planned={canon.length || 68} />}
+      {st.stories === 0 && (
+        <Intro published={published} planned={canon.length || 68}
+               onShelf={p.onShelf} onMap={p.onMap} onWhy={p.onWhy} />
+      )}
 
       {gap && (
         <button className="gap" onClick={p.onShelf}>

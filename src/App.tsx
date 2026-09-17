@@ -351,7 +351,9 @@ export default function App() {
                    addChild={addChild} patchChild={patchChild} removeChild={removeChild}
                    repairChildConflict={repairChildConflict}
                    setGate={g => setProfile(p => P.setGateSetting(p, g))}
-                   onShelf={() => go('shelf')} />
+                   onShelf={() => go('shelf')}
+                   onMap={() => go('map')}
+                   onWhy={() => go('why')} />
         ) : tab === 'shelf' ? (
           <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
         ) : tab === 'map' ? (

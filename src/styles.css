@@ -461,6 +461,16 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .intro li b{color:var(--paper-dim);font-weight:600}
 .intro .fine{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);
   font-family:var(--ui);font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+.intro-nav{margin-top:19px;padding-top:16px;border-top:1px solid var(--line)}
+.intro-nav>.eyebrow{margin:0;font-family:var(--ui);font-size:10px;line-height:1.2;color:var(--lamp-dim)}
+.intro-navgrid{display:grid;grid-template-columns:1fr;gap:7px;margin-top:10px}
+.intro-navgrid button{display:grid;grid-template-columns:60px minmax(0,1fr);gap:9px;width:100%;text-align:left;
+  padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.015)}
+.intro-navgrid button:hover,.intro-navgrid button:focus-visible{border-color:var(--lamp-dim);background:rgba(240,180,88,.055)}
+.intro-navgrid b{font-family:var(--display);font-size:16px;font-weight:400;color:var(--lamp)}
+.intro-navgrid span{font-size:11.5px;line-height:1.45;color:var(--muted)}
+@media (min-width:700px){.intro-navgrid{grid-template-columns:repeat(3,1fr)}
+  .intro-navgrid button{display:block;padding:13px}.intro-navgrid span{display:block;margin-top:5px}}
 @media (min-width:900px){.intro{padding:26px 28px}.intro h2{font-size:29px}}
 
 /* ---------- skip link ---------- */

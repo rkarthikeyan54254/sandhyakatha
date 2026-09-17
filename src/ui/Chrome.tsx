@@ -45,7 +45,13 @@ export function Tabs({ tab, onTab }: { tab: Tab; onTab: (t: Tab) => void }) {
 /** What this is, for someone who has just arrived and does not know.
  *  Retires itself once a story has been read — a returning parent at 8:40pm
  *  should not have to scroll past the pitch to reach tonight's story. */
-export function Intro({ published, planned }: { published: number; planned: number }) {
+export function Intro({ published, planned, onShelf, onMap, onWhy }: {
+  published: number;
+  planned: number;
+  onShelf: () => void;
+  onMap: () => void;
+  onWhy: () => void;
+}) {
   return (
     <section className="intro">
       <p className="eyebrow">What this is</p>
@@ -58,6 +64,14 @@ export function Intro({ published, planned }: { published: number; planned: numb
         <li><b>It ends with a question, not a moral.</b> One thing to ask your child, and an honest answer ready for the follow-up.</li>
         <li><b>Nothing is generated while you wait.</b> Each story is written and checked before it ships, so it works offline and reads the same twice.</li>
       </ul>
+      <div className="intro-nav" aria-label="Explore Sandhya Katha">
+        <p className="eyebrow">Around here</p>
+        <div className="intro-navgrid">
+          <button type="button" onClick={onShelf}><b>Shelf</b><span>Browse the written collection by source, tradition and age.</span></button>
+          <button type="button" onClick={onMap}><b>Map</b><span>Watch names and curated relationships light up as stories are heard.</span></button>
+          <button type="button" onClick={onWhy}><b>Why</b><span>How the stories are sourced, checked and kept the same twice.</span></button>
+        </div>
+      </div>
       <p className="fine">Ages 4 to 15 · nothing to install · {published} of {planned} stories written so far</p>
     </section>
   );
