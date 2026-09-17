@@ -8,7 +8,7 @@ html{background:var(--night)}
 body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,-apple-system,sans-serif;background-image:radial-gradient(900px 500px at 50% -10%,#282040 0,rgba(40,32,64,0) 70%);background-attachment:fixed}
 a{color:inherit}.w{max-width:660px;margin:0 auto;padding:0 22px 76px}
 .sitehead{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0 16px;border-bottom:1px solid var(--line)}
-.brand{text-decoration:none;display:flex;align-items:center;gap:10px}.brandmark{width:31px;height:31px;border:1px solid rgba(240,180,88,.45);border-radius:50%;display:grid;place-items:center;color:var(--lamp)}
+.brand{text-decoration:none;display:flex;align-items:center;gap:10px}.brandflame{display:block;width:22px;height:26px;flex:none}
 .brand b{font-family:"Tiro Devanagari Sanskrit",serif;font-size:18px;font-weight:400}.brand small{display:block;color:var(--lamp-dim);font-size:10px;letter-spacing:.08em}
 .englishlink{font-size:12px;color:var(--paper-dim);text-decoration:none;border-bottom:1px solid rgba(201,186,164,.35)}
 .previewnotice{margin:22px 0 16px;padding:16px;border:1px solid rgba(240,180,88,.30);border-radius:14px;background:rgba(240,180,88,.055)}
