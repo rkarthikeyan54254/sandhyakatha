@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { localeLanguage, publicLocaleHref } from './lib/locale-paths.mjs';
 const ROOT = new URL('..', import.meta.url).pathname; const DIST = join(ROOT,'dist'); const read = p => JSON.parse(readFileSync(join(ROOT,p),'utf8')); const cfg = read('content/locale-previews.json'); const errors=[]; const fail=m=>errors.push(m); let editions=0;
 function localeDoc(locale, storyId) {
-  const lang = locale.split('-')[0];
+  const lang = localeLanguage(locale);
   return read(`content/locales/${lang}/${storyId}.json`);
 }
 
@@ -16,7 +17,12 @@ for (const p of cfg.previews ?? []) {
     if (!rootHtml.includes('data-locale-preview-root')) fail(`${p.storyId}: preview root is missing external redirect hook`);
   }
   for (const locale of p.locales ?? []) {
-    editions += 1; const lang=locale.split('-')[0]; const page=join(DIST,'preview',p.storyId,lang,'index.html'); if (!existsSync(page)) { fail(`${p.storyId}/${lang}: preview page missing`); continue; } const html=readFileSync(page,'utf8');
+    editions += 1; const lang=localeLanguage(locale);
+    const reservedPublicHref=publicLocaleHref(p.storyId,locale);
+    if (reservedPublicHref !== `/s/${p.storyId}/${lang}/`) fail(`${p.storyId}/${lang}: public locale URL contract drifted: ${reservedPublicHref}`);
+    const prematurePublicPage=join(DIST,'s',p.storyId,lang,'index.html');
+    if (existsSync(prematurePublicPage)) fail(`${p.storyId}/${lang}: public locale page was emitted before human approval/promotion`);
+    const page=join(DIST,'preview',p.storyId,lang,'index.html'); if (!existsSync(page)) { fail(`${p.storyId}/${lang}: preview page missing`); continue; } const html=readFileSync(page,'utf8');
     if (!html.includes('<meta name="robots" content="noindex,nofollow,noarchive">')) fail(`${p.storyId}/${lang}: preview is indexable`);
     if (!html.includes(`href="/s/${p.storyId}/"`)) fail(`${p.storyId}/${lang}: reviewed English canonical link is missing`);
     const doc = localeDoc(locale, p.storyId);

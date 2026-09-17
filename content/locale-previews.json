@@ -4,7 +4,38 @@
     {
       "storyId": "hanuman-reminded",
       "defaultLocale": "ta-IN",
-      "locales": ["ta-IN", "hi-IN"]
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "rama-returns",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "govardhana",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "ganesha-circles",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "durga-mahishasura",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN"
+      ]
     }
   ]
 }

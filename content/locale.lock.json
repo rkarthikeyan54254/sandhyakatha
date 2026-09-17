@@ -1,10 +1,30 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-17",
   "locales": {
+    "hi-IN/durga-mahishasura": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "149676211eeb3b8b"
+    },
+    "hi-IN/ganesha-circles": {
+      "sourceVersion": 3,
+      "status": "approved",
+      "hash": "43fb0afddf43b092"
+    },
+    "hi-IN/govardhana": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "870c04f5c07e802d"
+    },
     "hi-IN/hanuman-reminded": {
       "sourceVersion": 1,
       "status": "approved",
       "hash": "10539670a8e51dbe"
+    },
+    "hi-IN/rama-returns": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "94885f6717db9e7c"
     },
     "ta-IN/hanuman-reminded": {
       "sourceVersion": 1,

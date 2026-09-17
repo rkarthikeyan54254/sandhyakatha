@@ -2,6 +2,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { gitBlobSha1 } from './lib/locale-content.mjs';
+import { localeLanguage, previewLocaleHref } from './lib/locale-paths.mjs';
 import { approvedHeroUrl } from './lib/media.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
@@ -13,7 +14,7 @@ const previews = read('content/locale-previews.json');
 const media = read('content/media.json').stories ?? {};
 const LANG = { ta: { label: 'தமிழ்', name: 'Tamil' }, hi: { label: 'हिन्दी', name: 'Hindi' } };
 
-function localePath(locale, storyId) { const lang = locale.split('-')[0]; return `content/locales/${lang}/${storyId}.json`; }
+function localePath(locale, storyId) { const lang = localeLanguage(locale); return `content/locales/${lang}/${storyId}.json`; }
 function render(text, doc) {
   return String(text ?? '').split(/(«[^»]+»|_[^_]+_)/g).filter(Boolean).map(part => {
     if (part.startsWith('«')) { const key = part.slice(1,-1); return `<span class="name" data-canonical="${esc(key)}">${esc(doc.displayNames[key] ?? key)}</span>`; }
@@ -79,11 +80,11 @@ for (const cfg of previews.previews ?? []) {
   if (!docs.some(d => d.locale === cfg.defaultLocale)) throw new Error(`${cfg.storyId}: defaultLocale ${cfg.defaultLocale} is not allowlisted`);
   const hero = approvedHeroUrl({root:ROOT,story:source,media});
   const canonical = `${SITE}/s/${source.id}/`;
-  const switchLinks = [`<a class="canonical" href="/s/${esc(source.id)}/">English · source edition</a>`, ...docs.map(d => `<a href="/preview/${esc(source.id)}/${esc(d.language)}/">${esc((LANG[d.language] ?? {}).label ?? d.language)}</a>`)].join('');
+  const switchLinks = [`<a class="canonical" href="/s/${esc(source.id)}/">English · source edition</a>`, ...docs.map(d => `<a href="${esc(previewLocaleHref(source.id,d.locale))}">${esc((LANG[d.language] ?? {}).label ?? d.language)}</a>`)].join('');
 
   for (const doc of docs) {
     const meta = LANG[doc.language] ?? { label:doc.language, name:doc.language };
-    const url = `${SITE}/preview/${source.id}/${doc.language}/`;
+    const url = `${SITE}${previewLocaleHref(source.id,doc.locale)}`;
     const approved = doc.status === 'approved';
     const ogDesc = approved
       ? `Reviewed ${meta.name} edition of a source-linked Sandhya Katha story. Native read-aloud, language and source-fidelity review complete.`
@@ -102,6 +103,6 @@ for (const cfg of previews.previews ?? []) {
   const defaultDoc = docs.find(d => d.locale === cfg.defaultLocale);
   const allowedLangs = docs.map(d => d.language);
   const rootDir = join(DIST,'preview',source.id); mkdirSync(rootDir,{recursive:true});
-  writeFileSync(join(rootDir,'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Language preview · Sandhya Katha</title><script src="/locale-preview.js" defer></script></head><body data-locale-preview-root data-story-id="${esc(source.id)}" data-default-lang="${esc(defaultDoc.language)}" data-allowed-langs="${esc(allowedLangs.join(','))}"><p><a href="/preview/${source.id}/${defaultDoc.language}/">Continue to the language preview</a></p></body></html>`);
+  writeFileSync(join(rootDir,'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Language preview · Sandhya Katha</title><script src="/locale-preview.js" defer></script></head><body data-locale-preview-root data-story-id="${esc(source.id)}" data-default-lang="${esc(defaultDoc.language)}" data-allowed-langs="${esc(allowedLangs.join(','))}"><p><a href="${previewLocaleHref(source.id,defaultDoc.locale)}">Continue to the language preview</a></p></body></html>`);
 }
 console.log(`locale previews: rendered ${rendered} allowlisted edition page(s)`);
