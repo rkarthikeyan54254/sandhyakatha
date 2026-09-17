@@ -255,7 +255,15 @@ export default function Constellation({ lex, rel, heard, cards, childName, onTon
         typeof navigator.canShare === 'function' &&
         navigator.canShare({ files: [file] })
       ) {
-        await navigator.share({ ...shareData, files: [file] });
+        // Do not send both `url` and `files` as separate Web Share fields.
+        // WhatsApp can surface that combination as two media/share items.
+        // Put the acquisition link in the image caption instead: one PNG,
+        // one explicit parent action, no uploaded reading history.
+        await navigator.share({
+          title: shareData.title,
+          text: `${shareData.text}\n${shareData.url}`,
+          files: [file]
+        });
         setShareState('idle');
         return;
       }
