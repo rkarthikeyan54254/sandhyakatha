@@ -134,7 +134,11 @@ for (const file of storyFiles) {
   }
 }
 
-for (const rel of ['scripts/social.mjs', 'scripts/reel.mjs', 'scripts/prerender.mjs']) {
+for (const rel of [
+  'scripts/lib/social-edition.mjs',
+  'scripts/reel.mjs',
+  'scripts/prerender.mjs'
+]) {
   const src = readFileSync(join(ROOT, rel), 'utf8');
   if (!src.includes('lexicon-display.mjs'))
     errors.push(`${rel}: does not use shared lexicon display resolver`);

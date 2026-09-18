@@ -15,7 +15,7 @@
     "preview": "vite preview",
     "content": "node scripts/build-index.mjs",
     "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs",
-    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict",
+    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs",
     "lock": "node scripts/lock.mjs && node scripts/lock-locales.mjs",
     "ssml": "node scripts/render-audio.mjs",
     "og": "node scripts/og.mjs",
@@ -24,7 +24,6 @@
     "next": "node scripts/next.mjs",
     "approve": "node scripts/approve.mjs",
     "proof": "node scripts/proof.mjs",
-    "social": "node scripts/social.mjs",
     "reel": "node scripts/reel.mjs",
     "campaign": "node scripts/campaign.mjs",
     "campaign:today": "node scripts/campaign-today.mjs",
@@ -36,8 +35,9 @@
     "lock:locales": "node scripts/lock-locales.mjs",
     "verify:locale-previews": "node scripts/locale-preview-gates.mjs",
     "verify:public-locales": "node scripts/public-locale-gates.mjs",
-    "reel:locale": "node scripts/reel-locale.mjs",
-    "reel:locale:check": "node scripts/reel-locale.mjs --check"
+    "verify:reel-workflow": "node scripts/reel-workflow-gates.mjs",
+    "campaign:check": "node scripts/campaign.mjs --check",
+    "verify:campaign-workflow": "node scripts/campaign-workflow-gates.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

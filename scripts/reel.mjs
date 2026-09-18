@@ -32,6 +32,33 @@ const OUT = join(ROOT, 'social');
 const REVIEW = join(OUT, 'review');
 
 const argv = process.argv.slice(2);
+
+if (argv.includes('--all')) {
+  if (!argv.includes('--check')) {
+    console.error('--all is a preflight operation; use npm run reel:check -- --all');
+    process.exit(1);
+  }
+  if (argv.includes('--locale')) {
+    console.error('--all cannot be combined with --locale');
+    process.exit(1);
+  }
+  const { checkAllReels } = await import('./lib/reel-all-check.mjs');
+  await checkAllReels({ root:ROOT });
+  process.exit(0);
+}
+
+const localeAt = argv.indexOf('--locale');
+if (localeAt >= 0) {
+  const locale = argv[localeAt + 1];
+  if (!locale || locale.startsWith('--')) {
+    console.error('--locale requires a locale such as hi-IN');
+    process.exit(1);
+  }
+  const { runLocaleReel } = await import('./lib/reel-locale-runner.mjs');
+  await runLocaleReel({ root:ROOT, argv });
+  process.exit(0);
+}
+
 const checkOnly = argv.includes('--check');
 const openReview = argv.includes('--open');
 const id = argv.find(a => !a.startsWith('--'));
@@ -40,7 +67,10 @@ if (!id) {
   console.error(
     'usage:\n' +
     '  npm run reel:check -- <story-id>\n' +
-    '  npm run reel -- <story-id> [--open]'
+    '  npm run reel -- <story-id> [--open]\n' +
+    '  npm run reel:check -- --locale <locale> <story-id>\n' +
+    '  npm run reel -- --locale <locale> <story-id> [--open]\n' +
+    '  npm run reel:check -- --all'
   );
   process.exit(1);
 }

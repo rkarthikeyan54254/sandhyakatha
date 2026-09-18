@@ -1,31 +1,31 @@
-#!/usr/bin/env node
 /**
- * Browser-native locale reel renderer.
+ * Locale reel adapter used exclusively by scripts/reel.mjs.
  *
  * Complex scripts are not manually measured or positioned. Chromium receives
  * one normal text node and owns shaping, spaces, ligatures, and line breaking.
- * English keeps using scripts/reel.mjs unchanged.
+ * Do not add another top-level reel workflow for a locale.
  */
 import {
   existsSync, statSync, readFileSync, writeFileSync,
   mkdirSync, rmSync, copyFileSync
 } from 'node:fs';
 import { join } from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
-import { approvedHeroUrl } from './lib/media.mjs';
-import { REEL_STYLE as S } from './lib/reel-style.mjs';
-import { gateRendered } from './lib/reel-gates.mjs';
-import { gateLocalePlan } from './lib/reel-locale-gates.mjs';
+import { approvedHeroUrl } from './media.mjs';
+import { REEL_STYLE as S } from './reel-style.mjs';
+import { gateRendered } from './reel-gates.mjs';
+import { gateLocalePlan } from './reel-locale-gates.mjs';
 import {
-  findBrowser, fontDataUrl, inspectHtml, screenshotHtml
-} from './lib/browser-card-render.mjs';
+  findBrowser, fontDataUrl, inspectHtml, screenshotHtml, browserProbeScript
+} from './browser-card-render.mjs';
+import { socialLocalePolicy } from './social-locale-policy.mjs';
 
-const ROOT = join(fileURLToPath(new URL('.', import.meta.url)), '..');
+export async function runLocaleReel({ root, argv }) {
+const ROOT = root;
 const FONTS = join(ROOT, 'assets', 'fonts');
 const SOCIAL = join(ROOT, 'social');
 
-const args = process.argv.slice(2);
+const args = argv;
 const checkOnly = args.includes('--check');
 const openReview = args.includes('--open');
 const localeAt = args.indexOf('--locale');
@@ -38,13 +38,14 @@ const id = positional[0];
 if (!locale || !id) {
   console.error(
     'usage:\n' +
-    '  node scripts/reel-locale.mjs --locale hi-IN --check <story-id>\n' +
-    '  node scripts/reel-locale.mjs --locale hi-IN <story-id> [--open]'
+    '  npm run reel:check -- --locale hi-IN <story-id>\n' +
+    '  npm run reel -- --locale hi-IN <story-id> [--open]'
   );
   process.exit(1);
 }
 
-const language = locale.split('-')[0].toLowerCase();
+const policy = socialLocalePolicy(locale);
+const language = policy.language;
 const read = path => JSON.parse(readFileSync(join(ROOT, path), 'utf8'));
 
 const story = read(`content/stories/${id}.json`);
@@ -76,9 +77,7 @@ function localePlain(value) {
 
 function sentences(value) {
   const text = localePlain(value);
-  const separator = language === 'hi'
-    ? /(?<=[।!?])\s+/u
-    : /(?<=[.!?])\s+/u;
+  const separator = policy.sentenceSeparator;
   const parts = text.split(separator).map(x => x.trim()).filter(Boolean);
   return parts.length ? parts : [text];
 }
@@ -126,19 +125,10 @@ const heroUrl = approvedHeroUrl({
 });
 const source = `${story.source.work} · ${story.source.locus}`;
 
-const UI = {
-  'hi-IN': {
-    sourceKicker:'स्रोत',
-    ctaKicker:'आज रात पढ़ें',
-    cta:'पूरी कहानी आज रात पढ़ें।'
-  }
-};
-const ui = UI[locale];
-if (!ui)
-  throw new Error(`locale UI contract missing for ${locale}`);
+const ui = policy.ui;
 
 const fonts = {
-  deva:fontDataUrl(join(FONTS, 'TiroDevanagariSanskrit-Regular.ttf')),
+  script:fontDataUrl(join(FONTS, policy.fontFile)),
   gentium:fontDataUrl(join(FONTS, 'GentiumBookPlus-Regular.ttf')),
   karla:fontDataUrl(join(FONTS, 'Karla-var.ttf'))
 };
@@ -166,59 +156,21 @@ function brand() {
   </div>`;
 }
 
-function probeScript(family, sample) {
-  return `<script>
-document.fonts.ready.then(() => {
-  try {
-    const el = document.querySelector('[data-sk-text]');
-    const range = document.createRange();
-    range.selectNodeContents(el);
-    const rects = Array.from(range.getClientRects())
-      .filter(r => r.width > 0 && r.height > 0);
-    const box = el.getBoundingClientRect();
-
-    const widths = rects.map(r => r.width / box.width);
-    const html = document.documentElement;
-    html.setAttribute('data-sk-engine','chromium-block-layout-v1');
-    html.setAttribute('data-sk-font-loaded',
-      document.fonts.check('64px "${family}"','${sample}') ? '1' : '0');
-    html.setAttribute('data-sk-lines', String(rects.length));
-    html.setAttribute('data-sk-overflow-x',
-      (el.scrollWidth > el.clientWidth + 1 ||
-       rects.some(r => r.left < box.left - 1 || r.right > box.right + 1)) ? '1' : '0');
-    html.setAttribute('data-sk-overflow-y',
-      (el.scrollHeight > el.clientHeight + 1) ? '1' : '0');
-    html.setAttribute('data-sk-min-line-ratio',
-      String(widths.length ? Math.min(...widths) : 0));
-    html.setAttribute('data-sk-max-line-ratio',
-      String(widths.length ? Math.max(...widths) : 0));
-    html.setAttribute('data-sk-source-length', String(el.textContent.length));
-    html.setAttribute('data-sk-ready','1');
-  } catch (e) {
-    document.documentElement.setAttribute(
-      'data-sk-error', encodeURIComponent(String(e.stack || e))
-    );
-  }
-});
-</script>`;
-}
-
 function cardHtml(card, size) {
-  const isHindi = language === 'hi' && card.role !== 'source';
-  const family = isHindi ? 'SKDeva' : 'SKGentium';
-  const lineHeight = isHindi ? 1.48 : 1.36;
-  const sample = isHindi ? 'हिन्दी' : 'Rama';
+  const isScript = policy.complexScript && card.role !== 'source';
+  const family = isScript ? 'SKScript' : 'SKGentium';
+  const lineHeight = isScript ? policy.lineHeight : 1.36;
+  const sample = isScript ? policy.sample : 'Rama';
   const positionClass = card.role === 'cover' ? 'cover-copy' : 'center-copy';
   const bg = card.role === 'cover'
     ? `<img class="hero" src="${heroData}"><div class="cover-shade"></div>`
     : `<div class="night"></div><div class="glow"></div>`;
-  const kickerFamily =
-    /[\u0900-\u097f]/u.test(card.kicker ?? '') ? 'SKDeva' : 'SKKarla';
+  const kickerFamily = policy.complexScript && card.kicker ? 'SKScript' : 'SKKarla';
 
-  return `<!doctype html><html lang="${isHindi ? 'hi' : 'en'}"><head>
+  return `<!doctype html><html lang="${isScript ? language : 'en'}"><head>
 <meta charset="utf-8">
 <style>
-@font-face{font-family:SKDeva;src:url("${fonts.deva}") format("truetype")}
+@font-face{font-family:SKScript;src:url("${fonts.script}") format("truetype")}
 @font-face{font-family:SKGentium;src:url("${fonts.gentium}") format("truetype")}
 @font-face{font-family:SKKarla;src:url("${fonts.karla}") format("truetype")}
 *{box-sizing:border-box}
@@ -260,7 +212,7 @@ ${card.kicker ? `<p class="kicker">${esc(card.kicker)}</p>` : ''}
 <p class="text" data-sk-text>${esc(card.text)}</p>
 </div>
 <div class="footer">sandhyakatha.com</div></div>
-${probeScript(family, sample)}
+${browserProbeScript({ family, sample })}
 </body></html>`;
 }
 
@@ -354,7 +306,7 @@ cards.forEach((card, i) => {
 
 if (checkOnly) {
   console.log('\nNo render performed.');
-  process.exit(0);
+  return { checked:true, locale, storyId:id, cards };
 }
 
 const localeOut = join(SOCIAL, language);
@@ -489,3 +441,6 @@ console.log(`review: social/review/${language}/${id}/index.html`);
 
 if (openReview && process.platform === 'darwin')
   execFileSync('open', [join(reviewDir, 'index.html')]);
+
+return { checked:false, locale, storyId:id, mp4, reviewDir, cards };
+}

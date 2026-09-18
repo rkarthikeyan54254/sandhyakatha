@@ -1,6 +1,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { localeContentHash } from './locale-content.mjs';
+import { reelCardStructureErrors } from './reel-gates.mjs';
 
 const countWords = text =>
   String(text).trim() ? String(text).trim().split(/\s+/u).length : 0;
@@ -35,18 +36,13 @@ export function gateLocalePlan({
   if (!heroUrl)
     fail('approved canonical hero is missing');
 
-  const expected = [
-    'cover', 'hero',
-    'body', 'body', 'body', 'body', 'body',
-    'source', 'cta'
-  ];
-  const roles = cards.map(card => card.role);
-  if (roles.length !== expected.length ||
-      roles.some((role, i) => role !== expected[i]))
-    fail(`bad reel sequence: ${roles.join(', ')}`);
-
   if (!spec || !Array.isArray(spec.blocks) || spec.blocks.length !== 5)
     fail('locale reel requires exactly five curated body selectors');
+
+  for (const error of reelCardStructureErrors({
+    cards,
+    expectedBodyCount:spec?.blocks?.length ?? 0
+  })) fail(error);
 
   for (const [i, selector] of (spec?.blocks ?? []).entries()) {
     if (!Number.isInteger(selector.index) || selector.index < 0)

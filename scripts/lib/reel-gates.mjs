@@ -6,6 +6,30 @@ import { REEL_STYLE as S } from './reel-style.mjs';
 const words = text =>
   String(text).trim() ? String(text).trim().split(/\s+/).length : 0;
 
+export function reelCardStructureErrors({ cards, expectedBodyCount }) {
+  const errors = [];
+  const fail = msg => errors.push(msg);
+  const coverCards = cards.filter(c => c.role === 'cover');
+  const heroCards = cards.filter(c => c.role === 'hero');
+  const bodyCards = cards.filter(c => c.role === 'body');
+  const sourceCards = cards.filter(c => c.role === 'source');
+  const ctaCards = cards.filter(c => c.role === 'cta');
+
+  if (coverCards.length !== 1 || cards[0]?.role !== 'cover')
+    fail('exactly one cover is required, and it must be card 1');
+  if (heroCards.length !== 1 || cards[1]?.role !== 'hero')
+    fail('exactly one clean hero image card is required, and it must be card 2');
+  if (heroCards[0] && heroCards[0].text !== '')
+    fail('clean hero image card must contain no story text');
+  if (bodyCards.length !== expectedBodyCount)
+    fail('body card count does not match curated source selection');
+  if (sourceCards.length !== 1)
+    fail('exactly one source card is required');
+  if (ctaCards.length !== 1 || cards.at(-1)?.role !== 'cta')
+    fail('exactly one CTA is required, and it must be last');
+  return errors;
+}
+
 export function gatePlan({ root, story, spec, heroUrl, cards }) {
   const errors = [];
   const fail = msg => errors.push(msg);
@@ -41,22 +65,10 @@ export function gatePlan({ root, story, spec, heroUrl, cards }) {
     );
   }
 
-  const coverCards = cards.filter(c => c.role === 'cover');
-  const heroCards = cards.filter(c => c.role === 'hero');
-  const bodyCards = cards.filter(c => c.role === 'body');
-  const sourceCards = cards.filter(c => c.role === 'source');
-  const ctaCards = cards.filter(c => c.role === 'cta');
-
-  if (coverCards.length !== 1 || cards[0]?.role !== 'cover')
-    fail('exactly one cover is required, and it must be card 1');
-  if (heroCards.length !== 1 || cards[1]?.role !== 'hero')
-    fail('exactly one clean hero image card is required, and it must be card 2');
-  if (bodyCards.length !== spec?.blocks?.length)
-    fail('body card count does not match curated source selection');
-  if (sourceCards.length !== 1)
-    fail('exactly one source card is required');
-  if (ctaCards.length !== 1 || cards.at(-1)?.role !== 'cta')
-    fail('exactly one CTA is required, and it must be last');
+  for (const error of reelCardStructureErrors({
+    cards,
+    expectedBodyCount: spec?.blocks?.length
+  })) fail(error);
 
   const seen = new Set();
   for (const [i, c] of cards.entries()) {
