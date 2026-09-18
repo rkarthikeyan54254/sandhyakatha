@@ -35,7 +35,9 @@
     "validate:locales": "node scripts/validate-locales.mjs",
     "lock:locales": "node scripts/lock-locales.mjs",
     "verify:locale-previews": "node scripts/locale-preview-gates.mjs",
-    "verify:public-locales": "node scripts/public-locale-gates.mjs"
+    "verify:public-locales": "node scripts/public-locale-gates.mjs",
+    "reel:locale": "node scripts/reel-locale.mjs",
+    "reel:locale:check": "node scripts/reel-locale.mjs --check"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",
