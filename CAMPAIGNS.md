@@ -7,14 +7,15 @@ npm run campaign -- <story-id> --open
 ```
 
 By default it generates the canonical English edition **and every public,
-reviewed locale edition for that story**. For the current five-story Hindi
-shelf, one command therefore generates both English and Hindi.
+reviewed locale edition for that story**. For the current parity shelf, the five
+reviewed story identities therefore generate English, Hindi and Tamil.
 
 To intentionally limit a run:
 
 ```bash
 npm run campaign -- --locale en <story-id>
 npm run campaign -- --locale hi-IN <story-id>
+npm run campaign -- --locale ta-IN <story-id>
 ```
 
 Preflight without rendering:
@@ -46,16 +47,12 @@ social/campaigns/<story-id>/
   review.html
   manifest.json
   en/
-    instagram/
-    facebook/
-    youtube/
-    whatsapp/
   hi-IN/
-    instagram/
-    facebook/
-    youtube/
-    whatsapp/
+  ta-IN/
 ```
+
+Each edition folder contains `instagram/`, `facebook/`, `youtube/`, and
+`whatsapp/`.
 
 ## Content and typography contract
 
@@ -69,8 +66,8 @@ copy. No generator may invent replacement story prose.
 Typography is selected by one shared locale policy:
 
 - English: stable Latin rendering.
-- Complex scripts such as Hindi: browser-native shaping, native word spacing,
-  and native line breaking with the approved locale font.
+- Hindi and Tamil: browser-native complex-script shaping, native spacing and
+  line breaking with the approved locale font.
 
 Never estimate complex-script width with character counts. Never position Indic
 words manually. Never add fake spaces to reviewed text.

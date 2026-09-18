@@ -13,28 +13,32 @@
       "storyId": "rama-returns",
       "defaultLocale": "hi-IN",
       "locales": [
-        "hi-IN"
+        "hi-IN",
+        "ta-IN"
       ]
     },
     {
       "storyId": "govardhana",
       "defaultLocale": "hi-IN",
       "locales": [
-        "hi-IN"
+        "hi-IN",
+        "ta-IN"
       ]
     },
     {
       "storyId": "ganesha-circles",
       "defaultLocale": "hi-IN",
       "locales": [
-        "hi-IN"
+        "hi-IN",
+        "ta-IN"
       ]
     },
     {
       "storyId": "durga-mahishasura",
       "defaultLocale": "hi-IN",
       "locales": [
-        "hi-IN"
+        "hi-IN",
+        "ta-IN"
       ]
     }
   ]

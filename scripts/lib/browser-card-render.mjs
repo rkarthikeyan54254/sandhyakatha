@@ -55,6 +55,22 @@ document.fonts.ready.then(() => {
       .filter(r => r.width > 0 && r.height > 0);
     const box = el.getBoundingClientRect();
     const widths = rects.map(r => box.width > 0 ? r.width / box.width : 0);
+
+    // Do not use scrollHeight/clientHeight as a vertical clipping test here.
+    // Indic font glyph metrics can legitimately extend outside the element's
+    // nominal line box by a pixel or two even when nothing is clipped. That
+    // produced false Tamil failures. Instead, test the actual shaped glyph
+    // rectangles against the card's real visual safe area: below the brand and
+    // above the footer/dots. This still fails genuine clipping/overlap.
+    const topMarker = document.querySelector('[data-sk-top-boundary], .brand');
+    const bottomMarker = document.querySelector('[data-sk-bottom-boundary], .footer, .dots');
+    const safeTop = topMarker
+      ? topMarker.getBoundingClientRect().bottom + 20
+      : 0;
+    const safeBottom = bottomMarker
+      ? bottomMarker.getBoundingClientRect().top - 20
+      : window.innerHeight;
+
     const html = document.documentElement;
     html.setAttribute('data-sk-engine','chromium-block-layout-v1');
     html.setAttribute('data-sk-font-loaded',
@@ -64,7 +80,7 @@ document.fonts.ready.then(() => {
       (el.scrollWidth > el.clientWidth + 1 ||
        rects.some(r => r.left < box.left - 1 || r.right > box.right + 1)) ? '1' : '0');
     html.setAttribute('data-sk-overflow-y',
-      (el.scrollHeight > el.clientHeight + 1) ? '1' : '0');
+      rects.some(r => r.top < safeTop - 1 || r.bottom > safeBottom + 1) ? '1' : '0');
     html.setAttribute('data-sk-min-line-ratio',
       String(widths.length ? Math.min(...widths) : 0));
     html.setAttribute('data-sk-max-line-ratio',
@@ -145,6 +161,6 @@ export function screenshotHtml({
       pathToFileURL(htmlPath).href
     ], { stdio: ['ignore', 'ignore', 'pipe'] });
   } finally {
-    rmSync(dir, { recursive: true, force: true });
+    rmSync(dir, { recursive: true, force:true });
   }
 }

@@ -151,6 +151,154 @@
           ]
         }
       }
+    },
+    "ta-IN": {
+      "stories": {
+        "hanuman-reminded": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 6,
+              "mode": "full"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "full"
+            },
+            {
+              "index": 12,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 14,
+              "mode": "full"
+            }
+          ]
+        },
+        "rama-returns": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "sentence",
+              "sentence": 3
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "govardhana": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 7,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ganesha-circles": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "full"
+            }
+          ]
+        },
+        "durga-mahishasura": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            },
+            {
+              "index": 9,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        }
+      }
     }
   }
 }

@@ -64,6 +64,21 @@ if (readDomAttr(probe, 'data-sk-ready') !== '1' ||
   fail('browser diagnostic attribute parser regression');
 }
 
+// Complex-script glyphs can overhang their nominal line box. scrollHeight vs
+// clientHeight therefore is not a valid clipping test for an auto-height text
+// element (it caused a false Tamil overflow). The browser probe must test the
+// shaped glyph rectangles against the actual card safe area instead.
+const browserRendererSource = readFileSync(
+  join(ROOT, 'scripts/lib/browser-card-render.mjs'), 'utf8'
+);
+if (browserRendererSource.includes('el.scrollHeight > el.clientHeight'))
+  fail('browser vertical overflow must not use scrollHeight/clientHeight on complex-script text');
+if (!browserRendererSource.includes('data-sk-bottom-boundary') ||
+    !browserRendererSource.includes('safeBottom') ||
+    !browserRendererSource.includes('rects.some(r => r.top < safeTop')) {
+  fail('browser vertical overflow must use shaped glyph rectangles + card safe area');
+}
+
 const localeConfig = read('content/social-locales.json');
 const publicConfig = read('content/locale-public.json');
 const publicKeys = new Set(
@@ -137,5 +152,5 @@ if (errors.length) {
 
 console.log(
   'reel workflow gate: PASS — one CLI · selector-only locale config · ' +
-  'no parallel generators · DOM parser regression covered'
+  'no parallel generators · DOM parser + complex-script safe-area regressions covered'
 );

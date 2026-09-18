@@ -27,6 +27,21 @@ const POLICIES = Object.freeze({
       ctaKicker: 'आज रात पढ़ें',
       cta: 'पूरी कहानी आज रात पढ़ें।'
     })
+  }),
+  'ta-IN': Object.freeze({
+    locale: 'ta-IN',
+    language: 'ta',
+    complexScript: true,
+    sentenceSeparator: /(?<=[.!?])\s+/u,
+    fontFamily: 'Noto Serif Tamil',
+    fontFile: 'NotoSerifTamil-Variable.ttf',
+    lineHeight: 1.48,
+    sample: 'தமிழ்',
+    ui: Object.freeze({
+      sourceKicker: 'மூலம்',
+      ctaKicker: 'இன்றிரவு வாசிக்க',
+      cta: 'முழுக் கதையையும் இன்றிரவு வாசிக்கலாம்.'
+    })
   })
 });
 

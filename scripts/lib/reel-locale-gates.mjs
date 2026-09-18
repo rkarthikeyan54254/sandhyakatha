@@ -2,6 +2,7 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { localeContentHash } from './locale-content.mjs';
 import { reelCardStructureErrors } from './reel-gates.mjs';
+import { socialLocalePolicy } from './social-locale-policy.mjs';
 
 const countWords = text =>
   String(text).trim() ? String(text).trim().split(/\s+/u).length : 0;
@@ -12,12 +13,13 @@ export function gateLocalePlan({
   const errors = [];
   const fail = message => errors.push(message);
   const key = `${localeDoc.locale}/${story.id}`;
+  const policy = socialLocalePolicy(localeDoc.locale);
 
   for (const font of [
-    'TiroDevanagariSanskrit-Regular.ttf',
+    policy.fontFile,
     'GentiumBookPlus-Regular.ttf',
     'Karla-var.ttf'
-  ]) {
+  ].filter(Boolean)) {
     if (!existsSync(join(root, 'assets', 'fonts', font)))
       fail(`required font missing: assets/fonts/${font}`);
   }

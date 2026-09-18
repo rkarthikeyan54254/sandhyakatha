@@ -2,7 +2,8 @@
 
 There is one reel component workflow: `scripts/reel.mjs`.
 
-For publishing across platforms, use the unified campaign command documented in `CAMPAIGNS.md`; it calls this reel workflow rather than bypassing it.
+For publishing across platforms, use the unified campaign command documented in
+`CAMPAIGNS.md`; it calls this reel workflow rather than bypassing it.
 
 ## Commands
 
@@ -11,9 +12,11 @@ For publishing across platforms, use the unified campaign command documented in 
 npm run reel -- hanuman-reminded --open
 npm run reel:check -- hanuman-reminded
 
-# Reviewed locale edition
+# Reviewed locale editions
 npm run reel -- --locale hi-IN hanuman-reminded --open
+npm run reel -- --locale ta-IN hanuman-reminded --open
 npm run reel:check -- --locale hi-IN hanuman-reminded
+npm run reel:check -- --locale ta-IN hanuman-reminded
 
 # Every configured, publishable reel edition
 npm run reel:check -- --all
@@ -31,4 +34,6 @@ npm run verify:reel-workflow
 - Every reel uses the same CLI, card sequence contract, source/provenance gates, technical video gate, and review workflow.
 - Adding a future locale extends the existing locale adapter/configuration. It must not create `scripts/reel-<locale>.mjs`, a locale-specific npm command, or a separate campaign generator.
 
-`validate:strict` runs `scripts/reel-workflow-gates.mjs`, which mechanically rejects parallel reel workflows and includes a regression test for the DOM attribute parser bug that previously blocked Devanagari layout diagnostics.
+`validate:strict` runs `scripts/reel-workflow-gates.mjs`, which mechanically
+rejects parallel reel workflows and includes a regression test for the DOM
+attribute parser bug that previously blocked complex-script layout diagnostics.
