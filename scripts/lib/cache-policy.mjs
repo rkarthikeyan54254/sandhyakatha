@@ -15,7 +15,7 @@ export const CACHE_NAMES = Object.freeze({
 
 export const RUNTIME_CACHING = [
   {
-    urlPattern: /\/data\/s\/.*\.json(?:\?v=[a-f0-9]{12})?$/,
+    urlPattern: /\/data\/(?:s|l\/(?:hi|ta))\/.*\.json(?:\?v=[a-f0-9]{12})?$/,
     handler: 'NetworkFirst',
     options: {
       cacheName: CACHE_NAMES.stories,
@@ -24,7 +24,7 @@ export const RUNTIME_CACHING = [
     }
   },
   {
-    urlPattern: /\/data\/(index|lexicon)\.json$/,
+    urlPattern: /\/data\/(index|lexicon|locale-catalog)\.json$/,
     handler: 'NetworkFirst',
     options: {
       cacheName: CACHE_NAMES.corpus,

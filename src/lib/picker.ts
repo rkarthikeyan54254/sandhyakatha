@@ -9,6 +9,7 @@ export interface Ctx {
   /** id -> yyyy-mm-dd a story was asked for again. A favourite comes back sooner. */
   favourites?: Record<string, string>;
   includeGated: boolean;
+  allowRepeatFallback?: boolean;
 }
 
 /** Stable per (date, id) so the same night always yields the same story,
@@ -24,7 +25,7 @@ const daysSince = (a: string, b: string) => Math.round((Date.parse(b) - Date.par
 
 interface Scored { card: Card; score: number; reason: string }
 
-function score(c: Card, ctx: Ctx): Scored | null {
+function score(c: Card, ctx: Ctx, allowRecentRepeat = false): Scored | null {
   if (c.gated && !ctx.includeGated) return null;
   if (c.minAge > ctx.childAge) return null;
 
@@ -34,7 +35,7 @@ function score(c: Card, ctx: Ctx): Scored | null {
   // already asked for a second time. Repetition is the point of bedtime reading,
   // and a favourite waits a month rather than a season.
   const favourite = !!ctx.favourites?.[c.id];
-  if (last && daysSince(last, p.date) < (favourite ? 30 : 90)) return null;
+  if (last && !allowRecentRepeat && daysSince(last, p.date) < (favourite ? 30 : 90)) return null;
 
   let s = (c.calendar.weight ?? 5);
   let reason = '';
@@ -69,7 +70,10 @@ function score(c: Card, ctx: Ctx): Scored | null {
 
   // gently prefer a story pitched at the child rather than well under them
   s -= Math.max(0, ctx.childAge - c.minAge) * 0.4;
-  if (last) s -= 3;
+  if (last) {
+    s -= 3;
+    if (allowRecentRepeat) s += Math.max(0, Math.min(90, daysSince(last, p.date))) * 0.08;
+  }
   if (favourite) { s += 8; if (!reason) reason = 'this is one that got asked for twice'; }
   s += jitter(p.date, c.id) * 4;
 
@@ -77,13 +81,23 @@ function score(c: Card, ctx: Ctx): Scored | null {
 }
 
 export function pickTonight(cards: Card[], ctx: Ctx): Pick | null {
-  const ranked = cards.map(c => score(c, ctx)).filter((x): x is Scored => !!x)
-                      .sort((a, b) => b.score - a.score);
+  let ranked = cards.map(c => score(c, ctx)).filter((x): x is Scored => !!x)
+                    .sort((a, b) => b.score - a.score);
+  let repeated = false;
+
+  if (!ranked.length && ctx.allowRepeatFallback) {
+    ranked = cards.map(c => score(c, ctx, true)).filter((x): x is Scored => !!x)
+                  .sort((a, b) => b.score - a.score);
+    repeated = ranked.length > 0;
+  }
+
   if (!ranked.length) return null;
   const top = ranked[0];
   return {
     story: top.card,
-    reason: top.reason || 'nothing on the calendar claims tonight, so this is simply the one that fits',
+    reason: top.reason || (repeated
+      ? 'this is the reviewed story you have gone longest without hearing'
+      : 'nothing on the calendar claims tonight, so this is simply the one that fits'),
     alternates: ranked.slice(1, 3).map(r => r.card)
   };
 }

@@ -7,7 +7,7 @@ import * as P from './lib/profile';
 // Only presentation is stubbed: no production browser/account is touched.
 const view = vi.hoisted(() => ({ props: null as any }));
 vi.mock('./ui/Tonight', () => ({ default: (props: any) => { view.props = props; return null; } }));
-vi.mock('./ui/Chrome', () => ({ Header: () => null, Tabs: () => null }));
+vi.mock('./ui/Chrome', () => ({ Header: () => null, LanguageBar: () => null, Tabs: () => null }));
 vi.mock('./ui/Reader', () => ({ default: () => null }));
 vi.mock('./ui/Shelf', () => ({ default: () => null }));
 vi.mock('./ui/Constellation', () => ({ default: () => null }));

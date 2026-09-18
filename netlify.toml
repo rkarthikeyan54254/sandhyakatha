@@ -37,6 +37,16 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
+[[headers]]
+  for = "/data/l/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/data/locale-catalog.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
 # Shareable story pages are static and change only when the story does.
 [[headers]]
   for = "/api/*"

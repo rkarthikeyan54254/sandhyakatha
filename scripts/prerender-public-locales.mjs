@@ -31,7 +31,9 @@ const LANG = {
     shelfIntro:'राम, कृष्ण, गणेश, देवी और हनुमान की पाँच कहानियाँ। हर हिन्दी संस्करण उसी जाँची हुई मूल कहानी से जुड़ा है, अलग से पढ़कर सुनाया गया है, भाषा-संपादन से गुज़रा है और स्रोत से दोबारा मिलाया गया है।',
     back:'← पूरी अंग्रेज़ी शेल्फ़ देखें',
     moved:'इस हिन्दी संस्करण की समीक्षा पूरी हो चुकी है। यह पुराना समीक्षा लिंक है; कहानी अब अपने स्थायी सार्वजनिक पते पर उपलब्ध है।',
-    movedCta:'समीक्षित हिन्दी कहानी पढ़ें'
+    movedCta:'समीक्षित हिन्दी कहानी पढ़ें',
+    tonightCta:'आज रात की हिन्दी कहानी पढ़ें',
+    tonightNote:'हर रात इन्हीं समीक्षित हिन्दी कहानियों में से उम्र और दिन के अनुसार एक कहानी चुनी जाती है।'
   },
   'ta-IN': {
     language:'ta', label:'தமிழ்', name:'Tamil', ogLocale:'ta_IN',
@@ -49,7 +51,9 @@ const LANG = {
     shelfIntro:'ராமர், கிருஷ்ணர், விநாயகர், தேவி, அனுமன் பற்றிய ஐந்து கதைகள். ஒவ்வொரு தமிழ் பதிப்பும் அதே ஆதாரச் சரிபார்க்கப்பட்ட மூலக் கதையுடன் இணைக்கப்பட்டு, தனியாக வாசித்துச் சோதிக்கப்பட்டு, மொழிச் செம்மையும் மூல ஆதார ஒப்பீடும் முடித்த பிறகே வெளியிடப்படுகிறது.',
     back:'← முழு ஆங்கிலத் தொகுப்பைப் பார்க்க',
     moved:'இந்த தமிழ் பதிப்பின் மதிப்பாய்வு முடிந்துவிட்டது. இது பழைய மதிப்பாய்வு இணைப்பு; கதை இப்போது தனது நிரந்தர பொது முகவரியில் கிடைக்கிறது.',
-    movedCta:'மதிப்பாய்வு செய்யப்பட்ட தமிழ் கதையை வாசிக்க'
+    movedCta:'மதிப்பாய்வு செய்யப்பட்ட தமிழ் கதையை வாசிக்க',
+    tonightCta:'இன்றிரவு தமிழ் கதையை வாசிக்க',
+    tonightNote:'ஒவ்வொரு இரவும் மதிப்பாய்வு செய்யப்பட்ட தமிழ் கதைகளில் இருந்து வயதுக்கும் நாளுக்கும் ஏற்ற ஒரு கதை தேர்ந்தெடுக்கப்படும்.'
   }
 };
 
@@ -216,7 +220,7 @@ for (const landing of landings) {
   const rows=shelfRows.get(landing.locale) ?? [];
   const dir=join(DIST,p.language);
   mkdirSync(dir,{recursive:true});
-  writeFileSync(join(dir,'index.html'),`<!doctype html><html lang="${p.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(p.label)} · Sandhya Katha</title><meta name="description" content="${esc(p.shelfIntro)}"><link rel="canonical" href="${SITE}${landing.path}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(p.label)} · Sandhya Katha"><meta property="og:description" content="${esc(p.shelfIntro)}"><meta property="og:url" content="${SITE}${landing.path}"><meta name="theme-color" content="#14101c"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/locale-preview.css"><link rel="stylesheet" href="/locale-edition-v2.css"></head><body><div class="w"><header class="sitehead"><a class="brand" href="/"><span><b>Sandhya Katha</b><small>Source-linked family stories</small></span></a><a class="englishlink" href="/shelf/">The shelf</a></header><section class="locale-shelf-head"><span class="eyebrow">${esc(p.label)} · ${rows.length} reviewed</span><h1>${esc(p.shelfHeading)}</h1><p>${esc(p.shelfIntro)}</p></section>${rows.join('\n')}<a class="locale-back" href="/shelf/">${esc(p.back)}</a></div></body></html>`);
+  writeFileSync(join(dir,'index.html'),`<!doctype html><html lang="${p.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(p.label)} · Sandhya Katha</title><meta name="description" content="${esc(p.shelfIntro)}"><link rel="canonical" href="${SITE}${landing.path}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(p.label)} · Sandhya Katha"><meta property="og:description" content="${esc(p.shelfIntro)}"><meta property="og:url" content="${SITE}${landing.path}"><meta name="theme-color" content="#14101c"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/locale-preview.css"><link rel="stylesheet" href="/locale-edition-v2.css"></head><body><div class="w"><header class="sitehead"><a class="brand" href="/"><span><b>Sandhya Katha</b><small>Source-linked family stories</small></span></a><a class="englishlink" href="/shelf/">The shelf</a></header><section class="locale-shelf-head"><span class="eyebrow">${esc(p.label)} · ${rows.length} reviewed</span><h1>${esc(p.shelfHeading)}</h1><p>${esc(p.shelfIntro)}</p></section><a class="locale-tonight" href="/?lang=${p.language}"><b>${esc(p.tonightCta)}</b><span>${esc(p.tonightNote)}</span></a>${rows.join('\n')}<a class="locale-back" href="/shelf/">${esc(p.back)}</a></div></body></html>`);
 }
 
 addSitemapUrls(sitemapUrls);

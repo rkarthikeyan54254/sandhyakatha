@@ -1,3 +1,5 @@
+import { localeShelfPath, localeUi, type AppLocale } from '../lib/app-locale';
+
 export type Tab = 'tonight' | 'shelf' | 'map' | 'why';
 
 export function Header({ onHome, onWhy }: { onHome: () => void; onWhy: () => void }) {
@@ -30,7 +32,46 @@ export function Header({ onHome, onWhy }: { onHome: () => void; onWhy: () => voi
 
 const TABS: [Tab, string][] = [['tonight', 'Tonight'], ['shelf', 'Shelf'], ['map', 'Map'], ['why', 'Why']];
 
-export function Tabs({ tab, onTab }: { tab: Tab; onTab: (t: Tab) => void }) {
+export function LanguageBar({ locale, onLocale }: {
+  locale: AppLocale;
+  onLocale: (locale: AppLocale) => void;
+}) {
+  const ui = localeUi(locale);
+  return (
+    <nav className="languagebar" aria-label="Story language">
+      <span>{ui.readIn}</span>
+      <button aria-pressed={locale === 'en'} onClick={() => onLocale('en')}>English</button>
+      <button aria-pressed={locale === 'hi-IN'} onClick={() => onLocale('hi-IN')}>हिन्दी</button>
+      <button aria-pressed={locale === 'ta-IN'} onClick={() => onLocale('ta-IN')}>தமிழ்</button>
+    </nav>
+  );
+}
+
+export function Tabs({ tab, onTab, locale = 'en' }: {
+  tab: Tab;
+  onTab: (t: Tab) => void;
+  locale?: AppLocale;
+}) {
+  if (locale !== 'en') {
+    const ui = localeUi(locale);
+    return (
+      <nav className="tabs locale-tabs" aria-label="Main">
+        <button aria-current={tab === 'tonight'} onClick={() => onTab('tonight')}>
+          <span className="dot" />{ui.tonightTab}
+        </button>
+        <a href={localeShelfPath(locale)}>
+          <span className="dot" />{ui.shelfTab}
+        </a>
+        <button aria-current={tab === 'map'} onClick={() => onTab('map')}>
+          <span className="dot" />{ui.mapTab}
+        </button>
+        <button aria-current={tab === 'why'} onClick={() => onTab('why')}>
+          <span className="dot" />{ui.whyTab}
+        </button>
+      </nav>
+    );
+  }
+
   return (
     <nav className="tabs" aria-label="Main">
       {TABS.map(([k, label]) => (

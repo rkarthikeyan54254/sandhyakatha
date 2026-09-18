@@ -13,9 +13,9 @@
     "verify:cache": "node scripts/cache-gates.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "preview": "vite preview",
-    "content": "node scripts/build-index.mjs",
+    "content": "node scripts/build-index.mjs && node scripts/build-runtime-locales.mjs && node scripts/runtime-locale-gates.mjs",
     "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs",
-    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs",
+    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs",
     "lock": "node scripts/lock.mjs && node scripts/lock-locales.mjs",
     "ssml": "node scripts/render-audio.mjs",
     "og": "node scripts/og.mjs",
@@ -37,7 +37,9 @@
     "verify:public-locales": "node scripts/public-locale-gates.mjs",
     "verify:reel-workflow": "node scripts/reel-workflow-gates.mjs",
     "campaign:check": "node scripts/campaign.mjs --check",
-    "verify:campaign-workflow": "node scripts/campaign-workflow-gates.mjs"
+    "verify:campaign-workflow": "node scripts/campaign-workflow-gates.mjs",
+    "verify:runtime-locales": "node scripts/runtime-locale-gates.mjs",
+    "verify:app-locale-workflow": "node scripts/app-locale-workflow-gates.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

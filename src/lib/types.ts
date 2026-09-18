@@ -12,6 +12,7 @@ export interface Card {
   characters:string[]; minutes:Record<string,number>; linked:{next:string;reason:string}|null;
 }
 export interface Story extends Omit<Card,'characters'|'minutes'|'storyRevision'> {
+  locale?: string; language?: string; publicPath?: string; displayNames?: Record<string,string>;
   source:{corpus:string;tradition:Tradition;work:string;locus:string;stability:Stability;traditionNote?:string};
   audience:{minAge:number;sensitivity?:string[];gated?:boolean;careNote?:string};
   lengths:Record<string,{minutes:number;words?:number;blocks:Block[]}>;

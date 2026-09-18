@@ -23,3 +23,10 @@ html[lang="ta"] .locale-shelf-head h1,html[lang="ta"] .locale-shelf-head p,html[
 .preview-moved h1{font-weight:500;line-height:1.3}
 .preview-moved p{color:#c9baa4;line-height:1.65}
 .preview-moved a{display:inline-block;margin-top:10px;padding:11px 15px;border-radius:10px;background:#f0b458;color:#2a1c08;text-decoration:none;font-weight:700}
+
+.locale-tonight{display:block;margin:18px 0 8px;padding:16px;border:1px solid rgba(240,180,88,.34);border-radius:13px;
+  background:rgba(240,180,88,.065);text-decoration:none}
+.locale-tonight b{display:block;font-size:17px;line-height:1.4;color:var(--lamp,#f0b458)}
+.locale-tonight span{display:block;margin-top:5px;font-size:12.5px;line-height:1.6;color:var(--paper-dim,#c9baa4)}
+html[lang="hi"] .locale-tonight b,html[lang="hi"] .locale-tonight span{font-family:"Noto Serif Devanagari",Georgia,serif}
+html[lang="ta"] .locale-tonight b,html[lang="ta"] .locale-tonight span{font-family:"Noto Serif Tamil",Georgia,serif}

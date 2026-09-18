@@ -6,13 +6,14 @@ import * as P from './lib/profile';
 import { track } from './lib/track';
 import { currentAccount, syncProfile, signOut, type Account as Acct } from './lib/sync';
 import { adoptSnapshot, sameSnapshot } from './lib/sync-adoption';
-import { Header, Tabs, type Tab } from './ui/Chrome';
+import { Header, LanguageBar, Tabs, type Tab } from './ui/Chrome';
 import Tonight, { type Len } from './ui/Tonight';
 import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
 import { currentTab, onRoutePop, pushTabPath } from './lib/route';
+import { appLocaleFromLocation, cardsForAppLocale, initialAppLocale, localeLanguage, localeStoryMeta, localeUi, persistAppLocale, type AppLocale, type LocaleCatalog } from './lib/app-locale';
 
 function analyticsMode(len: Len): 'short' | 'full' {
   return len === 'short' ? 'short' : 'full';
@@ -24,6 +25,8 @@ export default function App() {
   const [lex, setLex] = useState<Lexicon>({});
   const [rel, setRel] = useState<Relations | null>(null);
   const [cal, setCal] = useState<PanchangaTable | null>(null);
+  const [localeCatalog, setLocaleCatalog] = useState<LocaleCatalog | null>(null);
+  const [appLocale, setAppLocale] = useState<AppLocale>(initialAppLocale);
   const [open, setOpen] = useState<Story | null>(null);
   const [tab, setTab] = useState<Tab>(currentTab);
   const [from, setFrom] = useState<Tab>(currentTab);   // where the reader was opened from
@@ -137,6 +140,7 @@ export default function App() {
     j('/data/lexicon.json').then(setLex).catch(() => {});
     j('/data/relations.json').then(setRel).catch(() => {});
     j('/data/panchanga.json').then(setCal).catch(() => {});
+    j('/data/locale-catalog.json').then(setLocaleCatalog).catch(() => {});
   }, []);
 
   /* Signed in? Then merge this device with the account copy, both directions. */
@@ -178,11 +182,30 @@ export default function App() {
       window.scrollTo({ top: 0 });
   }, []);
 
+  const chooseLocale = useCallback((next: AppLocale) => {
+    setAppLocale(next);
+    setOpen(null);
+    setTab('tonight');
+    setFrom('tonight');
+    setLen(next === 'en' ? 'full' : 'short');
+    persistAppLocale(next);
+    pushTabPath('tonight');
+    if (typeof window !== 'undefined' && typeof window.scrollTo === 'function')
+      window.scrollTo({ top: 0 });
+  }, []);
+
+  useEffect(() => {
+    if (typeof document !== 'undefined')
+      document.documentElement.lang = localeUi(appLocale).language;
+    if (appLocale !== 'en' && len !== 'short') setLen('short');
+  }, [appLocale, len]);
+
   // The back button should go back a screen, not leave the site. On Android it
   // is a hardware button and this is the commonest way out of a PWA by accident.
   useEffect(() => {
     const onPop = () => {
       const next = currentTab();
+      setAppLocale(appLocaleFromLocation());
       setOpen(null);
       setTab(next);
       setFrom(next);
@@ -193,15 +216,17 @@ export default function App() {
   const child = P.activeChild(profile);
   const heard = P.heardOf(profile, child?.id ?? null);
   const favourites = P.againOf(profile, child?.id ?? null);
+  const localeCards = useMemo(() => cardsForAppLocale(cards, localeCatalog, appLocale), [cards, localeCatalog, appLocale]);
   const pan = useMemo(() => panchanga(new Date(), cal), [cal]);
   const pick = useMemo(
-    () => cards.length ? pickTonight(cards, {
+    () => localeCards.length ? pickTonight(localeCards, {
       // Before a parent gives us an age, choose conservatively. A story that is
       // safe for a four-year-old is still usable by an older child; the reverse
       // is not true.
-      panchanga: pan, childAge: child?.age ?? 4, heard, favourites, includeGated: profile.gate
+      panchanga: pan, childAge: child?.age ?? 4, heard, favourites, includeGated: profile.gate,
+      allowRepeatFallback: appLocale !== 'en'
     }) : null,
-    [cards, pan, child?.age, heard, favourites, profile.gate]);
+    [localeCards, pan, child?.age, heard, favourites, profile.gate, appLocale]);
 
   /**
    * Tomorrow night, named while this reader is still open.
@@ -212,13 +237,14 @@ export default function App() {
    * exactly the moment we wanted to show it.
    */
   const tomorrowForOpen = useMemo(() => {
-    if (!cards.length || !open || !readerWasTonightPick) return null;
+    if (!localeCards.length || !open || !readerWasTonightPick) return null;
     const d = new Date(); d.setDate(d.getDate() + 1);
-    return pickTonight(cards, {
+    return pickTonight(localeCards, {
       panchanga: panchanga(d, cal), childAge: child?.age ?? 4,
-      heard: { ...heard, [open.id]: P.today() }, favourites, includeGated: profile.gate
+      heard: { ...heard, [open.id]: P.today() }, favourites, includeGated: profile.gate,
+      allowRepeatFallback: appLocale !== 'en'
     });
-  }, [cards, cal, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate]);
+  }, [localeCards, cal, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate, appLocale]);
 
   const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
 
@@ -228,17 +254,21 @@ export default function App() {
     setReaderWasReadBefore(!!heard[id]);
     try {
       const card = cards.find(c => c.id === id);
-      const storyUrl = card?.storyRevision
-        ? `/data/s/${id}.json?v=${card.storyRevision}`
-        : `/data/s/${id}.json`;
+      const localized = localeStoryMeta(localeCatalog, appLocale, id);
+      const storyUrl = appLocale === 'en'
+        ? (card?.storyRevision ? `/data/s/${id}.json?v=${card.storyRevision}` : `/data/s/${id}.json`)
+        : `/data/l/${localeLanguage(appLocale)}/${id}.json?v=${localized?.storyRevision ?? ''}`;
+      if (appLocale !== 'en' && !localized)
+        throw new Error(`${appLocale}/${id}: reviewed runtime edition missing`);
       const s: Story = await (await fetch(storyUrl)).json();
       track('story_opened', {
         story_id: s.id,
         corpus: s.source.corpus,
         from: tab,
-        mode: analyticsMode(len),
+        mode: appLocale === 'en' ? analyticsMode(len) : 'short',
         repeat: !!heard[id],
-        one_more: len === 'more'
+        one_more: appLocale === 'en' && len === 'more',
+        locale: appLocale
       });
       setOpen(s); window.scrollTo({ top: 0 });
     } catch { /* not written yet */ }
@@ -256,7 +286,8 @@ export default function App() {
       from,
       mode: analyticsMode(len),
       repeat: !!(current && P.heardOf(profile, current.id)[storyId]),
-      one_more: len === 'more'
+      one_more: (open?.locale ?? 'en') === 'en' && len === 'more',
+      locale: open?.locale ?? 'en'
     });
 
     // A first-time visitor can finish a story without giving us any child data.
@@ -327,24 +358,25 @@ export default function App() {
     setProfile(p => P.patchChildProfile(p, id, patch));
 
 
-  const nextCard = open?.linked ? cards.find(c => c.id === open.linked!.next) ?? null : null;
+  const nextCard = open?.linked ? localeCards.find(c => c.id === open.linked!.next) ?? null : null;
 
   return (
-    <div className="app">
+    <div className="app" data-locale={appLocale}>
       <a className="skip" href="#main">Skip to tonight's story</a>
       <Header onHome={() => go('tonight')} onWhy={() => go('why')} />
+      <LanguageBar locale={appLocale} onLocale={chooseLocale} />
       <main id="main" key={open ? open.id : tab}>
         {open ? (
-          <Reader story={open} lex={lex} len={len} next={nextCard}
+          <Reader story={open} lex={lex} len={len} next={nextCard} locale={appLocale}
                   tomorrow={tomorrowForOpen}
                   readBefore={readerWasReadBefore}
                   hasProfile={!!child}
                   onBack={() => go(from)} onHeard={markHeard} onRead={read}
                   onPersonalize={age => startProfileAfterRead(open.id, age)}
-                  backLabel={from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight'} />
+                  backLabel={appLocale === 'en' ? (from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight') : localeUi(appLocale).tonightTab} />
         ) : tab === 'tonight' ? (
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
-                   profile={profile} child={child} heard={heard} cards={cards}
+                   profile={profile} child={child} heard={heard} cards={localeCards}
                    canon={canon} published={cards.length}
                    account={account} syncing={syncing} syncPending={syncPending} onAccountChanged={refresh} onSignOut={handleSignOut}
                    setActive={id => setProfile(p => P.setActiveChild(p, id))}
@@ -353,14 +385,14 @@ export default function App() {
                    setGate={g => setProfile(p => P.setGateSetting(p, g))}
                    onShelf={() => go('shelf')}
                    onMap={() => go('map')}
-                   onWhy={() => go('why')} />
+                   onWhy={() => go('why')} locale={appLocale} />
         ) : tab === 'shelf' ? (
           <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
         ) : tab === 'map' ? (
           <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} onTonight={() => go('tonight')} />
         ) : <Why />}
       </main>
-      <Tabs tab={open ? from : tab} onTab={go} />
+      <Tabs tab={open ? from : tab} onTab={go} locale={appLocale} />
     </div>
   );
 }

@@ -108,6 +108,7 @@ for (const landing of landings) {
   const html=readFileSync(path,'utf8');
   if (html.includes('noindex')) fail(`${landing.path}: discovery shelf is noindex`);
   if (!html.includes('href="/locale-edition-v2.css"')) fail(`${landing.path}: discovery shelf is not on versioned locale stylesheet`);
+  if (!html.includes(`href="/?lang=${lang}"`)) fail(`${landing.path}: locale-aware Tonight entry missing`);
   for (const pub of (cfg.editions ?? []).filter(x=>x.locale===landing.locale))
     if (!html.includes(publicLocaleHref(pub.storyId,pub.locale))) fail(`${landing.path}: missing ${pub.storyId}`);
 }

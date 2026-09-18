@@ -315,7 +315,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   .app{
     max-width:1080px;background:none;
     display:grid;grid-template-columns:250px minmax(0,1fr);
-    grid-template-rows:auto 1fr;grid-template-areas:"brand main" "nav main";
+    grid-template-rows:auto auto 1fr;grid-template-areas:"brand main" "language main" "nav main";
     column-gap:44px;padding:0 32px;
   }
   .bar{grid-area:brand;position:static;background:none;backdrop-filter:none;
@@ -323,11 +323,17 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   .bar .spacer{display:none}
   .bar .iconbtn{display:none}          /* Why is a nav item on desktop */
 
+  .languagebar{grid-area:language;position:static;top:auto;z-index:auto;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:5px;padding:14px 0 8px;
+    border-bottom:0;background:none;backdrop-filter:none;align-self:start}
+  .languagebar>span{grid-column:1 / -1;margin:0 0 3px;font-size:9px}
+  .languagebar button{font-size:10px;padding:6px 5px;text-align:center}
+
   .tabs{grid-area:nav;position:sticky;top:32px;align-self:start;
     display:flex;flex-direction:column;gap:2px;border-top:0;background:none;backdrop-filter:none;padding:22px 0 0}
-  .tabs button{flex-direction:row;justify-content:flex-start;gap:11px;padding:10px 12px;border-radius:9px;
+  .tabs button,.tabs a{flex-direction:row;justify-content:flex-start;gap:11px;padding:10px 12px;border-radius:9px;
     font-size:11px;letter-spacing:.15em;width:100%}
-  .tabs button:hover{background:rgba(240,180,88,.07);color:var(--paper-dim)}
+  .tabs button:hover,.tabs a:hover{background:rgba(240,180,88,.07);color:var(--paper-dim)}
   .tabs button[aria-current=true]{background:rgba(240,180,88,.12)}
   .tabs .dot{width:6px;height:6px}
 
@@ -586,4 +592,89 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   font-size:11.5px;
   line-height:1.45;
   color:var(--muted)
+}
+
+
+/* ---------- language discovery + reviewed locale Tonight ---------- */
+.languagebar{display:flex;align-items:center;gap:6px;padding:10px 20px 9px;border-bottom:1px solid var(--line);
+  background:rgba(20,15,28,.88);position:sticky;top:58px;z-index:19;backdrop-filter:blur(8px)}
+.languagebar>span{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-right:auto}
+.languagebar button{padding:6px 9px;border:1px solid var(--line);border-radius:999px;font-size:11.5px;color:var(--paper-dim)}
+.languagebar button[aria-pressed=true]{border-color:var(--lamp-dim);color:var(--lamp);background:rgba(240,180,88,.08)}
+.locale-copy{letter-spacing:normal;text-transform:none}
+.app[data-locale="hi-IN"] .locale-copy,
+.app[data-locale="hi-IN"] .locale-hero h2,
+.app[data-locale="hi-IN"] .locale-hero .tease,
+.app[data-locale="hi-IN"] .story h1,
+.app[data-locale="hi-IN"] .story .prose p,
+.app[data-locale="hi-IN"] .story .turn .q,
+.app[data-locale="hi-IN"] .story .turn .seed,
+.app[data-locale="hi-IN"] .story .disclose .ans{font-family:"Noto Serif Devanagari",var(--read)}
+.app[data-locale="ta-IN"] .locale-copy,
+.app[data-locale="ta-IN"] .locale-hero h2,
+.app[data-locale="ta-IN"] .locale-hero .tease,
+.app[data-locale="ta-IN"] .story h1,
+.app[data-locale="ta-IN"] .story .prose p,
+.app[data-locale="ta-IN"] .story .turn .q,
+.app[data-locale="ta-IN"] .story .turn .seed,
+.app[data-locale="ta-IN"] .story .disclose .ans{font-family:"Noto Serif Tamil",var(--read)}
+.locale-home-shelf{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-top:18px;padding:14px 15px;
+  border:1px solid rgba(240,180,88,.28);border-radius:13px;text-decoration:none;background:rgba(240,180,88,.045)}
+.locale-home-shelf b{font-size:15px;font-weight:600;color:var(--paper)}
+.locale-home-shelf span{font-family:var(--ui);font-size:10.5px;color:var(--lamp-dim);white-space:nowrap}
+.locale-integrity{font-size:12.5px;line-height:1.65;color:var(--muted);margin:20px 0 0}
+.tabs.locale-tabs{grid-template-columns:repeat(4,1fr)}
+.tabs a{padding:11px 4px calc(11px + env(safe-area-inset-bottom,0px));font-size:10.5px;letter-spacing:.13em;
+  text-transform:uppercase;font-weight:700;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none}
+.tabs a .dot{width:5px;height:5px;border-radius:50%;background:transparent}
+@media(max-width:380px){
+  .languagebar{gap:4px;padding-left:14px;padding-right:14px}
+  .languagebar button{font-size:10.5px;padding:6px 7px}
+  .languagebar>span{display:none}
+}
+
+/* ---------- locale desktop sidebar parity ---------- */
+/*
+ * Locale Shelf/Stories is an <a> because it leaves the app for the reviewed
+ * /hi/ or /ta/ discovery shelf. Tonight/Map/Why are buttons.
+ *
+ * A later generic `.tabs a` mobile rule centers links. Reassert the complete
+ * desktop row contract here, after that rule, so the locale shelf link and the
+ * three app buttons render identically in the desktop sidebar.
+ */
+@media (min-width:900px){
+  .tabs.locale-tabs button,
+  .tabs.locale-tabs a{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:11px;
+    width:100%;
+    padding:10px 12px;
+    border-radius:9px;
+    font-size:11px;
+    line-height:1.25;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    font-weight:700;
+    color:var(--muted);
+    text-decoration:none;
+    text-align:left;
+  }
+  .tabs.locale-tabs button:hover,
+  .tabs.locale-tabs a:hover{
+    background:rgba(240,180,88,.07);
+    color:var(--paper-dim);
+  }
+  .tabs.locale-tabs button[aria-current=true]{
+    background:rgba(240,180,88,.12);
+    color:var(--lamp);
+  }
+  .tabs.locale-tabs button .dot,
+  .tabs.locale-tabs a .dot{
+    width:6px;
+    height:6px;
+    flex:0 0 6px;
+  }
 }

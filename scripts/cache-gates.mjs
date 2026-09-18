@@ -43,6 +43,8 @@ else {
 const netlify = readFileSync(join(ROOT, 'netlify.toml'), 'utf8');
 const requiredHeaderBlocks = [
   ['story JSON', 'for = "/data/s/*"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
+  ['locale story JSON', 'for = "/data/l/*"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
+  ['locale catalog', 'for = "/data/locale-catalog.json"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
   ['index JSON', 'for = "/data/index.json"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
   ['lexicon JSON', 'for = "/data/lexicon.json"', 'Cache-Control = "public, max-age=0, must-revalidate"'],
   ['public story pages', 'for = "/s/*"', 'Cache-Control = "public, max-age=0, must-revalidate"'],

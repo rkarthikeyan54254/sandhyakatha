@@ -7,6 +7,7 @@ import * as P from '../lib/profile';
 import type { Account as Acct } from '../lib/sync';
 import AccountPanel from './Account';
 import { Intro } from './Chrome';
+import { localeShelfPath, localeUi, type AppLocale } from '../lib/app-locale';
 
 export type Len = 'short' | 'full' | 'more';
 
@@ -41,6 +42,7 @@ interface Props {
   onShelf: () => void;
   onMap: () => void;
   onWhy: () => void;
+  locale: AppLocale;
 }
 
 export default function Tonight(p: Props) {
@@ -81,6 +83,10 @@ export default function Tonight(p: Props) {
       count: cards.filter(c => c.corpus === x.corpus && !c.gated).length
     }))
     .filter(x => x.count >= 2);
+
+  if (p.locale !== 'en') {
+    return <LocaleTonight locale={p.locale} pick={pick} cards={cards} pan={pan} onRead={onRead} />;
+  }
 
   return (
     <>
@@ -283,6 +289,139 @@ export default function Tonight(p: Props) {
       <p className="foot">{published} of {canon.length} stories written.</p>
     </>
   );
+}
+
+function LocaleTonight({ locale, pick, cards, pan, onRead }: {
+  locale: Exclude<AppLocale,'en'>;
+  pick: Pick | null;
+  cards: Card[];
+  pan: Panchanga;
+  onRead: (id: string) => void;
+}) {
+  const ui = localeUi(locale);
+  const s = pick?.story;
+  const date = new Date().toLocaleDateString(locale, {
+    weekday:'long', day:'numeric', month:'long'
+  });
+
+  return (
+    <>
+      <h1 className="greet locale-copy">{ui.greeting}</h1>
+      <p className="datestrip locale-copy"><span className="g">{date}</span>
+        {!pan.approximate && <span className="p">
+          {titleCase(pan.masa)} · {titleCase(pan.paksha)} pakṣa · {titleCase(pan.tithi.split('-')[1] ?? '')}
+          {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
+        </span>}
+      </p>
+      {pan.festivals.length > 0 && (
+        <p className="festival">{pan.festivals.map(f => titleCase(f)).join(' · ')}</p>
+      )}
+
+      {!s && <p className="sub locale-copy">{ui.loading}</p>}
+
+      {s && pick && (
+        <section className="hero locale-hero" lang={ui.language}>
+          <div className="why">
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="#f0b458" strokeWidth="1.6" aria-hidden="true">
+              <path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.6 4.6l1.4 1.4M14 14l1.4 1.4M15.4 4.6L14 6M6 14l-1.4 1.4" /><circle cx="10" cy="10" r="3.2" />
+            </svg>
+            <p><b>{ui.whyTonight}</b> {localeReason(pick.reason, locale)}</p>
+          </div>
+          <div className="body">
+            <div className="srcline">{s.work} · {s.locus}</div>
+            <h2>{s.title}</h2>
+            <p className="tease">{s.tease}</p>
+            {s.hero && (
+              <figure className="storyart tonightart">
+                <img src={s.hero} alt={s.title} loading="eager" decoding="async" />
+                <figcaption>{ui.reader.illustration}</figcaption>
+              </figure>
+            )}
+            <div className="meta">
+              <span className="chip lit">{ui.reviewedEdition}</span>
+              <span className="chip val">{s.minutes.short} {ui.minutes}</span>
+            </div>
+            <button className="begin" onClick={() => onRead(s.id)}>
+              {ui.begin}
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+            </button>
+          </div>
+        </section>
+      )}
+
+      <a className="locale-home-shelf locale-copy" lang={ui.language} href={localeShelfPath(locale)}>
+        <b>{ui.allStories}</b>
+        <span>{cards.length} reviewed · Sandhya Katha →</span>
+      </a>
+
+      {pick && pick.alternates.length > 0 && <>
+        <div className="hair"><span className="eyebrow locale-copy">{ui.ifNot}</span></div>
+        <div className="alts locale-copy" lang={ui.language}>
+          {pick.alternates.map((a, i) => (
+            <button key={a.id} className="mini" onClick={() => onRead(a.id)}>
+              <span className="num">{String(i + 2).padStart(2, '0')}</span>
+              <span className="t">
+                <h3>{a.title}</h3>
+                <p>{a.work} · {a.locus}</p>
+                <p>{a.tease}</p>
+              </span>
+            </button>
+          ))}
+        </div>
+      </>}
+
+      <p className="locale-integrity locale-copy" lang={ui.language}>{ui.integrity}</p>
+    </>
+  );
+}
+
+function localeReason(reason: string, locale: Exclude<AppLocale,'en'>): string {
+  const hi = locale === 'hi-IN';
+  const detail = (raw: string) => {
+    const key = raw.trim().toLowerCase();
+    const hiMap: Record<string,string> = {
+      'monsoon': 'मानसून',
+      'monsoon end': 'मानसून का अंत',
+      'summer': 'गर्मी',
+      'spring': 'वसंत',
+      'autumn': 'शरद ऋतु',
+      'winter': 'सर्दी'
+    };
+    const taMap: Record<string,string> = {
+      'monsoon': 'மழைக்காலம்',
+      'monsoon end': 'மழைக்கால முடிவு',
+      'summer': 'கோடை',
+      'spring': 'வசந்த காலம்',
+      'autumn': 'இலையுதிர் காலம்',
+      'winter': 'குளிர்காலம்'
+    };
+    return (hi ? hiMap : taMap)[key] ?? raw;
+  };
+
+  if (reason.startsWith('of where we are in the year — ')) {
+    const value = detail(reason.slice('of where we are in the year — '.length));
+    return hi ? `साल के इस समय की वजह से — ${value}` : `ஆண்டின் இந்தக் காலத்தைச் சேர்ந்ததால் — ${value}`;
+  }
+  if (reason.startsWith('it is ')) {
+    const value = reason.slice('it is '.length);
+    return hi ? `आज ${value} है` : `இன்று ${value}`;
+  }
+  if (reason.startsWith('tonight is ')) {
+    const value = reason.slice('tonight is '.length);
+    return hi ? `आज रात ${value} है` : `இன்றிரவு ${value}`;
+  }
+  if (reason.startsWith('it belongs to ')) {
+    const value = reason.slice('it belongs to '.length);
+    return hi ? `यह ${value} से जुड़ी है` : `இது ${value}-ஐச் சேர்ந்தது`;
+  }
+  if (reason === 'this is one that got asked for twice')
+    return hi ? 'यह वह कहानी है जिसे फिर से सुनने को कहा गया था' : 'இந்தக் கதையை மீண்டும் கேட்கச் சொன்னார்கள்';
+  if (reason === 'this is the reviewed story you have gone longest without hearing')
+    return hi ? 'समीक्षित कहानियों में इसे सुने सबसे ज़्यादा समय हो गया है' : 'மதிப்பாய்வு செய்யப்பட்ட கதைகளில் இதைக் கேட்டு அதிக நாட்கள் ஆகிவிட்டது';
+
+  return hi
+    ? 'आज के लिए उम्र और समीक्षित संग्रह में सबसे ठीक बैठती है'
+    : 'இன்றைக்கு வயதுக்கும் மதிப்பாய்வு செய்யப்பட்ட தொகுப்பிற்கும் ஏற்ற கதை';
 }
 
 /** "three weeks ago" — vague on purpose; the exact date is not the point. */

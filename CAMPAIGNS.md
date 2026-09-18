@@ -82,3 +82,16 @@ browser-native typography policy.
 
 `scripts/reel.mjs` remains the lower-level reel component and diagnostic CLI.
 For actual publishing, use `npm run campaign`.
+
+
+## Generic profile/channel links
+
+Direct story posts use the matching reviewed story URL.
+
+Generic profile/bio/channel destinations:
+- English: `https://sandhyakatha.com/`
+- Hindi: `https://sandhyakatha.com/hi/`
+- Tamil: `https://sandhyakatha.com/ta/`
+
+The Hindi/Tamil shelves expose a prominent Tonight action into the locale-aware
+root app (`/?lang=hi` / `/?lang=ta`).
