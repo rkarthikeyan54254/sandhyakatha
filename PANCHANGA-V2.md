@@ -1,8 +1,8 @@
 # Panchanga V2 — Bharat Observance Architecture
 
-Status: architecture baseline  
-Scope: Sandhya Katha daily-story selection  
-Shared astronomy: Nal Naal / Swiss Ephemeris  
+Status: architecture baseline
+Scope: Sandhya Katha daily-story selection
+Shared astronomy: Nal Naal / Swiss Ephemeris
 Editorial principle: astronomical fact, observance tradition, and story relevance are separate data layers.
 
 ## Why V2 exists
