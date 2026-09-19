@@ -1,7 +1,21 @@
 import type { Card } from './types';
 import type { Panchanga } from './panchanga';
+import type { RuntimeObservance, RuntimeObservanceStory } from './observance';
 
-export interface Pick { story: Card; reason: string; alternates: Card[] }
+export interface PickObservance {
+  id: string;
+  name: string;
+  relevance: RuntimeObservanceStory['relevance'];
+  source: RuntimeObservance['source'];
+}
+
+export interface Pick {
+  story: Card;
+  reason: string;
+  alternates: Card[];
+  observance?: PickObservance;
+}
+
 export interface Ctx {
   panchanga: Panchanga;
   childAge: number;
@@ -10,6 +24,8 @@ export interface Ctx {
   favourites?: Record<string, string>;
   includeGated: boolean;
   allowRepeatFallback?: boolean;
+  /** Cross-checked runtime observances for exactly this Panchanga date. */
+  observances?: RuntimeObservance[];
 }
 
 /** Stable per (date, id) so the same night always yields the same story,
@@ -23,7 +39,53 @@ function jitter(date: string, id: string): number {
 const DAY = 86_400_000;
 const daysSince = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / DAY);
 
-interface Scored { card: Card; score: number; reason: string }
+interface ObservanceMatch {
+  observance: RuntimeObservance;
+  mapping: RuntimeObservanceStory;
+  score: number;
+}
+
+interface Scored {
+  card: Card;
+  score: number;
+  reason: string;
+  observance?: PickObservance;
+}
+
+const RELATION_BONUS: Record<RuntimeObservanceStory['relevance'], number> = {
+  direct: 50,
+  'strong-related': 30,
+  related: 12
+};
+
+const BREADTH_BONUS: Record<RuntimeObservance['scope']['breadth'], number> = {
+  'pan-india': 16,
+  broad: 10,
+  regional: 4,
+  sampradaya: 2,
+  'temple-specific': 0
+};
+
+function bestObservanceMatch(storyId: string, ctx: Ctx): ObservanceMatch | null {
+  let best: ObservanceMatch | null = null;
+  for (const observance of ctx.observances ?? []) {
+    for (const mapping of observance.stories) {
+      if (mapping.storyId !== storyId) continue;
+      const score =
+        observance.importance.score +
+        RELATION_BONUS[mapping.relevance] +
+        BREADTH_BONUS[observance.scope.breadth];
+      if (!best || score > best.score)
+        best = { observance, mapping, score };
+    }
+  }
+  return best;
+}
+
+function observanceReason(hit: ObservanceMatch): string {
+  const detail = hit.mapping.reason.trim().replace(/[.]+$/, '');
+  return `Today is ${hit.observance.names.en}. ${detail}`;
+}
 
 function score(c: Card, ctx: Ctx, allowRecentRepeat = false): Scored | null {
   if (c.gated && !ctx.includeGated) return null;
@@ -39,33 +101,42 @@ function score(c: Card, ctx: Ctx, allowRecentRepeat = false): Scored | null {
 
   let s = (c.calendar.weight ?? 5);
   let reason = '';
+  let matchedObservance: PickObservance | undefined;
 
-  // A lunar month has two names. The dark fortnight that ends Ashvina in the
-  // amānta reckoning is the dark fortnight of Kārtika in the pūrṇimānta one,
-  // and the festival names everybody uses are pūrṇimānta — Naraka Chaturdaśī
-  // is "Kārtika kṛṣṇa chaturdaśī" on a day this table calls Ashvina. Matching
-  // only `masa` meant a story keyed to Kārtika never matched its own night.
-  const monthHit = c.calendar.months?.find(m => m === p.masa || m === p.masaN) ?? null;
-  const title = (m: string) => m[0].toUpperCase() + m.slice(1);
+  // Panchanga V2 wins when a cross-checked observance has an explicit,
+  // runtime-allowlisted story relationship. A high base keeps a direct
+  // observance match above legacy month/season hints while still allowing age,
+  // repeat and deterministic tie-breaks to work exactly as before.
+  const obsHit = !p.approximate ? bestObservanceMatch(c.id, ctx) : null;
+  if (obsHit) {
+    s += 140 + obsHit.score;
+    reason = observanceReason(obsHit);
+    matchedObservance = {
+      id: obsHit.observance.id,
+      name: obsHit.observance.names.en,
+      relevance: obsHit.mapping.relevance,
+      source: obsHit.observance.source
+    };
+  } else {
+    // Legacy calendar metadata remains a compatibility fallback while the
+    // independently researched observance corpus moves through runtime review.
+    const monthHit = c.calendar.months?.find(m => m === p.masa || m === p.masaN) ?? null;
+    const title = (m: string) => m[0].toUpperCase() + m.slice(1);
 
-  if (!p.approximate && c.calendar.festivals?.some(f => p.festivals.includes(f))) {
-    s += 100; reason = `it is ${c.calendar.festivals.find(f => p.festivals.includes(f))!.replace(/-/g, ' ')}`;
-  } else if (!p.approximate && c.calendar.tithi?.includes(p.tithi)
-             && (!c.calendar.months?.length || monthHit)) {
-    // A tithi ALONE recurs every month: there is a kṛṣṇa chaturdaśī twelve
-    // times a year. When a story also names its month, the two are a
-    // conjunction and not alternatives — otherwise the Naraka Chaturdaśī story
-    // came up every single month, saying "tonight is krishna chaturdashi" on a
-    // night that was nothing of the kind.
-    s += 20;
-    reason = monthHit ? `tonight is ${title(monthHit)} ${p.tithi.replace(/-/g, ' ')}`
-                      : `tonight is ${p.tithi.replace(/-/g, ' ')}`;
-  } else if (c.calendar.seasons?.includes(p.season)) {
-    // Season survives the placeholder — a solar month tells you the monsoon is
-    // ending even when it cannot tell you the tithi.
-    s += 12;  reason = `of where we are in the year — ${p.season.replace(/-/g, ' ')}`;
-  } else if (!p.approximate && monthHit) {
-    s += 6;   reason = `it belongs to ${title(monthHit)}`;
+    if (!p.approximate && c.calendar.festivals?.some(f => p.festivals.includes(f))) {
+      s += 100; reason = `it is ${c.calendar.festivals.find(f => p.festivals.includes(f))!.replace(/-/g, ' ')}`;
+    } else if (!p.approximate && c.calendar.tithi?.includes(p.tithi)
+               && (!c.calendar.months?.length || monthHit)) {
+      // A tithi ALONE recurs every month. If a story names a month too, the
+      // month and tithi are a conjunction, not alternatives.
+      s += 20;
+      reason = monthHit ? `tonight is ${title(monthHit)} ${p.tithi.replace(/-/g, ' ')}`
+                        : `tonight is ${p.tithi.replace(/-/g, ' ')}`;
+    } else if (c.calendar.seasons?.includes(p.season)) {
+      s += 12; reason = `of where we are in the year — ${p.season.replace(/-/g, ' ')}`;
+    } else if (!p.approximate && monthHit) {
+      s += 6; reason = `it belongs to ${title(monthHit)}`;
+    }
   }
 
   // gently prefer a story pitched at the child rather than well under them
@@ -77,7 +148,7 @@ function score(c: Card, ctx: Ctx, allowRecentRepeat = false): Scored | null {
   if (favourite) { s += 8; if (!reason) reason = 'this is one that got asked for twice'; }
   s += jitter(p.date, c.id) * 4;
 
-  return { card: c, score: s, reason };
+  return { card: c, score: s, reason, observance: matchedObservance };
 }
 
 export function pickTonight(cards: Card[], ctx: Ctx): Pick | null {
@@ -98,6 +169,7 @@ export function pickTonight(cards: Card[], ctx: Ctx): Pick | null {
     reason: top.reason || (repeated
       ? 'this is the reviewed story you have gone longest without hearing'
       : 'nothing on the calendar claims tonight, so this is simply the one that fits'),
-    alternates: ranked.slice(1, 3).map(r => r.card)
+    alternates: ranked.slice(1, 3).map(r => r.card),
+    ...(top.observance ? { observance: top.observance } : {})
   };
 }

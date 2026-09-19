@@ -325,6 +325,23 @@ Migration sequence:
 6. retain legacy calendar metadata until equivalence/regression checks are green;
 7. remove/reduce legacy fields only in a separate cleanup.
 
+## Runtime pilot trust boundary
+
+The research corpus is broader than the production picker.
+
+For the V2 pilot, runtime calendar context is emitted only for a year/date where
+an external calendar cross-check agrees with the resolver candidate. Known
+one-day disagreements remain in the research report and are not exposed as
+runtime truth.
+
+Story selection is stricter still: only an explicit runtime-policy allowlist of
+published-story mappings may affect Tonight. The underlying observance may
+remain `sourced` and the mapping may remain `proposed`; the runtime policy is a
+separate, auditable pilot gate and does not rewrite editorial review history.
+
+A sourced observance with no eligible story may still be shown as a calendar
+gap. The picker must not invent a relationship merely to fill it.
+
 ## Success criteria
 
 Panchanga V2 is successful when:

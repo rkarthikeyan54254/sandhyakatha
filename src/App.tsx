@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Card, CanonRow, Lexicon, Relations, Story } from './lib/types';
 import { panchanga, type PanchangaTable } from './lib/panchanga';
 import { pickTonight } from './lib/picker';
+import { observancesForDate, type RuntimeObservanceCatalog } from './lib/observance';
 import * as P from './lib/profile';
 import { track } from './lib/track';
 import { currentAccount, syncProfile, signOut, type Account as Acct } from './lib/sync';
@@ -26,6 +27,7 @@ export default function App() {
   const [rel, setRel] = useState<Relations | null>(null);
   const [cal, setCal] = useState<PanchangaTable | null>(null);
   const [localeCatalog, setLocaleCatalog] = useState<LocaleCatalog | null>(null);
+  const [observanceCatalog, setObservanceCatalog] = useState<RuntimeObservanceCatalog | null>(null);
   const [appLocale, setAppLocale] = useState<AppLocale>(initialAppLocale);
   const [open, setOpen] = useState<Story | null>(null);
   const [tab, setTab] = useState<Tab>(currentTab);
@@ -140,6 +142,7 @@ export default function App() {
     j('/data/lexicon.json').then(setLex).catch(() => {});
     j('/data/relations.json').then(setRel).catch(() => {});
     j('/data/panchanga.json').then(setCal).catch(() => {});
+    j('/data/observances.json').then(setObservanceCatalog).catch(() => {});
     j('/data/locale-catalog.json').then(setLocaleCatalog).catch(() => {});
   }, []);
 
@@ -218,15 +221,18 @@ export default function App() {
   const favourites = P.againOf(profile, child?.id ?? null);
   const localeCards = useMemo(() => cardsForAppLocale(cards, localeCatalog, appLocale), [cards, localeCatalog, appLocale]);
   const pan = useMemo(() => panchanga(new Date(), cal), [cal]);
+  const todayObservances = useMemo(
+    () => observancesForDate(observanceCatalog, pan.date),
+    [observanceCatalog, pan.date]);
   const pick = useMemo(
     () => localeCards.length ? pickTonight(localeCards, {
       // Before a parent gives us an age, choose conservatively. A story that is
       // safe for a four-year-old is still usable by an older child; the reverse
       // is not true.
       panchanga: pan, childAge: child?.age ?? 4, heard, favourites, includeGated: profile.gate,
-      allowRepeatFallback: appLocale !== 'en'
+      allowRepeatFallback: appLocale !== 'en', observances: todayObservances
     }) : null,
-    [localeCards, pan, child?.age, heard, favourites, profile.gate, appLocale]);
+    [localeCards, pan, child?.age, heard, favourites, profile.gate, appLocale, todayObservances]);
 
   /**
    * Tomorrow night, named while this reader is still open.
@@ -239,12 +245,14 @@ export default function App() {
   const tomorrowForOpen = useMemo(() => {
     if (!localeCards.length || !open || !readerWasTonightPick) return null;
     const d = new Date(); d.setDate(d.getDate() + 1);
+    const tomorrowPan = panchanga(d, cal);
     return pickTonight(localeCards, {
-      panchanga: panchanga(d, cal), childAge: child?.age ?? 4,
+      panchanga: tomorrowPan, childAge: child?.age ?? 4,
       heard: { ...heard, [open.id]: P.today() }, favourites, includeGated: profile.gate,
-      allowRepeatFallback: appLocale !== 'en'
+      allowRepeatFallback: appLocale !== 'en',
+      observances: observancesForDate(observanceCatalog, tomorrowPan.date)
     });
-  }, [localeCards, cal, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate, appLocale]);
+  }, [localeCards, cal, observanceCatalog, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate, appLocale]);
 
   const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
 
@@ -385,7 +393,7 @@ export default function App() {
                    setGate={g => setProfile(p => P.setGateSetting(p, g))}
                    onShelf={() => go('shelf')}
                    onMap={() => go('map')}
-                   onWhy={() => go('why')} locale={appLocale} />
+                   onWhy={() => go('why')} locale={appLocale} observances={todayObservances} />
         ) : tab === 'shelf' ? (
           <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
         ) : tab === 'map' ? (

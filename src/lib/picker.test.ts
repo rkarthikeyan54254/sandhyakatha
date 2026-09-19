@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { pickTonight } from './picker';
 import type { Card } from './types';
 import type { Panchanga } from './panchanga';
+import type { RuntimeObservance } from './observance';
 
 const card = (o: Partial<Card>): Card => ({
   id: 'x', title: 'X', tease: '', version: 1, storyRevision: '000000000000', corpus: 'bhagavata', tradition: 'sanskrit',
@@ -148,5 +149,73 @@ describe('a tithi is not a date', () => {
     const p = pickTonight([ekadashi, card({ id: 'plain2', calendar: { weight: 5 } })],
                           ctx({ panchanga: sep10 }))!;
     expect(p.story.id).toBe('any-ekadashi');
+  });
+});
+
+
+describe('Panchanga V2 observance ranking', () => {
+  const observance = (o: Partial<RuntimeObservance> = {}): RuntimeObservance => ({
+    id: 'vamana-jayanti',
+    names: { en: 'Vamana Jayanti' },
+    kind: 'jayanti',
+    scope: { breadth: 'pan-india', traditions: ['vaishnava'], regions: ['all-india'] },
+    importance: { tier: 'major', score: 76 },
+    source: { authority: 'Calendar', url: 'https://example.test', citation: 'Test source' },
+    stories: [{
+      storyId: 'vamana',
+      relevance: 'direct',
+      reason: "The story directly narrates Vamana's three steps and Mahabali."
+    }],
+    ...o
+  });
+
+  it('lets an explicit cross-checked observance relationship outrank legacy weights', () => {
+    const cards = [
+      card({ id: 'plain', calendar: { weight: 100 } }),
+      card({ id: 'vamana', calendar: { weight: 1 } })
+    ];
+    const p = pickTonight(cards, ctx({
+      panchanga: pan({ date: '2026-09-23', festivals: [] }),
+      observances: [observance()]
+    }))!;
+    expect(p.story.id).toBe('vamana');
+    expect(p.observance?.id).toBe('vamana-jayanti');
+    expect(p.reason).toContain('Vamana Jayanti');
+  });
+
+  it('ranks multiple same-day observance matches rather than dropping the lower-priority records', () => {
+    const high = observance({
+      id: 'major-day',
+      names: { en: 'Major Day' },
+      importance: { tier: 'principal', score: 95 },
+      stories: [{ storyId: 'major-story', relevance: 'direct', reason: 'The direct story.' }]
+    });
+    const lower = observance({
+      id: 'smaller-day',
+      names: { en: 'Smaller Day' },
+      importance: { tier: 'significant', score: 55 },
+      stories: [{ storyId: 'smaller-story', relevance: 'direct', reason: 'Another direct story.' }]
+    });
+    const p = pickTonight(
+      [card({ id: 'major-story' }), card({ id: 'smaller-story' })],
+      ctx({ observances: [lower, high], panchanga: pan({ festivals: [] }) })
+    )!;
+    expect(p.story.id).toBe('major-story');
+  });
+
+  it('does not invent a story link for an important observance with no published mapping', () => {
+    const radha = observance({
+      id: 'radha-ashtami',
+      names: { en: 'Radha Ashtami' },
+      importance: { tier: 'major', score: 90 },
+      stories: []
+    });
+    const p = pickTonight(
+      [card({ id: 'plain', calendar: { weight: 5 } })],
+      ctx({ observances: [radha], panchanga: pan({ festivals: [], season: 'winter' }) })
+    )!;
+    expect(p.story.id).toBe('plain');
+    expect(p.observance).toBeUndefined();
+    expect(p.reason).toContain('nothing on the calendar');
   });
 });

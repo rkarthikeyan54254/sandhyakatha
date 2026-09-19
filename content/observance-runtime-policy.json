@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "_readme": [
+    "Pilot runtime policy for Panchanga V2.",
+    "Calendar context is emitted only for dates whose external cross-check agrees with the resolver candidate.",
+    "A one-day or larger unresolved disagreement is never exposed through the runtime observance catalogue.",
+    "Story selection uses only explicitly allowlisted direct/strong-related pairs and published stories.",
+    "This does not mutate the research record's sourced/proposed editorial status."
+  ],
+  "selectionMappings": [
+    {
+      "observanceId": "narasimha-jayanti",
+      "storyId": "prahlada-pillar"
+    },
+    {
+      "observanceId": "vamana-jayanti",
+      "storyId": "vamana-three-steps"
+    },
+    {
+      "observanceId": "vamana-jayanti",
+      "storyId": "sukra-spout"
+    },
+    {
+      "observanceId": "naraka-chaturdashi",
+      "storyId": "narakasura"
+    },
+    {
+      "observanceId": "vijayadashami",
+      "storyId": "durga-mahishasura"
+    },
+    {
+      "observanceId": "onam",
+      "storyId": "vamana-three-steps"
+    }
+  ],
+  "allowedRelevance": [
+    "direct",
+    "strong-related"
+  ],
+  "legacyConsistency": {
+    "govardhan-puja": "govardhan-puja",
+    "vijayadashami": "vijayadashami",
+    "guru-purnima": "guru-purnima"
+  }
+}

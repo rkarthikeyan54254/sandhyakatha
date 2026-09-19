@@ -74,6 +74,7 @@ export interface LocaleUi {
   loading: string;
   minutes: string;
   integrity: string;
+  calendarSource: string;
   reader: ReaderUi;
 }
 
@@ -96,6 +97,7 @@ const UI: Record<AppLocale, LocaleUi> = {
     loading: 'Finding tonight’s story…',
     minutes: 'min aloud',
     integrity: 'Every story is written and source-checked before it appears here.',
+    calendarSource: 'Calendar source',
     reader: {
       reviewedEdition: 'Source-checked edition',
       minutes: 'min',
@@ -146,6 +148,7 @@ const UI: Record<AppLocale, LocaleUi> = {
     loading: 'आज रात की कहानी चुन रहे हैं…',
     minutes: 'मिनट · पढ़कर सुनाने के लिए',
     integrity: 'यहाँ केवल वही हिन्दी कहानियाँ आती हैं जिनकी भाषा, पढ़कर सुनाने और मूल स्रोत—तीनों की समीक्षा पूरी हो चुकी है।',
+    calendarSource: 'पंचांग स्रोत',
     reader: {
       reviewedEdition: 'समीक्षित हिन्दी संस्करण',
       minutes: 'मिनट',
@@ -196,6 +199,7 @@ const UI: Record<AppLocale, LocaleUi> = {
     loading: 'இன்றிரவு கதையைத் தேர்ந்தெடுக்கிறோம்…',
     minutes: 'நிமிடம் · வாசித்துச் சொல்ல',
     integrity: 'மொழி, வாசித்துச் சொல்லும் சோதனை, மூல ஆதார ஒப்பீடு ஆகியவை முடிந்த தமிழ் கதைகள் மட்டுமே இங்கே வரும்.',
+    calendarSource: 'பஞ்சாங்க ஆதாரம்',
     reader: {
       reviewedEdition: 'மதிப்பாய்வு செய்யப்பட்ட தமிழ் பதிப்பு',
       minutes: 'நிமிடம்',

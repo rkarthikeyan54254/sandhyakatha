@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { Lexicon, Story, Card } from '../lib/types';
+import type { Pick } from '../lib/picker';
 import { displayTerm } from '../lib/lexicon';
 import { localeUi, type AppLocale, type ReaderUi } from '../lib/app-locale';
 
@@ -20,7 +21,7 @@ function placeVars(rect: DOMRect): React.CSSProperties {
 export default function Reader({ story, lex, len, next, tomorrow, readBefore, hasProfile,
   locale = 'en', onBack, onHeard, onRead, onPersonalize, backLabel = 'Tonight' }: {
   story: Story; lex: Lexicon; len: 'short' | 'full' | 'more';
-  next: Card | null; tomorrow?: { story: Card; reason: string } | null; readBefore?: boolean;
+  next: Card | null; tomorrow?: Pick | null; readBefore?: boolean;
   hasProfile: boolean; locale?: AppLocale;
   onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
   onPersonalize: (age: number) => void;
@@ -171,7 +172,9 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
                 <span className="eyebrow">{copy.tomorrow}</span>
                 <h3>{tomorrow.story.title}</h3>
                 <p>{tomorrow.story.tease}</p>
-                <p className="why">{localized ? ui.reviewedPick : `Chosen because ${tomorrow.reason}.`}</p>
+                <p className="why">{localized ? ui.reviewedPick : `Chosen because ${tomorrow.reason.replace(/[.]+$/, '')}.`}
+                  {tomorrow.observance && <><br /><small>{ui.calendarSource}: <a href={tomorrow.observance.source.url} target="_blank" rel="noreferrer">{tomorrow.observance.source.authority}</a></small></>}
+                </p>
               </aside>
             )}
 

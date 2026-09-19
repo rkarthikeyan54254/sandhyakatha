@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { Card, CanonRow } from '../lib/types';
 import { CORPUS_LABEL, STABILITY_NOTE } from '../lib/types';
 import type { Pick } from '../lib/picker';
+import { observanceLabel, type RuntimeObservance } from '../lib/observance';
 import { titleCase, type Panchanga } from '../lib/panchanga';
 import * as P from '../lib/profile';
 import type { Account as Acct } from '../lib/sync';
@@ -43,6 +44,7 @@ interface Props {
   onMap: () => void;
   onWhy: () => void;
   locale: AppLocale;
+  observances: RuntimeObservance[];
 }
 
 export default function Tonight(p: Props) {
@@ -85,7 +87,7 @@ export default function Tonight(p: Props) {
     .filter(x => x.count >= 2);
 
   if (p.locale !== 'en') {
-    return <LocaleTonight locale={p.locale} pick={pick} cards={cards} pan={pan} onRead={onRead} />;
+    return <LocaleTonight locale={p.locale} pick={pick} cards={cards} pan={pan} onRead={onRead} observances={p.observances} />;
   }
 
   return (
@@ -99,8 +101,13 @@ export default function Tonight(p: Props) {
           {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
         </span>}
       </p>
-      {pan.festivals.length > 0 && (
+      {p.observances.length > 0 ? (
+        <p className="festival">{p.observances.slice(0, 4).map(o => o.names.en).join(' · ')}{p.observances.length > 4 ? ` · +${p.observances.length - 4}` : ''}</p>
+      ) : pan.festivals.length > 0 && (
         <p className="festival">{pan.festivals.map(f => titleCase(f)).join(' · ')}</p>
+      )}
+      {p.observances[0] && p.observances[0].stories.length === 0 && (
+        <p className="sub">{p.observances[0].names.en} is on today's cross-checked calendar. We don't yet have a published Sandhya Katha story for it. <a href={p.observances[0].source.url} target="_blank" rel="noreferrer">{p.observances[0].source.authority}</a></p>
       )}
 
       {annivStory && (
@@ -146,7 +153,9 @@ export default function Tonight(p: Props) {
             <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="#f0b458" strokeWidth="1.6" aria-hidden="true">
               <path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.6 4.6l1.4 1.4M14 14l1.4 1.4M15.4 4.6L14 6M6 14l-1.4 1.4" /><circle cx="10" cy="10" r="3.2" />
             </svg>
-            <p><b>Why tonight:</b> {pick.reason}.</p>
+            <p><b>Why tonight:</b> {pick.reason.replace(/[.]+$/, '')}.
+              {pick.observance && <><br /><small>{localeUi('en').calendarSource}: <a href={pick.observance.source.url} target="_blank" rel="noreferrer">{pick.observance.source.authority}</a></small></>}
+            </p>
           </div>
           <div className="body">
             <div className="srcline">{s.work} · {s.locus}</div>
@@ -291,12 +300,13 @@ export default function Tonight(p: Props) {
   );
 }
 
-function LocaleTonight({ locale, pick, cards, pan, onRead }: {
+function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
   locale: Exclude<AppLocale,'en'>;
   pick: Pick | null;
   cards: Card[];
   pan: Panchanga;
   onRead: (id: string) => void;
+  observances: RuntimeObservance[];
 }) {
   const ui = localeUi(locale);
   const s = pick?.story;
@@ -313,7 +323,9 @@ function LocaleTonight({ locale, pick, cards, pan, onRead }: {
           {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
         </span>}
       </p>
-      {pan.festivals.length > 0 && (
+      {observances.some(o => observanceLabel(o, locale)) ? (
+        <p className="festival">{observances.map(o => observanceLabel(o, locale)).filter(Boolean).slice(0, 4).join(' · ')}</p>
+      ) : pan.festivals.length > 0 && (
         <p className="festival">{pan.festivals.map(f => titleCase(f)).join(' · ')}</p>
       )}
 
@@ -325,7 +337,9 @@ function LocaleTonight({ locale, pick, cards, pan, onRead }: {
             <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="#f0b458" strokeWidth="1.6" aria-hidden="true">
               <path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.6 4.6l1.4 1.4M14 14l1.4 1.4M15.4 4.6L14 6M6 14l-1.4 1.4" /><circle cx="10" cy="10" r="3.2" />
             </svg>
-            <p><b>{ui.whyTonight}</b> {localeReason(pick.reason, locale)}</p>
+            <p><b>{ui.whyTonight}</b> {localeReason(pick.reason, locale)}
+              {pick.observance && <><br /><small>{ui.calendarSource}: <a href={pick.observance.source.url} target="_blank" rel="noreferrer">{pick.observance.source.authority}</a></small></>}
+            </p>
           </div>
           <div className="body">
             <div className="srcline">{s.work} · {s.locus}</div>
