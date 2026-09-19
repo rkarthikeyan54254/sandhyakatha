@@ -5,6 +5,7 @@ import { pickTonight } from './lib/picker';
 import { observancesForDate, type RuntimeObservanceCatalog } from './lib/observance';
 import * as P from './lib/profile';
 import { track } from './lib/track';
+import { recordStoryOpen } from './lib/retention';
 import { currentAccount, syncProfile, signOut, type Account as Acct } from './lib/sync';
 import { adoptSnapshot, sameSnapshot } from './lib/sync-adoption';
 import { Header, LanguageBar, Tabs, type Tab } from './ui/Chrome';
@@ -269,6 +270,7 @@ export default function App() {
       if (appLocale !== 'en' && !localized)
         throw new Error(`${appLocale}/${id}: reviewed runtime edition missing`);
       const s: Story = await (await fetch(storyUrl)).json();
+      const retention = recordStoryOpen(new Date());
       track('story_opened', {
         story_id: s.id,
         corpus: s.source.corpus,
@@ -276,7 +278,8 @@ export default function App() {
         mode: appLocale === 'en' ? analyticsMode(len) : 'short',
         repeat: !!heard[id],
         one_more: appLocale === 'en' && len === 'more',
-        locale: appLocale
+        locale: appLocale,
+        ...retention
       });
       setOpen(s); window.scrollTo({ top: 0 });
     } catch { /* not written yet */ }
