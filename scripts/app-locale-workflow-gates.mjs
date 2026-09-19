@@ -51,6 +51,35 @@ if (!styles.includes('"brand main" "language main" "nav main"') ||
     !styles.includes('.languagebar{grid-area:language'))
   fail('desktop language selector must have a real sidebar grid area');
 
+// CSS source order is part of the desktop locale contract. The generic
+// languagebar rule is intentionally mobile-first and appears late in this
+// stylesheet. A desktop repair therefore must appear after it; otherwise its
+// sticky/flex declarations visually displace the selector over locale nav.
+const genericLanguageBar = styles.lastIndexOf('.languagebar{display:flex');
+const desktopLanguageRepair = styles.lastIndexOf('/* ---------- locale desktop language-bar parity ---------- */');
+if (genericLanguageBar === -1 || desktopLanguageRepair === -1 ||
+    desktopLanguageRepair <= genericLanguageBar) {
+  fail('desktop language-bar repair must appear after generic/mobile languagebar styles');
+} else {
+  const repair = styles.slice(desktopLanguageRepair);
+  for (const token of [
+    '@media (min-width:900px)',
+    'position:static',
+    'top:auto',
+    'z-index:auto',
+    'display:grid',
+    'grid-template-columns:repeat(3,minmax(0,1fr))',
+    'width:100%',
+    'background:none',
+    'backdrop-filter:none',
+    '.languagebar>span{',
+    'display:block',
+    'min-width:0'
+  ]) if (!repair.includes(token))
+    fail(`desktop language-bar repair missing: ${token}`);
+}
+
+
 const picker = source('src/lib/picker.ts');
 if (!picker.includes('allowRepeatFallback'))
   fail('Tonight picker has no small-reviewed-shelf repeat fallback');
