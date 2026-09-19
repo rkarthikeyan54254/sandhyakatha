@@ -1,0 +1,56 @@
+{
+  "id": "guru-purnima",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Guru Purnima"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Vyasa",
+    "Guru"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "ashadha",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "guru-purnima-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Ashadha Purnima is widely known as Guru Purnima.",
+        "url": "https://panchangtime.com/festivals/ashadha-purnima",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

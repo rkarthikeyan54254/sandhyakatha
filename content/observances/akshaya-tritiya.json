@@ -1,0 +1,56 @@
+{
+  "id": "akshaya-tritiya",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Akshaya Tritiya"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Vishnu",
+    "Lakshmi"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "vaishakha",
+    "paksha": "shukla",
+    "tithi": "tritiya",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 84
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "akshaya-tritiya-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Akshaya Tritiya is a major Vaishakha Shukla Tritiya observance.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

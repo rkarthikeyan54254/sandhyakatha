@@ -1,0 +1,56 @@
+{
+  "id": "pohela-boishakh",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Pohela Boishakh / Bengali New Year"
+  },
+  "kind": "festival",
+  "subjects": [
+    "New Year"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "regional-folk"
+    ],
+    "regions": [
+      "west-bengal",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "bengali",
+    "solarMonth": "boishakh",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "pohela-boishakh-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Pohela Boishakh is the first day of the Bengali calendar and is celebrated as Bengali New Year.",
+        "url": "https://www.drikpanchang.com/festivals/pohela-boishakh/pohela-boishakh-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

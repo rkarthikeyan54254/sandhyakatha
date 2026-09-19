@@ -1,0 +1,55 @@
+{
+  "id": "shankaracharya-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Adi Shankaracharya Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Adi Shankaracharya"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "smarta"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "vaishakha",
+    "paksha": "shukla",
+    "tithi": "panchami",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 70
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "shankaracharya-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Shankaracharya Jayanti is Vaishakha Shukla Panchami.",
+        "url": "https://www.drikpanchang.com/festivals/lunar-month/festivals-vaishakha.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

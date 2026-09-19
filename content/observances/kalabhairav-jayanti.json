@@ -1,0 +1,61 @@
+{
+  "id": "kalabhairav-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Kalabhairav Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Kalabhairava",
+    "Shiva"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "shaiva",
+      "shakta",
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "south-india",
+      "west-india",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "margashirsha",
+    "paksha": "krishna",
+    "tithi": "ashtami",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "kalabhairav-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Kalabhairav Jayanti is Margashirsha Krishna Ashtami in Purnimanta reckoning; Amanta calendars name the same tithi Kartika Krishna.",
+        "url": "https://www.drikpanchang.com/festivals/kalabhairav/kalabhairav-jayanti-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

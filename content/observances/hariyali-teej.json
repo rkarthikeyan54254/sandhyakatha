@@ -1,0 +1,60 @@
+{
+  "id": "hariyali-teej",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Hariyali Teej"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Parvati",
+    "Shiva"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "shaiva"
+    ],
+    "regions": [
+      "north-india",
+      "rajasthan",
+      "haryana",
+      "uttar-pradesh"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "shravana",
+    "paksha": "shukla",
+    "tithi": "tritiya",
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 70
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "hariyali-teej-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Hariyali Teej is Shravana Shukla Tritiya in North Indian calendars.",
+        "url": "https://www.drikpanchang.com/festivals/teej/hariyali-teej-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

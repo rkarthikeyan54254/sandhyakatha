@@ -1,0 +1,54 @@
+{
+  "id": "makaravilakku",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Makaravilakku"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Ayyappa"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "kerala"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "sidereal-solar",
+    "solarMonth": "makara",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 82
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "makaravilakku-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Makaravilakku is a major Sabarimala festival observed on the Makar Sankranti day.",
+        "url": "https://www.drikpanchang.com/malayalam/festivals/makaravilakku/makara-vilakku-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

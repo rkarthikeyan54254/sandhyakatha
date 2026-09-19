@@ -1,0 +1,55 @@
+{
+  "id": "masik-kalashtami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Masik Kalashtami"
+  },
+  "kind": "monthly-observance",
+  "subjects": [
+    "Bhairava",
+    "Shiva"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "recurring-tithi",
+    "monthSystem": "not-applicable",
+    "paksha": "krishna",
+    "tithi": "ashtami",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "observe"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 36
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "masik-kalashtami-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Masik Kalashtami is represented as a recurring krishna ashtami observance.",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

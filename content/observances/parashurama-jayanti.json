@@ -1,0 +1,57 @@
+{
+  "id": "parashurama-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Parashurama Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Parashurama",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "vaishakha",
+    "paksha": "shukla",
+    "tithi": "tritiya",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "parashurama-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Parashurama Jayanti is Vaishakha Shukla Tritiya.",
+        "url": "https://panchangtime.com/festivals/parashurama-jayanti",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "radha-ashtami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Radha Ashtami"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Radha",
+    "Krishna"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "vaishnava",
+      "gaudiya-vaishnava"
+    ],
+    "regions": [
+      "north-india",
+      "braj",
+      "west-india",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "ashtami",
+    "decisionWindow": "madhyahna",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 80
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "radha-ashtami-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Radha Ashtami is Bhadrapada Shukla Ashtami with midday worship and special prominence in Braj.",
+        "url": "https://panchangtime.com/festivals/radha-ashtami",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

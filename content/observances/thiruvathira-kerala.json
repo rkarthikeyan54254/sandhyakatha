@@ -1,0 +1,56 @@
+{
+  "id": "thiruvathira-kerala",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Thiruvathira"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Shiva",
+    "Parvati"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "shaiva",
+      "general-hindu"
+    ],
+    "regions": [
+      "kerala"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "malayalam",
+    "solarMonth": "dhanu",
+    "nakshatra": "ardra",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 78
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "thiruvathira-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Malayalam calendar lists Thiruvathira as a solar-calendar observance in the Dhanu season.",
+        "url": "https://www.drikpanchang.com/malayalam/calendar/malayalam-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

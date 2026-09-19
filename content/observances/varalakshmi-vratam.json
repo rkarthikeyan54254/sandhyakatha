@@ -1,0 +1,64 @@
+{
+  "id": "varalakshmi-vratam",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Varalakshmi Vratam"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Lakshmi"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "shakta"
+    ],
+    "regions": [
+      "south-india",
+      "karnataka",
+      "tamil-nadu",
+      "andhra-pradesh",
+      "telangana",
+      "maharashtra"
+    ]
+  },
+  "rule": {
+    "type": "yearly-explicit",
+    "datesByYear": {
+      "2026": "2026-08-28",
+      "2027": "2027-08-13",
+      "2028": "2028-08-04",
+      "2029": "2029-08-24"
+    },
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "not-applicable",
+    "note": "Explicit 2026-2029 dates are retained until the 'last Friday of Shravana Shukla Paksha before Purnima' rule is represented directly."
+  },
+  "importance": {
+    "tier": "major",
+    "score": 84
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "varalakshmi-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Varalakshmi Vratam is observed on the last Friday during Shravana Shukla Paksha, a few days before Shravana Purnima.",
+        "url": "https://www.drikpanchang.com/festivals/varalakshmi-vratam/varalakshmi-vratam-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

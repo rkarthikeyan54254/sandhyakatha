@@ -1,0 +1,56 @@
+{
+  "id": "makar-sankranti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Makar Sankranti"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Surya",
+    "Harvest"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "saura"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "sidereal-solar",
+    "solarMonth": "makara",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 96
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "makar-sankranti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Makar Sankranti is the solar transit from Dhanu to Makara and is observed across India under regional names.",
+        "url": "https://www.drikpanchang.com/festivals/sankranti/makar-sankranti-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "valmiki-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Maharishi Valmiki Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Valmiki"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "valmiki-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Valmiki Jayanti is observed on Ashvina Purnima.",
+        "url": "https://www.drikpanchang.com/hindu-saints/valmiki/maharishi-valmiki-jayanti.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

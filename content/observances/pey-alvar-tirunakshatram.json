@@ -1,0 +1,54 @@
+{
+  "id": "pey-alvar-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Pey Alvar Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Pey Alvar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "aippasi",
+    "nakshatra": "shatabhisha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 50
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "pey-alvar-divyadesam",
+        "type": "sampradaya-calendar",
+        "authority": "Divyadesam.com",
+        "citation": "The 12-Alvar register gives Pey Alvar's avathara month and nakshatra as aippasi / shatabhisha.",
+        "url": "https://www.divyadesam.com/alwars/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

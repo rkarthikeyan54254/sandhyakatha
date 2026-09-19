@@ -1,0 +1,55 @@
+{
+  "id": "magh-bihu",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Magh Bihu / Bhogali Bihu"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Harvest"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "regional-folk",
+      "general-hindu"
+    ],
+    "regions": [
+      "assam",
+      "northeast-india"
+    ]
+  },
+  "rule": {
+    "type": "relative",
+    "anchorObservanceId": "makar-sankranti",
+    "offsetDays": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 78
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "magh-bihu-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Assamese calendar lists Magh Bihu on the day after Makar Sankranti.",
+        "url": "https://www.drikpanchang.com/assamese/calendar/assamese-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

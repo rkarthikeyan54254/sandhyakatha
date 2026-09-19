@@ -1,0 +1,60 @@
+{
+  "id": "dattatreya-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Dattatreya Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Dattatreya",
+    "Atri",
+    "Anasuya"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "maharashtra",
+      "karnataka",
+      "goa",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "margashirsha",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 76
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "dattatreya-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Dattatreya Jayanti is Margashirsha Purnima and is especially prominent in Maharashtra and Karnataka.",
+        "url": "https://panchangtime.com/festivals/dattatreya-jayanti",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

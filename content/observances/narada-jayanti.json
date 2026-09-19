@@ -1,0 +1,59 @@
+{
+  "id": "narada-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Narada Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Narada"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "north-india",
+      "south-india",
+      "east-india",
+      "west-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "jyeshtha",
+    "paksha": "krishna",
+    "tithi": "pratipada",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 62
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "narada-jayanti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Narada Jayanti is listed on Jyeshtha Krishna Pratipada.",
+        "url": "https://www.drikpanchang.com/festivals/lunar-month/festivals-jyeshtha.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

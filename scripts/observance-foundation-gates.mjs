@@ -33,6 +33,12 @@ for (const token of [
 
 if (!architecture.includes('Stories do not define the calendar'))
   fail('PANCHANGA-V2.md lost the observance/story separation');
+if (!schema.properties?.rule?.properties?.solarMonth ||
+    !schema.properties?.rule?.properties?.type?.enum?.includes('solar-month-lunar-tithi'))
+  fail('schema 1.1 must support solarMonth and hybrid solar-month/lunar-tithi rules');
+if (!vocab.solarMonths?.tamil?.includes('margazhi') || !vocab.solarMonths?.malayalam?.includes('chingam'))
+  fail('solar-month vocabularies for Tamil and Malayalam are missing');
+
 if (!String(pkg.scripts?.['validate:observances'] ?? '').includes('validate-observances.mjs'))
   fail('package script validate:observances missing');
 if (!String(pkg.scripts?.['validate:strict'] ?? '').includes('validate-observances.mjs'))

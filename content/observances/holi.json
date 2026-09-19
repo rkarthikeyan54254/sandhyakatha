@@ -1,0 +1,54 @@
+{
+  "id": "holi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Holi"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Krishna",
+    "Prahlada"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "relative",
+    "anchorObservanceId": "holika-dahan",
+    "offsetDays": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 96
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "holi-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Holi follows the Holika Dahan full-moon observance in the principal North Indian festival cycle.",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "panguni-uthiram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Panguni Uthiram"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Murugan",
+    "Shiva",
+    "Parvati",
+    "Vishnu",
+    "Lakshmi"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "kaumara",
+      "shaiva",
+      "vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "panguni",
+    "nakshatra": "uttara-phalguni",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 88
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "panguni-uthiram-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Panguni Uthiram is the Panguni-Uttara Phalguni observance in Tamil tradition.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

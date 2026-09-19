@@ -1,0 +1,54 @@
+{
+  "id": "sankashti-chaturthi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Sankashti Chaturthi"
+  },
+  "kind": "monthly-observance",
+  "subjects": [
+    "Ganesha"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "recurring-tithi",
+    "monthSystem": "not-applicable",
+    "paksha": "krishna",
+    "tithi": "chaturthi",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "observe"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 40
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "sankashti-chaturthi-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Sankashti Chaturthi is represented as a recurring krishna chaturthi observance.",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

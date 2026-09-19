@@ -1,0 +1,57 @@
+{
+  "id": "anant-chaturdashi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Anant Chaturdashi"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Vishnu",
+    "Ananta"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "chaturdashi",
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 74
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "anant-chaturdashi-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Anant Chaturdashi is Bhadrapada Shukla Chaturdashi and also closes the ten-day Ganesh cycle.",
+        "url": "https://panchangtime.com/festivals/anant-chaturdashi",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

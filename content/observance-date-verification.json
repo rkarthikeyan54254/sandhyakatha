@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0",
+  "_readme": [
+    "External date cross-checks are editorial evidence, not the recurrence rule itself.",
+    "The resolver compares its generated candidate with these dated references and preserves disagreements.",
+    "Dates below are New Delhi / source-calendar dates unless the note says otherwise; geography can move an observance by a day."
+  ],
+  "checks": {
+    "parashurama-jayanti": {
+      "source": "https://panchangtime.com/festivals/parashurama-jayanti",
+      "dates": {
+        "2026": "2026-04-19",
+        "2027": "2027-05-08",
+        "2028": "2028-04-27",
+        "2029": "2029-05-16"
+      }
+    },
+    "narasimha-jayanti": {
+      "source": "https://panchangtime.com/festivals/narasimha-jayanti",
+      "dates": {
+        "2026": "2026-04-30",
+        "2027": "2027-05-18",
+        "2028": "2028-05-07",
+        "2029": "2029-05-26"
+      }
+    },
+    "ganga-dussehra": {
+      "source": "https://panchangtime.com/festivals/ganga-dussehra",
+      "dates": {
+        "2026": "2026-05-25",
+        "2027": "2027-06-13",
+        "2028": "2028-06-02",
+        "2029": "2029-06-21"
+      }
+    },
+    "guru-purnima": {
+      "source": "https://panchangtime.com/festivals/ashadha-purnima",
+      "dates": {
+        "2026": "2026-07-29",
+        "2027": "2027-07-18",
+        "2028": "2028-07-06",
+        "2029": "2029-07-25"
+      }
+    },
+    "raksha-bandhan": {
+      "source": "https://panchangtime.com/festivals/raksha-bandhan",
+      "dates": {
+        "2026": "2026-08-28",
+        "2027": "2027-08-17",
+        "2028": "2028-08-05",
+        "2029": "2029-08-23"
+      }
+    },
+    "varaha-jayanti": {
+      "source": "https://panchangtime.com/festivals/varaha-jayanti",
+      "dates": {
+        "2026": "2026-09-13",
+        "2027": "2027-09-03",
+        "2028": "2028-08-22",
+        "2029": "2029-09-10"
+      }
+    },
+    "balarama-jayanti": {
+      "source": "https://panchangtime.com/festivals/balarama-jayanti",
+      "dates": {
+        "2026": "2026-09-16",
+        "2027": "2027-09-06",
+        "2028": "2028-08-25",
+        "2029": "2029-09-13"
+      }
+    },
+    "radha-ashtami": {
+      "source": "https://panchangtime.com/festivals/radha-ashtami",
+      "dates": {
+        "2026": "2026-09-19",
+        "2027": "2027-09-08",
+        "2028": "2028-08-27",
+        "2029": "2029-09-15"
+      }
+    },
+    "vamana-jayanti": {
+      "source": "https://panchangtime.com/festivals/vamana-jayanti",
+      "dates": {
+        "2026": "2026-09-23",
+        "2027": "2027-09-12",
+        "2028": "2028-08-31",
+        "2029": "2029-09-19"
+      }
+    },
+    "anant-chaturdashi": {
+      "source": "https://panchangtime.com/festivals/anant-chaturdashi",
+      "dates": {
+        "2026": "2026-09-25",
+        "2027": "2027-09-14",
+        "2028": "2028-09-02",
+        "2029": "2029-09-21"
+      }
+    },
+    "pitru-paksha": {
+      "source": "https://panchangtime.com/festivals/pitru-paksha",
+      "dates": {
+        "2026": "2026-09-27",
+        "2027": "2027-09-16",
+        "2028": "2028-09-04",
+        "2029": "2029-09-23"
+      }
+    },
+    "vijayadashami": {
+      "source": "https://panchangtime.com/festivals/dussehra",
+      "dates": {
+        "2026": "2026-10-20",
+        "2027": "2027-10-09",
+        "2028": "2028-09-27",
+        "2029": "2029-10-16"
+      }
+    },
+    "sharad-purnima": {
+      "source": "https://panchangtime.com/festivals/sharad-purnima",
+      "dates": {
+        "2026": "2026-10-25",
+        "2027": "2027-10-14",
+        "2028": "2028-10-02",
+        "2029": "2029-10-21"
+      }
+    },
+    "karwa-chauth": {
+      "source": "https://panchangtime.com/festivals/karwa-chauth",
+      "dates": {
+        "2026": "2026-10-29",
+        "2027": "2027-10-18",
+        "2028": "2028-10-07",
+        "2029": "2029-10-26"
+      }
+    },
+    "naraka-chaturdashi": {
+      "source": "https://panchangtime.com/festivals/narak-chaturdashi",
+      "dates": {
+        "2026": "2026-11-08",
+        "2027": "2027-10-28",
+        "2028": "2028-10-17",
+        "2029": "2029-11-05"
+      }
+    },
+    "govardhan-puja": {
+      "source": "https://panchangtime.com/festivals/govardhan-puja",
+      "dates": {
+        "2026": "2026-11-10",
+        "2027": "2027-10-30",
+        "2028": "2028-10-18",
+        "2029": "2029-11-06"
+      }
+    },
+    "tulasi-vivah": {
+      "source": "https://panchangtime.com/festivals/tulasi-vivah",
+      "dates": {
+        "2026": "2026-11-21",
+        "2027": "2027-11-11",
+        "2028": "2028-10-29",
+        "2029": "2029-11-17"
+      }
+    },
+    "gita-jayanti": {
+      "source": "https://panchangtime.com/festivals/gita-jayanti",
+      "dates": {
+        "2026": "2026-12-20",
+        "2027": "2027-12-09",
+        "2028": "2028-11-27",
+        "2029": "2029-12-16"
+      }
+    },
+    "dattatreya-jayanti": {
+      "source": "https://panchangtime.com/festivals/dattatreya-jayanti",
+      "dates": {
+        "2026": "2026-12-23",
+        "2027": "2027-12-13",
+        "2028": "2028-12-01",
+        "2029": "2029-12-20"
+      }
+    },
+    "onam": {
+      "source": "https://www.drikpanchang.com/festivals/onam/onam-thiruvonam-date.html?geoname-id=1254163",
+      "dates": {
+        "2026": "2026-08-26",
+        "2027": "2027-09-12",
+        "2028": "2028-09-01",
+        "2029": "2029-08-22"
+      }
+    }
+  }
+}

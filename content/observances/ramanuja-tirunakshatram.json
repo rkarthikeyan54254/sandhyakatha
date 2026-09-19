@@ -1,0 +1,54 @@
+{
+  "id": "ramanuja-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Ramanuja Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Ramanuja"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "chithirai",
+    "nakshatra": "ardra",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "ramanuja-srivaishnavam",
+        "type": "sampradaya-calendar",
+        "authority": "Srivaishnavam.com",
+        "citation": "The Sri Vaishnava site describes Ramanuja's Thirunakshatram and the Thiruvadhirai association.",
+        "url": "https://www.srivaishnavam.com/about.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "holika-dahan",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Holika Dahan"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Prahlada",
+    "Holika",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "phalguna",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "pradosha",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "holika-dahan-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Holika Dahan is observed on Phalguna Shukla Purnima, with evening/Pradosha selection rules.",
+        "url": "https://www.drikpanchang.com/festivals/holi/holika-dahan-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

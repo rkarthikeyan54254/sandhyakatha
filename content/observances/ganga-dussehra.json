@@ -1,0 +1,59 @@
+{
+  "id": "ganga-dussehra",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Ganga Dussehra"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Ganga",
+    "Bhagiratha",
+    "Shiva"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "uttar-pradesh",
+      "uttarakhand"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "jyeshtha",
+    "paksha": "shukla",
+    "tithi": "dashami",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "ganga-dussehra-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Ganga Dussehra is Jyeshtha Shukla Dashami and is especially prominent in North India.",
+        "url": "https://panchangtime.com/festivals/ganga-dussehra",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

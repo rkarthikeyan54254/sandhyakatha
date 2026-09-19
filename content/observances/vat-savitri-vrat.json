@@ -1,0 +1,59 @@
+{
+  "id": "vat-savitri-vrat",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vat Savitri Vrat"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Savitri",
+    "Satyavan",
+    "Yama"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "west-india",
+      "central-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "jyeshtha",
+    "paksha": "krishna",
+    "tithi": "amavasya",
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vat-savitri-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Vat Savitri Vrat is observed on Jyeshtha Krishna Amavasya in the North Indian reckoning.",
+        "url": "https://www.drikpanchang.com/festivals/savitri/vat-savitri-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

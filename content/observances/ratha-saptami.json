@@ -1,0 +1,56 @@
+{
+  "id": "ratha-saptami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Ratha Saptami / Surya Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Surya"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "saura",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "magha",
+    "paksha": "shukla",
+    "tithi": "saptami",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 80
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "ratha-saptami-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Ratha Saptami, also called Surya Jayanti, is Magha Shukla Saptami.",
+        "url": "https://www.drikpanchang.com/festivals/ratha-saptami/ratha-saptami-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

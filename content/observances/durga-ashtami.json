@@ -1,0 +1,56 @@
+{
+  "id": "durga-ashtami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Durga Ashtami"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Durga"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "shakta",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "ashtami",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "durga-ashtami-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Durga Ashtami is the eighth tithi within Sharad Navaratri.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

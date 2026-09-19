@@ -1,0 +1,55 @@
+{
+  "id": "vasant-panchami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vasant Panchami / Saraswati Puja"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Saraswati"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "magha",
+    "paksha": "shukla",
+    "tithi": "panchami",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 84
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vasant-panchami-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Vasant Panchami is Magha Shukla Panchami and is widely observed as Saraswati Puja.",
+        "url": "https://www.drikpanchang.com/festivals/vasant-panchami/vasant-panchami-puja-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

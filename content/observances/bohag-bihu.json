@@ -1,0 +1,57 @@
+{
+  "id": "bohag-bihu",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Bohag Bihu / Rongali Bihu"
+  },
+  "kind": "festival",
+  "subjects": [
+    "New Year",
+    "Harvest"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "regional-folk",
+      "general-hindu"
+    ],
+    "regions": [
+      "assam",
+      "northeast-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "assamese",
+    "solarMonth": "bohag",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "bohag-bihu-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Assamese solar calendar begins Bohag at the regional new-year/Bihu season.",
+        "url": "https://www.drikpanchang.com/assamese/calendar/assamese-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

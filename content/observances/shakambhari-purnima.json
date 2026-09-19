@@ -1,0 +1,59 @@
+{
+  "id": "shakambhari-purnima",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Shakambhari Purnima / Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Shakambhari",
+    "Devi"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "shakta",
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "south-india",
+      "west-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "pausha",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 78
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "shakambhari-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Shakambhari Jayanti is observed on Pausha Purnima.",
+        "url": "https://www.drikpanchang.com/navratri/shakambari/shakambari-purnima-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

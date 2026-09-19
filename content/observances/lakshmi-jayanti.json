@@ -1,0 +1,59 @@
+{
+  "id": "lakshmi-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Lakshmi Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Lakshmi"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "shakta",
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "west-india",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "phalguna",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 64
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "lakshmi-jayanti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Lakshmi Jayanti is listed on Phalguna Purnima.",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

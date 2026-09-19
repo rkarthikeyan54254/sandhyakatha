@@ -1,0 +1,56 @@
+{
+  "id": "diwali-lakshmi-puja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Diwali / Lakshmi Puja"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Lakshmi",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "krishna",
+    "tithi": "amavasya",
+    "decisionWindow": "pradosha",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 100
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "diwali-lakshmi-puja-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "The Diwali Lakshmi Puja night is Kartika Amavasya in purnimanta reckoning, within the five-day Diwali cycle.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

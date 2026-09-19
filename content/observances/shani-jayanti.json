@@ -1,0 +1,59 @@
+{
+  "id": "shani-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Shani Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Shani",
+    "Surya"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu",
+      "saura"
+    ],
+    "regions": [
+      "north-india",
+      "west-india",
+      "central-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "jyeshtha",
+    "paksha": "krishna",
+    "tithi": "amavasya",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 68
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "shani-jayanti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Shani Jayanti is observed on Jyeshtha Amavasya in the North Indian Purnimanta calendar.",
+        "url": "https://www.drikpanchang.com/festivals/shani-jayanti/shani-jayanti-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

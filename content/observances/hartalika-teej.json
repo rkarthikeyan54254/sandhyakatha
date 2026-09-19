@@ -1,0 +1,58 @@
+{
+  "id": "hartalika-teej",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Hartalika Teej"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Parvati",
+    "Shiva"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "shaiva"
+    ],
+    "regions": [
+      "north-india",
+      "west-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "tritiya",
+    "decisionWindow": "sunrise-prevailing",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 74
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "hartalika-teej-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Hartalika Teej is Bhadrapada Shukla Tritiya.",
+        "url": "https://www.drikpanchang.com/festivals/teej/hartalika-teej-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

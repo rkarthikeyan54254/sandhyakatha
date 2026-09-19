@@ -14,8 +14,8 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "preview": "vite preview",
     "content": "node scripts/build-index.mjs && node scripts/build-runtime-locales.mjs && node scripts/runtime-locale-gates.mjs",
-    "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs && node scripts/validate-observances.mjs",
-    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs && node scripts/validate-observances.mjs --strict && node scripts/observance-foundation-gates.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs && node scripts/validate-observances.mjs && node scripts/validate-observance-map.mjs",
+    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs && node scripts/validate-observances.mjs --strict && node scripts/observance-foundation-gates.mjs && node scripts/validate-observance-map.mjs --strict",
     "lock": "node scripts/lock.mjs && node scripts/lock-locales.mjs",
     "ssml": "node scripts/render-audio.mjs",
     "og": "node scripts/og.mjs",
@@ -41,7 +41,11 @@
     "verify:runtime-locales": "node scripts/runtime-locale-gates.mjs",
     "verify:app-locale-workflow": "node scripts/app-locale-workflow-gates.mjs",
     "validate:observances": "node scripts/validate-observances.mjs",
-    "verify:observance-foundation": "node scripts/observance-foundation-gates.mjs"
+    "verify:observance-foundation": "node scripts/observance-foundation-gates.mjs",
+    "resolve:observances": "node scripts/resolve-observances.mjs",
+    "validate:observance-maps": "node scripts/validate-observance-map.mjs",
+    "observances:coverage": "node scripts/observance-coverage.mjs",
+    "observances:research": "npm run validate:observances && npm run validate:observance-maps && npm run resolve:observances && npm run observances:coverage"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

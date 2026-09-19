@@ -1,0 +1,56 @@
+{
+  "id": "gudi-padwa",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Gudi Padwa"
+  },
+  "kind": "festival",
+  "subjects": [
+    "New Year"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "maharashtra",
+      "goa"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "chaitra",
+    "paksha": "shukla",
+    "tithi": "pratipada",
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 94
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "gudi-padwa-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Gudi Padwa is observed on Chaitra Shukla Pratipada in Maharashtra/Goa.",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?l=6284&lang=en",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

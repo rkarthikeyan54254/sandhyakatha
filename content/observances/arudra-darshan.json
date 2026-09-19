@@ -1,0 +1,57 @@
+{
+  "id": "arudra-darshan",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Arudra Darshan"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Shiva",
+    "Nataraja"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "shaiva",
+      "tamil-shaiva"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "margazhi",
+    "nakshatra": "ardra",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 84
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "arudra-darshan-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Arudra Darshan/Tiruvathirai is the Margazhi-Ardra observance of Nataraja.",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html?l=6284&lang=en",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "_readme": [
     "Controlled vocabularies for Bharat observance records.",
     "Additions are editorial changes: extend this registry deliberately rather than inventing one-off spellings in observance files."
@@ -167,5 +167,91 @@
     "odia",
     "assamese",
     "sidereal-solar"
-  ]
+  ],
+  "solarMonths": {
+    "tamil": [
+      "chithirai",
+      "vaikasi",
+      "aani",
+      "aadi",
+      "avani",
+      "purattasi",
+      "aippasi",
+      "karthigai",
+      "margazhi",
+      "thai",
+      "masi",
+      "panguni"
+    ],
+    "malayalam": [
+      "medam",
+      "edavam",
+      "mithunam",
+      "karkidakam",
+      "chingam",
+      "kanni",
+      "thulam",
+      "vrischikam",
+      "dhanu",
+      "makaram",
+      "kumbham",
+      "meenam"
+    ],
+    "bengali": [
+      "boishakh",
+      "joishtho",
+      "asharh",
+      "srabon",
+      "bhadro",
+      "ashwin",
+      "kartika",
+      "agrohayon",
+      "poush",
+      "magh",
+      "falgun",
+      "choitro"
+    ],
+    "odia": [
+      "baisakha",
+      "jyestha",
+      "ashadha",
+      "shravana",
+      "bhadraba",
+      "ashwina",
+      "kartika",
+      "margashira",
+      "pausha",
+      "magha",
+      "phalguna",
+      "chaitra"
+    ],
+    "assamese": [
+      "bohag",
+      "jeth",
+      "ahar",
+      "saon",
+      "bhado",
+      "ahin",
+      "kati",
+      "aghon",
+      "puh",
+      "magh",
+      "phagun",
+      "chot"
+    ],
+    "sidereal-solar": [
+      "mesha",
+      "vrishabha",
+      "mithuna",
+      "karka",
+      "simha",
+      "kanya",
+      "tula",
+      "vrischika",
+      "dhanu",
+      "makara",
+      "kumbha",
+      "meena"
+    ]
+  }
 }

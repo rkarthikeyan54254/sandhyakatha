@@ -1,0 +1,56 @@
+{
+  "id": "mokshada-ekadashi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Mokshada Ekadashi"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "margashirsha",
+    "paksha": "shukla",
+    "tithi": "ekadashi",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 58
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "mokshada-ekadashi-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Mokshada Ekadashi is the named margashirsha shukla Ekadashi in the annual fasting cycle.",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1277333",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

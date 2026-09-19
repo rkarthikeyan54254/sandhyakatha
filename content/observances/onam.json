@@ -1,0 +1,57 @@
+{
+  "id": "onam",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Onam / Thiruvonam"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Mahabali",
+    "Vamana",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "kerala"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "malayalam",
+    "solarMonth": "chingam",
+    "nakshatra": "shravana",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 100
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "onam-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Onam is Kerala's major harvest/homecoming festival centered on Thiruvonam in Chingam.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

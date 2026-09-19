@@ -1,0 +1,54 @@
+{
+  "id": "masik-durgashtami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Masik Durgashtami"
+  },
+  "kind": "monthly-observance",
+  "subjects": [
+    "Durga"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "recurring-tithi",
+    "monthSystem": "not-applicable",
+    "paksha": "shukla",
+    "tithi": "ashtami",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "observe"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 36
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "masik-durgashtami-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Masik Durgashtami is represented as a recurring shukla ashtami observance.",
+        "url": "https://www.drikpanchang.com/calendars/hindu/hinducalendar.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chitra-pournami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Chitra Pournami"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Chitragupta",
+    "Full Moon"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-month-lunar-tithi",
+    "solarCalendar": "tamil",
+    "solarMonth": "chithirai",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 70
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "chitra-pournami-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Tamil calendar lists Chitra Pournami in the Chithirai season on the full moon.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

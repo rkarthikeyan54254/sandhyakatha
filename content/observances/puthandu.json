@@ -1,0 +1,54 @@
+{
+  "id": "puthandu",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Tamil Puthandu"
+  },
+  "kind": "festival",
+  "subjects": [
+    "New Year"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "tamil",
+    "solarMonth": "chithirai",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "puthandu-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Puthandu is Tamil New Year, the first day of Chithirai.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

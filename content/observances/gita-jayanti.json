@@ -1,0 +1,58 @@
+{
+  "id": "gita-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Gita Jayanti"
+  },
+  "kind": "commemoration",
+  "subjects": [
+    "Krishna",
+    "Arjuna",
+    "Bhagavad Gita"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "margashirsha",
+    "paksha": "shukla",
+    "tithi": "ekadashi",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 82
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "gita-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Gita Jayanti is Margashirsha Shukla Ekadashi, the same day as Mokshada Ekadashi.",
+        "url": "https://panchangtime.com/festivals/gita-jayanti",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "vivah-panchami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vivah Panchami"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Rama",
+    "Sita"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "nepal"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "margashirsha",
+    "paksha": "shukla",
+    "tithi": "panchami",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 68
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vivah-panchami-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Vivah Panchami is Margashirsha Shukla Panchami and commemorates the wedding of Rama and Sita.",
+        "url": "https://www.drikpanchang.com/festivals/vivah-panchami/vivah-panchami-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

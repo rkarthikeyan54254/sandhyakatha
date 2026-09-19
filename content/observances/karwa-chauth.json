@@ -1,0 +1,61 @@
+{
+  "id": "karwa-chauth",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Karwa Chauth"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Gauri",
+    "Moon",
+    "Married couples"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "rajasthan",
+      "punjab",
+      "haryana",
+      "uttar-pradesh"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "krishna",
+    "tithi": "chaturthi",
+    "decisionWindow": "moonrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 75
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "karwa-chauth-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Karwa Chauth is Kartika Krishna Chaturthi, with the fast broken at moonrise.",
+        "url": "https://panchangtime.com/festivals/karwa-chauth",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

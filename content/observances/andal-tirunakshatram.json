@@ -1,0 +1,54 @@
+{
+  "id": "andal-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Andal Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Andal"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "aadi",
+    "nakshatra": "purva-phalguni",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 50
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "andal-divyadesam",
+        "type": "sampradaya-calendar",
+        "authority": "Divyadesam.com",
+        "citation": "The 12-Alvar register gives Andal's avathara month and nakshatra as aadi / purva-phalguni.",
+        "url": "https://www.divyadesam.com/alwars/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

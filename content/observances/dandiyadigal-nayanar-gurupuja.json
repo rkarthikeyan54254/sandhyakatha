@@ -1,0 +1,54 @@
+{
+  "id": "dandiyadigal-nayanar-gurupuja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Dandiyadigal Nayanar Gurupuja"
+  },
+  "kind": "gurupuja",
+  "subjects": [
+    "Dandiyadigal Nayanar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "tamil-shaiva"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "panguni",
+    "nakshatra": "shatabhisha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 46
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "dandiyadigal-nayanar-shaivam",
+        "type": "sampradaya-calendar",
+        "authority": "Shaivam.org",
+        "citation": "The 63-Nayanmar gurupujai register gives Dandiyadigal Nayanar's Tamil month and nakshatra as panguni / shatabhisha.",
+        "url": "https://www.shaivam.org/devotees/63-nayanmar-gurupujai-nakshathiram/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

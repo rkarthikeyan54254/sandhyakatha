@@ -1,0 +1,54 @@
+{
+  "id": "thirumazhisai-alvar-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Thirumazhisai Alvar Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Thirumazhisai Alvar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "thai",
+    "nakshatra": "magha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 50
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "thirumazhisai-alvar-divyadesam",
+        "type": "sampradaya-calendar",
+        "authority": "Divyadesam.com",
+        "citation": "The 12-Alvar register gives Thirumazhisai Alvar's avathara month and nakshatra as thai / magha.",
+        "url": "https://www.divyadesam.com/alwars/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

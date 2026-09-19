@@ -1,0 +1,57 @@
+{
+  "id": "raja-sankranti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Raja Sankranti"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Earth",
+    "Seasonal transition"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "regional-folk",
+      "general-hindu"
+    ],
+    "regions": [
+      "odisha",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "sidereal-solar",
+    "solarMonth": "mithuna",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 74
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "raja-sankranti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Odia calendar lists Raja Sankranti on the Mithuna solar ingress.",
+        "url": "https://www.drikpanchang.com/oriya/oriya-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "masi-magam",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Masi Magam"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Sacred bathing",
+    "Deities"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "masi",
+    "nakshatra": "magha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 76
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "masi-magam-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Tamil calendar lists Masi Magam as a solar-calendar observance.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "schemaVersion": "1.0",
+  "_readme": [
+    "Mappings are curated editorial relationships, never inferred from shared names.",
+    "status=proposed means mechanically valid but awaiting explicit editorial approval.",
+    "Only approved mappings may eventually influence Tonight."
+  ],
+  "mappings": [
+    {
+      "observanceId": "govardhan-puja",
+      "storyId": "govardhana",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly narrates Krishna lifting Govardhana after rejecting Indra's worship."
+    },
+    {
+      "observanceId": "ganesh-chaturthi",
+      "storyId": "ganesha-circles",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A central Ganesha story appropriate to the festival, but not a birth/establishment narrative."
+    },
+    {
+      "observanceId": "ganesh-chaturthi",
+      "storyId": "ganesha-moon",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly explains the moon-taboo associated with Ganesh Chaturthi."
+    },
+    {
+      "observanceId": "ganesh-chaturthi",
+      "storyId": "durva-kubera-scale",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story explains the sacred durva offering to Ganesha."
+    },
+    {
+      "observanceId": "ganesh-chaturthi",
+      "storyId": "kubera-feast",
+      "relevance": "related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A popular Ganesha telling; the story itself is explicitly folk/late tradition."
+    },
+    {
+      "observanceId": "sharad-navaratri",
+      "storyId": "durga-mahishasura",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The Mahishasura cycle directly grounds the nine-night Durga narrative used in the story."
+    },
+    {
+      "observanceId": "durga-ashtami",
+      "storyId": "durga-mahishasura",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The Mahishasura narrative is central to the Durga worship cycle."
+    },
+    {
+      "observanceId": "maha-navami",
+      "storyId": "durga-mahishasura",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story culminates in the Navaratri battle cycle."
+    },
+    {
+      "observanceId": "vijayadashami",
+      "storyId": "durga-mahishasura",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story explicitly lands on the tenth-day victory."
+    },
+    {
+      "observanceId": "maha-shivaratri",
+      "storyId": "churning-ocean",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A major Shiva story suited to Shivaratri; it is not presented as the festival's origin."
+    },
+    {
+      "observanceId": "maha-shivaratri",
+      "storyId": "lingodbhava-pillar",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The Lingodbhava/Jyotirlinga telling is directly associated with Shivaratri tradition; story remains draft."
+    },
+    {
+      "observanceId": "hanuman-jayanti-chaitra",
+      "storyId": "hanuman-reminded",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A source-backed Hanuman episode, appropriate to Hanuman Jayanti but not a birth narrative."
+    },
+    {
+      "observanceId": "hanuman-jayanti-chaitra",
+      "storyId": "hanuman-tail",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A canonical Mahabharata Hanuman episode; not a birth narrative."
+    },
+    {
+      "observanceId": "hanuman-jayanti-tamil",
+      "storyId": "hanuman-reminded",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Regional Hanumath Jayanti can use the same canonical Hanuman corpus without claiming a birth narrative."
+    },
+    {
+      "observanceId": "hanuman-jayanti-telugu",
+      "storyId": "hanuman-reminded",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Regional Hanuman Jayanti can use the same canonical Hanuman corpus without claiming a birth narrative."
+    },
+    {
+      "observanceId": "rama-navami",
+      "storyId": "bharata-sandals",
+      "relevance": "related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A source-backed Rama-family story suitable to Rama Navami; it does not narrate Rama's birth."
+    },
+    {
+      "observanceId": "rama-navami",
+      "storyId": "rama-returns",
+      "relevance": "related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A Rama story with explicit later-festival tradition; not a Rama Navami origin story."
+    },
+    {
+      "observanceId": "narasimha-jayanti",
+      "storyId": "prahlada-pillar",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Prahlada and the pillar directly narrate the Narasimha appearance event."
+    },
+    {
+      "observanceId": "krishna-janmashtami",
+      "storyId": "butter-rope",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "A childhood Krishna story suited to Janmashtami; the current story is draft and not the birth episode."
+    },
+    {
+      "observanceId": "vamana-jayanti",
+      "storyId": "vamana-three-steps",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly narrates Vamana's three steps and Mahabali."
+    },
+    {
+      "observanceId": "vamana-jayanti",
+      "storyId": "sukra-spout",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "This episode immediately precedes Vamana's gift and three steps."
+    },
+    {
+      "observanceId": "naraka-chaturdashi",
+      "storyId": "narakasura",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly narrates Narakasura's defeat and the South Indian Deepavali association."
+    },
+    {
+      "observanceId": "diwali-lakshmi-puja",
+      "storyId": "rama-returns",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story documents the later North Indian Rama-return association with Diwali and explicitly labels it as later tradition."
+    },
+    {
+      "observanceId": "pitru-paksha",
+      "storyId": "shravana-baskets",
+      "relevance": "related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story concerns duty to parents/ancestors; it is not presented as the origin of Pitru Paksha."
+    },
+    {
+      "observanceId": "poigai-alvar-tirunakshatram",
+      "storyId": "three-in-doorway",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly features Poigai, Bhoothath and Pey Alvars."
+    },
+    {
+      "observanceId": "bhoothath-alvar-tirunakshatram",
+      "storyId": "three-in-doorway",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly features Poigai, Bhoothath and Pey Alvars."
+    },
+    {
+      "observanceId": "pey-alvar-tirunakshatram",
+      "storyId": "three-in-doorway",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly features Poigai, Bhoothath and Pey Alvars."
+    },
+    {
+      "observanceId": "nammalvar-tirunakshatram",
+      "storyId": "nammalvar-silence",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly tells Nammalvar's life episode."
+    },
+    {
+      "observanceId": "andal-tirunakshatram",
+      "storyId": "andal-garland",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly tells Andal's garland episode."
+    },
+    {
+      "observanceId": "thirumangai-alvar-tirunakshatram",
+      "storyId": "thirumangai-ring",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Thirumangai Alvar; story remains draft."
+    },
+    {
+      "observanceId": "tiruppan-alvar-tirunakshatram",
+      "storyId": "panar-shoulders",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Tiruppan Alvar; story remains draft."
+    },
+    {
+      "observanceId": "kulasekhara-alvar-tirunakshatram",
+      "storyId": "kulasekhara-march",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Kulasekhara Alvar; story remains draft."
+    },
+    {
+      "observanceId": "pusalar-nayanar-gurupuja",
+      "storyId": "pusalar-temple",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly tells Pusalar Nayanar's temple episode."
+    },
+    {
+      "observanceId": "tirunalai-povar-nayanar-gurupuja",
+      "storyId": "nandanar-bull",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly tells Nandanar/Tirunalai Povar's life episode."
+    },
+    {
+      "observanceId": "karaikkal-ammaiyar-gurupuja",
+      "storyId": "karaikkal-mangoes",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story directly tells Karaikkal Ammaiyar's mango episode."
+    },
+    {
+      "observanceId": "tirunavukkarasar-gurupuja",
+      "storyId": "appar-spade",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Appar/Tirunavukkarasar; story remains draft."
+    },
+    {
+      "observanceId": "sundaramurti-nayanar-gurupuja",
+      "storyId": "sundarar-court",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Sundaramurti/Sundarar; story remains draft."
+    },
+    {
+      "observanceId": "kannappa-nayanar-gurupuja",
+      "storyId": "kannappar-eyes",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Kannappa Nayanar; story remains draft."
+    },
+    {
+      "observanceId": "siruthondar-gurupuja",
+      "storyId": "siruttondar",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Siruthondar; story remains draft."
+    },
+    {
+      "observanceId": "kotpuli-nayanar-gurupuja",
+      "storyId": "kotpuli",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Kotpuli; story remains draft."
+    },
+    {
+      "observanceId": "iyarpagai-nayanar-gurupuja",
+      "storyId": "iyarpagai",
+      "relevance": "direct",
+      "storyStateAtProposal": "draft",
+      "status": "proposed",
+      "reason": "The story directly centers Iyarpagai; story remains draft."
+    },
+    {
+      "observanceId": "onam",
+      "storyId": "vamana-three-steps",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Onam commemorates Mahabali within the Vamana cycle; this story narrates Vamana and Bali without claiming to explain every Onam practice."
+    },
+    {
+      "observanceId": "vat-savitri-vrat",
+      "storyId": "savitri-yama",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The vrata's katha is Savitri and Satyavan; this story directly tells Savitri following Yama."
+    },
+    {
+      "observanceId": "shakambhari-purnima",
+      "storyId": "shakambhari",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The observance is Shakambhari Jayanti/Purnima and the story directly tells the Shakambhari famine episode."
+    },
+    {
+      "observanceId": "valmiki-jayanti",
+      "storyId": "valmiki-first-shloka",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The observance honours Valmiki; the story tells his first-shloka episode rather than a birth narrative."
+    },
+    {
+      "observanceId": "holika-dahan",
+      "storyId": "prahlada-pillar",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Holika Dahan belongs to the Prahlada cycle; this story tells the later pillar/Narasimha episode."
+    },
+    {
+      "observanceId": "holi",
+      "storyId": "prahlada-pillar",
+      "relevance": "related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story is part of the Prahlada cycle but is not the colour-festival narrative."
+    },
+    {
+      "observanceId": "chaitra-navaratri",
+      "storyId": "durga-mahishasura",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "The story is a core Devi battle narrative appropriate to Navaratri without claiming Chaitra Navaratri uniquely derives from it."
+    },
+    {
+      "observanceId": "kali-puja",
+      "storyId": "kali-stops",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "A source-labelled Kali story appropriate to Kali Puja; it is not asserted as the festival's origin."
+    },
+    {
+      "observanceId": "aadi-pooram",
+      "storyId": "andal-garland",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Aadi Pooram is Andal's major annual observance and the story directly tells an Andal life episode."
+    },
+    {
+      "observanceId": "thiruvathira-kerala",
+      "storyId": "parvati-decides",
+      "relevance": "strong-related",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Kerala Thiruvathira is associated with Shiva and Parvati; this story directly centers Parvati's determination to marry Shiva."
+    }
+  ]
+}

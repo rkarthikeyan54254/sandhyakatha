@@ -1,0 +1,56 @@
+{
+  "id": "maha-shivaratri",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Maha Shivaratri"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Shiva"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "shaiva",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "phalguna",
+    "paksha": "krishna",
+    "tithi": "chaturdashi",
+    "decisionWindow": "nishita",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 96
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "maha-shivaratri-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Maha Shivaratri is observed on Phalguna Krishna Chaturdashi with the night/Nishita observance.",
+        "url": "https://panchangtime.com/festivals/shivaratri",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

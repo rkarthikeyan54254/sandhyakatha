@@ -1,0 +1,58 @@
+{
+  "id": "naraka-chaturdashi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Naraka Chaturdashi"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Krishna",
+    "Satyabhama",
+    "Narakasura"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "krishna",
+    "tithi": "chaturdashi",
+    "decisionWindow": "sunrise-prevailing",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 94
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "naraka-chaturdashi-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Naraka Chaturdashi is Kartika Krishna Chaturdashi; the pre-sunrise oil bath is central and South India gives the day special prominence.",
+        "url": "https://panchangtime.com/festivals/narak-chaturdashi",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

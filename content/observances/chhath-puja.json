@@ -1,0 +1,60 @@
+{
+  "id": "chhath-puja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Chhath Puja / Surya Shashthi"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Surya",
+    "Chhathi Maiya"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "saura",
+      "general-hindu"
+    ],
+    "regions": [
+      "bihar",
+      "jharkhand",
+      "uttar-pradesh",
+      "north-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "shukla",
+    "tithi": "shashthi",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "chhath-puja-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Chhath/Surya Shashthi is Kartika Shukla Shashthi with sunset and following-sunrise worship.",
+        "url": "https://www.drikpanchang.com/festivals/chhath-puja/chhath-puja-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "kannappa-nayanar-gurupuja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Kannappa Nayanar Gurupuja"
+  },
+  "kind": "gurupuja",
+  "subjects": [
+    "Kannappa Nayanar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "tamil-shaiva"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "thai",
+    "nakshatra": "mrigashirsha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 46
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "kannappa-nayanar-shaivam",
+        "type": "sampradaya-calendar",
+        "authority": "Shaivam.org",
+        "citation": "The 63-Nayanmar gurupujai register gives Kannappa Nayanar's Tamil month and nakshatra as thai / mrigashirsha.",
+        "url": "https://www.shaivam.org/devotees/63-nayanmar-gurupujai-nakshathiram/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

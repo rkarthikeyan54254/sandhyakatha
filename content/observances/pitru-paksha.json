@@ -1,0 +1,58 @@
+{
+  "id": "pitru-paksha",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Pitru Paksha"
+  },
+  "kind": "multi-day-cycle",
+  "subjects": [
+    "Ancestors"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "smarta"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "multi-day",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "krishna",
+    "tithi": "pratipada",
+    "durationDays": 15,
+    "decisionWindow": "aparahna",
+    "adhikaPolicy": "skip",
+    "note": "Purnima Shraddha may precede Pratipada; this record models the Krishna-paksha cycle beginning at Pratipada."
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "pitru-paksha-calendar",
+        "type": "published-panchanga",
+        "authority": "PanchangTime",
+        "citation": "Pitru Paksha is the ancestor-rite cycle across Bhadrapada Krishna Paksha, culminating at Sarva Pitru Amavasya.",
+        "url": "https://panchangtime.com/festivals/pitru-paksha",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

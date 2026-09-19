@@ -1,0 +1,54 @@
+{
+  "id": "sundaramurti-nayanar-gurupuja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Sundaramurti Nayanar Gurupuja"
+  },
+  "kind": "gurupuja",
+  "subjects": [
+    "Sundaramurti Nayanar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "tamil-shaiva"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "aadi",
+    "nakshatra": "swati",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 46
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "sundaramurti-nayanar-shaivam",
+        "type": "sampradaya-calendar",
+        "authority": "Shaivam.org",
+        "citation": "The 63-Nayanmar gurupujai register gives Sundaramurti Nayanar's Tamil month and nakshatra as aadi / swati.",
+        "url": "https://www.shaivam.org/devotees/63-nayanmar-gurupujai-nakshathiram/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

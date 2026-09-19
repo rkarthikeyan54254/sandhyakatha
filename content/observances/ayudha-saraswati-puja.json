@@ -1,0 +1,62 @@
+{
+  "id": "ayudha-saraswati-puja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Ayudha Puja / Saraswati Puja"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Saraswati",
+    "Tools",
+    "Learning"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "shakta"
+    ],
+    "regions": [
+      "south-india",
+      "tamil-nadu",
+      "karnataka",
+      "andhra-pradesh",
+      "telangana"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "navami",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 86
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "ayudha-puja-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Ayudha/Saraswati Puja is observed in the Navaratri Navami cycle in South India.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

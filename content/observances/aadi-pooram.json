@@ -1,0 +1,55 @@
+{
+  "id": "aadi-pooram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Aadi Pooram / Andal Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Andal"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "sri-vaishnava",
+      "shakta"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "aadi",
+    "nakshatra": "purva-phalguni",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 80
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "aadi-pooram-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "The Tamil calendar lists Andal Jayanti in Aadi, traditionally on Pooram nakshatra.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

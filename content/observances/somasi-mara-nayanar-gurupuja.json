@@ -1,0 +1,54 @@
+{
+  "id": "somasi-mara-nayanar-gurupuja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Somasi Mara Nayanar Gurupuja"
+  },
+  "kind": "gurupuja",
+  "subjects": [
+    "Somasi Mara Nayanar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "tamil-shaiva"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "vaikasi",
+    "nakshatra": "ashlesha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 46
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "somasi-mara-nayanar-shaivam",
+        "type": "sampradaya-calendar",
+        "authority": "Shaivam.org",
+        "citation": "The 63-Nayanmar gurupujai register gives Somasi Mara Nayanar's Tamil month and nakshatra as vaikasi / ashlesha.",
+        "url": "https://www.shaivam.org/devotees/63-nayanmar-gurupujai-nakshathiram/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

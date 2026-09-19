@@ -1,0 +1,56 @@
+{
+  "id": "vaikasi-visakam",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vaikasi Visakam"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Murugan"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "kaumara",
+      "general-hindu"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "vaikasi",
+    "nakshatra": "vishakha",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 82
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vaikasi-visakam-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Vaikasi Visakam is the Vaikasi-Vishakha observance sacred to Murugan.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2728 @@
+{
+  "generated": "2026-09-19T05:23:08.567Z",
+  "totalObservances": 196,
+  "principalOrMajor": 85,
+  "counts": {
+    "related-published": 14,
+    "draft-only": 10,
+    "missing": 152,
+    "direct-published": 20
+  },
+  "storyAvailabilityPercent": 17.3,
+  "majorStoryAvailabilityPercent": 30.6,
+  "note": "Availability counts proposed mappings as editorial candidates. Production Tonight must wait for observance approval and mapping approval.",
+  "highestPriorityMissing": [
+    {
+      "id": "pongal",
+      "name": "Thai Pongal",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "makar-sankranti",
+      "name": "Makar Sankranti",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 96,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "gudi-padwa",
+      "name": "Gudi Padwa",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 94,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ugadi",
+      "name": "Ugadi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 94,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "chhath-puja",
+      "name": "Chhath Puja / Surya Shashthi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "jagannath-ratha-yatra",
+      "name": "Jagannath Ratha Yatra",
+      "kind": "utsava",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "karthigai-deepam",
+      "name": "Karthigai Deepam",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "puthandu",
+      "name": "Tamil Puthandu",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "raksha-bandhan",
+      "name": "Raksha Bandhan",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "thaipusam",
+      "name": "Thaipusam",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vaikuntha-ekadashi",
+      "name": "Vaikuntha Ekadashi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "bohag-bihu",
+      "name": "Bohag Bihu / Rongali Bihu",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "guru-purnima",
+      "name": "Guru Purnima",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pana-sankranti",
+      "name": "Pana Sankranti / Odia New Year",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pohela-boishakh",
+      "name": "Pohela Boishakh / Bengali New Year",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vishu",
+      "name": "Vishu",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "panguni-uthiram",
+      "name": "Panguni Uthiram",
+      "kind": "festival",
+      "tier": "major",
+      "score": 88,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sarva-pitru-amavasya",
+      "name": "Sarva Pitru Amavasya",
+      "kind": "festival",
+      "tier": "major",
+      "score": 88,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "skanda-sashti",
+      "name": "Skanda Sashti / Kanda Sashti",
+      "kind": "vrata",
+      "tier": "principal",
+      "score": 88,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ayudha-saraswati-puja",
+      "name": "Ayudha Puja / Saraswati Puja",
+      "kind": "festival",
+      "tier": "major",
+      "score": 86,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "baisakhi",
+      "name": "Baisakhi / Vaisakhi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 86,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "dhanteras",
+      "name": "Dhanteras",
+      "kind": "festival",
+      "tier": "major",
+      "score": 86,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "akshaya-tritiya",
+      "name": "Akshaya Tritiya",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "arudra-darshan",
+      "name": "Arudra Darshan",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "bhai-dooj",
+      "name": "Bhai Dooj",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "varalakshmi-vratam",
+      "name": "Varalakshmi Vratam",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vasant-panchami",
+      "name": "Vasant Panchami / Saraswati Puja",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "gita-jayanti",
+      "name": "Gita Jayanti",
+      "kind": "commemoration",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kartika-purnima",
+      "name": "Kartika Purnima / Dev Deepavali",
+      "kind": "festival",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "makaravilakku",
+      "name": "Makaravilakku",
+      "kind": "festival",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vaikasi-visakam",
+      "name": "Vaikasi Visakam",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "dhanvantari-jayanti",
+      "name": "Dhanvantari Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "radha-ashtami",
+      "name": "Radha Ashtami",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ratha-saptami",
+      "name": "Ratha Saptami / Surya Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "magh-bihu",
+      "name": "Magh Bihu / Bhogali Bihu",
+      "kind": "festival",
+      "tier": "major",
+      "score": 78,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "nag-panchami",
+      "name": "Nag Panchami",
+      "kind": "festival",
+      "tier": "major",
+      "score": 78,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "dattatreya-jayanti",
+      "name": "Dattatreya Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "masi-magam",
+      "name": "Masi Magam",
+      "kind": "festival",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sharad-purnima",
+      "name": "Sharad Purnima",
+      "kind": "festival",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "karwa-chauth",
+      "name": "Karwa Chauth",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 75,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    }
+  ],
+  "rows": [
+    {
+      "id": "diwali-lakshmi-puja",
+      "name": "Diwali / Lakshmi Puja",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "rama-returns",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "krishna-janmashtami",
+      "name": "Krishna Janmashtami",
+      "kind": "jayanti",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "butter-rope",
+          "storyStatus": "draft",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "onam",
+      "name": "Onam / Thiruvonam",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "vamana-three-steps",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "pongal",
+      "name": "Thai Pongal",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sharad-navaratri",
+      "name": "Sharad Navaratri",
+      "kind": "multi-day-cycle",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "durga-mahishasura",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "vijayadashami",
+      "name": "Vijayadashami / Dussehra",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 100,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "durga-mahishasura",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "ganesh-chaturthi",
+      "name": "Ganesh Chaturthi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 96,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "ganesha-circles",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "ganesha-moon",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "durva-kubera-scale",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "kubera-feast",
+          "storyStatus": "published",
+          "relevance": "related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "holi",
+      "name": "Holi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 96,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "prahlada-pillar",
+          "storyStatus": "published",
+          "relevance": "related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "maha-shivaratri",
+      "name": "Maha Shivaratri",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 96,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "churning-ocean",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "lingodbhava-pillar",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "makar-sankranti",
+      "name": "Makar Sankranti",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 96,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "gudi-padwa",
+      "name": "Gudi Padwa",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 94,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "naraka-chaturdashi",
+      "name": "Naraka Chaturdashi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 94,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "narakasura",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "rama-navami",
+      "name": "Rama Navami",
+      "kind": "jayanti",
+      "tier": "principal",
+      "score": 94,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "bharata-sandals",
+          "storyStatus": "published",
+          "relevance": "related",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "rama-returns",
+          "storyStatus": "published",
+          "relevance": "related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "ugadi",
+      "name": "Ugadi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 94,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "chhath-puja",
+      "name": "Chhath Puja / Surya Shashthi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "holika-dahan",
+      "name": "Holika Dahan",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "prahlada-pillar",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "jagannath-ratha-yatra",
+      "name": "Jagannath Ratha Yatra",
+      "kind": "utsava",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "karthigai-deepam",
+      "name": "Karthigai Deepam",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pitru-paksha",
+      "name": "Pitru Paksha",
+      "kind": "multi-day-cycle",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "shravana-baskets",
+          "storyStatus": "published",
+          "relevance": "related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "puthandu",
+      "name": "Tamil Puthandu",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "raksha-bandhan",
+      "name": "Raksha Bandhan",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "thaipusam",
+      "name": "Thaipusam",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vaikuntha-ekadashi",
+      "name": "Vaikuntha Ekadashi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 92,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "bohag-bihu",
+      "name": "Bohag Bihu / Rongali Bihu",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "durga-ashtami",
+      "name": "Durga Ashtami",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "durga-mahishasura",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "govardhan-puja",
+      "name": "Govardhan Puja / Annakut",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "govardhana",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "guru-purnima",
+      "name": "Guru Purnima",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kali-puja",
+      "name": "Kali Puja",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "kali-stops",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "maha-navami",
+      "name": "Maha Navami",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "durga-mahishasura",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "pana-sankranti",
+      "name": "Pana Sankranti / Odia New Year",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pohela-boishakh",
+      "name": "Pohela Boishakh / Bengali New Year",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vishu",
+      "name": "Vishu",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 90,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "panguni-uthiram",
+      "name": "Panguni Uthiram",
+      "kind": "festival",
+      "tier": "major",
+      "score": 88,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sarva-pitru-amavasya",
+      "name": "Sarva Pitru Amavasya",
+      "kind": "festival",
+      "tier": "major",
+      "score": 88,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "skanda-sashti",
+      "name": "Skanda Sashti / Kanda Sashti",
+      "kind": "vrata",
+      "tier": "principal",
+      "score": 88,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ayudha-saraswati-puja",
+      "name": "Ayudha Puja / Saraswati Puja",
+      "kind": "festival",
+      "tier": "major",
+      "score": 86,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "baisakhi",
+      "name": "Baisakhi / Vaisakhi",
+      "kind": "festival",
+      "tier": "principal",
+      "score": 86,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "dhanteras",
+      "name": "Dhanteras",
+      "kind": "festival",
+      "tier": "major",
+      "score": 86,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "akshaya-tritiya",
+      "name": "Akshaya Tritiya",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "arudra-darshan",
+      "name": "Arudra Darshan",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "bhai-dooj",
+      "name": "Bhai Dooj",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "hanuman-jayanti-chaitra",
+      "name": "Hanuman Jayanti (Chaitra Purnima)",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "hanuman-reminded",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "hanuman-tail",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "narasimha-jayanti",
+      "name": "Narasimha Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "prahlada-pillar",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "varalakshmi-vratam",
+      "name": "Varalakshmi Vratam",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vasant-panchami",
+      "name": "Vasant Panchami / Saraswati Puja",
+      "kind": "festival",
+      "tier": "major",
+      "score": 84,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "gita-jayanti",
+      "name": "Gita Jayanti",
+      "kind": "commemoration",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "hanuman-jayanti-tamil",
+      "name": "Hanumath Jayanti (Tamil)",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "hanuman-reminded",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "hanuman-jayanti-telugu",
+      "name": "Hanuman Jayanti (Telugu)",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "hanuman-reminded",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "kartika-purnima",
+      "name": "Kartika Purnima / Dev Deepavali",
+      "kind": "festival",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "makaravilakku",
+      "name": "Makaravilakku",
+      "kind": "festival",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vaikasi-visakam",
+      "name": "Vaikasi Visakam",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 82,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "aadi-pooram",
+      "name": "Aadi Pooram / Andal Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "andal-garland",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "chaitra-navaratri",
+      "name": "Chaitra Navaratri",
+      "kind": "multi-day-cycle",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "durga-mahishasura",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "dhanvantari-jayanti",
+      "name": "Dhanvantari Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "radha-ashtami",
+      "name": "Radha Ashtami",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ratha-saptami",
+      "name": "Ratha Saptami / Surya Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 80,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "magh-bihu",
+      "name": "Magh Bihu / Bhogali Bihu",
+      "kind": "festival",
+      "tier": "major",
+      "score": 78,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "nag-panchami",
+      "name": "Nag Panchami",
+      "kind": "festival",
+      "tier": "major",
+      "score": 78,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "shakambhari-purnima",
+      "name": "Shakambhari Purnima / Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 78,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "shakambhari",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "thiruvathira-kerala",
+      "name": "Thiruvathira",
+      "kind": "festival",
+      "tier": "major",
+      "score": 78,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "parvati-decides",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "dattatreya-jayanti",
+      "name": "Dattatreya Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "masi-magam",
+      "name": "Masi Magam",
+      "kind": "festival",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sharad-purnima",
+      "name": "Sharad Purnima",
+      "kind": "festival",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vamana-jayanti",
+      "name": "Vamana Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 76,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "vamana-three-steps",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        },
+        {
+          "storyId": "sukra-spout",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "karwa-chauth",
+      "name": "Karwa Chauth",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 75,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "anant-chaturdashi",
+      "name": "Anant Chaturdashi",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 74,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "hartalika-teej",
+      "name": "Hartalika Teej",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 74,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "raja-sankranti",
+      "name": "Raja Sankranti",
+      "kind": "festival",
+      "tier": "major",
+      "score": 74,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tulasi-vivah",
+      "name": "Tulasi Vivah",
+      "kind": "festival",
+      "tier": "major",
+      "score": 74,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "aadi-perukku",
+      "name": "Aadi Perukku",
+      "kind": "festival",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ganga-dussehra",
+      "name": "Ganga Dussehra",
+      "kind": "festival",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kalabhairav-jayanti",
+      "name": "Kalabhairav Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "lohri",
+      "name": "Lohri",
+      "kind": "festival",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "parashurama-jayanti",
+      "name": "Parashurama Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ramanuja-tirunakshatram",
+      "name": "Ramanuja Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "valmiki-jayanti",
+      "name": "Maharishi Valmiki Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "related-published",
+      "mappings": [
+        {
+          "storyId": "valmiki-first-shloka",
+          "storyStatus": "published",
+          "relevance": "strong-related",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "vat-savitri-vrat",
+      "name": "Vat Savitri Vrat",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 72,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "savitri-yama",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "chaitanya-mahaprabhu-jayanti",
+      "name": "Chaitanya Mahaprabhu Jayanti / Gaura Purnima",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 70,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "chitra-pournami",
+      "name": "Chitra Pournami",
+      "kind": "festival",
+      "tier": "major",
+      "score": 70,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "hariyali-teej",
+      "name": "Hariyali Teej",
+      "kind": "vrata",
+      "tier": "major",
+      "score": 70,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "manavala-mamunigal-tirunakshatram",
+      "name": "Manavala Mamunigal Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "major",
+      "score": 70,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "shankaracharya-jayanti",
+      "name": "Adi Shankaracharya Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 70,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vedanta-desika-tirunakshatram",
+      "name": "Vedanta Desika Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "major",
+      "score": 70,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "balarama-jayanti",
+      "name": "Balarama Jayanti",
+      "kind": "jayanti",
+      "tier": "significant",
+      "score": 68,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "shani-jayanti",
+      "name": "Shani Jayanti",
+      "kind": "jayanti",
+      "tier": "major",
+      "score": 68,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vivah-panchami",
+      "name": "Vivah Panchami",
+      "kind": "festival",
+      "tier": "major",
+      "score": 68,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sita-navami",
+      "name": "Sita Navami",
+      "kind": "jayanti",
+      "tier": "significant",
+      "score": 66,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "lakshmi-jayanti",
+      "name": "Lakshmi Jayanti",
+      "kind": "jayanti",
+      "tier": "significant",
+      "score": 64,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kurma-jayanti",
+      "name": "Kurma Jayanti",
+      "kind": "jayanti",
+      "tier": "significant",
+      "score": 62,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "narada-jayanti",
+      "name": "Narada Jayanti",
+      "kind": "jayanti",
+      "tier": "significant",
+      "score": 62,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "varaha-jayanti",
+      "name": "Varaha Jayanti",
+      "kind": "jayanti",
+      "tier": "significant",
+      "score": 62,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "aja-ekadashi",
+      "name": "Aja Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "amalaki-ekadashi",
+      "name": "Amalaki Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "apara-ekadashi",
+      "name": "Apara Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "devshayani-ekadashi",
+      "name": "Devshayani / Ashadhi Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "devutthana-ekadashi",
+      "name": "Devutthana / Prabodhini Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "indira-ekadashi",
+      "name": "Indira Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "jaya-ekadashi",
+      "name": "Jaya Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kamada-ekadashi",
+      "name": "Kamada Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kamika-ekadashi",
+      "name": "Kamika Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "mohini-ekadashi",
+      "name": "Mohini Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "mokshada-ekadashi",
+      "name": "Mokshada Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "nirjala-ekadashi",
+      "name": "Nirjala Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "papamochani-ekadashi",
+      "name": "Papamochani Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "papankusha-ekadashi",
+      "name": "Papankusha Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "parsva-ekadashi",
+      "name": "Parsva / Parivartini Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pausha-putrada-ekadashi",
+      "name": "Pausha Putrada Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "rama-ekadashi",
+      "name": "Rama Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "saphala-ekadashi",
+      "name": "Saphala Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "shattila-ekadashi",
+      "name": "Shattila Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "shravana-putrada-ekadashi",
+      "name": "Shravana Putrada Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "utpanna-ekadashi",
+      "name": "Utpanna Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "varuthini-ekadashi",
+      "name": "Varuthini Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vijaya-ekadashi",
+      "name": "Vijaya Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "yogini-ekadashi",
+      "name": "Yogini Ekadashi",
+      "kind": "vrata",
+      "tier": "significant",
+      "score": 58,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "andal-tirunakshatram",
+      "name": "Andal Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "andal-garland",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "bhoothath-alvar-tirunakshatram",
+      "name": "Bhoothath Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "three-in-doorway",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "kulasekhara-alvar-tirunakshatram",
+      "name": "Kulasekhara Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "kulasekhara-march",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "madhurakavi-alvar-tirunakshatram",
+      "name": "Madhurakavi Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "nammalvar-tirunakshatram",
+      "name": "Nammalvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "nammalvar-silence",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "periyalvar-tirunakshatram",
+      "name": "Periyalvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pey-alvar-tirunakshatram",
+      "name": "Pey Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "three-in-doorway",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "poigai-alvar-tirunakshatram",
+      "name": "Poigai Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "three-in-doorway",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "thirumangai-alvar-tirunakshatram",
+      "name": "Thirumangai Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "thirumangai-ring",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "thirumazhisai-alvar-tirunakshatram",
+      "name": "Thirumazhisai Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "thondaradippodi-alvar-tirunakshatram",
+      "name": "Thondaradippodi Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tiruppan-alvar-tirunakshatram",
+      "name": "Tiruppan Alvar Tirunakshatram",
+      "kind": "tirunakshatram",
+      "tier": "specialized",
+      "score": 50,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "panar-shoulders",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "adipatha-nayanar-gurupuja",
+      "name": "Adipatha Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "aiyadigal-kadavarkon-nayanar-gurupuja",
+      "name": "Aiyadigal Kadavarkon Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "amarneethi-nayanar-gurupuja",
+      "name": "Amarneethi Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "anaya-nayanar-gurupuja",
+      "name": "Anaya Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "appudhi-adigal-gurupuja",
+      "name": "Appudhi Adigal Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "arivattaya-nayanar-gurupuja",
+      "name": "Arivattaya Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "chandesha-nayanar-gurupuja",
+      "name": "Chandesha Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "cheraman-perumal-nayanar-gurupuja",
+      "name": "Cheraman Perumal Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "dandiyadigal-nayanar-gurupuja",
+      "name": "Dandiyadigal Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "enatinatha-nayanar-gurupuja",
+      "name": "Enatinatha Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "eripatha-nayanar-gurupuja",
+      "name": "Eripatha Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "eyarkon-kalikama-nayanar-gurupuja",
+      "name": "Eyarkon Kalikama Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "gananatha-nayanar-gurupuja",
+      "name": "Gananatha Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "idangazhi-nayanar-gurupuja",
+      "name": "Idangazhi Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ilayankudi-mara-nayanar-gurupuja",
+      "name": "Ilayankudi Mara Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "isaignaniyar-gurupuja",
+      "name": "Isaignaniyar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "iyarpagai-nayanar-gurupuja",
+      "name": "Iyarpagai Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "iyarpagai",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "kalikkamba-nayanar-gurupuja",
+      "name": "Kalikkamba Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kaliya-nayanar-gurupuja",
+      "name": "Kaliya Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kanampulla-nayanar-gurupuja",
+      "name": "Kanampulla Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kannappa-nayanar-gurupuja",
+      "name": "Kannappa Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "kannappar-eyes",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "karaikkal-ammaiyar-gurupuja",
+      "name": "Karaikkal Ammaiyar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "karaikkal-mangoes",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "kari-nayanar-gurupuja",
+      "name": "Kari Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kazharsinga-nayanar-gurupuja",
+      "name": "Kazharsinga Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kochengat-chola-nayanar-gurupuja",
+      "name": "Kochengat Chola Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kootruva-nayanar-gurupuja",
+      "name": "Kootruva Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kotpuli-nayanar-gurupuja",
+      "name": "Kotpuli Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "kotpuli",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "kulachirai-nayanar-gurupuja",
+      "name": "Kulachirai Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "kungiliya-kalaya-nayanar-gurupuja",
+      "name": "Kungiliya Kalaya Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "manakkanchara-nayanar-gurupuja",
+      "name": "Manakkanchara Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "mangayarkkarasiyar-gurupuja",
+      "name": "Mangayarkkarasiyar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "meypporul-nayanar-gurupuja",
+      "name": "Meypporul Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "munaiyaduvar-nayanar-gurupuja",
+      "name": "Munaiyaduvar Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "murkha-nayanar-gurupuja",
+      "name": "Murkha Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "murthi-nayanar-gurupuja",
+      "name": "Murthi Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "muruga-nayanar-gurupuja",
+      "name": "Muruga Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "naminandi-adigal-gurupuja",
+      "name": "Naminandi Adigal Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "narasinga-munaiyaraiyar-nayanar-gurupuja",
+      "name": "Narasinga Munaiyaraiyar Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "nesa-nayanar-gurupuja",
+      "name": "Nesa Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "ninraseer-nedumara-nayanar-gurupuja",
+      "name": "Ninraseer Nedumara Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "perumizhalai-kurumba-nayanar-gurupuja",
+      "name": "Perumizhalai Kurumba Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pugazh-chola-nayanar-gurupuja",
+      "name": "Pugazh Chola Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pugazhthunai-nayanar-gurupuja",
+      "name": "Pugazhthunai Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "pusalar-nayanar-gurupuja",
+      "name": "Pusalar Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "pusalar-temple",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "rudra-pasupathi-nayanar-gurupuja",
+      "name": "Rudra Pasupathi Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sadaiya-nayanar-gurupuja",
+      "name": "Sadaiya Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sakkiya-nayanar-gurupuja",
+      "name": "Sakkiya Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "satti-nayanar-gurupuja",
+      "name": "Satti Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "seruthunai-nayanar-gurupuja",
+      "name": "Seruthunai Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sirappuli-nayanar-gurupuja",
+      "name": "Sirappuli Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "siruthondar-gurupuja",
+      "name": "Siruthondar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "siruttondar",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "somasi-mara-nayanar-gurupuja",
+      "name": "Somasi Mara Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sundaramurti-nayanar-gurupuja",
+      "name": "Sundaramurti Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "sundarar-court",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "tirugnanasambandar-gurupuja",
+      "name": "Tirugnanasambandar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tirukkuripputh-thondar-gurupuja",
+      "name": "Tirukkuripputh Thondar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tirumular-gurupuja",
+      "name": "Tirumular Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tirunalai-povar-nayanar-gurupuja",
+      "name": "Tirunalai Povar Nayanar (Nandanar) Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "direct-published",
+      "mappings": [
+        {
+          "storyId": "nandanar-bull",
+          "storyStatus": "published",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "tirunavukkarasar-gurupuja",
+      "name": "Tirunavukkarasar (Appar) Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "draft-only",
+      "mappings": [
+        {
+          "storyId": "appar-spade",
+          "storyStatus": "draft",
+          "relevance": "direct",
+          "mapStatus": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "tirunilakanta-nayanar-gurupuja",
+      "name": "Tirunilakanta Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tirunilakanta-yazhpanar-gurupuja",
+      "name": "Tirunilakanta Yazhpanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "tirunilanakka-nayanar-gurupuja",
+      "name": "Tirunilanakka Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "vayilar-nayanar-gurupuja",
+      "name": "Vayilar Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "viranminda-nayanar-gurupuja",
+      "name": "Viranminda Nayanar Gurupuja",
+      "kind": "gurupuja",
+      "tier": "specialized",
+      "score": 46,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "masa-shivaratri",
+      "name": "Masa Shivaratri",
+      "kind": "monthly-observance",
+      "tier": "specialized",
+      "score": 44,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "krishna-pradosha",
+      "name": "Krishna Pradosha",
+      "kind": "monthly-observance",
+      "tier": "specialized",
+      "score": 40,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "sankashti-chaturthi",
+      "name": "Sankashti Chaturthi",
+      "kind": "monthly-observance",
+      "tier": "specialized",
+      "score": 40,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "shukla-pradosha",
+      "name": "Shukla Pradosha",
+      "kind": "monthly-observance",
+      "tier": "specialized",
+      "score": 40,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "masik-durgashtami",
+      "name": "Masik Durgashtami",
+      "kind": "monthly-observance",
+      "tier": "specialized",
+      "score": 36,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    },
+    {
+      "id": "masik-kalashtami",
+      "name": "Masik Kalashtami",
+      "kind": "monthly-observance",
+      "tier": "specialized",
+      "score": 36,
+      "observanceStatus": "sourced",
+      "coverage": "missing",
+      "mappings": []
+    }
+  ]
+}

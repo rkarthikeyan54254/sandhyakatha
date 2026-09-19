@@ -1,0 +1,59 @@
+{
+  "id": "sita-navami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Sita Navami"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Sita"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "north-india",
+      "south-india",
+      "east-india",
+      "west-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "vaishakha",
+    "paksha": "shukla",
+    "tithi": "navami",
+    "decisionWindow": "madhyahna",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 66
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "sita-navami-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Sita Navami / Janaki Jayanti is Vaishakha Shukla Navami.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sharad-purnima",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Sharad Purnima"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Lakshmi",
+    "Krishna",
+    "Moon"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "vaishnava",
+      "shakta"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "nishita",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 76
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "sharad-purnima-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Sharad Purnima is Ashvina Purnima with several regional Vaishnava, Lakshmi and harvest observances.",
+        "url": "https://panchangtime.com/festivals/sharad-purnima",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

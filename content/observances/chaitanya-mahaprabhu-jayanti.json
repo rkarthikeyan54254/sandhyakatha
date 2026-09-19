@@ -1,0 +1,56 @@
+{
+  "id": "chaitanya-mahaprabhu-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Chaitanya Mahaprabhu Jayanti / Gaura Purnima"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Chaitanya Mahaprabhu"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "gaudiya-vaishnava"
+    ],
+    "regions": [
+      "east-india",
+      "west-bengal"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "phalguna",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 70
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "gaura-purnima-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Chaitanya Mahaprabhu Jayanti is observed on Phalguna Purnima.",
+        "url": "https://www.drikpanchang.com/calendars/purnima/purnima-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

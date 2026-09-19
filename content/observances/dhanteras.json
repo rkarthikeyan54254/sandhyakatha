@@ -1,0 +1,57 @@
+{
+  "id": "dhanteras",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Dhanteras"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Dhanvantari",
+    "Lakshmi",
+    "Kubera"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "krishna",
+    "tithi": "trayodashi",
+    "decisionWindow": "pradosha",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 86
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "dhanteras-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Dhanteras opens the Diwali cycle on Kartika Krishna Trayodashi, with Pradosha worship.",
+        "url": "https://panchangtime.com/festivals/dhanteras",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

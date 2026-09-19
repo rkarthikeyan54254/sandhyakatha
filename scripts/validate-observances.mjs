@@ -43,6 +43,7 @@ const months = setOf('lunarMonths');
 const tithis = setOf('tithis');
 const nakshatras = setOf('nakshatras');
 const solarCalendars = setOf('solarCalendars');
+const solarMonths = vocab.solarMonths ?? {};
 
 for (const [key, set] of Object.entries({
   kinds, traditions, regions, tiers, windows, sourceTypes, months, tithis,
@@ -68,6 +69,12 @@ function validateRule(where, r) {
     err(where, `decisionWindow "${r.decisionWindow}" is not in observance-vocabulary.json`);
   if (r.month && !months.has(r.month))
     err(where, `month "${r.month}" is not in lunarMonths vocabulary`);
+  if (r.solarMonth) {
+    if (!r.solarCalendar || !solarCalendars.has(r.solarCalendar))
+      err(where, `solarMonth "${r.solarMonth}" requires a controlled solarCalendar`);
+    else if (!(solarMonths[r.solarCalendar] ?? []).includes(r.solarMonth))
+      err(where, `solarMonth "${r.solarMonth}" is not controlled for ${r.solarCalendar}`);
+  }
   if (r.tithi && !tithis.has(r.tithi))
     err(where, `tithi "${r.tithi}" is not in tithis vocabulary`);
   if (r.nakshatra && !nakshatras.has(r.nakshatra))
@@ -87,13 +94,18 @@ function validateRule(where, r) {
         'offsetDays','gregorianMonth','gregorianDay','datesByYear'], r.type);
       break;
     case 'solar-nakshatra':
-      requireFields(where, r, ['solarCalendar','month','nakshatra','decisionWindow'], r.type);
-      forbidFields(where, r, ['paksha','tithi','solarDay','anchorObservanceId',
+      requireFields(where, r, ['solarCalendar','solarMonth','nakshatra','decisionWindow'], r.type);
+      forbidFields(where, r, ['month','paksha','tithi','solarDay','anchorObservanceId',
         'offsetDays','gregorianMonth','gregorianDay','datesByYear'], r.type);
       break;
     case 'solar-day':
-      requireFields(where, r, ['solarCalendar','month','solarDay'], r.type);
-      forbidFields(where, r, ['paksha','tithi','nakshatra','anchorObservanceId',
+      requireFields(where, r, ['solarCalendar','solarMonth','solarDay'], r.type);
+      forbidFields(where, r, ['month','paksha','tithi','nakshatra','anchorObservanceId',
+        'offsetDays','gregorianMonth','gregorianDay','datesByYear'], r.type);
+      break;
+    case 'solar-month-lunar-tithi':
+      requireFields(where, r, ['solarCalendar','solarMonth','paksha','tithi','decisionWindow'], r.type);
+      forbidFields(where, r, ['month','nakshatra','solarDay','anchorObservanceId',
         'offsetDays','gregorianMonth','gregorianDay','datesByYear'], r.type);
       break;
     case 'recurring-tithi':
@@ -182,7 +194,8 @@ for (const file of files) {
 
   if (o.scope.breadth === 'pan-india' && !o.scope.regions.includes('all-india'))
     err(at, 'pan-india breadth must include all-india region');
-  if (o.scope.breadth !== 'pan-india' && o.scope.regions.includes('all-india'))
+  if (['regional', 'temple-specific'].includes(o.scope.breadth)
+      && o.scope.regions.includes('all-india'))
     warn(at, `breadth is ${o.scope.breadth} but region includes all-india — verify the scope`);
   if (o.scope.breadth === 'sampradaya' && o.scope.traditions.includes('general-hindu'))
     err(at, 'sampradaya breadth cannot use only general-hindu tradition');

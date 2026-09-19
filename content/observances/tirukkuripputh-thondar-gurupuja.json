@@ -1,0 +1,54 @@
+{
+  "id": "tirukkuripputh-thondar-gurupuja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Tirukkuripputh Thondar Gurupuja"
+  },
+  "kind": "gurupuja",
+  "subjects": [
+    "Tirukkuripputh Thondar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "tamil-shaiva"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "chithirai",
+    "nakshatra": "swati",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 46
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "tirukkuripputh-thondar-shaivam",
+        "type": "sampradaya-calendar",
+        "authority": "Shaivam.org",
+        "citation": "The 63-Nayanmar gurupujai register gives Tirukkuripputh Thondar's Tamil month and nakshatra as chithirai / swati.",
+        "url": "https://www.shaivam.org/devotees/63-nayanmar-gurupujai-nakshathiram/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

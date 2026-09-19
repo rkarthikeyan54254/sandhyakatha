@@ -1,0 +1,57 @@
+{
+  "id": "kartika-purnima",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Kartika Purnima / Dev Deepavali"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Shiva",
+    "Vishnu",
+    "Ganga"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "kartika",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 82
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "kartika-purnima-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Kartika Purnima includes Dev Deepavali/Tripurari observance and regional sacred bathing traditions.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

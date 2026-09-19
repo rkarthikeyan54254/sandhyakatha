@@ -1,0 +1,60 @@
+{
+  "id": "chaitra-navaratri",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Chaitra Navaratri"
+  },
+  "kind": "multi-day-cycle",
+  "subjects": [
+    "Durga",
+    "Devi"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "shakta",
+      "general-hindu"
+    ],
+    "regions": [
+      "north-india",
+      "west-india",
+      "central-india"
+    ]
+  },
+  "rule": {
+    "type": "multi-day",
+    "monthSystem": "purnimanta",
+    "month": "chaitra",
+    "paksha": "shukla",
+    "tithi": "pratipada",
+    "durationDays": 9,
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 80
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "chaitra-navaratri-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Chaitra Navaratri begins on Chaitra Shukla Pratipada and runs for nine nights.",
+        "url": "https://www.drikpanchang.com/navratri/chaitra-navratri-dates.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

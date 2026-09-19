@@ -1,0 +1,57 @@
+{
+  "id": "govardhan-puja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Govardhan Puja / Annakut"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Krishna",
+    "Govardhana"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "kartika",
+    "paksha": "shukla",
+    "tithi": "pratipada",
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "govardhan-puja-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Govardhan Puja/Annakut is Kartika Shukla Pratipada, the day after Lakshmi Puja in the source calendar.",
+        "url": "https://panchangtime.com/festivals/govardhan-puja",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

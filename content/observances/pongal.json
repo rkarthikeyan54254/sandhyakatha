@@ -1,0 +1,56 @@
+{
+  "id": "pongal",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Thai Pongal"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Surya",
+    "Harvest"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "saura"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "tamil",
+    "solarMonth": "thai",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 100
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "pongal-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Pongal is the principal Tamil harvest festival at the start of Thai.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

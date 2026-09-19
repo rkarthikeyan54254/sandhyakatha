@@ -1,0 +1,54 @@
+{
+  "id": "vedanta-desika-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vedanta Desika Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Vedanta Desika"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "purattasi",
+    "nakshatra": "shravana",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 70
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "desika-srivaishnavam",
+        "type": "sampradaya-calendar",
+        "authority": "Srivaishnavam.com",
+        "citation": "The Sri Vaishnava site states Purattasi Sravanam for Swami Desika's Thirunakshatram.",
+        "url": "https://www.srivaishnavam.com/about.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

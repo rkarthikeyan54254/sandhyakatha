@@ -1,0 +1,57 @@
+{
+  "id": "aadi-perukku",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Aadi Perukku"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Rivers",
+    "Water",
+    "Prosperity"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "regional-folk"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "tamil",
+    "solarMonth": "aadi",
+    "solarDay": 18,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "aadi-perukku-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Aadi Perukku is observed on the eighteenth day of the Tamil month Aadi.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

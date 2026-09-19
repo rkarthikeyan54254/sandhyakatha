@@ -1,0 +1,56 @@
+{
+  "id": "ganesh-chaturthi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Ganesh Chaturthi"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Ganesha"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "ganapatya",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "chaturthi",
+    "decisionWindow": "madhyahna",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 96
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "ganesh-chaturthi-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Ganesh Chaturthi is Bhadrapada Shukla Chaturthi; regional names and the ten-day cycle are documented.",
+        "url": "https://panchangtime.com/festivals/ganesh-chaturthi",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

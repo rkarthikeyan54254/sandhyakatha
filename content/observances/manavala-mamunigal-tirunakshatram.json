@@ -1,0 +1,54 @@
+{
+  "id": "manavala-mamunigal-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Manavala Mamunigal Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Manavala Mamunigal"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "aippasi",
+    "nakshatra": "mula",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 70
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "mamunigal-srivaishnavam",
+        "type": "sampradaya-calendar",
+        "authority": "Srivaishnavam.com",
+        "citation": "The Sri Vaishnava site records Manavala Mamunigal's Moolam Thirunakshatram celebration.",
+        "url": "https://www.srivaishnavam.com/about.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

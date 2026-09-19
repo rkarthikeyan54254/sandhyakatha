@@ -1,0 +1,54 @@
+{
+  "id": "poigai-alvar-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Poigai Alvar Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Poigai Alvar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "aippasi",
+    "nakshatra": "shravana",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 50
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "poigai-alvar-divyadesam",
+        "type": "sampradaya-calendar",
+        "authority": "Divyadesam.com",
+        "citation": "The 12-Alvar register gives Poigai Alvar's avathara month and nakshatra as aippasi / shravana.",
+        "url": "https://www.divyadesam.com/alwars/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

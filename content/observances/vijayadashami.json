@@ -1,0 +1,57 @@
+{
+  "id": "vijayadashami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vijayadashami / Dussehra"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Durga",
+    "Rama"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "shakta"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "dashami",
+    "decisionWindow": "aparahna",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 100
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vijayadashami-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Dussehra/Vijayadashami is Ashvina Shukla Dashami immediately after Navaratri.",
+        "url": "https://panchangtime.com/festivals/dussehra",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

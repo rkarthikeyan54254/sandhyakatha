@@ -1,0 +1,60 @@
+{
+  "id": "hanuman-jayanti-telugu",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Hanuman Jayanti (Telugu)"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Hanuman"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "andhra-pradesh",
+      "telangana"
+    ]
+  },
+  "rule": {
+    "type": "yearly-explicit",
+    "datesByYear": {
+      "2026": "2026-05-12",
+      "2027": "2027-05-31",
+      "2028": "2028-05-19",
+      "2029": "2029-06-06"
+    },
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable",
+    "note": "Kept explicit until the Telugu 41-day deeksha termination rule is modeled without month-name ambiguity."
+  },
+  "importance": {
+    "tier": "major",
+    "score": 82
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "hanuman-telugu-calendar",
+        "type": "published-panchanga",
+        "authority": "PanchangTime",
+        "citation": "Andhra Pradesh and Telangana observe a 41-day Hanuman deeksha culminating on the regional Hanuman Jayanti date; 2026–2029 dates are listed.",
+        "url": "https://panchangtime.com/festivals/hanuman-jayanti-telugu",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "sarva-pitru-amavasya",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Sarva Pitru Amavasya"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Ancestors"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "smarta"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "krishna",
+    "tithi": "amavasya",
+    "decisionWindow": "aparahna",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 88
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "sarva-pitru-amavasya-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Pitru Paksha culminates in Sarva Pitru Amavasya / Mahalaya Amavasya.",
+        "url": "https://panchangtime.com/festivals/pitru-paksha",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

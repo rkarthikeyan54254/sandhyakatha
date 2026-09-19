@@ -1,0 +1,54 @@
+{
+  "id": "kulasekhara-alvar-tirunakshatram",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Kulasekhara Alvar Tirunakshatram"
+  },
+  "kind": "tirunakshatram",
+  "subjects": [
+    "Kulasekhara Alvar"
+  ],
+  "scope": {
+    "breadth": "sampradaya",
+    "traditions": [
+      "sri-vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "masi",
+    "nakshatra": "punarvasu",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "specialized",
+    "score": 50
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "kulasekhara-alvar-divyadesam",
+        "type": "sampradaya-calendar",
+        "authority": "Divyadesam.com",
+        "citation": "The 12-Alvar register gives Kulasekhara Alvar's avathara month and nakshatra as masi / punarvasu.",
+        "url": "https://www.divyadesam.com/alwars/",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

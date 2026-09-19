@@ -1,0 +1,58 @@
+{
+  "id": "sharad-navaratri",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Sharad Navaratri"
+  },
+  "kind": "multi-day-cycle",
+  "subjects": [
+    "Durga",
+    "Devi"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "shakta",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "multi-day",
+    "monthSystem": "amanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "pratipada",
+    "durationDays": 9,
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 100
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "navaratri-calendar",
+        "type": "published-panchanga",
+        "authority": "PanchangTime",
+        "citation": "Sharad Navaratri begins on Ashvina Shukla Pratipada and runs through the nine nights before Vijayadashami.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

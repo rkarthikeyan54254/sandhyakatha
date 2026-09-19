@@ -1,0 +1,57 @@
+{
+  "id": "narasimha-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Narasimha Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Narasimha",
+    "Prahlada",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "vaishakha",
+    "paksha": "shukla",
+    "tithi": "chaturdashi",
+    "decisionWindow": "pradosha",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 84
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "narasimha-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Narasimha Jayanti is Vaishakha Shukla Chaturdashi and is associated with twilight worship.",
+        "url": "https://panchangtime.com/festivals/narasimha-jayanti",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

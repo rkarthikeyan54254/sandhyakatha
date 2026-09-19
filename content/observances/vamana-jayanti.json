@@ -1,0 +1,57 @@
+{
+  "id": "vamana-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vamana Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Vamana",
+    "Mahabali",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "dvadashi",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 76
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vamana-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Vamana Jayanti is Bhadrapada Shukla Dwadashi and is distinguished from Onam.",
+        "url": "https://panchangtime.com/festivals/vamana-jayanti",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

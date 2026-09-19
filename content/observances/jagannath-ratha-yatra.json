@@ -1,0 +1,58 @@
+{
+  "id": "jagannath-ratha-yatra",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Jagannath Ratha Yatra"
+  },
+  "kind": "utsava",
+  "subjects": [
+    "Jagannath",
+    "Balabhadra",
+    "Subhadra"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "vaishnava"
+    ],
+    "regions": [
+      "odisha",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "ashadha",
+    "paksha": "shukla",
+    "tithi": "dvitiya",
+    "decisionWindow": "sunrise",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "ratha-yatra-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Jagannath Ratha Yatra is Ashadha Shukla Dwitiya.",
+        "url": "https://www.drikpanchang.com/festivals/ratha-yatra/jagannatha-rathayatra-date-time.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

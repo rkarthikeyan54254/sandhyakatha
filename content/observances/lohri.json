@@ -1,0 +1,56 @@
+{
+  "id": "lohri",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Lohri"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Harvest",
+    "Fire"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "regional-folk",
+      "general-hindu"
+    ],
+    "regions": [
+      "punjab",
+      "north-india"
+    ]
+  },
+  "rule": {
+    "type": "relative",
+    "anchorObservanceId": "makar-sankranti",
+    "offsetDays": -1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 72
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "lohri-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Lohri is listed as the day before Makar Sankranti.",
+        "url": "https://www.drikpanchang.com/calendars/indian/indiancalendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

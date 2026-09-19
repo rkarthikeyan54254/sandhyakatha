@@ -1,0 +1,58 @@
+{
+  "id": "skanda-sashti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Skanda Sashti / Kanda Sashti"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Murugan",
+    "Skanda"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "kaumara",
+      "general-hindu"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-month-lunar-tithi",
+    "solarCalendar": "tamil",
+    "solarMonth": "aippasi",
+    "paksha": "shukla",
+    "tithi": "shashthi",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 88
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "skanda-sashti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Kanda/Skanda Sashti is a major Murugan observance in the Tamil Aippasi season.",
+        "url": "https://www.drikpanchang.com/tamil/tamil-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

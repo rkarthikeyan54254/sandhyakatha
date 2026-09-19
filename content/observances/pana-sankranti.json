@@ -1,0 +1,56 @@
+{
+  "id": "pana-sankranti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Pana Sankranti / Odia New Year"
+  },
+  "kind": "festival",
+  "subjects": [
+    "New Year"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "regional-folk"
+    ],
+    "regions": [
+      "odisha",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "odia",
+    "solarMonth": "baisakha",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "pana-sankranti-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Pana Sankranti is the first day of the Odia calendar and the Odia New Year.",
+        "url": "https://www.drikpanchang.com/festivals/oriya-newyear/oriya-newyear-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

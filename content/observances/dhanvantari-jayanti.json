@@ -1,0 +1,57 @@
+{
+  "id": "dhanvantari-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Dhanvantari Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Dhanvantari",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "krishna",
+    "tithi": "trayodashi",
+    "decisionWindow": "pradosha",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 80
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "dhanvantari-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Dhanvantari Jayanti is observed with Dhanteras on Kartika Krishna Trayodashi.",
+        "url": "https://www.drikpanchang.com/festivals/dhanteras/dhanteras-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

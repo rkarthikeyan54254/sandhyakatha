@@ -1,0 +1,57 @@
+{
+  "id": "thaipusam",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Thaipusam"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Murugan",
+    "Parvati"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "kaumara",
+      "general-hindu"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-nakshatra",
+    "solarCalendar": "tamil",
+    "solarMonth": "thai",
+    "nakshatra": "pushya",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "thaipusam-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Thaipusam is the Thai-Pushya (Poosam) observance sacred to Murugan.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

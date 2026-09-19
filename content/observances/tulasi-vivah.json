@@ -1,0 +1,58 @@
+{
+  "id": "tulasi-vivah",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Tulasi Vivah"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Tulasi",
+    "Vishnu",
+    "Krishna"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "kartika",
+    "paksha": "shukla",
+    "tithi": "dvadashi",
+    "decisionWindow": "pradosha",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 74
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "tulasi-vivah-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Tulasi Vivah is generally performed on Kartika Shukla Dwadashi at twilight, with some family variation.",
+        "url": "https://panchangtime.com/festivals/tulasi-vivah",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "raksha-bandhan",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Raksha Bandhan"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Sibling bond"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "shravana",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "raksha-bandhan-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Raksha Bandhan is Shravana Purnima; the actual tying window excludes Bhadra.",
+        "url": "https://panchangtime.com/festivals/raksha-bandhan",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

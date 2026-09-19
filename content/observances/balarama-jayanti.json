@@ -1,0 +1,58 @@
+{
+  "id": "balarama-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Balarama Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Balarama",
+    "Krishna"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "vaishnava"
+    ],
+    "regions": [
+      "north-india",
+      "west-india",
+      "braj"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "shashthi",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 68
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "balarama-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Balarama Jayanti is Bhadrapada Shukla Shashthi; Braj and regional names are documented.",
+        "url": "https://www.drikpanchang.com/dashavatara/lord-balarama/balarama-jayanti-date-time.html?lang=en",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "maha-navami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Maha Navami"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Durga"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "shakta",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "ashvina",
+    "paksha": "shukla",
+    "tithi": "navami",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "maha-navami-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Maha Navami is Ashvina Shukla Navami, the ninth day of Navaratri.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

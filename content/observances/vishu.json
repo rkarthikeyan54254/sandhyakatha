@@ -1,0 +1,57 @@
+{
+  "id": "vishu",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vishu"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Vishnu",
+    "Krishna",
+    "New Year"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "kerala"
+    ]
+  },
+  "rule": {
+    "type": "solar-day",
+    "solarCalendar": "malayalam",
+    "solarMonth": "medam",
+    "solarDay": 1,
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vishu-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Vishu Kani is the Malayalam solar-calendar new-year observance in Medam.",
+        "url": "https://www.drikpanchang.com/malayalam/calendar/malayalam-calendar.html?year=2026",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

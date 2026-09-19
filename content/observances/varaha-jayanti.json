@@ -1,0 +1,60 @@
+{
+  "id": "varaha-jayanti",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Varaha Jayanti"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Varaha",
+    "Bhudevi",
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "vaishnava"
+    ],
+    "regions": [
+      "north-india",
+      "south-india",
+      "east-india",
+      "west-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "bhadrapada",
+    "paksha": "shukla",
+    "tithi": "tritiya",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 62
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "varaha-jayanti-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Varaha Jayanti is Bhadrapada Shukla Tritiya.",
+        "url": "https://panchangtime.com/festivals/varaha-jayanti",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

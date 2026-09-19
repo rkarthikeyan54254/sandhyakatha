@@ -1,0 +1,56 @@
+{
+  "id": "utpanna-ekadashi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Utpanna Ekadashi"
+  },
+  "kind": "vrata",
+  "subjects": [
+    "Vishnu"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "vaishnava",
+      "general-hindu"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "margashirsha",
+    "paksha": "krishna",
+    "tithi": "ekadashi",
+    "decisionWindow": "source-specific",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "significant",
+    "score": 58
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "utpanna-ekadashi-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Utpanna Ekadashi is the named margashirsha krishna Ekadashi in the annual fasting cycle.",
+        "url": "https://www.drikpanchang.com/vrats/ekadashidates.html?geoname-id=1277333",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

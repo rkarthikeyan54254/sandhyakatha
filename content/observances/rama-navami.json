@@ -1,0 +1,56 @@
+{
+  "id": "rama-navami",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Rama Navami"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Rama"
+  ],
+  "scope": {
+    "breadth": "pan-india",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "all-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "chaitra",
+    "paksha": "shukla",
+    "tithi": "navami",
+    "decisionWindow": "madhyahna",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 94
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "rama-navami-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "Smarta/mainstream Rama Navami is Chaitra Shukla Navami selected by the Madhyahna rule.",
+        "url": "https://panchangtime.com/festivals/rama-navami-smarta",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

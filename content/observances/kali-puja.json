@@ -1,0 +1,56 @@
+{
+  "id": "kali-puja",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Kali Puja"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Kali"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "shakta"
+    ],
+    "regions": [
+      "west-bengal",
+      "east-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "purnimanta",
+    "month": "kartika",
+    "paksha": "krishna",
+    "tithi": "amavasya",
+    "decisionWindow": "nishita",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 90
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "kali-puja-drik",
+        "type": "published-panchanga",
+        "authority": "Drik Panchang",
+        "citation": "Kali Puja is observed on the Kartika Amavasya night in Bengal.",
+        "url": "https://www.drikpanchang.com/festivals/kali-puja/kali-puja-date-time.html",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

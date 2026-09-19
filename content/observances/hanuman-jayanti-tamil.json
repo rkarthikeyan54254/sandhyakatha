@@ -1,0 +1,56 @@
+{
+  "id": "hanuman-jayanti-tamil",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Hanumath Jayanti (Tamil)"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Hanuman"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu"
+    ]
+  },
+  "rule": {
+    "type": "solar-month-lunar-tithi",
+    "solarCalendar": "tamil",
+    "solarMonth": "margazhi",
+    "paksha": "krishna",
+    "tithi": "amavasya",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 82
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "hanuman-tamil-calendar",
+        "type": "published-panchanga",
+        "authority": "PanchangTime",
+        "citation": "Tamil Nadu observes Hanumath/Anjaneyar Jayanti on Margazhi Amavasya, distinct from Chaitra Purnima.",
+        "url": "https://panchangtime.com/festivals/hanuman-jayanti-tamil",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

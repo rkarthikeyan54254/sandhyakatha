@@ -1,0 +1,58 @@
+{
+  "id": "hanuman-jayanti-chaitra",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Hanuman Jayanti (Chaitra Purnima)"
+  },
+  "kind": "jayanti",
+  "subjects": [
+    "Hanuman"
+  ],
+  "scope": {
+    "breadth": "broad",
+    "traditions": [
+      "general-hindu",
+      "vaishnava"
+    ],
+    "regions": [
+      "north-india",
+      "west-india",
+      "central-india"
+    ]
+  },
+  "rule": {
+    "type": "lunar-tithi",
+    "monthSystem": "amanta",
+    "month": "chaitra",
+    "paksha": "shukla",
+    "tithi": "purnima",
+    "decisionWindow": "full-day",
+    "adhikaPolicy": "skip"
+  },
+  "importance": {
+    "tier": "major",
+    "score": 84
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "hanuman-jayanti-chaitra-calendar-source",
+        "type": "published-panchanga",
+        "authority": "PanchangTime / Drik Panchang",
+        "citation": "North/mainstream Hanuman Jayanti is observed on Chaitra Shukla Purnima; regional dates differ.",
+        "url": "https://panchangtime.com/festivals/hanuman-jayanti/yearly/2027",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}

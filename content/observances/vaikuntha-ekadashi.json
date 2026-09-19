@@ -1,0 +1,58 @@
+{
+  "id": "vaikuntha-ekadashi",
+  "schemaVersion": "1.1",
+  "status": "sourced",
+  "names": {
+    "en": "Vaikuntha Ekadashi"
+  },
+  "kind": "festival",
+  "subjects": [
+    "Vishnu",
+    "Vaikuntha"
+  ],
+  "scope": {
+    "breadth": "regional",
+    "traditions": [
+      "sri-vaishnava",
+      "vaishnava"
+    ],
+    "regions": [
+      "tamil-nadu",
+      "south-india"
+    ]
+  },
+  "rule": {
+    "type": "solar-month-lunar-tithi",
+    "solarCalendar": "tamil",
+    "solarMonth": "margazhi",
+    "paksha": "shukla",
+    "tithi": "ekadashi",
+    "decisionWindow": "sampradaya-rule",
+    "adhikaPolicy": "not-applicable"
+  },
+  "importance": {
+    "tier": "principal",
+    "score": 92
+  },
+  "confidence": "medium",
+  "provenance": {
+    "sources": [
+      {
+        "id": "vaikuntha-index",
+        "type": "published-panchanga",
+        "authority": "PanchangTime",
+        "citation": "Vaikuntha Ekadashi is the major Vaishnava Ekadashi associated with Margazhi/Dhanurmasa in South Indian calendars.",
+        "url": "https://panchangtime.com/festivals",
+        "accessedOn": "2026-09-19",
+        "supports": [
+          "identity",
+          "names",
+          "kind",
+          "subjects",
+          "scope",
+          "rule"
+        ]
+      }
+    ]
+  }
+}
