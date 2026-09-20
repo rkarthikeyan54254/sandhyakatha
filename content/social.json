@@ -792,6 +792,58 @@
           }
         ]
       }
+    },
+    "birds-eye": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 10,
+            "mode": "full"
+          },
+          {
+            "index": 11,
+            "mode": "full"
+          },
+          {
+            "index": 15,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "karna-armour": {
+      "reel": {
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "full"
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 11,
+            "mode": "full"
+          }
+        ]
+      }
     }
   }
 }

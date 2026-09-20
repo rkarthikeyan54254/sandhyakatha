@@ -14,8 +14,8 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "preview": "vite preview",
     "content": "node scripts/build-index.mjs && node scripts/build-runtime-observances.mjs && node scripts/build-runtime-locales.mjs && node scripts/runtime-locale-gates.mjs && node scripts/runtime-observance-gates.mjs",
-    "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs && node scripts/validate-observances.mjs && node scripts/validate-observance-map.mjs",
-    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs && node scripts/validate-observances.mjs --strict && node scripts/observance-foundation-gates.mjs && node scripts/validate-observance-map.mjs --strict && node scripts/build-runtime-observances.mjs && node scripts/runtime-observance-gates.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-locales.mjs && node scripts/native-language-gates.mjs && node scripts/validate-observances.mjs && node scripts/validate-observance-map.mjs",
+    "validate:strict": "node scripts/validate.mjs --strict && node scripts/validate-locales.mjs && node scripts/native-language-gates.mjs --strict && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs && node scripts/validate-observances.mjs --strict && node scripts/observance-foundation-gates.mjs && node scripts/validate-observance-map.mjs --strict && node scripts/build-runtime-observances.mjs && node scripts/runtime-observance-gates.mjs",
     "lock": "node scripts/lock.mjs && node scripts/lock-locales.mjs",
     "ssml": "node scripts/render-audio.mjs",
     "og": "node scripts/og.mjs",
@@ -47,7 +47,8 @@
     "observances:coverage": "node scripts/observance-coverage.mjs",
     "observances:research": "npm run validate:observances && npm run validate:observance-maps && npm run resolve:observances && npm run observances:coverage",
     "build:runtime-observances": "node scripts/build-runtime-observances.mjs",
-    "verify:runtime-observances": "node scripts/runtime-observance-gates.mjs"
+    "verify:runtime-observances": "node scripts/runtime-observance-gates.mjs",
+    "verify:native-language": "node scripts/native-language-gates.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",
@@ -65,7 +66,7 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "react-test-renderer": "^18.3.1",
-    "typescript": "^5.6.3",
+    "typescript": "5.6.3",
     "vite": "^6.0.5",
     "vite-plugin-pwa": "^0.21.1",
     "vitest": "^2.1.8"

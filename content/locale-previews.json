@@ -48,6 +48,46 @@
         "ta-IN",
         "hi-IN"
       ]
+    },
+    {
+      "storyId": "guha-boatman",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "jatayu-last-flight",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "hanuman-tail",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "birds-eye",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "karna-armour",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
     }
   ]
 }

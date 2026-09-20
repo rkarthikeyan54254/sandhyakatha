@@ -54,6 +54,46 @@
     {
       "storyId": "squirrel-setu",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "guha-boatman",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "jatayu-last-flight",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "hanuman-tail",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "birds-eye",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "karna-armour",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "guha-boatman",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "jatayu-last-flight",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "hanuman-tail",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "birds-eye",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "karna-armour",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

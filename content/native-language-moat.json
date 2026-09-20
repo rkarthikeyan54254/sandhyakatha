@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "principle": "The canonical edition supplies meaning, source identity and claim boundaries; it is never the syntactic, rhetorical or titling template for another language. A locale must read as though the story was conceived and narrated in that language.",
+  "humanLanguageEditorRequired": true,
+  "styleReferencePolicy": "External native publications may be used to calibrate register, title instinct, idiom and storytelling rhythm. They are never evidence for story facts; canonical SandhyaKatha sourcing remains authoritative.",
+  "languages": {
+    "hi": {
+      "register": "सहज, आत्मीय हिन्दी; सुनाने की भाषा, न पाठ्यपुस्तक की, न अनुवाद जैसी।",
+      "styleReferences": [],
+      "allowedLatinTokens": [],
+      "regressionPhrases": []
+    },
+    "ta": {
+      "register": "வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்; ஆங்கில வாக்கிய அமைப்பைத் தமிழில் மாற்றிய நடை அல்ல.",
+      "styleReferences": [
+        "dinamalar.com",
+        "akilakarthikeyan.com"
+      ],
+      "allowedLatinTokens": [],
+      "regressionPhrases": [
+        "ஜடாயுவின் கடைசி பறப்பு",
+        "பீமனால் கூட தூக்க முடியாத வால்",
+        "கர்ணன் தனது கவசத்தைத் தந்தான்",
+        "அவர் அமைதியாகச் செல்லும் மனிதர் அல்ல",
+        "இது சாதாரணமான ஒரு தானம் அல்ல",
+        "சுற்றியிருந்த உலகமும் அவர்களின் பதிலில் இருந்தது"
+      ],
+      "nativeTitleExamples": [
+        "ராமருக்காக இரவெங்கும் விழித்த குகன்",
+        "ராவணனைத் தனியே எதிர்த்த ஜடாயு",
+        "பீமனுக்கே அசையாத அந்த வால்",
+        "அர்ஜுனன் கண்டது ஒன்றே ஒன்று",
+        "பிறவிக் கவசத்தையே தானமாகத் தந்த கர்ணன்"
+      ]
+    }
+  }
+}

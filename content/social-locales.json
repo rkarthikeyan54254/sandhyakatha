@@ -179,6 +179,146 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "guha-boatman": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "full"
+            },
+            {
+              "index": 9,
+              "mode": "full"
+            },
+            {
+              "index": 13,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "jatayu-last-flight": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 12,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "hanuman-tail": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "birds-eye": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "full"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 14,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "karna-armour": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            },
+            {
+              "index": 8,
+              "mode": "full"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -354,6 +494,160 @@
             },
             {
               "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "guha-boatman": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "sentence",
+              "sentence": 3
+            },
+            {
+              "index": 9,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 14,
+              "mode": "sentence",
+              "sentence": 3
+            }
+          ]
+        },
+        "jatayu-last-flight": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "hanuman-tail": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 4,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 5,
+              "mode": "sentence",
+              "sentence": 4
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "sentence",
+              "sentence": 2
+            }
+          ]
+        },
+        "birds-eye": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "sentence",
+              "sentence": 3
+            },
+            {
+              "index": 4,
+              "mode": "sentence",
+              "sentence": 3
+            },
+            {
+              "index": 10,
+              "mode": "full"
+            },
+            {
+              "index": 12,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 15,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "karna-armour": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "sentence",
+              "sentence": 3
+            },
+            {
+              "index": 7,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 13,
               "mode": "firstSentence"
             }
           ]

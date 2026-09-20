@@ -133,6 +133,55 @@ This rule is about the Rāmāyaṇa specifically. Elsewhere — the Purāṇas a
 tellings genuinely do disagree, everyone knows it, and `variant` with an honest
 note is the right answer.
 
+## Native-language moat
+
+Set 2026-09-20 after the Hindi/Tamil parity review. **The canonical/English
+edition supplies meaning, source identity and claim boundaries. It is never the
+syntactic, rhetorical or titling template for another language.** A locale is
+finished only when it reads as though the story was conceived and narrated in
+that language.
+
+A localized title is not a translation field. Keep the same canonical event and
+truth, but formulate the title independently in the target language. Do not
+translate the English title first and polish it later; that preserves English
+editorial instincts even when every target-language word is grammatical.
+
+The same rule applies below the title. Reject sentences that reveal the English
+sentence underneath them: English-shaped possessives, connective phrases,
+word-order, explanatory framing, honorific rhythm or idiom are translation debt.
+Grammatical correctness is necessary and insufficient.
+
+For every locale edition:
+
+- begin from the canonical claims, scenes and tradition boundaries, not from the
+  English sentences;
+- choose the title, sentence rhythm, idiom, honorifics and transitions in the
+  target language itself;
+- read the complete edition aloud and rewrite anything that sounds translated;
+- use native publications only to calibrate register, title instinct and prose
+  rhythm — never as evidence for story facts;
+- keep `sourceMap`, canonical entity markers and source-fidelity review exactly
+  as strict as the English edition; native voice is not permission to invent;
+- require a human native-language editor before `status: approved`.
+
+For Tamil, the baseline is family read-aloud Tamil: natural, contemporary and
+publication-quality without becoming either textbook prose or stage oratory.
+`dinamalar.com` and `akilakarthikeyan.com` are useful style-calibration examples
+for headline instinct and native prose rhythm. They are not SandhyaKatha source
+witnesses. The canonical source ledger remains authoritative.
+
+**AI self-review can never satisfy the `languageEditor` gate.** An AI or coding
+agent may draft, compare against native publications, flag translation-shaped
+phrases and revise. The approval itself must name a human reviewer. A machine
+cannot promote its own locale prose to public status.
+
+The machine-enforced half of this contract lives in
+`content/native-language-moat.json` and `scripts/native-language-gates.mjs`.
+That gate blocks known translation regressions, Latin-script leakage in
+Hindi/Tamil reader text, machine identities in the human language-editor gate,
+and removal of this policy. Passing it does not prove beautiful prose; the
+human review is deliberately non-automatable.
+
 ## Writing for a voice
 
 - **`p` is a breath line.** One thought. At most three sentences.

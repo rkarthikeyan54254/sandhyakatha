@@ -30,3 +30,17 @@ For growth operations, start with `studio/ops/GROWTH-OPS-STATE.md` and a targete
 Complete one bounded deliverable with saved evidence before opening another. Aim for a first saved artifact/checkpoint within about ten minutes; this is a planning target, not a guarantee or a reason to skip required gates. Check usage at the start and after substantial units when tools support it, reserving roughly 20% for finishing and other work. Account limits are shared; avoid promising fixed task counts or hard quota enforcement.
 
 Batch independent reads, reuse known connector fields, avoid repeated broad scans and unchanged successful checks, and use no subagents unless explicitly requested. After two unchanged external failures, checkpoint the blocker and continue independent work. Save completion evidence, remaining work and the next exact action in the ops state after each unit. User authorization and all editorial/persisted-state safety requirements still apply.
+
+Before creating or editing anything under `content/locales/**`, read the
+**native-language moat** section of `EDITORIAL.md` and
+`content/native-language-moat.json`.
+
+- Do not translate the English title first and then polish it. Formulate a title
+  natively from the canonical event and claims.
+- Do not use English sentences as the syntax template for localized prose.
+- External native publications are style/register references only, never story
+  sources.
+- AI/Codex/Astra may draft and self-audit, but must leave `languageEditor`
+  pending until a human native-language reviewer approves it.
+- Never promote or lock a locale edition that fails
+  `scripts/native-language-gates.mjs`.

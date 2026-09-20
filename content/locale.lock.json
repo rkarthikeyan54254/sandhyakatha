@@ -1,6 +1,11 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-20",
   "locales": {
+    "hi-IN/birds-eye": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "97ddc07aa482a749"
+    },
     "hi-IN/durga-mahishasura": {
       "sourceVersion": 2,
       "status": "approved",
@@ -16,10 +21,30 @@
       "status": "approved",
       "hash": "870c04f5c07e802d"
     },
+    "hi-IN/guha-boatman": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9805a98f9fab5be8"
+    },
     "hi-IN/hanuman-reminded": {
       "sourceVersion": 1,
       "status": "approved",
       "hash": "10539670a8e51dbe"
+    },
+    "hi-IN/hanuman-tail": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "3c4df0277bacb0cd"
+    },
+    "hi-IN/jatayu-last-flight": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9fd28961c114ef40"
+    },
+    "hi-IN/karna-armour": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "209a8c450a620dbb"
     },
     "hi-IN/rama-returns": {
       "sourceVersion": 1,
@@ -30,6 +55,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "647f53e5a2f20b3a"
+    },
+    "ta-IN/birds-eye": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "1fa3561964742288"
     },
     "ta-IN/durga-mahishasura": {
       "sourceVersion": 2,
@@ -46,10 +76,30 @@
       "status": "approved",
       "hash": "f17daa4fdeb216e1"
     },
+    "ta-IN/guha-boatman": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "54e7cbf4d3286f19"
+    },
     "ta-IN/hanuman-reminded": {
       "sourceVersion": 1,
       "status": "approved",
       "hash": "7cb8116c2097df62"
+    },
+    "ta-IN/hanuman-tail": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "342079dc2579083d"
+    },
+    "ta-IN/jatayu-last-flight": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "09cca7d17f5bca2f"
+    },
+    "ta-IN/karna-armour": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "160c5fb524f6ec5f"
     },
     "ta-IN/rama-returns": {
       "sourceVersion": 1,
