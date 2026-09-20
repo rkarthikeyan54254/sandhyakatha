@@ -95,3 +95,26 @@ between this and a generator.
 script substituted and the pauses in place. Render, then **listen to the whole
 track**. One mispronounced name undoes every citation above it. Set
 `audio[].approved` only after you have heard it end to end.
+
+## Locale publication · write it again in the target language
+
+A locale edition has its own publication gate. Do not feed the English prose
+through a translation pass and call the result done.
+
+1. Start from the canonical sourcing/scene map and the facts that must survive.
+   English is a parity reference, not a sentence template.
+2. Draft the telling in the target language with its own sentence boundaries,
+   rhythm, repetitions and spoken register.
+3. Render every \`«canonical name»\` through \`displayNames\` before review. Review
+   the actual reader/reel surface. A romanized name leaking onto Hindi or Tamil
+   glass is a release failure.
+4. Approve \`languageEditor\` only when the edition sounds written originally in
+   that language. "Correct translation" is not the bar.
+5. Read it aloud at normal bedtime pace and record the real
+   \`measuredSeconds\`. That is a separate gate from language editing.
+6. Only after \`languageEditor\`, \`sourceFidelity\` and every native read-aloud gate
+   are approved may the locale become \`approved\`, be locked, enter
+   \`locale-public.json\`, receive social selectors, and join the campaign.
+
+For Tamil in particular, inspect every rendered proper name with attached case
+morphology. The canonical marker is an identity token, not a declension engine.

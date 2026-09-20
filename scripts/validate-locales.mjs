@@ -56,6 +56,20 @@ function textFields(doc) {
   return out;
 }
 
+function renderedLocalizedText(text, doc) {
+  return String(text ?? '')
+    .replace(/«([^»]+)»/g, (_m, key) => doc.displayNames?.[key] ?? `«${key}»`)
+    .replace(/_/g, '');
+}
+
+function checkNativeSurface(where, text, doc) {
+  const rendered = renderedLocalizedText(text, doc);
+  if (/[«»]/.test(rendered))
+    err(where, 'rendered localized text contains an unresolved canonical entity marker');
+  if (/\p{Script=Latin}/u.test(rendered))
+    err(where, `${doc.locale} rendered reader text contains Latin-script copy; native locale editions may not leak transliteration or English names`);
+}
+
 function checkMarkup(where, text, doc) {
   const opens = (text.match(/«/g) ?? []).length;
   const closes = (text.match(/»/g) ?? []).length;
@@ -123,6 +137,7 @@ for (const [langDir, file] of localeFiles()) {
 
   for (const text of textFields(doc)) {
     checkMarkup(rel, text, doc);
+    checkNativeSurface(rel, text, doc);
     if (script && !script.test(text.replace(/«[^»]+»/g, '')))
       err(rel, `localized reader-facing text has no ${doc.language} script outside canonical entity markers`);
   }

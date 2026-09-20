@@ -64,6 +64,16 @@ export function gateLocalePlan({
       continue;
     }
 
+    if (card.role !== 'source') {
+      const visible = [card.text, card.kicker].filter(Boolean).join(' ');
+      if (/[«»_]/.test(visible))
+        fail(`card ${i + 1}: native locale card leaked story markup`);
+      if (/\p{Script=Latin}/u.test(visible))
+        fail(`card ${i + 1}: native locale card leaked Latin-script copy or transliteration`);
+    }
+
+
+
     if (card.role === 'body' && countWords(card.text) > 18)
       fail(`card ${i + 1}: too dense (${countWords(card.text)} words)`);
 

@@ -28,6 +28,10 @@
       "locale": "hi-IN"
     },
     {
+      "storyId": "squirrel-setu",
+      "locale": "hi-IN"
+    },
+    {
       "storyId": "hanuman-reminded",
       "locale": "ta-IN"
     },
@@ -45,6 +49,10 @@
     },
     {
       "storyId": "durga-mahishasura",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "squirrel-setu",
       "locale": "ta-IN"
     }
   ],

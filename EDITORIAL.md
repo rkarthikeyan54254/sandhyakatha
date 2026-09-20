@@ -174,6 +174,48 @@ note is the right answer.
 - Read it out loud, all the way through, before you approve it. Every sentence
   you stumble on gets rewritten. This is not optional and there is no substitute.
 
+## Locale editions are authored, not translated
+
+Set 2026-09-19, after the Squirrel Hindi/Tamil review. A locale edition is not
+an English story with its words exchanged. **It must sound as though a parent
+who speaks that language wrote it in that language first.** Grammatical
+correctness is not enough. A sentence that carries English word order, English
+rhythm or transliterated names is a failed locale edition even when every fact
+is correct.
+
+**Parity is semantic, not syntactic.** Preserve the sourced events, causal
+sequence, turn, emotional weight and landing. Do not preserve English sentence
+boundaries, idioms, repetitions or clause order merely because they are present
+in the canonical English telling. Hindi gets Hindi cadence. Tamil gets Tamil
+cadence.
+
+**Native script must survive all the way to the glass.** Canonical markers such
+as \`«Rāma»\` are internal identity keys. They are allowed in locale JSON only
+because the renderer resolves them through \`displayNames\`. A Hindi or Tamil
+reader, public page, preview, reel or campaign card must never expose \`Rāma\`,
+\`Laṅkā\`, \`Hanumān\` or another romanized canonical key where the native-script
+name belongs. Review the rendered surface, not only the JSON.
+
+**Morphology outranks token substitution.** Never assume that appending a Tamil
+case suffix to \`«Name»\` will remain grammatical after the marker is replaced by
+its display name. \`«Rāma»வின்\` can become the bad form \`ராமர்வின்\` when
+\`displayNames.Rāma\` is \`ராமர்\`. Rewrite the sentence so the rendered name fits
+naturally, or add an explicit inflection mechanism before using that form.
+
+The \`languageEditor\` approval gate therefore means all of the following:
+
+- a fluent speaker has reviewed the **rendered** edition, not just the source JSON;
+- it reads like native family storytelling, not translated copy;
+- names and religious/cultural terms appear in the script and form a speaker
+  would naturally use;
+- sentence shape, repetition and pacing belong to the target language;
+- the locale preserves source meaning without importing English phrasing.
+
+If any one of those is false, the gate is \`changes-requested\`, not \`approved\`.
+\`scripts/validate-locales.mjs\` catches Latin-script leakage that software can
+prove; the native-voice judgement remains human because pretending software can
+certify idiomatic prose would weaken the gate.
+
 ## The close
 
 - **The question is open.** It cannot be answered right or wrong, and it is

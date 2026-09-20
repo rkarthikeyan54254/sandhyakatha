@@ -149,6 +149,36 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "squirrel-setu": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -294,6 +324,36 @@
             },
             {
               "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "squirrel-setu": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "sentence",
+              "sentence": 2
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "sentence",
+              "sentence": 3
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            },
+            {
+              "index": 9,
               "mode": "firstSentence"
             }
           ]

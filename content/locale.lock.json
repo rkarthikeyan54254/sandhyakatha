@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "locales": {
     "hi-IN/durga-mahishasura": {
       "sourceVersion": 2,
@@ -26,6 +26,11 @@
       "status": "approved",
       "hash": "94885f6717db9e7c"
     },
+    "hi-IN/squirrel-setu": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "647f53e5a2f20b3a"
+    },
     "ta-IN/durga-mahishasura": {
       "sourceVersion": 2,
       "status": "approved",
@@ -50,6 +55,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "bdc2b30d8264dd67"
+    },
+    "ta-IN/squirrel-setu": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "aa873716a7a205a0"
     }
   }
 }

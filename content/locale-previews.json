@@ -40,6 +40,14 @@
         "hi-IN",
         "ta-IN"
       ]
+    },
+    {
+      "storyId": "squirrel-setu",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
     }
   ]
 }

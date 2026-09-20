@@ -58,6 +58,8 @@ for (const pub of cfg.editions ?? []) {
   const html=readFileSync(pagePath,'utf8');
   const en=existsSync(enPath)?readFileSync(enPath,'utf8'):'';
   const preview=existsSync(previewPath)?readFileSync(previewPath,'utf8'):'';
+  if (/[«»]/.test(html))
+    fail(`${key}: canonical entity marker leaked into rendered page`);
   const absolute=`https://sandhyakatha.com${href}`;
 
   if (html.includes('noindex')) fail(`${key}: public page is noindex`);

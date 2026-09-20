@@ -22,3 +22,11 @@ A fix is not complete because the screenshot looks right. It is complete only wh
 ## Editorial work
 
 For story/content changes, `EDITORIAL.md` remains authoritative. Source fidelity and the hard review gates must not be weakened for speed.
+
+## Session and weekly usage discipline
+
+For growth operations, start with `studio/ops/GROWTH-OPS-STATE.md` and a targeted repository status check. Use full handoffs only to resolve a specific missing detail.
+
+Complete one bounded deliverable with saved evidence before opening another. Aim for a first saved artifact/checkpoint within about ten minutes; this is a planning target, not a guarantee or a reason to skip required gates. Check usage at the start and after substantial units when tools support it, reserving roughly 20% for finishing and other work. Account limits are shared; avoid promising fixed task counts or hard quota enforcement.
+
+Batch independent reads, reuse known connector fields, avoid repeated broad scans and unchanged successful checks, and use no subagents unless explicitly requested. After two unchanged external failures, checkpoint the blocker and continue independent work. Save completion evidence, remaining work and the next exact action in the ops state after each unit. User authorization and all editorial/persisted-state safety requirements still apply.

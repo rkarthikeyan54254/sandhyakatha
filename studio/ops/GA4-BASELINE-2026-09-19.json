@@ -1,0 +1,422 @@
+{
+  "total": {
+    "query": {
+      "connector": "googleanalytics4",
+      "accounts": [
+        "553123842"
+      ],
+      "date_from": "2026-08-22",
+      "date_to": "2026-09-18",
+      "fields": [
+        "active_users",
+        "newusers",
+        "sessions",
+        "engaged_sessions",
+        "engagement_rate",
+        "average_engagement_time",
+        "screen_page_views"
+      ]
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"active_users\":789.0,\"newusers\":788.0,\"sessions\":930.0,\"engaged_sessions\":208.0,\"engagement_rate\":0.2237,\"average_engagement_time\":31.7883,\"screen_page_views\":1450.0}]"
+        }
+      ],
+      "structuredContent": {
+        "result": [
+          {
+            "active_users": 789,
+            "newusers": 788,
+            "sessions": 930,
+            "engaged_sessions": 208,
+            "engagement_rate": 0.2237,
+            "average_engagement_time": 31.7883,
+            "screen_page_views": 1450
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "daily": {
+    "query": {
+      "connector": "googleanalytics4",
+      "accounts": [
+        "553123842"
+      ],
+      "date_from": "2026-09-16",
+      "date_to": "2026-09-18",
+      "fields": [
+        "date",
+        "active_users",
+        "newusers",
+        "sessions",
+        "engaged_sessions",
+        "engagement_rate",
+        "average_engagement_time",
+        "screen_page_views"
+      ]
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"date\":\"2026-09-16\",\"active_users\":35.0,\"newusers\":31.0,\"sessions\":41.0,\"engaged_sessions\":17.0,\"engagement_rate\":0.4146,\"average_engagement_time\":69.5429,\"screen_page_views\":74.0},{\"date\":\"2026-09-17\",\"active_users\":301.0,\"newusers\":296.0,\"sessions\":315.0,\"engaged_sessions\":43.0,\"engagement_rate\":0.1365,\"average_engagement_time\":5.7409,\"screen_page_views\":390.0},{\"date\":\"2026-09-18\",\"active_users\":258.0,\"newusers\":250.0,\"sessions\":276.0,\"engaged_sessions\":46.0,\"engagement_rate\":0.1667,\"average_engagement_time\":9.5543,\"screen_page_views\":413.0}]"
+        }
+      ],
+      "structuredContent": {
+        "result": [
+          {
+            "date": "2026-09-16",
+            "active_users": 35,
+            "newusers": 31,
+            "sessions": 41,
+            "engaged_sessions": 17,
+            "engagement_rate": 0.4146,
+            "average_engagement_time": 69.5429,
+            "screen_page_views": 74
+          },
+          {
+            "date": "2026-09-17",
+            "active_users": 301,
+            "newusers": 296,
+            "sessions": 315,
+            "engaged_sessions": 43,
+            "engagement_rate": 0.1365,
+            "average_engagement_time": 5.7409,
+            "screen_page_views": 390
+          },
+          {
+            "date": "2026-09-18",
+            "active_users": 258,
+            "newusers": 250,
+            "sessions": 276,
+            "engaged_sessions": 46,
+            "engagement_rate": 0.1667,
+            "average_engagement_time": 9.5543,
+            "screen_page_views": 413
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "sources": {
+    "query": {
+      "connector": "googleanalytics4",
+      "accounts": [
+        "553123842"
+      ],
+      "date_from": "2026-08-22",
+      "date_to": "2026-09-18",
+      "fields": [
+        "session_source_medium",
+        "active_users",
+        "newusers",
+        "sessions",
+        "engaged_sessions",
+        "engagement_rate",
+        "average_engagement_time",
+        "screen_page_views"
+      ]
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"session_source_medium\":\"fb / paid\",\"active_users\":323.0,\"newusers\":323.0,\"sessions\":336.0,\"engaged_sessions\":35.0,\"engagement_rate\":0.1042,\"average_engagement_time\":0.0372,\"screen_page_views\":358.0},{\"session_source_medium\":\"(direct) / (none)\",\"active_users\":215.0,\"newusers\":215.0,\"sessions\":249.0,\"engaged_sessions\":55.0,\"engagement_rate\":0.2209,\"average_engagement_time\":54.1953,\"screen_page_views\":414.0},{\"session_source_medium\":\"ig / paid\",\"active_users\":180.0,\"newusers\":180.0,\"sessions\":183.0,\"engaged_sessions\":22.0,\"engagement_rate\":0.1202,\"average_engagement_time\":0.0444,\"screen_page_views\":198.0},{\"session_source_medium\":\"accounts.google.com / referral\",\"active_users\":4.0,\"newusers\":1.0,\"sessions\":44.0,\"engaged_sessions\":36.0,\"engagement_rate\":0.8182,\"average_engagement_time\":1338.75,\"screen_page_views\":172.0},{\"session_source_medium\":\"ig / social\",\"active_users\":12.0,\"newusers\":10.0,\"sessions\":20.0,\"engaged_sessions\":14.0,\"engagement_rate\":0.7,\"average_engagement_time\":159.0833,\"screen_page_views\":51.0},{\"session_source_medium\":\"m.facebook.com / referral\",\"active_users\":18.0,\"newusers\":18.0,\"sessions\":18.0,\"engaged_sessions\":5.0,\"engagement_rate\":0.2778,\"average_engagement_time\":0.0,\"screen_page_views\":23.0},{\"session_source_medium\":\"facebook.com / referral\",\"active_users\":15.0,\"newusers\":15.0,\"sessions\":17.0,\"engaged_sessions\":11.0,\"engagement_rate\":0.6471,\"average_engagement_time\":49.9333,\"screen_page_views\":22.0},{\"session_source_medium\":\"(not set)\",\"active_users\":6.0,\"newusers\":0.0,\"sessions\":16.0,\"engaged_sessions\":0.0,\"engagement_rate\":0.0,\"average_engagement_time\":169.0,\"screen_page_views\":55.0},{\"session_source_medium\":\"accounts.google.co.in / referral\",\"active_users\":1.0,\"newusers\":0.0,\"sessions\":8.0,\"engaged_sessions\":7.0,\"engagement_rate\":0.875,\"average_engagement_time\":2081.0,\"screen_page_views\":25.0},{\"session_source_medium\":\"instagram / carousel\",\"active_users\":2.0,\"newusers\":1.0,\"sessions\":8.0,\"engaged_sessions\":6.0,\"engagement_rate\":0.75,\"average_engagement_time\":710.0,\"screen_page_views\":30.0},{\"session_source_medium\":\"instagram / social\",\"active_users\":7.0,\"newusers\":6.0,\"sessions\":7.0,\"engaged_sessions\":3.0,\"engagement_rate\":0.4286,\"average_engagement_time\":19.8571,\"screen_page_views\":13.0},{\"session_source_medium\":\"whatsapp / channel\",\"active_users\":4.0,\"newusers\":3.0,\"sessions\":6.0,\"engaged_sessions\":5.0,\"engagement_rate\":0.8333,\"average_engagement_time\":86.0,\"screen_page_views\":49.0},{\"session_source_medium\":\"instagram.com / referral\",\"active_users\":1.0,\"newusers\":0.0,\"sessions\":4.0,\"engaged_sessions\":4.0,\"engagement_rate\":1.0,\"average_engagement_time\":108.0,\"screen_page_views\":16.0},{\"session_source_medium\":\"l.facebook.com / referral\",\"active_users\":4.0,\"newusers\":4.0,\"sessions\":4.0,\"engaged_sessions\":1.0,\"engagement_rate\":0.25,\"average_engagement_time\":17.75,\"screen_page_views\":4.0},{\"session_source_medium\":\"meta / paid_social\",\"active_users\":3.0,\"newusers\":3.0,\"sessions\":3.0,\"engaged_sessions\":1.0,\"engagement_rate\":0.3333,\"average_engagement_time\":1.6667,\"screen_page_views\":3.0},{\"session_source_medium\":\"instagram / reel\",\"active_users\":2.0,\"newusers\":2.0,\"sessions\":2.0,\"engaged_sessions\":1.0,\"engagement_rate\":0.5,\"average_engagement_time\":3.5,\"screen_page_views\":2.0},{\"session_source_medium\":\"instagram / story\",\"active_users\":2.0,\"newusers\":2.0,\"sessions\":2.0,\"engaged_sessions\":0.0,\"engagement_rate\":0.0,\"average_engagement_time\":0.0,\"screen_page_views\":2.0},{\"session_source_medium\":\"lm.facebook.com / referral\",\"active_users\":2.0,\"newusers\":2.0,\"sessions\":2.0,\"engaged_sessions\":2.0,\"engagement_rate\":1.0,\"average_engagement_time\":10.5,\"screen_page_views\":3.0},{\"session_source_medium\":\"aicrawler.store / referral\",\"active_users\":1.0,\"newusers\":1.0,\"sessions\":1.0,\"engaged_sessions\":0.0,\"engagement_rate\":0.0,\"average_engagement_time\":0.0,\"screen_page_views\":1.0},{\"session_source_medium\":\"bing / organic\",\"active_users\":1.0,\"newusers\":1.0,\"sessions\":1.0,\"engaged_sessions\":0.0,\"engagement_rate\":0.0,\"average_engagement_time\":0.0,\"screen_page_views\":1.0},{\"session_source_medium\":\"dataindex.pro / referral\",\"active_users\":1.0,\"newusers\":1.0,\"sessions\":1.0,\"engaged_sessions\":0.0,\"engagement_rate\":0.0,\"average_engagement_time\":0.0,\"screen_page_views\":1.0},{\"session_source_medium\":\"google / organic\",\"active_users\":1.0,\"newusers\":0.0,\"sessions\":1.0,\"engaged_sessions\":1.0,\"engagement_rate\":1.0,\"average_engagement_time\":186.0,\"screen_page_views\":7.0}]"
+        }
+      ],
+      "structuredContent": {
+        "result": [
+          {
+            "session_source_medium": "fb / paid",
+            "active_users": 323,
+            "newusers": 323,
+            "sessions": 336,
+            "engaged_sessions": 35,
+            "engagement_rate": 0.1042,
+            "average_engagement_time": 0.0372,
+            "screen_page_views": 358
+          },
+          {
+            "session_source_medium": "(direct) / (none)",
+            "active_users": 215,
+            "newusers": 215,
+            "sessions": 249,
+            "engaged_sessions": 55,
+            "engagement_rate": 0.2209,
+            "average_engagement_time": 54.1953,
+            "screen_page_views": 414
+          },
+          {
+            "session_source_medium": "ig / paid",
+            "active_users": 180,
+            "newusers": 180,
+            "sessions": 183,
+            "engaged_sessions": 22,
+            "engagement_rate": 0.1202,
+            "average_engagement_time": 0.0444,
+            "screen_page_views": 198
+          },
+          {
+            "session_source_medium": "accounts.google.com / referral",
+            "active_users": 4,
+            "newusers": 1,
+            "sessions": 44,
+            "engaged_sessions": 36,
+            "engagement_rate": 0.8182,
+            "average_engagement_time": 1338.75,
+            "screen_page_views": 172
+          },
+          {
+            "session_source_medium": "ig / social",
+            "active_users": 12,
+            "newusers": 10,
+            "sessions": 20,
+            "engaged_sessions": 14,
+            "engagement_rate": 0.7,
+            "average_engagement_time": 159.0833,
+            "screen_page_views": 51
+          },
+          {
+            "session_source_medium": "m.facebook.com / referral",
+            "active_users": 18,
+            "newusers": 18,
+            "sessions": 18,
+            "engaged_sessions": 5,
+            "engagement_rate": 0.2778,
+            "average_engagement_time": 0,
+            "screen_page_views": 23
+          },
+          {
+            "session_source_medium": "facebook.com / referral",
+            "active_users": 15,
+            "newusers": 15,
+            "sessions": 17,
+            "engaged_sessions": 11,
+            "engagement_rate": 0.6471,
+            "average_engagement_time": 49.9333,
+            "screen_page_views": 22
+          },
+          {
+            "session_source_medium": "(not set)",
+            "active_users": 6,
+            "newusers": 0,
+            "sessions": 16,
+            "engaged_sessions": 0,
+            "engagement_rate": 0,
+            "average_engagement_time": 169,
+            "screen_page_views": 55
+          },
+          {
+            "session_source_medium": "accounts.google.co.in / referral",
+            "active_users": 1,
+            "newusers": 0,
+            "sessions": 8,
+            "engaged_sessions": 7,
+            "engagement_rate": 0.875,
+            "average_engagement_time": 2081,
+            "screen_page_views": 25
+          },
+          {
+            "session_source_medium": "instagram / carousel",
+            "active_users": 2,
+            "newusers": 1,
+            "sessions": 8,
+            "engaged_sessions": 6,
+            "engagement_rate": 0.75,
+            "average_engagement_time": 710,
+            "screen_page_views": 30
+          },
+          {
+            "session_source_medium": "instagram / social",
+            "active_users": 7,
+            "newusers": 6,
+            "sessions": 7,
+            "engaged_sessions": 3,
+            "engagement_rate": 0.4286,
+            "average_engagement_time": 19.8571,
+            "screen_page_views": 13
+          },
+          {
+            "session_source_medium": "whatsapp / channel",
+            "active_users": 4,
+            "newusers": 3,
+            "sessions": 6,
+            "engaged_sessions": 5,
+            "engagement_rate": 0.8333,
+            "average_engagement_time": 86,
+            "screen_page_views": 49
+          },
+          {
+            "session_source_medium": "instagram.com / referral",
+            "active_users": 1,
+            "newusers": 0,
+            "sessions": 4,
+            "engaged_sessions": 4,
+            "engagement_rate": 1,
+            "average_engagement_time": 108,
+            "screen_page_views": 16
+          },
+          {
+            "session_source_medium": "l.facebook.com / referral",
+            "active_users": 4,
+            "newusers": 4,
+            "sessions": 4,
+            "engaged_sessions": 1,
+            "engagement_rate": 0.25,
+            "average_engagement_time": 17.75,
+            "screen_page_views": 4
+          },
+          {
+            "session_source_medium": "meta / paid_social",
+            "active_users": 3,
+            "newusers": 3,
+            "sessions": 3,
+            "engaged_sessions": 1,
+            "engagement_rate": 0.3333,
+            "average_engagement_time": 1.6667,
+            "screen_page_views": 3
+          },
+          {
+            "session_source_medium": "instagram / reel",
+            "active_users": 2,
+            "newusers": 2,
+            "sessions": 2,
+            "engaged_sessions": 1,
+            "engagement_rate": 0.5,
+            "average_engagement_time": 3.5,
+            "screen_page_views": 2
+          },
+          {
+            "session_source_medium": "instagram / story",
+            "active_users": 2,
+            "newusers": 2,
+            "sessions": 2,
+            "engaged_sessions": 0,
+            "engagement_rate": 0,
+            "average_engagement_time": 0,
+            "screen_page_views": 2
+          },
+          {
+            "session_source_medium": "lm.facebook.com / referral",
+            "active_users": 2,
+            "newusers": 2,
+            "sessions": 2,
+            "engaged_sessions": 2,
+            "engagement_rate": 1,
+            "average_engagement_time": 10.5,
+            "screen_page_views": 3
+          },
+          {
+            "session_source_medium": "aicrawler.store / referral",
+            "active_users": 1,
+            "newusers": 1,
+            "sessions": 1,
+            "engaged_sessions": 0,
+            "engagement_rate": 0,
+            "average_engagement_time": 0,
+            "screen_page_views": 1
+          },
+          {
+            "session_source_medium": "bing / organic",
+            "active_users": 1,
+            "newusers": 1,
+            "sessions": 1,
+            "engaged_sessions": 0,
+            "engagement_rate": 0,
+            "average_engagement_time": 0,
+            "screen_page_views": 1
+          },
+          {
+            "session_source_medium": "dataindex.pro / referral",
+            "active_users": 1,
+            "newusers": 1,
+            "sessions": 1,
+            "engaged_sessions": 0,
+            "engagement_rate": 0,
+            "average_engagement_time": 0,
+            "screen_page_views": 1
+          },
+          {
+            "session_source_medium": "google / organic",
+            "active_users": 1,
+            "newusers": 0,
+            "sessions": 1,
+            "engaged_sessions": 1,
+            "engagement_rate": 1,
+            "average_engagement_time": 186,
+            "screen_page_views": 7
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "returning": {
+    "query": {
+      "connector": "googleanalytics4",
+      "accounts": [
+        "553123842"
+      ],
+      "date_from": "2026-08-22",
+      "date_to": "2026-09-18",
+      "fields": [
+        "new_vs_returning",
+        "active_users",
+        "newusers",
+        "sessions",
+        "engaged_sessions",
+        "engagement_rate",
+        "average_engagement_time",
+        "screen_page_views"
+      ]
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"new_vs_returning\":\"new\",\"active_users\":789.0,\"newusers\":788.0,\"sessions\":786.0,\"engaged_sessions\":121.0,\"engagement_rate\":0.1539,\"average_engagement_time\":12.0127,\"screen_page_views\":924.0},{\"new_vs_returning\":\"(not set)\",\"active_users\":0.0,\"newusers\":0.0,\"sessions\":12.0,\"engaged_sessions\":1.0,\"engagement_rate\":0.0833,\"average_engagement_time\":null,\"screen_page_views\":12.0},{\"new_vs_returning\":\"returning\",\"active_users\":30.0,\"newusers\":0.0,\"sessions\":132.0,\"engaged_sessions\":87.0,\"engagement_rate\":0.6591,\"average_engagement_time\":520.1,\"screen_page_views\":514.0}]"
+        }
+      ],
+      "structuredContent": {
+        "result": [
+          {
+            "new_vs_returning": "new",
+            "active_users": 789,
+            "newusers": 788,
+            "sessions": 786,
+            "engaged_sessions": 121,
+            "engagement_rate": 0.1539,
+            "average_engagement_time": 12.0127,
+            "screen_page_views": 924
+          },
+          {
+            "new_vs_returning": "(not set)",
+            "active_users": 0,
+            "newusers": 0,
+            "sessions": 12,
+            "engaged_sessions": 1,
+            "engagement_rate": 0.0833,
+            "average_engagement_time": null,
+            "screen_page_views": 12
+          },
+          {
+            "new_vs_returning": "returning",
+            "active_users": 30,
+            "newusers": 0,
+            "sessions": 132,
+            "engaged_sessions": 87,
+            "engagement_rate": 0.6591,
+            "average_engagement_time": 520.1,
+            "screen_page_views": 514
+          }
+        ]
+      },
+      "isError": false
+    }
+  }
+}
