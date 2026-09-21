@@ -1,0 +1,32 @@
+/* Shared story artwork contract used by the app Reader/Tonight cards and every public edition. */
+.storyart{margin:18px 0 0}
+.storyart-frame{
+  width:100%;
+  aspect-ratio:4 / 3;
+  overflow:hidden;
+  border:1px solid rgba(240,180,88,.16);
+  border-radius:var(--media-radius,14px);
+  background:
+    radial-gradient(80% 90% at 50% 45%,rgba(240,180,88,.055),transparent 70%),
+    #100c17;
+  box-shadow:0 12px 28px rgba(0,0,0,.18)
+}
+.storyart-frame img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  background:transparent
+}
+.storyart figcaption{
+  margin-top:6px;
+  text-align:right;
+  font-family:var(--ui,Karla,system-ui,sans-serif);
+  font-size:9px;
+  line-height:1.2;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+  color:var(--muted,#948aa6);
+  font-weight:700
+}

@@ -100,7 +100,9 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
 
         {story.hero && (
           <figure className="storyart readerart">
-            <img src={story.hero} alt={`${copy.illustration}: ${story.title}`} loading="eager" decoding="async" />
+            <div className="storyart-frame">
+              <img src={story.hero} alt={`${copy.illustration}: ${story.title}`} loading="eager" decoding="async" />
+            </div>
             <figcaption>{copy.illustration}</figcaption>
           </figure>
         )}

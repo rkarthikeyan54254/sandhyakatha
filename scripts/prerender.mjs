@@ -168,90 +168,21 @@ function page(s) {
 <script src="/gtag-init.js"></script>
 <script src="/report.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap">
+<link rel="stylesheet" href="/design-tokens.css">
+<link rel="stylesheet" href="/story-media.css">
+<link rel="stylesheet" href="/story-system.css">
 <script type="application/ld+json">${JSON.stringify({
   '@context': 'https://schema.org', '@type': 'ShortStory', name: s.title, url,
   description: desc, inLanguage: 'en', isBasedOn: `${s.source.work}, ${s.source.locus}`,
   typicalAgeRange: `${s.audience.minAge}-15`, isAccessibleForFree: true,
   publisher: { '@type': 'Organization', name: 'Sandhya Katha', url: SITE }
 })}</script>
-<style>
-:root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--ember-lit:#e0937f;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
-*{box-sizing:border-box}
-body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,sans-serif;
-  background-image:radial-gradient(900px 500px at 50% -10%,#282040 0,rgba(40,32,64,0) 70%);background-attachment:fixed}
-.w{max-width:620px;margin:0 auto;padding:0 22px 70px}
-header{display:flex;align-items:center;gap:10px;padding:22px 0 18px;border-bottom:1px solid var(--line)}
-header a{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
-header .mark{display:flex;align-items:center;flex:none}
-header .mark svg{display:block}
-header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px}
-header i{font-family:"Tiro Devanagari Sanskrit",serif;font-style:normal;font-size:11px;color:var(--lamp-dim);display:block}
-h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(30px,7vw,40px);line-height:1.15;margin:26px 0 0;text-wrap:balance}
-.attrib{margin:16px 0 0;padding:12px 14px;border-left:2px solid var(--lamp-dim);background:rgba(240,180,88,.05)}
-.attrib p{margin:0;font-size:13px;line-height:1.55;color:var(--paper-dim)}
-.attrib p+p{margin-top:8px}.attrib .t b{color:var(--ember-lit)}.attrib .c b{color:var(--ember-lit)}
-.meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
-.meta span{font-size:11px;padding:4px 9px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
-.storyart{margin:18px 0 0}
-.storyart img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid rgba(240,180,88,.16);
-  background:#100c17;box-shadow:0 12px 28px rgba(0,0,0,.18)}
-.storyart figcaption{margin-top:6px;text-align:right;font-size:9px;line-height:1.2;letter-spacing:.15em;
-  text-transform:uppercase;color:var(--muted);font-weight:700}
-main p{font-family:"Gentium Book Plus",Georgia,serif;font-size:19px;line-height:1.72;margin:0 0 20px}
-main{margin-top:28px}
-main em{color:#ffe3b0}
-.name{appearance:none;border:0;background:none;padding:0;margin:0;font:inherit;color:var(--lamp);cursor:pointer;border-bottom:1px dotted rgba(240,180,88,.45)}
-.name:focus-visible{outline:2px solid var(--lamp-dim);outline-offset:2px;border-radius:2px}
-p.slow{border-left:2px solid var(--lamp);padding-left:15px;font-size:20px}
-.slowtag{display:block;font-family:Karla,sans-serif;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--lamp-dim);margin-bottom:7px}
-.beat{display:flex;align-items:center;gap:10px;margin:0 0 20px;color:var(--lamp-dim)}
-.beat:before,.beat:after{content:"";flex:1;height:1px;background:var(--line)}
-.beat span{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
-.turn{margin-top:8px;border:1px solid rgba(240,180,88,.34);border-radius:16px;padding:20px 18px;background:rgba(240,180,88,.06)}
-.turn span.e{font-size:10.5px;letter-spacing:.17em;text-transform:uppercase;color:var(--lamp);font-weight:700}
-.turn p{font-family:"Gentium Book Plus",Georgia,serif;font-size:20px;line-height:1.5;margin:12px 0 0;color:#ffe9c4}
-.turn p.s{font-size:15px;font-style:italic;color:var(--paper-dim);margin-top:14px}
-.ask{margin-top:10px;border-top:1px solid var(--line);padding-top:10px}
-.ask summary{cursor:pointer;color:var(--paper-dim);font-size:13px;line-height:1.5}
-.ask p{font-family:"Gentium Book Plus",Georgia,serif;font-size:16px;line-height:1.6;color:var(--paper-dim);margin:10px 0 0}
-.lexpop{position:fixed;z-index:50;left:16px;right:16px;bottom:16px;max-width:520px;margin:0 auto;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:#21192e;color:var(--paper);box-shadow:0 18px 50px rgba(0,0,0,.46);text-align:left;font-family:Karla,system-ui,sans-serif;cursor:pointer}
-.lexpop[hidden]{display:none}
-.lexpop b{display:block;color:var(--lamp);font-size:15px}
-.lexpop span{display:block;color:var(--paper-dim);font-size:13px;line-height:1.5;margin-top:4px}
-.lexpop i{display:block;color:var(--muted);font-style:normal;font-size:16px;margin-top:7px}
-.cta{margin-top:32px;padding:22px;border:1px solid var(--line);border-radius:14px;background:#1b1526;text-align:center}
-.cta p{margin:0 0 14px;font-size:14px;line-height:1.6;color:var(--paper-dim)}
-.cta a{display:inline-block;padding:13px 22px;border-radius:11px;background:var(--lamp);color:#2a1c08;
-  font-weight:700;font-size:14px;text-decoration:none}
-.wrong{margin-top:30px;border-top:1px solid var(--line);padding-top:16px}
-.wrong summary{cursor:pointer;font-size:13px;color:var(--muted);list-style:none}
-.wrong summary::-webkit-details-marker{display:none}
-.wrong summary:before{content:"→";margin-right:8px;color:var(--lamp-dim)}
-.wrong[open] summary{color:var(--paper-dim)}
-.wrong form{margin-top:14px}
-.wrong p{margin:0 0 12px;font-size:13px;line-height:1.6;color:var(--muted)}
-.wrong .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
-.wrong textarea{width:100%;background:#1b1526;color:var(--paper);border:1px solid var(--line);
-  border-radius:9px;padding:11px 12px;font:inherit;font-size:14px;line-height:1.5;resize:vertical}
-.wrong textarea:focus{outline:2px solid var(--lamp-dim);outline-offset:1px}
-.wrong button{margin-top:10px;padding:9px 18px;border-radius:9px;border:1px solid var(--line);
-  background:transparent;color:var(--lamp);font:inherit;font-size:13.5px;font-weight:700;cursor:pointer}
-.wrong button:hover{background:rgba(240,180,88,.08)}
-.wrong button:disabled{opacity:.6;cursor:default}
-.wrong .thanks{color:var(--ember-lit);font-size:14px;margin:0}
-${FOLLOW_CSS}
-.belongs{margin:26px 0 0;font-size:13.5px;line-height:1.7;color:var(--muted)}
-.belongs a{color:var(--lamp-dim);text-decoration:none;border-bottom:1px solid rgba(169,124,58,.4)}
-.belongs a:hover{color:var(--lamp);border-bottom-color:var(--lamp)}
-aside.note{margin:0 0 20px;padding:11px 14px;border-left:2px solid var(--line);background:rgba(148,138,166,.07);border-radius:0 8px 8px 0}
-aside.note span{display:block;font-family:Karla,sans-serif;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:6px}
-aside.note p{font-family:Karla,sans-serif;font-size:14px;line-height:1.6;color:var(--paper-dim);margin:0}
-footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
-</style></head>
-<body data-story-id="${esc(s.id)}" data-story-corpus="${esc(s.source.corpus)}"><div class="w">
-<header><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
-<h1>${esc(s.title)}</h1>
+</head>
+<body class="sk-story-page" data-locale="en" data-story-id="${esc(s.id)}" data-story-corpus="${esc(s.source.corpus)}"><div class="w">
+<header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
+<nav class="locale-public-switch" data-locale-switch aria-label="Story language"><span class="langlabel">Language</span><a href="/s/${esc(s.id)}/" aria-current="page">English</a></nav>
+<h1 class="story-title">${esc(s.title)}</h1>
 <div class="attrib">
   <p><b>${esc(s.source.work)}</b> — ${esc(s.source.locus)}</p>
   ${s.source.traditionNote ? `<p class="t"><b>Tradition note.</b> ${esc(s.source.traditionNote)}</p>`
@@ -259,8 +190,8 @@ footer{margin-top:34px;font-size:11.5px;color:var(--muted);line-height:1.7}
   ${s.audience.careNote ? `<p class="c"><b>Before you begin.</b> ${esc(s.audience.careNote)}</p>` : ''}
 </div>
 <div class="meta"><span>Ages ${s.audience.minAge}+</span><span>${r.minutes} min aloud</span>${s.values.map(v => `<span>${esc(v)}</span>`).join('')}</div>
-${hero ? `<figure class="storyart"><img src="${esc(hero)}" alt="Illustration for ${esc(s.title)}" decoding="async"><figcaption>Illustration</figcaption></figure>` : ''}
-<main>${body}</main>
+${hero ? `<figure class="storyart"><div class="storyart-frame"><img src="${esc(hero)}" alt="Illustration for ${esc(s.title)}" loading="eager" decoding="async"></div><figcaption>Illustration</figcaption></figure>` : ''}
+<main class="prose">${body}</main>
 <div class="turn"><span class="e">Now turn to your child</span>
   <p>${render(s.close.question, new Set())}</p>
   <p class="s">And if they shrug, you can leave it at this: <b>${render(s.close.seed, new Set())}</b></p>
@@ -286,7 +217,7 @@ ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
   <a href="/">Open tonight's pick</a>
 </div>
 ${followBlock(`${s.title} — tonight's story for the children. About ${r.minutes} minutes, read aloud, and it says at the top which text it comes from.`, url)}
-<footer>Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
+<footer class="story-footer">Told from ${esc(s.source.work)}, ${esc(s.source.locus)}. Where traditions differ, we say so.<br>
 Signed out, family reading history stays on your device. If you choose to sign in, it can be backed up to your account.<br>
 <a href="/about/">About</a> · <a href="/privacy/">Privacy</a></footer>
 </div>

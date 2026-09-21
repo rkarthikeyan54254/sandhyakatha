@@ -1,0 +1,20 @@
+:root{
+  --night:#14101c;
+  --night-2:#1b1526;
+  --night-3:#241c33;
+  --lamp:#f0b458;
+  --lamp-dim:#a97c3a;
+  --ember:#c9573f;
+  --ember-lit:#e0937f;
+  --paper:#f3e7d3;
+  --paper-dim:#c9baa4;
+  --muted:#948aa6;
+  --line:#302941;
+  --ok:#9fc99a;
+  --display:"Tiro Devanagari Sanskrit",Georgia,serif;
+  --read:"Gentium Book Plus",Georgia,serif;
+  --ui:"Karla","Helvetica Neue",system-ui,sans-serif;
+  --story-max:620px;
+  --story-radius:16px;
+  --media-radius:14px;
+}

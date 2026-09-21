@@ -21,6 +21,12 @@ jobs:
         run: npm test
       - name: Production build
         run: npm run build
+      - name: Verify story design parity
+        run: npm run verify:design-parity
+      - name: Verify static surfaces
+        run: npm run verify:surfaces
+      - name: Verify cache policy
+        run: npm run verify:cache
       - name: Verify static SEO outputs
         run: |
           test -f dist/ramayana/index.html
