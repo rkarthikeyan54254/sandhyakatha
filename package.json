@@ -48,7 +48,8 @@
     "observances:research": "npm run validate:observances && npm run validate:observance-maps && npm run resolve:observances && npm run observances:coverage",
     "build:runtime-observances": "node scripts/build-runtime-observances.mjs",
     "verify:runtime-observances": "node scripts/runtime-observance-gates.mjs",
-    "verify:native-language": "node scripts/native-language-gates.mjs"
+    "verify:native-language": "node scripts/native-language-gates.mjs",
+    "verify:read-aloud": "node scripts/read-aloud-gates.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

@@ -2,8 +2,8 @@
   "id": "parvati-decides",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Everyone Told Her to Be Sensible",
   "tease": "A mountain's daughter decides who she will marry. Everyone argues her out of it — and then the man himself turns up in disguise to argue, and he is the one who loses.",
   "source": {
@@ -114,7 +114,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 307,
+      "words": 305,
       "blocks": [
         {
           "t": "p",
@@ -148,7 +148,7 @@
         },
         {
           "t": "aside",
-          "text": "Kept short on purpose. It is frightening rather than admirable, and it is not a thing to copy."
+          "text": "Her austerity was severe. The story does not ask a child to copy it."
         },
         {
           "t": "p",
@@ -156,7 +156,7 @@
         },
         {
           "t": "p",
-          "text": "That is where one of her names comes from. «Aparṇā». Without even a leaf."
+          "text": "That is where one of her names comes from: «Aparṇā» — without even a leaf."
         },
         {
           "t": "p",
@@ -171,7 +171,7 @@
         },
         {
           "t": "p",
-          "text": "And when she told him, he went through Śiva, item by item — no house, no money, ashes all over him, snakes, keeps a graveyard for company, nobody knows his family. He was extremely thorough and he was extremely funny."
+          "text": "When she told him, he went through Śiva item by item: no house, no money, ashes all over him, snakes, a graveyard for company, and no family anyone could name. He was thorough, and he was funny."
         },
         {
           "t": "p",

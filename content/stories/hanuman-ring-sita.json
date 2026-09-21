@@ -2,8 +2,8 @@
   "id": "hanuman-ring-sita",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Ring in the Aśoka Grove",
   "tease": "Hanumān finds Sītā. Now he has to prove that a stranger in Laṅkā really comes from Rāma.",
   "source": {
@@ -104,7 +104,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 335,
+      "words": 333,
       "blocks": [
         {
           "t": "p",
@@ -127,7 +127,7 @@
         },
         {
           "t": "p",
-          "text": "The conversation matters because a token without a trustworthy story around it could also be stolen or misused. «Hanumān» first gives «Sītā» reasons to understand who he is and how he reached her."
+          "text": "«Sītā» could not trust a stranger only because he said «Rāma»'s name. So «Hanumān» first told her who he was, how the search had begun, and how he had reached her."
         },
         {
           "t": "p",
@@ -199,7 +199,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 661,
+      "words": 652,
       "blocks": [
         {
           "t": "p",
@@ -312,7 +312,7 @@
         },
         {
           "t": "p",
-          "text": "The text is explicit about its purpose: «Rāma» should recognize it."
+          "text": "Its purpose was simple: «Rāma» would recognize it."
         },
         {
           "t": "beat"
@@ -339,7 +339,7 @@
         },
         {
           "t": "p",
-          "text": "That is why this quiet scene matters as much as the spectacular leap that brought «Hanumān» to «Laṅkā»."
+          "text": "The leap across the ocean got «Hanumān» to «Laṅkā». This quieter work of earning trust was what made the meeting useful."
         },
         {
           "t": "p",
@@ -358,11 +358,11 @@
         },
         {
           "t": "p",
-          "text": "The private memory «Sītā» chooses is not vague. She reminds «Rāma», through «Hanumān», of an episode near Citrakūṭa involving a crow that attacked her. It is the kind of recollection that belongs to their shared life, not a public description that any resident of «Ayodhyā» could supply."
+          "text": "«Sītā» chose a private memory from their life near Citrakūṭa: the episode of the crow that attacked her. It was something «Rāma» would know came from her, not a public fact that any stranger could repeat."
         },
         {
           "t": "p",
-          "text": "In that remembered episode «Rāma» had protected her when the crow injured her and eventually spared the crow when it sought refuge. «Sītā» gives the memory to «Hanumān» because «Rāma» will know where it came from. The message therefore has a second kind of authentication before the jewel is even produced."
+          "text": "In that remembered episode «Rāma» had protected her when the crow injured her and eventually spared the crow when it sought refuge. «Sītā» gives the memory to «Hanumān» because «Rāma» will know where it came from. So before the jewel even appeared, the message already carried a second proof that «Rāma» would recognize."
         },
         {
           "t": "p",

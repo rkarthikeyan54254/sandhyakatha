@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "policyId": "read-aloud-clarity",
+  "approvedOn": "2026-09-21",
+  "audience": {
+    "firstHearingReferenceAge": "9-10",
+    "region": "India"
+  },
+  "primaryRule": "The main story should be understandable on first hearing by an attentive 9–10-year-old in India, without reducing the depth, cultural vocabulary, or source fidelity of the story. Simplify the delivery, not the idea.",
+  "provenanceRule": "Provenance must always be available, but it does not always have to be spoken.",
+  "principles": [
+    "first-hearing clarity",
+    "concrete before abstract",
+    "shorten syntax not thought",
+    "retain meaningful Indian vocabulary with context",
+    "separate storyteller, source-scholar and editor voices",
+    "parent-only provenance outside the spoken lane by default",
+    "do not rewrite already-clear passages"
+  ],
+  "hardAvoidInSpokenLane": [
+    "internal source-selection process",
+    "critical-edition bookkeeping",
+    "chosen-witness justification",
+    "editorial process language",
+    "instructions to the SandhyaKatha editor"
+  ]
+}

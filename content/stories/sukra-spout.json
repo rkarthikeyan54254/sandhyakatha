@@ -2,8 +2,8 @@
   "id": "sukra-spout",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-14",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Blade of Darbha in the Water Spout",
   "tease": "Before Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.",
   "source": {
@@ -107,7 +107,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 314,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -134,7 +134,7 @@
         },
         {
           "t": "p",
-          "text": "In the medieval telling we are following, «Śukrācārya» made himself tiny — the source summary calls the form a mote — and entered the mouth of «Bali»'s water-pot."
+          "text": "In a later Sanskrit telling, «Śukrācārya» made himself tiny — no bigger than a mote — and entered the mouth of «Bali»'s water-pot."
         },
         {
           "t": "p",
@@ -173,29 +173,29 @@
         },
         {
           "t": "p",
-          "text": "Two details matter for our version. The figure in the spout is «Śukrācārya», not «Durvāsa». And the witness says a mote-like tiny form, not specifically a bee."
+          "text": "One detail is easy to mix up in retellings: the figure in the spout is «Śukrācārya», and this source never calls him a bee."
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata» tells «Śukrācārya»'s warning and «Bali»'s gift, but not this eye episode; later Sanskrit tradition preserves the extra scene."
+          "text": "The «Bhāgavata» tells «Śukrācārya»'s warning and «Bali»'s gift. This eye episode comes from a later Sanskrit tradition."
         },
         {
           "t": "p",
-          "text": "That small difference matters. A bee is easy to picture, but the selected source does not give us permission to choose one. The rarer story becomes stronger, not weaker, when we resist adding the familiar insect."
+          "text": "So the story keeps the tiny form without adding a bee that this source never names."
         },
         {
           "t": "p",
-          "text": "The eye injury is also not the end in every source stream. The Aruṇācala Māhātmya says «Śukrācārya» later performed penance at Śoṇācala and regained the eye."
+          "text": "Another source later says «Śukrācārya» performed penance at Śoṇācala and regained the eye."
         },
         {
           "t": "slow",
-          "text": "Before the three steps could cross the worlds, one blade of grass had to clear one very small opening."
+          "text": "Before the three steps could cross the worlds, one blade of grass had to clear one very small opening. The promise had already been spoken. «Bali» was holding the pot, «Vāmana» was waiting with his hand out, and the whole gift was stopped by water that would not flow."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 655,
+      "words": 652,
       "blocks": [
         {
           "t": "p",
@@ -207,7 +207,7 @@
         },
         {
           "t": "p",
-          "text": "But a medieval Sanskrit telling pauses just before that expansion and gives us a scene no wider than the mouth of a water-pot."
+          "text": "A later Sanskrit telling pauses just before that expansion and gives us a scene no wider than the mouth of a water-pot."
         },
         {
           "t": "beat"
@@ -237,7 +237,7 @@
         },
         {
           "t": "p",
-          "text": "That warning is also familiar from the «Bhāgavata» Purāṇa."
+          "text": "The «Bhāgavata» Purāṇa also preserves that warning."
         },
         {
           "t": "p",
@@ -264,7 +264,7 @@
         },
         {
           "t": "p",
-          "text": "The medieval source summary says «Śukrācārya» tried one more way to prevent the gift."
+          "text": "Then «Śukrācārya» tried one more way to prevent the gift."
         },
         {
           "t": "p",
@@ -369,7 +369,7 @@
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata» Purāṇa gives «Śukrācārya»'s warning, «Bali»'s refusal, his curse on «Bali» and the ritual with the water vessel, but it does not narrate the tiny-form spout blockage or eye injury."
+          "text": "The «Bhāgavata» gives the warning, «Bali»'s refusal, the curse and the water ritual. The tiny form in the spout and the eye injury belong to the later Sanskrit telling used for this scene."
         },
         {
           "t": "beat"
@@ -388,14 +388,14 @@
         },
         {
           "t": "p",
-          "text": "One source stream explicitly gives him the eye back."
+          "text": "Another source later gives him the eye back."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "And one more correction belongs in the telling."
+          "text": "One more familiar detail needs care."
         },
         {
           "t": "p",
@@ -403,11 +403,11 @@
         },
         {
           "t": "p",
-          "text": "This telling also avoids saying he became a bee. Later retellings use insect, fly or bee, but the witness checked here says a tiny mote-like form."
+          "text": "Later retellings sometimes make him an insect, fly or bee. The source used here says only that he became tiny, like a mote."
         },
         {
           "t": "p",
-          "text": "The rare detail stays surprising without adding a creature or ending that the selected witness does not give us."
+          "text": "The scene stays surprising without adding a creature the source never names."
         },
         {
           "t": "p",
@@ -419,7 +419,7 @@
         },
         {
           "t": "slow",
-          "text": "The famous three steps begin only after one tiny blocked spout is cleared and «Bali»'s water finally reaches «Vāmana»'s hand."
+          "text": "The famous three steps begin only after one tiny blocked spout is cleared and «Bali»'s water finally reaches «Vāmana»'s hand. Until that water moves, the great cosmic promise is still waiting inside an ordinary pot."
         }
       ]
     }

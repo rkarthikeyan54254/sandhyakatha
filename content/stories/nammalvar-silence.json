@@ -2,8 +2,8 @@
   "id": "nammalvar-silence",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-15",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Sixteen Years Without a Word",
   "tease": "A baby who never cried and never fed, sitting under a tamarind tree for sixteen years. Then a stranger walks a thousand miles and asks him one question.",
   "source": {
@@ -198,7 +198,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 660,
+      "words": 652,
       "blocks": [
         {
           "t": "p",
@@ -228,7 +228,7 @@
         },
         {
           "t": "p",
-          "text": "So they did the thing the story is careful to describe properly. They did not leave him anywhere. They carried him to the temple at «Tirukkurukūr», where they had asked for him, and they gave him back."
+          "text": "So they did not leave him somewhere and walk away. They carried him to the temple at «Tirukkurukūr», where they had asked for him, and they gave him back."
         },
         {
           "t": "p",
@@ -314,7 +314,7 @@
         },
         {
           "t": "aside",
-          "text": "«Madhurakavi» wrote eleven verses in his life, all of them about his teacher rather than about God. In them he says only that Nammāḻvār saw him and took him in. The silence, the tree, the light and the riddle are not in his poem — they were written down by others, some centuries afterwards."
+          "text": "«Madhurakavi» wrote eleven verses, all about his teacher. His own poem does not tell the silence, the tree, the light or the riddle; those details come from the later tradition that remembered Nammāḻvār's life."
         },
         {
           "t": "beat"

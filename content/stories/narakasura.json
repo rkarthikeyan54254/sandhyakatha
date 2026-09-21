@@ -2,8 +2,8 @@
   "id": "narakasura",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Morning After Naraka",
   "tease": "He asks for one thing as he dies: that the day be kept as a festival rather than as his defeat. He gets it, and people still keep it.",
   "source": {
@@ -125,7 +125,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 312,
+      "words": 303,
       "blocks": [
         {
           "t": "p",
@@ -148,7 +148,7 @@
         },
         {
           "t": "p",
-          "text": "It was her hand at the end. The tellings are firm about that, and it is the part most people have never been told."
+          "text": "In the telling we are following, it was her hand at the end. That is why «Satyabhāmā» was on the field at all."
         },
         {
           "t": "beat"
@@ -159,7 +159,7 @@
         },
         {
           "t": "p",
-          "text": "They were let out. And then there was the question nobody wants in a story — where sixteen thousand women were supposed to go, in a world that would not take them back. Kṛṣṇa married all of them, which was not romance. It was a roof."
+          "text": "They were let out. Then came a harder question: where could sixteen thousand women go in a world that would not take them back? «Kṛṣṇa» married them. Here the marriage is not told as romance; it gave them a place and standing in that society."
         },
         {
           "t": "beat"
@@ -170,7 +170,7 @@
         },
         {
           "t": "p",
-          "text": "Then he asked for something himself, at the end, which is the strangest request in the whole festival: that when people remembered this day — the fourteenth, the _chaturdaśī_ — they should not remember it as the day he lost. They should light lamps and be glad."
+          "text": "Later festival tradition remembers Naraka asking for something at the end: when people remembered this day — the fourteenth, the _chaturdaśī_ — they should not keep it only as the day he lost. They should light lamps and be glad."
         },
         {
           "t": "p",
@@ -184,7 +184,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 679,
+      "words": 652,
       "blocks": [
         {
           "t": "p",
@@ -226,7 +226,7 @@
         },
         {
           "t": "p",
-          "text": "Getting to him was not simple, and the book takes its time over it."
+          "text": "Getting to him was not simple. His city was built behind layer after layer of defence."
         },
         {
           "t": "p",
@@ -245,7 +245,7 @@
         },
         {
           "t": "p",
-          "text": "And in it were sixteen thousand women, and they were being kept there, and they did not want to be. The book says it in about one line and does not describe anything, and one line is enough."
+          "text": "And in it were sixteen thousand women being kept there against their will. The story does not need to describe more than that for the wrongness to be clear."
         },
         {
           "t": "p",
@@ -272,14 +272,14 @@
         },
         {
           "t": "p",
-          "text": "Which sounds like a fairy tale and is not one. It is a legal answer to a cruel arithmetic — the only thing that could be done, in that world, to give sixteen thousand people a name to give when somebody asked. It was a roof, not a romance."
+          "text": "This is not told as a romance. In that society, marriage gave the women a home and standing when returning to their earlier lives was no longer open to them. It was a response to an injustice, not a reward for it."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "The last part is the one the festival is actually about."
+          "text": "Then comes the part remembered by the festival."
         },
         {
           "t": "p",
@@ -295,11 +295,11 @@
         },
         {
           "t": "p",
-          "text": "Not to live. Not to be forgiven. He asked that when people remembered this day — and he knew they would — they should not keep it as the day he was beaten. They should light lamps, and give things to each other, and be glad."
+          "text": "Festival tradition says Naraka did not ask to live or to be forgiven. He asked that when people remembered this day, they should not keep it only as the day he was beaten. They should light lamps, give things to each other, and be glad."
         },
         {
           "t": "p",
-          "text": "And that is what happened. The fourteenth night of the waning fortnight is _chaturdaśī_, and the day carries his name because of this — Naraka Chaturdaśī, kept every year, in the name of the man who lost."
+          "text": "That later tradition is why the fourteenth night of the waning fortnight is remembered as Naraka Chaturdaśī, kept every year in the name of the man who lost."
         },
         {
           "t": "p",

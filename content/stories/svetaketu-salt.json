@@ -2,8 +2,8 @@
   "id": "svetaketu-salt",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Śvetaketu and the Salt",
   "tease": "His father hands him a lump of salt and a bowl of water, and asks him to bring the salt back in the morning.",
   "source": {
@@ -98,7 +98,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 335,
+      "words": 332,
       "blocks": [
         {
           "t": "p",
@@ -159,7 +159,7 @@
         },
         {
           "t": "p",
-          "text": "Then he said the sentence people have been arguing about ever since: that the finest thing, the thing you cannot point at, is what all of this is made of — _and that, Śvetaketu, is what you are._"
+          "text": "Then his father said the hardest sentence of the lesson: the finest thing, the thing you cannot point at, is what all of this is made of — _and that, Śvetaketu, is what you are._"
         },
         {
           "t": "slow",
@@ -169,7 +169,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 662,
+      "words": 651,
       "blocks": [
         {
           "t": "p",
@@ -181,7 +181,7 @@
         },
         {
           "t": "p",
-          "text": "The text is blunt about how he arrived. Conceited. Thinking himself learned. Rather stiff about it."
+          "text": "He came home conceited, thinking himself learned, and rather stiff about it."
         },
         {
           "t": "beat"
@@ -265,7 +265,7 @@
         },
         {
           "t": "p",
-          "text": "And this is the part that does the work, and it is only a few words. The salt has not gone anywhere. It is in every mouthful of that water and you cannot see one grain of it, and you could not get it out again if you tried all day."
+          "text": "Then his father brought him back to the bowl. The salt has not gone anywhere. It is in every mouthful of that water and you cannot see one grain of it, and you could not get it out again if you tried all day."
         },
         {
           "t": "p",
@@ -273,7 +273,7 @@
         },
         {
           "t": "p",
-          "text": "Then he said the sentence that people have been arguing about ever since: that the finest thing, the thing you cannot point at, is what all of this is made of and what it belongs to — _and that, Śvetaketu, is what you are._"
+          "text": "Then he said the hardest sentence of the lesson: the finest thing, the thing you cannot point at, is what all of this is made of and what it belongs to — _and that, Śvetaketu, is what you are._"
         },
         {
           "t": "beat"
@@ -292,11 +292,11 @@
         },
         {
           "t": "p",
-          "text": "The chapter ends with the sentence and not with him agreeing to it, which is either the most frustrating thing in the Upaniṣads or the most honest."
+          "text": "The chapter does not tell us that «Śvetaketu» suddenly understood. He keeps asking to be shown again."
         },
         {
           "t": "slow",
-          "text": "Twelve years of learning things he could say back. Then one night, a bowl of water, and a thing he could not point to and could not get out again."
+          "text": "Twelve years of learning things he could say back. Then one night, a bowl of water, and a thing he could not point to and could not get out again. Now his father had given him something he could taste everywhere and point to nowhere."
         }
       ]
     }

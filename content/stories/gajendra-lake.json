@@ -2,8 +2,8 @@
   "id": "gajendra-lake",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Gajendra Lets Go",
   "tease": "An elephant king fights a crocodile for a thousand years. When his strength fails and his herd cannot free him, he reaches for a different kind of help.",
   "source": {
@@ -79,7 +79,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 301,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -95,7 +95,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata says this struggle lasted a thousand years."
+          "text": "The struggle lasted a thousand years."
         },
         {
           "t": "beat"
@@ -106,7 +106,7 @@
         },
         {
           "t": "p",
-          "text": "At last «Gajendra» understood that neither his herd nor his own body could rescue him by pulling harder. This conclusion comes only after the text has shown the herd trying and «Gajendra» enduring for an impossible length of time."
+          "text": "At last «Gajendra» understood that neither his herd nor his own body could rescue him by pulling harder. His herd had tried. He had endured for an impossible length of time. Pulling harder was no longer an answer. He knew it."
         },
         {
           "t": "p",
@@ -144,7 +144,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 654,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -156,7 +156,7 @@
         },
         {
           "t": "p",
-          "text": "Then he uses his trunk to spray lake water over his wives and young ones. The chapter is explicit that he is not alone when the attack happens."
+          "text": "Then he uses his trunk to spray lake water over his wives and young ones. His wives and young ones are with him; he is not alone when the attack happens."
         },
         {
           "t": "p",
@@ -180,7 +180,7 @@
         },
         {
           "t": "p",
-          "text": "After those long years, the text says his physical, mental and sensory strength diminishes while the crocodile grows stronger. The water that exhausts one fighter is the home of the other. The story has turned the lake itself into part of the struggle, not merely its background at all."
+          "text": "After those long years, «Gajendra»'s physical, mental and sensory strength began to fade while the crocodile grew stronger. The water that exhausts one fighter is the home of the other. The story has turned the lake itself into part of the struggle, not merely its background at all."
         },
         {
           "t": "p",
@@ -200,7 +200,7 @@
         },
         {
           "t": "p",
-          "text": "Much of the next chapter is that prayer. It reaches past the visible bodies around him toward the supreme shelter he understands to be behind everything. The prayer is not simply _make the crocodile let go_. It asks for refuge at a deeper level than the fight."
+          "text": "Then «Gajendra» prayed. It reaches past the visible bodies around him toward the supreme shelter he understands to be behind everything. The prayer is not simply _make the crocodile let go_. It asks for refuge at a deeper level than the fight."
         },
         {
           "t": "p",
@@ -208,7 +208,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata says he comes quickly on «Garuḍa», carrying the discus. «Gajendra» is still trapped and in pain when he sees him coming through the sky."
+          "text": "«Nārāyaṇa» came quickly on «Garuḍa», carrying the discus. «Gajendra» is still trapped and in pain when he sees him coming through the sky."
         },
         {
           "t": "p",
@@ -224,7 +224,7 @@
         },
         {
           "t": "p",
-          "text": "The following chapter explains that «Gajendra» had once been a king in a previous birth. The crocodile had also been another being before this birth, and its release is tied to the same rescue."
+          "text": "Later we learn that «Gajendra» had once been a king in a previous birth. The crocodile had also been another being before this birth, and its release is tied to the same rescue."
         },
         {
           "t": "p",
@@ -244,7 +244,7 @@
         },
         {
           "t": "p",
-          "text": "The story does not make that limit shameful."
+          "text": "Reaching that limit was not a failure. He knew it."
         },
         {
           "t": "p",
@@ -260,7 +260,7 @@
         },
         {
           "t": "slow",
-          "text": "«Gajendra» is remembered not because he could pull forever, but because he knew when strength had told him to reach beyond strength."
+          "text": "«Gajendra» is remembered not because he could pull forever, but because he understood when strength had reached its limit and asked for help."
         }
       ]
     }

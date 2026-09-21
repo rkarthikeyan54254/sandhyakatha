@@ -2,8 +2,8 @@
   "id": "ganesha-moon",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Night We Don't Look at the Moon",
   "tease": "Families are careful about looking at the Moon on one night of Bhādrapada. The Gaṇeśa Purāṇa tells why.",
   "source": {
@@ -150,7 +150,7 @@
         },
         {
           "t": "p",
-          "text": "The text treats the laughter as ridicule, not as a harmless accident."
+          "text": "The laughter is treated as ridicule, not as a harmless accident."
         },
         {
           "t": "beat"
@@ -165,7 +165,7 @@
         },
         {
           "t": "p",
-          "text": "«Gaṇeśa» would not pretend his spoken word had never been spoken. Instead he limited it. «Candra» was not to be seen on the fourth day of the bright fortnight of Bhādrapada. That is the restriction the chapter gives."
+          "text": "«Gaṇeśa» would not pretend his spoken word had never been spoken. Instead he limited it. «Candra» was not to be seen on the fourth day of the bright fortnight of Bhādrapada. That is the restriction remembered in this telling."
         },
         {
           "t": "p",
@@ -192,7 +192,7 @@
         },
         {
           "t": "p",
-          "text": "The chapter ends with «Candra» restored, not discarded."
+          "text": "«Candra» is restored, not discarded in the end."
         },
         {
           "t": "slow",
@@ -202,7 +202,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 661,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -214,7 +214,7 @@
         },
         {
           "t": "p",
-          "text": "The chapter then moves away from the fruit. «Brahmā» returns to his work of creation, and «Gaṇeśa» places an extraordinary obstacle in his way."
+          "text": "Then the story moves away from the fruit. «Brahmā» returns to his work of creation, and «Gaṇeśa» places an extraordinary obstacle in his way."
         },
         {
           "t": "p",
@@ -245,7 +245,7 @@
         },
         {
           "t": "p",
-          "text": "The chapter makes him say that even if «Meru» shook, the sun fell, fire became cold or the ocean crossed its boundary, his spoken word would not become false."
+          "text": "«Gaṇeśa» says that even if «Meru» shook, the sun fell, fire became cold or the ocean crossed its boundary, his spoken word would not become false."
         },
         {
           "t": "p",
@@ -272,7 +272,7 @@
         },
         {
           "t": "p",
-          "text": "He goes to the southern bank of the «Gaṅgā», repeats «Gaṇeśa»'s one-syllable mantra and undertakes a severe austerity. The Purāṇa gives the enormous span of one hundred and twenty years."
+          "text": "He goes to the southern bank of the «Gaṅgā», repeats «Gaṇeśa»'s one-syllable mantra and undertakes a severe austerity. The story gives the enormous span of one hundred and twenty years."
         },
         {
           "t": "p",
@@ -292,7 +292,7 @@
         },
         {
           "t": "p",
-          "text": "He restores «Candra» to his former appearance, but the Bhādrapada-fourth restriction remains. The chapter says that looking at «Candra» then carries the effect of the curse."
+          "text": "He restores «Candra» to his former appearance, but the Bhādrapada-fourth restriction remains. The restriction on looking at «Candra» remains."
         },
         {
           "t": "p",
@@ -303,7 +303,7 @@
         },
         {
           "t": "p",
-          "text": "«Candra» then erects an image of «Gaṇeśa» and worships it. The gods and sages honour the place, and the chapter closes with «Candra» restored to his previous condition and returning home."
+          "text": "«Candra» then erects an image of «Gaṇeśa» and worships it. The gods and sages honour the place, and «Candra» returns home restored."
         },
         {
           "t": "p",
@@ -315,7 +315,7 @@
         },
         {
           "t": "slow",
-          "text": "The night remembers both things: the laugh that caused the hurt, and the refuge that was still given afterwards."
+          "text": "The night remembers both things: the laugh that caused the hurt, and the refuge that was still given afterwards, and it still leaves room for return again."
         }
       ]
     }

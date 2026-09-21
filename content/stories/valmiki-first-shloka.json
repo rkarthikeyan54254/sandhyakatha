@@ -2,8 +2,8 @@
   "id": "valmiki-first-shloka",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The First Poem Was an Accident",
   "tease": "A man walks to the river to bathe. He comes back with the first line of poetry anyone in that language had ever made, and he did not mean to make it.",
   "source": {
@@ -102,7 +102,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 354,
+      "words": 356,
       "blocks": [
         {
           "t": "p",
@@ -125,7 +125,7 @@
         },
         {
           "t": "p",
-          "text": "The female stood over him and made a sound. That is the part the text stays with — not the arrow. Her going round and round the place where he was, calling, not stopping."
+          "text": "The female stood over him and cried out, circling the place where he had fallen and calling again and again."
         },
         {
           "t": "beat"
@@ -166,13 +166,13 @@
         },
         {
           "t": "slow",
-          "text": "He had gone down to the river to wash. He came back with a shape that everything written in that language for the next three thousand years would be poured into."
+          "text": "He had gone down to the river to wash. He came back with a shape that everything written in that language for the next three thousand years would be poured into. The poem began before he knew he was writing one, with grief arriving faster than thought."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 658,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -203,7 +203,7 @@
         },
         {
           "t": "p",
-          "text": "That is the part the text spends its time on. Not the arrow, which takes half a line. The sound she made — going round and round the place where he lay, calling, in a voice the poem calls pitiable, over and over, not stopping."
+          "text": "The arrow takes only a moment. What lasts is the female bird circling where he fell, calling again and again in grief."
         },
         {
           "t": "beat"
@@ -229,11 +229,11 @@
         },
         {
           "t": "p",
-          "text": "He said it again to check. It was still true."
+          "text": "He said it again to check. It was still true. Instead, the morning had given him a line with a rhythm he could not stop hearing."
         },
         {
           "t": "p",
-          "text": "So he stood on the riverbank with a dead bird in front of him and a hunter somewhere in the trees, saying his own sentence back to himself, completely bewildered, because he had not done any of it on purpose."
+          "text": "So he stood on the riverbank with a dead bird in front of him and a hunter somewhere in the trees, saying his own sentence back to himself, completely bewildered, because he had not done any of it on purpose. He had come there to bathe. His student was waiting with the clothes."
         },
         {
           "t": "p",
@@ -244,7 +244,7 @@
         },
         {
           "t": "p",
-          "text": "He gave it a name that afternoon, and the name is a joke that is not a joke. The word for grief is _śoka_. He called the thing that had come out of his grief a _śloka_."
+          "text": "Later he gave the new form a name. The word for grief is _śoka_. He called the verse that came out of his grief a _śloka_."
         },
         {
           "t": "p",
@@ -267,11 +267,11 @@
         },
         {
           "t": "p",
-          "text": "The bird does not come back later in the book. Nothing is made better for her, and the hunter is not followed. She got the first four lines of the first poem, and then the poem went away to be about somebody else."
+          "text": "The bird does not return later in the story. Nothing is repaired for her. But her grief is what opened the first verse and sent «Vālmīki» toward the poem he would write."
         },
         {
           "t": "slow",
-          "text": "The first line of poetry in that language was not made for a king or a god. It was shouted at a hunter, over a bird, by a man who could not keep it in."
+          "text": "The first line of poetry in that language was not made for a king or a god. It was shouted at a hunter, over a bird, by a man who could not keep it in. And it all began with a bird's cry."
         }
       ]
     }

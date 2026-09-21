@@ -2,8 +2,8 @@
   "id": "vamana-three-steps",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Three Steps of Land",
   "tease": "A dwarf asks for three steps of land. Bali is warned those three steps may cost him everything.",
   "source": {
@@ -92,7 +92,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 314,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -131,7 +131,7 @@
         },
         {
           "t": "p",
-          "text": "This warning matters because Bali now knew the danger before the gift was completed."
+          "text": "Now «Bali» knew the danger before the gift was completed."
         },
         {
           "t": "beat"
@@ -177,11 +177,11 @@
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata» does not treat Bali as a careless king who simply failed to notice a trick. His teacher warned him. Bali understood that the promise could cost his kingdom and continued anyway."
+          "text": "«Bali» was not simply a careless king who missed a trick. His teacher warned him. He understood that the promise could cost his kingdom and continued anyway."
         },
         {
           "t": "p",
-          "text": "That makes the episode harder and more interesting."
+          "text": "That makes his choice much harder to judge."
         },
         {
           "t": "p",
@@ -189,7 +189,7 @@
         },
         {
           "t": "p",
-          "text": "The later resolution honours Bali rather than treating him as nothing more than a defeated ruler. The story keeps his steadfastness visible even after the worlds are no longer his to command."
+          "text": "Later, «Bali» is honoured rather than treated as nothing more than a defeated ruler. His steadfastness remains visible even after the worlds are no longer his to command."
         },
         {
           "t": "slow",
@@ -199,7 +199,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 672,
+      "words": 662,
       "blocks": [
         {
           "t": "p",
@@ -272,7 +272,7 @@
         },
         {
           "t": "p",
-          "text": "This is the point that prevents the episode from becoming a simple story about a careless king being tricked by a tiny visitor."
+          "text": "Now the story is no longer about a careless king being tricked by a tiny visitor. «Bali» understands the danger before he chooses."
         },
         {
           "t": "p",
@@ -346,7 +346,7 @@
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata»'s resolution does not reduce Bali to a loser who has simply been outsmarted. His steadfastness is honoured."
+          "text": "«Bali» is not left as a ruler who was merely outsmarted. His steadfastness is honoured."
         },
         {
           "t": "p",
@@ -357,7 +357,7 @@
         },
         {
           "t": "p",
-          "text": "That is why the story holds two ideas at once."
+          "text": "The story holds two ideas at once."
         },
         {
           "t": "p",
@@ -369,7 +369,7 @@
         },
         {
           "t": "p",
-          "text": "A child can still argue with his decision. The source itself gives Śukrācārya a serious argument for limits, livelihood and prudence."
+          "text": "You can still argue with «Bali»'s decision. «Śukrācārya» gives him a serious argument for limits, livelihood and prudence."
         },
         {
           "t": "p",

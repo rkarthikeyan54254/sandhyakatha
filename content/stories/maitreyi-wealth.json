@@ -2,8 +2,8 @@
   "id": "maitreyi-wealth",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Maitreyi's Question",
   "tease": "Maitreyi is offered a share of a household's wealth and asks one question: can it make me immortal?",
   "source": {
@@ -80,7 +80,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 324,
+      "words": 318,
       "blocks": [
         {
           "t": "p",
@@ -142,14 +142,14 @@
         },
         {
           "t": "p",
-          "text": "He told her to sit down and listen, and the Bṛhadāraṇyaka Upaniṣad moves from there into a much larger teaching about the self, love and immortality."
+          "text": "He told her to sit down and listen, and then began a much larger teaching about the Self, love and immortality."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "For a bedtime story, the doorway is already enough."
+          "text": "For this story, the doorway is already enough."
         },
         {
           "t": "p",
@@ -187,7 +187,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 676,
+      "words": 672,
       "blocks": [
         {
           "t": "p",
@@ -276,7 +276,7 @@
         },
         {
           "t": "p",
-          "text": "The Upaniṣad then begins the teaching Maitreyi has asked for."
+          "text": "Then «Yājñavalkya» begins the teaching Maitreyi has asked for."
         },
         {
           "t": "p",
@@ -319,7 +319,7 @@
         },
         {
           "t": "p",
-          "text": "That larger teaching continues far beyond a bedtime story."
+          "text": "That larger teaching continues far beyond this scene."
         },
         {
           "t": "p",
@@ -378,7 +378,7 @@
         },
         {
           "t": "p",
-          "text": "The same dialogue appears again later in the Bṛhadāraṇyaka, at 4.5. The text itself returns to this household question as a doorway into teaching about the Self."
+          "text": "The dialogue is important enough that the Bṛhadāraṇyaka returns to it later, again using this household question as a doorway into teaching about the Self."
         },
         {
           "t": "slow",

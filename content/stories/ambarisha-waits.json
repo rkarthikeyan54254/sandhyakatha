@@ -2,8 +2,8 @@
   "id": "ambarisha-waits",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Ambarīṣa Waits for His Guest",
   "tease": "A king sips water to save a vow without eating before his guest. His guest returns furious.",
   "source": {
@@ -99,7 +99,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 309,
+      "words": 305,
       "blocks": [
         {
           "t": "p",
@@ -126,7 +126,7 @@
         },
         {
           "t": "p",
-          "text": "The text gives the reasoning. Water could be treated as both eating and not eating, allowing him to mark the end of the fast without sitting down to a meal before Durvāsā."
+          "text": "Water gave him a narrow path between the two duties. A sip could count as ending the fast without becoming a full meal before Durvāsā returned."
         },
         {
           "t": "p",
@@ -164,7 +164,7 @@
         },
         {
           "t": "p",
-          "text": "Ambarīṣa did not enjoy the sight. The «Bhāgavata» says he was embarrassed that the great sage was bowing before him."
+          "text": "Ambarīṣa did not enjoy the sight. Instead of enjoying the reversal, Ambarīṣa was embarrassed that the great sage was bowing before him."
         },
         {
           "t": "p",
@@ -190,7 +190,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 654,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -237,7 +237,7 @@
         },
         {
           "t": "p",
-          "text": "The source gives the reasoning directly. Drinking water could be treated as eating and also as not eating. Ambarīṣa could mark the fast's completion without sitting down to a meal before Durvāsā."
+          "text": "A sip of water gave Ambarīṣa a narrow path between the two duties. It could count as ending the fast without becoming a full meal before Durvāsā returned."
         },
         {
           "t": "p",
@@ -303,7 +303,7 @@
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata» says he was embarrassed to see the great sage bowing before him."
+          "text": "Instead of enjoying the reversal, Ambarīṣa was embarrassed to see the great sage bowing before him."
         },
         {
           "t": "p",
@@ -318,7 +318,7 @@
         },
         {
           "t": "p",
-          "text": "Then the story reveals how long the host had been waiting."
+          "text": "Only then do we learn how long the host had been waiting. A full year had passed since that first careful sip of water."
         },
         {
           "t": "p",
@@ -326,7 +326,7 @@
         },
         {
           "t": "p",
-          "text": "During that year, while Durvāsā travelled under pursuit, Ambarīṣa had not gone ahead and eaten the meal without him. The text says the king maintained himself on water while waiting for the sage's return."
+          "text": "During that year, while Durvāsā travelled under pursuit, Ambarīṣa had not gone ahead and eaten the meal without him. He lived on water while he waited for the sage to return."
         },
         {
           "t": "p",
@@ -341,7 +341,7 @@
         },
         {
           "t": "p",
-          "text": "That last detail changes the shape of the episode."
+          "text": "That last detail changes how the whole year looks."
         },
         {
           "t": "p",
@@ -365,7 +365,7 @@
         },
         {
           "t": "p",
-          "text": "That return is important to the structure. The same sage who had treated the sip of water as an intolerable insult now has to place his safety in the hands of the host he attacked. Ambarīṣa's response is not to demand an apology scene for his own satisfaction; he immediately turns to prayer for Durvāsā's protection."
+          "text": "The same sage who had treated the sip of water as an intolerable insult now had to place his safety in the hands of the host he attacked. Ambarīṣa did not demand an apology or enjoy the humiliation. He immediately prayed for Durvāsā's protection."
         },
         {
           "t": "p",
