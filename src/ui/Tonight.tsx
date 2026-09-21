@@ -163,7 +163,9 @@ export default function Tonight(p: Props) {
             <p className="tease">{s.tease}</p>
             {s.hero && (
               <figure className="storyart tonightart">
-                <img src={s.hero} alt={`Illustration for ${s.title}`} loading="eager" decoding="async" />
+                <div className="storyart-frame">
+                  <img src={s.hero} alt={`Illustration for ${s.title}`} loading="eager" decoding="async" />
+                </div>
                 <figcaption>Illustration</figcaption>
               </figure>
             )}
@@ -347,7 +349,9 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
             <p className="tease">{s.tease}</p>
             {s.hero && (
               <figure className="storyart tonightart">
-                <img src={s.hero} alt={s.title} loading="eager" decoding="async" />
+                <div className="storyart-frame">
+                  <img src={s.hero} alt={s.title} loading="eager" decoding="async" />
+                </div>
                 <figcaption>{ui.reader.illustration}</figcaption>
               </figure>
             )}
