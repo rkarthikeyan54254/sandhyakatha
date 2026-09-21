@@ -94,7 +94,7 @@ const mediaCss = readText('public/story-media.css');
 const appCss = readText('src/styles.css');
 const appHtml = readText('index.html');
 
-requireText(tokens, '--story-max:660px', 'design tokens');
+requireText(tokens, '--story-max:620px', 'design tokens');
 requireText(tokens, '--display:"Tiro Devanagari Sanskrit"', 'design tokens');
 requireText(tokens, '--read:"Gentium Book Plus"', 'design tokens');
 requireText(tokens, '--ui:"Karla"', 'design tokens');
