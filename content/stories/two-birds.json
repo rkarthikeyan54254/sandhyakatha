@@ -2,8 +2,8 @@
   "id": "two-birds",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-16",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Two Birds on One Tree",
   "tease": "Two birds hold on to the same branch. One of them is eating the fruit. The other is not eating anything at all, and has not stopped looking at him.",
   "source": {
@@ -124,7 +124,7 @@
         },
         {
           "t": "p",
-          "text": "There are two birds in this verse and they are holding on to the same branch, and the one to watch is the one doing nothing. He has no fruit. He is not hungry. He is looking at the other one."
+          "text": "Two birds sit on the same branch, and the one to watch first is the one doing nothing. He has no fruit. He is not hungry. He is looking at the other one."
         },
         {
           "t": "p",
@@ -135,7 +135,7 @@
         },
         {
           "t": "p",
-          "text": "Now, the two of them are friends. The verse is careful about that. Yoked together, it says, and always companions."
+          "text": "The two birds are companions, joined together on the same tree."
         },
         {
           "t": "p",
@@ -143,7 +143,7 @@
         },
         {
           "t": "p",
-          "text": "Nobody ever names the tree, by the way. The fruit gets a name — «pippala», the fig — and the tree is only ever the tree."
+          "text": "The fruit gets a name — «pippala», the fig — but the tree itself is left unnamed."
         },
         {
           "t": "beat"
@@ -169,14 +169,14 @@
         },
         {
           "t": "p",
-          "text": "And the verse is older than the book it is famous from. It is already sitting in the «Ṛgveda», word for word, in a hymn full of riddles."
+          "text": "The image is very old. It already appears in the «Ṛgveda», inside a hymn full of riddles."
         },
         {
           "t": "slow",
           "text": "One of them eats and grieves, and one of them watches and does not, and the only thing that ever happens on that branch is that the first one looks."
         }
       ],
-      "words": 312
+      "words": 275
     },
     "full": {
       "minutes": 6,
@@ -187,7 +187,7 @@
         },
         {
           "t": "p",
-          "text": "Two birds, it says. Both of them beautiful. Yoked together — that is the word the verse uses — and friends, and they have hold of the same tree. Not perched on it: the verb is closer to clasping it."
+          "text": "Two beautiful birds are joined together on the same tree. They are companions, holding to the same branch."
         },
         {
           "t": "p",
@@ -244,7 +244,7 @@
         },
         {
           "t": "aside",
-          "text": "The commonest way this gets retold to children is _the second bird is God, watching what you do_. The verse does not say that, and the watching in it is a witness's rather than a supervisor's — that is how Śaṅkara reads it. Let the child have the picture before anybody hands them the meaning."
+          "text": "A common retelling says the second bird is God watching what you do. The old verse itself does not explain the birds that simply. It gives us the picture first: one eating, one watching."
         },
         {
           "t": "beat"
@@ -255,7 +255,7 @@
         },
         {
           "t": "p",
-          "text": "The old teachers do not agree. One great commentator reads the eating bird as you, caught up in a body, and the watching one as the same self, never caught at all. Another insists that the two never become one and were never meant to. The verse itself names neither."
+          "text": "Teachers have understood the two birds in different ways. Some read the eating bird as the self caught in experience and the watching bird as the Self that remains free. Others keep the two distinct. The verse itself does not name them."
         },
         {
           "t": "p",
@@ -270,11 +270,11 @@
         },
         {
           "t": "p",
-          "text": "The first of the two lines is older than the book it is famous from. It is already sitting in the «Ṛgveda», word for word, inside a long hymn of riddles by a seer called «Dīrghatamas». Three books carry that one."
+          "text": "The image is older than the Upaniṣad where many people meet it. It already appears in the «Ṛgveda», inside a long hymn of riddles by a seer called «Dīrghatamas»."
         },
         {
           "t": "p",
-          "text": "And people reading it back there, in the oldest of the three, have taken the two birds for something else entirely — the sun and the moon. That is a different argument from the teachers' one, and it is not closed either."
+          "text": "Some readers of that older hymn have even taken the two birds as the sun and the moon. The image has carried more than one interpretation for a very long time."
         },
         {
           "t": "p",
@@ -285,7 +285,7 @@
           "text": "Whatever else is unsettled, the line itself is not: two of them on the same branch, one eating and grieving, one watching and still — and everything that happens in it happens because one of them looked."
         }
       ],
-      "words": 651
+      "words": 598
     }
   },
   "linked": {

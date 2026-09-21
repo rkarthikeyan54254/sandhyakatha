@@ -2,8 +2,8 @@
   "id": "vibhishana-crosses",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Vibhīṣaṇa Comes Across the Sky",
   "tease": "Rāvaṇa's brother appears over Rāma's camp asking for refuge. The camp thinks he may be a spy.",
   "source": {
@@ -107,7 +107,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 331,
+      "words": 336,
       "blocks": [
         {
           "t": "p",
@@ -180,11 +180,11 @@
         },
         {
           "t": "p",
-          "text": "The episode does not pretend caution is a mistake. «Sugrīva»'s suspicion makes sense."
+          "text": "«Sugrīva» had a real reason to be cautious. His suspicion made sense."
         },
         {
           "t": "p",
-          "text": "That is precisely why «Rāma»'s declaration matters. A protection principle that operates only when nobody is afraid would be easy."
+          "text": "That is why «Rāma»'s declaration matters. A promise of protection is easy when nobody is afraid; this one is made while the danger still feels real."
         },
         {
           "t": "slow",
@@ -194,7 +194,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 680,
+      "words": 632,
       "blocks": [
         {
           "t": "p",
@@ -325,7 +325,7 @@
         },
         {
           "t": "p",
-          "text": "Nothing in the episode asks the listener to pretend there was no security problem."
+          "text": "The security problem was real."
         },
         {
           "t": "p",
@@ -341,11 +341,11 @@
         },
         {
           "t": "p",
-          "text": "«Hanumān»'s answer is equally practical. A spy sent to investigate Vibhīṣaṇa cannot easily test a man who has just arrived openly in front of the whole camp, and assigning him work only to see how he behaves would itself require trust. «Hanumān» therefore weighs the facts already visible instead of pretending certainty can be manufactured."
+          "text": "«Hanumān» answered practically. Secret tests would not magically remove the risk, and giving «Vibhīṣaṇa» work just to test him would already require trust. So «Hanumān» weighed the facts they could actually see: his words, timing and reasons for leaving «Laṅkā»."
         },
         {
           "t": "p",
-          "text": "«Rāma» also distinguishes his pledge from a claim that Vibhīṣaṇa must be perfect. He says that he will not reject someone who comes in the appearance of friendship even if defects exist. The refuge is a commitment made by «Rāma»; it is not a certificate saying the newcomer has been proven flawless."
+          "text": "«Rāma» did not say «Vibhīṣaṇa» had been proven perfect. The refuge was a commitment made by «Rāma», not a certificate that every doubt about the newcomer had disappeared."
         },
         {
           "t": "slow",

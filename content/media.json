@@ -429,7 +429,7 @@
     },
     "svetaketu-salt": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -582,7 +582,7 @@
     },
     "sukra-spout": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -718,7 +718,7 @@
     },
     "vamana-three-steps": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -752,7 +752,7 @@
     },
     "vibhishana-crosses": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -922,7 +922,7 @@
     },
     "valmiki-first-shloka": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -1075,7 +1075,7 @@
     },
     "two-birds": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
