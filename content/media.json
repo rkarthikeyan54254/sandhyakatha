@@ -157,7 +157,7 @@
     },
     "gajendra-lake": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -174,7 +174,7 @@
     },
     "churning-ocean": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -531,7 +531,7 @@
     },
     "ganesha-condition": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -565,7 +565,7 @@
     },
     "bhrigu-vishnu": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -616,7 +616,7 @@
     },
     "ambarisha-waits": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -1058,7 +1058,7 @@
     },
     "chariot-and-horses": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",

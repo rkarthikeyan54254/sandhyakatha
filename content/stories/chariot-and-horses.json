@@ -2,8 +2,8 @@
   "id": "chariot-and-horses",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-16",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Chariot",
   "tease": "A boy asks Death what happens to a person afterwards. Death answers by telling him he is a chariot — and that the one holding the reins is not the one riding in it.",
   "source": {
@@ -161,7 +161,7 @@
         },
         {
           "t": "p",
-          "text": "The Upaniṣad is careful about that, and most people who tell you this story afterwards are not. The rider and the driver are two different things."
+          "text": "One detail matters: the rider and the driver are two different things."
         },
         {
           "t": "beat"
@@ -183,7 +183,7 @@
         },
         {
           "t": "p",
-          "text": "And then the «Kaṭha Upaniṣad» stops talking about chariots altogether and speaks straight out, to anybody who happens to be listening."
+          "text": "A few verses later, «Yama» leaves the chariot picture behind and speaks directly."
         },
         {
           "t": "p",
@@ -194,7 +194,7 @@
           "text": "He asked what happens at the end of a life, and he was told what it is like to be in the middle of one — going fast, in something you are not driving."
         }
       ],
-      "words": 315
+      "words": 293
     },
     "full": {
       "minutes": 6,
@@ -255,7 +255,7 @@
         },
         {
           "t": "aside",
-          "text": "The passage turns on the driver and the passenger being two different things, and most retellings quietly fold them into one. If only one thing survives tonight, let it be that your child is not the driver."
+          "text": "Keep one detail clear: the driver and the passenger are different. In this picture, you are not the driver. You are the one being carried."
         },
         {
           "t": "beat"
@@ -277,7 +277,7 @@
         },
         {
           "t": "p",
-          "text": "And he has not told you to take the reins yourself. You are not the driver in this picture. You are the one being carried, and the question he is handing you is who you have got up there."
+          "text": "So «Yama» is not telling the passenger to grab the reins. You are the one being carried. The question is whether the driver and the reins are steady enough to guide the horses."
         },
         {
           "t": "beat"
@@ -292,7 +292,7 @@
         },
         {
           "t": "p",
-          "text": "There is a third word «Yama» sets down beside the sense and the reins, in both of those verses, and it is harder to carry across. _Clean._ Not washed — something more like unmuddied. The verse does not explain it."
+          "text": "«Yama» also uses a word that is harder to translate: _clean_. Not washed, but something closer to unmuddied or clear. He does not stop to explain it."
         },
         {
           "t": "p",
@@ -318,7 +318,7 @@
           "text": "He had asked what becomes of a person after they die, and «Yama» answered by describing what it is like to be one — a chariot, moving fast, with strong horses in front of it and somebody up there holding the reins."
         }
       ],
-      "words": 677
+      "words": 658
     }
   },
   "linked": {

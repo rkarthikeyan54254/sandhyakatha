@@ -2,8 +2,8 @@
   "id": "ganesha-condition",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-14",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Gaṇeśa's One Condition",
   "tease": "Gaṇeśa will write the whole Mahābhārata only if Vyāsa never stops. Vyāsa answers with one condition of his own.",
   "source": {
@@ -90,7 +90,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 312,
+      "words": 306,
       "blocks": [
         {
           "t": "p",
@@ -98,7 +98,7 @@
         },
         {
           "t": "p",
-          "text": "In the transmitted «Mahābhārata» opening we are following, «Brahmā» praised the work and told «Vyāsa» to think of «Gaṇeśa» as his writer."
+          "text": "«Brahmā» praised the enormous work «Vyāsa» had formed and told him to think of «Gaṇeśa» as the one who could write it down."
         },
         {
           "t": "p",
@@ -129,7 +129,7 @@
         },
         {
           "t": "p",
-          "text": "When «Vyāsa» needed time to continue composing, the text says he made some verses tightly knotted and difficult in meaning."
+          "text": "When «Vyāsa» needed time to continue composing, he made some verses tightly knotted and difficult in meaning."
         },
         {
           "t": "p",
@@ -144,7 +144,7 @@
         },
         {
           "t": "p",
-          "text": "The passage remembers eight thousand eight hundred verses as especially difficult, saying that their meaning was hard to penetrate."
+          "text": "The telling remembers eight thousand eight hundred verses as especially difficult, with meanings that were hard to penetrate."
         },
         {
           "t": "p",
@@ -152,7 +152,7 @@
         },
         {
           "t": "p",
-          "text": "A popular later addition says «Gaṇeśa»'s pen broke and he used his tusk. That detail is not in the witness chosen for this telling, so we leave it outside the story."
+          "text": "You may know a later version where «Gaṇeśa» breaks off his tusk when his pen fails. That detail is not part of the source used for this telling."
         },
         {
           "t": "p",
@@ -174,7 +174,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 656,
+      "words": 602,
       "blocks": [
         {
           "t": "p",
@@ -259,7 +259,7 @@
         },
         {
           "t": "p",
-          "text": "The source then explains how he creates room for composition while keeping his agreement."
+          "text": "Then we see how «Vyāsa» creates room to think without breaking the agreement."
         },
         {
           "t": "p",
@@ -286,7 +286,7 @@
         },
         {
           "t": "p",
-          "text": "The passage goes on to speak of eight thousand eight hundred especially difficult verses."
+          "text": "The telling remembers eight thousand eight hundred especially difficult verses."
         },
         {
           "t": "p",
@@ -333,7 +333,7 @@
         },
         {
           "t": "p",
-          "text": "That is why the scene works even before anyone asks whether every detail is historical or symbolic."
+          "text": "The scene works because speed and understanding have to stay together."
         },
         {
           "t": "p",
@@ -344,27 +344,27 @@
         },
         {
           "t": "p",
-          "text": "The source label must be exact."
+          "text": "There is one source detail worth keeping clear."
         },
         {
           "t": "p",
-          "text": "This «Gaṇeśa»-as-scribe episode belongs to the transmitted «Mahābhārata» tradition and appears in the Ganguli vulgate opening, but the Bhandarkar Critical Edition did not include it in its constituted text."
+          "text": "This «Gaṇeśa»-as-scribe episode appears in a widely transmitted «Mahābhārata» opening, but not in every edition of the epic."
         },
         {
           "t": "p",
-          "text": "And the chosen passage does not say that «Gaṇeśa» broke off his tusk when a pen failed. That famous image belongs to later popular retelling."
+          "text": "The source used here also does not say that «Gaṇeśa» broke off his tusk when a pen failed. That familiar image comes from later retellings."
         },
         {
           "t": "p",
-          "text": "So our illustration uses an ordinary stylus, and our story keeps the older scene to the two conditions, the difficult verses and the thinking pauses."
+          "text": "So this telling stays with the two conditions, the difficult verses and the thinking pauses."
         },
         {
           "t": "p",
-          "text": "The passage is also careful about who knows the difficult verses. Its narrator says he knows the eight thousand eight hundred; «Śuka» knows them; perhaps «Sañjaya» does. The point is not that they are meaningless riddles, but that their meaning is unusually hard to penetrate."
+          "text": "The difficult verses are not nonsense or tricks. Their meaning is simply hard enough that even a brilliant scribe has to stop and understand before writing."
         },
         {
           "t": "p",
-          "text": "That distinction protects «Vyāsa»'s counter-condition. He is not cheating by inserting gibberish. He is composing verses dense enough to demand the very thing he required from his scribe: comprehension."
+          "text": "«Vyāsa» is not cheating by inserting gibberish. He is composing verses dense enough to demand the very thing he required from his scribe: understanding."
         },
         {
           "t": "p",

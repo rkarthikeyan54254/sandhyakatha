@@ -2,8 +2,8 @@
   "id": "bhrigu-vishnu",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-14",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Test at Vaikuṇṭha",
   "tease": "Bhṛgu withholds honour from Brahmā, provokes Śiva, then kicks Viṣṇu in the chest. The last response ends the test.",
   "source": {
@@ -101,7 +101,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 307,
+      "words": 295,
       "blocks": [
         {
           "t": "p",
@@ -159,7 +159,7 @@
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata» says he became overwhelmed and returned to the sages to describe what he had experienced."
+          "text": "Bhṛgu was overwhelmed. He returned to the sages and told them what he had experienced."
         },
         {
           "t": "p",
@@ -167,11 +167,11 @@
         },
         {
           "t": "p",
-          "text": "We can report that as the «Bhāgavata»'s conclusion without turning the bedtime narrator into a judge between living Hindu traditions."
+          "text": "In this «Bhāgavata» story, the sages took Viṣṇu's response as the answer to the question they had asked."
         },
         {
           "t": "p",
-          "text": "The scene already asks a question every child understands: when someone insults you on purpose, how much control do they get over what you become next?"
+          "text": "Bhṛgu had tried to provoke anger. At Vaikuṇṭha, he met a response he had not expected."
         },
         {
           "t": "p",
@@ -179,7 +179,7 @@
         },
         {
           "t": "p",
-          "text": "That discomfort is part of the story. The surprising response at «Vaikuṇṭha» matters precisely because «Bhṛgu» has done something that could reasonably produce anger."
+          "text": "That is why the response at «Vaikuṇṭha» is so striking: «Bhṛgu» has done something that could reasonably produce anger, and anger does not control the answer."
         },
         {
           "t": "p",
@@ -193,7 +193,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 657,
+      "words": 646,
       "blocks": [
         {
           "t": "p",
@@ -290,7 +290,7 @@
         },
         {
           "t": "p",
-          "text": "The source then gives the response that the episode has been arranging."
+          "text": "At Vaikuṇṭha, the answer was different."
         },
         {
           "t": "p",
@@ -344,7 +344,7 @@
         },
         {
           "t": "p",
-          "text": "The «Bhāgavata» says he is pleased, silent and overcome, with tears in his eyes."
+          "text": "Bhṛgu was overcome. He stood silent, pleased and in tears."
         },
         {
           "t": "p",
@@ -355,7 +355,7 @@
         },
         {
           "t": "p",
-          "text": "The sages in this «Bhāgavata» episode then reach their conclusion."
+          "text": "When Bhṛgu returned, the sages in this «Bhāgavata» story reached their conclusion."
         },
         {
           "t": "p",
@@ -363,7 +363,7 @@
         },
         {
           "t": "p",
-          "text": "That theological ending belongs to the source and should stay visible."
+          "text": "Their conclusion belongs to this telling and should stay clearly attributed to it."
         },
         {
           "t": "p",
@@ -371,7 +371,7 @@
         },
         {
           "t": "p",
-          "text": "The precise wording is enough: _the sages in this text concluded that «Viṣṇu» was supreme after «Bhṛgu» returned._"
+          "text": "In this text, the sages concluded that «Viṣṇu» was supreme after «Bhṛgu» returned."
         },
         {
           "t": "beat"

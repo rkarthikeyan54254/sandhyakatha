@@ -2,8 +2,8 @@
   "id": "churning-ocean",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Whoever Drinks the Poison First",
   "tease": "Gods and asuras churn the ocean for nectar. The first great thing that rises is a poison spreading fast enough to threaten everyone.",
   "source": {
@@ -83,7 +83,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 300,
+      "words": 291,
       "blocks": [
         {
           "t": "p",
@@ -99,7 +99,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata calls it hālāhala. The ocean's creatures are already in turmoil, and now the poison spreads in every direction, threatening living beings far beyond the people doing the churning."
+          "text": "It was called hālāhala. The ocean's creatures were already in turmoil, and now the poison spread in every direction, threatening living beings far beyond the people doing the churning."
         },
         {
           "t": "beat"
@@ -110,7 +110,7 @@
         },
         {
           "t": "p",
-          "text": "«Śiva» looked at the danger and told «Bhavānī» that a powerful protector should help all suffering living beings in distress. He did not describe the poison as harmless; he described the situation as one in which suffering beings needed protection. He told her what he intended to do. Knowing his capacity, she agreed."
+          "text": "«Śiva» looked at the danger and told «Bhavānī» that someone with the power to help should protect living beings in distress. The poison was not harmless. That was exactly why help was needed. He told her what he intended to do, and she agreed."
         },
         {
           "t": "p",
@@ -118,7 +118,7 @@
         },
         {
           "t": "p",
-          "text": "The poison marks «Śiva»'s neck with a blue line. The chapter treats that mark not as disgrace but as an ornament of the act."
+          "text": "The poison left a blue mark on «Śiva»'s throat. Instead of shame, the mark became a sign of what he had accepted to protect others."
         },
         {
           "t": "p",
@@ -140,7 +140,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 652,
+      "words": 620,
       "blocks": [
         {
           "t": "p",
@@ -164,7 +164,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata calls it hālāhala. The chapter describes the ocean in turmoil and says the poison spread forcefully in every direction. This was not a vessel someone could put a lid on. The danger escaped the project that had produced it and threatened living beings who had never agreed to churn anything."
+          "text": "The Bhāgavata calls it hālāhala. The ocean was already in turmoil, and the poison spread forcefully in every direction. This was not a vessel someone could put a lid on. The danger escaped the project that had produced it and threatened living beings who had never agreed to churn anything."
         },
         {
           "t": "p",
@@ -176,7 +176,7 @@
         },
         {
           "t": "p",
-          "text": "«Śiva» did not pretend the poison was harmless, and he did not speak as though the danger belonged only to the people who had caused it. The text has him turn to «Bhavānī» and point directly at the living beings now suffering because the poison is spreading."
+          "text": "«Śiva» did not pretend the poison was harmless, and he did not speak as though the danger belonged only to the people who had caused it. He turned to «Bhavānī» and pointed to the living beings now suffering because the poison was spreading."
         },
         {
           "t": "p",
@@ -192,7 +192,7 @@
         },
         {
           "t": "p",
-          "text": "«Śiva» gathers the poison into his palm and drinks it. The verse names compassion for living beings as the reason for the act. It is explicit that he takes the whole quantity into his palm, not only a portion of it."
+          "text": "«Śiva» gathers the poison into his palm and drinks it. He gathered the whole quantity into his palm and drank it out of compassion for the living beings in danger."
         },
         {
           "t": "p",
@@ -204,7 +204,7 @@
         },
         {
           "t": "p",
-          "text": "The chapter immediately changes the meaning of that mark. Something that shows the force of the poison becomes an ornament because of the reason «Śiva» accepted it. The text says gods and people alike praise the deed after they hear what he has done."
+          "text": "The blue mark showed how dangerous the poison was, but it became an ornament because of why «Śiva» had accepted it. Gods and people praised what he had done."
         },
         {
           "t": "p",
