@@ -2,8 +2,8 @@
   "id": "karna-armour",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Karṇa Gives Away His Armour",
   "tease": "Karṇa is warned exactly what Indra will ask for. When the request comes, he gives anyway.",
   "source": {
@@ -87,7 +87,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 322,
+      "words": 316,
       "blocks": [
         {
           "t": "p",
@@ -118,7 +118,7 @@
         },
         {
           "t": "p",
-          "text": "He could say that this request was different. He could say that a promise to give should stop before the gift becomes your own safety."
+          "text": "He could have said: _I promised to give gifts. I did not promise to give away the thing that keeps me alive._"
         },
         {
           "t": "p",
@@ -148,11 +148,11 @@
         },
         {
           "t": "p",
-          "text": "The «Mahābhārata» remembers the act as extraordinary generosity. It also makes the cost impossible to ignore. «Karṇa» is warned. He understands. He chooses."
+          "text": "«Karṇa» knew the danger. He knew what this gift could cost him. And he gave it anyway."
         },
         {
           "t": "p",
-          "text": "That is why the story does not fit neatly into _sharing is good._ A child can admire the keeping of the vow and still wonder whether the vow should have had a boundary."
+          "text": "That is why this does not fit neatly into _sharing is good_. You can admire «Karṇa» for keeping his vow and still ask whether a vow should have a boundary when the cost becomes this high."
         },
         {
           "t": "slow",
@@ -162,7 +162,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 672,
+      "words": 634,
       "blocks": [
         {
           "t": "p",
@@ -263,34 +263,34 @@
         },
         {
           "t": "p",
-          "text": "The text does not hide the physical cost of that act. The protection was body-born; surrendering it was not like handing over a necklace from a chest."
+          "text": "The cost was physical. The armour was part of his body, not a necklace he could simply lift from a chest."
         },
         {
           "t": "p",
-          "text": "Nor does the story hide the strategic cost. Indra wants the gift precisely because «Arjuna» will benefit from «Karṇa» becoming vulnerable."
+          "text": "The strategic cost was just as clear. «Indra» wanted the gift because «Arjuna» would benefit if «Karṇa» became vulnerable."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "That is why the episode cannot honestly be reduced to _sharing is good_."
+          "text": "So the episode cannot be reduced to _sharing is good_."
         },
         {
           "t": "p",
-          "text": "«Karṇa»'s generosity is remembered because this is the point where generosity and self-protection collide. Sūrya gives him every reason to draw a boundary. «Karṇa» hears the reasons and chooses not to draw it there."
+          "text": "This is where generosity and self-protection collide. «Sūrya» gives «Karṇa» every reason to draw a boundary. «Karṇa» hears those reasons and chooses not to draw it there."
         },
         {
           "t": "p",
-          "text": "At the same time, he does negotiate. He is not careless about the future and he does not pretend the danger is unreal. He asks for a weapon in return."
+          "text": "At the same time, he negotiates. He does not pretend the danger is unreal. He asks for a weapon in return."
         },
         {
           "t": "p",
-          "text": "A child does not have to copy «Karṇa»'s choice in order to understand why the epic remembers it."
+          "text": "You do not have to copy «Karṇa»'s choice to understand why it is remembered."
         },
         {
           "t": "p",
-          "text": "The real question is harder: what should happen when a promise that seemed noble in ordinary circumstances reaches a cost you never want anyone you love to pay?"
+          "text": "The harder question is this: what happens when a promise that sounded noble in ordinary life suddenly asks for a cost this large?"
         },
         {
           "t": "p",
@@ -302,7 +302,7 @@
         },
         {
           "t": "slow",
-          "text": "«Karṇa» gives with his eyes open, and that is exactly what makes the gift both admirable and troubling."
+          "text": "«Karṇa» gives with his eyes open. That is what makes the gift both admirable and troubling."
         }
       ]
     }

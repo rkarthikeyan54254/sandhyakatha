@@ -2,8 +2,8 @@
   "id": "birds-eye",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Eye of the Bird",
   "tease": "A teacher asks each prince what he can see. Only one answer keeps getting smaller.",
   "source": {
@@ -95,7 +95,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 327,
+      "words": 284,
       "blocks": [
         {
           "t": "p",
@@ -126,7 +126,7 @@
         },
         {
           "t": "p",
-          "text": "Droṇa was not testing whether they knew those other things existed. Every prince knew where he was standing. The test was what remained in the answer once the bow was drawn and the target had been chosen."
+          "text": "Droṇa was testing their focus. Once the bow was ready and the target chosen, could they keep only the task in front of them?"
         },
         {
           "t": "beat"
@@ -171,26 +171,26 @@
           "t": "beat"
         },
         {
-          "t": "p",
-          "text": "The famous version of this lesson is often remembered as _I see only the eye._ That is not the wording of the witness we are following. Here «Arjuna» narrows from the bird to its head."
+          "t": "aside",
+          "text": "Many retellings remember this as _I see only the eye._ Our chosen Ganguli witness says something slightly different: «Arjuna» first sees the bird, then only its head."
         },
         {
           "t": "p",
-          "text": "The point is still sharp. The others were not wrong about what existed around them. There really was a tree, a teacher, and a group of students."
+          "text": "The others were not wrong about what existed around them. The tree, the teacher and the other students were all still there."
         },
         {
           "t": "p",
-          "text": "The difference was what each student kept inside the task."
+          "text": "The difference was what each student kept inside the task at the moment of aiming."
         },
         {
           "t": "slow",
-          "text": "Attention is not pretending the rest of the world is gone. It is knowing what, for this moment, must stay."
+          "text": "Attention does not mean pretending the rest of the world is gone. It means knowing what, for this moment, must stay in front of you."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 677,
+      "words": 648,
       "blocks": [
         {
           "t": "p",
@@ -333,24 +333,24 @@
           "t": "beat"
         },
         {
-          "t": "p",
-          "text": "The episode is often retold with the line _I see only the eye_. That is not what the K.M. Ganguli witness says. In this text, «Arjuna» first says that he sees the bird, and when pressed again he says that he sees only its head."
+          "t": "aside",
+          "text": "Many retellings remember the line as _I see only the eye_. The K.M. Ganguli witness used here says something slightly different: «Arjuna» first says he sees the bird, and when Droṇa presses him again, he says he sees only its head."
         },
         {
           "t": "p",
-          "text": "That difference is worth keeping because it shows attention tightening in stages. The target becomes smaller as the question becomes more exact."
+          "text": "That small difference matters because it shows attention tightening in stages. First the bird. Then the head. The answer becomes smaller as the question becomes more exact."
         },
         {
           "t": "p",
-          "text": "The lesson is not that everything outside the target has ceased to exist. Every student knows the tree and teacher are still there."
+          "text": "The lesson is not that everything outside the target has disappeared. The tree, the teacher and the other students are still there."
         },
         {
           "t": "p",
-          "text": "It is that a chosen task can become clearer when the mind stops carrying everything else into the same instant."
+          "text": "The chosen task becomes clearer when the mind stops carrying everything else into the same instant."
         },
         {
           "t": "p",
-          "text": "The bird test also comes after a training period in which Droṇa had taught «Arjuna» to fight from horseback, from an elephant, from a chariot and on the ground, and to use several kinds of weapons. The test is not measuring whether he has learned one trick with one bow. It comes after a broad education in arms."
+          "text": "The bird test also comes after a training period in which Droṇa had taught «Arjuna» to fight from horseback, from an elephant, from a chariot and on the ground, and to use several kinds of weapons. So this is not a trick with one bow. It comes after a broad education in arms and asks whether all that training can become precise at the right moment."
         },
         {
           "t": "p",
@@ -358,11 +358,11 @@
         },
         {
           "t": "p",
-          "text": "«Arjuna»'s concentration is not treated as a classroom ornament; Droṇa sees it as proof of what this pupil may be able to do when a real task comes."
+          "text": "Droṇa does not treat the concentration as a classroom ornament. He sees it as proof of what this pupil may be able to do when a real task comes."
         },
         {
           "t": "slow",
-          "text": "«Arjuna»'s answer becomes smaller and smaller until it is exactly the size of the thing he has to do."
+          "text": "«Arjuna»'s answer becomes smaller and smaller until it is exactly the size of the thing he has to do. That is why Droṇa finally says: shoot."
         }
       ]
     }

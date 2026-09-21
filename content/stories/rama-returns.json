@@ -2,8 +2,8 @@
   "id": "rama-returns",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Night They Lit the Whole Road",
   "tease": "Fourteen years, to the day. Nobody knows what hour he will arrive, so the whole city puts out lamps and leaves them burning all night, in case.",
   "source": {
@@ -118,7 +118,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 287,
+      "words": 269,
       "blocks": [
         {
           "t": "p",
@@ -163,21 +163,21 @@
         },
         {
           "t": "p",
-          "text": "And because nobody knew what hour he would come, and nobody was going to risk him arriving in the dark, they put lamps out — along the walls, along the roofs, down both sides of the road — and lit them, and did not let them go out."
+          "text": "Later tellings remember the city filling the night with lamps, so «Rāma» would not come home in darkness. Lamps went along the walls, roofs and road, and people kept them burning."
         },
         {
           "t": "p",
-          "text": "That is the night. That is the whole festival: a city that did not know exactly when, and so lit everything, and stayed up."
+          "text": "That is how later tradition remembers the night: a city that did not know exactly when he would arrive, so it lit the road and stayed awake."
         },
         {
           "t": "slow",
-          "text": "Nobody in that city knew what hour he would come. They lit the road anyway, the whole length of it, and sat up to watch it burn."
+          "text": "Nobody knew what hour he would come. In the later festival telling, they lit the road anyway and stayed awake for the return."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 663,
+      "words": 626,
       "blocks": [
         {
           "t": "p",
@@ -253,15 +253,15 @@
         },
         {
           "t": "p",
-          "text": "And because nobody knew what hour he would actually come, and nobody was willing to risk him arriving in the dark, they put out lamps."
+          "text": "Later tellings add the image everyone knows: because nobody knew the exact hour, the city put out lamps for the returning party."
         },
         {
           "t": "p",
-          "text": "Along the tops of the walls. Along the roofs. Down both sides of the road, all the way out, as far as the lamps went. And lit them. And did not let them go out."
+          "text": "Along the walls, roofs and road, the lamps marked the way through the dark and were kept burning."
         },
         {
           "t": "p",
-          "text": "That is the night, and that is the whole festival. A city that did not know exactly when, and so lit everything it had, and stayed awake."
+          "text": "That is how later tradition remembers the festival night: the city did not know exactly when he would arrive, so it lit the way and stayed awake."
         },
         {
           "t": "beat"
@@ -284,15 +284,15 @@
         },
         {
           "t": "p",
-          "text": "They made him king a few days later, and the book describes it properly — the water, the crowns, the whole city in the streets."
+          "text": "A few days later «Rāma» was crowned, with the water, crowns and public celebration described in the epic."
         },
         {
           "t": "p",
-          "text": "But the moment everybody remembers is the one in the road, before any of that: a man kneeling in bark clothes, putting a pair of old sandals back where they belonged, having kept them warm for fourteen years without once trying them on."
+          "text": "But the quieter moment comes first: «Bharata», still dressed for forest life, kneels and puts the old sandals back on his brother's feet after guarding the kingdom in his name for fourteen years."
         },
         {
           "t": "slow",
-          "text": "He came back on the day he said he would. But they had lit the road long before anybody could see him — which is a different thing, and a much harder one."
+          "text": "He came back on the day he said he would. The later lamp tradition turns that waiting into an image: light the road before you can see the person you are waiting for."
         }
       ]
     }

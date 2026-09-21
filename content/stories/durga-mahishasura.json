@@ -2,8 +2,8 @@
   "id": "durga-mahishasura",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 2,
-  "updated": "2026-09-09",
+  "version": 3,
+  "updated": "2026-09-21",
   "title": "The Buffalo Nobody Could Fight",
   "tease": "No god can beat him alone. So they each give up a piece of what they have, and something walks out of the pile that none of them expected.",
   "source": {
@@ -117,12 +117,12 @@
   ],
   "lengths": {
     "short": {
-      "minutes": 2,
-      "words": 242,
+      "minutes": 3,
+      "words": 247,
       "blocks": [
         {
           "t": "p",
-          "text": "«Mahiṣāsura» asked cleverly. Not to live forever — he knew that never works — but that no man and no god should be able to kill him. It was granted, because nobody in the room thought about it for quite long enough."
+          "text": "«Mahiṣāsura» asked for a clever protection. He did not ask to live forever. He asked that no man and no god should be able to kill him. The boon was granted, and he believed he had closed every path to defeat."
         },
         {
           "t": "p",
@@ -137,7 +137,7 @@
         },
         {
           "t": "p",
-          "text": "Not a metaphor. Light came out of every god standing there, and it did not disperse — it gathered, and went on gathering, until there was a mountain of it burning in the middle of the floor."
+          "text": "The story says the light was real. It poured from the gods standing there and did not scatter. The lights joined together, brighter and brighter, until they burned like a mountain in front of them."
         },
         {
           "t": "p",
@@ -148,7 +148,7 @@
         },
         {
           "t": "p",
-          "text": "Then they armed her, and each of them gave up something they had been keeping. Śiva his trident. Viṣṇu his discus. «Indra» the thunderbolt he was so proud of. The mountain gave her a lion to ride."
+          "text": "Then they armed her. «Śiva» gave his trident, «Viṣṇu» his discus, «Indra» his thunderbolt, and the other gods gave weapons of their own. Himavat, the mountain, gave her a lion to ride."
         },
         {
           "t": "p",
@@ -156,17 +156,17 @@
         },
         {
           "t": "p",
-          "text": "It took nine nights. On the tenth morning heaven was empty again, and the gods went back up and found their things where they had left them."
+          "text": "The battle lasted through nine nights. «Mahiṣāsura» changed shape again and again — buffalo, lion, man, elephant, buffalo once more. On the tenth morning he was defeated, and the gods could return to heaven."
         },
         {
           "t": "slow",
-          "text": "They gave away the things they were each proudest of, and stood back — and what stood up out of that pile was nobody any of them had met before."
+          "text": "No single god had been able to solve the problem alone. They gave their power and weapons into one new form, and the answer to the boon was the woman «Mahiṣāsura» had never thought to fear."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 616,
+      "words": 562,
       "blocks": [
         {
           "t": "p",
@@ -212,7 +212,7 @@
         },
         {
           "t": "p",
-          "text": "Not a metaphor — the text is quite literal about it. Light came out of Śiva's face, and out of Viṣṇu's, and then out of every god standing there, and it did not disperse. It gathered. It pooled and went on pooling until there was a mountain of it burning in the middle of the floor."
+          "text": "The story is literal about the light. It came from «Śiva», from «Viṣṇu», and from the other gods, and it did not disperse. It gathered into one blazing mass until the radiance looked like a mountain of fire."
         },
         {
           "t": "p",
@@ -223,7 +223,7 @@
         },
         {
           "t": "p",
-          "text": "Then they armed her, and this is the part to slow down for, because each of them gave up something they had been keeping."
+          "text": "Then they armed her. Each god placed a piece of his own power in her hands."
         },
         {
           "t": "p",
@@ -235,11 +235,11 @@
         },
         {
           "t": "p",
-          "text": "Nobody had told her anything. She had not been briefed. She looked at the weapons in her hands and at the gods who had handed them over, and she seemed to understand the whole situation immediately, which is possibly what they found so unnerving."
+          "text": "She looked at the weapons in her hands and at the gods who had handed them over. The problem was clear: no man and no god could kill «Mahiṣāsura». She was neither the man nor the god his boon had protected him from."
         },
         {
           "t": "p",
-          "text": "The laugh is in the text. It says the world shook, and the sea moved, and every mountain leaned."
+          "text": "She laughed, and the story says the world shook, the sea moved, and the mountains trembled."
         },
         {
           "t": "beat"
@@ -254,7 +254,7 @@
         },
         {
           "t": "p",
-          "text": "She was not in a hurry about any of it. That is the thing the paintings never manage to show — every image has her mid-strike, and the text has her mostly waiting, watching him become the next thing, and dealing with that."
+          "text": "She did not simply strike once and finish it. She watched «Mahiṣāsura» change from one form to another and answered each form as it came."
         },
         {
           "t": "p",
@@ -266,18 +266,18 @@
         },
         {
           "t": "p",
-          "text": "They were shy about asking for their weapons back. She gave them back anyway, one at a time, and said nothing about it."
+          "text": "When the battle was over, the gods could return to heaven. The weapons they had placed in her hands had done what none of them could do alone."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "«Durgā» had not been made out of nothing. She had been made out of what each of them had left when none of them could win alone."
+          "text": "«Durgā» had not appeared from nothing. She had emerged from the power the gods released when none of them could win alone."
         },
         {
           "t": "slow",
-          "text": "He had asked that no man and no god could kill him. He had been so careful. He had simply never thought of her."
+          "text": "«Mahiṣāsura» had carefully ruled out man and god. He had simply never imagined the answer would be her."
         }
       ]
     }

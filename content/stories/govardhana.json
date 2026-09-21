@@ -2,8 +2,8 @@
   "id": "govardhana",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 2,
-  "updated": "2026-09-08",
+  "version": 3,
+  "updated": "2026-09-21",
   "title": "The Mountain Held Up by Sticks",
   "tease": "A seven-year-old holds a hill over a village for seven days. A cowherd puts his stick up to help.",
   "source": {
@@ -105,8 +105,8 @@
   ],
   "lengths": {
     "short": {
-      "minutes": 2,
-      "words": 256,
+      "minutes": 3,
+      "words": 277,
       "blocks": [
         {
           "t": "p",
@@ -129,18 +129,18 @@
         },
         {
           "t": "p",
-          "text": "The people ran to Kṛṣṇa, because when you are frightened you run to whoever is not."
+          "text": "The frightened villagers ran to «Kṛṣṇa». He was the one person who did not look afraid."
         },
         {
           "t": "p",
-          "text": "He walked to the hill, put one hand under its edge, and lifted it — up out of the ground like a lid off a pot — and held it over the whole village on the little finger of his left hand. _Come in,_ he said."
+          "text": "He walked to «Govardhana», put one hand under its edge, and lifted the hill like a great roof. He held it on the little finger of his left hand and called the whole village underneath."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "They came in. Cows, calves, carts, grandmothers, dogs."
+          "text": "They came in: cows, calves, carts, children, elders, dogs, and everything they could bring out of the rain. Under the hill, the village had a dry place to stand together."
         },
         {
           "t": "p",
@@ -148,17 +148,17 @@
         },
         {
           "t": "p",
-          "text": "Seven days of rain, and a ring of cowherds standing with their sticks up against the roof of the world, absolutely certain they were holding it."
+          "text": "The rain continued for seven days. The cowherds raised their own sticks against the underside of the hill to help. «Kṛṣṇa» let them help, and the whole village waited out the storm together."
         },
         {
           "t": "slow",
-          "text": "Kṛṣṇa never told them they weren't. That is the part I like best. Not the lifting — the not telling."
+          "text": "«Kṛṣṇa» never laughed at them for trying to help. The mountain was in his hand, but the effort under it belonged to everyone."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 589,
+      "words": 570,
       "blocks": [
         {
           "t": "p",
@@ -185,11 +185,11 @@
         },
         {
           "t": "p",
-          "text": "But the boy was seven and would not let it go. And he was also — well. They knew what he was."
+          "text": "But the seven-year-old would not let the question go. The village finally agreed to make its offering to the hill that fed its cattle and gave them water and shade."
         },
         {
           "t": "p",
-          "text": "So that year the food went to Govardhana. Mountains of rice, hills of butter, whole trees of banana leaf. The village walked the long way round the hill, the entire way, singing — and the cows walked it too, because nobody could think of a good reason to leave them behind."
+          "text": "So that year the food went to Govardhana. Mountains of rice, hills of butter, whole trees of banana leaf. The whole village circumambulated «Govardhana», and the cows went too. The offering had moved from a distant god of rain to the hill, grass and water that sustained their daily life."
         },
         {
           "t": "beat"
@@ -208,7 +208,7 @@
         },
         {
           "t": "p",
-          "text": "The people ran to Kṛṣṇa. Because when you are frightened you run to whoever is not."
+          "text": "The frightened villagers ran to «Kṛṣṇa». He was the one person who did not look afraid."
         },
         {
           "t": "beat"
@@ -219,7 +219,7 @@
         },
         {
           "t": "p",
-          "text": "And he lifted it."
+          "text": "And he lifted the hill."
         },
         {
           "t": "p",
@@ -227,15 +227,15 @@
         },
         {
           "t": "p",
-          "text": "They came in. Everyone. The cows, the calves, the carts, the grandmothers, the dogs, and a truly unreasonable number of cooking pots. It was dry under there. After a while it was warm. Somebody started a fire."
+          "text": "They came in: cows, calves, carts, children, elders, dogs, and the things they had managed to carry. Under the hill they had shelter from the rain, and the scattered village became one crowded dry place."
         },
         {
           "t": "p",
-          "text": "And they stood under the mountain and looked up at this seven-year-old holding it — and one of the cowherds, standing with the rain roaring six feet away and not touching him, thought: _he must be getting tired._"
+          "text": "They looked up at a seven-year-old holding a mountain and decided he must be getting tired."
         },
         {
           "t": "p",
-          "text": "So he lifted his stick and pressed it up against the underside of the mountain. To help."
+          "text": "So one cowherd lifted his stick and pressed it against the underside of the mountain to help."
         },
         {
           "t": "p",
@@ -246,19 +246,19 @@
         },
         {
           "t": "p",
-          "text": "Seven days. Seven days of rain, and the whole time a ring of cowherds standing with their sticks up against the roof of the world, absolutely certain they were holding it up. Changing shifts. Telling each other to mind their arms."
+          "text": "For seven days the rain continued. The cowherds stood with their sticks against the underside of the hill, helping in the only way they could. «Kṛṣṇa» did not tell them their sticks were unnecessary."
         },
         {
           "t": "p",
-          "text": "On the eighth day the rain stopped, because Indra had run out of rain and had begun to work out what he had done. Kṛṣṇa waited until the last cow had wandered out. Then he set the hill down exactly where it had been."
+          "text": "When «Indra» withdrew the storm, «Kṛṣṇa» waited until the people and cattle had come out. Then he set «Govardhana» back where it had been."
         },
         {
           "t": "p",
-          "text": "Kṛṣṇa never told them they weren't."
+          "text": "«Kṛṣṇa» never laughed at the cowherds for trying to help."
         },
         {
           "t": "slow",
-          "text": "That is the part I like best. Not the lifting. The not telling."
+          "text": "The mountain was in his hand, but the effort under it belonged to everyone. Their sticks could not carry the hill, yet their desire to help still had a place in the shelter."
         }
       ]
     }

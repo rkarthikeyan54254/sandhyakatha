@@ -2,8 +2,8 @@
   "id": "ganesha-circles",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 3,
-  "updated": "2026-09-09",
+  "version": 4,
+  "updated": "2026-09-21",
   "title": "Gaṇeśa Goes Around the World",
   "tease": "Two brothers race around the world for a mango. One of them does not leave the room.",
   "source": {
@@ -125,7 +125,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 280,
+      "words": 270,
       "blocks": [
         {
           "t": "p",
@@ -133,7 +133,7 @@
         },
         {
           "t": "p",
-          "text": "There were two boys in that house. «Gaṇeśa», the elder, was round, rode a mouse, and was not fast at all. «Kārttikeya», the younger, was fast — a peacock, a spear, and no memory of ever coming second."
+          "text": "There were two boys in that house. «Gaṇeśa», the elder, was round, rode a mouse, and was not fast at all. «Kārttikeya», the younger, was fast — and very proud of being fast. He had a peacock to ride and a spear in his hand."
         },
         {
           "t": "p",
@@ -152,14 +152,14 @@
         },
         {
           "t": "p",
-          "text": "So he sat down and thought about it, for long enough that his mother asked if he was quite well."
+          "text": "So «Gaṇeśa» sat down and thought. He knew he could not win by making his mouse faster. He needed to understand what the race was really asking."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "Then he got up, walked over to his parents, and walked all the way around them. Slowly. Three times."
+          "text": "Then he got up, walked to his parents, and circled them slowly three times."
         },
         {
           "t": "p",
@@ -171,17 +171,17 @@
         },
         {
           "t": "p",
-          "text": "Kārttikeya came back days later, filthy, having actually gone round the whole world on a bird, and found his elder brother on the floor with the juice running down to his elbows. He was angry enough to leave home over it — he went south, climbed the hill at «Palani», and has been standing on it ever since."
+          "text": "«Kārttikeya» came back days later, dusty and exhausted, having actually travelled around the world. «Gaṇeśa» was already eating the mango. «Kārttikeya» was furious. In the Tamil telling he went south to «Palani», where he stands with a staff as Daṇḍāyudhapāṇi."
         },
         {
           "t": "slow",
-          "text": "His brother went round the whole world to answer it. He went round the two people standing in the room, and that was an answer too."
+          "text": "One brother answered the race by travelling around the world. The other answered by asking what _world_ meant. Both moved; only one changed the question."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 601,
+      "words": 506,
       "blocks": [
         {
           "t": "p",
@@ -189,7 +189,7 @@
         },
         {
           "t": "p",
-          "text": "He had brought a mango. One mango. And not an ordinary one — whoever ate it, he said, would know everything worth knowing."
+          "text": "He had brought one mango, and it was no ordinary fruit. Whoever received it, he said, would gain knowledge."
         },
         {
           "t": "p",
@@ -204,11 +204,11 @@
         },
         {
           "t": "p",
-          "text": "«Gaṇeśa» was the elder. He was round. He rode a mouse. He was extremely fond of his food and he was not fast at all, and — this matters — he knew it."
+          "text": "«Gaṇeśa» was the elder. He was round, rode a mouse, loved his food, and knew perfectly well that speed was not his advantage."
         },
         {
           "t": "p",
-          "text": "«Kārttikeya» was the younger one. He was fast. He rode a peacock, he carried a spear, and he had never in his life come second at anything."
+          "text": "«Kārttikeya» was the younger one. He was fast, rode a peacock, carried a spear, and was very used to winning races."
         },
         {
           "t": "p",
@@ -219,7 +219,7 @@
         },
         {
           "t": "p",
-          "text": "So their parents did what parents do when there is one of something and two children."
+          "text": "Their parents had one fruit and two sons who both wanted it, so «Śiva» proposed a race."
         },
         {
           "t": "p",
@@ -231,7 +231,7 @@
         },
         {
           "t": "p",
-          "text": "He went east first, because you have to start somewhere, and he did it properly. Over the sea, down the far coast, across the ice at the top of the world where the peacock complained bitterly. He did not stop to eat. He counted rivers so he would know he had not missed any."
+          "text": "«Kārttikeya» took the challenge literally and did the hard version of it. He flew out on his peacock and travelled around the world, determined to complete the race properly and return first."
         },
         {
           "t": "p",
@@ -250,7 +250,7 @@
         },
         {
           "t": "p",
-          "text": "This is the part people leave out of the story. He did not have the idea straight away. He sat there long enough that his mother asked whether he was feeling quite well."
+          "text": "«Gaṇeśa» did not have the answer immediately. He sat and thought because racing faster was impossible. The only way forward was to understand the word _world_ differently."
         },
         {
           "t": "p",
@@ -258,7 +258,7 @@
         },
         {
           "t": "p",
-          "text": "He walked over to where his parents were sitting. He walked all the way around them — slowly, because he did nothing quickly — and arrived back where he had started."
+          "text": "He walked over to where his parents were sitting and circled them slowly. When he returned to his starting place, he had not travelled far, but he was ready with his answer."
         },
         {
           "t": "p",
@@ -277,27 +277,27 @@
         },
         {
           "t": "p",
-          "text": "She did not explain it to him, either. She just handed it over, the way you do when a child has surprised you and you would rather not spoil it by saying so."
+          "text": "«Pārvatī» did not give a long explanation. She handed him the mango because his answer had satisfied the challenge."
         },
         {
           "t": "p",
-          "text": "And when Kārttikeya finally came back — days later, filthy and exhausted, having actually done it, having actually gone the whole way round the world on a bird — his elder brother was sitting on the floor with mango juice running down to his elbows."
+          "text": "When «Kārttikeya» finally returned, dusty and exhausted after actually travelling around the world, his elder brother was already eating the mango."
         },
         {
           "t": "p",
-          "text": "You can imagine how that went."
+          "text": "«Kārttikeya» was furious, and not without reason: he had done exactly what the race seemed to ask."
         },
         {
           "t": "p",
-          "text": "He said a great many things. Some of them were about the rules. Some of them were about the mouse. His mother let him finish."
+          "text": "He argued about the rules. From his point of view, he had completed the harder journey and arrived to find the prize already gone."
         },
         {
           "t": "p",
-          "text": "He was angry enough to leave home over it. He went south, and climbed a hill at «Palani», and stood there — no peacock, no spear, nothing but a staff and a strip of cloth. He is standing there still. There are people who will tell you he has not entirely got over it."
+          "text": "In the Tamil tradition, his anger carries him south to «Palani». There he stands as Daṇḍāyudhapāṇi, with a staff and simple cloth, having left the contest and its prize behind."
         },
         {
           "t": "slow",
-          "text": "Both boys answered the question they were asked. Only one of them stopped to ask what a world is."
+          "text": "Both boys answered the challenge. «Kārttikeya» travelled around the world. «Gaṇeśa» stopped to ask what _world_ meant before deciding how to move."
         }
       ]
     }
