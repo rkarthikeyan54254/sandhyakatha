@@ -102,7 +102,7 @@
   "lengths": {
     "short": {
       "minutes": 2,
-      "words": 287,
+      "words": 302,
       "blocks": [
         {
           "t": "p",
@@ -110,7 +110,7 @@
         },
         {
           "t": "p",
-          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket hanging at each end — and carried them across the country because they wanted to visit holy places. He changed shoulders when he needed to and described what was around them as he walked, so the journey still belonged to them too."
+          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket at each end — and carried them from holy place to holy place. As he walked, he changed shoulders and described what was around them, so the journey belonged to them too."
         },
         {
           "t": "beat"
@@ -132,7 +132,7 @@
         },
         {
           "t": "p",
-          "text": "He ran towards the cry. He did not hide or wait for morning. He found «Śravaṇa» at the water's edge, the pot spilled beside him."
+          "text": "He ran towards the cry. He did not hide or wait for morning. He found «Śravaṇa» at the water's edge, the pot spilled beside him. The arrow had struck the young man who had come down only to fetch water."
         },
         {
           "t": "p",
@@ -140,7 +140,7 @@
         },
         {
           "t": "p",
-          "text": "«Daśaratha» filled the pot, carried the water back to the blind parents, told them what he had done, and took them to their son. Then the old father said: _you will die the way I am dying — grieving for a son._"
+          "text": "«Daśaratha» filled the pot, carried the water back to the blind parents, told them what he had done, and took them to their son. They knew the footsteps were wrong before he finished speaking. Then the old father said: _you will die the way I am dying — grieving for a son._"
         },
         {
           "t": "slow",
@@ -150,7 +150,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 644,
+      "words": 661,
       "blocks": [
         {
           "t": "p",
@@ -231,7 +231,7 @@
         },
         {
           "t": "p",
-          "text": "And then he added: _tell them yourself._ «Daśaratha» would have to carry the truth back with the water."
+          "text": "And then he added: _tell them yourself._ «Daśaratha» would have to carry the truth back with the water, face the parents himself, and say exactly what had happened."
         },
         {
           "t": "beat"
@@ -246,7 +246,7 @@
         },
         {
           "t": "p",
-          "text": "He told them exactly what had happened. He did not make it smaller than it was."
+          "text": "He told them exactly what had happened. He did not make it smaller than it was, and he did not blame the darkness or the river."
         },
         {
           "t": "p",
@@ -257,7 +257,7 @@
         },
         {
           "t": "p",
-          "text": "They asked to be taken down to their son. «Daśaratha» led them to the riverbank, and they held «Śravaṇa» for a while, knowing there was nothing left to repair."
+          "text": "They asked to be taken down to their son. «Daśaratha» led them to the riverbank, and they held «Śravaṇa» for a while, knowing there was nothing left to repair. He stayed there with them."
         },
         {
           "t": "p",
@@ -272,7 +272,7 @@
         },
         {
           "t": "slow",
-          "text": "Many years later «Daśaratha» had four sons. When his eldest, «Rāma», was sent into the forest for fourteen years, the old king was overwhelmed by grief. He remembered the blind father's words and understood why they had returned to him. The young hunter who trusted a sound too quickly had become the old father who could finally understand the weight of that loss."
+          "text": "Many years later «Daśaratha» had four sons. When his eldest, «Rāma», was sent into the forest for fourteen years, the old king was overwhelmed by grief. He remembered the blind father's words. The young hunter who had trusted one sound too quickly was now the old father who understood the weight of losing a son."
         }
       ]
     }
