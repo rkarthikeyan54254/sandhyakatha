@@ -2,8 +2,8 @@
   "id": "sampati-words",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Sampāti Can Help Only With Words",
   "tease": "The search party needs a direction. The bird who knows where Sītā is has no wings.",
   "source": {
@@ -107,7 +107,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 314,
+      "words": 308,
       "blocks": [
         {
           "t": "p",
@@ -184,7 +184,7 @@
         },
         {
           "t": "p",
-          "text": "That order matters. «Sampāti» was useful not because the old power suddenly came back in time, but because he noticed the knowledge he still had while the power was gone."
+          "text": "The order matters. «Sampāti» becomes useful before his old power returns, because he notices the knowledge he still has while the power is gone."
         },
         {
           "t": "slow",
@@ -194,7 +194,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 651,
+      "words": 632,
       "blocks": [
         {
           "t": "p",
@@ -252,7 +252,7 @@
         },
         {
           "t": "p",
-          "text": "_The best help I can give «Rāma» now is through my words,_ he said in the sense of the Sanskrit passage."
+          "text": "_The best help I can give «Rāma» now is through my words,_ «Sampāti» told them."
         },
         {
           "t": "p",
@@ -325,7 +325,7 @@
         },
         {
           "t": "p",
-          "text": "The part common to the story's heart is simpler."
+          "text": "The heart of the story is simpler."
         },
         {
           "t": "p",
@@ -341,11 +341,11 @@
         },
         {
           "t": "p",
-          "text": "The received continuation also explains how «Sampāti» knew so much after years on the mountain. His son had been bringing him food, and in the extended account «Sampāti» tells the «vānaras» what had been reported about Rāvaṇa carrying «Sītā» through the sky. That material belongs to the same textually debated stretch as the prophecy and restored wings."
+          "text": "A later continuation explains how «Sampāti» knew so much after years on the mountain: his son had been bringing him food and news, including what had been seen of «Rāvaṇa» carrying «Sītā» through the sky. That continuation is also where the prophecy and restored wings appear."
         },
         {
           "t": "p",
-          "text": "Niśākara's prophecy is unusually specific about «Sampāti»'s waiting. The sage tells him that «Rāma»'s messengers will one day come seeking «Sītā» and that «Sampāti» must remain alive long enough to tell them what he knows. His old age is therefore not empty delay inside this received version; it carries a task he cannot perform until the searchers arrive."
+          "text": "Niśākara's prophecy gives «Sampāti»'s long waiting a purpose. The sage tells him that «Rāma»'s messengers will one day come seeking «Sītā» and that «Sampāti» must remain alive long enough to tell them what he knows. His old age is therefore not empty delay inside this received version; it carries a task he cannot perform until the searchers arrive."
         },
         {
           "t": "slow",

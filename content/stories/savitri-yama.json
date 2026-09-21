@@ -2,8 +2,8 @@
   "id": "savitri-yama",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Sāvitrī Follows Yama",
   "tease": "Yama tells Sāvitrī to turn back. She keeps walking beside him until his own boons change what is possible.",
   "source": {
@@ -86,7 +86,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 333,
+      "words": 331,
       "blocks": [
         {
           "t": "p",
@@ -207,7 +207,7 @@
         },
         {
           "t": "p",
-          "text": "The story is often reduced to one clever trick. The text gives something slower: a long walk, repeated refusals to turn back, and a conversation in which each freely granted promise changes what can still happen."
+          "text": "This is sometimes reduced to one clever trick. What happens is slower: a long walk, repeated refusals to turn back, and a conversation in which each freely granted promise changes what can still happen."
         },
         {
           "t": "slow",
@@ -404,7 +404,7 @@
         },
         {
           "t": "p",
-          "text": "The story is sometimes compressed into a single clever loophole. The «Mahābhārata» gives something slower and more demanding."
+          "text": "This is sometimes compressed into a single clever loophole. The scene is slower and more demanding than that."
         },
         {
           "t": "p",

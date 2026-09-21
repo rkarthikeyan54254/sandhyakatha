@@ -378,7 +378,7 @@
     },
     "sudama-poha": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -701,7 +701,7 @@
     },
     "savitri-yama": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -888,7 +888,7 @@
     },
     "sampati-words": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",

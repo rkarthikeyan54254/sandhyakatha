@@ -2,8 +2,8 @@
   "id": "sudama-poha",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Sudāmā's Handful of Rice",
   "tease": "His wife borrows four handfuls of flattened rice for him to take to an old schoolfriend. He carries it to Dvārakā and still cannot bring himself to ask for help.",
   "source": {
@@ -80,7 +80,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 301,
+      "words": 295,
       "blocks": [
         {
           "t": "p",
@@ -123,7 +123,7 @@
         },
         {
           "t": "p",
-          "text": "The friends also talked about the years they had spent together as students. «Sudāmā» left the next morning without ever asking for wealth. The Bhāgavata says he went home satisfied simply by having seen «Kṛṣṇa» and received his affection."
+          "text": "The friends also talked about the years they had spent together as students. «Sudāmā» left the next morning without ever asking for wealth. He went home satisfied simply by having seen «Kṛṣṇa» and received his affection."
         },
         {
           "t": "p",
@@ -131,7 +131,7 @@
         },
         {
           "t": "p",
-          "text": "The surprise of the story is not only that «Sudāmā» becomes rich. It is that «Kṛṣṇa» never lets poverty decide how his friend will be received, even before «Sudāmā» asks for anything."
+          "text": "The surprise is not only that «Sudāmā» becomes rich. It is that «Kṛṣṇa» never lets poverty decide how his friend will be received, even before «Sudāmā» asks for anything."
         },
         {
           "t": "slow",
@@ -141,7 +141,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 674,
+      "words": 668,
       "blocks": [
         {
           "t": "p",
@@ -149,7 +149,7 @@
         },
         {
           "t": "p",
-          "text": "By the time this story begins, «Sudāmā» and his wife are living in real poverty. The Bhāgavata describes him as peaceful and detached, maintaining himself on whatever came without special effort. Sometimes there was not enough food."
+          "text": "By the time this story begins, «Sudāmā» and his wife are living in real poverty. He is peaceful and detached, maintaining himself on whatever comes without special effort. Sometimes there was not enough food."
         },
         {
           "t": "p",
@@ -201,7 +201,7 @@
         },
         {
           "t": "p",
-          "text": "But now the four handfuls of flattened rice seem even smaller than they did when his wife tied them up. The text says he lowers his head in embarrassment and does not offer them."
+          "text": "But now the four handfuls of flattened rice seem even smaller than they did when his wife tied them up. He lowers his head in embarrassment and does not offer them."
         },
         {
           "t": "p",
