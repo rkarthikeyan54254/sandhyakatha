@@ -2,8 +2,8 @@
   "id": "prahlada-pillar",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Prahlāda and the Pillar",
   "tease": "A boy keeps giving the answer his father forbids. At last the king points to a pillar and asks whether the power Prahlāda trusts is inside that too.",
   "source": {
@@ -78,7 +78,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 304,
+      "words": 301,
       "blocks": [
         {
           "t": "p",
@@ -94,7 +94,7 @@
         },
         {
           "t": "p",
-          "text": "The argument became dangerous. The Bhāgavata says «Hiraṇyakaśipu» ordered repeated attempts to kill «Prahlāda»: elephants, snakes, poison, starvation, fire, water and a fall from a mountain. The boy survived them."
+          "text": "The argument became dangerous. «Hiraṇyakaśipu» ordered repeated attempts to kill «Prahlāda»: elephants, snakes, poison, starvation, fire, water and a fall from a mountain. The boy survived them."
         },
         {
           "t": "beat"
@@ -139,7 +139,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 652,
+      "words": 639,
       "blocks": [
         {
           "t": "p",
@@ -179,7 +179,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata gathers several attempts together. Weapons are used against him. He is thrown under elephants and among poisonous snakes. There are spells, poison, starvation, severe cold, wind, fire and water, and a fall from a mountain. None of these attempts succeeds."
+          "text": "The attacks came one after another. Weapons are used against him. He is thrown under elephants and among poisonous snakes. There are spells, poison, starvation, severe cold, wind, fire and water, and a fall from a mountain. None of these attempts succeeds."
         },
         {
           "t": "p",
@@ -223,7 +223,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata is careful about how the end happens."
+          "text": "The end matches the protections «Hiraṇyakaśipu» had asked for."
         },
         {
           "t": "p",
@@ -231,7 +231,7 @@
         },
         {
           "t": "p",
-          "text": "The details are not random cleverness added by a later storyteller. The chapter itself gives the threshold, the lap and the claws, while the earlier boon explains why those boundaries matter."
+          "text": "The threshold, the lap and the claws each answer one of the protections «Hiraṇyakaśipu» had asked for earlier."
         },
         {
           "t": "p",
