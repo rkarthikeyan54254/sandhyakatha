@@ -2,8 +2,8 @@
   "id": "shravana-baskets",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-08",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Śravaṇa and the Two Baskets",
   "tease": "A boy carries both his parents across the country on a pole. Then, at the river, an arrow finds him in the dark.",
   "source": {
@@ -101,8 +101,8 @@
   ],
   "lengths": {
     "short": {
-      "minutes": 2,
-      "words": 255,
+      "minutes": 3,
+      "words": 302,
       "blocks": [
         {
           "t": "p",
@@ -110,7 +110,7 @@
         },
         {
           "t": "p",
-          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket hanging at each end — and he carried them in it, across most of the country, because they had wanted to see the holy places."
+          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket at each end — and carried them from holy place to holy place. As he walked, he changed shoulders and described what was around them, so the journey belonged to them too."
         },
         {
           "t": "beat"
@@ -132,7 +132,7 @@
         },
         {
           "t": "p",
-          "text": "He ran towards it. That matters. He did not hide and he did not wait for morning."
+          "text": "He ran towards the cry. He did not hide or wait for morning. He found «Śravaṇa» at the water's edge, the pot spilled beside him. The arrow had struck the young man who had come down only to fetch water."
         },
         {
           "t": "p",
@@ -140,7 +140,7 @@
         },
         {
           "t": "p",
-          "text": "So he did. And the old man, who had nothing left to give anyone, said: _you will die the way I am dying. Grieving for a son. I am not inventing that to punish you._"
+          "text": "«Daśaratha» filled the pot, carried the water back to the blind parents, told them what he had done, and took them to their son. They knew the footsteps were wrong before he finished speaking. Then the old father said: _you will die the way I am dying — grieving for a son._"
         },
         {
           "t": "slow",
@@ -150,7 +150,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 616,
+      "words": 661,
       "blocks": [
         {
           "t": "p",
@@ -177,15 +177,15 @@
         },
         {
           "t": "p",
-          "text": "He had carried them across most of the country that way. They had wanted to see the holy places — which is a strange thing to want when you cannot see — and he had not argued about it. He had picked up the pole."
+          "text": "He had carried them across most of the country that way. They had wanted to visit the holy places, and he had not argued about whether blindness made the journey pointless. He had picked up the pole and made the journey possible in the way they could experience it."
         },
         {
           "t": "p",
-          "text": "He had worked out how to do it without jolting them. He knew which shoulder to change to, and when."
+          "text": "He had learned how to carry them without jolting them, when to change shoulders, and when to slow down."
         },
         {
           "t": "p",
-          "text": "And he had learned to describe things as he walked — _there is a tank on the left, there are women at it_ — because they could not see, and he had decided, without anyone asking him to, that they should still know."
+          "text": "And because they could not see, he described the places they passed as he walked: a tank on the left, people at the water, a temple ahead. He became their eyes without treating them as if the journey belonged only to him."
         },
         {
           "t": "beat"
@@ -215,7 +215,7 @@
         },
         {
           "t": "p",
-          "text": "He ran. This is the part I want you to keep — he did not hide, and he did not wait for morning. He ran towards it, in the dark, as fast as he could go."
+          "text": "He ran towards the cry. He did not hide and he did not wait for morning."
         },
         {
           "t": "p",
@@ -231,14 +231,14 @@
         },
         {
           "t": "p",
-          "text": "And then: _tell them yourself._"
+          "text": "And then he added: _tell them yourself._ «Daśaratha» would have to carry the truth back with the water, face the parents himself, and say exactly what had happened."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "Daśaratha filled the pot. He carried it up the bank to two old people sitting in the dark, who heard footsteps and said — oh, you have been a long time —"
+          "text": "Daśaratha filled the pot. He carried it up the bank to two old people sitting in the dark, who heard footsteps and said — oh, you have been a long time — because they expected their son's step, not a stranger's."
         },
         {
           "t": "p",
@@ -246,7 +246,7 @@
         },
         {
           "t": "p",
-          "text": "He told them. He did not make it smaller than it was."
+          "text": "He told them exactly what had happened. He did not make it smaller than it was, and he did not blame the darkness or the river."
         },
         {
           "t": "p",
@@ -257,7 +257,7 @@
         },
         {
           "t": "p",
-          "text": "They asked to be taken down to their son, and he took them, and they held him for a while."
+          "text": "They asked to be taken down to their son. «Daśaratha» led them to the riverbank, and they held «Śravaṇa» for a while, knowing there was nothing left to repair. He stayed there with them."
         },
         {
           "t": "p",
@@ -272,7 +272,7 @@
         },
         {
           "t": "slow",
-          "text": "Many years later Daśaratha had four sons, and he loved the eldest one best, and one morning he had to send him away into the forest for fourteen years. He did not last a fortnight. He knew exactly why, and he said so out loud, to anyone who would sit with him."
+          "text": "Many years later «Daśaratha» had four sons. When his eldest, «Rāma», was sent into the forest for fourteen years, the old king was overwhelmed by grief. He remembered the blind father's words. The young hunter who had trusted one sound too quickly was now the old father who understood the weight of losing a son."
         }
       ]
     }

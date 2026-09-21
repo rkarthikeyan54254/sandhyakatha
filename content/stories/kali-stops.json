@@ -2,8 +2,8 @@
   "id": "kali-stops",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Foot She Almost Stepped On",
   "tease": "She has won, and she cannot stop. So he lies down in front of her, in the middle of it, and waits to see whether she looks down.",
   "source": {
@@ -118,11 +118,11 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 360,
+      "words": 343,
       "blocks": [
         {
           "t": "p",
-          "text": "Caṇḍa and Muṇḍa came onto the field with their army, and «Durgā» looked at them and got angry, and «Kālī» came out of her forehead already holding everything she needed."
+          "text": "Caṇḍa and Muṇḍa came onto the field with their army. «Durgā» grew furious, and «Kālī» came from her forehead already armed."
         },
         {
           "t": "p",
@@ -175,7 +175,7 @@
         },
         {
           "t": "p",
-          "text": "Though the oldest book already gives her that tongue on the day she arrives — so the picture may have come first, and the scene been built to explain it."
+          "text": "The older text already describes her with that tongue, so this later scene is one way people came to explain the image."
         },
         {
           "t": "p",
@@ -188,8 +188,8 @@
       ]
     },
     "full": {
-      "minutes": 7,
-      "words": 698,
+      "minutes": 6,
+      "words": 667,
       "blocks": [
         {
           "t": "p",
@@ -197,7 +197,7 @@
         },
         {
           "t": "p",
-          "text": "Not the ordinary kind. The text says her face went black with it, and out of her forehead came «Kālī» — already there, already armed, holding a sword and a noose and wearing what she wears, needing nothing explained to her."
+          "text": "Her face darkened with anger, and from her forehead came «Kālī» — already armed, holding a sword and a noose, needing nothing explained to her."
         },
         {
           "t": "p",
@@ -235,7 +235,7 @@
         },
         {
           "t": "p",
-          "text": "It is the only thing that works on a problem shaped like that, and the text says so plainly and does not dress it up."
+          "text": "It is the only thing that works on a problem shaped like that."
         },
         {
           "t": "p",
@@ -250,7 +250,7 @@
         },
         {
           "t": "p",
-          "text": "This is the part the older chapters do not tell you and everybody knows anyway. She did not stop. The field was empty — no enemy, nobody left to fight, nothing to do — and she was still going."
+          "text": "Later tradition adds the part almost everyone knows: she did not stop. The field was empty — no enemy, nobody left to fight — and she was still going."
         },
         {
           "t": "p",
@@ -258,11 +258,11 @@
         },
         {
           "t": "p",
-          "text": "And the gods who had been so relieved an hour earlier stood at the edge of the field and worked out, slowly, that nothing they had was any use here."
+          "text": "And the gods who had been so relieved an hour earlier stood at the edge of the field and worked out, slowly, that nothing they had was any use here. The enemy was gone, but the force that had destroyed him was still moving."
         },
         {
           "t": "p",
-          "text": "She had not come out of them. She had come out of the Devī, and she was not theirs to call back."
+          "text": "She had not come out of them. She had come out of the Devī, and she was not theirs to call back. Shouting from the edge of the field would not be enough."
         },
         {
           "t": "p",
@@ -277,11 +277,11 @@
         },
         {
           "t": "p",
-          "text": "Not fighting her. Not holding anything up, not blocking, not shouting her name. He lay down in her path — in the place she was going to come next — and waited to find out whether she would look down."
+          "text": "Not fighting her. Not holding anything up, not blocking, not shouting her name. He lay down in her path — in the place she was going to come next — and waited to find out whether she would look down. The whole plan depended on recognition, not force."
         },
         {
           "t": "p",
-          "text": "Which is the most frightening thing anybody does in any of these stories, and he does it lying still."
+          "text": "He does the most dangerous thing possible by staying completely still."
         },
         {
           "t": "p",
@@ -300,7 +300,7 @@
         },
         {
           "t": "p",
-          "text": "That is the moment people point to for it — though the oldest book already gives her that tongue on the day she arrives, which is worth knowing."
+          "text": "People often connect that moment with the familiar image of her tongue out, though the older text already describes her that way."
         },
         {
           "t": "p",
@@ -316,11 +316,11 @@
         },
         {
           "t": "p",
-          "text": "Nobody thanked him. The tellings do not have anyone thank him. He gets up, and she is herself again, and the story goes back to the war it was in the middle of, and the thing he did is left lying there for whoever notices."
+          "text": "No one stops for a speech. He gets up, she becomes herself again, and the war story moves on."
         },
         {
           "t": "slow",
-          "text": "She had won. Winning was never the hard part. Stopping was the hard part, and somebody had to lie down in front of her before she could do it."
+          "text": "She had won. Winning was never the hard part. Stopping was the hard part, and somebody had to lie down in front of her before she could do it. The story remembers the moment the power to fight became the power to stop."
         }
       ]
     }

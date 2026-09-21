@@ -8,26 +8,6 @@
   },
   "exceptions": [
     {
-      "id": "annapurna-bhiksha",
-      "version": 1,
-      "hash": "7fe3c2185b4ca32d",
-      "stats": {
-        "short": {
-          "declaredMinutes": 3,
-          "spokenWords": 366,
-          "computedMinutes": 3
-        },
-        "full": {
-          "declaredMinutes": 6,
-          "spokenWords": 680,
-          "computedMinutes": 6
-        }
-      },
-      "violations": [
-        "short: 366 words not 300–360"
-      ]
-    },
-    {
       "id": "durga-mahishasura",
       "version": 2,
       "hash": "8f4ec0e495222777",
@@ -138,28 +118,6 @@
       ]
     },
     {
-      "id": "kali-stops",
-      "version": 1,
-      "hash": "046b472407b255bf",
-      "stats": {
-        "short": {
-          "declaredMinutes": 3,
-          "spokenWords": 360,
-          "computedMinutes": 3
-        },
-        "full": {
-          "declaredMinutes": 7,
-          "spokenWords": 698,
-          "computedMinutes": 7
-        }
-      },
-      "violations": [
-        "full: declares 7m not 6m",
-        "full: 698 words not 650–680",
-        "full: reads 7m not 6m"
-      ]
-    },
-    {
       "id": "pusalar-temple",
       "version": 2,
       "hash": "5eddd52967c917b8",
@@ -220,69 +178,6 @@
       ]
     },
     {
-      "id": "shabari-berries",
-      "version": 1,
-      "hash": "ae6f2aa89fbbf94d",
-      "stats": {
-        "short": {
-          "declaredMinutes": 3,
-          "spokenWords": 331,
-          "computedMinutes": 3
-        },
-        "full": {
-          "declaredMinutes": 6,
-          "spokenWords": 621,
-          "computedMinutes": 6
-        }
-      },
-      "violations": [
-        "full: 621 words not 650–680"
-      ]
-    },
-    {
-      "id": "shakambhari",
-      "version": 1,
-      "hash": "b96915cf09ca676f",
-      "stats": {
-        "short": {
-          "declaredMinutes": 3,
-          "spokenWords": 351,
-          "computedMinutes": 3
-        },
-        "full": {
-          "declaredMinutes": 6,
-          "spokenWords": 684,
-          "computedMinutes": 6
-        }
-      },
-      "violations": [
-        "full: 684 words not 650–680"
-      ]
-    },
-    {
-      "id": "shravana-baskets",
-      "version": 1,
-      "hash": "867d0086be89788e",
-      "stats": {
-        "short": {
-          "declaredMinutes": 2,
-          "spokenWords": 255,
-          "computedMinutes": 2
-        },
-        "full": {
-          "declaredMinutes": 6,
-          "spokenWords": 616,
-          "computedMinutes": 6
-        }
-      },
-      "violations": [
-        "short: declares 2m not 3m",
-        "short: 255 words not 300–360",
-        "short: reads 2m not 3m",
-        "full: 616 words not 650–680"
-      ]
-    },
-    {
       "id": "squirrel-setu",
       "version": 1,
       "hash": "ed837cd445d6b263",
@@ -303,26 +198,6 @@
         "short: 219 words not 300–360",
         "short: reads 2m not 3m",
         "full: 579 words not 650–680"
-      ]
-    },
-    {
-      "id": "yaksha-lake",
-      "version": 1,
-      "hash": "07765163752fa510",
-      "stats": {
-        "short": {
-          "declaredMinutes": 3,
-          "spokenWords": 322,
-          "computedMinutes": 3
-        },
-        "full": {
-          "declaredMinutes": 6,
-          "spokenWords": 646,
-          "computedMinutes": 6
-        }
-      },
-      "violations": [
-        "full: 646 words not 650–680"
       ]
     }
   ]

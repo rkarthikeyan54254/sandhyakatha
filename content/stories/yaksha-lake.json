@@ -2,8 +2,8 @@
   "id": "yaksha-lake",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-10",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Crane at the Lake",
   "tease": "Four brothers drink and fall. The fifth is asked what the greatest wonder in the world is, and answers it in one sentence.",
   "source": {
@@ -113,7 +113,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 322,
+      "words": 314,
       "blocks": [
         {
           "t": "p",
@@ -158,7 +158,7 @@
         },
         {
           "t": "p",
-          "text": "There was a «yakṣa» there — a crane on the bank, which is what the voice had been — and it asked a great many questions, and he answered every one."
+          "text": "The voice belonged to a «yakṣa» in the form of a crane on the bank. It asked question after question, and «Yudhiṣṭhira» answered."
         },
         {
           "t": "p",
@@ -195,7 +195,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 646,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -241,7 +241,7 @@
         },
         {
           "t": "p",
-          "text": "And what he found was the worst thing in the story and the book does not linger on it: four men on the ground, all of them his brothers, none of them marked, none of them breathing, beside a lake with nothing wrong with it."
+          "text": "He found all four brothers on the ground beside a lake that looked perfectly safe. None was marked. None was breathing."
         },
         {
           "t": "p",
@@ -256,11 +256,11 @@
         },
         {
           "t": "p",
-          "text": "There was a «yakṣa» on the bank — in the shape of a crane, which is what had been talking — and it asked him question after question, and he answered them all."
+          "text": "There was a «yakṣa» on the bank in the shape of a crane, and it asked him question after question. «Yudhiṣṭhira» answered without reaching for the water, even though his thirst had not gone away."
         },
         {
           "t": "p",
-          "text": "Some of them are riddles. Some are almost jokes. And a few of them are the kind of question you can still be turning over when you are grown."
+          "text": "Some questions are riddles, some almost jokes, and a few are the kind that stay with you long after the story ends. The point is not speed. He is willing to keep listening."
         },
         {
           "t": "p",
@@ -272,7 +272,7 @@
         },
         {
           "t": "p",
-          "text": "He is not showing off. He answers the way you answer someone you have decided to take seriously — quickly, without decoration, and without once asking how much longer this is going to take."
+          "text": "He is not showing off. He answers the way you answer someone you have decided to take seriously — quickly, without decoration, and without once asking how much longer this is going to take. Four brothers are beside him, but he still does not ignore the voice."
         },
         {
           "t": "beat"
@@ -283,7 +283,7 @@
         },
         {
           "t": "p",
-          "text": "And he said: every day, people watch other people die. And every single one of them goes on believing, in the middle of watching, that it will not be happening to him. There is nothing stranger than that anywhere."
+          "text": "And he said: every day, people watch other people die. And every single one of them goes on believing, in the middle of watching, that it will not be happening to him. There is nothing stranger than that anywhere. The answer is calm, even with his own brothers lying beside him."
         },
         {
           "t": "p",
@@ -313,7 +313,7 @@
         },
         {
           "t": "p",
-          "text": "The crane was his father. It was Dharma, and it had been from the first question, and this was the test — not the riddles, which he had been answering easily, but what he would do with a choice that could not be checked by anybody."
+          "text": "The crane revealed itself as Dharma, his father. The hardest test had not been the riddles. It was what «Yudhiṣṭhira» would do with a choice no one else could check. The questions had tested his mind; the choice tested his fairness."
         },
         {
           "t": "p",
@@ -329,7 +329,7 @@
         },
         {
           "t": "slow",
-          "text": "Four men walked to that lake, saw their own brothers lying on the bank, and drank anyway. He was the only one who stopped to ask whose water it was."
+          "text": "Four men walked to that lake, saw their own brothers lying on the bank, and drank anyway. «Yudhiṣṭhira» was the only one who stopped, listened carefully and answered before touching the water."
         }
       ]
     }
