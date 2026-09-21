@@ -2,8 +2,8 @@
   "id": "prithu-earth-cow",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "What the Earth Agreed To",
   "tease": "A king chases the Earth because people have no food. She flees in the form of a cow — and then explains why simply forcing her is not the answer.",
   "source": {
@@ -79,7 +79,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 300,
+      "words": 295,
       "blocks": [
         {
           "t": "p",
@@ -134,7 +134,7 @@
         },
         {
           "t": "p",
-          "text": "The story does not pretend the threat never happened. Its turn comes because the threatened «Earth» is allowed to answer."
+          "text": "The threat was real. The turn comes when the threatened «Earth» is allowed to answer."
         },
         {
           "t": "slow",
@@ -144,7 +144,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 657,
+      "words": 636,
       "blocks": [
         {
           "t": "p",
@@ -180,7 +180,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata makes the pursuit enormous. The cow-shaped «Earth» flees through the spaces available to her, but «Pṛthu» follows with his weapon ready. Finally she turns back because she cannot escape him."
+          "text": "The pursuit is enormous. The cow-shaped «Earth» flees through the spaces available to her, but «Pṛthu» follows with his weapon ready. Finally she turns back because she cannot escape him."
         },
         {
           "t": "p",
@@ -216,7 +216,7 @@
         },
         {
           "t": "p",
-          "text": "This is the turn in the story."
+          "text": "This is where the story turns."
         },
         {
           "t": "p",
@@ -236,7 +236,7 @@
         },
         {
           "t": "p",
-          "text": "Other groups follow the same pattern, each choosing an appropriate calf and vessel and drawing from «Earth» the substance suited to them. Sages, gods, other communities and living beings receive different things through the same image. The chapter turns \"milk\" into a broad image for the different forms of nourishment and value living beings receive from the world."
+          "text": "Other groups follow the same pattern, each choosing an appropriate calf and vessel and drawing from «Earth» the substance suited to them. Sages, gods, other communities and living beings receive different things through the same image. The \"milk\" becomes a broad image for the different kinds of nourishment and value living beings receive from the world."
         },
         {
           "t": "p",
@@ -244,23 +244,23 @@
         },
         {
           "t": "p",
-          "text": "The king who chased her with a bow is satisfied because the living beings have food. The Bhāgavata says he develops affection for «Earth» as though she were his daughter."
+          "text": "The king who chased her with a bow is satisfied because the living beings have food. He comes to treat «Earth» with affection, as though she were his daughter."
         },
         {
           "t": "p",
-          "text": "The story then continues into practical rule: «Pṛthu» levels rough ground and arranges places for villages, settlements, grazing, agriculture and other forms of livelihood."
+          "text": "Then «Pṛthu» turns to practical work: he levels rough ground and arranges places for villages, settlements, grazing, agriculture and other livelihoods."
         },
         {
           "t": "p",
-          "text": "That aftermath matters. The answer to hunger is not a single miraculous milking and then nothing more. The king reorganizes conditions so people can continue living and producing."
+          "text": "The answer to hunger is not one miraculous milking and then nothing more. The king reorganizes conditions so people can continue living and producing."
         },
         {
           "t": "p",
-          "text": "The chapter does not erase either half of what happened."
+          "text": "Neither half of what happened disappears."
         },
         {
           "t": "p",
-          "text": "It does not teach that force is always useless; «Pṛthu»'s threat is part of the story. It does not teach that «Earth» will give endlessly without conditions; «Earth» herself names conditions."
+          "text": "The threat remains part of the story, and so do «Earth»'s conditions. Food comes only after the king listens to what the source of that food needs."
         },
         {
           "t": "p",

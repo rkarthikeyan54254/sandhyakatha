@@ -2,8 +2,8 @@
   "id": "nachiketa-three-nights",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Boy Who Waited Three Nights",
   "tease": "A father, angry in the middle of a sacrifice, says he gives his son to Death. The boy goes, arrives at Death’s house, and waits there three nights unfed.",
   "source": {
@@ -85,7 +85,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 311,
+      "words": 308,
       "blocks": [
         {
           "t": "p",
@@ -109,7 +109,7 @@
         },
         {
           "t": "p",
-          "text": "The Upaniṣad then brings «Naciketā» to the house of «Yama», Lord Death. «Yama» is away, so «Naciketā» waits there unfed for three nights."
+          "text": "Then «Naciketā» reaches the house of «Yama», Lord Death. «Yama» is away, so «Naciketā» waits there unfed for three nights."
         },
         {
           "t": "beat"
@@ -162,7 +162,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 660,
+      "words": 651,
       "blocks": [
         {
           "t": "p",
@@ -198,7 +198,7 @@
         },
         {
           "t": "p",
-          "text": "The Kaṭha Upaniṣad does not spend time describing a road, a chariot or a supernatural journey. It simply brings «Naciketā» into the presence of the consequence of those words."
+          "text": "The story does not pause over the journey. It brings «Naciketā» straight to the consequence of his father's words: the house of «Yama», Death."
         },
         {
           "t": "p",
@@ -250,7 +250,7 @@
         },
         {
           "t": "p",
-          "text": "«Naciketā» asks the question that opens the rest of the Upaniṣad: when a person dies, some say that something remains and others say it does not. Teach me what is true."
+          "text": "«Naciketā» asks the question that opens everything that follows: when a person dies, some say something remains and others say it does not. Teach me what is true."
         },
         {
           "t": "p",
@@ -306,7 +306,7 @@
         },
         {
           "t": "p",
-          "text": "By this point the pattern is exact."
+          "text": "By now the pattern is clear."
         },
         {
           "t": "p",

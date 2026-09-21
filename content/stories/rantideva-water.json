@@ -2,8 +2,8 @@
   "id": "rantideva-water",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Rantideva Gives Away the Water",
   "tease": "After long hunger, food finally arrives. So does a line of guests. The last thing left is a single drink of water.",
   "source": {
@@ -85,7 +85,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 302,
+      "words": 299,
       "blocks": [
         {
           "t": "p",
@@ -124,7 +124,7 @@
         },
         {
           "t": "p",
-          "text": "Then, although the text says he was close to death from thirst, he gave the man his water."
+          "text": "Even though he was close to death from thirst, he gave the man his water."
         },
         {
           "t": "p",
@@ -150,7 +150,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 658,
+      "words": 621,
       "blocks": [
         {
           "t": "p",
@@ -158,7 +158,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata introduces «Rantideva» as someone who does not make accumulation his safety plan. He accepts what comes by providence and gives when guests arrive. The text says that he and his family sometimes suffer hunger and thirst themselves because of that habit, yet he remains steady."
+          "text": "«Rantideva» does not make accumulation his safety plan. He accepts what comes by providence and gives when guests arrive. Because of that habit, he and his family sometimes suffer hunger and thirst themselves, yet he remains steady."
         },
         {
           "t": "p",
@@ -178,7 +178,7 @@
         },
         {
           "t": "p",
-          "text": "The family divides what remains. Just as «Rantideva» is about to take his portion, another guest arrives, identified in the text as a śūdra."
+          "text": "The family divides what remains. Just as «Rantideva» is about to take his portion, another guest arrives, identified as a śūdra."
         },
         {
           "t": "p",
@@ -214,11 +214,11 @@
         },
         {
           "t": "p",
-          "text": "The text identifies him as a caṇḍāla and has him ask for water."
+          "text": "He is identified as a caṇḍāla and asks for water."
         },
         {
           "t": "p",
-          "text": "The sequence crosses social boundaries that «Rantideva»'s world ranked differently: brāhmaṇa, śūdra, a man with dogs, and finally a person placed at the lowest edge of the social order. The verses repeat the same reason for his hospitality: he sees each visitor in relation to the divine."
+          "text": "The sequence crosses social boundaries that «Rantideva»'s world ranked differently: brāhmaṇa, śūdra, a man with dogs, and finally a person placed at the lowest edge of the social order. The same reason guides his hospitality each time: he sees every visitor in relation to the divine."
         },
         {
           "t": "p",
@@ -234,15 +234,15 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata says he is on the verge of death from thirst when he does it. Afterward the text lists the hunger, thirst, fatigue, trembling, sorrow and distress that had pressed on him and describes him as freed from their grip through the act of giving."
+          "text": "He is on the verge of death from thirst when he does it. Afterward the hunger, thirst, fatigue, trembling, sorrow and distress that had pressed on him finally loosen their grip."
         },
         {
           "t": "p",
-          "text": "Only after the last water is gone does the episode reveal what has been happening."
+          "text": "Only after the last water is gone do the visitors reveal who they are."
         },
         {
           "t": "p",
-          "text": "The visitors disclose divine identities. Gods had appeared through these different forms, and they can grant the kinds of rewards ambitious people ask for. But the story has already told us «Rantideva» is not bargaining for those rewards."
+          "text": "The visitors disclose divine identities. Gods had appeared through these different forms, and they can grant the kinds of rewards ambitious people ask for. But «Rantideva» has not been bargaining for those rewards."
         },
         {
           "t": "p",
@@ -282,7 +282,7 @@
         },
         {
           "t": "p",
-          "text": "The hierarchy remains part of the scene. «Rantideva» crosses it rather than letting rank decide how much respect or relief each guest deserves."
+          "text": "The social hierarchy remains part of the scene. «Rantideva» crosses it rather than letting rank decide how much respect or relief each guest deserves."
         },
         {
           "t": "p",
