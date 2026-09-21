@@ -2,8 +2,8 @@
   "id": "damayanti-choice",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Damayantī Chooses Nala",
   "tease": "Damayantī enters to choose Nala and finds five identical Nalas waiting.",
   "source": {
@@ -75,7 +75,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 333,
+      "words": 329,
       "blocks": [
         {
           "t": "p",
@@ -129,7 +129,7 @@
         },
         {
           "t": "p",
-          "text": "The point of her prayer is not to ask the gods to choose for her. She asks them to make it possible for her own declared choice to be carried through truthfully."
+          "text": "She does not ask the gods to choose for her. She asks them to make it possible for the choice she has already made to be carried through truthfully."
         },
         {
           "t": "p",
@@ -144,7 +144,7 @@
         },
         {
           "t": "p",
-          "text": "The scene is not really about choosing the best-looking person. That has been made impossible on purpose."
+          "text": "This is no longer a beauty contest. The identical faces have made that impossible on purpose."
         },
         {
           "t": "p",
@@ -162,7 +162,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 669,
+      "words": 667,
       "blocks": [
         {
           "t": "p",
@@ -301,7 +301,7 @@
         },
         {
           "t": "p",
-          "text": "The scene is often remembered because of the five identical Nalas, but the harder decision happened earlier."
+          "text": "The five identical Nalas are the memorable image, but the harder decision happened earlier."
         },
         {
           "t": "p",
@@ -309,7 +309,7 @@
         },
         {
           "t": "p",
-          "text": "Nala has his own version of the same test. Desire would make dishonesty convenient, but he carries the gods' message faithfully even though it works against him."
+          "text": "«Nala» faces the same kind of test from the other side. Dishonesty would be convenient, but he carries the gods' message faithfully even though it works against him."
         },
         {
           "t": "p",

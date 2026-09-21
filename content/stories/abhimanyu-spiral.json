@@ -2,8 +2,8 @@
   "id": "abhimanyu-spiral",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Abhimanyu and the Spiral",
   "tease": "He knew how to get into the formation. Nobody had ever finished telling him how to get out of it, and the grown-ups sent him in anyway.",
   "source": {
@@ -138,7 +138,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 302,
+      "words": 301,
       "blocks": [
         {
           "t": "p",
@@ -161,7 +161,7 @@
         },
         {
           "t": "p",
-          "text": "The story everyone tells is that he heard it before he was born — his father explaining it to his mother, and his mother falling asleep partway through, so he got the going in and never got the coming out."
+          "text": "You may have heard that he learned it before he was born — his father explaining it to his mother, and his mother falling asleep partway through, so he heard the way in but not the way out."
         },
         {
           "t": "beat"
@@ -179,7 +179,7 @@
         },
         {
           "t": "p",
-          "text": "He was alone in there for a long time, and he was extraordinary. The book spends chapter after chapter on it and does not hurry."
+          "text": "He was alone in there for a long time, and he was extraordinary. The epic follows that fight for chapter after chapter and does not hurry."
         },
         {
           "t": "p",
@@ -197,7 +197,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 669,
+      "words": 673,
       "blocks": [
         {
           "t": "p",
@@ -239,7 +239,7 @@
         },
         {
           "t": "p",
-          "text": "The reason everybody gives is one of the most famous things in the book, and it is not actually in the Sanskrit."
+          "text": "You may know the famous explanation that he learned only half the formation before he was born. That explanation is a later retelling, not part of this Sanskrit passage."
         },
         {
           "t": "p",
@@ -288,11 +288,11 @@
         },
         {
           "t": "p",
-          "text": "What he did in there takes the book a dozen chapters and it does not hurry any of it."
+          "text": "What he did inside takes the epic many chapters, and it does not hurry any of it."
         },
         {
           "t": "p",
-          "text": "He went through the army. Commanders, chariots, elephants, whole sections of it. Men who had fought for thirty years could not stand in front of him, and the book names them one after another so you understand this was not luck."
+          "text": "He went through the army. Commanders, chariots, elephants, whole sections of it. Men who had fought for thirty years could not stand in front of him. The epic names them one after another so there is no mistaking this for luck."
         },
         {
           "t": "p",
@@ -322,7 +322,7 @@
         },
         {
           "t": "p",
-          "text": "There is no consolation in this chapter. Nobody is rewarded. Arjuna comes back that evening and has to be told."
+          "text": "There is no easy consolation here. Nobody is rewarded. «Arjuna» comes back that evening and has to be told."
         },
         {
           "t": "slow",

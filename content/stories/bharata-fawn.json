@@ -2,8 +2,8 @@
   "id": "bharata-fawn",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Bharata and the Fawn",
   "tease": "A king gives away his kingdom to live quietly in the forest. Then one frightened fawn begins to occupy more of his mind than the renunciation ever did.",
   "source": {
@@ -77,7 +77,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 302,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -112,7 +112,7 @@
         },
         {
           "t": "p",
-          "text": "At the end of his life, the Bhāgavata says his mind was fixed on the deer, and he was born again in a deer's body."
+          "text": "At the end of his life, his mind was fixed on the deer, and the story says he was born again in a deer's body."
         },
         {
           "t": "p",
@@ -124,7 +124,7 @@
         },
         {
           "t": "p",
-          "text": "The story does not say compassion itself is wrong. A helpless newborn fawn needed rescue. It says something subtler: care can become attachment when fear of losing someone occupies the whole mind."
+          "text": "Compassion was not the mistake. The helpless fawn needed rescue. The warning comes later: care can turn into attachment when fear of losing someone begins to occupy the whole mind."
         },
         {
           "t": "slow",
@@ -134,7 +134,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 659,
+      "words": 640,
       "blocks": [
         {
           "t": "p",
@@ -170,11 +170,11 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata does not criticize that rescue. It says he feels compassion for the motherless animal, lifts it from the water and brings it back to his āśrama."
+          "text": "The rescue is not criticized. «Bharata Mahārāja» feels compassion for the motherless animal, lifts it from the water and brings it back to his āśrama."
         },
         {
           "t": "p",
-          "text": "That distinction is the whole reason to tell this story carefully."
+          "text": "That distinction matters: the problem is not the rescue."
         },
         {
           "t": "p",
@@ -194,11 +194,11 @@
         },
         {
           "t": "p",
-          "text": "The text says he walks with it, bathes with it and eats with it. What began as protection becomes constant companionship."
+          "text": "He walks with it, bathes with it and eats with it. What began as protection becomes constant companionship."
         },
         {
           "t": "p",
-          "text": "The text then says his spiritual practices begin to weaken."
+          "text": "Then his spiritual practices begin to weaken."
         },
         {
           "t": "p",
@@ -218,7 +218,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata then makes its difficult claim: because his consciousness is absorbed that way at death, «Bharata Mahārāja» is born again in the body of a deer."
+          "text": "Then comes the difficult claim: because his mind is absorbed that way at death, «Bharata Mahārāja» is born again in the body of a deer."
         },
         {
           "t": "p",
@@ -238,7 +238,7 @@
         },
         {
           "t": "p",
-          "text": "The text presents him as watchful now, determined not to repeat the same mistake."
+          "text": "Now he is watchful, determined not to repeat the same mistake."
         },
         {
           "t": "p",
@@ -246,7 +246,7 @@
         },
         {
           "t": "p",
-          "text": "The chapter itself says compassion for a helpless being matters. «Bharata Mahārāja» even reasons that someone who has taken shelter should not simply be abandoned."
+          "text": "Compassion for a helpless being still matters. «Bharata Mahārāja» even reasons that someone who has taken shelter should not simply be abandoned."
         },
         {
           "t": "p",

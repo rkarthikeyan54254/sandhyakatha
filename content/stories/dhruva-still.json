@@ -2,8 +2,8 @@
   "id": "dhruva-still",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-12",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Dhruva Stands Still",
   "tease": "He is told he cannot sit on his father's lap. He is five. He walks into the forest instead, and is promised a fixed place among the stars.",
   "source": {
@@ -89,7 +89,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 319,
+      "words": 317,
       "blocks": [
         {
           "t": "p",
@@ -116,7 +116,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata counts what «Dhruva» did month by month. First fruit and berries every third day. Then leaves every sixth day. Then water every ninth day. Then only air at longer intervals."
+          "text": "«Dhruva»'s practice became harder month by month. First fruit and berries every third day. Then leaves every sixth day. Then water every ninth day. Then only air at longer intervals."
         },
         {
           "t": "p",
@@ -142,7 +142,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 654,
+      "words": 634,
       "blocks": [
         {
           "t": "p",
@@ -189,7 +189,7 @@
         },
         {
           "t": "p",
-          "text": "The Bhāgavata does not hurry over what followed. It counts the practice month by month."
+          "text": "The practice becomes harder month by month."
         },
         {
           "t": "p",
@@ -209,11 +209,11 @@
         },
         {
           "t": "p",
-          "text": "What follows matters because the story does not pretend «Dhruva» had entered the forest with perfect motives. He had come wounded and ambitious. Standing before «Viṣṇu», he recognizes how small those earlier desires were beside what he has now encountered."
+          "text": "«Dhruva» had not entered the forest with perfect motives. He had come wounded and ambitious. Standing before «Viṣṇu», he sees how small those earlier desires are beside what he has now encountered."
         },
         {
           "t": "p",
-          "text": "«Viṣṇu» nevertheless answers the child whose hurt began the journey. He grants «Dhruva» a fixed, luminous station around which the heavenly lights will turn, compared in the text to bulls circling a central post while threshing grain."
+          "text": "«Viṣṇu» still answers the child whose hurt began the journey. He grants «Dhruva» a fixed, luminous station around which the heavenly lights will turn, like bulls circling a central post while threshing grain."
         },
         {
           "t": "p",
@@ -221,7 +221,7 @@
         },
         {
           "t": "p",
-          "text": "The Lord tells him first to return. His father will give him the kingdom and retire to the forest. The text gives the astonishing span of thirty-six thousand years for «Dhruva»'s rule. Only after that life of kingship, worship and responsibility will he attain the station that will carry his name."
+          "text": "The Lord tells him first to return. His father will give him the kingdom and retire to the forest. The story gives the astonishing span of thirty-six thousand years for «Dhruva»'s rule. Only after that life of kingship, worship and responsibility will he attain the station that will carry his name."
         },
         {
           "t": "p",

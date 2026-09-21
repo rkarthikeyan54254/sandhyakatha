@@ -2,8 +2,8 @@
   "id": "bharata-sandals",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-11",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Empty Chair",
   "tease": "He is offered a kingdom his mother took for him. He goes to the forest to give it back, is refused, and comes home with a pair of sandals instead.",
   "source": {
@@ -90,7 +90,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 311,
+      "words": 308,
       "blocks": [
         {
           "t": "p",
@@ -164,7 +164,7 @@
         },
         {
           "t": "p",
-          "text": "The text says Bharata governed under the sandals."
+          "text": "Bharata governed under the sandals."
         },
         {
           "t": "p",
@@ -190,7 +190,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 678,
+      "words": 677,
       "blocks": [
         {
           "t": "p",
@@ -328,7 +328,7 @@
         },
         {
           "t": "p",
-          "text": "The sandals were consecrated, and the text says Bharata governed the kingdom while remaining subordinate to them."
+          "text": "The sandals were consecrated, and «Bharata» governed the kingdom while remaining subordinate to them."
         },
         {
           "t": "p",
@@ -352,11 +352,11 @@
         },
         {
           "t": "p",
-          "text": "The text does not describe Bharata refusing responsibility. It describes him accepting responsibility while refusing ownership."
+          "text": "«Bharata» does not refuse responsibility. He accepts the work of ruling while refusing to treat the kingdom as his own."
         },
         {
           "t": "p",
-          "text": "That distinction is the whole shape of the episode: Rāma keeps one promise in the forest, and Bharata builds his own fourteen-year promise around it."
+          "text": "That is the shape of the episode: «Rāma» keeps one promise in the forest, and «Bharata» builds his own fourteen-year promise around it."
         },
         {
           "t": "p",
