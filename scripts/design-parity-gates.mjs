@@ -101,7 +101,8 @@ requireText(tokens, '--ui:"Karla"', 'design tokens');
 requireText(storyCss, 'Noto Serif Devanagari', 'public story system');
 requireText(storyCss, 'Noto Serif Tamil', 'public story system');
 requireText(mediaCss, 'aspect-ratio:4 / 3', 'story media contract');
-requireText(mediaCss, 'object-fit:contain', 'story media contract');
+requireText(mediaCss, 'object-fit:cover', 'story media contract');
+rejectText(mediaCss, 'object-fit:contain', 'story media contract');
 requireText(mediaCss, 'height:100%', 'story media contract');
 rejectText(appCss, ':root{', 'app stylesheet');
 for (const sheet of ['/design-tokens.css', '/story-media.css']) {
