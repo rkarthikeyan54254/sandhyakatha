@@ -174,7 +174,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 649,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -291,7 +291,7 @@
         },
         {
           "t": "slow",
-          "text": "A whole treasury, a city and the gods could not lift what one poor house had given with devotion."
+          "text": "A whole treasury, a city and the gods together could not lift what one poor house had given with devotion."
         }
       ]
     }

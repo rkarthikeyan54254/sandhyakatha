@@ -134,7 +134,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 298,
+      "words": 301,
       "blocks": [
         {
           "t": "p",
@@ -192,7 +192,7 @@
         },
         {
           "t": "p",
-          "text": "«Candra» is restored, not discarded."
+          "text": "«Candra» is restored, not discarded in the end."
         },
         {
           "t": "slow",
@@ -202,7 +202,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 642,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -315,7 +315,7 @@
         },
         {
           "t": "slow",
-          "text": "The night remembers both things: the laugh that caused the hurt, and the refuge that was still given afterwards."
+          "text": "The night remembers both things: the laugh that caused the hurt, and the refuge that was still given afterwards, and it still leaves room for return again."
         }
       ]
     }
