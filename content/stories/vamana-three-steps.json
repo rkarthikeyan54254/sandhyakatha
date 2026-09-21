@@ -92,7 +92,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 299,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -181,7 +181,7 @@
         },
         {
           "t": "p",
-          "text": "That makes his choice harder to judge."
+          "text": "That makes his choice much harder to judge."
         },
         {
           "t": "p",

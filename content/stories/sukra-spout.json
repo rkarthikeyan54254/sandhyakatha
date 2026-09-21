@@ -107,7 +107,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 270,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -189,13 +189,13 @@
         },
         {
           "t": "slow",
-          "text": "Before the three steps could cross the worlds, one blade of grass had to clear one very small opening."
+          "text": "Before the three steps could cross the worlds, one blade of grass had to clear one very small opening. The promise had already been spoken. «Bali» was holding the pot, «Vāmana» was waiting with his hand out, and the whole gift was stopped by water that would not flow."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 637,
+      "words": 652,
       "blocks": [
         {
           "t": "p",
@@ -419,7 +419,7 @@
         },
         {
           "t": "slow",
-          "text": "The famous three steps begin only after one tiny blocked spout is cleared and «Bali»'s water finally reaches «Vāmana»'s hand."
+          "text": "The famous three steps begin only after one tiny blocked spout is cleared and «Bali»'s water finally reaches «Vāmana»'s hand. Until that water moves, the great cosmic promise is still waiting inside an ordinary pot."
         }
       ]
     }

@@ -107,7 +107,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 336,
+      "words": 356,
       "blocks": [
         {
           "t": "p",
@@ -188,7 +188,7 @@
         },
         {
           "t": "slow",
-          "text": "The camp cannot remove every risk before deciding. It has to decide what refuge means while the risk is still real."
+          "text": "The camp cannot remove every risk before deciding. It has to decide what refuge means while the risk is still real. They cannot wait for perfect certainty, because the man asking for protection is already above them, waiting for an answer."
         }
       ]
     },
