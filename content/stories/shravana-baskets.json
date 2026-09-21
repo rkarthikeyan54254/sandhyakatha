@@ -102,7 +102,7 @@
   "lengths": {
     "short": {
       "minutes": 2,
-      "words": 279,
+      "words": 287,
       "blocks": [
         {
           "t": "p",
@@ -110,7 +110,7 @@
         },
         {
           "t": "p",
-          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket hanging at each end — and carried them across the country because they wanted to visit holy places. He changed shoulders when he needed to and described what was around them as he walked."
+          "text": "Near that river lived an old blind couple and their son, «Śravaṇa». He had made them a «kāvaḍi» — a pole with a basket hanging at each end — and carried them across the country because they wanted to visit holy places. He changed shoulders when he needed to and described what was around them as he walked, so the journey still belonged to them too."
         },
         {
           "t": "beat"
@@ -150,7 +150,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 591,
+      "words": 644,
       "blocks": [
         {
           "t": "p",
@@ -177,7 +177,7 @@
         },
         {
           "t": "p",
-          "text": "He had carried them across most of the country that way. They had wanted to see the holy places — which is a strange thing to want when you cannot see — and he had not argued about it. He had picked up the pole."
+          "text": "He had carried them across most of the country that way. They had wanted to visit the holy places, and he had not argued about whether blindness made the journey pointless. He had picked up the pole and made the journey possible in the way they could experience it."
         },
         {
           "t": "p",
@@ -185,7 +185,7 @@
         },
         {
           "t": "p",
-          "text": "And because they could not see, he described the places they passed as he walked: a tank on the left, people at the water, a temple ahead. The journey still belonged to them too."
+          "text": "And because they could not see, he described the places they passed as he walked: a tank on the left, people at the water, a temple ahead. He became their eyes without treating them as if the journey belonged only to him."
         },
         {
           "t": "beat"
@@ -238,7 +238,7 @@
         },
         {
           "t": "p",
-          "text": "Daśaratha filled the pot. He carried it up the bank to two old people sitting in the dark, who heard footsteps and said — oh, you have been a long time —"
+          "text": "Daśaratha filled the pot. He carried it up the bank to two old people sitting in the dark, who heard footsteps and said — oh, you have been a long time — because they expected their son's step, not a stranger's."
         },
         {
           "t": "p",
@@ -257,7 +257,7 @@
         },
         {
           "t": "p",
-          "text": "They asked to be taken down to their son, and he took them, and they held him for a while."
+          "text": "They asked to be taken down to their son. «Daśaratha» led them to the riverbank, and they held «Śravaṇa» for a while, knowing there was nothing left to repair."
         },
         {
           "t": "p",
@@ -272,7 +272,7 @@
         },
         {
           "t": "slow",
-          "text": "Many years later «Daśaratha» had four sons. When his eldest, «Rāma», was sent into the forest for fourteen years, the old king was overwhelmed by grief. He remembered the blind father's words and understood why they had returned to him."
+          "text": "Many years later «Daśaratha» had four sons. When his eldest, «Rāma», was sent into the forest for fourteen years, the old king was overwhelmed by grief. He remembered the blind father's words and understood why they had returned to him. The young hunter who trusted a sound too quickly had become the old father who could finally understand the weight of that loss."
         }
       ]
     }
