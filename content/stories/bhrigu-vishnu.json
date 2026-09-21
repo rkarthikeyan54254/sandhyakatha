@@ -101,7 +101,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 295,
+      "words": 300,
       "blocks": [
         {
           "t": "p",
@@ -171,7 +171,7 @@
         },
         {
           "t": "p",
-          "text": "Bhṛgu had tried to provoke anger. At Vaikuṇṭha, he met a response he had not expected."
+          "text": "Bhṛgu had tried to provoke anger. At Vaikuṇṭha, he met a response he had not expected. He had expected anger back."
         },
         {
           "t": "p",
@@ -193,7 +193,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 646,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -363,7 +363,7 @@
         },
         {
           "t": "p",
-          "text": "Their conclusion belongs to this telling and should stay clearly attributed to it."
+          "text": "Their conclusion belongs to this telling and should stay clearly attributed to it. That attribution matters here."
         },
         {
           "t": "p",
