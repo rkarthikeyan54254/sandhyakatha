@@ -172,7 +172,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 642,
+      "words": 650,
       "blocks": [
         {
           "t": "p",
@@ -271,7 +271,7 @@
         },
         {
           "t": "slow",
-          "text": "The first line of poetry in that language was not made for a king or a god. It was shouted at a hunter, over a bird, by a man who could not keep it in."
+          "text": "The first line of poetry in that language was not made for a king or a god. It was shouted at a hunter, over a bird, by a man who could not keep it in. And it all began with a bird's cry."
         }
       ]
     }
