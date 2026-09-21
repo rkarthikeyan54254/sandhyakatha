@@ -311,3 +311,23 @@ earn the subscription.
 Keep the traditions balanced and keep them *labelled*. Tamil Śaiva, Tamil
 Vaiṣṇava, North bhakti, Jain and folk material each reach us differently, and
 that difference is often the most interesting thing in the story.
+
+<!-- SANDHYAKATHA_READ_ALOUD_CLARITY_V1 -->
+## Read-aloud clarity
+
+> **The main story should be understandable on first hearing by an attentive 9–10-year-old in India, without reducing the depth, cultural vocabulary, or source fidelity of the story. Simplify the delivery, not the idea.**
+
+- **First-hearing test.** If a child is likely to ask “What does that sentence mean?” rather than ask about what happened, rewrite the sentence.
+- **Concrete before abstract.** Prefer action, image, dialogue, sequence and cause-and-effect over commentary about what a scene means.
+- **Shorten syntax, not thought.** Split long or nested sentences before removing ideas.
+- **Keep Indian vocabulary when it belongs.** Words such as *dharma, māyā, jaṭā, brāhmaṇa, Gaṅgā,* and *svayaṃvara* are not automatically too difficult. Give enough context for them to make sense naturally.
+- **Protect the spoken lane.** Textual criticism, manuscript wording, regional variants, source-selection logic and editorial process normally belong in a parent-only `aside`, source note or “Why we tell it this way,” not in the default read-aloud narration.
+- **Inline provenance only when omission would mislead.** When a distinction must stay inside the story, state it once, briefly, in natural language.
+- **Keep the three voices separate.** The storyteller tells the story. The source scholar explains evidence. The SandhyaKatha editor explains choices. A child should not have to listen to all three at once.
+- **Do not simplify what already lands.** Vivid, clear, culturally specific passages stay. This is not rewrite-for-the-sake-of-rewriting.
+- **Older stories may ask harder questions.** A higher `minAge` can carry morally or philosophically difficult material; it still should not carry unnecessarily difficult English.
+- **Read-aloud test.** A child should have to think about what happened, not decode how we said it.
+
+> **Provenance must always be available, but it does not always have to be spoken.**
+
+Moving scholarship out of the spoken lane does not remove it. The source ledger, tradition note, variants, `checkedAgainst`, parent asides and “If they ask” material remain part of the product’s trust moat.
