@@ -844,6 +844,37 @@
           }
         ]
       }
+    },
+    "sukra-spout": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 7,
+            "mode": "sentence",
+            "sentence": 4
+          },
+          {
+            "index": 9,
+            "mode": "full"
+          },
+          {
+            "index": 10,
+            "mode": "full"
+          },
+          {
+            "index": 11,
+            "mode": "full"
+          }
+        ]
+      }
     }
   }
 }
