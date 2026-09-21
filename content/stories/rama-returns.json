@@ -118,7 +118,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 269,
+      "words": 290,
       "blocks": [
         {
           "t": "p",
@@ -159,11 +159,11 @@
         },
         {
           "t": "p",
-          "text": "«Ayodhyā» had a few hours' warning and used every one of them. They washed the streets. They hung flags off everything that would hold one. Every doorway got a garland."
+          "text": "«Ayodhyā» had a few hours' warning and used every one of them. They washed the streets, hung flags, and put garlands on the doorways. The city that had waited fourteen years suddenly had only hours to prepare."
         },
         {
           "t": "p",
-          "text": "Later tellings remember the city filling the night with lamps, so «Rāma» would not come home in darkness. Lamps went along the walls, roofs and road, and people kept them burning."
+          "text": "Later tellings remember the city filling the night with lamps, so «Rāma» would not come home in darkness. Lamps went along the walls, roofs and road, and people kept them burning while they waited for the returning party to appear."
         },
         {
           "t": "p",
@@ -171,13 +171,13 @@
         },
         {
           "t": "slow",
-          "text": "Nobody knew what hour he would come. In the later festival telling, they lit the road anyway and stayed awake for the return."
+          "text": "Nobody knew what hour he would come. In the later festival telling, they lit the road anyway and stayed awake for the return. The light came before certainty."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 626,
+      "words": 654,
       "blocks": [
         {
           "t": "p",
@@ -249,11 +249,11 @@
         },
         {
           "t": "p",
-          "text": "They washed the streets down. They hung flags off anything that would hold a flag. Every doorway in the city got a garland, and the ones that ran out of flowers used leaves."
+          "text": "They washed the streets, hung flags, and put garlands on the doorways. The preparation mattered because the city had spent fourteen years waiting for this one return."
         },
         {
           "t": "p",
-          "text": "Later tellings add the image everyone knows: because nobody knew the exact hour, the city put out lamps for the returning party."
+          "text": "Later tellings add the image everyone knows: because nobody knew the exact hour, the city put out lamps for the returning party. The lamps belong to the later festival memory, while Vālmīki gives the decorated city and the night of rejoicing."
         },
         {
           "t": "p",
@@ -280,7 +280,7 @@
         },
         {
           "t": "p",
-          "text": "He did not make a speech. He knelt down and put them back on his brother's feet, which is where they had come from fourteen years earlier, and which is the only thing he had been waiting to do."
+          "text": "He did not make a speech. He knelt down and put the sandals back on his brother's feet, where they had come from fourteen years earlier. For «Bharata», that simple act ended the long duty of ruling in someone else's name."
         },
         {
           "t": "p",
@@ -292,7 +292,7 @@
         },
         {
           "t": "slow",
-          "text": "He came back on the day he said he would. The later lamp tradition turns that waiting into an image: light the road before you can see the person you are waiting for."
+          "text": "He came back on the day he said he would. The later lamp tradition turns that waiting into an image: light the road before you can see the person you are waiting for. Hope does not have to wait for proof before it prepares a welcome."
         }
       ]
     }

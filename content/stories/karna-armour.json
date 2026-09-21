@@ -162,7 +162,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 634,
+      "words": 667,
       "blocks": [
         {
           "t": "p",
@@ -263,11 +263,11 @@
         },
         {
           "t": "p",
-          "text": "The cost was physical. The armour was part of his body, not a necklace he could simply lift from a chest."
+          "text": "The cost was physical. The armour was part of his body, not a necklace he could simply lift from a chest. Giving it away meant making his own body more vulnerable."
         },
         {
           "t": "p",
-          "text": "The strategic cost was just as clear. «Indra» wanted the gift because «Arjuna» would benefit if «Karṇa» became vulnerable."
+          "text": "The strategic cost was just as clear. «Indra» wanted the gift because «Arjuna» would benefit if «Karṇa» became vulnerable, and «Karṇa» knew that was the purpose of the request."
         },
         {
           "t": "beat"
@@ -302,7 +302,7 @@
         },
         {
           "t": "slow",
-          "text": "«Karṇa» gives with his eyes open. That is what makes the gift both admirable and troubling."
+          "text": "«Karṇa» gives with his eyes open. He has been warned, he has negotiated, and he still chooses the gift. That is what makes the act both admirable and troubling."
         }
       ]
     }
