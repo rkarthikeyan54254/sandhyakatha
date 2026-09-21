@@ -2,8 +2,8 @@
   "id": "kubera-feast",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-14",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Feast Kubera Could Not Finish",
   "tease": "Kubera builds a feast to prove how much he owns. Gaṇeśa keeps eating until a few grains offered differently finally become enough.",
   "source": {
@@ -95,7 +95,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 317,
+      "words": 304,
       "blocks": [
         {
           "t": "p",
@@ -122,7 +122,7 @@
         },
         {
           "t": "p",
-          "text": "The cooks kept working. The serving vessels kept returning empty. In the modern telling we are following, «Gaṇeśa» even went toward the kitchens while the other guests still waited to be fed."
+          "text": "The cooks kept working. The serving vessels kept returning empty. In this telling, «Gaṇeśa» even went toward the kitchens while the other guests still waited to be fed."
         },
         {
           "t": "p",
@@ -157,7 +157,7 @@
         },
         {
           "t": "p",
-          "text": "What had changed was not «Gaṇeśa»'s stomach. The story makes the change happen in «Kubera»: from host who wants to be admired to host who is finally willing simply to offer."
+          "text": "What changed was not «Gaṇeśa»'s stomach. It was «Kubera»: he went from wanting to be admired to being willing simply to offer."
         },
         {
           "t": "slow",
@@ -167,11 +167,11 @@
     },
     "full": {
       "minutes": 6,
-      "words": 662,
+      "words": 640,
       "blocks": [
         {
           "t": "p",
-          "text": "«Kubera» was known for wealth. In the popular «Gaṇeśa» story we are following, that wealth had become something he wanted other people to notice."
+          "text": "«Kubera» was known for wealth, and in this story he wanted other people to notice how much he had."
         },
         {
           "t": "p",
@@ -245,7 +245,7 @@
         },
         {
           "t": "p",
-          "text": "In the modern witness chosen for this draft, he eventually moved toward the kitchen itself and consumed what had been kept there."
+          "text": "Eventually «Gaṇeśa» moved toward the kitchen itself and consumed what had been kept there."
         },
         {
           "t": "p",
@@ -295,7 +295,7 @@
         },
         {
           "t": "p",
-          "text": "In the telling we are following, she gave him only a few grains of rice."
+          "text": "She gave him only a few grains of rice."
         },
         {
           "t": "p",
@@ -349,7 +349,7 @@
         },
         {
           "t": "p",
-          "text": "That reversal is why this story survives so well in children's and oral telling."
+          "text": "The reversal is simple enough to remember: the huge feast fails, and the tiny respectful offering succeeds."
         },
         {
           "t": "p",
@@ -361,11 +361,11 @@
         },
         {
           "t": "p",
-          "text": "The popular story ends with «Kubera» relieved rather than triumphant. He has not found a richer food than the banquet. He has stopped using the meal to measure himself against the people he invited."
+          "text": "«Kubera» ends relieved rather than triumphant. He has not found a richer food than the banquet. He has stopped using the meal to measure himself against the people he invited."
         },
         {
           "t": "p",
-          "text": "The guests and servants matter to the shape of the lesson too. «Kubera»'s pride was public, so the failure of the feast became public. The story does not let him privately discover humility while everyone else continues admiring the display."
+          "text": "The guests and servants had watched the whole display, so they also saw the change. «Kubera»'s pride was public, so the failure of the feast became public. The story does not let him privately discover humility while everyone else continues admiring the display."
         },
         {
           "t": "p",
@@ -373,7 +373,7 @@
         },
         {
           "t": "p",
-          "text": "That is why the last few grains do not function like a magic recipe. If another rich host copied only the quantity while keeping the same pride, the point of the telling would disappear."
+          "text": "The last few grains are not a magic recipe. If another rich host copied only the quantity while keeping the same pride, the point of the telling would disappear."
         },
         {
           "t": "slow",

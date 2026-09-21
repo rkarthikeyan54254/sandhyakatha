@@ -2,8 +2,8 @@
   "id": "lakshmi-leaves-indra",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-09",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Garland Indra Did Not Get Down For",
   "tease": "A sage hands the king of the gods a gift on the road. He takes it without getting off his elephant, and that is how the world loses its luck.",
   "source": {
@@ -118,7 +118,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 319,
+      "words": 311,
       "blocks": [
         {
           "t": "p",
@@ -130,7 +130,7 @@
         },
         {
           "t": "p",
-          "text": "And Durvāsa gave him the garland. Which, if you know anything about Durvāsa, is the surprising part of this story. He was not a man who gave people things."
+          "text": "And «Durvāsa» gave him the garland. That was unusual for a sage famous for his temper and for being easily offended."
         },
         {
           "t": "beat"
@@ -181,7 +181,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 675,
+      "words": 643,
       "blocks": [
         {
           "t": "p",
@@ -201,7 +201,7 @@
         },
         {
           "t": "p",
-          "text": "If you know anything at all about Durvāsa, that is the surprising sentence in this story. He is the sage with the famous temper, the one every other story is about somebody accidentally offending. He did not give people things. He gave Indra this."
+          "text": "That was unusual for «Durvāsa». He was famous for his temper and for stories in which someone accidentally offended him. Here, he was the one giving something precious away."
         },
         {
           "t": "beat"
@@ -246,7 +246,7 @@
         },
         {
           "t": "p",
-          "text": "Not in a thunderclap. This is the part the story is careful about, and it is the part children recognise, because it is what a house feels like when something has gone wrong that nobody has named yet."
+          "text": "Not in a thunderclap. Things simply began to go wrong, the way a house can feel different before anyone has named what changed."
         },
         {
           "t": "p",
@@ -254,7 +254,7 @@
         },
         {
           "t": "p",
-          "text": "And people began to hold on to things — to count what they had, and to mind about it. The text lists that alongside the failing crops, as one more symptom, as though meanness were a kind of weather."
+          "text": "And people began to hold on to things — to count what they had, and to mind about it. That sits beside the failing crops as one more symptom, as though meanness were a kind of weather."
         },
         {
           "t": "p",

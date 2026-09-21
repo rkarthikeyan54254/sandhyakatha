@@ -480,7 +480,7 @@
     },
     "ganesha-moon": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -497,7 +497,7 @@
     },
     "durva-kubera-scale": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -514,7 +514,7 @@
     },
     "lakshmi-leaves-indra": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -548,7 +548,7 @@
     },
     "kubera-feast": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -1092,7 +1092,7 @@
     },
     "krishna-embassy": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",

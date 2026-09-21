@@ -2,8 +2,8 @@
   "id": "krishna-embassy",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-16",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Last Errand Before the War",
   "tease": "He goes to ask for five villages instead of a kingdom, and everyone in the room has already told him what the answer will be.",
   "source": {
@@ -279,7 +279,7 @@
         },
         {
           "t": "p",
-          "text": "And this is the answer the story is kept for. If a man does everything he can to bring about a good thing, «Kṛṣṇa» said, and it fails — the good of having tried is still his."
+          "text": "«Kṛṣṇa» answered: if a person does everything possible to bring about a good thing and it still fails, the good of having tried remains."
         },
         {
           "t": "beat"
@@ -301,7 +301,7 @@
           "text": "There was nothing left to do after that but go home and report it — which he did, word for word, so that it would be on the record for ever that somebody had asked."
         }
       ],
-      "words": 318
+      "words": 305
     },
     "full": {
       "minutes": 6,
@@ -377,7 +377,7 @@
         },
         {
           "t": "aside",
-          "text": "The text never says he knew it would fail — that is a later habit of retelling, and it makes the errand pointless. What it gives him is better: he was told it would fail, by someone who loved him, and he went and did it properly anyway."
+          "text": "Nothing here requires «Kṛṣṇa» to know the errand will fail. «Vidura», who loves him, tells him it probably will. «Kṛṣṇa» goes anyway and makes the case for peace properly."
         },
         {
           "t": "beat"

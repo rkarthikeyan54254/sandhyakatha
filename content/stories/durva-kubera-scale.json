@@ -2,8 +2,8 @@
   "id": "durva-kubera-scale",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-13",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Blade of Grass Kubera Couldn't Outweigh",
   "tease": "Kubera puts his treasury, his wife and his city on a scale. One blade of grass offered to Gaṇeśa still weighs more.",
   "source": {
@@ -174,7 +174,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 672,
+      "words": 649,
       "blocks": [
         {
           "t": "p",
@@ -205,7 +205,7 @@
         },
         {
           "t": "p",
-          "text": "More food came. He ate that too. The text says an amount sufficient for thousands disappeared, then plate after plate of good rice and porridge. Grain was gathered from stores, houses, the city and the villages. Everything brought before the guest was eaten, and he was still hungry."
+          "text": "More food came. He ate that too. Food enough for thousands disappeared, then plate after plate of good rice and porridge. Grain was gathered from stores, houses, the city and the villages. Everything brought before the guest was eaten, and he was still hungry."
         },
         {
           "t": "p",
@@ -240,7 +240,7 @@
         },
         {
           "t": "p",
-          "text": "The text makes the turn immediate. The guest eats the blade and his hunger is extinguished. Then the disguise falls away and «Gaṇeśa» stands before them. He offers them a boon. They do not ask for wealth. They ask that their devotion remain firm and that they be freed from the difficult ocean of existence."
+          "text": "The turn is immediate. The guest eats the blade and his hunger is extinguished. Then the disguise falls away and «Gaṇeśa» stands before them. He offers them a boon. They do not ask for wealth. They ask that their devotion remain firm and that they be freed from the difficult ocean of existence."
         },
         {
           "t": "p",
@@ -248,7 +248,7 @@
         },
         {
           "t": "p",
-          "text": "That story is later told to explain why «dūrvā» is offered to «Gaṇeśa». But the Purāṇa does not stop with an explanation. It turns the lesson into a weighing test."
+          "text": "That explains why «dūrvā» is offered to «Gaṇeśa». Then the story turns the same idea into a weighing test."
         },
         {
           "t": "p",
@@ -287,7 +287,7 @@
         },
         {
           "t": "p",
-          "text": "The gods finally go to the sage and admit that they do not understand the power of the «dūrvā» he has offered to «Gaṇeśa». The chapter ends by saying that even the three worlds are not equal in weight to one such blade."
+          "text": "The gods finally go to the sage and admit that they do not understand the power of the «dūrvā» he has offered to «Gaṇeśa». Even the three worlds are not equal in weight to one such blade."
         },
         {
           "t": "slow",
