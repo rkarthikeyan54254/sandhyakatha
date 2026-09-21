@@ -2,8 +2,8 @@
   "id": "annapurna-bhiksha",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-08",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Śiva Goes Begging at His Own Door",
   "tease": "He has argued that the world is an illusion and food along with it. She turns the kitchens off. He lasts about a day, and then queues with a bowl.",
   "source": {
@@ -98,11 +98,11 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 366,
+      "words": 320,
       "blocks": [
         {
           "t": "p",
-          "text": "«Śiva» had been saying, to anyone who would sit still, that the world is «māyā» — not that it does not exist, but that it is not what it looks like, and you should not get attached to any of it."
+          "text": "«Śiva» often said that the world is «māyā»: real, but not always what it seems. We should not hold too tightly to the things in it."
         },
         {
           "t": "p",
@@ -140,7 +140,7 @@
         },
         {
           "t": "p",
-          "text": "A god who has gone a thousand years on a mountain without a meal found that he was thinking about food, and could not stop, and that the thinking was not philosophical."
+          "text": "Soon even «Śiva» was hungry. He tried not to think about food, but he could think of almost nothing else."
         },
         {
           "t": "beat"
@@ -151,7 +151,7 @@
         },
         {
           "t": "p",
-          "text": "So he took his bowl and went and stood in the line. He is a beggar by trade — not by choice, but as an old penance — and he had carried the bowl to more doors than anybody could count. He had never once had to do it at his own."
+          "text": "So he took his bowl and stood in the line. He had carried that begging bowl to more doors than anyone could count. He had never needed to bring it to his own."
         },
         {
           "t": "p",
@@ -165,7 +165,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 680,
+      "words": 590,
       "blocks": [
         {
           "t": "p",
@@ -177,7 +177,7 @@
         },
         {
           "t": "p",
-          "text": "Not that it does not exist. That it is not what it looks like — a trick of the light that goes all the way down — and that you should not get attached to any of it."
+          "text": "Not that the world does not exist, but that it is not always what it seems, and that people should not cling too tightly to what is in it."
         },
         {
           "t": "p",
@@ -196,7 +196,7 @@
         },
         {
           "t": "p",
-          "text": "It is worth saying he was not speaking carelessly, and not unkindly. He is the one who sits on a mountain for a thousand years without eating. He was not asking anything he had not already tested on himself."
+          "text": "He was not speaking carelessly. «Śiva» could sit on a mountain for ages without eating, so he believed he had tested the idea on himself."
         },
         {
           "t": "p",
@@ -238,15 +238,15 @@
         },
         {
           "t": "p",
-          "text": "And after a while — the tellings enjoy being vague about exactly how long — Śiva was hungry too."
+          "text": "After a while, «Śiva» was hungry too."
         },
         {
           "t": "p",
-          "text": "Which he had not expected. He had a whole position on this."
+          "text": "That surprised him. He had been very sure hunger did not matter."
         },
         {
           "t": "p",
-          "text": "A god who had gone longer than anyone counts without a meal discovered that he was thinking about food and could not stop, and that the thinking was not philosophical in the slightest."
+          "text": "Soon food was almost all he could think about."
         },
         {
           "t": "beat"
@@ -276,7 +276,7 @@
         },
         {
           "t": "p",
-          "text": "She saw him coming down the line. She did not say anything clever, and this is the best thing in the story: she never wins the argument out loud. She filled the bowl."
+          "text": "She saw him coming down the line and did not argue. She simply filled his bowl."
         },
         {
           "t": "p",
@@ -287,7 +287,7 @@
         },
         {
           "t": "p",
-          "text": "What he says afterwards, in the tellings that bother to say, is not an apology. It is nearer to a correction. The world may well be māyā; the hunger is real anyway; and a person in front of you with an empty stomach is not a philosophical problem."
+          "text": "What follows is less an apology than a correction: the world may be «māyā», but hunger still has to be answered. A hungry person in front of you is not an idea to debate."
         },
         {
           "t": "p",

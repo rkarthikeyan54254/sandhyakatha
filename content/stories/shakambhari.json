@@ -2,8 +2,8 @@
   "id": "shakambhari",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-08",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "The Woman Who Fed the World",
   "tease": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word.",
   "source": {
@@ -114,7 +114,7 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 351,
+      "words": 326,
       "blocks": [
         {
           "t": "p",
@@ -122,7 +122,7 @@
         },
         {
           "t": "p",
-          "text": "«Durgama» sat still for a very long time, and at the end of it he was offered anything he liked. He asked for the «Vedas». Not books — the words people said. Over a fire, over a field, over a morning. He took them, and nobody could remember any of it."
+          "text": "«Durgama» performed a long austerity and was offered a boon. He asked for the «Vedas» — not books, but the sacred words people knew by heart for worship and ritual. Then people could no longer remember them."
         },
         {
           "t": "p",
@@ -148,7 +148,7 @@
         },
         {
           "t": "p",
-          "text": "She looked at them. The text gives her a hundred eyes to do it with, so that she could see all of it at once and never have to choose which part to look at. They called her «Śatākṣī» afterwards, which only means the hundred-eyed, and it is not a name about power."
+          "text": "She looked at them. The text gives her a hundred eyes to do it with, so that she could see all of it at once and never have to choose which part to look at. They called her «Śatākṣī» afterwards, the hundred-eyed, because she had seen all of their suffering."
         },
         {
           "t": "p",
@@ -163,7 +163,7 @@
         },
         {
           "t": "p",
-          "text": "She handed them out. She made no speech first and asked nobody anything. She fed the nearest person, and then the next one, and then the next. «Śākambharī», they called her for that: the one who carries the vegetables."
+          "text": "She handed the food out without making a speech first. She fed the nearest person, then the next, then the next. «Śākambharī», they called her: the one who carries the vegetables."
         },
         {
           "t": "slow",
@@ -173,7 +173,7 @@
     },
     "full": {
       "minutes": 6,
-      "words": 684,
+      "words": 599,
       "blocks": [
         {
           "t": "p",
@@ -189,14 +189,14 @@
         },
         {
           "t": "p",
-          "text": "Which sounds like asking for books."
+          "text": "That can sound like asking for books."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "It is not like asking for books. The Vedas were what people said — the words for the morning, the words for the fire, the words you said over a field before you planted it."
+          "text": "But these «Vedas» were remembered words: for worship, for fire, for the acts people performed at the proper time."
         },
         {
           "t": "p",
@@ -246,11 +246,11 @@
         },
         {
           "t": "p",
-          "text": "She stood there and she looked at them. The text gives her a hundred eyes to do it with — so that she could take in all of it at once, and never have to choose which part to look at."
+          "text": "She stood there and she looked at them. She is described with a hundred eyes, able to take in all of their suffering at once."
         },
         {
           "t": "p",
-          "text": "They called her «Śatākṣī» afterwards. It only means the hundred-eyed. It is not a name about power. It is a name about how long she looked."
+          "text": "They called her «Śatākṣī» afterwards — the hundred-eyed — because she had seen what was happening to them."
         },
         {
           "t": "p",
@@ -269,7 +269,7 @@
         },
         {
           "t": "p",
-          "text": "This is the part children want described properly, so: the food was growing on her. Out of her own body. Greens and roots and gourds and grain, and it kept coming, and all of it completely ordinary. The things you would actually cook."
+          "text": "The food was growing on her own body: greens, roots, gourds and grain, ordinary things people could actually cook and eat."
         },
         {
           "t": "p",
@@ -277,7 +277,7 @@
         },
         {
           "t": "p",
-          "text": "She made no speech. She did not explain where she had been for a hundred years, or ask why they had stopped saying her name. She fed the nearest person, and then the next one."
+          "text": "She did not begin with a speech or a question. She fed the nearest person, then the next one."
         },
         {
           "t": "p",
@@ -296,7 +296,7 @@
         },
         {
           "t": "p",
-          "text": "And she took his name and kept it. That is where it comes from. «Durgā» is the one who dealt with Durgama — so the grandest name in the collection has a hundred-year drought behind it, a hundred eyes, and an armful of vegetables."
+          "text": "And she took his name and kept it. That is where it comes from. The story connects the name «Durgā» with her defeat of Durgama, after the drought, the hundred eyes and the food she carried."
         },
         {
           "t": "slow",

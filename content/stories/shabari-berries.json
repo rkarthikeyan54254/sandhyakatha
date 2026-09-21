@@ -2,8 +2,8 @@
   "id": "shabari-berries",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 1,
-  "updated": "2026-09-10",
+  "version": 2,
+  "updated": "2026-09-21",
   "title": "Śabarī's Tasted Berries",
   "tease": "She bites every berry first to check it is sweet, which ruins it. He eats them anyway.",
   "source": {
@@ -90,11 +90,11 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 331,
+      "words": 312,
       "blocks": [
         {
           "t": "p",
-          "text": "«Rāma» and «Lakṣmaṇa» walked a forest path that was more suggestion than road — thinner trees, lower roots, thorns growing somewhere else. Fourteen years of walking had settled into their bones. The bow on Rāma's shoulder had worn a groove in the rhythm of his stride."
+          "text": "«Rāma» and «Lakṣmaṇa» had been walking through the forest for years. One day they came to a small clearing where an old woman sat outside a hut."
         },
         {
           "t": "p",
@@ -150,15 +150,15 @@
     },
     "full": {
       "minutes": 6,
-      "words": 621,
+      "words": 613,
       "blocks": [
         {
           "t": "p",
-          "text": "The path through the forest was not a road. It was a suggestion — a clearing where the trees happened to be thinner, and the roots happened to be lower, and the thorns happened to grow somewhere else."
+          "text": "The forest path was narrow and rough, but «Rāma» and «Lakṣmaṇa» had been walking paths like it for years."
         },
         {
           "t": "p",
-          "text": "«Rāma» walked it with «Lakṣmaṇa» at his side. Fourteen years was a long time to carry a bow you did not ask for, and a brother who refused to let you carry it alone. Their feet knew the rhythm of it by now — the long stride, the breathing that matched the walking, the silence that did not need filling."
+          "text": "«Rāma» walked with «Lakṣmaṇa» beside him. By then the two brothers knew the rhythm of forest travel well and did not need to fill every stretch with talk."
         },
         {
           "t": "beat"
@@ -207,11 +207,11 @@
         },
         {
           "t": "p",
-          "text": "She held the basket out. Her hands did not tremble. _For you,_ she said. _I have waited. Every morning I swept the path. Every evening I picked the best berries. I did not know which day you would come. I only knew you would._"
+          "text": "She held the basket out. Her hands did not tremble. _For you,_ she said. _I have waited. Every morning I swept the path. Every evening I picked the best berries. I did not know which day you would come. I only knew you would._ She had tasted each berry for one reason: she wanted to give him the sweetest ones she could find."
         },
         {
           "t": "p",
-          "text": "Rāma took the basket. He did not wipe the berries. He did not set them aside. He ate them, one after another, and the juice ran down his fingers, staining them the colour of crushed jamun."
+          "text": "«Rāma» took the basket. He did not wipe the berries or set them aside. He ate them one after another. The tooth marks did not make him refuse a gift that had been prepared with such care."
         },
         {
           "t": "p",
@@ -230,11 +230,11 @@
         },
         {
           "t": "p",
-          "text": "So she had. For years. Every berry bitten. Every berry sweet. Every morning the path swept. Every evening the basket filled."
+          "text": "So she had. For years. Every berry tasted. Every morning the path swept. Every evening the basket filled. She had repeated those small acts without knowing which day would finally be the day he came."
         },
         {
           "t": "p",
-          "text": "Rāma ate the last one. He licked his fingers. _They were good,_ he said. _Thank you._"
+          "text": "«Rāma» ate the last one. _They were good,_ he said. _Thank you._ He did not turn the moment into a lecture. He accepted the gift."
         },
         {
           "t": "slow",

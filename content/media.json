@@ -106,7 +106,7 @@
     },
     "shabari-berries": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -395,7 +395,7 @@
     },
     "shravana-baskets": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -633,7 +633,7 @@
     },
     "annapurna-bhiksha": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -735,7 +735,7 @@
     },
     "yaksha-lake": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -820,7 +820,7 @@
     },
     "kali-stops": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
@@ -905,7 +905,7 @@
     },
     "shakambhari": {
       "canonStatus": "published",
-      "storyVersion": 1,
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
