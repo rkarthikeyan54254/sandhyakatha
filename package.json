@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "npm run content && vite",
-    "build": "npm run validate:strict && npm run content && tsc -b && vite build && node scripts/prerender.mjs && node scripts/prerender-locales.mjs && node scripts/prerender-public-locales.mjs && node scripts/locale-preview-gates.mjs && node scripts/public-locale-gates.mjs && node scripts/surface-gates.mjs && node scripts/cache-gates.mjs",
+    "build": "npm run validate:strict && npm run content && tsc -b && vite build && node scripts/prerender.mjs && node scripts/prerender-locales.mjs && node scripts/prerender-public-locales.mjs && node scripts/locale-preview-gates.mjs && node scripts/public-locale-gates.mjs && node scripts/design-parity-gates.mjs && node scripts/surface-gates.mjs && node scripts/cache-gates.mjs",
     "verify:surfaces": "node scripts/surface-gates.mjs",
     "verify:cache": "node scripts/cache-gates.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
@@ -49,7 +49,8 @@
     "build:runtime-observances": "node scripts/build-runtime-observances.mjs",
     "verify:runtime-observances": "node scripts/runtime-observance-gates.mjs",
     "verify:native-language": "node scripts/native-language-gates.mjs",
-    "verify:read-aloud": "node scripts/read-aloud-gates.mjs"
+    "verify:read-aloud": "node scripts/read-aloud-gates.mjs",
+    "verify:design-parity": "node scripts/design-parity-gates.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",
