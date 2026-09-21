@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-21",
   "stories": {
     "abhimanyu-spiral": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "6cdf504502dfa332"
+      "hash": "3921e9897a7e374a"
     },
     "ambarisha-waits": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "d20b5932222cbfa6"
+      "hash": "304975b47ef3eafb"
     },
     "andal-garland": {
       "version": 1,
@@ -22,19 +22,19 @@
       "hash": "7fe3c2185b4ca32d"
     },
     "bharata-fawn": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "62f1760dc8eb158b"
+      "hash": "603a71800d13d48c"
     },
     "bharata-sandals": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "11bd021f0cf31587"
+      "hash": "5371b32dde34195d"
     },
     "bhrigu-vishnu": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "2d8abd93e11dc645"
+      "hash": "755fab0d6eccaa19"
     },
     "birds-eye": {
       "version": 1,
@@ -42,24 +42,24 @@
       "hash": "9e82c75266b3be7a"
     },
     "chariot-and-horses": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "0acfbed5659f8f49"
+      "hash": "6bd25c78fc839662"
     },
     "churning-ocean": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "8a2982c242da2163"
+      "hash": "b376d58447d05c1b"
     },
     "damayanti-choice": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "4f50110f4f63e9c3"
+      "hash": "b867308e24c93c9f"
     },
     "dhruva-still": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "65c35ca52191f97f"
+      "hash": "a307e8df63270476"
     },
     "durga-mahishasura": {
       "version": 2,
@@ -67,9 +67,9 @@
       "hash": "8f4ec0e495222777"
     },
     "durva-kubera-scale": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "f1cd500d8ff04436"
+      "hash": "827df84194ffbab5"
     },
     "ekalavya-thumb": {
       "version": 1,
@@ -77,9 +77,9 @@
       "hash": "176e56c5f5a693b8"
     },
     "gajendra-lake": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "79ecb1be8aa8d905"
+      "hash": "1c25944e1e2141f5"
     },
     "ganesha-circles": {
       "version": 3,
@@ -87,14 +87,14 @@
       "hash": "f2bcbb0b40f7100b"
     },
     "ganesha-condition": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "396facac83766768"
+      "hash": "3dbd5e8fdf0c36aa"
     },
     "ganesha-moon": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "6db81bead3b582bc"
+      "hash": "1c462f9013531ba0"
     },
     "govardhana": {
       "version": 2,
@@ -117,9 +117,9 @@
       "hash": "41c2ee26f423ca09"
     },
     "hanuman-ring-sita": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "33e56eba476f727a"
+      "hash": "cb682864d2ae00f1"
     },
     "hanuman-tail": {
       "version": 1,
@@ -147,19 +147,19 @@
       "hash": "f5465976d46c2e2b"
     },
     "kena-blade-grass": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "b0e4551f82e43223"
+      "hash": "991a5082f0cab78a"
     },
     "krishna-embassy": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "953d80be91400d6d"
+      "hash": "edff58c1283b7c1a"
     },
     "kubera-feast": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "d7780f34312b1122"
+      "hash": "a44ee20fbe6aa1eb"
     },
     "kunti-and-karna": {
       "version": 1,
@@ -167,14 +167,14 @@
       "hash": "ef4bd255fe803450"
     },
     "lakshmi-leaves-indra": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "b22093487c92fa6f"
+      "hash": "5dd3f5f625051d0f"
     },
     "maitreyi-wealth": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "6ae097b2e726316b"
+      "hash": "939e3c591677cdca"
     },
     "markandeya-leaf": {
       "version": 1,
@@ -182,14 +182,14 @@
       "hash": "3ed08b76632ca704"
     },
     "nachiketa-three-nights": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "ac509259bfabfaf6"
+      "hash": "3d5c9957b618c119"
     },
     "nammalvar-silence": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "24fa97085115f26e"
+      "hash": "abf16b8640f4289c"
     },
     "nandanar-bull": {
       "version": 1,
@@ -197,9 +197,9 @@
       "hash": "b3b6bb06dd240c71"
     },
     "narakasura": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "753688f3d28d927f"
+      "hash": "e06cef7202201be8"
     },
     "panar-shoulders": {
       "version": 1,
@@ -207,19 +207,19 @@
       "hash": "b0e837aca72a5b28"
     },
     "parvati-decides": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "d480ae18c2206468"
+      "hash": "30aaea97f43e02b0"
     },
     "prahlada-pillar": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "85a77ce54f1eb60a"
+      "hash": "1cb13c274d7d5b04"
     },
     "prithu-earth-cow": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "e63c3229a01fa8e4"
+      "hash": "88f74eb725aac4ed"
     },
     "pusalar-temple": {
       "version": 2,
@@ -232,14 +232,14 @@
       "hash": "426730455bbc0e1f"
     },
     "rantideva-water": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "f9fa5bfa6a0062bb"
+      "hash": "ab52780d796a5e33"
     },
     "sampati-words": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "75da86b922c69375"
+      "hash": "361f4c10005e230c"
     },
     "satyakama-truth": {
       "version": 2,
@@ -247,9 +247,9 @@
       "hash": "38d9ece4cf1fc37c"
     },
     "savitri-yama": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "a2e5b71006a264cb"
+      "hash": "b5c914a7293e5d76"
     },
     "shabari-berries": {
       "version": 1,
@@ -272,19 +272,19 @@
       "hash": "ed837cd445d6b263"
     },
     "sudama-poha": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "3584c177884aa036"
+      "hash": "ebae2644ba3aac0c"
     },
     "sukra-spout": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "153d9b871e8aafb8"
+      "hash": "7a9a109b95c71eb4"
     },
     "svetaketu-salt": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "d4e54b144bfa90d5"
+      "hash": "e5bcfd5da83ab8ef"
     },
     "three-in-doorway": {
       "version": 1,
@@ -292,24 +292,24 @@
       "hash": "239b93201411107c"
     },
     "two-birds": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "7c93712ab8203b16"
+      "hash": "e6e6d3ba4a7f0ad0"
     },
     "valmiki-first-shloka": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "80af02908fc090ec"
+      "hash": "1f3cf793d94eefdc"
     },
     "vamana-three-steps": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "7ec25488250d39cd"
+      "hash": "4aeb648e53617436"
     },
     "vibhishana-crosses": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "3cadb2be7ad34072"
+      "hash": "8ecbb7cb166e8e3e"
     },
     "yaksha-lake": {
       "version": 1,
