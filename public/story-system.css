@@ -23,6 +23,10 @@ body.sk-story-page[data-locale="ta-IN"]{
   --story-display:"Noto Serif Tamil",Georgia,serif;
   --story-read:"Noto Serif Tamil",Georgia,serif
 }
+body.sk-story-page[data-locale="hi-IN"] .story-article,
+body.sk-story-page[data-locale="ta-IN"] .story-article{
+  font-family:var(--story-read)
+}
 .sk-story-page a{color:inherit}
 .sk-story-page :focus-visible{outline:2px solid var(--lamp);outline-offset:3px;border-radius:4px}
 .sk-story-page .w{max-width:var(--story-max);margin:0 auto;padding:0 22px 76px}
