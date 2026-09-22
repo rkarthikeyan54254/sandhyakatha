@@ -3,7 +3,7 @@
   "storyId": "kali-stops",
   "sourceVersion": 2,
   "sourceBlobSha1": "944991d57130019b748560990628841fb5d8ab16",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "गंभीर, चित्रात्मक हिन्दी; युद्ध को न नरम करना, न हिंसा में रुकना; पुराने पाठ और बाद की प्रसिद्ध शिव-अंडरफुट परंपरा का जोड़ खुला रखना।",
@@ -81,7 +81,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -172,20 +172,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
