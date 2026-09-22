@@ -3,7 +3,7 @@
   "storyId": "chariot-and-horses",
   "sourceVersion": 2,
   "sourceBlobSha1": "617f6b1c4f4b42e891f063701aae15f4c2d01077",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "உபநிஷத்தின் உருவகத்தை குழந்தைக்கு மிக எளிமைப்படுத்தாமல், கண்முன் ஒரு ரதமாகத் திறக்கச் சொல்லும் இயல்பான தமிழ்.",
@@ -95,7 +95,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -195,20 +195,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
