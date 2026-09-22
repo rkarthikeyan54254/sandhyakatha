@@ -1581,34 +1581,6 @@
             }
           ]
         },
-        "kunti-and-karna": {
-          "hook": {
-            "from": "title",
-            "mode": "full"
-          },
-          "blocks": [
-            {
-              "index": 0,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 2,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 6,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 9,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 12,
-              "mode": "firstSentence"
-            }
-          ]
-        },
         "lakshmi-leaves-indra": {
           "hook": {
             "from": "title",
@@ -1661,34 +1633,6 @@
             },
             {
               "index": 9,
-              "mode": "firstSentence"
-            }
-          ]
-        },
-        "parvati-decides": {
-          "hook": {
-            "from": "title",
-            "mode": "full"
-          },
-          "blocks": [
-            {
-              "index": 0,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 2,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 5,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 8,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 10,
               "mode": "firstSentence"
             }
           ]
@@ -3370,34 +3314,6 @@
             }
           ]
         },
-        "kunti-and-karna": {
-          "hook": {
-            "from": "title",
-            "mode": "full"
-          },
-          "blocks": [
-            {
-              "index": 0,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 2,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 6,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 9,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 12,
-              "mode": "firstSentence"
-            }
-          ]
-        },
         "lakshmi-leaves-indra": {
           "hook": {
             "from": "title",
@@ -3450,34 +3366,6 @@
             },
             {
               "index": 9,
-              "mode": "firstSentence"
-            }
-          ]
-        },
-        "parvati-decides": {
-          "hook": {
-            "from": "title",
-            "mode": "full"
-          },
-          "blocks": [
-            {
-              "index": 0,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 2,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 5,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 8,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 10,
               "mode": "firstSentence"
             }
           ]
