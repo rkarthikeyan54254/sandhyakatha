@@ -460,6 +460,176 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "cc944bceafa270ea"
+    },
+    "hi-IN/abhimanyu-spiral": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "021d34e16b65c95b"
+    },
+    "hi-IN/bharata-fawn": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0fb24832ee2555c4"
+    },
+    "hi-IN/bhrigu-vishnu": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0563ec0cf686a2e9"
+    },
+    "hi-IN/durva-kubera-scale": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "dc97b9f1e09cf4c5"
+    },
+    "hi-IN/ekalavya-thumb": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "748bc3c6140c3ee5"
+    },
+    "hi-IN/ganesha-condition": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "04ee527a7e88a1d1"
+    },
+    "hi-IN/hanuman-own-ramayana": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b9409298e6f6135c"
+    },
+    "hi-IN/kali-stops": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e2437503ab313cf9"
+    },
+    "hi-IN/krishna-embassy": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a6076030b9c0fabd"
+    },
+    "hi-IN/kubera-feast": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ccdcd0fb81cc3bfd"
+    },
+    "hi-IN/kunti-and-karna": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "e2d893f94760e93e"
+    },
+    "hi-IN/lakshmi-leaves-indra": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "fbd18984409f3d78"
+    },
+    "hi-IN/narakasura": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f66dffbaf2343620"
+    },
+    "hi-IN/parvati-decides": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "679ad358f929cdae"
+    },
+    "hi-IN/sampati-words": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d7afce4b8e110469"
+    },
+    "hi-IN/shakambhari": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "84d82bcfa236bc95"
+    },
+    "hi-IN/shravana-baskets": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0544e640d42ff3e5"
+    },
+    "ta-IN/abhimanyu-spiral": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "400eecc2c5dc1826"
+    },
+    "ta-IN/bharata-fawn": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e7dc53f8bfa4bca0"
+    },
+    "ta-IN/bhrigu-vishnu": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c641bc55817e7c46"
+    },
+    "ta-IN/durva-kubera-scale": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d75eafc859e0d4bf"
+    },
+    "ta-IN/ekalavya-thumb": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "72a313f2af3fffec"
+    },
+    "ta-IN/ganesha-condition": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "042c58e339eb4168"
+    },
+    "ta-IN/hanuman-own-ramayana": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0cdd55d57fe41edb"
+    },
+    "ta-IN/kali-stops": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "8a6f7f2194eb1b59"
+    },
+    "ta-IN/krishna-embassy": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "415f3534232427c0"
+    },
+    "ta-IN/kubera-feast": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0de2ee8fc2e8e496"
+    },
+    "ta-IN/kunti-and-karna": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "1ebaa2f542e042f4"
+    },
+    "ta-IN/lakshmi-leaves-indra": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "574b2cece72bd182"
+    },
+    "ta-IN/narakasura": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d390d9d5fdb9f2c6"
+    },
+    "ta-IN/parvati-decides": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "91e40ae1b7b09d85"
+    },
+    "ta-IN/sampati-words": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b7696616e8dcc665"
+    },
+    "ta-IN/shakambhari": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "7f398fa19670cbc7"
+    },
+    "ta-IN/shravana-baskets": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ac391e55c78f4998"
     }
   }
 }

@@ -374,6 +374,126 @@
     {
       "storyId": "karaikkal-mangoes",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "abhimanyu-spiral",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "abhimanyu-spiral",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "bharata-fawn",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "bharata-fawn",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "bhrigu-vishnu",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "bhrigu-vishnu",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "durva-kubera-scale",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "durva-kubera-scale",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "ekalavya-thumb",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ekalavya-thumb",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "ganesha-condition",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ganesha-condition",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "hanuman-own-ramayana",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "hanuman-own-ramayana",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "kali-stops",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "kali-stops",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "krishna-embassy",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "krishna-embassy",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "kubera-feast",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "kubera-feast",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "lakshmi-leaves-indra",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "lakshmi-leaves-indra",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "narakasura",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "narakasura",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "sampati-words",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "sampati-words",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "shakambhari",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "shakambhari",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "shravana-baskets",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "shravana-baskets",
+      "locale": "ta-IN"
     }
   ],
   "landings": [
