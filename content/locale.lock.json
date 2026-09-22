@@ -360,6 +360,106 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "7c85d9ec0d3e5873"
+    },
+    "hi-IN/shabari-berries": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c92f07dacb1acac9"
+    },
+    "hi-IN/valmiki-first-shloka": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "2ba55243b3243bb9"
+    },
+    "hi-IN/satyakama-truth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a0a6798c3dfff636"
+    },
+    "hi-IN/svetaketu-salt": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0e8b3a708b9d48f7"
+    },
+    "hi-IN/prahlada-pillar": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "032bf2916f750f4c"
+    },
+    "hi-IN/dhruva-still": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "3f960875f2aa34ee"
+    },
+    "hi-IN/gajendra-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "87a0b3188d27f183"
+    },
+    "hi-IN/savitri-yama": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "bb7d7eb6794283ec"
+    },
+    "hi-IN/three-in-doorway": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c70854137d9aff4b"
+    },
+    "hi-IN/karaikkal-mangoes": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "10baf4a69cfeb9a5"
+    },
+    "ta-IN/shabari-berries": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f9ecb0b9f7ed76c8"
+    },
+    "ta-IN/valmiki-first-shloka": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "01f266378d5f5cad"
+    },
+    "ta-IN/satyakama-truth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e385d38f69df7c69"
+    },
+    "ta-IN/svetaketu-salt": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "5139658292ae0022"
+    },
+    "ta-IN/prahlada-pillar": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0e3e2d7e231c5e00"
+    },
+    "ta-IN/dhruva-still": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ba0486bc4f9f5ad9"
+    },
+    "ta-IN/gajendra-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b1139cb644fd4240"
+    },
+    "ta-IN/savitri-yama": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e20e8c3053ec6bba"
+    },
+    "ta-IN/three-in-doorway": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "834eeeaeabd51382"
+    },
+    "ta-IN/karaikkal-mangoes": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "cc944bceafa270ea"
     }
   }
 }

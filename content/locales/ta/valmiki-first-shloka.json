@@ -3,7 +3,7 @@
   "storyId": "valmiki-first-shloka",
   "sourceVersion": 2,
   "sourceBlobSha1": "ce8b37e394c4506314d88355581d9c71512411f8",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வீட்டில் குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்; துயரத்தைச் சுருக்காமல், வாக்கியத்தை சுமையாக மாற்றாமல் சொல்லும் நடை.",
@@ -86,7 +86,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -167,9 +167,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

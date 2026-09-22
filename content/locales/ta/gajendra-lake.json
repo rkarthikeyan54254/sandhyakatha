@@ -3,7 +3,7 @@
   "storyId": "gajendra-lake",
   "sourceVersion": 2,
   "sourceBlobSha1": "91d128c02c6971a7b610e369139400a8fb9872b7",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வீட்டில் குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்; பலமும் அதன் எல்லையும் பற்றி உரையாக அல்ல, நிகழ்ச்சியால் புரிய வைக்கும் நடை.",
@@ -73,7 +73,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -150,9 +150,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

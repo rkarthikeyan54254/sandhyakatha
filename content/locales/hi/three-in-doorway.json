@@ -3,7 +3,7 @@
   "storyId": "three-in-doorway",
   "sourceVersion": 1,
   "sourceBlobSha1": "55cf4ae2a61a6014a322fe89da7a665ab908fd75",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; छोटी जगह, अँधेरा और पदों की रोशनी को बच्चे की आँखों के सामने रखने वाली बोलचाल की कथा-लय।",
@@ -90,7 +90,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -176,9 +176,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

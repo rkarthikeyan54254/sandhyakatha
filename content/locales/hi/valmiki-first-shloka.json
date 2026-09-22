@@ -3,7 +3,7 @@
   "storyId": "valmiki-first-shloka",
   "sourceVersion": 2,
   "sourceBlobSha1": "ce8b37e394c4506314d88355581d9c71512411f8",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; बच्चे को सुनाने की साफ़ लय, दुख को छोटा किए बिना और भाषा को भारी बनाए बिना।",
@@ -86,7 +86,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -167,9 +167,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

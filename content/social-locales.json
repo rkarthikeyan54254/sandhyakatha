@@ -1020,6 +1020,286 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "shabari-berries": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "valmiki-first-shloka": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "satyakama-truth": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "svetaketu-salt": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "prahlada-pillar": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "dhruva-still": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "gajendra-lake": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "savitri-yama": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "three-in-doorway": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "karaikkal-mangoes": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -2050,6 +2330,286 @@
             },
             {
               "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shabari-berries": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "valmiki-first-shloka": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "satyakama-truth": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "svetaketu-salt": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "prahlada-pillar": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "dhruva-still": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "gajendra-lake": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "savitri-yama": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "three-in-doorway": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "karaikkal-mangoes": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
               "mode": "firstSentence"
             }
           ]

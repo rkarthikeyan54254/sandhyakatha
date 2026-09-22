@@ -3,7 +3,7 @@
   "storyId": "dhruva-still",
   "sourceVersion": 2,
   "sourceBlobSha1": "d49cfb958c7b1d4f82d061988f39fdba90ca9bd6",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; बच्चे की चोट को गंभीरता से लेते हुए भक्ति और तप की बात साफ़, बिना नाटकीय अतिशयोक्ति के।",
@@ -87,7 +87,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -159,9 +159,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

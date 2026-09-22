@@ -3,7 +3,7 @@
   "storyId": "karaikkal-mangoes",
   "sourceVersion": 1,
   "sourceBlobSha1": "8047caabcce09b74a5b0a620124b8f7be3870858",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பெரியபுராண மரபின் மரியாதையையும் வீட்டுக்குள் நடக்கும் சிறிய சம்பவத்தின் இயல்பையும் ஒன்றாக வைத்துக் குழந்தைக்குச் சொல்ல ஏற்ற தமிழ்.",
@@ -82,7 +82,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -168,9 +168,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

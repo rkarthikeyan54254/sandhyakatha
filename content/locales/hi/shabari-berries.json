@@ -3,7 +3,7 @@
   "storyId": "shabari-berries",
   "sourceVersion": 2,
   "sourceBlobSha1": "81eeea593c644f4cc29d62f5efce1f303cd61521",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; घर में बच्चे को सुनाने की स्वाभाविक भाषा, बिना अनुवाद जैसी वाक्य-रचना और बिना अनावश्यक भारीपन के।",
@@ -70,7 +70,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -146,9 +146,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {

@@ -3,7 +3,7 @@
   "storyId": "gajendra-lake",
   "sourceVersion": 2,
   "sourceBlobSha1": "91d128c02c6971a7b610e369139400a8fb9872b7",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; शक्ति और असहायता की बात को सरल, ठोस और बिना उपदेशात्मक भाषा के सुनाने की शैली।",
@@ -73,7 +73,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -150,9 +150,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
