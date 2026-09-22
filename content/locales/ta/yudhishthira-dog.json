@@ -3,7 +3,7 @@
   "storyId": "yudhishthira-dog",
   "sourceVersion": 1,
   "sourceBlobSha1": "213bf103605699656804cf6d256c6860940e67d0",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "தொடர்ச்சியான இழப்பைச் சிறிதாக்காமல், அமைதியான தமிழில் சொல்லி, கடைசி முடிவை எளிய நீதிக் கதையாக மாற்றாமல் வைத்திருக்கும் நடை.",
@@ -92,7 +92,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -196,20 +196,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
