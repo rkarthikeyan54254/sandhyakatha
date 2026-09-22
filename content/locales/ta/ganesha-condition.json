@@ -3,7 +3,7 @@
   "storyId": "ganesha-condition",
   "sourceVersion": 2,
   "sourceBlobSha1": "691dc1d1c5984a800404e665d4f2718c4d60772c",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வேகமும் புரிதலும் எப்படி ஒன்றுக்கொன்று எல்லை வைக்கின்றன என்பதை குழந்தைக்கு சுறுசுறுப்பாகச் சொல்லும் தமிழ்; ஆதார மரபு வேறுபாடுகள் மறைக்கப்படாது.",
@@ -65,7 +65,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -156,20 +156,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
