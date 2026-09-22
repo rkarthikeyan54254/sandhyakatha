@@ -88,6 +88,46 @@
         "ta-IN",
         "hi-IN"
       ]
+    },
+    {
+      "storyId": "pusalar-temple",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "andal-garland",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "sudama-poha",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "yaksha-lake",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "annapurna-bhiksha",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
     }
   ]
 }
