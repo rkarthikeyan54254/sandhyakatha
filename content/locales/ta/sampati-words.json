@@ -3,7 +3,7 @@
   "storyId": "sampati-words",
   "sourceVersion": 2,
   "sourceBlobSha1": "59a18d55d86151ad56018c0dcbb9fab1c498df35",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "இழந்த திறனை விட இன்னும் செய்யக்கூடிய உதவியை மையமாக வைத்தாலும், சாதாரண ஊக்கப் பேச்சாக மாற்றாத குடும்ப வாசிப்பு தமிழ்.",
@@ -71,7 +71,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -162,20 +162,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
