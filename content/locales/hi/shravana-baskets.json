@@ -3,7 +3,7 @@
   "storyId": "shravana-baskets",
   "sourceVersion": 2,
   "sourceBlobSha1": "ff7d726c4aad1b11c363ba78cf561006d1b793ae",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "शांत, करुण हिन्दी; दुर्घटना को एक सेकंड की जल्दबाज़ी के रूप में बताना, मृत्यु पर न रुकना, और दशरथ की बाद की शोक-मृत्यु से स्रोत का संबंध स्पष्ट रखना।",
@@ -85,7 +85,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -184,20 +184,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
