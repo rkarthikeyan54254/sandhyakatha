@@ -3,7 +3,7 @@
   "storyId": "hanuman-ring-sita",
   "sourceVersion": 2,
   "sourceBlobSha1": "f85f1acf9a42b5b0838ea1b5092b20ca82bab818",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்; அச்சத்திற்குள் நம்பிக்கை உருவாகும் நொடிகளை அமைதியாகவும் தெளிவாகவும் சொல்லும் நடை.",
@@ -70,7 +70,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -156,20 +156,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
