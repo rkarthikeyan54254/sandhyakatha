@@ -3,7 +3,7 @@
   "storyId": "nachiketa-three-nights",
   "sourceVersion": 2,
   "sourceBlobSha1": "7c409b1e6f8f1b89233cc7c004cf8b5c24d66b80",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "மரணம் பற்றிய கேள்வியை பயமுறுத்தாமல், நசிகேதனின் ஆர்வத்தையும் விடாமுயற்சியையும் மையமாக வைத்துக் குழந்தைக்குச் சொல்ல ஏற்ற தமிழ்.",
@@ -75,7 +75,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -166,20 +166,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
