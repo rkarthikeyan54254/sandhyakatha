@@ -3,7 +3,7 @@
   "storyId": "krishna-embassy",
   "sourceVersion": 2,
   "sourceBlobSha1": "ac89c1f4be6af94abded213928db2597bf6d410c",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "போர் தொடங்குவதற்கு முன் நடந்த கடைசி சமாதான முயற்சியை, கிருஷ்ணரின் எல்லாம்-தெரிந்த வெற்றி முயற்சி போல மாற்றாமல், முயற்சியின் மதிப்பை மையமாக வைத்துச் சொல்லும் தமிழ்.",
@@ -142,7 +142,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -252,20 +252,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
