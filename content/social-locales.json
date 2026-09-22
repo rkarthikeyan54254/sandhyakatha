@@ -1300,6 +1300,482 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "abhimanyu-spiral": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "bharata-fawn": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "bhrigu-vishnu": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "durva-kubera-scale": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ekalavya-thumb": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ganesha-condition": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "hanuman-own-ramayana": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "kali-stops": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "krishna-embassy": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 13,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "kubera-feast": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "kunti-and-karna": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 12,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "lakshmi-leaves-indra": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "narakasura": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "parvati-decides": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "sampati-words": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shakambhari": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shravana-baskets": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -2610,6 +3086,482 @@
             },
             {
               "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "abhimanyu-spiral": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "bharata-fawn": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "bhrigu-vishnu": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "durva-kubera-scale": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ekalavya-thumb": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ganesha-condition": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "hanuman-own-ramayana": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "kali-stops": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "krishna-embassy": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 13,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "kubera-feast": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "kunti-and-karna": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 12,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "lakshmi-leaves-indra": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "narakasura": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "parvati-decides": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "sampati-words": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shakambhari": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shravana-baskets": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
               "mode": "firstSentence"
             }
           ]
