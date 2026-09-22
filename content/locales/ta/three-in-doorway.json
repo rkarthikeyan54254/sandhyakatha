@@ -3,7 +3,7 @@
   "storyId": "three-in-doorway",
   "sourceVersion": 1,
   "sourceBlobSha1": "55cf4ae2a61a6014a322fe89da7a665ab908fd75",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "தமிழ் வைணவ மரபின் சொற்சுவையை வைத்துக்கொண்டு, வீட்டில் குழந்தைக்குச் சொல்லும் இயல்பான ஓட்டம்; ஆங்கில வாக்கிய அமைப்பு இல்லாமல்.",
@@ -90,7 +90,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -176,9 +176,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
