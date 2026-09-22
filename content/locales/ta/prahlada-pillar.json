@@ -3,7 +3,7 @@
   "storyId": "prahlada-pillar",
   "sourceVersion": 2,
   "sourceBlobSha1": "48781e9db5f013f9665d04464c2117a3f7d6b23e",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வீட்டில் குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்; வன்முறையைப் பெரிதுபடுத்தாமல், காரணமும் வரிசையும் தெளிவாக இருக்கச் சொல்லும் நடை.",
@@ -75,7 +75,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -161,9 +161,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
