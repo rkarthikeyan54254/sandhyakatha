@@ -3,7 +3,7 @@
   "storyId": "satyakama-truth",
   "sourceVersion": 2,
   "sourceBlobSha1": "9a79027c78aee025d164ebd00cd317bdb0281081",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; सामाजिक कठिनाई को साफ़ रखते हुए बच्चे से बात करने वाली भाषा, बिना उपदेश और बिना अनुवाद जैसी संरचना के।",
@@ -89,7 +89,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -180,9 +180,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
