@@ -3,7 +3,7 @@
   "storyId": "bhrigu-vishnu",
   "sourceVersion": 2,
   "sourceBlobSha1": "fee3f0b4a7eedcbed9cdf2bc648ca335618193ee",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज लेकिन स्रोत-सचेत हिन्दी; भृगु की उकसाने वाली परीक्षा को निष्पक्ष मानकर महिमामंडित किए बिना, प्रतिक्रियाओं पर ध्यान रखने वाली भाषा।",
@@ -74,7 +74,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -160,20 +160,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
