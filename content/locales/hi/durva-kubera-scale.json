@@ -3,7 +3,7 @@
   "storyId": "durva-kubera-scale",
   "sourceVersion": 2,
   "sourceBlobSha1": "5a0bd200410373419f94f8a3b6d0fcd953f9962a",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "हल्की लेकिन अर्थपूर्ण पारिवारिक हिन्दी; चमत्कार को बाज़ार-मूल्य की बात न बनाकर, देने के भीतर की भावना पर केंद्रित रखने वाली भाषा।",
@@ -81,7 +81,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -167,20 +167,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
