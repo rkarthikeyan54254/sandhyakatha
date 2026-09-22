@@ -3,7 +3,7 @@
   "storyId": "ganesha-moon",
   "sourceVersion": 2,
   "sourceBlobSha1": "2e282088d9c1a518ed94fb2fe9854c5994fc9980",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "குடும்பத்தில் சொல்லப்படும் விநாயகர் மரபின் சுவையை வைத்துக்கொண்டு, ஆதார வடிவத்தைத் தெளிவாகப் பிரித்து சொல்லும் இயல்பான தமிழ்.",
@@ -86,7 +86,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -172,20 +172,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
