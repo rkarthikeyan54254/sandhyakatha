@@ -875,6 +875,66 @@
           }
         ]
       }
+    },
+    "andal-garland": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 6,
+            "mode": "full"
+          },
+          {
+            "index": 10,
+            "mode": "full"
+          },
+          {
+            "index": 11,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "sudama-poha": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 6,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 13,
+            "mode": "full"
+          }
+        ]
+      }
     }
   }
 }
