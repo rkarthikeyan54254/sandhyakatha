@@ -1,6 +1,16 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-22",
   "locales": {
+    "hi-IN/andal-garland": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "2ec06113635ee803"
+    },
+    "hi-IN/annapurna-bhiksha": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b06f2457df2b83f0"
+    },
     "hi-IN/birds-eye": {
       "sourceVersion": 1,
       "status": "approved",
@@ -46,6 +56,11 @@
       "status": "approved",
       "hash": "209a8c450a620dbb"
     },
+    "hi-IN/pusalar-temple": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d9027241d24b9135"
+    },
     "hi-IN/rama-returns": {
       "sourceVersion": 1,
       "status": "approved",
@@ -55,6 +70,26 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "647f53e5a2f20b3a"
+    },
+    "hi-IN/sudama-poha": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "64bd15162d89420f"
+    },
+    "hi-IN/yaksha-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "73076bdae1a5eb52"
+    },
+    "ta-IN/andal-garland": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "514a757c6d66f2bd"
+    },
+    "ta-IN/annapurna-bhiksha": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ae27239939b94bd7"
     },
     "ta-IN/birds-eye": {
       "sourceVersion": 1,
@@ -101,6 +136,11 @@
       "status": "approved",
       "hash": "160c5fb524f6ec5f"
     },
+    "ta-IN/pusalar-temple": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "cc25893771ade555"
+    },
     "ta-IN/rama-returns": {
       "sourceVersion": 1,
       "status": "approved",
@@ -110,6 +150,16 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "aa873716a7a205a0"
+    },
+    "ta-IN/sudama-poha": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "5e62cdbd71bc9dfa"
+    },
+    "ta-IN/yaksha-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "210bde093a17ecb4"
     }
   }
 }
