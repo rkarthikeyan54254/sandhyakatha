@@ -3,7 +3,7 @@
   "storyId": "kunti-and-karna",
   "sourceVersion": 1,
   "sourceBlobSha1": "3168ded76e0c1bc50f2d662c6d64a156137563cf",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "தாமதமாக வந்த தாய்-மகன் உண்மையை எளிய மன்னிப்பு அல்லது வில்லன் தீர்ப்பில் முடிக்காமல், அமைதியாக வைத்திருக்கும் 14+ தமிழ்.",
@@ -124,7 +124,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -229,20 +229,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
