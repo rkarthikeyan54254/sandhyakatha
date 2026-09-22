@@ -3,7 +3,7 @@
   "storyId": "ganesha-condition",
   "sourceVersion": 2,
   "sourceBlobSha1": "691dc1d1c5984a800404e665d4f2718c4d60772c",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, चपल हिन्दी; गति और समझ के बीच साझेदारी को बच्चे के लिए खेल की तरह खोलने वाली भाषा, लेकिन स्रोत-भेद स्पष्ट रखते हुए।",
@@ -65,7 +65,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -156,20 +156,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
