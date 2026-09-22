@@ -3,7 +3,7 @@
   "storyId": "savitri-yama",
   "sourceVersion": 2,
   "sourceBlobSha1": "cef415debdceb242205c446a00602c78d1a4e414",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "மரணத்தை மறைக்காமல் அமைதியாகச் சொல்லி, சாவித்திரியின் நீண்ட உரையாடலையே மையமாக வைத்துக் குழந்தைக்கு வாசிக்க ஏற்ற இயல்பான தமிழ்.",
@@ -73,7 +73,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -159,9 +159,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
