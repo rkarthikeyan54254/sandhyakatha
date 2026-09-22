@@ -3,7 +3,7 @@
   "storyId": "kena-blade-grass",
   "sourceVersion": 2,
   "sourceBlobSha1": "809926ae5d8bebae024b32d50e861bc58885d0a6",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "தத்துவத்தை பெரிய சொற்களால் சுமையாக்காமல், ஒரு சிறிய புல்தழையின் காட்சியால் குழந்தைக்குத் திறக்கும் இயல்பான தமிழ்.",
@@ -78,7 +78,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -173,20 +173,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
