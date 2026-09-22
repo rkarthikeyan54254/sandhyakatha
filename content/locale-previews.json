@@ -368,6 +368,142 @@
         "ta-IN",
         "hi-IN"
       ]
+    },
+    {
+      "storyId": "abhimanyu-spiral",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "bharata-fawn",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "bhrigu-vishnu",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "durva-kubera-scale",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "ekalavya-thumb",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "ganesha-condition",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "hanuman-own-ramayana",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "kali-stops",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "krishna-embassy",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "kubera-feast",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "kunti-and-karna",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "lakshmi-leaves-indra",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "narakasura",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "parvati-decides",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "sampati-words",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "shakambhari",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "shravana-baskets",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
     }
   ]
 }
