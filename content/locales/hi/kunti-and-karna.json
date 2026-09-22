@@ -3,7 +3,7 @@
   "storyId": "kunti-and-karna",
   "sourceVersion": 1,
   "sourceBlobSha1": "3168ded76e0c1bc50f2d662c6d64a156137563cf",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "गंभीर, संयमित हिन्दी; माँ-बेटे के बीच देर से पहुँची सच्चाई को किसी आसान क्षमा या खलनायक के बिना रहने देने वाली भाषा।",
@@ -124,7 +124,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -229,20 +229,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
