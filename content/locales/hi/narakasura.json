@@ -3,7 +3,7 @@
   "storyId": "narakasura",
   "sourceVersion": 2,
   "sourceBlobSha1": "19fbba49f64f6b816e121171eddae4d733e8d584",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "साफ़ पारिवारिक हिन्दी; युद्ध को दूरी से बताना, बंदी महिलाओं की स्थिति को बिना रोमांटिक बनाने के कहना, और दीपावली की लोक-स्मृति को भागवत के पाठ से अलग रखना।",
@@ -84,7 +84,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -178,20 +178,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
