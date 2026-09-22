@@ -3,7 +3,7 @@
   "storyId": "kali-stops",
   "sourceVersion": 2,
   "sourceBlobSha1": "944991d57130019b748560990628841fb5d8ab16",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "போரின் கடினத்தை மறைக்காமல், அதில் சிக்காமல், தேவீ மாஹாத்ம்யத்தின் பழைய காட்சியும் பின்னர் வந்த சிவன்-காலடி மரபும் எங்கு இணைகிறது என்பதைத் தெளிவாகச் சொல்லும் தமிழ்.",
@@ -81,7 +81,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -172,20 +172,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
