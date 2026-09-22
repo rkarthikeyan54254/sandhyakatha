@@ -3,7 +3,7 @@
   "storyId": "kubera-feast",
   "sourceVersion": 2,
   "sourceBlobSha1": "f1c599f60228dc4c321ab64f202f57f15ce7d879",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "हल्की, पारिवारिक हिन्दी; हास्य को रखते हुए कहानी को झूठे पुराण-संदर्भ से बचाना और गर्व से विनम्रता की ओर बदलाव को दिखाना।",
@@ -78,7 +78,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -168,20 +168,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
