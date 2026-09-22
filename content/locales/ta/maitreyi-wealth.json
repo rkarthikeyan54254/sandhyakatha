@@ -3,7 +3,7 @@
   "storyId": "maitreyi-wealth",
   "sourceVersion": 2,
   "sourceBlobSha1": "8c44b3f4bd45ba1f23b07b7937d85833900217ad",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "செல்வத்தை நல்லது-கெட்டது என்று முடித்து விடாமல், அதன் எல்லையை மைத்ரேயி கேட்கும் துல்லியமான கேள்வியால் திறக்கும் இயல்பான தமிழ்.",
@@ -67,7 +67,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -148,20 +148,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
