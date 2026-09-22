@@ -3,7 +3,7 @@
   "storyId": "churning-ocean",
   "sourceVersion": 2,
   "sourceBlobSha1": "183f1808ca6674145628434ee0fb42669b0de453",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பெரிய புராணக் காட்சியை குழந்தைக்கு புரியும் வரிசையில் சொல்லி, சிவபெருமானின் செயலை வெறும் வீரச் சத்தமாக மாற்றாமல் வைத்திருக்கும் இயல்பான தமிழ்.",
@@ -73,7 +73,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -154,20 +154,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
