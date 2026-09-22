@@ -3,7 +3,7 @@
   "storyId": "svetaketu-salt",
   "sourceVersion": 2,
   "sourceBlobSha1": "28061cf2039afa20ea5d959a29eef3d2e61e4f17",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; दार्शनिक बात को बच्चे के हाथ में रखे कटोरे जितना ठोस बनाकर सुनाने की भाषा।",
@@ -88,7 +88,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -174,9 +174,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
