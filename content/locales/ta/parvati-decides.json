@@ -3,7 +3,7 @@
   "storyId": "parvati-decides",
   "sourceVersion": 2,
   "sourceBlobSha1": "8f1837f16cd217eb89d0aa59d1a8c11540e89440",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பார்வதியின் உறுதியை மையமாக வைத்தாலும், உணவு தவிர்ப்பை குழந்தைக்கு முறையாகக் காட்டாமல், சிவபுராணமும் காளிதாசரின் கவிதையும் எங்கே இணைகிறது என்பதைத் தெளிவாகச் சொல்லும் 10+ தமிழ்.",
@@ -94,7 +94,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -189,20 +189,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
