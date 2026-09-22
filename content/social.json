@@ -1205,6 +1205,246 @@
           }
         ]
       }
+    },
+    "ambarisha-waits": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 13,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 18,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "chariot-and-horses": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "damayanti-choice": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 10,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 17,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "kena-blade-grass": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 6,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 14,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 19,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "maitreyi-wealth": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 13,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 22,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "prithu-earth-cow": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 13,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "two-birds": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 11,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "vamana-three-steps": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 6,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 16,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 22,
+            "mode": "firstSentence"
+          }
+        ]
+      }
     }
   }
 }

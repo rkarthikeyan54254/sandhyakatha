@@ -260,6 +260,106 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "97103c9f9560827b"
+    },
+    "hi-IN/ambarisha-waits": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c0d3c76ee91bf29e"
+    },
+    "hi-IN/chariot-and-horses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a72641190053cde7"
+    },
+    "hi-IN/damayanti-choice": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b321a07e6d623214"
+    },
+    "hi-IN/kena-blade-grass": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e6a35941e4bee8d1"
+    },
+    "hi-IN/maitreyi-wealth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "baf006b78b1646ea"
+    },
+    "hi-IN/prithu-earth-cow": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c8fc82379e453d32"
+    },
+    "hi-IN/sukra-spout": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "29eceedb5c9a98ce"
+    },
+    "hi-IN/two-birds": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ca41c096ffe7302b"
+    },
+    "hi-IN/vamana-three-steps": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e12ac152a3cfd6b7"
+    },
+    "hi-IN/yudhishthira-dog": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "d80da39bc07ca07b"
+    },
+    "ta-IN/ambarisha-waits": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "000bc7d3aa198b63"
+    },
+    "ta-IN/chariot-and-horses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "19c1dc8984d4cefe"
+    },
+    "ta-IN/damayanti-choice": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "805e7b4f5c01bb34"
+    },
+    "ta-IN/kena-blade-grass": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "4d327e87dba1073d"
+    },
+    "ta-IN/maitreyi-wealth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "023703fb53907bcc"
+    },
+    "ta-IN/prithu-earth-cow": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a5ab2abfb9cbf899"
+    },
+    "ta-IN/sukra-spout": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "04c0213e9fe259f3"
+    },
+    "ta-IN/two-birds": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ce29f7654ab729a7"
+    },
+    "ta-IN/vamana-three-steps": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f10b1c30d4b851cd"
+    },
+    "ta-IN/yudhishthira-dog": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "7c85d9ec0d3e5873"
     }
   }
 }

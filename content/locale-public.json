@@ -214,6 +214,86 @@
     {
       "storyId": "vibhishana-crosses",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "ambarisha-waits",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "chariot-and-horses",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "damayanti-choice",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "kena-blade-grass",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "maitreyi-wealth",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "prithu-earth-cow",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "sukra-spout",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "two-birds",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "vamana-three-steps",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "yudhishthira-dog",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ambarisha-waits",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "chariot-and-horses",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "damayanti-choice",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "kena-blade-grass",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "maitreyi-wealth",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "prithu-earth-cow",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "sukra-spout",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "two-birds",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "vamana-three-steps",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "yudhishthira-dog",
+      "locale": "ta-IN"
     }
   ],
   "landings": [
