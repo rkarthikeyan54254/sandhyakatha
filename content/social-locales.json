@@ -460,6 +460,286 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "bharata-sandals": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "hanuman-ring-sita": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "markandeya-leaf": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "nachiketa-three-nights": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "nammalvar-silence": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "nandanar-bull": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "rantideva-water": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "churning-ocean": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ganesha-moon": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "vibhishana-crosses": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -930,6 +1210,286 @@
             },
             {
               "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "bharata-sandals": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "hanuman-ring-sita": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "markandeya-leaf": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "nachiketa-three-nights": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "nammalvar-silence": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "nandanar-bull": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "rantideva-water": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "churning-ocean": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ganesha-moon": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "vibhishana-crosses": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
               "mode": "firstSentence"
             }
           ]

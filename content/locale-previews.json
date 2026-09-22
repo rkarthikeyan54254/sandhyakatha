@@ -208,6 +208,86 @@
         "ta-IN",
         "hi-IN"
       ]
+    },
+    {
+      "storyId": "bharata-sandals",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "hanuman-ring-sita",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "markandeya-leaf",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "nachiketa-three-nights",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "nammalvar-silence",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "nandanar-bull",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "rantideva-water",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "churning-ocean",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "ganesha-moon",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "vibhishana-crosses",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
     }
   ]
 }

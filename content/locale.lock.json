@@ -160,6 +160,106 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "210bde093a17ecb4"
+    },
+    "hi-IN/bharata-sandals": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ef8d3c0e412e73bb"
+    },
+    "hi-IN/hanuman-ring-sita": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c72b2bc23ea4743a"
+    },
+    "hi-IN/markandeya-leaf": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9d8747971ba152ed"
+    },
+    "hi-IN/nachiketa-three-nights": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c0611fe6bcc0eef1"
+    },
+    "hi-IN/nammalvar-silence": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "dbd92936a075976a"
+    },
+    "hi-IN/nandanar-bull": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "f8ceb4241efc4048"
+    },
+    "hi-IN/rantideva-water": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "5984cb1be17c30df"
+    },
+    "hi-IN/churning-ocean": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c946c20175bb2869"
+    },
+    "hi-IN/ganesha-moon": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "93ee86a3d96c002f"
+    },
+    "hi-IN/vibhishana-crosses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "9f1c0e91bd3fddb1"
+    },
+    "ta-IN/bharata-sandals": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "56f906055a093081"
+    },
+    "ta-IN/hanuman-ring-sita": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "9ceeb053d9037f7f"
+    },
+    "ta-IN/markandeya-leaf": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c9c292190f1139e4"
+    },
+    "ta-IN/nachiketa-three-nights": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d588d3043b7d54e1"
+    },
+    "ta-IN/nammalvar-silence": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "9cf1c3e5bf73d3fd"
+    },
+    "ta-IN/nandanar-bull": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "ce799a457dd53cde"
+    },
+    "ta-IN/rantideva-water": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "641a4f9b95056627"
+    },
+    "ta-IN/churning-ocean": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "8654c502d6a5ed34"
+    },
+    "ta-IN/ganesha-moon": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f5fb40362a573a62"
+    },
+    "ta-IN/vibhishana-crosses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "97103c9f9560827b"
     }
   }
 }

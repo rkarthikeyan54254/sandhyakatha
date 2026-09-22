@@ -134,6 +134,86 @@
     {
       "storyId": "annapurna-bhiksha",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "bharata-sandals",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "hanuman-ring-sita",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "markandeya-leaf",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "nachiketa-three-nights",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "nammalvar-silence",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "nandanar-bull",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "rantideva-water",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "churning-ocean",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ganesha-moon",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "vibhishana-crosses",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "bharata-sandals",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "hanuman-ring-sita",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "markandeya-leaf",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "nachiketa-three-nights",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "nammalvar-silence",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "nandanar-bull",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "rantideva-water",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "churning-ocean",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "ganesha-moon",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "vibhishana-crosses",
+      "locale": "ta-IN"
     }
   ],
   "landings": [
