@@ -3,7 +3,7 @@
   "storyId": "krishna-embassy",
   "sourceVersion": 2,
   "sourceBlobSha1": "ac89c1f4be6af94abded213928db2597bf6d410c",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "गंभीर, स्पष्ट हिन्दी; युद्ध से पहले की आख़िरी शांति-कोशिश को भविष्यवाणी या नायक की सर्वज्ञता में बदलने के बजाय, प्रयास के मूल्य पर टिकाने वाली भाषा।",
@@ -142,7 +142,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -252,20 +252,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
