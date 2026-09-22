@@ -3,7 +3,7 @@
   "storyId": "shakambhari",
   "sourceVersion": 2,
   "sourceBlobSha1": "06a02b95c9150617cb7b02da1ed2752ffdbfdb3f",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பஞ்சத்தை உண்மையான பஞ்சமாகவே வைத்துக் கொண்டு, தேவியின் வருகையை அற்புதத்தில் மட்டும் அல்ல, பார்ப்பது–அழுவது–உணவளிப்பது என்ற வரிசையில் சொல்லும் இயல்பான தமிழ்.",
@@ -89,7 +89,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -184,20 +184,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
