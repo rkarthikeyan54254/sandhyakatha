@@ -3,7 +3,7 @@
   "storyId": "two-birds",
   "sourceVersion": 2,
   "sourceBlobSha1": "eca6696a9ed89e62233755a60eeb1b012d028658",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "ரிக் வேத-உபநிஷத் உருவகத்தை ஒரு பிற்கால விளக்கத்தில் பூட்டாமல், குழந்தை அந்தக் காட்சியோடு சிறிது நேரம் இருக்கச் செய்யும் இயல்பான தமிழ்.",
@@ -98,7 +98,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -189,20 +189,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
