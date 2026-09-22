@@ -3,7 +3,7 @@
   "storyId": "svetaketu-salt",
   "sourceVersion": 2,
   "sourceBlobSha1": "28061cf2039afa20ea5d959a29eef3d2e61e4f17",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "குழந்தைக்கு வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்; தத்துவத்தைப் பெரிய சொற்களால் அல்ல, கையில் இருக்கும் உப்புத் தண்ணீரால் புரிய வைக்கும் நடை.",
@@ -88,7 +88,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -174,9 +174,9 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
