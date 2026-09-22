@@ -3,7 +3,7 @@
   "storyId": "rantideva-water",
   "sourceVersion": 2,
   "sourceBlobSha1": "61f7bb549421dd338ddac6d96c6072c9954f2911",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; भूख-प्यास को सनसनी बनाए बिना, अतिथि-सत्कार और समान आदर की क्रमिक परीक्षा को साफ़ दिखाने वाली भाषा।",
@@ -77,7 +77,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -163,20 +163,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
