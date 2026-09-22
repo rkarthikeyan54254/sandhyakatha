@@ -3,7 +3,7 @@
   "storyId": "vamana-three-steps",
   "sourceVersion": 2,
   "sourceBlobSha1": "998d8d3976fa1103ae25c3ef099368f17c7c970b",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; छोटे अनुरोध और उसके विशाल परिणाम के बीच तनाव को साफ़ रखते हुए, बलि की चेतावनी के बाद की सचेत पसंद को केंद्र में रखने वाली भाषा।",
@@ -73,7 +73,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -163,20 +163,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
