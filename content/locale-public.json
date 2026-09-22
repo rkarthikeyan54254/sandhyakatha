@@ -94,6 +94,46 @@
     {
       "storyId": "karna-armour",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "pusalar-temple",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "andal-garland",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "sudama-poha",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "yaksha-lake",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "annapurna-bhiksha",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "pusalar-temple",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "andal-garland",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "sudama-poha",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "yaksha-lake",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "annapurna-bhiksha",
+      "locale": "ta-IN"
     }
   ],
   "landings": [
