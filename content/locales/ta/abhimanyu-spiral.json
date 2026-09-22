@@ -3,7 +3,7 @@
   "storyId": "abhimanyu-spiral",
   "sourceVersion": 2,
   "sourceBlobSha1": "d2c54fda77b1f308bdd5bebb1b27d7cf14bdf1c5",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பதினாறு வயது சிறுவனை பாதி அறிவோடு பெரியவர்கள் போருக்குள் அனுப்பிய கடினத்தை வீரக்கதையாக அழகுபடுத்தாமல், அமைதியாகவும் நேராகவும் சொல்லும் தமிழ்.",
@@ -88,7 +88,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -183,20 +183,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
