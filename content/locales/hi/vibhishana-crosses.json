@@ -3,7 +3,7 @@
   "storyId": "vibhishana-crosses",
   "sourceVersion": 2,
   "sourceBlobSha1": "cb62d352a1dff053b8358a3114c168ec7719345b",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; युद्ध-स्थिति में भरोसा, जोखिम और शरण की बहस को बच्चे के लिए साफ़ रखते हुए किसी पात्र को कार्टून जैसा अच्छा-बुरा न बनाना।",
@@ -79,7 +79,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -165,20 +165,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
