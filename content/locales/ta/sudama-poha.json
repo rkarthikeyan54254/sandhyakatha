@@ -3,7 +3,7 @@
   "storyId": "sudama-poha",
   "sourceVersion": 2,
   "sourceBlobSha1": "f468fe969fefcce6c1cb0fb06cd9532e624666d8",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்; குடும்பத்தில் குழந்தைக்குச் சொல்லும் ஓட்டம், மொழிபெயர்ப்பு வாசனையோ பாடப்புத்தக நடையோ இல்லாமல்.",
@@ -65,7 +65,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -170,20 +170,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
