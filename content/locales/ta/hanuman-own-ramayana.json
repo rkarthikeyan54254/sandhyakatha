@@ -3,7 +3,7 @@
   "storyId": "hanuman-own-ramayana",
   "sourceVersion": 2,
   "sourceBlobSha1": "d0a9fe81c76b431beac8918296613acb3262880d",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பக்தி சுவையை வைத்துக்கொண்டே, இந்த அழகான கதையை வால்மீகி ராமாயணத்தின் பழைய அத்தியாயமாக மாற்றாமல் ஆதார எல்லையைத் தெளிவாகச் சொல்லும் தமிழ்.",
@@ -69,7 +69,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -159,20 +159,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
