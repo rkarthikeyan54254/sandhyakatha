@@ -3,7 +3,7 @@
   "storyId": "hanuman-own-ramayana",
   "sourceVersion": 2,
   "sourceBlobSha1": "d0a9fe81c76b431beac8918296613acb3262880d",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "भक्तिपूर्ण लेकिन स्रोत-सचेत हिन्दी; प्रसिद्ध लोककथा की सुंदरता रखते हुए उसे वाल्मीकि-रामायण का प्राचीन प्रसंग बनाकर पेश न करने वाली भाषा।",
@@ -69,7 +69,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -159,20 +159,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
