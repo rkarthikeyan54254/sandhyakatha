@@ -3,7 +3,7 @@
   "storyId": "markandeya-leaf",
   "sourceVersion": 1,
   "sourceBlobSha1": "18cec91a790ca0b4e13d0aeb470452f41cfd2791",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வீட்டில் குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்; பிரளயத்தின் பெருமையை மிகைப்படுத்தாமல், கண்முன் நிற்கும் படங்களால் சொல்லும் நடை.",
@@ -114,7 +114,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -214,20 +214,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
