@@ -288,6 +288,86 @@
         "ta-IN",
         "hi-IN"
       ]
+    },
+    {
+      "storyId": "ambarisha-waits",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "chariot-and-horses",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "damayanti-choice",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "kena-blade-grass",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "maitreyi-wealth",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "panar-shoulders",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "prithu-earth-cow",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "sukra-spout",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "two-birds",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "yudhishthira-dog",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
     }
   ]
 }
