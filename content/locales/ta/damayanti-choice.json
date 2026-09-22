@@ -3,7 +3,7 @@
   "storyId": "damayanti-choice",
   "sourceVersion": 2,
   "sourceBlobSha1": "c33757efe51ff16da19292b271c26df67c9ce221",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "சுயம்வரத்தை அலங்காரக் காட்சியாக அல்ல, குழப்பத்தின் நடுவே ஏற்கெனவே செய்த தேர்வை உண்மையாக அடையாளம் காணும் கதையாகச் சொல்லும் இயல்பான தமிழ்.",
@@ -69,7 +69,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -151,20 +151,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
