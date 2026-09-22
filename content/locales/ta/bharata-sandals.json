@@ -3,7 +3,7 @@
   "storyId": "bharata-sandals",
   "sourceVersion": 2,
   "sourceBlobSha1": "25aef1c6efa7dddf9f1328f8b3540eef9f47cdf9",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "வீட்டில் குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்; பரதனின் பொறுப்பு உணர்வையும் ராமரிடம் உள்ள பற்றையும் உரையாக அல்ல, நிகழ்ச்சியால் காட்டும் நடை.",
@@ -70,7 +70,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -147,20 +147,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
