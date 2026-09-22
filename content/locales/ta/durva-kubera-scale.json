@@ -3,7 +3,7 @@
   "storyId": "durva-kubera-scale",
   "sourceVersion": 2,
   "sourceBlobSha1": "5a0bd200410373419f94f8a3b6d0fcd953f9962a",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "குடும்பத்தில் சிரிப்போடு சொல்லலாம்; ஆனால் அருகம்புல்லுக்கு சந்தை விலை சொல்லும் கதை ஆகாமல், கொடுப்பதின் உள்ளார்ந்த மனநிலையை மையமாக வைத்திருக்கும் தமிழ்.",
@@ -81,7 +81,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -167,20 +167,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
