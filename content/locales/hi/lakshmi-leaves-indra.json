@@ -3,7 +3,7 @@
   "storyId": "lakshmi-leaves-indra",
   "sourceVersion": 2,
   "sourceBlobSha1": "d7bdd0f962d6faed64dc5dd9b4ea556a6a8fd6d5",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज पारिवारिक हिन्दी; इन्द्र की चूक को दुष्टता नहीं, असावधानी के रूप में रखना और अलग-अलग समुद्र-मंथन परंपराओं की सूची को एक नकली निश्चित रूप में न मिलाना।",
@@ -87,7 +87,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -168,20 +168,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
