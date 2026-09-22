@@ -3,7 +3,7 @@
   "storyId": "rantideva-water",
   "sourceVersion": 2,
   "sourceBlobSha1": "61f7bb549421dd338ddac6d96c6072c9954f2911",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "நீண்ட பசி-தாகத்தை அச்சமூட்டாமல், விருந்தோம்பலும் எல்லோரிடமும் குறையாத மரியாதையும் தெளிவாகத் தெரியும் குடும்ப வாசிப்பு தமிழ்.",
@@ -77,7 +77,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -163,20 +163,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
