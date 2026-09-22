@@ -3,7 +3,7 @@
   "storyId": "lakshmi-leaves-indra",
   "sourceVersion": 2,
   "sourceBlobSha1": "d7bdd0f962d6faed64dc5dd9b4ea556a6a8fd6d5",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "இந்திரனின் தவறை தீமையாக அல்ல கவனக்குறைவாக வைத்துக் கொண்டு, பாற்கடல் கடைதலின் பல நூல் மரபுகளையும் பொய்யான ஒரே பட்டியலாகச் சேர்க்காத இயல்பான தமிழ்.",
@@ -87,7 +87,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -168,20 +168,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
