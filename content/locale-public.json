@@ -294,6 +294,86 @@
     {
       "storyId": "yudhishthira-dog",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "shabari-berries",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "valmiki-first-shloka",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "satyakama-truth",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "svetaketu-salt",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "prahlada-pillar",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "dhruva-still",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "gajendra-lake",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "savitri-yama",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "three-in-doorway",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "karaikkal-mangoes",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "shabari-berries",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "valmiki-first-shloka",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "satyakama-truth",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "svetaketu-salt",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "prahlada-pillar",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "dhruva-still",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "gajendra-lake",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "savitri-yama",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "three-in-doorway",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "karaikkal-mangoes",
+      "locale": "ta-IN"
     }
   ],
   "landings": [
