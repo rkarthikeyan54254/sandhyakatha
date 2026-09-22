@@ -3,7 +3,7 @@
   "storyId": "kubera-feast",
   "sourceVersion": 2,
   "sourceBlobSha1": "f1c599f60228dc4c321ab64f202f57f15ce7d879",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "சிரிப்புடன் குடும்பத்தில் சொல்ல ஏற்ற தமிழ்; ஆனால் சரிபார்க்காத சிவபுராண மேற்கோளை உண்மையாகக் கூறாமல், குபேரனின் பெருமையிலிருந்து பணிவிற்கு வரும் மாற்றத்தை வைத்திருக்கும் நடை.",
@@ -78,7 +78,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -168,20 +168,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
