@@ -3,7 +3,7 @@
   "storyId": "vibhishana-crosses",
   "sourceVersion": 2,
   "sourceBlobSha1": "cb62d352a1dff053b8358a3114c168ec7719345b",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "போர்நிலையிலுள்ள சந்தேகம், ஆபத்து, சரணாகதி ஆகியவற்றை குழந்தைக்கு தெளிவாகச் சொல்லி, யாரையும் எளிய நல்லவன்-கெட்டவன் வடிவமாக்காத இயல்பான தமிழ்.",
@@ -79,7 +79,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -165,20 +165,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
