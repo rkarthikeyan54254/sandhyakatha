@@ -3,7 +3,7 @@
   "storyId": "narakasura",
   "sourceVersion": 2,
   "sourceBlobSha1": "19fbba49f64f6b816e121171eddae4d733e8d584",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "போரைக் தூரத்தில் வைத்துச் சொல்லி, சிறைப்பட்ட பெண்களின் நிலையை காதல் முடிவாக மாற்றாமல், தீபாவளி மக்கள் மரபையும் பாகவத உரையையும் தெளிவாகப் பிரிக்கும் தமிழ்.",
@@ -84,7 +84,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -178,20 +178,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
