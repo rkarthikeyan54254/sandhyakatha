@@ -3,7 +3,7 @@
   "storyId": "nandanar-bull",
   "sourceVersion": 1,
   "sourceBlobSha1": "4c743159f435479a30aaffc9efecbcae6bc9c5e1",
-  "status": "in-review",
+  "status": "approved",
   "locale": "ta-IN",
   "language": "ta",
   "register": "பெரியபுராண மரபையும் சமூக அநீதியின் உண்மையையும் ஒன்றையும் மறைக்காமல், வீட்டில் குழந்தைக்குச் சொல்ல ஏற்ற இயல்பான தமிழ்.",
@@ -76,7 +76,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -157,20 +157,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
