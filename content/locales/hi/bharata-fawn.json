@@ -3,7 +3,7 @@
   "storyId": "bharata-fawn",
   "sourceVersion": 2,
   "sourceBlobSha1": "feca98965f085a30ce53ca889b0aaf06fdca07b3",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, चिंतनशील हिन्दी; करुणा को दोषी ठहराए बिना यह दिखाने की भाषा कि देखभाल कब पूरे मन को घेर लेने वाली आसक्ति बन सकती है।",
@@ -68,7 +68,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -150,20 +150,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
