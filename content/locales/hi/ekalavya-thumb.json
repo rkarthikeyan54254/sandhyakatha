@@ -3,7 +3,7 @@
   "storyId": "ekalavya-thumb",
   "sourceVersion": 1,
   "sourceBlobSha1": "4d3cab7a951c6f04c9a60f02fb96cfdac6743169",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "संयमित, सीधी हिन्दी; अन्याय को नाम देने वाली लेकिन बच्चे की प्रतिक्रिया को समझाने या शांत कराने की कोशिश न करने वाली भाषा।",
@@ -84,7 +84,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -184,20 +184,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
