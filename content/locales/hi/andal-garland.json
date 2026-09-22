@@ -3,7 +3,7 @@
   "storyId": "andal-garland",
   "sourceVersion": 1,
   "sourceBlobSha1": "2c44ab1a6d0268fc398d61bd3a21df4fdb110e41",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "सहज, आत्मीय हिन्दी; घर में बच्चे को सुनाने की भाषा—स्वाभाविक लय, साफ़ वाक्य और बिना अनावश्यक भारीपन के।",
@@ -71,7 +71,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -176,20 +176,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
