@@ -3,7 +3,7 @@
   "storyId": "abhimanyu-spiral",
   "sourceVersion": 2,
   "sourceBlobSha1": "d2c54fda77b1f308bdd5bebb1b27d7cf14bdf1c5",
-  "status": "in-review",
+  "status": "approved",
   "locale": "hi-IN",
   "language": "hi",
   "register": "गंभीर लेकिन साफ़ हिन्दी; सोलह साल के लड़के को वयस्कों द्वारा आधी जानकारी के साथ युद्ध में भेजने की अन्यायपूर्ण जटिलता को बिना वीरगाथा में चमकाए सुनाने की भाषा।",
@@ -88,7 +88,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -183,20 +183,20 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-22"
       }
     },
     "languageEditor": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     },
     "sourceFidelity": {
-      "status": "pending",
-      "reviewer": null,
-      "reviewedOn": null
+      "status": "approved",
+      "reviewer": "rama",
+      "reviewedOn": "2026-09-22"
     }
   }
 }
