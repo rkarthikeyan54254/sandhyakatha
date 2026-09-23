@@ -143,7 +143,7 @@ const UI: Record<AppLocale, LocaleUi> = {
     whyTonight: 'आज रात क्यों:',
     reviewedEdition: 'समीक्षित हिन्दी संस्करण',
     begin: 'कहानी पढ़ें',
-    allStories: 'सभी 5 हिन्दी कहानियाँ',
+    allStories: 'सभी कहानियाँ',
     ifNot: 'अगर यह नहीं',
     loading: 'आज रात की कहानी चुन रहे हैं…',
     minutes: 'मिनट · पढ़कर सुनाने के लिए',
@@ -194,7 +194,7 @@ const UI: Record<AppLocale, LocaleUi> = {
     whyTonight: 'இன்றிரவு ஏன்:',
     reviewedEdition: 'மதிப்பாய்வு செய்யப்பட்ட தமிழ் பதிப்பு',
     begin: 'கதையை வாசிக்க',
-    allStories: '5 தமிழ் கதைகளையும் பார்க்க',
+    allStories: 'அனைத்துக் கதைகளையும் பார்க்க',
     ifNot: 'இது வேண்டாமென்றால்',
     loading: 'இன்றிரவு கதையைத் தேர்ந்தெடுக்கிறோம்…',
     minutes: 'நிமிடம் · வாசித்துச் சொல்ல',
@@ -314,4 +314,205 @@ export function cardsForAppLocale(
       minutes: { ...card.minutes, short: row.minutes }
     }];
   });
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Native product metadata                                                     */
+/* -------------------------------------------------------------------------- */
+
+const CORPUS_NATIVE: Record<string, { hi:string; ta:string }> = {
+  ramayana:{hi:'रामायण',ta:'இராமாயணம்'},
+  'other-ramayana':{hi:'अन्य रामायण परंपराएँ',ta:'பிற இராமாயண மரபுகள்'},
+  mahabharata:{hi:'महाभारत',ta:'மகாபாரதம்'},
+  bhagavata:{hi:'भागवत',ta:'பாகவதம்'},
+  'vishnu-purana':{hi:'विष्णु पुराण',ta:'விஷ்ணு புராணம்'},
+  'shiva-purana':{hi:'शिव पुराण',ta:'சிவ புராணம்'},
+  purana:{hi:'पुराण',ta:'புராணங்கள்'},
+  'other-purana':{hi:'अन्य पुराण',ta:'பிற புராணங்கள்'},
+  upanishad:{hi:'उपनिषद',ta:'உபநிடதங்கள்'},
+  nayanmar:{hi:'नायनमार',ta:'நாயன்மார்கள்'},
+  alvar:{hi:'आळ्वार',ta:'ஆழ்வார்கள்'},
+  sant:{hi:'उत्तर भारत के संत',ta:'வடஇந்திய பக்தர்கள்'},
+  panchatantra:{hi:'पञ्चतन्त्र',ta:'பஞ்சதந்திரம்'},
+  origin:{hi:'कथाएँ हम तक कैसे पहुँचीं',ta:'கதைகள் நம்மிடம் வந்த பாதை'},
+  folk:{hi:'लोक परंपरा',ta:'மக்கள் மரபு'}
+};
+
+const TRADITION_NATIVE: Record<string, { hi:string; ta:string }> = {
+  sanskrit:{hi:'संस्कृत परंपरा',ta:'சமஸ்கிருத மரபு'},
+  'tamil-shaiva':{hi:'तमिल शैव परंपरा',ta:'தமிழ்ச் சைவ மரபு'},
+  'tamil-vaishnava':{hi:'तमिल वैष्णव परंपरा',ta:'தமிழ் வைணவ மரபு'},
+  'north-bhakti':{hi:'उत्तर भारतीय भक्ति परंपरा',ta:'வடஇந்திய பக்தி மரபு'},
+  jain:{hi:'जैन परंपरा',ta:'சமண மரபு'},
+  buddhist:{hi:'बौद्ध परंपरा',ta:'பௌத்த மரபு'},
+  folk:{hi:'लोक / मौखिक परंपरा',ta:'மக்கள் / வாய்மொழி மரபு'}
+};
+
+const WORK_NATIVE: Record<string, { hi:string; ta:string }> = {
+  'Abhaṅgas of Janābāī':{hi:'जनाबाई के अभंग',ta:'ஜனாபாயின் அபங்கங்கள்'},
+  'Bhaktamāl and Kabīr traditions':{hi:'भक्तमाल और कबीर परंपराएँ',ta:'பக்தமால் மற்றும் கபீர் மரபுகள்'},
+  'Bhaktamāl; Mīrā traditions':{hi:'भक्तमाल; मीराँ परंपराएँ',ta:'பக்தமால்; மீரா மரபுகள்'},
+  'Bhāgavata Purāṇa':{hi:'भागवत पुराण',ta:'பாகவத புராணம்'},
+  'Bhāgavata Purāṇa; Mahābhārata Vana Parva':{hi:'भागवत पुराण; महाभारत वन पर्व',ta:'பாகவத புராணம்; மகாபாரத வன பர்வம்'},
+  'Bṛhadāraṇyaka Upaniṣad':{hi:'बृहदारण्यक उपनिषद',ta:'பிருஹதாரண்யக உபநிடதம்'},
+  'Chāndogya Upaniṣad':{hi:'छान्दोग्य उपनिषद',ta:'சாந்தோக்ய உபநிடதம்'},
+  'Devī Bhāgavata; Śiva Purāṇa':{hi:'देवी भागवत; शिव पुराण',ta:'தேவீ பாகவதம்; சிவ புராணம்'},
+  'Devī Māhātmya (Mārkaṇḍeya Purāṇa)':{hi:'देवी माहात्म्य (मार्कण्डेय पुराण)',ta:'தேவீ மாஹாத்மியம் (மார்க்கண்டேய புராணம்)'},
+  'Divya Sūri Caritam and the Guruparamparā Prabhāvam':{hi:'दिव्य सूरी चरितम् और गुरुपरम्परा प्रभावम्',ta:'திவ்ய சூரி சரிதம் மற்றும் குருபரம்பரா பிரபாவம்'},
+  'Gaṇeśa Purāṇa':{hi:'गणेश पुराण',ta:'கணேச புராணம்'},
+  'Guruparamparā':{hi:'गुरुपरम्परा',ta:'குருபரம்பரை'},
+  'Guruparamparā Prabhāvam (Āṟāyirappaḍi)':{hi:'गुरुपरम्परा प्रभावम् (आरायिरप्पडि)',ta:'குருபரம்பரா பிரபாவம் (ஆறாயிரப்படி)'},
+  'Hanumannāṭaka (Mahānāṭaka)':{hi:'हनुमन्नाटक (महानाटक)',ta:'ஹனுமந்நாடகம் (மகாநாடகம்)'},
+  'Kaṭha Upaniṣad':{hi:'कठ उपनिषद',ta:'கட உபநிடதம்'},
+  'Kena Upaniṣad':{hi:'केन उपनिषद',ta:'கேன உபநிடதம்'},
+  'Kāśī Khaṇḍa, Skanda Purāṇa':{hi:'काशी खण्ड, स्कन्द पुराण',ta:'காசி காண்டம், ஸ்கந்த புராணம்'},
+  'Mahābhārata':{hi:'महाभारत',ta:'மகாபாரதம்'},
+  "Mudhal Tiruvantāti, with the commentators' account":{hi:'मुदल तिरुवन्तादि और व्याख्याकारों की कथा',ta:'முதல் திருவந்தாதி மற்றும் உரையாசிரியர் மரபு'},
+  'Muṇḍaka Upaniṣad':{hi:'मुण्डक उपनिषद',ta:'முண்டக உபநிடதம்'},
+  'Narsinh Mehta traditions':{hi:'नरसिंह मेहता परंपराएँ',ta:'நரசிம்ம மேத்தா மரபுகள்'},
+  'Paumacariya of Vimalasūri':{hi:'विमलसूरि का पउमचरिय',ta:'விமலசூரியின் பௌமசரியம்'},
+  'Pañcatantra':{hi:'पञ्चतन्त्र',ta:'பஞ்சதந்திரம்'},
+  'Pañcatantra; also Hitopadeśa':{hi:'पञ्चतन्त्र; हितोपदेश में भी',ta:'பஞ்சதந்திரம்; ஹிதோபதேசத்திலும்'},
+  'Periya Purāṇam':{hi:'पेरिय पुराणम्',ta:'பெரியபுராணம்'},
+  'Periya Purāṇam traditions':{hi:'पेरिय पुराणम् परंपरा',ta:'பெரியபுராண மரபு'},
+  'Popular Gaṇeśa tradition':{hi:'लोकप्रिय गणेश परंपरा',ta:'பிரபல கணேச மரபு'},
+  'Regional retellings':{hi:'क्षेत्रीय पुनर्कथन',ta:'வட்டார மறுகதைகள்'},
+  'Rāmāyaṇa':{hi:'रामायण',ta:'இராமாயணம்'},
+  'The Śrīvaiṣṇava hagiographies of Tiruppāṇāḻvār':{hi:'तिरुप्पाणाळ्वार की श्रीवैष्णव जीवन-कथाएँ',ta:'திருப்பாணாழ்வாரின் ஸ்ரீவைஷ்ணவ சரிதங்கள்'},
+  'Uṣāharaṇa-kāvya; Skanda Purāṇa':{hi:'उषाहरण काव्य; स्कन्द पुराण',ta:'உஷாஹரண காவியம்; ஸ்கந்த புராணம்'},
+  'Viṣṇu Purāṇa':{hi:'विष्णु पुराण',ta:'விஷ்ணு புராணம்'},
+  'Viṣṇu Purāṇa; Bhāgavata Skandha 9':{hi:'विष्णु पुराण; भागवत स्कन्ध 9',ta:'விஷ்ணு புராணம்; பாகவதம் ஸ்கந்தம் 9'},
+  'Vālmīki Rāmāyaṇa':{hi:'वाल्मीकि रामायण',ta:'வால்மீகி இராமாயணம்'},
+  'Śiva Purāṇa':{hi:'शिव पुराण',ta:'சிவ புராணம்'},
+  'Śiva Purāṇa, Rudra Saṃhitā':{hi:'शिव पुराण, रुद्र संहिता',ta:'சிவ புராணம், ருத்ர சம்ஹிதை'},
+  'Śiva Purāṇa; Rāmāyaṇa Uttara Kāṇḍa':{hi:'शिव पुराण; रामायण उत्तर काण्ड',ta:'சிவ புராணம்; இராமாயணம் உத்தர காண்டம்'}
+};
+
+function native(locale: AppLocale, value: {hi:string;ta:string}|undefined, fallback:string): string {
+  if (locale === 'hi-IN') return value?.hi ?? fallback;
+  if (locale === 'ta-IN') return value?.ta ?? fallback;
+  return fallback;
+}
+
+export function localizedCorpusLabel(corpus:string, locale:AppLocale):string {
+  return native(locale, CORPUS_NATIVE[corpus], corpus);
+}
+
+export function localizedTraditionLabel(tradition:string, locale:AppLocale):string {
+  return native(locale, TRADITION_NATIVE[tradition], tradition);
+}
+
+export function localizedSourceWork(work:string, locale:AppLocale):string {
+  return native(locale, WORK_NATIVE[work], work);
+}
+
+const LOCUS_REPLACEMENTS: Record<'hi-IN'|'ta-IN', Array<[RegExp,string]>> = {
+  'hi-IN': [
+    [/Critical Edition/gi,'आलोचनात्मक संस्करण'], [/chapters?/gi,'अध्याय'], [/sections?/gi,'खंड'],
+    [/verses?/gi,'श्लोक'], [/Book\s+V\b/g,'पुस्तक 5'], [/Book\s+I\b/g,'पुस्तक 1'], [/Book\s+1\b/g,'पुस्तक 1'],
+    [/First Vallī/gi,'प्रथम वल्ली'], [/Canto\s+I\b/g,'सर्ग 1'], [/the castle in the air/gi,'हवा का महल'],
+    [/The Mice That Ate Iron/gi,'लोहे को खाने वाले चूहे'], [/the building of the Setu/gi,'सेतु-निर्माण'],
+    [/the return to Ayodhyā/gi,'अयोध्या वापसी'], [/the descent of Gaṅgā/gi,'गंगा का अवतरण'],
+    [/The dance of Kālī/gi,'काली का नृत्य'], [/The Annapūrṇā episode/gi,'अन्नपूर्णा प्रसंग'],
+    [/The traditional account of how the play came to exist/gi,'नाटक की उत्पत्ति की पारंपरिक कथा'],
+    [/Modern oral\/children's retellings; early textual locus unverified/gi,'आधुनिक मौखिक / बाल पुनर्कथन; प्रारम्भिक पाठ-स्थान अपुष्ट'],
+    [/Not in Vālmīki\. Rāmcaritmānas and later folk tradition/gi,'वाल्मीकि में नहीं; रामचरितमानस और बाद की लोक परंपरा'],
+    [/also /gi,'साथ ही '], [/parallel dialogue at/gi,'समानांतर संवाद '], [/sandals/gi,'पादुकाएँ'],
+    [/birth notice/gi,'जन्म-संदर्भ'], [/visit/gi,'आगमन'], [/at Maghar/gi,'मगहर में'], [/at Chittor/gi,'चित्तौड़ में'],
+    [/of Junāgaḍh/gi,'जूनागढ़ के'], [/in Nāmdev's household/gi,'नामदेव के घर में'],
+    [/and of /gi,'और '], [/The life of /gi,'जीवन-कथा: '],
+    [/Araṇya Kāṇḍa/gi,'अरण्य काण्ड'], [/Ayodhyā Kāṇḍa/gi,'अयोध्या काण्ड'],
+    [/Bāla Kāṇḍa/gi,'बाल काण्ड'], [/Kiṣkindhā Kāṇḍa/gi,'किष्किन्धा काण्ड'],
+    [/Sundara Kāṇḍa/gi,'सुन्दर काण्ड'], [/Yuddha Kāṇḍa/gi,'युद्ध काण्ड'], [/Uttara Kāṇḍa/gi,'उत्तर काण्ड'],
+    [/Uttarakāṇḍa/gi,'उत्तर काण्ड'], [/Araṇyakāṇḍa/gi,'अरण्य काण्ड'], [/Kiṣkindhākāṇḍa/gi,'किष्किन्धा काण्ड'],
+    [/Ādi Parva/gi,'आदि पर्व'], [/Vana Parva/gi,'वन पर्व'], [/Droṇa Parva/gi,'द्रोण पर्व'],
+    [/Udyoga Parva/gi,'उद्योग पर्व'], [/Mahāprasthānika Parva/gi,'महाप्रस्थानिक पर्व'],
+    [/Nalopākhyāna Parva/gi,'नलोपाख्यान पर्व'], [/Pativratā-māhātmya Parva/gi,'पतिव्रता-माहात्म्य पर्व'],
+    [/Rudra Saṃhitā/gi,'रुद्र संहिता'], [/Vidyeśvara Saṃhitā/gi,'विद्येश्वर संहिता'],
+    [/Upāsanā Khaṇḍa/gi,'उपासना खण्ड'], [/Pārvatī Khaṇḍa/gi,'पार्वती खण्ड'],
+    [/Skandha/gi,'स्कन्ध'], [/sarga/gi,'सर्ग']
+  ],
+  'ta-IN': [
+    [/Critical Edition/gi,'விமர்சனப் பதிப்பு'], [/chapters?/gi,'அத்தியாயங்கள்'], [/sections?/gi,'பகுதிகள்'],
+    [/verses?/gi,'சுலோகங்கள்'], [/Book\s+V\b/g,'நூல் 5'], [/Book\s+I\b/g,'நூல் 1'], [/Book\s+1\b/g,'நூல் 1'],
+    [/First Vallī/gi,'முதல் வல்லி'], [/Canto\s+I\b/g,'சர்க்கம் 1'], [/the castle in the air/gi,'காற்றில் கட்டிய கோட்டை'],
+    [/The Mice That Ate Iron/gi,'இரும்பைத் தின்ற எலிகள்'], [/the building of the Setu/gi,'சேது கட்டுதல்'],
+    [/the return to Ayodhyā/gi,'அயோத்திக்குத் திரும்புதல்'], [/the descent of Gaṅgā/gi,'கங்கை இறங்கிய கதை'],
+    [/The dance of Kālī/gi,'காளியின் நடனம்'], [/The Annapūrṇā episode/gi,'அன்னபூர்ணா நிகழ்வு'],
+    [/The traditional account of how the play came to exist/gi,'நாடகம் தோன்றிய மரபுக் கதை'],
+    [/Modern oral\/children's retellings; early textual locus unverified/gi,'நவீன வாய்மொழி / குழந்தைகள் மறுகதைகள்; பழைய நூல் ஆதாரம் உறுதிப்படுத்தப்படவில்லை'],
+    [/Not in Vālmīki\. Rāmcaritmānas and later folk tradition/gi,'வால்மீகியில் இல்லை; ராமசரிதமானஸ் மற்றும் பிற்கால மக்கள் மரபு'],
+    [/also /gi,'மேலும் '], [/parallel dialogue at/gi,'இணையான உரையாடல் '], [/sandals/gi,'பாதுகைகள்'],
+    [/birth notice/gi,'பிறப்புக் குறிப்பு'], [/visit/gi,'வருகை'], [/at Maghar/gi,'மகஹரில்'], [/at Chittor/gi,'சித்தோரில்'],
+    [/of Junāgaḍh/gi,'ஜூனாகட்டின்'], [/in Nāmdev's household/gi,'நாமதேவரின் இல்லத்தில்'],
+    [/and of /gi,'மற்றும் '], [/The life of /gi,'வாழ்க்கைச் சரிதம்: '],
+    [/Araṇya Kāṇḍa/gi,'ஆரண்ய காண்டம்'], [/Ayodhyā Kāṇḍa/gi,'அயோத்தி காண்டம்'],
+    [/Bāla Kāṇḍa/gi,'பால காண்டம்'], [/Kiṣkindhā Kāṇḍa/gi,'கிஷ்கிந்தா காண்டம்'],
+    [/Sundara Kāṇḍa/gi,'சுந்தர காண்டம்'], [/Yuddha Kāṇḍa/gi,'யுத்த காண்டம்'], [/Uttara Kāṇḍa/gi,'உத்தர காண்டம்'],
+    [/Uttarakāṇḍa/gi,'உத்தர காண்டம்'], [/Araṇyakāṇḍa/gi,'ஆரண்ய காண்டம்'], [/Kiṣkindhākāṇḍa/gi,'கிஷ்கிந்தா காண்டம்'],
+    [/Ādi Parva/gi,'ஆதி பர்வம்'], [/Vana Parva/gi,'வன பர்வம்'], [/Droṇa Parva/gi,'துரோண பர்வம்'],
+    [/Udyoga Parva/gi,'உத்யோக பர்வம்'], [/Mahāprasthānika Parva/gi,'மகாபிரஸ்தானிக பர்வம்'],
+    [/Nalopākhyāna Parva/gi,'நளோபாக்கியான பர்வம்'], [/Pativratā-māhātmya Parva/gi,'பதிவிரதா மாஹாத்மிய பர்வம்'],
+    [/Rudra Saṃhitā/gi,'ருத்ர சம்ஹிதை'], [/Vidyeśvara Saṃhitā/gi,'வித்யேஸ்வர சம்ஹிதை'],
+    [/Upāsanā Khaṇḍa/gi,'உபாசனா காண்டம்'], [/Pārvatī Khaṇḍa/gi,'பார்வதி காண்டம்'],
+    [/Skandha/gi,'ஸ்கந்தம்'], [/sarga/gi,'சர்க்கம்']
+  ]
+};
+
+export function localizedSourceLocus(locus:string, locale:AppLocale):string {
+  if (locale === 'en') return locus;
+  let out=locus;
+  for (const [pattern,replacement] of LOCUS_REPLACEMENTS[locale]) out=out.replace(pattern,replacement);
+  // A source locator sometimes consists almost entirely of a proper name or
+  // English editorial description. Do not create a mixed-script UI line. The
+  // exact canonical locus is still preserved in the source disclosure.
+  return /[A-Za-z]/.test(out) ? '' : out;
+}
+
+function plainKey(value:string):string {
+  return value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+}
+
+const PAN_NATIVE: Record<string,{hi:string;ta:string}> = {
+  chaitra:{hi:'चैत्र',ta:'சைத்ரம்'}, vaisakha:{hi:'वैशाख',ta:'வைசாகம்'}, jyestha:{hi:'ज्येष्ठ',ta:'ஜ்யேஷ்டம்'},
+  asadha:{hi:'आषाढ़',ta:'ஆஷாடம்'}, sravana:{hi:'श्रावण',ta:'ஸ்ராவணம்'}, bhadrapada:{hi:'भाद्रपद',ta:'பாத்ரபதம்'},
+  asvina:{hi:'आश्विन',ta:'ஆஸ்வினம்'}, kartika:{hi:'कार्तिक',ta:'கார்த்திகம்'}, margasirsa:{hi:'मार्गशीर्ष',ta:'மார்கசீர்ஷம்'},
+  pausa:{hi:'पौष',ta:'பௌஷம்'}, magha:{hi:'माघ',ta:'மாகம்'}, phalguna:{hi:'फाल्गुन',ta:'பால்குணம்'},
+  shukla:{hi:'शुक्ल',ta:'சுக்ல'}, krishna:{hi:'कृष्ण',ta:'கிருஷ்ண'},
+  pratipada:{hi:'प्रतिपदा',ta:'பிரதமை'}, dvitiya:{hi:'द्वितीया',ta:'துவிதியை'}, tritiya:{hi:'तृतीया',ta:'திருதியை'},
+  chaturthi:{hi:'चतुर्थी',ta:'சதுர்த்தி'}, panchami:{hi:'पञ्चमी',ta:'பஞ்சமி'}, shashthi:{hi:'षष्ठी',ta:'ஷஷ்டி'},
+  saptami:{hi:'सप्तमी',ta:'சப்தமி'}, ashtami:{hi:'अष्टमी',ta:'அஷ்டமி'}, navami:{hi:'नवमी',ta:'நவமி'},
+  dashami:{hi:'दशमी',ta:'தசமி'}, ekadashi:{hi:'एकादशी',ta:'ஏகாதசி'}, dvadashi:{hi:'द्वादशी',ta:'துவாதசி'},
+  trayodashi:{hi:'त्रयोदशी',ta:'திரயோதசி'}, chaturdashi:{hi:'चतुर्दशी',ta:'சதுர்த்தசி'}, purnima:{hi:'पूर्णिमा',ta:'பௌர்ணமி'},
+  amavasya:{hi:'अमावस्या',ta:'அமாவாசை'},
+  chithirai:{hi:'चित्तिरै',ta:'சித்திரை'}, vaikasi:{hi:'वैकासि',ta:'வைகாசி'}, ani:{hi:'आनि',ta:'ஆனி'},
+  aadi:{hi:'आडि',ta:'ஆடி'}, avani:{hi:'आवणि',ta:'ஆவணி'}, purattasi:{hi:'पुरट्टासि',ta:'புரட்டாசி'},
+  aippasi:{hi:'ऐप्पसि',ta:'ஐப்பசி'}, karthigai:{hi:'कार्त्तिगै',ta:'கார்த்திகை'}, margazhi:{hi:'मार्गऴि',ta:'மார்கழி'},
+  thai:{hi:'तै',ta:'தை'}, maasi:{hi:'मासि',ta:'மாசி'}, panguni:{hi:'पङ्गुनि',ta:'பங்குனி'}
+};
+
+function nativePan(value:string, locale:Exclude<AppLocale,'en'>):string {
+  return native(locale, PAN_NATIVE[plainKey(value)], value);
+}
+
+export function localizedPanchanga(
+  pan:{ masa:string; paksha:string; tithi:string; tamil?:string; tamilDay?:number },
+  locale:AppLocale
+):string {
+  if (locale === 'en') {
+    const t=pan.tithi.split('-')[1] ?? pan.tithi;
+    return `${pan.masa} · ${pan.paksha} pakṣa · ${t}${pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay ?? ''}`.trimEnd() : ''}`;
+  }
+  const target=locale as Exclude<AppLocale,'en'>;
+  const t=pan.tithi.split('-')[1] ?? pan.tithi;
+  const pakshaWord=target==='hi-IN'?'पक्ष':'பக்ஷம்';
+  const primary=`${nativePan(pan.masa,target)} · ${nativePan(pan.paksha,target)} ${pakshaWord} · ${nativePan(t,target)}`;
+  return pan.tamil ? `${primary} · ${nativePan(pan.tamil,target)} ${pan.tamilDay ?? ''}`.trimEnd() : primary;
+}
+
+export function localizedCount(count:number, locale:AppLocale):string {
+  if (locale==='hi-IN') return `${count} उपलब्ध कहानियाँ`;
+  if (locale==='ta-IN') return `${count} கதைகள் இங்கே உள்ளன`;
+  return `${count} stories available`;
 }

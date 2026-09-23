@@ -23,3 +23,9 @@ html[lang="ta"] .locale-shelf-head h1,html[lang="ta"] .locale-shelf-head p,html[
 .locale-tonight span{display:block;margin-top:5px;font-size:12.5px;line-height:1.6;color:var(--paper-dim,#c9baa4)}
 html[lang="hi"] .locale-tonight b,html[lang="hi"] .locale-tonight span{font-family:"Noto Serif Devanagari",Georgia,serif}
 html[lang="ta"] .locale-tonight b,html[lang="ta"] .locale-tonight span{font-family:"Noto Serif Tamil",Georgia,serif}
+
+
+/* Native source display keeps the precise canonical Roman citation one tap away. */
+.canonical-source{margin:8px 0 0;color:var(--muted)}
+.canonical-source summary{cursor:pointer;font-family:var(--ui);font-size:11px;color:var(--lamp-dim)}
+.canonical-source p{margin:6px 0 0!important;font-family:var(--ui)!important;font-size:11px!important;line-height:1.5!important;color:var(--muted)!important}

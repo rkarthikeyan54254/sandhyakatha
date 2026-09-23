@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import type { Lexicon, Story, Card } from '../lib/types';
 import type { Pick } from '../lib/picker';
 import { displayTerm } from '../lib/lexicon';
-import { localeUi, type AppLocale, type ReaderUi } from '../lib/app-locale';
+import { localeUi, localizedSourceWork, localizedSourceLocus, type AppLocale, type ReaderUi } from '../lib/app-locale';
 
 type Said = { term: string; rect: DOMRect } | null;
 
@@ -92,7 +92,7 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
       <article className="story" lang={ui.language}>
         <h1>{story.title}</h1>
         <div className="attrib">
-          <p className="s"><b>{story.source.work}</b> — {story.source.locus}</p>
+          <p className="s" title={`${story.source.work} — ${story.source.locus}`}><b>{localizedSourceWork(story.source.work, locale)}</b>{localizedSourceLocus(story.source.locus, locale) ? <> — {localizedSourceLocus(story.source.locus, locale)}</> : null}</p>
           {story.source.traditionNote && <p className="trad"><b>{copy.traditionNote}</b> {line(story.source.traditionNote)}</p>}
           {story.audience.careNote && <p className="care"><b>{copy.beforeBegin}</b> {line(story.audience.careNote)}</p>}
           {readBefore && <p className="again"><b>{copy.readBefore}</b></p>}

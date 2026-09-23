@@ -186,17 +186,40 @@ export default function App() {
       window.scrollTo({ top: 0 });
   }, []);
 
-  const chooseLocale = useCallback((next: AppLocale) => {
-    setAppLocale(next);
-    setOpen(null);
-    setTab('tonight');
-    setFrom('tonight');
-    setLen(next === 'en' ? 'full' : 'short');
+  const chooseLocale = useCallback(async (next: AppLocale) => {
+    if (next === appLocale) return;
+    const currentStory = open;
     persistAppLocale(next);
-    pushTabPath('tonight');
+    setAppLocale(next);
+    setLen(next === 'en' ? 'full' : 'short');
+
+    // Language is an edition of the current product state, not a route back to
+    // Tonight. On a story, switch the same canonical story in place whenever a
+    // public reviewed sibling exists. On Shelf/Map/Why, keep the same section.
+    if (currentStory) {
+      try {
+        const card = cards.find(c => c.id === currentStory.id);
+        const localized = localeStoryMeta(localeCatalog, next, currentStory.id);
+        if (next !== 'en' && !localized) {
+          // Gated locale editions deliberately have no public runtime route.
+          setOpen(null);
+        } else {
+          const storyUrl = next === 'en'
+            ? (card?.storyRevision
+                ? `/data/s/${currentStory.id}.json?v=${card.storyRevision}`
+                : `/data/s/${currentStory.id}.json`)
+            : `/data/l/${localeLanguage(next)}/${currentStory.id}.json?v=${localized?.storyRevision ?? ''}`;
+          const story: Story = await (await fetch(storyUrl)).json();
+          setOpen(story);
+        }
+      } catch {
+        setOpen(null);
+      }
+    }
+
     if (typeof window !== 'undefined' && typeof window.scrollTo === 'function')
       window.scrollTo({ top: 0 });
-  }, []);
+  }, [appLocale, open, cards, localeCatalog]);
 
   useEffect(() => {
     if (typeof document !== 'undefined')
@@ -255,7 +278,7 @@ export default function App() {
     });
   }, [localeCards, cal, observanceCatalog, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate, appLocale]);
 
-  const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
+  const availableIds = useMemo(() => new Set(localeCards.map(c => c.id)), [localeCards]);
 
   async function read(id: string) {
     setFrom(tab);
@@ -371,10 +394,26 @@ export default function App() {
 
   const nextCard = open?.linked ? localeCards.find(c => c.id === open.linked!.next) ?? null : null;
 
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+    const ui = localeUi(appLocale);
+    const section = open?.title ?? (
+      tab === 'tonight' ? ui.tonightTab :
+      tab === 'shelf' ? ui.shelfTab :
+      tab === 'map' ? ui.mapTab : ui.whyTab
+    );
+    document.title = `${section} · Sandhya Katha`;
+  }, [appLocale, tab, open?.title]);
+
+
   return (
     <div className="app" data-locale={appLocale}>
-      <a className="skip" href="#main">Skip to tonight's story</a>
-      <Header onHome={() => go('tonight')} onWhy={() => go('why')} />
+      <a className="skip" href="#main">{appLocale === 'hi-IN'
+        ? 'मुख्य सामग्री पर जाएँ'
+        : appLocale === 'ta-IN'
+          ? 'முக்கிய உள்ளடக்கத்திற்குச் செல்லுங்கள்'
+          : "Skip to tonight's story"}</a>
+      <Header onHome={() => go('tonight')} onWhy={() => go('why')} locale={appLocale} />
       <LanguageBar locale={appLocale} onLocale={chooseLocale} />
       <main id="main" key={open ? open.id : tab}>
         {open ? (
@@ -384,7 +423,13 @@ export default function App() {
                   hasProfile={!!child}
                   onBack={() => go(from)} onHeard={markHeard} onRead={read}
                   onPersonalize={age => startProfileAfterRead(open.id, age)}
-                  backLabel={appLocale === 'en' ? (from === 'shelf' ? 'The shelf' : from === 'map' ? 'The constellation' : 'Tonight') : localeUi(appLocale).tonightTab} />
+                  backLabel={from === 'shelf'
+                    ? localeUi(appLocale).shelfTab
+                    : from === 'map'
+                      ? localeUi(appLocale).mapTab
+                      : from === 'why'
+                        ? localeUi(appLocale).whyTab
+                        : localeUi(appLocale).tonightTab} />
         ) : tab === 'tonight' ? (
           <Tonight pick={pick} pan={pan} len={len} setLen={setLen} onRead={read}
                    profile={profile} child={child} heard={heard} cards={localeCards}
@@ -398,10 +443,10 @@ export default function App() {
                    onMap={() => go('map')}
                    onWhy={() => go('why')} locale={appLocale} observances={todayObservances} />
         ) : tab === 'shelf' ? (
-          <Shelf canon={canon} publishedIds={publishedIds} gate={profile.gate} onRead={read} />
+          <Shelf canon={canon} cards={localeCards} availableIds={availableIds} gate={profile.gate} locale={appLocale} onRead={read} />
         ) : tab === 'map' ? (
-          <Constellation lex={lex} rel={rel} heard={heard} cards={cards} childName={child?.name ?? ''} onTonight={() => go('tonight')} />
-        ) : <Why />}
+          <Constellation lex={lex} rel={rel} heard={heard} cards={localeCards} childName={child?.name ?? ''} onTonight={() => go('tonight')} locale={appLocale} />
+        ) : <Why locale={appLocale} />}
       </main>
       <Tabs tab={open ? from : tab} onTab={go} locale={appLocale} />
     </div>

@@ -1,8 +1,14 @@
-import { localeShelfPath, localeUi, type AppLocale } from '../lib/app-locale';
+import { localeUi, type AppLocale } from '../lib/app-locale';
 
 export type Tab = 'tonight' | 'shelf' | 'map' | 'why';
 
-export function Header({ onHome, onWhy }: { onHome: () => void; onWhy: () => void }) {
+export function Header({ onHome, onWhy, locale = 'en' }: { onHome: () => void; onWhy: () => void; locale?: AppLocale }) {
+  const subtitle = locale === 'hi-IN'
+    ? 'रामायण · महाभारत · पुराण · उपनिषद'
+    : locale === 'ta-IN'
+      ? 'இராமாயணம் · மகாபாரதம் · புராணங்கள் · உபநிடதங்கள்'
+      : 'Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads';
+  const whyLabel = locale === 'hi-IN' ? 'यह क्यों है' : locale === 'ta-IN' ? 'இது ஏன்' : 'Why this exists';
   return (
     <header className="bar">
       {/* Everyone tries the wordmark. It should go home. */}
@@ -17,11 +23,11 @@ export function Header({ onHome, onWhy }: { onHome: () => void; onWhy: () => voi
         </svg>
         <span className="wordmark">
           <b>Sandhya Katha</b>
-          <i>Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads</i>
+          <i>{subtitle}</i>
         </span>
       </button>
       <span className="spacer" />
-      <button className="iconbtn" onClick={onWhy} aria-label="Why this exists" title="Why this exists">
+      <button className="iconbtn" onClick={onWhy} aria-label={whyLabel} title={whyLabel}>
         <svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.6">
           <circle cx="10" cy="10" r="8" /><path d="M10 9v5M10 6.2v.1" strokeLinecap="round" />
         </svg>
@@ -52,29 +58,18 @@ export function Tabs({ tab, onTab, locale = 'en' }: {
   onTab: (t: Tab) => void;
   locale?: AppLocale;
 }) {
-  if (locale !== 'en') {
-    const ui = localeUi(locale);
-    return (
-      <nav className="tabs locale-tabs" aria-label="Main">
-        <button aria-current={tab === 'tonight'} onClick={() => onTab('tonight')}>
-          <span className="dot" />{ui.tonightTab}
-        </button>
-        <a href={localeShelfPath(locale)}>
-          <span className="dot" />{ui.shelfTab}
-        </a>
-        <button aria-current={tab === 'map'} onClick={() => onTab('map')}>
-          <span className="dot" />{ui.mapTab}
-        </button>
-        <button aria-current={tab === 'why'} onClick={() => onTab('why')}>
-          <span className="dot" />{ui.whyTab}
-        </button>
-      </nav>
-    );
-  }
-
+  const ui = localeUi(locale);
+  const labels: [Tab,string][] = locale === 'en'
+    ? TABS
+    : [
+        ['tonight', ui.tonightTab],
+        ['shelf', ui.shelfTab],
+        ['map', ui.mapTab],
+        ['why', ui.whyTab]
+      ];
   return (
-    <nav className="tabs" aria-label="Main">
-      {TABS.map(([k, label]) => (
+    <nav className={'tabs' + (locale !== 'en' ? ' locale-tabs' : '')} aria-label="Main">
+      {labels.map(([k,label]) => (
         <button key={k} aria-current={tab === k} onClick={() => onTab(k)}>
           <span className="dot" />{label}
         </button>
