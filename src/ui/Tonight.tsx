@@ -96,7 +96,10 @@ export default function Tonight(p: Props) {
         ? <>Six minutes with <em>{name}</em>?</>
         : <><em>Six minutes,</em> if you have them.</>}</h1>
       <p className="datestrip"><span className="g">{date}</span>
-        {!pan.approximate && <span className="p">{localizedPanchanga(pan, locale)}</span>}
+        {!pan.approximate && <span className="p">
+          {titleCase(pan.masa)} · {titleCase(pan.paksha)} pakṣa · {titleCase(pan.tithi.split('-')[1] ?? '')}
+          {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
+        </span>}
       </p>
       {p.observances.length > 0 ? (
         <p className="festival">{p.observances.slice(0, 4).map(o => o.names.en).join(' · ')}{p.observances.length > 4 ? ` · +${p.observances.length - 4}` : ''}</p>
@@ -155,7 +158,7 @@ export default function Tonight(p: Props) {
             </p>
           </div>
           <div className="body">
-            <div className="srcline">{localizedSourceWork(s.work, locale)}{localizedSourceLocus(s.locus, locale) ? ` · ${localizedSourceLocus(s.locus, locale)}` : ''}</div>
+            <div className="srcline">{s.work} · {s.locus}</div>
             <h2>{s.title}</h2>
             <p className="tease">{s.tease}</p>
             {s.hero && (
