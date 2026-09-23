@@ -33,7 +33,8 @@ const LANG = {
     moved:'इस हिन्दी संस्करण की समीक्षा पूरी हो चुकी है। यह पुराना समीक्षा लिंक है; कहानी अब अपने स्थायी सार्वजनिक पते पर उपलब्ध है।',
     movedCta:'समीक्षित हिन्दी कहानी पढ़ें',
     tonightCta:'आज रात की हिन्दी कहानी पढ़ें',
-    tonightNote:'हर रात इन्हीं समीक्षित हिन्दी कहानियों में से उम्र और दिन के अनुसार एक कहानी चुनी जाती है।'
+    tonightNote:'हर रात इन्हीं समीक्षित हिन्दी कहानियों में से उम्र और दिन के अनुसार एक कहानी चुनी जाती है।',
+    canonicalSourceLabel:'मूल स्रोत का मूल रूप'
   },
   'ta-IN': {
     language:'ta', label:'தமிழ்', name:'Tamil', ogLocale:'ta_IN',
@@ -53,9 +54,53 @@ const LANG = {
     moved:'இந்த தமிழ் பதிப்பின் மதிப்பாய்வு முடிந்துவிட்டது. இது பழைய மதிப்பாய்வு இணைப்பு; கதை இப்போது தனது நிரந்தர பொது முகவரியில் கிடைக்கிறது.',
     movedCta:'மதிப்பாய்வு செய்யப்பட்ட தமிழ் கதையை வாசிக்க',
     tonightCta:'இன்றிரவு தமிழ் கதையை வாசிக்க',
-    tonightNote:'ஒவ்வொரு இரவும் மதிப்பாய்வு செய்யப்பட்ட தமிழ் கதைகளில் இருந்து வயதுக்கும் நாளுக்கும் ஏற்ற ஒரு கதை தேர்ந்தெடுக்கப்படும்.'
+    tonightNote:'ஒவ்வொரு இரவும் மதிப்பாய்வு செய்யப்பட்ட தமிழ் கதைகளில் இருந்து வயதுக்கும் நாளுக்கும் ஏற்ற ஒரு கதை தேர்ந்தெடுக்கப்படும்.',
+    canonicalSourceLabel:'மூல ஆதாரத்தின் அசல் வடிவம்'
   }
 };
+
+const CORPUS_NATIVE = {
+  'hi-IN': {
+    ramayana:'रामायण','other-ramayana':'अन्य रामायण परंपराएँ',mahabharata:'महाभारत',
+    bhagavata:'भागवत','vishnu-purana':'विष्णु पुराण','shiva-purana':'शिव पुराण',
+    purana:'पुराण','other-purana':'अन्य पुराण',upanishad:'उपनिषद',nayanmar:'नायनमार',
+    alvar:'आळ्वार',sant:'उत्तर भारत के संत',panchatantra:'पञ्चतन्त्र',origin:'कथाएँ हम तक कैसे पहुँचीं',folk:'लोक परंपरा'
+  },
+  'ta-IN': {
+    ramayana:'இராமாயணம்','other-ramayana':'பிற இராமாயண மரபுகள்',mahabharata:'மகாபாரதம்',
+    bhagavata:'பாகவதம்','vishnu-purana':'விஷ்ணு புராணம்','shiva-purana':'சிவ புராணம்',
+    purana:'புராணங்கள்','other-purana':'பிற புராணங்கள்',upanishad:'உபநிடதங்கள்',nayanmar:'நாயன்மார்கள்',
+    alvar:'ஆழ்வார்கள்',sant:'வடஇந்திய பக்தர்கள்',panchatantra:'பஞ்சதந்திரம்',origin:'கதைகள் நம்மிடம் வந்த பாதை',folk:'மக்கள் மரபு'
+  }
+};
+
+function localizeLocus(locus, locale) {
+  if (locale === 'hi-IN') return String(locus)
+    .replace(/Critical Edition/gi,'आलोचनात्मक संस्करण').replace(/chapters?/gi,'अध्याय')
+    .replace(/sections?/gi,'खंड').replace(/verses?/gi,'श्लोक').replace(/Skandha/gi,'स्कन्ध')
+    .replace(/Araṇya Kāṇḍa/gi,'अरण्य काण्ड').replace(/Ayodhyā Kāṇḍa/gi,'अयोध्या काण्ड')
+    .replace(/Bāla Kāṇḍa/gi,'बाल काण्ड').replace(/Kiṣkindhā Kāṇḍa/gi,'किष्किन्धा काण्ड')
+    .replace(/Sundara Kāṇḍa/gi,'सुन्दर काण्ड').replace(/Yuddha Kāṇḍa/gi,'युद्ध काण्ड')
+    .replace(/Ādi Parva/gi,'आदि पर्व').replace(/Vana Parva/gi,'वन पर्व').replace(/Droṇa Parva/gi,'द्रोण पर्व')
+    .replace(/Udyoga Parva/gi,'उद्योग पर्व').replace(/Rudra Saṃhitā/gi,'रुद्र संहिता')
+    .replace(/Upāsanā Khaṇḍa/gi,'उपासना खण्ड').replace(/Pārvatī Khaṇḍa/gi,'पार्वती खण्ड')
+    .replace(/sarga/gi,'सर्ग');
+  return String(locus)
+    .replace(/Critical Edition/gi,'விமர்சனப் பதிப்பு').replace(/chapters?/gi,'அத்தியாயங்கள்')
+    .replace(/sections?/gi,'பகுதிகள்').replace(/verses?/gi,'சுலோகங்கள்').replace(/Skandha/gi,'ஸ்கந்தம்')
+    .replace(/Araṇya Kāṇḍa/gi,'ஆரண்ய காண்டம்').replace(/Ayodhyā Kāṇḍa/gi,'அயோத்தி காண்டம்')
+    .replace(/Bāla Kāṇḍa/gi,'பால காண்டம்').replace(/Kiṣkindhā Kāṇḍa/gi,'கிஷ்கிந்தா காண்டம்')
+    .replace(/Sundara Kāṇḍa/gi,'சுந்தர காண்டம்').replace(/Yuddha Kāṇḍa/gi,'யுத்த காண்டம்')
+    .replace(/Ādi Parva/gi,'ஆதி பர்வம்').replace(/Vana Parva/gi,'வன பர்வம்').replace(/Droṇa Parva/gi,'துரோண பர்வம்')
+    .replace(/Udyoga Parva/gi,'உத்யோக பர்வம்').replace(/Rudra Saṃhitā/gi,'ருத்ர சம்ஹிதை')
+    .replace(/Upāsanā Khaṇḍa/gi,'உபாசனா காண்டம்').replace(/Pārvatī Khaṇḍa/gi,'பார்வதி காண்டம்')
+    .replace(/sarga/gi,'சர்க்கம்');
+}
+
+function nativeSourceLine(source, locale) {
+  const corpus = CORPUS_NATIVE[locale]?.[source.source.corpus] ?? source.source.work;
+  return `${corpus} · ${localizeLocus(source.source.locus, locale)}`;
+}
 
 if (cfg.schemaVersion !== '1.0')
   throw new Error('content/locale-public.json: schemaVersion must remain 1.0');
@@ -128,7 +173,8 @@ function switcher(storyId,current) {
     const p=LANG[row.locale];
     items.push(`<a href="${esc(publicLocaleHref(storyId,row.locale))}"${current===row.locale?' aria-current="page"':''}>${esc(p.label)}</a>`);
   }
-  return `<nav class="locale-public-switch" data-locale-switch aria-label="Story language"><span class="langlabel">Language</span>${items.join('')}</nav>`;
+  const langLabel=current==='hi-IN'?'कहानी की भाषा':current==='ta-IN'?'கதையின் மொழி':'Story language';
+  return `<nav class="locale-public-switch" data-locale-switch aria-label="${esc(langLabel)}"><span class="langlabel">${esc(langLabel)}</span>${items.join('')}</nav>`;
 }
 function heroFor(source) {
   return approvedHeroUrl({root:ROOT,story:source,media});
@@ -150,7 +196,7 @@ function publicPage(doc,source) {
     text:`${doc.title} — Sandhya Katha ${policy.name} edition`,
     url:shareUrl
   }).replace(/'/g,'&#39;');
-  return `<!doctype html><html lang="${policy.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(doc.title)} — ${esc(policy.label)} | Sandhya Katha</title><meta name="description" content="${esc(doc.tease)}"><link rel="canonical" href="${esc(absolute)}">${alternates(source.id)}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(doc.title)} · ${esc(policy.label)}"><meta property="og:description" content="${esc(doc.tease)}"><meta property="og:url" content="${esc(absolute)}"><meta property="og:locale" content="${esc(policy.ogLocale)}"><meta property="og:image" content="${esc(og)}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${esc(og)}"><meta name="theme-color" content="#14101c"><script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script><script src="/gtag-init.js"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/design-tokens.css"><link rel="stylesheet" href="/story-media.css"><link rel="stylesheet" href="/story-system.css"><link rel="stylesheet" href="/locale-edition-v2.css"><script src="/share.js" defer></script></head><body class="sk-story-page" data-story-id="${esc(source.id)}" data-history-story-id="${esc(source.id)}" data-story-version="${source.version}" data-locale="${esc(doc.locale)}"><div class="w"><header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>${switcher(source.id,doc.locale)}<article class="story-article locale" lang="${policy.language}"><h1 class="story-title">${esc(doc.title)}</h1><p class="tease">${render(doc.tease,doc)}</p><div class="public-edition-note" data-reviewed-locale-edition="1"><b>${esc(policy.reviewedHeading)}</b><p>${esc(policy.reviewedBody)}</p></div><div class="attrib"><p><b>${esc(source.source.work)}</b> — ${esc(source.source.locus)}</p><p><b>${esc(policy.traditionLabel)}</b> ${render(doc.traditionNote,doc)}</p><p><b>${esc(policy.beforeLabel)}</b> ${render(doc.parentNote,doc)}</p></div><div class="meta"><span>${duration} ${esc(policy.minutes)}</span><span>${esc(policy.age)} ${source.audience.minAge}+</span>${sensitivity?`<span>${esc(sensitivity)}</span>`:''}<span>canonical story v${source.version}</span></div>${hero?`<figure class="storyart"><div class="storyart-frame"><img src="${esc(hero)}" alt="${esc(source.title)}" loading="eager" decoding="async"></div><figcaption>Reviewed illustration · canonical story v${source.version}</figcaption></figure>`:''}<div class="prose">${blocks(doc,policy)}</div><section class="turn" data-close-question-source="${esc(encodeURIComponent(doc.close.question))}"><span class="eyebrow">${esc(policy.questionLabel)}</span><p>${render(doc.close.question,doc)}</p><p class="seed">${esc(policy.seedPrefix)} <b>${render(doc.close.seed,doc)}</b></p></section>${asks(doc,policy)}<section class="sharewrap"><p>${esc(policy.shareNote)}</p><button type="button" class="sharebtn" data-share='${sharePayload}'>${esc(policy.shareButton)}</button></section><div class="cta"><p>${esc(policy.tonightNote)}</p><a href="/?lang=${policy.language}">${esc(policy.tonightCta)}</a></div><footer class="story-footer"><a href="/s/${esc(source.id)}/">English source edition</a> · <a href="/${policy.language}/">${esc(policy.label)}</a></footer></article></div></body></html>`;
+  return `<!doctype html><html lang="${policy.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(doc.title)} — ${esc(policy.label)} | Sandhya Katha</title><meta name="description" content="${esc(doc.tease)}"><link rel="canonical" href="${esc(absolute)}">${alternates(source.id)}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(doc.title)} · ${esc(policy.label)}"><meta property="og:description" content="${esc(doc.tease)}"><meta property="og:url" content="${esc(absolute)}"><meta property="og:locale" content="${esc(policy.ogLocale)}"><meta property="og:image" content="${esc(og)}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${esc(og)}"><meta name="theme-color" content="#14101c"><script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script><script src="/gtag-init.js"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/design-tokens.css"><link rel="stylesheet" href="/story-media.css"><link rel="stylesheet" href="/story-system.css"><link rel="stylesheet" href="/locale-edition-v2.css"><script src="/share.js" defer></script></head><body class="sk-story-page" data-story-id="${esc(source.id)}" data-history-story-id="${esc(source.id)}" data-story-version="${source.version}" data-locale="${esc(doc.locale)}"><div class="w"><header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>${switcher(source.id,doc.locale)}<article class="story-article locale" lang="${policy.language}"><h1 class="story-title">${esc(doc.title)}</h1><p class="tease">${render(doc.tease,doc)}</p><div class="public-edition-note" data-reviewed-locale-edition="1"><b>${esc(policy.reviewedHeading)}</b><p>${esc(policy.reviewedBody)}</p></div><div class="attrib"><p><b>${esc(nativeSourceLine(source,doc.locale))}</b></p><details class="canonical-source"><summary>${esc(policy.canonicalSourceLabel)}</summary><p lang="en">${esc(source.source.work)} — ${esc(source.source.locus)}</p></details><p><b>${esc(policy.traditionLabel)}</b> ${render(doc.traditionNote,doc)}</p><p><b>${esc(policy.beforeLabel)}</b> ${render(doc.parentNote,doc)}</p></div><div class="meta"><span>${duration} ${esc(policy.minutes)}</span><span>${esc(policy.age)} ${source.audience.minAge}+</span>${sensitivity?`<span>${esc(sensitivity)}</span>`:''}<span>canonical story v${source.version}</span></div>${hero?`<figure class="storyart"><div class="storyart-frame"><img src="${esc(hero)}" alt="${esc(source.title)}" loading="eager" decoding="async"></div><figcaption>Reviewed illustration · canonical story v${source.version}</figcaption></figure>`:''}<div class="prose">${blocks(doc,policy)}</div><section class="turn" data-close-question-source="${esc(encodeURIComponent(doc.close.question))}"><span class="eyebrow">${esc(policy.questionLabel)}</span><p>${render(doc.close.question,doc)}</p><p class="seed">${esc(policy.seedPrefix)} <b>${render(doc.close.seed,doc)}</b></p></section>${asks(doc,policy)}<section class="sharewrap"><p>${esc(policy.shareNote)}</p><button type="button" class="sharebtn" data-share='${sharePayload}'>${esc(policy.shareButton)}</button></section><div class="cta"><p>${esc(policy.tonightNote)}</p><a href="/?lang=${policy.language}">${esc(policy.tonightCta)}</a></div><footer class="story-footer"><a href="/s/${esc(source.id)}/">English source edition</a> · <a href="/${policy.language}/">${esc(policy.label)}</a></footer></article></div></body></html>`;
 }
 function movedPreview(doc,source) {
   const p=LANG[doc.locale];
@@ -220,7 +266,7 @@ for (const landing of landings) {
   const rows=shelfRows.get(landing.locale) ?? [];
   const dir=join(DIST,p.language);
   mkdirSync(dir,{recursive:true});
-  writeFileSync(join(dir,'index.html'),`<!doctype html><html lang="${p.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(p.label)} · Sandhya Katha</title><meta name="description" content="${esc(p.shelfIntro)}"><link rel="canonical" href="${SITE}${landing.path}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(p.label)} · Sandhya Katha"><meta property="og:description" content="${esc(p.shelfIntro)}"><meta property="og:url" content="${SITE}${landing.path}"><meta name="theme-color" content="#14101c"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/locale-preview.css"><link rel="stylesheet" href="/locale-edition-v2.css"></head><body><div class="w"><header class="sitehead"><a class="brand" href="/"><span><b>Sandhya Katha</b><small>Source-linked family stories</small></span></a><a class="englishlink" href="/shelf/">The shelf</a></header><section class="locale-shelf-head"><span class="eyebrow">${esc(p.label)} · ${rows.length} reviewed</span><h1>${esc(p.shelfHeading)}</h1><p>${esc(p.shelfIntro)}</p></section><a class="locale-tonight" href="/?lang=${p.language}"><b>${esc(p.tonightCta)}</b><span>${esc(p.tonightNote)}</span></a>${rows.join('\n')}<a class="locale-back" href="/shelf/">${esc(p.back)}</a></div></body></html>`);
+  writeFileSync(join(dir,'index.html'),`<!doctype html><html lang="${p.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(p.label)} · Sandhya Katha</title><script>location.replace('/shelf/?lang=${p.language}')</script><meta name="description" content="${esc(p.shelfIntro)}"><link rel="canonical" href="${SITE}${landing.path}"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(p.label)} · Sandhya Katha"><meta property="og:description" content="${esc(p.shelfIntro)}"><meta property="og:url" content="${SITE}${landing.path}"><meta name="theme-color" content="#14101c"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/locale-preview.css"><link rel="stylesheet" href="/locale-edition-v2.css"></head><body><div class="w"><header class="sitehead"><a class="brand" href="/"><span><b>Sandhya Katha</b><small>Source-linked family stories</small></span></a><a class="englishlink" href="/shelf/">The shelf</a></header><section class="locale-shelf-head"><span class="eyebrow">${esc(p.label)} · ${rows.length} reviewed</span><h1>${esc(p.shelfHeading)}</h1><p>${esc(p.shelfIntro)}</p></section><a class="locale-tonight" href="/?lang=${p.language}"><b>${esc(p.tonightCta)}</b><span>${esc(p.tonightNote)}</span></a>${rows.join('\n')}<a class="locale-back" href="/shelf/">${esc(p.back)}</a></div></body></html>`);
 }
 
 addSitemapUrls(sitemapUrls);
