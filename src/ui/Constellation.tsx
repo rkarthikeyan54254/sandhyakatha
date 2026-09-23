@@ -309,7 +309,7 @@ export default function Constellation({ lex,rel,heard,cards,childName,onTonight,
       <button className="begin" onClick={onTonight}>{copy.tonight}</button>
     </section>}
 
-    <div className="sky"><svg viewBox="0 0 700 530" role="img" aria-label={`${storiesHeard} ${copy.stats[0]}, ${met.size} ${copy.stats[1]}, ${discoveries.length} ${copy.stats[2]}`}>
+    <div className="sky"><svg className="constellation-svg" viewBox="0 0 700 530" preserveAspectRatio="xMidYMid meet" role="img" aria-label={`${storiesHeard} ${copy.stats[0]}, ${met.size} ${copy.stats[1]}, ${discoveries.length} ${copy.stats[2]}`}>
       {rel.edges.map(([a,b,label],i)=>{const A=pos.get(a),B=pos.get(b);if(!A||!B)return null;const lit=met.has(a)&&met.has(b),cross=A.cluster!==B.cluster;
         return <line key={i} x1={A.x} y1={A.y} x2={B.x} y2={B.y} stroke={lit?'#f0b458':cross?'#4a3d63':'#2e2743'} strokeWidth={lit?1.4:.9} strokeDasharray={label&&cross?'4 3':undefined}/>;})}
       {Object.entries(rel.clusters).map(([cluster,terms])=>{const points=terms.map(t=>pos.get(t)!).filter(Boolean);if(!points.length)return null;const mx=points.reduce((s,q)=>s+q.x,0)/points.length,my=Math.min(...points.map(q=>q.y));
