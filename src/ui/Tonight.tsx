@@ -8,7 +8,7 @@ import * as P from '../lib/profile';
 import type { Account as Acct } from '../lib/sync';
 import AccountPanel from './Account';
 import { Intro } from './Chrome';
-import { localeShelfPath, localeUi, type AppLocale } from '../lib/app-locale';
+import { localeUi, localizedSourceWork, localizedSourceLocus, localizedPanchanga, localizedCount, type AppLocale } from '../lib/app-locale';
 
 export type Len = 'short' | 'full' | 'more';
 
@@ -87,7 +87,7 @@ export default function Tonight(p: Props) {
     .filter(x => x.count >= 2);
 
   if (p.locale !== 'en') {
-    return <LocaleTonight locale={p.locale} pick={pick} cards={cards} pan={pan} onRead={onRead} observances={p.observances} />;
+    return <LocaleTonight locale={p.locale} pick={pick} cards={cards} pan={pan} onRead={onRead} onShelf={p.onShelf} observances={p.observances} />;
   }
 
   return (
@@ -96,10 +96,7 @@ export default function Tonight(p: Props) {
         ? <>Six minutes with <em>{name}</em>?</>
         : <><em>Six minutes,</em> if you have them.</>}</h1>
       <p className="datestrip"><span className="g">{date}</span>
-        {!pan.approximate && <span className="p">
-          {titleCase(pan.masa)} · {titleCase(pan.paksha)} pakṣa · {titleCase(pan.tithi.split('-')[1] ?? '')}
-          {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
-        </span>}
+        {!pan.approximate && <span className="p">{localizedPanchanga(pan, locale)}</span>}
       </p>
       {p.observances.length > 0 ? (
         <p className="festival">{p.observances.slice(0, 4).map(o => o.names.en).join(' · ')}{p.observances.length > 4 ? ` · +${p.observances.length - 4}` : ''}</p>
@@ -158,7 +155,7 @@ export default function Tonight(p: Props) {
             </p>
           </div>
           <div className="body">
-            <div className="srcline">{s.work} · {s.locus}</div>
+            <div className="srcline">{localizedSourceWork(s.work, locale)} · {localizedSourceLocus(s.locus, locale)}</div>
             <h2>{s.title}</h2>
             <p className="tease">{s.tease}</p>
             {s.hero && (
@@ -308,6 +305,7 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
   cards: Card[];
   pan: Panchanga;
   onRead: (id: string) => void;
+  onShelf: () => void;
   observances: RuntimeObservance[];
 }) {
   const ui = localeUi(locale);
@@ -325,10 +323,8 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
           {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
         </span>}
       </p>
-      {observances.some(o => observanceLabel(o, locale)) ? (
+      {observances.some(o => observanceLabel(o, locale)) && (
         <p className="festival">{observances.map(o => observanceLabel(o, locale)).filter(Boolean).slice(0, 4).join(' · ')}</p>
-      ) : pan.festivals.length > 0 && (
-        <p className="festival">{pan.festivals.map(f => titleCase(f)).join(' · ')}</p>
       )}
 
       {!s && <p className="sub locale-copy">{ui.loading}</p>}
@@ -367,10 +363,10 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
         </section>
       )}
 
-      <a className="locale-home-shelf locale-copy" lang={ui.language} href={localeShelfPath(locale)}>
+      <button className="locale-home-shelf locale-copy" lang={ui.language} onClick={onShelf}>
         <b>{ui.allStories}</b>
-        <span>{cards.length} reviewed · Sandhya Katha →</span>
-      </a>
+        <span>{localizedCount(cards.length, locale)} →</span>
+      </button>
 
       {pick && pick.alternates.length > 0 && <>
         <div className="hair"><span className="eyebrow locale-copy">{ui.ifNot}</span></div>
@@ -380,7 +376,7 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
               <span className="num">{String(i + 2).padStart(2, '0')}</span>
               <span className="t">
                 <h3>{a.title}</h3>
-                <p>{a.work} · {a.locus}</p>
+                <p>{localizedSourceWork(a.work, locale)} · {localizedSourceLocus(a.locus, locale)}</p>
                 <p>{a.tease}</p>
               </span>
             </button>
