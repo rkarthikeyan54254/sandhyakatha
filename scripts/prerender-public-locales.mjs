@@ -99,7 +99,10 @@ function localizeLocus(locus, locale) {
 
 function nativeSourceLine(source, locale) {
   const corpus = CORPUS_NATIVE[locale]?.[source.source.corpus] ?? source.source.work;
-  return `${corpus} · ${localizeLocus(source.source.locus, locale)}`;
+  const locus = localizeLocus(source.source.locus, locale);
+  // Keep public native chrome script-pure. The exact canonical work/locus is
+  // immediately below in the explicit source disclosure.
+  return /[A-Za-z]/.test(locus) ? corpus : `${corpus} · ${locus}`;
 }
 
 if (cfg.schemaVersion !== '1.0')
