@@ -155,7 +155,7 @@ export default function Tonight(p: Props) {
             </p>
           </div>
           <div className="body">
-            <div className="srcline">{localizedSourceWork(s.work, locale)} · {localizedSourceLocus(s.locus, locale)}</div>
+            <div className="srcline">{localizedSourceWork(s.work, locale)}{localizedSourceLocus(s.locus, locale) ? ` · ${localizedSourceLocus(s.locus, locale)}` : ''}</div>
             <h2>{s.title}</h2>
             <p className="tease">{s.tease}</p>
             {s.hero && (
@@ -373,7 +373,7 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, onShelf, observances 
               <span className="num">{String(i + 2).padStart(2, '0')}</span>
               <span className="t">
                 <h3>{a.title}</h3>
-                <p>{localizedSourceWork(a.work, locale)} · {localizedSourceLocus(a.locus, locale)}</p>
+                <p>{localizedSourceWork(a.work, locale)}{localizedSourceLocus(a.locus, locale) ? ` · ${localizedSourceLocus(a.locus, locale)}` : ''}</p>
                 <p>{a.tease}</p>
               </span>
             </button>
