@@ -1835,6 +1835,36 @@
           }
         ]
       }
+    },
+    "panar-shoulders": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 17,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 24,
+            "mode": "firstSentence"
+          }
+        ]
+      }
     }
   }
 }
