@@ -18,6 +18,11 @@ type ShelfCopy = {
   source:string;
   telling:string;
   show:string;
+  ageFilter:string;
+  ageAny:string;
+  ageChoice:(age:number)=>string;
+  careFilter:string;
+  careAny:string;
   all:string;
   everything:string;
   written:string;
@@ -40,7 +45,9 @@ const COPY: Record<AppLocale,ShelfCopy> = {
     intro:'Every written story is checked against a named source before publication. Nothing is generated while you wait — which is why the same story comes back word for word.',
     note:'Browse one collection in three languages. Changing language changes the edition, not the story.',
     reviewed:(r,a)=>`${r} reviewed · ${a} available here`,
-    source:'Where it comes from',telling:'Which telling',show:'Show only',all:'All',
+    source:'Where it comes from',telling:'Which telling',show:'Show only',
+    ageFilter:'For age',ageAny:'Any age',ageChoice:n=>`Age ${n}`,
+    careFilter:'Care notes',careAny:'Any',all:'All',
     everything:'Everything',written:'Written',regional:'Regional or variant',flagged:'Flagged for care',
     count:(w,p,s,t,h)=>`${w} written · ${p} still being written · ${s} of ${t} shown${h?' · the difficult ones are hidden':''}`,
     planned:'Being written',available:'Written',age:'ages',difficultHidden:'the difficult ones are hidden',
@@ -61,7 +68,9 @@ const COPY: Record<AppLocale,ShelfCopy> = {
     intro:'रामायण, महाभारत, पुराण, उपनिषद और भक्ति परंपराओं की कहानियाँ—हर हिन्दी संस्करण को मूल कहानी से मिलाकर, भाषा-संपादन और पढ़कर सुनाने की समीक्षा के बाद ही यहाँ रखा जाता है।',
     note:'यह एक ही संग्रह है, तीन भाषाओं में। भाषा बदलती है; कहानी की पहचान और स्रोत नहीं बदलते।',
     reviewed:(r,a)=>`${r} समीक्षित · ${a} यहाँ उपलब्ध`,
-    source:'कहानी कहाँ से आती है',telling:'कौन-सी परंपरा',show:'सिर्फ़ ये दिखाएँ',all:'सभी',
+    source:'कहानी कहाँ से आती है',telling:'कौन-सी परंपरा',show:'सिर्फ़ ये दिखाएँ',
+    ageFilter:'उम्र के अनुसार',ageAny:'कोई भी उम्र',ageChoice:n=>`${n} साल`,
+    careFilter:'सावधानी',careAny:'सभी',all:'सभी',
     everything:'सब',written:'लिखी हुई',regional:'क्षेत्रीय या भिन्न पाठ',flagged:'सावधानी वाली',
     count:(w,p,s,t,h)=>`${w} लिखी हुई · ${p} तैयार हो रही · ${t} में से ${s} दिख रही हैं${h?' · कठिन कहानियाँ अभी छिपी हैं':''}`,
     planned:'तैयार हो रही',available:'लिखी हुई',age:'उम्र',
@@ -83,7 +92,9 @@ const COPY: Record<AppLocale,ShelfCopy> = {
     intro:'இராமாயணம், மகாபாரதம், புராணங்கள், உபநிடதங்கள், பக்தி மரபுகள்—ஒவ்வொரு தமிழ் பதிப்பும் மூலக் கதையுடன் மீண்டும் ஒப்பிடப்பட்டு, தமிழ்ச் செம்மையும் வாசித்துச் சொல்லும் சோதனையும் முடிந்த பிறகே இங்கே வருகிறது.',
     note:'இது மூன்று தனித் தொகுப்புகள் அல்ல; ஒரே கதைத் தொகுப்பு, மூன்று மொழிகளில். மொழி மாறினாலும் கதையின் அடையாளமும் ஆதாரமும் மாறாது.',
     reviewed:(r,a)=>`${r} மதிப்பாய்வு செய்யப்பட்டவை · ${a} இங்கே கிடைக்கின்றன`,
-    source:'கதை எங்கிருந்து வருகிறது',telling:'எந்த மரபில் சொல்லப்படுகிறது',show:'இவற்றை மட்டும் காட்டு',all:'அனைத்தும்',
+    source:'கதை எங்கிருந்து வருகிறது',telling:'எந்த மரபில் சொல்லப்படுகிறது',show:'இவற்றை மட்டும் காட்டு',
+    ageFilter:'வயதுக்கு ஏற்றது',ageAny:'எந்த வயதும்',ageChoice:n=>`${n} வயது`,
+    careFilter:'கவனிக்க வேண்டியது',careAny:'அனைத்தும்',all:'அனைத்தும்',
     everything:'எல்லா கதைகளும்',written:'எழுதப்பட்டவை',regional:'வட்டார / மாறுபட்ட வடிவம்',flagged:'கவனத்துடன் வாசிக்க வேண்டியவை',
     count:(w,p,s,t,h)=>`${w} எழுதப்பட்டவை · ${p} தயாராகின்றன · ${t}-ல் ${s} காட்டப்படுகின்றன${h?' · கடினமான கதைகள் இப்போது மறைக்கப்பட்டுள்ளன':''}`,
     planned:'தயாராகிறது',available:'எழுதப்பட்டது',age:'வயது',
@@ -113,6 +124,8 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
   const [corpus, setCorpus] = useState('all');
   const [trad, setTrad] = useState('all');
   const [only, setOnly] = useState('all');
+  const [forAge, setForAge] = useState<number | null>(null);
+  const [care, setCare] = useState('all');
   const copy=COPY[locale];
   const localizedCards=useMemo(()=>new Map(cards.map(card=>[card.id,card])),[cards]);
 
@@ -121,6 +134,8 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
     if (locale !== 'en' && c.gated) return false; // approved, but deliberately not public
     if (corpus !== 'all' && c.corpus !== corpus) return false;
     if (trad !== 'all' && c.tradition !== trad) return false;
+    if (forAge !== null && c.minAge > forAge) return false;
+    if (care !== 'all' && !c.sensitivity.includes(care)) return false;
     if (only === 'written' && !availableIds.has(c.id)) return false;
     if (only === 'regional' && c.stability === 'stable') return false;
     if (only === 'flagged' && !c.sensitivity.length) return false;
@@ -129,6 +144,7 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
 
   const present = new Set(canon.map(c => c.corpus));
   const traditions = [...new Set(canon.map(c => c.tradition))];
+  const sensitivities = [...new Set(canon.flatMap(c => c.sensitivity))].sort();
   const reviewed=canon.filter(c=>c.status==='published').length;
   const available=canon.filter(c=>availableIds.has(c.id) && (locale === 'en' ? (!c.gated || gate) : !c.gated)).length;
   const writtenVisible=visible.filter(c=>availableIds.has(c.id)).length;
@@ -157,6 +173,24 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
           {traditions.map(t => <Chip key={t} on={trad === t} onClick={() => setTrad(t)}>{localizedTraditionLabel(t,locale)}</Chip>)}
         </div>
       </div>
+
+      <div className="facet">
+        <span className="lab">{copy.ageFilter}</span>
+        <div className="opts">
+          <Chip on={forAge === null} onClick={() => setForAge(null)}>{copy.ageAny}</Chip>
+          {[4,6,8,10,12,14].map(age =>
+            <Chip key={age} on={forAge === age} onClick={() => setForAge(age)}>{copy.ageChoice(age)}</Chip>)}
+        </div>
+      </div>
+
+      {sensitivities.length > 0 && <div className="facet">
+        <span className="lab">{copy.careFilter}</span>
+        <div className="opts">
+          <Chip on={care === 'all'} onClick={() => setCare('all')}>{copy.careAny}</Chip>
+          {sensitivities.map(item =>
+            <Chip key={item} on={care === item} onClick={() => setCare(item)}>{copy.sensitivity[item] ?? item}</Chip>)}
+        </div>
+      </div>}
 
       <div className="facet">
         <span className="lab">{copy.show}</span>

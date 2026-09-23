@@ -679,21 +679,41 @@ console.log(`prerendered ${fp} festival page(s)`);
    * rewritten below.
    */
   const surfaces = [
-    { slug: 'shelf', h1: 'The shelf — every story, by source and by age',
+    { slug: 'shelf', title: 'The shelf — Hindu stories by source and age | Sandhya Katha',
+      h1: 'The shelf — every story, by source and by age',
       p: `All ${publishedStories.length} published stories, on the shelf a parent browses: Rāmāyaṇa, Mahābhārata, Bhāgavatam, the Purāṇas, the Upaniṣads, the Nāyaṉmārs and Āḻvārs, and the sants of the north. Each one names the work and the chapter it comes from.`,
       nav: links },
-    { slug: 'map', h1: 'The constellation — the people your child has met',
+    { slug: 'map', title: 'The constellation — a child’s story map | Sandhya Katha',
+      h1: 'The constellation — the people your child has met',
       p: 'Characters accumulate into a map a child builds by listening. Hanumān and Bhīma turn out to be brothers. The Kṛṣṇa of the Bhāgavatam turns out to be the Kṛṣṇa of the Mahābhārata. It lights up as stories are heard, and it stays on your own device.',
       nav: links },
-    { slug: 'why', h1: 'Why not just ask a chatbot?',
+    { slug: 'why', title: 'Why Sandhya Katha is source-checked, not generated',
+      h1: 'Why not just ask a chatbot?',
       p: 'Because at 8:40pm you do not want a generator. You want the one right story — already chosen, already checked, already laid out for your voice. Every line here has an address, and where the traditions differ the story says so out loud.',
       nav: festLinks },
   ];
+  const surfaceHead = (html, surface) => {
+    const canonical = `${SITE}/${surface.slug}/`;
+    const localeHref = lang => surface.slug === 'shelf'
+      ? (lang === 'hi' ? `${SITE}/hi/` : lang === 'ta' ? `${SITE}/ta/` : canonical)
+      : (lang === 'en' ? canonical : `${canonical}?lang=${lang}`);
+    const alternates = ['en','hi','ta'].map(lang =>
+      `<link rel="alternate" hreflang="${lang}" href="${localeHref(lang)}">`
+    ).join('') + `<link rel="alternate" hreflang="x-default" href="${canonical}">`;
+    return html
+      .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(surface.title)}</title>`)
+      .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${esc(surface.p)}">`)
+      .replace(/\s*<link rel="alternate" hreflang="(?:en|hi|ta|x-default)"[^>]*>/g, '')
+      .replace(/<link rel="canonical" href="[^"]*"\s*\/?\s*>/, `<link rel="canonical" href="${canonical}">${alternates}`)
+      .replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${esc(surface.h1)}">`)
+      .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${esc(surface.p)}">`)
+      .replace(/<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${canonical}">`);
+  };
   for (const surface of surfaces) {
     const body = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">${esc(surface.h1)}</h1><p style="color:#c9baa4;line-height:1.65">${esc(surface.p)}</p><p>${surface.nav}</p><p style="color:#c9baa4"><a href="/about/" style="color:#f0b458">About this collection</a> · <a href="/privacy/" style="color:#f0b458">Privacy</a></p></main></div>`;
     mkdirSync(join(dist, surface.slug), { recursive: true });
     writeFileSync(join(dist, surface.slug, 'index.html'),
-      home.replace('<div id="root"></div>', body));
+      surfaceHead(home.replace('<div id="root"></div>', body), surface));
     urls.push(`${SITE}/${surface.slug}/`);
   }
   console.log(`prerendered ${surfaces.length} app surface shell(s)`);

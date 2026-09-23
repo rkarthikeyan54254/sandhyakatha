@@ -14,7 +14,7 @@ import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
-import { currentTab, onRoutePop, pushTabPath } from './lib/route';
+import { currentTab, onRoutePop, pathForTab, pushTabPath } from './lib/route';
 import { appLocaleFromLocation, cardsForAppLocale, initialAppLocale, localeLanguage, localeStoryMeta, localeUi, persistAppLocale, type AppLocale, type LocaleCatalog } from './lib/app-locale';
 
 function analyticsMode(len: Len): 'short' | 'full' {
@@ -395,7 +395,7 @@ export default function App() {
   const nextCard = open?.linked ? localeCards.find(c => c.id === open.linked!.next) ?? null : null;
 
   useEffect(() => {
-    if (typeof document === 'undefined') return;
+    if (typeof document === 'undefined' || typeof window === 'undefined') return;
     const ui = localeUi(appLocale);
     const section = open?.title ?? (
       tab === 'tonight' ? ui.tonightTab :
@@ -403,7 +403,57 @@ export default function App() {
       tab === 'map' ? ui.mapTab : ui.whyTab
     );
     document.title = `${section} · Sandhya Katha`;
-  }, [appLocale, tab, open?.title]);
+    document.documentElement.lang = ui.language;
+
+    const origin = window.location.origin;
+    const hrefFor = (target: AppLocale): string | null => {
+      if (open) {
+        if (target === 'en') return `${origin}/s/${open.id}/`;
+        const sibling = localeStoryMeta(localeCatalog, target, open.id);
+        return sibling ? `${origin}${sibling.publicPath}` : null;
+      }
+      if (tab === 'shelf') {
+        if (target === 'hi-IN') return `${origin}/hi/`;
+        if (target === 'ta-IN') return `${origin}/ta/`;
+        return `${origin}/shelf/`;
+      }
+      const path = pathForTab(tab);
+      return target === 'en'
+        ? `${origin}${path}`
+        : `${origin}${path}?lang=${localeLanguage(target)}`;
+    };
+
+    const setCanonical = (href: string) => {
+      let link = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+      if (!link) {
+        link = document.createElement('link');
+        link.rel = 'canonical';
+        document.head.appendChild(link);
+      }
+      link.href = href;
+    };
+    const setAlternate = (hreflang: string, href: string | null) => {
+      let link = document.head.querySelector<HTMLLinkElement>(`link[rel="alternate"][hreflang="${hreflang}"]`);
+      if (!href) {
+        link?.remove();
+        return;
+      }
+      if (!link) {
+        link = document.createElement('link');
+        link.rel = 'alternate';
+        link.hreflang = hreflang;
+        document.head.appendChild(link);
+      }
+      link.href = href;
+    };
+
+    const english = hrefFor('en')!;
+    setCanonical(hrefFor(appLocale) ?? english);
+    setAlternate('en', english);
+    setAlternate('hi', hrefFor('hi-IN'));
+    setAlternate('ta', hrefFor('ta-IN'));
+    setAlternate('x-default', english);
+  }, [appLocale, tab, open?.id, open?.title, localeCatalog]);
 
 
   return (

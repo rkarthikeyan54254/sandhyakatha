@@ -54,6 +54,8 @@ export interface ReaderUi {
   wrongSending: string;
   wrongFailed: string;
   wrongThanks: string;
+  pronunciation: string;
+  nameHelp: string;
 }
 
 export interface LocaleUi {
@@ -127,7 +129,9 @@ const UI: Record<AppLocale, LocaleUi> = {
       wrongSend: 'Send',
       wrongSending: 'Sending…',
       wrongFailed: 'That did not send — try again',
-      wrongThanks: 'Thank you. That goes to the person who wrote it, and every report is read.'
+      wrongThanks: 'Thank you. That goes to the person who wrote it, and every report is read.',
+      pronunciation: 'Pronunciation',
+      nameHelp: 'Name as used in this story.'
     }
   },
   'hi-IN': {
@@ -178,7 +182,9 @@ const UI: Record<AppLocale, LocaleUi> = {
       wrongSend: 'भेजें',
       wrongSending: 'भेज रहे हैं…',
       wrongFailed: 'नहीं भेजा गया — फिर कोशिश करें',
-      wrongThanks: 'धन्यवाद। यह टिप्पणी कहानी लिखने वाले व्यक्ति तक पहुँचेगी और हर रिपोर्ट पढ़ी जाती है।'
+      wrongThanks: 'धन्यवाद। यह टिप्पणी कहानी लिखने वाले व्यक्ति तक पहुँचेगी और हर रिपोर्ट पढ़ी जाती है।',
+      pronunciation: 'उच्चारण',
+      nameHelp: 'कहानी में यही नाम इस्तेमाल किया गया है।'
     }
   },
   'ta-IN': {
@@ -229,7 +235,9 @@ const UI: Record<AppLocale, LocaleUi> = {
       wrongSend: 'அனுப்பு',
       wrongSending: 'அனுப்புகிறது…',
       wrongFailed: 'அனுப்ப முடியவில்லை — மீண்டும் முயலுங்கள்',
-      wrongThanks: 'நன்றி. இது கதையை எழுதியவரிடம் சேரும்; ஒவ்வொரு குறிப்பும் வாசிக்கப்படும்.'
+      wrongThanks: 'நன்றி. இது கதையை எழுதியவரிடம் சேரும்; ஒவ்வொரு குறிப்பும் வாசிக்கப்படும்.',
+      pronunciation: 'உச்சரிப்பு',
+      nameHelp: 'கதையில் இந்தப் பெயரே பயன்படுத்தப்பட்டுள்ளது.'
     }
   }
 };

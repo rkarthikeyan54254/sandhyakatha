@@ -42,7 +42,12 @@ for (const token of [
   'currentStory',
   'localeStoryMeta(localeCatalog, next, currentStory.id)',
   'locale={appLocale}',
-  'availableIds'
+  'availableIds',
+  'pathForTab',
+  'link[rel="canonical"]',
+  'hreflang',
+  "setAlternate('hi'",
+  "setAlternate('ta'"
 ]) if (!app.includes(token)) fail(`App locale contract missing: ${token}`);
 const chooseStart=app.indexOf('const chooseLocale');
 const chooseEnd=app.indexOf('useEffect(() =>',chooseStart);
@@ -58,8 +63,10 @@ for (const token of ['localizedSourceWork','localizedSourceLocus','localizedPanc
   if (!localeUi.includes(token)) fail(`native product metadata helper missing: ${token}`);
 
 const shelf = source('src/ui/Shelf.tsx');
-for (const token of ['locale?: AppLocale','localizedCorpusLabel','localizedTraditionLabel','localizedSourceWork','availableIds'])
-  if (!shelf.includes(token)) fail(`shared Shelf is not locale-aware: ${token}`);
+for (const token of [
+  'locale?: AppLocale','localizedCorpusLabel','localizedTraditionLabel','localizedSourceWork','availableIds',
+  'ageFilter','careFilter','forAge','sensitivities',"c.minAge > forAge","c.sensitivity.includes(care)"
+]) if (!shelf.includes(token)) fail(`shared Shelf discovery parity missing: ${token}`);
 if (shelf.includes('5 reviewed stories')) fail('Shelf must never hard-code locale corpus size');
 
 const map = source('src/ui/Constellation.tsx');
@@ -73,6 +80,10 @@ for (const token of ["locale?: AppLocale","'hi-IN'","'ta-IN'","சாட்ப�
 const reader = source('src/ui/Reader.tsx');
 if (!reader.includes('localizedSourceWork') || !reader.includes('localizedSourceLocus'))
   fail('Reader must render native source metadata while retaining canonical evidence');
+for (const token of ['localized ? <>','copy.pronunciation','copy.nameHelp','story.displayNames?.[say.term]'])
+  if (!reader.includes(token)) fail(`Reader native help parity missing: ${token}`);
+for (const token of ['pronunciation:', 'nameHelp:'])
+  if (!localeUi.includes(token)) fail(`Reader locale copy missing: ${token}`);
 
 const chrome = source('src/ui/Chrome.tsx');
 for (const token of ["ui.tonightTab","ui.shelfTab","ui.mapTab","ui.whyTab","onTab(k)"])
@@ -80,6 +91,8 @@ for (const token of ["ui.tonightTab","ui.shelfTab","ui.mapTab","ui.whyTab","onTa
     fail(`Hindi/Tamil navigation must preserve the same four-slot Tonight/Shelf/Map/Why structure: ${token}`);
 if (chrome.includes('localeShelfPath'))
   fail('locale Shelf must stay in the shared app; external locale shelf navigation is forbidden');
+for (const token of ['aria-label={homeLabel}','aria-label={ui.readIn}','aria-label={navLabel}'])
+  if (!chrome.includes(token)) fail(`shared chrome native accessibility label missing: ${token}`);
 
 const tonight = source('src/ui/Tonight.tsx');
 if (!tonight.includes('pan: Panchanga') || !tonight.includes('localeReason(pick.reason, locale)'))
@@ -93,6 +106,17 @@ const styles = source('src/styles.css');
 if (!styles.includes('"brand main" "language main" "nav main"') ||
     !styles.includes('.languagebar{grid-area:language'))
   fail('desktop language selector must have a real sidebar grid area');
+for (const token of [
+  '--locale-reader-title-size','--locale-reader-title-leading','--locale-reader-body-size',
+  '--locale-reader-body-leading','--locale-reader-measure','--locale-ui-tracking',
+  '.app[data-locale="hi-IN"]','.app[data-locale="ta-IN"]'
+]) if (!styles.includes(token)) fail(`script-aware typography token missing: ${token}`);
+for (const token of ['overflow:hidden','min-width:0;max-width:100%','.sky text.cl{display:none}','@media(max-width:480px)'])
+  if (!styles.includes(token)) fail(`mobile constellation fit contract missing: ${token}`);
+if (!map.includes('className="constellation-svg"') || !map.includes('preserveAspectRatio="xMidYMid meet"'))
+  fail('Constellation SVG must scale to the phone viewport');
+if (styles.includes('.tabs.locale-tabs a'))
+  fail('locale navigation must not retain a separate link-only Shelf chrome contract');
 
 // CSS source order is part of the desktop locale contract. The generic
 // languagebar rule is intentionally mobile-first and appears late in this
@@ -148,6 +172,8 @@ if (!prerender.includes("location.replace('/shelf/?lang=${p.language}')"))
   fail('legacy /hi/ and /ta/ shelves must hand interactive users to the shared app Shelf');
 if (!prerender.includes('canonicalSourceLabel') || !prerender.includes('nativeSourceLine'))
   fail('public locale story pages must show native source chrome');
+for (const token of ['canonicalStory','reviewedIllustration','englishSource','shareEdition','shelfAlternates'])
+  if (!prerender.includes(token)) fail(`public locale reader/SEO parity missing: ${token}`);
 
 const index = source('index.html');
 if (!index.includes('document.documentElement.lang'))
