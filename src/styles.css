@@ -707,3 +707,67 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
     text-align:center;
   }
 }
+
+
+/* ---------- P0 product-language parity ---------- */
+/* Hindi and Tamil are product locales, not translated story islands. Keep the
+   same shell and hierarchy while letting each script use its own reading face. */
+.app[data-locale="hi-IN"] .shelf .page,
+.app[data-locale="hi-IN"] .shelf .sub,
+.app[data-locale="hi-IN"] .shelf .family h2,
+.app[data-locale="hi-IN"] .shelf .family p,
+.app[data-locale="hi-IN"] .shelf .mini h3,
+.app[data-locale="hi-IN"] .shelf .mini p,
+.app[data-locale="hi-IN"] .why-page .page,
+.app[data-locale="hi-IN"] .why-page .thesis,
+.app[data-locale="hi-IN"] .why-page .pt h3,
+.app[data-locale="hi-IN"] .why-page .pt p,
+.app[data-locale="hi-IN"] .why-page .closing,
+.app[data-locale="hi-IN"] .constellation-page .page,
+.app[data-locale="hi-IN"] .constellation-page .sub,
+.app[data-locale="hi-IN"] .constellation-page h2,
+.app[data-locale="hi-IN"] .constellation-page h3,
+.app[data-locale="hi-IN"] .constellation-page p{
+  font-family:"Noto Serif Devanagari",var(--read)
+}
+.app[data-locale="ta-IN"] .shelf .page,
+.app[data-locale="ta-IN"] .shelf .sub,
+.app[data-locale="ta-IN"] .shelf .family h2,
+.app[data-locale="ta-IN"] .shelf .family p,
+.app[data-locale="ta-IN"] .shelf .mini h3,
+.app[data-locale="ta-IN"] .shelf .mini p,
+.app[data-locale="ta-IN"] .why-page .page,
+.app[data-locale="ta-IN"] .why-page .thesis,
+.app[data-locale="ta-IN"] .why-page .pt h3,
+.app[data-locale="ta-IN"] .why-page .pt p,
+.app[data-locale="ta-IN"] .why-page .closing,
+.app[data-locale="ta-IN"] .constellation-page .page,
+.app[data-locale="ta-IN"] .constellation-page .sub,
+.app[data-locale="ta-IN"] .constellation-page h2,
+.app[data-locale="ta-IN"] .constellation-page h3,
+.app[data-locale="ta-IN"] .constellation-page p{
+  font-family:"Noto Serif Tamil",var(--read)
+}
+.app[data-locale="hi-IN"] .shelf .facet .lab,
+.app[data-locale="hi-IN"] .shelf .chipbtn,
+.app[data-locale="hi-IN"] .shelf .count,
+.app[data-locale="hi-IN"] .shelf .eyebrow,
+.app[data-locale="hi-IN"] .constellation-page .eyebrow,
+.app[data-locale="hi-IN"] .constellation-page .statrow span,
+.app[data-locale="hi-IN"] .why-page .eyebrow{
+  font-family:"Noto Serif Devanagari",var(--ui);letter-spacing:normal;text-transform:none
+}
+.app[data-locale="ta-IN"] .shelf .facet .lab,
+.app[data-locale="ta-IN"] .shelf .chipbtn,
+.app[data-locale="ta-IN"] .shelf .count,
+.app[data-locale="ta-IN"] .shelf .eyebrow,
+.app[data-locale="ta-IN"] .constellation-page .eyebrow,
+.app[data-locale="ta-IN"] .constellation-page .statrow span,
+.app[data-locale="ta-IN"] .why-page .eyebrow{
+  font-family:"Noto Serif Tamil",var(--ui);letter-spacing:normal;text-transform:none
+}
+.shelf-count{display:block;margin-top:20px;color:var(--lamp-dim)}
+.shelf-language-note{padding-bottom:4px}
+.locale-home-shelf{width:100%;text-align:left}
+.app[data-locale="hi-IN"] .wordmark i{font-family:"Noto Serif Devanagari",var(--read);letter-spacing:0}
+.app[data-locale="ta-IN"] .wordmark i{font-family:"Noto Serif Tamil",var(--read);letter-spacing:0}
