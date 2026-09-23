@@ -240,7 +240,7 @@ function drawShareMap(ctx:CanvasRenderingContext2D,rel:Relations,pos:Map<string,
 }
 
 async function makeShareCard(rel:Relations,pos:Map<string,ConstellationPoint>,met:Set<string>,
-  discoveries:ConstellationDiscovery[],storiesHeard:number,childName:string,locale:AppLocale):Promise<Blob>{
+  discoveries:ConstellationDiscovery[],storiesHeard:number,childName:string,locale:AppLocale,lex:Lexicon):Promise<Blob>{
   const copy=COPY[locale],family=fontFor(locale),canvas=document.createElement('canvas');
   canvas.width=1080;canvas.height=1350;const ctx=canvas.getContext('2d');if(!ctx)throw new Error('Canvas unavailable');
   try{await document.fonts?.ready;}catch{}
@@ -257,7 +257,7 @@ async function makeShareCard(rel:Relations,pos:Map<string,ConstellationPoint>,me
   const first=discoveries[0];
   if(first){
     ctx.font='700 17px system-ui, sans-serif';ctx.fillStyle='#f0b458';ctx.fillText(copy.cardConnection,82,1060);
-    const headline=`${displayName({} as Lexicon,first.a,locale)} ↔ ${displayName({} as Lexicon,first.b,locale)}`;
+    const headline=`${displayName(lex,first.a,locale)} ↔ ${displayName(lex,first.b,locale)}`;
     const hSize=fitText(ctx,headline,916,34,family,24);ctx.font=`${hSize}px ${family}`;ctx.fillStyle='#f7f0e4';ctx.fillText(headline,82,1106);
     const label=relationLabel(first.label,locale);const rs=fitText(ctx,label,916,26,family,18);ctx.font=`${rs}px ${family}`;ctx.fillStyle='rgba(247,240,228,.76)';ctx.fillText(label,82,1146);
   }else{ctx.font=`26px ${family}`;ctx.fillStyle='rgba(247,240,228,.72)';ctx.fillText(copy.cardMore,82,1092);}
@@ -284,7 +284,7 @@ export default function Constellation({ lex,rel,heard,cards,childName,onTonight,
   async function shareConstellation(){
     if(!storiesHeard||shareState==='working')return;setShareState('working');
     try{
-      const blob=await makeShareCard(rel!,pos,met,discoveries,storiesHeard,name,locale);
+      const blob=await makeShareCard(rel!,pos,met,discoveries,storiesHeard,name,locale,lex);
       const file=typeof File==='function'?new File([blob],'sandhya-katha-constellation.png',{type:'image/png'}):null;
       const url=new URL('/',window.location.origin);url.searchParams.set('utm_source','constellation_share');url.searchParams.set('utm_medium','referral');url.searchParams.set('utm_campaign','constellation');
       if(locale!=='en')url.searchParams.set('lang',locale==='hi-IN'?'hi':'ta');
