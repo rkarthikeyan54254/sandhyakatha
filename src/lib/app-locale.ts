@@ -359,7 +359,7 @@ const WORK_NATIVE: Record<string, { hi:string; ta:string }> = {
   'Chāndogya Upaniṣad':{hi:'छान्दोग्य उपनिषद',ta:'சாந்தோக்ய உபநிடதம்'},
   'Devī Bhāgavata; Śiva Purāṇa':{hi:'देवी भागवत; शिव पुराण',ta:'தேவீ பாகவதம்; சிவ புராணம்'},
   'Devī Māhātmya (Mārkaṇḍeya Purāṇa)':{hi:'देवी माहात्म्य (मार्कण्डेय पुराण)',ta:'தேவீ மாஹாத்மியம் (மார்க்கண்டேய புராணம்)'},
-  'Divya Sūri Caritam and the Guruparamparā Prabhāvam':{hi:'दिव्य सूरी चरितम् और गुरुparampara प्रभावम्'.replace('parampara','परम्परा'),ta:'திவ்ய சூரி சரிதம் மற்றும் குருபரம்பரா பிரபாவம்'},
+  'Divya Sūri Caritam and the Guruparamparā Prabhāvam':{hi:'दिव्य सूरी चरितम् और गुरुपरम्परा प्रभावम्',ta:'திவ்ய சூரி சரிதம் மற்றும் குருபரம்பரா பிரபாவம்'},
   'Gaṇeśa Purāṇa':{hi:'गणेश पुराण',ta:'கணேச புராணம்'},
   'Guruparamparā':{hi:'गुरुपरम्परा',ta:'குருபரம்பரை'},
   'Guruparamparā Prabhāvam (Āṟāyirappaḍi)':{hi:'गुरुपरम्परा प्रभावम् (आरायिरप्पडि)',ta:'குருபரம்பரா பிரபாவம் (ஆறாயிரப்படி)'},
