@@ -130,6 +130,80 @@
   ],
   "lengths": {
     "short": {
+      "minutes": 3,
+      "words": 333,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There was a singer called «Tiruppāṇāḻvār», and every day he stood by the Kāvēri facing Śrīraṅgam."
+        },
+        {
+          "t": "p",
+          "text": "Across the water was «Raṅganātha», reclining in the dark of the temple. Tiruppāṇāḻvār sang to him from outside."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "One morning the temple priest came down to the river to collect water for the Lord's service."
+        },
+        {
+          "t": "p",
+          "text": "The priest called to him to move. The singer did not answer. He had not decided to ignore the priest; he simply did not hear him."
+        },
+        {
+          "t": "p",
+          "text": "The priest called again. Then, trying to clear the path, he picked up a stone and threw it."
+        },
+        {
+          "t": "p",
+          "text": "The stone struck Tiruppāṇāḻvār on the forehead and drew blood."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The singer came out of his absorption, saw what had happened, and apologised for being in the way. Then he moved aside."
+        },
+        {
+          "t": "p",
+          "text": "That night, the hagiography says, Raṅganātha came to him in a dream."
+        },
+        {
+          "t": "p",
+          "text": "The message was not: _you threw a stone at a stranger._ It was: _the offence was against me._ And the Lord told the priest to go back and bring his devotee in."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Tiruppāṇāḻvār refused to enter. The same belief that had kept him outside before the stone was still there: he did not think someone of his birth should cross into the temple."
+        },
+        {
+          "t": "p",
+          "text": "The Lord had commanded the priest to bring him. The Lord had not said, _put him on your shoulders._ The shoulders were the priest's answer to the Āḻvār's refusal."
+        },
+        {
+          "t": "p",
+          "text": "The archaka offered his own back. If Tiruppāṇāḻvār would not walk in, the priest who had tried to move him out of the way would carry him in himself."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That carrying is not presented by the tradition as a trick for preserving an old exclusion rule. It is an honour so central to the memory of the episode that Tiruppāṇāḻvār is remembered as _Munivāhana_ — the one for whom the sage became the vehicle — and Vedānta Deśika later gave his commentary the title _Munivāhana Bhōgam_."
+        },
+        {
+          "t": "slow",
+          "text": "The person who had treated the singer as an obstacle became the person who bore him."
+        }
+      ]
+    },
+    "full": {
       "minutes": 6,
       "words": 603,
       "blocks": [
@@ -250,158 +324,6 @@
         {
           "t": "slow",
           "text": "In the morning, the priest had thrown a stone because a singer was in his way. By the end of the story, that same priest had become the singer's vehicle into the presence he had spent his life singing toward."
-        }
-      ]
-    },
-    "full": {
-      "minutes": 6,
-      "words": 657,
-      "blocks": [
-        {
-          "t": "p",
-          "text": "At Śrīraṅgam, on an island in the «Kāvēri», «Raṅganātha» lies asleep on a serpent in the dark of a very old shrine, and he has been lying there longer than anybody can tell you."
-        },
-        {
-          "t": "p",
-          "text": "And on the far bank of the river there was a singer."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "His name was «Tiruppāṇāḻvār» and he came from the Pāṇar, who were musicians — that was the work of the family, going back as far as the songs did."
-        },
-        {
-          "t": "p",
-          "text": "He sang to «Raṅganātha» every day of his life. He sang across the water. He never crossed it."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "Nobody was standing on the bridge to stop him. That is the part of this that is hard to say properly."
-        },
-        {
-          "t": "p",
-          "text": "He had been told from the time he was small that people of his family did not go near the temple, because of what they were born into."
-        },
-        {
-          "t": "p",
-          "text": "He had been told it so often, and so much as though it were a plain fact about the world, that he had taken it inside himself. He kept himself on the far bank, and thought it was the right thing to do."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "One morning a priest came down to the river."
-        },
-        {
-          "t": "p",
-          "text": "His name was Lōkasāraṅga, and he had a job to do — water from the «Kāvēri», carried up for the god's bath, at a particular hour, the way it was done every day."
-        },
-        {
-          "t": "p",
-          "text": "And there was a man standing in the middle of the path with his eyes shut, singing."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "He called out to him to move."
-        },
-        {
-          "t": "p",
-          "text": "The singer did not hear him, because he was a long way inside a song and not available to be spoken to."
-        },
-        {
-          "t": "p",
-          "text": "He called again, louder. Nothing."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "So he picked up a stone and threw it."
-        },
-        {
-          "t": "p",
-          "text": "Not to hurt him — to move him, the way you would rap on a table. But a stone is a stone, and it hit the singer on the forehead and opened the skin, and the blood started to come down his face."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "What the priest had done is worth getting exactly right, because the whole story turns on it."
-        },
-        {
-          "t": "p",
-          "text": "The priest did not hate him. He had not woken up that morning wanting to hurt anybody. He simply did not think this man mattered enough to walk around. He was somebody in the way."
-        },
-        {
-          "t": "p",
-          "text": "And the singer, who was bleeding, apologised. He said he was sorry for having been in the path, and got up, and moved aside, and let the priest go by."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "Lōkasāraṅga carried his water up the steps and into the temple and through to the shrine."
-        },
-        {
-          "t": "p",
-          "text": "And on the forehead of the god lying there in the dark there was blood, fresh, in exactly the place on exactly the side where the stone had gone in."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "And «Raṅganātha» said two things to him."
-        },
-        {
-          "t": "p",
-          "text": "The first was that the stone had hit him. Not his devotee. Him."
-        },
-        {
-          "t": "p",
-          "text": "The second was an instruction, and it was not an apology to be delivered or a fine to be paid. It was: go back down to the river, and pick that man up, and put him on your shoulders, and carry him in here yourself."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "So the priest went back down to the river and found him and told him."
-        },
-        {
-          "t": "p",
-          "text": "And the singer refused. He said what he had always said, which was that a man like him could not go in there. He only gave way when he understood whose instruction it was."
-        },
-        {
-          "t": "p",
-          "text": "And then a priest of Śrīraṅgam knelt on the riverbank, took a bleeding musician onto his shoulders, stood up, and carried him through the gates and across the courts and all the way in."
-        },
-        {
-          "t": "aside",
-          "text": "The stone and the shoulders are not in the singer's own poem, which is ten verses long and describes only «Raṅganātha», from his feet upward to his face. The story around it comes from the Śrīvaiṣṇava hagiographies and was firmly established by the fourteenth century, when Vedānta Deśika named his commentary The Feast of the Sage-Borne One."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "He sang the whole way. Nine songs between the river and the shrine, and the tenth one standing in front of «Raṅganātha» with nothing at all in between."
-        },
-        {
-          "t": "slow",
-          "text": "The last line of the tenth is that his eyes, having seen this, do not want to look at anything else ever again."
         }
       ]
     }
