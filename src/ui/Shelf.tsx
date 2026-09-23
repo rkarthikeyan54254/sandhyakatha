@@ -130,7 +130,7 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
   const present = new Set(canon.map(c => c.corpus));
   const traditions = [...new Set(canon.map(c => c.tradition))];
   const reviewed=canon.filter(c=>c.status==='published').length;
-  const available=canon.filter(c=>availableIds.has(c.id) && (!c.gated || locale==='en' && gate || !c.gated)).length;
+  const available=canon.filter(c=>availableIds.has(c.id) && (locale === 'en' ? (!c.gated || gate) : !c.gated)).length;
   const writtenVisible=visible.filter(c=>availableIds.has(c.id)).length;
   const plannedVisible=visible.filter(c=>!availableIds.has(c.id)).length;
 
