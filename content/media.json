@@ -1040,8 +1040,8 @@
       }
     },
     "panar-shoulders": {
-      "canonStatus": "draft",
-      "storyVersion": 1,
+      "canonStatus": "published",
+      "storyVersion": 2,
       "image": {
         "status": "approved",
         "type": "illustration",
