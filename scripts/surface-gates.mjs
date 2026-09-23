@@ -181,7 +181,7 @@ else {
 }
 
 const robotsPath=join(dist,'robots.txt');
-const expectedRobots='User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /preview/\nSitemap: https://sandhyakatha.com/sitemap.xml\n';
+const expectedRobots='User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /preview/\n\nSitemap: https://sandhyakatha.com/sitemap.xml\n';
 if (!existsSync(robotsPath)) errors.push('robots.txt: missing from dist root');
 else if (readFileSync(robotsPath,'utf8').replace(/\r\n/g,'\n')!==expectedRobots)
   errors.push('robots.txt: contents differ from crawler policy');
