@@ -9,10 +9,15 @@ export function Header({ onHome, onWhy, locale = 'en' }: { onHome: () => void; o
       ? 'இராமாயணம் · மகாபாரதம் · புராணங்கள் · உபநிடதங்கள்'
       : 'Rāmāyaṇa · Mahābhārata · Purāṇas · Upaniṣads';
   const whyLabel = locale === 'hi-IN' ? 'यह क्यों है' : locale === 'ta-IN' ? 'இது ஏன்' : 'Why this exists';
+  const homeLabel = locale === 'hi-IN'
+    ? 'संध्या कथा — आज रात की कहानी'
+    : locale === 'ta-IN'
+      ? 'சந்தியா கதா — இன்றிரவு கதை'
+      : "Sandhya Katha — tonight's story";
   return (
     <header className="bar">
       {/* Everyone tries the wordmark. It should go home. */}
-      <button className="brand" onClick={onHome} aria-label="Sandhya Katha — tonight's story">
+      <button className="brand" onClick={onHome} aria-label={homeLabel}>
         <svg className="flame" viewBox="0 0 22 26" aria-hidden="true">
           <path d="M3 22h16" stroke="#a97c3a" strokeWidth="1.6" strokeLinecap="round" fill="none" />
           <path d="M5 22c0-2.6 2.7-3.4 6-3.4s6 .8 6 3.4" fill="#2b2338" stroke="#a97c3a" strokeWidth="1.2" />
@@ -44,7 +49,7 @@ export function LanguageBar({ locale, onLocale }: {
 }) {
   const ui = localeUi(locale);
   return (
-    <nav className="languagebar" aria-label="Story language">
+    <nav className="languagebar" aria-label={ui.readIn}>
       <span>{ui.readIn}</span>
       <button aria-pressed={locale === 'en'} onClick={() => onLocale('en')}>English</button>
       <button aria-pressed={locale === 'hi-IN'} onClick={() => onLocale('hi-IN')}>हिन्दी</button>
@@ -67,8 +72,9 @@ export function Tabs({ tab, onTab, locale = 'en' }: {
         ['map', ui.mapTab],
         ['why', ui.whyTab]
       ];
+  const navLabel = locale === 'hi-IN' ? 'मुख्य नेविगेशन' : locale === 'ta-IN' ? 'முதன்மை வழிசெலுத்தல்' : 'Main navigation';
   return (
-    <nav className={'tabs' + (locale !== 'en' ? ' locale-tabs' : '')} aria-label="Main">
+    <nav className={'tabs' + (locale !== 'en' ? ' locale-tabs' : '')} aria-label={navLabel}>
       {labels.map(([k,label]) => (
         <button key={k} aria-current={tab === k} onClick={() => onTab(k)}>
           <span className="dot" />{label}
