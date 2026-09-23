@@ -202,7 +202,7 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
                               ? <em className="pub">{copy.available}</em>
                               : <em className="soon">{copy.planned}</em>}
                           </h3>
-                          <p>{localizedSourceWork(c.work,locale)} · {localizedSourceLocus(c.locus,locale)} · {copy.age} {c.minAge}+</p>
+                          <p>{localizedSourceWork(c.work,locale)}{localizedSourceLocus(c.locus,locale) ? ` · ${localizedSourceLocus(c.locus,locale)}` : ''} · {copy.age} {c.minAge}+</p>
                           <p>{hook}</p>
                           <span className="tags">
                             <i className="tag trad">{localizedTraditionLabel(c.tradition,locale)}</i>
