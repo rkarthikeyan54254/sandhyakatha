@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script>
+      (() => {
+        try {
+          const lang = new URLSearchParams(location.search).get('lang');
+          document.documentElement.lang = lang === 'hi' ? 'hi' : lang === 'ta' ? 'ta' : 'en';
+        } catch {}
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#14101c" />
     <meta name="description" content="Stories from the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads, told for children. One a night, chosen for your child's age, cited to its source, and written to be read aloud in six minutes." />
