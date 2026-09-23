@@ -45,6 +45,21 @@ function canonical(html) {
     ?? html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical["'][^>]*>/i)?.[1]
     ?? '').trim();
 }
+function storyProse(html) {
+  const open = html.match(/<(main|div) class=["']prose["'][^>]*>/i);
+  if (!open || open.index == null) return '';
+  const start = open.index + open[0].length;
+  if (open[1].toLowerCase() === 'main') {
+    const end = html.indexOf('</main>', start);
+    return end >= 0 ? html.slice(start, end) : '';
+  }
+  // Locale prose contains nested <div class="beat"> pause markers, so a
+  // generic non-greedy </div> regex stops at the first pause. The outer prose
+  // div is the one immediately followed by the turn section.
+  const rest = html.slice(start);
+  const boundary = rest.search(/<\/div>\s*<section class=["']turn["']/i);
+  return boundary >= 0 ? rest.slice(0, boundary) : '';
+}
 function parseSitemap(xml) {
   if (!/^<\?xml\s+version=["']1\.0["']\s+encoding=["']UTF-8["']\?>/i.test(xml.trim()))
     fail('sitemap.xml: XML declaration is missing or malformed');
@@ -175,7 +190,7 @@ for (const loc of expectedStoryUrls) {
   if (!meta(html,'description')) fail(`${loc}: meta description missing`);
   if (canonical(html) !== loc) fail(`${loc}: self-canonical missing or incorrect (${canonical(html) || 'none'})`);
   if (!/<h1\b[^>]*>[^<]+<\/h1>/i.test(html)) fail(`${loc}: H1 missing`);
-  const prose = html.match(/<(main|div) class=["']prose["'][^>]*>([\s\S]*?)<\/\1>/i)?.[2] ?? '';
+  const prose = storyProse(html);
   if (stripHtml(prose).length < 300) fail(`${loc}: meaningful story text is missing from initial HTML`);
   if (/name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html))
     fail(`${loc}: accidental meta noindex`);
