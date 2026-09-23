@@ -342,6 +342,63 @@ ${followBlock(`${meta.label} stories for children — each one cited to its sour
 }
 
 
+/* ---------- complete public story archive --------------------------------
+ * Unlike source-family landings, this page is deliberately exhaustive. It is
+ * the plain-HTML crawl path that guarantees every public story is reachable
+ * from one index even when its corpus is too small to justify a landing page.
+ */
+function storiesArchivePage(stories) {
+  const url = `${SITE}/stories/`;
+  const ordered = stories.slice().sort((a,b) =>
+    (canon.find(c=>c.id===a.id)?.n ?? 9999) - (canon.find(c=>c.id===b.id)?.n ?? 9999));
+  const rows = ordered.map(st => {
+    const updated = formatIsoDate(st.updated);
+    return `<article class="story-index-row"><h2><a href="/s/${esc(st.id)}/">${esc(st.title)}</a></h2>
+      <p class="source">${esc(st.source.work)} · ${esc(st.source.locus)} · Ages ${st.audience.minAge}+</p>
+      <p>${esc(st.tease)}</p>
+      ${updated ? `<small>Updated <time datetime="${esc(st.updated)}">${esc(updated)}</time></small>` : ''}</article>`;
+  }).join('\n');
+  const itemList = ordered.map((st,i)=>({
+    '@type':'ListItem', position:i+1, name:st.title, url:`${SITE}/s/${st.id}/`
+  }));
+  const desc = `${ordered.length} source-linked Hindu stories for children, including the Rāmāyaṇa, Mahābhārata, Purāṇas, Upaniṣads and bhakti traditions.`;
+  return `<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>All Stories for Children | Sandhya Katha</title>
+<meta name="description" content="${esc(desc)}"><link rel="canonical" href="${url}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha">
+<meta property="og:title" content="All stories for children · Sandhya Katha"><meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}/og/default.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="All stories for children · Sandhya Katha">
+<meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${SITE}/og/default.png">
+<meta name="theme-color" content="#14101c"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
+<script type="application/ld+json">${JSON.stringify({
+  '@context':'https://schema.org','@type':'CollectionPage',name:'All Sandhya Katha stories',
+  url,description:desc,isAccessibleForFree:true,
+  mainEntity:{'@type':'ItemList',itemListElement:itemList},
+  publisher:{'@type':'Organization',name:'Sandhya Katha',url:SITE}
+})}</script>
+<style>
+:root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
+*{box-sizing:border-box}body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,sans-serif;background-image:radial-gradient(900px 500px at 50% -10%,#282040 0,rgba(40,32,64,0) 70%)}.w{max-width:720px;margin:0 auto;padding:0 22px 72px}header{padding:22px 0 18px;border-bottom:1px solid var(--line)}header a{text-decoration:none;color:inherit}header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px}.kick{margin:28px 0 0;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700}h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(32px,7vw,44px);line-height:1.14;margin:10px 0 0}.lede{font-family:"Gentium Book Plus",Georgia,serif;font-size:18px;line-height:1.65;color:var(--paper-dim);margin:14px 0 20px}.story-index-row{padding:19px 0;border-top:1px solid var(--line)}.story-index-row h2{font-family:"Tiro Devanagari Sanskrit",serif;font-size:21px;font-weight:400;line-height:1.3;margin:0}.story-index-row h2 a{text-decoration:none;color:var(--paper)}.story-index-row h2 a:hover{color:var(--lamp)}.story-index-row p{font-family:"Gentium Book Plus",Georgia,serif;font-size:16px;line-height:1.55;color:var(--paper-dim);margin:7px 0 0}.story-index-row p.source{font-family:Karla,system-ui,sans-serif;font-size:11.5px;color:var(--lamp-dim)}.story-index-row small{display:block;margin-top:7px;color:var(--muted)}footer{margin-top:28px;font-size:12px;color:var(--muted)}footer a{color:var(--lamp-dim)}
+</style></head><body><div class="w"><header><a href="/"><b>Sandhya Katha</b></a></header>
+<p class="kick">Complete public archive</p><h1>Stories for children, with their sources</h1>
+<p class="lede">Every public Sandhya Katha story in one crawlable index. Each story page contains the complete telling, the source or tradition it was checked against, and age guidance.</p>
+${rows}<footer><a href="/">Tonight</a> · <a href="/shelf/">The shelf</a> · <a href="/about/">About</a></footer>
+</div></body></html>`;
+}
+
+function notFoundPage() {
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Page not found | Sandhya Katha</title>
+<meta name="theme-color" content="#14101c"></head><body style="margin:0;background:#14101c;color:#f3e7d3;font-family:system-ui,sans-serif">
+<main style="max-width:620px;margin:0 auto;padding:64px 22px"><p style="color:#a97c3a">Sandhya Katha</p><h1>That story is not on the shelf.</h1>
+<p style="color:#c9baa4;line-height:1.6">The address may be old or mistyped. Browse the public story archive instead.</p>
+<p><a href="/stories/" style="color:#f0b458">Browse all stories</a></p></main></body></html>`;
+}
+
 /* ---------- festival landing pages ---------- */
 /**
  * The nights people actually search for. Each page carries the real date from
@@ -663,6 +720,12 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
   n++;
 }
 
+mkdirSync(join(dist, 'stories'), { recursive: true });
+writeFileSync(join(dist, 'stories', 'index.html'), storiesArchivePage(publishedStories));
+urls.push(`${SITE}/stories/`);
+writeFileSync(join(dist, '404.html'), notFoundPage());
+console.log(`public story archive: ${publishedStories.length} story link(s)`);
+
 // corpus pages — no thin pages: require at least two published, ungated stories.
 const corpusPages = [];
 let cp = 0;
@@ -710,7 +773,7 @@ console.log(`prerendered ${fp} festival page(s)`);
   const festLinks = festivalPages.map(x =>
     `<a href="/f/${x.slug}/" style="color:#f0b458;text-decoration:none">${esc(x.name)}</a>`
   ).join(' · ');
-  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav><nav aria-label="Browse stories by festival"><p style="color:#c9baa4">Stories for a festival night</p><p>${festLinks}</p></nav></main></div>`;
+  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><p><a href="/stories/" style="color:#f0b458;text-decoration:none">Browse all ${publishedStories.length} public stories →</a></p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav><nav aria-label="Browse stories by festival"><p style="color:#c9baa4">Stories for a festival night</p><p>${festLinks}</p></nav></main></div>`;
   /* ---------- the other three surfaces ---------------------------------
    * /shelf/, /map/ and /why/ are real addresses now (src/lib/route.ts), but the
    * SPA fallback would serve the homepage HTML at all three — one page of
