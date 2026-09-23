@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "locales": {
     "hi-IN/andal-garland": {
       "sourceVersion": 1,
@@ -630,6 +630,16 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "ac391e55c78f4998"
+    },
+    "hi-IN/panar-shoulders": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "81f9525af7a87ac8"
+    },
+    "ta-IN/panar-shoulders": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e162b5eb193448dc"
     }
   }
 }

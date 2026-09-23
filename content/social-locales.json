@@ -1720,6 +1720,34 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "panar-shoulders": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 15,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -3450,6 +3478,34 @@
             },
             {
               "index": 10,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "panar-shoulders": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 10,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 15,
               "mode": "firstSentence"
             }
           ]

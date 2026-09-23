@@ -488,6 +488,14 @@
         "hi-IN",
         "ta-IN"
       ]
+    },
+    {
+      "storyId": "panar-shoulders",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
     }
   ]
 }

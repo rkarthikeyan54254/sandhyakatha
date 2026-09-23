@@ -1,18 +1,18 @@
 {
   "id": "panar-shoulders",
   "schemaVersion": "1.0",
-  "status": "draft",
-  "version": 1,
-  "updated": "2026-09-15",
+  "status": "published",
+  "version": 2,
+  "updated": "2026-09-23",
   "title": "Carried In on Someone's Shoulders",
-  "tease": "A temple priest throws a stone at a singer who will not move out of the path. That night he is told to go back and carry him in.",
+  "tease": "A priest throws a stone at a singer who does not hear him. That night the Lord says in a dream: bring him in. When the singer refuses, the priest offers his shoulders.",
   "source": {
     "corpus": "alvar",
     "tradition": "tamil-vaishnava",
     "work": "The Śrīvaiṣṇava hagiographies of Tiruppāṇāḻvār",
     "locus": "Divya Sūri Caritam and the Guruparamparā Prabhāvam",
     "stability": "variant",
-    "traditionNote": "His own poem, the Amalanādipirāṉ, is ten verses on Raṅganātha's form and contains nothing of the river, the priest or the stone. The episode comes from the hagiographies, and was established by the fourteenth century, when Vedānta Deśika titled his commentary after it.",
+    "traditionNote": "Amalanādipirāṉ's ten verses do not contain the river, priest, stone or exclusion story. Those belong to later Śrīvaiṣṇava hagiography, established by the time of Vedānta Deśika's Munivāhana Bhōgam. Inscriptional scholarship complicates the later social framing.",
     "checkedAgainst": [
       "Amalanādipirāṉ, all 10 pāsurams, with commentary (koyil.org)",
       "Śrīvaiṣṇava guruparamparai on Tiruppāṇāḻvār (guruparamparai; acharyas.koyil.org)",
@@ -21,70 +21,82 @@
     ],
     "sourcing": [
       {
-        "claim": "Tiruppāṇāḻvār is the eleventh of the twelve Āḻvārs, of the Pāṇar, who were hereditary musicians",
+        "claim": "Śrīvaiṣṇava hagiography presents Tiruppāṇāḻvār as a Pāṇar singer devoted to Raṅganātha",
+        "locus": "Śrīvaiṣṇava guruparamparai; Divya Sūri Caritam"
+      },
+      {
+        "claim": "The hagiography places him on the Kāvēri bank facing Śrīraṅgam, singing without entering the temple",
+        "locus": "ibid."
+      },
+      {
+        "claim": "In the hagiography he considers himself unqualified by birth to enter; this is a hagiographic social framing, not a claim made in his own ten verses",
+        "locus": "guruparamparai; compare Amalanādipirāṉ; Palaniappan 2016"
+      },
+      {
+        "claim": "Lōkasāraṅga Muni, an archaka, comes to the river to collect water for temple service",
         "locus": "Śrīvaiṣṇava guruparamparai"
       },
       {
-        "claim": "He stood on the far bank of the Kāvēri facing Śrīraṅgam and sang without crossing",
+        "claim": "The absorbed Āḻvār does not hear the priest's calls; a thrown stone strikes his forehead and draws blood",
+        "locus": "guruparamparai retellings; Munivāhana Bhōgam tradition"
+      },
+      {
+        "claim": "The Āḻvār apologises and withdraws after becoming aware of the priest and the path",
         "locus": "ibid."
       },
       {
-        "claim": "He held himself unqualified by birth and kept himself out; nobody drove him away",
+        "claim": "That night Raṅganātha appears to the priest in a dream, identifies the offence as against himself, and commands him to bring the Āḻvār",
+        "locus": "guruparamparai retellings; Munivāhana Bhōgam material"
+      },
+      {
+        "claim": "The Āḻvār initially refuses because he considers himself unqualified by birth to enter the temple",
         "locus": "ibid."
       },
       {
-        "claim": "Lōkasāraṅga Muni, an archaka of the temple, came to the river for water for the Lord's service",
+        "claim": "The priest offers his own shoulders/back as the means of carrying him in; this is the priest's offer, not the Lord's instruction",
         "locus": "ibid."
       },
       {
-        "claim": "He called out, the Āḻvār was too absorbed to respond, and he threw a stone that struck his forehead and drew blood",
-        "locus": "ibid."
+        "claim": "Munivāhana — the one whose vehicle is the sage — becomes an honorific attached to Tiruppāṇāḻvār and to Vedānta Deśika's commentary title",
+        "locus": "thanian tradition; Vedānta Deśika, Munivāhana Bhōgam"
       },
       {
-        "claim": "The Āḻvār apologised and withdrew",
-        "locus": "ibid."
+        "claim": "The hagiographic telling places the ten verses of Amalanādipirāṉ at the darśana of Raṅganātha, not as nine verses sung on the road and one in the sanctum",
+        "locus": "guruparamparai / Munivāhana Bhōgam tradition"
       },
       {
-        "claim": "Blood was found on the forehead of the Raṅganātha image in the same place",
-        "locus": "ibid."
+        "claim": "Amalanādipirāṉ consists of ten verses contemplating Raṅganātha from the feet upward; the tenth ends with the singer's eyes unwilling to see anything else",
+        "locus": "Nālāyira Divya Prabandham, Amalanādipirāṉ 1–10"
       },
       {
-        "claim": "Raṅganātha commanded the priest to carry the Āḻvār to the sanctum on his shoulders",
-        "locus": "ibid."
-      },
-      {
-        "claim": "The Āḻvār refused on grounds of birth and consented only on learning it was the Lord's command",
-        "locus": "ibid.; Vedānta Deśika's Munivāhana Bhōgam, 'rode reluctantly'"
-      },
-      {
-        "claim": "Munivāhana — he whose vehicle is a sage — is the Āḻvār's own epithet, not the priest's",
-        "locus": "his thaniyan; Munivāhana Bhōgam"
-      },
-      {
-        "claim": "His single work is the Amalanādipirāṉ, ten verses describing Raṅganātha from the feet upward, the tenth ending that his eyes will not look at anything else",
-        "locus": "Nālāyira Divya Prabandham"
-      },
-      {
-        "claim": "Vedānta Deśika titled his commentary on the poem the Munivāhana Bhōgam — the Feast of the Sage-Borne One",
-        "locus": "Vedānta Deśika, Munivāhana Bhōgam"
-      },
-      {
-        "claim": "The Lord told the priest two things: that the stone had struck him, and that he was to carry the singer in; the singer sang nine verses on the way and the tenth before Raṅganātha",
-        "locus": "Śrīvaiṣṇava guruparamparai"
+        "claim": "Modern inscriptional scholarship argues that the historical status of Pāṇar was more complex than the later hagiographic outcaste framing suggests",
+        "locus": "S. Palaniappan, 'Hagiography Versus History: The Tamil Pāṇar' (2016)"
       }
     ],
     "variants": [
       {
-        "differs": "Who threw the stone, and whether it was meant",
-        "tellings": "The standard guruparamparai has the priest throw it himself. One popular telling has him order an assistant to. Some retellings call the hit accidental; the mainstream teaching sites say only that he committed an offence, naming no stone.",
-        "weTell": "The priest throws it, to move him and not to hurt him. It is attested, and softening it removes the only thing in the story a child can actually recognise."
+        "differs": "Who throws the stone, and whether the injury is intentional",
+        "tellings": "Mainstream guruparamparai retellings have the priest himself throw something to make the absorbed singer move. Some popular retellings use an assistant or soften the injury into an accident.",
+        "weTell": "The priest himself throws the stone to clear the path, not out of hatred; the stone nevertheless wounds the singer."
       },
       {
-        "differs": "What happened at the temple that night",
-        "tellings": "In one telling Raṅganātha appears to the priest in a dream. In another the priest returns to find the gates will not open, and a voice tells him why.",
-        "weTell": "The Lord speaks to him at the shrine, which is the shorter and more widely told shape."
+        "differs": "How the Lord corrects the priest",
+        "tellings": "The mainstream telling places the command in a dream that night. Some later retellings use closed temple doors or a disembodied voice.",
+        "weTell": "Raṅganātha appears in the priest's dream that night and commands him to bring the Āḻvār."
+      },
+      {
+        "differs": "Who proposes carrying the Āḻvār on the shoulders",
+        "tellings": "The Lord commands the priest to bring the Āḻvār. When the Āḻvār refuses on birth grounds, the archaka offers his own shoulders.",
+        "weTell": "The shoulders are the priest's corrective offer. They are not described as a loophole that leaves the old rule intact."
+      },
+      {
+        "differs": "When the ten pāsurams are sung",
+        "tellings": "A popular modern retelling sometimes places nine on the road and the tenth before Raṅganātha. The checked hagiographic material places the poem at the darśana.",
+        "weTell": "All ten are associated with seeing Raṅganātha in the sanctum; we do not use the nine-on-the-road claim."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-23"
   },
   "audience": {
     "minAge": 8,
@@ -93,7 +105,7 @@
       "social-hierarchy"
     ],
     "gated": false,
-    "careNote": "A priest throws a stone and cuts a man's head. It is attested and kept, because the point is that he did it without hatred — the singer was simply in the way — and then found out and changed. The exclusion is named as wrong, and nothing is resolved: he is carried in, not walked in."
+    "careNote": "A stone thrown to clear the path strikes the singer's forehead and draws blood. The harder issue is birth-based exclusion. We present that as the later hagiography's framing, not as a simple historical fact about every Pāṇar community."
   },
   "values": [
     "what you do to him you do to me",
@@ -119,237 +131,207 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 335,
+      "words": 333,
       "blocks": [
         {
           "t": "p",
-          "text": "There was a singer called «Tiruppāṇāḻvār», and he stood on the wrong side of the river."
+          "text": "There was a singer called «Tiruppāṇāḻvār», and every day he stood by the Kāvēri facing Śrīraṅgam."
         },
         {
           "t": "p",
-          "text": "Across the water at Śrīraṅgam was «Raṅganātha», lying asleep on his serpent in the dark of the shrine, and the singer sang to him every day of his life from the far bank and never once crossed over."
+          "text": "Across the water was «Raṅganātha», reclining in the dark of the temple. Tiruppāṇāḻvār sang to him from outside."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "Not because a guard stopped him. Because he had been told since he was small that people of his family must not go near it, so often that he believed it, and he kept himself out."
+          "text": "One morning the temple priest came down to the river to collect water for the Lord's service."
+        },
+        {
+          "t": "p",
+          "text": "The priest called to him to move. The singer did not answer. He had not decided to ignore the priest; he simply did not hear him."
+        },
+        {
+          "t": "p",
+          "text": "The priest called again. Then, trying to clear the path, he picked up a stone and threw it."
+        },
+        {
+          "t": "p",
+          "text": "The stone struck Tiruppāṇāḻvār on the forehead and drew blood."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "One morning a priest came down to the river for water for the god's bath."
+          "text": "The singer came out of his absorption, saw what had happened, and apologised for being in the way. Then he moved aside."
         },
         {
           "t": "p",
-          "text": "And the singer was standing in the path, with his eyes shut, in the middle of a song."
+          "text": "That night, the hagiography says, Raṅganātha came to him in a dream."
         },
         {
           "t": "p",
-          "text": "The priest called out to him to move. He did not hear. The priest called again, and he still did not hear, because he was not there to be called."
+          "text": "The message was not: _you threw a stone at a stranger._ It was: _the offence was against me._ And the Lord told the priest to go back and bring his devotee in."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "So the priest picked up a stone and threw it at him to move him out of the way."
+          "text": "Tiruppāṇāḻvār refused to enter. The same belief that had kept him outside before the stone was still there: he did not think someone of his birth should cross into the temple."
         },
         {
           "t": "p",
-          "text": "It hit him on the forehead and cut him, and he came out of the song and saw whose path he was standing in, and apologised, and moved."
+          "text": "The Lord had commanded the priest to bring him. The Lord had not said, _put him on your shoulders._ The shoulders were the priest's answer to the Āḻvār's refusal."
+        },
+        {
+          "t": "p",
+          "text": "The archaka offered his own back. If Tiruppāṇāḻvār would not walk in, the priest who had tried to move him out of the way would carry him in himself."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "The priest carried his water up to the temple."
-        },
-        {
-          "t": "p",
-          "text": "And on the forehead of «Viṣṇu» lying in the dark there was blood, in exactly the place where the stone had gone in."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "And the Lord said two things to him. The first was: that was me."
-        },
-        {
-          "t": "p",
-          "text": "The second was: go back down to the river, and put him on your shoulders, and carry him in here yourself."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "So he did. The singer said no, and only agreed when he heard whose instruction it was. And the priest lifted him and carried him the whole way."
-        },
-        {
-          "t": "p",
-          "text": "He sang nine songs on the road, and the tenth one standing in front of «Raṅganātha» at last."
+          "text": "That carrying is not presented by the tradition as a trick for preserving an old exclusion rule. It is an honour so central to the memory of the episode that Tiruppāṇāḻvār is remembered as _Munivāhana_ — the one for whom the sage became the vehicle — and Vedānta Deśika later gave his commentary the title _Munivāhana Bhōgam_."
         },
         {
           "t": "slow",
-          "text": "And the last thing he said was that his eyes had now seen everything they were ever going to want to see."
+          "text": "The person who had treated the singer as an obstacle became the person who bore him."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 657,
+      "words": 665,
       "blocks": [
         {
           "t": "p",
-          "text": "At Śrīraṅgam, on an island in the «Kāvēri», «Raṅganātha» lies asleep on a serpent in the dark of a very old shrine, and he has been lying there longer than anybody can tell you."
+          "text": "There was a singer called «Tiruppāṇāḻvār», and every day he stood by the Kāvēri facing Śrīraṅgam."
         },
         {
           "t": "p",
-          "text": "And on the far bank of the river there was a singer."
+          "text": "Across the water was «Raṅganātha», reclining in the dark of the temple. Tiruppāṇāḻvār sang to him from outside."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "His name was «Tiruppāṇāḻvār» and he came from the Pāṇar, who were musicians — that was the work of the family, going back as far as the songs did."
+          "text": "The later Śrīvaiṣṇava life-story says he kept himself from entering because he believed his birth made him unqualified to step inside. That detail belongs to the hagiography. His own ten surviving verses do not tell us this story, and modern historians warn that the social history of the Pāṇar was more complicated than the later biographies make it sound."
         },
         {
           "t": "p",
-          "text": "He sang to «Raṅganātha» every day of his life. He sang across the water. He never crossed it."
+          "text": "That distinction matters. We can tell what the tradition says without turning every part of the tradition into a simple historical fact."
+        },
+        {
+          "t": "p",
+          "text": "That does not make the devotion less real inside the tradition. It tells us something else: a life-story can carry a community's memory, while the poem carries the poet's own voice."
+        },
+        {
+          "t": "p",
+          "text": "Both matter, but they answer different questions. So as the story continues, we will keep saying which details come from the later biography and which come from the ten verses themselves."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "Nobody was standing on the bridge to stop him. That is the part of this that is hard to say properly."
+          "text": "One morning the temple priest came down to the river to collect water for the Lord's service."
         },
         {
           "t": "p",
-          "text": "He had been told from the time he was small that people of his family did not go near the temple, because of what they were born into."
+          "text": "Tiruppāṇāḻvār was standing in the path, eyes closed, completely inside his song."
         },
         {
           "t": "p",
-          "text": "He had been told it so often, and so much as though it were a plain fact about the world, that he had taken it inside himself. He kept himself on the far bank, and thought it was the right thing to do."
+          "text": "The priest called to him to move. The singer did not answer. He had not decided to ignore the priest; he simply did not hear him."
+        },
+        {
+          "t": "p",
+          "text": "The priest called again. Then, trying to clear the path, he picked up a stone and threw it."
+        },
+        {
+          "t": "p",
+          "text": "The stone struck Tiruppāṇāḻvār on the forehead and drew blood."
+        },
+        {
+          "t": "p",
+          "text": "The singer came out of his absorption, saw what had happened, and apologised for being in the way. Then he moved aside."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "One morning a priest came down to the river."
+          "text": "The priest took the water to the temple and continued his service."
         },
         {
           "t": "p",
-          "text": "His name was Lōkasāraṅga, and he had a job to do — water from the «Kāvēri», carried up for the god's bath, at a particular hour, the way it was done every day."
+          "text": "That night, the hagiography says, Raṅganātha came to him in a dream."
         },
         {
           "t": "p",
-          "text": "And there was a man standing in the middle of the path with his eyes shut, singing."
+          "text": "The message was not: _you threw a stone at a stranger._ It was: _the offence was against me._ And the Lord told the priest to go back and bring his devotee in."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "He called out to him to move."
+          "text": "So the priest returned to the river."
         },
         {
           "t": "p",
-          "text": "The singer did not hear him, because he was a long way inside a song and not available to be spoken to."
+          "text": "Tiruppāṇāḻvār refused to enter. The same belief that had kept him outside before the stone was still there: he did not think someone of his birth should cross into the temple."
         },
         {
           "t": "p",
-          "text": "He called again, louder. Nothing."
+          "text": "This is where an important part of the old telling is often blurred."
+        },
+        {
+          "t": "p",
+          "text": "The Lord had commanded the priest to bring him. The Lord had not said, _put him on your shoulders._ The shoulders were the priest's answer to the Āḻvār's refusal."
+        },
+        {
+          "t": "p",
+          "text": "The archaka offered his own back. If Tiruppāṇāḻvār would not walk in, the priest who had tried to move him out of the way would carry him in himself."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "So he picked up a stone and threw it."
+          "text": "That carrying is not presented by the tradition as a trick for preserving an old exclusion rule. It is an honour so central to the memory of the episode that Tiruppāṇāḻvār is remembered as _Munivāhana_ — the one for whom the sage became the vehicle — and Vedānta Deśika later gave his commentary the title _Munivāhana Bhōgam_."
         },
         {
           "t": "p",
-          "text": "Not to hurt him — to move him, the way you would rap on a table. But a stone is a stone, and it hit the singer on the forehead and opened the skin, and the blood started to come down his face."
+          "text": "The person who had treated the singer as an obstacle became the person who bore him."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "What the priest had done is worth getting exactly right, because the whole story turns on it."
+          "text": "When Tiruppāṇāḻvār finally saw Raṅganātha, the tradition places his ten verses there, at the darśana."
         },
         {
           "t": "p",
-          "text": "The priest did not hate him. He had not woken up that morning wanting to hurt anybody. He simply did not think this man mattered enough to walk around. He was somebody in the way."
+          "text": "The poem is the _Amalanādipirāṉ_. It begins at the Lord's feet and moves upward through his form. The river, the stone and the priest are not in those ten verses; those belong to the later life-story around the poem."
         },
         {
           "t": "p",
-          "text": "And the singer, who was bleeding, apologised. He said he was sorry for having been in the path, and got up, and moved aside, and let the priest go by."
-        },
-        {
-          "t": "beat"
+          "text": "And the popular line that he sang nine verses on the road and only the tenth before Raṅganātha is not supported by the checked telling. The ten belong to the seeing."
         },
         {
           "t": "p",
-          "text": "Lōkasāraṅga carried his water up the steps and into the temple and through to the shrine."
-        },
-        {
-          "t": "p",
-          "text": "And on the forehead of the god lying there in the dark there was blood, fresh, in exactly the place on exactly the side where the stone had gone in."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "And «Raṅganātha» said two things to him."
-        },
-        {
-          "t": "p",
-          "text": "The first was that the stone had hit him. Not his devotee. Him."
-        },
-        {
-          "t": "p",
-          "text": "The second was an instruction, and it was not an apology to be delivered or a fine to be paid. It was: go back down to the river, and pick that man up, and put him on your shoulders, and carry him in here yourself."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "So the priest went back down to the river and found him and told him."
-        },
-        {
-          "t": "p",
-          "text": "And the singer refused. He said what he had always said, which was that a man like him could not go in there. He only gave way when he understood whose instruction it was."
-        },
-        {
-          "t": "p",
-          "text": "And then a priest of Śrīraṅgam knelt on the riverbank, took a bleeding musician onto his shoulders, stood up, and carried him through the gates and across the courts and all the way in."
-        },
-        {
-          "t": "aside",
-          "text": "The stone and the shoulders are not in the singer's own poem, which is ten verses long and describes only «Raṅganātha», from his feet upward to his face. The story around it comes from the Śrīvaiṣṇava hagiographies and was firmly established by the fourteenth century, when Vedānta Deśika named his commentary The Feast of the Sage-Borne One."
-        },
-        {
-          "t": "beat"
-        },
-        {
-          "t": "p",
-          "text": "He sang the whole way. Nine songs between the river and the shrine, and the tenth one standing in front of «Raṅganātha» with nothing at all in between."
+          "text": "In the final verse, his eyes have seen the one they wanted to see, and they will not look elsewhere."
         },
         {
           "t": "slow",
-          "text": "The last line of the tenth is that his eyes, having seen this, do not want to look at anything else ever again."
+          "text": "In the morning, the priest had thrown a stone because a singer was in his way. By the end of the story, that same priest had become the singer's vehicle into the presence he had spent his life singing toward."
         }
       ]
     }
@@ -359,20 +341,20 @@
     "reason": "the same wrong on the other side of the country, and there it is the furniture that moves rather than a person"
   },
   "close": {
-    "question": "The priest did not hate him. He just did not think about him. Which of those two is easier to fix?",
-    "seed": "Most of the harm people do is not done on purpose, and that does not make it smaller.",
+    "question": "What changed more deeply in the story: the temple boundary, the priest's attention, or the way the priest understood the person in front of him?",
+    "seed": "The person who pushed him aside becomes the person who carries him with honour.",
     "ifTheyAsk": [
       {
-        "q": "Why didn't he just walk in himself?",
-        "a": "Because he had been told all his life that he must not, and he had come to believe it. That is the saddest part of the story and it is worth saying out loud: he was keeping himself out by then, and he thought it was the right thing to do."
+        "q": "Why did Tiruppāṇāḻvār refuse to enter even after the Lord asked for him?",
+        "a": "The hagiography says he believed his birth made him unqualified to enter. We name that as the later biography's framing; his own ten verses do not say it, and historical Pāṇar status was more complex."
       },
       {
-        "q": "Was the priest a bad man?",
-        "a": "He did a bad thing without meaning to, which is different. He thought the singer was somebody in the way. When he found out what he had really done, he went straight back down to the river — and the story gives him the honour of carrying him."
+        "q": "Did Raṅganātha order the priest to carry him on his shoulders?",
+        "a": "No. The Lord tells the priest in a dream to bring the Āḻvār. When the Āḻvār refuses, the priest offers his own shoulders. The tradition remembers that as the Munivāhana honour, not as a loophole preserving the old exclusion."
       },
       {
-        "q": "Why carry him instead of letting him walk?",
-        "a": "That is the question people still ask about this story, and it is a fair one. He is brought in without his feet ever touching the ground, so the old rule is never actually broken. The Lord goes round it rather than through it."
+        "q": "Did he sing nine verses on the way and the tenth inside?",
+        "a": "That is a popular modern retelling, but it was not supported by the checked hagiographic sources. We place all ten verses at the darśana of Raṅganātha."
       }
     ]
   }

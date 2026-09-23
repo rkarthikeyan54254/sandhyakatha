@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-23",
   "stories": {
     "abhimanyu-spiral": {
       "version": 2,
@@ -202,9 +202,9 @@
       "hash": "e06cef7202201be8"
     },
     "panar-shoulders": {
-      "version": 1,
-      "status": "draft",
-      "hash": "b0e837aca72a5b28"
+      "version": 2,
+      "status": "published",
+      "hash": "ee05b1ca4083b777"
     },
     "parvati-decides": {
       "version": 2,
