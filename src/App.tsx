@@ -278,7 +278,6 @@ export default function App() {
     });
   }, [localeCards, cal, observanceCatalog, open, readerWasTonightPick, child?.age, heard, favourites, profile.gate, appLocale]);
 
-  const publishedIds = useMemo(() => new Set(cards.map(c => c.id)), [cards]);
   const availableIds = useMemo(() => new Set(localeCards.map(c => c.id)), [localeCards]);
 
   async function read(id: string) {
