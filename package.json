@@ -51,7 +51,8 @@
     "verify:native-language": "node scripts/native-language-gates.mjs",
     "verify:read-aloud": "node scripts/read-aloud-gates.mjs",
     "verify:design-parity": "node scripts/design-parity-gates.mjs",
-    "verify:locale-parity": "node scripts/locale-parity-gates.mjs"
+    "verify:locale-parity": "node scripts/locale-parity-gates.mjs",
+    "verify:production-crawl": "node scripts/verify-production-crawl.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^11.0.3",

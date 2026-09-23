@@ -84,6 +84,28 @@ const STABILITY = {
   folk: 'Oral tradition; there is no text to check it against.'
 };
 
+function formatIsoDate(iso) {
+  if (!iso) return '';
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat('en-GB', {
+    day:'numeric', month:'long', year:'numeric', timeZone:'UTC'
+  }).format(d);
+}
+
+function storySeoTitle(s) {
+  const preferred = `${s.title} Story for Children | Sandhya Katha`;
+  return preferred.length <= 65 ? preferred : `${s.title} | Sandhya Katha`;
+}
+
+function relatedStoryFor(s) {
+  const id = s.linked?.next;
+  if (!id) return null;
+  const row = canon.find(c => c.id === id && c.status === 'published' && !c.gated);
+  if (!row) return null;
+  return { id, title: row.title, reason: s.linked?.reason ?? '' };
+}
+
 
 // Search landing pages over verified corpus metadata — never a second body of
 // generated mythology prose. A page is emitted only once >=2 public stories
@@ -138,8 +160,28 @@ function page(s) {
   const og = existsSync(join(ROOT, `public/og/${s.id}.jpg`))
     ? `${SITE}/og/${s.id}.jpg?v=${s.version}`
     : `${SITE}/og/default.png`;
-  const seoTitle = `${s.title} — ${s.source.work} story for children | Sandhya Katha`;
+  const seoTitle = storySeoTitle(s);
   const desc = clamp(`A ${r.minutes}-minute, source-checked ${s.source.work} story for children, from ${s.source.locus}. Ages ${s.audience.minAge}+. ${s.tease}`);
+  const related = relatedStoryFor(s);
+  const modified = formatIsoDate(s.updated);
+  const publisher = { '@type': 'Organization', name: 'Sandhya Katha', url: SITE };
+  const structured = {
+    '@context': 'https://schema.org',
+    '@type': 'ShortStory',
+    headline: s.title,
+    name: s.title,
+    description: desc,
+    url,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    inLanguage: 'en',
+    isBasedOn: `${s.source.work}, ${s.source.locus}`,
+    typicalAgeRange: `${s.audience.minAge}-15`,
+    isAccessibleForFree: true,
+    author: publisher,
+    publisher,
+    ...(s.updated ? { dateModified: s.updated } : {}),
+    ...(og ? { image: [og] } : {})
+  };
   // Link back up to any festival this story is tagged to. Without this the flow is
   // festival -> story only, and a growing corpus passes no authority to the pages
   // that actually have to rank.
@@ -163,6 +205,8 @@ function page(s) {
 <meta property="og:title" content="${esc(s.title)}"><meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}"><meta property="og:image" content="${og}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(s.title)}"><meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${og}">
 <meta name="theme-color" content="#14101c">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script>
 <script src="/gtag-init.js"></script>
@@ -172,17 +216,14 @@ function page(s) {
 <link rel="stylesheet" href="/design-tokens.css">
 <link rel="stylesheet" href="/story-media.css">
 <link rel="stylesheet" href="/story-system.css">
-<script type="application/ld+json">${JSON.stringify({
-  '@context': 'https://schema.org', '@type': 'ShortStory', name: s.title, url,
-  description: desc, inLanguage: 'en', isBasedOn: `${s.source.work}, ${s.source.locus}`,
-  typicalAgeRange: `${s.audience.minAge}-15`, isAccessibleForFree: true,
-  publisher: { '@type': 'Organization', name: 'Sandhya Katha', url: SITE }
-})}</script>
+<script type="application/ld+json">${JSON.stringify(structured)}</script>
 </head>
 <body class="sk-story-page" data-locale="en" data-story-id="${esc(s.id)}" data-story-corpus="${esc(s.source.corpus)}"><div class="w">
 <header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
 <nav class="locale-public-switch" data-locale-switch aria-label="Story language"><span class="langlabel">Language</span><a href="/s/${esc(s.id)}/" aria-current="page">English</a></nav>
 <h1 class="story-title">${esc(s.title)}</h1>
+<p class="tease">${esc(s.tease)}</p>
+<p class="story-publine">Published by <a href="/about/">Sandhya Katha</a>${modified ? ` · Updated <time datetime="${esc(s.updated)}">${esc(modified)}</time>` : ''}</p>
 <div class="attrib">
   <p><b>${esc(s.source.work)}</b> — ${esc(s.source.locus)}</p>
   ${s.source.traditionNote ? `<p class="t"><b>Tradition note.</b> ${esc(s.source.traditionNote)}</p>`
@@ -212,6 +253,7 @@ ${myCorpus && corpusStoryCount >= 2
   : ''}
 ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
   `<a href="/f/${f.slug}/">${esc(f.name)} stories for children</a>`).join(' · ')}</p>` : ''}
+${related ? `<section class="related-story"><span>Related story</span><a href="/s/${esc(related.id)}/"><b>${esc(related.title)}</b>${related.reason ? `<small>${esc(related.reason)}</small>` : ''}</a></section>` : ''}
 <div class="cta">
   <p>This is the complete telling. Sandhya Katha chooses one for your child's age and the calendar each night — free, nothing to install.</p>
   <a href="/">Open tonight's pick</a>
@@ -299,6 +341,63 @@ ${followBlock(`${meta.label} stories for children — each one cited to its sour
 </div></body></html>`;
 }
 
+
+/* ---------- complete public story archive --------------------------------
+ * Unlike source-family landings, this page is deliberately exhaustive. It is
+ * the plain-HTML crawl path that guarantees every public story is reachable
+ * from one index even when its corpus is too small to justify a landing page.
+ */
+function storiesArchivePage(stories) {
+  const url = `${SITE}/stories/`;
+  const ordered = stories.slice().sort((a,b) =>
+    (canon.find(c=>c.id===a.id)?.n ?? 9999) - (canon.find(c=>c.id===b.id)?.n ?? 9999));
+  const rows = ordered.map(st => {
+    const updated = formatIsoDate(st.updated);
+    return `<article class="story-index-row"><h2><a href="/s/${esc(st.id)}/">${esc(st.title)}</a></h2>
+      <p class="source">${esc(st.source.work)} · ${esc(st.source.locus)} · Ages ${st.audience.minAge}+</p>
+      <p>${esc(st.tease)}</p>
+      ${updated ? `<small>Updated <time datetime="${esc(st.updated)}">${esc(updated)}</time></small>` : ''}</article>`;
+  }).join('\n');
+  const itemList = ordered.map((st,i)=>({
+    '@type':'ListItem', position:i+1, name:st.title, url:`${SITE}/s/${st.id}/`
+  }));
+  const desc = `${ordered.length} source-linked Hindu stories for children, including the Rāmāyaṇa, Mahābhārata, Purāṇas, Upaniṣads and bhakti traditions.`;
+  return `<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>All Stories for Children | Sandhya Katha</title>
+<meta name="description" content="${esc(desc)}"><link rel="canonical" href="${url}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Sandhya Katha">
+<meta property="og:title" content="All stories for children · Sandhya Katha"><meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${SITE}/og/default.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="All stories for children · Sandhya Katha">
+<meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${SITE}/og/default.png">
+<meta name="theme-color" content="#14101c"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Karla:wght@400;600;700&family=Tiro+Devanagari+Sanskrit&display=swap">
+<script type="application/ld+json">${JSON.stringify({
+  '@context':'https://schema.org','@type':'CollectionPage',name:'All Sandhya Katha stories',
+  url,description:desc,isAccessibleForFree:true,
+  mainEntity:{'@type':'ItemList',itemListElement:itemList},
+  publisher:{'@type':'Organization',name:'Sandhya Katha',url:SITE}
+})}</script>
+<style>
+:root{--night:#14101c;--lamp:#f0b458;--lamp-dim:#a97c3a;--paper:#f3e7d3;--paper-dim:#c9baa4;--muted:#948aa6;--line:#302941}
+*{box-sizing:border-box}body{margin:0;background:var(--night);color:var(--paper);font-family:Karla,system-ui,sans-serif;background-image:radial-gradient(900px 500px at 50% -10%,#282040 0,rgba(40,32,64,0) 70%)}.w{max-width:720px;margin:0 auto;padding:0 22px 72px}header{padding:22px 0 18px;border-bottom:1px solid var(--line)}header a{text-decoration:none;color:inherit}header b{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:18px}.kick{margin:28px 0 0;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--lamp-dim);font-weight:700}h1{font-family:"Tiro Devanagari Sanskrit",serif;font-weight:400;font-size:clamp(32px,7vw,44px);line-height:1.14;margin:10px 0 0}.lede{font-family:"Gentium Book Plus",Georgia,serif;font-size:18px;line-height:1.65;color:var(--paper-dim);margin:14px 0 20px}.story-index-row{padding:19px 0;border-top:1px solid var(--line)}.story-index-row h2{font-family:"Tiro Devanagari Sanskrit",serif;font-size:21px;font-weight:400;line-height:1.3;margin:0}.story-index-row h2 a{text-decoration:none;color:var(--paper)}.story-index-row h2 a:hover{color:var(--lamp)}.story-index-row p{font-family:"Gentium Book Plus",Georgia,serif;font-size:16px;line-height:1.55;color:var(--paper-dim);margin:7px 0 0}.story-index-row p.source{font-family:Karla,system-ui,sans-serif;font-size:11.5px;color:var(--lamp-dim)}.story-index-row small{display:block;margin-top:7px;color:var(--muted)}footer{margin-top:28px;font-size:12px;color:var(--muted)}footer a{color:var(--lamp-dim)}
+</style></head><body><div class="w"><header><a href="/"><b>Sandhya Katha</b></a></header>
+<p class="kick">Complete public archive</p><h1>Stories for children, with their sources</h1>
+<p class="lede">Every public Sandhya Katha story in one crawlable index. Each story page contains the complete telling, the source or tradition it was checked against, and age guidance.</p>
+${rows}<footer><a href="/">Tonight</a> · <a href="/shelf/">The shelf</a> · <a href="/about/">About</a></footer>
+</div></body></html>`;
+}
+
+function notFoundPage() {
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Page not found | Sandhya Katha</title>
+<meta name="theme-color" content="#14101c"></head><body style="margin:0;background:#14101c;color:#f3e7d3;font-family:system-ui,sans-serif">
+<main style="max-width:620px;margin:0 auto;padding:64px 22px"><p style="color:#a97c3a">Sandhya Katha</p><h1>That story is not on the shelf.</h1>
+<p style="color:#c9baa4;line-height:1.6">The address may be old or mistyped. Browse the public story archive instead.</p>
+<p><a href="/stories/" style="color:#f0b458">Browse all stories</a></p></main></body></html>`;
+}
 
 /* ---------- festival landing pages ---------- */
 /**
@@ -621,6 +720,12 @@ for (const f of readdirSync(join(ROOT, 'content/stories')).filter(f => f.endsWit
   n++;
 }
 
+mkdirSync(join(dist, 'stories'), { recursive: true });
+writeFileSync(join(dist, 'stories', 'index.html'), storiesArchivePage(publishedStories));
+urls.push(`${SITE}/stories/`);
+writeFileSync(join(dist, '404.html'), notFoundPage());
+console.log(`public story archive: ${publishedStories.length} story link(s)`);
+
 // corpus pages — no thin pages: require at least two published, ungated stories.
 const corpusPages = [];
 let cp = 0;
@@ -668,7 +773,7 @@ console.log(`prerendered ${fp} festival page(s)`);
   const festLinks = festivalPages.map(x =>
     `<a href="/f/${x.slug}/" style="color:#f0b458;text-decoration:none">${esc(x.name)}</a>`
   ).join(' · ');
-  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav><nav aria-label="Browse stories by festival"><p style="color:#c9baa4">Stories for a festival night</p><p>${festLinks}</p></nav></main></div>`;
+  const fallback = `<div id="root"><main style="max-width:680px;margin:0 auto;padding:32px 22px;color:#f3e7d3;background:#14101c;font-family:Karla,system-ui,sans-serif;min-height:100vh"><p style="color:#a97c3a;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Sandhya Katha</p><h1 style="font-family:'Tiro Devanagari Sanskrit',serif;font-weight:400">Hindu stories for children, read aloud in six minutes.</h1><p style="color:#c9baa4;line-height:1.65">From the Rāmāyaṇa, Mahābhārata, Purāṇas and Upaniṣads — each one checked against a named source before publication.</p><p><a href="/stories/" style="color:#f0b458;text-decoration:none">Browse all ${publishedStories.length} public stories →</a></p><nav aria-label="Browse stories by source"><p style="color:#c9baa4">Browse stories by source</p><p>${links}</p></nav><nav aria-label="Browse stories by festival"><p style="color:#c9baa4">Stories for a festival night</p><p>${festLinks}</p></nav></main></div>`;
   /* ---------- the other three surfaces ---------------------------------
    * /shelf/, /map/ and /why/ are real addresses now (src/lib/route.ts), but the
    * SPA fallback would serve the homepage HTML at all three — one page of
@@ -789,5 +894,5 @@ ${feedItems}
 `);
 console.log(`feed.xml — ${Math.min(publishedStories.length, 50)} item(s)`);
 
-writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /preview/\nSitemap: ${SITE}/sitemap.xml\n`);
+writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /preview/\n\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log(`prerendered ${n} shareable story page(s) + sitemap`);

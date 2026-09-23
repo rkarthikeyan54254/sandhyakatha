@@ -39,6 +39,7 @@ const LANG = {
     reviewedIllustration:'समीक्षित चित्र',
     englishSource:'अंग्रेज़ी मूल संस्करण',
     shareEdition:'समीक्षित हिन्दी संस्करण',
+    publishedBy:'प्रकाशक', updatedLabel:'अद्यतन', relatedStory:'संबंधित कहानी',
     sensitivity:{death:'मृत्यु','gender-norms':'लैंगिक मान्यताएँ',injustice:'अन्याय',loss:'वियोग','parental-conflict':'माता-पिता से टकराव','social-hierarchy':'सामाजिक ऊँच-नीच',violence:'हिंसा'}
   },
   'ta-IN': {
@@ -65,6 +66,7 @@ const LANG = {
     reviewedIllustration:'மதிப்பாய்வு செய்யப்பட்ட படம்',
     englishSource:'ஆங்கில மூலப் பதிப்பு',
     shareEdition:'மதிப்பாய்வு செய்யப்பட்ட தமிழ் பதிப்பு',
+    publishedBy:'வெளியீடு', updatedLabel:'புதுப்பிப்பு', relatedStory:'தொடர்புடைய கதை',
     sensitivity:{death:'மரணம்','gender-norms':'பாலின மரபுகள்',injustice:'அநீதி',loss:'இழப்பு','parental-conflict':'பெற்றோர் மோதல்','social-hierarchy':'சமூக ஏற்றத் தாழ்வு',violence:'வன்முறை'}
   }
 };
@@ -105,6 +107,15 @@ function localizeLocus(locus, locale) {
     .replace(/Udyoga Parva/gi,'உத்யோக பர்வம்').replace(/Rudra Saṃhitā/gi,'ருத்ர சம்ஹிதை')
     .replace(/Upāsanā Khaṇḍa/gi,'உபாசனா காண்டம்').replace(/Pārvatī Khaṇḍa/gi,'பார்வதி காண்டம்')
     .replace(/sarga/gi,'சர்க்கம்');
+}
+
+function formatIsoDate(iso, locale) {
+  if (!iso) return '';
+  const d=new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat(locale==='hi-IN'?'hi-IN':'ta-IN',{
+    day:'numeric',month:'long',year:'numeric',timeZone:'UTC'
+  }).format(d);
 }
 
 function nativeSourceLine(source, locale) {
@@ -200,6 +211,14 @@ function switcher(storyId,current) {
 function heroFor(source) {
   return approvedHeroUrl({root:ROOT,story:source,media});
 }
+function relatedLocaleStory(source, locale) {
+  const id=source.linked?.next;
+  if (!id) return null;
+  const row=(publicByStory.get(id) ?? []).find(x=>x.locale===locale);
+  if (!row) return null;
+  const doc=read(localePath(locale,id));
+  return {id,title:doc.title,href:publicLocaleHref(id,locale)};
+}
 function publicPage(doc,source) {
   const policy=LANG[doc.locale];
   const href=publicLocaleHref(source.id,doc.locale);
@@ -213,11 +232,24 @@ function publicPage(doc,source) {
   const localeRevision=lock.locales?.[`${doc.locale}/${source.id}`]?.hash?.slice(0,10);
   if (!localeRevision) throw new Error(`${doc.locale}/${source.id}: locked locale revision missing`);
   const shareUrl=`${absolute}?l=${localeRevision}`;
+  const modified=formatIsoDate(source.updated,doc.locale);
+  const related=relatedLocaleStory(source,doc.locale);
+  const publisher={ '@type':'Organization', name:'Sandhya Katha', url:SITE };
+  const structured={
+    '@context':'https://schema.org','@type':'ShortStory',
+    headline:doc.title,name:doc.title,description:doc.tease,url:absolute,
+    mainEntityOfPage:{'@type':'WebPage','@id':absolute},
+    inLanguage:policy.language,isBasedOn:`${source.source.work}, ${source.source.locus}`,
+    typicalAgeRange:`${source.audience.minAge}-15`,isAccessibleForFree:true,
+    author:publisher,publisher,
+    ...(source.updated?{dateModified:source.updated}:{}),
+    ...(og?{image:[og]}:{})
+  };
   const sharePayload=JSON.stringify({
     text:`${doc.title} — Sandhya Katha · ${policy.shareEdition}`,
     url:shareUrl
   }).replace(/'/g,'&#39;');
-  return `<!doctype html><html lang="${policy.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(doc.title)} — ${esc(policy.label)} | Sandhya Katha</title><meta name="description" content="${esc(doc.tease)}"><link rel="canonical" href="${esc(absolute)}">${alternates(source.id)}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(doc.title)} · ${esc(policy.label)}"><meta property="og:description" content="${esc(doc.tease)}"><meta property="og:url" content="${esc(absolute)}"><meta property="og:locale" content="${esc(policy.ogLocale)}"><meta property="og:image" content="${esc(og)}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${esc(og)}"><meta name="theme-color" content="#14101c"><script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script><script src="/gtag-init.js"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/design-tokens.css"><link rel="stylesheet" href="/story-media.css"><link rel="stylesheet" href="/story-system.css"><link rel="stylesheet" href="/locale-edition-v2.css"><script src="/share.js" defer></script></head><body class="sk-story-page" data-story-id="${esc(source.id)}" data-history-story-id="${esc(source.id)}" data-story-version="${source.version}" data-locale="${esc(doc.locale)}"><div class="w"><header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>${switcher(source.id,doc.locale)}<article class="story-article locale" lang="${policy.language}"><h1 class="story-title">${esc(doc.title)}</h1><p class="tease">${render(doc.tease,doc)}</p><div class="public-edition-note" data-reviewed-locale-edition="1"><b>${esc(policy.reviewedHeading)}</b><p>${esc(policy.reviewedBody)}</p></div><div class="attrib"><p><b>${esc(nativeSourceLine(source,doc.locale))}</b></p><details class="canonical-source"><summary>${esc(policy.canonicalSourceLabel)}</summary><p lang="en">${esc(source.source.work)} — ${esc(source.source.locus)}</p></details><p><b>${esc(policy.traditionLabel)}</b> ${render(doc.traditionNote,doc)}</p><p><b>${esc(policy.beforeLabel)}</b> ${render(doc.parentNote,doc)}</p></div><div class="meta"><span>${duration} ${esc(policy.minutes)}</span><span>${esc(policy.age)} ${source.audience.minAge}+</span>${sensitivity?`<span>${esc(sensitivity)}</span>`:''}<span>${esc(policy.canonicalStory)} v${source.version}</span></div>${hero?`<figure class="storyart"><div class="storyart-frame"><img src="${esc(hero)}" alt="${esc(doc.title)}" loading="eager" decoding="async"></div><figcaption>${esc(policy.reviewedIllustration)} · ${esc(policy.canonicalStory)} v${source.version}</figcaption></figure>`:''}<div class="prose">${blocks(doc,policy)}</div><section class="turn" data-close-question-source="${esc(encodeURIComponent(doc.close.question))}"><span class="eyebrow">${esc(policy.questionLabel)}</span><p>${render(doc.close.question,doc)}</p><p class="seed">${esc(policy.seedPrefix)} <b>${render(doc.close.seed,doc)}</b></p></section>${asks(doc,policy)}<section class="sharewrap"><p>${esc(policy.shareNote)}</p><button type="button" class="sharebtn" data-share='${sharePayload}'>${esc(policy.shareButton)}</button></section><div class="cta"><p>${esc(policy.tonightNote)}</p><a href="/?lang=${policy.language}">${esc(policy.tonightCta)}</a></div><footer class="story-footer"><a href="/s/${esc(source.id)}/">${esc(policy.englishSource)}</a> · <a href="/${policy.language}/">${esc(policy.label)}</a></footer></article></div></body></html>`;
+  return `<!doctype html><html lang="${policy.language}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(doc.title)} — ${esc(policy.label)} | Sandhya Katha</title><meta name="description" content="${esc(doc.tease)}"><link rel="canonical" href="${esc(absolute)}">${alternates(source.id)}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta property="og:type" content="article"><meta property="og:site_name" content="Sandhya Katha"><meta property="og:title" content="${esc(doc.title)} · ${esc(policy.label)}"><meta property="og:description" content="${esc(doc.tease)}"><meta property="og:url" content="${esc(absolute)}"><meta property="og:locale" content="${esc(policy.ogLocale)}"><meta property="og:image" content="${esc(og)}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(doc.title)}"><meta name="twitter:description" content="${esc(doc.tease)}"><meta name="twitter:image" content="${esc(og)}"><meta name="theme-color" content="#14101c"><script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script><script src="/gtag-init.js"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Karla:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600&family=Noto+Serif+Tamil:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap"><link rel="stylesheet" href="/design-tokens.css"><link rel="stylesheet" href="/story-media.css"><link rel="stylesheet" href="/story-system.css"><link rel="stylesheet" href="/locale-edition-v2.css"><script type="application/ld+json">${JSON.stringify(structured)}</script><script src="/share.js" defer></script></head><body class="sk-story-page" data-story-id="${esc(source.id)}" data-history-story-id="${esc(source.id)}" data-story-version="${source.version}" data-locale="${esc(doc.locale)}"><div class="w"><header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>${switcher(source.id,doc.locale)}<article class="story-article locale" lang="${policy.language}"><h1 class="story-title">${esc(doc.title)}</h1><p class="tease">${render(doc.tease,doc)}</p><p class="story-publine">${esc(policy.publishedBy)} <a href="/about/">Sandhya Katha</a>${modified?` · ${esc(policy.updatedLabel)} <time datetime="${esc(source.updated)}">${esc(modified)}</time>`:''}</p><div class="public-edition-note" data-reviewed-locale-edition="1"><b>${esc(policy.reviewedHeading)}</b><p>${esc(policy.reviewedBody)}</p></div><div class="attrib"><p><b>${esc(nativeSourceLine(source,doc.locale))}</b></p><details class="canonical-source"><summary>${esc(policy.canonicalSourceLabel)}</summary><p lang="en">${esc(source.source.work)} — ${esc(source.source.locus)}</p></details><p><b>${esc(policy.traditionLabel)}</b> ${render(doc.traditionNote,doc)}</p><p><b>${esc(policy.beforeLabel)}</b> ${render(doc.parentNote,doc)}</p></div><div class="meta"><span>${duration} ${esc(policy.minutes)}</span><span>${esc(policy.age)} ${source.audience.minAge}+</span>${sensitivity?`<span>${esc(sensitivity)}</span>`:''}<span>${esc(policy.canonicalStory)} v${source.version}</span></div>${hero?`<figure class="storyart"><div class="storyart-frame"><img src="${esc(hero)}" alt="${esc(doc.title)}" loading="eager" decoding="async"></div><figcaption>${esc(policy.reviewedIllustration)} · ${esc(policy.canonicalStory)} v${source.version}</figcaption></figure>`:''}<div class="prose">${blocks(doc,policy)}</div><section class="turn" data-close-question-source="${esc(encodeURIComponent(doc.close.question))}"><span class="eyebrow">${esc(policy.questionLabel)}</span><p>${render(doc.close.question,doc)}</p><p class="seed">${esc(policy.seedPrefix)} <b>${render(doc.close.seed,doc)}</b></p></section>${asks(doc,policy)}${related?`<section class="related-story"><span>${esc(policy.relatedStory)}</span><a href="${esc(related.href)}"><b>${esc(related.title)}</b></a></section>`:''}<section class="sharewrap"><p>${esc(policy.shareNote)}</p><button type="button" class="sharebtn" data-share='${sharePayload}'>${esc(policy.shareButton)}</button></section><div class="cta"><p>${esc(policy.tonightNote)}</p><a href="/?lang=${policy.language}">${esc(policy.tonightCta)}</a></div><footer class="story-footer"><a href="/s/${esc(source.id)}/">${esc(policy.englishSource)}</a> · <a href="/${policy.language}/">${esc(policy.label)}</a></footer></article></div></body></html>`;
 }
 function movedPreview(doc,source) {
   const p=LANG[doc.locale];
