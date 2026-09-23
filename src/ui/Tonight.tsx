@@ -299,7 +299,7 @@ export default function Tonight(p: Props) {
   );
 }
 
-function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
+function LocaleTonight({ locale, pick, cards, pan, onRead, onShelf, observances }: {
   locale: Exclude<AppLocale,'en'>;
   pick: Pick | null;
   cards: Card[];
@@ -318,10 +318,7 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
     <>
       <h1 className="greet locale-copy">{ui.greeting}</h1>
       <p className="datestrip locale-copy"><span className="g">{date}</span>
-        {!pan.approximate && <span className="p">
-          {titleCase(pan.masa)} · {titleCase(pan.paksha)} pakṣa · {titleCase(pan.tithi.split('-')[1] ?? '')}
-          {pan.tamil ? ` · ${pan.tamil} ${pan.tamilDay}` : ''}
-        </span>}
+        {!pan.approximate && <span className="p">{localizedPanchanga(pan, locale)}</span>}
       </p>
       {observances.some(o => observanceLabel(o, locale)) && (
         <p className="festival">{observances.map(o => observanceLabel(o, locale)).filter(Boolean).slice(0, 4).join(' · ')}</p>
@@ -340,7 +337,7 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, observances }: {
             </p>
           </div>
           <div className="body">
-            <div className="srcline">{s.work} · {s.locus}</div>
+            <div className="srcline">{localizedSourceWork(s.work, locale)} · {localizedSourceLocus(s.locus, locale)}</div>
             <h2>{s.title}</h2>
             <p className="tease">{s.tease}</p>
             {s.hero && (
