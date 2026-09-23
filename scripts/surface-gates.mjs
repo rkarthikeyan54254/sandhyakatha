@@ -204,6 +204,15 @@ else {
     if (!locs.includes(`${SITE}/s/${id}/`)) errors.push(`sitemap.xml: public story missing ${id}`);
 }
 
+const buildInfo=join(dist,'build-info.json');
+if (!existsSync(buildInfo)) errors.push('build-info.json: missing from dist root');
+else {
+  try {
+    const info=JSON.parse(readFileSync(buildInfo,'utf8'));
+    if (!info.commit) errors.push('build-info.json: commit marker missing');
+  } catch { errors.push('build-info.json: invalid JSON'); }
+}
+
 const nf=join(dist,'404.html');
 if (!existsSync(nf)) errors.push('404.html: missing');
 else if (!/name="robots" content="noindex,nofollow"/i.test(readFileSync(nf,'utf8')))
@@ -212,6 +221,7 @@ else if (!/name="robots" content="noindex,nofollow"/i.test(readFileSync(nf,'utf8
 const netlify=readFileSync(join(ROOT,'netlify.toml'),'utf8');
 for (const token of [
   'from = "/s/*"','to = "/404.html"','status = 404',
+  'for = "/build-info.json"','Cache-Control = "no-store"',
   'for = "/robots.txt"','Content-Type = "text/plain; charset=utf-8"',
   'for = "/sitemap.xml"','Content-Type = "application/xml; charset=utf-8"'
 ]) if (!netlify.includes(token)) errors.push(`netlify crawler contract missing: ${token}`);

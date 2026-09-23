@@ -45,6 +45,12 @@
 # Editorial JSON is mutable at a stable URL. The service worker owns offline
 # fallback; browser/CDN caches must revalidate before treating a copy as current.
 [[headers]]
+  for = "/build-info.json"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
   for = "/robots.txt"
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"

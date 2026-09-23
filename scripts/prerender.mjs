@@ -533,6 +533,8 @@ ${SITE_NAV}</footer>
 
 const dist = join(ROOT, 'dist');
 if (!existsSync(dist)) { console.error('run vite build first'); process.exit(1); }
+const BUILD_COMMIT = process.env.COMMIT_REF ?? process.env.GITHUB_SHA ?? 'local';
+writeFileSync(join(dist,'build-info.json'), JSON.stringify({commit:BUILD_COMMIT}) + '\n');
 
 
 /* ---------- static pages -------------------------------------------------
