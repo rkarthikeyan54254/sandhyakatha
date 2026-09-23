@@ -200,11 +200,17 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
 
       {say && createPortal(
         <button className="pop" style={placeVars(say.rect)} onClick={() => setSay(null)}>
-          <b>{lex[say.term]?.say}</b>
-          <span>{lex[say.term]?.gloss}</span>
-          {lex[say.term]?.native?.taml
-            ? <i>{lex[say.term].native.taml}</i>
-            : lex[say.term]?.native?.deva && <i>{lex[say.term].native.deva}</i>}
+          {localized ? <>
+            <b>{story.displayNames?.[say.term] ?? displayTerm(lex, say.term)}</b>
+            {lex[say.term]?.say && <span>{copy.pronunciation}: {lex[say.term].say}</span>}
+            <i>{copy.nameHelp}</i>
+          </> : <>
+            <b>{lex[say.term]?.say}</b>
+            <span>{lex[say.term]?.gloss}</span>
+            {lex[say.term]?.native?.taml
+              ? <i>{lex[say.term].native.taml}</i>
+              : lex[say.term]?.native?.deva && <i>{lex[say.term].native.deva}</i>}
+          </>}
         </button>, document.body)}
     </>
   );
