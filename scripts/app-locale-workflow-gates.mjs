@@ -16,6 +16,9 @@ for (const rel of [
   'src/ui/Chrome.tsx',
   'src/ui/Tonight.tsx',
   'src/ui/Reader.tsx',
+  'src/ui/Shelf.tsx',
+  'src/ui/Constellation.tsx',
+  'src/ui/Why.tsx',
   'src/lib/picker.ts'
 ]) if (!existsSync(join(ROOT,rel))) fail(`locale-aware app component missing: ${rel}`);
 
@@ -35,16 +38,55 @@ for (const token of [
   'locale-catalog.json',
   '/data/l/',
   'allowRepeatFallback',
-  "locale: open?.locale ?? 'en'"
+  "locale: open?.locale ?? 'en'",
+  'currentStory',
+  'localeStoryMeta(localeCatalog, next, currentStory.id)',
+  'locale={appLocale}',
+  'availableIds'
 ]) if (!app.includes(token)) fail(`App locale contract missing: ${token}`);
+const chooseStart=app.indexOf('const chooseLocale');
+const chooseEnd=app.indexOf('useEffect(() =>',chooseStart);
+const chooseBlock=chooseStart>=0&&chooseEnd>chooseStart?app.slice(chooseStart,chooseEnd):'';
+if (chooseBlock.includes("setTab('tonight')") || chooseBlock.includes("pushTabPath('tonight')"))
+  fail('changing language must preserve the current section instead of returning to Tonight');
+
+// Product parity: locale is a property of the whole app, not only Tonight/Reader.
+const localeUi = source('src/lib/app-locale.ts');
+for (const stale of ['सभी 5 हिन्दी कहानियाँ','5 தமிழ் கதைகளையும் பார்க்க','5 reviewed stories'])
+  if (localeUi.includes(stale)) fail(`stale fixed-size locale shelf copy remains: ${stale}`);
+for (const token of ['localizedSourceWork','localizedSourceLocus','localizedPanchanga','localizedCount'])
+  if (!localeUi.includes(token)) fail(`native product metadata helper missing: ${token}`);
+
+const shelf = source('src/ui/Shelf.tsx');
+for (const token of ['locale?: AppLocale','localizedCorpusLabel','localizedTraditionLabel','localizedSourceWork','availableIds'])
+  if (!shelf.includes(token)) fail(`shared Shelf is not locale-aware: ${token}`);
+if (shelf.includes('5 reviewed stories')) fail('Shelf must never hard-code locale corpus size');
+
+const map = source('src/ui/Constellation.tsx');
+for (const token of ["locale?:AppLocale","'hi-IN'","'ta-IN'","relationLabel","clusterLabel"])
+  if (!map.includes(token)) fail(`Constellation native product copy missing: ${token}`);
+
+const why = source('src/ui/Why.tsx');
+for (const token of ["locale?: AppLocale","'hi-IN'","'ta-IN'","சாட்பாட்டிடமே","सिर्फ़ चैटबॉट"])
+  if (!why.includes(token)) fail(`Why native product copy missing: ${token}`);
+
+const reader = source('src/ui/Reader.tsx');
+if (!reader.includes('localizedSourceWork') || !reader.includes('localizedSourceLocus'))
+  fail('Reader must render native source metadata while retaining canonical evidence');
 
 const chrome = source('src/ui/Chrome.tsx');
-if (!chrome.includes("ui.mapTab") || !chrome.includes("onTab('map')"))
-  fail('Hindi/Tamil navigation must preserve the four-slot Tonight/Shelf/Map/Why structure');
+if (!chrome.includes("ui.mapTab") || !chrome.includes("onTab('map')") || !chrome.includes("onTab(k)"))
+  fail('Hindi/Tamil navigation must preserve the same four-slot Tonight/Shelf/Map/Why structure');
+if (chrome.includes('localeShelfPath'))
+  fail('locale Shelf must stay in the shared app; external locale shelf navigation is forbidden');
 
 const tonight = source('src/ui/Tonight.tsx');
 if (!tonight.includes('pan: Panchanga') || !tonight.includes('localeReason(pick.reason, locale)'))
   fail('locale Tonight must preserve date/panchanga and Why-tonight structure');
+for (const token of ['localizedPanchanga','localizedSourceWork','localizedSourceLocus','onShelf'])
+  if (!tonight.includes(token)) fail(`locale Tonight parity missing: ${token}`);
+if (tonight.includes('localeShelfPath(locale)'))
+  fail('locale Tonight must not leave the app to reach Shelf');
 
 const styles = source('src/styles.css');
 if (!styles.includes('"brand main" "language main" "nav main"') ||
@@ -86,7 +128,6 @@ if (!picker.includes('allowRepeatFallback'))
 if (picker.includes('pickHindi') || picker.includes('pickTamil'))
   fail('language-specific picker fork is forbidden');
 
-const reader = source('src/ui/Reader.tsx');
 if (!reader.includes('story.publicPath') || !reader.includes('story.displayNames'))
   fail('Reader must preserve locale public route and localized display names');
 
@@ -102,8 +143,14 @@ for (const locale of ['hi-IN','ta-IN'])
 const prerender = source('scripts/prerender-public-locales.mjs');
 if (!prerender.includes('/?lang=${p.language}'))
   fail('public Hindi/Tamil shelves must offer a Tonight entry into the locale-aware app');
+if (!prerender.includes("location.replace('/shelf/?lang=${p.language}')"))
+  fail('legacy /hi/ and /ta/ shelves must hand interactive users to the shared app Shelf');
+if (!prerender.includes('canonicalSourceLabel') || !prerender.includes('nativeSourceLine'))
+  fail('public locale story pages must show native source chrome');
 
 const index = source('index.html');
+if (!index.includes('document.documentElement.lang'))
+  fail('app shell must set selected document language before first paint');
 for (const lang of ['hi','ta'])
   if (!index.includes(`hreflang="${lang}"`))
     fail(`root HTML missing ${lang} hreflang discovery`);
