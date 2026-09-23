@@ -464,7 +464,10 @@ export function localizedSourceLocus(locus:string, locale:AppLocale):string {
   if (locale === 'en') return locus;
   let out=locus;
   for (const [pattern,replacement] of LOCUS_REPLACEMENTS[locale]) out=out.replace(pattern,replacement);
-  return out;
+  // A source locator sometimes consists almost entirely of a proper name or
+  // English editorial description. Do not create a mixed-script UI line. The
+  // exact canonical locus is still preserved in the source disclosure.
+  return /[A-Za-z]/.test(out) ? '' : out;
 }
 
 function plainKey(value:string):string {
