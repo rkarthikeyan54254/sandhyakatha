@@ -72,10 +72,7 @@ export default function Why({ locale = 'en' }: { locale?: AppLocale }) {
         <div className="pt" key={h}><span className="k">{i+1}</span><div><h3>{h}</h3><p>{p}</p></div></div>
       ))}
       <div className="closing">
-        <p><b>{copy.closing.split('।')[0]}{locale === 'hi-IN' ? '।' : locale === 'ta-IN' ? '.' : ''}</b>
-          {locale === 'en' ? ' ' + copy.closing.split('. ').slice(1).join('. ') :
-           locale === 'hi-IN' ? ' ' + copy.closing.split('।').slice(1).join('।') :
-           ' ' + copy.closing.split('.').slice(1).join('.')}</p>
+        <p>{copy.closing}</p>
         <p className="fine">{copy.aboutLead}{' '}<a href="/about/">{copy.aboutLabel}</a>.</p>
       </div>
     </section>
