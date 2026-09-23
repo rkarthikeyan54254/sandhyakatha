@@ -1,9 +1,9 @@
 {
   "id": "panar-shoulders",
   "schemaVersion": "1.0",
-  "status": "draft",
+  "status": "published",
   "version": 2,
-  "updated": "2026-09-15",
+  "updated": "2026-09-23",
   "title": "Carried In on Someone's Shoulders",
   "tease": "A priest throws a stone at a singer who does not hear him. That night the Lord says in a dream: bring him in. When the singer refuses, the priest offers his shoulders.",
   "source": {
@@ -94,7 +94,9 @@
         "tellings": "A popular modern retelling sometimes places nine on the road and the tenth before Raṅganātha. The checked hagiographic material places the poem at the darśana.",
         "weTell": "All ten are associated with seeing Raṅganātha in the sanctum; we do not use the nine-on-the-road claim."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-23"
   },
   "audience": {
     "minAge": 8,
