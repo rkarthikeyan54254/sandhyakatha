@@ -75,8 +75,9 @@ if (!reader.includes('localizedSourceWork') || !reader.includes('localizedSource
   fail('Reader must render native source metadata while retaining canonical evidence');
 
 const chrome = source('src/ui/Chrome.tsx');
-if (!chrome.includes("ui.mapTab") || !chrome.includes("onTab('map')") || !chrome.includes("onTab(k)"))
-  fail('Hindi/Tamil navigation must preserve the same four-slot Tonight/Shelf/Map/Why structure');
+for (const token of ["ui.tonightTab","ui.shelfTab","ui.mapTab","ui.whyTab","onTab(k)"])
+  if (!chrome.includes(token))
+    fail(`Hindi/Tamil navigation must preserve the same four-slot Tonight/Shelf/Map/Why structure: ${token}`);
 if (chrome.includes('localeShelfPath'))
   fail('locale Shelf must stay in the shared app; external locale shelf navigation is forbidden');
 
