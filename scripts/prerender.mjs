@@ -84,6 +84,28 @@ const STABILITY = {
   folk: 'Oral tradition; there is no text to check it against.'
 };
 
+function formatIsoDate(iso) {
+  if (!iso) return '';
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat('en-GB', {
+    day:'numeric', month:'long', year:'numeric', timeZone:'UTC'
+  }).format(d);
+}
+
+function storySeoTitle(s) {
+  const preferred = `${s.title} Story for Children | Sandhya Katha`;
+  return preferred.length <= 65 ? preferred : `${s.title} | Sandhya Katha`;
+}
+
+function relatedStoryFor(s) {
+  const id = s.linked?.next;
+  if (!id) return null;
+  const row = canon.find(c => c.id === id && c.status === 'published' && !c.gated);
+  if (!row) return null;
+  return { id, title: row.title, reason: s.linked?.reason ?? '' };
+}
+
 
 // Search landing pages over verified corpus metadata — never a second body of
 // generated mythology prose. A page is emitted only once >=2 public stories
@@ -138,8 +160,28 @@ function page(s) {
   const og = existsSync(join(ROOT, `public/og/${s.id}.jpg`))
     ? `${SITE}/og/${s.id}.jpg?v=${s.version}`
     : `${SITE}/og/default.png`;
-  const seoTitle = `${s.title} — ${s.source.work} story for children | Sandhya Katha`;
+  const seoTitle = storySeoTitle(s);
   const desc = clamp(`A ${r.minutes}-minute, source-checked ${s.source.work} story for children, from ${s.source.locus}. Ages ${s.audience.minAge}+. ${s.tease}`);
+  const related = relatedStoryFor(s);
+  const modified = formatIsoDate(s.updated);
+  const publisher = { '@type': 'Organization', name: 'Sandhya Katha', url: SITE };
+  const structured = {
+    '@context': 'https://schema.org',
+    '@type': 'ShortStory',
+    headline: s.title,
+    name: s.title,
+    description: desc,
+    url,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    inLanguage: 'en',
+    isBasedOn: `${s.source.work}, ${s.source.locus}`,
+    typicalAgeRange: `${s.audience.minAge}-15`,
+    isAccessibleForFree: true,
+    author: publisher,
+    publisher,
+    ...(s.updated ? { dateModified: s.updated } : {}),
+    ...(og ? { image: [og] } : {})
+  };
   // Link back up to any festival this story is tagged to. Without this the flow is
   // festival -> story only, and a growing corpus passes no authority to the pages
   // that actually have to rank.
@@ -163,6 +205,8 @@ function page(s) {
 <meta property="og:title" content="${esc(s.title)}"><meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${url}"><meta property="og:image" content="${og}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(s.title)}"><meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${og}">
 <meta name="theme-color" content="#14101c">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPVB5L4QJ"></script>
 <script src="/gtag-init.js"></script>
@@ -172,17 +216,14 @@ function page(s) {
 <link rel="stylesheet" href="/design-tokens.css">
 <link rel="stylesheet" href="/story-media.css">
 <link rel="stylesheet" href="/story-system.css">
-<script type="application/ld+json">${JSON.stringify({
-  '@context': 'https://schema.org', '@type': 'ShortStory', name: s.title, url,
-  description: desc, inLanguage: 'en', isBasedOn: `${s.source.work}, ${s.source.locus}`,
-  typicalAgeRange: `${s.audience.minAge}-15`, isAccessibleForFree: true,
-  publisher: { '@type': 'Organization', name: 'Sandhya Katha', url: SITE }
-})}</script>
+<script type="application/ld+json">${JSON.stringify(structured)}</script>
 </head>
 <body class="sk-story-page" data-locale="en" data-story-id="${esc(s.id)}" data-story-corpus="${esc(s.source.corpus)}"><div class="w">
 <header class="story-head"><a href="/"><span class="mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -1 42 45" width="21" height="23" role="presentation"><defs><radialGradient id="skdiya" cx="50%" cy="62%" r="60%"><stop offset="0%" stop-color="#fff0c4"/><stop offset="60%" stop-color="#f0b458"/><stop offset="100%" stop-color="#e0873f"/></radialGradient></defs><path d="M7 0 C13 11 15 19 7 28 C-1 19 1 11 7 0 Z" fill="url(#skdiya)"/><ellipse cx="7" cy="21" rx="2.4" ry="5" fill="#fff6dd" opacity=".9"/><path d="M-13 32 Q7 47 27 32 Q7 38 -13 32 Z" fill="#a97c3a"/></svg></span><span><b>Sandhya Katha</b><i>संध्या कथा</i></span></a></header>
 <nav class="locale-public-switch" data-locale-switch aria-label="Story language"><span class="langlabel">Language</span><a href="/s/${esc(s.id)}/" aria-current="page">English</a></nav>
 <h1 class="story-title">${esc(s.title)}</h1>
+<p class="tease">${esc(s.tease)}</p>
+<p class="story-publine">Published by <a href="/about/">Sandhya Katha</a>${modified ? ` · Updated <time datetime="${esc(s.updated)}">${esc(modified)}</time>` : ''}</p>
 <div class="attrib">
   <p><b>${esc(s.source.work)}</b> — ${esc(s.source.locus)}</p>
   ${s.source.traditionNote ? `<p class="t"><b>Tradition note.</b> ${esc(s.source.traditionNote)}</p>`
@@ -212,6 +253,7 @@ ${myCorpus && corpusStoryCount >= 2
   : ''}
 ${myFests.length ? `<p class="belongs">Read on the night: ${myFests.map(f =>
   `<a href="/f/${f.slug}/">${esc(f.name)} stories for children</a>`).join(' · ')}</p>` : ''}
+${related ? `<section class="related-story"><span>Related story</span><a href="/s/${esc(related.id)}/"><b>${esc(related.title)}</b>${related.reason ? `<small>${esc(related.reason)}</small>` : ''}</a></section>` : ''}
 <div class="cta">
   <p>This is the complete telling. Sandhya Katha chooses one for your child's age and the calendar each night — free, nothing to install.</p>
   <a href="/">Open tonight's pick</a>
