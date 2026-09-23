@@ -6,6 +6,7 @@ const ROOT = new URL('..', import.meta.url).pathname;
 const CANONICAL_ORIGIN = 'https://sandhyakatha.com';
 const CHECK_ORIGIN = (process.env.CRAWL_CHECK_ORIGIN ?? CANONICAL_ORIGIN).replace(/\/$/, '');
 const UA = 'PerplexityBot';
+const EXPECTED_COMMIT = process.env.EXPECTED_COMMIT ?? '';
 const errors = [];
 const fail = msg => errors.push(msg);
 const readJson = rel => JSON.parse(readFileSync(join(ROOT, rel), 'utf8'));
@@ -73,6 +74,18 @@ async function get(url) {
   } catch (err) {
     fail(`${url}: request failed: ${err?.message ?? err}`);
     return null;
+  }
+}
+
+if (EXPECTED_COMMIT) {
+  const marker = await get(`${CHECK_ORIGIN}/build-info.json`);
+  let deployed = '';
+  if (marker?.res.status === 200) {
+    try { deployed = JSON.parse(marker.body).commit ?? ''; } catch {}
+  }
+  if (deployed !== EXPECTED_COMMIT) {
+    console.error(`production crawl: deployment not ready — expected ${EXPECTED_COMMIT}, found ${deployed || 'none'}`);
+    process.exit(75);
   }
 }
 
