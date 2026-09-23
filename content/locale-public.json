@@ -494,6 +494,14 @@
     {
       "storyId": "shravana-baskets",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "panar-shoulders",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "panar-shoulders",
+      "locale": "ta-IN"
     }
   ],
   "landings": [
