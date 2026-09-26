@@ -1,0 +1,345 @@
+{
+  "id": "blue-jackal",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-26",
+  "title": "The Howl Beneath the Blue",
+  "tease": "The forest animals bow to a strange blue creature. Then a pack of jackals begins to howl.",
+  "source": {
+    "corpus": "panchatantra",
+    "tradition": "sanskrit",
+    "work": "Pañcatantra, Pūrṇabhadra recension in Arthur W. Ryder's translation",
+    "locus": "Book I, The Blue Jackal, pp. 122–125 (embedded tale)",
+    "stability": "stable",
+    "traditionNote": "We follow Ryder's 1925 Pūrṇabhadra telling: the jackal claims Indra appointed him, drives other jackals away, and is killed by a tiger. A forgiving ending would change this source.",
+    "checkedAgainst": [
+      "Arthur W. Ryder, The Panchatantra, 1925, Book I, The Blue Jackal: https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_1/The_Blue_Jackal (public-domain translation; accessed 2026-09-26)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Fierce-Howl, hungry, enters the city after nightfall, is attacked by dogs and falls into a dyer's indigo vat.",
+        "locus": "Ryder, The Blue Jackal, opening"
+      },
+      {
+        "claim": "He emerges blue, returns to the forest and frightens the animals.",
+        "locus": "ibid., escape and encounter"
+      },
+      {
+        "claim": "He falsely claims that Indra appointed him king and offers protection.",
+        "locus": "ibid., royal claim"
+      },
+      {
+        "claim": "Animals bow; he gives court offices to lion, tiger, leopard, elephant and monkey and drives the other jackals away.",
+        "locus": "ibid., appointments"
+      },
+      {
+        "claim": "Predators bring prey to him and he distributes it.",
+        "locus": "ibid., reign"
+      },
+      {
+        "claim": "Hearing jackals howl, he is moved to joy and howls himself; the others recognise the deception.",
+        "locus": "ibid., exposure"
+      },
+      {
+        "claim": "The animals call for his death; he tries to flee and a tiger kills him.",
+        "locus": "ibid., ending of embedded tale"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [
+      "death",
+      "violence"
+    ],
+    "careNote": "Dogs attack a jackal; he deceives the forest animals, and a tiger kills him when exposed. The death is brief and non-graphic. Do not invite approval of the killing or turn animal kinship into a lesson about human birth.",
+    "gated": true
+  },
+  "values": [
+    "the thing you cannot help doing"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Fierce-Howl",
+      "role": "lead"
+    },
+    {
+      "ref": "Indra",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A hungry jackal called «Fierce-Howl» went into the city after dark. Dogs chased him, barking and snapping at his legs."
+        },
+        {
+          "t": "p",
+          "text": "He fled into a dyer's house and fell into a vat of indigo."
+        },
+        {
+          "t": "p",
+          "text": "The dogs went home. When he climbed out of the vat, his coat was blue."
+        },
+        {
+          "t": "p",
+          "text": "Back in the forest, the animals saw a creature whose colour they did not recognise. They ran from him."
+        },
+        {
+          "t": "p",
+          "text": "He called them back."
+        },
+        {
+          "t": "p",
+          "text": "_Why are you afraid? «Indra» has appointed me your king. Under my protection, you can live without fear._"
+        },
+        {
+          "t": "p",
+          "text": "That was his claim. The animals believed him and bowed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He made the lion his chief minister and gave the tiger a place at court. The elephant guarded the entrance, and the monkey carried the royal parasol."
+        },
+        {
+          "t": "p",
+          "text": "The animals had asked him to give them their duties. Even the leopard had a task: looking after the king's betel, the leaves prepared for chewing."
+        },
+        {
+          "t": "p",
+          "text": "But the other jackals were driven away. There would be no place near the new king for his own kind."
+        },
+        {
+          "t": "p",
+          "text": "The hunters brought him the animals they killed. He divided the food among his followers."
+        },
+        {
+          "t": "p",
+          "text": "The jackal who had fled from the city dogs now had a court around him. The blue coat had helped him win their belief, and he ruled among creatures stronger than himself."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "One day he heard a pack of jackals howling nearby."
+        },
+        {
+          "t": "p",
+          "text": "The sound filled him with joy. He sprang to his feet and howled back."
+        },
+        {
+          "t": "p",
+          "text": "The animals around him knew that cry. Their strange king was a jackal."
+        },
+        {
+          "t": "p",
+          "text": "For a moment they stood ashamed of having been deceived. Then they called for him to be killed."
+        },
+        {
+          "t": "p",
+          "text": "He tried to escape, but a tiger killed him."
+        },
+        {
+          "t": "aside",
+          "text": "The source ends in death. Keep the sentence plain; do not make the attack exciting or ask the child to cheer."
+        },
+        {
+          "t": "slow",
+          "text": "The blue colour had hidden him from their eyes. His own voice had told them who he was."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A jackal called «Fierce-Howl» lived near a city. One night he was hungry enough to go into its streets in search of food."
+        },
+        {
+          "t": "p",
+          "text": "The city dogs found him there. They barked and snapped at his legs, chasing him as he tried to get away."
+        },
+        {
+          "t": "p",
+          "text": "He ran into a dyer's house. Inside was a large vat of indigo, a dye that coloured things blue. The jackal tumbled into it."
+        },
+        {
+          "t": "p",
+          "text": "The dogs went home."
+        },
+        {
+          "t": "p",
+          "text": "He managed to climb out of the vat and escape to the forest. He was still a jackal, but indigo had coloured his coat."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The forest animals caught sight of him. They did not know what to make of a creature that looked like this."
+        },
+        {
+          "t": "p",
+          "text": "They had never seen that colour on such an animal. They did not know how strong he might be, or what he might do to them."
+        },
+        {
+          "t": "p",
+          "text": "They fled."
+        },
+        {
+          "t": "p",
+          "text": "«Fierce-Howl» saw their fear. In the city he had been the one running from other animals. Here, the animals were running from him."
+        },
+        {
+          "t": "p",
+          "text": "He called after them and told them to stop."
+        },
+        {
+          "t": "p",
+          "text": "_Why are you frightened? «Indra» saw that the forest had no king and appointed me to rule you. You may live safely under my protection._"
+        },
+        {
+          "t": "p",
+          "text": "This was the jackal's claim. He had fallen into a vat, but he told the animals that he had been chosen as their king."
+        },
+        {
+          "t": "p",
+          "text": "They accepted his words."
+        },
+        {
+          "t": "p",
+          "text": "Lions, tigers, leopards, monkeys and other animals bowed before him. They asked what duties he wished them to perform."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The new king began making appointments."
+        },
+        {
+          "t": "p",
+          "text": "The lion became his chief minister. The tiger was given charge of the royal bedchamber, and the leopard was given another place at court."
+        },
+        {
+          "t": "p",
+          "text": "The elephant became doorkeeper. The monkey carried the royal parasol."
+        },
+        {
+          "t": "p",
+          "text": "The leopard looked after the king's betel, the leaves prepared for chewing. Each animal had been assigned a different task, from guarding the entrance to attending the new ruler himself."
+        },
+        {
+          "t": "p",
+          "text": "Around the blue jackal stood animals who now served him. The very creatures that might have frightened him had accepted his command."
+        },
+        {
+          "t": "p",
+          "text": "But he treated the other jackals differently. He struck them and drove them away."
+        },
+        {
+          "t": "p",
+          "text": "They were his own kind, yet he would not let them remain with him. He had room at court for the lion and the tiger, but no welcome for the jackals."
+        },
+        {
+          "t": "p",
+          "text": "The hunters brought the animals they killed and laid them before him. He divided the food and distributed it among his followers."
+        },
+        {
+          "t": "p",
+          "text": "So the hungry creature who had searched the city for something to eat now had food brought to him. He took the place of a king and shared it out."
+        },
+        {
+          "t": "p",
+          "text": "His blue coat was still the same coat that had frightened the forest animals. He had added a claim of divine appointment, and they had put their trust in it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "One day, while he sat in his court, a pack of jackals began to howl nearby."
+        },
+        {
+          "t": "p",
+          "text": "He heard them."
+        },
+        {
+          "t": "p",
+          "text": "The sound filled him with joy. His eyes grew wet, and he leaped to his feet."
+        },
+        {
+          "t": "p",
+          "text": "Then he howled too."
+        },
+        {
+          "t": "p",
+          "text": "There was no strange new voice to match his strange colour. The animals heard a jackal's cry."
+        },
+        {
+          "t": "p",
+          "text": "They recognised him."
+        },
+        {
+          "t": "p",
+          "text": "For a moment the lion and the others stood downcast and ashamed. They had bowed to him, taken their duties from him, and accepted him as their king."
+        },
+        {
+          "t": "p",
+          "text": "Now they knew that he had deceived them."
+        },
+        {
+          "t": "p",
+          "text": "They called for him to be killed."
+        },
+        {
+          "t": "p",
+          "text": "«Fierce-Howl» tried to flee. But a tiger caught and killed him."
+        },
+        {
+          "t": "aside",
+          "text": "The death is part of this source, not a reason to celebrate the attack. The question afterwards can separate discovering a lie from deciding how to respond."
+        },
+        {
+          "t": "p",
+          "text": "The indigo had changed what the animals saw. It had not made him the king he claimed to be, and it had not given him a different voice."
+        },
+        {
+          "t": "p",
+          "text": "The jackals he had driven away were outside his court. When he heard their call, he had answered with his own."
+        },
+        {
+          "t": "slow",
+          "text": "For all the duties he had handed out and all the animals who had bowed, it was one familiar howl that ended the blue jackal's reign."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What could the animals have asked before accepting his claim?",
+    "seed": "The dye changed his coat; the howl revealed the jackal.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Indra really choose him?",
+        "a": "That is the jackal's claim to the frightened animals, not something the narrator confirms. The tale exposes his deception."
+      },
+      {
+        "q": "Did he deserve to be killed?",
+        "a": "The source ends with the tiger killing him. Reporting that ending does not require us to approve it. A child can recognise the deception and still question the violence."
+      }
+    ]
+  }
+}

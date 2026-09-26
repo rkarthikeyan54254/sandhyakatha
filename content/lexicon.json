@@ -2890,5 +2890,53 @@
     "aliases": [
       "Rudran"
     ]
+  },
+  "Yaśodā": {
+    "id": "yashoda",
+    "native": {
+      "deva": "यशोदा",
+      "taml": "யசோதை"
+    },
+    "say": "yuh-SHO-daa",
+    "kind": "person",
+    "gloss": "The mother who raises Kṛṣṇa in the cowherd household.",
+    "aliases": [
+      "Yashoda",
+      "Yasoda",
+      "Yasodai"
+    ]
+  },
+  "Fierce-Howl": {
+    "id": "fierce-howl",
+    "native": {
+      "deva": "फियर्स-हाउल",
+      "taml": "ஃபியர்ஸ்-ஹவுல்"
+    },
+    "say": "FEERS howl",
+    "kind": "being",
+    "gloss": "The jackal in Ryder’s telling of The Blue Jackal. Fierce-Howl is the translator’s English name.",
+    "aliases": []
+  },
+  "Naduk": {
+    "id": "naduk",
+    "native": {
+      "deva": "नाडुक",
+      "taml": "நாடுக்"
+    },
+    "say": "NAA-dook",
+    "kind": "person",
+    "gloss": "The travelling merchant in Arthur Ryder’s telling of The Mice That Ate Iron. This name follows that translation.",
+    "aliases": []
+  },
+  "Hari": {
+    "id": "hari",
+    "native": {
+      "deva": "हरि",
+      "taml": "ஹரி"
+    },
+    "say": "HUH-ree",
+    "kind": "person",
+    "gloss": "A name of Viṣṇu, also used for Kṛṣṇa.",
+    "aliases": []
   }
 }

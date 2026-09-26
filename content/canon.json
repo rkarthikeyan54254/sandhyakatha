@@ -187,20 +187,21 @@
     {
       "n": 10,
       "id": "last-grain",
-      "title": "The Last Grain of Rice",
+      "title": "The Last Morsel in the Pot",
       "corpus": "mahabharata",
       "tradition": "sanskrit",
       "work": "Mahābhārata",
-      "locus": "Vana Parva — Durvāsa's visit",
+      "locus": "Vana Parva, section CCLXI (261)",
       "stability": "stable",
       "minAge": 7,
       "sensitivity": [],
       "value": "one grain is enough",
-      "hook": "Ten thousand hungry guests are on their way and the pot has been washed. There is one grain stuck to the rim.",
+      "hook": "Ten thousand guests are bathing before their meal. Draupadī has already eaten, and her vessel will give no more food today.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
-      "gated": false
+      "gated": false,
+      "careNote": "The family fears a visiting sage's anger. Do not turn the rescue into a promise that faith prevents hunger or hardship."
     },
     {
       "n": 11,
@@ -314,18 +315,21 @@
       "corpus": "bhagavata",
       "tradition": "sanskrit",
       "work": "Bhāgavata Purāṇa",
-      "locus": "Skandha 10, chapter 9 — Dāmodara",
+      "locus": "10.9.1–18",
       "stability": "stable",
-      "minAge": 4,
-      "sensitivity": [],
+      "minAge": 6,
+      "sensitivity": [
+        "parental-conflict"
+      ],
       "value": "you cannot tie love with a short rope",
-      "hook": "Yaśodā tries to tie a small boy to a mortar. Every rope in the house is exactly two fingers too short.",
+      "hook": "Yaśodā joins another rope to the first. Then another. The ends still will not meet.",
       "festivals": [
         "janmashtami"
       ],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
-      "gated": false
+      "gated": false,
+      "careNote": "A mother chases her child with a stick, puts it aside, and binds him to a mortar. Tell the devotional episode without presenting restraint as parenting advice."
     },
     {
       "n": 17,
@@ -527,20 +531,21 @@
     {
       "n": 27,
       "id": "banyan-seed",
-      "title": "What Is Inside the Seed",
+      "title": "The Seed Śvetaketu Opened",
       "corpus": "upanishad",
       "tradition": "sanskrit",
       "work": "Chāndogya Upaniṣad",
-      "locus": "6.12",
+      "locus": "6.1.1–7 and 6.12.1–3",
       "stability": "stable",
-      "minAge": 8,
+      "minAge": 10,
       "sensitivity": [],
       "value": "the tree you cannot see",
-      "hook": "Break the fig. Break the seed inside it. What do you see? _Nothing, father._ Right. That is what the tree is made of.",
+      "hook": "His father asks him to break a banyan fruit, and then one tiny seed. What can he see inside?",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 1,
-      "gated": false
+      "gated": false,
+      "careNote": "The unseen essence is a philosophical teaching, not a claim that a seed contains nothing or a substitute for botany."
     },
     {
       "n": 28,
@@ -1284,38 +1289,46 @@
     {
       "n": 67,
       "id": "blue-jackal",
-      "title": "The Jackal Who Fell in the Dye",
+      "title": "The Howl Beneath the Blue",
       "corpus": "panchatantra",
       "tradition": "sanskrit",
       "work": "Pañcatantra",
-      "locus": "Book I",
+      "locus": "Book I, The Blue Jackal, pp. 122–125 (embedded tale)",
       "stability": "stable",
-      "minAge": 6,
-      "sensitivity": [],
+      "minAge": 10,
+      "sensitivity": [
+        "death",
+        "violence"
+      ],
       "value": "the thing you cannot help doing",
-      "hook": "A jackal falls into a vat of indigo, comes out a colour no animal has seen, and is promptly crowned king of the forest. He rules well until the evening the other jackals start howling.",
+      "hook": "The forest animals bow to a strange blue creature. Then a pack of jackals begins to howl.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 3,
-      "gated": false
+      "gated": true,
+      "careNote": "Dogs attack a jackal; he deceives the forest animals, and a tiger kills him when exposed. The death is brief and non-graphic. Do not invite approval of the killing or turn animal kinship into a lesson about human birth."
     },
     {
       "n": 68,
       "id": "mice-ate-the-scales",
-      "title": "The Mice That Ate the Iron Scales",
+      "title": "When Mice Ate Iron",
       "corpus": "panchatantra",
       "tradition": "sanskrit",
       "work": "Pañcatantra; also Hitopadeśa",
       "stability": "stable",
-      "minAge": 8,
-      "sensitivity": [],
+      "minAge": 10,
+      "sensitivity": [
+        "injustice",
+        "parental-conflict"
+      ],
       "value": "answering a lie in its own language",
-      "hook": "A merchant leaves iron scales with a friend, who explains on his return that mice ate them. Shortly afterwards the friend's son is carried off by a hawk.",
+      "hook": "A merchant asks for his iron balance back. His friend says mice ate it. Soon the friend hears an equally impossible claim.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 3,
-      "gated": false,
-      "locus": "Book I — The Mice That Ate Iron"
+      "gated": true,
+      "locus": "Book I, The Mice That Ate Iron, pp. 192–195 (embedded tale)",
+      "careNote": "A merchant confines a fifteen-year-old boy in a cave to pressure the boy's father. The boy is returned. Do not treat using a child as leverage as admirable or safe to imitate."
     },
     {
       "n": 69,

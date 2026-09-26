@@ -1,0 +1,341 @@
+{
+  "id": "mice-ate-the-scales",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-26",
+  "title": "When Mice Ate Iron",
+  "tease": "A merchant asks for his iron balance back. His friend says mice ate it. Soon the friend hears an equally impossible claim.",
+  "source": {
+    "corpus": "panchatantra",
+    "tradition": "sanskrit",
+    "work": "Pañcatantra, Pūrṇabhadra recension in Arthur W. Ryder's translation",
+    "locus": "Book I, The Mice That Ate Iron, pp. 192–195 (embedded tale)",
+    "stability": "stable",
+    "traditionNote": "Ryder's telling concerns an inherited iron balance-beam left in pawn, not a bag of grain. The merchant confines the other man's fifteen-year-old son. Both boy and beam are restored by the magistrates.",
+    "checkedAgainst": [
+      "Arthur W. Ryder, The Panchatantra, 1925, Book I, The Mice That Ate Iron: https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_1/The_Mice_That_Ate_Iron (public-domain translation; accessed 2026-09-26)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Naduk loses his wealth and goes abroad; he leaves an inherited heavy iron balance-beam in pawn with another merchant.",
+        "locus": "Ryder, The Mice That Ate Iron, opening"
+      },
+      {
+        "claim": "Returning, he asks for the beam; the other merchant falsely says mice ate it.",
+        "locus": "ibid., return and refusal"
+      },
+      {
+        "claim": "Naduk seems to accept this and asks the merchant's son to carry his bathing things; the father agrees.",
+        "locus": "ibid., river invitation"
+      },
+      {
+        "claim": "After bathing, Naduk confines the son in a cave, blocks it with a rock, and returns alone.",
+        "locus": "ibid., confinement"
+      },
+      {
+        "claim": "He claims a hawk carried off the boy and contrasts the father's disbelief with the mice claim.",
+        "locus": "ibid., confrontation"
+      },
+      {
+        "claim": "Magistrates reject the hawk claim concerning a fifteen-year-old; Naduk tells them about the beam.",
+        "locus": "ibid., hearing"
+      },
+      {
+        "claim": "The magistrates cause both the boy and the balance-beam to be restored.",
+        "locus": "ibid., resolution"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [
+      "injustice",
+      "parental-conflict"
+    ],
+    "careNote": "A merchant confines a fifteen-year-old boy in a cave to pressure the boy's father. The boy is returned. Do not treat using a child as leverage as admirable or safe to imitate.",
+    "gated": true
+  },
+  "values": [
+    "answering a lie in its own language"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Naduk",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Naduk», a merchant who had lost his wealth, was leaving his town to trade abroad. He put a heavy iron balance-beam, inherited from his family, in pawn with another merchant."
+        },
+        {
+          "t": "p",
+          "text": "When he returned, he asked for it back."
+        },
+        {
+          "t": "p",
+          "text": "_Mice ate it,_ the other man said."
+        },
+        {
+          "t": "p",
+          "text": "Mice had eaten a beam made of iron?"
+        },
+        {
+          "t": "p",
+          "text": "«Naduk» did not argue. He seemed to accept the answer. Then he said he was going to the river to bathe and asked if the man's son could carry his bathing things."
+        },
+        {
+          "t": "p",
+          "text": "The father agreed. He had taken the iron beam and was uneasy about it; now he was willing to grant this request."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "After bathing, «Naduk» confined the boy in a cave and blocked the entrance with a rock. Then he went back alone."
+        },
+        {
+          "t": "aside",
+          "text": "Pause if needed: an adult has put a boy in danger to settle a dispute. The telling does not ask the child to admire that choice."
+        },
+        {
+          "t": "p",
+          "text": "_Where is my son?_ the father asked."
+        },
+        {
+          "t": "p",
+          "text": "_A hawk carried him away from the riverbank._"
+        },
+        {
+          "t": "p",
+          "text": "The father would not believe it. How could a hawk carry such a big boy?"
+        },
+        {
+          "t": "p",
+          "text": "_If mice can eat an iron balance-beam, a hawk can carry your son,_ «Naduk» replied."
+        },
+        {
+          "t": "p",
+          "text": "They took their dispute to the magistrates. The father said that the merchant had taken his boy."
+        },
+        {
+          "t": "p",
+          "text": "The magistrates ordered «Naduk» to return him. Again he gave his impossible answer about the hawk."
+        },
+        {
+          "t": "p",
+          "text": "_A hawk cannot carry away a fifteen-year-old,_ they said."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Naduk» told them about the beam. If they rejected his claim, what were they to make of a man who said mice had eaten iron?"
+        },
+        {
+          "t": "p",
+          "text": "Now the magistrates had heard both stories."
+        },
+        {
+          "t": "p",
+          "text": "They had the balance-beam returned to «Naduk», and the boy returned to his father."
+        },
+        {
+          "t": "p",
+          "text": "The theft had been exposed. The boy, who had not taken the beam or told either lie, was released."
+        },
+        {
+          "t": "slow",
+          "text": "The grown men got back what they had demanded. The boy should never have been part of their bargain."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Naduk» was a merchant who had lost his wealth. He decided to leave his town and travel abroad for trade."
+        },
+        {
+          "t": "p",
+          "text": "Among the things he still possessed was a heavy iron balance-beam. It had belonged to his family before him, and he left it in pawn with another merchant before setting out."
+        },
+        {
+          "t": "p",
+          "text": "He travelled for a long time, going where his business took him. Then he returned to his own town and went to the man who held the beam."
+        },
+        {
+          "t": "p",
+          "text": "_Please return the balance I left with you._"
+        },
+        {
+          "t": "p",
+          "text": "The other merchant had an answer ready."
+        },
+        {
+          "t": "p",
+          "text": "_Mice ate it._"
+        },
+        {
+          "t": "p",
+          "text": "It was a beam made of iron. Yet this was the account the man gave of the property that had been left in his care."
+        },
+        {
+          "t": "p",
+          "text": "«Naduk» did not begin a quarrel. He replied as though he accepted the loss."
+        },
+        {
+          "t": "p",
+          "text": "_If mice have eaten it, you are not to blame._"
+        },
+        {
+          "t": "p",
+          "text": "Then he changed the subject. He was going to the river for a bath. Could the merchant's son come with him and carry his bathing things?"
+        },
+        {
+          "t": "p",
+          "text": "The father agreed and told his son to go."
+        },
+        {
+          "t": "p",
+          "text": "He was troubled by his own theft. Sending his son to help the returning merchant was a request he could readily grant, even while withholding the iron beam."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The boy accompanied «Naduk» to the river. He had been sent to help with an ordinary errand."
+        },
+        {
+          "t": "p",
+          "text": "But after bathing, the merchant took him into a cave and shut the entrance with a large rock. The boy could not simply go back to his father."
+        },
+        {
+          "t": "p",
+          "text": "«Naduk» returned to the house alone."
+        },
+        {
+          "t": "aside",
+          "text": "Confining the boy is an act of coercion. Keep that clear; do not perform this scene as a delightful trick."
+        },
+        {
+          "t": "p",
+          "text": "The father asked where his son was. He had sent two people to the river, and only one had come back."
+        },
+        {
+          "t": "p",
+          "text": "_A hawk carried him away from the riverbank,_ «Naduk» said."
+        },
+        {
+          "t": "p",
+          "text": "The father protested at once. His son was a big boy. A hawk could not lift him and fly away with him."
+        },
+        {
+          "t": "p",
+          "text": "The merchant held the two claims beside each other."
+        },
+        {
+          "t": "p",
+          "text": "_You say mice ate my iron balance. Yet you will not believe that a hawk carried off your son._"
+        },
+        {
+          "t": "p",
+          "text": "He demanded the beam in return for the boy."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Their dispute went to the palace gate. There the father called for help and accused «Naduk» of taking his son."
+        },
+        {
+          "t": "p",
+          "text": "The magistrates heard the complaint and told the merchant to return the boy."
+        },
+        {
+          "t": "p",
+          "text": "But he repeated his answer. A hawk, he said, had carried the boy away before his eyes. What could he do about that?"
+        },
+        {
+          "t": "p",
+          "text": "The magistrates would not accept it."
+        },
+        {
+          "t": "p",
+          "text": "_How could a hawk carry away a fifteen-year-old boy?_"
+        },
+        {
+          "t": "p",
+          "text": "Now «Naduk» brought up the iron beam. In a place where mice could eat such a weight of iron, he replied, why should a hawk not carry off a boy?"
+        },
+        {
+          "t": "p",
+          "text": "This answer did not explain where the boy was. It showed the magistrates that another dispute lay behind the one they had first heard."
+        },
+        {
+          "t": "p",
+          "text": "They asked him to explain."
+        },
+        {
+          "t": "p",
+          "text": "He told them that he had left his inherited beam with the boy's father before travelling. When he came home and asked for it, the man said that mice had eaten it."
+        },
+        {
+          "t": "p",
+          "text": "The impossible hawk was his answer to the impossible mice."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The magistrates now knew about both the property and the boy. They arranged for the balance-beam to be restored to «Naduk» and for the son to be restored to his father."
+        },
+        {
+          "t": "p",
+          "text": "Neither claim had stood. There had been no need to search for iron-eating mice, or to look through the sky for a hawk carrying a boy."
+        },
+        {
+          "t": "p",
+          "text": "The beam could be returned because it had not been eaten. The boy could be returned because no hawk had taken him."
+        },
+        {
+          "t": "p",
+          "text": "The two merchants had brought their quarrel before people who could order those returns. But before they did, one of them had made a boy bear the cost of an argument about property."
+        },
+        {
+          "t": "slow",
+          "text": "The iron came back to its owner. The son came back to his father. He had never owed either man a part in their dispute."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "The beam was returned, but who was made to pay for the adults' dispute?",
+    "seed": "A lie was exposed; a boy should never have been the price.",
+    "ifTheyAsk": [
+      {
+        "q": "Can mice eat an iron balance?",
+        "a": "The merchant uses that impossible claim to hide his theft. The reply about a hawk makes the contradiction visible to the magistrates."
+      },
+      {
+        "q": "Was confining the boy the right thing to do?",
+        "a": "No. The story records how Naduk forces the dispute into the open, but a child is not a tool for recovering property. The ending restores the boy; it does not erase what was done to him."
+      }
+    ]
+  }
+}

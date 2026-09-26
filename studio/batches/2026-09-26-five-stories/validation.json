@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-09-26T15:46:54.327Z",
+  "base": "63c97f2d8cd5f516ba401730ea8f9390efc75dfa",
+  "canonicalStories": 5,
+  "localeEditions": 10,
+  "checks": [
+    "locale schemas",
+    "canonical blob hashes",
+    "claim references",
+    "entity markers",
+    "pending human review provenance",
+    "unchanged native-language gate"
+  ],
+  "counts": [
+    {
+      "id": "butter-rope",
+      "englishWords": {
+        "short": 307,
+        "full": 674
+      }
+    },
+    {
+      "id": "last-grain",
+      "englishWords": {
+        "short": 301,
+        "full": 659
+      }
+    },
+    {
+      "id": "banyan-seed",
+      "englishWords": {
+        "short": 305,
+        "full": 652
+      }
+    },
+    {
+      "id": "blue-jackal",
+      "englishWords": {
+        "short": 301,
+        "full": 656
+      }
+    },
+    {
+      "id": "mice-ate-the-scales",
+      "englishWords": {
+        "short": 300,
+        "full": 659
+      }
+    }
+  ],
+  "publicationReady": false,
+  "pending": [
+    "human English source and read-aloud review",
+    "human Hindi and Tamil language/source review",
+    "measured native read-aloud timings",
+    "five story-version-approved hero illustrations"
+  ]
+}
