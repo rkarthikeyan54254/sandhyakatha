@@ -1,38 +1,27 @@
-# Five new stories — 26 September 2026
+# Five new stories — publication checkpoint, 27 September 2026
 
-Base: `63c97f2d8cd5f516ba401730ea8f9390efc75dfa`, fetched from origin/main on 26 September 2026.
+Scope: butter-rope, last-grain, banyan-seed, blue-jackal, mice-ate-the-scales; English, Hindi and Tamil, each with short and full tellings.
 
-Scope: butter-rope, last-grain, banyan-seed, blue-jackal, mice-ate-the-scales. Five new canonical stories, each with English short/full and independently composed Hindi/Tamil editions. Existing published content and product design are not being rewritten.
+Rama reviewed and approved all fifteen editions in both lengths and authorized merging on 27 September. The exact statement and illustration provenance are saved in `approval.json`. Language-editor and source-fidelity approval are recorded in all ten staged locale files. Five supplied illustrations are now optimized WebP assets under `public/media/stories`, with story-version-specific approval in `content/media.json`. Prose is unchanged from the reviewed commit `8f952aa`.
 
-Publication is authorized by Rama in this chat. This is not evidence of a completed human reading of these new editions. Human source review, native language editing, measured read-aloud review, and story-version-specific illustration approval remain required by EDITORIAL.md and studio/PIPELINE.md.
+Publication remains pending one factual detail: whether the three/six-minute labels represent actual timed read-aloud readings. The pending chat question asks this explicitly. Do not copy word-count estimates into `measuredSeconds`. Native read-aloud gates remain pending and all five canonical stories remain in-review until the complete batch can pass publication gates.
 
-Status (updated 27 September): all fifteen English/Hindi/Tamil editions now contain separate short and full tellings. The ten new Hindi/Tamil full drafts each contain 650–655 spoken words, excluding parent asides. All fifteen full tellings meet the requested six-minute word-count estimate using the planning convention of 110 words/minute plus printed pauses. That convention is not a measured or language-calibrated duration: native timings deliberately remain null until read by a human. All human review gates remain pending. No new story is published.
+Latest origin/main was fetched on 27 September and remains `63c97f2d8cd5f516ba401730ea8f9390efc75dfa`; the batch branch is based on it with no divergence.
 
-Open `review.html` for all fifteen editions, parent notes, questions and source ledgers. The page uses the existing product reader CSS, including Hindi/Tamil typography, without modifying production components. Its layout is an editorial proof, not a certified production preview. Run `node studio/batches/2026-09-26-five-stories/review.mjs` from the repository root to regenerate it and check the staged editions.
+`review.html` contains all fifteen editions and source ledgers. Regenerate/check with `node studio/batches/2026-09-26-five-stories/review.mjs`. `validation.json` records successful schema, source-hash, claim, native-language and word-count checks. Full tellings have 650–674 spoken words; six minutes is a planning estimate, not a measurement. Browser automation could not open the local proof; Rama's review is recorded, and production visual QA remains outstanding.
 
-Canonical drafts are in `content/stories`. Locale drafts stay in this directory until their canonical stories are eligible; runtime validation correctly refuses locales attached to unpublished stories. No runtime gate was weakened. Canon planning rows now agree with the drafts, including care notes and age floors. Existing published stories, profiles, authentication, history, runtime locale allowlists and production assets were not edited.
+Full `npm run build` passed on 27 September with all strict editorial, locale, design, surface and cache gates; evidence: `publication-preflight.txt`. This validates the staged checkpoint, not publication of the five new stories.
 
-`validation.json` records schema, source-blob, claim-reference, marker and unchanged native-language-gate checks. A machine pass does not approve prose quality or prove the source ledger correct.
+## Next exact action
 
-`npm run build` passed on 26 September 2026; the complete output is in `build-validation.txt`. The initial build correctly flagged the old butter-rope observance proposal as stale; its proposal metadata was updated to in-review while leaving its approval pending, then the full build passed. All existing production language/design/surface/cache gates passed. The new drafts remain excluded from public output.
+1. Record Rama's answer about actual measured short/full Hindi/Tamil timings (per edition if different); retain nulls until confirmed.
+2. Publish the canonical stories with the approval workflow, update canon/media/observance metadata, move the approved locales into `content/locales/{hi,ta}`, recompute canonical blob hashes, update locks and appropriate public locale lists. Preserve age gates for blue-jackal and mice-ate-the-scales.
+3. Adapt the proof validator for final approved/runtime editions, run the full strict build, then push, create and merge the PR. Merge and production deployment are already authorized; no repeated deployment approval is needed.
+4. Verify the matching live deploy and save its URL/commit evidence.
 
-Visual QA is unverified: browser security policy blocked automated navigation to the local file URL. No alternate browser route was attempted. Open the saved `review.html` manually for visual and editorial review. The proof page's reuse of reader CSS does not substitute for production visual checks after approved art is added.
+## Illustration provenance
 
-## Human review required before publication
-
-1. Read both English lengths against the linked editions and record the actual source/editorial reviewer and date. Read them aloud; do not substitute the estimated English minute labels for a human reading.
-2. Have native Hindi and Tamil editors read both lengths of all ten staged editions. Review title, register, pronunciation, every scene's claim mapping and parent material. Record actual read-aloud seconds separately for short and full, plus named reviewers for languageEditor, sourceFidelity and nativeReadAloud. Correct prose before approving it.
-3. Commission or generate the five illustrations below and review each against story version 1. No illustration has been generated or approved for these stories. Do not create an approved media entry before that review.
-4. Once genuine reviews are available, use the repository approval workflow, update matching canon/media versions, move eligible locale files to `content/locales/{hi,ta}`, maintain exact canonical blob hashes and locks, and run the full strict build and design/locale gates. Publication changes can change the canonical blob hash even without changing prose.
-5. Fetch origin/main again, reconcile newer work, then merge and verify the matching production deploy at sandhyakatha.com. Rama has already authorized that merge; the missing item is review evidence, not a second deployment-permission request.
-
-## Illustration briefs, pending production
-
-- **butter-rope:** Yaśodā trying to join a rope around child Kṛṣṇa beside the wooden mortar; a visible two-finger gap, warm domestic setting. No beating, no extra child, no freed trees (different chapter).
-- **last-grain:** Draupadī presenting the vessel as Kṛṣṇa notices its rim; a very small rice-and-vegetable morsel, restrained forest dwelling. No overflowing feast, no ten thousand seated diners (they never return for dinner).
-- **banyan-seed:** Uddālaka teaching his adult son Śvetaketu with a banyan fruit and tiny seed. Śvetaketu is twenty-four, not a small child. No glowing embryo-tree presented as visible inside the seed.
-- **blue-jackal:** Indigo-coated jackal among attentive forest animals, with a hint of the howl/exposure. No graphic killing, no divine coronation, no implication that Indra actually appointed him.
-- **mice-ate-the-scales:** Two merchants before magistrates with the heavy iron balance-beam and the returned adolescent son. No actual hawk carrying a child, no literal iron-eating mice, no celebratory depiction of confinement.
+The five images were supplied with Rama's approval at the link in `approval.json`. They map in order to butter-rope, last-grain, banyan-seed, blue-jackal and mice-ate-the-scales. Conversion preserves dimensions/composition; hashes identify source and output. They are illustrative compositions, not additional source evidence. Story source ledgers remain authoritative.
 
 ## Self-audit notes
 

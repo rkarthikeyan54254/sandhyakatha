@@ -1,6 +1,6 @@
 # Sandhya Katha Growth Ops State
 
-Updated: 2026-09-20. Keep this file compact; replace stale values.
+Updated: 2026-09-27. Keep this file compact; replace stale values.
 
 ## Goal and verified baseline
 
@@ -55,3 +55,11 @@ Work on one bounded deliverable at a time. Production/publishing breakage takes 
 ## Next exact action
 
 With explicit push/publication authorization, use the already-open channel/content pages to reconcile duplicate/scheduled posts and verify the English/Hindi/Tamil live landing pages. If clean, publish one channel at a time and record URLs immediately. Do not rerun the build, tests, campaign generation or analytics unless inputs change.
+
+## Five-story publication checkpoint — 27 September
+
+- Rama approved all 15 editions, short/full, and authorized merge. Ten staged locale language/source approvals recorded; five supplied images downloaded, mapped and converted to WebP with hashes in `studio/batches/2026-09-26-five-stories/approval.json`.
+- Latest main fetched: `63c97f2`; batch branch is two commits ahead with no upstream divergence before this checkpoint. No merge or production publication yet.
+- Targeted batch review, canonical strict validation and full build pass (publication-preflight.txt). Remaining factual prerequisite: actual native read-aloud seconds; pending user question distinguishes measured readings from 3/6-minute estimated labels. No timings invented and no gates weakened.
+- Next exact action: record the timing answer, complete runtime promotion/locks and full build, then push/merge and verify production. Existing merge approval persists.
+- Usage observed: five-hour window 73% used, weekly 11% used. Continue bounded work and preserve finishing capacity.

@@ -1123,6 +1123,91 @@
           "file": null
         }
       }
+    },
+    "butter-rope": {
+      "canonStatus": "in-review",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/butter-rope/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-27"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "last-grain": {
+      "canonStatus": "in-review",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/last-grain/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-27"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "banyan-seed": {
+      "canonStatus": "in-review",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/banyan-seed/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-27"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "blue-jackal": {
+      "canonStatus": "in-review",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/blue-jackal/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-27"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "mice-ate-the-scales": {
+      "canonStatus": "in-review",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/mice-ate-the-scales/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-09-27"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

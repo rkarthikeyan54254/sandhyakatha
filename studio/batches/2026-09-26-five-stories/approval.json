@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-27",
+  "reviewer": "rama",
+  "reviewedCommit": "8f952aa",
+  "approvalQuote": "I reviewed all the long and short ones - 6 min and 3 min each. approved. lets merge it - all 5 images are here",
+  "imageSource": "https://chatgpt.com/s/m_6ab883b38ba48191982d90b219d5781b",
+  "scope": "All five stories in English, Hindi and Tamil, both short and full; merge authorized.",
+  "timingStatus": "Awaiting clarification whether 180/360 seconds are observed read-aloud timings or estimated labels; no measured values inferred.",
+  "images": [
+    {
+      "storyId": "butter-rope",
+      "sourceSha256": "c3b61a781a219f4b6481e2cbf60d3da8ee638caddab68b44feeaa685fa10dd66",
+      "file": "public/media/stories/butter-rope/hero.webp",
+      "sha256": "bb08b1b1bd1952c573a88329d42e4f8b58d31b71b73ae3858a5ac46f858a604a",
+      "conversion": "WebP quality 88; original dimensions and composition preserved"
+    },
+    {
+      "storyId": "last-grain",
+      "sourceSha256": "7a7410f5ad53070e1079ca2b9218b64dcca3915769d32a0e83eb75e5860a73b9",
+      "file": "public/media/stories/last-grain/hero.webp",
+      "sha256": "3b416499e582c5c94969c961c5df93efb960c0182d29410c13d5d8a410e0ca89",
+      "conversion": "WebP quality 88; original dimensions and composition preserved"
+    },
+    {
+      "storyId": "banyan-seed",
+      "sourceSha256": "0c56dcd52cd00da95efea0b0f1ff7f99930a34897d2c4127e3bf21f0a664d65a",
+      "file": "public/media/stories/banyan-seed/hero.webp",
+      "sha256": "e0d4666a349fa36a1b2e8b9fd8dfec4bd79d6f33b6ebac9b54c8319219b440e6",
+      "conversion": "WebP quality 88; original dimensions and composition preserved"
+    },
+    {
+      "storyId": "blue-jackal",
+      "sourceSha256": "0acb420450d9cf8f8b198515a0b6f2a858abc8018e468f93364abf1852d934e0",
+      "file": "public/media/stories/blue-jackal/hero.webp",
+      "sha256": "2766701aa373d7b5f3be0e8a83e32bcd596246865a0a5d0266ec6cec1a64ee03",
+      "conversion": "WebP quality 88; original dimensions and composition preserved"
+    },
+    {
+      "storyId": "mice-ate-the-scales",
+      "sourceSha256": "7875ea2646612ce2088da9806124d8be3fc60c9e5da5238117b0e3f5059bc007",
+      "file": "public/media/stories/mice-ate-the-scales/hero.webp",
+      "sha256": "f7302eb2b7d5ce98fa85287c145911d26dfcf4f17fdd4ec9746607cf3544112b",
+      "conversion": "WebP quality 88; original dimensions and composition preserved"
+    }
+  ]
+}

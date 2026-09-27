@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-27T02:20:40.146Z",
+  "checkedAt": "2026-09-27T03:05:59.417Z",
   "base": "63c97f2d8cd5f516ba401730ea8f9390efc75dfa",
   "canonicalStories": 5,
   "localeEditions": 10,
@@ -10,7 +10,7 @@
     "entity markers",
     "short/full completeness in all three languages",
     "full spoken-word bands and six-minute planning estimates",
-    "pending human review provenance",
+    "recorded human source/language approval and pending measured read-aloud review",
     "unchanged native-language gate"
   ],
   "counts": [
@@ -127,9 +127,6 @@
   ],
   "publicationReady": false,
   "pending": [
-    "human English source and read-aloud review",
-    "human Hindi and Tamil language/source review",
-    "measured native read-aloud timings",
-    "five story-version-approved hero illustrations"
+    "confirmation of measured native read-aloud timings"
   ]
 }
