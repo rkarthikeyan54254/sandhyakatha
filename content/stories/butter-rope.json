@@ -1,0 +1,318 @@
+{
+  "id": "butter-rope",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-26",
+  "title": "The Rope That Was Two Fingers Short",
+  "tease": "Yaśodā joins another rope to the first. Then another. The ends still will not meet.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "10.9.1–18",
+    "stability": "stable",
+    "traditionNote": "This telling ends when Kṛṣṇa allows Yaśodā to bind him. The two trees belong to the next chapter. Symbolic explanations of the two fingers are not added to the narration.",
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa, Sanskrit verses 10.9.1–18: https://shlokam.org/bhagavatam/canto-10-chapter-9.htm (verses, not modern commentary; accessed 2026-09-26)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Yaśodā churns curds herself and sings of her son's deeds.",
+        "locus": "10.9.1–3"
+      },
+      {
+        "claim": "Kṛṣṇa stops the rod; she nurses him, then tends boiling milk before he is satisfied.",
+        "locus": "10.9.4–5"
+      },
+      {
+        "claim": "He breaks the curd pot with a stone and eats butter; his mother recognises his work.",
+        "locus": "10.9.6–7"
+      },
+      {
+        "claim": "He gives butter to monkeys from an overturned mortar; his mother approaches with a stick and chases and catches him.",
+        "locus": "10.9.8–11"
+      },
+      {
+        "claim": "She discards the stick on seeing his fear and tries to bind him to the mortar.",
+        "locus": "10.9.12–14"
+      },
+      {
+        "claim": "Each added rope is two fingers short; the watching women laugh and Yaśodā is astonished.",
+        "locus": "10.9.15–17"
+      },
+      {
+        "claim": "Seeing her perspiration and loosened hair, Kṛṣṇa compassionately permits the binding.",
+        "locus": "10.9.18"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [
+      "parental-conflict"
+    ],
+    "careNote": "A mother chases her child with a stick, puts it aside, and binds him to a mortar. Tell the devotional episode without presenting restraint as parenting advice.",
+    "gated": false
+  },
+  "values": [
+    "you cannot tie love with a short rope"
+  ],
+  "calendar": {
+    "festivals": [
+      "janmashtami"
+    ],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Kṛṣṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Yaśodā",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Yaśodā» was churning curds into butter and singing about her little son's deeds. «Kṛṣṇa» came to her, caught the churning rod, and stopped it. He wanted milk."
+        },
+        {
+          "t": "p",
+          "text": "She took him into her lap and began to feed him. Then the milk heating nearby boiled up. Before he had finished, she put him down and hurried to the pot."
+        },
+        {
+          "t": "p",
+          "text": "He was angry. With a stone, he broke the curd pot. Then he went away to eat butter."
+        },
+        {
+          "t": "p",
+          "text": "When his mother returned, the broken pot was there, but her son was not. She knew whose work this was."
+        },
+        {
+          "t": "p",
+          "text": "She found him on an overturned wooden mortar, helping himself to butter hanging above it. He was giving butter to monkeys too, looking about him as he ate."
+        },
+        {
+          "t": "p",
+          "text": "«Yaśodā» approached with a stick. «Kṛṣṇa» saw her, scrambled down, and ran."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She ran after him. Flowers fell from her loosened hair. At last she caught his hand."
+        },
+        {
+          "t": "p",
+          "text": "He was crying and rubbing his eyes, smearing the dark ointment around them. Seeing how frightened he was, she put the stick aside."
+        },
+        {
+          "t": "p",
+          "text": "She decided to tie him to the mortar. But when she brought the rope's ends together, they would not meet. The rope was two fingers short."
+        },
+        {
+          "t": "p",
+          "text": "So she joined another rope to it."
+        },
+        {
+          "t": "p",
+          "text": "Still two fingers short."
+        },
+        {
+          "t": "p",
+          "text": "She added more rope. Each time she tried, the same little gap remained. The cowherd women watching her began to laugh. «Yaśodā» herself could hardly believe it."
+        },
+        {
+          "t": "p",
+          "text": "All that rope, and she still could not tie one small boy."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now she was sweating with the effort. Her hair had come loose. «Kṛṣṇa» saw how tired she was, and felt compassion for her."
+        },
+        {
+          "t": "p",
+          "text": "He let her bind him."
+        },
+        {
+          "t": "p",
+          "text": "The rope that had failed again and again could now be knotted around him."
+        },
+        {
+          "t": "slow",
+          "text": "His mother had kept adding rope. At last her son let the ends meet."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Yaśodā» was churning curds. The other women of the household were busy with their work, so she pulled the churning rope herself. As she worked, she sang of the things her little son had done."
+        },
+        {
+          "t": "p",
+          "text": "Her bangles moved with her arms. The churning took effort, and her face grew damp. Then «Kṛṣṇa» came to her and caught hold of the churning rod."
+        },
+        {
+          "t": "p",
+          "text": "That stopped the work. He wanted to be fed."
+        },
+        {
+          "t": "p",
+          "text": "His mother lifted him into her lap. She smiled at him and began to nurse him. For the moment, the churning could wait."
+        },
+        {
+          "t": "p",
+          "text": "But the milk heating nearby could not. It was boiling over."
+        },
+        {
+          "t": "p",
+          "text": "She put her son down before he had finished drinking and hurried to attend to it. He had wanted to stay in her lap, and now she had gone."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» bit his lip in anger. He took a stone and broke the pot in which she had been churning the curds. Then he went into another part of the house to eat butter."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His mother took the hot milk off the heat and returned. There was her broken pot. There was no little boy beside it."
+        },
+        {
+          "t": "p",
+          "text": "She smiled, recognising his work, and went to look for him."
+        },
+        {
+          "t": "p",
+          "text": "He had found an overturned wooden mortar and climbed onto it. From there he could reach the butter kept hanging above. He was eating some and giving some to the monkeys."
+        },
+        {
+          "t": "p",
+          "text": "As he helped himself, he kept looking about him. His mother came up quietly from behind, carrying a stick."
+        },
+        {
+          "t": "p",
+          "text": "He saw her."
+        },
+        {
+          "t": "p",
+          "text": "Down he came from the mortar, and away he ran. «Yaśodā» followed."
+        },
+        {
+          "t": "p",
+          "text": "She was not as quick as her small son. Still she kept after him, and flowers dropped from her hair as it came loose. At last she reached him and took his hand."
+        },
+        {
+          "t": "p",
+          "text": "He began to cry. He rubbed his eyes with his hands, spreading the dark ointment around them. He looked up at her in fear."
+        },
+        {
+          "t": "p",
+          "text": "She saw that fear and put the stick aside."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She would bind him to the mortar instead. She took a rope and brought it around him, ready to make the knot."
+        },
+        {
+          "t": "p",
+          "text": "The ends did not meet."
+        },
+        {
+          "t": "p",
+          "text": "There was a gap as wide as two fingers. She needed a little more rope."
+        },
+        {
+          "t": "p",
+          "text": "So she joined another length to the first and tried again. Surely there was enough now to go around this small child."
+        },
+        {
+          "t": "p",
+          "text": "There was the gap again. Two fingers."
+        },
+        {
+          "t": "p",
+          "text": "She joined on more. Again she brought the ends together. Again they stopped short by exactly the same amount."
+        },
+        {
+          "t": "p",
+          "text": "The rope was longer, but the space between its ends had not changed. She could see it with her own eyes, and still it was hard to believe."
+        },
+        {
+          "t": "p",
+          "text": "Other cowherd women were watching. They laughed as each new length failed to solve the problem. «Yaśodā» was astonished herself."
+        },
+        {
+          "t": "p",
+          "text": "She kept gathering rope and joining it on. It was household rope, meant for household work, and there seemed to be no reason that another piece should not be enough."
+        },
+        {
+          "t": "p",
+          "text": "Yet every attempt left the same little space. Not a great distance that called for a whole new coil. Only two fingers, beyond the reach of all she had added."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The effort had made her tired. Sweat covered her body. Her hair had loosened, and the flowers that had been tied into it were falling."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» looked at his mother."
+        },
+        {
+          "t": "p",
+          "text": "He saw her weariness. He felt compassion for her and allowed himself to be bound."
+        },
+        {
+          "t": "p",
+          "text": "This time she could tie the knot. The child who had run from her was fastened to the wooden mortar."
+        },
+        {
+          "t": "p",
+          "text": "No new clever knot had solved the difficulty. No special rope had appeared. She had kept trying, and he had seen her effort and allowed it."
+        },
+        {
+          "t": "p",
+          "text": "The same mother who had interrupted her work to feed him had chased him through the house. Now the chase and the long struggle with the rope were over."
+        },
+        {
+          "t": "slow",
+          "text": "All those lengths of rope had left two fingers of space. When «Kṛṣṇa» let his mother bind him, that small gap was gone."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What changes when Kṛṣṇa notices how tired his mother is?",
+    "seed": "The knot holds when Kṛṣṇa allows it.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did the rope stay short?",
+        "a": "The chapter presents Kṛṣṇa's divine freedom: added rope cannot bind him until he consents. Symbolic explanations of the two fingers belong to devotional interpretation and should be identified as such."
+      },
+      {
+        "q": "Is tying a child up a lesson for parents?",
+        "a": "No. This devotional episode concerns Yaśodā and Kṛṣṇa; it is not advice to copy the restraint. Notice that she sees his fear and puts the stick aside."
+      }
+    ]
+  }
+}

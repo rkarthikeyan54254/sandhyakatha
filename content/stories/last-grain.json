@@ -1,0 +1,354 @@
+{
+  "id": "last-grain",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-26",
+  "title": "The Last Morsel in the Pot",
+  "tease": "Ten thousand guests are bathing before their meal. Draupadī has already eaten, and her vessel will give no more food today.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata, Ganguli translation",
+    "locus": "Vana Parva, section CCLXI (261)",
+    "stability": "stable",
+    "traditionNote": "We follow Ganguli's Vana 261: rice and vegetable cling to the vessel's rim. The visitors feel full and leave without eating a feast at the house. Section numbering varies by edition.",
+    "checkedAgainst": [
+      "Kisari Mohan Ganguli, Mahābhārata, Vana CCLXI: https://sacred-texts.com/hin/m03/m03261.htm (public-domain translation; accessed 2026-09-26)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Durvāsa arrives with ten thousand disciples after Draupadī has eaten; Yudhiṣṭhira welcomes them and they go to bathe.",
+        "locus": "Vana CCLXI, opening paragraphs"
+      },
+      {
+        "claim": "The sun-given vessel supplies food until Draupadī eats; she has eaten and prays to Kṛṣṇa in distress.",
+        "locus": "Vana CCLXI, Draupadī's prayer and explanation"
+      },
+      {
+        "claim": "Kṛṣṇa comes, asks for food, persists in asking to see the vessel, and finds rice and vegetable at its rim.",
+        "locus": "Vana CCLXI, Kṛṣṇa's arrival and inspection"
+      },
+      {
+        "claim": "He eats the morsel, invokes Hari's satisfaction, and sends Bhīma to invite the guests.",
+        "locus": "Vana CCLXI, morsel and invitation"
+      },
+      {
+        "claim": "The bathers feel full, fear offending their hosts by refusing food, and flee at Durvāsa's urging.",
+        "locus": "Vana CCLXI, river conversation"
+      },
+      {
+        "claim": "Bhīma searches the bathing places, learns the visitors have fled, and reports back; the family still waits anxiously.",
+        "locus": "Vana CCLXI, Bhīma's return"
+      },
+      {
+        "claim": "Kṛṣṇa reassures the family that the danger has passed; they thank him and he returns home.",
+        "locus": "Vana CCLXI, closing paragraphs"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [],
+    "careNote": "The family fears a visiting sage's anger. Do not turn the rescue into a promise that faith prevents hunger or hardship.",
+    "gated": false
+  },
+  "values": [
+    "one grain is enough"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Draupadī",
+      "role": "lead"
+    },
+    {
+      "ref": "Kṛṣṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Yudhiṣṭhira",
+      "role": "present"
+    },
+    {
+      "ref": "Bhīma",
+      "role": "present"
+    },
+    {
+      "ref": "Durvāsa",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Draupadī» had finished her meal when «Durvāsa» arrived in the forest with ten thousand disciples."
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» welcomed them. The visitors went to the river to bathe before they ate."
+        },
+        {
+          "t": "p",
+          "text": "But what could the family give them?"
+        },
+        {
+          "t": "p",
+          "text": "Their vessel was a gift from the sun god. It supplied food until «Draupadī» had eaten. After that, it would give no more that day."
+        },
+        {
+          "t": "p",
+          "text": "She had already eaten. She could find no way to feed the visitors, and she prayed to «Kṛṣṇa»."
+        },
+        {
+          "t": "p",
+          "text": "He came."
+        },
+        {
+          "t": "p",
+          "text": "She told him what had happened. He listened, then asked her for food. He was hungry."
+        },
+        {
+          "t": "p",
+          "text": "There were ten thousand guests to feed already. Now here was another request, from the very person she had called for help."
+        },
+        {
+          "t": "p",
+          "text": "She explained about the vessel. There was nothing left to serve."
+        },
+        {
+          "t": "p",
+          "text": "Still he asked to see it. So she brought it to him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At its rim, «Kṛṣṇa» found a little rice and vegetable clinging together. He ate that morsel and offered a wish that «Hari», the soul of the universe, be satisfied."
+        },
+        {
+          "t": "p",
+          "text": "Then he sent «Bhīma» to call the visitors to their meal."
+        },
+        {
+          "t": "p",
+          "text": "At the river, something had changed. The bathers felt completely full."
+        },
+        {
+          "t": "p",
+          "text": "They looked at one another. How could they return to a meal when they could not eat anything? They feared offending the family that had welcomed them."
+        },
+        {
+          "t": "p",
+          "text": "«Durvāsa» urged them to leave quickly. Away they went."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When «Bhīma» reached the bathing places, he could not find them. He searched and learned from the ascetics there that the visitors had fled."
+        },
+        {
+          "t": "p",
+          "text": "He brought the news home. Even then, the family worried that their guests might return later."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» reassured them. The danger had passed."
+        },
+        {
+          "t": "p",
+          "text": "They thanked him, and he went home."
+        },
+        {
+          "t": "slow",
+          "text": "The visitors never sat down to a feast. A morsel at the rim had been enough for «Kṛṣṇa»."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Durvāsa» came to the forest with ten thousand disciples. «Yudhiṣṭhira» went forward to welcome the sage and his followers, offering them a place to sit."
+        },
+        {
+          "t": "p",
+          "text": "They had come after «Draupadī» had finished her meal. That mattered more than the visitors knew."
+        },
+        {
+          "t": "p",
+          "text": "The family had a vessel given by the sun god. While «Draupadī» had not yet eaten, it could supply their food. Once she finished, it would give no more food that day."
+        },
+        {
+          "t": "p",
+          "text": "Now the meal was over, and ten thousand people had arrived."
+        },
+        {
+          "t": "p",
+          "text": "«Yudhiṣṭhira» asked the visitors to return after their bathing and daily observances. «Durvāsa» and his disciples went to the river."
+        },
+        {
+          "t": "p",
+          "text": "There was a little time before they came back. But time was not food, and «Draupadī» could find no way to provide the meal they expected."
+        },
+        {
+          "t": "p",
+          "text": "She thought about what to do. No answer came that would feed so many people."
+        },
+        {
+          "t": "p",
+          "text": "So she prayed to «Kṛṣṇa». She called on him as the protector of those in distress and asked him to help her through this difficulty."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He came to her at once."
+        },
+        {
+          "t": "p",
+          "text": "She bowed to him with joy and told him about the sage, the disciples, and the food they would need. Now he knew the whole difficulty."
+        },
+        {
+          "t": "p",
+          "text": "His reply was a request of his own."
+        },
+        {
+          "t": "p",
+          "text": "_I am hungry. Give me something to eat._"
+        },
+        {
+          "t": "p",
+          "text": "She had called him because she could not feed her guests. Yet he too was asking for a meal."
+        },
+        {
+          "t": "p",
+          "text": "«Draupadī» explained that the vessel would remain full only until she had eaten. She had already finished her meal, so there was nothing in it now."
+        },
+        {
+          "t": "p",
+          "text": "But «Kṛṣṇa» did not leave the matter there."
+        },
+        {
+          "t": "p",
+          "text": "_Bring the vessel and show it to me._"
+        },
+        {
+          "t": "p",
+          "text": "She brought it."
+        },
+        {
+          "t": "p",
+          "text": "He looked inside. At the rim was a small particle of rice and vegetable, still clinging to the vessel. It was not a meal laid out for one person, much less for ten thousand."
+        },
+        {
+          "t": "p",
+          "text": "He took that morsel and ate it. He wished that «Hari», the soul of the universe, might be satisfied by it."
+        },
+        {
+          "t": "p",
+          "text": "Then he turned to «Bhīma». It was time to call the visitors to eat."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At the river, the disciples were bathing. Suddenly their stomachs felt full, as though they had already eaten all they could."
+        },
+        {
+          "t": "p",
+          "text": "They came out of the water and looked at one another."
+        },
+        {
+          "t": "p",
+          "text": "They had left their hosts to prepare a meal. How were they to go back now and say that they could not eat it?"
+        },
+        {
+          "t": "p",
+          "text": "They brought their difficulty to «Durvāsa». None of them felt able to take another mouthful."
+        },
+        {
+          "t": "p",
+          "text": "The sage was alarmed. He feared that refusing the meal would offend the family. He spoke of the brothers' strength and their devotion to «Kṛṣṇa»."
+        },
+        {
+          "t": "p",
+          "text": "The hosts whom the visitors had left behind were now the people they were afraid to face."
+        },
+        {
+          "t": "p",
+          "text": "_Leave quickly,_ he told his disciples."
+        },
+        {
+          "t": "p",
+          "text": "They scattered in different directions, without going back to the family that had welcomed them."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bhīma» arrived to invite them to dinner. He looked for the sage and the great crowd that had followed him."
+        },
+        {
+          "t": "p",
+          "text": "They were gone."
+        },
+        {
+          "t": "p",
+          "text": "He searched the bathing places. Other ascetics there told him what had happened: the visitors had fled. There was no gathering left for him to bring home."
+        },
+        {
+          "t": "p",
+          "text": "He returned and told «Yudhiṣṭhira»."
+        },
+        {
+          "t": "p",
+          "text": "Still the brothers waited. Their guests might come back much later, perhaps in the middle of the night. The news that the riverbank was empty had not quite ended their worry."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» reassured them. «Draupadī» had called him in their danger, and he had come. They no longer needed to fear the sage's return."
+        },
+        {
+          "t": "p",
+          "text": "At last the family could put down its anxiety. They thanked him for helping them through a difficulty from which they had seen no way out."
+        },
+        {
+          "t": "p",
+          "text": "Then «Kṛṣṇa» took his leave and returned home."
+        },
+        {
+          "t": "slow",
+          "text": "The vessel had not poured out a feast. At its rim he had found one little morsel, and at the river ten thousand guests had found they could eat no more."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why does Draupadī bring the vessel even when she thinks it cannot help?",
+    "seed": "There was still something at the rim.",
+    "ifTheyAsk": [
+      {
+        "q": "Did the pot fill with food again?",
+        "a": "Not in the episode followed here. Kṛṣṇa eats the morsel at its rim; the visitors feel full while bathing and leave."
+      },
+      {
+        "q": "Was there only a grain of rice?",
+        "a": "Ganguli says a particle of rice and vegetable. This telling keeps both, rather than turning the familiar title into a different source claim."
+      }
+    ]
+  }
+}

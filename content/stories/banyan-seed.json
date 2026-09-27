@@ -1,0 +1,362 @@
+{
+  "id": "banyan-seed",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-09-26",
+  "title": "The Seed Śvetaketu Opened",
+  "tease": "His father asks him to break a banyan fruit, and then one tiny seed. What can he see inside?",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Chāndogya Upaniṣad",
+    "locus": "6.1.1–7 and 6.12.1–3",
+    "stability": "stable",
+    "traditionNote": "The full telling uses the homecoming and material examples of 6.1 before the seed lesson of 6.12. Intervening lessons are not presented as absent. The unseen essence is not called nothing.",
+    "checkedAgainst": [
+      "F. Max Müller, The Upanishads, Part I, 1879, Chāndogya VI.1: https://sacred-texts.com/book/the-upanishads-part-1-sbe01/shell/vi-1 and VI.12: https://sacred-texts.com/hin/sbe01/sbe01130.htm (public-domain translation; accessed 2026-09-26)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Śvetaketu leaves to study at twelve and returns at twenty-four learned and conceited.",
+        "locus": "6.1.1–2"
+      },
+      {
+        "claim": "Uddālaka asks about knowing the unknown through a teaching; Śvetaketu asks what that means.",
+        "locus": "6.1.3–4"
+      },
+      {
+        "claim": "The father uses clay, gold and an iron implement to distinguish material from named forms.",
+        "locus": "6.1.4–6; gold is Müller's rendering following the commentator"
+      },
+      {
+        "claim": "The son says his teachers would have taught it if they knew and asks his father to teach him.",
+        "locus": "6.1.7"
+      },
+      {
+        "claim": "The father requests a banyan fruit, asks it to be broken, then asks for a seed to be broken; the son reports seeing nothing within.",
+        "locus": "6.12.1"
+      },
+      {
+        "claim": "The father says the great tree arises from an unseen subtle essence; this essence is the self of all and says tat tvam asi.",
+        "locus": "6.12.2–3"
+      },
+      {
+        "claim": "Śvetaketu asks for further instruction and his father agrees.",
+        "locus": "6.12.3"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": [],
+    "careNote": "The unseen essence is a philosophical teaching, not a claim that a seed contains nothing or a substitute for botany.",
+    "gated": false
+  },
+  "values": [
+    "the tree you cannot see"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Śvetaketu",
+      "role": "lead"
+    },
+    {
+      "ref": "Uddālaka",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Uddālaka» asked his son to bring a fruit from a banyan tree."
+        },
+        {
+          "t": "p",
+          "text": "«Śvetaketu» brought it."
+        },
+        {
+          "t": "p",
+          "text": "_Break it,_ his father said."
+        },
+        {
+          "t": "p",
+          "text": "The fruit opened. Inside were tiny seeds."
+        },
+        {
+          "t": "p",
+          "text": "_What do you see?_"
+        },
+        {
+          "t": "p",
+          "text": "_These very small seeds, Father._"
+        },
+        {
+          "t": "p",
+          "text": "_Break one._"
+        },
+        {
+          "t": "p",
+          "text": "«Śvetaketu» did as he was asked. His father had not asked him to name the tree, or recite something he had learned. He wanted him to look inside one seed."
+        },
+        {
+          "t": "p",
+          "text": "_What do you see now?_"
+        },
+        {
+          "t": "p",
+          "text": "_Nothing, Father._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The great banyan was there. Its fruit was there. The seeds had been inside the fruit, but when one was opened, «Śvetaketu» could see nothing to explain the great tree."
+        },
+        {
+          "t": "p",
+          "text": "His father spoke of what was too fine for him to see. From that subtle essence, he said, the banyan arose."
+        },
+        {
+          "t": "p",
+          "text": "_Believe me, my son._"
+        },
+        {
+          "t": "p",
+          "text": "This was not the first question his father had put to him. «Śvetaketu» had returned home after years of study, sure of how much he knew."
+        },
+        {
+          "t": "p",
+          "text": "His father had asked about a teaching through which the unknown could become known. The young man had asked to learn it."
+        },
+        {
+          "t": "p",
+          "text": "Now the teaching had brought him to a fruit, and from the fruit to a seed. He could break them open. He could report what his eyes found. His father was asking him to consider what his eyes could not show him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Uddālaka» went on. That subtle essence, he said, was the Self of all that exists. It was the true."
+        },
+        {
+          "t": "p",
+          "text": "_And that you are, «Śvetaketu»._"
+        },
+        {
+          "t": "p",
+          "text": "The teaching had reached from the tree to his son. «Śvetaketu» did not announce that he had understood everything."
+        },
+        {
+          "t": "p",
+          "text": "He asked his father to explain further."
+        },
+        {
+          "t": "p",
+          "text": "His father agreed. The son who had come home proud of his learning was willing to remain a learner."
+        },
+        {
+          "t": "slow",
+          "text": "He had opened the seed. Now he kept the question open too: _Please teach me more._"
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "At twelve, «Śvetaketu» went away to study. At twenty-four he came home, having learned the «Vedas». He was proud of what he knew."
+        },
+        {
+          "t": "p",
+          "text": "His father, «Uddālaka», saw that pride. He asked whether his son had sought a particular teaching: one through which what had not been heard could be heard, and what was not known could become known."
+        },
+        {
+          "t": "p",
+          "text": "«Śvetaketu» did not understand the question. How could learning one thing help him know things he had never been taught?"
+        },
+        {
+          "t": "p",
+          "text": "_What is that teaching, Father?_"
+        },
+        {
+          "t": "p",
+          "text": "His father began with clay."
+        },
+        {
+          "t": "p",
+          "text": "Know the clay, he said, and you know what things made of clay have in common. They have different names, but the material is clay."
+        },
+        {
+          "t": "p",
+          "text": "He gave another example, this time with gold. Things made of it might be called by different names; still, their material was gold."
+        },
+        {
+          "t": "p",
+          "text": "Then he spoke of an iron implement. Once again, different things could share the same material."
+        },
+        {
+          "t": "p",
+          "text": "His question was taking his son past the names of separate objects. It asked what lay beneath those differences, what they were made of, and how knowing that might help him understand them."
+        },
+        {
+          "t": "p",
+          "text": "«Śvetaketu» listened. This was a teaching he had not received."
+        },
+        {
+          "t": "p",
+          "text": "_If my teachers had known it, surely they would have taught it to me. Please teach me, Father._"
+        },
+        {
+          "t": "p",
+          "text": "His father agreed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Their teaching continued through a series of examples. In one of them, «Uddālaka» asked his son to fetch a fruit from a banyan tree."
+        },
+        {
+          "t": "p",
+          "text": "Here was something his son could bring. The question no longer began with a teaching he could not name. It began with the fruit of a tree."
+        },
+        {
+          "t": "p",
+          "text": "«Śvetaketu» brought it."
+        },
+        {
+          "t": "p",
+          "text": "_Break it._"
+        },
+        {
+          "t": "p",
+          "text": "He broke the fruit open."
+        },
+        {
+          "t": "p",
+          "text": "_What do you see in it?_"
+        },
+        {
+          "t": "p",
+          "text": "_Very small seeds, Father._"
+        },
+        {
+          "t": "p",
+          "text": "The fruit had held many seeds. His father chose the next step in the lesson: open one of those."
+        },
+        {
+          "t": "p",
+          "text": "_Break a seed._"
+        },
+        {
+          "t": "p",
+          "text": "«Śvetaketu» broke it."
+        },
+        {
+          "t": "p",
+          "text": "_What do you see?_"
+        },
+        {
+          "t": "p",
+          "text": "_Nothing, Father._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He had answered the same question twice. Inside the fruit he could see the seeds. Inside the broken seed, his eyes found nothing he could point to."
+        },
+        {
+          "t": "p",
+          "text": "Yet the banyan was a great tree. His father had asked for its fruit, and the fruit had carried those tiny seeds."
+        },
+        {
+          "t": "p",
+          "text": "«Uddālaka» did not end the lesson at his son's answer. He spoke of a subtle essence, something too fine to be seen there."
+        },
+        {
+          "t": "p",
+          "text": "_My son, from that essence you cannot see, this great banyan arises._"
+        },
+        {
+          "t": "p",
+          "text": "The large tree and the tiny seed belonged to the same question. Opening the seed had not shown «Śvetaketu» a small tree inside it. It had brought him to the limit of what he could see."
+        },
+        {
+          "t": "p",
+          "text": "_Believe me, my son,_ his father said."
+        },
+        {
+          "t": "p",
+          "text": "He went on to speak of all that exists. That subtle essence, he taught, was its Self. It was the true."
+        },
+        {
+          "t": "p",
+          "text": "_That is the Self. And that you are, «Śvetaketu»._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His father had begun by asking him to look at a fruit. Then he had asked him to look inside a seed. Now the teaching included the son who was doing the looking."
+        },
+        {
+          "t": "p",
+          "text": "It was no longer only a question about the banyan. «Uddālaka» was speaking about the Self of all that exists, and he included «Śvetaketu» in those words."
+        },
+        {
+          "t": "p",
+          "text": "The young man did not reply with a claim that he now knew everything. He had once returned home proud of his learning; now he asked to be taught further."
+        },
+        {
+          "t": "p",
+          "text": "_Please explain more, Father._"
+        },
+        {
+          "t": "p",
+          "text": "His father did not refuse because the lesson had already been given. Nor did he demand that his son repeat the words and call that understanding."
+        },
+        {
+          "t": "p",
+          "text": "He agreed to teach him again."
+        },
+        {
+          "t": "p",
+          "text": "The fruit had opened and the seed had opened. What the father said about the unseen essence still called for more teaching, and his son was willing to ask for it."
+        },
+        {
+          "t": "slow",
+          "text": "The next words from «Śvetaketu» were another request to learn. His father answered that request, and their lesson went on."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "How is saying ‘I cannot see it’ different from saying ‘it is not there’?",
+    "seed": "A small seed opens a large question.",
+    "ifTheyAsk": [
+      {
+        "q": "Does a seed really contain nothing?",
+        "a": "No. Śvetaketu reports what he can see when he opens it. The father teaches about an unseen essence; he is not giving a description of a seed's biological structures."
+      },
+      {
+        "q": "What does ‘that you are’ mean?",
+        "a": "Tat tvam asi connects Śvetaketu to the Self of which Uddālaka speaks. Hindu philosophical traditions explain that relationship differently. Here we retain the teaching without declaring one interpretation the only one."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+
+> sandhyakatha@0.1.0 build
+> npm run validate:strict && npm run content && tsc -b && vite build && node scripts/prerender.mjs && node scripts/prerender-locales.mjs && node scripts/prerender-public-locales.mjs && node scripts/locale-preview-gates.mjs && node scripts/public-locale-gates.mjs && node scripts/design-parity-gates.mjs && node scripts/surface-gates.mjs && node scripts/cache-gates.mjs
+
+
+> sandhyakatha@0.1.0 validate:strict
+> node scripts/validate.mjs --strict && node scripts/validate-locales.mjs && node scripts/native-language-gates.mjs --strict && node scripts/locale-parity-gates.mjs && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs && node scripts/validate-observances.mjs --strict && node scripts/observance-foundation-gates.mjs && node scripts/validate-observance-map.mjs --strict && node scripts/build-runtime-observances.mjs && node scripts/runtime-observance-gates.mjs
+
+[2m—[0m
+[2m11 lexicon entries not yet used by a written story (expected while the corpus is young)[0m
+69 written · 93 in the canon · 210 lexicon entries
+[32mOK[0m — 0 warning(s)
+locale editions: 128 · approved 128 · awaiting human review 0 · public previews 124
+OK — 0 warning(s)
+native-language moat: PASS — native-first policy present · translation regressions absent · approved locale language editors are human
+locale parity gate: PASS — 64 published canonical stories · 128 required Hindi/Tamil siblings approved, current and locked
+reel workflow gate: PASS — one CLI · selector-only locale config · no parallel generators · DOM parser + complex-script safe-area regressions covered
+campaign workflow gate: PASS — one publishing command · English + public locales · reel + carousel · Instagram + Facebook + YouTube + WhatsApp · shared complex-script policy
+app locale workflow gate: PASS — one Tonight picker · one Reader · reviewed public locale runtime only · Hindi/Tamil discovery from home
+[2m—[0m
+196 observance record(s)
+[32mOK[0m — 0 warning(s)
+observance foundation gate: PASS — sourced scope/rule/provenance contract protected
+—
+51 observance-story mapping(s)
+OK — 0 warning(s)
+runtime observances: 196 source · 60 agreed date instances
+runtime mappings: 6
+excluded disputed instances: 19
+excluded legacy conflicts: 1
+runtime observance gate: PASS — 60 cross-checked date instances · 6 allowlisted story mappings · disputed dates excluded
+
+> sandhyakatha@0.1.0 content
+> node scripts/build-index.mjs && node scripts/build-runtime-observances.mjs && node scripts/build-runtime-locales.mjs && node scripts/runtime-locale-gates.mjs && node scripts/runtime-observance-gates.mjs
+
+index: 64 published of 93 planned
+runtime observances: 196 source · 60 agreed date instances
+runtime mappings: 6
+excluded disputed instances: 19
+excluded legacy conflicts: 1
+runtime locales: 124 reviewed public edition(s) across 2 language shelf(s)
+runtime locale gates: PASS — 124 approved/locked public edition(s); reviewed short text only; canonical story ids preserved
+runtime observance gate: PASS — 60 cross-checked date instances · 6 allowlisted story mappings · disputed dates excluded
+vite v6.4.3 building for production...
+transforming...
+✓ 48 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/registerSW.js                0.13 kB
+dist/index.html                   3.75 kB │ gzip:  1.28 kB
+dist/assets/index-c6jn-Nbj.css   41.41 kB │ gzip:  7.91 kB
+dist/assets/index-CAyu6HIj.js   300.05 kB │ gzip: 93.87 kB
+✓ built in 1.07s
+
+PWA v0.21.2
+mode      generateSW
+precache  16 entries (371.43 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-bdb082da.js
+public story archive: 62 story link(s)
+prerendered 7 corpus landing page(s)
+prerendered 10 festival page(s)
+prerendered 3 app surface shell(s)
+injected 7 source + 10 festival link(s) into homepage
+about + privacy pages written
+feed.xml — 50 item(s)
+prerendered 62 shareable story page(s) + sitemap
+locale previews: rendered 124 allowlisted edition page(s)
+public locale editions: rendered 124 story page(s) across 2 locale shelf(s)
+locale preview gates: PASS — 124 edition page(s) are explicit, noindex, feedback-enabled and isolated from Reader state
+public locale gates: PASS — 124 approved /s locale edition(s) across 2 shelf(s); canonical story identity preserved
+design parity: PASS — 62 English public story pages + 124 reviewed locale pages share one story system (hi-IN=62, ta-IN=62)
+surface gates: PASS — 62 published public /s stories match canonical reader content
+cache gates: PASS — editorial JSON is network-first/revalidated; story JSON is content-revisioned; art is content-addressed; runtime caches are stories-v3, corpus-v3, story-art-v2

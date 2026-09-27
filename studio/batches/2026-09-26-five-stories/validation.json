@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-09-27T03:05:59.417Z",
+  "base": "63c97f2d8cd5f516ba401730ea8f9390efc75dfa",
+  "canonicalStories": 5,
+  "localeEditions": 10,
+  "checks": [
+    "locale schemas",
+    "canonical blob hashes",
+    "claim references",
+    "entity markers",
+    "short/full completeness in all three languages",
+    "full spoken-word bands and six-minute planning estimates",
+    "recorded human source/language approval and pending measured read-aloud review",
+    "unchanged native-language gate"
+  ],
+  "counts": [
+    {
+      "id": "butter-rope",
+      "englishWords": {
+        "short": 307,
+        "full": 674
+      },
+      "localeWords": {
+        "hi": {
+          "short": 283,
+          "full": 650
+        },
+        "ta": {
+          "short": 176,
+          "full": 652
+        }
+      },
+      "fullEstimatedMinutes": {
+        "en": 6,
+        "hi": 6,
+        "ta": 6
+      }
+    },
+    {
+      "id": "last-grain",
+      "englishWords": {
+        "short": 301,
+        "full": 659
+      },
+      "localeWords": {
+        "hi": {
+          "short": 294,
+          "full": 653
+        },
+        "ta": {
+          "short": 178,
+          "full": 650
+        }
+      },
+      "fullEstimatedMinutes": {
+        "en": 6,
+        "hi": 6,
+        "ta": 6
+      }
+    },
+    {
+      "id": "banyan-seed",
+      "englishWords": {
+        "short": 305,
+        "full": 652
+      },
+      "localeWords": {
+        "hi": {
+          "short": 236,
+          "full": 654
+        },
+        "ta": {
+          "short": 145,
+          "full": 653
+        }
+      },
+      "fullEstimatedMinutes": {
+        "en": 6,
+        "hi": 6,
+        "ta": 6
+      }
+    },
+    {
+      "id": "blue-jackal",
+      "englishWords": {
+        "short": 301,
+        "full": 656
+      },
+      "localeWords": {
+        "hi": {
+          "short": 242,
+          "full": 655
+        },
+        "ta": {
+          "short": 160,
+          "full": 650
+        }
+      },
+      "fullEstimatedMinutes": {
+        "en": 6,
+        "hi": 6,
+        "ta": 6
+      }
+    },
+    {
+      "id": "mice-ate-the-scales",
+      "englishWords": {
+        "short": 300,
+        "full": 659
+      },
+      "localeWords": {
+        "hi": {
+          "short": 269,
+          "full": 650
+        },
+        "ta": {
+          "short": 167,
+          "full": 650
+        }
+      },
+      "fullEstimatedMinutes": {
+        "en": 6,
+        "hi": 6,
+        "ta": 6
+      }
+    }
+  ],
+  "publicationReady": false,
+  "pending": [
+    "confirmation of measured native read-aloud timings"
+  ]
+}
