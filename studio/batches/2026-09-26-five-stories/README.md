@@ -6,7 +6,7 @@ Scope: butter-rope, last-grain, banyan-seed, blue-jackal, mice-ate-the-scales. F
 
 Publication is authorized by Rama in this chat. This is not evidence of a completed human reading of these new editions. Human source review, native language editing, measured read-aloud review, and story-version-specific illustration approval remain required by EDITORIAL.md and studio/PIPELINE.md.
 
-Status: all five English short/full pairs and all ten Hindi/Tamil short editions are written, in review, and mechanically validated. Hindi/Tamil full renditions are not included in this batch. Native timings are deliberately null until measured by a reader. All human review gates remain pending. No new story is published.
+Status (updated 27 September): all fifteen English/Hindi/Tamil editions now contain separate short and full tellings. The ten new Hindi/Tamil full drafts each contain 650–655 spoken words, excluding parent asides. All fifteen full tellings meet the requested six-minute word-count estimate using the planning convention of 110 words/minute plus printed pauses. That convention is not a measured or language-calibrated duration: native timings deliberately remain null until read by a human. All human review gates remain pending. No new story is published.
 
 Open `review.html` for all fifteen editions, parent notes, questions and source ledgers. The page uses the existing product reader CSS, including Hindi/Tamil typography, without modifying production components. Its layout is an editorial proof, not a certified production preview. Run `node studio/batches/2026-09-26-five-stories/review.mjs` from the repository root to regenerate it and check the staged editions.
 
@@ -21,7 +21,7 @@ Visual QA is unverified: browser security policy blocked automated navigation to
 ## Human review required before publication
 
 1. Read both English lengths against the linked editions and record the actual source/editorial reviewer and date. Read them aloud; do not substitute the estimated English minute labels for a human reading.
-2. Have native Hindi and Tamil editors read the ten staged short editions. Review title, register, pronunciation, every scene's claim mapping and parent material. Record actual read-aloud seconds and named reviewers for languageEditor, sourceFidelity and nativeReadAloud. Correct prose before approving it.
+2. Have native Hindi and Tamil editors read both lengths of all ten staged editions. Review title, register, pronunciation, every scene's claim mapping and parent material. Record actual read-aloud seconds separately for short and full, plus named reviewers for languageEditor, sourceFidelity and nativeReadAloud. Correct prose before approving it.
 3. Commission or generate the five illustrations below and review each against story version 1. No illustration has been generated or approved for these stories. Do not create an approved media entry before that review.
 4. Once genuine reviews are available, use the repository approval workflow, update matching canon/media versions, move eligible locale files to `content/locales/{hi,ta}`, maintain exact canonical blob hashes and locks, and run the full strict build and design/locale gates. Publication changes can change the canonical blob hash even without changing prose.
 5. Fetch origin/main again, reconcile newer work, then merge and verify the matching production deploy at sandhyakatha.com. Rama has already authorized that merge; the missing item is review evidence, not a second deployment-permission request.
