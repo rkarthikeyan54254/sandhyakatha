@@ -28,7 +28,7 @@ jobs:
           ids=(amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march)
           for id in "${ids[@]}"; do
             mkdir -p "public/media/stories/$id"
-            cat ".media-staging/$id"/*.part > "public/media/stories/$id/hero.webp"
+            cat ".media-staging/$id"/*.part | base64 --decode > "public/media/stories/$id/hero.webp"
           done
       - name: Verify hero image parity
         run: |
