@@ -23,12 +23,17 @@ jobs:
       - name: Promote approved first five into canonical review corpus
         run: node studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
       - run: npm ci
-      - name: Reassemble reviewed ChatGPT hero art
+      - name: Prepare reviewed ChatGPT hero art
         run: |
           ids=(amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march)
           for id in "${ids[@]}"; do
+            file="public/media/stories/$id/hero.webp"
+            if [ -f "$file" ]; then
+              echo "$id — using committed reviewed hero"
+              continue
+            fi
             mkdir -p "public/media/stories/$id"
-            cat ".media-staging/$id"/*.part | base64 --decode > "public/media/stories/$id/hero.webp"
+            cat ".media-staging/$id"/*.part | base64 --decode > "$file"
           done
       - name: Verify hero image parity
         run: |
