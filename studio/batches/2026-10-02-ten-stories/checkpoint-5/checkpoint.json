@@ -2,20 +2,26 @@
   "schemaVersion": "1.0",
   "branch": "corpus-expansion-10-trilingual-20261002",
   "date": "2026-10-02",
+  "storyPackageHead": "481179e3cf8abdd49feea3e55aa36cfb9b75818a",
   "completed": [
-    "amarniti-scales"
-  ],
-  "editionsCommitted": {
-    "en": 1,
-    "hi-IN": 1,
-    "ta-IN": 1
-  },
-  "firstFiveRemaining": [
+    "amarniti-scales",
     "sundarar-court",
     "appar-spade",
     "thirumangai-ring",
     "kulasekhara-march"
   ],
+  "editionsCommitted": {
+    "en": 5,
+    "hi-IN": 5,
+    "ta-IN": 5,
+    "total": 15
+  },
+  "localeState": {
+    "status": "in-review",
+    "measuredSeconds": null,
+    "humanReviewGates": "pending"
+  },
+  "firstFiveRemaining": [],
   "secondFivePending": [
     "lingodbhava-pillar",
     "bhagiratha-ganga",
@@ -23,7 +29,8 @@
     "brahmin-and-the-pot",
     "sekkizhar-first-word"
   ],
-  "promotionState": "staged-checkpoint",
+  "promotionState": "five-story-staged-checkpoint-complete",
   "humanReviewState": "pending",
-  "fullRepoGates": "deferred-until-first-five-promotion"
+  "mediaState": "candidate mappings recorded; binary promotion deferred to tranche promotion pass",
+  "fullRepoGates": "deferred-until-content-promotion"
 }

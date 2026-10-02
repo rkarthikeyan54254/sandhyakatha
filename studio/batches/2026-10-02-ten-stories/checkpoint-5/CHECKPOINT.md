@@ -1,42 +1,58 @@
-# SandhyaKatha corpus expansion — durable checkpoint
+# SandhyaKatha corpus expansion — first-five durable checkpoint
 
 Branch: `corpus-expansion-10-trilingual-20261002`  
-Checkpoint date: 2026-10-02
+Checkpoint date: 2026-10-02  
+Story-package head before checkpoint metadata: `481179e3cf8abdd49feea3e55aa36cfb9b75818a`
 
-## Actually committed so far
+## Completed and committed
 
-`amarniti-scales` is committed as a complete staged review package:
+The requested first-five tranche is now durable on GitHub: **5 English canonical candidates + 5 Hindi editions + 5 Tamil editions = 15 editions**.
 
-- English canonical candidate: short + full
-- Hindi native editorial edition
-- Tamil native editorial edition
-- exact source/locus and claim ledger
-- locale source maps
-- locale status `in-review`
-- `measuredSeconds: null`
-- all human review gates pending
+| Story | English | Hindi | Tamil | Source boundary |
+|---|---|---|---|---|
+| `amarniti-scales` | complete | complete | complete | *Periya Purāṇam*, Amar-Nīti Nāyaṉār Purāṇam; weighing miracle explicitly treated as Tamil Śaiva hagiography |
+| `sundarar-court` | complete | complete | complete | *Periya Purāṇam* courtroom episode kept distinct from the earlier Tēvāram 7.1 hymn witness |
+| `appar-spade` | complete | complete | complete | *Periya Purāṇam* Tirunāvukkaracar/Tiruppukalūr service-test sequence; jewel test treated as later saint-life material |
+| `thirumangai-ring` | complete | complete | complete | later Śrīvaiṣṇava Guruparamparā conversion story kept distinct from *Periya Tirumoḻi* 1.1; ring-holder variation disclosed |
+| `kulasekhara-march` | complete | complete | complete | later Śrīvaiṣṇava army-order hagiography kept distinct from the earlier Rāma-centred *Perumāḷ Tirumoḻi* witness; Khara/Laṅkā variation disclosed |
 
-The remaining four stories in the requested first-five tranche are **not yet marked complete**:
+## Locale integrity state
 
+All ten non-English editions are intentionally still `in-review`.
+
+- no human language-editor approval is claimed
+- no source-fidelity approval is claimed
+- native read-aloud reviews remain pending
+- `measuredSeconds` remains `null`
+- locale source maps are tied to each English claim ledger
+- no fake human approvals or measured timings were introduced
+
+The Sundarar locale files were repaired in this checkpoint so their `sourceBlobSha1` now points to the committed English source bytes rather than the earlier temporary zero placeholder.
+
+## Media checkpoint
+
+The five user-supplied hero-image mappings are recorded in `media-candidates.json` for:
+
+- `amarniti-scales`
 - `sundarar-court`
 - `appar-spade`
 - `thirumangai-ring`
 - `kulasekhara-march`
 
-Research/source decisions for all five are already captured in the batch support files so an interruption does not require broad re-research.
+No human image approval is asserted at this staged checkpoint. Hero/OG binary promotion belongs to the later content-promotion pass.
 
-## Source decisions already fixed for the first-five tranche
+## What this checkpoint deliberately does not claim
 
-| Story | Evidence boundary |
-|---|---|
-| `amarniti-scales` | *Periya Purāṇam*, Amar-Nīti Nāyaṉār Purāṇam, vv. 502–549; weighing miracle identified as Tamil Śaiva hagiography |
-| `sundarar-court` | *Periya Purāṇam* deed/court episode + Sundarar Tēvāram 7.1; later courtroom hagiography kept distinct from the earlier hymn witness |
-| `appar-spade` | *Periya Purāṇam* Tirunāvukkaracar episode, especially vv. 1681–1683; gold/gems test is saint-life material |
-| `thirumangai-ring` | Śrīvaiṣṇava hagiographic tradition + *Periya Tirumoḻi* opening decad; ring-holder variant must be disclosed |
-| `kulasekhara-march` | Later Śrīvaiṣṇava Kulaśēkhara hagiography + *Perumāḷ Tirumoḻi*; army-march episodes are not claimed as the poet's own autobiographical text |
+These files are staged review packages under `studio/batches/.../checkpoint-5`; they have **not yet been promoted into the live `content/stories` / `content/locales` corpus**. Therefore the full corpus/build/SEO/cache/lock gate pass is not claimed here. Those gates must run after promotion, not be weakened to make staged material appear published.
 
-## Resume rule
+## Next five
 
-Resume from this branch and complete the remaining four one story package at a time. Commit each completed EN/HI/TA package before starting the next. Do not recreate `amarniti-scales`, do not create another branch, and do not repeat broad research.
+Resume from this branch and work only on:
 
-After all five are durable, run the tranche-wide promotion/gate pass and take the requested five-story checkpoint.
+1. `lingodbhava-pillar`
+2. `bhagiratha-ganga`
+3. `sukanya-anthill`
+4. `brahmin-and-the-pot`
+5. `sekkizhar-first-word`
+
+Do not recreate the first five and do not repeat broad research. The repository checkpoint, not chat state, is now the resume source of truth.
