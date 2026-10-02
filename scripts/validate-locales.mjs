@@ -118,7 +118,16 @@ for (const [langDir, file] of localeFiles()) {
   if (!existsSync(join(ROOT, storyRel))) { err(rel, `canonical story ${storyRel} is missing`); continue; }
   const sourceText = readFileSync(join(ROOT, storyRel), 'utf8');
   const source = JSON.parse(sourceText);
-  if (source.status !== 'published') err(rel, `locale edition points to canonical story status ${source.status}, not published`);
+  // Locale drafting/review may proceed in parallel once the canonical story has
+  // itself reached human review. Publication remains fail-closed: an approved
+  // locale still requires a published canonical story, and the public/lock
+  // gates below remain unchanged.
+  if (doc.status === 'approved') {
+    if (source.status !== 'published')
+      err(rel, `approved locale points to canonical story status ${source.status}, not published`);
+  } else if (!['in-review', 'published'].includes(source.status)) {
+    err(rel, `${doc.status} locale points to canonical story status ${source.status}; canonical must be in-review or published before locale drafting`);
+  }
   if (source.version !== doc.sourceVersion) err(rel, `sourceVersion ${doc.sourceVersion} does not match canonical v${source.version}`);
   const blob = gitBlobSha1(sourceText);
   if (blob !== doc.sourceBlobSha1)
