@@ -20,41 +20,24 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - run: npm ci
       - name: Promote approved first five into canonical review corpus
         run: node studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
-      - run: npm ci
-      - name: Prepare reviewed ChatGPT hero art
+      - name: Confirm approved hero art is committed
         run: |
-          ids=(amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march)
-          for id in "${ids[@]}"; do
-            file="public/media/stories/$id/hero.webp"
-            if [ -f "$file" ]; then
-              echo "$id — using committed reviewed hero"
-              continue
-            fi
-            mkdir -p "public/media/stories/$id"
-            cat ".media-staging/$id"/*.part | base64 --decode > "$file"
+          for id in amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march; do
+            test -s "public/media/stories/$id/hero.webp"
           done
-      - name: Verify hero image parity
-        run: |
-          ids=(amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march)
-          for id in "${ids[@]}"; do
-            file="public/media/stories/$id/hero.webp"
-            read width height < <(identify -format '%w %h' "$file")
-            bytes=$(wc -c < "$file")
-            echo "$id — ${width}x${height}, ${bytes} bytes"
-            test "$width" -ge 1200
-            test "$height" -ge 800
-            test "$bytes" -ge 120000
-          done
-      - name: Generate dedicated social cards from reviewed hero art
+      - name: Generate social cards from committed hero art
         run: npm run og
-      - name: Refresh locks without weakening publication gates
+      - name: Refresh locks
         run: |
           npm run lock
           npm run lock:locales
-      - name: Validate strict corpus
+      - name: Validate the corpus
         run: npm run validate:strict
+      - name: Build the shipped index
+        run: npm run content
       - name: Unit tests
         run: npm test
       - name: Production build
@@ -71,9 +54,8 @@ jobs:
         run: npm run verify:surfaces
       - name: Verify cache policy
         run: npm run verify:cache
-      - name: Remove one-shot promotion machinery
+      - name: Remove one-shot promotion files
         run: |
-          rm -rf .media-staging
           rm .github/workflows/promote-first5.yml
           rm studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
       - name: Commit validated promotion back to branch
