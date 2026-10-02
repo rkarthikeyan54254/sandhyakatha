@@ -23,6 +23,27 @@ jobs:
       - name: Promote approved first five into canonical review corpus
         run: node studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
       - run: npm ci
+      - name: Reassemble reviewed ChatGPT hero art
+        run: |
+          ids=(amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march)
+          for id in "${ids[@]}"; do
+            mkdir -p "public/media/stories/$id"
+            cat ".media-staging/$id"/*.part > "public/media/stories/$id/hero.webp"
+          done
+      - name: Verify hero image parity
+        run: |
+          ids=(amarniti-scales sundarar-court appar-spade thirumangai-ring kulasekhara-march)
+          for id in "${ids[@]}"; do
+            file="public/media/stories/$id/hero.webp"
+            read width height < <(identify -format '%w %h' "$file")
+            bytes=$(wc -c < "$file")
+            echo "$id — ${width}x${height}, ${bytes} bytes"
+            test "$width" -ge 1200
+            test "$height" -ge 800
+            test "$bytes" -ge 120000
+          done
+      - name: Generate dedicated social cards from reviewed hero art
+        run: npm run og
       - name: Refresh locks without weakening publication gates
         run: |
           npm run lock
@@ -47,6 +68,7 @@ jobs:
         run: npm run verify:cache
       - name: Remove one-shot promotion machinery
         run: |
+          rm -rf .media-staging
           rm .github/workflows/promote-first5.yml
           rm studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
       - name: Commit validated promotion back to branch
