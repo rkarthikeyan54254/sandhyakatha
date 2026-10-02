@@ -1,0 +1,86 @@
+{
+  "id": "thirumangai-ring",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-10-02",
+  "title": "The Highwayman's Last Robbery",
+  "tease": "A highwayman strips a wedding party of its jewels, then finds one ring he cannot remove and a bundle he cannot lift.",
+  "source": {
+    "corpus": "alvar",
+    "tradition": "tamil-vaishnava",
+    "work": "Śrīvaiṣṇava Guruparamparā traditions; compare Tirumaṅgai Āḻvār's Periya Tirumoḻi",
+    "locus": "Tirumaṅgai Āḻvār caritam — roadside robbery and mantra-conversion episode; Periya Tirumoḻi 1.1.1–10 as earlier poetic witness",
+    "stability": "regional",
+    "traditionNote": "The roadside robbery, wedding-party disguise and ring episode come from later Śrīvaiṣṇava hagiography. Tirumaṅgai Āḻvār's own Periya Tirumoḻi is the earlier textual witness to his transformed devotional voice; it does not narrate this scene as autobiography.",
+    "checkedAgainst": [
+      "Śrīvaiṣṇava Guruparamparā accounts of Tirumaṅgai Āḻvār's conversion, robbery and aṣṭākṣara-mantra episode, consulted for the hagiographic sequence on 2026-10-02",
+      "Tirumaṅgai Āḻvār, Periya Tirumoḻi 1.1.1–10, especially the opening decad on the name Nārāyaṇa, used as the earlier poetic witness rather than as a narrative source for the robbery"
+    ],
+    "variants": [
+      {
+        "differs": "Later retellings differ about whether the stubborn toe-ring is on the bridegroom or bride, and about the exact dialogue before the mantra is given.",
+        "tellings": "The shared hagiographic core is the disguised divine wedding party, the robbery, a ring that will not come off, loot that cannot be lifted, and the transmission of the aṣṭākṣara mantra.",
+        "weTell": "We use the bridegroom-toe-ring version reflected in Sandhya Katha's canon hook and explicitly mark the ring-holder as a variant detail."
+      }
+    ],
+    "sourcing": [
+      {"claim":"Later Śrīvaiṣṇava hagiography remembers Tirumaṅgai before conversion as a warrior/chieftain who turns to highway robbery while trying to sustain his commitments to feeding Vaiṣṇava devotees.","locus":"Guruparamparā Tirumaṅgai Āḻvār caritam, pre-conversion setting"},
+      {"claim":"A richly adorned wedding party appears on the road and is stopped and robbed by Tirumaṅgai and his men.","locus":"Guruparamparā conversion episode, roadside wedding party"},
+      {"claim":"In one widespread version, a toe-ring on the bridegroom will not come off; Tirumaṅgai bends to remove it with his teeth.","locus":"Guruparamparā/Śrīvaiṣṇava hagiographic ring episode; ring-holder varies in retellings"},
+      {"claim":"After the jewels are gathered, the bundle cannot be lifted despite Tirumaṅgai's strength.","locus":"Guruparamparā conversion episode, immovable-bundle sequence"},
+      {"claim":"Tirumaṅgai suspects a hidden spell or secret and demands it; the divine bridegroom gives him the aṣṭākṣara mantra associated with Nārāyaṇa.","locus":"Guruparamparā conversion episode, mantra transmission"},
+      {"claim":"Periya Tirumoḻi 1.1 celebrates the name Nārāyaṇa and provides an earlier first-person devotional witness, without itself serving as a transcript of the robbery story.","locus":"Periya Tirumoḻi 1.1.1–10"}
+    ]
+  },
+  "audience": {"minAge":9,"sensitivity":[],"gated":false},
+  "values":["being caught by what you stole"],
+  "characters":[{"ref":"Tirumaṅgai Āḻvār","role":"lead"},{"ref":"Viṣṇu","role":"present"}],
+  "lengths": {
+    "short": {"minutes":3,"blocks":[
+      {"t":"p","text":"Before the later tradition remembers «Tirumaṅgai Āḻvār» as a poet-saint, it remembers a dangerous man on the road. He had taken to robbery, and travellers carrying wealth knew what it meant to meet him and his men."},
+      {"t":"p","text":"One night a richly dressed wedding party came along. Jewels shone on the bride and bridegroom. The highwaymen stopped them and collected the ornaments piece by piece."},
+      {"t":"p","text":"Then one small ring refused to cooperate. In the version Sandhya Katha follows, it was on the bridegroom's toe. «Tirumaṅgai Āḻvār» bent down and tried to pull it free with his teeth."},
+      {"t":"beat"},
+      {"t":"p","text":"At last the jewels were bundled together. The robbery should have been finished. But when he tried to lift the bundle, it would not move."},
+      {"t":"p","text":"He was not a weak man. Strength had solved many problems for him before. Now a bundle of stolen ornaments sat on the ground as though the earth had taken hold of it."},
+      {"t":"p","text":"He accused the bridegroom of using some secret word or spell. Tell me what you have done, he demanded."},
+      {"t":"beat"},
+      {"t":"p","text":"The hagiography then reveals what the travellers had hidden. The bridegroom was «Viṣṇu» in disguise. Instead of fighting the robber, he gave him the sacred eight-syllabled mantra centred on the name Nārāyaṇa."},
+      {"t":"p","text":"The road story is later hagiography, not a scene narrated in Tirumaṅgai's own poems. His Periya Tirumoḻi gives us the earlier poetic voice that repeatedly discovers power in that divine name."},
+      {"t":"slow","text":"He had stopped the wedding party to take everything from them. The tradition remembers the night because he left carrying the one thing he had not known how to steal."}
+    ]},
+    "full": {"minutes":6,"blocks":[
+      {"t":"p","text":"The later Śrīvaiṣṇava biographies of «Tirumaṅgai Āḻvār» do not begin his saint-life by pretending he was always gentle. They remember a fighter, a chieftain and, for a time, a robber who stopped travellers on the road."},
+      {"t":"p","text":"The hagiographic motive is tied to a vow of feeding Vaiṣṇava devotees after other resources fail him. That detail does not make robbery harmless. It makes the story deliberately awkward: devotion and wrongdoing have become tangled in the same life."},
+      {"t":"p","text":"Then a wedding party appears, carrying exactly the kind of wealth a highwayman would notice. The bride and bridegroom are richly ornamented. Their companions look like people travelling after a marriage."},
+      {"t":"p","text":"«Tirumaṅgai Āḻvār» and his men stop them. Ornaments are demanded and surrendered. The scene moves like a successful robbery until the last small details begin refusing to obey him."},
+      {"t":"beat"},
+      {"t":"p","text":"One ring will not come off. Retellings differ about whose toe carries it. Sandhya Katha follows the familiar bridegroom version: Tirumaṅgai kneels, grips the ring and finally bends close enough to try his teeth."},
+      {"t":"p","text":"It is a strange reversal. The man who has controlled the whole road is now on his knees before the person he is robbing, defeated for a moment by a piece of jewellery smaller than his finger."},
+      {"t":"p","text":"Eventually the valuables are gathered into a bundle. The men have done the dangerous part. All that remains is to lift the loot and leave."},
+      {"t":"p","text":"The bundle does not move."},
+      {"t":"p","text":"Tirumaṅgai tries again. He is known for strength, and strength has usually been enough. But the stolen wealth sits on the road as though its weight has nothing to do with gold or gemstones."},
+      {"t":"beat"},
+      {"t":"p","text":"Now suspicion replaces confidence. The bridegroom must know some hidden word, some trick that has fixed the bundle to the ground. Tirumaṅgai demands the secret."},
+      {"t":"p","text":"The saint-life lets the disguise open at precisely that point. The wedding party is divine. The bridegroom is «Viṣṇu». The robber who demanded jewels now asks for a word."},
+      {"t":"p","text":"What he receives is the aṣṭākṣara, the eight-syllabled Vaiṣṇava mantra centred on Nārāyaṇa. Later tellings make this the turning point from the violent road-life toward the poet-saint remembered by the tradition."},
+      {"t":"p","text":"It would be easy to make the scene neater than it is: crime, magic, instant goodness. The hagiography is doing something more pointed. The man who knows how to seize things meets something that cannot be taken by force. It must be heard and received."},
+      {"t":"beat"},
+      {"t":"p","text":"Source layers matter here. The robbery, the wedding disguise, the stubborn ring and the impossible bundle belong to later Guruparamparā biography. They are not claimed as an eyewitness account or as a scene written by Tirumaṅgai himself."},
+      {"t":"p","text":"The earlier textual witness is his own Periya Tirumoḻi. Its opening decad speaks intensely of the name Nārāyaṇa and what that name gives. The poems show us the devotional voice; the later biography builds a story about how such a voice began."},
+      {"t":"p","text":"Even the ring detail is allowed to stay uncertain. Some retellings put it on the bride, others on the bridegroom. The conversion does not depend on pretending that every later narrator preserved the same toe."},
+      {"t":"p","text":"What stays stable across the hagiographic telling is the reversal: the highwayman empties other people's ornaments into his bundle, yet cannot carry it away until his demand for a secret becomes an encounter with the divine name."},
+      {"t":"slow","text":"He began the night believing strength could make anything his. He ended it with a name that the story says could only be given."}
+    ]}
+  },
+  "close": {
+    "question":"What changes when Tirumaṅgai stops demanding objects and starts asking for the secret behind what he cannot move?",
+    "seed":"Some things can be seized; other things only begin when they are received.",
+    "ifTheyAsk":[
+      {"q":"Was the ring really on the bridegroom's toe?","a":"That detail varies in later retellings. Sandhya Katha follows the bridegroom-toe-ring version, while noting that other tellings place the stubborn ring differently."},
+      {"q":"Does feeding devotees make the robbery acceptable?","a":"No. The later hagiography uses that motive to explain how Tirumaṅgai reached the road, not to turn robbery into a good act."},
+      {"q":"Is this conversion story in Tirumaṅgai's own poems?","a":"Not as a narrated roadside episode. The Periya Tirumoḻi is the earlier poetic witness to his devotional voice and to the importance of the name Nārāyaṇa; the robbery scene comes from later Śrīvaiṣṇava biography."}
+    ]
+  }
+}
