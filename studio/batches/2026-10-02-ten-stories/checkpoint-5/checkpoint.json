@@ -3,18 +3,20 @@
   "branch": "corpus-expansion-10-trilingual-20261002",
   "date": "2026-10-02",
   "completed": [
-    "amarniti-scales",
+    "amarniti-scales"
+  ],
+  "editionsCommitted": {
+    "en": 1,
+    "hi-IN": 1,
+    "ta-IN": 1
+  },
+  "firstFiveRemaining": [
     "sundarar-court",
     "appar-spade",
     "thirumangai-ring",
     "kulasekhara-march"
   ],
-  "editions": {
-    "en": 5,
-    "hi-IN": 5,
-    "ta-IN": 5
-  },
-  "remaining": [
+  "secondFivePending": [
     "lingodbhava-pillar",
     "bhagiratha-ganga",
     "sukanya-anthill",
@@ -23,5 +25,5 @@
   ],
   "promotionState": "staged-checkpoint",
   "humanReviewState": "pending",
-  "fullRepoGates": "deferred-until-promotion"
+  "fullRepoGates": "deferred-until-first-five-promotion"
 }

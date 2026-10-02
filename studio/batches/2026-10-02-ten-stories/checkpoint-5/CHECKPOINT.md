@@ -1,88 +1,42 @@
-# SandhyaKatha corpus expansion — checkpoint 5 of 10
+# SandhyaKatha corpus expansion — durable checkpoint
 
 Branch: `corpus-expansion-10-trilingual-20261002`  
 Checkpoint date: 2026-10-02
 
-## Durable scope in this checkpoint
+## Actually committed so far
 
-Five story packages are staged, each with independent English short/full tellings and native Hindi/Tamil review editions:
+`amarniti-scales` is committed as a complete staged review package:
 
-1. `amarniti-scales`
-2. `sundarar-court`
-3. `appar-spade`
-4. `thirumangai-ring`
-5. `kulasekhara-march`
-
-That is **15 review editions**: 5 English + 5 Hindi + 5 Tamil.
-
-The files live under this batch directory so this checkpoint cannot break the production corpus while the remaining global promotion work (`content/canon.json`, `content/lexicon.json`, `content/media.json`, locks/manifests) is still pending. The exact English bytes here are the source bytes to promote unchanged; Hindi/Tamil `sourceBlobSha1` values pin those bytes.
-
-## Editorial/source decisions
-
-| Story | Primary evidence used | Boundary kept explicit |
-|---|---|---|
-| `amarniti-scales` | *Periya Purāṇam*, Amar-Nīti Nāyaṉār Purāṇam, vv. 502–549 | Tamil Śaiva saint-life; weighing miracle is hagiographic, not presented as earlier Sanskrit scripture |
-| `sundarar-court` | *Periya Purāṇam* Lord's Intercession episode + Sundarar Tevaram 7.001 | Court/deed drama is later hagiography; Tiruvennainallur, `piththā`, and service language are also present in Sundarar's own hymn |
-| `appar-spade` | *Periya Purāṇam*, Tirunāvukkaracar Nāyaṉār Purāṇam, especially vv. 1681–1683 | Gold/gems episode is later saint-life; Appar's own hymns are a separate earlier evidence layer |
-| `thirumangai-ring` | Śrīvaiṣṇava guruparamparā / Tirumaṅgai vaibhavam + *Periya Tirumoḻi* opening decad | Wedding party/ring/bundle are later hagiography; own poems support remembered wrongdoing/transformation but not those scene details; bride/bridegroom ring variant is disclosed |
-| `kulasekhara-march` | Śrīvaiṣṇava Kulaśēkhara hagiography + *Perumāḷ Tirumoḻi* + modern source-lineage discussion | Army-march episodes are later saint-biography; Kulaśēkhara's own poems establish Rāma devotion but do not narrate those events |
-
-## English read-aloud structural check
-
-| Story | Short words | Full words |
-|---|---:|---:|
-| `amarniti-scales` | 334 | 680 |
-| `sundarar-court` | 336 | 680 |
-| `appar-spade` | 322 | 680 |
-| `thirumangai-ring` | 352 | 659 |
-| `kulasekhara-march` | 360 | 679 |
-
-All five are inside the repository's hard English bands: short 300–360, full 650–680. Each rendition has exactly one final `slow` landing and short/full text is independently written.
-
-## Hindi/Tamil review state
-
-- `status: in-review`
+- English canonical candidate: short + full
+- Hindi native editorial edition
+- Tamil native editorial edition
+- exact source/locus and claim ledger
+- locale source maps
+- locale status `in-review`
 - `measuredSeconds: null`
-- `nativeReadAloud`: pending
-- `languageEditor`: pending
-- `sourceFidelity`: pending
-- claim-level `sourceMap` present for tease, every scene, parent note, tradition note, and follow-ups
-- local structural scan: no Latin-script reader prose outside canonical entity markers
-- no human approval has been invented
+- all human review gates pending
 
-## Hero/OG assets
+The remaining four stories in the requested first-five tranche are **not yet marked complete**:
 
-| Story | Supplied source image |
+- `sundarar-court`
+- `appar-spade`
+- `thirumangai-ring`
+- `kulasekhara-march`
+
+Research/source decisions for all five are already captured in the batch support files so an interruption does not require broad re-research.
+
+## Source decisions already fixed for the first-five tranche
+
+| Story | Evidence boundary |
 |---|---|
-| `amarniti-scales` | `ChatGPT Image 2 Oct 2026, 20_02_00-1.png` |
-| `sundarar-court` | `ChatGPT Image 2 Oct 2026, 20_02_22-2.png` |
-| `appar-spade` | `ChatGPT Image 2 Oct 2026, 20_02_32-3.png` |
-| `thirumangai-ring` | `ChatGPT Image 2 Oct 2026, 20_02_45-4.png` |
-| `kulasekhara-march` | `ChatGPT Image 2 Oct 2026, 20_02_56-5.png` |
-
-The five supplied source images are mapped in `media-candidates.json`, and the local checkpoint workspace has processed `hero.webp` plus 1200×630 OG derivatives ready for promotion. The binary assets are not asserted as human-approved.
-
-## Machine checks run for this checkpoint
-
-A local batch-only structural check passed for:
-- English hard word bands
-- final/unique slow landing
-- claim-reference bounds
-- complete locale scene/source maps
-- Hindi/Tamil Latin-leak scan outside entity markers
-- `measuredSeconds` remaining null
-- all human review gates remaining pending
-
-Full repository `npm run validate:strict`, tests and build are intentionally deferred until promotion into the production content lanes, because this checkpoint is designed first to make the work durable without weakening or tripping existing production gates.
-
-## Remaining 5
-
-- `lingodbhava-pillar`
-- `bhagiratha-ganga`
-- `sukanya-anthill`
-- `brahmin-and-the-pot`
-- `sekkizhar-first-word`
+| `amarniti-scales` | *Periya Purāṇam*, Amar-Nīti Nāyaṉār Purāṇam, vv. 502–549; weighing miracle identified as Tamil Śaiva hagiography |
+| `sundarar-court` | *Periya Purāṇam* deed/court episode + Sundarar Tēvāram 7.1; later courtroom hagiography kept distinct from the earlier hymn witness |
+| `appar-spade` | *Periya Purāṇam* Tirunāvukkaracar episode, especially vv. 1681–1683; gold/gems test is saint-life material |
+| `thirumangai-ring` | Śrīvaiṣṇava hagiographic tradition + *Periya Tirumoḻi* opening decad; ring-holder variant must be disclosed |
+| `kulasekhara-march` | Later Śrīvaiṣṇava Kulaśēkhara hagiography + *Perumāḷ Tirumoḻi*; army-march episodes are not claimed as the poet's own autobiographical text |
 
 ## Resume rule
 
-On any interruption, resume from this branch and this directory. Do **not** repeat broad research for the five completed packages. Promote these exact reviewed source bytes only after the global canon/lexicon/media/lock updates are ready.
+Resume from this branch and complete the remaining four one story package at a time. Commit each completed EN/HI/TA package before starting the next. Do not recreate `amarniti-scales`, do not create another branch, and do not repeat broad research.
+
+After all five are durable, run the tranche-wide promotion/gate pass and take the requested five-story checkpoint.
