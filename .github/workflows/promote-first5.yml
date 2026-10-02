@@ -1,0 +1,62 @@
+name: promote-first-five
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    if: github.head_ref == 'corpus-expansion-10-trilingual-20261002'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Promote approved first five into canonical review corpus
+        run: node studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
+      - run: npm ci
+      - name: Refresh locks without weakening publication gates
+        run: |
+          npm run lock
+          npm run lock:locales
+      - name: Validate strict corpus
+        run: npm run validate:strict
+      - name: Unit tests
+        run: npm test
+      - name: Production build
+        run: npm run build
+      - name: Verify native-language gate
+        run: npm run verify:native-language
+      - name: Verify locale parity
+        run: npm run verify:locale-parity
+      - name: Verify read-aloud gate
+        run: npm run verify:read-aloud
+      - name: Verify design parity
+        run: npm run verify:design-parity
+      - name: Verify static surfaces
+        run: npm run verify:surfaces
+      - name: Verify cache policy
+        run: npm run verify:cache
+      - name: Remove one-shot promotion machinery
+        run: |
+          rm .github/workflows/promote-first5.yml
+          rm studio/batches/2026-10-02-ten-stories/checkpoint-5/promote-first5.mjs
+      - name: Commit validated promotion back to branch
+        run: |
+          git config user.name 'Rama Karthikeyan'
+          git config user.email 'rkarthikeyan54254@gmail.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No promotion diff to commit.'
+          else
+            git commit -m 'Promote approved first five trilingual stories'
+            git push origin HEAD:${{ github.head_ref }}
+          fi
