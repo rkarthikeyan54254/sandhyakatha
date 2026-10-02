@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "branch": "corpus-expansion-10-trilingual-20261002",
+  "date": "2026-10-02",
+  "completed": [
+    "amarniti-scales",
+    "sundarar-court",
+    "appar-spade",
+    "thirumangai-ring",
+    "kulasekhara-march"
+  ],
+  "editions": {
+    "en": 5,
+    "hi-IN": 5,
+    "ta-IN": 5
+  },
+  "remaining": [
+    "lingodbhava-pillar",
+    "bhagiratha-ganga",
+    "sukanya-anthill",
+    "brahmin-and-the-pot",
+    "sekkizhar-first-word"
+  ],
+  "promotionState": "staged-checkpoint",
+  "humanReviewState": "pending",
+  "fullRepoGates": "deferred-until-promotion"
+}

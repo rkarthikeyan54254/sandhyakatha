@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "note": "User-supplied hero candidates for checkpoint 5. No human image approval is asserted. Binary derivatives are prepared in the local checkpoint workspace for later promotion.",
+  "stories": {
+    "amarniti-scales": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_00-1.png",
+      "heroFile": "/media/stories/amarniti-scales/hero.webp",
+      "ogFile": "/og/amarniti-scales.jpg",
+      "heroStatus": "in-review",
+      "storyVersion": 1
+    },
+    "sundarar-court": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_22-2.png",
+      "heroFile": "/media/stories/sundarar-court/hero.webp",
+      "ogFile": "/og/sundarar-court.jpg",
+      "heroStatus": "in-review",
+      "storyVersion": 1
+    },
+    "appar-spade": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_32-3.png",
+      "heroFile": "/media/stories/appar-spade/hero.webp",
+      "ogFile": "/og/appar-spade.jpg",
+      "heroStatus": "in-review",
+      "storyVersion": 1
+    },
+    "thirumangai-ring": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_45-4.png",
+      "heroFile": "/media/stories/thirumangai-ring/hero.webp",
+      "ogFile": "/og/thirumangai-ring.jpg",
+      "heroStatus": "in-review",
+      "storyVersion": 1
+    },
+    "kulasekhara-march": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_56-5.png",
+      "heroFile": "/media/stories/kulasekhara-march/hero.webp",
+      "ogFile": "/og/kulasekhara-march.jpg",
+      "heroStatus": "in-review",
+      "storyVersion": 1
+    }
+  }
+}
