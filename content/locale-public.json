@@ -502,6 +502,30 @@
     {
       "storyId": "panar-shoulders",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "butter-rope",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "butter-rope",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "last-grain",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "last-grain",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "banyan-seed",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "banyan-seed",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

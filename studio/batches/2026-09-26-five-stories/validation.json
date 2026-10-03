@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-27T03:05:59.417Z",
+  "checkedAt": "2026-09-27T03:17:36.566Z",
   "base": "63c97f2d8cd5f516ba401730ea8f9390efc75dfa",
   "canonicalStories": 5,
   "localeEditions": 10,
@@ -10,7 +10,7 @@
     "entity markers",
     "short/full completeness in all three languages",
     "full spoken-word bands and six-minute planning estimates",
-    "recorded human source/language approval and pending measured read-aloud review",
+    "recorded human source/language and measured read-aloud approval",
     "unchanged native-language gate"
   ],
   "counts": [
@@ -125,8 +125,6 @@
       }
     }
   ],
-  "publicationReady": false,
-  "pending": [
-    "confirmation of measured native read-aloud timings"
-  ]
+  "publicationReady": true,
+  "pending": []
 }

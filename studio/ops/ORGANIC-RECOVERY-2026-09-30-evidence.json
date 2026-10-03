@@ -1,0 +1,1565 @@
+{
+  "retrievedDate": "2026-09-30",
+  "windows": "GA4 and YouTube September 2–29. GSC available daily rows September 9–27. Today excluded from analytic totals. Social post dates select posts; counts may be lifetime and are not verified organic-only.",
+  "reports": {
+    "ga28": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-02",
+        "date_to": "2026-09-29",
+        "fields": [
+          "active_users",
+          "sessions",
+          "engaged_sessions",
+          "engagement_rate",
+          "average_engagement_time",
+          "screen_page_views"
+        ]
+      },
+      "data": [
+        {
+          "active_users": 1344,
+          "sessions": 1543,
+          "engaged_sessions": 304,
+          "engagement_rate": 0.197,
+          "average_engagement_time": 23.0737,
+          "screen_page_views": 2240
+        }
+      ],
+      "error": false
+    },
+    "gaDaily": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-02",
+        "date_to": "2026-09-29",
+        "fields": [
+          "date",
+          "active_users",
+          "sessions",
+          "engaged_sessions"
+        ]
+      },
+      "data": [
+        {
+          "date": "2026-09-08",
+          "active_users": 27,
+          "sessions": 33,
+          "engaged_sessions": 4
+        },
+        {
+          "date": "2026-09-09",
+          "active_users": 30,
+          "sessions": 34,
+          "engaged_sessions": 8
+        },
+        {
+          "date": "2026-09-10",
+          "active_users": 36,
+          "sessions": 44,
+          "engaged_sessions": 9
+        },
+        {
+          "date": "2026-09-11",
+          "active_users": 31,
+          "sessions": 37,
+          "engaged_sessions": 11
+        },
+        {
+          "date": "2026-09-12",
+          "active_users": 27,
+          "sessions": 40,
+          "engaged_sessions": 17
+        },
+        {
+          "date": "2026-09-13",
+          "active_users": 22,
+          "sessions": 33,
+          "engaged_sessions": 15
+        },
+        {
+          "date": "2026-09-14",
+          "active_users": 21,
+          "sessions": 28,
+          "engaged_sessions": 13
+        },
+        {
+          "date": "2026-09-15",
+          "active_users": 37,
+          "sessions": 53,
+          "engaged_sessions": 26
+        },
+        {
+          "date": "2026-09-16",
+          "active_users": 35,
+          "sessions": 41,
+          "engaged_sessions": 17
+        },
+        {
+          "date": "2026-09-17",
+          "active_users": 301,
+          "sessions": 315,
+          "engaged_sessions": 43
+        },
+        {
+          "date": "2026-09-18",
+          "active_users": 258,
+          "sessions": 276,
+          "engaged_sessions": 46
+        },
+        {
+          "date": "2026-09-19",
+          "active_users": 25,
+          "sessions": 34,
+          "engaged_sessions": 14
+        },
+        {
+          "date": "2026-09-20",
+          "active_users": 41,
+          "sessions": 44,
+          "engaged_sessions": 9
+        },
+        {
+          "date": "2026-09-21",
+          "active_users": 187,
+          "sessions": 193,
+          "engaged_sessions": 24
+        },
+        {
+          "date": "2026-09-22",
+          "active_users": 191,
+          "sessions": 200,
+          "engaged_sessions": 30
+        },
+        {
+          "date": "2026-09-23",
+          "active_users": 73,
+          "sessions": 81,
+          "engaged_sessions": 5
+        },
+        {
+          "date": "2026-09-24",
+          "active_users": 33,
+          "sessions": 35,
+          "engaged_sessions": 5
+        },
+        {
+          "date": "2026-09-25",
+          "active_users": 4,
+          "sessions": 5,
+          "engaged_sessions": 2
+        },
+        {
+          "date": "2026-09-26",
+          "active_users": 3,
+          "sessions": 6,
+          "engaged_sessions": 4
+        },
+        {
+          "date": "2026-09-27",
+          "active_users": 5,
+          "sessions": 5,
+          "engaged_sessions": 2
+        },
+        {
+          "date": "2026-09-28",
+          "active_users": 5,
+          "sessions": 5,
+          "engaged_sessions": 0
+        },
+        {
+          "date": "2026-09-29",
+          "active_users": 3,
+          "sessions": 4,
+          "engaged_sessions": 1
+        }
+      ],
+      "error": false
+    },
+    "gaRecentSources": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-23",
+        "date_to": "2026-09-29",
+        "fields": [
+          "session_source_medium",
+          "sessions",
+          "engaged_sessions",
+          "active_users"
+        ]
+      },
+      "data": [
+        {
+          "session_source_medium": "fb / paid",
+          "sessions": 73,
+          "engaged_sessions": 5,
+          "active_users": 67
+        },
+        {
+          "session_source_medium": "(direct) / (none)",
+          "sessions": 24,
+          "engaged_sessions": 2,
+          "active_users": 22
+        },
+        {
+          "session_source_medium": "ig / paid",
+          "sessions": 19,
+          "engaged_sessions": 0,
+          "active_users": 19
+        },
+        {
+          "session_source_medium": "accounts.google.com / referral",
+          "sessions": 6,
+          "engaged_sessions": 6,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "m.facebook.com / referral",
+          "sessions": 5,
+          "engaged_sessions": 0,
+          "active_users": 5
+        },
+        {
+          "session_source_medium": "l.facebook.com / referral",
+          "sessions": 4,
+          "engaged_sessions": 3,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "facebook.com / referral",
+          "sessions": 3,
+          "engaged_sessions": 2,
+          "active_users": 3
+        },
+        {
+          "session_source_medium": "an / paid",
+          "sessions": 2,
+          "engaged_sessions": 1,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "google / cpc",
+          "sessions": 2,
+          "engaged_sessions": 0,
+          "active_users": 2
+        },
+        {
+          "session_source_medium": "(not set)",
+          "sessions": 1,
+          "engaged_sessions": 0,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "instagram / reel",
+          "sessions": 1,
+          "engaged_sessions": 0,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "meta / paid_social",
+          "sessions": 1,
+          "engaged_sessions": 0,
+          "active_users": 1
+        }
+      ],
+      "error": false
+    },
+    "gaRecentEvents": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-23",
+        "date_to": "2026-09-29",
+        "fields": [
+          "event_name",
+          "event_count",
+          "active_users"
+        ]
+      },
+      "data": [
+        {
+          "event_name": "page_view",
+          "event_count": 193,
+          "active_users": 123
+        },
+        {
+          "event_name": "session_start",
+          "event_count": 140,
+          "active_users": 123
+        },
+        {
+          "event_name": "first_visit",
+          "event_count": 119,
+          "active_users": 119
+        },
+        {
+          "event_name": "scroll",
+          "event_count": 37,
+          "active_users": 20
+        },
+        {
+          "event_name": "user_engagement",
+          "event_count": 21,
+          "active_users": 8
+        },
+        {
+          "event_name": "story_opened",
+          "event_count": 15,
+          "active_users": 8
+        },
+        {
+          "event_name": "ads_conversion_PAGE_VIEW_1",
+          "event_count": 11,
+          "active_users": 2
+        },
+        {
+          "event_name": "story_finished",
+          "event_count": 2,
+          "active_users": 1
+        },
+        {
+          "event_name": "form_start",
+          "event_count": 1,
+          "active_users": 1
+        }
+      ],
+      "error": false
+    },
+    "search28": {
+      "query": {
+        "connector": "searchconsole",
+        "accounts": [
+          "https://sandhyakatha.com/"
+        ],
+        "date_from": "2026-09-02",
+        "date_to": "2026-09-29",
+        "fields": [
+          "date",
+          "clicks",
+          "impressions",
+          "ctr",
+          "position"
+        ]
+      },
+      "data": [
+        {
+          "date": "2026-09-09",
+          "clicks": 1,
+          "impressions": 4,
+          "ctr": 0.25,
+          "position": 3.25
+        },
+        {
+          "date": "2026-09-10",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 3.3333
+        },
+        {
+          "date": "2026-09-11",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 3
+        },
+        {
+          "date": "2026-09-12",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": null,
+          "position": 0
+        },
+        {
+          "date": "2026-09-13",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "date": "2026-09-14",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 5.8
+        },
+        {
+          "date": "2026-09-15",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": null,
+          "position": 0
+        },
+        {
+          "date": "2026-09-16",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": null,
+          "position": 0
+        },
+        {
+          "date": "2026-09-17",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "date": "2026-09-18",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 5
+        },
+        {
+          "date": "2026-09-19",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": null,
+          "position": 0
+        },
+        {
+          "date": "2026-09-20",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 7
+        },
+        {
+          "date": "2026-09-21",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 11.25
+        },
+        {
+          "date": "2026-09-22",
+          "clicks": 1,
+          "impressions": 2,
+          "ctr": 0.5,
+          "position": 2
+        },
+        {
+          "date": "2026-09-23",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "date": "2026-09-24",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "date": "2026-09-25",
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": null,
+          "position": 0
+        },
+        {
+          "date": "2026-09-26",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 28.3333
+        },
+        {
+          "date": "2026-09-27",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 5.5
+        }
+      ],
+      "error": false
+    },
+    "ga28Sources": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-02",
+        "date_to": "2026-09-29",
+        "fields": [
+          "session_source_medium",
+          "sessions",
+          "engaged_sessions",
+          "active_users"
+        ]
+      },
+      "data": [
+        {
+          "session_source_medium": "fb / paid",
+          "sessions": 636,
+          "engaged_sessions": 55,
+          "active_users": 611
+        },
+        {
+          "session_source_medium": "(direct) / (none)",
+          "sessions": 325,
+          "engaged_sessions": 66,
+          "active_users": 284
+        },
+        {
+          "session_source_medium": "ig / paid",
+          "sessions": 271,
+          "engaged_sessions": 29,
+          "active_users": 268
+        },
+        {
+          "session_source_medium": "accounts.google.com / referral",
+          "sessions": 59,
+          "engaged_sessions": 47,
+          "active_users": 4
+        },
+        {
+          "session_source_medium": "m.facebook.com / referral",
+          "sessions": 46,
+          "engaged_sessions": 9,
+          "active_users": 46
+        },
+        {
+          "session_source_medium": "facebook.com / referral",
+          "sessions": 39,
+          "engaged_sessions": 24,
+          "active_users": 37
+        },
+        {
+          "session_source_medium": "an / paid",
+          "sessions": 25,
+          "engaged_sessions": 6,
+          "active_users": 24
+        },
+        {
+          "session_source_medium": "(not set)",
+          "sessions": 20,
+          "engaged_sessions": 0,
+          "active_users": 6
+        },
+        {
+          "session_source_medium": "ig / social",
+          "sessions": 20,
+          "engaged_sessions": 14,
+          "active_users": 12
+        },
+        {
+          "session_source_medium": "google / cpc",
+          "sessions": 16,
+          "engaged_sessions": 0,
+          "active_users": 16
+        },
+        {
+          "session_source_medium": "whatsapp / channel",
+          "sessions": 15,
+          "engaged_sessions": 12,
+          "active_users": 4
+        },
+        {
+          "session_source_medium": "l.facebook.com / referral",
+          "sessions": 10,
+          "engaged_sessions": 6,
+          "active_users": 5
+        },
+        {
+          "session_source_medium": "instagram / reel",
+          "sessions": 9,
+          "engaged_sessions": 5,
+          "active_users": 9
+        },
+        {
+          "session_source_medium": "accounts.google.co.in / referral",
+          "sessions": 8,
+          "engaged_sessions": 7,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "instagram / carousel",
+          "sessions": 8,
+          "engaged_sessions": 6,
+          "active_users": 2
+        },
+        {
+          "session_source_medium": "meta / paid_social",
+          "sessions": 8,
+          "engaged_sessions": 4,
+          "active_users": 8
+        },
+        {
+          "session_source_medium": "instagram / social",
+          "sessions": 7,
+          "engaged_sessions": 3,
+          "active_users": 7
+        },
+        {
+          "session_source_medium": "youtube / shorts",
+          "sessions": 7,
+          "engaged_sessions": 2,
+          "active_users": 7
+        },
+        {
+          "session_source_medium": "instagram.com / referral",
+          "sessions": 6,
+          "engaged_sessions": 5,
+          "active_users": 2
+        },
+        {
+          "session_source_medium": "google / organic",
+          "sessions": 2,
+          "engaged_sessions": 2,
+          "active_users": 2
+        },
+        {
+          "session_source_medium": "instagram / story",
+          "sessions": 2,
+          "engaged_sessions": 0,
+          "active_users": 2
+        },
+        {
+          "session_source_medium": "lm.facebook.com / referral",
+          "sessions": 2,
+          "engaged_sessions": 2,
+          "active_users": 2
+        },
+        {
+          "session_source_medium": "aicrawler.store / referral",
+          "sessions": 1,
+          "engaged_sessions": 0,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "bing / organic",
+          "sessions": 1,
+          "engaged_sessions": 0,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "dataindex.pro / referral",
+          "sessions": 1,
+          "engaged_sessions": 0,
+          "active_users": 1
+        },
+        {
+          "session_source_medium": "facebook / carousel",
+          "sessions": 1,
+          "engaged_sessions": 1,
+          "active_users": 1
+        }
+      ],
+      "error": false
+    },
+    "gaFloor": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-25",
+        "date_to": "2026-09-29",
+        "fields": [
+          "active_users",
+          "sessions",
+          "engaged_sessions"
+        ]
+      },
+      "data": [
+        {
+          "active_users": 19,
+          "sessions": 25,
+          "engaged_sessions": 9
+        }
+      ],
+      "error": false
+    },
+    "gaSurvivors": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-18",
+        "date_to": "2026-09-29",
+        "fields": [
+          "active_users",
+          "sessions"
+        ]
+      },
+      "data": [
+        {
+          "active_users": 815,
+          "sessions": 889
+        }
+      ],
+      "error": false
+    },
+    "gaReturning": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-02",
+        "date_to": "2026-09-29",
+        "fields": [
+          "new_vs_returning",
+          "active_users",
+          "sessions",
+          "engaged_sessions"
+        ]
+      },
+      "data": [
+        {
+          "new_vs_returning": "new",
+          "active_users": 1344,
+          "sessions": 1341,
+          "engaged_sessions": 189
+        },
+        {
+          "new_vs_returning": "returning",
+          "active_users": 39,
+          "sessions": 177,
+          "engaged_sessions": 115
+        },
+        {
+          "new_vs_returning": "(not set)",
+          "active_users": 0,
+          "sessions": 24,
+          "engaged_sessions": 1
+        }
+      ],
+      "error": false
+    },
+    "gaRecentLanding": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-23",
+        "date_to": "2026-09-29",
+        "fields": [
+          "landing_page",
+          "sessions",
+          "engaged_sessions"
+        ]
+      },
+      "data": [
+        {
+          "landing_page": "/",
+          "sessions": 131,
+          "engaged_sessions": 13
+        },
+        {
+          "landing_page": "(not set)",
+          "sessions": 1,
+          "engaged_sessions": 1
+        },
+        {
+          "landing_page": "/ganesha-circles",
+          "sessions": 1,
+          "engaged_sessions": 1
+        },
+        {
+          "landing_page": "/s/damayanti-choice",
+          "sessions": 1,
+          "engaged_sessions": 1
+        },
+        {
+          "landing_page": "/s/durva-kubera-scale",
+          "sessions": 1,
+          "engaged_sessions": 0
+        },
+        {
+          "landing_page": "/s/ganesha-circles",
+          "sessions": 1,
+          "engaged_sessions": 1
+        },
+        {
+          "landing_page": "/s/hanuman-reminded",
+          "sessions": 1,
+          "engaged_sessions": 0
+        },
+        {
+          "landing_page": "/s/hanuman-tail",
+          "sessions": 1,
+          "engaged_sessions": 0
+        },
+        {
+          "landing_page": "/s/nammalvar-silence",
+          "sessions": 1,
+          "engaged_sessions": 1
+        },
+        {
+          "landing_page": "/s/two-birds",
+          "sessions": 1,
+          "engaged_sessions": 0
+        },
+        {
+          "landing_page": "/shelf",
+          "sessions": 1,
+          "engaged_sessions": 1
+        }
+      ],
+      "error": false
+    },
+    "searchQueries": {
+      "query": {
+        "connector": "searchconsole",
+        "accounts": [
+          "https://sandhyakatha.com/"
+        ],
+        "date_from": "2026-09-02",
+        "date_to": "2026-09-29",
+        "fields": [
+          "query",
+          "clicks",
+          "impressions",
+          "position"
+        ]
+      },
+      "data": [
+        {
+          "query": "dussehra for kids",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 45
+        },
+        {
+          "query": "dussehra story for kids",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 34
+        }
+      ],
+      "error": false
+    },
+    "igProfile": {
+      "query": {
+        "connector": "instagram",
+        "accounts": [
+          "17841429911274484"
+        ],
+        "date_from": "2026-09-23",
+        "date_to": "2026-09-29",
+        "fields": [
+          "username",
+          "followers_count",
+          "profile_views",
+          "website_clicks_1d",
+          "website",
+          "views",
+          "reach"
+        ]
+      },
+      "data": [
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 1305,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 105,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 40,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 33,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 19,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 14,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": 4,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": 21,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": null,
+          "reach": null
+        },
+        {
+          "username": "the_sandhyakatha",
+          "followers_count": null,
+          "profile_views": null,
+          "website_clicks_1d": null,
+          "website": "https://sandhyakatha.com",
+          "views": null,
+          "reach": 1309
+        }
+      ],
+      "error": false
+    },
+    "igPosts": {
+      "query": {
+        "connector": "instagram",
+        "accounts": [
+          "17841429911274484"
+        ],
+        "date_from": "2026-09-18",
+        "date_to": "2026-09-29",
+        "fields": [
+          "media_id",
+          "timestamp",
+          "media_caption",
+          "media_permalink",
+          "media_reach",
+          "media_views",
+          "media_shares",
+          "media_saved"
+        ]
+      },
+      "data": [
+        {
+          "media_id": "18338962528258426",
+          "timestamp": "2026-09-18T12:02:50+0000",
+          "media_caption": "सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\n\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\n\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\n\n#SandhyaKatha #हिन्दीकहानियाँ",
+          "media_permalink": "https://www.instagram.com/reel/DdbYz9vzX4e/",
+          "media_reach": 112,
+          "media_views": 127,
+          "media_shares": 0,
+          "media_saved": 1
+        },
+        {
+          "media_id": "17980638792091374",
+          "timestamp": "2026-09-19T16:28:49+0000",
+          "media_caption": "ஆனால் ராமர் அதை கவனித்தார். ❤️\nஒரு வேலை பெரிய கைகளால் மட்டும் முடிவதில்லை.\n\nஇன்றிரவு குழந்தைகளுடன் வாசியுங்கள் — மணல் சுமந்த அணில்.\n\n📖 மூலக் குறிப்பு: சேது கட்டும் நிகழ்வு வால்மீகி இராமாயணத்தில் வருகிறது. அணில் சம்பவம் தமிழ் உட்பட பல பிராந்திய மற்றும் வாய்மொழி இராமாயண மரபுகளில் சொல்லப்படுகிறது.\n\nsandhyakatha.com\n#சந்தியாகதை #இராமாயணம் #ராமர் #அணில்",
+          "media_permalink": "https://www.instagram.com/reel/DdecHcvTML2/",
+          "media_reach": 115,
+          "media_views": 148,
+          "media_shares": 0,
+          "media_saved": 1
+        },
+        {
+          "media_id": "17896138929672925",
+          "timestamp": "2026-09-19T16:23:53+0000",
+          "media_caption": "समुद्र पर पुल बन रहा था।\nवानर बड़े-बड़े पत्थर ढो रहे थे।\nउस शोर के बीच एक छोटी-सी गिलहरी भी अपना काम कर रही थी—अपने रोओं में रेत भरकर, पत्थरों के बीच की जगहों में डालती हुई।\nकिसी ने सोचा, इतनी-सी रेत से क्या फर्क पड़ेगा?\nलेकिन राम ने उसे देखा। ❤️\nकभी-कभी बड़े काम सिर्फ बड़े हाथों से पूरे नहीं होते।\n\nआज रात बच्चों के साथ सुनिए — रेत ढोने वाली गिलहरी।\n📖 स्रोत नोट: सेतु-निर्माण का प्रसंग वाल्मीकि रामायण में है। गिलहरी का यह प्रिय प्रसंग तमिल सहित कई क्षेत्रीय और मौखिक रामायण परंपराओं में सुनाया जाता है।\n\nsandhyakatha.com\n\n#संध्याकथा #रामायण #राम #गिलहरी #बच्चोंकीकहानी",
+          "media_permalink": "https://www.instagram.com/reel/DdebfyBzEBp/",
+          "media_reach": 84,
+          "media_views": 104,
+          "media_shares": 1,
+          "media_saved": 2
+        },
+        {
+          "media_id": "18173537401445165",
+          "timestamp": "2026-09-19T10:03:57+0000",
+          "media_caption": "The Squirrel Who Carried Sand\n\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\n\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\n\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\n\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=squirrel-setu_en\n\n#sandhyakatha  #Ramayana  #chikdrenstory #storytime #viralreel",
+          "media_permalink": "https://www.instagram.com/reel/Dddv_A4zhyW/",
+          "media_reach": 114,
+          "media_views": 125,
+          "media_shares": 0,
+          "media_saved": 1
+        },
+        {
+          "media_id": "17872693734650571",
+          "timestamp": "2026-09-20T15:26:57+0000",
+          "media_caption": "The Tail Bhīma Could Not Lift\n\nThe strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.\n\nHave you ever thought something would be easy, then found that you could not do it? What did you do next?\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=hanuman-tail_en\n\n#sandhyakatha  #Mahabharata #Hanuman",
+          "media_permalink": "https://www.instagram.com/reel/Ddg5zcbTMgn/",
+          "media_reach": 6,
+          "media_views": 13,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18068712815745978",
+          "timestamp": "2026-09-20T15:23:48+0000",
+          "media_caption": "பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை.\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_ta-IN\n\n#SandhyaKatha #shortshorts #Mahabharata #hanuman",
+          "media_permalink": "https://www.instagram.com/reel/Ddg5dVeT1Rh/",
+          "media_reach": 131,
+          "media_views": 152,
+          "media_shares": 2,
+          "media_saved": 2
+        },
+        {
+          "media_id": "18175890595451631",
+          "timestamp": "2026-09-20T15:21:42+0000",
+          "media_caption": "पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। उसकी पूँछ रास्ता रोकती है—और भीम उसे हिला तक नहीं पाते।\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/hi/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_hi-IN\n\n#SandhyaKatha #shortshorts #hanumanji",
+          "media_permalink": "https://www.instagram.com/reel/Ddg5L4TTpfN/",
+          "media_reach": 106,
+          "media_views": 121,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "17967937517960214",
+          "timestamp": "2026-09-21T15:27:59+0000",
+          "media_caption": "The Blade of Darbha in the Water Spout\n\nBefore Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.\n\nIf you believe someone you care about is making a disastrous promise, how far should you go to stop them?\n\n📜 Uṣāharaṇa-kāvya; Skanda Purāṇa — Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53\n\nhttps://sandhyakatha.com/s/sukra-spout/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=sukra-spout_en\n\n#sandhyakatha #mahabali #sukrachariya #Puranas #ithihasas",
+          "media_permalink": "https://www.instagram.com/reel/DdjdwlDTq-z/",
+          "media_reach": 109,
+          "media_views": 126,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "17956695825015773",
+          "timestamp": "2026-09-22T14:30:09+0000",
+          "media_caption": "Four brothers lie still by a lake. A voice offers Yudhiṣṭhira one of them back — just one. He doesn't pick Bhīma, the strongest. He doesn't pick Arjuna, the finest archer. He picks Nakula. Why? 🪔\n\nTonight's story, 6 minutes, read aloud → sandhyakatha.com/s/yaksha-lake/\n\n#mahabharata #storiesforkids #hindustories #bedtimestories",
+          "media_permalink": "https://www.instagram.com/p/Ddl9AmYjdYk/",
+          "media_reach": 7,
+          "media_views": 8,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "17883241380687253",
+          "timestamp": "2026-09-22T14:01:23+0000",
+          "media_caption": "🪔 1,000 active users.\n\nOne quiet flame… and a thousand hearts now reading with us.\nFrom the banks of the ancient rivers to your screens tonight —\n\nthank you for choosing stories that still matter.\n\nSource-checked. Gently told. Meant for the little ones who will one day pass them on.\nIf these tales have warmed even one bedtime in your home,\n\nwe’re already grateful.\nCome sit by the diya with us.\n\nNew story every night at sandhyakatha.com ✨\n#sandhyakatha #StoriesWorthPassingOn #1000ActiveUsers #hindustoriesforchildren #ramayana #mahabharata #puranas #bedtimestories #indianmythology #culturalheritage",
+          "media_permalink": "https://www.instagram.com/p/Ddl5t-6E00u/",
+          "media_reach": 5,
+          "media_views": 7,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18105165212617077",
+          "timestamp": "2026-09-23T14:30:20+0000",
+          "media_caption": "Her husband sent home two mangoes. She gave one to a hungry devotee at the door. Then he asked for the second one. 🥭\n\nA Tamil saint most collections leave out, from the Periya Purāṇam → sandhyakatha.com/s/karaikkal-mangoes/\n\n#nayanmars #tamilstories #storiesforkids",
+          "media_permalink": "https://www.instagram.com/p/Ddoh040CQ5h/",
+          "media_reach": 4,
+          "media_views": 7,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18134784613652261",
+          "timestamp": "2026-09-23T14:01:42+0000",
+          "media_caption": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word. 🌿\n\n📜 Devī Māhātmya, Chapter 11 — the full telling → sandhyakatha.com/s/shakambhari/\n\nFollow for one story every evening. Navarātri starts 11 October 🪔\n\n#SandhyaKatha #storiesforkids #navaratri #devi",
+          "media_permalink": "https://www.instagram.com/reel/Ddoefmfj04a/",
+          "media_reach": 37,
+          "media_views": 44,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18022841357945682",
+          "timestamp": "2026-09-24T15:38:17+0000",
+          "media_caption": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\n\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids",
+          "media_permalink": "https://www.instagram.com/reel/DdrOV6QFOoQ/",
+          "media_reach": 105,
+          "media_views": 111,
+          "media_shares": 0,
+          "media_saved": 2
+        },
+        {
+          "media_id": "18121539811927924",
+          "timestamp": "2026-09-24T14:30:04+0000",
+          "media_caption": "A storm at Tirukkōvalūr. A narrow passage with room for one to lie down. Then two came to sit, then three to stand — and then all three felt someone else pressing in. 🌧️\n\nThe first three Āḻvārs, and the verses that are still sung today → sandhyakatha.com/s/three-in-doorway/\n\n#alwars #divyaprabandham #tamilstories",
+          "media_permalink": "https://www.instagram.com/p/DdrGl1ODY_4/",
+          "media_reach": 4,
+          "media_views": 4,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18150807073528271",
+          "timestamp": "2026-09-25T14:30:12+0000",
+          "media_caption": "The whole world is under water. One sage is still swimming. And on a leaf of a banyan tree, a baby is sucking his toe. 🌿\n\nFrom the Bhāgavata Purāṇa, for ages 10 and up → sandhyakatha.com/s/markandeya-leaf/\n\n#bhagavatam #puranas #storiesforkids",
+          "media_permalink": "https://www.instagram.com/p/DdtrZpwjR9I/",
+          "media_reach": 4,
+          "media_views": 5,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "17989490127053151",
+          "timestamp": "2026-09-25T14:01:35+0000",
+          "media_caption": "At the very end of the road, the gates of heaven open for Yudhiṣṭhira. The dog that walked beside him is told to stay outside. 🐕\n\n📜 Mahābhārata — Mahāprasthānika Parva. The full telling → sandhyakatha.com/s/yudhishthira-dog/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #mahabharata #storiesforkids #hindustories",
+          "media_permalink": "https://www.instagram.com/reel/DdtoFC_DT2b/",
+          "media_reach": 20,
+          "media_views": 23,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18042007859824639",
+          "timestamp": "2026-09-26T14:30:13+0000",
+          "media_caption": "Two birds sit on one tree. One eats the fruit. The other only watches. The same verse appears in three different books. Which bird are you? 🐦\n\n→ sandhyakatha.com/s/two-birds/\n\n#upanishads #storiesforkids #hindustories",
+          "media_permalink": "https://www.instagram.com/p/DdwQMoQgeWx/",
+          "media_reach": 3,
+          "media_views": 4,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18028447427909936",
+          "timestamp": "2026-09-26T14:01:26+0000",
+          "media_caption": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more. 🌿\n\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa 66–68. The full telling → sandhyakatha.com/s/durva-kubera-scale/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #ganesha #storiesforkids #hindustories",
+          "media_permalink": "https://www.instagram.com/reel/DdwM2dZl3Ft/",
+          "media_reach": 5,
+          "media_views": 9,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18148971340557928",
+          "timestamp": "2026-09-27T14:30:10+0000",
+          "media_caption": "விநாயகர் உலகைச் சுற்றிய விதம் — ஒரு மாம்பழத்திற்காக இரு சகோதரர்களுக்குள் போட்டி. ஒருவர் மயிலில் பறந்தார். இன்னொருவர் அறையை விட்டு வெளியே போகவில்லை. 🪔\n\n📜 Śiva Purāṇa — Rudra Saṃhitā → sandhyakatha.com/s/ganesha-circles/ta/\n\n#SandhyaKatha #tamilstories #storiesforkids #vinayagar",
+          "media_permalink": "https://www.instagram.com/p/Ddy0_MZgUOl/",
+          "media_reach": 4,
+          "media_views": 12,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "17895782610673332",
+          "timestamp": "2026-09-27T14:30:09+0000",
+          "media_caption": "A boy who never cried, never ate, never spoke — sitting in the hollow of a tamarind tree for sixteen years. Then someone came with a question. 🌳\n\n→ sandhyakatha.com/s/nammalvar-silence/\n\n#alwars #nammalvar #tamilstories",
+          "media_permalink": "https://www.instagram.com/p/Ddy0_CGkm_r/",
+          "media_reach": 3,
+          "media_views": 5,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18016133465945120",
+          "timestamp": "2026-09-28T14:30:08+0000",
+          "media_caption": "Navarātri starts 11 October. Nine nights, nine stories — three for Durgā, three for Lakṣmī, three for Sarasvatī. One each evening, chosen for that night, with the source printed on every page.\n\nFollow so night one finds you. 🪔 → sandhyakatha.com\n\n#navaratri #navratri2026 #durga #storiesforkids",
+          "media_permalink": "https://www.instagram.com/p/Dd1Zxv-Eay1/",
+          "media_reach": 4,
+          "media_views": 6,
+          "media_shares": 0,
+          "media_saved": 0
+        },
+        {
+          "media_id": "18465076522185141",
+          "timestamp": "2026-09-29T08:00:55+0000",
+          "media_caption": "भीम से भी न उठी वह पूँछ — पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। 🪔\n\n📜 Mahābhārata — Vana Parva → sandhyakatha.com/s/hanuman-tail/hi/\n\n#SandhyaKatha #hindistories #storiesforkids #hanuman",
+          "media_permalink": "https://www.instagram.com/p/Dd3SCAMDZfN/",
+          "media_reach": 2,
+          "media_views": 4,
+          "media_shares": 0,
+          "media_saved": 0
+        }
+      ],
+      "error": false
+    },
+    "fbPosts": {
+      "query": {
+        "connector": "facebook_organic",
+        "accounts": [
+          "1247606208445007"
+        ],
+        "date_from": "2026-09-18",
+        "date_to": "2026-09-29",
+        "fields": [
+          "post_id",
+          "post_created_time",
+          "post_message",
+          "permalink_url",
+          "post_impressions",
+          "post_clicks_by_type_link_clicks"
+        ]
+      },
+      "data": [
+        {
+          "post_id": "1247606208445007_122100723603480455",
+          "post_created_time": "2026-09-18T12:31:12+0000",
+          "post_message": "सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\n\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\n\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\n\n#SandhyaKatha #हिन्दीकहानियाँ",
+          "permalink_url": "https://www.facebook.com/reel/1074570358266521/",
+          "post_impressions": 1839,
+          "post_clicks_by_type_link_clicks": 92
+        },
+        {
+          "post_id": "1247606208445007_122100697509480455",
+          "post_created_time": "2026-09-18T12:03:05+0000",
+          "post_message": "सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\n\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\n\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\n\n#SandhyaKatha #हिन्दीकहानियाँ",
+          "permalink_url": "https://www.facebook.com/reel/1020806377663604/",
+          "post_impressions": 228,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122101935249480455",
+          "post_created_time": "2026-09-19T16:39:18+0000",
+          "post_message": "இன்றைய Sandhya Katha  (sandhyakatha.com)\n மணல் சுமந்த அணில் ❤️\n\n📖 சேது கட்டும் நிகழ்வு வால்மீகி இராமாயணத்தில் வருகிறது. அணில் சம்பவம் தமிழ் உட்பட பல பிராந்திய மற்றும் வாய்மொழி இராமாயண மரபுகளில் சொல்லப்படுகிறது.\n#சந்தியாகதை #இராமாயணம் #தமிழ்கதை #குழந்தைகள்கதை #SandhyaKatha #ramayana",
+          "permalink_url": "https://www.facebook.com/reel/1398043442473749/",
+          "post_impressions": 2057,
+          "post_clicks_by_type_link_clicks": 81
+        },
+        {
+          "post_id": "1247606208445007_122101922883480455",
+          "post_created_time": "2026-09-19T16:24:20+0000",
+          "post_message": "समुद्र पर पुल बन रहा था।\nवानर बड़े-बड़े पत्थर ढो रहे थे।\nउस शोर के बीच एक छोटी-सी गिलहरी भी अपना काम कर रही थी—अपने रोओं में रेत भरकर, पत्थरों के बीच की जगहों में डालती हुई।\nकिसी ने सोचा, इतनी-सी रेत से क्या फर्क पड़ेगा?\nलेकिन राम ने उसे देखा। ❤️\nकभी-कभी बड़े काम सिर्फ बड़े हाथों से पूरे नहीं होते।\n\nआज रात बच्चों के साथ सुनिए — रेत ढोने वाली गिलहरी।\n📖 स्रोत नोट: सेतु-निर्माण का प्रसंग वाल्मीकि रामायण में है। गिलहरी का यह प्रिय प्रसंग तमिल सहित कई क्षेत्रीय और मौखिक रामायण परंपराओं में सुनाया जाता है।\n\nsandhyakatha.com\n\n#संध्याकथा #रामायण #राम #गिलहरी #बच्चोंकीकहानी",
+          "permalink_url": "https://www.facebook.com/reel/2912729432405025/",
+          "post_impressions": 321,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122101625211480455",
+          "post_created_time": "2026-09-19T10:04:13+0000",
+          "post_message": "The Squirrel Who Carried Sand\n\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\n\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\n\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\n\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=squirrel-setu_en\n\n#sandhyakatha  #Ramayana  #chikdrenstory #storytime #viralreel",
+          "permalink_url": "https://www.facebook.com/reel/1100370809110244/",
+          "post_impressions": 17,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122101611933480455",
+          "post_created_time": "2026-09-19T09:48:47+0000",
+          "post_message": "The Squirrel Who Carried Sand\n\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\n\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\n\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\n\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=facebook&utm_medium=carousel&utm_campaign=daily_story&utm_content=squirrel-setu_en\n\n#sandhyakatha #childrenstories #ramayana",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122101611933480455",
+          "post_impressions": 22,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122103160071480455",
+          "post_created_time": "2026-09-20T15:27:15+0000",
+          "post_message": "The Tail Bhīma Could Not Lift\n\nThe strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.\n\nHave you ever thought something would be easy, then found that you could not do it? What did you do next?\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=hanuman-tail_en\n\n#sandhyakatha  #Mahabharata #Hanuman",
+          "permalink_url": "https://www.facebook.com/reel/1931737981544287/",
+          "post_impressions": 15,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122103157257480455",
+          "post_created_time": "2026-09-20T15:24:12+0000",
+          "post_message": "பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை.\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_ta-IN\n\n#SandhyaKatha #shortshorts #Mahabharata #hanuman",
+          "permalink_url": "https://www.facebook.com/reel/1426999876023690/",
+          "post_impressions": 438,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122103155505480455",
+          "post_created_time": "2026-09-20T15:22:02+0000",
+          "post_message": "पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। उसकी पूँछ रास्ता रोकती है—और भीम उसे हिला तक नहीं पाते।\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/hi/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_hi-IN\n\n#SandhyaKatha #shortshorts #hanumanji",
+          "permalink_url": "https://www.facebook.com/reel/1970640323891655/",
+          "post_impressions": 412,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122104270779480455",
+          "post_created_time": "2026-09-21T15:28:21+0000",
+          "post_message": "The Blade of Darbha in the Water Spout\n\nBefore Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.\n\nIf you believe someone you care about is making a disastrous promise, how far should you go to stop them?\n\n📜 Uṣāharaṇa-kāvya; Skanda Purāṇa — Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53\n\nhttps://sandhyakatha.com/s/sukra-spout/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=sukra-spout_en\n\n#sandhyakatha #mahabali #sukrachariya #Puranas #ithihasas",
+          "permalink_url": "https://www.facebook.com/reel/1071159278858850/",
+          "post_impressions": 283,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122105261553480455",
+          "post_created_time": "2026-09-22T14:30:03+0000",
+          "post_message": "Four brothers lie still by a lake. A voice offers Yudhiṣṭhira one of them back — just one. He doesn't pick Bhīma, the strongest. He doesn't pick Arjuna, the finest archer. He picks Nakula. Why? 🪔\n\nTonight's story, 6 minutes, read aloud → sandhyakatha.com/s/yaksha-lake/\n\n#mahabharata #storiesforkids #hindustories #bedtimestories",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122105261553480455",
+          "post_impressions": 31,
+          "post_clicks_by_type_link_clicks": 1
+        },
+        {
+          "post_id": "1247606208445007_122105239785480455",
+          "post_created_time": "2026-09-22T13:53:38+0000",
+          "post_message": "🌟 200 followers! 🌟\nWhat a beautiful milestone for Sandhya Katha.\nFrom the first story shared under the soft glow of a diya… to this moment — 200 of you walking with us through the forests of the Ramayana, the battlefields of the Mahabharata, and the timeless wisdom of the Puranas.\nThank you for believing that the old stories still matter.\n\nThank you for wanting them told properly — with care, with heart, and with truth — for the little ones who will one day pass them on.\nOne story a night.\n\nStories worth passing on.\nHere’s to the next chapter… and the next 200 hearts who will join us. 🪔✨\n#SandhyaKatha #200Followers #stories #ramayana #mahabharat #Puranas #childrenstories",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122105239785480455",
+          "post_impressions": 25,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122106248889480455",
+          "post_created_time": "2026-09-23T14:30:11+0000",
+          "post_message": "Her husband sent home two mangoes. She gave one to a hungry devotee at the door. Then he asked for the second one. 🥭\n\nA Tamil saint most collections leave out, from the Periya Purāṇam → sandhyakatha.com/s/karaikkal-mangoes/\n\n#nayanmars #tamilstories #storiesforkids",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122106248889480455",
+          "post_impressions": 15,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122106225735480455",
+          "post_created_time": "2026-09-23T14:01:27+0000",
+          "post_message": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word. 🌿\n\n📜 Devī Māhātmya, Chapter 11 — the full telling → sandhyakatha.com/s/shakambhari/\n\nFollow for one story every evening. Navarātri starts 11 October 🪔\n\n#SandhyaKatha #storiesforkids #navaratri #devi",
+          "permalink_url": "https://www.facebook.com/reel/1766176591382234/",
+          "post_impressions": 10,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122107382679480455",
+          "post_created_time": "2026-09-24T15:37:57+0000",
+          "post_message": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\n\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids",
+          "permalink_url": "https://www.facebook.com/reel/962436393601410/",
+          "post_impressions": 11,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122107331313480455",
+          "post_created_time": "2026-09-24T14:30:13+0000",
+          "post_message": "A storm at Tirukkōvalūr. A narrow passage with room for one to lie down. Then two came to sit, then three to stand — and then all three felt someone else pressing in. 🌧️\n\nThe first three Āḻvārs, and the verses that are still sung today → sandhyakatha.com/s/three-in-doorway/\n\n#alwars #divyaprabandham #tamilstories",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122107331313480455",
+          "post_impressions": 14,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122107065591480455",
+          "post_created_time": "2026-09-24T09:00:21+0000",
+          "post_message": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\n\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids",
+          "permalink_url": "https://www.facebook.com/reel/1404372507810229/",
+          "post_impressions": 4,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122108383245480455",
+          "post_created_time": "2026-09-25T14:30:04+0000",
+          "post_message": "The whole world is under water. One sage is still swimming. And on a leaf of a banyan tree, a baby is sucking his toe. 🌿\n\nFrom the Bhāgavata Purāṇa, for ages 10 and up → sandhyakatha.com/s/markandeya-leaf/\n\n#bhagavatam #puranas #storiesforkids",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122108383245480455",
+          "post_impressions": 9,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122108367711480455",
+          "post_created_time": "2026-09-25T14:01:29+0000",
+          "post_message": "At the very end of the road, the gates of heaven open for Yudhiṣṭhira. The dog that walked beside him is told to stay outside. 🐕\n\n📜 Mahābhārata — Mahāprasthānika Parva. The full telling → sandhyakatha.com/s/yudhishthira-dog/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #mahabharata #storiesforkids #hindustories",
+          "permalink_url": "https://www.facebook.com/reel/1538482388313755/",
+          "post_impressions": 5,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122109355953480455",
+          "post_created_time": "2026-09-26T14:30:08+0000",
+          "post_message": "Two birds sit on one tree. One eats the fruit. The other only watches. The same verse appears in three different books. Which bird are you? 🐦\n\n→ sandhyakatha.com/s/two-birds/\n\n#upanishads #storiesforkids #hindustories",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122109355953480455",
+          "post_impressions": 2,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122109331671480455",
+          "post_created_time": "2026-09-26T14:01:08+0000",
+          "post_message": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more. 🌿\n\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa 66–68. The full telling → sandhyakatha.com/s/durva-kubera-scale/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #ganesha #storiesforkids #hindustories",
+          "permalink_url": "https://www.facebook.com/reel/1055876523943870/",
+          "post_impressions": 7,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122110103475480455",
+          "post_created_time": "2026-09-27T14:30:06+0000",
+          "post_message": "A boy who never cried, never ate, never spoke — sitting in the hollow of a tamarind tree for sixteen years. Then someone came with a question. 🌳\n\n→ sandhyakatha.com/s/nammalvar-silence/\n\n#alwars #nammalvar #tamilstories",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122110103475480455",
+          "post_impressions": 0,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122110018851480455",
+          "post_created_time": "2026-09-27T11:30:04+0000",
+          "post_message": "விநாயகர் உலகைச் சுற்றிய விதம் — ஒரு மாம்பழத்திற்காக இரு சகோதரர்களுக்குள் போட்டி. ஒருவர் மயிலில் பறந்தார். இன்னொருவர் அறையை விட்டு வெளியே போகவில்லை. 🪔\n\n📜 Śiva Purāṇa — Rudra Saṃhitā → sandhyakatha.com/s/ganesha-circles/ta/\n\n#SandhyaKatha #tamilstories #storiesforkids #vinayagar",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122110018851480455",
+          "post_impressions": 3,
+          "post_clicks_by_type_link_clicks": 0
+        },
+        {
+          "post_id": "1247606208445007_122110660269480455",
+          "post_created_time": "2026-09-28T14:30:04+0000",
+          "post_message": "Navarātri starts 11 October. Nine nights, nine stories — three for Durgā, three for Lakṣmī, three for Sarasvatī. One each evening, chosen for that night, with the source printed on every page.\n\nFollow so night one finds you. 🪔 → sandhyakatha.com\n\n#navaratri #navratri2026 #durga #storiesforkids",
+          "permalink_url": "https://www.facebook.com/122100444015480455/posts/122110660269480455",
+          "post_impressions": 6,
+          "post_clicks_by_type_link_clicks": 0
+        }
+      ],
+      "error": false
+    },
+    "metaDelivery": {
+      "query": {
+        "connector": "facebook",
+        "accounts": [
+          "115083505"
+        ],
+        "date_from": "2026-09-15",
+        "date_to": "2026-09-29",
+        "fields": [
+          "date",
+          "spend",
+          "impressions",
+          "clicks"
+        ]
+      },
+      "data": [
+        {
+          "date": "2026-09-16",
+          "spend": 94.05,
+          "impressions": 20294,
+          "clicks": 7
+        },
+        {
+          "date": "2026-09-17",
+          "spend": 121.99,
+          "impressions": 6305,
+          "clicks": 713
+        },
+        {
+          "date": "2026-09-18",
+          "spend": 86.7,
+          "impressions": 4817,
+          "clicks": 512
+        },
+        {
+          "date": "2026-09-19",
+          "spend": 108.36,
+          "impressions": 1502,
+          "clicks": 299
+        },
+        {
+          "date": "2026-09-20",
+          "spend": 104.75,
+          "impressions": 769,
+          "clicks": 100
+        },
+        {
+          "date": "2026-09-21",
+          "spend": 323.83,
+          "impressions": 5444,
+          "clicks": 595
+        },
+        {
+          "date": "2026-09-22",
+          "spend": 369.23,
+          "impressions": 23075,
+          "clicks": 525
+        },
+        {
+          "date": "2026-09-23",
+          "spend": 166.34,
+          "impressions": 3392,
+          "clicks": 243
+        },
+        {
+          "date": "2026-09-24",
+          "spend": 31.95,
+          "impressions": 811,
+          "clicks": 56
+        },
+        {
+          "date": "2026-09-25",
+          "spend": 0.04,
+          "impressions": 13,
+          "clicks": 0
+        }
+      ],
+      "error": false
+    },
+    "gaStaticPages": {
+      "query": {
+        "connector": "googleanalytics4",
+        "accounts": [
+          "553123842"
+        ],
+        "date_from": "2026-09-23",
+        "date_to": "2026-09-29",
+        "fields": [
+          "page_path",
+          "screen_page_views",
+          "active_users",
+          "average_engagement_time"
+        ],
+        "filters": [
+          [
+            "page_path",
+            "contains",
+            "/s/"
+          ]
+        ]
+      },
+      "data": [
+        {
+          "page_path": "/s/nammalvar-silence/",
+          "screen_page_views": 1,
+          "active_users": 1,
+          "average_engagement_time": 7
+        },
+        {
+          "page_path": "/s/ganesha-circles/",
+          "screen_page_views": 1,
+          "active_users": 1,
+          "average_engagement_time": 2
+        },
+        {
+          "page_path": "/s/damayanti-choice/",
+          "screen_page_views": 2,
+          "active_users": 1,
+          "average_engagement_time": 1
+        },
+        {
+          "page_path": "/s/durva-kubera-scale/",
+          "screen_page_views": 1,
+          "active_users": 1,
+          "average_engagement_time": 0
+        },
+        {
+          "page_path": "/s/hanuman-reminded/",
+          "screen_page_views": 1,
+          "active_users": 1,
+          "average_engagement_time": 0
+        },
+        {
+          "page_path": "/s/hanuman-tail/",
+          "screen_page_views": 1,
+          "active_users": 1,
+          "average_engagement_time": 0
+        },
+        {
+          "page_path": "/s/rantideva-water/",
+          "screen_page_views": 0,
+          "active_users": 1,
+          "average_engagement_time": 0
+        },
+        {
+          "page_path": "/s/two-birds/",
+          "screen_page_views": 1,
+          "active_users": 1,
+          "average_engagement_time": 0
+        }
+      ],
+      "error": false
+    }
+  }
+}

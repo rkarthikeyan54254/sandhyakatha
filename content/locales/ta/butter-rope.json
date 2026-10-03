@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "butter-rope",
   "sourceVersion": 1,
-  "sourceBlobSha1": "605ec92839186348eb0f2fd4df4bcf02f4fa2b4d",
+  "sourceBlobSha1": "075a9f7bcc4a4fd5cafde26a58b8284ee000f939",
   "locale": "ta-IN",
   "language": "ta",
-  "status": "in-review",
+  "status": "approved",
   "register": "வீட்டில் வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்.",
   "title": "கண்ணனைப் பிணைக்க முடியாத கயிறு",
   "tease": "எத்தனை கயிறுகளைச் சேர்த்தாலும் இரண்டு விரல் இடைவெளி. யசோதையால் முடிச்சுப் போடவே முடியவில்லை.",
@@ -214,7 +214,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -279,7 +279,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -530,14 +530,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {

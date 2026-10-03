@@ -154,9 +154,9 @@
       "observanceId": "krishna-janmashtami",
       "storyId": "butter-rope",
       "relevance": "strong-related",
-      "storyStateAtProposal": "in-review",
+      "storyStateAtProposal": "published",
       "status": "proposed",
-      "reason": "The sourced childhood Krishna episode is now in review. It remains related to Janmashtami rather than narrating the birth; the mapping still awaits human approval."
+      "reason": "The sourced childhood Krishna episode is published. It remains related to Janmashtami rather than narrating the birth; the mapping still awaits human approval."
     },
     {
       "observanceId": "vamana-jayanti",

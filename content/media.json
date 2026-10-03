@@ -1125,7 +1125,7 @@
       }
     },
     "butter-rope": {
-      "canonStatus": "in-review",
+      "canonStatus": "published",
       "storyVersion": 1,
       "image": {
         "status": "approved",
@@ -1142,7 +1142,7 @@
       }
     },
     "last-grain": {
-      "canonStatus": "in-review",
+      "canonStatus": "published",
       "storyVersion": 1,
       "image": {
         "status": "approved",
@@ -1159,7 +1159,7 @@
       }
     },
     "banyan-seed": {
-      "canonStatus": "in-review",
+      "canonStatus": "published",
       "storyVersion": 1,
       "image": {
         "status": "approved",
@@ -1176,7 +1176,7 @@
       }
     },
     "blue-jackal": {
-      "canonStatus": "in-review",
+      "canonStatus": "published",
       "storyVersion": 1,
       "image": {
         "status": "approved",
@@ -1193,7 +1193,7 @@
       }
     },
     "mice-ate-the-scales": {
-      "canonStatus": "in-review",
+      "canonStatus": "published",
       "storyVersion": 1,
       "image": {
         "status": "approved",

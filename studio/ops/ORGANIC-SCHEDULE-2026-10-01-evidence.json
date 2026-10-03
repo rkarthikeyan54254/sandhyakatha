@@ -1,0 +1,643 @@
+{
+  "retrieved": "2026-10-01",
+  "reports": [
+    {
+      "query": {
+        "connector": "instagram",
+        "accounts": [
+          "17841429911274484"
+        ],
+        "date_from": "2026-09-01",
+        "date_to": "2026-09-30",
+        "fields": [
+          "media_id",
+          "timestamp",
+          "media_caption",
+          "media_permalink",
+          "media_reach",
+          "media_views",
+          "media_shares",
+          "media_saved"
+        ]
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"media_id\":\"17907330363523470\",\"timestamp\":\"2026-09-10T10:12:11+0000\",\"media_caption\":\"Two brothers race around the world for a mango. One of them does not leave the room.\\n\\nGaṇeśa did not go round the world. Do you think he won fairly?\\n\\nŚiva Purāṇa — Rudra Saṃhitā; also Skanda Purāṇa and the Tamil Vināyaka Purāṇam. 4+, 6 minutes read aloud.\\nThe whole telling is free at\\n https://sandhyakatha.com/s/ganesha-circles\\n\\n#sandhyakatha #bedtimestories #indianmythology #storiesforkids #puranas\",\"media_permalink\":\"https://www.instagram.com/reel/DdGlxtAThPC/\",\"media_reach\":463.0,\"media_views\":581.0,\"media_shares\":1.0,\"media_saved\":1.0},{\"media_id\":\"18199387570331182\",\"timestamp\":\"2026-09-10T09:15:16+0000\",\"media_caption\":\"Two brothers race around the world for a mango. One of them does not leave the room.\\n\\nGaṇeśa did not go round the world. Do you think he won fairly?\\n\\nŚiva Purāṇa — Rudra Saṃhitā; also Skanda Purāṇa and the Tamil Vināyaka Purāṇam. Age 4+, 6 minutes read aloud.\\nThe whole telling is free at https://sandhyakatha.com/s/ganesha-circles/\\n\\n#happyganeshchaturthi #happyvinayagarchathurthi \\n\\n#sandhyakatha #bedtimestories #indianmythology #storiesforkids #puranas #ramayana #mahabharata #parentingindia #raisingreaders #indianparents #mythologyforkids #bedtimereading #desiparenting #tamilculture\",\"media_permalink\":\"https://www.instagram.com/p/DdGfb5nE_iL/\",\"media_reach\":19.0,\"media_views\":34.0,\"media_shares\":1.0,\"media_saved\":1.0},{\"media_id\":\"17899929732596758\",\"timestamp\":\"2026-09-11T18:45:24+0000\",\"media_caption\":\"Sometimes courage doesn’t need to be taught. It needs to be remembered.\\n\\nEveryone on the shore is measuring how far they can jump. Hanumān sits quietly.\\nJāmbavān doesn’t give him a new power. He reminds Hanumān of the strength that was already his.\\n\\nAnd then Hanumān stands up.\\n\\n🌙 Tonight’s Sandhya Katha: the moment Hanumān remembers who he is.\\n\\nRead the 6-minute telling aloud with your child, then ask:\\n\\nHas someone ever reminded you of something you could do when you had gone quiet? What did they say that helped?\\n\\n📜 Source-checked against the Vālmīki Rāmāyaṇa, Kiṣkindhākāṇḍa 4.63–66. Tradition differences are noted in the full telling.\\n\\nRead tonight → link in first comment\\n\\n#SandhyaKatha #Hanuman #Ramayana #HinduStoriesForKids #IndianBedtimeStories HinduParenting\",\"media_permalink\":\"https://www.instagram.com/reel/DdKFKafzYOk/\",\"media_reach\":121.0,\"media_views\":162.0,\"media_shares\":1.0,\"media_saved\":0.0},{\"media_id\":\"18105067871221332\",\"timestamp\":\"2026-09-11T16:19:58+0000\",\"media_caption\":\"Gaṇeśa never went around the world.\\n\\nHe won the race anyway. 🐘🥭\\n\\nOne mango. Two brothers. One race around the world.\\n\\nKārttikeya leaves immediately.\\n\\nGaṇeśa stays behind — and asks a different question:\\n\\nwhat counts as “the world”?\\n\\nTell this one to your child for Ganesh Chaturthi, then ask:\\n\\nDo you think Gaṇeśa won fairly?\\n\\nThis Sandhya Katha telling follows the Tamil shape of the story, while also showing where Sanskrit and Tamil traditions differ.\\n\\nRead the full 6-minute telling tonight → link in bio.\\n\\n#SandhyaKatha #GaneshChaturthi #VinayakaChaturthi #GaneshaStories #HinduStoriesForKids IndianParenting IndianBedtimeStories\",\"media_permalink\":\"https://www.instagram.com/reel/DdJ0V98Tvpu/\",\"media_reach\":132.0,\"media_views\":174.0,\"media_shares\":25.0,\"media_saved\":1.0},{\"media_id\":\"17946806394277708\",\"timestamp\":\"2026-09-11T14:47:04+0000\",\"media_caption\":\"Gaṇeśa never went around the world.\\nHe won the race anyway. 🐘🥭\\n\\nFor Ganesh Chaturthi, tell your child the story of the mango, the race, Kārttikeya’s journey — and the brother who never left the room.\\n\\nThen ask them:\\n\\nDo you think Gaṇeśa won fairly?\\n\\nThe complete 6-minute telling includes pronunciation help, source notes, and the differences between the Sanskrit and Tamil traditions.\\n\\nRead it aloud tonight → link in bio.\\n\\n#SandhyaKatha #GaneshChaturthi #GaneshaStories #HinduStoriesForKids #IndianBedtimeStories\",\"media_permalink\":\"https://www.instagram.com/p/DdJqMlWzCPD/\",\"media_reach\":32.0,\"media_views\":55.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18027846869884558\",\"timestamp\":\"2026-09-11T14:43:32+0000\",\"media_caption\":\"You may know the story.\\n\\nBut do you know where that version came from?\\n\\nHindu stories often live across texts, regions and centuries of retelling. Details can change — sometimes significantly.\\n\\nAt Sandhya Katha, we show the source and locus we used, and when traditions differ, we say so rather than blending them into one convenient version.\\n\\nWe are not trying to decide which tradition is “right.”\\n\\nWe want parents to know what they are telling their children — and where it comes from.\\n\\nThe story matters. The source matters too.\\n\\nsandhyakatha.com\\n\\n#SandhyaKatha #HinduStories #Ramayana #Mahabharata #Puranas IndianCulture\",\"media_permalink\":\"https://www.instagram.com/p/DdJpytyTn_N/\",\"media_reach\":30.0,\"media_views\":55.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18086326865674918\",\"timestamp\":\"2026-09-11T14:39:23+0000\",\"media_caption\":\"Six minutes at dusk. 🌙\\n\\nSandhya Katha is for parents who want to share the stories of the Itihāsas, Purāṇas and our traditions with their children — without having to search for the right story every evening.\\n\\nOne story is chosen for you. We check where it comes from, note when traditions differ, and write it so you can read it aloud.\\n\\nNo homework. No forced moral.\\nJust a story, a parent, a child, and one question to talk about afterwards.\\n\\nStart tonight → sandhyakatha.com\\n\\n#SandhyaKatha #HinduStoriesForKids #IndianParenting #IndianBedtimeStories #HinduParenting\",\"media_permalink\":\"https://www.instagram.com/p/DdJpUUhz2oO/\",\"media_reach\":28.0,\"media_views\":41.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"17950250715267006\",\"timestamp\":\"2026-09-12T12:11:37+0000\",\"media_caption\":\"Who is older: Gaṇeśa or Kārttikeya?\\n\\nThe honest answer is that the sources do not all line up the same way.\\n\\nIn the Skanda Purāṇa, Gaṇeśa is called Kumāraguru — “the elder brother of Kumāra.”\\n\\nIn the Śiva Purāṇa’s Śvetakalpa birth narrative, the six-faced Kumāra is already present during the battle surrounding the newly born Gaṇeśa. And that same Śiva Purāṇa explicitly says Gaṇeśa’s birth story is told differently across kalpas.\\n\\nThat is not something Sandhya Katha wants to quietly smooth over.\\n\\nWe name the source. We give the passage. And when tellings differ, we say so — without deciding that one living tradition is the “wrong” one.\\n\\nThe old stories deserve their addresses.\\n\\nGaṇeśa Chaturthi is almost here. 🌙🐘🙏🛕\\n\\nSandhyakantha.com\\n\\nSources checked:\\n\\n• Skanda Purāṇa, Maheśvara-khaṇḍa, Kedāra-khaṇḍa, ch. 11, vv. 17–18.\\n\\n• Śiva Purāṇa, Rudra-saṃhitā, Kumāra-khaṇḍa, ch. 13, vv. 5–6.\\n\\n• Śiva Purāṇa, Rudra-saṃhitā, Kumāra-khaṇḍa, ch. 15, vv. 38–43.\\n\\nFollow @the_sandhyakatha for one source-checked Hindu story for children, six minutes at dusk.\\n\\n#GaneshaChaturthi #Ganesha #HinduStories #Purana #SandhyaKatha\",\"media_permalink\":\"https://www.instagram.com/p/DdL9NTnkzrJ/\",\"media_reach\":17.0,\"media_views\":43.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18021249479865668\",\"timestamp\":\"2026-09-13T12:36:06+0000\",\"media_caption\":\"🌙 The Night We Don't Look at the Moon\\n\\nThis Sandhya Katha telling follows the Gaṇeśa Purāṇa, Upāsanā Khaṇḍa 62.\\n\\nCandra laughs at Gaṇeśa's fierce form. The text treats the laughter as ridicule. The curse that follows is not simply erased; it is narrowed. Candra later seeks refuge and is restored.\\n\\nPopular tellings often give a different scene. We keep the versions separate rather than blending them.\\n\\nSource: Gaṇeśa Purāṇa · Upāsanā Khaṇḍa 62\\n\\nRead the complete 6-minute telling at\\n\\nsandhyakatha.com/s/ganesha-moon/\\n\\n#GaneshChaturthi #ganpatibappamorya #VinayakaChaturthi #GaneshaStories #HinduStories\",\"media_permalink\":\"https://www.instagram.com/reel/DdOkJifTsWi/\",\"media_reach\":116.0,\"media_views\":143.0,\"media_shares\":0.0,\"media_saved\":1.0},{\"media_id\":\"17985025572069759\",\"timestamp\":\"2026-09-15T12:53:05+0000\",\"media_caption\":\"Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more.\\n\\nKubera puts his treasury, his wife and his city on a scale. One blade of grass offered to Gaṇeśa still weighs more.\\n\\nRead the complete telling aloud tonight, then ask:\\n\\nIf two gifts cost very different amounts, what else could make the smaller one matter more?\\n\\n📖 Ages 6+ · about 6 minutes\\n\\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa, chapters 66–68 (Dūrvā-māhātmya sequence)\\n\\nWhere tellings differ, Sandhya Katha says so.\\n\\nRead it tonight → link in bio\\n\\nhttps://sandhyakatha.com/s/durva-kubera-scale/?utm_source=instagram&utm_medium=social&utm_campaign=story&utm_content=carousel_durva-kubera-scale\\n\\n#SandhyaKatha #HinduStoriesForKids #IndianBedtimeStories #HinduParenting\",\"media_permalink\":\"https://www.instagram.com/p/DdTwVuFE6ig/\",\"media_reach\":8.0,\"media_views\":25.0,\"media_shares\":1.0,\"media_saved\":1.0},{\"media_id\":\"17876012160627960\",\"timestamp\":\"2026-09-15T12:47:49+0000\",\"media_caption\":\"Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more.\\n\\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa, chapters 66–68 (Dūrvā-māhātmya sequence)\\n\\nRead the complete 6-minute telling tonight:\\n\\nhttps://sandhyakatha.com/s/durva-kubera-scale/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=durva-kubera-scale\\n\\n#SandhyaKatha #IndianStories #StoriesForKids\",\"media_permalink\":\"https://www.instagram.com/reel/DdTvohQzPkm/\",\"media_reach\":9.0,\"media_views\":21.0,\"media_shares\":0.0,\"media_saved\":2.0},{\"media_id\":\"18095158328306744\",\"timestamp\":\"2026-09-16T12:32:53+0000\",\"media_caption\":\"A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own temple festival.\\n\\nRead the complete telling aloud tonight, then ask:\\n\\nWhat have you built in your head that nobody has ever seen?\\n\\n📖 Ages 5+ · about 6 minutes\\n📜 Periya Purāṇam — Pūsalār Nāyaṉār\\nWhere tellings differ, Sandhya Katha says so.\\n\\nRead it tonight → link in bio\\nhttps://sandhyakatha.com/s/pusalar-temple/?utm_source=instagram&utm_medium=social&utm_campaign=story&utm_content=carousel_pusalar-temple\\n\\nKnow a parent who would read this to their child tonight? Send it to them — that is how it travels.\\n\\n#StoriesForKids #NayanmarStories #TamilBhakti #ShivaStories #sandhyakatha\",\"media_permalink\":\"https://www.instagram.com/p/DdWS0nhkzfg/\",\"media_reach\":6.0,\"media_views\":12.0,\"media_shares\":0.0,\"media_saved\":1.0},{\"media_id\":\"18097990925543948\",\"timestamp\":\"2026-09-17T17:35:48+0000\",\"media_caption\":\"Everyone on the shore says how far they can jump. Hanumān says nothing. Then Jāmbavān begins telling him his own story.\\n\\nA source-checked story to read aloud tonight.\\n\\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\\n\\nRead this story to your child tonight.\\nhttps://sandhyakatha.com/s/hanuman-reminded/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=en\\n\\nKnow a parent who would read this tonight? Send it to them.\\n\\n#SandhyaKatha #HinduStoriesForKids\",\"media_permalink\":\"https://www.instagram.com/reel/DdZaPdRz69w/\",\"media_reach\":111.0,\"media_views\":134.0,\"media_shares\":0.0,\"media_saved\":1.0},{\"media_id\":\"18338962528258426\",\"timestamp\":\"2026-09-18T12:02:50+0000\",\"media_caption\":\"सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\\n\\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\\n\\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\\n\\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\\n\\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\\n\\n#SandhyaKatha #हिन्दीकहानियाँ\",\"media_permalink\":\"https://www.instagram.com/reel/DdbYz9vzX4e/\",\"media_reach\":112.0,\"media_views\":127.0,\"media_shares\":0.0,\"media_saved\":1.0},{\"media_id\":\"17980638792091374\",\"timestamp\":\"2026-09-19T16:28:49+0000\",\"media_caption\":\"ஆனால் ராமர் அதை கவனித்தார். ❤️\\nஒரு வேலை பெரிய கைகளால் மட்டும் முடிவதில்லை.\\n\\nஇன்றிரவு குழந்தைகளுடன் வாசியுங்கள் — மணல் சுமந்த அணில்.\\n\\n📖 மூலக் குறிப்பு: சேது கட்டும் நிகழ்வு வால்மீகி இராமாயணத்தில் வருகிறது. அணில் சம்பவம் தமிழ் உட்பட பல பிராந்திய மற்றும் வாய்மொழி இராமாயண மரபுகளில் சொல்லப்படுகிறது.\\n\\nsandhyakatha.com\\n#சந்தியாகதை #இராமாயணம் #ராமர் #அணில்\",\"media_permalink\":\"https://www.instagram.com/reel/DdecHcvTML2/\",\"media_reach\":115.0,\"media_views\":148.0,\"media_shares\":0.0,\"media_saved\":1.0},{\"media_id\":\"17896138929672925\",\"timestamp\":\"2026-09-19T16:23:53+0000\",\"media_caption\":\"समुद्र पर पुल बन रहा था।\\nवानर बड़े-बड़े पत्थर ढो रहे थे।\\nउस शोर के बीच एक छोटी-सी गिलहरी भी अपना काम कर रही थी—अपने रोओं में रेत भरकर, पत्थरों के बीच की जगहों में डालती हुई।\\nकिसी ने सोचा, इतनी-सी रेत से क्या फर्क पड़ेगा?\\nलेकिन राम ने उसे देखा। ❤️\\nकभी-कभी बड़े काम सिर्फ बड़े हाथों से पूरे नहीं होते।\\n\\nआज रात बच्चों के साथ सुनिए — रेत ढोने वाली गिलहरी।\\n📖 स्रोत नोट: सेतु-निर्माण का प्रसंग वाल्मीकि रामायण में है। गिलहरी का यह प्रिय प्रसंग तमिल सहित कई क्षेत्रीय और मौखिक रामायण परंपराओं में सुनाया जाता है।\\n\\nsandhyakatha.com\\n\\n#संध्याकथा #रामायण #राम #गिलहरी #बच्चोंकीकहानी\",\"media_permalink\":\"https://www.instagram.com/reel/DdebfyBzEBp/\",\"media_reach\":84.0,\"media_views\":104.0,\"media_shares\":1.0,\"media_saved\":2.0},{\"media_id\":\"18173537401445165\",\"timestamp\":\"2026-09-19T10:03:57+0000\",\"media_caption\":\"The Squirrel Who Carried Sand\\n\\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\\n\\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\\n\\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\\n\\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=squirrel-setu_en\\n\\n#sandhyakatha  #Ramayana  #chikdrenstory #storytime #viralreel\",\"media_permalink\":\"https://www.instagram.com/reel/Dddv_A4zhyW/\",\"media_reach\":114.0,\"media_views\":125.0,\"media_shares\":0.0,\"media_saved\":1.0},{\"media_id\":\"17872693734650571\",\"timestamp\":\"2026-09-20T15:26:57+0000\",\"media_caption\":\"The Tail Bhīma Could Not Lift\\n\\nThe strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.\\n\\nHave you ever thought something would be easy, then found that you could not do it? What did you do next?\\n\\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\\n\\nhttps://sandhyakatha.com/s/hanuman-tail/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=hanuman-tail_en\\n\\n#sandhyakatha  #Mahabharata #Hanuman\",\"media_permalink\":\"https://www.instagram.com/reel/Ddg5zcbTMgn/\",\"media_reach\":6.0,\"media_views\":13.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18068712815745978\",\"timestamp\":\"2026-09-20T15:23:48+0000\",\"media_caption\":\"பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை.\\n\\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\\n\\nhttps://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_ta-IN\\n\\n#SandhyaKatha #shortshorts #Mahabharata #hanuman\",\"media_permalink\":\"https://www.instagram.com/reel/Ddg5dVeT1Rh/\",\"media_reach\":131.0,\"media_views\":152.0,\"media_shares\":2.0,\"media_saved\":2.0},{\"media_id\":\"18175890595451631\",\"timestamp\":\"2026-09-20T15:21:42+0000\",\"media_caption\":\"पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। उसकी पूँछ रास्ता रोकती है—और भीम उसे हिला तक नहीं पाते।\\n\\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\\n\\nhttps://sandhyakatha.com/s/hanuman-tail/hi/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_hi-IN\\n\\n#SandhyaKatha #shortshorts #hanumanji\",\"media_permalink\":\"https://www.instagram.com/reel/Ddg5L4TTpfN/\",\"media_reach\":106.0,\"media_views\":121.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"17967937517960214\",\"timestamp\":\"2026-09-21T15:27:59+0000\",\"media_caption\":\"The Blade of Darbha in the Water Spout\\n\\nBefore Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.\\n\\nIf you believe someone you care about is making a disastrous promise, how far should you go to stop them?\\n\\n📜 Uṣāharaṇa-kāvya; Skanda Purāṇa — Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53\\n\\nhttps://sandhyakatha.com/s/sukra-spout/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=sukra-spout_en\\n\\n#sandhyakatha #mahabali #sukrachariya #Puranas #ithihasas\",\"media_permalink\":\"https://www.instagram.com/reel/DdjdwlDTq-z/\",\"media_reach\":109.0,\"media_views\":126.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"17956695825015773\",\"timestamp\":\"2026-09-22T14:30:09+0000\",\"media_caption\":\"Four brothers lie still by a lake. A voice offers Yudhiṣṭhira one of them back — just one. He doesn't pick Bhīma, the strongest. He doesn't pick Arjuna, the finest archer. He picks Nakula. Why? 🪔\\n\\nTonight's story, 6 minutes, read aloud → sandhyakatha.com/s/yaksha-lake/\\n\\n#mahabharata #storiesforkids #hindustories #bedtimestories\",\"media_permalink\":\"https://www.instagram.com/p/Ddl9AmYjdYk/\",\"media_reach\":7.0,\"media_views\":8.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"17883241380687253\",\"timestamp\":\"2026-09-22T14:01:23+0000\",\"media_caption\":\"🪔 1,000 active users.\\n\\nOne quiet flame… and a thousand hearts now reading with us.\\nFrom the banks of the ancient rivers to your screens tonight —\\n\\nthank you for choosing stories that still matter.\\n\\nSource-checked. Gently told. Meant for the little ones who will one day pass them on.\\nIf these tales have warmed even one bedtime in your home,\\n\\nwe’re already grateful.\\nCome sit by the diya with us.\\n\\nNew story every night at sandhyakatha.com ✨\\n#sandhyakatha #StoriesWorthPassingOn #1000ActiveUsers #hindustoriesforchildren #ramayana #mahabharata #puranas #bedtimestories #indianmythology #culturalheritage\",\"media_permalink\":\"https://www.instagram.com/p/Ddl5t-6E00u/\",\"media_reach\":5.0,\"media_views\":7.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18105165212617077\",\"timestamp\":\"2026-09-23T14:30:20+0000\",\"media_caption\":\"Her husband sent home two mangoes. She gave one to a hungry devotee at the door. Then he asked for the second one. 🥭\\n\\nA Tamil saint most collections leave out, from the Periya Purāṇam → sandhyakatha.com/s/karaikkal-mangoes/\\n\\n#nayanmars #tamilstories #storiesforkids\",\"media_permalink\":\"https://www.instagram.com/p/Ddoh040CQ5h/\",\"media_reach\":4.0,\"media_views\":7.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18134784613652261\",\"timestamp\":\"2026-09-23T14:01:42+0000\",\"media_caption\":\"A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word. 🌿\\n\\n📜 Devī Māhātmya, Chapter 11 — the full telling → sandhyakatha.com/s/shakambhari/\\n\\nFollow for one story every evening. Navarātri starts 11 October 🪔\\n\\n#SandhyaKatha #storiesforkids #navaratri #devi\",\"media_permalink\":\"https://www.instagram.com/reel/Ddoefmfj04a/\",\"media_reach\":37.0,\"media_views\":44.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18022841357945682\",\"timestamp\":\"2026-09-24T15:38:17+0000\",\"media_caption\":\"A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\\n\\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids\",\"media_permalink\":\"https://www.instagram.com/reel/DdrOV6QFOoQ/\",\"media_reach\":105.0,\"media_views\":111.0,\"media_shares\":0.0,\"media_saved\":2.0},{\"media_id\":\"18121539811927924\",\"timestamp\":\"2026-09-24T14:30:04+0000\",\"media_caption\":\"A storm at Tirukkōvalūr. A narrow passage with room for one to lie down. Then two came to sit, then three to stand — and then all three felt someone else pressing in. 🌧️\\n\\nThe first three Āḻvārs, and the verses that are still sung today → sandhyakatha.com/s/three-in-doorway/\\n\\n#alwars #divyaprabandham #tamilstories\",\"media_permalink\":\"https://www.instagram.com/p/DdrGl1ODY_4/\",\"media_reach\":4.0,\"media_views\":4.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18150807073528271\",\"timestamp\":\"2026-09-25T14:30:12+0000\",\"media_caption\":\"The whole world is under water. One sage is still swimming. And on a leaf of a banyan tree, a baby is sucking his toe. 🌿\\n\\nFrom the Bhāgavata Purāṇa, for ages 10 and up → sandhyakatha.com/s/markandeya-leaf/\\n\\n#bhagavatam #puranas #storiesforkids\",\"media_permalink\":\"https://www.instagram.com/p/DdtrZpwjR9I/\",\"media_reach\":4.0,\"media_views\":5.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"17989490127053151\",\"timestamp\":\"2026-09-25T14:01:35+0000\",\"media_caption\":\"At the very end of the road, the gates of heaven open for Yudhiṣṭhira. The dog that walked beside him is told to stay outside. 🐕\\n\\n📜 Mahābhārata — Mahāprasthānika Parva. The full telling → sandhyakatha.com/s/yudhishthira-dog/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #mahabharata #storiesforkids #hindustories\",\"media_permalink\":\"https://www.instagram.com/reel/DdtoFC_DT2b/\",\"media_reach\":20.0,\"media_views\":23.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18042007859824639\",\"timestamp\":\"2026-09-26T14:30:13+0000\",\"media_caption\":\"Two birds sit on one tree. One eats the fruit. The other only watches. The same verse appears in three different books. Which bird are you? 🐦\\n\\n→ sandhyakatha.com/s/two-birds/\\n\\n#upanishads #storiesforkids #hindustories\",\"media_permalink\":\"https://www.instagram.com/p/DdwQMoQgeWx/\",\"media_reach\":3.0,\"media_views\":4.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18028447427909936\",\"timestamp\":\"2026-09-26T14:01:26+0000\",\"media_caption\":\"Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more. 🌿\\n\\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa 66–68. The full telling → sandhyakatha.com/s/durva-kubera-scale/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #ganesha #storiesforkids #hindustories\",\"media_permalink\":\"https://www.instagram.com/reel/DdwM2dZl3Ft/\",\"media_reach\":5.0,\"media_views\":9.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18148971340557928\",\"timestamp\":\"2026-09-27T14:30:10+0000\",\"media_caption\":\"விநாயகர் உலகைச் சுற்றிய விதம் — ஒரு மாம்பழத்திற்காக இரு சகோதரர்களுக்குள் போட்டி. ஒருவர் மயிலில் பறந்தார். இன்னொருவர் அறையை விட்டு வெளியே போகவில்லை. 🪔\\n\\n📜 Śiva Purāṇa — Rudra Saṃhitā → sandhyakatha.com/s/ganesha-circles/ta/\\n\\n#SandhyaKatha #tamilstories #storiesforkids #vinayagar\",\"media_permalink\":\"https://www.instagram.com/p/Ddy0_MZgUOl/\",\"media_reach\":4.0,\"media_views\":12.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"17895782610673332\",\"timestamp\":\"2026-09-27T14:30:09+0000\",\"media_caption\":\"A boy who never cried, never ate, never spoke — sitting in the hollow of a tamarind tree for sixteen years. Then someone came with a question. 🌳\\n\\n→ sandhyakatha.com/s/nammalvar-silence/\\n\\n#alwars #nammalvar #tamilstories\",\"media_permalink\":\"https://www.instagram.com/p/Ddy0_CGkm_r/\",\"media_reach\":3.0,\"media_views\":5.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18016133465945120\",\"timestamp\":\"2026-09-28T14:30:08+0000\",\"media_caption\":\"Navarātri starts 11 October. Nine nights, nine stories — three for Durgā, three for Lakṣmī, three for Sarasvatī. One each evening, chosen for that night, with the source printed on every page.\\n\\nFollow so night one finds you. 🪔 → sandhyakatha.com\\n\\n#navaratri #navratri2026 #durga #storiesforkids\",\"media_permalink\":\"https://www.instagram.com/p/Dd1Zxv-Eay1/\",\"media_reach\":4.0,\"media_views\":6.0,\"media_shares\":0.0,\"media_saved\":0.0},{\"media_id\":\"18465076522185141\",\"timestamp\":\"2026-09-29T08:00:55+0000\",\"media_caption\":\"भीम से भी न उठी वह पूँछ — पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। 🪔\\n\\n📜 Mahābhārata — Vana Parva → sandhyakatha.com/s/hanuman-tail/hi/\\n\\n#SandhyaKatha #hindistories #storiesforkids #hanuman\",\"media_permalink\":\"https://www.instagram.com/p/Dd3SCAMDZfN/\",\"media_reach\":2.0,\"media_views\":4.0,\"media_shares\":0.0,\"media_saved\":0.0}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "media_id": "17907330363523470",
+              "timestamp": "2026-09-10T10:12:11+0000",
+              "media_caption": "Two brothers race around the world for a mango. One of them does not leave the room.\n\nGaṇeśa did not go round the world. Do you think he won fairly?\n\nŚiva Purāṇa — Rudra Saṃhitā; also Skanda Purāṇa and the Tamil Vināyaka Purāṇam. 4+, 6 minutes read aloud.\nThe whole telling is free at\n https://sandhyakatha.com/s/ganesha-circles\n\n#sandhyakatha #bedtimestories #indianmythology #storiesforkids #puranas",
+              "media_permalink": "https://www.instagram.com/reel/DdGlxtAThPC/",
+              "media_reach": 463,
+              "media_views": 581,
+              "media_shares": 1,
+              "media_saved": 1
+            },
+            {
+              "media_id": "18199387570331182",
+              "timestamp": "2026-09-10T09:15:16+0000",
+              "media_caption": "Two brothers race around the world for a mango. One of them does not leave the room.\n\nGaṇeśa did not go round the world. Do you think he won fairly?\n\nŚiva Purāṇa — Rudra Saṃhitā; also Skanda Purāṇa and the Tamil Vināyaka Purāṇam. Age 4+, 6 minutes read aloud.\nThe whole telling is free at https://sandhyakatha.com/s/ganesha-circles/\n\n#happyganeshchaturthi #happyvinayagarchathurthi \n\n#sandhyakatha #bedtimestories #indianmythology #storiesforkids #puranas #ramayana #mahabharata #parentingindia #raisingreaders #indianparents #mythologyforkids #bedtimereading #desiparenting #tamilculture",
+              "media_permalink": "https://www.instagram.com/p/DdGfb5nE_iL/",
+              "media_reach": 19,
+              "media_views": 34,
+              "media_shares": 1,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17899929732596758",
+              "timestamp": "2026-09-11T18:45:24+0000",
+              "media_caption": "Sometimes courage doesn’t need to be taught. It needs to be remembered.\n\nEveryone on the shore is measuring how far they can jump. Hanumān sits quietly.\nJāmbavān doesn’t give him a new power. He reminds Hanumān of the strength that was already his.\n\nAnd then Hanumān stands up.\n\n🌙 Tonight’s Sandhya Katha: the moment Hanumān remembers who he is.\n\nRead the 6-minute telling aloud with your child, then ask:\n\nHas someone ever reminded you of something you could do when you had gone quiet? What did they say that helped?\n\n📜 Source-checked against the Vālmīki Rāmāyaṇa, Kiṣkindhākāṇḍa 4.63–66. Tradition differences are noted in the full telling.\n\nRead tonight → link in first comment\n\n#SandhyaKatha #Hanuman #Ramayana #HinduStoriesForKids #IndianBedtimeStories HinduParenting",
+              "media_permalink": "https://www.instagram.com/reel/DdKFKafzYOk/",
+              "media_reach": 121,
+              "media_views": 162,
+              "media_shares": 1,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18105067871221332",
+              "timestamp": "2026-09-11T16:19:58+0000",
+              "media_caption": "Gaṇeśa never went around the world.\n\nHe won the race anyway. 🐘🥭\n\nOne mango. Two brothers. One race around the world.\n\nKārttikeya leaves immediately.\n\nGaṇeśa stays behind — and asks a different question:\n\nwhat counts as “the world”?\n\nTell this one to your child for Ganesh Chaturthi, then ask:\n\nDo you think Gaṇeśa won fairly?\n\nThis Sandhya Katha telling follows the Tamil shape of the story, while also showing where Sanskrit and Tamil traditions differ.\n\nRead the full 6-minute telling tonight → link in bio.\n\n#SandhyaKatha #GaneshChaturthi #VinayakaChaturthi #GaneshaStories #HinduStoriesForKids IndianParenting IndianBedtimeStories",
+              "media_permalink": "https://www.instagram.com/reel/DdJ0V98Tvpu/",
+              "media_reach": 132,
+              "media_views": 174,
+              "media_shares": 25,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17946806394277708",
+              "timestamp": "2026-09-11T14:47:04+0000",
+              "media_caption": "Gaṇeśa never went around the world.\nHe won the race anyway. 🐘🥭\n\nFor Ganesh Chaturthi, tell your child the story of the mango, the race, Kārttikeya’s journey — and the brother who never left the room.\n\nThen ask them:\n\nDo you think Gaṇeśa won fairly?\n\nThe complete 6-minute telling includes pronunciation help, source notes, and the differences between the Sanskrit and Tamil traditions.\n\nRead it aloud tonight → link in bio.\n\n#SandhyaKatha #GaneshChaturthi #GaneshaStories #HinduStoriesForKids #IndianBedtimeStories",
+              "media_permalink": "https://www.instagram.com/p/DdJqMlWzCPD/",
+              "media_reach": 32,
+              "media_views": 55,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18027846869884558",
+              "timestamp": "2026-09-11T14:43:32+0000",
+              "media_caption": "You may know the story.\n\nBut do you know where that version came from?\n\nHindu stories often live across texts, regions and centuries of retelling. Details can change — sometimes significantly.\n\nAt Sandhya Katha, we show the source and locus we used, and when traditions differ, we say so rather than blending them into one convenient version.\n\nWe are not trying to decide which tradition is “right.”\n\nWe want parents to know what they are telling their children — and where it comes from.\n\nThe story matters. The source matters too.\n\nsandhyakatha.com\n\n#SandhyaKatha #HinduStories #Ramayana #Mahabharata #Puranas IndianCulture",
+              "media_permalink": "https://www.instagram.com/p/DdJpytyTn_N/",
+              "media_reach": 30,
+              "media_views": 55,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18086326865674918",
+              "timestamp": "2026-09-11T14:39:23+0000",
+              "media_caption": "Six minutes at dusk. 🌙\n\nSandhya Katha is for parents who want to share the stories of the Itihāsas, Purāṇas and our traditions with their children — without having to search for the right story every evening.\n\nOne story is chosen for you. We check where it comes from, note when traditions differ, and write it so you can read it aloud.\n\nNo homework. No forced moral.\nJust a story, a parent, a child, and one question to talk about afterwards.\n\nStart tonight → sandhyakatha.com\n\n#SandhyaKatha #HinduStoriesForKids #IndianParenting #IndianBedtimeStories #HinduParenting",
+              "media_permalink": "https://www.instagram.com/p/DdJpUUhz2oO/",
+              "media_reach": 28,
+              "media_views": 41,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "17950250715267006",
+              "timestamp": "2026-09-12T12:11:37+0000",
+              "media_caption": "Who is older: Gaṇeśa or Kārttikeya?\n\nThe honest answer is that the sources do not all line up the same way.\n\nIn the Skanda Purāṇa, Gaṇeśa is called Kumāraguru — “the elder brother of Kumāra.”\n\nIn the Śiva Purāṇa’s Śvetakalpa birth narrative, the six-faced Kumāra is already present during the battle surrounding the newly born Gaṇeśa. And that same Śiva Purāṇa explicitly says Gaṇeśa’s birth story is told differently across kalpas.\n\nThat is not something Sandhya Katha wants to quietly smooth over.\n\nWe name the source. We give the passage. And when tellings differ, we say so — without deciding that one living tradition is the “wrong” one.\n\nThe old stories deserve their addresses.\n\nGaṇeśa Chaturthi is almost here. 🌙🐘🙏🛕\n\nSandhyakantha.com\n\nSources checked:\n\n• Skanda Purāṇa, Maheśvara-khaṇḍa, Kedāra-khaṇḍa, ch. 11, vv. 17–18.\n\n• Śiva Purāṇa, Rudra-saṃhitā, Kumāra-khaṇḍa, ch. 13, vv. 5–6.\n\n• Śiva Purāṇa, Rudra-saṃhitā, Kumāra-khaṇḍa, ch. 15, vv. 38–43.\n\nFollow @the_sandhyakatha for one source-checked Hindu story for children, six minutes at dusk.\n\n#GaneshaChaturthi #Ganesha #HinduStories #Purana #SandhyaKatha",
+              "media_permalink": "https://www.instagram.com/p/DdL9NTnkzrJ/",
+              "media_reach": 17,
+              "media_views": 43,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18021249479865668",
+              "timestamp": "2026-09-13T12:36:06+0000",
+              "media_caption": "🌙 The Night We Don't Look at the Moon\n\nThis Sandhya Katha telling follows the Gaṇeśa Purāṇa, Upāsanā Khaṇḍa 62.\n\nCandra laughs at Gaṇeśa's fierce form. The text treats the laughter as ridicule. The curse that follows is not simply erased; it is narrowed. Candra later seeks refuge and is restored.\n\nPopular tellings often give a different scene. We keep the versions separate rather than blending them.\n\nSource: Gaṇeśa Purāṇa · Upāsanā Khaṇḍa 62\n\nRead the complete 6-minute telling at\n\nsandhyakatha.com/s/ganesha-moon/\n\n#GaneshChaturthi #ganpatibappamorya #VinayakaChaturthi #GaneshaStories #HinduStories",
+              "media_permalink": "https://www.instagram.com/reel/DdOkJifTsWi/",
+              "media_reach": 116,
+              "media_views": 143,
+              "media_shares": 0,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17985025572069759",
+              "timestamp": "2026-09-15T12:53:05+0000",
+              "media_caption": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more.\n\nKubera puts his treasury, his wife and his city on a scale. One blade of grass offered to Gaṇeśa still weighs more.\n\nRead the complete telling aloud tonight, then ask:\n\nIf two gifts cost very different amounts, what else could make the smaller one matter more?\n\n📖 Ages 6+ · about 6 minutes\n\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa, chapters 66–68 (Dūrvā-māhātmya sequence)\n\nWhere tellings differ, Sandhya Katha says so.\n\nRead it tonight → link in bio\n\nhttps://sandhyakatha.com/s/durva-kubera-scale/?utm_source=instagram&utm_medium=social&utm_campaign=story&utm_content=carousel_durva-kubera-scale\n\n#SandhyaKatha #HinduStoriesForKids #IndianBedtimeStories #HinduParenting",
+              "media_permalink": "https://www.instagram.com/p/DdTwVuFE6ig/",
+              "media_reach": 8,
+              "media_views": 25,
+              "media_shares": 1,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17876012160627960",
+              "timestamp": "2026-09-15T12:47:49+0000",
+              "media_caption": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more.\n\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa, chapters 66–68 (Dūrvā-māhātmya sequence)\n\nRead the complete 6-minute telling tonight:\n\nhttps://sandhyakatha.com/s/durva-kubera-scale/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=durva-kubera-scale\n\n#SandhyaKatha #IndianStories #StoriesForKids",
+              "media_permalink": "https://www.instagram.com/reel/DdTvohQzPkm/",
+              "media_reach": 9,
+              "media_views": 21,
+              "media_shares": 0,
+              "media_saved": 2
+            },
+            {
+              "media_id": "18095158328306744",
+              "timestamp": "2026-09-16T12:32:53+0000",
+              "media_caption": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own temple festival.\n\nRead the complete telling aloud tonight, then ask:\n\nWhat have you built in your head that nobody has ever seen?\n\n📖 Ages 5+ · about 6 minutes\n📜 Periya Purāṇam — Pūsalār Nāyaṉār\nWhere tellings differ, Sandhya Katha says so.\n\nRead it tonight → link in bio\nhttps://sandhyakatha.com/s/pusalar-temple/?utm_source=instagram&utm_medium=social&utm_campaign=story&utm_content=carousel_pusalar-temple\n\nKnow a parent who would read this to their child tonight? Send it to them — that is how it travels.\n\n#StoriesForKids #NayanmarStories #TamilBhakti #ShivaStories #sandhyakatha",
+              "media_permalink": "https://www.instagram.com/p/DdWS0nhkzfg/",
+              "media_reach": 6,
+              "media_views": 12,
+              "media_shares": 0,
+              "media_saved": 1
+            },
+            {
+              "media_id": "18097990925543948",
+              "timestamp": "2026-09-17T17:35:48+0000",
+              "media_caption": "Everyone on the shore says how far they can jump. Hanumān says nothing. Then Jāmbavān begins telling him his own story.\n\nA source-checked story to read aloud tonight.\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nRead this story to your child tonight.\nhttps://sandhyakatha.com/s/hanuman-reminded/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=en\n\nKnow a parent who would read this tonight? Send it to them.\n\n#SandhyaKatha #HinduStoriesForKids",
+              "media_permalink": "https://www.instagram.com/reel/DdZaPdRz69w/",
+              "media_reach": 111,
+              "media_views": 134,
+              "media_shares": 0,
+              "media_saved": 1
+            },
+            {
+              "media_id": "18338962528258426",
+              "timestamp": "2026-09-18T12:02:50+0000",
+              "media_caption": "सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\n\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\n\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\n\n#SandhyaKatha #हिन्दीकहानियाँ",
+              "media_permalink": "https://www.instagram.com/reel/DdbYz9vzX4e/",
+              "media_reach": 112,
+              "media_views": 127,
+              "media_shares": 0,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17980638792091374",
+              "timestamp": "2026-09-19T16:28:49+0000",
+              "media_caption": "ஆனால் ராமர் அதை கவனித்தார். ❤️\nஒரு வேலை பெரிய கைகளால் மட்டும் முடிவதில்லை.\n\nஇன்றிரவு குழந்தைகளுடன் வாசியுங்கள் — மணல் சுமந்த அணில்.\n\n📖 மூலக் குறிப்பு: சேது கட்டும் நிகழ்வு வால்மீகி இராமாயணத்தில் வருகிறது. அணில் சம்பவம் தமிழ் உட்பட பல பிராந்திய மற்றும் வாய்மொழி இராமாயண மரபுகளில் சொல்லப்படுகிறது.\n\nsandhyakatha.com\n#சந்தியாகதை #இராமாயணம் #ராமர் #அணில்",
+              "media_permalink": "https://www.instagram.com/reel/DdecHcvTML2/",
+              "media_reach": 115,
+              "media_views": 148,
+              "media_shares": 0,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17896138929672925",
+              "timestamp": "2026-09-19T16:23:53+0000",
+              "media_caption": "समुद्र पर पुल बन रहा था।\nवानर बड़े-बड़े पत्थर ढो रहे थे।\nउस शोर के बीच एक छोटी-सी गिलहरी भी अपना काम कर रही थी—अपने रोओं में रेत भरकर, पत्थरों के बीच की जगहों में डालती हुई।\nकिसी ने सोचा, इतनी-सी रेत से क्या फर्क पड़ेगा?\nलेकिन राम ने उसे देखा। ❤️\nकभी-कभी बड़े काम सिर्फ बड़े हाथों से पूरे नहीं होते।\n\nआज रात बच्चों के साथ सुनिए — रेत ढोने वाली गिलहरी।\n📖 स्रोत नोट: सेतु-निर्माण का प्रसंग वाल्मीकि रामायण में है। गिलहरी का यह प्रिय प्रसंग तमिल सहित कई क्षेत्रीय और मौखिक रामायण परंपराओं में सुनाया जाता है।\n\nsandhyakatha.com\n\n#संध्याकथा #रामायण #राम #गिलहरी #बच्चोंकीकहानी",
+              "media_permalink": "https://www.instagram.com/reel/DdebfyBzEBp/",
+              "media_reach": 84,
+              "media_views": 104,
+              "media_shares": 1,
+              "media_saved": 2
+            },
+            {
+              "media_id": "18173537401445165",
+              "timestamp": "2026-09-19T10:03:57+0000",
+              "media_caption": "The Squirrel Who Carried Sand\n\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\n\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\n\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\n\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=squirrel-setu_en\n\n#sandhyakatha  #Ramayana  #chikdrenstory #storytime #viralreel",
+              "media_permalink": "https://www.instagram.com/reel/Dddv_A4zhyW/",
+              "media_reach": 114,
+              "media_views": 125,
+              "media_shares": 0,
+              "media_saved": 1
+            },
+            {
+              "media_id": "17872693734650571",
+              "timestamp": "2026-09-20T15:26:57+0000",
+              "media_caption": "The Tail Bhīma Could Not Lift\n\nThe strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.\n\nHave you ever thought something would be easy, then found that you could not do it? What did you do next?\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=hanuman-tail_en\n\n#sandhyakatha  #Mahabharata #Hanuman",
+              "media_permalink": "https://www.instagram.com/reel/Ddg5zcbTMgn/",
+              "media_reach": 6,
+              "media_views": 13,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18068712815745978",
+              "timestamp": "2026-09-20T15:23:48+0000",
+              "media_caption": "பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை.\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_ta-IN\n\n#SandhyaKatha #shortshorts #Mahabharata #hanuman",
+              "media_permalink": "https://www.instagram.com/reel/Ddg5dVeT1Rh/",
+              "media_reach": 131,
+              "media_views": 152,
+              "media_shares": 2,
+              "media_saved": 2
+            },
+            {
+              "media_id": "18175890595451631",
+              "timestamp": "2026-09-20T15:21:42+0000",
+              "media_caption": "पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। उसकी पूँछ रास्ता रोकती है—और भीम उसे हिला तक नहीं पाते।\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/hi/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_hi-IN\n\n#SandhyaKatha #shortshorts #hanumanji",
+              "media_permalink": "https://www.instagram.com/reel/Ddg5L4TTpfN/",
+              "media_reach": 106,
+              "media_views": 121,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "17967937517960214",
+              "timestamp": "2026-09-21T15:27:59+0000",
+              "media_caption": "The Blade of Darbha in the Water Spout\n\nBefore Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.\n\nIf you believe someone you care about is making a disastrous promise, how far should you go to stop them?\n\n📜 Uṣāharaṇa-kāvya; Skanda Purāṇa — Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53\n\nhttps://sandhyakatha.com/s/sukra-spout/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=sukra-spout_en\n\n#sandhyakatha #mahabali #sukrachariya #Puranas #ithihasas",
+              "media_permalink": "https://www.instagram.com/reel/DdjdwlDTq-z/",
+              "media_reach": 109,
+              "media_views": 126,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "17956695825015773",
+              "timestamp": "2026-09-22T14:30:09+0000",
+              "media_caption": "Four brothers lie still by a lake. A voice offers Yudhiṣṭhira one of them back — just one. He doesn't pick Bhīma, the strongest. He doesn't pick Arjuna, the finest archer. He picks Nakula. Why? 🪔\n\nTonight's story, 6 minutes, read aloud → sandhyakatha.com/s/yaksha-lake/\n\n#mahabharata #storiesforkids #hindustories #bedtimestories",
+              "media_permalink": "https://www.instagram.com/p/Ddl9AmYjdYk/",
+              "media_reach": 7,
+              "media_views": 8,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "17883241380687253",
+              "timestamp": "2026-09-22T14:01:23+0000",
+              "media_caption": "🪔 1,000 active users.\n\nOne quiet flame… and a thousand hearts now reading with us.\nFrom the banks of the ancient rivers to your screens tonight —\n\nthank you for choosing stories that still matter.\n\nSource-checked. Gently told. Meant for the little ones who will one day pass them on.\nIf these tales have warmed even one bedtime in your home,\n\nwe’re already grateful.\nCome sit by the diya with us.\n\nNew story every night at sandhyakatha.com ✨\n#sandhyakatha #StoriesWorthPassingOn #1000ActiveUsers #hindustoriesforchildren #ramayana #mahabharata #puranas #bedtimestories #indianmythology #culturalheritage",
+              "media_permalink": "https://www.instagram.com/p/Ddl5t-6E00u/",
+              "media_reach": 5,
+              "media_views": 7,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18105165212617077",
+              "timestamp": "2026-09-23T14:30:20+0000",
+              "media_caption": "Her husband sent home two mangoes. She gave one to a hungry devotee at the door. Then he asked for the second one. 🥭\n\nA Tamil saint most collections leave out, from the Periya Purāṇam → sandhyakatha.com/s/karaikkal-mangoes/\n\n#nayanmars #tamilstories #storiesforkids",
+              "media_permalink": "https://www.instagram.com/p/Ddoh040CQ5h/",
+              "media_reach": 4,
+              "media_views": 7,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18134784613652261",
+              "timestamp": "2026-09-23T14:01:42+0000",
+              "media_caption": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word. 🌿\n\n📜 Devī Māhātmya, Chapter 11 — the full telling → sandhyakatha.com/s/shakambhari/\n\nFollow for one story every evening. Navarātri starts 11 October 🪔\n\n#SandhyaKatha #storiesforkids #navaratri #devi",
+              "media_permalink": "https://www.instagram.com/reel/Ddoefmfj04a/",
+              "media_reach": 37,
+              "media_views": 44,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18022841357945682",
+              "timestamp": "2026-09-24T15:38:17+0000",
+              "media_caption": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\n\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids",
+              "media_permalink": "https://www.instagram.com/reel/DdrOV6QFOoQ/",
+              "media_reach": 105,
+              "media_views": 111,
+              "media_shares": 0,
+              "media_saved": 2
+            },
+            {
+              "media_id": "18121539811927924",
+              "timestamp": "2026-09-24T14:30:04+0000",
+              "media_caption": "A storm at Tirukkōvalūr. A narrow passage with room for one to lie down. Then two came to sit, then three to stand — and then all three felt someone else pressing in. 🌧️\n\nThe first three Āḻvārs, and the verses that are still sung today → sandhyakatha.com/s/three-in-doorway/\n\n#alwars #divyaprabandham #tamilstories",
+              "media_permalink": "https://www.instagram.com/p/DdrGl1ODY_4/",
+              "media_reach": 4,
+              "media_views": 4,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18150807073528271",
+              "timestamp": "2026-09-25T14:30:12+0000",
+              "media_caption": "The whole world is under water. One sage is still swimming. And on a leaf of a banyan tree, a baby is sucking his toe. 🌿\n\nFrom the Bhāgavata Purāṇa, for ages 10 and up → sandhyakatha.com/s/markandeya-leaf/\n\n#bhagavatam #puranas #storiesforkids",
+              "media_permalink": "https://www.instagram.com/p/DdtrZpwjR9I/",
+              "media_reach": 4,
+              "media_views": 5,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "17989490127053151",
+              "timestamp": "2026-09-25T14:01:35+0000",
+              "media_caption": "At the very end of the road, the gates of heaven open for Yudhiṣṭhira. The dog that walked beside him is told to stay outside. 🐕\n\n📜 Mahābhārata — Mahāprasthānika Parva. The full telling → sandhyakatha.com/s/yudhishthira-dog/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #mahabharata #storiesforkids #hindustories",
+              "media_permalink": "https://www.instagram.com/reel/DdtoFC_DT2b/",
+              "media_reach": 20,
+              "media_views": 23,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18042007859824639",
+              "timestamp": "2026-09-26T14:30:13+0000",
+              "media_caption": "Two birds sit on one tree. One eats the fruit. The other only watches. The same verse appears in three different books. Which bird are you? 🐦\n\n→ sandhyakatha.com/s/two-birds/\n\n#upanishads #storiesforkids #hindustories",
+              "media_permalink": "https://www.instagram.com/p/DdwQMoQgeWx/",
+              "media_reach": 3,
+              "media_views": 4,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18028447427909936",
+              "timestamp": "2026-09-26T14:01:26+0000",
+              "media_caption": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more. 🌿\n\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa 66–68. The full telling → sandhyakatha.com/s/durva-kubera-scale/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #ganesha #storiesforkids #hindustories",
+              "media_permalink": "https://www.instagram.com/reel/DdwM2dZl3Ft/",
+              "media_reach": 5,
+              "media_views": 9,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18148971340557928",
+              "timestamp": "2026-09-27T14:30:10+0000",
+              "media_caption": "விநாயகர் உலகைச் சுற்றிய விதம் — ஒரு மாம்பழத்திற்காக இரு சகோதரர்களுக்குள் போட்டி. ஒருவர் மயிலில் பறந்தார். இன்னொருவர் அறையை விட்டு வெளியே போகவில்லை. 🪔\n\n📜 Śiva Purāṇa — Rudra Saṃhitā → sandhyakatha.com/s/ganesha-circles/ta/\n\n#SandhyaKatha #tamilstories #storiesforkids #vinayagar",
+              "media_permalink": "https://www.instagram.com/p/Ddy0_MZgUOl/",
+              "media_reach": 4,
+              "media_views": 12,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "17895782610673332",
+              "timestamp": "2026-09-27T14:30:09+0000",
+              "media_caption": "A boy who never cried, never ate, never spoke — sitting in the hollow of a tamarind tree for sixteen years. Then someone came with a question. 🌳\n\n→ sandhyakatha.com/s/nammalvar-silence/\n\n#alwars #nammalvar #tamilstories",
+              "media_permalink": "https://www.instagram.com/p/Ddy0_CGkm_r/",
+              "media_reach": 3,
+              "media_views": 5,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18016133465945120",
+              "timestamp": "2026-09-28T14:30:08+0000",
+              "media_caption": "Navarātri starts 11 October. Nine nights, nine stories — three for Durgā, three for Lakṣmī, three for Sarasvatī. One each evening, chosen for that night, with the source printed on every page.\n\nFollow so night one finds you. 🪔 → sandhyakatha.com\n\n#navaratri #navratri2026 #durga #storiesforkids",
+              "media_permalink": "https://www.instagram.com/p/Dd1Zxv-Eay1/",
+              "media_reach": 4,
+              "media_views": 6,
+              "media_shares": 0,
+              "media_saved": 0
+            },
+            {
+              "media_id": "18465076522185141",
+              "timestamp": "2026-09-29T08:00:55+0000",
+              "media_caption": "भीम से भी न उठी वह पूँछ — पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। 🪔\n\n📜 Mahābhārata — Vana Parva → sandhyakatha.com/s/hanuman-tail/hi/\n\n#SandhyaKatha #hindistories #storiesforkids #hanuman",
+              "media_permalink": "https://www.instagram.com/p/Dd3SCAMDZfN/",
+              "media_reach": 2,
+              "media_views": 4,
+              "media_shares": 0,
+              "media_saved": 0
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "query": {
+        "connector": "facebook_organic",
+        "accounts": [
+          "1247606208445007"
+        ],
+        "date_from": "2026-09-01",
+        "date_to": "2026-09-30",
+        "fields": [
+          "post_id",
+          "post_created_time",
+          "post_message",
+          "permalink_url",
+          "post_impressions",
+          "post_clicks_by_type_link_clicks"
+        ]
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"post_id\":\"1247606208445007_957526466695352\",\"post_created_time\":\"2026-09-17T19:03:50+0000\",\"post_message\":\"\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/957526466695352?substory_index=957526466695352\",\"post_impressions\":35.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122099490657480455\",\"post_created_time\":\"2026-09-17T06:56:36+0000\",\"post_message\":\"What if bedtime had one less screen… and one more story?\\n\\nNot a cartoon playing in the background.\\nNot a 30-minute video.\\n\\nJust you, your child, and an old story told properly.\\n\\n🪔 Welcome to Sandhya Katha.\\n\\nOne story a night from the Rāmāyaṇa, Mahābhārata, Purāṇas, Upaniṣads, Nāyaṉmārs, Āḻvārs and the bhakti tradition — written to be read aloud to a child in about six minutes.\\n\\nAnd there is one promise behind every story:\\n\\nWe tell you where it came from.\\n\\nIf a story is in Vālmīki, we say where.\\n\\nIf a beloved detail came through a regional tradition or through generations of grandmothers, we say that too.\\n\\nIf different tellings disagree, we don't quietly choose one and pretend the others never existed.\\n\\nBecause our children deserve the wonder.\\n\\nAnd parents deserve the truth behind the telling.\\n\\nNo subscription wall.\\nNo ads.\\nNo signup required.\\nNo AI inventing a story while your child is reading.\\n\\nJust the old stories, carefully brought back to the evening.\\n\\nTonight, light a lamp.\\n\\nPick a story.\\n\\nAnd tell it yourself.\\n\\n🪔 Sandhya Katha\\nThe old stories. Told properly. For children.\\n\\n👉 https://sandhyakatha.com\\n\\nIf this is something you want your children to grow up with, follow the page — and send this to one parent who might feel the same.\\n\\n#SandhyaKatha #HinduStories #IndianParents #BedtimeStories #Ramayana #Mahabharata #SanatanaDharma #Parenting #IndianCulture\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122099490657480455\",\"post_impressions\":1073.0,\"post_clicks_by_type_link_clicks\":4.0},{\"post_id\":\"1247606208445007_122099471439480455\",\"post_created_time\":\"2026-09-17T06:20:17+0000\",\"post_message\":\"\",\"permalink_url\":\"https://www.facebook.com/photo.php?fbid=122099471439480455&set=a.122099470113480455&type=3\",\"post_impressions\":24.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122100723603480455\",\"post_created_time\":\"2026-09-18T12:31:12+0000\",\"post_message\":\"सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\\n\\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\\n\\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\\n\\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\\n\\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\\n\\n#SandhyaKatha #हिन्दीकहानियाँ\",\"permalink_url\":\"https://www.facebook.com/reel/1074570358266521/\",\"post_impressions\":1839.0,\"post_clicks_by_type_link_clicks\":92.0},{\"post_id\":\"1247606208445007_122100697509480455\",\"post_created_time\":\"2026-09-18T12:03:05+0000\",\"post_message\":\"सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\\n\\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\\n\\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\\n\\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\\n\\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\\n\\n#SandhyaKatha #हिन्दीकहानियाँ\",\"permalink_url\":\"https://www.facebook.com/reel/1020806377663604/\",\"post_impressions\":228.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122101935249480455\",\"post_created_time\":\"2026-09-19T16:39:18+0000\",\"post_message\":\"இன்றைய Sandhya Katha  (sandhyakatha.com)\\n மணல் சுமந்த அணில் ❤️\\n\\n📖 சேது கட்டும் நிகழ்வு வால்மீகி இராமாயணத்தில் வருகிறது. அணில் சம்பவம் தமிழ் உட்பட பல பிராந்திய மற்றும் வாய்மொழி இராமாயண மரபுகளில் சொல்லப்படுகிறது.\\n#சந்தியாகதை #இராமாயணம் #தமிழ்கதை #குழந்தைகள்கதை #SandhyaKatha #ramayana\",\"permalink_url\":\"https://www.facebook.com/reel/1398043442473749/\",\"post_impressions\":2057.0,\"post_clicks_by_type_link_clicks\":81.0},{\"post_id\":\"1247606208445007_122101922883480455\",\"post_created_time\":\"2026-09-19T16:24:20+0000\",\"post_message\":\"समुद्र पर पुल बन रहा था।\\nवानर बड़े-बड़े पत्थर ढो रहे थे।\\nउस शोर के बीच एक छोटी-सी गिलहरी भी अपना काम कर रही थी—अपने रोओं में रेत भरकर, पत्थरों के बीच की जगहों में डालती हुई।\\nकिसी ने सोचा, इतनी-सी रेत से क्या फर्क पड़ेगा?\\nलेकिन राम ने उसे देखा। ❤️\\nकभी-कभी बड़े काम सिर्फ बड़े हाथों से पूरे नहीं होते।\\n\\nआज रात बच्चों के साथ सुनिए — रेत ढोने वाली गिलहरी।\\n📖 स्रोत नोट: सेतु-निर्माण का प्रसंग वाल्मीकि रामायण में है। गिलहरी का यह प्रिय प्रसंग तमिल सहित कई क्षेत्रीय और मौखिक रामायण परंपराओं में सुनाया जाता है।\\n\\nsandhyakatha.com\\n\\n#संध्याकथा #रामायण #राम #गिलहरी #बच्चोंकीकहानी\",\"permalink_url\":\"https://www.facebook.com/reel/2912729432405025/\",\"post_impressions\":321.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122101625211480455\",\"post_created_time\":\"2026-09-19T10:04:13+0000\",\"post_message\":\"The Squirrel Who Carried Sand\\n\\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\\n\\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\\n\\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\\n\\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=squirrel-setu_en\\n\\n#sandhyakatha  #Ramayana  #chikdrenstory #storytime #viralreel\",\"permalink_url\":\"https://www.facebook.com/reel/1100370809110244/\",\"post_impressions\":17.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122101611933480455\",\"post_created_time\":\"2026-09-19T09:48:47+0000\",\"post_message\":\"The Squirrel Who Carried Sand\\n\\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\\n\\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\\n\\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\\n\\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=facebook&utm_medium=carousel&utm_campaign=daily_story&utm_content=squirrel-setu_en\\n\\n#sandhyakatha #childrenstories #ramayana\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122101611933480455\",\"post_impressions\":22.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122103160071480455\",\"post_created_time\":\"2026-09-20T15:27:15+0000\",\"post_message\":\"The Tail Bhīma Could Not Lift\\n\\nThe strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.\\n\\nHave you ever thought something would be easy, then found that you could not do it? What did you do next?\\n\\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\\n\\nhttps://sandhyakatha.com/s/hanuman-tail/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=hanuman-tail_en\\n\\n#sandhyakatha  #Mahabharata #Hanuman\",\"permalink_url\":\"https://www.facebook.com/reel/1931737981544287/\",\"post_impressions\":15.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122103157257480455\",\"post_created_time\":\"2026-09-20T15:24:12+0000\",\"post_message\":\"பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை.\\n\\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\\n\\nhttps://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_ta-IN\\n\\n#SandhyaKatha #shortshorts #Mahabharata #hanuman\",\"permalink_url\":\"https://www.facebook.com/reel/1426999876023690/\",\"post_impressions\":438.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122103155505480455\",\"post_created_time\":\"2026-09-20T15:22:02+0000\",\"post_message\":\"पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। उसकी पूँछ रास्ता रोकती है—और भीम उसे हिला तक नहीं पाते।\\n\\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\\n\\nhttps://sandhyakatha.com/s/hanuman-tail/hi/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_hi-IN\\n\\n#SandhyaKatha #shortshorts #hanumanji\",\"permalink_url\":\"https://www.facebook.com/reel/1970640323891655/\",\"post_impressions\":412.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122104270779480455\",\"post_created_time\":\"2026-09-21T15:28:21+0000\",\"post_message\":\"The Blade of Darbha in the Water Spout\\n\\nBefore Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.\\n\\nIf you believe someone you care about is making a disastrous promise, how far should you go to stop them?\\n\\n📜 Uṣāharaṇa-kāvya; Skanda Purāṇa — Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53\\n\\nhttps://sandhyakatha.com/s/sukra-spout/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=sukra-spout_en\\n\\n#sandhyakatha #mahabali #sukrachariya #Puranas #ithihasas\",\"permalink_url\":\"https://www.facebook.com/reel/1071159278858850/\",\"post_impressions\":283.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122105261553480455\",\"post_created_time\":\"2026-09-22T14:30:03+0000\",\"post_message\":\"Four brothers lie still by a lake. A voice offers Yudhiṣṭhira one of them back — just one. He doesn't pick Bhīma, the strongest. He doesn't pick Arjuna, the finest archer. He picks Nakula. Why? 🪔\\n\\nTonight's story, 6 minutes, read aloud → sandhyakatha.com/s/yaksha-lake/\\n\\n#mahabharata #storiesforkids #hindustories #bedtimestories\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122105261553480455\",\"post_impressions\":31.0,\"post_clicks_by_type_link_clicks\":1.0},{\"post_id\":\"1247606208445007_122105239785480455\",\"post_created_time\":\"2026-09-22T13:53:38+0000\",\"post_message\":\"🌟 200 followers! 🌟\\nWhat a beautiful milestone for Sandhya Katha.\\nFrom the first story shared under the soft glow of a diya… to this moment — 200 of you walking with us through the forests of the Ramayana, the battlefields of the Mahabharata, and the timeless wisdom of the Puranas.\\nThank you for believing that the old stories still matter.\\n\\nThank you for wanting them told properly — with care, with heart, and with truth — for the little ones who will one day pass them on.\\nOne story a night.\\n\\nStories worth passing on.\\nHere’s to the next chapter… and the next 200 hearts who will join us. 🪔✨\\n#SandhyaKatha #200Followers #stories #ramayana #mahabharat #Puranas #childrenstories\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122105239785480455\",\"post_impressions\":25.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122106248889480455\",\"post_created_time\":\"2026-09-23T14:30:11+0000\",\"post_message\":\"Her husband sent home two mangoes. She gave one to a hungry devotee at the door. Then he asked for the second one. 🥭\\n\\nA Tamil saint most collections leave out, from the Periya Purāṇam → sandhyakatha.com/s/karaikkal-mangoes/\\n\\n#nayanmars #tamilstories #storiesforkids\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122106248889480455\",\"post_impressions\":15.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122106225735480455\",\"post_created_time\":\"2026-09-23T14:01:27+0000\",\"post_message\":\"A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word. 🌿\\n\\n📜 Devī Māhātmya, Chapter 11 — the full telling → sandhyakatha.com/s/shakambhari/\\n\\nFollow for one story every evening. Navarātri starts 11 October 🪔\\n\\n#SandhyaKatha #storiesforkids #navaratri #devi\",\"permalink_url\":\"https://www.facebook.com/reel/1766176591382234/\",\"post_impressions\":10.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122107382679480455\",\"post_created_time\":\"2026-09-24T15:37:57+0000\",\"post_message\":\"A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\\n\\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids\",\"permalink_url\":\"https://www.facebook.com/reel/962436393601410/\",\"post_impressions\":11.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122107331313480455\",\"post_created_time\":\"2026-09-24T14:30:13+0000\",\"post_message\":\"A storm at Tirukkōvalūr. A narrow passage with room for one to lie down. Then two came to sit, then three to stand — and then all three felt someone else pressing in. 🌧️\\n\\nThe first three Āḻvārs, and the verses that are still sung today → sandhyakatha.com/s/three-in-doorway/\\n\\n#alwars #divyaprabandham #tamilstories\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122107331313480455\",\"post_impressions\":14.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122107065591480455\",\"post_created_time\":\"2026-09-24T09:00:21+0000\",\"post_message\":\"A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\\n\\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids\",\"permalink_url\":\"https://www.facebook.com/reel/1404372507810229/\",\"post_impressions\":4.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122108383245480455\",\"post_created_time\":\"2026-09-25T14:30:04+0000\",\"post_message\":\"The whole world is under water. One sage is still swimming. And on a leaf of a banyan tree, a baby is sucking his toe. 🌿\\n\\nFrom the Bhāgavata Purāṇa, for ages 10 and up → sandhyakatha.com/s/markandeya-leaf/\\n\\n#bhagavatam #puranas #storiesforkids\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122108383245480455\",\"post_impressions\":9.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122108367711480455\",\"post_created_time\":\"2026-09-25T14:01:29+0000\",\"post_message\":\"At the very end of the road, the gates of heaven open for Yudhiṣṭhira. The dog that walked beside him is told to stay outside. 🐕\\n\\n📜 Mahābhārata — Mahāprasthānika Parva. The full telling → sandhyakatha.com/s/yudhishthira-dog/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #mahabharata #storiesforkids #hindustories\",\"permalink_url\":\"https://www.facebook.com/reel/1538482388313755/\",\"post_impressions\":5.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122109355953480455\",\"post_created_time\":\"2026-09-26T14:30:08+0000\",\"post_message\":\"Two birds sit on one tree. One eats the fruit. The other only watches. The same verse appears in three different books. Which bird are you? 🐦\\n\\n→ sandhyakatha.com/s/two-birds/\\n\\n#upanishads #storiesforkids #hindustories\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122109355953480455\",\"post_impressions\":2.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122109331671480455\",\"post_created_time\":\"2026-09-26T14:01:08+0000\",\"post_message\":\"Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more. 🌿\\n\\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa 66–68. The full telling → sandhyakatha.com/s/durva-kubera-scale/\\n\\nFollow for one story every evening 🪔\\n\\n#SandhyaKatha #ganesha #storiesforkids #hindustories\",\"permalink_url\":\"https://www.facebook.com/reel/1055876523943870/\",\"post_impressions\":7.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122110103475480455\",\"post_created_time\":\"2026-09-27T14:30:06+0000\",\"post_message\":\"A boy who never cried, never ate, never spoke — sitting in the hollow of a tamarind tree for sixteen years. Then someone came with a question. 🌳\\n\\n→ sandhyakatha.com/s/nammalvar-silence/\\n\\n#alwars #nammalvar #tamilstories\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122110103475480455\",\"post_impressions\":2.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122110018851480455\",\"post_created_time\":\"2026-09-27T11:30:04+0000\",\"post_message\":\"விநாயகர் உலகைச் சுற்றிய விதம் — ஒரு மாம்பழத்திற்காக இரு சகோதரர்களுக்குள் போட்டி. ஒருவர் மயிலில் பறந்தார். இன்னொருவர் அறையை விட்டு வெளியே போகவில்லை. 🪔\\n\\n📜 Śiva Purāṇa — Rudra Saṃhitā → sandhyakatha.com/s/ganesha-circles/ta/\\n\\n#SandhyaKatha #tamilstories #storiesforkids #vinayagar\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122110018851480455\",\"post_impressions\":5.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122110660269480455\",\"post_created_time\":\"2026-09-28T14:30:04+0000\",\"post_message\":\"Navarātri starts 11 October. Nine nights, nine stories — three for Durgā, three for Lakṣmī, three for Sarasvatī. One each evening, chosen for that night, with the source printed on every page.\\n\\nFollow so night one finds you. 🪔 → sandhyakatha.com\\n\\n#navaratri #navratri2026 #durga #storiesforkids\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122110660269480455\",\"post_impressions\":8.0,\"post_clicks_by_type_link_clicks\":0},{\"post_id\":\"1247606208445007_122111673903480455\",\"post_created_time\":\"2026-09-30T12:00:14+0000\",\"post_message\":\"भीम से भी न उठी वह पूँछ — पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। 🪔\\n\\n📜 Mahābhārata — Vana Parva → sandhyakatha.com/s/hanuman-tail/hi/\\n\\n#SandhyaKatha #hindistories #storiesforkids #hanuman\",\"permalink_url\":\"https://www.facebook.com/122100444015480455/posts/122111673903480455\",\"post_impressions\":12.0,\"post_clicks_by_type_link_clicks\":0}]"
+          }
+        ],
+        "structuredContent": {
+          "result": [
+            {
+              "post_id": "1247606208445007_957526466695352",
+              "post_created_time": "2026-09-17T19:03:50+0000",
+              "post_message": "",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/957526466695352?substory_index=957526466695352",
+              "post_impressions": 35,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122099490657480455",
+              "post_created_time": "2026-09-17T06:56:36+0000",
+              "post_message": "What if bedtime had one less screen… and one more story?\n\nNot a cartoon playing in the background.\nNot a 30-minute video.\n\nJust you, your child, and an old story told properly.\n\n🪔 Welcome to Sandhya Katha.\n\nOne story a night from the Rāmāyaṇa, Mahābhārata, Purāṇas, Upaniṣads, Nāyaṉmārs, Āḻvārs and the bhakti tradition — written to be read aloud to a child in about six minutes.\n\nAnd there is one promise behind every story:\n\nWe tell you where it came from.\n\nIf a story is in Vālmīki, we say where.\n\nIf a beloved detail came through a regional tradition or through generations of grandmothers, we say that too.\n\nIf different tellings disagree, we don't quietly choose one and pretend the others never existed.\n\nBecause our children deserve the wonder.\n\nAnd parents deserve the truth behind the telling.\n\nNo subscription wall.\nNo ads.\nNo signup required.\nNo AI inventing a story while your child is reading.\n\nJust the old stories, carefully brought back to the evening.\n\nTonight, light a lamp.\n\nPick a story.\n\nAnd tell it yourself.\n\n🪔 Sandhya Katha\nThe old stories. Told properly. For children.\n\n👉 https://sandhyakatha.com\n\nIf this is something you want your children to grow up with, follow the page — and send this to one parent who might feel the same.\n\n#SandhyaKatha #HinduStories #IndianParents #BedtimeStories #Ramayana #Mahabharata #SanatanaDharma #Parenting #IndianCulture",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122099490657480455",
+              "post_impressions": 1073,
+              "post_clicks_by_type_link_clicks": 4
+            },
+            {
+              "post_id": "1247606208445007_122099471439480455",
+              "post_created_time": "2026-09-17T06:20:17+0000",
+              "post_message": "",
+              "permalink_url": "https://www.facebook.com/photo.php?fbid=122099471439480455&set=a.122099470113480455&type=3",
+              "post_impressions": 24,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122100723603480455",
+              "post_created_time": "2026-09-18T12:31:12+0000",
+              "post_message": "सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\n\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\n\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\n\n#SandhyaKatha #हिन्दीकहानियाँ",
+              "permalink_url": "https://www.facebook.com/reel/1074570358266521/",
+              "post_impressions": 1839,
+              "post_clicks_by_type_link_clicks": 92
+            },
+            {
+              "post_id": "1247606208445007_122100697509480455",
+              "post_created_time": "2026-09-18T12:03:05+0000",
+              "post_message": "सब बता रहे थे कि वे कितनी दूर छलाँग लगा सकते हैं। हनुमान चुप थे। तब जाम्बवान उन्हें उन्हीं की कहानी सुनाने लगे।\n\nआज रात बच्चे को सुनाने के लिए स्रोत से जाँची हुई कहानी।\n\n📜 Vālmīki Rāmāyaṇa — Kiṣkindhākāṇḍa 4.63–66; Uttarakāṇḍa 7.36 for the curse tradition (Critical Edition)\n\nआज रात यह कहानी अपने बच्चे को पढ़कर सुनाइए।\nhttps://sandhyakatha.com/s/hanuman-reminded/hi/?utm_source=meta&utm_medium=paid_social&utm_campaign=language_test_hanuman-reminded&utm_content=hi\n\nकिसी ऐसे माता-पिता को जानते हैं जो यह कहानी आज रात सुनाएँगे? उन्हें भेजिए।\n\n#SandhyaKatha #हिन्दीकहानियाँ",
+              "permalink_url": "https://www.facebook.com/reel/1020806377663604/",
+              "post_impressions": 228,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122101935249480455",
+              "post_created_time": "2026-09-19T16:39:18+0000",
+              "post_message": "இன்றைய Sandhya Katha  (sandhyakatha.com)\n மணல் சுமந்த அணில் ❤️\n\n📖 சேது கட்டும் நிகழ்வு வால்மீகி இராமாயணத்தில் வருகிறது. அணில் சம்பவம் தமிழ் உட்பட பல பிராந்திய மற்றும் வாய்மொழி இராமாயண மரபுகளில் சொல்லப்படுகிறது.\n#சந்தியாகதை #இராமாயணம் #தமிழ்கதை #குழந்தைகள்கதை #SandhyaKatha #ramayana",
+              "permalink_url": "https://www.facebook.com/reel/1398043442473749/",
+              "post_impressions": 2057,
+              "post_clicks_by_type_link_clicks": 81
+            },
+            {
+              "post_id": "1247606208445007_122101922883480455",
+              "post_created_time": "2026-09-19T16:24:20+0000",
+              "post_message": "समुद्र पर पुल बन रहा था।\nवानर बड़े-बड़े पत्थर ढो रहे थे।\nउस शोर के बीच एक छोटी-सी गिलहरी भी अपना काम कर रही थी—अपने रोओं में रेत भरकर, पत्थरों के बीच की जगहों में डालती हुई।\nकिसी ने सोचा, इतनी-सी रेत से क्या फर्क पड़ेगा?\nलेकिन राम ने उसे देखा। ❤️\nकभी-कभी बड़े काम सिर्फ बड़े हाथों से पूरे नहीं होते।\n\nआज रात बच्चों के साथ सुनिए — रेत ढोने वाली गिलहरी।\n📖 स्रोत नोट: सेतु-निर्माण का प्रसंग वाल्मीकि रामायण में है। गिलहरी का यह प्रिय प्रसंग तमिल सहित कई क्षेत्रीय और मौखिक रामायण परंपराओं में सुनाया जाता है।\n\nsandhyakatha.com\n\n#संध्याकथा #रामायण #राम #गिलहरी #बच्चोंकीकहानी",
+              "permalink_url": "https://www.facebook.com/reel/2912729432405025/",
+              "post_impressions": 321,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122101625211480455",
+              "post_created_time": "2026-09-19T10:04:13+0000",
+              "post_message": "The Squirrel Who Carried Sand\n\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\n\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\n\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\n\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=squirrel-setu_en\n\n#sandhyakatha  #Ramayana  #chikdrenstory #storytime #viralreel",
+              "permalink_url": "https://www.facebook.com/reel/1100370809110244/",
+              "post_impressions": 17,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122101611933480455",
+              "post_created_time": "2026-09-19T09:48:47+0000",
+              "post_message": "The Squirrel Who Carried Sand\n\nAn army is throwing mountains into the sea. Nobody notices the squirrel with sand in her fur.\n\nThe monkeys thought her sand did not count. What is something small you did that you thought did not count?\n\n📜 Rāmāyaṇa — Yuddha Kāṇḍa — the building of the Setu\n\nhttps://sandhyakatha.com/s/squirrel-setu/?utm_source=facebook&utm_medium=carousel&utm_campaign=daily_story&utm_content=squirrel-setu_en\n\n#sandhyakatha #childrenstories #ramayana",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122101611933480455",
+              "post_impressions": 22,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122103160071480455",
+              "post_created_time": "2026-09-20T15:27:15+0000",
+              "post_message": "The Tail Bhīma Could Not Lift\n\nThe strongest of the Pāṇḍavas finds one thing he cannot move: an old monkey's tail lying across the path.\n\nHave you ever thought something would be easy, then found that you could not do it? What did you do next?\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=hanuman-tail_en\n\n#sandhyakatha  #Mahabharata #Hanuman",
+              "permalink_url": "https://www.facebook.com/reel/1931737981544287/",
+              "post_impressions": 15,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122103157257480455",
+              "post_created_time": "2026-09-20T15:24:12+0000",
+              "post_message": "பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை.\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_ta-IN\n\n#SandhyaKatha #shortshorts #Mahabharata #hanuman",
+              "permalink_url": "https://www.facebook.com/reel/1426999876023690/",
+              "post_impressions": 438,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122103155505480455",
+              "post_created_time": "2026-09-20T15:22:02+0000",
+              "post_message": "पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। उसकी पूँछ रास्ता रोकती है—और भीम उसे हिला तक नहीं पाते।\n\n📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān\n\nhttps://sandhyakatha.com/s/hanuman-tail/hi/?utm_source=youtube&utm_medium=shorts&utm_campaign=daily_story&utm_content=hanuman-tail_hi-IN\n\n#SandhyaKatha #shortshorts #hanumanji",
+              "permalink_url": "https://www.facebook.com/reel/1970640323891655/",
+              "post_impressions": 412,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122104270779480455",
+              "post_created_time": "2026-09-21T15:28:21+0000",
+              "post_message": "The Blade of Darbha in the Water Spout\n\nBefore Vāmana's three cosmic steps, Śukrācārya blocks a water-pot spout and one blade of darbha changes the gift.\n\nIf you believe someone you care about is making a disastrous promise, how far should you go to stop them?\n\n📜 Uṣāharaṇa-kāvya; Skanda Purāṇa — Uṣāharaṇa-kāvya, Canto I; Skanda Purāṇa, Aruṇācala Māhātmya, Pūrva-khaṇḍa 6.51b–53\n\nhttps://sandhyakatha.com/s/sukra-spout/?utm_source=instagram&utm_medium=reel&utm_campaign=daily_story&utm_content=sukra-spout_en\n\n#sandhyakatha #mahabali #sukrachariya #Puranas #ithihasas",
+              "permalink_url": "https://www.facebook.com/reel/1071159278858850/",
+              "post_impressions": 283,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122105261553480455",
+              "post_created_time": "2026-09-22T14:30:03+0000",
+              "post_message": "Four brothers lie still by a lake. A voice offers Yudhiṣṭhira one of them back — just one. He doesn't pick Bhīma, the strongest. He doesn't pick Arjuna, the finest archer. He picks Nakula. Why? 🪔\n\nTonight's story, 6 minutes, read aloud → sandhyakatha.com/s/yaksha-lake/\n\n#mahabharata #storiesforkids #hindustories #bedtimestories",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122105261553480455",
+              "post_impressions": 31,
+              "post_clicks_by_type_link_clicks": 1
+            },
+            {
+              "post_id": "1247606208445007_122105239785480455",
+              "post_created_time": "2026-09-22T13:53:38+0000",
+              "post_message": "🌟 200 followers! 🌟\nWhat a beautiful milestone for Sandhya Katha.\nFrom the first story shared under the soft glow of a diya… to this moment — 200 of you walking with us through the forests of the Ramayana, the battlefields of the Mahabharata, and the timeless wisdom of the Puranas.\nThank you for believing that the old stories still matter.\n\nThank you for wanting them told properly — with care, with heart, and with truth — for the little ones who will one day pass them on.\nOne story a night.\n\nStories worth passing on.\nHere’s to the next chapter… and the next 200 hearts who will join us. 🪔✨\n#SandhyaKatha #200Followers #stories #ramayana #mahabharat #Puranas #childrenstories",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122105239785480455",
+              "post_impressions": 25,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122106248889480455",
+              "post_created_time": "2026-09-23T14:30:11+0000",
+              "post_message": "Her husband sent home two mangoes. She gave one to a hungry devotee at the door. Then he asked for the second one. 🥭\n\nA Tamil saint most collections leave out, from the Periya Purāṇam → sandhyakatha.com/s/karaikkal-mangoes/\n\n#nayanmars #tamilstories #storiesforkids",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122106248889480455",
+              "post_impressions": 15,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122106225735480455",
+              "post_created_time": "2026-09-23T14:01:27+0000",
+              "post_message": "A hundred years without rain. She arrives with vegetables growing out of her own body, and hands them out before she says a word. 🌿\n\n📜 Devī Māhātmya, Chapter 11 — the full telling → sandhyakatha.com/s/shakambhari/\n\nFollow for one story every evening. Navarātri starts 11 October 🪔\n\n#SandhyaKatha #storiesforkids #navaratri #devi",
+              "permalink_url": "https://www.facebook.com/reel/1766176591382234/",
+              "post_impressions": 10,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122107382679480455",
+              "post_created_time": "2026-09-24T15:37:57+0000",
+              "post_message": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\n\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids",
+              "permalink_url": "https://www.facebook.com/reel/962436393601410/",
+              "post_impressions": 11,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122107331313480455",
+              "post_created_time": "2026-09-24T14:30:13+0000",
+              "post_message": "A storm at Tirukkōvalūr. A narrow passage with room for one to lie down. Then two came to sit, then three to stand — and then all three felt someone else pressing in. 🌧️\n\nThe first three Āḻvārs, and the verses that are still sung today → sandhyakatha.com/s/three-in-doorway/\n\n#alwars #divyaprabandham #tamilstories",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122107331313480455",
+              "post_impressions": 14,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122107065591480455",
+              "post_created_time": "2026-09-24T09:00:21+0000",
+              "post_message": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival. 🛕\n\n📜 Periya Purāṇam — Pūsalār Nāyaṉār. The full telling → sandhyakatha.com/s/pusalar-temple/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #nayanmars #tamilstories #storiesforkids",
+              "permalink_url": "https://www.facebook.com/reel/1404372507810229/",
+              "post_impressions": 4,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122108383245480455",
+              "post_created_time": "2026-09-25T14:30:04+0000",
+              "post_message": "The whole world is under water. One sage is still swimming. And on a leaf of a banyan tree, a baby is sucking his toe. 🌿\n\nFrom the Bhāgavata Purāṇa, for ages 10 and up → sandhyakatha.com/s/markandeya-leaf/\n\n#bhagavatam #puranas #storiesforkids",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122108383245480455",
+              "post_impressions": 9,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122108367711480455",
+              "post_created_time": "2026-09-25T14:01:29+0000",
+              "post_message": "At the very end of the road, the gates of heaven open for Yudhiṣṭhira. The dog that walked beside him is told to stay outside. 🐕\n\n📜 Mahābhārata — Mahāprasthānika Parva. The full telling → sandhyakatha.com/s/yudhishthira-dog/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #mahabharata #storiesforkids #hindustories",
+              "permalink_url": "https://www.facebook.com/reel/1538482388313755/",
+              "post_impressions": 5,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122109355953480455",
+              "post_created_time": "2026-09-26T14:30:08+0000",
+              "post_message": "Two birds sit on one tree. One eats the fruit. The other only watches. The same verse appears in three different books. Which bird are you? 🐦\n\n→ sandhyakatha.com/s/two-birds/\n\n#upanishads #storiesforkids #hindustories",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122109355953480455",
+              "post_impressions": 2,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122109331671480455",
+              "post_created_time": "2026-09-26T14:01:08+0000",
+              "post_message": "Kubera puts his treasury, his wife and his city on a scale. One offered blade of dūrvā still weighs more. 🌿\n\n📜 Gaṇeśa Purāṇa — Upāsanā Khaṇḍa 66–68. The full telling → sandhyakatha.com/s/durva-kubera-scale/\n\nFollow for one story every evening 🪔\n\n#SandhyaKatha #ganesha #storiesforkids #hindustories",
+              "permalink_url": "https://www.facebook.com/reel/1055876523943870/",
+              "post_impressions": 7,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122110103475480455",
+              "post_created_time": "2026-09-27T14:30:06+0000",
+              "post_message": "A boy who never cried, never ate, never spoke — sitting in the hollow of a tamarind tree for sixteen years. Then someone came with a question. 🌳\n\n→ sandhyakatha.com/s/nammalvar-silence/\n\n#alwars #nammalvar #tamilstories",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122110103475480455",
+              "post_impressions": 2,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122110018851480455",
+              "post_created_time": "2026-09-27T11:30:04+0000",
+              "post_message": "விநாயகர் உலகைச் சுற்றிய விதம் — ஒரு மாம்பழத்திற்காக இரு சகோதரர்களுக்குள் போட்டி. ஒருவர் மயிலில் பறந்தார். இன்னொருவர் அறையை விட்டு வெளியே போகவில்லை. 🪔\n\n📜 Śiva Purāṇa — Rudra Saṃhitā → sandhyakatha.com/s/ganesha-circles/ta/\n\n#SandhyaKatha #tamilstories #storiesforkids #vinayagar",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122110018851480455",
+              "post_impressions": 5,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122110660269480455",
+              "post_created_time": "2026-09-28T14:30:04+0000",
+              "post_message": "Navarātri starts 11 October. Nine nights, nine stories — three for Durgā, three for Lakṣmī, three for Sarasvatī. One each evening, chosen for that night, with the source printed on every page.\n\nFollow so night one finds you. 🪔 → sandhyakatha.com\n\n#navaratri #navratri2026 #durga #storiesforkids",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122110660269480455",
+              "post_impressions": 8,
+              "post_clicks_by_type_link_clicks": 0
+            },
+            {
+              "post_id": "1247606208445007_122111673903480455",
+              "post_created_time": "2026-09-30T12:00:14+0000",
+              "post_message": "भीम से भी न उठी वह पूँछ — पाण्डवों में सबसे बलवान भीम को रास्ते में एक बूढ़ा-सा वानर मिलता है। 🪔\n\n📜 Mahābhārata — Vana Parva → sandhyakatha.com/s/hanuman-tail/hi/\n\n#SandhyaKatha #hindistories #storiesforkids #hanuman",
+              "permalink_url": "https://www.facebook.com/122100444015480455/posts/122111673903480455",
+              "post_impressions": 12,
+              "post_clicks_by_type_link_clicks": 0
+            }
+          ]
+        },
+        "isError": false
+      }
+    }
+  ]
+}

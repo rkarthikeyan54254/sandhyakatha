@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "last-grain",
   "sourceVersion": 1,
-  "sourceBlobSha1": "acc47ea6332c0e710cdb81abe967c109728f36cc",
+  "sourceBlobSha1": "adeabd7734f636b4da4e80da15af36328eecc5ef",
   "locale": "ta-IN",
   "language": "ta",
-  "status": "in-review",
+  "status": "approved",
   "register": "வீட்டில் வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்.",
   "title": "ஒரு கவளத்தில் தீர்ந்த பசி",
   "tease": "திரௌபதி சாப்பிட்டு முடித்துவிட்டார். அப்போதுதான் பத்தாயிரம் சீடர்களுடன் துர்வாசர் வந்தார். அவர்களுக்கு என்ன பரிமாறுவது?",
@@ -213,7 +213,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -283,7 +283,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -519,14 +519,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {
