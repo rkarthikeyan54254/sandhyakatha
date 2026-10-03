@@ -56,3 +56,26 @@ Resume from this branch and work only on:
 5. `sekkizhar-first-word`
 
 Do not recreate the first five and do not repeat broad research. The repository checkpoint, not chat state, is now the resume source of truth.
+
+## 2026-10-03 publication reconciliation
+
+The five exact WebPs supplied by Rama now replace the earlier binaries in
+`public/media/stories/<id>/hero.webp`. Their SHA-256 hashes match the handoff,
+and all five decode with `dwebp`. Rama approved the images and confirmed human
+read-aloud approval for the Hindi and Tamil editions.
+
+The **actual measured seconds for each Hindi/Tamil short and full reading have
+not yet been supplied**. The current `locale-parity-gates.mjs` requires those
+measurements, approved native reviews and public locale locks for *every*
+published English story. Accordingly, these fifteen editions remain staged;
+none of the five English stories is yet public. The one-shot GitHub promotion
+workflow was removed, the production locale validator restored, and the
+promotion script now checks all twenty measured values before any content
+write. Existing 70-story corpus strict validation passes.
+
+Next exact action: record the five stories' Hindi and Tamil short/full measured
+seconds in `read-aloud-timings.json` as `{ "story-id": { "hi": {
+"short": 180, "full": 360 }, "ta": { "short": 180, "full": 360 } } }`
+using the **actual readings**, then run the guarded promotion, generate OG
+cards/locks, complete the full gates, and merge PR #23. The numbers above show
+the file shape only; they are not claimed measurements.

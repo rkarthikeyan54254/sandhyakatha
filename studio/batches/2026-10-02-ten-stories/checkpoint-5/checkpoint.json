@@ -19,7 +19,7 @@
   "localeState": {
     "status": "in-review",
     "measuredSeconds": null,
-    "humanReviewGates": "pending"
+    "humanReviewGates": "editorial and source approved by Rama; native read-aloud approved verbally 2026-10-03; actual measured seconds not supplied"
   },
   "firstFiveRemaining": [],
   "secondFivePending": [
@@ -29,8 +29,8 @@
     "brahmin-and-the-pot",
     "sekkizhar-first-word"
   ],
-  "promotionState": "five-story-staged-checkpoint-complete",
-  "humanReviewState": "pending",
-  "mediaState": "candidate mappings recorded; binary promotion deferred to tranche promotion pass",
-  "fullRepoGates": "deferred-until-content-promotion"
+  "promotionState": "blocked-by-missing-measured-native-read-aloud-seconds",
+  "humanReviewState": "English, Hindi and Tamil approved by Rama; measured duration evidence pending",
+  "mediaState": "five exact user-supplied approved hero WebPs committed and decode-verified; OG derivatives pending publication",
+  "fullRepoGates": "existing 70-story corpus strict validation passed 2026-10-03; first-five promotion awaits timing evidence"
 }

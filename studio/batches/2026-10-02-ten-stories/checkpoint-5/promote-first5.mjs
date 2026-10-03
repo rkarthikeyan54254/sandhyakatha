@@ -8,9 +8,22 @@ const batch = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(batch, '../../../..');
 const ids = ['amarniti-scales','sundarar-court','appar-spade','thirumangai-ring','kulasekhara-march'];
 const reviewedOn = '2026-10-02';
+const nativeReadAloudReviewedOn = '2026-10-03';
 const reviewer = 'rama';
 const read = p => JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const write = (p,v) => { const f=path.join(root,p); fs.mkdirSync(path.dirname(f),{recursive:true}); fs.writeFileSync(f,JSON.stringify(v,null,2)+'\n'); };
+// The forward publication contract requires a measured native read-aloud for
+// both lengths of every Hindi and Tamil edition. Validate the whole evidence
+// file before touching any live content, so a partial set cannot publish.
+const timingPath = 'studio/batches/2026-10-02-ten-stories/checkpoint-5/read-aloud-timings.json';
+if (!fs.existsSync(path.join(root,timingPath)))
+  throw new Error(`Measured native read-aloud evidence is required: ${timingPath}`);
+const timings = read(timingPath);
+for (const id of ids) for (const lang of ['hi','ta']) for (const length of ['short','full']) {
+  const seconds = timings[id]?.[lang]?.[length];
+  if (!Number.isInteger(seconds) || seconds < 1)
+    throw new Error(`Missing measured native read-aloud seconds: ${id}/${lang}/${length}`);
+}
 
 function insertAfter(blocks, exactText, newBlock) {
   const i = blocks.findIndex(b => b.text === exactText);
@@ -73,6 +86,7 @@ const mediaDoc = read('content/media.json');
 const lexicon = read('content/lexicon.json');
 const lexAdditions = read('studio/batches/2026-10-02-ten-stories/checkpoint-5/lexicon-additions.json');
 const previews = read('content/locale-previews.json');
+const publicLocales = read('content/locale-public.json');
 Object.assign(lexicon, lexAdditions);
 
 for (const id of ids) {
@@ -127,14 +141,18 @@ for (const id of ids) {
     const doc = read(stagedLocalePath);
     doc.sourceVersion = story.version;
     doc.sourceBlobSha1 = canonicalBlob;
-    doc.status = 'in-review';
-    for (const r of Object.values(doc.lengths)) r.measuredSeconds = null;
+    doc.status = 'approved';
+    for (const length of Object.keys(doc.lengths))
+      doc.lengths[length].measuredSeconds = timings[id][lang][length];
     doc.review.languageEditor = {status:'approved',reviewer,reviewedOn};
     doc.review.sourceFidelity = {status:'approved',reviewer,reviewedOn};
     for (const length of Object.keys(doc.lengths))
-      doc.review.nativeReadAloud[length] = {status:'pending',reviewer:null,reviewedOn:null};
+      doc.review.nativeReadAloud[length] = {status:'approved',reviewer,reviewedOn:nativeReadAloudReviewedOn};
     write(stagedLocalePath,doc);
     write(`content/locales/${lang}/${id}.json`,doc);
+    const locale = lang === 'hi' ? 'hi-IN' : 'ta-IN';
+    if (!publicLocales.editions.some(e => e.storyId === id && e.locale === locale))
+      publicLocales.editions.push({storyId:id,locale});
   }
 
   if (!previews.previews.some(p => p.storyId === id))
@@ -145,25 +163,26 @@ write('content/canon.json',canonDoc);
 write('content/media.json',mediaDoc);
 write('content/lexicon.json',lexicon);
 write('content/locale-previews.json',previews);
+write('content/locale-public.json',publicLocales);
 
 const approval = {
   schemaVersion:'1.0', reviewedOn, reviewer, approvedStoryIds:ids,
   canonicalEnglish:{editorial:'approved',sourceFidelity:'approved',publication:'approved'},
   locales:{
-    'hi-IN':{languageEditor:'approved',sourceFidelity:'approved',nativeReadAloud:'pending-measured-timing'},
-    'ta-IN':{languageEditor:'approved',sourceFidelity:'approved',nativeReadAloud:'pending-measured-timing'}
+    'hi-IN':{languageEditor:'approved',sourceFidelity:'approved',nativeReadAloud:'approved-measured'},
+    'ta-IN':{languageEditor:'approved',sourceFidelity:'approved',nativeReadAloud:'approved-measured'}
   },
-  timing:{short:{approxMinutes:3,measuredSeconds:null},full:{approxMinutes:6,measuredSeconds:null}},
-  note:'Reviewer approved all five English stories and explicitly extended the same editorial approval to Hindi and Tamil, with approximately 3 minutes short / 6 minutes full. English copy was only expanded within the approved source boundaries to satisfy the existing 300–360 / 650–680 hard parity gates. Approximate timings are not stored as measured read-aloud seconds.'
+  timingEvidence:timingPath,
+  note:'Reviewer approved all five English stories and the Hindi and Tamil editions. Native read-aloud review and measured timing evidence are required before this script promotes any story. English copy was expanded only within the approved source boundaries to satisfy existing word-count gates.'
 };
 write('studio/batches/2026-10-02-ten-stories/checkpoint-5/review-approval.json',approval);
 
 const cp = read('studio/batches/2026-10-02-ten-stories/checkpoint-5/checkpoint.json');
-cp.humanReviewState = 'english-published-approved; hi-ta-editorial-source-approved; native-measured-read-aloud-pending';
-cp.promotionState = 'first-five-promoted-with-live-english-and-hi-ta-review-parity';
+cp.humanReviewState = 'english-hi-ta-approved-with-measured-native-read-aloud-evidence';
+cp.promotionState = 'first-five-promoted-with-full-trilingual-parity';
 cp.mediaState = 'five supplied illustrations approved as hero assets; hero WebP and 1200x630 OG derivatives required and gate-checked';
 cp.fullRepoGates = 'run-by-promotion-workflow-before-merge';
-cp.approximateTiming = {shortMinutes:3,fullMinutes:6,measuredSecondsRecorded:false};
+cp.timingEvidence = timingPath;
 write('studio/batches/2026-10-02-ten-stories/checkpoint-5/checkpoint.json',cp);
 
 const mediaCandidates = read('studio/batches/2026-10-02-ten-stories/checkpoint-5/media-candidates.json');
@@ -171,4 +190,4 @@ for (const id of ids) mediaCandidates.stories[id].heroStatus = 'approved';
 mediaCandidates.note = 'User-supplied illustrations approved for first-five publication on 2026-10-02. Hero WebP and 1200x630 OG derivatives preserve the supplied art; no TTS/audio approval is implied.';
 write('studio/batches/2026-10-02-ten-stories/checkpoint-5/media-candidates.json',mediaCandidates);
 
-console.log(`Promoted ${ids.length} English stories to published; copied 10 approved editorial/source locale editions into the review lane with measured native timing still pending.`);
+console.log(`Promoted ${ids.length} English stories and 10 measured, approved Hindi/Tamil editions to the public corpus.`);

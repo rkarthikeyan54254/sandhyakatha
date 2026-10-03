@@ -2,6 +2,21 @@
 
 Updated: 2026-10-02. Keep this file compact; replace stale values.
 
+## First-five trilingual publication — 2026-10-03
+
+PR #23 was synced with current production `main`. Five Rama-supplied hero WebPs
+were hash-matched, decoded, and committed. The unsafe one-shot promotion
+workflow was removed, and the production locale validator restored. The
+existing corpus passes `npm run validate:strict` (70 English, 140 approved
+locale editions). First-five English/Hindi/Tamil editions remain in the durable
+checkpoint; none is published yet. Rama confirmed native read-aloud approval,
+but did not provide the twenty measured seconds required for the Hindi/Tamil
+short/full readings. The promotion script now fails before any live content
+write without all twenty values. Next action: enter actual values in
+`studio/batches/2026-10-02-ten-stories/checkpoint-5/read-aloud-timings.json`,
+promote, create OG cards and locks, run full gates, then merge PR #23 and verify
+production. Do not substitute word-count estimates for those measurements.
+
 ## Current execution checkpoint — supersedes planning-only statuses below
 
 - User authorized live organic execution and schedule changes. Two approved partner emails were SENT; receipts are in ORGANIC-RECOVERY-2026-09-30-execution.md. Do not resend. No partner acceptance is confirmed.
