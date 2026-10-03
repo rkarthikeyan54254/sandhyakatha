@@ -154,9 +154,9 @@
       "observanceId": "krishna-janmashtami",
       "storyId": "butter-rope",
       "relevance": "strong-related",
-      "storyStateAtProposal": "in-review",
+      "storyStateAtProposal": "published",
       "status": "proposed",
-      "reason": "The sourced childhood Krishna episode is now in review. It remains related to Janmashtami rather than narrating the birth; the mapping still awaits human approval."
+      "reason": "The sourced childhood Krishna episode is published. It remains related to Janmashtami rather than narrating the birth; the mapping still awaits human approval."
     },
     {
       "observanceId": "vamana-jayanti",
@@ -413,6 +413,14 @@
       "storyStateAtProposal": "published",
       "status": "proposed",
       "reason": "Kerala Thiruvathira is associated with Shiva and Parvati; this story directly centers Parvati's determination to marry Shiva."
+    },
+    {
+      "observanceId": "ganesh-chaturthi",
+      "storyId": "syamantaka-mani",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Mudgala Purāṇa 4.6 and Nārada Purāṇa 113 explicitly connect the Syamantaka accusation and its remedy with accidental Caturthī moon-sighting."
     }
   ]
 }

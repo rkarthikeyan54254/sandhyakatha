@@ -4,20 +4,11 @@ Scope: butter-rope, last-grain, banyan-seed, blue-jackal, mice-ate-the-scales; E
 
 Rama reviewed and approved all fifteen editions in both lengths and authorized merging on 27 September. The exact statement and illustration provenance are saved in `approval.json`. Language-editor and source-fidelity approval are recorded in all ten staged locale files. Five supplied illustrations are now optimized WebP assets under `public/media/stories`, with story-version-specific approval in `content/media.json`. Prose is unchanged from the reviewed commit `8f952aa`.
 
-Publication remains pending one factual detail: whether the three/six-minute labels represent actual timed read-aloud readings. The pending chat question asks this explicitly. Do not copy word-count estimates into `measuredSeconds`. Native read-aloud gates remain pending and all five canonical stories remain in-review until the complete batch can pass publication gates.
+Rama explicitly confirmed the 3/6-minute durations are measured aloud and authorized production deployment. All ten locale editions now record 180/360 seconds, all human gates are approved, and the editions have moved to `content/locales/{hi,ta}`. Canonical stories, canon/media metadata and content locks are updated. Blue-jackal and mice-ate-the-scales retain their age gates; the other three are added to public Hindi/Tamil shelves.
 
-Latest origin/main was fetched on 27 September and remains `63c97f2d8cd5f516ba401730ea8f9390efc75dfa`; the batch branch is based on it with no divergence.
+`review.html` and `validation.json` now read the final runtime editions. The local publication preflight log is in `publication-preflight.txt`; the complete production build must be confirmed by CI on the final PR head. PR: https://github.com/rkarthikeyan54254/sandhyakatha/pull/21
 
-`review.html` contains all fifteen editions and source ledgers. Regenerate/check with `node studio/batches/2026-09-26-five-stories/review.mjs`. `validation.json` records successful schema, source-hash, claim, native-language and word-count checks. Full tellings have 650–674 spoken words; six minutes is a planning estimate, not a measurement. Browser automation could not open the local proof; Rama's review is recorded, and production visual QA remains outstanding.
-
-Full `npm run build` passed on 27 September with all strict editorial, locale, design, surface and cache gates; evidence: `publication-preflight.txt`. This validates the staged checkpoint, not publication of the five new stories.
-
-## Next exact action
-
-1. Record Rama's answer about actual measured short/full Hindi/Tamil timings (per edition if different); retain nulls until confirmed.
-2. Publish the canonical stories with the approval workflow, update canon/media/observance metadata, move the approved locales into `content/locales/{hi,ta}`, recompute canonical blob hashes, update locks and appropriate public locale lists. Preserve age gates for blue-jackal and mice-ate-the-scales.
-3. Adapt the proof validator for final approved/runtime editions, run the full strict build, then push, create and merge the PR. Merge and production deployment are already authorized; no repeated deployment approval is needed.
-4. Verify the matching live deploy and save its URL/commit evidence.
+Next: merge the passing publication commit, verify its production deployment and record evidence.
 
 ## Illustration provenance
 

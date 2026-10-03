@@ -1,7 +1,7 @@
 {
   "id": "butter-rope",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-26",
   "title": "The Rope That Was Two Fingers Short",
@@ -45,7 +45,9 @@
         "claim": "Seeing her perspiration and loosened hair, Kṛṣṇa compassionately permits the binding.",
         "locus": "10.9.18"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-27"
   },
   "audience": {
     "minAge": 6,

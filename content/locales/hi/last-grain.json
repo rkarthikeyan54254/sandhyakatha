@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "last-grain",
   "sourceVersion": 1,
-  "sourceBlobSha1": "acc47ea6332c0e710cdb81abe967c109728f36cc",
+  "sourceBlobSha1": "adeabd7734f636b4da4e80da15af36328eecc5ef",
   "locale": "hi-IN",
   "language": "hi",
-  "status": "in-review",
+  "status": "approved",
   "register": "सहज, आत्मीय हिन्दी; घर में सुनाने योग्य भाषा।",
   "title": "पात्र के किनारे बचा एक कौर",
   "tease": "द्रौपदी भोजन कर चुकी थीं। तभी दस हज़ार शिष्यों के साथ दुर्वासा आए। अब इतने अतिथियों को क्या खिलाएँ?",
@@ -175,7 +175,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -245,7 +245,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -416,14 +416,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {

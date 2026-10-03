@@ -1,0 +1,377 @@
+{
+  "id": "syamantaka-mani",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-03",
+  "title": "The Jewel Kṛṣṇa Was Blamed For",
+  "tease": "A hunter vanishes wearing a jewel bright as the Sun. Before anyone follows the tracks, Dvārakā has already decided who took it.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "Skandha 10, chapter 56; parallel Viṣṇu Purāṇa IV.13",
+    "stability": "variant",
+    "traditionNote": "Bhāgavata Purāṇa 10.56 and Viṣṇu Purāṇa IV.13 agree on the jewel, accusation, tracks, cave and recovery, but give the fight as 28 and 21 days. We say \"many days.\" The Gaṇeśa-Caturthī moon remedy is explicit in Mudgala Purāṇa 4.6 and Nārada Purāṇa 113.",
+    "parallels": [
+      {
+        "work": "Viṣṇu Purāṇa",
+        "locus": "Book IV, chapter 13"
+      },
+      {
+        "work": "Mudgala Purāṇa",
+        "locus": "Gajānana-carita 4.6"
+      },
+      {
+        "work": "Nārada Purāṇa",
+        "locus": "Uttarabhāga 113.38–39"
+      }
+    ],
+    "checkedAgainst": [
+      "Śrīmad Bhāgavata Mahāpurāṇa, Skandha 10, chapter 56 — Sanskrit text; Gita Press tradition, cross-checked against Vedabase translation",
+      "Viṣṇu Purāṇa IV.13 — Sanskrit tradition, cross-checked against H. H. Wilson translation, ed. Fitzedward Hall",
+      "Mudgala Purāṇa, Gajānana-carita 4.6 — Sanskrit electronic text (Vishvasa)",
+      "Nārada Purāṇa, Uttarabhāga 113.38–39 — G. V. Tagare trans., Motilal Banarsidass"
+    ],
+    "sourcing": [
+      {
+        "claim": "Satrājit, a devotee of Sūrya, receives the Syamantaka jewel; wearing it makes him shine like the Sun and Dvārakā's citizens initially mistake him for Sūrya.",
+        "locus": "Bhāgavata Purāṇa 10.56.3–8; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Syamantaka produces gold; Kṛṣṇa asks Satrājit to place such a treasure with King Ugrasena, but Satrājit keeps it.",
+        "locus": "Bhāgavata Purāṇa 10.56.11–13; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Prasena goes hunting wearing Syamantaka and is killed with his horse by a lion.",
+        "locus": "Bhāgavata Purāṇa 10.56.14–15; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Jāmbavān kills the lion, takes Syamantaka into his cave, and gives the jewel to a child there.",
+        "locus": "Bhāgavata Purāṇa 10.56.15–16; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Satrājit suspects Kṛṣṇa of killing Prasena for the jewel, and the accusation spreads in Dvārakā.",
+        "locus": "Bhāgavata Purāṇa 10.56.17–18; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Kṛṣṇa goes with citizens to clear the accusation, finds Prasena and his horse, then the dead lion, and follows the remaining tracks to Jāmbavān's cave.",
+        "locus": "Bhāgavata Purāṇa 10.56.18–21; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "The Viṣṇu Purāṇa preserves the cave clue: a nurse's verse says a lion killed Prasena, Jāmbavān killed the lion, and Syamantaka is now the child's.",
+        "locus": "Viṣṇu Purāṇa IV.13, nurse's Syamantaka verse"
+      },
+      {
+        "claim": "The companions waiting outside the cave return to Dvārakā after twelve days when Kṛṣṇa does not re-emerge.",
+        "locus": "Bhāgavata Purāṇa 10.56.25–27"
+      },
+      {
+        "claim": "Kṛṣṇa and Jāmbavān fight for many days; Bhāgavata gives 28 days and Viṣṇu Purāṇa gives 21.",
+        "locus": "Bhāgavata Purāṇa 10.56.23–24; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Jāmbavān recognizes Kṛṣṇa as the Lord he knew in Rāma's time, stops fighting, gives him Syamantaka, and gives Jāmbavatī in marriage.",
+        "locus": "Bhāgavata Purāṇa 10.56.28–32; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Kṛṣṇa returns to Dvārakā, explains the recovery before an assembly, and returns Syamantaka to Satrājit, clearing the accusation.",
+        "locus": "Bhāgavata Purāṇa 10.56.35–37; Viṣṇu Purāṇa IV.13"
+      },
+      {
+        "claim": "Ashamed, Satrājit offers Satyabhāmā and Syamantaka to Kṛṣṇa; Kṛṣṇa marries Satyabhāmā but returns/refuses the jewel.",
+        "locus": "Bhāgavata Purāṇa 10.56.38–44"
+      },
+      {
+        "claim": "Mudgala Purāṇa connects Kṛṣṇa's false accusation with his accidental sight of the Moon on Bhādrapada Śukla Caturthī and prescribes hearing the Syamantaka account after accidental moon-sighting.",
+        "locus": "Mudgala Purāṇa, Gajānana-carita 4.6"
+      },
+      {
+        "claim": "Nārada Purāṇa warns against viewing the Moon on this Caturthī because of false accusation and prescribes reciting the Prasena–Jāmbavān–Syamantaka verse if it is seen accidentally.",
+        "locus": "Nārada Purāṇa II.113.38–39"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "How long Kṛṣṇa and Jāmbavān fight.",
+        "tellings": "Bhāgavata Purāṇa 10.56 gives twenty-eight days; Viṣṇu Purāṇa IV.13 gives twenty-one.",
+        "weTell": "The spoken story says only 'many days' and leaves the two counts in this note."
+      },
+      {
+        "differs": "Where the Gaṇeśa-Caturthī moon connection sits.",
+        "tellings": "Bhāgavata 10.56 and Viṣṇu Purāṇa IV.13 tell the jewel episode. Mudgala Purāṇa 4.6 and Nārada Purāṇa 113 explicitly connect the episode with accidental Caturthī moon-sighting and its remedy.",
+        "weTell": "The jewel episode is the main story; the moon connection is introduced at the end as a separately sourced Purāṇic observance layer."
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-03"
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [
+      "death",
+      "violence",
+      "injustice"
+    ],
+    "careNote": "Prasena and his horse are killed by a lion; Jāmbavān kills the lion; Kṛṣṇa and Jāmbavān fight for many days. The deaths and fight are stated plainly and not described graphically.",
+    "gated": false
+  },
+  "values": [
+    "looking at it before fixing it",
+    "refusing the reward"
+  ],
+  "themes": [
+    "krishna",
+    "syamantaka",
+    "false-accusation",
+    "evidence",
+    "ganesh-chaturthi",
+    "moon",
+    "jambavan"
+  ],
+  "calendar": {
+    "festivals": [
+      "ganesh-chaturthi"
+    ],
+    "months": [
+      "bhadrapada"
+    ],
+    "tithi": [
+      "shukla-chaturthi"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Kṛṣṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Satrājit",
+      "role": "present"
+    },
+    {
+      "ref": "Prasena",
+      "role": "present"
+    },
+    {
+      "ref": "Jāmbavān",
+      "role": "lead"
+    },
+    {
+      "ref": "Jāmbavatī",
+      "role": "present"
+    },
+    {
+      "ref": "Satyabhāmā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sūrya",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Ugrasena",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 300,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The story begins with «Satrājit», a devotee of «Sūrya». The Sun-god gave him the «Syamantaka» jewel, so bright that when Satrājit entered «Dvārakā» wearing it, people thought the Sun himself had come down the road."
+        },
+        {
+          "t": "p",
+          "text": "The jewel was precious for more than its light: the texts say it produced gold. «Kṛṣṇa» asked that such a treasure be placed with King «Ugrasena» for the kingdom. Satrājit kept it instead."
+        },
+        {
+          "t": "p",
+          "text": "Later Satrājit's brother «Prasena» rode out hunting with Syamantaka around his neck. He did not come home."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A lion had killed Prasena and his horse. Then «Jāmbavān» killed the lion, carried the shining jewel into his cave, and gave it to a child there to play with. Nobody in Dvārakā knew that."
+        },
+        {
+          "t": "p",
+          "text": "What Dvārakā did know was that Kṛṣṇa had once asked for the jewel. Soon the whisper became an accusation: perhaps Kṛṣṇa had taken it."
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa did not answer the rumour with another rumour. He went looking."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The trail led first to Prasena, then to the lion, and from the lion's tracks to a cave. Inside, Kṛṣṇa learned that Jāmbavān had the jewel. The two fought for many days before Jāmbavān recognized whom he was facing and returned Syamantaka."
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa brought the jewel back to Dvārakā, told the whole assembly what had happened, and placed it before Satrājit. Satrājit was ashamed and later offered the jewel back to him. Kṛṣṇa refused it again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There is another reason families remember this story. The Mudgala and Nārada Purāṇas connect it with the Gaṇeśa-Caturthī warning about seeing the Moon: if the Moon is seen accidentally, the Syamantaka account is heard or recited as the remedy."
+        },
+        {
+          "t": "slow",
+          "text": "So the story remembered after a false accusation is the one in which Kṛṣṇa follows the tracks all the way to the truth — and brings the jewel back."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 669,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Before anyone was accused, there was only a jewel and a man walking into «Dvārakā» with sunlight on his chest."
+        },
+        {
+          "t": "p",
+          "text": "«Satrājit» was devoted to «Sūrya», the Sun-god. Sūrya gave him the «Syamantaka» jewel. It shone so fiercely that when Satrājit first entered the city wearing it, people ran to «Kṛṣṇa» saying that the Sun himself had come to see him."
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa looked and knew it was Satrājit. The jewel was not merely beautiful. The Purāṇas say that where it was properly kept it brought prosperity, and that it produced gold each day."
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa asked Satrājit to place a treasure of that importance with King «Ugrasena», the ruler of the Yādavas. Satrājit did not agree. He kept Syamantaka in his own household."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then Satrājit's brother «Prasena» wore the jewel around his neck and rode into the forest to hunt."
+        },
+        {
+          "t": "p",
+          "text": "He never returned."
+        },
+        {
+          "t": "p",
+          "text": "In the forest a lion had killed Prasena and his horse. The lion took the jewel. Then «Jāmbavān», the old bear-king who had served in «Rāma»'s time, killed the lion, carried Syamantaka into his cave, and gave the bright stone to a child there."
+        },
+        {
+          "t": "p",
+          "text": "Nobody in Dvārakā had seen any of that."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "What people remembered was something else: Kṛṣṇa had asked Satrājit to place the jewel with Ugrasena. Prasena had gone out wearing it. Now Prasena was dead or missing, and the jewel was gone."
+        },
+        {
+          "t": "p",
+          "text": "The whisper began with Satrājit and travelled through the city. Perhaps Kṛṣṇa had killed Prasena for Syamantaka."
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa could have answered that he had no need to steal anybody's jewel. Instead he chose the slower answer. He gathered people and went to find the evidence."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They found Prasena's body and the remains of his horse. Nearby were the signs of the lion that had killed them. Then they found the lion dead too."
+        },
+        {
+          "t": "p",
+          "text": "That mattered. The first accusation no longer explained what lay on the ground."
+        },
+        {
+          "t": "p",
+          "text": "From there another set of tracks led toward a cave. Kṛṣṇa left the others outside and went in alone."
+        },
+        {
+          "t": "p",
+          "text": "The Viṣṇu Purāṇa preserves the clue he heard inside: a nurse calming a child with the story of the jewel — Prasena was killed by a lion, Jāmbavān killed the lion, and Syamantaka was now the child's plaything."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa found Jāmbavān. Jāmbavān did not at first know who had entered his cave, and the two fought."
+        },
+        {
+          "t": "p",
+          "text": "The Purāṇas count the days differently. The Bhāgavata says twenty-eight; the Viṣṇu Purāṇa says twenty-one. What both tellings agree on is that the struggle went on for many days, until Jāmbavān's strength was exhausted."
+        },
+        {
+          "t": "p",
+          "text": "Then recognition came. Jāmbavān understood that the one before him was the same Lord he had served in the age of Rāma. He stopped fighting and gave Kṛṣṇa the Syamantaka jewel. He also gave his daughter «Jāmbavatī» to Kṛṣṇa in marriage."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Kṛṣṇa returned to Dvārakā with the jewel. Before the people who had heard the accusation, he told the sequence plainly: Prasena, the lion, Jāmbavān, the cave. Then he placed Syamantaka back in Satrājit's hands."
+        },
+        {
+          "t": "p",
+          "text": "Satrājit was ashamed. In the Bhāgavata telling he later offered Kṛṣṇa both his daughter «Satyabhāmā» and the jewel. Kṛṣṇa married Satyabhāmā, but he would not keep Syamantaka. The jewel went back to Satrājit."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That might have been the end. But another Purāṇic strand explains why this particular accusation is remembered on Gaṇeśa Caturthī."
+        },
+        {
+          "t": "p",
+          "text": "The Mudgala Purāṇa says Kṛṣṇa had accidentally seen the Moon on Bhādrapada Śukla Caturthī and connects that sight with the false blame that followed. The Nārada Purāṇa likewise warns against looking at the Moon that night."
+        },
+        {
+          "t": "p",
+          "text": "And if someone sees it by accident, the remedy those texts give is not to look again. It is to hear or recite the Syamantaka account — the story in which an accusation runs ahead of the facts, and the facts are patiently followed until they can be shown."
+        },
+        {
+          "t": "slow",
+          "text": "So when this story is remembered after an accidental glance at the Caturthī Moon, its last image is not the jewel shining. It is Kṛṣṇa returning it in public, with the whole trail finally visible."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "ganesha-moon",
+    "reason": "the same Caturthī moon warning, told from Gaṇeśa's side"
+  },
+  "close": {
+    "question": "Have you ever heard something about someone, believed it for a moment, and then learned that the story had another part?",
+    "seed": "A rumour can arrive before the truth. That does not make it true.",
+    "ifTheyAsk": [
+      {
+        "q": "Why do people connect this story with not looking at the Moon on Gaṇeśa Caturthī?",
+        "a": "The Mudgala Purāṇa says Kṛṣṇa accidentally saw the Moon on Bhādrapada Śukla Caturthī and connects that sight with the false accusation over Syamantaka. The Nārada Purāṇa also warns against the Moon that Caturthī and gives the Syamantaka account or verse as the remedy if it is seen accidentally. The Bhāgavata and Viṣṇu Purāṇa tell the jewel episode without making that the opening frame."
+      },
+      {
+        "q": "Did Kṛṣṇa fight Jāmbavān for twenty-one days or twenty-eight?",
+        "a": "The Purāṇas count differently. Viṣṇu Purāṇa IV.13 says twenty-one days; Bhāgavata Purāṇa 10.56 says twenty-eight. Both agree that the struggle lasted many days and ended when Jāmbavān recognized Kṛṣṇa. That is why the read-aloud story does not choose one number."
+      },
+      {
+        "q": "Why did Kṛṣṇa give the jewel back after going through so much to find it?",
+        "a": "He had gone into the forest to clear the accusation and recover the evidence, not to make Syamantaka his. The Bhāgavata says he returned the jewel publicly to Satrājit; when Satrājit later offered it again along with Satyabhāmā, Kṛṣṇa accepted the marriage but would not keep the jewel."
+      }
+    ]
+  }
+}

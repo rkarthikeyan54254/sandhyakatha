@@ -198,7 +198,7 @@
       "value": "one grain is enough",
       "hook": "Ten thousand guests are bathing before their meal. Draupadī has already eaten, and her vessel will give no more food today.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false,
       "careNote": "The family fears a visiting sage's anger. Do not turn the rescue into a promise that faith prevents hunger or hardship."
@@ -326,7 +326,7 @@
       "festivals": [
         "janmashtami"
       ],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false,
       "careNote": "A mother chases her child with a stick, puts it aside, and binds him to a mortar. Tell the devotional episode without presenting restraint as parenting advice."
@@ -542,7 +542,7 @@
       "value": "the tree you cannot see",
       "hook": "His father asks him to break a banyan fruit, and then one tiny seed. What can he see inside?",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 1,
       "gated": false,
       "careNote": "The unseen essence is a philosophical teaching, not a claim that a seed contains nothing or a substitute for botany."
@@ -1303,7 +1303,7 @@
       "value": "the thing you cannot help doing",
       "hook": "The forest animals bow to a strange blue creature. Then a pack of jackals begins to howl.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 3,
       "gated": true,
       "careNote": "Dogs attack a jackal; he deceives the forest animals, and a tiger kills him when exposed. The death is brief and non-graphic. Do not invite approval of the killing or turn animal kinship into a lesson about human birth."
@@ -1324,7 +1324,7 @@
       "value": "answering a lie in its own language",
       "hook": "A merchant asks for his iron balance back. His friend says mice ate it. Soon the friend hears an equally impossible claim.",
       "festivals": [],
-      "status": "in-review",
+      "status": "published",
       "wave": 3,
       "gated": true,
       "locus": "Book I, The Mice That Ate Iron, pp. 192–195 (embedded tale)",
@@ -1864,6 +1864,31 @@
       "wave": 5,
       "gated": false,
       "careNote": "A blade of darbha pierces one of Śukrācārya's eyes while he blocks the water-pot. The injury is brief and not graphic."
+    },
+    {
+      "n": 95,
+      "id": "syamantaka-mani",
+      "title": "The Jewel Kṛṣṇa Was Blamed For",
+      "corpus": "bhagavata",
+      "tradition": "sanskrit",
+      "work": "Bhāgavata Purāṇa",
+      "locus": "Skandha 10, chapter 56; parallel Viṣṇu Purāṇa IV.13",
+      "stability": "variant",
+      "minAge": 7,
+      "sensitivity": [
+        "death",
+        "violence",
+        "injustice"
+      ],
+      "value": "looking at it before fixing it",
+      "hook": "A hunter vanishes wearing a jewel bright as the Sun. Before anyone follows the tracks, Dvārakā has already decided who took it.",
+      "festivals": [
+        "ganesh-chaturthi"
+      ],
+      "status": "published",
+      "wave": 5,
+      "gated": false,
+      "careNote": "Prasena and his horse are killed by a lion; Jāmbavān kills the lion; Kṛṣṇa and Jāmbavān fight for many days. The deaths and fight are stated plainly and not described graphically."
     }
   ]
 }

@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "mice-ate-the-scales",
   "sourceVersion": 1,
-  "sourceBlobSha1": "94f269e50ed4cf417b485fba59fa481b246b883c",
+  "sourceBlobSha1": "ea769af9866004a637d6a473c62d9e8a4c955a7b",
   "locale": "hi-IN",
   "language": "hi",
-  "status": "in-review",
+  "status": "approved",
   "register": "सहज, आत्मीय हिन्दी; घर में सुनाने योग्य भाषा।",
   "title": "लोहे का तराज़ू चूहे खा गए?",
   "tease": "लोहे का तराज़ू चूहे खा गए—यह कहने वाला अपने बेटे को बाज़ उठा ले जाने की बात सुनकर मानने को तैयार नहीं हुआ।",
@@ -171,7 +171,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -236,7 +236,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -411,14 +411,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {

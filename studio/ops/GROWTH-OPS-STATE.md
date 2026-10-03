@@ -1,6 +1,17 @@
 # Sandhya Katha Growth Ops State
 
-Updated: 2026-09-27. Keep this file compact; replace stale values.
+Updated: 2026-10-02. Keep this file compact; replace stale values.
+
+## Current execution checkpoint — supersedes planning-only statuses below
+
+- User authorized live organic execution and schedule changes. Two approved partner emails were SENT; receipts are in ORGANIC-RECOVERY-2026-09-30-execution.md. Do not resend. No partner acceptance is confirmed.
+- Facebook three-evening invitation is live. Govardhana caption update is verified published October 1 at 17:30, with the full-story link and clean organic UTM tags; post 122112301815480455.
+- Hindi YouTube Jatayu moved to October 3, 19:00 IST and reverified. Hindi Karna October 5, 19:00 IST verified October 2 by reopening visibility (GMT+0530).
+- Tamil Hanuman-tail reel scheduled on Facebook and Instagram for October 4, 19:30 IST. Both exact Tamil captions and distinct organic source tags verified in the refreshed queue October 2. Instagram's earlier corrupted caption was repaired before publication; no duplicate was created.
+- Instagram bio now explicitly directs parents to the homepage link and names English, Tamil and Hindi; persisted after refresh. Website field explicitly says links can only be edited on mobile, so the old paid-tagged story URL remains unresolved. No paid changes. Detailed evidence and screenshots: ORGANIC-SCHEDULE-2026-10-01.md and evidence/2026-10-02-*.
+- Remaining exact action: replace the paid-tagged Instagram story URL through an authenticated mobile-app editing surface when available, then verify the click path. Desktop UI cannot do this. Do not repeat historical analytics collection, resend outreach, or launch duplicate posts. The full profile-routing objective remains incomplete; the completed live work is safe and verified.
+- Blocker audit, October 2 continuation: desktop restriction revalidated live; available app inventory contains no Instagram/mobile-mirroring editing surface. This is the second consecutive goal turn with this remaining blocker (first identified in the preceding execution turn). No supported next write is available. Shared usage observed 81% five-hour / 91% weekly; do not spend more on repeated unchanged UI checks.
+- Third consecutive blocker audit: the live Website field remains disabled with the same mobile-only restriction. No new editing surface or user input is available. Goal marked blocked, not complete, to stop unchanged automatic continuations. Resume prerequisite: authenticated Instagram mobile link editing; remaining action is to replace the paid-tagged story URL and verify its destination. All completed publication/scheduling evidence remains recorded above.
 
 ## Goal and verified baseline
 
@@ -13,7 +24,13 @@ Updated: 2026-09-27. Keep this file compact; replace stale values.
 
 ## Analytics and publishing: evidence status
 
-- Fresh analytics: August 22–September 18, pulled September 19: 789 active users (15.78% of goal), 930 sessions, 208 engaged (22.37%). September 18: 258 active users. See GA4-BASELINE-2026-09-19.md and its JSON evidence.
+- September 30 organic recovery session: fresh September 2–29 GA4 total 1,344 active users, 1,543 sessions, 304 engaged sessions (19.70%). September 25–29: 19 distinct active users, 25 sessions; daily active counts 4, 3, 5, 5, 3. Paid-tagged 956/1,543 sessions (61.96%), but organic public links also reuse paid tags, so this is not a causal paid share. Recent September 23–29 events: 8 story-open users / 15 events; 1 finish user / 2 events. Raw query evidence saved in `ORGANIC-RECOVERY-2026-09-30-evidence.json`.
+- Source measurement has concrete contamination: Instagram bio story link uses `meta/paid_social`; Instagram Hindi/Tamil Hanuman-tail and Facebook cross-posts use `youtube/shorts`; Facebook English cross-posts use `instagram/reel`. Do not treat source labels as exact platform attribution.
+- September 30 recovery deliverable COMPLETE: `ORGANIC-RECOVERY-2026-09-30.md`, `ORGANIC-RECOVERY-2026-09-30-launch-kit.md`, browser audit and raw JSON. User clarified Bangalore, no direct temple contact, cold outreach, at most one hour/day when available. Six sourced organisational prospects; first two tailored drafts; three-night ages-6+ trial; 11 checked tracking URLs. No outreach/publication performed. 5,000 by October 15 is not a credible operating forecast: 815 already-measured users fit September 18–October 15, leaving about 4,185 additional qualifying users before September 30's unknown contribution.
+- New measurement caveat: public `/s/` pages provide complete stories but do not have the app reader's open/finish event coverage in the inspected code. Do not call the 8 open-users/1 finish-user a whole-site reading funnel. Use public page engagement and aggregate voluntary trial feedback until measurement is validated.
+- Live audit: YouTube September 2–29 = 8,119 views, 12.3 hours, +10 subscribers; five Shorts scheduled through October 4. Instagram 21 followers; loaded WhatsApp channel 12 followers. Search sitemap successful with 212 discovered pages, read September 29; indexing report stale at September 21 (13 indexed, 98 not indexed). Historical Navaratri redirect error currently navigates successfully. Live festival page lists only October 11–13 and eight stories; repair/review its programme before promoting a nine-night promise. See browser audit for dates and limits.
+
+- Historical analytics: August 22–September 18, pulled September 19: 789 active users, 930 sessions, 208 engaged. Superseded for current decisions by the September 30 evidence above; retained in GA4-BASELINE-2026-09-19.md.
 - Returning dimension: 30 active users, 132 sessions, 65.91% engagement; this is not D14 cohort retention. Paid-tagged: 522 sessions, 58 engaged (11.11%). Source totals differ slightly from undimensioned totals; Google-account referrals and paid engagement duration need investigation. Current spend/paid delivery status not fetched.
 - GA4 property: 553123842. Live Windsor discovery now shows YouTube 39241, sandhyakathas@gmail.com, replacing the old source. Two August 22–September 18 video queries returned no rows, so reporting remains unverified. Do not reconnect blindly; next check is correct channel access/date coverage in Windsor/YouTube Studio.
 - Handoff-reported English hanuman-reminded posts (not reverified):
@@ -31,11 +48,11 @@ Work on one bounded deliverable at a time. Production/publishing breakage takes 
 | Order | Deliverable | Done when | Status |
 | --- | --- | --- | --- |
 | 0 | Durable baseline and session discipline | This state file and AGENTS.md guidance exist | Complete |
-| 1 | Fresh adoption baseline | Dated 28-day + latest complete-day GA4 report, paid/organic split, returning-reader data or explicit unavailability, one recommendation saved | Complete: GA4-BASELINE-2026-09-19.md; processing caveats retained |
+| 1 | Fresh adoption baseline | Dated 28-day + latest complete-day GA4 report, paid/organic split, returning-reader data or explicit unavailability, one recommendation saved | Refreshed September 30: ORGANIC-RECOVERY-2026-09-30.md + raw evidence; attribution and public-reader gaps retained |
 | 2 | One campaign ready for review | Current schedule reconciled against existing posts; one eligible story/edition package passes required provenance, technical and visual gates; paths and copy saved | `hanuman-tail` en/hi/ta generated; mechanical, agent visual and Rama human-review gates pass. Live reconciliation pending. See CAMPAIGN-READINESS-2026-09-20.md |
 | 3 | Organic distribution, when authorized | Verify each intended public post and save URL, timestamp, destination and UTM identity; checkpoint after each channel | Pending |
-| 4 | YouTube reporting correction | Correct channel identity and relevant video data verified; if account action is needed, save precise blocker without repeated retries | Account changed; two reads empty, checkpointed |
-| 5 | Reading and retention diagnosis | One dated open/finish/return analysis with denominator/window caveats and one evidence-based next action | Acquisition-to-reading diagnosis complete; D14 cohort reporting remains separate |
+| 4 | YouTube reporting correction | Correct channel identity and relevant video data verified; if account action is needed, save precise blocker without repeated retries | Verified September 30 through Studio UI; Windsor connector repair remains unnecessary/unverified |
+| 5 | Reading and retention diagnosis | One dated open/finish/return analysis with denominator/window caveats and one evidence-based next action | September 30 public-page measurement gap identified; no whole-site finish or D14 rate claimed |
 | 6 | One creative experiment | Reviewed language or voice/no-voice hypothesis, baseline, success criterion and gated assets; paid changes require explicit approval | Deferred until baseline |
 | 7 | Reusable growth report command | Automate a proven repeated query set; saved report handles missing sources and data-quality warnings | Deferred until reporting is proven |
 
@@ -54,7 +71,9 @@ Work on one bounded deliverable at a time. Production/publishing breakage takes 
 
 ## Next exact action
 
-With explicit push/publication authorization, use the already-open channel/content pages to reconcile duplicate/scheduled posts and verify the English/Hindi/Tamil live landing pages. If clean, publish one channel at a time and record URLs immediately. Do not rerun the build, tests, campaign generation or analytics unless inputs change.
+For the organic recovery plan: Rama reviews/sends the two prepared cold messages to Tapas Reading Cafe and Our Story Shelf, or explicitly authorises those recipients/drafts for sending. Correct the featured profile route and verify the actual mobile click path before launching the three-evening trial. Record acceptance and actual shares separately. No partner is secured. Remaining prerequisites: live profile changes, mobile click verification, future FB/IG queue reconciliation, public-reader instrumentation decision and editorial/calendar correction before any nine-night Navaratri campaign.
+
+September 30 validation: evidence JSON parses; reported arithmetic agrees with responses; 11 tracking URLs pass parameter/path checks; three English trial stories opened on production. No production code/content changes or deployment; pre-existing five-story editorial work preserved. Usage at completion checkpoint: five-hour 75% used, weekly 27% used (shared account; start 1%/16%). Finishing capacity reserved.
 
 ## Five-story publication checkpoint — 27 September
 
@@ -63,3 +82,11 @@ With explicit push/publication authorization, use the already-open channel/conte
 - Targeted batch review, canonical strict validation and full build pass (publication-preflight.txt). Remaining factual prerequisite: actual native read-aloud seconds; pending user question distinguishes measured readings from 3/6-minute estimated labels. No timings invented and no gates weakened.
 - Next exact action: record the timing answer, complete runtime promotion/locks and full build, then push/merge and verify production. Existing merge approval persists.
 - Usage observed: five-hour window 73% used, weekly 11% used. Continue bounded work and preserve finishing capacity.
+
+## Story releases — 3 October 2026
+
+- Five-story publication: PR #25 merged as `044691e8b143f519ad79cadab08f76a2cb4ba0aa`. The final-head Netlify deploy preview passed. Rama's recorded human approval and measured 180/360-second Hindi/Tamil timings are in the five-story batch. All five supplied hero illustrations and story share cards are checked in. Public English routes for butter-rope, last-grain and banyan-seed and Hindi/Tamil butter-rope routes were observed live on sandhyakatha.com; blue-jackal and mice-ate-the-scales retain their age gates and correctly have no public `/s/` route.
+- Syamantaka Maṇi: PR #24 rebased by merge onto the five-story release, with combined locks/public shelves/social selectors; targeted strict, native-language, locale-parity, campaign and observance gates passed. Its final-head Netlify deploy preview passed. PR #24 merged as `78bbde0fc43698e57c4d02eb02aebeec639fe76b`.
+- Production confirmation: after the deploy completed, `/s/syamantaka-mani/`, `/s/syamantaka-mani/hi/` and `/s/syamantaka-mani/ta/` all displayed the new story titles on sandhyakatha.com; the English page displayed its approved hero. The immediately post-merge 404 resolved. The exact deployed commit marker was blocked by the browser, so verification is based on the new story content plus successful final-head preview.
+- The local full build on the five-story branch stalled in TypeScript; `publication-preflight.txt` explicitly marks that attempt incomplete. Netlify's final-head deploy preview provided the passing production build for PR #25. The separate Syamantaka final-head deploy preview passed after conflict resolution.
+- Next exact action: no further publication action for these six stories. Resume the bounded growth queue from the latest organic schedule evidence; keep publication and analytics work separate.
