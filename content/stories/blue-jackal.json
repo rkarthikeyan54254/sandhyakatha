@@ -1,7 +1,7 @@
 {
   "id": "blue-jackal",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-09-26",
   "title": "The Howl Beneath the Blue",
@@ -45,7 +45,9 @@
         "claim": "The animals call for his death; he tries to flee and a tiger kills him.",
         "locus": "ibid., ending of embedded tale"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-09-27"
   },
   "audience": {
     "minAge": 10,

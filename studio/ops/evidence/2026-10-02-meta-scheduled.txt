@@ -1,0 +1,488 @@
+Window: "Meta Business Suite", App: Google Chrome.
+0 standard window Meta Business Suite - Google Chrome – Rama, Secondary Actions: Raise, URL: business.facebook.com/latest/posts/scheduled_posts?asset_id=1247606208445007&business_id=2388978161638340
+	1 container Meta Business Suite - Google Chrome – Rama, URL: business.facebook.com/latest/posts/scheduled_posts?asset_id=1247606208445007&business_id=2388978161638340
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop-up button View site information
+					9 text field (settable) Address and search bar, Placeholder: Ask Google or type a URL, Value: business.facebook.com/latest/posts/scheduled_posts?asset_id=1247606208445007&business_id=2388978161638340
+					10 button Bookmark this tab
+				11 container
+					12 pop-up button Google Input Tools
+Has access to this site
+					13 pop-up button Simplify Copilot
+Has access to this site
+					14 pop-up button GoFullPage - Full Page Screen Capture
+Wants access to this site
+					15 pop-up button ChatGPT
+Has access to this site
+					16 pop-up button Extensions
+				17 button Ask Gemini
+				18 button Rama
+				19 pop-up button New Chrome available
+			20 toolbar Bookmarks
+				21 toolbar Saved tab groups
+					22 saved tab group button  🪔 Organic schedule group – Opened
+					23 saved tab group button  sandhyakatha group – Closed
+					24 saved tab group button  Taxonmy group – Closed
+					25 saved tab group button  Momentum group – Closed
+					26 saved tab group button  Q4 Updates group – Closed
+					27 button Tab groups
+				28 splitter Separator
+				29 bookmark folder button Python
+				30 bookmark folder button OKL
+				31 bookmark folder button Vlocity
+				32 bookmark folder button GitHub
+				33 bookmark folder button SalesForce
+				34 bookmark button - eDISWeb
+				35 bookmark button Twitter
+				36 pop-up button Menu containing hidden bookmarks
+				37 bookmark folder button All Bookmarks
+				38 splitter Separator
+			39 container
+				40 HTML content Meta Business Suite, URL: business.facebook.com/latest/posts/scheduled_posts?asset_id=1247606208445007&business_id=2388978161638340
+					41 container
+						42 container
+							43 container
+								44 heading Content, Value: 1
+									45 text Content
+								46 text Schedule, publish and manage posts, reels and stories, and more.
+								47 toolbar
+									48 container
+										49 button Export data
+											50 image
+											51 text Export data
+										52 pop-up button Open export options ​
+											53 text Open export options
+											54 image
+										55 container
+											56 button Remove
+											57 text Now you can export data found in the table below. Select export data to give it a try.
+											58 text Learn about this new feature
+									59 button Create reel
+										60 image
+										61 text Create reel
+									62 container
+										63 button Create post
+											64 image
+											65 text Create post
+										66 pop-up button Create post ​
+											67 text Create post
+											68 image
+									69 button To-dos
+										70 image
+										71 text To-dos
+									72 button Facebook
+										73 container
+											74 image Facebook
+								75 container
+									76 container
+										77 container Content
+											78 container
+												79 image
+												80 text Content
+											81 content list
+												82 container
+													83 link Posts & reels, Value: business.facebook.com/latest/posts/published_posts?business_id=2388978161638340&asset_id=1247606208445007
+													84 text Posts & reels
+												85 container
+													86 link Stories, Value: business.facebook.com/latest/posts/active_stories?business_id=2388978161638340&asset_id=1247606208445007
+													87 text Stories
+												88 container
+													89 link A/B tests, Value: business.facebook.com/latest/posts/ab_testing?business_id=2388978161638340&asset_id=1247606208445007
+													90 text A/B tests
+												91 container
+													92 link Feed & grid, Value: business.facebook.com/latest/posts/feed_and_grid?business_id=2388978161638340&asset_id=1247606208445007
+													93 text Feed & grid
+												94 container
+													95 link Mentions & tags, Value: business.facebook.com/latest/posts/tagged_content?business_id=2388978161638340&asset_id=1247606208445007
+													96 text Mentions & tags
+												97 container
+													98 link Clips, Value: business.facebook.com/latest/posts/all_clips?business_id=2388978161638340&asset_id=1247606208445007
+													99 text Clips
+										100 container Collections
+											101 container
+												102 image
+												103 text Collections
+											104 content list
+												105 container
+													106 link Playlists, Value: business.facebook.com/latest/posts/all_playlists?business_id=2388978161638340&asset_id=1247606208445007
+													107 text Playlists
+										108 container Creative assets
+											109 container
+												110 image
+												111 text Creative assets
+											112 content list
+												113 container
+													114 link Videos you can crosspost, Value: business.facebook.com/latest/posts/videos_you_can_crosspost?business_id=2388978161638340&asset_id=1247606208445007
+													115 text Videos you can crosspost
+									116 button Collapse ​
+										117 text Collapse
+										118 image
+								119 container
+									120 image
+									121 heading New viewers metric for content published after July 31, 2025, Value: 4
+										122 text New viewers metric for content published after July 31, 2025
+									123 button Close ​
+										124 text Close
+										125 image
+									126 button See more
+								127 container
+									128 tab group
+										129 tab (settable, integer) Published, Value: 0
+										130 tab (selected) Scheduled, Value: 1
+										131 tab (settable, integer) Drafts, Value: 0
+										132 tab (settable, integer) Expiring, Value: 0
+										133 tab (settable, integer) Expired, Value: 0
+										134 tab (settable, integer) Ad Posts, Value: 0
+									135 container
+										136 text Post type
+										137 combo box (settable) Post type Post type, Value: Post type ​
+											138 container
+												139 text Post type
+												140 image
+										141 text Filter
+										142 combo box (settable) Filter Filter, Value: Filter ​
+											143 container
+												144 text Filter
+												145 image
+										146 link Clear, Value: business.facebook.com/latest/posts/scheduled_posts?asset_id=1247606208445007&business_id=2388978161638340#
+										147 container
+											148 text Search by ID or caption
+											149 image
+										150 container
+											151 image
+											152 text field (settable) Search by ID or caption
+										153 image
+										154 table A table that shows insights about the content created for the Facebook Page or profile and/or Instagram profile selected, including ads, posts and stories.
+											155 row Title Date scheduled Privacy Status
+												156 column header
+												157 column header
+													158 heading Title, Value: 4
+														159 text Title
+												160 column header
+													161 heading Date scheduled, Value: 4
+														162 text Date scheduled
+												163 column header
+													164 heading Privacy, Value: 4
+														165 text Privacy
+												166 column header
+													167 heading Status, Value: 4
+														168 text Status
+											169 row Check item with caption "An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa 🔗 Read the full telling tonight — link in bio @the_sandhyakatha #SandhyaKatha #ramayana #storiesforkids #bedtimestories" Instagram An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa 🔗 Read the full telling tonight — link in bio @the_sandhyakatha #SandhyaKatha #ramayana #storiesforkids #b
+												170 cell
+													171 container
+														172 Tick box Value: 0, Check item with caption "An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa 🔗 Read the full telling tonight — link in bio @the_sandhyakatha #SandhyaKatha #ramayana #storiesforkids #bedtimestories"
+														173 image
+												174 cell
+													175 toggle button Value: 0, Instagram An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa 🔗 Read the full telling tonight — link in bio @the_sandhyakatha #SandhyaKatha #ramayana #storiesforkids #bedtimestories Photo · the_sandhyakatha Boost Open Dropdown ​
+														176 container
+															177 image Instagram
+														178 text An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa 🔗 Read the full telling tonight — link in bio @the_sandhyakatha #SandhyaKatha #ramayana #storiesforkids #bedtimestories
+														179 image
+														180 text Photo
+														181 text  ·
+														182 text the_sandhyakatha
+														183 button Boost
+															184 text Boost
+														185 pop-up button Open Dropdown ​
+															186 text Open Dropdown
+															187 image
+												188 cell
+													189 text Wed Oct 7, 8:30pm
+												190 cell
+													191 text Public
+												192 cell
+													193 container Not currently boosted
+											194 row Check item with caption "An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa → sandhyakatha.com/s/jatayu-last-flight/ #SandhyaKatha #ramayana #storiesforkids #bedtimestories" Facebook An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa → sandhyakatha.com/s/jatayu-last-flight/ #SandhyaKatha #ramayana #storiesforkids #bedtimestories Photo · SandhyaKatha Boost Open Dro
+												195 cell
+													196 container
+														197 Tick box Value: 0, Check item with caption "An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa → sandhyakatha.com/s/jatayu-last-flight/ #SandhyaKatha #ramayana #storiesforkids #bedtimestories"
+														198 image
+												199 cell
+													200 toggle button Value: 0, Facebook An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa → sandhyakatha.com/s/jatayu-last-flight/ #SandhyaKatha #ramayana #storiesforkids #bedtimestories Photo · SandhyaKatha Boost Open Dropdown ​
+														201 container
+															202 image Facebook
+														203 text An old bird sees a chariot carrying Sītā away. He knows he cannot win. He flies at it anyway. 🦅 📜 Rāmāyaṇa — Araṇya Kāṇḍa → sandhyakatha.com/s/jatayu-last-flight/ #SandhyaKatha #ramayana #storiesforkids #bedtimestories
+														204 image
+														205 text Photo
+														206 text  ·
+														207 text SandhyaKatha
+														208 button Boost
+															209 text Boost
+														210 pop-up button Open Dropdown ​
+															211 text Open Dropdown
+															212 image
+												213 cell
+													214 text Wed Oct 7, 7:00pm
+												215 cell
+													216 text Public
+												217 cell
+													218 container Not currently boosted
+											219 row Check item with caption "रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/hi/ #SandhyaKatha #hindistories #storiesforkids #ramayan" Facebook रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/hi/ #SandhyaKatha #hindistories #storiesforkids #ramayan Photo ·
+												220 cell
+													221 container
+														222 Tick box Value: 0, Check item with caption "रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/hi/ #SandhyaKatha #hindistories #storiesforkids #ramayan"
+														223 image
+												224 cell
+													225 toggle button Value: 0, Facebook रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/hi/ #SandhyaKatha #hindistories #storiesforkids #ramayan Photo · SandhyaKatha Boost Open Dropdown ​
+														226 container
+															227 image Facebook
+														228 text रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/hi/ #SandhyaKatha #hindistories #storiesforkids #ramayan
+														229 image
+														230 text Photo
+														231 text  ·
+														232 text SandhyaKatha
+														233 button Boost
+															234 text Boost
+														235 pop-up button Open Dropdown ​
+															236 text Open Dropdown
+															237 image
+												238 cell
+													239 text Mon Oct 5, 2:30pm
+												240 cell
+													241 text Public
+												242 cell
+													243 container Not currently boosted
+											244 row Check item with caption "रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 पूरी कहानी आज रात — link in bio @the_sandhyakatha #SandhyaKatha #hindistories #storiesforkids #ramayan" Instagram रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 पूरी कहानी आज रात — link in bio @the_sandhyakatha #SandhyaKatha #hindistories #st
+												245 cell
+													246 container
+														247 Tick box Value: 0, Check item with caption "रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 पूरी कहानी आज रात — link in bio @the_sandhyakatha #SandhyaKatha #hindistories #storiesforkids #ramayan"
+														248 image
+												249 cell
+													250 toggle button Value: 0, Instagram रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 पूरी कहानी आज रात — link in bio @the_sandhyakatha #SandhyaKatha #hindistories #storiesforkids #ramayan Photo · the_sandhyakatha Boost Open Dropdown ​
+														251 container
+															252 image Instagram
+														253 text रेत ढोने वाली गिलहरी — वानर पहाड़ जैसे पथ्थर ढो रहे थे। उस शोर में एक छोटी-सी गिलहरी को कोई देख ही नहीं रहा था। 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 पूरी कहानी आज रात — link in bio @the_sandhyakatha #SandhyaKatha #hindistories #storiesforkids #ramayan
+														254 image
+														255 text Photo
+														256 text  ·
+														257 text the_sandhyakatha
+														258 button Boost
+															259 text Boost
+														260 pop-up button Open Dropdown ​
+															261 text Open Dropdown
+															262 image
+												263 cell
+													264 text Mon Oct 5, 1:30pm
+												265 cell
+													266 text Public
+												267 cell
+													268 container Not currently boosted
+											269 row Check item with caption "பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=facebook&utm_medium=social&utm_campaign=or
+												270 cell
+													271 container
+														272 Tick box Value: 0, Check item with caption "பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=facebook&utm_medium=social&utm_campaign=or
+														273 image
+												274 cell
+													275 toggle button Value: 0, Facebook பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=facebook&utm_medium=social&utm_campaign=organic_oct2026&ut
+														276 container
+															277 image Facebook
+														278 text பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=facebook&utm_medium=social&utm_campaign=organic_oct2026&utm_content
+														279 image
+														280 text Reel
+														281 text  ·
+														282 text SandhyaKatha
+														283 button Boost
+															284 text Boost
+														285 pop-up button Open Dropdown ​
+															286 text Open Dropdown
+															287 image
+												288 cell
+													289 text Sun Oct 4, 7:30pm
+												290 cell
+													291 text Public
+												292 cell
+													293 container
+														294 container Not currently boosted
+														295 container Crosspost
+											296 row Check item with caption "பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=instagram&utm_medium=social&utm_campaign=o
+												297 cell
+													298 container
+														299 Tick box Value: 0, Check item with caption "பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=instagram&utm_medium=social&utm_campaign=o
+														300 image
+												301 cell
+													302 toggle button Value: 0, Instagram பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=instagram&utm_medium=social&utm_campaign=organic_oct2026&
+														303 container
+															304 image Instagram
+														305 text பீமனுக்கே அசையாத அந்த வால் பாண்டவர்களில் பலசாலி பீமன். வழியை மறித்துக் கிடந்த ஒரு முதிய வானரத்தின் வாலை ஓரமாக்குவது அவருக்கு என்ன பெரிய வேலை? ஆனால் ஒரு கையாலும் முடியவில்லை. இரண்டு கைகளாலும் முடியவில்லை. ஒரு வேலை ரொம்ப எளிது என்று நினைத்தபின், செய்து பார்த்தால் முடியாமல் போயிருக்கிறதா? அப்போது நீ என்ன செய்தாய்? 📜 Mahābhārata — Vana Parva (Āraṇyakaparvan) 3.146–150 — Bhīma meets Hanumān https://sandhyakatha.com/s/hanuman-tail/ta/?utm_source=instagram&utm_medium=social&utm_campaign=organic_oct2026&utm_conten
+														306 image
+														307 text Reel
+														308 text  ·
+														309 text the_sandhyakatha
+														310 pop-up button Open Dropdown ​
+															311 text Open Dropdown
+															312 image
+												313 cell
+													314 text Sun Oct 4, 7:30pm
+												315 cell
+													316 text Public
+												317 cell
+													318 container
+														319 container Not currently boosted
+														320 container Crosspost
+											321 row Check item with caption "மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 முழுக் கதை இன்று இரவு — link in bio @the_sandhyakatha #SandhyaKatha #tamilstories #storiesforkids #ramayanam" Instagram மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 முழுக் கதை இன்று இரவு — link in bio @the_sandhyakatha #SandhyaKat
+												322 cell
+													323 container
+														324 Tick box Value: 0, Check item with caption "மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 முழுக் கதை இன்று இரவு — link in bio @the_sandhyakatha #SandhyaKatha #tamilstories #storiesforkids #ramayanam"
+														325 image
+												326 cell
+													327 toggle button Value: 0, Instagram மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 முழுக் கதை இன்று இரவு — link in bio @the_sandhyakatha #SandhyaKatha #tamilstories #storiesforkids #ramayanam Photo · the_sandhyakatha Boost Open Dropdown ​
+														328 container
+															329 image Instagram
+														330 text மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa 🔗 முழுக் கதை இன்று இரவு — link in bio @the_sandhyakatha #SandhyaKatha #tamilstories #storiesforkids #ramayanam
+														331 image
+														332 text Photo
+														333 text  ·
+														334 text the_sandhyakatha
+														335 button Boost
+															336 text Boost
+														337 pop-up button Open Dropdown ​
+															338 text Open Dropdown
+															339 image
+												340 cell
+													341 text Sat Oct 3, 8:30pm
+												342 cell
+													343 text Public
+												344 cell
+													345 container Not currently boosted
+											346 row Check item with caption "மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/ta/ #SandhyaKatha #tamilstories #storiesforkids #ramayanam" Facebook மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/ta/ #SandhyaKatha #tamilstories #storiesforkids #ram
+												347 cell
+													348 container
+														349 Tick box Value: 0, Check item with caption "மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/ta/ #SandhyaKatha #tamilstories #storiesforkids #ramayanam"
+														350 image
+												351 cell
+													352 toggle button Value: 0, Facebook மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/ta/ #SandhyaKatha #tamilstories #storiesforkids #ramayanam Photo · SandhyaKatha Boost Open Dropdown ​
+														353 container
+															354 image Facebook
+														355 text மணல் சுமந்த அணில் — வானரர்கள் மலைப்பாறைகளைத் தூக்கினர். உடம்பில் மணலை ஒட்டிக்கொண்டு ஓடிய அணிலை யாரும் கவனிக்கவில்லை. 🐿️ 📜 Rāmāyaṇa — Yuddha Kāṇḍa → sandhyakatha.com/s/squirrel-setu/ta/ #SandhyaKatha #tamilstories #storiesforkids #ramayanam
+														356 image
+														357 text Photo
+														358 text  ·
+														359 text SandhyaKatha
+														360 button Boost
+															361 text Boost
+														362 pop-up button Open Dropdown ​
+															363 text Open Dropdown
+															364 image
+												365 cell
+													366 text Sat Oct 3, 6:00pm
+												367 cell
+													368 text Public
+												369 cell
+													370 container Not currently boosted
+							371 button Meta AI business assistant
+							372 container
+								373 button Meta Business Suite
+									374 text Meta Business Suite
+								375 button Pressable
+									376 container
+										377 image Instagram
+										378 image Facebook
+								379 container Links
+									380 text Links
+									381 content list
+										382 container
+											383 link Home, Value: business.facebook.com/latest/home?business_id=2388978161638340&asset_id=1247606208445007
+											384 text Home
+										385 container
+											386 link Notifications
+												387 text Notifications
+											388 text Notifications
+										389 container
+											390 link Ads Manager
+												391 text Ads Manager
+											392 text Ads Manager
+										393 container
+											394 link Inbox, Value: business.facebook.com/latest/inbox?business_id=2388978161638340&asset_id=1247606208445007
+											395 text Inbox
+										396 container
+											397 link Content, Value: business.facebook.com/latest/posts?business_id=2388978161638340&asset_id=1247606208445007
+											398 text Content
+										399 container
+											400 link Creator Marketing, Value: business.facebook.com/latest/partnership_ads_hub?business_id=2388978161638340&asset_id=1247606208445007
+											401 text Creator Marketing
+										402 container
+											403 link Planner, Value: business.facebook.com/latest/content_calendar?business_id=2388978161638340&asset_id=1247606208445007
+											404 text Planner
+										405 container
+											406 link Ads, Value: business.facebook.com/latest/ad_center/ads_summary?business_id=2388978161638340&asset_id=1247606208445007
+											407 text Ads
+										408 container
+											409 link Insights, Value: business.facebook.com/latest/insights?business_id=2388978161638340&asset_id=1247606208445007
+											410 text Insights
+										411 container
+											412 link Monetization, Value: business.facebook.com/latest/monetization?business_id=2388978161638340&asset_id=1247606208445007
+											413 text Monetization
+										414 container
+											415 link All tools
+												416 text All tools
+											417 text All tools
+										418 container
+											419 link Billing & payments, Value: business.facebook.com/billing_hub/?business_id=2388978161638340&placement=mbs_all_tools_menu
+											420 text Billing & payments
+										421 button Edit sidebar navigation
+											422 text Edit
+								423 container
+									424 link Search
+										425 text Search
+									426 text Search
+									427 image
+								428 container Links
+									429 text Links
+									430 content list
+										431 container
+											432 link Settings, Value: business.facebook.com/latest/settings/business_users?business_id=2388978161638340&asset_id=1247606208445007
+											433 text Settings
+								434 container
+									435 link Help
+										436 text Help
+									437 text Help
+									438 image
+						439 container Learn about this new feature
+			440 tab group
+				441 container
+					442 button Expand tabs
+					443 pop-up button Tab groups
+					444 pop-up button Tab search
+				445 container
+					446 scroll area
+					447 scroll area
+						448 container
+							449 tab (settable, boolean) Inbox (1,813) - rkarthikeyan5@gmail.com - Gmail - Memory usage - 639 MB, Value: off
+							450 tab (settable, boolean) SandhyaKatha - YouTube - Memory usage - 403 MB, Value: off
+							451 tab (settable, boolean) (1) Facebook - Memory usage - 256 MB, Value: off
+							452 tab (settable, boolean) Instagram - Memory usage - 358 MB, Value: off
+							453 tab (settable, boolean) (208) WhatsApp - Memory usage - 708 MB, Value: off
+							454 tab (settable, boolean) Analytics | Reports snapshot - Inactive tab - 330 MB freed up, Value: off
+							455 tab (settable, boolean) Channel content - YouTube Studio - Inactive tab - 394 MB freed up, Value: off
+							456 tab (settable, boolean) Domain Portfolio: pramanacorpus.in - Inactive tab - 272 MB freed up, Value: off
+							457 tab (settable, boolean) askperiyava.in – Network error, Value: off
+							458 tab (settable, boolean) Resolving GoDaddy .in Domain Verification - Google Gemini, Value: off
+							459 tab (settable, boolean) Domain management | ask-periyava | Netlify - Inactive tab - 431 MB freed up, Value: off
+							460 tab (settable, boolean) Ask Mahaperiyava · Pramāṇa - Inactive tab - 79.2 MB freed up, Value: off
+							461 tab (selected, settable, boolean) Meta Business Suite, Value: on
+							462 tab group  group 🪔 Organic schedule – 1 Tab, •  sandhyakatha.com/sitemap.xml – Expanded
+							463 tab (settable, boolean) sandhyakatha.com/sitemap.xml – Part of group 🪔 Organic schedule - Inactive tab - 96.6 MB freed up, Value: off
+							464 tab (settable, boolean) Google Gemini - Inactive tab - 201 MB freed up, Value: off
+							465 tab (settable, boolean) Home / X - Inactive tab - 230 MB freed up, Value: off
+				466 button New Tab
+	467 close button
+	468 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	469 minimise button
+470 menu bar
+	471 Chrome
+	472 File
+	473 Edit
+	474 View
+	475 History
+	476 Bookmarks
+	477 Profiles
+	478 Tab
+	479 Window
+	480 Help
+
+The focused UI element is 40 HTML content Meta Business Suite, URL: business.facebook.com/latest/posts/scheduled_posts?asset_id=1247606208445007&business_id=2388978161638340

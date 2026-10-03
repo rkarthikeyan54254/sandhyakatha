@@ -1,6 +1,16 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-27",
   "locales": {
+    "hi-IN/abhimanyu-spiral": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "021d34e16b65c95b"
+    },
+    "hi-IN/ambarisha-waits": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c0d3c76ee91bf29e"
+    },
     "hi-IN/andal-garland": {
       "sourceVersion": 1,
       "status": "approved",
@@ -11,470 +21,65 @@
       "status": "approved",
       "hash": "b06f2457df2b83f0"
     },
-    "hi-IN/birds-eye": {
+    "hi-IN/banyan-seed": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "97ddc07aa482a749"
-    },
-    "hi-IN/durga-mahishasura": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "149676211eeb3b8b"
-    },
-    "hi-IN/ganesha-circles": {
-      "sourceVersion": 3,
-      "status": "approved",
-      "hash": "43fb0afddf43b092"
-    },
-    "hi-IN/govardhana": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "870c04f5c07e802d"
-    },
-    "hi-IN/guha-boatman": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "9805a98f9fab5be8"
-    },
-    "hi-IN/hanuman-reminded": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "10539670a8e51dbe"
-    },
-    "hi-IN/hanuman-tail": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "3c4df0277bacb0cd"
-    },
-    "hi-IN/jatayu-last-flight": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "9fd28961c114ef40"
-    },
-    "hi-IN/karna-armour": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "209a8c450a620dbb"
-    },
-    "hi-IN/pusalar-temple": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "d9027241d24b9135"
-    },
-    "hi-IN/rama-returns": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "94885f6717db9e7c"
-    },
-    "hi-IN/squirrel-setu": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "647f53e5a2f20b3a"
-    },
-    "hi-IN/sudama-poha": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "64bd15162d89420f"
-    },
-    "hi-IN/yaksha-lake": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "73076bdae1a5eb52"
-    },
-    "ta-IN/andal-garland": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "514a757c6d66f2bd"
-    },
-    "ta-IN/annapurna-bhiksha": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "ae27239939b94bd7"
-    },
-    "ta-IN/birds-eye": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "1fa3561964742288"
-    },
-    "ta-IN/durga-mahishasura": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c42b77fcb5fbeb1d"
-    },
-    "ta-IN/ganesha-circles": {
-      "sourceVersion": 3,
-      "status": "approved",
-      "hash": "82bd9e564fab0242"
-    },
-    "ta-IN/govardhana": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "f17daa4fdeb216e1"
-    },
-    "ta-IN/guha-boatman": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "54e7cbf4d3286f19"
-    },
-    "ta-IN/hanuman-reminded": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "7cb8116c2097df62"
-    },
-    "ta-IN/hanuman-tail": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "342079dc2579083d"
-    },
-    "ta-IN/jatayu-last-flight": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "09cca7d17f5bca2f"
-    },
-    "ta-IN/karna-armour": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "160c5fb524f6ec5f"
-    },
-    "ta-IN/pusalar-temple": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "cc25893771ade555"
-    },
-    "ta-IN/rama-returns": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "bdc2b30d8264dd67"
-    },
-    "ta-IN/squirrel-setu": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "aa873716a7a205a0"
-    },
-    "ta-IN/sudama-poha": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "5e62cdbd71bc9dfa"
-    },
-    "ta-IN/yaksha-lake": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "210bde093a17ecb4"
-    },
-    "hi-IN/bharata-sandals": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "ef8d3c0e412e73bb"
-    },
-    "hi-IN/hanuman-ring-sita": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c72b2bc23ea4743a"
-    },
-    "hi-IN/markandeya-leaf": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "9d8747971ba152ed"
-    },
-    "hi-IN/nachiketa-three-nights": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c0611fe6bcc0eef1"
-    },
-    "hi-IN/nammalvar-silence": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "dbd92936a075976a"
-    },
-    "hi-IN/nandanar-bull": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "f8ceb4241efc4048"
-    },
-    "hi-IN/rantideva-water": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "5984cb1be17c30df"
-    },
-    "hi-IN/churning-ocean": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c946c20175bb2869"
-    },
-    "hi-IN/ganesha-moon": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "93ee86a3d96c002f"
-    },
-    "hi-IN/vibhishana-crosses": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "9f1c0e91bd3fddb1"
-    },
-    "ta-IN/bharata-sandals": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "56f906055a093081"
-    },
-    "ta-IN/hanuman-ring-sita": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "9ceeb053d9037f7f"
-    },
-    "ta-IN/markandeya-leaf": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "c9c292190f1139e4"
-    },
-    "ta-IN/nachiketa-three-nights": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "d588d3043b7d54e1"
-    },
-    "ta-IN/nammalvar-silence": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "9cf1c3e5bf73d3fd"
-    },
-    "ta-IN/nandanar-bull": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "ce799a457dd53cde"
-    },
-    "ta-IN/rantideva-water": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "641a4f9b95056627"
-    },
-    "ta-IN/churning-ocean": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "8654c502d6a5ed34"
-    },
-    "ta-IN/ganesha-moon": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "f5fb40362a573a62"
-    },
-    "ta-IN/vibhishana-crosses": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "97103c9f9560827b"
-    },
-    "hi-IN/ambarisha-waits": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c0d3c76ee91bf29e"
-    },
-    "hi-IN/chariot-and-horses": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "a72641190053cde7"
-    },
-    "hi-IN/damayanti-choice": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "b321a07e6d623214"
-    },
-    "hi-IN/kena-blade-grass": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "e6a35941e4bee8d1"
-    },
-    "hi-IN/maitreyi-wealth": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "baf006b78b1646ea"
-    },
-    "hi-IN/prithu-earth-cow": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c8fc82379e453d32"
-    },
-    "hi-IN/sukra-spout": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "29eceedb5c9a98ce"
-    },
-    "hi-IN/two-birds": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "ca41c096ffe7302b"
-    },
-    "hi-IN/vamana-three-steps": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "e12ac152a3cfd6b7"
-    },
-    "hi-IN/yudhishthira-dog": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "d80da39bc07ca07b"
-    },
-    "ta-IN/ambarisha-waits": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "000bc7d3aa198b63"
-    },
-    "ta-IN/chariot-and-horses": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "19c1dc8984d4cefe"
-    },
-    "ta-IN/damayanti-choice": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "805e7b4f5c01bb34"
-    },
-    "ta-IN/kena-blade-grass": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "4d327e87dba1073d"
-    },
-    "ta-IN/maitreyi-wealth": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "023703fb53907bcc"
-    },
-    "ta-IN/prithu-earth-cow": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "a5ab2abfb9cbf899"
-    },
-    "ta-IN/sukra-spout": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "04c0213e9fe259f3"
-    },
-    "ta-IN/two-birds": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "ce29f7654ab729a7"
-    },
-    "ta-IN/vamana-three-steps": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "f10b1c30d4b851cd"
-    },
-    "ta-IN/yudhishthira-dog": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "7c85d9ec0d3e5873"
-    },
-    "hi-IN/shabari-berries": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "c92f07dacb1acac9"
-    },
-    "hi-IN/valmiki-first-shloka": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "2ba55243b3243bb9"
-    },
-    "hi-IN/satyakama-truth": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "a0a6798c3dfff636"
-    },
-    "hi-IN/svetaketu-salt": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "0e8b3a708b9d48f7"
-    },
-    "hi-IN/prahlada-pillar": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "032bf2916f750f4c"
-    },
-    "hi-IN/dhruva-still": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "3f960875f2aa34ee"
-    },
-    "hi-IN/gajendra-lake": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "87a0b3188d27f183"
-    },
-    "hi-IN/savitri-yama": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "bb7d7eb6794283ec"
-    },
-    "hi-IN/three-in-doorway": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "c70854137d9aff4b"
-    },
-    "hi-IN/karaikkal-mangoes": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "10baf4a69cfeb9a5"
-    },
-    "ta-IN/shabari-berries": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "f9ecb0b9f7ed76c8"
-    },
-    "ta-IN/valmiki-first-shloka": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "01f266378d5f5cad"
-    },
-    "ta-IN/satyakama-truth": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "e385d38f69df7c69"
-    },
-    "ta-IN/svetaketu-salt": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "5139658292ae0022"
-    },
-    "ta-IN/prahlada-pillar": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "0e3e2d7e231c5e00"
-    },
-    "ta-IN/dhruva-still": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "ba0486bc4f9f5ad9"
-    },
-    "ta-IN/gajendra-lake": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "b1139cb644fd4240"
-    },
-    "ta-IN/savitri-yama": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "e20e8c3053ec6bba"
-    },
-    "ta-IN/three-in-doorway": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "834eeeaeabd51382"
-    },
-    "ta-IN/karaikkal-mangoes": {
-      "sourceVersion": 1,
-      "status": "approved",
-      "hash": "cc944bceafa270ea"
-    },
-    "hi-IN/abhimanyu-spiral": {
-      "sourceVersion": 2,
-      "status": "approved",
-      "hash": "021d34e16b65c95b"
+      "hash": "1ecc1b2560f7ad7a"
     },
     "hi-IN/bharata-fawn": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "0fb24832ee2555c4"
     },
+    "hi-IN/bharata-sandals": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ef8d3c0e412e73bb"
+    },
     "hi-IN/bhrigu-vishnu": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "0563ec0cf686a2e9"
+    },
+    "hi-IN/birds-eye": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "97ddc07aa482a749"
+    },
+    "hi-IN/blue-jackal": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "57fb11255bc901f3"
+    },
+    "hi-IN/butter-rope": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "dcb00b5a353d0ec5"
+    },
+    "hi-IN/chariot-and-horses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a72641190053cde7"
+    },
+    "hi-IN/churning-ocean": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c946c20175bb2869"
+    },
+    "hi-IN/damayanti-choice": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b321a07e6d623214"
+    },
+    "hi-IN/dhruva-still": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "3f960875f2aa34ee"
+    },
+    "hi-IN/durga-mahishasura": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "149676211eeb3b8b"
     },
     "hi-IN/durva-kubera-scale": {
       "sourceVersion": 2,
@@ -486,20 +91,80 @@
       "status": "approved",
       "hash": "748bc3c6140c3ee5"
     },
+    "hi-IN/gajendra-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "87a0b3188d27f183"
+    },
+    "hi-IN/ganesha-circles": {
+      "sourceVersion": 3,
+      "status": "approved",
+      "hash": "43fb0afddf43b092"
+    },
     "hi-IN/ganesha-condition": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "04ee527a7e88a1d1"
+    },
+    "hi-IN/ganesha-moon": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "93ee86a3d96c002f"
+    },
+    "hi-IN/govardhana": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "870c04f5c07e802d"
+    },
+    "hi-IN/guha-boatman": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9805a98f9fab5be8"
     },
     "hi-IN/hanuman-own-ramayana": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "b9409298e6f6135c"
     },
+    "hi-IN/hanuman-reminded": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "10539670a8e51dbe"
+    },
+    "hi-IN/hanuman-ring-sita": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c72b2bc23ea4743a"
+    },
+    "hi-IN/hanuman-tail": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "3c4df0277bacb0cd"
+    },
+    "hi-IN/jatayu-last-flight": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9fd28961c114ef40"
+    },
     "hi-IN/kali-stops": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "e2437503ab313cf9"
+    },
+    "hi-IN/karaikkal-mangoes": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "10baf4a69cfeb9a5"
+    },
+    "hi-IN/karna-armour": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "209a8c450a620dbb"
+    },
+    "hi-IN/kena-blade-grass": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e6a35941e4bee8d1"
     },
     "hi-IN/krishna-embassy": {
       "sourceVersion": 2,
@@ -521,20 +186,100 @@
       "status": "approved",
       "hash": "fbd18984409f3d78"
     },
+    "hi-IN/last-grain": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "739a2ee09dbfa166"
+    },
+    "hi-IN/maitreyi-wealth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "baf006b78b1646ea"
+    },
+    "hi-IN/markandeya-leaf": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9d8747971ba152ed"
+    },
+    "hi-IN/mice-ate-the-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "65a01806b86711e5"
+    },
+    "hi-IN/nachiketa-three-nights": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c0611fe6bcc0eef1"
+    },
+    "hi-IN/nammalvar-silence": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "dbd92936a075976a"
+    },
+    "hi-IN/nandanar-bull": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "f8ceb4241efc4048"
+    },
     "hi-IN/narakasura": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "f66dffbaf2343620"
+    },
+    "hi-IN/panar-shoulders": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "81f9525af7a87ac8"
     },
     "hi-IN/parvati-decides": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "679ad358f929cdae"
     },
+    "hi-IN/prahlada-pillar": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "032bf2916f750f4c"
+    },
+    "hi-IN/prithu-earth-cow": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c8fc82379e453d32"
+    },
+    "hi-IN/pusalar-temple": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d9027241d24b9135"
+    },
+    "hi-IN/rama-returns": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "94885f6717db9e7c"
+    },
+    "hi-IN/rantideva-water": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "5984cb1be17c30df"
+    },
     "hi-IN/sampati-words": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "d7afce4b8e110469"
+    },
+    "hi-IN/satyakama-truth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a0a6798c3dfff636"
+    },
+    "hi-IN/savitri-yama": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "bb7d7eb6794283ec"
+    },
+    "hi-IN/shabari-berries": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c92f07dacb1acac9"
     },
     "hi-IN/shakambhari": {
       "sourceVersion": 2,
@@ -546,20 +291,140 @@
       "status": "approved",
       "hash": "0544e640d42ff3e5"
     },
+    "hi-IN/squirrel-setu": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "647f53e5a2f20b3a"
+    },
+    "hi-IN/sudama-poha": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "64bd15162d89420f"
+    },
+    "hi-IN/sukra-spout": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "29eceedb5c9a98ce"
+    },
+    "hi-IN/svetaketu-salt": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0e8b3a708b9d48f7"
+    },
+    "hi-IN/three-in-doorway": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c70854137d9aff4b"
+    },
+    "hi-IN/two-birds": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ca41c096ffe7302b"
+    },
+    "hi-IN/valmiki-first-shloka": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "2ba55243b3243bb9"
+    },
+    "hi-IN/vamana-three-steps": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e12ac152a3cfd6b7"
+    },
+    "hi-IN/vibhishana-crosses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "9f1c0e91bd3fddb1"
+    },
+    "hi-IN/yaksha-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "73076bdae1a5eb52"
+    },
+    "hi-IN/yudhishthira-dog": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "d80da39bc07ca07b"
+    },
     "ta-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "400eecc2c5dc1826"
+    },
+    "ta-IN/ambarisha-waits": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "000bc7d3aa198b63"
+    },
+    "ta-IN/andal-garland": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "514a757c6d66f2bd"
+    },
+    "ta-IN/annapurna-bhiksha": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ae27239939b94bd7"
+    },
+    "ta-IN/banyan-seed": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "fa38a08636c00916"
     },
     "ta-IN/bharata-fawn": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "e7dc53f8bfa4bca0"
     },
+    "ta-IN/bharata-sandals": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "56f906055a093081"
+    },
     "ta-IN/bhrigu-vishnu": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "c641bc55817e7c46"
+    },
+    "ta-IN/birds-eye": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "1fa3561964742288"
+    },
+    "ta-IN/blue-jackal": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "60eb378272aec867"
+    },
+    "ta-IN/butter-rope": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "066de0450ef0537e"
+    },
+    "ta-IN/chariot-and-horses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "19c1dc8984d4cefe"
+    },
+    "ta-IN/churning-ocean": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "8654c502d6a5ed34"
+    },
+    "ta-IN/damayanti-choice": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "805e7b4f5c01bb34"
+    },
+    "ta-IN/dhruva-still": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ba0486bc4f9f5ad9"
+    },
+    "ta-IN/durga-mahishasura": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "c42b77fcb5fbeb1d"
     },
     "ta-IN/durva-kubera-scale": {
       "sourceVersion": 2,
@@ -571,20 +436,80 @@
       "status": "approved",
       "hash": "72a313f2af3fffec"
     },
+    "ta-IN/gajendra-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "b1139cb644fd4240"
+    },
+    "ta-IN/ganesha-circles": {
+      "sourceVersion": 3,
+      "status": "approved",
+      "hash": "82bd9e564fab0242"
+    },
     "ta-IN/ganesha-condition": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "042c58e339eb4168"
+    },
+    "ta-IN/ganesha-moon": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f5fb40362a573a62"
+    },
+    "ta-IN/govardhana": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f17daa4fdeb216e1"
+    },
+    "ta-IN/guha-boatman": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "54e7cbf4d3286f19"
     },
     "ta-IN/hanuman-own-ramayana": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "0cdd55d57fe41edb"
     },
+    "ta-IN/hanuman-reminded": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "7cb8116c2097df62"
+    },
+    "ta-IN/hanuman-ring-sita": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "9ceeb053d9037f7f"
+    },
+    "ta-IN/hanuman-tail": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "342079dc2579083d"
+    },
+    "ta-IN/jatayu-last-flight": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "09cca7d17f5bca2f"
+    },
     "ta-IN/kali-stops": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "8a6f7f2194eb1b59"
+    },
+    "ta-IN/karaikkal-mangoes": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "cc944bceafa270ea"
+    },
+    "ta-IN/karna-armour": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "160c5fb524f6ec5f"
+    },
+    "ta-IN/kena-blade-grass": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "4d327e87dba1073d"
     },
     "ta-IN/krishna-embassy": {
       "sourceVersion": 2,
@@ -606,20 +531,100 @@
       "status": "approved",
       "hash": "574b2cece72bd182"
     },
+    "ta-IN/last-grain": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "e25787c5189af69a"
+    },
+    "ta-IN/maitreyi-wealth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "023703fb53907bcc"
+    },
+    "ta-IN/markandeya-leaf": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c9c292190f1139e4"
+    },
+    "ta-IN/mice-ate-the-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "2ae9b5ea72eb9fb2"
+    },
+    "ta-IN/nachiketa-three-nights": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "d588d3043b7d54e1"
+    },
+    "ta-IN/nammalvar-silence": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "9cf1c3e5bf73d3fd"
+    },
+    "ta-IN/nandanar-bull": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "ce799a457dd53cde"
+    },
     "ta-IN/narakasura": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "d390d9d5fdb9f2c6"
+    },
+    "ta-IN/panar-shoulders": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e162b5eb193448dc"
     },
     "ta-IN/parvati-decides": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "91e40ae1b7b09d85"
     },
+    "ta-IN/prahlada-pillar": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "0e3e2d7e231c5e00"
+    },
+    "ta-IN/prithu-earth-cow": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "a5ab2abfb9cbf899"
+    },
+    "ta-IN/pusalar-temple": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "cc25893771ade555"
+    },
+    "ta-IN/rama-returns": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "bdc2b30d8264dd67"
+    },
+    "ta-IN/rantideva-water": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "641a4f9b95056627"
+    },
     "ta-IN/sampati-words": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "b7696616e8dcc665"
+    },
+    "ta-IN/satyakama-truth": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e385d38f69df7c69"
+    },
+    "ta-IN/savitri-yama": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "e20e8c3053ec6bba"
+    },
+    "ta-IN/shabari-berries": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f9ecb0b9f7ed76c8"
     },
     "ta-IN/shakambhari": {
       "sourceVersion": 2,
@@ -631,15 +636,60 @@
       "status": "approved",
       "hash": "ac391e55c78f4998"
     },
-    "hi-IN/panar-shoulders": {
-      "sourceVersion": 2,
+    "ta-IN/squirrel-setu": {
+      "sourceVersion": 1,
       "status": "approved",
-      "hash": "81f9525af7a87ac8"
+      "hash": "aa873716a7a205a0"
     },
-    "ta-IN/panar-shoulders": {
+    "ta-IN/sudama-poha": {
       "sourceVersion": 2,
       "status": "approved",
-      "hash": "e162b5eb193448dc"
+      "hash": "5e62cdbd71bc9dfa"
+    },
+    "ta-IN/sukra-spout": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "04c0213e9fe259f3"
+    },
+    "ta-IN/svetaketu-salt": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "5139658292ae0022"
+    },
+    "ta-IN/three-in-doorway": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "834eeeaeabd51382"
+    },
+    "ta-IN/two-birds": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "ce29f7654ab729a7"
+    },
+    "ta-IN/valmiki-first-shloka": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "01f266378d5f5cad"
+    },
+    "ta-IN/vamana-three-steps": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "f10b1c30d4b851cd"
+    },
+    "ta-IN/vibhishana-crosses": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "97103c9f9560827b"
+    },
+    "ta-IN/yaksha-lake": {
+      "sourceVersion": 2,
+      "status": "approved",
+      "hash": "210bde093a17ecb4"
+    },
+    "ta-IN/yudhishthira-dog": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "7c85d9ec0d3e5873"
     }
   }
 }

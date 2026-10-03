@@ -5,7 +5,7 @@
   "approvalQuote": "I reviewed all the long and short ones - 6 min and 3 min each. approved. lets merge it - all 5 images are here",
   "imageSource": "https://chatgpt.com/s/m_6ab883b38ba48191982d90b219d5781b",
   "scope": "All five stories in English, Hindi and Tamil, both short and full; merge authorized.",
-  "timingStatus": "Awaiting clarification whether 180/360 seconds are observed read-aloud timings or estimated labels; no measured values inferred.",
+  "timingStatus": "Rama explicitly confirmed these are measured timings on 27 September 2026.",
   "images": [
     {
       "storyId": "butter-rope",
@@ -42,5 +42,10 @@
       "sha256": "f7302eb2b7d5ce98fa85287c145911d26dfcf4f17fdd4ec9746607cf3544112b",
       "conversion": "WebP quality 88; original dimensions and composition preserved"
     }
-  ]
+  ],
+  "timingConfirmationQuote": "those are measured timings. go ahead and push it to prod",
+  "measuredSeconds": {
+    "short": 180,
+    "full": 360
+  }
 }
