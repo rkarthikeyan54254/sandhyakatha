@@ -1,0 +1,219 @@
+{
+  "id": "appar-spade",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-02",
+  "title": "Appar's Small Spade",
+  "tease": "A poet-saint clears weeds from temple ground. Gold and jewels appear in the earth, and he keeps working.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Sēkkiḻār, Periya Purāṇam",
+    "locus": "Tirunāvukkaracar Purāṇam, temple-service and Tiruppukalūr testing sequence, especially verses 1681–1683",
+    "stability": "regional",
+    "traditionNote": "This episode belongs to the Tamil Śaiva saint-life of Tirunāvukkaracar, called Appar. His surviving Tēvāram hymns are earlier textual witnesses to his voice; the jewel-in-the-soil test is told in the later Periya Purāṇam hagiography.",
+    "checkedAgainst": [
+      "Sēkkiḻār, Periya Purāṇam, Tirunāvukkaracar Purāṇam, temple-service and Tiruppukalūr sequence, accessed in Shaivam.org English presentation on 2026-10-02",
+      "Tēvāram hymns of Tirunāvukkaracar, used only as the earlier poetic witness to the saint and his temple devotion, not as evidence for the jewel test"
+    ],
+    "variants": [
+      {
+        "differs": "Retellings vary in how they describe the implement and in how much of the gold, gems and other temptations at Tiruppukalūr they include.",
+        "tellings": "The Periya Purāṇam presents Appar's uzhavaram service and then a testing sequence in which precious things appear among what he is clearing.",
+        "weTell": "We keep the focus on the uzhavaram work and the gold-and-gems test, without adding later devotional embellishments."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Tirunāvukkaracar, known as Appar, is repeatedly remembered in the Periya Purāṇam performing uzhavaram, clearing temple precincts as service.",
+        "locus": "Periya Purāṇam, Tirunāvukkaracar Purāṇam, recurring temple-service passages"
+      },
+      {
+        "claim": "At Tiruppukalūr he continues this physical temple service rather than treating it as work beneath a celebrated poet-saint.",
+        "locus": "Tirunāvukkaracar Purāṇam, Tiruppukalūr sequence before verses 1681–1683"
+      },
+      {
+        "claim": "Gold, gems and precious objects appear among the material uncovered while he works.",
+        "locus": "Tirunāvukkaracar Purāṇam, testing sequence, especially verses 1681–1683"
+      },
+      {
+        "claim": "Appar treats the precious objects like stones and rubbish rather than stopping his service to collect them.",
+        "locus": "Tirunāvukkaracar Purāṇam, verses 1681–1683"
+      },
+      {
+        "claim": "The hagiography continues with further tests of distraction; Appar remains fixed on service to Śiva.",
+        "locus": "Tirunāvukkaracar Purāṇam, sequence following verses 1681–1683"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-02"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "choosing the smallest job on purpose"
+  ],
+  "characters": [
+    {
+      "ref": "Appar",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "People came to hear «Appar» sing. The Periya Purāṇam remembers him as one of the great Tamil poet-saints. But it also keeps putting a very ordinary tool in his hands: an uzhavaram, a small hoe used to clear weeds and rough ground."
+        },
+        {
+          "t": "p",
+          "text": "When he came to a temple, he did not only stand before the shrine and sing. He bent down outside. He pulled thorny growth, loosened roots, cleared paths and moved what did not belong there."
+        },
+        {
+          "t": "p",
+          "text": "At Tiruppukalūr, the saint-life turns that work into a test. As «Appar» cleared the ground, the earth began to give up things no gardener expects to find: gold and bright jewels among the stones and rubbish."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A handful of dirt is easy to throw aside. Gold is harder. A jewel asks you to stop, look again and decide that this piece deserves a different rule from everything around it."
+        },
+        {
+          "t": "p",
+          "text": "«Appar» did not make a second pile for treasure. In the hagiography, he treated the precious things as he treated the stones that interrupted the work. They were not what he had come for."
+        },
+        {
+          "t": "p",
+          "text": "He moved them away without ceremony and kept clearing the temple ground. The story does not say gold became worthless everywhere. It says that, in this moment, it did not get to choose his work for him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The Periya Purāṇam goes on to describe other attempts to distract him. That is the language of a saint's life: each temptation makes the same question larger. What will make him put down the work he chose?"
+        },
+        {
+          "t": "p",
+          "text": "For «Appar», the answer stays the same. The famous poems do not cancel the small labour. The small labour is part of the devotion the tradition wants us to see."
+        },
+        {
+          "t": "slow",
+          "text": "The jewels were the easiest things in the field to notice. «Appar» kept choosing the weeds."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "By the time the Periya Purāṇam tells the later years of «Appar», he is not an unknown man looking for a place in the world. He is Tirunāvukkaracar, a poet-saint whose hymns are sung in temples and whose name is carried from town to town."
+        },
+        {
+          "t": "p",
+          "text": "That makes the object the hagiography keeps beside him more striking. It is not a sceptre, a manuscript or a musician's instrument. It is an uzhavaram: the kind of hoe used to cut weeds, loosen stubborn growth and clear temple ground."
+        },
+        {
+          "t": "p",
+          "text": "At shrine after shrine, service means using his body as well as his voice. He can sing, and he can stoop. He can compose praise, and he can clear a path so someone else can walk through without stepping into thorns."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At Tiruppukalūr, Sēkkiḻār's saint-life sharpens that simple labour into a test. «Appar» is working the ground when unusual things begin to appear among what his tool turns up."
+        },
+        {
+          "t": "p",
+          "text": "There is gold. There are gems. What should have been stones and roots now includes objects that people cross cities to possess. The field has suddenly become the sort of place where a person might forget why he entered it."
+        },
+        {
+          "t": "p",
+          "text": "The temptation does not need a voice. Every bright object makes its own argument: stop for a moment; pick me up; keep me apart; think what I could become in your hands."
+        },
+        {
+          "t": "p",
+          "text": "But the Periya Purāṇam says «Appar» does not change his task. He treats the precious things like the other obstructions in the soil. He removes them from the work in front of him rather than making the work serve them."
+        },
+        {
+          "t": "p",
+          "text": "That detail is easy to turn into a slogan about money being bad. The story is more exact than that. «Appar» is not running a market, feeding a family or deciding what wealth is worth in every circumstance. He is doing one chosen act of temple service, and wealth appears as the thing asking him to abandon it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So he keeps going. The hoe rises and falls. Weeds come loose. Rough ground changes under repeated, ordinary effort. The jewels do not receive a ceremony simply because they are jewels."
+        },
+        {
+          "t": "p",
+          "text": "The hagiography continues with further tests meant to pull his attention elsewhere. Those belong to the same saint-life logic: if gold will not turn him, perhaps some other attraction will."
+        },
+        {
+          "t": "p",
+          "text": "But «Appar»'s centre remains where it was. Service is not the impressive thing performed after every lesser task is finished. The lesser task itself can be the service."
+        },
+        {
+          "t": "p",
+          "text": "That is why later memory so often pictures him with the uzhavaram. The tool says something the title poet-saint does not say by itself. He did not require devotion to look important before he would give himself to it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "His surviving Tēvāram hymns are the earlier textual witness to his devotional voice. The scene of gold and gems appearing while he clears the ground is the later Periya Purāṇam's hagiographic telling. Sandhya Katha keeps those layers distinct rather than pretending the miracle is recorded in his own songs."
+        },
+        {
+          "t": "p",
+          "text": "The distinction does not weaken the image. It tells us what kind of truth the episode is offering: this is how the Tamil Śaiva tradition chose to show a saint whose attention could not be purchased away from the work he had taken up."
+        },
+        {
+          "t": "p",
+          "text": "The field does not become less ordinary because treasure appears in it. The work still needs hands, patience and time. «Appar»'s choice is repeated with every stroke: clear what blocks the path, leave the glitter where it belongs, and keep serving there."
+        },
+        {
+          "t": "p",
+          "text": "Anyone can admire a jewel after noticing it. The saint-life asks a different question. Can a person notice exactly how valuable something is and still refuse to let that value rearrange every other commitment?"
+        },
+        {
+          "t": "slow",
+          "text": "In a field suddenly glittering with things everyone would stop for, «Appar» kept his hand on the small tool and finished the work he had come to do."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why do you think the story makes the treasure appear during such an ordinary job?",
+    "seed": "Attention shows what matters when something shinier asks to replace it.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Appar really throw away gold?",
+        "a": "That is how the Periya Purāṇam's later saint-life tells the Tiruppukalūr test: precious things appear during his uzhavaram service and he treats them like unwanted stones rather than stopping to collect them."
+      },
+      {
+        "q": "Is this story saying money is bad?",
+        "a": "No. Its point is narrower. In this hagiographic test, wealth appears specifically as a distraction from the service Appar has chosen, and he refuses to let it redirect him."
+      },
+      {
+        "q": "Is the jewel story in Appar's own hymns?",
+        "a": "Not as the episode told here. Appar's Tēvāram hymns are the earlier witness to his devotional voice. The jewel-in-the-soil scene comes from the later Periya Purāṇam saint-life."
+      }
+    ]
+  }
+}

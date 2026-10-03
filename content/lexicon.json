@@ -3018,5 +3018,84 @@
       "Jambavati",
       "Jambavathi"
     ]
+  },
+  "Amar-Nīti": {
+    "id": "amar-niti",
+    "native": {
+      "deva": "अमरनीति नायनार",
+      "taml": "அமர்நீதி நாயனார்"
+    },
+    "say": "UH-mar NEE-tee",
+    "ipa": "ɐ.mɐr.niː.t̪i",
+    "kind": "person",
+    "gloss": "A merchant-devotee in the Periya Purāṇam, remembered for the balance on which a single loincloth outweighed his wealth.",
+    "aliases": [
+      "Amarniti",
+      "Amarneethi",
+      "Amar Niti"
+    ]
+  },
+  "Sundarar": {
+    "id": "sundarar",
+    "native": {
+      "deva": "सुंदरर",
+      "taml": "சுந்தரர்"
+    },
+    "say": "SOON-duh-rur",
+    "ipa": "sun̪.d̪ɐ.rɐr",
+    "kind": "person",
+    "gloss": "Tamil Śaiva poet-saint whose first hymn begins at Tiruvennainallur after the old-man-and-deed episode.",
+    "aliases": [
+      "Sundara",
+      "Sundaramurti",
+      "Sundaramurthy"
+    ]
+  },
+  "Appar": {
+    "id": "appar",
+    "native": {
+      "deva": "अप्पर",
+      "taml": "அப்பர்"
+    },
+    "say": "UP-pur",
+    "ipa": "ɐp.pɐr",
+    "kind": "person",
+    "gloss": "Tirunāvukkaracar, the Tamil Śaiva poet-saint repeatedly remembered with an uzhavaram in his hand.",
+    "aliases": [
+      "Tirunavukkarasar",
+      "Tirunāvukkaracar"
+    ]
+  },
+  "Tirumaṅgai Āḻvār": {
+    "id": "thirumangai-alvar",
+    "native": {
+      "deva": "तिरुमंगै आळवार",
+      "taml": "திருமங்கை ஆழ்வார்"
+    },
+    "say": "thih-roo-MUNG-guy AAL-vaar",
+    "ipa": "t̪i.ru.mɐŋ.ɡɐj aːɻ.ʋaːr",
+    "kind": "person",
+    "gloss": "One of the Āḻvārs; his own Periya Tirumoḻi remembers a transformed past, while later hagiography tells the highway-robbery conversion scene.",
+    "aliases": [
+      "Thirumangai Alvar",
+      "Tirumangai Alvar",
+      "Kaliyan"
+    ]
+  },
+  "Kulaśēkhara Āḻvār": {
+    "id": "kulasekhara-alvar",
+    "native": {
+      "deva": "कुलशेखर आळवार",
+      "taml": "குலசேகர ஆழ்வார்"
+    },
+    "say": "koo-luh-SHAY-kuh-ruh AAL-vaar",
+    "ipa": "ku.lɐ.ʃeː.kʰɐ.rɐ aːɻ.ʋaːr",
+    "kind": "person",
+    "gloss": "King-poet of the Perumāḷ Tirumoḻi, remembered in later Śrīvaiṣṇava hagiography as trying to send his army into the Rāmāyaṇa.",
+    "aliases": [
+      "Kulasekhara Alvar",
+      "Kulashekhara Alvar",
+      "Kulasekara Azhwar"
+    ]
   }
 }

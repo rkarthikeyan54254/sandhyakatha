@@ -534,6 +534,46 @@
     {
       "storyId": "banyan-seed",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "amarniti-scales",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "amarniti-scales",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "sundarar-court",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "sundarar-court",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "appar-spade",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "appar-spade",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "thirumangai-ring",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "thirumangai-ring",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "kulasekhara-march",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "kulasekhara-march",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

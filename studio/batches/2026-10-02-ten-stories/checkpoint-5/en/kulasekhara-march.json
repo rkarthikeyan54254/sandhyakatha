@@ -1,0 +1,243 @@
+{
+  "id": "kulasekhara-march",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-02",
+  "title": "The King Who Kept Setting Off for Laṅkā",
+  "tease": "The reciter reaches a moment when Rāma is badly outnumbered. King Kulaśēkhara stands up and orders his own army to march.",
+  "source": {
+    "corpus": "alvar",
+    "tradition": "tamil-vaishnava",
+    "work": "Śrīvaiṣṇava Guruparamparā traditions; compare Kulaśēkhara Āḻvār's Perumāḷ Tirumoḻi",
+    "locus": "Kulaśēkhara Āḻvār caritam — Rāmāyaṇa-recitation and army-march episode; Perumāḷ Tirumoḻi decads 8–10 as earlier Rāma-centred poetic witness",
+    "stability": "regional",
+    "traditionNote": "The king ordering troops into a Rāmāyaṇa recitation is a later Śrīvaiṣṇava hagiographic episode. Kulaśēkhara Āḻvār's Perumāḷ Tirumoḻi is the earlier textual witness to his intense Rāma devotion; the poem is not presented as an autobiography of the march story.",
+    "checkedAgainst": [
+      "Śrīvaiṣṇava Guruparamparā accounts of Kulaśēkhara Āḻvār listening to Rāmāyaṇa recitation and ordering military aid for Rāma, consulted for the hagiographic sequence on 2026-10-02",
+      "Kulaśēkhara Āḻvār, Perumāḷ Tirumoḻi, Rāma-centred decads 8–10, used as the earlier poetic witness to the depth of identification with the Rāmāyaṇa"
+    ],
+    "variants": [
+      {
+        "differs": "Later tellings place the king's intervention at different moments in the Rāmāyaṇa: some emphasise Rāma facing Khara's forces, while others remember the king setting out toward the sea or Laṅkā when Rāma needs help.",
+        "tellings": "Across the hagiographic family, the stable motif is that Kulaśēkhara hears the epic as present reality, orders his own forces to assist Rāma, and has to be stopped by people around him or by the reciter advancing the story to Rāma's victory.",
+        "weTell": "We centre the Khara-battle form because it makes the intervention clear, while the title preserves the wider tradition of the king repeatedly trying to enter Rāma's war."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Later Śrīvaiṣṇava hagiography remembers Kulaśēkhara as a king deeply absorbed in hearing the Rāmāyaṇa recited.",
+        "locus": "Guruparamparā Kulaśēkhara Āḻvār caritam, Rāmāyaṇa-recitation setting"
+      },
+      {
+        "claim": "When the recitation reaches Rāma facing Khara and a vastly larger rākṣasa force, Kulaśēkhara hears the danger as immediate rather than safely past.",
+        "locus": "Guruparamparā march episode, Khara-battle version"
+      },
+      {
+        "claim": "The king rises and orders his own army to prepare to assist Rāma.",
+        "locus": "Guruparamparā march episode, royal command"
+      },
+      {
+        "claim": "Those around him prevent the historical army from marching into the epic, in some tellings by having the reciter quickly announce Rāma's victory.",
+        "locus": "Guruparamparā march episode, intervention/resolution"
+      },
+      {
+        "claim": "Other later tellings move the same motif toward the sea or Laṅkā and portray Kulaśēkhara as repeatedly ready to enter Rāma's war.",
+        "locus": "Later Śrīvaiṣṇava Kulaśēkhara hagiographic variants"
+      },
+      {
+        "claim": "Perumāḷ Tirumoḻi decads 8–10 are earlier Rāma-centred poems, including intimate re-speaking of figures in the Rāmāyaṇa, and independently witness the poet's deep identification with the epic.",
+        "locus": "Perumāḷ Tirumoḻi 8–10"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-02"
+  },
+  "audience": {
+    "minAge": 6,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "being properly inside a story"
+  ],
+  "characters": [
+    {
+      "ref": "Kulaśēkhara Āḻvār",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "King «Kulaśēkhara Āḻvār» liked hearing the Rāmāyaṇa recited. The later Śrīvaiṣṇava biographies say he did not listen as though the story were sealed safely in the past."
+        },
+        {
+          "t": "p",
+          "text": "One day the reciter reached a dangerous moment. «Rāma» was facing Khara's huge force with only a few companions around him. The king listened, grew tense and stopped behaving like a man sitting in an audience."
+        },
+        {
+          "t": "p",
+          "text": "He stood up."
+        },
+        {
+          "t": "p",
+          "text": "Call the army, he ordered. Prepare the troops. «Rāma» needs help."
+        },
+        {
+          "t": "p",
+          "text": "To everyone else, the recitation described a danger that had already ended. To Kulaśēkhara, the duty of a king was still available in the room. If a friend was in danger and he had soldiers, then listening without helping made no sense to him at all. The story had become a call he could answer."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The people around him had a difficult problem. Their king was not pretending. If they obeyed, a real army would begin preparing for a battle whose story had been told centuries before."
+        },
+        {
+          "t": "p",
+          "text": "In one familiar version, the reciter understood what to do. He moved quickly ahead and announced the part the king most needed to hear: «Rāma» had defeated the enemy."
+        },
+        {
+          "t": "p",
+          "text": "Only then did Kulaśēkhara settle. The emergency was over because, to him, the victory had just happened."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Later tellings move the same impulse to other points in the epic, even toward the sea and Laṅkā. That is why the tradition remembers a king forever ready to send his own soldiers into Rāma's war."
+        },
+        {
+          "t": "p",
+          "text": "His own Perumāḷ Tirumoḻi does not narrate this court scene as autobiography. Its Rāma poems are the earlier witness to something the biography enlarges into action: he did not stand very far outside the story."
+        },
+        {
+          "t": "slow",
+          "text": "Everyone else was listening to what happened to «Rāma». Kulaśēkhara was listening for what he had to do next."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A king can command armies, settle disputes and decide what happens next in his own court. The later Śrīvaiṣṇava biographies of «Kulaśēkhara Āḻvār» give him another habit: he listens to the Rāmāyaṇa until the distance between story and present time becomes dangerously thin."
+        },
+        {
+          "t": "p",
+          "text": "Recitation in a royal hall should be simple enough. The teller speaks. The listeners know the ending. Whatever danger «Rāma» enters, everyone in the room knows he survived long ago."
+        },
+        {
+          "t": "p",
+          "text": "Kulaśēkhara listens differently."
+        },
+        {
+          "t": "p",
+          "text": "One day the reciter reaches the forest battle with Khara. «Rāma» is badly outnumbered. A huge rākṣasa force stands against him. The hall may know this as an episode; the king hears a military emergency."
+        },
+        {
+          "t": "p",
+          "text": "To everyone else, the recitation described a danger that had already ended. To Kulaśēkhara, the duty of a king was still available in the room. If a friend was in danger and he had soldiers, then listening without helping made no sense to him at all."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He rises and begins giving orders. The army must be called. Soldiers must prepare. His forces will go to «Rāma»'s aid."
+        },
+        {
+          "t": "p",
+          "text": "Nobody around him can solve the problem by saying, It is only a story. In the hagiography, that answer would miss exactly what is being shown. Kulaśēkhara has entered the telling so completely that loyalty demands action."
+        },
+        {
+          "t": "p",
+          "text": "Yet obeying him literally would send a real army marching toward no battlefield it could reach. Ministers and reciter have to protect both the king and the kingdom without insulting the devotion behind the command."
+        },
+        {
+          "t": "p",
+          "text": "One familiar solution is wonderfully practical. The reciter moves forward. He announces that «Rāma» has already won, that Khara and his forces have been defeated."
+        },
+        {
+          "t": "p",
+          "text": "The king hears the victory and stands down. Relief arrives in the present tense. There is no longer anyone to rescue."
+        },
+        {
+          "t": "p",
+          "text": "That is why the reciter's answer works without mocking him. He does not argue that the king should care less. He gives the devotion information: the battle is over, Rāma has won, and the help Kulaśēkhara was ready to send is no longer needed."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That is one version. The later hagiographic tradition is not perfectly uniform. Other tellings place the same impulse elsewhere, especially around the march toward the sea or Laṅkā, and remember Kulaśēkhara as repeatedly ready to take his own army into Rāma's campaign."
+        },
+        {
+          "t": "p",
+          "text": "Sandhya Katha keeps that variation visible because the exact battlefield is less stable than the central image: a king hears the epic so intensely that he forgets the usual boundary between remembering loyalty and acting on it."
+        },
+        {
+          "t": "p",
+          "text": "There is an older textual layer too. Kulaśēkhara's own Perumāḷ Tirumoḻi contains Rāma-centred decads that inhabit the feelings of the epic with remarkable closeness. In those poems, the Rāmāyaṇa is not distant material."
+        },
+        {
+          "t": "p",
+          "text": "But the poem does not say, I once ordered my army into the story. That scene belongs to later biography. The poetry is the earlier witness to devotional identification; the hagiography turns that quality into a memorable royal incident."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There is comedy in the episode, but it is not a joke about a confused king. The people around Kulaśēkhara must take his command seriously because his concern is serious. They solve it by working inside the story-world he is inhabiting."
+        },
+        {
+          "t": "p",
+          "text": "A child absorbed in a story sometimes shouts a warning at a character who cannot hear. The hagiography gives that impulse to a king with actual soldiers waiting for orders. Suddenly being inside a story has consequences."
+        },
+        {
+          "t": "p",
+          "text": "Kulaśēkhara's problem is not that he cannot understand fiction. The tradition wants to show the opposite kind of excess: he understands loyalty so personally that the epic's danger becomes a demand placed on him."
+        },
+        {
+          "t": "p",
+          "text": "The reciter's task is therefore unusual. He is not merely telling what happened next. For a moment, the next verse is also how he stops an army."
+        },
+        {
+          "t": "slow",
+          "text": "The court heard an ancient battle. «Kulaśēkhara Āḻvār» heard a friend in danger—and reached for the power he actually had."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When does being deeply inside a story help us understand it, and when might we need someone to remind us where we are?",
+    "seed": "A story can feel present without every action inside it becoming ours to perform.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Kulaśēkhara really try to send an army into the Rāmāyaṇa?",
+        "a": "That is how later Śrīvaiṣṇava hagiography remembers him. Sandhya Katha labels it as saint-life tradition rather than claiming the event from the earlier poem itself."
+      },
+      {
+        "q": "Was he trying to march to Laṅkā or to help in the Khara battle?",
+        "a": "Later tellings vary. We centre the Khara-battle version, while noting that other biographies move the same impulse toward the sea or Laṅkā. The stable motif is his readiness to send real help into the epic."
+      },
+      {
+        "q": "What do Kulaśēkhara's own poems show?",
+        "a": "The Perumāḷ Tirumoḻi contains Rāma-centred decads that speak from very close inside the epic's emotions. They are earlier textual evidence for the depth of his Rāma devotion, but they do not narrate this army order as autobiography."
+      }
+    ]
+  }
+}

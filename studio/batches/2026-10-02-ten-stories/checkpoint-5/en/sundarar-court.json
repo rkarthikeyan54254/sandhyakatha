@@ -1,0 +1,248 @@
+{
+  "id": "sundarar-court",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-02",
+  "title": "The Old Man with the Deed",
+  "tease": "An old man stops a wedding with a palm-leaf deed. The groom calls the claim impossible, follows him to court—and loses.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Sēkkiḻār, Periya Purāṇam",
+    "locus": "Taḍuttāṭkoṇḍa Purāṇam — wedding, deed, Tiruveṇṇainallūr assembly, temple revelation and first hymn",
+    "stability": "regional",
+    "traditionNote": "The lawsuit is Sēkkiḻār's Tamil Śaiva hagiography. Sundarar's Tēvāram 7.1 is an earlier first-person hymn beginning Pittā; it is not itself a courtroom record.",
+    "parallels": [
+      {
+        "work": "Tēvāram of Sundarar",
+        "locus": "7.1.1, Tiruveṇṇainallūr — hymn beginning Pittā pirai-sūḍī"
+      }
+    ],
+    "checkedAgainst": [
+      "Sēkkiḻār, Periya Purāṇam, Sundaramūrti/Taḍuttāṭkoṇḍa episode; Shaivam.org English presentations Part I and Part II, accessed 2026-10-02",
+      "Sundarar, Tēvāram 7.1.1, Tiruveṇṇainallūr, checked as the earlier hymn witness"
+    ],
+    "variants": [
+      {
+        "differs": "Retellings abbreviate the legal hearing and differ in how much of the copy, original deed and handwriting comparison they narrate.",
+        "tellings": "Some modern lives jump quickly from the torn palm leaf to the temple revelation; fuller tellings preserve the assembly's examination.",
+        "weTell": "The fuller hagiographic sequence: claim at the wedding, copy torn, original produced, handwriting checked, ruling given, then temple revelation and the first hymn."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "An aged brahmin interrupts Sundarar's wedding and claims a hereditary service obligation based on a palm-leaf deed.",
+        "locus": "Periya Purāṇam, Taḍuttāṭkoṇḍa Purāṇam, wedding interruption and claim"
+      },
+      {
+        "claim": "Sundarar challenges the claim and tears the copy; the old man says the original can be shown before the assembly at Tiruveṇṇainallūr.",
+        "locus": "Taḍuttāṭkoṇḍa Purāṇam, deed dispute before the journey to the assembly"
+      },
+      {
+        "claim": "The assembly hears the case, questions the unusual claim, examines the original and compares the grandfather's handwriting with another known document.",
+        "locus": "Taḍuttāṭkoṇḍa Purāṇam, Tiruveṇṇainallūr assembly sequence"
+      },
+      {
+        "claim": "The assembly upholds the deed, and Sundarar follows the successful claimant.",
+        "locus": "Taḍuttāṭkoṇḍa Purāṇam, judgment and compliance"
+      },
+      {
+        "claim": "Asked to show his dwelling, the old man leads the group to the temple and disappears; Śiva then reveals the meaning of the claim.",
+        "locus": "Taḍuttāṭkoṇḍa Purāṇam, temple revelation"
+      },
+      {
+        "claim": "Śiva asks Sundarar to sing Tamil praise and tells him to begin with the word pittan, used during the dispute.",
+        "locus": "Taḍuttāṭkoṇḍa Purāṇam, first-hymn commission"
+      },
+      {
+        "claim": "Sundarar's first Tiruveṇṇainallūr hymn begins Pittā pirai-sūḍī.",
+        "locus": "Tēvāram 7.1.1"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-02"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "injustice"
+    ],
+    "careNote": "The hagiography uses a hereditary-servitude deed as its legal device. We say plainly that this is not an argument for one human being owning another.",
+    "gated": false
+  },
+  "values": [
+    "losing an argument you were sure of"
+  ],
+  "characters": [
+    {
+      "ref": "Sundarar",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sundarar» was dressed for his wedding when an old brahmin entered the hall and asked everyone to stop. He said there was an unfinished matter between them: «Sundarar» belonged in his service."
+        },
+        {
+          "t": "p",
+          "text": "The claim sounded impossible. The old man said he had a palm-leaf deed written by «Sundarar»'s grandfather. «Sundarar» demanded to see it, seized the copy and tore it. The old man answered that the original could be shown before the learned assembly at Tiruveṇṇainallūr."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So the wedding party became a court party. Before the assembly, the old man repeated his claim. The elders asked the hard question too: how could one brahmin claim another as a hereditary servant? They did not accept the story just because an old man said it."
+        },
+        {
+          "t": "p",
+          "text": "He produced the original palm leaf. The assembly compared its writing with another document known to have been written by «Sundarar»'s grandfather. The hands matched. By the evidence before them, the deed stood."
+        },
+        {
+          "t": "p",
+          "text": "«Sundarar» had arrived certain that the claim was nonsense. He lost."
+        },
+        {
+          "t": "p",
+          "text": "The judgment did not make the language of the deed comfortable. In the saint's story, the legal claim is the form through which the old man insists that «Sundarar» already belongs to a different service."
+        },
+        {
+          "t": "p",
+          "text": "The elders then asked the old man to show the house from which he claimed to come. He led them to the temple. Inside, he vanished."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There the case changed its meaning. The old claimant was «Śiva». He told «Sundarar» that he had come to claim him as his servant and asked him to sing."
+        },
+        {
+          "t": "p",
+          "text": "«Sundarar» had called the troublesome old man _pittan_—madman—during the dispute. «Śiva» told him to begin with that very word. The first hymn opened: _Pittā…_"
+        },
+        {
+          "t": "slow",
+          "text": "He entered the hall as a bridegroom certain of his own life. He left the temple having lost the case—and found the voice by which people still remember him."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The wedding hall was ready. «Sundarar», young, learned and dressed as a bridegroom, had come with relatives and guests to marry the daughter chosen for him. The Periya Purāṇam lets the celebration gather around him before one old brahmin walks in and asks the whole hall to listen."
+        },
+        {
+          "t": "p",
+          "text": "The stranger says there is a matter to settle before any marriage can go forward. «Sundarar», he claims, is bound to serve him because the young man's grandfather wrote a deed promising that service for his descendants."
+        },
+        {
+          "t": "p",
+          "text": "The hall is astonished. «Sundarar» is more than astonished. He challenges the claim and asks to see the palm leaf. The old man shows a copy. In anger, «Sundarar» takes it and tears it."
+        },
+        {
+          "t": "p",
+          "text": "The old man does not abandon the case. The torn leaf, he says, was only the copy. The original can be produced before the learned assembly at Tiruveṇṇainallūr. If «Sundarar» thinks the claim is false, let the court decide."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They go. The poem does not treat the assembly as decoration. The elders hear both sides and question the claim itself. One brahmin claiming another as a hereditary servant is not something they simply accept. They ask for proof."
+        },
+        {
+          "t": "p",
+          "text": "The old man produces the original palm-leaf deed. Proof of age is not enough; the assembly needs to know whether the signature really belongs to «Sundarar»'s grandfather. They bring another document whose writing is known and compare the hands."
+        },
+        {
+          "t": "p",
+          "text": "The writing matches. On the evidence placed before them, the elders rule for the old man."
+        },
+        {
+          "t": "p",
+          "text": "It is an uncomfortable scene to read with modern ears because the document speaks in the language of inherited servitude. The hagiography uses that legal form to describe belonging to «Śiva»; it is not an argument for one human being owning another. Inside the story, however, «Sundarar» has genuinely lost the case."
+        },
+        {
+          "t": "p",
+          "text": "He had been sure the old man's claim was impossible. The assembly he agreed to trust has decided otherwise. So he does what the ruling requires: he goes with the claimant."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The elders have one more question. The old man has said he belongs to that place; where is his house? He leads them toward the temple at Tiruveṇṇainallūr. «Sundarar» follows. Once inside, the old man is no longer there."
+        },
+        {
+          "t": "p",
+          "text": "Then «Śiva» reveals who had stood in the wedding hall and argued before the court. He tells «Sundarar» that the interruption was not random: he has come to claim the service that links them."
+        },
+        {
+          "t": "p",
+          "text": "The wedding has stopped, the lawsuit has ended, and now another task begins. «Śiva» asks «Sundarar» to sing Tamil in his praise."
+        },
+        {
+          "t": "p",
+          "text": "The request is not for Sanskrit learning or a court defence now. It is for song in the language «Sundarar» speaks, and the man who argued so fiercely has to discover what to say first."
+        },
+        {
+          "t": "p",
+          "text": "There is a problem. «Sundarar» does not know how to begin. During the quarrel he had called the old man _pittan_—a madman. «Śiva» tells him to use that very word as the opening."
+        },
+        {
+          "t": "p",
+          "text": "So the sharp word spoken in anger is not erased from the story. It is turned. «Sundarar» begins his first hymn with _Pittā, pirai-sūḍī…_—addressing the Lord who wears the crescent moon."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "That hymn belongs to the Tēvāram and can be read apart from the biography. The lawsuit that leads into it is the Periya Purāṇam's hagiographic telling."
+        },
+        {
+          "t": "p",
+          "text": "Keeping those two layers apart matters: the poem sung by «Sundarar» is an early textual witness to his voice; the courtroom scene is how the later Tamil Śaiva tradition tells the beginning of his service."
+        },
+        {
+          "t": "p",
+          "text": "The court did not prove that human slavery was right. Within the saint's story it proved something narrower and stranger: the groom who thought his life was already arranged was being claimed for a different kind of service."
+        },
+        {
+          "t": "slow",
+          "text": "«Sundarar» lost the argument he was sure he would win. The tradition remembers that loss as the doorway through which his first song entered the world."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What would be hardest about accepting a decision after you had been certain the other person was wrong?",
+    "seed": "Sometimes the turn begins where certainty ends.",
+    "ifTheyAsk": [
+      {
+        "q": "Does this mean slavery was right?",
+        "a": "No. The Periya Purāṇam uses the legal language of hereditary service to express Sundarar's belonging to Śiva. We keep that uncomfortable language visible because it is in the hagiography, but the story is not permission for one human being to own another."
+      },
+      {
+        "q": "Was the court tricked?",
+        "a": "Within Sēkkiḻār's story, the assembly does real checking: it asks questions, examines the original palm leaf and compares handwriting before ruling. Only afterward does the claimant lead Sundarar to the temple and reveal himself as Śiva."
+      },
+      {
+        "q": "Did Sundarar really call Śiva a madman?",
+        "a": "The hagiography says he used pittan during the quarrel and that Śiva later told him to begin his hymn with that word. The surviving Tēvāram hymn 7.1 does indeed open with Pittā. The hymn is the earlier textual witness; the courtroom explanation comes from the later life-story."
+      }
+    ]
+  }
+}

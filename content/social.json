@@ -1997,6 +1997,156 @@
           }
         ]
       }
+    },
+    "amarniti-scales": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "full"
+          },
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 5,
+            "mode": "full"
+          },
+          {
+            "index": 8,
+            "mode": "full"
+          },
+          {
+            "index": 11,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "sundarar-court": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "full"
+          },
+          {
+            "index": 2,
+            "mode": "full"
+          },
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 6,
+            "mode": "full"
+          },
+          {
+            "index": 7,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "appar-spade": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "full"
+          },
+          {
+            "index": 2,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "full"
+          },
+          {
+            "index": 5,
+            "mode": "full"
+          },
+          {
+            "index": 8,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "thirumangai-ring": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "full"
+          },
+          {
+            "index": 2,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "full"
+          },
+          {
+            "index": 6,
+            "mode": "full"
+          },
+          {
+            "index": 7,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "kulasekhara-march": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "full"
+          },
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "full"
+          },
+          {
+            "index": 6,
+            "mode": "full"
+          },
+          {
+            "index": 7,
+            "mode": "full"
+          }
+        ]
+      }
     }
   }
 }

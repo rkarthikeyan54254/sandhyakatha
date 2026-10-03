@@ -1,0 +1,270 @@
+{
+  "id": "amarniti-scales",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-02",
+  "title": "The Loincloth on the Scales",
+  "tease": "A merchant piles cloth, gold and jewels onto a balance. One small loincloth still outweighs everything.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Periya Purāṇam",
+    "locus": "Amar-Nīti Nāyaṉār Purāṇam, verses 502–549",
+    "stability": "regional",
+    "traditionNote": "This is a Tamil Śaiva hagiographic episode from Cēkkiḻār's Periya Purāṇam. Sandhya Katha tells the weighing miracle as that saint-life tells it; it is not presented as an earlier Sanskrit scriptural episode.",
+    "checkedAgainst": [
+      "T. N. Ramachandran, English verse translation of Periya Purāṇam, Amar-Nīti Nāyaṉār Purāṇam: https://www.shaivam.org/devotees/the-puranam-of-amar-niti-nayanar/ (accessed 2026-10-02)",
+      "Shaivam.org Tamil/secondary presentation of Amar-Nīti Nāyaṉār tradition: https://shaivam.org/devotees/amar-neethi-nayanar-puranam/ (accessed 2026-10-02)"
+    ],
+    "variants": [
+      {
+        "differs": "Modern retellings vary in how much they describe the lost-cloth search and the order in which valuables are added.",
+        "tellings": "The Periya Purāṇam verse translation gives the entrusted cloth, equal-weight demand, escalating offerings, family entering the pan and divine revelation.",
+        "weTell": "We follow the Periya Purāṇam sequence and avoid adding motives or dialogue not needed by that sequence."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Amar-Nīti is a prosperous merchant who feeds Śiva's devotees and gives them clothing; at Tirunallur he supports a feeding house during the festival.",
+        "locus": "Periya Purāṇam, Amar-Nīti Nāyaṉār Purāṇam, verses 502–506"
+      },
+      {
+        "claim": "Śiva comes disguised as a brahmachari carrying two loincloths, entrusts one to Amar-Nīti before bathing, and on returning demands the missing cloth.",
+        "locus": "Amar-Nīti Nāyaṉār Purāṇam, brahmachari and entrusted-cloth sequence, before verse 532"
+      },
+      {
+        "claim": "The disguised visitor insists on an equal-weight replacement and places his remaining loincloth on a balance.",
+        "locus": "Amar-Nīti Nāyaṉār Purāṇam, verses 530–533"
+      },
+      {
+        "claim": "Amar-Nīti adds loincloths, garments and wealth, but the visitor's cloth remains heavier.",
+        "locus": "Amar-Nīti Nāyaṉār Purāṇam, verses 533 onward, weighing sequence"
+      },
+      {
+        "claim": "Amar-Nīti, his wife and son enter the pan after prayer; the balance becomes level.",
+        "locus": "Amar-Nīti Nāyaṉār Purāṇam, closing weighing sequence, culminating before verse 546"
+      },
+      {
+        "claim": "Śiva reveals himself with the Goddess, blesses the family, and the hagiography carries them to Śiva's abode.",
+        "locus": "Amar-Nīti Nāyaṉār Purāṇam, verses 546–549"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-02"
+  },
+  "audience": {
+    "minAge": 7,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "keeping a promise past where it hurts"
+  ],
+  "characters": [
+    {
+      "ref": "Śiva",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Amar-Nīti» was a prosperous merchant in the Chola country. The Periya Purāṇam remembers him for one habit in particular: when devotees of «Śiva» needed simple clothing, he gave it freely."
+        },
+        {
+          "t": "p",
+          "text": "During a festival at Tirunallur, a young brahmachari came to the feeding house Amar-Nīti had established. He carried two loincloths on his staff. The stranger looked like a student of the Vedas, marked with holy ash, and Amar-Nīti welcomed him as he welcomed other devotees."
+        },
+        {
+          "t": "p",
+          "text": "The visitor handed one cloth to Amar-Nīti for safekeeping before going to bathe. He warned him to keep it carefully."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When the young man returned, the cloth was gone. Amar-Nīti searched. He could not find it. No servant had moved it, no bundle held it, and the place where he had kept it was empty."
+        },
+        {
+          "t": "p",
+          "text": "Ashamed, he offered a fresh loincloth. The visitor refused. He said the lost cloth must be replaced by something equal to the other cloth he still carried."
+        },
+        {
+          "t": "p",
+          "text": "So Amar-Nīti brought a balance. The visitor placed his remaining loincloth on one pan. Amar-Nīti placed a new cloth on the other."
+        },
+        {
+          "t": "p",
+          "text": "The visitor's cloth was heavier."
+        },
+        {
+          "t": "p",
+          "text": "Amar-Nīti added more loincloths, then fine garments. The pan still would not come down. He added gold, jewels and the wealth of his household. Still the little cloth outweighed everything. Each time he expected the beam to move; each time the same pan remained high."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At last Amar-Nīti asked permission to place himself on the scale. His wife and son joined him. They went around the balance in reverence and stepped onto the pan together."
+        },
+        {
+          "t": "p",
+          "text": "They prayed that if their service had truly been offered with love, the two pans might stand level."
+        },
+        {
+          "t": "p",
+          "text": "The beam settled."
+        },
+        {
+          "t": "p",
+          "text": "Then the young visitor was no longer merely a visitor. The Periya Purāṇam says «Śiva» revealed himself with the Goddess and blessed the family."
+        },
+        {
+          "t": "slow",
+          "text": "All the cloth, gold and jewels had failed to balance one small garment; the scale moved only when «Amar-Nīti» stopped counting possessions and placed his own life beside his promise."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Amar-Nīti» was a wealthy merchant of Pazhayarai in the Chola country. The Periya Purāṇam does not make his wealth the centre of his life. It remembers what he did with it: he fed devotees of «Śiva» and kept cloth ready for people who needed simple garments."
+        },
+        {
+          "t": "p",
+          "text": "At Tirunallur, where a temple festival drew worshippers, he had established a place where devotees could eat and be cared for. One day a young brahmachari arrived there, wearing holy ash and carrying a staff from which two loincloths hung."
+        },
+        {
+          "t": "p",
+          "text": "Amar-Nīti welcomed him. Before bathing, the visitor removed one of the two cloths and handed it over. Keep this carefully, he said. He would need it when he returned."
+        },
+        {
+          "t": "p",
+          "text": "Nothing in the request seemed difficult. Amar-Nīti had built his service around this kind of need. A single piece of cloth was small next to the stores he managed, and he accepted the responsibility ."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Amar-Nīti put the cloth away. But when the visitor came back from his bath and asked for it, the cloth was missing."
+        },
+        {
+          "t": "p",
+          "text": "He searched the place where he had kept it. He asked the people around him. He looked through the stored garments. Nothing explained its disappearance."
+        },
+        {
+          "t": "p",
+          "text": "The visitor was angry. Amar-Nīti apologised and offered another clean loincloth from his own stores. He could give many such cloths; giving them was part of his daily service."
+        },
+        {
+          "t": "p",
+          "text": "But the visitor would not accept an ordinary replacement. The cloth that had been entrusted to Amar-Nīti, he said, had to be matched by something equal to it."
+        },
+        {
+          "t": "p",
+          "text": "He still had the second cloth on his staff. Let that one be weighed, he proposed, and let Amar-Nīti give him an equal weight."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Amar-Nīti agreed. A balance was brought. The visitor placed his remaining loincloth on one pan."
+        },
+        {
+          "t": "p",
+          "text": "Amar-Nīti placed a fresh loincloth on the other. It was too light."
+        },
+        {
+          "t": "p",
+          "text": "He added another, and another. He brought out the many cloths he kept for devotees. The visitor's single garment still pulled its pan downward."
+        },
+        {
+          "t": "p",
+          "text": "So Amar-Nīti added finer cloth and costly fabric. The beam did not level."
+        },
+        {
+          "t": "p",
+          "text": "People gathered around as the pile grew. The scene became stranger with every addition: the visitor was not asking for luxury, yet one plain cloth outweighed a merchant's store."
+        },
+        {
+          "t": "p",
+          "text": "He asked whether he might add other property. With permission, he brought gold, silver, jewels and the valuables of his household. Piece after piece went onto the rising pan."
+        },
+        {
+          "t": "p",
+          "text": "The strange balance did not change its verdict. A small loincloth on one side remained heavier than the merchant's stored wealth on the other."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "There was almost nothing left to offer."
+        },
+        {
+          "t": "p",
+          "text": "Then Amar-Nīti asked for one more permission. Could he himself step onto the scale? His wife and son would come with him."
+        },
+        {
+          "t": "p",
+          "text": "The visitor allowed it. Amar-Nīti, his wife and their son went around the balance in reverence. They prayed that if they had served «Śiva» and his devotees without deceit, the scale might now become level."
+        },
+        {
+          "t": "p",
+          "text": "They climbed onto the pan with everything they had already placed there."
+        },
+        {
+          "t": "p",
+          "text": "For the first time, the beam moved into balance."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The Periya Purāṇam then lets the disguise fall away. The young brahmachari was «Śiva». The text says he appeared with the Goddess and blessed Amar-Nīti, his wife and their son."
+        },
+        {
+          "t": "p",
+          "text": "The balance itself becomes part of the wonder in the hagiography: the family is carried onward in divine grace. Sandhya Katha keeps that ending as the Periya Purāṇam tells it, without turning the weighing into a rule for ordinary life."
+        },
+        {
+          "t": "p",
+          "text": "The missing cloth matters because the crisis begins with custody: Amar-Nīti had promised to keep another person's belonging safe, and he would not treat that promise as disposable merely because he could afford a substitute."
+        },
+        {
+          "t": "p",
+          "text": "The point is not that a person should surrender family or property whenever someone makes an impossible demand. The story is a saint's life, built to show the measure of Amar-Nīti's own vow of service."
+        },
+        {
+          "t": "slow",
+          "text": "The scale did not ask how much «Amar-Nīti» owned. In the story's final measure, the only thing heavy enough to stand beside his promise was the person who had made it."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "At what point do you think Amar-Nīti stopped trying to replace a thing and started answering for a promise?",
+    "seed": "A promise can become more costly than the object that began it.",
+    "ifTheyAsk": [
+      {
+        "q": "Did the cloth really weigh more than all that gold?",
+        "a": "In the Periya Purāṇam's hagiographic telling, yes. Sandhya Katha presents that as the miracle of this Tamil saint-life, not as an ordinary claim about weight."
+      },
+      {
+        "q": "Why did his family get on the scale too?",
+        "a": "The text has Amar-Nīti ask to enter the pan with his wife and son after his goods fail to balance the cloth. The family joins the prayer and the scale then levels."
+      }
+    ]
+  }
+}

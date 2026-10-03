@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "note": "User-supplied illustrations approved for first-five publication on 2026-10-02. Hero WebP and 1200x630 OG derivatives preserve the supplied art; no TTS/audio approval is implied.",
+  "stories": {
+    "amarniti-scales": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_00-1.png",
+      "heroFile": "/media/stories/amarniti-scales/hero.webp",
+      "ogFile": "/og/amarniti-scales.jpg",
+      "heroStatus": "approved",
+      "storyVersion": 1
+    },
+    "sundarar-court": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_22-2.png",
+      "heroFile": "/media/stories/sundarar-court/hero.webp",
+      "ogFile": "/og/sundarar-court.jpg",
+      "heroStatus": "approved",
+      "storyVersion": 1
+    },
+    "appar-spade": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_32-3.png",
+      "heroFile": "/media/stories/appar-spade/hero.webp",
+      "ogFile": "/og/appar-spade.jpg",
+      "heroStatus": "approved",
+      "storyVersion": 1
+    },
+    "thirumangai-ring": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_45-4.png",
+      "heroFile": "/media/stories/thirumangai-ring/hero.webp",
+      "ogFile": "/og/thirumangai-ring.jpg",
+      "heroStatus": "approved",
+      "storyVersion": 1
+    },
+    "kulasekhara-march": {
+      "sourceUpload": "ChatGPT Image 2 Oct 2026, 20_02_56-5.png",
+      "heroFile": "/media/stories/kulasekhara-march/hero.webp",
+      "ogFile": "/og/kulasekhara-march.jpg",
+      "heroStatus": "approved",
+      "storyVersion": 1
+    }
+  }
+}

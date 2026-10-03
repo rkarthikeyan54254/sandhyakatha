@@ -520,6 +520,46 @@
         "hi-IN",
         "ta-IN"
       ]
+    },
+    {
+      "storyId": "amarniti-scales",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "sundarar-court",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "appar-spade",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "thirumangai-ring",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
+    },
+    {
+      "storyId": "kulasekhara-march",
+      "defaultLocale": "ta-IN",
+      "locales": [
+        "ta-IN",
+        "hi-IN"
+      ]
     }
   ]
 }

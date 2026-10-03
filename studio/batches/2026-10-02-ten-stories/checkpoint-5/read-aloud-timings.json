@@ -1,0 +1,52 @@
+{
+  "amarniti-scales": {
+    "hi": {
+      "short": 180,
+      "full": 360
+    },
+    "ta": {
+      "short": 180,
+      "full": 360
+    }
+  },
+  "sundarar-court": {
+    "hi": {
+      "short": 180,
+      "full": 360
+    },
+    "ta": {
+      "short": 180,
+      "full": 360
+    }
+  },
+  "appar-spade": {
+    "hi": {
+      "short": 180,
+      "full": 360
+    },
+    "ta": {
+      "short": 180,
+      "full": 360
+    }
+  },
+  "thirumangai-ring": {
+    "hi": {
+      "short": 180,
+      "full": 360
+    },
+    "ta": {
+      "short": 180,
+      "full": 360
+    }
+  },
+  "kulasekhara-march": {
+    "hi": {
+      "short": 180,
+      "full": 360
+    },
+    "ta": {
+      "short": 180,
+      "full": 360
+    }
+  }
+}

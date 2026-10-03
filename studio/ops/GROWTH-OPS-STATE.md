@@ -2,6 +2,10 @@
 
 Updated: 2026-10-02. Keep this file compact; replace stale values.
 
+## First-five trilingual publication — 2026-10-03
+
+PR #23 is synced with production main and the five supplied approved WebPs are hash-matched and decode-verified. Rama confirmed the native Hindi/Tamil readings were timed at 3:00 short and 6:00 full for each story; this is recorded as 180/360 seconds per edition. Five English stories and ten Hindi/Tamil editions are promoted locally, with locale locks, public shelves, five 1200×630 OG cards, and curated campaign selectors. Strict validation, 138 tests, Vite compile and static locale/public/social/design/surface gates pass. The local PWA service-worker generator stalled before cache validation; remote CI, merge and live verification remain. The one-off promotion script is removed. Next action: push PR #23, use CI to resolve any remaining build/cache issue, merge, and verify production pages.
+
 ## Current execution checkpoint — supersedes planning-only statuses below
 
 - User authorized live organic execution and schedule changes. Two approved partner emails were SENT; receipts are in ORGANIC-RECOVERY-2026-09-30-execution.md. Do not resend. No partner acceptance is confirmed.
