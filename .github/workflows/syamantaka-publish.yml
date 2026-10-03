@@ -101,6 +101,46 @@ jobs:
           }
           write(publicPath, publicCfg);
 
+          const socialPath = 'content/social.json';
+          const social = read(socialPath);
+          social.stories['syamantaka-mani'] = {
+            reel: {
+              hook: { from: 'tease', mode: 'firstSentence' },
+              blocks: [
+                { index: 2, mode: 'full' },
+                { index: 4, mode: 'firstSentence' },
+                { index: 5, mode: 'full' },
+                { index: 6, mode: 'firstSentence' },
+                { index: 9, mode: 'full' }
+              ]
+            }
+          };
+          write(socialPath, social);
+
+          const socialLocalesPath = 'content/social-locales.json';
+          const socialLocales = read(socialLocalesPath);
+          socialLocales.locales['hi-IN'].stories['syamantaka-mani'] = {
+            hook: { from: 'tease', mode: 'firstSentence' },
+            blocks: [
+              { index: 2, mode: 'firstSentence' },
+              { index: 3, mode: 'firstSentence' },
+              { index: 4, mode: 'firstSentence' },
+              { index: 5, mode: 'firstSentence' },
+              { index: 8, mode: 'full' }
+            ]
+          };
+          socialLocales.locales['ta-IN'].stories['syamantaka-mani'] = {
+            hook: { from: 'tease', mode: 'firstSentence' },
+            blocks: [
+              { index: 4, mode: 'firstSentence' },
+              { index: 5, mode: 'firstSentence' },
+              { index: 6, mode: 'firstSentence' },
+              { index: 8, mode: 'firstSentence' },
+              { index: 11, mode: 'full' }
+            ]
+          };
+          write(socialLocalesPath, socialLocales);
+
           console.log(`Syamantaka promoted; canonical blob ${sourceBlobSha1}`);
           NODE
       - name: Regenerate locks
