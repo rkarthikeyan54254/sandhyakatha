@@ -4,7 +4,7 @@ Updated: 2026-10-02. Keep this file compact; replace stale values.
 
 ## Second five trilingual stories — 2026-10-03
 
-- Draft review package complete at `studio/batches/2026-10-03-second-five/review.html`: five source-grounded English drafts, ten staged Hindi/Tamil editions, five candidate WebP illustrations, source notes and counts. Sēkkiḻār's unsupported queued hook was replaced by Rāvaṇa lifting Kailāsa. None of these fifteen editions or five images is approved or published.
+- Draft PR #28 opened and mergeable for review; offline proof at `studio/batches/2026-10-03-second-five/review.html`: five source-grounded English drafts, ten staged Hindi/Tamil editions, five candidate WebP illustrations, source notes and counts. Sēkkiḻār's unsupported queued hook was replaced by Rāvaṇa lifting Kailāsa. None of these fifteen editions or five images is approved or published.
 - Strict repository validation PASS, staged native-language/mechanical gates PASS, 138 tests PASS. Full build reached Vite chunk generation but stalled in the post-Vite PWA step; complete build remains unverified. Human language/source and measured short/full timing gates remain pending for this new batch.
 - Next exact action: review all fifteen short/full editions and five images in the proof, record human corrections/approval and measured timings, then promote, lock, generate share cards, merge and verify production. Do not reuse earlier batch approvals or invent timing.
 

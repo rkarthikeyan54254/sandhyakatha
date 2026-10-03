@@ -1,6 +1,6 @@
 # Second five trilingual stories — editorial review package
 
-Review page: [review.html](review.html). It contains all fifteen English, Hindi and Tamil editions, each with short and full tellings, parent notes, source ledgers, and the five candidate illustrations. The page is an offline editorial proof, not a production story route.
+Draft review PR: https://github.com/rkarthikeyan54254/sandhyakatha/pull/28. Review page: [review.html](review.html). It contains all fifteen English, Hindi and Tamil editions, each with short and full tellings, parent notes, source ledgers, and the five candidate illustrations. The page is an offline editorial proof, not a production story route.
 
 Chosen stories: Liṅgodbhava, Bhagīratha and Gaṅgā, Sukanyā, the brāhmaṇa and the pot, and Rāvaṇa lifting Kailāsa. Sēkkiḻār's queued hook was replaced after its key claim could not be grounded in the checked source. Primary witnesses and variant boundaries are recorded in `source-notes/`.
 
