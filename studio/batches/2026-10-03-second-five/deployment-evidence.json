@@ -1,0 +1,19 @@
+{
+  "verifiedOn": "2026-10-03",
+  "pullRequest": "https://github.com/rkarthikeyan54254/sandhyakatha/pull/28",
+  "mergeCommit": "4310ea99675fe8c0bf241314f807f68267194ffb",
+  "deployPreviewFinalHead": "d94c3296c2b4b0cd5faa9f558d4c71735a06eed2",
+  "deployPreviewStatus": "success",
+  "production": {
+    "publicStoryIds": [
+      "lingodbhava-pillar",
+      "bhagiratha-ganga",
+      "brahmin-and-the-pot",
+      "ravana-lifts-kailasa"
+    ],
+    "englishHindiTamilRoutes": "all 12 displayed expected localized titles and loaded 1200-pixel hero illustrations",
+    "ogCards": "all five /og/<id>.jpg resolved as 1200x630 JPEG; four public stories expose dedicated og:image URLs in metadata",
+    "gatedSukanya": "/s/sukanya-anthill/ displays not-on-shelf page as intended"
+  },
+  "verificationMethod": "Live production pages inspected in browser after merge; no exact deployed commit marker was exposed."
+}

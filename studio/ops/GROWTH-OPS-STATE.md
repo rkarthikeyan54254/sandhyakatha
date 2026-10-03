@@ -4,9 +4,9 @@ Updated: 2026-10-02. Keep this file compact; replace stale values.
 
 ## Second five trilingual stories — 2026-10-03
 
-- Rama read and approved the second-five review proof and reported 3:00/6:00 short/full readings in English, Hindi and Tamil; merge/deploy authorized. `studio/batches/2026-10-03-second-five/approval.json` records exact review commit and prose/image hashes. Five English stories and ten locale editions promoted; five hero images and five dedicated OG cards prepared. Sukanyā remains gated.
-- Strict repository validation PASS (0 warnings), 138 tests PASS, manual prerender/public/social/design/surface gates PASS. Local full build stalls at PWA service-worker generation after Vite chunks; cache gate cannot pass without `dist/sw.js`. Final-head CI/deploy preview is required before merge.
-- Next exact action: push the approved head to draft PR #28, verify complete final-head CI/deploy preview, merge and verify production story routes, images and OG metadata. Liṅgodbhava observance mapping remains proposed separately.
+- COMPLETE: Rama approved the exact fifteen-edition proof and reported 3:00/6:00 readings in all three languages. Five English stories, ten Hindi/Tamil editions, five approved WebP heroes and five dedicated OG cards passed strict validation, 138 tests and the final-head Netlify deploy preview. PR #28 merged as `4310ea99675fe8c0bf241314f807f68267194ffb`.
+- Live production verification: all 12 public English/Hindi/Tamil routes for the four non-gated stories displayed expected localized titles and loaded hero images; each public story exposed its dedicated OG image. All five OG JPEGs loaded at 1200×630. Sukanyā remains age gated and its public `/s/` route shows the not-on-shelf page. Evidence: `studio/batches/2026-10-03-second-five/deployment-evidence.json`.
+- Local full build stalls in PWA service-worker generation after Vite, but the exact final-head Netlify deploy preview passed. No further publication work remains for this batch. Liṅgodbhava's observance mapping remains a separate unapproved proposal.
 
 ## First-five trilingual publication — 2026-10-03
 
