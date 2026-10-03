@@ -502,6 +502,14 @@
     {
       "storyId": "panar-shoulders",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "syamantaka-mani",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "syamantaka-mani",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

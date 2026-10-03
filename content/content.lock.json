@@ -311,6 +311,11 @@
       "status": "published",
       "hash": "e5bcfd5da83ab8ef"
     },
+    "syamantaka-mani": {
+      "version": 1,
+      "status": "published",
+      "hash": "0512a622b76f9d4a"
+    },
     "three-in-doorway": {
       "version": 1,
       "status": "published",
@@ -345,11 +350,6 @@
       "version": 1,
       "status": "published",
       "hash": "9f32a48b7b83f8b9"
-    },
-    "syamantaka-mani": {
-      "version": 1,
-      "status": "in-review",
-      "hash": "0512a622b76f9d4a"
     }
   }
 }
