@@ -14,6 +14,7 @@ import { createHash } from 'node:crypto';
 import { join, basename } from 'node:path';
 import Ajv from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
+import { webpIntegrityProblem } from './lib/media.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const STRICT = process.argv.includes('--strict');
@@ -142,9 +143,15 @@ for (const file of files) {
       if (m.image?.file !== expectedHero)
         err(at, `published hero must be "${expectedHero}", found "${m.image?.file ?? 'missing'}"`);
 
-      if (m.image?.file === expectedHero &&
-          !existsSync(join(ROOT, 'public', expectedHero.replace(/^\//, ''))))
-        err(at, `published hero file is missing: public${expectedHero}`);
+      if (m.image?.file === expectedHero) {
+        const heroPath = join(ROOT, 'public', expectedHero.replace(/^\//, ''));
+        if (!existsSync(heroPath)) {
+          err(at, `published hero file is missing: public${expectedHero}`);
+        } else {
+          const problem = webpIntegrityProblem(readFileSync(heroPath));
+          if (problem) err(at, `published hero is invalid: ${problem}`);
+        }
+      }
     }
   }
 
