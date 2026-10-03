@@ -1,0 +1,99 @@
+{
+  "id": "brahmin-and-the-pot",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-10-03",
+  "title": "The Jar Above the Cot",
+  "tease": "A brahmin dreams that a jar of barley-meal will become a house, a family and a fortune. His foot reaches the jar first.",
+  "source": {
+    "corpus": "panchatantra",
+    "tradition": "sanskrit",
+    "work": "Pañcatantra, Pūrṇabhadra recension in Arthur W. Ryder's translation",
+    "locus": "Book V, The Brahman's Dream (embedded tale following Slow, the Weaver)",
+    "stability": "variant",
+    "traditionNote": "This telling follows Ryder's Pūrṇabhadra text: the jar holds barley-meal and hangs above the brahmin's cot. Retellings that say rice or put the pot on a shelf are not the witness used here.",
+    "checkedAgainst": [
+      "Arthur W. Ryder, The Panchatantra (1925), Book V, The Brahman's Dream: https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_5/The_Brahman%27s_Dream (accessed 2026-10-03)",
+      "Arthur W. Ryder, The Panchatantra (1925), Book V, Slow, the Weaver (immediate frame): https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_5/Slow,_the_Weaver (accessed 2026-10-03)",
+      "Pañcatantra 5.9, Sanskrit text and grammatical gloss for Svabhāvakṛpaṇa and saktu: https://www.sanskrit-trikashaivism.com/hi/scriptures-stories-story-1-1/538 (accessed 2026-10-03)"
+    ],
+    "variants": [
+      {
+        "differs": "What is stored in the pot and where it is kept across retellings.",
+        "tellings": "Ryder's Pūrṇabhadra witness has barley-meal in a jar hung on a peg above a cot; some modern versions give rice or flour on a shelf.",
+        "weTell": "The barley-meal and hanging-jar sequence in Ryder, without changing it to rice."
+      }
+    ],
+    "sourcing": [
+      { "claim": "A wheel-bearer tells a gold-finder the brahmin's dream as an example of extravagant hope.", "locus": "Book V, Slow, the Weaver, closing transition to The Brahman's Dream" },
+      { "claim": "A poor brahmin obtains barley-meal by begging, eats some, fills a jar with the remainder, hangs it on a peg, and lies beneath it on a cot.", "locus": "Book V, The Brahman's Dream, opening" },
+      { "claim": "He imagines selling the meal during a famine for one hundred rupees and buying two she-goats.", "locus": "The Brahman's Dream, imagined famine sale" },
+      { "claim": "His imagined herd leads successively to cows, buffaloes, mares, horses, gold and a large house.", "locus": "The Brahman's Dream, imagined trading chain" },
+      { "claim": "He imagines marriage, a son named Moon-Lord, reading by the stable, and the child approaching the horses.", "locus": "The Brahman's Dream, imagined household" },
+      { "claim": "He imagines ordering his wife to fetch the child, her being busy, and himself kicking her; his actual kick smashes the jar and barley-meal covers him.", "locus": "The Brahman's Dream, final imagined action and actual loss" },
+      { "claim": "The frame's warning concerns extravagant hopes and failing to consider consequences.", "locus": "Slow, the Weaver, transition; The Brahman's Dream, closing transition" }
+    ]
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": ["gender-norms"],
+    "careNote": "In a daydream, the brahmin imagines kicking his future wife when she does not respond to him. No wife or child exists in the scene, and the actual kick breaks his own jar. The telling does not present violence toward her as a joke or a solution.",
+    "gated": false
+  },
+  "values": ["the daydream that breaks the pot"],
+  "characters": [
+    { "ref": "Svabhāvakṛpaṇa", "role": "lead" }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        { "t": "p", "text": "Two travellers in the Pañcatantra were talking about hopes that grow too large. One told the other of a poor brahmin named «Svabhāvakṛpaṇa»." },
+        { "t": "p", "text": "He received barley-meal by begging, ate some and kept the rest in a jar. One night he hung the precious jar from a peg and put his cot beneath it. As he looked up at the barley-meal he had saved, his thoughts wandered far beyond that room." },
+        { "t": "p", "text": "_If famine comes,_ he thought, _I can sell this meal for a hundred rupees. Then I can buy two she-goats._ He imagined their young growing into a herd. When the herd was big enough, he would sell it and buy cows." },
+        { "t": "p", "text": "The cows would have calves, and selling those calves would bring buffaloes. Buffaloes would lead to mares. The mares would bear horses, and the horses would bring him gold. In his mind he already had a great house with an inner court, although he had not yet sold a spoonful of meal." },
+        { "t": "beat" },
+        { "t": "p", "text": "Then he imagined a wife and a son. He would call the boy Moon-Lord. The brahmin pictured himself reading on the stable roof. The child would rush from his mother's lap toward him, close to the horses' hooves." },
+        { "t": "p", "text": "In the dream the brahmin called to his wife to take the child away. She was busy and did not answer. He imagined growing angry enough to get up and kick her." },
+        { "t": "beat" },
+        { "t": "p", "text": "His foot moved for real. It struck the jar hanging above him. The jar broke, and all the barley-meal fell over him, turning him white. There were no goats, horses, great house, wife or child in that room. There was only a broken jar and the food he had saved." },
+        { "t": "slow", "text": "The first thing he had actually owned was the very first thing his daydream cost him that night." }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        { "t": "p", "text": "In the Pañcatantra, two travellers have been arguing about wanting more than one can safely reach. One tells the other about a brahmin who had not yet lost anything when his mind began to spend it." },
+        { "t": "p", "text": "The brahmin, «Svabhāvakṛpaṇa», lived on what he could obtain by begging. One day he had barley-meal. He ate a portion and filled a jar with what remained." },
+        { "t": "p", "text": "He hung the jar on a peg. Beneath it he placed his cot, so that when he lay down the meal was above him. He could see it from where he rested. That night he looked up at the jar and began to imagine what it might become." },
+        { "t": "p", "text": "_If there is a famine,_ he thought, _people will need food. I will sell the barley-meal for a hundred rupees._ No famine had come. He had not sold the meal. Yet in his mind he was already holding the money." },
+        { "t": "p", "text": "_With that money I will buy two she-goats._ He imagined the goats bearing young. More goats would follow, and after enough births he would have a whole herd. He could then sell the herd and buy cows." },
+        { "t": "beat" },
+        { "t": "p", "text": "The cows would have calves. Selling the calves would let him buy buffaloes. Then he would trade again and buy mares. Each new animal existed only because he had already imagined selling the one before it." },
+        { "t": "p", "text": "The mares would bear horses. Horses would bring plenty of gold. He no longer looked at the jar as food for another day; in his thoughts it had become a long line of animals, each one turning into a larger purchase." },
+        { "t": "p", "text": "With the gold he would buy a great house. The Pañcatantra gives it an inner court. His dream had moved from a cot beneath one hanging jar to a home large enough for a family he did not yet have." },
+        { "t": "p", "text": "He imagined that someone would offer him a daughter in marriage. In the dream he married her, and they had a son. He even chose the boy's name: Moon-Lord." },
+        { "t": "p", "text": "The boy would grow old enough to ride on his father's knee. The brahmin pictured taking a book up to the stable roof and sitting there to read. The child, eager to reach him, would leave his mother's lap and come near the horses." },
+        { "t": "beat" },
+        { "t": "p", "text": "Now the imagined horses had hooves close to an imagined child. The brahmin thought he would call to his wife to take the boy away. In his dream she was busy with her work and did not heed him." },
+        { "t": "p", "text": "He imagined becoming angry. Rather than going to the child himself, he pictured rising and kicking his wife. This was not a wise or kind answer even inside the dream. It was the act his mind reached for while his real body lay on the cot." },
+        { "t": "p", "text": "The brahmin's leg moved. He kicked upward at the jar above him. It smashed. The barley-meal he had begged, eaten from and saved came down over him. It covered him so thoroughly that he was white all over." },
+        { "t": "beat" },
+        { "t": "p", "text": "He had not sold a single mouthful. He had not bought goats, cows, buffaloes or mares. There were no horses outside a stable and no gold waiting in a house. The wife and son had been people in a daydream, not people standing beside him." },
+        { "t": "p", "text": "Only the jar and its contents had been real, and they were broken and scattered. The chain of trades had needed a famine, a buyer, growing herds and one successful sale after another. His mind had stepped over all those uncertain parts as if they had already happened." },
+        { "t": "p", "text": "The traveller who tells the tale uses it to warn his companion against extravagant hope. The brahmin's loss comes at the exact point when the action in his dream reaches his sleeping body: he kicks, and the food on which the entire dream depended is gone." },
+        { "t": "slow", "text": "«Svabhāvakṛpaṇa» had built a whole life out of one jar. Before any part of that life arrived, he kicked away the one thing he truly had." }
+      ]
+    }
+  },
+  "close": {
+    "question": "When did the brahmin's plan stop being a plan and start becoming a dream he believed had already happened?",
+    "seed": "A plan can help, but we must remember which parts have happened and which are only hoped for.",
+    "ifTheyAsk": [
+      { "q": "Was it rice in the pot?", "a": "In the Ryder translation of the Pūrṇabhadra Pañcatantra used here, it was barley-meal. He got it by begging, ate some and saved the rest in a jar hung above his cot. Other retellings change the food, so the source named on this page matters." },
+      { "q": "Did he really kick his wife?", "a": "No wife appears in the room. He imagined a future wife not responding when their imagined son went near imagined horses. Then his real foot kicked the jar. The idea of kicking a person is still harmful; we do not need to laugh at her to understand why the pot breaks." },
+      { "q": "Is it wrong to imagine a better future?", "a": "The Pañcatantra's warning is about treating a hoped-for chain of events as though every step is already secure. Imagining possibilities is different from forgetting what is in front of you. The brahmin could have kept the barley-meal and still hoped; his unexamined action destroyed what he had." }
+    ]
+  }
+}

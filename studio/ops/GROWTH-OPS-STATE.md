@@ -2,6 +2,10 @@
 
 Updated: 2026-10-02. Keep this file compact; replace stale values.
 
+## Second five trilingual stories — 2026-10-03
+
+- Working batch: `studio/batches/2026-10-03-second-five/README.md`. Five English source-grounded drafts and notes saved; canon aligned; five WebP image candidates staged. Two Hindi and one Tamil locale drafts saved; seven remain. No new stories approved or published. Strict validation currently fails for missing lexicon keys (120 references) and warns on one long breath line. All three parallel agents stopped at the shared five-hour usage limit after 89% used / 29% weekly observed. Next exact action after reset: add lexicon entries, fix breath line, rerun strict validation, finish seven staged locales and review, then obtain native editing and measured read-aloud approval before promotion.
+
 ## First-five trilingual publication — 2026-10-03
 
 PR #23 is synced with production main and the five supplied approved WebPs are hash-matched and decode-verified. Rama confirmed the native Hindi/Tamil readings were timed at 3:00 short and 6:00 full for each story; this is recorded as 180/360 seconds per edition. Five English stories and ten Hindi/Tamil editions are promoted locally, with locale locks, public shelves, five 1200×630 OG cards, and curated campaign selectors. Strict validation, 138 tests, Vite compile and static locale/public/social/design/surface gates pass. The local PWA service-worker generator stalled before cache validation; remote CI, merge and live verification remain. The one-off promotion script is removed. Next action: push PR #23, use CI to resolve any remaining build/cache issue, merge, and verify production pages.

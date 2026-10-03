@@ -1,0 +1,281 @@
+{
+  "id": "bhagiratha-ganga",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-10-03",
+  "title": "Bhagīratha Waits for the River",
+  "tease": "The river is caught in Śiva’s hair, then swallowed by a sage. A king keeps going because sixty thousand ancestors still wait for her water.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Bāla Kāṇḍa 1.40–44",
+    "stability": "stable",
+    "traditionNote": "This telling follows Vālmīki’s Bāla Kāṇḍa, including Gaṅgā’s confinement in Śiva’s hair and the interruption at Jahnu’s rite. Purāṇic accounts also tell her descent, but the scene sequence and claims here are from the Rāmāyaṇa.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Bāla Kāṇḍa 1.40–44, Sanskrit with Desiraju Hanumanta Rao prose translation (valmikiramayan.net)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Sagara’s sixty thousand sons are reduced to ashes; Gaṅgā’s water is needed to release them.",
+        "locus": "Bāla Kāṇḍa 1.40–41"
+      },
+      {
+        "claim": "Aṃśumān and Dilīpa wish to bring Gaṅgā down but die without achieving it.",
+        "locus": "1.42.1–11; 1.44.9–12"
+      },
+      {
+        "claim": "Bhagīratha delegates the kingdom, goes to Gokarṇa, and performs austerities.",
+        "locus": "1.42.10–15"
+      },
+      {
+        "claim": "Bhagīratha asks Brahmā that Gaṅgā touch his ancestors’ ashes and that his line continue.",
+        "locus": "1.42.16–22"
+      },
+      {
+        "claim": "Brahmā says only Śiva can bear Gaṅgā’s descent; Bhagīratha then prays to Śiva.",
+        "locus": "1.42.23–24; 1.43.1–4"
+      },
+      {
+        "claim": "Śiva catches Gaṅgā in his matted hair, confines her, and releases her only after Bhagīratha renews his austerity.",
+        "locus": "1.43.5–12"
+      },
+      {
+        "claim": "Gaṅgā divides into seven streams, one following Bhagīratha’s chariot; her waters carry creatures and draw onlookers.",
+        "locus": "1.43.12–32"
+      },
+      {
+        "claim": "Gaṅgā floods Jahnu’s rite; he drinks her and later releases her from his ears, giving her the name Jāhnavī.",
+        "locus": "1.43.33–39"
+      },
+      {
+        "claim": "Gaṅgā reaches the ocean, enters the lower world, touches the sons’ ashes, and they reach heaven.",
+        "locus": "1.43.39–41; 1.44.1–4"
+      },
+      {
+        "claim": "Brahmā says Gaṅgā will bear Bhagīratha’s name; Bhagīratha performs offerings and returns to his city.",
+        "locus": "1.44.4–18"
+      }
+    ],
+    "parallels": [
+      {
+        "work": "Viṣṇu Purāṇa",
+        "locus": "Book 4, Sagara–Bhagīratha lineage"
+      },
+      {
+        "work": "Bhāgavata Purāṇa",
+        "locus": "Skandha 9, chapter 9"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "The story begins with the ashes of sixty thousand ancestors and ends when the river’s water releases them. Their deaths are recounted, not shown.",
+    "gated": false
+  },
+  "values": [
+    "finishing what three generations started"
+  ],
+  "themes": [
+    "ganga",
+    "ancestry",
+    "shaiva",
+    "river"
+  ],
+  "calendar": {
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Bhagīratha",
+      "role": "lead"
+    },
+    {
+      "ref": "Gaṅgā",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "present"
+    },
+    {
+      "ref": "Jahnu",
+      "role": "present"
+    },
+    {
+      "ref": "Sagara",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Aṃśumān",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Dilīpa",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 301,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The ashes of King «Sagara»'s sixty thousand sons lay far below the earth. Their descendant «Aṃśumān» had wanted to bring «Gaṅgā» to them. His son «Dilīpa» had wanted it too. Neither lived to see the river descend."
+        },
+        {
+          "t": "p",
+          "text": "Then «Dilīpa»'s son «Bhagīratha» became king. He entrusted his kingdom to his ministers and went to practise tapas, the long, hard work of prayer and self-discipline."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» came to him and offered a boon. «Bhagīratha» asked for «Gaṅgā»'s water to touch his ancestors' ashes, so they could reach heaven."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» agreed, but said the earth could not bear the river's fall from the sky. Only «Śiva» could catch her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bhagīratha» prayed to «Śiva». «Śiva» agreed to hold «Gaṅgā» on his head."
+        },
+        {
+          "t": "p",
+          "text": "She came down with tremendous force. «Śiva» caught her in his matted hair, where she could find no way out. «Bhagīratha» prayed again. At last «Śiva» released her, and one stream followed «Bhagīratha»'s chariot."
+        },
+        {
+          "t": "p",
+          "text": "The river ran swiftly, with fish and other water creatures tumbling in her current. Then she flooded the place where the sage «Jahnu» was making an offering. He drank up the river. The gods and sages asked him to release her, and he let her flow again from his ears. That is why she is also called «Jāhnavī», daughter of «Jahnu»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Bhagīratha» went on. «Gaṅgā» followed him to the ocean and down to the ashes below. Her water covered them. The sixty thousand sons reached heaven."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» told «Bhagīratha» that the river would also bear his name: «Bhāgīrathī». «Bhagīratha» offered water for his ancestors, then returned to the kingdom that had waited for him."
+        },
+        {
+          "t": "slow",
+          "text": "Three generations had held one task in mind. «Bhagīratha» did not bring the river down in a single answer; he kept asking, and then led her all the way to the people who needed her."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 651,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Long before «Bhagīratha» was born, King «Sagara»'s sixty thousand sons had died far below the earth. Their ashes remained there. Water from «Gaṅgā» could bring them release, but she flowed above the earth, beyond their reach."
+        },
+        {
+          "t": "p",
+          "text": "«Sagara»'s descendant «Aṃśumān» learned what was needed. He hoped to bring the river down but died before he could. His son «Dilīpa» kept the task before him. He too died without seeing «Gaṅgā» descend. Then «Dilīpa»'s son «Bhagīratha» inherited a kingdom and an unfinished duty."
+        },
+        {
+          "t": "p",
+          "text": "He left the kingdom in the care of his ministers and went to «Gokarṇa». There he stood with his arms raised and practised tapas for a long time, asking for the strength to finish what his father and grandfather could not."
+        },
+        {
+          "t": "p",
+          "text": "«Bhagīratha» had no child then, and the old duty was not the only thing on his mind. He wanted the family line to continue. Still, his first journey was away from the palace, to the place where he could ask for help with the river."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» came with the gods and invited him to ask for a boon. «Bhagīratha» joined his hands. He asked for «Gaṅgā»'s water to reach «Sagara»'s sons. When it touched their ashes, they could go to heaven. He also asked that his family line continue."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» agreed. Then he told «Bhagīratha» the next difficulty. «Gaṅgā» would fall from the sky with such force that the earth could not endure it. Only «Śiva» could receive her. One answer had brought «Bhagīratha» to a new task."
+        },
+        {
+          "t": "p",
+          "text": "So he prayed to «Śiva». After a year, «Śiva» appeared and promised to bear «Gaṅgā» on his head."
+        },
+        {
+          "t": "p",
+          "text": "«Gaṅgā» rushed downward. «Śiva» caught her in his matted hair. The river turned through the coils but could not find an opening. Years passed. «Bhagīratha» saw that the water still had not reached the earth, and he prayed again."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» released her into a lake. Six streams went east and west; a seventh followed «Bhagīratha». He rode ahead in his chariot, and «Gaṅgā» came after him."
+        },
+        {
+          "t": "p",
+          "text": "The water was full of life. Fish and other water creatures fell with it. People and gods gathered to watch. In one place the river ran straight; in another it bent; elsewhere it leapt upward and fell again. «Bhagīratha» kept moving, because the ashes were still far away."
+        },
+        {
+          "t": "p",
+          "text": "The sky shone with the ornaments of gods who came to watch. The river foamed white as she descended. Some people touched her water where it fell from «Śiva»’s head; «Bhagīratha», however, could not stop at the first place where she reached earth."
+        },
+        {
+          "t": "p",
+          "text": "The river reached the place where the sage «Jahnu» was performing a rite. Her water flooded his offering ground. Angry, «Jahnu» drank the whole river. Once more «Bhagīratha»'s path had no «Gaṅgā» in it."
+        },
+        {
+          "t": "p",
+          "text": "The gods and sages honoured «Jahnu» and asked him to release her. He did. «Gaṅgā» flowed from his ears, and from that day she was called «Jāhnavī», the daughter of «Jahnu». She went on behind «Bhagīratha»'s chariot."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They reached the ocean, then the world below it. «Bhagīratha» saw the heap of ashes and was grieved. «Gaṅgā»'s water covered the remains of «Sagara»'s sons. The Rāmāyaṇa says they were freed and went to heaven."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» came again. He told «Bhagīratha» that «Aṃśumān» and «Dilīpa» had longed to do this but could not. He said «Gaṅgā» would bear «Bhagīratha»'s name, «Bhāgīrathī». «Bhagīratha» then offered water for his ancestors as a family member does, and returned to his city. His people welcomed their king home."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» called her «Bhāgīrathī» because «Bhagīratha» had brought her down. He also named her as a river of three paths, through heaven, earth and the world below. The name remembered a journey, not simply the king who asked for it."
+        },
+        {
+          "t": "slow",
+          "text": "«Aṃśumān» could not finish it. «Dilīpa» could not finish it. «Bhagīratha» inherited their wish, found a path for the river, and stayed with her until that path reached its end."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When a task has been passed down to you, how do you decide which part is yours to do?",
+    "seed": "Finishing can mean carrying an old promise through every new obstacle.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did «Gaṅgā» have to land on «Śiva»’s head?",
+        "a": "«Brahmā» tells «Bhagīratha» that the earth could not withstand her fall from the sky. «Śiva» agrees to receive her. In this Rāmāyaṇa passage she remains caught in his matted hair until «Bhagīratha» prays again and «Śiva» releases a stream."
+      },
+      {
+        "q": "Why did «Jahnu» drink the whole river?",
+        "a": "«Gaṅgā» floods the place where he is performing a sacred rite, and he becomes angry. The gods and sages ask him to release her. He does, through his ears, which is why this passage gives her the name «Jāhnavī»."
+      },
+      {
+        "q": "Did «Bhagīratha» do what «Aṃśumān» and «Dilīpa» could not?",
+        "a": "Yes. The Rāmāyaṇa says both earlier kings wished to bring «Gaṅgā» down, but neither completed it. «Bhagīratha» asked «Brahmā» and «Śiva» for help, continued when «Gaṅgā» was caught in «Śiva»’s hair, and led her to the ashes below the ocean."
+      }
+    ]
+  }
+}

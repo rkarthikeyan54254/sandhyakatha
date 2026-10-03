@@ -1,0 +1,206 @@
+{
+  "id": "ravana-lifts-kailasa",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-10-03",
+  "title": "When Rāvaṇa Shook Kailāsa",
+  "tease": "A flying chariot stops at Śiva’s mountain. Rāvaṇa decides to move the mountain itself, until one toe presses down.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa",
+    "locus": "Uttara Kāṇḍa, sarga 16, the shaking of Kailāsa and the naming of Rāvaṇa",
+    "stability": "variant",
+    "traditionNote": "This follows Uttara Kāṇḍa 16, a later compositional layer but traditionally transmitted as part of Vālmīki’s Rāmāyaṇa. Its Nandī, toe-pinning and naming sequence differs from Śiva Purāṇa, Koṭirudra 28. Uttara 16 does not name the hymns as the extant Śiva Tāṇḍava Stotram.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa 16, Sanskrit text and English presentation at RamayanaPath (sourced to IIT Kanpur), accessed 2026-10-03",
+      "Śiva Purāṇa, Koṭirudra Saṃhitā 28.60–73, J. L. Shastri translation, consulted only for variant boundary, not as witness to the toe-pinning scene"
+    ],
+    "variants": [
+      {
+        "differs": "In Śiva Purāṇa, Koṭirudra Saṃhitā 28, Nārada urges Rāvaṇa to test the strength of Śiva’s boon by lifting Kailāsa; that passage does not narrate Śiva pinning him beneath the mountain and naming him.",
+        "tellings": "Uttara Kāṇḍa 16 begins with Puṣpaka stopped near Kailāsa, Nandī’s warning, the lifting, Śiva’s toe, long hymn recitation, release and naming.",
+        "weTell": "We follow Uttara Kāṇḍa 16 alone and leave out later identifications of the hymns."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Puṣpaka stops at Kailāsa and Nandī bars passage.",
+        "locus": "Uttara Kāṇḍa 16, opening encounter"
+      },
+      {
+        "claim": "Rāvaṇa mocks Nandī, who foretells monkey-shaped beings undoing his pride.",
+        "locus": "Uttara Kāṇḍa 16, Nandī encounter"
+      },
+      {
+        "claim": "Rāvaṇa shakes Kailāsa; Pārvatī clings to Śiva; Śiva pins Rāvaṇa’s arms by pressing the mountain with one toe.",
+        "locus": "Uttara Kāṇḍa 16, mountain-shaking sequence"
+      },
+      {
+        "claim": "Rāvaṇa cries out, recites hymns and sacred words over a thousand years, and Śiva releases him and names him Rāvaṇa.",
+        "locus": "Uttara Kāṇḍa 16, release and naming sequence"
+      },
+      {
+        "claim": "Śiva gives Rāvaṇa a shining sword before he departs.",
+        "locus": "Uttara Kāṇḍa 16, concluding boon"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "a villain who is not only that"
+  ],
+  "characters": [
+    {
+      "ref": "Rāvaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "lead"
+    },
+    {
+      "ref": "Nandī",
+      "role": "present"
+    },
+    {
+      "ref": "Pārvatī",
+      "role": "present"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Rāvaṇa»'s flying chariot had carried him past many places. Near Mount «Kailāsa», it stopped. No matter how he urged it forward, Puṣpaka would not move. The king who had seized that chariot from his brother was not used to being told where he could go."
+        },
+        {
+          "t": "p",
+          "text": "«Nandī», an attendant of «Śiva», came to meet him. «Śiva» was on this mountain, «Nandī» said. No one could pass into his place now. «Rāvaṇa» looked at the attendant and laughed at his face. «Nandī» answered that beings with a monkey's form would one day break the pride of «Rāvaṇa» and his family."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» did not turn back. He put his many arms under «Kailāsa». If the mountain blocked his chariot, he would move the mountain. He pushed upward, and the ground began to shake. «Śiva»'s attendants trembled. «Pārvatī» held on to «Śiva»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Śiva» pressed one toe against the mountain. «Kailāsa» came down on «Rāvaṇa»'s arms. He could not pull them free. His cry ran through the three worlds. The strength that had lifted a mountain could not lift it now."
+        },
+        {
+          "t": "p",
+          "text": "His ministers called to him: honour «Śiva»; seek his help. Caught beneath the mountain, «Rāvaṇa» recited hymns and sacred words. The telling gives this a vast span of time. He did not command the mountain again. He kept singing."
+        },
+        {
+          "t": "p",
+          "text": "At last «Śiva» released his arms. He spoke of «Rāvaṇa»'s courage and endurance, and gave him a name drawn from that great cry: Rāvaṇa. The king bowed, climbed back into Puṣpaka and went on his way."
+        },
+        {
+          "t": "slow",
+          "text": "The tale does not say that this meeting made every later act of «Rāvaṇa» right. It holds two things together: his fierce devotion and the pride that made him think another's home was his to move. At «Kailāsa», a single toe was enough to make him stop and sing instead."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Long before «Rāma» reached «Laṅkā», «Rāvaṇa» crossed the world in the flying chariot called Puṣpaka. He had taken it from his brother, the lord of wealth. Its great power seemed to answer his will: wherever he wished to travel, it carried him."
+        },
+        {
+          "t": "p",
+          "text": "Then, near Mount «Kailāsa», the chariot stopped. «Rāvaṇa» pressed on, but Puṣpaka would not move. He looked toward the mountain and wondered who had dared to stand in his way."
+        },
+        {
+          "t": "p",
+          "text": "A small figure came to meet him. This was «Nandī», an attendant of «Śiva». «Nandī» told the king that «Śiva» was on the mountain and that no visitor, however mighty, could pass into his place now. It was a boundary, plainly spoken."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» stared at «Nandī» and laughed at his face. The attendant did not step aside. He told «Rāvaṇa» that one day beings with the form of monkeys would rise against his strength and break his pride. «Rāvaṇa» heard the warning and ignored it."
+        },
+        {
+          "t": "p",
+          "text": "If the mountain would not let his chariot through, he said, he would uproot the mountain itself. He went to its foot, set his many arms beneath the rock and pushed. «Kailāsa» shook. Its heights moved. «Śiva»'s attendants were frightened, and «Pārvatī» clung to «Śiva» as the ground shifted around them."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» did not have to gather an army. He pressed the mountain with one great toe. Down came «Kailāsa», pinning «Rāvaṇa»'s arms beneath its weight. A moment earlier those arms had seemed strong enough to lift a home of gods. Now he could not pull them free."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» cried out. The sound shook the three worlds. His ministers heard it and urged him to turn toward the one whose mountain he had tried to move. They told him to praise «Śiva» and seek release. The king could still roar, but a roar would not raise «Kailāsa»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "So «Rāvaṇa» began to recite hymns and sacred words. The telling counts a thousand years of praise before he is freed. His arms could not move the stone, but his voice went on. He had demanded a path across «Śiva»'s mountain. Now he asked the lord of that mountain to hear him."
+        },
+        {
+          "t": "p",
+          "text": "At last «Śiva» was pleased. He lifted the weight from «Rāvaṇa»'s arms and praised his courage and endurance. He also gave him a name that would stay with him. The cry that had made the worlds tremble would be remembered in the name Rāvaṇa."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» then asked for a boon. «Śiva» gave him a shining sword. The king bowed, returned to Puṣpaka and continued across the earth. His path was not finished. The Rāmāyaṇa will tell of the harm he does, and of the people who stand against him. This meeting does not erase any of that."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "It is possible to be brave and devoted in one moment, and still need to answer for what one does in another. The scene does not ask us to pretend «Rāvaṇa» was only one thing. He could lift a mountain, mock the one who guarded it, and then spend an immense stretch of time praising the god who stopped him."
+        },
+        {
+          "t": "p",
+          "text": "Nor does the story turn «Nandī»'s warning into an empty threat. Later, the monkey allies of «Rāma» will matter greatly in the struggle with «Rāvaṇa». Here the warning lands before any of them appear. The king has heard a future he refuses to imagine."
+        },
+        {
+          "t": "p",
+          "text": "What he can feel now is the weight of «Kailāsa» and the limit of his own arms. The mountain was not an obstacle placed there for his journey. It was «Śiva»'s dwelling, and «Nandī» had told him so. «Rāvaṇa» chose to treat another's boundary as something to tear away."
+        },
+        {
+          "t": "slow",
+          "text": "The toe presses down. The shouting changes to praise. Then the arms are freed. That is the turn this telling keeps in view: strength cannot make every place yours, and even a king who will later do wrong can be heard when he calls on «Śiva» with devotion."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Why did Rāvaṇa try to move the mountain instead of turning his chariot around?",
+    "seed": "He had come to expect every path to answer his strength, even a place someone else called home.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Rāvaṇa really sing for a thousand years?",
+        "a": "Uttara Kāṇḍa 16 gives his praise that vast span; it marks how long and deeply he turned his voice toward Śiva. The telling does not give the hymns a surviving title."
+      },
+      {
+        "q": "Was Rāvaṇa good after Śiva let him go?",
+        "a": "Śiva acknowledges his courage and devotion here. The Rāmāyaṇa also tells the harm Rāvaṇa later causes; this meeting does not cancel that."
+      },
+      {
+        "q": "Did he sing the Śiva Tāṇḍava Stotram?",
+        "a": "Uttara Kāṇḍa 16 says he recited hymns and sacred words, but does not name them as that surviving poem. That identification belongs to later tradition."
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# The Brahmin's Dream — source note
+
+Primary telling selected: Arthur W. Ryder, *The Panchatantra* (1925), Pūrṇabhadra recension, Book V, "The Brahman's Dream": https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_5/The_Brahman's_Dream (checked 2026-10-03). Immediate frame: "Slow, the Weaver," https://en.wikisource.org/wiki/The_Panchatantra_(Purnabhadra%27s_Recension_of_1199_CE)/Book_5/Slow,_the_Weaver (checked 2026-10-03).
+
+Correction required before publication: the current canon row calls the pot's contents **rice** and says it is on a **shelf**. Ryder's witness says **barley-meal** in a jar **hung on a peg above the cot**. The sequence is barley-meal → hypothetical famine sale for one hundred rupees → goats → cows → buffaloes → mares/horses → gold → house → marriage/son → imagined kick toward wife → actual jar smashed and meal spilled over him. Keep the imagined violence explicit but do not make it admirable. Add `gender-norms` and a parental care note. A fuller comparison of Pañcatantra recensions should precede a `stable` declaration; this draft conservatively marks `variant` and identifies its chosen witness.
+
+The source tale is brief; the six-minute rendition must preserve the precise chain and the surrounding frame without inventing intermediate transactions, characters, or remorse. It may ultimately be judged a poor fit for the hard six-minute length gate; if so, do not pad or approve it. Human source and read-aloud review remains pending.
+
+The Sanskrit name and food term are independently visible in Pañcatantra 5.9 with a grammatical gloss at https://www.sanskrit-trikashaivism.com/hi/scriptures-stories-story-1-1/538 (checked 2026-10-03): Svabhāvakṛpaṇa and *saktu* (barley groats/meal). Ryder translates the name as “Seedy.”

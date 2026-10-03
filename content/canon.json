@@ -916,19 +916,22 @@
       "title": "Neither of Them Found the End",
       "corpus": "shiva-purana",
       "tradition": "sanskrit",
-      "work": "Śiva Purāṇa",
-      "locus": "Vidyeśvara Saṃhitā — the Liṅgodbhava",
-      "stability": "stable",
+      "work": "Śiva Purāṇa, Vidyeśvara Saṃhitā",
+      "locus": "chapters 6–8",
+      "stability": "variant",
       "minAge": 8,
-      "sensitivity": [],
+      "sensitivity": [
+        "violence"
+      ],
       "value": "the cost of one small lie",
-      "hook": "Two gods argue about who is greater. A column of fire appears with no top and no bottom, and they agree to race for the ends.",
+      "hook": "A column of fire takes in two terrible weapons. One god searches below, another flies above, and a falling flower is asked to witness something it never saw.",
       "festivals": [
         "mahashivaratri"
       ],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
-      "gated": false
+      "gated": false,
+      "careNote": "The two gods launch dangerous weapons. Near the end, an attendant seizes Brahmā’s fifth head and raises a sword, but Śiva stops him before the blow."
     },
     {
       "n": 48,
@@ -951,20 +954,20 @@
     {
       "n": 49,
       "id": "ravana-lifts-kailasa",
-      "title": "Rāvaṇa Lifts the Mountain",
-      "corpus": "shiva-purana",
+      "title": "When Rāvaṇa Shook Kailāsa",
+      "corpus": "ramayana",
       "tradition": "sanskrit",
-      "work": "Śiva Purāṇa; Rāmāyaṇa Uttara Kāṇḍa",
-      "locus": "Rāvaṇānugraha",
-      "stability": "stable",
+      "work": "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa",
+      "locus": "Uttara Kāṇḍa, sarga 16, the shaking of Kailāsa and the naming of Rāvaṇa",
+      "stability": "variant",
       "minAge": 8,
       "sensitivity": [],
       "value": "a villain who is not only that",
-      "hook": "He gets his hands under Kailāsa and starts to lift. Śiva presses down with one toe. Rāvaṇa is trapped for a thousand years — and spends them singing.",
+      "hook": "A flying chariot stops at Śiva’s mountain. Rāvaṇa decides to move the mountain itself, until one toe presses down.",
       "festivals": [
         "mahashivaratri"
       ],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
       "gated": false
     },
@@ -1010,39 +1013,45 @@
       "n": 52,
       "id": "bhagiratha-ganga",
       "title": "Bhagīratha Waits for the River",
-      "corpus": "vishnu-purana",
+      "corpus": "ramayana",
       "tradition": "sanskrit",
-      "work": "Viṣṇu Purāṇa; Bhāgavata Skandha 9",
-      "locus": "The descent of Gaṅgā",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Bāla Kāṇḍa 1.40–44",
       "stability": "stable",
       "minAge": 8,
       "sensitivity": [
         "death"
       ],
       "value": "finishing what three generations started",
-      "hook": "His great-grandfather's sixty thousand sons are ash. Bringing a river down out of the sky is the only way to do right by them, so he starts asking.",
+      "hook": "The river is caught in Śiva’s hair, then swallowed by a sage. A king keeps going because sixty thousand ancestors still wait for her water.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
-      "gated": false
+      "gated": false,
+      "careNote": "The story begins with the ashes of sixty thousand ancestors and ends when the river’s water releases them. Their deaths are recounted, not shown."
     },
     {
       "n": 53,
       "id": "sukanya-anthill",
       "title": "Two Lights in the Anthill",
-      "corpus": "bhagavata",
+      "corpus": "mahabharata",
       "tradition": "sanskrit",
-      "work": "Bhāgavata Purāṇa; Mahābhārata Vana Parva",
-      "locus": "Skandha 9, chapter 3",
-      "stability": "stable",
-      "minAge": 9,
-      "sensitivity": [],
+      "work": "Mahābhārata",
+      "locus": "Vana Parva, Tīrtha-yātrā Parva, sections CXXII–CXXIII in Ganguli's translation",
+      "stability": "variant",
+      "minAge": 10,
+      "sensitivity": [
+        "violence",
+        "parental-conflict",
+        "gender-norms"
+      ],
       "value": "the choice you make on purpose",
-      "hook": "A girl pokes a thorn into two glowing points in an anthill, out of curiosity. They turn out to be a very old man's eyes.",
+      "hook": "Sukanyā touches two lights in an anthill with thorns. Only afterward does she learn who was inside.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
-      "gated": false
+      "gated": true,
+      "careNote": "Sukanyā unknowingly injures a sage's eyes. He then demands that her father give her to him in marriage before he will forgive the family. The telling keeps that pressure visible; it does not call the marriage her free choice."
     },
     {
       "n": 54,
@@ -1274,20 +1283,23 @@
     {
       "n": 66,
       "id": "brahmin-and-the-pot",
-      "title": "The Pot of Rice on the Shelf",
+      "title": "The Jar Above the Cot",
       "corpus": "panchatantra",
       "tradition": "sanskrit",
-      "work": "Pañcatantra",
-      "locus": "Book V, the castle in the air",
-      "stability": "stable",
-      "minAge": 6,
-      "sensitivity": [],
+      "work": "Pañcatantra, Pūrṇabhadra recension in Arthur W. Ryder's translation",
+      "locus": "Book V, The Brahman's Dream (embedded tale following Slow, the Weaver)",
+      "stability": "variant",
+      "minAge": 9,
+      "sensitivity": [
+        "gender-norms"
+      ],
       "value": "the daydream that breaks the pot",
-      "hook": "A poor man lies under a shelf holding one pot of rice and works out, step by step, how it will make him rich enough to kick his future wife. Then he kicks.",
+      "hook": "A brahmin dreams that a jar of barley-meal will become a house, a family and a fortune. His foot reaches the jar first.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 3,
-      "gated": false
+      "gated": false,
+      "careNote": "In a daydream, the brahmin imagines kicking his future wife when she does not respond to him. No wife or child exists in the scene, and the actual kick breaks his own jar. The telling does not present violence toward her as a joke or a solution."
     },
     {
       "n": 67,

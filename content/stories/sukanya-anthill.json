@@ -1,0 +1,105 @@
+{
+  "id": "sukanya-anthill",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-10-03",
+  "title": "Two Lights in the Anthill",
+  "tease": "Sukanyā touches two lights in an anthill with thorns. Only afterward does she learn who was inside.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Vana Parva, Tīrtha-yātrā Parva, sections CXXII–CXXIII in Ganguli's translation",
+    "stability": "variant",
+    "traditionNote": "We follow the Mahābhārata: Sukanyā identifies Cyavana among three identical young men. The Bhāgavata Purāṇa tells this differently: she cannot distinguish him, and the Aśvins show her which man is her husband.",
+    "parallels": [
+      { "work": "Bhāgavata Purāṇa", "locus": "Skandha 9, chapter 3, verses 2–26" }
+    ],
+    "checkedAgainst": [
+      "Kisari Mohan Ganguli, Mahābhārata, Vana Parva, sections CXXII–CXXIII: https://sacred-texts.com/hin/m03/m03122.htm and https://sacred-texts.com/hin/m03/m03123.htm (accessed 2026-10-03)",
+      "Bhāgavata Purāṇa 9.3.2–26, Bhaktivedanta Book Trust translation: https://vedabase.io/en/library/sb/9/3/ (parallel checked 2026-10-03)"
+    ],
+    "variants": [
+      {
+        "differs": "Who identifies Cyavana after three identical young men emerge from the lake.",
+        "tellings": "In the Mahābhārata Sukanyā recognizes and chooses him; in Bhāgavata 9.3.16–17 she cannot tell them apart and the Aśvins show him to her.",
+        "weTell": "The Mahābhārata version, without importing the Bhāgavata's resolution."
+      }
+    ],
+    "sourcing": [
+      { "claim": "Cyavana performs long austerities beside a lake until an anthill covered with creepers grows over him.", "locus": "Vana CXXII, opening" },
+      { "claim": "King Śaryāti visits the lake with his daughter Sukanyā; she sees two points of light, does not hear Cyavana's quiet call, and pierces his eyes with thorns.", "locus": "Vana CXXII, forest and anthill" },
+      { "claim": "The sage's pain and anger afflict the king's troops by blocking their bodily functions; Sukanyā tells her father what she did.", "locus": "Vana CXXII, affliction and confession" },
+      { "claim": "Cyavana requires Sukanyā as bride as the condition for forgiving the king; Śaryāti gives her to him, and she tends him and their sacred fire.", "locus": "Vana CXXII, settlement and marriage" },
+      { "claim": "The divine physician twins, the Aśvins, ask Sukanyā to leave Cyavana; she refuses. They offer to make him young if she chooses among the three afterward.", "locus": "Vana CXXIII, encounter and offer" },
+      { "claim": "Cyavana agrees to enter the lake; all three emerge young and alike. Sukanyā identifies Cyavana and chooses him.", "locus": "Vana CXXIII, lake and choice" },
+      { "claim": "Cyavana promises to secure soma for the Aśvins in thanks, and they depart.", "locus": "Vana CXXIII, closing" }
+    ]
+  },
+  "audience": {
+    "minAge": 10,
+    "sensitivity": ["violence", "parental-conflict", "gender-norms"],
+    "careNote": "Sukanyā unknowingly injures a sage's eyes. He then demands that her father give her to him in marriage before he will forgive the family. The telling keeps that pressure visible; it does not call the marriage her free choice.",
+    "gated": true
+  },
+  "values": ["the choice you make on purpose"],
+  "characters": [
+    { "ref": "Sukanyā", "role": "lead" },
+    { "ref": "Cyavana", "role": "present" },
+    { "ref": "Śaryāti", "role": "present" },
+    { "ref": "Aśvins", "role": "present" }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        { "t": "p", "text": "For so long had the sage «Cyavana» sat beside a lake in prayer that an anthill had grown around him. Ants moved across the earth and creepers covered the mound. From inside it, only his eyes could be seen." },
+        { "t": "p", "text": "King «Śaryāti» came to the lake with his daughter «Sukanyā» and his household. Walking among the flowering trees, she noticed two little lights in the earth. The sage called to her, but his voice was too low for her to hear." },
+        { "t": "p", "text": "_What are those?_ she wondered. She put thorns into the two bright places. They were not lights at all. They were the eyes of the man inside the anthill." },
+        { "t": "beat" },
+        { "t": "p", "text": "«Cyavana» was hurt and angry. The king's men were suddenly unable to relieve themselves. No one knew why. When her father asked what had happened near the sage, «Sukanyā» saw the men's distress and told him what she had done." },
+        { "t": "p", "text": "The king went to the anthill and asked «Cyavana» to forgive her. The sage said he would do so only if «Sukanyā» became his wife. Her father agreed without waiting. No one asked her to choose. She went to live with «Cyavana» and cared for him, their guests, and the sacred fire." },
+        { "t": "beat" },
+        { "t": "p", "text": "Later the «Aśvins», twin physicians of the gods, met her. _Leave the old sage and choose one of us,_ they urged. «Sukanyā» refused. Then they offered to make «Cyavana» young. She told him, and he agreed." },
+        { "t": "p", "text": "All three entered the lake. Three young men came out, alike in face and dress, wearing shining earrings. The twins asked her to choose. «Sukanyā» looked carefully. The face she had known had changed, but she found «Cyavana» among them." },
+        { "t": "slow", "text": "At the anthill she had acted before she knew what she saw. Beside the lake she looked until she knew whom she was choosing." }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        { "t": "p", "text": "The sage «Cyavana» sat beside a lake and gave himself to long austerities. He stayed in one place so long that ants built up earth around him. Creepers grew over the mound. A person walking past might have seen only an anthill, not a man still sitting inside it." },
+        { "t": "p", "text": "One day King «Śaryāti» came to that lake with his household. His daughter «Sukanyā» walked among the trees with her companions, looking at the forest and breaking small flowering twigs. She came close to the mound." },
+        { "t": "p", "text": "From within the mound «Cyavana» saw her. He called out, but his voice was very low, and she did not hear him. Instead she noticed two bright points of light shining out of the earth." },
+        { "t": "p", "text": "She wondered what they were. In the Mahābhārata she later tells her father that she had thought they might be glowworms. She took thorns and pierced both lights. They were the sage's eyes." },
+        { "t": "beat" },
+        { "t": "p", "text": "«Cyavana» felt great pain. His anger reached the king's men: they found they could no longer pass water or relieve themselves. They were distressed, and the king knew that something had gone wrong near the sage's dwelling." },
+        { "t": "p", "text": "He questioned the people with him. Had anyone harmed «Cyavana»? No one could explain what had happened. «Sukanyā» saw her father's worry and the trouble among the soldiers. She told him about the two lights and the thorns." },
+        { "t": "p", "text": "The king went straight to the anthill. With his hands joined, he asked the old sage to forgive the harm his daughter had done without knowing. «Cyavana» named his condition: he wanted «Sukanyā» as his bride. Only then, he said, would he forgive them." },
+        { "t": "p", "text": "«Śaryāti» gave his daughter to the sage without waiting. No one asked «Sukanyā» to agree or refuse. The king's party returned home; «Sukanyā» stayed beside the lake." },
+        { "t": "p", "text": "She tended «Cyavana». She also welcomed guests and cared for the sacred fire. Time passed as they lived in the forest." },
+        { "t": "beat" },
+        { "t": "p", "text": "One day the «Aśvins» saw «Sukanyā». They were twin physicians of the gods. When they learned whose wife she was, they asked why she remained with an old man. They urged her to leave him and take one of them instead." },
+        { "t": "p", "text": "«Sukanyā» answered plainly: she was devoted to «Cyavana». The twins did not stop there. They offered another path. They could make the sage young; afterward she could choose among him and the two of them." },
+        { "t": "p", "text": "She went to «Cyavana» and repeated the offer. He told her to accept it. So she returned to the twins. They called the sage to the lake, and all three entered the water together." },
+        { "t": "p", "text": "When they came out, three young men stood before her. All wore shining earrings. All looked alike. The husband she had known as old and worn was somewhere among them, but no longer had the old face by which she knew him." },
+        { "t": "p", "text": "The twins told her to choose the one she wished for a husband. This time the story pauses with «Sukanyā» looking. She considered the three men, worked out which one was «Cyavana», and chose him." },
+        { "t": "beat" },
+        { "t": "p", "text": "«Cyavana» was pleased. In thanks, he promised the divine physicians a share of soma, the sacred drink they had not been allowed to receive at sacrifices. The twins were delighted and went back to heaven. «Cyavana» and «Sukanyā» stayed in the forest together." },
+        { "t": "p", "text": "The two choices in this tale are not the same. At the anthill, she reaches toward something before she knows what it is. Her father then settles her future under the sage's demand." },
+        { "t": "p", "text": "At the lake, with the twins waiting, she is asked to look and choose for herself. The three men stand alike before her; no old face makes the answer easy now." },
+        { "t": "slow", "text": "«Sukanyā» could not take back the thorns, and she had not chosen the bargain her father made. But when three figures rose from the water, she took the time to see which one she would name." }
+      ]
+    }
+  },
+  "close": {
+    "question": "Which choice in Sukanyā's story feels most like her own, and why?",
+    "seed": "Looking closely can change what we choose, even when we cannot change what came before.",
+    "ifTheyAsk": [
+      { "q": "Did Sukanyā want to marry the sage?", "a": "The Mahābhārata says Cyavana demanded the marriage as the condition for forgiving her father, and the king gave her to him. It does not describe her consent at that moment. We should not turn that silence into a cheerful answer. Later, when the Aśvins offered her another choice, the text says she chose Cyavana." },
+      { "q": "How did she know which young man was Cyavana?", "a": "Ganguli's Mahābhārata translation says she considered the three identical men and recognized her husband, but it does not explain the sign she used. The Bhāgavata Purāṇa tells this differently: she could not distinguish them, and the Aśvins showed her Cyavana." },
+      { "q": "Were his eyes healed?", "a": "The chosen passage tells us that the thorns hurt Cyavana's eyes and later that the Aśvins made him young in the lake. It does not describe a separate eye-healing scene, so we do not add one." }
+    ]
+  }
+}
