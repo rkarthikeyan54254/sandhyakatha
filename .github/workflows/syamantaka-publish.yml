@@ -147,6 +147,8 @@ jobs:
         run: npm run lock
       - name: Validate strict corpus
         run: npm run validate:strict
+      - name: Build shipped index
+        run: npm run content
       - name: Unit tests
         run: npm test
       - name: Production build
