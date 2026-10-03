@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-10-03",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -310,6 +310,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "0e8b3a708b9d48f7"
+    },
+    "hi-IN/syamantaka-mani": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "3ab2cb9dac6a036b"
     },
     "hi-IN/three-in-doorway": {
       "sourceVersion": 1,
@@ -655,6 +660,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "5139658292ae0022"
+    },
+    "ta-IN/syamantaka-mani": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "36b6c177e0a04b43"
     },
     "ta-IN/three-in-doorway": {
       "sourceVersion": 1,

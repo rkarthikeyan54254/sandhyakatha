@@ -413,6 +413,14 @@
       "storyStateAtProposal": "published",
       "status": "proposed",
       "reason": "Kerala Thiruvathira is associated with Shiva and Parvati; this story directly centers Parvati's determination to marry Shiva."
+    },
+    {
+      "observanceId": "ganesh-chaturthi",
+      "storyId": "syamantaka-mani",
+      "relevance": "direct",
+      "storyStateAtProposal": "published",
+      "status": "proposed",
+      "reason": "Mudgala Purāṇa 4.6 and Nārada Purāṇa 113 explicitly connect the Syamantaka accusation and its remedy with accidental Caturthī moon-sighting."
     }
   ]
 }

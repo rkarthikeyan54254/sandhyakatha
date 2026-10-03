@@ -1866,6 +1866,36 @@
         ]
       }
     },
+    "syamantaka-mani": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 2,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "full"
+          },
+          {
+            "index": 6,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 9,
+            "mode": "full"
+          }
+        ]
+      }
+    },
     "butter-rope": {
       "reel": {
         "hook": {

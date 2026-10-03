@@ -1749,6 +1749,34 @@
             }
           ]
         },
+        "syamantaka-mani": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "full"
+            }
+          ]
+        },
         "butter-rope": {
           "hook": {
             "from": "title",
@@ -3591,6 +3619,34 @@
             {
               "index": 15,
               "mode": "firstSentence"
+            }
+          ]
+        },
+        "syamantaka-mani": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 4,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 8,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 11,
+              "mode": "full"
             }
           ]
         },
