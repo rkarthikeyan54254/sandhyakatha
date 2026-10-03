@@ -1,0 +1,8 @@
+2026-10-03 approved publication preflight
+PASS: 5 English published + 10 Hindi/Tamil approved; exact reviewed prose unchanged
+PASS: 5 approved hero WebPs; 5 dedicated 1200x630 OG JPEGs, visually inspected, < 300 KB
+PASS: npm run lock (80 stories; 160 approved locales)
+PASS: npm run validate:strict (0 warnings)
+PASS: npm test (138/138)
+PASS: manual post-Vite prerender, locale/public/preview/social/design/surface gates
+INCOMPLETE: npm run build reaches Vite chunk generation then stalls in local PWA generation; cache gate reports dist/sw.js missing after interruption. Require passing final-head CI/deploy preview before merge.

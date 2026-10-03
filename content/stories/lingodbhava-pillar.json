@@ -1,7 +1,7 @@
 {
   "id": "lingodbhava-pillar",
   "schemaVersion": "1.0",
-  "status": "in-review",
+  "status": "published",
   "version": 1,
   "updated": "2026-10-03",
   "title": "Neither of Them Found the End",
@@ -61,7 +61,9 @@
         "tellings": "Śiva Purāṇa, Vidyeśvara Saṃhitā 7.22–23 has the flower say it fell from the middle of the pillar. Skanda Purāṇa, Māheśvara Khaṇḍa 1.126.28–30 has the petal say it had rested on Śiva’s crown and then descended.",
         "weTell": "The Vidyeśvara Saṃhitā: a flower falling from the middle cannot honestly witness Brahmā reaching the top."
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-03"
   },
   "audience": {
     "minAge": 8,

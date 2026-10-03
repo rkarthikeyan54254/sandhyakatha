@@ -275,14 +275,14 @@
       }
     },
     "bhagiratha-ganga": {
-      "canonStatus": "draft",
-      "storyVersion": null,
+      "canonStatus": "published",
+      "storyVersion": 1,
       "image": {
-        "status": "approved_pending_story_review",
+        "status": "approved",
         "type": "illustration",
         "file": "/media/stories/bhagiratha-ganga/hero.webp",
         "reviewedBy": "rama",
-        "reviewedOn": "2026-09-13"
+        "reviewedOn": "2026-10-03"
       },
       "voiceover": {
         "en": {
@@ -360,14 +360,14 @@
       }
     },
     "lingodbhava-pillar": {
-      "canonStatus": "draft",
-      "storyVersion": null,
+      "canonStatus": "published",
+      "storyVersion": 1,
       "image": {
-        "status": "approved_pending_story_review",
+        "status": "approved",
         "type": "illustration",
         "file": "/media/stories/lingodbhava-pillar/hero.webp",
         "reviewedBy": "rama",
-        "reviewedOn": "2026-09-13"
+        "reviewedOn": "2026-10-03"
       },
       "voiceover": {
         "en": {
@@ -1303,6 +1303,57 @@
         "file": "/media/stories/kulasekhara-march/hero.webp",
         "reviewedBy": "rama",
         "reviewedOn": "2026-10-02"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "sukanya-anthill": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/sukanya-anthill/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-03"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "brahmin-and-the-pot": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/brahmin-and-the-pot/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-03"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "ravana-lifts-kailasa": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ravana-lifts-kailasa/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-03"
       },
       "voiceover": {
         "en": {

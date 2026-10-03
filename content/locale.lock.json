@@ -36,6 +36,11 @@
       "status": "approved",
       "hash": "1ecc1b2560f7ad7a"
     },
+    "hi-IN/bhagiratha-ganga": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "d310f88893aca6db"
+    },
     "hi-IN/bharata-fawn": {
       "sourceVersion": 2,
       "status": "approved",
@@ -60,6 +65,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "57fb11255bc901f3"
+    },
+    "hi-IN/brahmin-and-the-pot": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "ca291383e48a2746"
     },
     "hi-IN/butter-rope": {
       "sourceVersion": 1,
@@ -206,6 +216,11 @@
       "status": "approved",
       "hash": "739a2ee09dbfa166"
     },
+    "hi-IN/lingodbhava-pillar": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "74faa5b4c20e0922"
+    },
     "hi-IN/maitreyi-wealth": {
       "sourceVersion": 2,
       "status": "approved",
@@ -276,6 +291,11 @@
       "status": "approved",
       "hash": "5984cb1be17c30df"
     },
+    "hi-IN/ravana-lifts-kailasa": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "506277c301225fdb"
+    },
     "hi-IN/sampati-words": {
       "sourceVersion": 2,
       "status": "approved",
@@ -315,6 +335,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "64bd15162d89420f"
+    },
+    "hi-IN/sukanya-anthill": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "7b1b8d74a3c4958a"
     },
     "hi-IN/sukra-spout": {
       "sourceVersion": 2,
@@ -411,6 +436,11 @@
       "status": "approved",
       "hash": "fa38a08636c00916"
     },
+    "ta-IN/bhagiratha-ganga": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "8978d99eb16d6862"
+    },
     "ta-IN/bharata-fawn": {
       "sourceVersion": 2,
       "status": "approved",
@@ -435,6 +465,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "60eb378272aec867"
+    },
+    "ta-IN/brahmin-and-the-pot": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "222e9ed5c89c3b50"
     },
     "ta-IN/butter-rope": {
       "sourceVersion": 1,
@@ -581,6 +616,11 @@
       "status": "approved",
       "hash": "e25787c5189af69a"
     },
+    "ta-IN/lingodbhava-pillar": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "682566fff7052e4a"
+    },
     "ta-IN/maitreyi-wealth": {
       "sourceVersion": 2,
       "status": "approved",
@@ -651,6 +691,11 @@
       "status": "approved",
       "hash": "641a4f9b95056627"
     },
+    "ta-IN/ravana-lifts-kailasa": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "31bb9cc7b4b16563"
+    },
     "ta-IN/sampati-words": {
       "sourceVersion": 2,
       "status": "approved",
@@ -690,6 +735,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "5e62cdbd71bc9dfa"
+    },
+    "ta-IN/sukanya-anthill": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "27260de2c535a586"
     },
     "ta-IN/sukra-spout": {
       "sourceVersion": 2,

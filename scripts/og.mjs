@@ -71,11 +71,12 @@ function heroDataUri(id) {
   if (!existsSync(webp)) return null;
   const tmp = join(tmpdir(), `sk-hero-${id}.png`);
   try {
-    execFileSync('convert', [webp, '-resize', `${HERO_W * 2}x`, tmp], { stdio: 'ignore' });
+    // dwebp ships with the WebP tooling used for story heroes and avoids a
+    // silent type-only card on hosts without ImageMagick.
+    execFileSync('dwebp', [webp, '-o', tmp], { stdio: 'ignore' });
     const b64 = readFileSync(tmp).toString('base64');
-    rmSync(tmp, { force: true });
     return `data:image/png;base64,${b64}`;
-  } catch { return null; }   // no ImageMagick: fall back to the type-only card
+  } finally { rmSync(tmp, { force: true }); }
 }
 
 function card(s) {
@@ -179,8 +180,9 @@ for (const f of files) {
   });
   const tmp = join(tmpdir(), `sk-card-${s.id}.png`);
   writeFileSync(tmp, r.render().asPng());
-  execFileSync('convert', [tmp, '-strip', '-interlace', 'Plane', '-quality', '82', out], { stdio: 'ignore' });
-  rmSync(tmp, { force: true });
+  try {
+    execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', tmp, '-frames:v', '1', '-q:v', '4', out], { stdio: 'ignore' });
+  } finally { rmSync(tmp, { force: true }); }
   console.log(`  drew ${s.id}.jpg`);
   drew++;
 }

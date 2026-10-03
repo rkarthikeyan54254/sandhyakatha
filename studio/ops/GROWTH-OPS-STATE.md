@@ -4,9 +4,9 @@ Updated: 2026-10-02. Keep this file compact; replace stale values.
 
 ## Second five trilingual stories — 2026-10-03
 
-- Draft PR #28 opened and mergeable for review; offline proof at `studio/batches/2026-10-03-second-five/review.html`: five source-grounded English drafts, ten staged Hindi/Tamil editions, five candidate WebP illustrations, source notes and counts. Sēkkiḻār's unsupported queued hook was replaced by Rāvaṇa lifting Kailāsa. None of these fifteen editions or five images is approved or published.
-- Strict repository validation PASS, staged native-language/mechanical gates PASS, 138 tests PASS. Full build reached Vite chunk generation but stalled in the post-Vite PWA step; complete build remains unverified. Human language/source and measured short/full timing gates remain pending for this new batch.
-- Next exact action: review all fifteen short/full editions and five images in the proof, record human corrections/approval and measured timings, then promote, lock, generate share cards, merge and verify production. Do not reuse earlier batch approvals or invent timing.
+- Rama read and approved the second-five review proof and reported 3:00/6:00 short/full readings in English, Hindi and Tamil; merge/deploy authorized. `studio/batches/2026-10-03-second-five/approval.json` records exact review commit and prose/image hashes. Five English stories and ten locale editions promoted; five hero images and five dedicated OG cards prepared. Sukanyā remains gated.
+- Strict repository validation PASS (0 warnings), 138 tests PASS, manual prerender/public/social/design/surface gates PASS. Local full build stalls at PWA service-worker generation after Vite chunks; cache gate cannot pass without `dist/sw.js`. Final-head CI/deploy preview is required before merge.
+- Next exact action: push the approved head to draft PR #28, verify complete final-head CI/deploy preview, merge and verify production story routes, images and OG metadata. Liṅgodbhava observance mapping remains proposed separately.
 
 ## First-five trilingual publication — 2026-10-03
 
