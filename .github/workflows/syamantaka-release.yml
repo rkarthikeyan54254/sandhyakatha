@@ -24,14 +24,11 @@ jobs:
           node <<'NODE'
           import fs from 'node:fs';
           import { createHash } from 'node:crypto';
-
           const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
           const write = (p, v) => fs.writeFileSync(p, JSON.stringify(v, null, 2) + '\n');
 
           const storyPath = 'content/stories/syamantaka-mani.json';
           const story = read(storyPath);
-          // Keep the canonical story in review until the native locale timing gates can be
-          // truthfully satisfied. This lets the three complete editions travel together.
           story.status = 'in-review';
           write(storyPath, story);
           const storyText = fs.readFileSync(storyPath, 'utf8');
@@ -41,8 +38,7 @@ jobs:
             .digest('hex');
           const contentHash = createHash('sha256')
             .update(JSON.stringify(story.lengths) + JSON.stringify(story.close))
-            .digest('hex')
-            .slice(0, 16);
+            .digest('hex').slice(0, 16);
 
           for (const localePath of [
             'content/locales/hi/syamantaka-mani.json',
@@ -61,130 +57,79 @@ jobs:
             n: 95,
             id: 'syamantaka-mani',
             title: 'The Jewel Kṛṣṇa Was Blamed For',
-            corpus: 'bhagavata',
-            tradition: 'sanskrit',
-            work: 'Bhāgavata Purāṇa',
+            corpus: 'bhagavata', tradition: 'sanskrit', work: 'Bhāgavata Purāṇa',
             locus: 'Skandha 10, chapter 56; parallel Viṣṇu Purāṇa IV.13',
-            stability: 'variant',
-            minAge: 7,
+            stability: 'variant', minAge: 7,
             sensitivity: ['death', 'violence', 'injustice'],
             value: 'looking at it before fixing it',
             hook: 'A hunter vanishes wearing a jewel bright as the Sun. Before anyone follows the tracks, Dvārakā has already decided who took it.',
-            festivals: ['ganesh-chaturthi'],
-            status: 'in-review',
-            wave: 5,
-            gated: false,
+            festivals: ['ganesh-chaturthi'], status: 'in-review', wave: 5, gated: false,
             careNote: 'Prasena and his horse are killed by a lion; Jāmbavān kills the lion; Kṛṣṇa and Jāmbavān fight for many days. The deaths and fight are stated plainly and not described graphically.'
           };
-          const canonIndex = canon.canon.findIndex(row => row.id === canonRow.id);
-          if (canonIndex >= 0) canon.canon[canonIndex] = canonRow;
-          else canon.canon.push(canonRow);
-          canon.canon.sort((a, b) => (a.n ?? 0) - (b.n ?? 0));
+          const ci = canon.canon.findIndex(row => row.id === canonRow.id);
+          if (ci >= 0) canon.canon[ci] = canonRow; else canon.canon.push(canonRow);
+          canon.canon.sort((a,b) => (a.n ?? 0) - (b.n ?? 0));
           write(canonPath, canon);
 
           const lexiconPath = 'content/lexicon.json';
           const lexicon = read(lexiconPath);
           Object.assign(lexicon, {
-            'Syamantaka': {
-              id: 'syamantaka-mani',
-              native: { deva: 'स्यमन्तक मणि', taml: 'ஸ்யமந்தக மணி' },
-              say: 'syuh-MUN-tuh-kuh MUH-nee',
-              kind: 'word',
-              gloss: 'The radiant jewel at the centre of this story, associated with Sūrya and with extraordinary prosperity when kept properly.',
-              aliases: ['Syamantaka Mani', 'Syamantaka Maṇi']
-            },
-            'Satrājit': {
-              id: 'satrajit',
-              native: { deva: 'सत्राजित्', taml: 'சத்ராஜித்' },
-              say: 'sut-RAA-jit',
-              kind: 'person',
-              gloss: 'A Yādava devotee of Sūrya who receives the Syamantaka jewel and chooses to keep it.',
-              aliases: ['Satrajit']
-            },
-            'Prasena': {
-              id: 'prasena',
-              native: { deva: 'प्रसेन', taml: 'பிரசேனன்' },
-              say: 'pruh-SAY-nuh',
-              kind: 'person',
-              gloss: "Satrājit's brother, killed by a lion while hunting with the Syamantaka jewel.",
-              aliases: ['Prasen']
-            },
-            'Dvārakā': {
-              id: 'dvaraka',
-              native: { deva: 'द्वारका', taml: 'துவாரகை' },
-              say: 'DWAAR-uh-kaa',
-              kind: 'place',
-              gloss: "Kṛṣṇa's city, where the accusation about Prasena and the Syamantaka jewel spreads.",
-              aliases: ['Dvaraka', 'Dwarka', 'Dwaraka']
-            },
-            'Ugrasena': {
-              id: 'ugrasena',
-              native: { deva: 'उग्रसेन', taml: 'உக்ரசேனன்' },
-              say: 'oog-ruh-SAY-nuh',
-              kind: 'person',
-              gloss: 'King of the Yādavas. Kṛṣṇa says a jewel of such public value should properly be placed with him.',
-              aliases: []
-            },
-            'Jāmbavatī': {
-              id: 'jambavati',
-              native: { deva: 'जाम्बवती', taml: 'ஜாம்பவதி' },
-              say: 'jaam-buh-VUH-tee',
-              kind: 'person',
-              gloss: "Jāmbavān's daughter, whom Kṛṣṇa marries after the Syamantaka jewel is recovered.",
-              aliases: ['Jambavati', 'Jambavathi']
-            }
+            'Syamantaka': { id:'syamantaka-mani', native:{deva:'स्यमन्तक मणि',taml:'ஸ்யமந்தக மணி'}, say:'syuh-MUN-tuh-kuh MUH-nee', kind:'word', gloss:'The radiant jewel at the centre of this story, associated with Sūrya and with extraordinary prosperity when kept properly.', aliases:['Syamantaka Mani','Syamantaka Maṇi'] },
+            'Satrājit': { id:'satrajit', native:{deva:'सत्राजित्',taml:'சத்ராஜித்'}, say:'sut-RAA-jit', kind:'person', gloss:'A Yādava devotee of Sūrya who receives the Syamantaka jewel and chooses to keep it.', aliases:['Satrajit'] },
+            'Prasena': { id:'prasena', native:{deva:'प्रसेन',taml:'பிரசேனன்'}, say:'pruh-SAY-nuh', kind:'person', gloss:"Satrājit's brother, killed by a lion while hunting with the Syamantaka jewel.", aliases:['Prasen'] },
+            'Dvārakā': { id:'dvaraka', native:{deva:'द्वारका',taml:'துவாரகை'}, say:'DWAAR-uh-kaa', kind:'place', gloss:"Kṛṣṇa's city, where the accusation about Prasena and the Syamantaka jewel spreads.", aliases:['Dvaraka','Dwarka','Dwaraka'] },
+            'Ugrasena': { id:'ugrasena', native:{deva:'उग्रसेन',taml:'உக்ரசேனன்'}, say:'oog-ruh-SAY-nuh', kind:'person', gloss:'King of the Yādavas. Kṛṣṇa says a jewel of such public value should properly be placed with him.', aliases:[] },
+            'Jāmbavatī': { id:'jambavati', native:{deva:'जाम्बवती',taml:'ஜாம்பவதி'}, say:'jaam-buh-VUH-tee', kind:'person', gloss:"Jāmbavān's daughter, whom Kṛṣṇa marries after the Syamantaka jewel is recovered.", aliases:['Jambavati','Jambavathi'] }
           });
           write(lexiconPath, lexicon);
 
           const mediaPath = 'content/media.json';
           const media = read(mediaPath);
           media.stories['syamantaka-mani'] = {
-            canonStatus: 'in-review',
-            storyVersion: 1,
-            image: {
-              status: 'approved',
-              type: 'illustration',
-              file: '/media/stories/syamantaka-mani/hero.webp',
-              reviewedBy: 'rama',
-              reviewedOn: '2026-10-03'
-            },
-            voiceover: { en: { status: 'not_started', file: null } }
+            canonStatus:'in-review', storyVersion:1,
+            image:{ status:'approved', type:'illustration', file:'/media/stories/syamantaka-mani/hero.webp', reviewedBy:'rama', reviewedOn:'2026-10-03' },
+            voiceover:{ en:{ status:'not_started', file:null } }
           };
           write(mediaPath, media);
 
           const lockPath = 'content/content.lock.json';
           const lock = read(lockPath);
           lock.generated = '2026-10-03';
-          lock.stories['syamantaka-mani'] = {
-            version: story.version,
-            status: story.status,
-            hash: contentHash
-          };
+          lock.stories['syamantaka-mani'] = { version:story.version, status:story.status, hash:contentHash };
           write(lockPath, lock);
 
           const mapPath = 'content/observance-story-map.json';
           const map = read(mapPath);
           const mapping = {
-            observanceId: 'ganesh-chaturthi',
-            storyId: 'syamantaka-mani',
-            relevance: 'direct',
-            storyStateAtProposal: 'in-review',
-            status: 'proposed',
-            reason: 'Mudgala Purāṇa 4.6 and Nārada Purāṇa 113 explicitly connect the Syamantaka accusation and its remedy with accidental Caturthī moon-sighting.'
+            observanceId:'ganesh-chaturthi', storyId:'syamantaka-mani', relevance:'direct',
+            storyStateAtProposal:'in-review', status:'proposed',
+            reason:'Mudgala Purāṇa 4.6 and Nārada Purāṇa 113 explicitly connect the Syamantaka accusation and its remedy with accidental Caturthī moon-sighting.'
           };
-          const mappingIndex = map.mappings.findIndex(x => x.observanceId === mapping.observanceId && x.storyId === mapping.storyId);
-          if (mappingIndex >= 0) map.mappings[mappingIndex] = mapping;
-          else map.mappings.push(mapping);
+          const mi = map.mappings.findIndex(x => x.observanceId === mapping.observanceId && x.storyId === mapping.storyId);
+          if (mi >= 0) map.mappings[mi] = mapping; else map.mappings.push(mapping);
           write(mapPath, map);
-
-          console.log({ sourceBlobSha1, contentHash, status: story.status });
+          console.log({sourceBlobSha1, contentHash, status:story.status});
           NODE
+
+          mkdir -p studio/review/syamantaka-mani
+          mv content/locales/hi/syamantaka-mani.json studio/review/syamantaka-mani/hi-IN.json
+          mv content/locales/ta/syamantaka-mani.json studio/review/syamantaka-mani/ta-IN.json
+          cat > studio/review/syamantaka-mani/README.md <<'EOF'
+          # Syamantaka Maṇi — locale review package
+
+          English canonical, Hindi and Tamil short/full tellings have been reviewed for content and are presented together in this PR.
+
+          The Hindi and Tamil files remain outside `content/locales/` until native read-aloud timing is measured and the repository's human language/source review gates are recorded. This avoids inventing `measuredSeconds` merely to satisfy publication parity.
+
+          After those timings are recorded, promote `hi-IN.json` and `ta-IN.json` into the runtime locale directories, lock them, add them to the public locale shelf, and publish the canonical story in the same release.
+          EOF
       - run: npm ci
       - name: Validate the review package
         run: npm run validate:strict
-      - name: Commit review metadata and remove one-off workflow
+      - name: Commit review package and remove one-off files
         run: |
           rm .github/workflows/syamantaka-release.yml
+          rm -f studio/ops/syamantaka-release-trigger.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
