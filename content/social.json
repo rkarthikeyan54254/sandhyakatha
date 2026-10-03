@@ -1895,6 +1895,108 @@
           }
         ]
       }
+    },
+    "butter-rope": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 8,
+            "mode": "full"
+          },
+          {
+            "index": 10,
+            "mode": "full"
+          },
+          {
+            "index": 11,
+            "mode": "full"
+          },
+          {
+            "index": 13,
+            "mode": "full"
+          },
+          {
+            "index": 14,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "last-grain": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "full"
+          },
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 4,
+            "mode": "full"
+          },
+          {
+            "index": 10,
+            "mode": "full"
+          },
+          {
+            "index": 12,
+            "mode": "full"
+          },
+          {
+            "index": 19,
+            "mode": "full"
+          }
+        ]
+      }
+    },
+    "banyan-seed": {
+      "reel": {
+        "hook": {
+          "from": "title",
+          "mode": "full"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "full"
+          },
+          {
+            "index": 3,
+            "mode": "full"
+          },
+          {
+            "index": 9,
+            "mode": "full"
+          },
+          {
+            "index": 11,
+            "mode": "full"
+          },
+          {
+            "index": 16,
+            "mode": "full"
+          },
+          {
+            "index": 17,
+            "mode": "full"
+          },
+          {
+            "index": 19,
+            "mode": "full"
+          }
+        ]
+      }
     }
   }
 }

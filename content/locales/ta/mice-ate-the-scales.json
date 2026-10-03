@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "mice-ate-the-scales",
   "sourceVersion": 1,
-  "sourceBlobSha1": "94f269e50ed4cf417b485fba59fa481b246b883c",
+  "sourceBlobSha1": "ea769af9866004a637d6a473c62d9e8a4c955a7b",
   "locale": "ta-IN",
   "language": "ta",
-  "status": "in-review",
+  "status": "approved",
   "register": "வீட்டில் வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்.",
   "title": "இரும்பைத் தின்ற எலிகளும் சிறுவனைத் தூக்கிய பருந்தும்",
   "tease": "இரும்புத் தராசை எலிகள் தின்றதாகச் சொன்ன வணிகர், பருந்து தன் மகனைத் தூக்கிச் சென்றதாகச் சொன்னதும் நம்ப மறுத்தார்.",
@@ -213,7 +213,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -278,7 +278,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -523,14 +523,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {

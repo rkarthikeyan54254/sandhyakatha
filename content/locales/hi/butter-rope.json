@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "butter-rope",
   "sourceVersion": 1,
-  "sourceBlobSha1": "605ec92839186348eb0f2fd4df4bcf02f4fa2b4d",
+  "sourceBlobSha1": "075a9f7bcc4a4fd5cafde26a58b8284ee000f939",
   "locale": "hi-IN",
   "language": "hi",
-  "status": "in-review",
+  "status": "approved",
   "register": "सहज, आत्मीय हिन्दी; घर में सुनाने योग्य भाषा।",
   "title": "मैया की रस्सी हर बार छोटी क्यों पड़ी?",
   "tease": "रस्सी पर रस्सी जुड़ती गई। फिर भी कान्हा को बाँधने के लिए दो अंगुल की कमी रह गई।",
@@ -160,7 +160,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -225,7 +225,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -386,14 +386,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {

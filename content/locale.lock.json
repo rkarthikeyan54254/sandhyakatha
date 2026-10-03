@@ -21,6 +21,11 @@
       "status": "approved",
       "hash": "b06f2457df2b83f0"
     },
+    "hi-IN/banyan-seed": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "1ecc1b2560f7ad7a"
+    },
     "hi-IN/bharata-fawn": {
       "sourceVersion": 2,
       "status": "approved",
@@ -40,6 +45,16 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "97ddc07aa482a749"
+    },
+    "hi-IN/blue-jackal": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "57fb11255bc901f3"
+    },
+    "hi-IN/butter-rope": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "dcb00b5a353d0ec5"
     },
     "hi-IN/chariot-and-horses": {
       "sourceVersion": 2,
@@ -171,6 +186,11 @@
       "status": "approved",
       "hash": "fbd18984409f3d78"
     },
+    "hi-IN/last-grain": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "739a2ee09dbfa166"
+    },
     "hi-IN/maitreyi-wealth": {
       "sourceVersion": 2,
       "status": "approved",
@@ -180,6 +200,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "9d8747971ba152ed"
+    },
+    "hi-IN/mice-ate-the-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "65a01806b86711e5"
     },
     "hi-IN/nachiketa-three-nights": {
       "sourceVersion": 2,
@@ -346,6 +371,11 @@
       "status": "approved",
       "hash": "ae27239939b94bd7"
     },
+    "ta-IN/banyan-seed": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "fa38a08636c00916"
+    },
     "ta-IN/bharata-fawn": {
       "sourceVersion": 2,
       "status": "approved",
@@ -365,6 +395,16 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "1fa3561964742288"
+    },
+    "ta-IN/blue-jackal": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "60eb378272aec867"
+    },
+    "ta-IN/butter-rope": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "066de0450ef0537e"
     },
     "ta-IN/chariot-and-horses": {
       "sourceVersion": 2,
@@ -496,6 +536,11 @@
       "status": "approved",
       "hash": "574b2cece72bd182"
     },
+    "ta-IN/last-grain": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "e25787c5189af69a"
+    },
     "ta-IN/maitreyi-wealth": {
       "sourceVersion": 2,
       "status": "approved",
@@ -505,6 +550,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "c9c292190f1139e4"
+    },
+    "ta-IN/mice-ate-the-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "2ae9b5ea72eb9fb2"
     },
     "ta-IN/nachiketa-three-nights": {
       "sourceVersion": 2,

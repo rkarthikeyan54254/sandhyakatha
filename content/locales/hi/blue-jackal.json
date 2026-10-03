@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "blue-jackal",
   "sourceVersion": 1,
-  "sourceBlobSha1": "2497bda9f9d8ce2ca8f43212818f559cdd07047e",
+  "sourceBlobSha1": "24c0e7557c25dac61342412de3a6e93220b944a0",
   "locale": "hi-IN",
   "language": "hi",
-  "status": "in-review",
+  "status": "approved",
   "register": "सहज, आत्मीय हिन्दी; घर में सुनाने योग्य भाषा।",
   "title": "नीला राजा हुआँ-हुआँ कर उठा",
   "tease": "वन के जानवर उसे अनोखा राजा मान बैठे। फिर पास से सियारों की आवाज़ आई, और नीले राजा से चुप न रहा गया।",
@@ -168,7 +168,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -228,7 +228,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -403,14 +403,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {

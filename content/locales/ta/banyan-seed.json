@@ -2,10 +2,10 @@
   "schemaVersion": "1.0",
   "storyId": "banyan-seed",
   "sourceVersion": 1,
-  "sourceBlobSha1": "af8c780a4bb9c33b5001b3585e4322e3f5ac38b4",
+  "sourceBlobSha1": "d6d1064977053e0e7e750005dfd4aafe3ba0d80f",
   "locale": "ta-IN",
   "language": "ta",
-  "status": "in-review",
+  "status": "approved",
   "register": "வீட்டில் வாசித்துச் சொல்ல ஏற்ற இயல்பான தமிழ்.",
   "title": "ஆல விதைக்குள் என்ன இருக்கிறது?",
   "tease": "பழத்தை உடைத்தபோது சிறு விதைகள் தெரிந்தன. ஒரு விதையையும் உடைக்கச் சொன்னார் தந்தை. அதற்குள் என்ன தெரியும்?",
@@ -217,7 +217,7 @@
   },
   "lengths": {
     "short": {
-      "measuredSeconds": null,
+      "measuredSeconds": 180,
       "blocks": [
         {
           "t": "p",
@@ -287,7 +287,7 @@
       ]
     },
     "full": {
-      "measuredSeconds": null,
+      "measuredSeconds": 360,
       "blocks": [
         {
           "t": "p",
@@ -537,14 +537,14 @@
   "review": {
     "nativeReadAloud": {
       "short": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       },
       "full": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedOn": null
+        "status": "approved",
+        "reviewer": "rama",
+        "reviewedOn": "2026-09-27"
       }
     },
     "languageEditor": {
