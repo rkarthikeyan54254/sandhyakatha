@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "reviewedOn": "2026-10-02",
+  "reviewer": "rama",
+  "approvedStoryIds": [
+    "amarniti-scales",
+    "sundarar-court",
+    "appar-spade",
+    "thirumangai-ring",
+    "kulasekhara-march"
+  ],
+  "canonicalEnglish": {
+    "editorial": "approved",
+    "sourceFidelity": "approved",
+    "publication": "approved"
+  },
+  "locales": {
+    "hi-IN": {
+      "languageEditor": "approved",
+      "sourceFidelity": "approved",
+      "nativeReadAloud": "approved-measured"
+    },
+    "ta-IN": {
+      "languageEditor": "approved",
+      "sourceFidelity": "approved",
+      "nativeReadAloud": "approved-measured"
+    }
+  },
+  "timingEvidence": "studio/batches/2026-10-02-ten-stories/checkpoint-5/read-aloud-timings.json",
+  "note": "Reviewer approved all five English stories and the Hindi and Tamil editions. Native read-aloud review and measured timing evidence are required before this script promotes any story. English copy was expanded only within the approved source boundaries to satisfy existing word-count gates."
+}

@@ -242,9 +242,9 @@
       "observanceId": "thirumangai-alvar-tirunakshatram",
       "storyId": "thirumangai-ring",
       "relevance": "direct",
-      "storyStateAtProposal": "draft",
+      "storyStateAtProposal": "published",
       "status": "proposed",
-      "reason": "The story directly centers Thirumangai Alvar; story remains draft."
+      "reason": "The story directly centers Thirumangai Alvar; story is published, while this observance mapping remains proposed."
     },
     {
       "observanceId": "tiruppan-alvar-tirunakshatram",
@@ -258,9 +258,9 @@
       "observanceId": "kulasekhara-alvar-tirunakshatram",
       "storyId": "kulasekhara-march",
       "relevance": "direct",
-      "storyStateAtProposal": "draft",
+      "storyStateAtProposal": "published",
       "status": "proposed",
-      "reason": "The story directly centers Kulasekhara Alvar; story remains draft."
+      "reason": "The story directly centers Kulasekhara Alvar; story is published, while this observance mapping remains proposed."
     },
     {
       "observanceId": "pusalar-nayanar-gurupuja",
@@ -290,17 +290,17 @@
       "observanceId": "tirunavukkarasar-gurupuja",
       "storyId": "appar-spade",
       "relevance": "direct",
-      "storyStateAtProposal": "draft",
+      "storyStateAtProposal": "published",
       "status": "proposed",
-      "reason": "The story directly centers Appar/Tirunavukkarasar; story remains draft."
+      "reason": "The story directly centers Appar/Tirunavukkarasar; story is published, while this observance mapping remains proposed."
     },
     {
       "observanceId": "sundaramurti-nayanar-gurupuja",
       "storyId": "sundarar-court",
       "relevance": "direct",
-      "storyStateAtProposal": "draft",
+      "storyStateAtProposal": "published",
       "status": "proposed",
-      "reason": "The story directly centers Sundaramurti/Sundarar; story remains draft."
+      "reason": "The story directly centers Sundaramurti/Sundarar; story is published, while this observance mapping remains proposed."
     },
     {
       "observanceId": "kannappa-nayanar-gurupuja",

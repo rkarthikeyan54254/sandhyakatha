@@ -1225,6 +1225,91 @@
           "file": null
         }
       }
+    },
+    "amarniti-scales": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/amarniti-scales/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-02"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "sundarar-court": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/sundarar-court/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-02"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "appar-spade": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/appar-spade/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-02"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "thirumangai-ring": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/thirumangai-ring/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-02"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "kulasekhara-march": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/kulasekhara-march/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-02"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

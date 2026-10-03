@@ -6,6 +6,11 @@
       "status": "approved",
       "hash": "021d34e16b65c95b"
     },
+    "hi-IN/amarniti-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "a83959bc4fbddffe"
+    },
     "hi-IN/ambarisha-waits": {
       "sourceVersion": 2,
       "status": "approved",
@@ -20,6 +25,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "b06f2457df2b83f0"
+    },
+    "hi-IN/appar-spade": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "32206d6a78b77f77"
     },
     "hi-IN/banyan-seed": {
       "sourceVersion": 1,
@@ -176,6 +186,11 @@
       "status": "approved",
       "hash": "ccdcd0fb81cc3bfd"
     },
+    "hi-IN/kulasekhara-march": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "94985e637a387315"
+    },
     "hi-IN/kunti-and-karna": {
       "sourceVersion": 1,
       "status": "approved",
@@ -306,6 +321,11 @@
       "status": "approved",
       "hash": "29eceedb5c9a98ce"
     },
+    "hi-IN/sundarar-court": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "61be5ac9f970c1c8"
+    },
     "hi-IN/svetaketu-salt": {
       "sourceVersion": 2,
       "status": "approved",
@@ -315,6 +335,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "3ab2cb9dac6a036b"
+    },
+    "hi-IN/thirumangai-ring": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "31b56151e8cb40b0"
     },
     "hi-IN/three-in-doorway": {
       "sourceVersion": 1,
@@ -356,6 +381,11 @@
       "status": "approved",
       "hash": "400eecc2c5dc1826"
     },
+    "ta-IN/amarniti-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "776fb87d3b3758a9"
+    },
     "ta-IN/ambarisha-waits": {
       "sourceVersion": 2,
       "status": "approved",
@@ -370,6 +400,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "ae27239939b94bd7"
+    },
+    "ta-IN/appar-spade": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "85557d16e7351abe"
     },
     "ta-IN/banyan-seed": {
       "sourceVersion": 1,
@@ -526,6 +561,11 @@
       "status": "approved",
       "hash": "0de2ee8fc2e8e496"
     },
+    "ta-IN/kulasekhara-march": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "85c31a9b7f593484"
+    },
     "ta-IN/kunti-and-karna": {
       "sourceVersion": 1,
       "status": "approved",
@@ -656,6 +696,11 @@
       "status": "approved",
       "hash": "04c0213e9fe259f3"
     },
+    "ta-IN/sundarar-court": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "14a0d224ce02eea3"
+    },
     "ta-IN/svetaketu-salt": {
       "sourceVersion": 2,
       "status": "approved",
@@ -665,6 +710,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "36b6c177e0a04b43"
+    },
+    "ta-IN/thirumangai-ring": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "99b5d0a9d61a7b02"
     },
     "ta-IN/three-in-doorway": {
       "sourceVersion": 1,

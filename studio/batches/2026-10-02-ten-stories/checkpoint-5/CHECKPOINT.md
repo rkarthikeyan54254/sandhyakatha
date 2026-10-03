@@ -64,18 +64,16 @@ The five exact WebPs supplied by Rama now replace the earlier binaries in
 and all five decode with `dwebp`. Rama approved the images and confirmed human
 read-aloud approval for the Hindi and Tamil editions.
 
-The **actual measured seconds for each Hindi/Tamil short and full reading have
-not yet been supplied**. The current `locale-parity-gates.mjs` requires those
-measurements, approved native reviews and public locale locks for *every*
-published English story. Accordingly, these fifteen editions remain staged;
-none of the five English stories is yet public. The one-shot GitHub promotion
-workflow was removed, the production locale validator restored, and the
-promotion script now checks all twenty measured values before any content
-write. Existing 70-story corpus strict validation passes.
+Rama subsequently confirmed that the native readings were timed at exactly
+3:00 short and 6:00 full for all five Hindi and Tamil editions. These are
+recorded as 180 and 360 seconds per edition in `read-aloud-timings.json`.
+The current `locale-parity-gates.mjs` requires those measurements, approved
+native reviews and public locale locks for *every* published English story.
+All fifteen editions are now promoted in the PR branch, with the ten locale
+editions on public shelves and locked to the exact English sources. Five
+1200×630 share cards use the supplied hero art. The one-shot GitHub promotion
+workflow was removed, and the production locale validator restored.
 
-Next exact action: record the five stories' Hindi and Tamil short/full measured
-seconds in `read-aloud-timings.json` as `{ "story-id": { "hi": {
-"short": 180, "full": 360 }, "ta": { "short": 180, "full": 360 } } }`
-using the **actual readings**, then run the guarded promotion, generate OG
-cards/locks, complete the full gates, and merge PR #23. The numbers above show
-the file shape only; they are not claimed measurements.
+Strict validation and 138 tests pass. Complete the production build, push PR
+#23, confirm remote checks, merge and verify the live English/Hindi/Tamil
+pages. This checkpoint supersedes the original staged-only status above.

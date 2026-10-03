@@ -17,9 +17,9 @@
     "total": 15
   },
   "localeState": {
-    "status": "in-review",
-    "measuredSeconds": null,
-    "humanReviewGates": "editorial and source approved by Rama; native read-aloud approved verbally 2026-10-03; actual measured seconds not supplied"
+    "status": "approved",
+    "measuredSeconds": "short 180; full 360 for each Hindi and Tamil edition, confirmed by Rama on 2026-10-03",
+    "humanReviewGates": "language editor, source fidelity and native read-aloud approved"
   },
   "firstFiveRemaining": [],
   "secondFivePending": [
@@ -29,8 +29,9 @@
     "brahmin-and-the-pot",
     "sekkizhar-first-word"
   ],
-  "promotionState": "blocked-by-missing-measured-native-read-aloud-seconds",
-  "humanReviewState": "English, Hindi and Tamil approved by Rama; measured duration evidence pending",
-  "mediaState": "five exact user-supplied approved hero WebPs committed and decode-verified; OG derivatives pending publication",
-  "fullRepoGates": "existing 70-story corpus strict validation passed 2026-10-03; first-five promotion awaits timing evidence"
+  "promotionState": "five-story-trilingual-promoted-locally",
+  "humanReviewState": "English, Hindi and Tamil approved by Rama; native measured times confirmed 2026-10-03",
+  "mediaState": "five exact supplied WebPs and five 1200x630 OG cards in public media",
+  "fullRepoGates": "strict validation, 138 tests, Vite compile, locale/public/social/design/surface gates pass; local PWA service-worker generator stalled before cache check; remote CI pending",
+  "timingEvidence": "studio/batches/2026-10-02-ten-stories/checkpoint-5/read-aloud-timings.json"
 }

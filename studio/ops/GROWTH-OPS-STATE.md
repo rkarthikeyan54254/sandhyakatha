@@ -4,18 +4,7 @@ Updated: 2026-10-02. Keep this file compact; replace stale values.
 
 ## First-five trilingual publication — 2026-10-03
 
-PR #23 was synced with current production `main`. Five Rama-supplied hero WebPs
-were hash-matched, decoded, and committed. The unsafe one-shot promotion
-workflow was removed, and the production locale validator restored. The
-existing corpus passes `npm run validate:strict` (70 English, 140 approved
-locale editions). First-five English/Hindi/Tamil editions remain in the durable
-checkpoint; none is published yet. Rama confirmed native read-aloud approval,
-but did not provide the twenty measured seconds required for the Hindi/Tamil
-short/full readings. The promotion script now fails before any live content
-write without all twenty values. Next action: enter actual values in
-`studio/batches/2026-10-02-ten-stories/checkpoint-5/read-aloud-timings.json`,
-promote, create OG cards and locks, run full gates, then merge PR #23 and verify
-production. Do not substitute word-count estimates for those measurements.
+PR #23 is synced with production main and the five supplied approved WebPs are hash-matched and decode-verified. Rama confirmed the native Hindi/Tamil readings were timed at 3:00 short and 6:00 full for each story; this is recorded as 180/360 seconds per edition. Five English stories and ten Hindi/Tamil editions are promoted locally, with locale locks, public shelves, five 1200×630 OG cards, and curated campaign selectors. Strict validation, 138 tests, Vite compile and static locale/public/social/design/surface gates pass. The local PWA service-worker generator stalled before cache validation; remote CI, merge and live verification remain. The one-off promotion script is removed. Next action: push PR #23, use CI to resolve any remaining build/cache issue, merge, and verify production pages.
 
 ## Current execution checkpoint — supersedes planning-only statuses below
 

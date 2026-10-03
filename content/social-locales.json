@@ -1860,6 +1860,146 @@
               "mode": "full"
             }
           ]
+        },
+        "amarniti-scales": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            }
+          ]
+        },
+        "sundarar-court": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "full"
+            },
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            },
+            {
+              "index": 6,
+              "mode": "full"
+            }
+          ]
+        },
+        "appar-spade": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            }
+          ]
+        },
+        "thirumangai-ring": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            }
+          ]
+        },
+        "kulasekhara-march": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            }
+          ]
         }
       }
     },
@@ -3730,6 +3870,146 @@
             },
             {
               "index": 10,
+              "mode": "full"
+            }
+          ]
+        },
+        "amarniti-scales": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            }
+          ]
+        },
+        "sundarar-court": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "full"
+            },
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            },
+            {
+              "index": 6,
+              "mode": "full"
+            }
+          ]
+        },
+        "appar-spade": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 7,
+              "mode": "full"
+            }
+          ]
+        },
+        "thirumangai-ring": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 5,
+              "mode": "full"
+            }
+          ]
+        },
+        "kulasekhara-march": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "full"
+            },
+            {
+              "index": 2,
+              "mode": "full"
+            },
+            {
+              "index": 3,
+              "mode": "full"
+            },
+            {
+              "index": 4,
+              "mode": "full"
+            },
+            {
+              "index": 7,
               "mode": "full"
             }
           ]
