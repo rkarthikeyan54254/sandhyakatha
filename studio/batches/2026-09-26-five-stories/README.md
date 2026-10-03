@@ -6,7 +6,7 @@ Rama reviewed and approved all fifteen editions in both lengths and authorized m
 
 Rama explicitly confirmed the 3/6-minute durations are measured aloud and authorized production deployment. All ten locale editions now record 180/360 seconds, all human gates are approved, and the editions have moved to `content/locales/{hi,ta}`. Canonical stories, canon/media metadata and content locks are updated. Blue-jackal and mice-ate-the-scales retain their age gates; the other three are added to public Hindi/Tamil shelves.
 
-`review.html` and `validation.json` now read the final runtime editions. Publication build evidence is in `publication-preflight.txt`. PR: https://github.com/rkarthikeyan54254/sandhyakatha/pull/21
+`review.html` and `validation.json` now read the final runtime editions. The local publication preflight log is in `publication-preflight.txt`; the complete production build must be confirmed by CI on the final PR head. PR: https://github.com/rkarthikeyan54254/sandhyakatha/pull/21
 
 Next: merge the passing publication commit, verify its production deployment and record evidence.
 

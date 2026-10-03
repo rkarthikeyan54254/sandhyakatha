@@ -17,3 +17,5 @@ locale parity gate: PASS — 69 published canonical stories · 138 required Hind
 reel workflow gate: PASS — one CLI · selector-only locale config · no parallel generators · DOM parser + complex-script safe-area regressions covered
 campaign workflow gate: PASS — one publishing command · English + public locales · reel + carousel · Instagram + Facebook + YouTube + WhatsApp · shared complex-script policy
 app locale workflow gate: PASS — one Tonight picker · one Reader · reviewed public locale runtime only · Hindi/Tamil discovery from home
+
+LOCAL PREFLIGHT INCOMPLETE: the October 3 run was interrupted after the content phase because local TypeScript compilation stalled. Require a passing CI production build on the final PR head before merging.
