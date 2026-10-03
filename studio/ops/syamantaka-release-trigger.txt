@@ -1,1 +1,1 @@
-Trigger the one-off Syamantaka review metadata application.
+Trigger the corrected one-off Syamantaka trilingual review packaging.
