@@ -3097,5 +3097,229 @@
       "Kulashekhara Alvar",
       "Kulasekara Azhwar"
     ]
+  },
+  "Bhairava": {
+    "id": "bhairava",
+    "native": {
+      "deva": "भैरव"
+    },
+    "say": "BHY-ruh-vuh",
+    "ipa": "ˈbʱai.rɐ.ʋɐ",
+    "kind": "being",
+    "gloss": "A fierce form of Śiva summoned in the Liṅgodbhava telling to confront Brahmā after the false claim.",
+    "aliases": [
+      "Bhairav",
+      "Bhairava"
+    ]
+  },
+  "Ketakī": {
+    "id": "ketaki",
+    "native": {
+      "deva": "केतकी"
+    },
+    "say": "KAY-tuh-kee",
+    "ipa": "ˈkeː.tɐ.kiː",
+    "kind": "word",
+    "gloss": "The fragrant ketakī flower that becomes a witness in the Liṅgodbhava story.",
+    "aliases": [
+      "Ketaki",
+      "Ketaki flower",
+      "Screw pine"
+    ]
+  },
+  "Aṃśumān": {
+    "id": "amsuman",
+    "native": {
+      "deva": "अंशुमान्"
+    },
+    "say": "UM-shoo-maan",
+    "ipa": "ˈɐ̃.ɕʊ.maːn",
+    "kind": "person",
+    "gloss": "King Sagara’s grandson, who learns what is needed to free his uncles after their destruction.",
+    "aliases": [
+      "Anshuman",
+      "Amsuman"
+    ]
+  },
+  "Bhagīratha": {
+    "id": "bhagiratha",
+    "native": {
+      "deva": "भगीरथ"
+    },
+    "say": "bhuh-GEE-ruh-thuh",
+    "ipa": "bʱɐˈɡiː.rɐ.tʰɐ",
+    "kind": "person",
+    "gloss": "The king whose long effort brings Gaṅgā from heaven to the earth and to his ancestors.",
+    "aliases": [
+      "Bhagirath",
+      "Bhagiratha"
+    ]
+  },
+  "Bhāgīrathī": {
+    "id": "bhagirathi",
+    "native": {
+      "deva": "भागीरथी"
+    },
+    "say": "bhaa-GEE-ruh-thee",
+    "ipa": "bʱaːˈɡiː.rɐ.tʰiː",
+    "kind": "word",
+    "gloss": "A name for Gaṅgā that remembers Bhagīratha’s work to bring her down.",
+    "aliases": [
+      "Bhagirathi",
+      "Bhageerathi"
+    ]
+  },
+  "Dilīpa": {
+    "id": "dilipa",
+    "native": {
+      "deva": "दिलीप"
+    },
+    "say": "dih-LEE-puh",
+    "ipa": "d̪ɪˈliː.pɐ",
+    "kind": "person",
+    "gloss": "Bhagīratha’s father, who sought to complete the work begun for their ancestors.",
+    "aliases": [
+      "Dilipa",
+      "Dileep"
+    ]
+  },
+  "Gokarṇa": {
+    "id": "gokarna",
+    "native": {
+      "deva": "गोकर्ण"
+    },
+    "say": "GOH-kur-nuh",
+    "ipa": "ˈɡoː.kɐr.ɳɐ",
+    "kind": "place",
+    "gloss": "The place where Bhagīratha practises tapas in the Gaṅgā-descent account.",
+    "aliases": [
+      "Gokarna",
+      "Gokarn"
+    ]
+  },
+  "Jahnu": {
+    "id": "jahnu",
+    "native": {
+      "deva": "जह्नु"
+    },
+    "say": "JUH-noo",
+    "ipa": "ˈdʒɐɦ.nu",
+    "kind": "person",
+    "gloss": "The sage who drinks the flooding Gaṅgā and later releases her, giving her the name Jāhnavī.",
+    "aliases": [
+      "Jahnu"
+    ]
+  },
+  "Jāhnavī": {
+    "id": "jahnavi",
+    "native": {
+      "deva": "जाह्नवी"
+    },
+    "say": "JAAH-nuh-vee",
+    "ipa": "ˈdʒaːɦ.nɐ.ʋiː",
+    "kind": "word",
+    "gloss": "A name for Gaṅgā after she flows out again from the sage Jahnu.",
+    "aliases": [
+      "Jahnavi",
+      "Jahnvee"
+    ]
+  },
+  "Sagara": {
+    "id": "sagara",
+    "native": {
+      "deva": "सगर"
+    },
+    "say": "SUH-guh-ruh",
+    "ipa": "ˈsɐ.ɡɐ.rɐ",
+    "kind": "person",
+    "gloss": "The king whose sons’ fate begins the generations-long quest to bring Gaṅgā down.",
+    "aliases": [
+      "Sagar",
+      "Saagara"
+    ]
+  },
+  "Aśvins": {
+    "id": "ashvins",
+    "native": {
+      "deva": "अश्विनौ"
+    },
+    "say": "USH-vins",
+    "ipa": "ˈɐɕ.ʋɪnz",
+    "kind": "being",
+    "gloss": "The twin divine physicians who offer to restore the sage Cyavana’s youth.",
+    "aliases": [
+      "Ashvins",
+      "Ashwins",
+      "Ashvin twins"
+    ]
+  },
+  "Cyavana": {
+    "id": "cyavana",
+    "native": {
+      "deva": "च्यवन"
+    },
+    "say": "CHYUH-vuh-nuh",
+    "ipa": "ˈtɕjɐ.ʋɐ.nɐ",
+    "kind": "person",
+    "gloss": "The sage living in an anthill whom Sukanyā accidentally hurts and later marries.",
+    "aliases": [
+      "Chyavana",
+      "Chyavan"
+    ]
+  },
+  "Sukanyā": {
+    "id": "sukanya",
+    "native": {
+      "deva": "सुकन्या"
+    },
+    "say": "soo-KUN-yaa",
+    "ipa": "sʊˈkɐn.jaː",
+    "kind": "person",
+    "gloss": "King Śaryāti’s daughter, whose encounter with Cyavana and the Aśvin twins tests her discernment.",
+    "aliases": [
+      "Sukanya"
+    ]
+  },
+  "Śaryāti": {
+    "id": "sharyati",
+    "native": {
+      "deva": "शर्याति"
+    },
+    "say": "SHUR-yaa-tee",
+    "ipa": "ˈɕɐr.jaː.t̪i",
+    "kind": "person",
+    "gloss": "The king and father of Sukanyā in the Cyavana episode.",
+    "aliases": [
+      "Sharyati",
+      "Saryati"
+    ]
+  },
+  "Svabhāvakṛpaṇa": {
+    "id": "svabhavakripana",
+    "native": {
+      "deva": "स्वभावकृपण"
+    },
+    "say": "svuh-BHAA-vuh KRI-puh-nuh",
+    "ipa": "sʋɐˈbʱaː.ʋɐ.kr̩.pɐ.ɳɐ",
+    "kind": "person",
+    "gloss": "The brahmin in the Pañcatantra who imagines a fortune from one jar of barley-meal.",
+    "aliases": [
+      "Svabhavakripana",
+      "Svabhavakripana Brahmin"
+    ]
+  },
+  "Nandī": {
+    "id": "nandi",
+    "native": {
+      "deva": "नन्दी"
+    },
+    "say": "NUN-dee",
+    "ipa": "ˈnɐn.d̪iː",
+    "kind": "being",
+    "gloss": "Śiva’s attendant who bars Rāvaṇa from crossing Kailāsa and warns him about the pride of his strength.",
+    "aliases": [
+      "Nandi",
+      "Nandishvara"
+    ]
   }
 }

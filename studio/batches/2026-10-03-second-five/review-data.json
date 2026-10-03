@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-03T17:07:36.293Z",
+  "purpose": "offline editorial review",
+  "publicationReady": false,
+  "stories": [
+    {
+      "id": "lingodbhava-pillar",
+      "source": "Śiva Purāṇa, Vidyeśvara Saṃhitā · chapters 6–8",
+      "editions": {
+        "en": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 302,
+            "full": 654
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 322,
+            "full": 669
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "status": "draft",
+          "spokenWords": {
+            "short": 133,
+            "full": 247
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "bhagiratha-ganga",
+      "source": "Vālmīki Rāmāyaṇa · Bāla Kāṇḍa 1.40–44",
+      "editions": {
+        "en": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 301,
+            "full": 651
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 305,
+            "full": 654
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "status": "draft",
+          "spokenWords": {
+            "short": 143,
+            "full": 273
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "sukanya-anthill",
+      "source": "Mahābhārata · Vana Parva, Tīrtha-yātrā Parva, sections CXXII–CXXIII in Ganguli's translation",
+      "editions": {
+        "en": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 301,
+            "full": 650
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 310,
+            "full": 668
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "status": "draft",
+          "spokenWords": {
+            "short": 154,
+            "full": 325
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "brahmin-and-the-pot",
+      "source": "Pañcatantra, Pūrṇabhadra recension in Arthur W. Ryder's translation · Book V, The Brahman's Dream (embedded tale following Slow, the Weaver)",
+      "editions": {
+        "en": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 301,
+            "full": 666
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 313,
+            "full": 680
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "status": "draft",
+          "spokenWords": {
+            "short": 137,
+            "full": 270
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "ravana-lifts-kailasa",
+      "source": "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa · Uttara Kāṇḍa, sarga 16, the shaking of Kailāsa and the naming of Rāvaṇa",
+      "editions": {
+        "en": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 302,
+            "full": 654
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "status": "in-review",
+          "spokenWords": {
+            "short": 300,
+            "full": 651
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "status": "draft",
+          "spokenWords": {
+            "short": 130,
+            "full": 236
+          },
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    }
+  ]
+}

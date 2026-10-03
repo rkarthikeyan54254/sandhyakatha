@@ -4,7 +4,9 @@ Updated: 2026-10-02. Keep this file compact; replace stale values.
 
 ## Second five trilingual stories — 2026-10-03
 
-- Working batch: `studio/batches/2026-10-03-second-five/README.md`. Five English source-grounded drafts and notes saved; canon aligned; five WebP image candidates staged. Two Hindi and one Tamil locale drafts saved; seven remain. No new stories approved or published. Strict validation currently fails for missing lexicon keys (120 references) and warns on one long breath line. All three parallel agents stopped at the shared five-hour usage limit after 89% used / 29% weekly observed. Next exact action after reset: add lexicon entries, fix breath line, rerun strict validation, finish seven staged locales and review, then obtain native editing and measured read-aloud approval before promotion.
+- Draft review package complete at `studio/batches/2026-10-03-second-five/review.html`: five source-grounded English drafts, ten staged Hindi/Tamil editions, five candidate WebP illustrations, source notes and counts. Sēkkiḻār's unsupported queued hook was replaced by Rāvaṇa lifting Kailāsa. None of these fifteen editions or five images is approved or published.
+- Strict repository validation PASS, staged native-language/mechanical gates PASS, 138 tests PASS. Full build reached Vite chunk generation but stalled in the post-Vite PWA step; complete build remains unverified. Human language/source and measured short/full timing gates remain pending for this new batch.
+- Next exact action: review all fifteen short/full editions and five images in the proof, record human corrections/approval and measured timings, then promote, lock, generate share cards, merge and verify production. Do not reuse earlier batch approvals or invent timing.
 
 ## First-five trilingual publication — 2026-10-03
 
