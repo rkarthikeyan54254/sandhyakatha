@@ -149,6 +149,8 @@ jobs:
         run: npm run validate:strict
       - name: Build shipped index
         run: npm run content
+      - name: Generate dedicated OG card
+        run: npm run og
       - name: Unit tests
         run: npm test
       - name: Production build
