@@ -2938,5 +2938,85 @@
     "kind": "person",
     "gloss": "A name of Viṣṇu, also used for Kṛṣṇa.",
     "aliases": []
+  },
+  "Syamantaka": {
+    "id": "syamantaka-mani",
+    "native": {
+      "deva": "स्यमन्तक मणि",
+      "taml": "ஸ்யமந்தக மணி"
+    },
+    "say": "syuh-MUN-tuh-kuh MUH-nee",
+    "kind": "word",
+    "gloss": "The radiant jewel at the centre of this story, associated with Sūrya and with extraordinary prosperity when kept properly.",
+    "aliases": [
+      "Syamantaka Mani",
+      "Syamantaka Maṇi"
+    ]
+  },
+  "Satrājit": {
+    "id": "satrajit",
+    "native": {
+      "deva": "सत्राजित्",
+      "taml": "சத்ராஜித்"
+    },
+    "say": "sut-RAA-jit",
+    "kind": "person",
+    "gloss": "A Yādava devotee of Sūrya who receives the Syamantaka jewel and chooses to keep it.",
+    "aliases": [
+      "Satrajit"
+    ]
+  },
+  "Prasena": {
+    "id": "prasena",
+    "native": {
+      "deva": "प्रसेन",
+      "taml": "பிரசேனன்"
+    },
+    "say": "pruh-SAY-nuh",
+    "kind": "person",
+    "gloss": "Satrājit's brother, killed by a lion while hunting with the Syamantaka jewel.",
+    "aliases": [
+      "Prasen"
+    ]
+  },
+  "Dvārakā": {
+    "id": "dvaraka",
+    "native": {
+      "deva": "द्वारका",
+      "taml": "துவாரகை"
+    },
+    "say": "DWAAR-uh-kaa",
+    "kind": "place",
+    "gloss": "Kṛṣṇa's city, where the accusation about Prasena and the Syamantaka jewel spreads.",
+    "aliases": [
+      "Dvaraka",
+      "Dwarka",
+      "Dwaraka"
+    ]
+  },
+  "Ugrasena": {
+    "id": "ugrasena",
+    "native": {
+      "deva": "उग्रसेन",
+      "taml": "உக்ரசேனன்"
+    },
+    "say": "oog-ruh-SAY-nuh",
+    "kind": "person",
+    "gloss": "King of the Yādavas. Kṛṣṇa says a jewel of such public value should properly be placed with him.",
+    "aliases": []
+  },
+  "Jāmbavatī": {
+    "id": "jambavati",
+    "native": {
+      "deva": "जाम्बवती",
+      "taml": "ஜாம்பவதி"
+    },
+    "say": "jaam-buh-VUH-tee",
+    "kind": "person",
+    "gloss": "Jāmbavān's daughter, whom Kṛṣṇa marries after the Syamantaka jewel is recovered.",
+    "aliases": [
+      "Jambavati",
+      "Jambavathi"
+    ]
   }
 }

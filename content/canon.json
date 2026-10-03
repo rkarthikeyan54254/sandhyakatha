@@ -1864,6 +1864,31 @@
       "wave": 5,
       "gated": false,
       "careNote": "A blade of darbha pierces one of Śukrācārya's eyes while he blocks the water-pot. The injury is brief and not graphic."
+    },
+    {
+      "n": 95,
+      "id": "syamantaka-mani",
+      "title": "The Jewel Kṛṣṇa Was Blamed For",
+      "corpus": "bhagavata",
+      "tradition": "sanskrit",
+      "work": "Bhāgavata Purāṇa",
+      "locus": "Skandha 10, chapter 56; parallel Viṣṇu Purāṇa IV.13",
+      "stability": "variant",
+      "minAge": 7,
+      "sensitivity": [
+        "death",
+        "violence",
+        "injustice"
+      ],
+      "value": "looking at it before fixing it",
+      "hook": "A hunter vanishes wearing a jewel bright as the Sun. Before anyone follows the tracks, Dvārakā has already decided who took it.",
+      "festivals": [
+        "ganesh-chaturthi"
+      ],
+      "status": "in-review",
+      "wave": 5,
+      "gated": false,
+      "careNote": "Prasena and his horse are killed by a lion; Jāmbavān kills the lion; Kṛṣṇa and Jāmbavān fight for many days. The deaths and fight are stated plainly and not described graphically."
     }
   ]
 }
