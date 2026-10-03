@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-03T17:07:36.517Z",
+  "status": "PASS: review-stage mechanical checks only",
+  "publicationReady": false,
+  "humanApprovalPending": true,
+  "counts": [
+    {
+      "storyId": "lingodbhava-pillar",
+      "en": {
+        "short": 302,
+        "full": 654
+      },
+      "hi": {
+        "short": 322,
+        "full": 669
+      },
+      "ta": {
+        "short": 133,
+        "full": 247
+      }
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "en": {
+        "short": 301,
+        "full": 651
+      },
+      "hi": {
+        "short": 305,
+        "full": 654
+      },
+      "ta": {
+        "short": 143,
+        "full": 273
+      }
+    },
+    {
+      "storyId": "sukanya-anthill",
+      "en": {
+        "short": 301,
+        "full": 650
+      },
+      "hi": {
+        "short": 310,
+        "full": 668
+      },
+      "ta": {
+        "short": 154,
+        "full": 325
+      }
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "en": {
+        "short": 301,
+        "full": 666
+      },
+      "hi": {
+        "short": 313,
+        "full": 680
+      },
+      "ta": {
+        "short": 137,
+        "full": 270
+      }
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "en": {
+        "short": 302,
+        "full": 654
+      },
+      "hi": {
+        "short": 300,
+        "full": 651
+      },
+      "ta": {
+        "short": 130,
+        "full": 236
+      }
+    }
+  ],
+  "errors": []
+}

@@ -574,6 +574,38 @@
     {
       "storyId": "kulasekhara-march",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "lingodbhava-pillar",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "lingodbhava-pillar",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

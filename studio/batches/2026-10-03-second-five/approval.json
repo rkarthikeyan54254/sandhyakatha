@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-03",
+  "reviewer": "rama",
+  "reviewedCommit": "8c73e3587aa345e7e252704940e4d49b27cef700",
+  "approvalQuote": "read. approved. 6 min and 3 min in all languages. ready to merge and deploy",
+  "scope": "Five English, Hindi and Tamil stories, both short and full tellings, with the five displayed candidate illustrations; merge and deployment authorized.",
+  "timingReport": "Rama reports 3-minute short and 6-minute full readings in all three languages after reading the review proof.",
+  "measuredSeconds": {
+    "short": 180,
+    "full": 360
+  },
+  "images": [
+    {
+      "storyId": "lingodbhava-pillar",
+      "reviewedCandidate": "studio/batches/2026-10-03-second-five/art/lingodbhava-pillar-candidate.webp",
+      "file": "public/media/stories/lingodbhava-pillar/hero.webp",
+      "sha256": "81bdf19cd82521147da1bd6a7e08bfb17e90ee02ac2472ffbf8a05d26a5213c7"
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "reviewedCandidate": "studio/batches/2026-10-03-second-five/art/bhagiratha-ganga-candidate.webp",
+      "file": "public/media/stories/bhagiratha-ganga/hero.webp",
+      "sha256": "f69961b1d2b387f5c272b86afa015b0056e5c75f46a1e634d40391b8640dae44"
+    },
+    {
+      "storyId": "sukanya-anthill",
+      "reviewedCandidate": "studio/batches/2026-10-03-second-five/art/sukanya-anthill-candidate.webp",
+      "file": "public/media/stories/sukanya-anthill/hero.webp",
+      "sha256": "c3110ba6abff406e5c3c98fba59d55b1613a1712a05b14c1610903609b2de3cb"
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "reviewedCandidate": "studio/batches/2026-10-03-second-five/art/brahmin-and-the-pot-candidate.webp",
+      "file": "public/media/stories/brahmin-and-the-pot/hero.webp",
+      "sha256": "c1664b6d71552a644753fc8afee360e0b1f4297b180f0c957f0aa3588a3351c8"
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "reviewedCandidate": "studio/batches/2026-10-03-second-five/art/ravana-lifts-kailasa-candidate.webp",
+      "file": "public/media/stories/ravana-lifts-kailasa/hero.webp",
+      "sha256": "2f14d1df656e61ffc6483b3e7cd77c5217b8f382d67961657f877ca53e70478a"
+    }
+  ],
+  "reviewHtmlSha256": "651c7dcdcb4b6e9c4b7456fd5f7ad912c9cdc282139c9ceef67999ac01c9315c",
+  "editionTextHashes": [
+    {
+      "storyId": "lingodbhava-pillar",
+      "language": "hi",
+      "shortSha256": "1b0c914e5b08780f02854d2840b569de6e71a8b8a379b4998fa534dfbcb6face",
+      "fullSha256": "aed7d129ac8a131430645db99edfae80b07b6e4aba7d37b51264d1b5c46b9502"
+    },
+    {
+      "storyId": "lingodbhava-pillar",
+      "language": "ta",
+      "shortSha256": "5d7ca35a0249ca4c0f12527d2861fb9e0c4597fa4690d84df461728019b645fd",
+      "fullSha256": "5c3ded74ed4387f205f936d3877e207d156fe03b6df24aae2c977841c77d8545"
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "language": "hi",
+      "shortSha256": "fe98162e791555a6ef6763a92c3610205efca2daac9d9f032008fec998660b9b",
+      "fullSha256": "f0b362ab67264aa024edd9a156d0dbc14a680ed740b56532910dfd8bb26d4cd7"
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "language": "ta",
+      "shortSha256": "0400919c0dab81e683af345e791c5b906f682934d18000d7fe59d3674044794d",
+      "fullSha256": "deb70698845cdf2e5d103f49ff7dea6877adb459cbf4d39c86b514ea8eb23f96"
+    },
+    {
+      "storyId": "sukanya-anthill",
+      "language": "hi",
+      "shortSha256": "35bd07d05ae8555c4125062fc9516d93f2a0b5d26fb63e19333faacfc2e51e1f",
+      "fullSha256": "a4b38199a444bc28d821dd298927e39b17f9ef3e67ca49129ab03141fd0f1213"
+    },
+    {
+      "storyId": "sukanya-anthill",
+      "language": "ta",
+      "shortSha256": "a554ea783b1bd444d9641e26099f318815e62206562eac7b0217862bee5c8971",
+      "fullSha256": "cdede05f0115c3ad4e81dcec7c9b215f51f70dcad315addbc86a50884ac137a5"
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "language": "hi",
+      "shortSha256": "07609be3969fd6c37a2fcebdb9b91516819d90a465d875fcb090b6071acd9bfb",
+      "fullSha256": "2ea91f2e407f190812e1d2e35fedf282fb5e62d6b0e8fe1ee0c10dceed1e7eb5"
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "language": "ta",
+      "shortSha256": "b2063702c3283af6a5fb1b9e80881cfd92ae88fbef547c1671b13e5649598a53",
+      "fullSha256": "332a8e03e38d3f6979fdceb9b83655e17a172962b14d2f1b2bd5d70304c4c608"
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "language": "hi",
+      "shortSha256": "6400a8c07845a3474acc993a8e27be401ac30064d0311e4171d5090bc2146c3f",
+      "fullSha256": "23dbcfd88c286646dc071bb251b8c6fca9c2e38636974baafbd3ada00c56fe35"
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "language": "ta",
+      "shortSha256": "3c0b4bd5cb16bb464f7c13b47bea063d127f1715daf175049180d8666ff46b59",
+      "fullSha256": "6fdeefe1a7facab733764d1356685375a4c39a5b3c7d61df6876180c7314e127"
+    }
+  ],
+  "englishTextHashes": [
+    {
+      "storyId": "lingodbhava-pillar",
+      "shortSha256": "81b21b960ed1a103b4da84a8b2aecbfbd8c7ea2f60137c4c0afe5620a5a2e406",
+      "fullSha256": "bccf3041a6dc19d5006da5f920a1ad54f57d842baf73160a07ffb0e60d38720a"
+    },
+    {
+      "storyId": "bhagiratha-ganga",
+      "shortSha256": "09400932f4518271d5a217cd0701ff716f97f21e265babb22d98cac3661a899b",
+      "fullSha256": "617e067b03a39d61ae1373eb87036a13aba8a3dc8b180f425e0f6b33c39faf44"
+    },
+    {
+      "storyId": "sukanya-anthill",
+      "shortSha256": "e4c824e68cf4fe81af7de7ebe821a25e3b2a3db6ace016c2495920ada63e259d",
+      "fullSha256": "cf492706d5ff797d3cb6b6324ce56445a71ab7bcc9e0ce84c351c90835a1212d"
+    },
+    {
+      "storyId": "brahmin-and-the-pot",
+      "shortSha256": "4a5bb5e3d397ac2468821abf9bc6910997e65c8c39a6d8e19a840a53dc6866bb",
+      "fullSha256": "c8c955b68e23c5deea7351aac67c1fd508aac215462f118ec623d961a924b715"
+    },
+    {
+      "storyId": "ravana-lifts-kailasa",
+      "shortSha256": "9a6da64b6b079e03b760c3e365cb24f65f78eeae6fce1afae98eb03a60510720",
+      "fullSha256": "63c6511b4fa84e06f858b6a25f3719673259032ae2eb59ff98a5709f2e2fce65"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "lingodbhava-pillar",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-03",
+  "title": "Neither of Them Found the End",
+  "tease": "A column of fire takes in two terrible weapons. One god searches below, another flies above, and a falling flower is asked to witness something it never saw.",
+  "source": {
+    "corpus": "shiva-purana",
+    "tradition": "sanskrit",
+    "work": "Śiva Purāṇa, Vidyeśvara Saṃhitā",
+    "locus": "chapters 6–8",
+    "stability": "variant",
+    "traditionNote": "This follows the Vidyeśvara Saṃhitā, where Ketakī says it fell from the pillar’s middle and Śiva stops Bhairava before a blow. The Skanda Purāṇa has the flower claim an earlier place at the pillar’s crown; we keep the witnesses distinct.",
+    "checkedAgainst": [
+      "Śiva Purāṇa, Vidyeśvara Saṃhitā 6–8, J. L. Shastri English translation (Wisdom Library)",
+      "Skanda Purāṇa, Māheśvara Khaṇḍa 1.126.28–30, Sanskrit text with English rendering (alternate Ketakī origin)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Brahmā and Viṣṇu dispute precedence and fight; their weapons threaten the worlds.",
+        "locus": "Vidyeśvara Saṃhitā 6.1–22; 7.8–10"
+      },
+      {
+        "claim": "Śiva appears as a limitless fire pillar that receives the weapons.",
+        "locus": "7.10–14"
+      },
+      {
+        "claim": "Viṣṇu goes down as a boar, fails to find the root, and returns.",
+        "locus": "7.15–18"
+      },
+      {
+        "claim": "Brahmā flies upward as a swan; the falling Ketakī flower says it came from the middle, not the top.",
+        "locus": "7.16–23"
+      },
+      {
+        "claim": "Brahmā persuades Ketakī to testify falsely; Viṣṇu tells the truth about his failure, then honours Brahmā after the claim.",
+        "locus": "7.24–28"
+      },
+      {
+        "claim": "Śiva emerges from the pillar and praises Viṣṇu for truthfulness.",
+        "locus": "7.29–33"
+      },
+      {
+        "claim": "Bhairava threatens Brahmā’s fifth head, but Viṣṇu intercedes and Śiva stops him.",
+        "locus": "8.1–8"
+      },
+      {
+        "claim": "Śiva denies Brahmā separate temples and festivals while retaining his role in sacrifices.",
+        "locus": "8.9–14"
+      },
+      {
+        "claim": "Śiva excludes Ketakī from offerings but permits followers to wear it and its use above his image.",
+        "locus": "8.15–21"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Where the Ketakī flower says it came from",
+        "tellings": "Śiva Purāṇa, Vidyeśvara Saṃhitā 7.22–23 has the flower say it fell from the middle of the pillar. Skanda Purāṇa, Māheśvara Khaṇḍa 1.126.28–30 has the petal say it had rested on Śiva’s crown and then descended.",
+        "weTell": "The Vidyeśvara Saṃhitā: a flower falling from the middle cannot honestly witness Brahmā reaching the top."
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-03"
+  },
+  "audience": {
+    "minAge": 8,
+    "sensitivity": [
+      "violence"
+    ],
+    "careNote": "The two gods launch dangerous weapons. Near the end, an attendant seizes Brahmā’s fifth head and raises a sword, but Śiva stops him before the blow.",
+    "gated": false
+  },
+  "values": [
+    "the cost of one small lie"
+  ],
+  "themes": [
+    "shaiva",
+    "fire",
+    "truth",
+    "ketaki"
+  ],
+  "calendar": {
+    "festivals": [
+      "mahashivaratri"
+    ],
+    "weight": 7
+  },
+  "characters": [
+    {
+      "ref": "Brahmā",
+      "role": "lead"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Ketakī",
+      "role": "present"
+    },
+    {
+      "ref": "Bhairava",
+      "role": "present"
+    },
+    {
+      "ref": "Garuḍa",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 302,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Brahmā» and «Viṣṇu» were arguing over which of them was greater in the world. The quarrel grew into a battle. Each sent out a terrible weapon, and the gods feared that the three worlds would burn."
+        },
+        {
+          "t": "p",
+          "text": "The gods went to «Śiva» for help. When he reached the battlefield, the noise of his attendants stopped. The two weapons were still flying toward each other. Then the fire rose between them."
+        },
+        {
+          "t": "p",
+          "text": "Then a column of fire appeared between them. Both weapons vanished into it. It rose beyond sight and went down beyond sight."
+        },
+        {
+          "t": "p",
+          "text": "_What is this?_ they wondered. _Can either of us find its end?_"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» took the form of a boar and went below. «Brahmā» became a swan and flew upward. Far down, «Viṣṇu» found no bottom. He returned and said so."
+        },
+        {
+          "t": "p",
+          "text": "Far above, «Brahmā» saw a «Ketakī» flower falling through the fire. It told him that it had been falling for years, yet it had not come from the top. «Brahmā» asked the flower to say it had seen him reach the top anyway."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When the two met again, «Viṣṇu» admitted he had failed. «Brahmā» claimed he had succeeded. The flower backed his claim."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» stepped out of the fire. The pillar had been his form. He praised «Viṣṇu» for speaking truth even when he wanted to win. «Brahmā»'s false claim could no longer stand."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» asked «Śiva» to forgive him. «Śiva» did spare «Brahmā», but said he would not have his own temples and festivals. The flower, too, was barred from «Śiva»'s worship. «Śiva» later allowed it to decorate the canopy above his image."
+        },
+        {
+          "t": "slow",
+          "text": "Two gods went looking for the end of a fire without an end. One returned without an answer. The other returned with an answer he had not found. Only the first could stand by what he said."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 654,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Brahmā» came upon «Viṣṇu» resting on his serpent couch. He wanted «Viṣṇu» to rise and honour him. «Viṣṇu» welcomed him, but neither accepted the other's claim to be the greater lord."
+        },
+        {
+          "t": "p",
+          "text": "Their words became a battle. They fought from their vehicles, a swan and «Garuḍa», while their attendants joined in. The gods watched from above. Then «Brahmā» and «Viṣṇu» launched weapons with fire fierce enough to threaten all three worlds."
+        },
+        {
+          "t": "p",
+          "text": "The frightened gods went to «Śiva». He came to the battlefield, and the music and shouting of his attendants fell silent. Between the two burning weapons, a column of fire suddenly rose. Both weapons disappeared into it."
+        },
+        {
+          "t": "p",
+          "text": "The gods had found «Śiva» seated with «Pārvatī». He knew why they had come. When he reached the place of battle, he made himself unseen. Only the new fire between «Brahmā» and «Viṣṇu» showed what he had done."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» and «Viṣṇu» looked up. They could not see where the fire ended. They looked down. They could not see where it began."
+        },
+        {
+          "t": "p",
+          "text": "_We must find its top and bottom,_ they decided. They would search in opposite directions."
+        },
+        {
+          "t": "p",
+          "text": "«Viṣṇu» became a boar and went down through the worlds below. «Brahmā» became a swan and flew upward. The boar kept going, farther and farther, until he was exhausted. No root appeared. He turned back."
+        },
+        {
+          "t": "p",
+          "text": "The swan flew high for a long time. Then «Brahmā» saw a «Ketakī» flower drifting downward through the fire. Its fragrance and colour were still fresh."
+        },
+        {
+          "t": "p",
+          "text": "The text says the flower had been falling for years, yet its scent and brightness had not faded. It was no ordinary petal blown loose from a tree. «Brahmā» stopped his climb to speak to it instead of continuing toward a top he still could not see."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» asked where it had come from. The flower said it had fallen from the middle of the column and had been falling for years. If even the flower had not seen the top, how could «Brahmā» hope to find it?"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» asked the flower to help him with another answer. When they returned, it should tell «Viṣṇu» that «Brahmā» had reached the top and that the flower had witnessed it. The flower agreed."
+        },
+        {
+          "t": "p",
+          "text": "At the place where they had begun, «Viṣṇu» admitted he had searched below and found no bottom. «Brahmā» said he had seen the top. The flower supported him. «Viṣṇu» believed them and honoured «Brahmā»."
+        },
+        {
+          "t": "p",
+          "text": "Then «Śiva» stepped out of the column. It had been his own form, beyond the ends either god could find. «Viṣṇu» bowed and asked forgiveness for their quarrel and their search."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» told «Viṣṇu» that he was pleased with him. «Viṣṇu» had wanted to be first, yet he had spoken truly about his failure. «Śiva» promised him honour and worship."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» turned to «Brahmā». The claim about reaching the top had been false, and the flower had repeated it. «Śiva» summoned «Bhairava», who seized «Brahmā»'s fifth head and raised a sword. «Brahmā» fell at his feet. «Viṣṇu» pleaded for him, and «Śiva» told «Bhairava» to stop."
+        },
+        {
+          "t": "aside",
+          "text": "The text includes a threatened blow, not a beheading in this scene. Let the parent decide whether to pause here with a younger listener."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» said «Brahmā» would not have his own temples and festivals. Yet he also gave «Brahmā» a place in sacred rites. A sacrifice would need him. Sparing «Brahmā» was not the same as calling the lie true."
+        },
+        {
+          "t": "p",
+          "text": "«Brahmā» accepted that his head had been spared. «Śiva» did not leave the creator without a duty; he made «Brahmā» necessary at household and public sacrifices. Both the mercy and the consequence remained in force."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» then told the «Ketakī» flower it could not be offered in his worship. When the flower asked for mercy, he allowed his followers to wear it and allowed it above his image as a canopy decoration."
+        },
+        {
+          "t": "slow",
+          "text": "«Viṣṇu» came back empty-handed and told the truth. «Brahmā» came back with a witness and a claim. The column of fire had no end for either of them, but the words each chose at the end were entirely his own."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you had searched as far as you could and found nothing, what would make it hard to say so?",
+    "seed": "The truth matters most when a better answer would win you praise.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did «Śiva» appear as a column of fire?",
+        "a": "In this «Śiva» Purāṇa passage, the weapons of «Brahmā» and «Viṣṇu» threaten the three worlds. «Śiva» takes a form that receives the weapons and has no end they can find. The search lets them discover that neither can claim to have measured him."
+      },
+      {
+        "q": "Did «Śiva» cut off «Brahmā»’s head?",
+        "a": "Not in the Vidyeśvara Saṃhitā passage we tell. «Bhairava» seizes «Brahmā»’s fifth head and prepares to strike, but «Viṣṇu» asks for mercy and «Śiva» stops him. Some other Śaiva tellings describe a severing; that is a different telling and should not be slipped into this one."
+      },
+      {
+        "q": "Why did the flower agree to lie?",
+        "a": "The text has «Brahmā» ask it to witness a claim it could not know. It does not give us the flower’s private thoughts. What it does show is that «Śiva» holds the flower responsible for repeating the false claim, then allows it a smaller place near his worship after it asks forgiveness."
+      }
+    ]
+  }
+}

@@ -2,6 +2,12 @@
 
 Updated: 2026-10-02. Keep this file compact; replace stale values.
 
+## Second five trilingual stories — 2026-10-03
+
+- Rama read and approved the second-five review proof and reported 3:00/6:00 short/full readings in English, Hindi and Tamil; merge/deploy authorized. `studio/batches/2026-10-03-second-five/approval.json` records exact review commit and prose/image hashes. Five English stories and ten locale editions promoted; five hero images and five dedicated OG cards prepared. Sukanyā remains gated.
+- Strict repository validation PASS (0 warnings), 138 tests PASS, manual prerender/public/social/design/surface gates PASS. Local full build stalls at PWA service-worker generation after Vite chunks; cache gate cannot pass without `dist/sw.js`. Final-head CI/deploy preview is required before merge.
+- Next exact action: push the approved head to draft PR #28, verify complete final-head CI/deploy preview, merge and verify production story routes, images and OG metadata. Liṅgodbhava observance mapping remains proposed separately.
+
 ## First-five trilingual publication — 2026-10-03
 
 PR #23 is synced with production main and the five supplied approved WebPs are hash-matched and decode-verified. Rama confirmed the native Hindi/Tamil readings were timed at 3:00 short and 6:00 full for each story; this is recorded as 180/360 seconds per edition. Five English stories and ten Hindi/Tamil editions are promoted locally, with locale locks, public shelves, five 1200×630 OG cards, and curated campaign selectors. Strict validation, 138 tests, Vite compile and static locale/public/social/design/surface gates pass. The local PWA service-worker generator stalled before cache validation; remote CI, merge and live verification remain. The one-off promotion script is removed. Next action: push PR #23, use CI to resolve any remaining build/cache issue, merge, and verify production pages.
