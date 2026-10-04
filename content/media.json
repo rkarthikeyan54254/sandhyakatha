@@ -1378,6 +1378,91 @@
           "file": null
         }
       }
+    },
+    "nrga-well": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/nrga-well/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-04"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "indra-virocana": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/indra-virocana/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-04"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "dharma-vyadha": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/dharma-vyadha/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-04"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "mainaka-welcome": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/mainaka-welcome/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-04"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "devi-messenger": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/devi-messenger/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-04"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

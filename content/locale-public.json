@@ -606,6 +606,46 @@
     {
       "storyId": "ravana-lifts-kailasa",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "nrga-well",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "nrga-well",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "indra-virocana",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "indra-virocana",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "dharma-vyadha",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "dharma-vyadha",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "mainaka-welcome",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "mainaka-welcome",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "devi-messenger",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "devi-messenger",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

@@ -91,6 +91,16 @@
       "status": "published",
       "hash": "b867308e24c93c9f"
     },
+    "devi-messenger": {
+      "version": 1,
+      "status": "published",
+      "hash": "46516a029aa36bb1"
+    },
+    "dharma-vyadha": {
+      "version": 1,
+      "status": "published",
+      "hash": "b586a96dcf12d339"
+    },
     "dhruva-still": {
       "version": 2,
       "status": "published",
@@ -161,6 +171,11 @@
       "status": "published",
       "hash": "c1d04fe1923b79a4"
     },
+    "indra-virocana": {
+      "version": 1,
+      "status": "published",
+      "hash": "c9d593a3073f0af2"
+    },
     "jatayu-last-flight": {
       "version": 1,
       "status": "published",
@@ -221,6 +236,11 @@
       "status": "published",
       "hash": "6e5bc7afa63e7d56"
     },
+    "mainaka-welcome": {
+      "version": 1,
+      "status": "published",
+      "hash": "939ac2810b2f3799"
+    },
     "maitreyi-wealth": {
       "version": 2,
       "status": "published",
@@ -255,6 +275,11 @@
       "version": 2,
       "status": "published",
       "hash": "e06cef7202201be8"
+    },
+    "nrga-well": {
+      "version": 1,
+      "status": "published",
+      "hash": "d345a5dd31dd4dca"
     },
     "panar-shoulders": {
       "version": 2,
