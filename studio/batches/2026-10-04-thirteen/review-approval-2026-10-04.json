@@ -1,0 +1,56 @@
+{
+  "recordedOn": "2026-10-04",
+  "reviewer": "Rama",
+  "userStatement": "I have reviewed all and they are approved. all are 6 and 3 mins. can you merge them before the session ends?",
+  "scope": "The four English stories and four candidate images in review.html, plus the rendered Hindi and Tamil Pārvatī drafts in review-locales.html",
+  "proofs": [
+    {
+      "file": "review.html",
+      "sha256": "17995743e8b45b834d9b1fe521f67726be2992ac5db888ee01ddb090dd3ab291"
+    },
+    {
+      "file": "review-locales.html",
+      "sha256": "f46bf5f64ca91c66537a7c8418c394d6ea06d20ed26601357ced13ef25a111aa"
+    }
+  ],
+  "localeEditions": [
+    {
+      "language": "hi",
+      "file": "middle-four/locales/hi/boy-insults-shiva.json",
+      "sha256": "c7b46fec63966ac640523f05f73d083d4b5eaf35d2a20114b986a51816b15ce4",
+      "shortTextSha256": "9ebad4522b01db9429e849c0a58fdc97f5688ac188c3bb61b5ee3a837282a416",
+      "fullTextSha256": "02277df206191b2f0b552c15e659fc15a2575af076c5cf307deb27bbdf3f211a"
+    },
+    {
+      "language": "ta",
+      "file": "middle-four/locales/ta/boy-insults-shiva.json",
+      "sha256": "a68bd5d78a1a37284be554095f3ec1d233c16f5c9b0a8d3900321d9877e25f2b",
+      "shortTextSha256": "ed36d427fffe8b0972564e0a6b140241b218c8d422e4d687ff0410bf6dd5ea74",
+      "fullTextSha256": "4ff1bd969727dc06dffe7834f31eff5d0d591fe23bae4ef443213ef8d4bd6214"
+    }
+  ],
+  "images": [
+    {
+      "file": "art/boy-insults-shiva-candidate.webp",
+      "sha256": "8a6b328c36dbd35108b69b22892c85fa31a88ab31c22698098cb485cfd3b7bb2"
+    },
+    {
+      "file": "art/daksha-sacrifice-candidate.webp",
+      "sha256": "38d1be0e1c3e8c8b40ecbfda06ce448346b11c73c0f64c6fc85b4df3257a5b95"
+    },
+    {
+      "file": "art/kannappar-eyes-candidate.webp",
+      "sha256": "c55a4bd58c34a4e362d38d7310ce13b5ec0656e299eb0a85cb370e2b5d56835a"
+    },
+    {
+      "file": "art/lakshmana-rekha-candidate.webp",
+      "sha256": "a491eee5fb1979b34405418d59048bcea0963a3ad5459e126125cc9f7954d432"
+    }
+  ],
+  "reportedDurationMinutes": {
+    "short": 3,
+    "full": 6
+  },
+  "exactMeasuredSeconds": "pending clarification; do not infer 180/360 from rounded minute labels",
+  "publicationNote": "Approval applies only to displayed editions and images; nine unprepared stories and three untranslated English candidates are not included."
+}

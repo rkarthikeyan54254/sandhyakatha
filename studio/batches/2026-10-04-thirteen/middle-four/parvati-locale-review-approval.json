@@ -1,0 +1,26 @@
+{
+  "recordedOn": "2026-10-04",
+  "reviewer": "Rama",
+  "userStatement": "I have reviewed all and they are approved",
+  "scope": "Rendered Hindi and Tamil short/full Pārvatī proof presented in the 2026-10-04 thirteen-story review; human language-editor and source-fidelity approval of those exact candidate texts",
+  "historicalProofId": "boy-insults-shiva",
+  "productionId": "parvati-visitor",
+  "editions": [
+    {
+      "locale": "hi-IN",
+      "file": "locales/hi/boy-insults-shiva.json",
+      "sha256": "c7b46fec63966ac640523f05f73d083d4b5eaf35d2a20114b986a51816b15ce4"
+    },
+    {
+      "locale": "ta-IN",
+      "file": "locales/ta/boy-insults-shiva.json",
+      "sha256": "a68bd5d78a1a37284be554095f3ec1d233c16f5c9b0a8d3900321d9877e25f2b"
+    }
+  ],
+  "reportedDurations": {
+    "shortMinutes": 3,
+    "fullMinutes": 6,
+    "precision": "Whole-minute report only; exact measuredSeconds not supplied"
+  },
+  "remainingGate": "Record actual short and full measured seconds for both locales before nativeReadAloud approval, locking, or publication."
+}

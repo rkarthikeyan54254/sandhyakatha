@@ -1,0 +1,193 @@
+{
+  "id": "lakshmana-rekha",
+  "schemaVersion": "1.0",
+  "status": "draft",
+  "version": 1,
+  "updated": "2026-10-04",
+  "title": "The Seven Lines Lakṣmaṇa Drew",
+  "tease": "In one Telugu Rāmāyaṇa, Lakṣmaṇa draws seven lines around Sītā’s hut before leaving to find Rāma. What happens next is not the one-line version many families know.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "folk",
+    "work": "Gona Buddha Reddy, Ranganātha Rāmāyaṇamu, Āraṇya Kāṇḍamu",
+    "locus": "Āraṇya Kāṇḍamu, running lines approximately 830–1010 in the Telugu Wikisource transcription; seven-line scene approximately 930–950",
+    "stability": "regional",
+    "traditionNote": "This follows the seven-line scene in the Telugu Ranganātha Rāmāyaṇamu. The 1942 edition has not been collated with the accessible 1949 transcription. Telugu-literate review and measured read-aloud review are pending. Vālmīki’s departure scene has no line; this selected Telugu scene has no alms lure.",
+    "checkedAgainst": [
+      "Telugu Wikisource, Ranganātha Rāmāyaṇamu, Āraṇya Kāṇḍamu, https://te.wikisource.org/wiki/రంగనాథరామాయణము/ఆరణ్యకాండము (continuous scene, accessed 2026-10-04)",
+      "Independent English rendering citing Āraṇya Kāṇḍa 18, https://hinduism.stackexchange.com/questions/48659/lakshmana-rekha-mythology/48698 (corroborates seven lines, warning and Agni only)",
+      "1942 Andhra University edition index, https://www.andhrabharati.com/itihAsamulu/RanganathaRamayanamu/index.html (episode page inaccessible; collation pending)",
+      "Vālmīki Rāmāyaṇa, Āraṇya Kāṇḍa 45, https://eternalraga.com/en/scriptures/ramayana/aranya-kanda/45 (variant boundary only)"
+    ],
+    "variants": [
+      {
+        "differs": "Vālmīki’s Āraṇya Kāṇḍa 45 does not narrate a drawn line. A later Rāmcaritmānas reference to a line does not supply this seven-line scene.",
+        "tellings": "The selected Telugu sequence narrates seven lines, an Agni invocation, Sītā crossing while honoring an apparent ascetic, and Rāvaṇa revealing himself and abducting her.",
+        "weTell": "We follow the selected Telugu sequence and do not add an alms demand or blame Sītā for the deception."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "The shifting-color deer draws Rāma away; Lakṣmaṇa suspects Mārīca.",
+        "locus": "Telugu Āraṇya Kāṇḍamu, approx. running lines 830–890"
+      },
+      {
+        "claim": "Mārīca’s cry leads Sītā to urge Lakṣmaṇa to leave; their exchange becomes painful.",
+        "locus": "Telugu Āraṇya Kāṇḍamu, approx. running lines 890–930"
+      },
+      {
+        "claim": "Lakṣmaṇa draws seven lines, warns Sītā, and invokes Agni.",
+        "locus": "Telugu Āraṇya Kāṇḍamu, approx. running lines 930–935"
+      },
+      {
+        "claim": "Rāvaṇa arrives disguised as an ascetic, and Sītā crosses while honoring him.",
+        "locus": "Telugu Āraṇya Kāṇḍamu, approx. running lines 935–950"
+      },
+      {
+        "claim": "Rāvaṇa reveals himself; Sītā refuses; he seizes and carries her away.",
+        "locus": "Telugu Āraṇya Kāṇḍamu, approx. running lines 950–1010"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [],
+    "gated": false
+  },
+  "values": [
+    "kindness with care",
+    "responsibility for deception"
+  ],
+  "characters": [
+    {
+      "ref": "Sītā",
+      "role": "lead"
+    },
+    {
+      "ref": "Lakṣmaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    },
+    {
+      "ref": "Mārīca",
+      "role": "present"
+    },
+    {
+      "ref": "Agni",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Laṅkā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Janaka",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Sītā» saw a deer whose coat flashed with colors no ordinary deer could wear. She asked «Rāma» to catch it if he could. «Lakṣmaṇa» looked carefully and warned that it might be a rākṣasa in disguise. «Rāma» went after it and asked his brother to remain with «Sītā» at their forest hut."
+        },
+        {
+          "t": "p",
+          "text": "The deer led «Rāma» deep among the trees. Each time he came close, it ran; each time it vanished, it appeared again. It was «Mārīca», wearing a false shape. When «Rāma» struck him, «Mārīca» cried out in a voice that sounded as though someone needed «Lakṣmaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» heard the cry and feared for «Rāma». She urged «Lakṣmaṇa» to go. He knew «Rāma» was strong, and he feared leaving her alone. Their words grew painful. At last he said he would bring his brother back."
+        },
+        {
+          "t": "p",
+          "text": "Before he left, «Lakṣmaṇa» drew seven lines around the hut. He asked «Sītā» to stay within them. He called on «Agni», the fire god, to guard her, bowed to her, and went into the forest."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» had been waiting. He came to the hut dressed as an ascetic, with the things a holy traveler might carry. «Sītā» saw a guest and treated him with respect. In doing so, she stepped across the lines. The visitor asked who she was. She told him about herself, «Rāma», and the cry that had drawn «Lakṣmaṇa» away. She did not know who stood before her."
+        },
+        {
+          "t": "p",
+          "text": "Then the visitor told her his own name: «Rāvaṇa». He wanted her to come to his kingdom. «Sītā» refused. She told him to leave, and warned him of «Rāma». «Rāvaṇa» cast off the disguise and carried her away."
+        },
+        {
+          "t": "slow",
+          "text": "«Lakṣmaṇa» had drawn his lines with care. «Sītā» had welcomed someone she believed was a holy guest. The danger came from the one who dressed himself to deceive her."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The deer stood near the forest hut where «Rāma», «Sītā», and «Lakṣmaṇa» lived. Its colors shifted as it moved. For a moment its shining side looked like gold; then another color flashed from it. It darted behind the trees and appeared again, close enough to see but never close enough to catch. It seemed to play just beyond the hut, turning its head, leaping, vanishing into the shade and coming back into the light."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā» came out while gathering flowers. She watched the strange animal move through the grass. She asked «Rāma» to bring it to her. If it could not be caught, she wished for its beautiful skin. «Lakṣmaṇa» did not trust what he saw. An ordinary deer, he said, could not have a body like that. The rākṣasa «Mārīca» knew how to change his shape, and the brothers had reason to be wary of him. «Lakṣmaṇa» tried to turn their eyes from the beauty of the deer to the danger hidden inside it."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» listened. Then he took his bow. He would go after the deer, and «Lakṣmaṇa» would stay to watch over «Sītā». The deer ran. Whenever «Rāma» came near, it sprang away; whenever he lost sight of it, it showed itself again. Mile after mile, it drew him farther from the hut. At last «Rāma» saw through the trick and struck the animal. As «Mārīca» fell, his deer-shape vanished. He gave one loud cry, calling for «Lakṣmaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "That cry reached the hut. «Sītā» knew it sounded like trouble for «Rāma». She asked «Lakṣmaṇa» to run to him. «Lakṣmaṇa» remembered his brother's instruction to stay. «Rāma», he said, was not easily overcome; a rākṣasa could be trying to pull them apart. He was afraid of what might happen if he left «Sītā» alone."
+        },
+        {
+          "t": "p",
+          "text": "Fear made their talk sharp. «Sītā» thought «Lakṣmaṇa» was refusing to help his brother. She accused him of motives he did not have. He was hurt by her words. He called on the forest gods as witnesses to what had been said, then promised to find «Rāma» and bring him back quickly."
+        },
+        {
+          "t": "p",
+          "text": "But first «Lakṣmaṇa» went around the hut and drew seven lines on the ground. He asked «Sītā» not to cross them. He said that anyone trying to cross would be destroyed at once. He prayed to «Agni» to keep watch over her, bowed, and followed «Rāma» into the trees."
+        },
+        {
+          "t": "p",
+          "text": "Someone else had been waiting for just such a moment. «Rāvaṇa» approached wearing the clothes and carrying the objects of a wandering ascetic. He leaned forward as he walked and spoke as such a traveler might speak. «Sītā» did not see the king of «Laṅkā». She saw a holy visitor at the door of a forest home."
+        },
+        {
+          "t": "p",
+          "text": "She greeted him with respect and stepped across the lines «Lakṣmaṇa» had drawn. The visitor asked about her and the hut. «Sītā» answered openly: she was «Janaka»'s daughter and «Rāma»'s wife; she and the two brothers lived there during their forest years. «Rāma» had gone after the shining deer. A terrible cry had followed, and «Lakṣmaṇa» had gone to find him."
+        },
+        {
+          "t": "p",
+          "text": "The visitor stopped pretending. He named himself «Rāvaṇa», ruler of «Laṅkā». He spoke of the riches of his kingdom and asked «Sītā» to come with him. She refused. She told him that she belonged with «Rāma», and warned him to leave before «Rāma» returned. She would not be persuaded by his promises."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» grew angry. He dropped the ascetic's appearance and stood before her in his own terrible form. «Sītā» was frightened, but her answer did not change. He seized her and carried her toward his chariot. She cried out for «Rāma» and «Lakṣmaṇa» as he took her into the sky."
+        },
+        {
+          "t": "slow",
+          "text": "In this Telugu telling, the seven lines are there. The source also shows exactly how «Sītā» crossed them: she was honoring a visitor whom she believed to be an ascetic. «Rāvaṇa» had chosen that disguise so she would trust him. The choice to deceive and abduct was his."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When someone seems to need help, what might you look or listen for before you decide what to do?",
+    "seed": "Kindness can walk beside care.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Lakṣmaṇa draw a line in every Rāmāyaṇa?",
+        "a": "No. This story follows a Telugu Rāmāyaṇa with seven lines. Vālmīki’s Sanskrit departure scene has no drawn line."
+      },
+      {
+        "q": "Was Sītā to blame for what Rāvaṇa did?",
+        "a": "No. She greeted a visitor whom she believed was an ascetic. Rāvaṇa chose to disguise himself, deceive her, and carry her away."
+      }
+    ]
+  }
+}

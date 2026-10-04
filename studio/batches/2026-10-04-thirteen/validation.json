@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-10-04T06:34:38.113Z",
+  "purpose": "candidate mechanical validation",
+  "publicationReady": false,
+  "candidates": 4,
+  "counts": [
+    {
+      "id": "lakshmana-rekha",
+      "rendition": "short",
+      "spokenWords": 304
+    },
+    {
+      "id": "lakshmana-rekha",
+      "rendition": "full",
+      "spokenWords": 664
+    },
+    {
+      "id": "boy-insults-shiva",
+      "rendition": "short",
+      "spokenWords": 304
+    },
+    {
+      "id": "boy-insults-shiva",
+      "rendition": "full",
+      "spokenWords": 651
+    },
+    {
+      "id": "daksha-sacrifice",
+      "rendition": "short",
+      "spokenWords": 300
+    },
+    {
+      "id": "daksha-sacrifice",
+      "rendition": "full",
+      "spokenWords": 670
+    },
+    {
+      "id": "kannappar-eyes",
+      "rendition": "short",
+      "spokenWords": 323
+    },
+    {
+      "id": "kannappar-eyes",
+      "rendition": "full",
+      "spokenWords": 658
+    }
+  ],
+  "errors": [
+    "middle-four/en/boy-insults-shiva.json: expected draft canon entry"
+  ]
+}

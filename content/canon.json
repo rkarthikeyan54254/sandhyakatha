@@ -140,7 +140,7 @@
       "minAge": 9,
       "sensitivity": [],
       "value": "how a story grows a new part",
-      "hook": "The most famous line in the Rāmāyaṇa is not in the Rāmāyaṇa. This is the story of where it came from.",
+      "hook": "Vālmīki does not narrate a line at Sītā's hut. Later Rāmāyaṇa traditions speak of one; this story will name the telling it follows.",
       "festivals": [],
       "status": "draft",
       "wave": 1,
@@ -896,19 +896,21 @@
       "title": "Who Was Helping Janābāī",
       "corpus": "sant",
       "tradition": "north-bhakti",
-      "work": "Abhaṅgas of Janābāī",
-      "locus": "Janābāī in Nāmdev's household",
+      "work": "Mahīpati, Bhaktavijaya; Janābāī's abhaṅgas as parallel witness",
+      "locus": "Bhaktavijaya chapter 21, ovis 49–118, the grinding episode",
       "stability": "folk",
-      "minAge": 6,
+      "minAge": 8,
       "sensitivity": [
-        "social-hierarchy"
+        "social-hierarchy",
+        "violence"
       ],
       "value": "the work nobody watches",
-      "hook": "The servant girl's grindstone turns faster than it should. Then her necklace goes missing, and the household knows exactly who to blame.",
+      "hook": "At the mill before dawn, Viṭṭhal turns the stone beside Janābāī. When Goṇābāī comes to see who is helping, the blow she aims at Janābāī lands on the visitor.",
       "festivals": [],
       "status": "draft",
       "wave": 2,
-      "gated": false
+      "gated": false,
+      "careNote": "Goṇābāī suspects Janābāī of hiding a helper and missing flour, and strikes at her with a cane; the blow lands on Viṭṭhal. The later pendant accusation is outside this telling but follows in the same source chapter."
     },
     {
       "n": 47,
@@ -973,19 +975,19 @@
     },
     {
       "n": 50,
-      "id": "boy-insults-shiva",
-      "title": "The Boy Who Came to Talk Her Out of It",
+      "id": "parvati-visitor",
+      "title": "Pārvatī and the Visitor Who Questioned Her Choice",
       "corpus": "shiva-purana",
       "tradition": "sanskrit",
       "work": "Śiva Purāṇa",
-      "locus": "Pārvatī's tapas, Rudra Saṃhitā",
+      "locus": "Rudra Saṃhitā, Pārvatī-khaṇḍa 26–28",
       "stability": "stable",
       "minAge": 8,
       "sensitivity": [],
-      "value": "holding your ground politely",
-      "hook": "A young student turns up while she is fasting and lists, at length and quite accurately, everything wrong with the man she intends to marry.",
+      "value": "deciding, and not being talked out of it",
+      "hook": "An aged ascetic comes to Pārvatī's place of tapas and questions why she seeks Śiva. She answers what he cannot see in Śiva's outward form, then discovers who has come to visit.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
       "gated": false
     },
@@ -1160,8 +1162,8 @@
       "stability": "regional",
       "minAge": 9,
       "sensitivity": [],
-      "value": "starting when you cannot start",
-      "hook": "The king asks him to write the lives of all sixty-three saints. He sits down in the hall and cannot find the first word, for days.",
+      "value": "receiving a beginning for a great work",
+      "hook": "Asked to write the saints' lives, Sēkkiḻār prays at Chidambaram. A later life tradition tells how the opening word was given to him.",
       "festivals": [],
       "status": "draft",
       "wave": 2,
@@ -1232,7 +1234,7 @@
       "status": "draft",
       "wave": 3,
       "gated": true,
-      "careNote": "He kills his own family for eating consecrated grain during a famine. There is no redemptive turn. Included because the Periya Purāṇam includes it and does not soften it; gated because a child cannot be handed this without an adult in the room who has already decided what to say."
+      "careNote": "He kills relatives who used grain set aside for temple offerings during a famine. The deaths are not undone; the Periya Purāṇam says Śiva grants them heaven. This story needs an adult ready to discuss the harm without treating it as an example to follow."
     },
     {
       "n": 64,
@@ -1246,15 +1248,17 @@
       "minAge": 13,
       "sensitivity": [
         "gender-norms",
-        "injustice"
+        "injustice",
+        "violence",
+        "death"
       ],
       "value": "a promise with no exceptions in it",
-      "hook": "He has vowed to give any devotee whatever they ask for. A stranger arrives and asks for his wife, and he agrees, and so does she.",
+      "hook": "He has vowed to give any devotee whatever they ask for. A stranger asks for his wife; he agrees before telling her, and she says she has no choice but to obey.",
       "festivals": [],
       "status": "draft",
       "wave": 3,
       "gated": true,
-      "careNote": "A woman is given away and is not asked first — though in the text she consents, and the story treats her steadiness as equal to his. Worth telling and worth arguing with. Older children usually get there on their own: ask them whether a promise that costs someone else is a promise you had the right to make."
+      "careNote": "He promises his wife to a stranger without asking her first. She says she has no choice but to obey; opposing relatives are killed. The text later grants them heaven, but neither her constrained response nor those deaths should be softened. Ask whether a promise that costs someone else was his to make."
     },
     {
       "n": 65,
@@ -1273,7 +1277,7 @@
         "loss"
       ],
       "value": "a slight that could not be let go",
-      "hook": "A father throws a great feast and leaves one name off the list: his own daughter's husband. She goes anyway, to ask him why.",
+      "hook": "Dakṣa holds a great sacrifice without inviting his daughter Satī's husband. She goes despite Śiva's warning and confronts her father there.",
       "festivals": [],
       "status": "draft",
       "wave": 3,

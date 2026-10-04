@@ -1,0 +1,45 @@
+{
+  "createdOn": "2026-10-04",
+  "purpose": "Story-specific hero candidates for the four English review drafts; visual approval and production selection are tracked per asset",
+  "productionMediaSelected": true,
+  "assets": [
+    {
+      "id": "lakshmana-rekha",
+      "file": "art/lakshmana-rekha-candidate.webp",
+      "sha256": "a491eee5fb1979b34405418d59048bcea0963a3ad5459e126125cc9f7954d432",
+      "bytes": 350348,
+      "dimensions": "1448x1086",
+      "status": "candidate",
+      "humanVisualApproval": "pending"
+    },
+    {
+      "id": "parvati-visitor",
+      "file": "art/boy-insults-shiva-candidate.webp",
+      "sha256": "8a6b328c36dbd35108b69b22892c85fa31a88ab31c22698098cb485cfd3b7bb2",
+      "bytes": 328640,
+      "dimensions": "1448x1086",
+      "status": "approved",
+      "humanVisualApproval": "rama, 2026-10-04",
+      "productionHero": "/media/stories/parvati-visitor/hero.webp",
+      "productionShareCard": "/og/parvati-visitor.jpg"
+    },
+    {
+      "id": "kannappar-eyes",
+      "file": "art/kannappar-eyes-candidate.webp",
+      "sha256": "c55a4bd58c34a4e362d38d7310ce13b5ec0656e299eb0a85cb370e2b5d56835a",
+      "bytes": 347744,
+      "dimensions": "1448x1086",
+      "status": "candidate",
+      "humanVisualApproval": "pending"
+    },
+    {
+      "id": "daksha-sacrifice",
+      "file": "art/daksha-sacrifice-candidate.webp",
+      "sha256": "38d1be0e1c3e8c8b40ecbfda06ce448346b11c73c0f64c6fc85b4df3257a5b95",
+      "bytes": 277070,
+      "dimensions": "1448x1086",
+      "status": "candidate",
+      "humanVisualApproval": "pending"
+    }
+  ]
+}
