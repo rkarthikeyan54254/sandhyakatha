@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-04T06:25:37.062Z",
+  "checkedAt": "2026-10-04T06:34:38.113Z",
   "purpose": "candidate mechanical validation",
   "publicationReady": false,
   "candidates": 4,
@@ -45,5 +45,7 @@
       "spokenWords": 658
     }
   ],
-  "errors": []
+  "errors": [
+    "middle-four/en/boy-insults-shiva.json: expected draft canon entry"
+  ]
 }

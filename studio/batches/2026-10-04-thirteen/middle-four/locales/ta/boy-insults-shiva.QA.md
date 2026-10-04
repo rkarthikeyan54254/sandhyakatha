@@ -1,6 +1,6 @@
 # Tamil draft QA — Pārvatī and the aged visitor
 
-The draft is `boy-insults-shiva.json`. It follows the six numbered canonical claims in `middle-four/en/boy-insults-shiva.json`, with each narration block mapped to a claim-bearing scene. The title was formed from Pārvatī answering the visitor's questions, rather than by translating the English title. The visitor is a **mுதி‌ய துறவி**, never a boy. The short and full tellings were written as separate Tamil narrations.
+The draft is `boy-insults-shiva.json`. It follows the six numbered canonical claims in `middle-four/en/boy-insults-shiva.json`, with each narration block mapped to a claim-bearing scene. The title was formed from Pārvatī answering the visitor's questions, rather than by translating the English title. The visitor is a **முதிய துறவி**, never a boy. The short and full tellings were written as separate Tamil narrations.
 
 Targeted structural check: **PASS** on 2026-10-04. The locale JSON matches `schema/story-locale.schema.json`; its `sourceBlobSha1` matches the English candidate's current bytes; every scene maps to valid canonical claim indices; all canonical entity markers resolve in the lexicon and have Tamil display names; both renditions end in one `slow` block; no Latin-script words appear in narration outside entity markers. The short and full drafts contain 172 and 381 Tamil whitespace-separated tokens respectively. These counts are editorial size cues, **not timed durations**.
 

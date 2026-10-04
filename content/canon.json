@@ -975,7 +975,7 @@
     },
     {
       "n": 50,
-      "id": "boy-insults-shiva",
+      "id": "parvati-visitor",
       "title": "Pārvatī and the Visitor Who Questioned Her Choice",
       "corpus": "shiva-purana",
       "tradition": "sanskrit",
@@ -984,10 +984,10 @@
       "stability": "stable",
       "minAge": 8,
       "sensitivity": [],
-      "value": "seeing beyond outward appearances",
+      "value": "deciding, and not being talked out of it",
       "hook": "An aged ascetic comes to Pārvatī's place of tapas and questions why she seeks Śiva. She answers what he cannot see in Śiva's outward form, then discovers who has come to visit.",
       "festivals": [],
-      "status": "draft",
+      "status": "in-review",
       "wave": 2,
       "gated": false
     },

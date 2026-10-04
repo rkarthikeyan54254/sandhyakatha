@@ -1,7 +1,7 @@
 {
   "createdOn": "2026-10-04",
-  "purpose": "Unapproved story-specific hero candidates for the four English review drafts",
-  "productionMediaSelected": false,
+  "purpose": "Story-specific hero candidates for the four English review drafts; visual approval and production selection are tracked per asset",
+  "productionMediaSelected": true,
   "assets": [
     {
       "id": "lakshmana-rekha",
@@ -13,13 +13,15 @@
       "humanVisualApproval": "pending"
     },
     {
-      "id": "boy-insults-shiva",
+      "id": "parvati-visitor",
       "file": "art/boy-insults-shiva-candidate.webp",
       "sha256": "8a6b328c36dbd35108b69b22892c85fa31a88ab31c22698098cb485cfd3b7bb2",
       "bytes": 328640,
       "dimensions": "1448x1086",
-      "status": "candidate",
-      "humanVisualApproval": "pending"
+      "status": "approved",
+      "humanVisualApproval": "rama, 2026-10-04",
+      "productionHero": "/media/stories/parvati-visitor/hero.webp",
+      "productionShareCard": "/og/parvati-visitor.jpg"
     },
     {
       "id": "kannappar-eyes",
