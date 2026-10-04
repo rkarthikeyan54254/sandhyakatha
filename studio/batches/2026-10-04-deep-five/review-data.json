@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T14:02:49.793Z",
+  "generatedAt": "2026-10-04T14:07:37.415Z",
   "publicationReady": false,
   "reviewStatus": "pending",
   "stories": [
@@ -34,13 +34,13 @@
         },
         "hi": {
           "file": "locales/hi/nrga-well.md",
-          "fileSha256": "eba2e2c5f28bd5addd28ffb9cddebb2adbc1f6c81cabb36d2b1dac8af2614623",
+          "fileSha256": "ccc7582f34794d42b807cccf896009aa268e4f77721a307af166d3fe46f234bc",
           "title": "सूखे कुएँ में राजा नृग — हिन्दी समीक्षा मसौदा",
           "status": "draft—human review pending",
           "shortWords": 354,
           "fullWords": 697,
-          "shortSha256": "7c5d159fdda7dd1fae3c8f1cb107952003d4c038b1e7eabee886e2615963911b",
-          "fullSha256": "d03d099f34597753b559e3b7da516f24973d588f1aea59c5acfda0bcafa66310",
+          "shortSha256": "335331f671c3e14d699f0b941b00291633eeb21f02362230f8bd547f6e49c1de",
+          "fullSha256": "07570bfe89bb845b7820dc3ee6444384be8adbd1b1bddf616a60b9ca8e698120",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -48,13 +48,13 @@
         },
         "ta": {
           "file": "locales/ta/nrga-well.md",
-          "fileSha256": "a7e261f5c26d1a99677ec63c1c9f69abe3d1f889d19684ff3e71b093198259ab",
+          "fileSha256": "ee10fef327f9173afbf3dc18a30f89e389f9941d3a705126238895d75f253c92",
           "title": "வறண்ட கிணற்றில் இருந்த மன்னன்",
           "status": "draft—human review pending",
           "shortWords": 180,
           "fullWords": 357,
-          "shortSha256": "45e3ababc057adf685701ac8bbcbe0b3dea004f1f031e13bff7963100aa51029",
-          "fullSha256": "498081cb649709e325f03f601766485305f835dcdc7d74814e0b5e67dc517c34",
+          "shortSha256": "e8c485a039e42f90e2ab8b82e9bc62efe4d025a1ce95930b5f3b71173ac85643",
+          "fullSha256": "230fd1c5d3b864fc3447ec17f380ac9970bd003b51f3e691793dd89dfc0e59b7",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -93,13 +93,13 @@
         },
         "hi": {
           "file": "locales/hi/indra-virocana.md",
-          "fileSha256": "257c8296b9ca2a7e17038f1d666671778099201e023d1d2c72d8786798a9b6af",
+          "fileSha256": "c6a1c16ee61e5816e22c99e8e99341c7b2a0b24b3b340059b92c2e871be042e1",
           "title": "इंद्र बार-बार क्यों लौटे — हिन्दी समीक्षा मसौदा",
           "status": "draft—human review pending",
           "shortWords": 339,
           "fullWords": 686,
-          "shortSha256": "043e553c0790afcb70fb2c657813839cd0285d2d3c10e0cb8b5f94a5f40b0f87",
-          "fullSha256": "d2a30377538eaee8d8ee9b9b398c48e688c4ee21f877c00f43087dff72ea45ec",
+          "shortSha256": "0803c87afea68abef0ffc4a52cd1dcfb60c0c042b1b4b7da98193842f88d54d4",
+          "fullSha256": "35049564d8fd4703fb9256f7ce0912b43fcc165ab64e0ad475995f7938dfe672",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -107,13 +107,13 @@
         },
         "ta": {
           "file": "locales/ta/indra-virocana.md",
-          "fileSha256": "5fb022ce1117ef7f8863452b779ab87e5ba24cfc2221310c6ce36724dbdad6c0",
+          "fileSha256": "8f6e463d700fd0b28a4fbd5e9b751c55e15ee64f7d99cb4a766d5121219071ad",
           "title": "தண்ணீரில் தெரிந்த முகம் போதுமா?",
           "status": "draft—human review pending",
           "shortWords": 165,
           "fullWords": 351,
-          "shortSha256": "24f3b598cf34c763dd9484acee110a8eb8ba789bb66ec8fcea75ff7f90d15787",
-          "fullSha256": "5e48a4b18343c32cfd4aa6935ad8ae2c29bb3b7be7f903d29784e7ad6d455206",
+          "shortSha256": "a4547dae716358b6d8b5884b8feaf8984f4f53dfc9ccde6c574494ab437ff44e",
+          "fullSha256": "88985182479bc15c0859498e46ced07102407122790dc185c522e7079e712a4b",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -152,13 +152,13 @@
         },
         "hi": {
           "file": "locales/hi/dharma-vyadha.md",
-          "fileSha256": "cf7bb9334e3d8854b22d0ee460eae538daf41ed112eaa45938061feb876ab46f",
+          "fileSha256": "76ba120be82d8a002b8ec93a2d1398dc80b0ae83fdd3a4c0c0cd8e15d69c1304",
           "title": "मिथिला की दुकान पर मिला उत्तर — हिन्दी समीक्षा मसौदा",
           "status": "draft—human review pending",
           "shortWords": 333,
           "fullWords": 698,
-          "shortSha256": "90f180c9597e3c11f63715fe66f925b6144bb2d1eb2035c465f5e09d08af42d5",
-          "fullSha256": "de0c4c421470a1b1dac1610ebd36e30bef60a312bc8ebc77e8781290e8ebd2ec",
+          "shortSha256": "fb893c4d096d475f93858ea80e98cb3171719a5f94c804b96081dbefada8fd06",
+          "fullSha256": "6301fa2b0c40c7e7630d585a6f4ec0f0d9a65153208e786d9d492e85ae05de1a",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -166,13 +166,13 @@
         },
         "ta": {
           "file": "locales/ta/dharma-vyadha.md",
-          "fileSha256": "9eb21c12cb14fc175d3061c65aadabf7d4ec6e4c63f456f2bb3654f58fca11c8",
+          "fileSha256": "7dc8d62cd06ac59ad0ab2b7b3fd0268301da6914c35c023b390f0ec896ff0f40",
           "title": "கௌசிகர் தேடிச் சென்ற கடைக்காரர்",
           "status": "draft—human review pending",
           "shortWords": 162,
           "fullWords": 350,
-          "shortSha256": "467e8105c4a8a0eb38527f33da9895f0139b14f5eca8a3f6bdf5867694163f27",
-          "fullSha256": "0188474614beaee83bdccfe75758d746fc139d55d7d8825a2341532987fdff9d",
+          "shortSha256": "6a3495032c8ff4cf81641f30d5f4ee45729ddd3608c1d3be5f5504f3ef3b319f",
+          "fullSha256": "d2cc1ef7c64f9fa0344994554c6d179f12135d0e59ad0ccf1fe6da747683d085",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -211,13 +211,13 @@
         },
         "hi": {
           "file": "locales/hi/mainaka-welcome.md",
-          "fileSha256": "2dd7d9297b7ddf445270655420abc74f66adbd155d93ae7fedd834e9d6b93b82",
+          "fileSha256": "be14b5bb49a03fc607852ed4c3f37ed12ca9d71b6d2508f7fda8c64753ce9921",
           "title": "रास्ते में उठ खड़ा हुआ पर्वत — हिन्दी समीक्षा मसौदा",
           "status": "draft—human review pending",
           "shortWords": 339,
           "fullWords": 697,
-          "shortSha256": "008e944172a223a9238b92c844345fe5f24dbb7f01e996e437c5ede89baf36fb",
-          "fullSha256": "9e56468ba660ebbced9b30637407def42b03534e28c16868b040b58201394c7d",
+          "shortSha256": "b1a997b600b9e238adeb9d44bc22a7e13d985bf080e88d862b40d6b3cd2bcda5",
+          "fullSha256": "a88f9693a6af7bf0b267291d9bd407ef7e025635066800db374689d87b632347",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -225,13 +225,13 @@
         },
         "ta": {
           "file": "locales/ta/mainaka-welcome.md",
-          "fileSha256": "c9790f54c6f86f0b60ae075e3c9ff5c554763b85831ff8d17fcf27b556839946",
+          "fileSha256": "132565fad4c767acc5f1d32a565b4b951c85a01e49df96139870273fcb0c63bb",
           "title": "வழி மறித்த மலையின் விருந்தழைப்பு",
           "status": "draft—human review pending",
           "shortWords": 142,
           "fullWords": 297,
-          "shortSha256": "fa6937d757c196043a557ebd1c33e6abc47b21e4031aa526bb9587f04ccbb160",
-          "fullSha256": "84cec08670833bcafa1aad0365fbc79f82e5c585d8abcaa30d4e5df7f00690c8",
+          "shortSha256": "037604832a8ed0857db75fd26235b0a83e719f34b9f154ac57aedd883170e743",
+          "fullSha256": "fb3c303aa4f5a77a82d080dac595a46221dc76dd20704eb9387ab8e81541cdc9",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -270,13 +270,13 @@
         },
         "hi": {
           "file": "locales/hi/devi-messenger.md",
-          "fileSha256": "9840d313da554cc64b76d9a1c8786edb065ffb35b1024f645053d31eca94daeb",
+          "fileSha256": "aa1acdb0af6d5269a256894e646b8ce7a04078661aa2b83036cf6a2abb30b269",
           "title": "देवी ने दूत को अपना वचन सुनाया — हिन्दी समीक्षा मसौदा",
           "status": "draft—human review pending",
           "shortWords": 343,
           "fullWords": 693,
-          "shortSha256": "5ba9df2a09e623559b6e1126fe4104d23e7ea5ef8868803b1a110d158afc261d",
-          "fullSha256": "13acbfecea397ffec1ecac79a1efc13434df1cf269cf42c614fbc1cae37cc88f",
+          "shortSha256": "43768b223d83fac54eb768c26298aa3e28ac174b43e4ecb0475c38e0021219ab",
+          "fullSha256": "eaf2f95374cae1e693791a0e668ff33a71257f89899ba3235d1f9895c1e52d05",
           "measuredSeconds": {
             "short": null,
             "full": null
@@ -284,13 +284,13 @@
         },
         "ta": {
           "file": "locales/ta/devi-messenger.md",
-          "fileSha256": "f8ad022c9b2332ec12ebac0d6b5edb6d7ea419da2962be9541efb13673d1efae",
+          "fileSha256": "91df35b83c5cc1ef9ee6dfb03203694f4dda8d13e832f033e3061887f97f2c37",
           "title": "தேவியின் பதிலைக் கொண்டு சென்ற தூதன்",
           "status": "draft—human review pending",
           "shortWords": 204,
           "fullWords": 413,
-          "shortSha256": "ebd2d64b3cfb5fab5d32352e466721ae34c9252ee6a209e7ecba9df1167e4d94",
-          "fullSha256": "d04575b57ba53d50d888f0ef6d8fe9e986479219bd12c8bc3c878667b956a4df",
+          "shortSha256": "c4d9dbb75446edb95164936e3c5721dfa5a414d133640ae1f8d71ba991290d16",
+          "fullSha256": "58d1a95f8e52bef160e4d9f54d8a7c1974f72e3d173cb82a1b84e3da3a059453",
           "measuredSeconds": {
             "short": null,
             "full": null

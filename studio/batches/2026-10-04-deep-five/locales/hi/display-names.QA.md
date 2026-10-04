@@ -7,3 +7,5 @@ Existing lexicon spellings were used for इन्द्र, कृष्ण, �
 The messenger in `devi-messenger.md` remains “दूत” in the narration. If named in a later revision, that Devī Māhātmya messenger must be distinguished from the Rāmāyaṇa's Sugrīva; the current map intentionally has no `Sugrīva` key.
 
 This is display QA only. It does not establish native-language approval, read-aloud timing, or permission to promote the drafts.
+
+Update 2026-10-04: all marked names were resolved directly to Devanagari in the five Markdown drafts. The map remains an audit reference. No Latin name placeholder remains in spoken draft prose.

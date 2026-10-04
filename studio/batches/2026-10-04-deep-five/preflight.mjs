@@ -23,6 +23,12 @@ for(const story of proof.stories){
     check(`${story.id}/${lang} file hash`,ed&&sha(read(ed.file))===ed.fileSha256);
     check(`${story.id}/${lang} timing unclaimed`,ed?.measuredSeconds?.short===null&&ed?.measuredSeconds?.full===null);
     check(`${story.id}/${lang} anchored`,html.includes(`id="${story.id}-${lang}"`));
+    if(lang!=='en'){
+      const draft=read(ed.file).toString('utf8');
+      const spoken=draft.split(/^##\s+[^\n]*\n/m).slice(1,3).join(' ');
+      const latin=/[A-Za-zÀ-žĀ-ž]/u.test(spoken);
+      check(`${story.id}/${lang} draft native script`,!latin&&!/[«»]/u.test(spoken),latin?'Latin token in source draft':'native names in source draft');
+    }
     if(lang==='en'){
       check(`${story.id} short word band`,ed.shortWords>=300&&ed.shortWords<=360,`${ed.shortWords}`);
       check(`${story.id} full word band`,ed.fullWords>=650&&ed.fullWords<=680,`${ed.fullWords}`);
