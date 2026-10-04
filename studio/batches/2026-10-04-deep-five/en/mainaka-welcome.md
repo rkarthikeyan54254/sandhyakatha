@@ -4,13 +4,13 @@ Source: *Vālmīki Rāmāyaṇa*, Sundara Kāṇḍa 5.1.87–143. English revie
 
 ## Short — spoken
 
-«Hanumān» was crossing the sea to look for «Sītā». The far shore was still ahead. Below him, the ocean watched him fly on «Rāma»'s work and wished to help. Deep under the water stood a mountain called «Maināka», whose peaks shone like gold. The ocean asked the mountain to rise and offer the traveller a place to rest.
+«Hanumān» was crossing the sea to look for «Sītā», on «Rāma»'s urgent errand. The far shore was still ahead. Below him, the ocean watched him fly on «Rāma»'s work and wished to help. Deep under the water stood a mountain called «Maināka», whose peaks shone like gold. The ocean asked the mountain to rise and offer the traveller a place to rest.
 
 The sea opened. Up came «Maināka», carrying trees and creepers on his slopes. His bright peaks rose directly into «Hanumān»'s path. From the sky, this sudden mountain looked like something blocking the way. «Hanumān» struck it with his chest. But «Maināka» was not trying to stop him. The mountain greeted him and offered him a resting place before the long flight continued.
 
 «Maināka» explained why he wanted to welcome this particular guest. Long ago, mountains had wings. When «Indra» began cutting those wings away, «Vāyu», the wind and «Hanumān»'s father, carried «Maināka» to safety. «Maināka» had not forgotten that help. Now «Vāyu»'s son was passing overhead, doing a difficult task for «Rāma». The mountain could offer him its slopes, its welcome, and a little rest.
 
-«Hanumān» heard him. He honoured the mountain's kindness, but he could not stay. He had set out to find «Sītā», and he had promised to finish the crossing without delay. He touched «Maināka» with his hand and rose into the sky again. That touch was enough for the mountain to know his welcome had been received.
+«Hanumān» heard him. He honoured the mountain's kindness, but he could not stay. He had set out to find «Sītā», and he had promised to finish the crossing without delay. He touched «Maināka» with his hand and rose into the sky again. Mountain and ocean looked after him with respect and blessings.
 
 «Hanumān» flew on toward the far shore, following the way of his father, the wind. «Maināka» remained in the sea, pleased that he had helped as he could. Even «Indra» praised the mountain for offering shelter to «Rāma»'s messenger. The offered rest and the urgent journey had met for one moment above the water. Then each continued in its own way.
 
@@ -18,7 +18,7 @@ The sea opened. Up came «Maināka», carrying trees and creepers on his slopes.
 
 «Hanumān» had left the shore behind. He was flying across the sea to find «Sītā», who had been taken to Laṅkā. His body moved high above the waves, while his shadow travelled over the water below. The wind did not hinder him. The sun did not burn him. Clouds of different colours passed around him. Yet the crossing was long, and the far shore was still out of sight.
 
-The ocean saw «Hanumān» on his way. It remembered the house of «Rāma», for King Sagara of that line had once enlarged the sea. Now «Rāma»'s messenger was crossing it. The ocean wanted to help him finish this difficult journey. It could not carry him to Laṅkā, but it could offer a place to rest along the way.
+The ocean saw «Hanumān» on his way. It remembered the house of «Rāma», for King Sagara of that line had once enlarged the sea. Now «Rāma»'s messenger was crossing it. The ocean wanted to help him finish this difficult journey. It chose to offer a place to rest along the way.
 
 Beneath the water stood «Maināka», a mountain with gold-coloured peaks. The ocean asked him to rise. It told him that the traveller above was «Hanumān», working for «Rāma», and that a resting place would help him cross the remaining distance. «Maināka» listened. Then his mountain body rose through the sea. Water fell from his slopes. Trees and creepers came up with him, and his shining peaks reached towards the sky. The peaks were so bright that the sky above the water seemed touched by gold. The sea had hidden this mountain; now it stood before the traveller in full view.
 

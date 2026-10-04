@@ -18,7 +18,7 @@
       "bytes": 307060,
       "dimensions": "pixelWidth: 1672; pixelHeight: 941",
       "scene": "Chāndogya Upaniṣad 8.7–8.9: Indra and Virocana at the water-reflection teaching.",
-      "status": "candidate—human art and source review pending"
+      "status": "rejected candidate: water/mirror did not visibly reflect either student; retained for audit"
     },
     {
       "storyId": "dharma-vyadha",
@@ -54,6 +54,15 @@
       "bytes": 269110,
       "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
       "scene": "Mahābhārata Vana 206 marketplace encounter only; parents deliberately absent.",
+      "status": "candidate v2—human art and source review pending"
+    },
+    {
+      "storyId": "indra-virocana",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/indra-virocana-candidate-v2.webp",
+      "sha256": "4aab067dcf4aa9f3ebf81ea7f19fb67aac7e3c3c425d5d9e6a58bfa55772a09a",
+      "bytes": 307862,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Chāndogya 8.7–8.8: Prajāpati watches Indra and Virocana looking into still water; both student reflections are visibly present.",
       "status": "candidate v2—human art and source review pending"
     }
   ]

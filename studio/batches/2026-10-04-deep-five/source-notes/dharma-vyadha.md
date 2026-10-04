@@ -1,17 +1,19 @@
 # Dharma-vyādha and Kauśika — selection note
 
-**Witness:** *Mahābhārata*, Vana Parva, Markandeya-Samasya / Vyādha-dharma episode, Ganguli §§[205](https://sacred-texts.com/hin/m03/m03205.htm), [206](https://sacred-texts.com/hin/m03/m03206.htm), [213](https://sacred-texts.com/hin/m03/m03213.htm), [214](https://sacred-texts.com/hin/m03/m03214.htm). §§[207](https://sacred-texts.com/hin/m03/m03207.htm)–[212](https://sacred-texts.com/hin/m03/m03212.htm) hold the longer ethical discourse; §[215](https://sacred-texts.com/hin/m03/m03215.htm) continues the previous-birth account. Section numbering is that translation's; collate the selected Sanskrit recension before drafting.
+**Witness and numbering:** *Mahābhārata*, Vana Parva, Vyādha-dharma episode. Ganguli English §§[205](https://sacred-texts.com/hin/m03/m03205.htm), [206](https://sacred-texts.com/hin/m03/m03206.htm), [213](https://sacred-texts.com/hin/m03/m03213.htm), [214](https://sacred-texts.com/hin/m03/m03214.htm) correspond at these points to the Sanskrit witness's book 3 chapters [197](https://sacred-texts.com/hin/mbs/mbs03197.htm), [198](https://sacred-texts.com/hin/mbs/mbs03198.htm), [204](https://sacred-texts.com/hin/mbs/mbs03204.htm), [205](https://sacred-texts.com/hin/mbs/mbs03205.htm), respectively. This is a local crosswalk, not a constant chapter offset. Ganguli §§[207](https://sacred-texts.com/hin/m03/m03207.htm)–[212](https://sacred-texts.com/hin/m03/m03212.htm) carry the longer ethical discourse; §[215](https://sacred-texts.com/hin/m03/m03215.htm) continues the previous-birth account. Sanskrit verse loci below refer to this online witness, not an independently verified critical-edition apparatus.
 
 ## Claim ledger
 
 | Claim safe for narration | Locus |
 | --- | --- |
-| Kauśika's angry glance kills a female crane; he regrets it. | §205 |
-| A householder makes him wait while she tends her hungry husband, rebukes his anger, and directs him to a knowledgeable fowler in Mithilā. | §205 |
-| Kauśika finds the fowler selling venison and buffalo meat in a butcher's yard, stands back, and is greeted courteously. | §206 |
-| Kauśika questions that occupation; the fowler discusses truthfulness, duty and his inherited livelihood. | §206 |
-| The fowler shows Kauśika his aged parents, whom he tends and honours. | §213 |
-| He urges Kauśika to return to his own parents. | §214 |
+| Kauśika's angry glance kills a female crane; he regrets it. | Sanskrit [3.197.1–7](https://sacred-texts.com/hin/mbs/mbs03197.htm); Ganguli §205. |
+| A householder makes him wait while she tends her hungry husband, rebukes his anger, and directs him to a knowledgeable fowler in Mithilā. | Sanskrit [3.197.8–10, 19–45](https://sacred-texts.com/hin/mbs/mbs03197.htm); Ganguli §205. |
+| Kauśika finds the fowler selling meat in a butcher's yard, stands back, and is greeted courteously. | Sanskrit [3.198.9–17](https://sacred-texts.com/hin/mbs/mbs03198.htm); Ganguli §206. Verse 10 describes deer/buffalo meat. |
+| Kauśika questions that occupation; the fowler says it is inherited, that he serves his elders and speaks truthfully. He says others kill the animals he sells and he does not eat the meat. | Sanskrit [3.198.18–21, 31–32](https://sacred-texts.com/hin/mbs/mbs03198.htm); Ganguli §206. |
+| The fowler shows Kauśika his aged parents, whom he tends and honours. | Sanskrit [3.204.3–25](https://sacred-texts.com/hin/mbs/mbs03204.htm); Ganguli §213. |
+| He says Kauśika left without his parents' permission, that they grieve, and urges him to return; Kauśika accepts. | Sanskrit [3.205.7–18](https://sacred-texts.com/hin/mbs/mbs03205.htm); Ganguli §214. |
+
+**Translation/variant care:** Sanskrit 3.198.10 describes *mārga-māhiṣa* meat (deer and buffalo) at the stall, while 3.198.31 uses *varāha-māhiṣa* (boar and buffalo) when the seller describes animals killed by others. Do not flatten these into one exact inventory; “meat” is sufficient for the spoken story. The Sanskrit at 3.198.31–32 supports his narrower claim that he does not himself kill the animals he sells and does not eat meat; it does **not** make him a vegetarian merchant. The householder's “I am no crane” wording can vary by textual witness, so prefer the stable event and her knowledge of the crane over treating that phrase as a required quotation. English narration paraphrases the episode rather than claiming verbatim speech.
 
 **3/6-minute feasibility:** Yes, with a narrative spine of anger → the woman's correction → unexpected teacher at the market → care for parents → Kauśika's changed understanding. A short edition can summarize the journey and retain one exchange at the market. A full edition can give the crane and householder more room, but the philosophical discourse must remain a few source-exact, child-comprehensible claims rather than invented dialogue or a generic sermon.
 

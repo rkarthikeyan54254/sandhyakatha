@@ -41,7 +41,7 @@ She belonged to another brāhmaṇa. She had strayed into the king's herd withou
 
 The two men came before Nṛga. Each had a claim to the same animal. One had lost his cow. The other had accepted a gift from the king. Nṛga heard them and was bewildered. What could he do that would put this right for both of them?
 
-He offered a hundred thousand of his best cows in exchange for that single cow. He asked both men to show him mercy. He had given her away without knowing she was another person's, he told them. But the man who had received her would not exchange her. The original owner refused the offered cows too. Both left. The passage gives no moment when the cow is returned or the men make peace.
+He offered a hundred thousand of his best cows in exchange for that single cow. He asked both men to show him mercy. He had given her away without knowing she was another person's, he told them. But the man who had received her would not exchange her. The original owner refused the offered cows too. Both left. Neither man gave way. Nṛga had offered much, but the cow was still claimed by both.
 
 Later Nṛga died. Yama's messengers brought him before Yama, who spoke of the many good results waiting for him from his gifts. Then Yama gave him a choice: would he experience those good results first, or the painful result of the mistaken gift? Nṛga chose the painful one first.
 
@@ -49,7 +49,7 @@ He fell into the body of a lizard. Yet he did not forget his earlier life. He re
 
 And then came a day when some thirsty boys looked down into a dry well. Their ropes could not lift him, but Kṛṣṇa's hand did. Standing once more in a human-shaped, shining form, Nṛga praised Kṛṣṇa. He asked to depart. Kṛṣṇa gave his permission, and Nṛga bowed and entered a heavenly vehicle while the others watched.
 
-Kṛṣṇa spoke next to his companions. His warning was about the property of a brāhmaṇa, even when someone takes it without knowing. Nṛga had been generous beyond counting, but he had also given away a cow that belonged to someone else. The story does not say that his offer of more cows settled the matter. It leaves the two men walking away, and the great giver remembering the one gift he could not make right.
+Kṛṣṇa spoke next to his companions. His warning was about the property of a brāhmaṇa, even when someone takes it without knowing. Nṛga had been generous beyond counting, but he had also given away a cow that belonged to someone else. Nṛga had offered more cows than most people could count, yet he had watched both men walk away. The one disputed cow remained in his account beside all those gifts.
 
 The well was empty of water. When the boys looked into it, they found a question that had followed Nṛga there for a very long time.
 

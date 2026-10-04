@@ -16,10 +16,6 @@ After another thirty-two years, «Prajāpati» pointed to the person who moves i
 
 Five more years passed. Then «Prajāpati» gave his final teaching. The body can die, he said, but it is the dwelling place of the deathless, bodiless Self. He spoke of wind and cloud taking form in the light, and of the Self appearing in its own form. «Indra» had stayed a student for one hundred and one years. Each time an answer seemed complete, he had looked at it carefully and returned to ask what he had not yet understood.
 
-**Close question:** What helped «Indra» notice that an answer he had accepted still left him with a question?
-
-**Seed, if needed:** A good question can ask us to look again.
-
 ## Full telling — target 6 minutes
 
 «Prajāpati» had said that there is a Self free from old age, death and sorrow. The gods heard his words. So did the asuras. Each wanted to understand the Self he had described. «Indra» came from the gods, and «Virocana» came from the asuras. They carried firewood, as students did when approaching a teacher, and lived with «Prajāpati» for thirty-two years.
@@ -42,7 +38,11 @@ Now «Prajāpati» spoke of the mortal body as the dwelling place of a deathless
 
 «Virocana» had taken the first reflection home as a finished answer. «Indra» had looked again, then asked again. The water, the dream and the deep sleep had each shown him something, but none had ended his search. His teacher's final words came after all those returns. They were not the first answer heard beside the pan of water. The long years matter in this telling because «Indra» did not call a question settled just because he had already spent years trying to answer it.
 
-**Close question:** When «Indra» turned back each time, what had he noticed about the answer he was carrying?
+## Close
+
+**Short question:** What helped «Indra» notice that an answer he had accepted still left him with a question?
+
+**Full question:** When «Indra» turned back each time, what had he noticed about the answer he was carrying?
 
 **Seed, if needed:** If something still does not fit, it is all right to ask again.
 

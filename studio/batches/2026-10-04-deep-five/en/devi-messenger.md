@@ -54,7 +54,7 @@ The Goddess answered him. He had been sent with an army, she said, and he was st
 
 «Dhūmralocana» charged. Before he could seize her, the Goddess uttered one sound: _huṃ_. The commander became ash. His army had seen their leader run toward the one they had been told to carry away, and they had seen him disappear.
 
-The sacred text goes on to tell of a larger battle. Here, on the snowy mountain, the messenger's boast and the commander's threat had both reached the Goddess. Her answer had not changed. No one had brought her to «Śumbha».
+The battle had only begun. Here, on the snowy mountain, the messenger's boast and the commander's threat had both reached the Goddess. Her answer had not changed. No one had brought her to «Śumbha».
 
 ## Parent-facing close, aside, and questions (draft)
 
