@@ -2,6 +2,12 @@
 
 Updated: 2026-10-02. Keep this file compact; replace stale values.
 
+## Deep-five story selection — 2026-10-04
+
+- Rama requested five lesser-heard, source-grounded stories, each in English/Hindi/Tamil with 3/6-minute editions and appropriate artwork. Fresh branch `codex/deep-five-2026-10-04` starts from `origin/main` at `470fb0d`; latest canon was checked for overlap. Selection plan and claim-level primary-source notes are saved at `studio/batches/2026-10-04-deep-five/`. The slate is Nṛga, Indra/Virocana, Dharma-vyādha, Maināka, and Devī's reply to Śumbha's messenger; source and care issues are marked, not silently resolved.
+- This checkpoint is research only: no new story, locale, art, approval, lock, or public route exists. The prior thirteen-story PR #30 is already merged, but Pārvatī remains `in-review` pending its own timing/editorial gate. Do not infer approval for the new five from prior batches.
+- Usage at this checkpoint: five-hour window started at 61% and was 67% after the first research unit, weekly 39–40% used. Next exact action: finish the fifth source note, pilot the high-complexity Indra/Virocana read-aloud arc, then draft one verified English 3/6 edition at a time and keep a durable check-in before leaving the session. Preserve capacity for the required full validation and branch push.
+
 ## Thirteen-story editorial queue — 2026-10-04
 
 - Rama requested end-to-end work on all thirteen remaining draft canon entries and a durable check-in before the session ends. A fresh branch `codex/thirteen-stories-2026-10-04` starts from latest production `main` (`78d15e8`); first tracker checkpoint `746212e` is committed at `studio/batches/2026-10-04-thirteen/README.md`.
