@@ -61,4 +61,4 @@ for (const file of files) {
 const evidence = { checkedAt: new Date().toISOString(), purpose: 'candidate mechanical validation', publicationReady: false, candidates: files.length, counts, errors };
 fs.writeFileSync(path.join(batch, 'validation.json'), JSON.stringify(evidence, null, 2) + '\n');
 if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1; }
-else console.log(`PASS: ${files.length} English candidate(s); human editorial review remains pending.`);
+else console.log(`PASS: ${files.length} English candidate(s); source, locale, visual and release gates remain separate.`);

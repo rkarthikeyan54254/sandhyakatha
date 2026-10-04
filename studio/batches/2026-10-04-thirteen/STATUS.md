@@ -1,6 +1,8 @@
 # Thirteen-story queue: review checkpoint, 4 October 2026
 
-Production still has 80 published stories. All thirteen below remain canon `draft`; this branch has no story or locale promotion, lock, public shelf, media selection, or deployment. The [English review proof](review.html) contains four **unapproved candidates** with independent short/full tellings. Its [mechanical check](validation.json) passes the schema, 3/6-minute word bands, time estimate, source-ledger presence, marker resolution against proposed lexicon entries, and age-gate consistency. Those counts are estimates, not measured read-aloud timings or human approval.
+Production still has 80 published stories. All thirteen below remain canon `draft`; this branch has no story or locale promotion, lock, public shelf, media selection, or deployment. The [English review proof](review.html) contains four candidates with independent short/full tellings. Rama approved those exact English files and reported 3/6-minute readings; the hashes and scope are in [english-review-approval.json](english-review-approval.json). Exact seconds were not supplied, and source-specific holds remain. The [mechanical check](validation.json) passes schema, word bands, time estimates, source-ledger presence, marker resolution against proposed lexicon entries, and age-gate consistency.
+
+Hindi and Tamil **drafts** exist only for Pārvatī's visitor, in the [native-language proof](review-locales.html). Their human language, source and timed read-aloud gates remain pending. Four story-specific 1448×1086 WebP hero **candidates** are in [`art/`](art/) with hashes in its manifest; none has human visual approval or a production media entry. The other nine stories have no images because their source/editorial scopes are not yet settled.
 
 | Story | Current editorial state | Next exact action |
 | --- | --- | --- |
@@ -10,7 +12,7 @@ Production still has 80 published stories. All thirteen below remain canon `draf
 | `narsinh-hundi` | Attributed Gujarati song and later account differ in amount and attribution | Select a named Gujarati edition and one variant before drafting |
 | `janabai-grinding` | Grinding scene grounded in *Bhaktavijaya* 21 with Marathi cross-check; canon source/age/care corrected | Draft the bounded grinding episode through 21.118, disclose the pendant continuation in a parent note |
 | `bhasmasura-hand` | Current Śiva Purāṇa attribution is not established; likely conflates Bhasmāsura with Bhāgavata 10.88 Vṛkāsura | Find the actual Bhasmāsura witness or deliberately replace the concept with sourced Vṛkāsura |
-| `boy-insults-shiva` | English candidate grounded in Śiva Purāṇa 2.3.26–28; source calls visitor **aged**, not a boy; canon title/hook corrected | Human source/editorial and timed read-aloud review; consider renaming the internal ID after approval |
+| `boy-insults-shiva` | English prose approved; Hindi/Tamil **drafts** prepared; source calls visitor **aged**, not a boy; canon title/hook corrected | Human native-language, source and timed read-aloud review; consider renaming the internal ID after approval |
 | `sekkizhar-first-word` | Prior “unable for days” hook removed; later life tradition supports the opening word | Find an exact later Tamil witness and enough checked action for both lengths |
 | `kannappar-eyes` | English 11+ gated candidate with explicit self-injury care note | Human Tamil-source, parent-care and English read-aloud review; vet proposed lexicon entries |
 | `siruttondar` | Source anchored; child killing/restoration makes this 14+ and exceptionally difficult | Senior editorial and parent-safety decision before drafting or art |
