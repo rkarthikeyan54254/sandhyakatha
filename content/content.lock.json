@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "stories": {
     "abhimanyu-spiral": {
       "version": 2,
@@ -265,6 +265,11 @@
       "version": 2,
       "status": "published",
       "hash": "30aaea97f43e02b0"
+    },
+    "parvati-visitor": {
+      "version": 1,
+      "status": "in-review",
+      "hash": "e9b636fdb9f1cdee"
     },
     "prahlada-pillar": {
       "version": 2,
