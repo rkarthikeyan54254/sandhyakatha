@@ -1,0 +1,83 @@
+{
+  "Tiṇṇaṉ": {
+    "id": "tinnan",
+    "native": {"deva": "तिण्णन", "taml": "திண்ணன்"},
+    "say": "TIN-nun",
+    "ipa": "t̪iɳːan",
+    "kind": "person",
+    "gloss": "The hunter later called Kaṇṇappar in Sēkkiḻār's Tamil Śaiva saint-life.",
+    "aliases": ["Thinnan", "Tinnan"]
+  },
+  "Kaṇṇappar": {
+    "id": "kannappar",
+    "native": {"deva": "कण्णप्पर", "taml": "கண்ணப்பர்"},
+    "say": "KUN-nup-pur",
+    "ipa": "kaɳɳappar",
+    "kind": "person",
+    "gloss": "The hunter Tiṇṇaṉ, named Kaṇṇappar when Śiva stops him from offering his second eye.",
+    "aliases": ["Kannappar", "Kannappa"]
+  },
+  "Kāḷatti": {
+    "id": "kalatti",
+    "native": {"deva": "कालत्ति", "taml": "காளத்தி"},
+    "say": "KAA-lut-tee",
+    "ipa": "kaːɭat̪ːi",
+    "kind": "place",
+    "gloss": "The hill shrine of Śiva in Kaṇṇappar's Tamil Śaiva saint-life; associated with present-day Śrīkālahasti.",
+    "aliases": ["Kalatti", "Kalatthi", "Kalahasti"]
+  },
+  "Dakṣa": {
+    "id": "daksha",
+    "native": {"deva": "दक्ष", "taml": "தட்சன்"},
+    "say": "DUK-shuh",
+    "ipa": "d̪ɐkʂɐ",
+    "kind": "person",
+    "gloss": "Satī's father, who excludes Śiva from his sacrifice in the Śiva Purāṇa.",
+    "aliases": ["Daksha"]
+  },
+  "Satī": {
+    "id": "sati",
+    "native": {"deva": "सती", "taml": "சதி"},
+    "say": "SUH-tee",
+    "ipa": "sɐt̪iː",
+    "kind": "person",
+    "gloss": "Daughter of Dakṣa and consort of Śiva in the Śiva Purāṇa.",
+    "aliases": ["Sati"]
+  },
+  "Vīrabhadra": {
+    "id": "virabhadra",
+    "native": {"deva": "वीरभद्र", "taml": "வீரபத்திரர்"},
+    "say": "VEE-ruh-BHUD-ruh",
+    "ipa": "ʋiːrɐbʱɐd̪rɐ",
+    "kind": "being",
+    "gloss": "Fierce leader brought forth by Śiva after Satī's death in the Śiva Purāṇa.",
+    "aliases": ["Virabhadra"]
+  },
+  "Dadhīci": {
+    "id": "dadhici",
+    "native": {"deva": "दधीचि", "taml": "ததீசி"},
+    "say": "duh-DHEE-chee",
+    "ipa": "d̪ɐd̪ʱiːt͡ɕi",
+    "kind": "person",
+    "gloss": "Sage who objects to Śiva's exclusion from Dakṣa's sacrifice and leaves the gathering.",
+    "aliases": ["Dadhichi"]
+  },
+  "Rohiṇī": {
+    "id": "rohini",
+    "native": {"deva": "रोहिणी", "taml": "ரோகிணி"},
+    "say": "ROH-hee-nee",
+    "ipa": "roːɦiɳiː",
+    "kind": "person",
+    "gloss": "The Moon's companion on the journey to Dakṣa's sacrifice in this Śiva Purāṇa telling.",
+    "aliases": ["Rohini"]
+  },
+  "Vijayā": {
+    "id": "vijaya",
+    "native": {"deva": "विजया", "taml": "விஜயா"},
+    "say": "vee-JUH-yaa",
+    "ipa": "ʋid͡ʑɐjaː",
+    "kind": "person",
+    "gloss": "Satī's friend who asks where the Moon and Rohiṇī are going.",
+    "aliases": ["Vijaya"]
+  }
+}

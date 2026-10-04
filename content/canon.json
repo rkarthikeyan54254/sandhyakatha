@@ -896,19 +896,21 @@
       "title": "Who Was Helping Janābāī",
       "corpus": "sant",
       "tradition": "north-bhakti",
-      "work": "Abhaṅgas of Janābāī",
-      "locus": "Janābāī in Nāmdev's household",
+      "work": "Mahīpati, Bhaktavijaya; Janābāī's abhaṅgas as parallel witness",
+      "locus": "Bhaktavijaya chapter 21, ovis 49–118, the grinding episode",
       "stability": "folk",
-      "minAge": 6,
+      "minAge": 8,
       "sensitivity": [
-        "social-hierarchy"
+        "social-hierarchy",
+        "violence"
       ],
       "value": "the work nobody watches",
-      "hook": "Janābāī grinds grain in Nāmdev's household and sings of Viṭṭhal coming to work beside her.",
+      "hook": "At the mill before dawn, Viṭṭhal turns the stone beside Janābāī. When Goṇābāī comes to see who is helping, the blow she aims at Janābāī lands on the visitor.",
       "festivals": [],
       "status": "draft",
       "wave": 2,
-      "gated": false
+      "gated": false,
+      "careNote": "Goṇābāī suspects Janābāī of hiding a helper and missing flour, and strikes at her with a cane; the blow lands on Viṭṭhal. The later pendant accusation is outside this telling but follows in the same source chapter."
     },
     {
       "n": 47,
@@ -974,16 +976,16 @@
     {
       "n": 50,
       "id": "boy-insults-shiva",
-      "title": "The Boy Who Came to Talk Her Out of It",
+      "title": "Pārvatī and the Visitor Who Questioned Her Choice",
       "corpus": "shiva-purana",
       "tradition": "sanskrit",
       "work": "Śiva Purāṇa",
-      "locus": "Pārvatī's tapas, Rudra Saṃhitā",
+      "locus": "Rudra Saṃhitā, Pārvatī-khaṇḍa 26–28",
       "stability": "stable",
       "minAge": 8,
       "sensitivity": [],
-      "value": "holding to a chosen path under challenge",
-      "hook": "A young student questions Pārvatī's tapas and speaks sharply of Śiva. She refuses to hear him belittled; then the visitor reveals who he is.",
+      "value": "seeing beyond outward appearances",
+      "hook": "An aged ascetic comes to Pārvatī's place of tapas and questions why she seeks Śiva. She answers what he cannot see in Śiva's outward form, then discovers who has come to visit.",
       "festivals": [],
       "status": "draft",
       "wave": 2,
