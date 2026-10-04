@@ -27,7 +27,7 @@
       "bytes": 324510,
       "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
       "scene": "Mahābhārata Vana 205–206: Kauśika meets the meat seller in Mithilā. Image includes parents visible near the stall, a composite of later §§213–214 that needs art editorial review.",
-      "status": "candidate—human art and source review pending"
+      "status": "rejected candidate: composite of separate market and home scenes; retained for audit, do not promote"
     },
     {
       "storyId": "mainaka-welcome",
@@ -46,6 +46,15 @@
       "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
       "scene": "Devī Māhātmya 5.106–129: Kauśikī answers Śumbha’s messenger beside the Gaṅgā.",
       "status": "candidate—human art and source review pending"
+    },
+    {
+      "storyId": "dharma-vyadha",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/dharma-vyadha-candidate-v2.webp",
+      "sha256": "5a2a0a07534a227c19d89e49c6dc06ca8ad6621b2c2d2b231ad1614e9e1708b4",
+      "bytes": 269110,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Mahābhārata Vana 206 marketplace encounter only; parents deliberately absent.",
+      "status": "candidate v2—human art and source review pending"
     }
   ]
 }
