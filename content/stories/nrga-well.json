@@ -1,0 +1,216 @@
+{
+  "id": "nrga-well",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-04",
+  "title": "Nṛga in the Dry Well",
+  "tease": "A giant lizard waits in a dry well. Kṛṣṇa lifts him out, and a king tells how one cow followed him there.",
+  "source": {
+    "corpus": "bhagavata",
+    "tradition": "sanskrit",
+    "work": "Bhāgavata Purāṇa",
+    "locus": "10.64.1–44",
+    "stability": "stable",
+    "traditionNote": "This telling follows Bhāgavata Purāṇa 10.64.1–44; other episodes and later retellings are not folded into this scene.",
+    "checkedAgainst": [
+      "Bhāgavata Purāṇa 10.64: https://vedabase.io/en/library/sb/10/64/"
+    ],
+    "sourcing": [
+      {
+        "claim": "Yādava boys play, become thirsty, find a huge lizard in a dry well, and fail to lift it with straps and ropes.",
+        "locus": "10.64.1–4 (continue through verse 4)"
+      },
+      {
+        "claim": "Kṛṣṇa lifts it with his left hand; at his touch it assumes a heavenly form; he asks who it is.",
+        "locus": "10.64.5–9"
+      },
+      {
+        "claim": "The figure names himself Nṛga, son of Ikṣvāku, and recounts his extensive gifts.",
+        "locus": "10.64.10–15"
+      },
+      {
+        "claim": "Another brāhmaṇa's cow wandered into Nṛga's herd; not knowing this, he gave it to a second brāhmaṇa. Both then claimed the same cow.",
+        "locus": "10.64.16–18"
+      },
+      {
+        "claim": "Nṛga offered 100,000 cows in exchange and asked for mercy; both men refused and walked away. The dispute was not repaired on the page.",
+        "locus": "10.64.19–21"
+      },
+      {
+        "claim": "Yamarāja offered a choice of which consequence to experience first; Nṛga chose the adverse one and became a lizard. He remembered his earlier life.",
+        "locus": "10.64.22–25"
+      },
+      {
+        "claim": "Nṛga praised Kṛṣṇa and, with permission, departed in a celestial vehicle. Kṛṣṇa then warned the royal audience about brāhmaṇa property.",
+        "locus": "10.64.27–32, 10.64.43–44"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-04"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "death",
+      "injustice"
+    ],
+    "careNote": "A king dies and lives for a long time as a lizard after an unresolved cow dispute. The severe consequence and caste-specific warning are open to discussion, not presented as a universal rule.",
+    "gated": false
+  },
+  "values": [
+    "looking at it before fixing it"
+  ],
+  "characters": [
+    {
+      "ref": "Nṛga",
+      "role": "lead"
+    },
+    {
+      "ref": "Kṛṣṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Ikṣvāku",
+      "role": "present"
+    },
+    {
+      "ref": "Yama",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The Yādava boys had played until they were thirsty. They went looking for water, but the well they found was dry. At the bottom was something stranger than water: a lizard so large that it looked almost like a little hill."
+        },
+        {
+          "t": "p",
+          "text": "They felt sorry for it. They lowered straps, then ropes, and pulled. Nothing moved. So they ran to «Kṛṣṇa». He came to the well, reached down with his left hand, and lifted the creature out. At his touch, the lizard became a shining man."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» asked who he was. The man bowed. _I was King «Nṛga»,_ he said. _I gave away more cows than I could count. But one gift went wrong._"
+        },
+        {
+          "t": "p",
+          "text": "A cow belonging to a brāhmaṇa had wandered into the king's herd. «Nṛga» did not know she was there. He gave her to another brāhmaṇa. The first man saw his cow being led away and called out that she was his. The second said the king had given her to him. Both came to «Nṛga»."
+        },
+        {
+          "t": "p",
+          "text": "The king offered a hundred thousand fine cows in exchange for that one. He said he had made the gift without knowing the truth. Neither man accepted. Each went away, and the matter stayed unsettled."
+        },
+        {
+          "t": "p",
+          "text": "After «Nṛga» died, «Yama» asked whether he wished to meet the results of his good deeds or this wrong first. «Nṛga» chose the difficult result first. He became the lizard in the well. Through all that time, he remembered who he had been."
+        },
+        {
+          "t": "p",
+          "text": "Now the boys watched him standing before «Kṛṣṇa». «Nṛga» bowed again. With «Kṛṣṇa»'s permission, he went away in a heavenly vehicle."
+        },
+        {
+          "t": "slow",
+          "text": "«Kṛṣṇa» then spoke seriously to those with him about taking property that belonged to a brāhmaṇa, even without knowing it. The cow had not been «Nṛga»'s to give. His great gifts had not made that one cow disappear from the story."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Sāmba, Pradyumna, and other Yādava boys played in a small forest until thirst sent them looking for water."
+        },
+        {
+          "t": "p",
+          "text": "They found a well. It was dry. Far below sat a lizard so enormous it seemed almost as big as a hill. It could not climb out."
+        },
+        {
+          "t": "p",
+          "text": "The boys wanted to help. First they tried leather straps. Then they tried woven ropes. They pulled and pulled, but the creature did not rise. At last they went to «Kṛṣṇa» and told him what they had found."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» came with them to the dry well. He looked down, reached in with his left hand, and lifted the great lizard out. The moment his hand touched it, the creature's form changed. A man stood there, clothed and ornamented like a being from heaven."
+        },
+        {
+          "t": "p",
+          "text": "The boys who had struggled with the ropes could now see him standing beside the well."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» knew more than he said, but he asked the stranger to tell everyone who he was and how he had come to be there. The man bowed. He was «Nṛga», once a king, a son of «Ikṣvāku»."
+        },
+        {
+          "t": "p",
+          "text": "«Nṛga» had given many gifts. He remembered cows with calves, cows whose horns had been gilded and whose hooves were covered in silver. He had given them to brāhmaṇas in need. How many cows? He spoke of numbers as great as the grains of sand or drops of rain."
+        },
+        {
+          "t": "p",
+          "text": "But among all those gifts there had been one cow that was not his."
+        },
+        {
+          "t": "p",
+          "text": "She belonged to another brāhmaṇa. She had strayed into the king's herd without «Nṛga» knowing. When he gave cows away, he gave her to a second man. As that man led her home, her owner saw her. _That is my cow,_ he said. _The king gave her to me,_ replied the man who had received her."
+        },
+        {
+          "t": "p",
+          "text": "The two men came before «Nṛga». Each had a claim to the same animal. One had lost his cow. The other had accepted a gift from the king. «Nṛga» heard them and was bewildered. What could he do that would put this right for both of them?"
+        },
+        {
+          "t": "p",
+          "text": "He offered a hundred thousand of his best cows in exchange for that single cow. He asked both men to show him mercy. He had given her away without knowing she was another person's, he told them. But the man who had received her would not exchange her."
+        },
+        {
+          "t": "p",
+          "text": "The original owner refused the offered cows too. Both left. Neither man gave way. «Nṛga» had offered much, but the cow was still claimed by both."
+        },
+        {
+          "t": "p",
+          "text": "Later «Nṛga» died. «Yama»'s messengers brought him before «Yama», who spoke of the many good results waiting for him from his gifts. Then «Yama» gave him a choice: would he experience those good results first, or the painful result of the mistaken gift? «Nṛga» chose the painful one first."
+        },
+        {
+          "t": "p",
+          "text": "He fell into the body of a lizard. Yet he did not forget his earlier life. He remembered who he had been through that strange life."
+        },
+        {
+          "t": "p",
+          "text": "And then came a day when some thirsty boys looked down into a dry well. Their ropes could not lift him, but «Kṛṣṇa»'s hand did. Standing once more in a human-shaped, shining form, «Nṛga» praised «Kṛṣṇa». He asked to depart. «Kṛṣṇa» gave his permission, and «Nṛga» bowed and entered a heavenly vehicle while the others watched."
+        },
+        {
+          "t": "p",
+          "text": "«Kṛṣṇa» spoke next to his companions. His warning was about the property of a brāhmaṇa, even when someone takes it without knowing. «Nṛga» had been generous beyond counting, but he had also given away a cow that belonged to someone else."
+        },
+        {
+          "t": "p",
+          "text": "«Nṛga» had offered more cows than most people could count, yet he had watched both men walk away. The one disputed cow remained in his account beside all those gifts."
+        },
+        {
+          "t": "slow",
+          "text": "The well was empty of water. When the boys looked into it, they found a question that had followed «Nṛga» there for a very long time."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you had been standing beside Nṛga and the two men, what would you have wanted each person to hear?",
+    "seed": "A generous act cannot give away what was not ours to give.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did he become a lizard for a mistake?",
+        "a": "The *Bhāgavata* says the cow entered his herd without his knowledge, yet the dispute remained unresolved. Yama offered Nṛga a choice of which result to face first, and he chose the painful one. The text does not ask us to call the punishment proportionate; we can notice how severe it is."
+      },
+      {
+        "q": "Why didn't they accept all those other cows?",
+        "a": "The passage tells us both refused, but does not give either man's private reasoning. One had lost his own cow; the other had received that very cow as a gift. We should not invent a settlement the source does not show."
+      },
+      {
+        "q": "Was Kṛṣṇa warning everyone about any property?",
+        "a": "His speech here specifically warns his royal listeners about taking a brāhmaṇa's property, even unknowingly. We can discuss care with others' belongings without erasing that particular setting of the source."
+      }
+    ]
+  }
+}

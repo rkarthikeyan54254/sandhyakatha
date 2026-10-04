@@ -1,0 +1,302 @@
+{
+  "generatedAt": "2026-10-04T14:07:37.415Z",
+  "publicationReady": false,
+  "reviewStatus": "pending",
+  "stories": [
+    {
+      "id": "nrga-well",
+      "sourceNote": "source-notes/nrga-well.md",
+      "sourceNoteSha256": "219811bac8fe06e34fa74bfcbdf1f14fb5707cf3d61c784cd0bd1f524083bead",
+      "art": {
+        "file": "art/nrga-well-candidate.webp",
+        "sha256": "1045b8efe126a4376dfc4109295b743e9d80c918eeb7438cfab0b1414ef31bfb",
+        "status": "candidate—human review pending"
+      },
+      "og": {
+        "file": "og/nrga-well-candidate.jpg",
+        "sha256": "d33e67fee429bb609c83f619eab75140d6ed557a9f7fd957808dfdf94560d920",
+        "status": "candidate—human review pending"
+      },
+      "editions": {
+        "en": {
+          "file": "en/nrga-well.md",
+          "fileSha256": "abc6f5f3b57f1de9051f6551c1e242610f25592b3562a1cc9d01dc4fe6ac8d6d",
+          "title": "Nṛga in the Dry Well",
+          "status": "draft—human review pending",
+          "shortWords": 308,
+          "fullWords": 650,
+          "shortSha256": "64cd696cbfed08f21a50a5e661939d5e0f0ed2514907bec15225c932062c1f07",
+          "fullSha256": "e5f11684805aaa45d050e2798ced20de983b692ecf6bfa32da7262cbb8062f9b",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "file": "locales/hi/nrga-well.md",
+          "fileSha256": "ccc7582f34794d42b807cccf896009aa268e4f77721a307af166d3fe46f234bc",
+          "title": "सूखे कुएँ में राजा नृग — हिन्दी समीक्षा मसौदा",
+          "status": "draft—human review pending",
+          "shortWords": 354,
+          "fullWords": 697,
+          "shortSha256": "335331f671c3e14d699f0b941b00291633eeb21f02362230f8bd547f6e49c1de",
+          "fullSha256": "07570bfe89bb845b7820dc3ee6444384be8adbd1b1bddf616a60b9ca8e698120",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "file": "locales/ta/nrga-well.md",
+          "fileSha256": "ee10fef327f9173afbf3dc18a30f89e389f9941d3a705126238895d75f253c92",
+          "title": "வறண்ட கிணற்றில் இருந்த மன்னன்",
+          "status": "draft—human review pending",
+          "shortWords": 180,
+          "fullWords": 357,
+          "shortSha256": "e8c485a039e42f90e2ab8b82e9bc62efe4d025a1ce95930b5f3b71173ac85643",
+          "fullSha256": "230fd1c5d3b864fc3447ec17f380ac9970bd003b51f3e691793dd89dfc0e59b7",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "indra-virocana",
+      "sourceNote": "source-notes/indra-virocana.md",
+      "sourceNoteSha256": "b24d4d6069de5044a17a164f827b458cd222d8ee4e236484087128cdb0a494ef",
+      "art": {
+        "file": "art/indra-virocana-candidate-v2.webp",
+        "sha256": "4aab067dcf4aa9f3ebf81ea7f19fb67aac7e3c3c425d5d9e6a58bfa55772a09a",
+        "status": "candidate—human review pending"
+      },
+      "og": {
+        "file": "og/indra-virocana-candidate.jpg",
+        "sha256": "c43d1818b9e39369b88a16786656e5245e625fa50b5c4f685641585578494bda",
+        "status": "candidate—human review pending"
+      },
+      "editions": {
+        "en": {
+          "file": "en/indra-virocana.md",
+          "fileSha256": "d43b044e040ec141485bc58ea236a350458686d86bfb4b76bc94fd071298ab58",
+          "title": "Indra Returns to Ask Again",
+          "status": "draft—human review pending",
+          "shortWords": 322,
+          "fullWords": 657,
+          "shortSha256": "905a6ea2afb6b1e4e93ba078459a511e8772d4fc91a3f7f997939685e1527de5",
+          "fullSha256": "023503a139f28151dbbcddac7053efe90b3e4bc46634c2ecadcc961161c313fb",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "file": "locales/hi/indra-virocana.md",
+          "fileSha256": "c6a1c16ee61e5816e22c99e8e99341c7b2a0b24b3b340059b92c2e871be042e1",
+          "title": "इंद्र बार-बार क्यों लौटे — हिन्दी समीक्षा मसौदा",
+          "status": "draft—human review pending",
+          "shortWords": 339,
+          "fullWords": 686,
+          "shortSha256": "0803c87afea68abef0ffc4a52cd1dcfb60c0c042b1b4b7da98193842f88d54d4",
+          "fullSha256": "35049564d8fd4703fb9256f7ce0912b43fcc165ab64e0ad475995f7938dfe672",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "file": "locales/ta/indra-virocana.md",
+          "fileSha256": "8f6e463d700fd0b28a4fbd5e9b751c55e15ee64f7d99cb4a766d5121219071ad",
+          "title": "தண்ணீரில் தெரிந்த முகம் போதுமா?",
+          "status": "draft—human review pending",
+          "shortWords": 165,
+          "fullWords": 351,
+          "shortSha256": "a4547dae716358b6d8b5884b8feaf8984f4f53dfc9ccde6c574494ab437ff44e",
+          "fullSha256": "88985182479bc15c0859498e46ced07102407122790dc185c522e7079e712a4b",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "dharma-vyadha",
+      "sourceNote": "source-notes/dharma-vyadha.md",
+      "sourceNoteSha256": "52d1a6e28da94e50c346ca1a5f87bbe0bc15c85393aae6095d4f69cf294d8b15",
+      "art": {
+        "file": "art/dharma-vyadha-candidate-v2.webp",
+        "sha256": "5a2a0a07534a227c19d89e49c6dc06ca8ad6621b2c2d2b231ad1614e9e1708b4",
+        "status": "candidate—human review pending"
+      },
+      "og": {
+        "file": "og/dharma-vyadha-candidate.jpg",
+        "sha256": "96b10ce2225af27aed3a9ebcfa4bd25548ee1d9c639c983ab7bf34ac5232cfb6",
+        "status": "candidate—human review pending"
+      },
+      "editions": {
+        "en": {
+          "file": "en/dharma-vyadha.md",
+          "fileSha256": "a36abd83a502d391565c07aee1e09f825e3e276aeab8036cb20861c69a64214c",
+          "title": "The Teacher in the Meat Market",
+          "status": "draft—human review pending",
+          "shortWords": 300,
+          "fullWords": 651,
+          "shortSha256": "9ef90b7c7c013b7393239bc27925a45cad7da667bd9f327266d9645605604568",
+          "fullSha256": "bcf7434ccc61c9957b7764ed7b9773994a686f32a81fe7da97f00b0a17238d39",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "file": "locales/hi/dharma-vyadha.md",
+          "fileSha256": "76ba120be82d8a002b8ec93a2d1398dc80b0ae83fdd3a4c0c0cd8e15d69c1304",
+          "title": "मिथिला की दुकान पर मिला उत्तर — हिन्दी समीक्षा मसौदा",
+          "status": "draft—human review pending",
+          "shortWords": 333,
+          "fullWords": 698,
+          "shortSha256": "fb893c4d096d475f93858ea80e98cb3171719a5f94c804b96081dbefada8fd06",
+          "fullSha256": "6301fa2b0c40c7e7630d585a6f4ec0f0d9a65153208e786d9d492e85ae05de1a",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "file": "locales/ta/dharma-vyadha.md",
+          "fileSha256": "7dc8d62cd06ac59ad0ab2b7b3fd0268301da6914c35c023b390f0ec896ff0f40",
+          "title": "கௌசிகர் தேடிச் சென்ற கடைக்காரர்",
+          "status": "draft—human review pending",
+          "shortWords": 162,
+          "fullWords": 350,
+          "shortSha256": "6a3495032c8ff4cf81641f30d5f4ee45729ddd3608c1d3be5f5504f3ef3b319f",
+          "fullSha256": "d2cc1ef7c64f9fa0344994554c6d179f12135d0e59ad0ccf1fe6da747683d085",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "mainaka-welcome",
+      "sourceNote": "source-notes/mainaka-welcome.md",
+      "sourceNoteSha256": "05cc466ed26c84b0c18179b8744b938ca3a19b051e1304ece53d68a010d874aa",
+      "art": {
+        "file": "art/mainaka-welcome-candidate.webp",
+        "sha256": "9581902d6cd4f2a28ec11c1bfd4791d2e76063f8122ab30976043adaefe963f6",
+        "status": "candidate—human review pending"
+      },
+      "og": {
+        "file": "og/mainaka-welcome-candidate.jpg",
+        "sha256": "19a72cafd06718eb1f1de24ca288952d799a14f2a3ad80027fd79745eb6e8d8e",
+        "status": "candidate—human review pending"
+      },
+      "editions": {
+        "en": {
+          "file": "en/mainaka-welcome.md",
+          "fileSha256": "9c4fd75e1400a5f603edd16b7c149e109c6dc713cea3ee9a3d9e0bc21033df3e",
+          "title": "The Mountain That Offered Hanumān Rest",
+          "status": "draft—human review pending",
+          "shortWords": 300,
+          "fullWords": 655,
+          "shortSha256": "adf137618fd60e23a0534a0c2956224db2bbf0a987ef9f04ffb90eb0d0750991",
+          "fullSha256": "42d8faf103fb458ae76ef4d751e65bc3b0436b0bd6bab2eb198191b31b901646",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "file": "locales/hi/mainaka-welcome.md",
+          "fileSha256": "be14b5bb49a03fc607852ed4c3f37ed12ca9d71b6d2508f7fda8c64753ce9921",
+          "title": "रास्ते में उठ खड़ा हुआ पर्वत — हिन्दी समीक्षा मसौदा",
+          "status": "draft—human review pending",
+          "shortWords": 339,
+          "fullWords": 697,
+          "shortSha256": "b1a997b600b9e238adeb9d44bc22a7e13d985bf080e88d862b40d6b3cd2bcda5",
+          "fullSha256": "a88f9693a6af7bf0b267291d9bd407ef7e025635066800db374689d87b632347",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "file": "locales/ta/mainaka-welcome.md",
+          "fileSha256": "132565fad4c767acc5f1d32a565b4b951c85a01e49df96139870273fcb0c63bb",
+          "title": "வழி மறித்த மலையின் விருந்தழைப்பு",
+          "status": "draft—human review pending",
+          "shortWords": 142,
+          "fullWords": 297,
+          "shortSha256": "037604832a8ed0857db75fd26235b0a83e719f34b9f154ac57aedd883170e743",
+          "fullSha256": "fb3c303aa4f5a77a82d080dac595a46221dc76dd20704eb9387ab8e81541cdc9",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    },
+    {
+      "id": "devi-messenger",
+      "sourceNote": "source-notes/devi-messenger.md",
+      "sourceNoteSha256": "556673c7714612a400da73c6ade73fc25cf4df59fc5fdd54931b61d271cc441a",
+      "art": {
+        "file": "art/devi-messenger-candidate.webp",
+        "sha256": "2a15c92af4a2af1a0c2345b3cb6faca971b2ac75b68c3a051e494ddf60e26a81",
+        "status": "candidate—human review pending"
+      },
+      "og": {
+        "file": "og/devi-messenger-candidate.jpg",
+        "sha256": "a7a1f4a4adb8e56c852384af7e1aa1b713b8cd39c22259b57861fe469287ab30",
+        "status": "candidate—human review pending"
+      },
+      "editions": {
+        "en": {
+          "file": "en/devi-messenger.md",
+          "fileSha256": "26646b4c09d54cc6979e5c4d1a7770461ad519dd4ac2d822b22e370acad4c463",
+          "title": "Devī and the Messenger",
+          "status": "draft—human review pending",
+          "shortWords": 324,
+          "fullWords": 662,
+          "shortSha256": "bfea10c89f8bb1fe57c497bca8d6bf3bef4b9df63200fd2dab421468a86fa15a",
+          "fullSha256": "084be2f428403eeef23fe5aaabd0c9fe2828c445843cfde437b2c22dee582c29",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "hi": {
+          "file": "locales/hi/devi-messenger.md",
+          "fileSha256": "aa1acdb0af6d5269a256894e646b8ce7a04078661aa2b83036cf6a2abb30b269",
+          "title": "देवी ने दूत को अपना वचन सुनाया — हिन्दी समीक्षा मसौदा",
+          "status": "draft—human review pending",
+          "shortWords": 343,
+          "fullWords": 693,
+          "shortSha256": "43768b223d83fac54eb768c26298aa3e28ac174b43e4ecb0475c38e0021219ab",
+          "fullSha256": "eaf2f95374cae1e693791a0e668ff33a71257f89899ba3235d1f9895c1e52d05",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        },
+        "ta": {
+          "file": "locales/ta/devi-messenger.md",
+          "fileSha256": "91df35b83c5cc1ef9ee6dfb03203694f4dda8d13e832f033e3061887f97f2c37",
+          "title": "தேவியின் பதிலைக் கொண்டு சென்ற தூதன்",
+          "status": "draft—human review pending",
+          "shortWords": 204,
+          "fullWords": 413,
+          "shortSha256": "c4d9dbb75446edb95164936e3c5721dfa5a414d133640ae1f8d71ba991290d16",
+          "fullSha256": "58d1a95f8e52bef160e4d9f54d8a7c1974f72e3d173cb82a1b84e3da3a059453",
+          "measuredSeconds": {
+            "short": null,
+            "full": null
+          }
+        }
+      }
+    }
+  ]
+}

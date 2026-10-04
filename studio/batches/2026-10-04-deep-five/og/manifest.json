@@ -1,0 +1,65 @@
+{
+  "publicationStatus": "not approved or live",
+  "cards": [
+    {
+      "storyId": "nrga-well",
+      "file": "og/nrga-well-candidate.jpg",
+      "title": "Nṛga in the Dry Well",
+      "work": "Bhāgavata Purāṇa",
+      "locus": "10.64",
+      "width": 1200,
+      "height": 630,
+      "bytes": 147569,
+      "sha256": "d33e67fee429bb609c83f619eab75140d6ed557a9f7fd957808dfdf94560d920",
+      "status": "candidate—human review pending"
+    },
+    {
+      "storyId": "indra-virocana",
+      "file": "og/indra-virocana-candidate.jpg",
+      "title": "Indra Returns to Ask Again",
+      "work": "Chāndogya Upaniṣad",
+      "locus": "8.7–12",
+      "width": 1200,
+      "height": 630,
+      "bytes": 122050,
+      "sha256": "c43d1818b9e39369b88a16786656e5245e625fa50b5c4f685641585578494bda",
+      "status": "candidate—human review pending"
+    },
+    {
+      "storyId": "dharma-vyadha",
+      "file": "og/dharma-vyadha-candidate.jpg",
+      "title": "The Teacher in the Meat Market",
+      "work": "Mahābhārata · Vana Parva",
+      "locus": "205–214",
+      "width": 1200,
+      "height": 630,
+      "bytes": 121554,
+      "sha256": "96b10ce2225af27aed3a9ebcfa4bd25548ee1d9c639c983ab7bf34ac5232cfb6",
+      "status": "candidate—human review pending"
+    },
+    {
+      "storyId": "mainaka-welcome",
+      "file": "og/mainaka-welcome-candidate.jpg",
+      "title": "The Mountain That Offered Hanumān Rest",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Sundara 5.1",
+      "width": 1200,
+      "height": 630,
+      "bytes": 162058,
+      "sha256": "19a72cafd06718eb1f1de24ca288952d799a14f2a3ad80027fd79745eb6e8d8e",
+      "status": "candidate—human review pending"
+    },
+    {
+      "storyId": "devi-messenger",
+      "file": "og/devi-messenger-candidate.jpg",
+      "title": "Devī and the Messenger",
+      "work": "Devī Māhātmya",
+      "locus": "5–6",
+      "width": 1200,
+      "height": 630,
+      "bytes": 146076,
+      "sha256": "a7a1f4a4adb8e56c852384af7e1aa1b713b8cd39c22259b57861fe469287ab30",
+      "status": "candidate—human review pending"
+    }
+  ]
+}

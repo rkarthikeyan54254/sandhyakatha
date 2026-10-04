@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -91,6 +91,16 @@
       "status": "approved",
       "hash": "b321a07e6d623214"
     },
+    "hi-IN/devi-messenger": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "2620863a216fd57b"
+    },
+    "hi-IN/dharma-vyadha": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "ca17111425135e33"
+    },
     "hi-IN/dhruva-still": {
       "sourceVersion": 2,
       "status": "approved",
@@ -161,6 +171,11 @@
       "status": "approved",
       "hash": "3c4df0277bacb0cd"
     },
+    "hi-IN/indra-virocana": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c82199b51d1507b1"
+    },
     "hi-IN/jatayu-last-flight": {
       "sourceVersion": 1,
       "status": "approved",
@@ -221,6 +236,11 @@
       "status": "approved",
       "hash": "74faa5b4c20e0922"
     },
+    "hi-IN/mainaka-welcome": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "9e5b4696265da24f"
+    },
     "hi-IN/maitreyi-wealth": {
       "sourceVersion": 2,
       "status": "approved",
@@ -255,6 +275,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "f66dffbaf2343620"
+    },
+    "hi-IN/nrga-well": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "0f9e1b713c24ef92"
     },
     "hi-IN/panar-shoulders": {
       "sourceVersion": 2,
@@ -491,6 +516,16 @@
       "status": "approved",
       "hash": "805e7b4f5c01bb34"
     },
+    "ta-IN/devi-messenger": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "b6a3b0a1569ed09b"
+    },
+    "ta-IN/dharma-vyadha": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "555cf0cc6d3583e3"
+    },
     "ta-IN/dhruva-still": {
       "sourceVersion": 2,
       "status": "approved",
@@ -561,6 +596,11 @@
       "status": "approved",
       "hash": "342079dc2579083d"
     },
+    "ta-IN/indra-virocana": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "b114a2ac78e8fdfc"
+    },
     "ta-IN/jatayu-last-flight": {
       "sourceVersion": 1,
       "status": "approved",
@@ -621,6 +661,11 @@
       "status": "approved",
       "hash": "682566fff7052e4a"
     },
+    "ta-IN/mainaka-welcome": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "953bc2f6540ee9cb"
+    },
     "ta-IN/maitreyi-wealth": {
       "sourceVersion": 2,
       "status": "approved",
@@ -655,6 +700,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "d390d9d5fdb9f2c6"
+    },
+    "ta-IN/nrga-well": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "3372af4230b4fb5c"
     },
     "ta-IN/panar-shoulders": {
       "sourceVersion": 2,

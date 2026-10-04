@@ -2278,6 +2278,136 @@
           }
         ]
       }
+    },
+    "nrga-well": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "indra-virocana": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "dharma-vyadha": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "mainaka-welcome": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "devi-messenger": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          }
+        ]
+      }
     }
   }
 }

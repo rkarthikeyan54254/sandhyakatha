@@ -1,0 +1,205 @@
+{
+  "id": "indra-virocana",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-04",
+  "title": "Indra Returns to Ask Again",
+  "tease": "Two students see their reflections in water. One leaves satisfied; the other returns with another question.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Chāndogya Upaniṣad",
+    "locus": "8.7–12",
+    "stability": "stable",
+    "traditionNote": "This telling follows Chāndogya Upaniṣad 8.7–12; other episodes and later retellings are not folded into this scene.",
+    "checkedAgainst": [
+      "Chāndogya Upaniṣad 8.7–12: https://adiveda.in/reading/upanishad/chandogya-upanishad-adhyaya-8/"
+    ],
+    "sourcing": [
+      {
+        "claim": "Prajāpati says the self beyond age/death/sorrow should be sought; gods and asuras hear, and Indra and Virocana approach him with fuel in hand.",
+        "locus": "8.7.1–2"
+      },
+      {
+        "claim": "They live with him as students for 32 years; he points to the person seen in the eye, and they ask about the one seen in water or a mirror.",
+        "locus": "8.7.3–4"
+      },
+      {
+        "claim": "He has them look into water, then adorn themselves and look again; both report the reflected hair, nails, clothing and ornaments and leave satisfied.",
+        "locus": "8.8.1–3"
+      },
+      {
+        "claim": "Prajāpati says both have left without understanding. Virocana teaches that bodily self is what should be served.",
+        "locus": "8.8.4–5"
+      },
+      {
+        "claim": "Indra turns back before reaching the gods: a reflection changes as the body is blind, lame, or dies. Prajāpati asks for another 32 years of study.",
+        "locus": "8.9.1–3"
+      },
+      {
+        "claim": "Prajāpati proposes the dream self; Indra objects that dream experience can bring fear and pain, and studies another 32 years.",
+        "locus": "8.10.1–4"
+      },
+      {
+        "claim": "Prajāpati proposes dreamless sleep; Indra objects that it seems to erase awareness, then studies five more years, totaling 101 years.",
+        "locus": "8.11.1–3"
+      },
+      {
+        "claim": "Prajāpati's final account distinguishes the mortal body from the bodiless self and describes its emergence in its own form.",
+        "locus": "8.12.1–5"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-04"
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [],
+    "careNote": "The dialogue mentions blindness, bodily injury and death while testing whether a changing reflection can be the whole self. It does not rank disabled lives as lesser.",
+    "gated": false
+  },
+  "values": [
+    "a question worth a long walk"
+  ],
+  "characters": [
+    {
+      "ref": "Indra",
+      "role": "lead"
+    },
+    {
+      "ref": "Virocana",
+      "role": "present"
+    },
+    {
+      "ref": "Prajāpati",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Prajāpati» spoke of a Self that did not grow old or die. «Indra», from the gods, and «Virocana», from the asuras, both came to learn what he meant. They lived with him as students for thirty-two years."
+        },
+        {
+          "t": "p",
+          "text": "At last «Prajāpati» spoke of the person seen in the eye. His students asked about the person seen in water or a mirror. He told them to look into a pan of water. They saw themselves, down to their hair and nails. Then he asked them to dress well and look again."
+        },
+        {
+          "t": "p",
+          "text": "The reflections wore the same fine clothes. Both students went away satisfied."
+        },
+        {
+          "t": "p",
+          "text": "«Virocana» returned to the asuras and taught that the body was the Self. «Prajāpati» knew that neither student had understood his teaching. Before reaching the gods, «Indra» stopped. The reflection changed whenever the body changed; it would disappear when the body died. How could that be the Self «Prajāpati» had called deathless? «Indra» went back to ask."
+        },
+        {
+          "t": "p",
+          "text": "After another thirty-two years, «Prajāpati» pointed to the person who moves in dreams. «Indra» left, but turned back again. A dreamer might be chased, hurt or frightened. That answer did not yet give him the fearless Self he sought."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» studied for thirty-two more years. Now «Prajāpati» spoke of dreamless sleep, when a person rests without even a dream. «Indra» returned once more: in such sleep, a person seems to know neither himself nor anything around him. He could not stop his question there."
+        },
+        {
+          "t": "slow",
+          "text": "Five more years passed. Then «Prajāpati» gave his final teaching. The body can die, he said, but it is the dwelling place of the deathless, bodiless Self. He spoke of wind and cloud taking form in the light, and of the Self appearing in its own form. «Indra» had stayed a student for one hundred and one years. Each time an answer seemed complete, he had looked at it carefully and returned to ask what he had not yet understood."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Prajāpati» had said that there is a Self free from old age, death and sorrow. The gods heard his words. So did the asuras. Each wanted to understand the Self he had described. «Indra» came from the gods, and «Virocana» came from the asuras."
+        },
+        {
+          "t": "p",
+          "text": "They carried firewood, as students did when approaching a teacher, and lived with «Prajāpati» for thirty-two years."
+        },
+        {
+          "t": "p",
+          "text": "When the years had passed, he asked why they had come. They repeated his teaching back to him: this was the Self they wanted to know. «Prajāpati» spoke of the person seen in the eye. His students asked whether the person visible in water or in a mirror was the same one."
+        },
+        {
+          "t": "p",
+          "text": "He told them that the same was seen in all of these, and asked them to look into a pan of water."
+        },
+        {
+          "t": "p",
+          "text": "They looked. What could they see? Their own shapes, they said, even the hair and nails. «Prajāpati» told them to put on fine clothes and ornaments and look again. They did. The figures in the water wore fine clothes and ornaments too. That answer satisfied both students, and they left together."
+        },
+        {
+          "t": "p",
+          "text": "But «Prajāpati» watched them go. Neither had understood the Self he meant. «Virocana» reached the asuras and taught that the body itself should be honored and served. «Indra» did not reach the gods. On the way, he noticed a difficulty. The water showed whatever happened to the body. If the body changed, the reflection changed."
+        },
+        {
+          "t": "p",
+          "text": "When the body died, the reflection would be gone. Was that the deathless Self they had come to learn about?"
+        },
+        {
+          "t": "p",
+          "text": "Carrying firewood again, «Indra» returned. He told «Prajāpati» what troubled him. His teacher asked him to remain another thirty-two years. Then he offered a new answer: the one who moves about in dreams is the Self."
+        },
+        {
+          "t": "p",
+          "text": "«Indra» set out. Once more, he stopped before reaching the gods. A person in a dream could be chased. He might seem to be hurt, afraid or in tears. The dream did not answer his question about a fearless Self. Again he brought firewood to «Prajāpati», and again he said why he had returned."
+        },
+        {
+          "t": "p",
+          "text": "The teacher told him to stay for thirty-two more years."
+        },
+        {
+          "t": "p",
+          "text": "After that long study, «Prajāpati» spoke of a person in deep, dreamless sleep. Here was complete rest, with no frightening dream at all. «Indra» went away satisfied for a while. Yet another question came before he reached the gods."
+        },
+        {
+          "t": "p",
+          "text": "In such sleep, the sleeper does not know, _I am here._ Nor does he know the beings around him. That sounded to «Indra» almost like disappearance. How could he stop there?"
+        },
+        {
+          "t": "p",
+          "text": "He came back with firewood a third time. «Prajāpati» heard his concern and asked him to stay five more years. By then «Indra» had studied with him for one hundred and one years. The teacher had not given him one easy sentence to carry home. At each stage, «Indra» had found what the answer left unexplained."
+        },
+        {
+          "t": "p",
+          "text": "Now «Prajāpati» spoke of the mortal body as the dwelling place of a deathless Self. While someone lives in a body, pleasure and pain reach that life."
+        },
+        {
+          "t": "p",
+          "text": "The Self he was describing was not merely the figure in a pan of water, the frightened figure in a dream, or the blankness «Indra» had worried about in sleep. «Prajāpati» spoke of wind and cloud, which can appear in their own forms when they rise into the light."
+        },
+        {
+          "t": "p",
+          "text": "He said the Self too appears in its own form."
+        },
+        {
+          "t": "slow",
+          "text": "«Virocana» had taken the first reflection home as a finished answer. «Indra» had looked again, then asked again. The water, the dream and the deep sleep had each shown him something, but none had ended his search. His teacher's final words came after all those returns. They were not the first answer heard beside the pan of water. The long years matter in this telling because «Indra» did not call a question settled just because he had already spent years trying to answer it."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When «Indra» turned back each time, what had he noticed about the answer he was carrying?",
+    "seed": "If something still does not fit, it is all right to ask again.",
+    "ifTheyAsk": [
+      {
+        "q": "Was the reflection wrong?",
+        "a": "It showed each student’s appearance accurately. «Indra» wondered whether a changing image could be the deathless Self his teacher meant. The story does not tell children that caring for the body is wrong."
+      },
+      {
+        "q": "Why did the teacher let them leave?",
+        "a": "The passage says «Prajāpati» saw that neither understood when they left. It does not give a full explanation of why he used stages. The students’ different next steps are what the text narrates."
+      },
+      {
+        "q": "What did «Indra» finally learn?",
+        "a": "«Prajāpati» taught that the body dies but can house a deathless Self, which comes into its own form. Families may explain that deeper philosophical claim in different ways; this story follows the stated sequence without pretending the water-pan alone gives the answer."
+      }
+    ]
+  }
+}

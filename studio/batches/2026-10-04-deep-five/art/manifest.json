@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-04",
+  "publicationStatus": "not approved or published",
+  "images": [
+    {
+      "storyId": "nrga-well",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/nrga-well-candidate.webp",
+      "sha256": "1045b8efe126a4376dfc4109295b743e9d80c918eeb7438cfab0b1414ef31bfb",
+      "bytes": 385472,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Bhāgavata Purāṇa 10.64.1–6: Kṛṣṇa lifts the lizard from the dry well before transformation.",
+      "status": "candidate—human art and source review pending"
+    },
+    {
+      "storyId": "indra-virocana",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/indra-virocana-candidate.webp",
+      "sha256": "a1a4794953f011bb795204e8f9099104bed9016657d1dfc33f2deea0b6f80e23",
+      "bytes": 307060,
+      "dimensions": "pixelWidth: 1672; pixelHeight: 941",
+      "scene": "Chāndogya Upaniṣad 8.7–8.9: Indra and Virocana at the water-reflection teaching.",
+      "status": "rejected candidate: water/mirror did not visibly reflect either student; retained for audit"
+    },
+    {
+      "storyId": "dharma-vyadha",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/dharma-vyadha-candidate.webp",
+      "sha256": "52ad5f5728aa0bf28145c2ec85eb537c74009bf0ec67e9fa6ea48bc665284d39",
+      "bytes": 324510,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Mahābhārata Vana 205–206: Kauśika meets the meat seller in Mithilā. Image includes parents visible near the stall, a composite of later §§213–214 that needs art editorial review.",
+      "status": "rejected candidate: composite of separate market and home scenes; retained for audit, do not promote"
+    },
+    {
+      "storyId": "mainaka-welcome",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/mainaka-welcome-candidate.webp",
+      "sha256": "9581902d6cd4f2a28ec11c1bfd4791d2e76063f8122ab30976043adaefe963f6",
+      "bytes": 401416,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Vālmīki Rāmāyaṇa Sundara 5.1.87–143: Hanumān touches Maināka and continues across the sea.",
+      "status": "candidate—human art and source review pending"
+    },
+    {
+      "storyId": "devi-messenger",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/devi-messenger-candidate.webp",
+      "sha256": "2a15c92af4a2af1a0c2345b3cb6faca971b2ac75b68c3a051e494ddf60e26a81",
+      "bytes": 395980,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Devī Māhātmya 5.106–129: Kauśikī answers Śumbha’s messenger beside the Gaṅgā.",
+      "status": "candidate—human art and source review pending"
+    },
+    {
+      "storyId": "dharma-vyadha",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/dharma-vyadha-candidate-v2.webp",
+      "sha256": "5a2a0a07534a227c19d89e49c6dc06ca8ad6621b2c2d2b231ad1614e9e1708b4",
+      "bytes": 269110,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Mahābhārata Vana 206 marketplace encounter only; parents deliberately absent.",
+      "status": "candidate v2—human art and source review pending"
+    },
+    {
+      "storyId": "indra-virocana",
+      "candidate": "studio/batches/2026-10-04-deep-five/art/indra-virocana-candidate-v2.webp",
+      "sha256": "4aab067dcf4aa9f3ebf81ea7f19fb67aac7e3c3c425d5d9e6a58bfa55772a09a",
+      "bytes": 307862,
+      "dimensions": "pixelWidth: 1448; pixelHeight: 1086",
+      "scene": "Chāndogya 8.7–8.8: Prajāpati watches Indra and Virocana looking into still water; both student reflections are visibly present.",
+      "status": "candidate v2—human art and source review pending"
+    }
+  ]
+}

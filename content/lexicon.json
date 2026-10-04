@@ -3321,5 +3321,179 @@
       "Nandi",
       "Nandishvara"
     ]
+  },
+  "Nṛga": {
+    "id": "n-ga",
+    "native": {
+      "deva": "नृग",
+      "taml": "நிருகன்"
+    },
+    "say": "NRI-guh",
+    "kind": "person",
+    "gloss": "A king who became a lizard after a disputed gift."
+  },
+  "Ikṣvāku": {
+    "id": "ik-v-ku",
+    "native": {
+      "deva": "इक्ष्वाकु",
+      "taml": "இக்ஷ்வாகு"
+    },
+    "say": "ik-SHVAH-koo",
+    "kind": "person",
+    "gloss": "An ancient royal ancestor."
+  },
+  "Virocana": {
+    "id": "virocana",
+    "native": {
+      "deva": "विरोचन",
+      "taml": "விரோசனன்"
+    },
+    "say": "vee-ROH-chuh-nuh",
+    "kind": "person",
+    "gloss": "An asura seeker in the Chāndogya dialogue."
+  },
+  "Prajāpati": {
+    "id": "praj-pati",
+    "native": {
+      "deva": "प्रजापति",
+      "taml": "பிரஜாபதி"
+    },
+    "say": "pruh-JAH-puh-tee",
+    "kind": "person",
+    "gloss": "The teacher approached by Indra and Virocana."
+  },
+  "Kauśika": {
+    "id": "kau-ika",
+    "native": {
+      "deva": "कौशिक",
+      "taml": "கௌசிகர்"
+    },
+    "say": "KOW-shi-kuh",
+    "kind": "person",
+    "gloss": "The brahmin who meets the Dharma-vyādha."
+  },
+  "Maināka": {
+    "id": "main-ka",
+    "native": {
+      "deva": "मैनाक",
+      "taml": "மைநாகன்"
+    },
+    "say": "my-NAH-kuh",
+    "kind": "person",
+    "gloss": "The mountain that offers Hanumān rest."
+  },
+  "Śumbha": {
+    "id": "umbha",
+    "native": {
+      "deva": "शुम्भ",
+      "taml": "சும்பன்"
+    },
+    "say": "SHOOM-bhuh",
+    "kind": "person",
+    "gloss": "The asura king who sends a messenger to the Devī."
+  },
+  "Niśumbha": {
+    "id": "ni-umbha",
+    "native": {
+      "deva": "निशुम्भ",
+      "taml": "நிசும்பன்"
+    },
+    "say": "nee-SHOOM-bhuh",
+    "kind": "person",
+    "gloss": "Śumbha’s brother."
+  },
+  "Kauśikī": {
+    "id": "kau-ik",
+    "native": {
+      "deva": "कौशिकी",
+      "taml": "கௌசிகி"
+    },
+    "say": "kow-SHEE-kee",
+    "kind": "person",
+    "gloss": "The radiant Goddess emerging from Pārvatī."
+  },
+  "Kālikā": {
+    "id": "k-lik",
+    "native": {
+      "deva": "कालिका",
+      "taml": "காளிகா"
+    },
+    "say": "KAH-lee-kah",
+    "kind": "person",
+    "gloss": "The dark form named in Devī Māhātmya chapter 5."
+  },
+  "Caṇḍa": {
+    "id": "ca-a",
+    "native": {
+      "deva": "चण्ड",
+      "taml": "சண்டன்"
+    },
+    "say": "CHUN-duh",
+    "kind": "person",
+    "gloss": "One of the asuras who reports the Goddess to Śumbha."
+  },
+  "Muṇḍa": {
+    "id": "mu-a",
+    "native": {
+      "deva": "मुण्ड",
+      "taml": "முண்டன்"
+    },
+    "say": "MOON-duh",
+    "kind": "person",
+    "gloss": "One of the asuras who reports the Goddess to Śumbha."
+  },
+  "Dhūmralocana": {
+    "id": "dh-mralocana",
+    "native": {
+      "deva": "धूम्रलोचन",
+      "taml": "தூம்ரலோசனன்"
+    },
+    "say": "DHOOM-ruh-LOH-chuh-nuh",
+    "kind": "person",
+    "gloss": "The commander sent to seize the Goddess."
+  },
+  "Sugrīva (Devī messenger)": {
+    "id": "sugr-va-dev-messenger",
+    "native": {
+      "deva": "सुग्रीव",
+      "taml": "சுக்ரீவன்"
+    },
+    "say": "soo-GREE-vuh",
+    "kind": "person",
+    "gloss": "Śumbha’s messenger in the Devī Māhātmya, distinct from Rāma’s ally.",
+    "display": "Sugrīva",
+    "aliases": [
+      "Sugrīva"
+    ]
+  },
+  "Mithilā": {
+    "id": "mithila",
+    "native": {
+      "deva": "मिथिला",
+      "taml": "மிதிலை"
+    },
+    "say": "MITH-ih-laa",
+    "kind": "place",
+    "gloss": "The city where Kauśika meets the Dharma-vyādha."
+  },
+  "Uccaiḥśravas": {
+    "id": "uccaihsravas",
+    "native": {
+      "deva": "उच्चैःश्रवस्",
+      "taml": "உச்சைசிரவஸ்"
+    },
+    "say": "oo-CHAIH-shruh-vus",
+    "kind": "being",
+    "gloss": "The celestial horse named among Śumbha’s claimed treasures."
+  },
+  "Devī": {
+    "id": "devi",
+    "native": {
+      "deva": "देवी",
+      "taml": "தேவி"
+    },
+    "say": "DAY-vee",
+    "kind": "being",
+    "gloss": "The Goddess, speaking in this episode of the Devī Māhātmya."
   }
 }

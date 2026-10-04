@@ -1,0 +1,640 @@
+{
+  "generatedAt": "2026-10-04T14:07:47.714Z",
+  "scope": "offline 15-edition review package",
+  "mechanicalPass": true,
+  "humanApproval": "pending",
+  "measuredReadAloud": "pending",
+  "checks": [
+    {
+      "name": "five stories",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "draft only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "15 edition articles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no raw canonical name markers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review-only notice",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well source note hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/en file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/en timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/en anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well short word band",
+      "pass": true,
+      "detail": "308"
+    },
+    {
+      "name": "nrga-well full word band",
+      "pass": true,
+      "detail": "650"
+    },
+    {
+      "name": "nrga-well/hi file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/hi timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/hi anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/hi draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "nrga-well/ta file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/ta timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/ta anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well/ta draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "nrga-well art hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well art dimensions",
+      "pass": true,
+      "detail": "1448x1086"
+    },
+    {
+      "name": "nrga-well og hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nrga-well og dimensions",
+      "pass": true,
+      "detail": "1200x630"
+    },
+    {
+      "name": "nrga-well OG under 300KB",
+      "pass": true,
+      "detail": "147569 bytes"
+    },
+    {
+      "name": "indra-virocana source note hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/en file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/en timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/en anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana short word band",
+      "pass": true,
+      "detail": "322"
+    },
+    {
+      "name": "indra-virocana full word band",
+      "pass": true,
+      "detail": "657"
+    },
+    {
+      "name": "indra-virocana/hi file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/hi timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/hi anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/hi draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "indra-virocana/ta file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/ta timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/ta anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana/ta draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "indra-virocana art hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana art dimensions",
+      "pass": true,
+      "detail": "1448x1086"
+    },
+    {
+      "name": "indra-virocana og hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "indra-virocana og dimensions",
+      "pass": true,
+      "detail": "1200x630"
+    },
+    {
+      "name": "indra-virocana OG under 300KB",
+      "pass": true,
+      "detail": "122050 bytes"
+    },
+    {
+      "name": "dharma-vyadha source note hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/en file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/en timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/en anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha short word band",
+      "pass": true,
+      "detail": "300"
+    },
+    {
+      "name": "dharma-vyadha full word band",
+      "pass": true,
+      "detail": "651"
+    },
+    {
+      "name": "dharma-vyadha/hi file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/hi timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/hi anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/hi draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "dharma-vyadha/ta file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/ta timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/ta anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha/ta draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "dharma-vyadha art hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha art dimensions",
+      "pass": true,
+      "detail": "1448x1086"
+    },
+    {
+      "name": "dharma-vyadha og hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dharma-vyadha og dimensions",
+      "pass": true,
+      "detail": "1200x630"
+    },
+    {
+      "name": "dharma-vyadha OG under 300KB",
+      "pass": true,
+      "detail": "121554 bytes"
+    },
+    {
+      "name": "mainaka-welcome source note hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/en file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/en timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/en anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome short word band",
+      "pass": true,
+      "detail": "300"
+    },
+    {
+      "name": "mainaka-welcome full word band",
+      "pass": true,
+      "detail": "655"
+    },
+    {
+      "name": "mainaka-welcome/hi file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/hi timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/hi anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/hi draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "mainaka-welcome/ta file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/ta timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/ta anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome/ta draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "mainaka-welcome art hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome art dimensions",
+      "pass": true,
+      "detail": "1448x1086"
+    },
+    {
+      "name": "mainaka-welcome og hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mainaka-welcome og dimensions",
+      "pass": true,
+      "detail": "1200x630"
+    },
+    {
+      "name": "mainaka-welcome OG under 300KB",
+      "pass": true,
+      "detail": "162058 bytes"
+    },
+    {
+      "name": "devi-messenger source note hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/en file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/en timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/en anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger short word band",
+      "pass": true,
+      "detail": "324"
+    },
+    {
+      "name": "devi-messenger full word band",
+      "pass": true,
+      "detail": "662"
+    },
+    {
+      "name": "devi-messenger/hi file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/hi timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/hi anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/hi draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "devi-messenger/ta file hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/ta timing unclaimed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/ta anchored",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger/ta draft native script",
+      "pass": true,
+      "detail": "native names in source draft"
+    },
+    {
+      "name": "devi-messenger art hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger art dimensions",
+      "pass": true,
+      "detail": "1448x1086"
+    },
+    {
+      "name": "devi-messenger og hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "devi-messenger og dimensions",
+      "pass": true,
+      "detail": "1200x630"
+    },
+    {
+      "name": "devi-messenger OG under 300KB",
+      "pass": true,
+      "detail": "146076 bytes"
+    },
+    {
+      "name": "ten native-language articles",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "nrga-well-hi native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "nrga-well-ta native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "indra-virocana-hi native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "indra-virocana-ta native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "dharma-vyadha-hi native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "dharma-vyadha-ta native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "mainaka-welcome-hi native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "mainaka-welcome-ta native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "devi-messenger-hi native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "devi-messenger-ta native prose script",
+      "pass": true,
+      "detail": "no Latin tokens"
+    },
+    {
+      "name": "local link art/nrga-well-candidate.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link og/nrga-well-candidate.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link source-notes/nrga-well.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link art/indra-virocana-candidate-v2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link og/indra-virocana-candidate.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link source-notes/indra-virocana.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link art/dharma-vyadha-candidate-v2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link og/dharma-vyadha-candidate.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link source-notes/dharma-vyadha.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link art/mainaka-welcome-candidate.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link og/mainaka-welcome-candidate.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link source-notes/mainaka-welcome.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link art/devi-messenger-candidate.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link og/devi-messenger-candidate.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local link source-notes/devi-messenger.md",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": []
+}
