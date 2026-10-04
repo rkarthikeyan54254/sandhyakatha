@@ -1,0 +1,23 @@
+{
+  "story": "lakshmana-rekha",
+  "missingRefs": [
+    "Mārīca"
+  ],
+  "proposedEntries": {
+    "Mārīca": {
+      "id": "marica",
+      "native": {
+        "deva": "मारीच"
+      },
+      "say": "MAA-ree-chuh",
+      "ipa": "ˈmaː.riː.t͡ɕɐ",
+      "kind": "being",
+      "gloss": "A rākṣasa who takes the form of a marvelous deer to draw Rāma away from Sītā.",
+      "aliases": [
+        "Maricha",
+        "Mareecha"
+      ]
+    }
+  },
+  "note": "Draft proposal only. Native scripts, pronunciation, and gloss need editorial review before adding to content/lexicon.json."
+}

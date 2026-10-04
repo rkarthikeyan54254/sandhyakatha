@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-04T02:33:25.784Z",
+  "purpose": "offline English editorial review",
+  "publicationReady": false,
+  "candidates": [
+    {
+      "id": "boy-insults-shiva",
+      "status": "draft",
+      "shortWords": 304,
+      "fullWords": 651
+    },
+    {
+      "id": "daksha-sacrifice",
+      "status": "draft",
+      "shortWords": 300,
+      "fullWords": 670
+    },
+    {
+      "id": "kannappar-eyes",
+      "status": "draft",
+      "shortWords": 323,
+      "fullWords": 658
+    },
+    {
+      "id": "lakshmana-rekha",
+      "status": "draft",
+      "shortWords": 304,
+      "fullWords": 664
+    }
+  ]
+}

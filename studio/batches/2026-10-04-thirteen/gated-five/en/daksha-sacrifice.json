@@ -1,0 +1,223 @@
+{
+  "id": "daksha-sacrifice",
+  "schemaVersion": "1.0",
+  "status": "draft",
+  "version": 1,
+  "updated": "2026-10-04",
+  "title": "The Sacrifice Without an Invitation",
+  "tease": "Dakṣa invites the gods to a great sacrifice, but leaves out his daughter Satī and her husband Śiva.",
+  "source": {
+    "corpus": "shiva-purana",
+    "tradition": "sanskrit",
+    "work": "Śiva Purāṇa",
+    "locus": "Rudra-saṃhitā, Satī-khaṇḍa, chapters 26–30, 32, 37 and 42–43",
+    "stability": "stable",
+    "traditionNote": "This telling follows the selected Śiva Purāṇa sequence. Satī relinquishes her body through yogic fire in chapter 30; she is not shown jumping into the sacrificial altar. The account's anger and later mercy are both retained without making her death a useful price for reconciliation.",
+    "checkedAgainst": [
+      "Śiva Purāṇa, Rudra-saṃhitā, Satī-khaṇḍa 26–30, 32, 37 and 42–43, J. L. Shastri English translation alongside linked Sanskrit chapter texts: https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226019.html (accessed 2026-10-04)"
+    ],
+    "variants": [],
+    "sourcing": [
+      {
+        "claim": "Dakṣa grows hostile to Śiva and inaugurates a sacrifice without inviting Śiva and Satī; Dadhīci objects and leaves.",
+        "locus": "Satī-khaṇḍa 26–27"
+      },
+      {
+        "claim": "Satī hears of the sacrifice from the Moon's journey, asks Śiva to accompany her, and goes despite his warning.",
+        "locus": "Satī-khaṇḍa 28"
+      },
+      {
+        "claim": "At the sacrifice Satī finds no share for Śiva, questions her father, and Dakṣa speaks contemptuously of her husband.",
+        "locus": "Satī-khaṇḍa 29.9–15, 29–37"
+      },
+      {
+        "claim": "Satī resolves to relinquish the body born from Dakṣa and dies through yogic fire; this is not a leap into the external altar in this telling.",
+        "locus": "Satī-khaṇḍa 29.38–63; 30.2–9"
+      },
+      {
+        "claim": "Śiva hears what happened, brings forth Vīrabhadra, and the sacrifice is destroyed; Dakṣa is beheaded.",
+        "locus": "Satī-khaṇḍa 32; 37"
+      },
+      {
+        "claim": "Śiva later rebukes the severity, orders Dakṣa restored with a goat's head, and Dakṣa wakes and honours him; the rite is arranged again.",
+        "locus": "Satī-khaṇḍa 42.3–31; 43"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 12,
+    "sensitivity": [
+      "death",
+      "violence",
+      "parental-conflict",
+      "loss"
+    ],
+    "careNote": "Dakṣa publicly humiliates his daughter Satī and insults her husband. Satī deliberately ends her life through yogic fire. Śiva's followers destroy the sacrifice and Dakṣa is beheaded before being restored. Read this with an older child; her death is not a remedy for family conflict.",
+    "gated": true
+  },
+  "values": [
+    "a slight that could not be let go"
+  ],
+  "characters": [
+    {"ref": "Dakṣa", "role": "lead"},
+    {"ref": "Satī", "role": "lead"},
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {"ref": "Vīrabhadra", "role": "present"},
+    {"ref": "Dadhīci", "role": "mentioned"},
+    {"ref": "Candra", "role": "mentioned"},
+    {"ref": "Rohiṇī", "role": "mentioned"},
+    {"ref": "Vijayā", "role": "mentioned"}
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Dakṣa» prepared a great sacrifice. Gods and sages came. Yet he sent no invitation to his daughter «Satī» or to her husband «Śiva». One sage asked how the rite could be complete without them. «Dakṣa» refused to change his mind, and the sage left."
+        },
+        {
+          "t": "p",
+          "text": "«Satī» learned where the others were going. This was her father's house, and she wanted to go. «Śiva» warned her that an uninvited visit could end in hurt. She went anyway, hoping that her father would welcome her."
+        },
+        {
+          "t": "p",
+          "text": "She did not arrive quietly. She came with attendants to a hall full of people who knew her father. At a gathering where each person had a place, the missing place for her husband was plain to see."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At the sacrifice she found no place set aside for «Śiva». She asked «Dakṣa» why he had left her husband out. He answered by speaking against «Śiva» before the gathering. The insult came from her own father, in front of all those guests."
+        },
+        {
+          "t": "p",
+          "text": "«Satī» answered him. She would not pretend his words were harmless. Then she deliberately gave up her life through yogic fire. The people at the sacrifice cried out. Her father could no longer take back what he had said."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When «Śiva» heard, he was furious. From a lock of his hair he brought forth «Vīrabhadra» and sent him to the sacrifice. The gathering was thrown into violence. The rite was destroyed, and «Dakṣa» was killed."
+        },
+        {
+          "t": "p",
+          "text": "Later «Śiva» came to the ruined place. He said the punishment had gone too far. He ordered «Dakṣa» restored to life with a goat's head. The father woke and bowed to «Śiva»."
+        },
+        {
+          "t": "slow",
+          "text": "The sacrifice could begin again. «Satī» could not come back to that hall. What her father had said there, and what it cost, stayed at the centre of the story."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Dakṣa» called gods and sages to a great sacrifice. Invitations went out; places were prepared; the rite was ready to begin. But he did not call his daughter «Satī» or her husband «Śiva». The absence was deliberate. An old quarrel with «Śiva» had settled in «Dakṣa»'s heart."
+        },
+        {
+          "t": "p",
+          "text": "At the gathering, a sage named «Dadhīci» looked around and asked where «Śiva» was. He said a sacrifice that left him out could not be whole. «Dakṣa» grew angry and would not send an invitation. «Dadhīci» walked away."
+        },
+        {
+          "t": "p",
+          "text": "Far off, «Satī» saw others travelling to her father's sacrifice. She had not known it was being held. Her friend asked where they were going, then brought the answer back. «Satī» wondered why her own parents had not invited her."
+        },
+        {
+          "t": "p",
+          "text": "The travellers included «Candra» and his companion «Rohiṇī». «Satī» asked her friend «Vijayā» to find out their destination. The answer was her father's hall, full of guests and activity. She had to learn about it from someone passing by."
+        },
+        {
+          "t": "p",
+          "text": "She went to «Śiva» and asked him to come with her. He knew the quarrel and warned her. A visit where they were not wanted, he said, could wound her. But «Satī» still wanted to go to the home where she had been a daughter."
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» spoke of the insult that might wait for them there. «Satī» heard him, but the silence from her family troubled her too. She went with attendants while he remained behind. Neither of them could make «Dakṣa» send the welcome that should have come freely."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She arrived with attendants. The sacrifice was under way. Offerings had been prepared for the gods, yet there was no share for «Śiva». The empty place made her father's refusal plain before she spoke to him."
+        },
+        {
+          "t": "p",
+          "text": "«Satī» asked «Dakṣa» why «Śiva» had been excluded. She spoke with anger, but also with the claim of a daughter who expected her father to hear her. Others at the rite listened without answering."
+        },
+        {
+          "t": "p",
+          "text": "Then «Dakṣa» answered. He told her she could stay or leave. Before the gathered guests he spoke contemptuously of her husband. He told her to calm down and smile, as if the words he had just said could be put aside."
+        },
+        {
+          "t": "p",
+          "text": "«Satī» did not smile. She rejected what her father had said and the body she had received from him. In this Śiva Purāṇa telling, she sat in yogic concentration and deliberately ended her life in an inner fire. She did not leap into the sacrificial altar."
+        },
+        {
+          "t": "p",
+          "text": "Those who saw her death cried out. Some of «Śiva»'s attendants moved against the sacrifice and were driven back. The news went to «Śiva»; he heard the account from those who had been there."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» was overcome by anger. He pulled a lock from his matted hair and struck the mountain. From it came «Vīrabhadra», a fierce leader. «Śiva» sent him with his attendants to bring down the sacrifice."
+        },
+        {
+          "t": "p",
+          "text": "The place that had been arranged so carefully was broken. The account tells of a terrible battle: gods and attendants fought, the rite was scattered, and people were wounded. «Vīrabhadra» seized «Dakṣa» and took his head."
+        },
+        {
+          "t": "p",
+          "text": "The anger did not bring «Satī» back. It left another family member dead and the sacrifice in ruins. The gods and sages went to «Śiva» and asked him to help set right what remained."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śiva» came and looked at the damage. He told «Vīrabhadra» that the punishment had been too severe. When «Dakṣa»'s body was brought, his head was gone. «Śiva» ordered that the head of a sacrificial goat be joined to him instead."
+        },
+        {
+          "t": "p",
+          "text": "«Dakṣa» woke. He saw «Śiva» before him and bowed. The rite could be put in order again, now including the one whom «Dakṣa» had tried to exclude. The father who had refused an invitation had to face the person he had despised."
+        },
+        {
+          "t": "aside",
+          "text": "For the parent: chapter 30 describes «Satī»'s death through yogic fire; many familiar retellings describe a leap into the altar. This edition follows the cited Śiva Purāṇa passage. Do not frame «Satī»'s death as needed for reconciliation or suggest that family contempt makes self-harm inevitable."
+        },
+        {
+          "t": "slow",
+          "text": "The gathering could make room for «Śiva» at last. Nothing could restore the moment before «Satī» stood before her father and heard what he thought of her life. That harm remains, even after the broken rite is repaired."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "If you had been at that gathering, what could you have said when you saw «Satī» being hurt?",
+    "seed": "Silence can let a cruel word keep its place in a room.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Satī end her life?",
+        "a": "In this Śiva Purāṇa passage, she is devastated and angry at her father's public contempt for Śiva and rejects the body she received from him. The text presents a goddess's extraordinary act through yogic fire; it is not a safe or right response for a person facing family humiliation. If a person is hurting, they deserve help and company, not death."
+      },
+      {
+        "q": "Did she jump into the sacrificial fire?",
+        "a": "Not in the Śiva Purāṇa passage we use. Chapter 30 says she sat in yogic concentration and her body fell in an inner yogic fire. Other tellings and images place her in the external altar; we do not blend those versions here."
+      },
+      {
+        "q": "Was Dakṣa forgiven?",
+        "a": "The text says Śiva ordered Dakṣa restored with a goat's head and Dakṣa bowed to him. It also says Śiva rebuked the severity of the punishment. It does not show Satī returning to that hall. Restoring Dakṣa and the sacrifice does not erase what happened to her."
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "id": "kannappar-eyes",
+  "schemaVersion": "1.0",
+  "status": "draft",
+  "version": 1,
+  "updated": "2026-10-04",
+  "title": "Kaṇṇappar Gives What He Has",
+  "tease": "A hunter brings water, flowers and food to a hill shrine. When one eye of the image begins to bleed, he tries to help.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Sēkkiḻār, Periya Purāṇam",
+    "locus": "Kaṇṇappar Nāyaṉār Purāṇam, verses 743–830 in the continuous numbering of T. N. Ramachandran's translation",
+    "stability": "regional",
+    "traditionNote": "This is Sēkkiḻār's Tamil Śaiva saint-life. Its worship contrast and eye episode are told as hagiography, not as an instruction to hurt oneself. Earlier Tamil hymns praise Kaṇṇappar; the detailed sequence here follows the Periya Purāṇam.",
+    "checkedAgainst": [
+      "Sēkkiḻār, Periya Purāṇam, Kaṇṇappar Nāyaṉār Purāṇam, T. N. Ramachandran English verse translation: https://www.shaivam.org/devotees/the-puranam-of-kannappa-nayanar/ (accessed 2026-10-04)"
+    ],
+    "variants": [
+      {
+        "differs": "The amount of narrative detail preserved in earlier Tamil praise and the later saint-life.",
+        "tellings": "The Tiru-th-Tonda-th-Tokai praises Kaṇṇappar by name; Sēkkiḻār's Periya Purāṇam supplies the hill-shrine, worship, priest and eye-gift sequence used here.",
+        "weTell": "We follow Sēkkiḻār's detailed Tamil hagiography and do not assign its scenes to the earlier hymn."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "Tiṇṇaṉ follows a hunt to the hill of Kāḷatti and sees the image of Śiva there.",
+        "locus": "Kaṇṇappar Nāyaṉār Purāṇam, verses 743–757"
+      },
+      {
+        "claim": "He offers meat, flowers and water carried in his mouth, believing the Lord needs food and care.",
+        "locus": "Kaṇṇappar Nāyaṉār Purāṇam, verses 765–773"
+      },
+      {
+        "claim": "The temple priest clears the hunter's offerings and performs prescribed worship; Śiva speaks to him in a dream about the hunter's love.",
+        "locus": "Kaṇṇappar Nāyaṉār Purāṇam, verses 801–808"
+      },
+      {
+        "claim": "One eye of the image bleeds; Tiṇṇaṉ tries to stop the bleeding and applies herbs without success.",
+        "locus": "Kaṇṇappar Nāyaṉār Purāṇam, verses 813–821"
+      },
+      {
+        "claim": "Tiṇṇaṉ gives his own first eye; when the other eye bleeds, he prepares to give the second, and Śiva stops his hand and calls him Kaṇṇappar.",
+        "locus": "Kaṇṇappar Nāyaṉār Purāṇam, verses 822–829"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 11,
+    "sensitivity": [
+      "violence"
+    ],
+    "careNote": "A hunter takes out one of his own eyes when an image of Śiva bleeds and moves to give the other; Śiva stops him. The telling states the act briefly without describing how to do it. Read this yourself before sharing it with a child; it is a saint's extraordinary act, not a model for self-injury.",
+    "gated": true
+  },
+  "values": [
+    "giving the thing you cannot spare"
+  ],
+  "characters": [
+    {
+      "ref": "Tiṇṇaṉ",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Tiṇṇaṉ» was a hunter. One day he climbed the hill of «Kāḷatti» and found an image of «Śiva» there. He was moved to care for the Lord he had found."
+        },
+        {
+          "t": "p",
+          "text": "He brought food from his hunt, flowers from the forest and water carried in his mouth. He had no vessel for the water. He gave what he could carry, then stayed near the shrine because he did not want the Lord to be alone."
+        },
+        {
+          "t": "p",
+          "text": "A priest also served that shrine. He removed the hunter's offerings and performed the worship he had been taught. The two men came by different paths, and each thought he was caring for «Śiva»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then the priest saw blood at one eye of the image. «Śiva» had told him in a dream to watch what the hunter would do. The priest stayed hidden. «Tiṇṇaṉ» came up the hill and saw the bleeding eye. His water and food fell from his hands."
+        },
+        {
+          "t": "p",
+          "text": "He tried to wipe the blood away. He searched the hill for healing herbs and put their juice on the eye. Nothing stopped it. To «Tiṇṇaṉ», the image was someone he loved who was hurt before him."
+        },
+        {
+          "t": "p",
+          "text": "So he took out one of his own eyes and gave it to the bleeding eye of the image. The bleeding stopped. «Tiṇṇaṉ» was glad, until blood began to flow from the other eye."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He still had one eye. He moved to give that one too. Before he could, «Śiva» reached out and stopped his hand. _Stop, «Kaṇṇappar»,_ the Lord called to him, three times."
+        },
+        {
+          "t": "p",
+          "text": "The priest had watched the whole thing. What he had thought unfit for worship had come from a hunter's fierce love. «Śiva» gave the hunter a place beside him."
+        },
+        {
+          "t": "slow",
+          "text": "«Tiṇṇaṉ» had brought what was in his hands: food, flowers, water. When he saw the bleeding eye, he forgot to ask what was proper to offer. He saw only someone he could not bear to leave hurting."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Tiṇṇaṉ» grew up among hunters. He knew the paths through the forest, the work of a bow and the places where water ran down from the hills. On a hunt he followed a boar far from the rest of his party. By the time it stopped, he had come near the hill of «Kāḷatti»."
+        },
+        {
+          "t": "p",
+          "text": "A companion told him that there was a shrine of «Śiva» on the hill. «Tiṇṇaṉ» climbed to it and saw the image. He stood before it for a long time. A deep love came over him, and he could hardly bring himself to leave."
+        },
+        {
+          "t": "p",
+          "text": "He wondered who would look after the Lord if he went away. Yet he also thought someone must bring food. He went down the hill reluctantly, promising to return with something good to eat. The worry remained with him as he crossed the river."
+        },
+        {
+          "t": "p",
+          "text": "He thought the Lord must be hungry. He went back for meat from the hunt and returned with it. He picked flowers too. For water, he had no vessel, so he carried it in his mouth up the hill. He offered everything to the image."
+        },
+        {
+          "t": "p",
+          "text": "«Tiṇṇaṉ» did not know the shrine's order of worship. He moved the old flowers with his foot, placed his own flowers there and poured the water he had carried. His offering was the food and care he knew how to give."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A priest served the same shrine. When he found the hunter's offerings, he cleared them away and performed worship according to the rules he knew. On another day «Tiṇṇaṉ» returned, and then the priest returned. Neither man could see the whole of the other's care."
+        },
+        {
+          "t": "p",
+          "text": "The priest grieved over what he found. Then, in a dream, «Śiva» spoke to him about the hunter. The Lord told him to watch when «Tiṇṇaṉ» came again. At dawn the priest went to the shrine and waited out of sight."
+        },
+        {
+          "t": "p",
+          "text": "Before «Tiṇṇaṉ» arrived, the priest saw blood flow from one eye of the image. He stayed where he was. The hunter climbed the hill with flowers, water, food and his bow. He saw the blood. The things he carried fell as he rushed forward."
+        },
+        {
+          "t": "p",
+          "text": "«Tiṇṇaṉ» wiped at the eye. The blood kept coming. He looked around for whoever might have hurt the Lord, but no one was there. He ran down the hill to gather herbs that hunters used on wounds. He brought them back and put their juice on the eye."
+        },
+        {
+          "t": "p",
+          "text": "That did not help either. «Tiṇṇaṉ» watched the bleeding and searched his mind for something more he could do. The priest watched «Tiṇṇaṉ». The two men were in the same shrine, facing the same image, but only one of them could see the hunter's face."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Tiṇṇaṉ» decided to give his own eye to the bleeding one. He took it out and placed it there. The bleeding stopped. He jumped with relief, as though the Lord had been healed. He had not been thinking of his own loss."
+        },
+        {
+          "t": "p",
+          "text": "Then blood began to flow from the image's other eye. «Tiṇṇaṉ» saw that there was still hurt before him. He had one eye left. He moved to give that one too."
+        },
+        {
+          "t": "p",
+          "text": "Before he could injure his second eye, «Śiva» reached out and held his hand. _Stop, «Kaṇṇappar»,_ he called, not once but three times. «Tiṇṇaṉ» did not have to give the second eye. The Lord gave him a place beside him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The priest had seen why the hunter brought food and water. The acts he had cleared away were the acts of someone who thought the Lord needed feeding and protection. The priest's worship had its care and discipline; the hunter's had a different shape."
+        },
+        {
+          "t": "aside",
+          "text": "For the parent: «Sēkkiḻār» tells an extraordinary saint-life, not an instruction to hurt oneself. The text describes precisely how «Tiṇṇaṉ» prepared the second act; we leave that method out of the spoken telling. If a child asks, discuss care without self-harm."
+        },
+        {
+          "t": "slow",
+          "text": "At the beginning «Tiṇṇaṉ» had brought the things he knew: food, flowers and water. At the end, «Śiva» held his hand. The story lets us remember both movements: a hunter who could not turn away from someone hurt, and a Lord who would not let him give his second eye."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Have you ever seen someone do something strange, then understood the care behind it later?",
+    "seed": "The same act can look different when we see the care behind it.",
+    "ifTheyAsk": [
+      {
+        "q": "Should someone hurt themselves to show devotion?",
+        "a": "No. This is an extraordinary act in Sēkkiḻār's saint-life, and the episode ends with Śiva stopping Tiṇṇaṉ before he hurts his second eye. It is not an instruction for a child or adult to injure themselves. We can care for others while also keeping ourselves safe."
+      },
+      {
+        "q": "Was the priest wrong to remove the meat and water?",
+        "a": "The Periya Purāṇam gives the priest a real duty: he serves the shrine by the worship rules he has learned. The hunter serves out of love in the way he knows. The divine dream asks the priest to watch before judging; the story honours the love he could not see at first."
+      },
+      {
+        "q": "Why is he called Kaṇṇappar?",
+        "a": "In the Periya Purāṇam, Śiva calls him Kaṇṇappar when he stops the second act. The name recalls his eye-gift; Tiṇṇaṉ was the hunter's earlier name."
+      }
+    ]
+  }
+}

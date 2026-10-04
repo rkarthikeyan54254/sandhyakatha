@@ -1,0 +1,78 @@
+{
+  "id": "boy-insults-shiva",
+  "schemaVersion": "1.0",
+  "status": "draft",
+  "version": 1,
+  "updated": "2026-10-04",
+  "title": "Pārvatī and the Visitor Who Questioned Her Choice",
+  "tease": "An aged ascetic asks why Pārvatī seeks Śiva. When his questions turn into criticism, she tells him what she sees in Śiva—and discovers who has come to visit.",
+  "source": {
+    "corpus": "shiva-purana",
+    "tradition": "sanskrit",
+    "work": "Śiva Purāṇa, Rudra-saṃhitā, Pārvatī-khaṇḍa",
+    "locus": "chapters 26–28, the Jaṭila or brahmacārin visit and revelation",
+    "stability": "stable",
+    "traditionNote": "This telling follows the Śiva Purāṇa's aged ascetic disguise. Other tellings of Pārvatī's tapas and Śiva's test exist; the visitor is not a boy in this witness. The longer rendition begins with this encounter, leaving the earlier Satī and fire episodes in the parent note rather than the spoken lane.",
+    "checkedAgainst": [
+      "Śiva Purāṇa, Rudra-saṃhitā, Pārvatī-khaṇḍa 26.1–44, J. L. Shastri translation and linked Sanskrit witness at Wisdom Library, accessed 2026-10-04, https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226090.html",
+      "Śiva Purāṇa, Rudra-saṃhitā, Pārvatī-khaṇḍa 27.1–39, same edition, https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226091.html",
+      "Śiva Purāṇa, Rudra-saṃhitā, Pārvatī-khaṇḍa 28.1–50, same edition, https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226092.html"
+    ],
+    "sourcing": [
+      {"claim": "Śiva visits Pārvatī's place of penance as a radiant, aged brahmin ascetic with an umbrella and staff; she welcomes him respectfully.", "locus": "26.1–8"},
+      {"claim": "The visitor asks why Pārvatī performs penance; her friend explains that she seeks Śiva as husband, and Pārvatī confirms it.", "locus": "26.10–14, 26.31–44; 27.1–3"},
+      {"claim": "The visitor criticizes Śiva's ashes, matted hair, snakes, skull, bull, poverty, and lack of conventional family standing, contrasting these with Pārvatī's royal home.", "locus": "27.10–38"},
+      {"claim": "Pārvatī says the visitor mistakes outward signs for Śiva's reality; she calls him the one who creates, sustains and ends worlds, defends the ash, and insists that she still chooses him.", "locus": "28.1–32"},
+      {"claim": "Pārvatī refuses to hear further disparagement, tells her friend they should leave, and turns to go.", "locus": "28.33–40"},
+      {"claim": "The visitor reveals himself as Śiva, acknowledges her steadfastness, asks forgiveness for the test, and Pārvatī rejoices.", "locus": "28.41–50"}
+    ]
+  },
+  "audience": {"minAge": 8, "sensitivity": [], "careNote": "The complete source scene includes Pārvatī's earlier account of entering a fire that becomes cool, and later contains severe words against those who disparage Śiva. This telling begins with the visitor's questions and does not narrate the fire or repeat the severe threats aloud.", "gated": false},
+  "values": ["seeing beyond outward appearances"],
+  "themes": ["devotion", "appearance", "resolve"],
+  "calendar": {"festivals": [], "months": [], "tithi": [], "seasons": [], "weight": 5},
+  "characters": [{"ref": "Pārvatī", "role": "lead"}, {"ref": "Śiva", "role": "lead"}],
+  "lengths": {
+    "short": {"minutes": 3, "blocks": [
+      {"t": "p", "text": "«Pārvatī» had come to the forest to perform tapas, a long and demanding practice. She wished to marry «Śiva». One day an aged ascetic arrived, carrying a staff and an umbrella."},
+      {"t": "p", "text": "«Pārvatī» welcomed him with care, as she would welcome any guest who came to the forest. The visitor asked why she was undertaking such difficult tapas. Her friend told him whom «Pārvatī» hoped to marry, and «Pārvatī» confirmed it herself."},
+      {"t": "p", "text": "The ascetic began to question her choice. He described «Śiva»'s matted hair, the ash on his body, the snakes around him and the bull he rode. Why, he asked, would the daughter of a mountain king choose someone so unlike the husband people expected for her?"},
+      {"t": "beat"},
+      {"t": "p", "text": "«Pārvatī» listened, then answered. The visitor could see the ash and the snakes, she said, but he had not understood the one who wore them. «Śiva» was not measured by fine clothes, wealth or a family name."},
+      {"t": "p", "text": "She had not begun her tapas because she had failed to notice how «Śiva» appeared. She knew the form he took and still wished to reach him. Even when the visitor spoke of his ash as something unclean, «Pārvatī» asked why the gods themselves honoured it."},
+      {"t": "p", "text": "The ascetic tried to speak again. «Pārvatī» turned to her friend: she did not want to hear more words against «Śiva». She was ready to leave, keeping the choice she had made."},
+      {"t": "beat"},
+      {"t": "p", "text": "Before she could go, the visitor changed. The aged ascetic was «Śiva» himself, come in disguise to see and test her. Now he stood before her in the form she had longed to see."},
+      {"t": "slow", "text": "«Śiva» asked her to forgive the test and spoke of their bond. «Pārvatī» rejoiced. She had seen past the visitor's arguments to the person she had sought all along—and the one she sought had come to meet her."}
+    ]},
+    "full": {"minutes": 6, "blocks": [
+      {"t": "p", "text": "«Pārvatī» had left her father's house and come to a forest for tapas. She wished to marry «Śiva», and she had given herself to a long, demanding practice to reach him. Her friend stayed beside her in that forest."},
+      {"t": "p", "text": "One day a visitor came to the place where she was practising. He looked like an aged ascetic, with matted hair, a staff and an umbrella. «Pārvatī» received him respectfully and asked after his health, as she would for a guest who had travelled far."},
+      {"t": "p", "text": "The visitor asked questions in return. Who was she, and why would someone so young choose this hard life in the forest? He praised the strength of her tapas, yet kept asking what she wanted from it."},
+      {"t": "p", "text": "«Pārvatī» told him that she was the mountain king's daughter. When he pressed her about her wish, she asked her friend to explain. Her friend said plainly that «Pārvatī» wanted no husband but «Śiva», however long her tapas might take."},
+      {"t": "beat"},
+      {"t": "p", "text": "The visitor asked «Pārvatī» to say it herself. She had sought «Śiva» with her mind, her words and her actions, she told him. Reaching him was difficult, but that was why she continued her tapas."},
+      {"t": "p", "text": "The ascetic seemed ready to leave after hearing this. «Pārvatī» stopped him and asked him to give his advice. He said that if she truly wished to listen, she should consider the man she had chosen."},
+      {"t": "p", "text": "He began with what anyone could see. «Śiva» wore ash and had matted hair; snakes twined around him and a bull carried him. He wore skins instead of the splendid cloth expected in a royal home."},
+      {"t": "p", "text": "The visitor kept going. «Śiva» carried a skull and spent time with beings others feared, while no one could name his birth or family. Why, he asked, would the mountain king's daughter choose a life with him?"},
+      {"t": "p", "text": "He compared ornaments to snakes, fine cloth to skins, and sandal paste to ash. Each comparison made the same point: by the measures of an ordinary household, «Śiva» seemed unlike the husband everyone might choose for her. The ascetic wanted «Pārvatī» to turn away."},
+      {"t": "beat"},
+      {"t": "p", "text": "«Pārvatī» did not pretend that the ash or the snakes were not there. She had seen the form «Śiva» took. What she refused was the visitor's judgment that these outward signs told him all he needed to know."},
+      {"t": "p", "text": "She answered that «Śiva» could not be measured by a family name. He took a visible form, but was more than that form. The visitor had called the ash unclean; «Pārvatī» asked why even the gods wore ash from «Śiva»'s body with honour."},
+      {"t": "p", "text": "She spoke of «Śiva» as the one who creates, sustains and ends worlds. A person counting clothes and ornaments might never understand him, she said. Those things were easy to see; the one she sought required another kind of seeing."},
+      {"t": "p", "text": "«Pārvatī» had come to the forest because she knew whom she wished to reach. The visitor's long list did not change that. She said that whatever form «Śiva» wore, he remained dear to her."},
+      {"t": "p", "text": "After speaking, «Pārvatī» became quiet and fixed her mind on «Śiva». The ascetic began again. She told her friend that she would not hear more words against «Śiva», and turned to leave."},
+      {"t": "beat"},
+      {"t": "p", "text": "As she stepped away, the visitor stopped her."},
+      {"t": "p", "text": "The aged ascetic was «Śiva». He let the disguise fall and appeared before her in the form she had held in her mind during tapas. All those questions had come from the one she was trying to reach."},
+      {"t": "p", "text": "«Śiva» said that he was pleased with her steadfastness. He acknowledged that he had tested her and asked her to forgive him for it. He told her that she was dear to him, and that they belonged together."},
+      {"t": "slow", "text": "«Pārvatī» rejoiced. Her long practice had led to this meeting. The visitor had named every outward reason to turn away, but she had kept sight of «Śiva» as she knew him."}
+    ]}
+  },
+  "linked": {"next": "", "reason": ""},
+  "close": {"question": "When have you understood something about a person that their clothes or appearance did not show?", "seed": "An outward sign can be real and still tell only a small part of who someone is.", "ifTheyAsk": [
+    {"q": "Why did Śiva speak against himself?", "a": "Śiva Purāṇa, Pārvatī-khaṇḍa 26.1–3 says he came in disguise to see Pārvatī and test her tapas. In 28.46 he acknowledges the test and asks forgiveness. The story leaves room to talk about whether that was fair to her."},
+    {"q": "Why did Pārvatī leave instead of listening longer?", "a": "She had already answered what the visitor said about Śiva. In Śiva Purāṇa, Pārvatī-khaṇḍa 28.33–40, he begins to criticize Śiva again, and Pārvatī tells her friend they should leave. Her choice is to stop hearing the disparagement; she does not have to remain in that exchange."},
+    {"q": "Why was Pārvatī angry?", "a": "She heard the ascetic repeatedly disparage Śiva. Chapter 28.33–40 gives her a strong response: she stops the exchange and chooses to leave rather than hear more. This telling keeps that action; it does not turn her anger into a lesson that she ought to be merely polite."}
+  ]}
+}
