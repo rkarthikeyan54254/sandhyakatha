@@ -8,6 +8,12 @@ This batch starts from production `main` at `78d15e8`. The thirteen entries belo
 | Middle four | `janabai-grinding`, `bhasmasura-hand`, `boy-insults-shiva`, `sekkizhar-first-word` | Source audit underway | Verify exact claims; Sēkkiḻār's prior hook was not grounded in the checked witness |
 | Gated five | `kannappar-eyes`, `siruttondar`, `kotpuli`, `iyarpagai`, `daksha-sacrifice` | Source and care audit underway | Primary witness, age/care suitability, explicit parent gate |
 
+## First source audit checkpoint
+
+The three group audits are saved in `early-four/source-decision.md`, `middle-four/SOURCE-AUDIT.md`, and `gated-five/EDITORIAL-DECISIONS.md`. They are research records, not approvals. Seven canon planning claims were corrected where the checked witnesses contradicted the old phrasing; `iyarpagai` now also flags the source's violence and deaths. Strict canonical validation still passes with 80 written stories and zero warnings.
+
+The immediately draftable English candidates are Pārvatī's visitor, Kaṇṇappar, and Dakṣa, subject to claim-by-claim ledgers and age/care review. `siruttondar`, `kotpuli`, and `iyarpagai` have source anchors but need exceptional presentation scrutiny. The other seven need a specific witness or episode-boundary decision; Kabīr additionally needs the explicit collection-scope decision required by `EDITORIAL.md`. The early-four source search is continuing before a final draftability verdict.
+
 No story or locale in this batch is approved or published yet. An AI draft or self-audit cannot satisfy the human English read-aloud or Hindi/Tamil `languageEditor` reviews. A native edition must be authored from canonical claims, not translated from English syntax, and must pass `scripts/native-language-gates.mjs` before any promotion or lock. Each review proof must preserve the exact reviewed text and imagery so approval can be tied to hashes and measured timings.
 
 The first bounded deliverable is the source-and-suitability audit for all thirteen. After that, prepare only grounded English stories and build a review proof; collect human editorial decisions before creating or promoting public locale editions. Save gate results, remaining work, and the next exact action here and in `studio/ops/GROWTH-OPS-STATE.md` after each unit.

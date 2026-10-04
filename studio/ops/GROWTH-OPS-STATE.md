@@ -2,6 +2,13 @@
 
 Updated: 2026-10-02. Keep this file compact; replace stale values.
 
+## Thirteen-story editorial queue — 2026-10-04
+
+- Rama requested end-to-end work on all thirteen remaining draft canon entries and a durable check-in before the session ends. A fresh branch `codex/thirteen-stories-2026-10-04` starts from latest production `main` (`78d15e8`); first tracker checkpoint `746212e` is committed at `studio/batches/2026-10-04-thirteen/README.md`.
+- Current bounded unit: source and age/care suitability audits across the eight non-gated and five gated entries. None is approved or published. Known holds include Kabīr's unresolved collection-scope decision and Sēkkiḻār's ungrounded prior hook. Human English read-aloud and Hindi/Tamil native-language review remain required before promotion.
+- Usage at start: five-hour 4% used, weekly 15% used (shared account). Next exact action: finish and save the thirteen source decisions, then draft only the grounded, suitable stories and prepare review proofs; commit/push a checkpoint with remaining gates before ending this session.
+- First audit unit complete: all thirteen have source/care decision records in the batch directory. Seven misleading canon planning claims were corrected (including Iyaṟpagai's constrained response, Kōṭpuli's source ending, Dakṣa's sacrifice, and Janābāī's episode boundary), and strict validation still passes with 80 written stories and zero warnings. No status, locale, lock, media, or public selector changed. Next exact action: continue exact-witness searches for held stories and create source-ledgered English candidates for the verified Pārvatī, Kaṇṇappar, and Dakṣa episodes; keep all human approvals pending.
+
 ## Second five trilingual stories — 2026-10-03
 
 - COMPLETE: Rama approved the exact fifteen-edition proof and reported 3:00/6:00 readings in all three languages. Five English stories, ten Hindi/Tamil editions, five approved WebP heroes and five dedicated OG cards passed strict validation, 138 tests and the final-head Netlify deploy preview. PR #28 merged as `4310ea99675fe8c0bf241314f807f68267194ffb`.
