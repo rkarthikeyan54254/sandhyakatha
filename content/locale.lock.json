@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -94,12 +94,12 @@
     "hi-IN/devi-messenger": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "2620863a216fd57b"
+      "hash": "8e986eda08e1c7ad"
     },
     "hi-IN/dharma-vyadha": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "ca17111425135e33"
+      "hash": "5e90f2ff8e278a6b"
     },
     "hi-IN/dhruva-still": {
       "sourceVersion": 2,
@@ -174,7 +174,7 @@
     "hi-IN/indra-virocana": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "c82199b51d1507b1"
+      "hash": "9fc50584158bdfa2"
     },
     "hi-IN/jatayu-last-flight": {
       "sourceVersion": 1,
@@ -239,7 +239,7 @@
     "hi-IN/mainaka-welcome": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "9e5b4696265da24f"
+      "hash": "4d8d6b04199d8142"
     },
     "hi-IN/maitreyi-wealth": {
       "sourceVersion": 2,
@@ -279,7 +279,7 @@
     "hi-IN/nrga-well": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "0f9e1b713c24ef92"
+      "hash": "1873b5a2f42b5391"
     },
     "hi-IN/panar-shoulders": {
       "sourceVersion": 2,
@@ -519,12 +519,12 @@
     "ta-IN/devi-messenger": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "b6a3b0a1569ed09b"
+      "hash": "5f9dc70e03744f2d"
     },
     "ta-IN/dharma-vyadha": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "555cf0cc6d3583e3"
+      "hash": "274b6502348e38ad"
     },
     "ta-IN/dhruva-still": {
       "sourceVersion": 2,
@@ -599,7 +599,7 @@
     "ta-IN/indra-virocana": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "b114a2ac78e8fdfc"
+      "hash": "b7a52aae7a8ae01b"
     },
     "ta-IN/jatayu-last-flight": {
       "sourceVersion": 1,
@@ -664,7 +664,7 @@
     "ta-IN/mainaka-welcome": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "953bc2f6540ee9cb"
+      "hash": "ecaff0012623f1a1"
     },
     "ta-IN/maitreyi-wealth": {
       "sourceVersion": 2,
@@ -704,7 +704,7 @@
     "ta-IN/nrga-well": {
       "sourceVersion": 1,
       "status": "approved",
-      "hash": "3372af4230b4fb5c"
+      "hash": "cfb748c0e477fade"
     },
     "ta-IN/panar-shoulders": {
       "sourceVersion": 2,

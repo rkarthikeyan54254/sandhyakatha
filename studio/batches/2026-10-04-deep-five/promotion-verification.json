@@ -1,0 +1,6 @@
+{
+  "scope": "approved review to production publication parity",
+  "checks": 76,
+  "failures": [],
+  "pass": true
+}
