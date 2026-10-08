@@ -13,7 +13,7 @@ function fixture() {
   writeFileSync(join(root, 'content/canon.json'), JSON.stringify({canon:[{id:'example',title:'English title',status:'published',gated:false}]}));
   writeFileSync(join(root, 'content/locale-public.json'), JSON.stringify({editions:[{storyId:'example',locale:'hi-IN'},{storyId:'example',locale:'ta-IN'}]}));
   for (const [lang,title] of [['','English title'],['hi','हिन्दी शीर्षक'],['ta','தமிழ்த் தலைப்பு']])
-    writeFileSync(join(root,'dist/s/example',lang,'index.html'), `<html><head><meta property="og:title" content="${title}"><meta property="og:description" content="A story"><meta name="theme-color" content="#14101c"></head></html>`);
+    writeFileSync(join(root,'dist/s/example',lang,'index.html'), `<html><head><meta property="og:url" content="https://sandhyakatha.com/s/example/${lang ? lang+'/' : ''}"><meta property="og:title" content="${title}"><meta property="og:description" content="A story"><meta name="theme-color" content="#14101c"></head></html>`);
   const en=readFileSync(new URL('../public/og/ribhu-nidagha.jpg',import.meta.url));
   const hi=readFileSync(new URL('../public/og/ribhu-nidagha-hi.jpg',import.meta.url));
   writeFileSync(join(root,'public/og/example.jpg'),en);
@@ -24,7 +24,7 @@ function fixture() {
 describe('native story share cards',()=>{
   it('selects the native card with its own digest and retains the English fallback',()=>{
     const f=fixture();try{
-      expect(f.run().status).toBe(0);
+      const result=f.run(); expect(result.stderr).toBe(''); expect(result.status).toBe(0);
       const digest=b=>createHash('sha256').update(b).digest('hex').slice(0,12);
       const hi=readFileSync(join(f.root,'dist/s/example/hi/index.html'),'utf8');
       const ta=readFileSync(join(f.root,'dist/s/example/ta/index.html'),'utf8');

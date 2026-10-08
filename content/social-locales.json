@@ -2276,11 +2276,11 @@
               "mode": "firstSentence"
             },
             {
-              "index": 4,
+              "index": 5,
               "mode": "firstSentence"
             },
             {
-              "index": 10,
+              "index": 11,
               "mode": "firstSentence"
             },
             {
@@ -2288,7 +2288,7 @@
               "mode": "firstSentence"
             },
             {
-              "index": 20,
+              "index": 18,
               "mode": "firstSentence"
             }
           ]
@@ -2304,19 +2304,19 @@
               "mode": "firstSentence"
             },
             {
-              "index": 4,
+              "index": 3,
               "mode": "firstSentence"
             },
             {
-              "index": 9,
+              "index": 5,
               "mode": "firstSentence"
             },
             {
-              "index": 14,
+              "index": 11,
               "mode": "firstSentence"
             },
             {
-              "index": 18,
+              "index": 16,
               "mode": "firstSentence"
             }
           ]
@@ -2332,19 +2332,19 @@
               "mode": "firstSentence"
             },
             {
-              "index": 5,
+              "index": 2,
               "mode": "firstSentence"
             },
             {
-              "index": 9,
+              "index": 6,
               "mode": "firstSentence"
             },
             {
-              "index": 14,
+              "index": 11,
               "mode": "firstSentence"
             },
             {
-              "index": 19,
+              "index": 17,
               "mode": "firstSentence"
             }
           ]
@@ -2360,19 +2360,19 @@
               "mode": "firstSentence"
             },
             {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
               "index": 4,
               "mode": "firstSentence"
             },
             {
-              "index": 8,
+              "index": 7,
               "mode": "firstSentence"
             },
             {
               "index": 12,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 15,
               "mode": "firstSentence"
             }
           ]
@@ -2392,15 +2392,15 @@
               "mode": "firstSentence"
             },
             {
-              "index": 8,
+              "index": 6,
               "mode": "firstSentence"
             },
             {
-              "index": 13,
+              "index": 9,
               "mode": "firstSentence"
             },
             {
-              "index": 17,
+              "index": 15,
               "mode": "firstSentence"
             }
           ]
@@ -4689,19 +4689,19 @@
               "mode": "firstSentence"
             },
             {
-              "index": 4,
+              "index": 6,
               "mode": "firstSentence"
             },
             {
-              "index": 10,
+              "index": 12,
               "mode": "firstSentence"
             },
             {
-              "index": 14,
+              "index": 17,
               "mode": "firstSentence"
             },
             {
-              "index": 20,
+              "index": 18,
               "mode": "firstSentence"
             }
           ]
@@ -4717,19 +4717,19 @@
               "mode": "firstSentence"
             },
             {
-              "index": 4,
+              "index": 3,
               "mode": "firstSentence"
             },
             {
-              "index": 9,
+              "index": 5,
               "mode": "firstSentence"
             },
             {
-              "index": 14,
+              "index": 11,
               "mode": "firstSentence"
             },
             {
-              "index": 19,
+              "index": 17,
               "mode": "firstSentence"
             }
           ]
@@ -4745,19 +4745,19 @@
               "mode": "firstSentence"
             },
             {
-              "index": 5,
+              "index": 2,
               "mode": "firstSentence"
             },
             {
-              "index": 10,
+              "index": 6,
               "mode": "firstSentence"
             },
             {
-              "index": 15,
+              "index": 12,
               "mode": "firstSentence"
             },
             {
-              "index": 20,
+              "index": 18,
               "mode": "firstSentence"
             }
           ]
@@ -4773,19 +4773,19 @@
               "mode": "firstSentence"
             },
             {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
               "index": 4,
               "mode": "firstSentence"
             },
             {
-              "index": 9,
+              "index": 8,
               "mode": "firstSentence"
             },
             {
               "index": 14,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 17,
               "mode": "firstSentence"
             }
           ]
@@ -4801,7 +4801,11 @@
               "mode": "firstSentence"
             },
             {
-              "index": 4,
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
               "mode": "firstSentence"
             },
             {
@@ -4809,11 +4813,7 @@
               "mode": "firstSentence"
             },
             {
-              "index": 14,
-              "mode": "firstSentence"
-            },
-            {
-              "index": 18,
+              "index": 16,
               "mode": "firstSentence"
             }
           ]

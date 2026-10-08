@@ -1,6 +1,6 @@
 # Five new stories — October 8 review batch
 
-Prepared for morning review on `codex/new-five-2026-10-08`. English, Hindi and Tamil; independently authored short/full tellings, parent questions, source ledgers, hero and share-card candidates. No public selectors or approvals will change before review.
+Prepared for morning review on `codex/new-five-2026-10-08`. English, Hindi and Tamil; independently authored short/full tellings, parent questions, source ledgers, hero and share-card candidates. This original review package is retained unchanged; publication approval and production checks are recorded below.
 
 | Candidate | Witness being checked | Corpus expansion | Care |
 |---|---|---|---|
@@ -22,4 +22,10 @@ Checks: 2,702 batch assertions passed; all 30 reader views checked for loaded im
 
 Mudgala follows Ganguli’s witness consistently across languages. An observed Sanskrit comparison differs in the concluding exchange and continuation of gleaning; the exact difference is disclosed in the three parent-only tradition notes and source ledger. Other classifications remain pending editorial judgment; no complete recension collation is claimed.
 
-Human native-language review, read-aloud timings, final source/editorial classification and visual approval remain pending. All approval fields remain pending and measured timings remain null. After review, the next action is to incorporate corrections and approvals, serialize the approved editions into production schema with native name inflections preserved, run publication gates, and prepare the publishable change. No public content, selectors, locks or persisted family state changed. Nothing published.
+## Publication approval and checks
+
+Rama approved all five stories in all three languages on 8 October 2026: “all stories in three languages are reviewed - they are 6 min and 3 min. good to be published.” The bound review artifacts and approval hashes are in `approval.json`. The 180/360-second fields record the user's whole-minute report, not an independent stopwatch measurement.
+
+All 15 editions and 30 tellings are promoted. Source classifications and observed witness differences are in `evidence/CLASSIFICATION.md`; native-language, source-fidelity and read-aloud approvals are recorded in production. Five heroes and 15 language-specific OG cards retain their approved bytes.
+
+Strict publication gates passed without errors or warnings. Runtime content generation, the complete production build and all 140 tests passed. All 15 production pages were browser-checked: titles and scripts match, heroes load, no unresolved markers or horizontal overflow. Evidence is saved in `evidence/`. PR: https://github.com/rkarthikeyan54254/sandhyakatha/pull/33. Hosted CI, merge and live verification are the remaining release steps.

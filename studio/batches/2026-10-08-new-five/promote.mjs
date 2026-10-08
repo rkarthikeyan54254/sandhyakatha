@@ -1,4 +1,5 @@
-// Serialize the human-reviewed package without rewriting its narrated prose.
+// Historical one-shot serializer; final schema/facet corrections live in production JSON.
+// Never rerun against an existing story or use this to re-approve later edits.
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -8,6 +9,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(R,p),'utf8'));
 const write=(p,d)=>{fs.mkdirSync(path.dirname(path.join(R,p)),{recursive:true});fs.writeFileSync(path.join(R,p),JSON.stringify(d,null,2)+'\n')};
 const review=JSON.parse(fs.readFileSync(path.join(B,'review-data.json')));
 const approval=JSON.parse(fs.readFileSync(path.join(B,'approval.json')));
+if(read('content/canon.json').canon.some(c=>review.stories.some(s=>s.id===c.id))) throw Error('Already promoted: refusing to overwrite existing editions');
 for(const [p,sha] of Object.entries(approval.reviewedFiles)) if(createHash('sha256').update(fs.readFileSync(path.join(B,p))).digest('hex')!==sha)throw Error('Reviewed bytes changed: '+p);
 const date=approval.date, gate={status:'approved',reviewer:'rama',reviewedOn:date};
 const lex=read('content/lexicon.json'), candidates=JSON.parse(fs.readFileSync(path.join(B,'lexicon-candidates.json')));
