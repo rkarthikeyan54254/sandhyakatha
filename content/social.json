@@ -2408,6 +2408,156 @@
           }
         ]
       }
+    },
+    "ribhu-nidagha": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 17,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 20,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "upakosala-fires": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 3,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 14,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "mudgala-choice": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 2,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 10,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 16,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "tuladhara-scales": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 7,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 11,
+            "mode": "firstSentence"
+          }
+        ]
+      }
+    },
+    "gargi-questions": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 0,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 4,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 8,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 11,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 17,
+            "mode": "firstSentence"
+          }
+        ]
+      }
     }
   }
 }

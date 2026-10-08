@@ -1,0 +1,3339 @@
+{
+  "ribhu-nidagha/en": {
+    "short": [
+      {
+        "scene": "R4",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "first-visit",
+        "draftParagraph": 14,
+        "claims": [
+          "R2",
+          "R3"
+        ]
+      },
+      {
+        "scene": "first-visit",
+        "draftParagraph": 14,
+        "claims": [
+          "R2",
+          "R3"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 15,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 16,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 16,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 17
+      }
+    ],
+    "full": [
+      {
+        "scene": "R1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 23,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 23,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "ribhu-nidagha/hi": {
+    "short": [
+      {
+        "scene": "R4",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "first-visit",
+        "draftParagraph": 13,
+        "claims": [
+          "R2",
+          "R3"
+        ]
+      },
+      {
+        "scene": "first-visit",
+        "draftParagraph": 13,
+        "claims": [
+          "R2",
+          "R3"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 14,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 14,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 15,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 16
+      }
+    ],
+    "full": [
+      {
+        "scene": "R1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 24
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 26
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 27,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 28
+      }
+    ]
+  },
+  "ribhu-nidagha/ta": {
+    "short": [
+      {
+        "scene": "R4",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "first-visit",
+        "draftParagraph": 14,
+        "claims": [
+          "R2",
+          "R3"
+        ]
+      },
+      {
+        "scene": "first-visit",
+        "draftParagraph": 14,
+        "claims": [
+          "R2",
+          "R3"
+        ]
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 15,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 16
+      }
+    ],
+    "full": [
+      {
+        "scene": "R1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "R3",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "R4",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "R5",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 24
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 26
+      },
+      {
+        "scene": "R6",
+        "draftParagraph": 27
+      },
+      {
+        "scene": "R7",
+        "draftParagraph": 28,
+        "claims": [
+          "R6",
+          "R7"
+        ]
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 29
+      }
+    ]
+  },
+  "upakosala-fires/en": {
+    "short": [
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 13
+      }
+    ],
+    "full": [
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 16,
+        "claims": [
+          "U4",
+          "U5"
+        ]
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 16,
+        "claims": [
+          "U4",
+          "U5"
+        ]
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "upakosala-fires/hi": {
+    "short": [
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 13
+      }
+    ],
+    "full": [
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 16,
+        "claims": [
+          "U4",
+          "U5"
+        ]
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 16,
+        "claims": [
+          "U4",
+          "U5"
+        ]
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "upakosala-fires/ta": {
+    "short": [
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 13
+      }
+    ],
+    "full": [
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "U1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "U2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "U3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 16,
+        "claims": [
+          "U4",
+          "U5"
+        ]
+      },
+      {
+        "scene": "U4",
+        "draftParagraph": 16,
+        "claims": [
+          "U4",
+          "U5"
+        ]
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "U5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "U6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "mudgala-choice/en": {
+    "short": [
+      {
+        "scene": "M1",
+        "draftParagraph": 1,
+        "claims": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 1,
+        "claims": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 12
+      }
+    ],
+    "full": [
+      {
+        "scene": "M1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "mudgala-choice/hi": {
+    "short": [
+      {
+        "scene": "M1",
+        "draftParagraph": 1,
+        "claims": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 1,
+        "claims": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 11
+      }
+    ],
+    "full": [
+      {
+        "scene": "M1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "mudgala-choice/ta": {
+    "short": [
+      {
+        "scene": "M1",
+        "draftParagraph": 1,
+        "claims": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 1,
+        "claims": [
+          "M1",
+          "M2"
+        ]
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 11
+      }
+    ],
+    "full": [
+      {
+        "scene": "M1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "M1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "M2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "M4",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "M5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "M6",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 24
+      }
+    ]
+  },
+  "tuladhara-scales/en": {
+    "short": [
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3,
+        "claims": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 12
+      }
+    ],
+    "full": [
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 7,
+        "claims": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 23
+      }
+    ]
+  },
+  "tuladhara-scales/hi": {
+    "short": [
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3,
+        "claims": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 12
+      }
+    ],
+    "full": [
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 7,
+        "claims": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 23
+      }
+    ]
+  },
+  "tuladhara-scales/ta": {
+    "short": [
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3,
+        "claims": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 12
+      }
+    ],
+    "full": [
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "T2",
+        "draftParagraph": 7,
+        "claims": [
+          "T2",
+          "T3"
+        ]
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "T4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "T5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "T6",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 23
+      }
+    ]
+  },
+  "gargi-questions/en": {
+    "short": [
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "G6",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 17
+      }
+    ],
+    "full": [
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 4,
+        "claims": [
+          "G1",
+          "G2",
+          "G3"
+        ]
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 24
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 26
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 27
+      },
+      {
+        "scene": "G6",
+        "draftParagraph": 28
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 29
+      }
+    ]
+  },
+  "gargi-questions/hi": {
+    "short": [
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G6",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 15
+      }
+    ],
+    "full": [
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 4,
+        "claims": [
+          "G1",
+          "G2",
+          "G3"
+        ]
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 24
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 26
+      },
+      {
+        "scene": "G6",
+        "draftParagraph": 27
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 28
+      }
+    ]
+  },
+  "gargi-questions/ta": {
+    "short": [
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 4
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G6",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 15
+      }
+    ],
+    "full": [
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 1
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 2
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 3
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 4,
+        "claims": [
+          "G1",
+          "G2",
+          "G3"
+        ]
+      },
+      {
+        "scene": "G1",
+        "draftParagraph": 5
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 6
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 7
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 8
+      },
+      {
+        "scene": "G2",
+        "draftParagraph": 9
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 10
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 11
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 12
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 13
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 14
+      },
+      {
+        "scene": "G3",
+        "draftParagraph": 15
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 16
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 17
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 18
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "G4",
+        "draftParagraph": 19
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 20
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 21
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 22
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 23
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 24
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 25
+      },
+      {
+        "scene": "G5",
+        "draftParagraph": 26
+      },
+      {
+        "scene": "G6",
+        "draftParagraph": 27
+      },
+      {
+        "scene": "landing",
+        "draftParagraph": 28
+      }
+    ]
+  }
+}

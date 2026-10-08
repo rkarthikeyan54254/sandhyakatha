@@ -1,0 +1,12 @@
+
+> sandhyakatha@0.1.0 content
+> node scripts/build-index.mjs && node scripts/build-runtime-observances.mjs && node scripts/build-runtime-locales.mjs && node scripts/runtime-locale-gates.mjs && node scripts/runtime-observance-gates.mjs
+
+index: 90 published of 104 planned
+runtime observances: 196 source · 60 agreed date instances
+runtime mappings: 6
+excluded disputed instances: 19
+excluded legacy conflicts: 1
+runtime locales: 170 reviewed public edition(s) across 2 language shelf(s)
+runtime locale gates: PASS — 170 approved/locked public edition(s); reviewed short text only; canonical story ids preserved
+runtime observance gate: PASS — 60 cross-checked date instances · 6 allowlisted story mappings · disputed dates excluded

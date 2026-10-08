@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-08",
   "stories": {
     "abhimanyu-spiral": {
       "version": 2,
@@ -141,6 +141,11 @@
       "status": "published",
       "hash": "1c462f9013531ba0"
     },
+    "gargi-questions": {
+      "version": 1,
+      "status": "published",
+      "hash": "582e21b080fff426"
+    },
     "govardhana": {
       "version": 2,
       "status": "published",
@@ -256,6 +261,11 @@
       "status": "published",
       "hash": "2a2e65e85f1b8236"
     },
+    "mudgala-choice": {
+      "version": 1,
+      "status": "published",
+      "hash": "26e8e00974d1dabe"
+    },
     "nachiketa-three-nights": {
       "version": 2,
       "status": "published",
@@ -325,6 +335,11 @@
       "version": 1,
       "status": "published",
       "hash": "345928cb98ff24df"
+    },
+    "ribhu-nidagha": {
+      "version": 1,
+      "status": "published",
+      "hash": "5a96b82382cd5366"
     },
     "sampati-words": {
       "version": 2,
@@ -401,10 +416,20 @@
       "status": "published",
       "hash": "239b93201411107c"
     },
+    "tuladhara-scales": {
+      "version": 1,
+      "status": "published",
+      "hash": "f12a8710a69a8521"
+    },
     "two-birds": {
       "version": 2,
       "status": "published",
       "hash": "e6e6d3ba4a7f0ad0"
+    },
+    "upakosala-fires": {
+      "version": 1,
+      "status": "published",
+      "hash": "79df78127299b2d4"
     },
     "valmiki-first-shloka": {
       "version": 2,

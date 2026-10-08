@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
@@ -23,7 +23,7 @@ const pages = publicRows.map(row => ({
 for (const edition of localePublic.editions ?? []) {
   if (!publicById.has(edition.storyId)) continue;
   const lang = String(edition.locale).split('-')[0];
-  pages.push({ id: edition.storyId, url: `${CANONICAL_ORIGIN}/s/${edition.storyId}/${lang}/` });
+  pages.push({ id: edition.storyId, lang, url: `${CANONICAL_ORIGIN}/s/${edition.storyId}/${lang}/` });
 }
 
 function htmlUrl(canonical) {
@@ -139,7 +139,9 @@ await mapLimit(pages, 6, async page => {
     let parsed;
     try { parsed = new URL(ogImage); } catch { fail(`${page.url}: invalid og:image URL ${ogImage}`); return; }
     if (parsed.origin !== CANONICAL_ORIGIN) fail(`${page.url}: og:image must use canonical HTTPS origin`);
-    if (parsed.pathname !== `/og/${page.id}.jpg`) fail(`${page.url}: og:image does not point at this story card`);
+    const nativeCard = page.lang && existsSync(join(ROOT, 'public', 'og', `${page.id}-${page.lang}.jpg`));
+    const expectedCard = `/og/${page.id}${nativeCard ? `-${page.lang}` : ''}.jpg`;
+    if (parsed.pathname !== expectedCard) fail(`${page.url}: og:image does not point at this story/locale card`);
     if (!/^[a-f0-9]{12}$/.test(parsed.searchParams.get('og') ?? ''))
       fail(`${page.url}: og:image must be content-addressed for cache busting`);
     images.set(ogImage, page.id);

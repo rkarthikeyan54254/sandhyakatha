@@ -1,0 +1,351 @@
+{
+  "id": "ribhu-nidagha",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-08",
+  "title": "The Teacher Who Asked Which One Was “I”",
+  "tease": "A pupil can tell a king from an elephant. His teacher asks him to explain one smaller word: I.",
+  "source": {
+    "corpus": "vishnu-purana",
+    "tradition": "sanskrit",
+    "work": "Viṣṇu Purāṇa",
+    "locus": "2.15–16",
+    "stability": "stable",
+    "traditionNote": "Viṣṇu Purāṇa II.15–16, following Wilson (1840), checked against the Sanskrit. These are the two visits, not the later Ṛbhu Gītā. The selected events agree in the witnesses checked; a complete manuscript collation is not claimed.",
+    "checkedAgainst": [
+      "H. H. Wilson, The Vishnu Purana (1840), II.15–16; https://scriptures.redzambala.com/vishnu-purana/vishnu-purana-book-2-chapter-15.html",
+      "Sanskrit Viṣṇu Purāṇa II.15–16; https://www.sanskritsahitya.org/vishnupuranam/2.15; https://www.sanskritsahitya.org/vishnupuranam/2.16"
+    ],
+    "sourcing": [
+      {
+        "claim": "II.15 opening: Ṛbhu, son of Brahmā, teaches Nidāgha, son of Pulastya. Nidāgha lives by the Devīkā in Vīranagara. The outer story is Bharata teaching a king; this is a nested example, not the Bhāgavata fawn episode.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R1"
+      },
+      {
+        "claim": "II.15 first visit: after a thousand divine years, the teacher comes to the pupil's doorway after the Viśvadeva rite. Nidāgha welcomes him, washes hands/feet, offers food. Guest requests sweet food; pupil's wife prepares it.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R2"
+      },
+      {
+        "claim": "II.15 meal dialogue: Nidāgha asks about hunger, satisfaction and the guest's home/journey. Ṛbhu distinguishes bodily hunger/thirst and mental satisfaction from the Self. Taste changes with hunger/fullness; food sustains the earth-formed body. He identifies himself and teaches the undivided nature of Vāsudeva.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R3"
+      },
+      {
+        "claim": "II.16 opening: after another thousand years Ṛbhu returns. Nidāgha is carrying firewood and sacred grass, thirsty, standing away from the king's crowd. Teacher approaches as a stranger; do not invent a disguise or memory-loss curse.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R4"
+      },
+      {
+        "claim": "II.16 dialogue: king on elephant; attendants around. Teacher asks which is king and which elephant, then what above/below mean. Nidāgha climbs onto Ṛbhu to demonstrate; retain this inconvenient action without making it a game for children.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R5"
+      },
+      {
+        "claim": "II.16 turn: teacher asks who is “you” and who “I.” Nidāgha recognizes his teacher by the teaching of unity, bows, and receives the confirmation.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R6"
+      },
+      {
+        "claim": "II.16 ending: teacher leaves; Nidāgha sees all beings as himself and reaches liberation. The outer teaching names Achyuta/Viṣṇu. Do not reduce non-duality to identical bodies or to a lesson about king and elephant exchanging jobs.",
+        "locus": "Viṣṇu Purāṇa 2.15–16 · R7"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-08"
+  },
+  "audience": {
+    "minAge": 9,
+    "gated": false,
+    "sensitivity": [],
+    "careNote": "Nidāgha climbs onto his adult teacher to demonstrate above and below; children should not imitate this. The long intervals are in the source. Teaching about the Self does not deny the body’s need for food."
+  },
+  "values": [
+    "what counts as real"
+  ],
+  "themes": [
+    "self",
+    "learning",
+    "non-duality"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Nidāgha",
+      "role": "lead"
+    },
+    {
+      "ref": "Ṛbhu",
+      "role": "lead"
+    },
+    {
+      "ref": "Vāsudeva",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Pulastya",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 321,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "An elephant carried a king into the city. People crowded around the procession."
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha», who had come from the grove with firewood and sacred grass, stood apart. He was thirsty and did not want to enter the crowd."
+        },
+        {
+          "t": "p",
+          "text": "An older man approached. «Nidāgha» did not recognize him. It was «Ṛbhu», his teacher, who had come to teach him again."
+        },
+        {
+          "t": "p",
+          "text": "_Why are you standing here?_ the visitor asked."
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» explained that the king was entering the city."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "_Which one is the king?_"
+        },
+        {
+          "t": "p",
+          "text": "_The man on the elephant. The others are his attendants._"
+        },
+        {
+          "t": "p",
+          "text": "_But which is the elephant, and which is the king?_"
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» explained again. The elephant was underneath."
+        },
+        {
+          "t": "p",
+          "text": "The king was above. One carried; the other was carried."
+        },
+        {
+          "t": "p",
+          "text": "_Then tell me what above and underneath mean._"
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» climbed onto the visitor to show him. _I am above, like the king. You are below, like the elephant._"
+        },
+        {
+          "t": "p",
+          "text": "The visitor asked one more question."
+        },
+        {
+          "t": "p",
+          "text": "_Which one is \"you,\" and which one is \"I\"?_"
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» bowed at his feet. He recognized the question before he recognized the man. Only his teacher spoke to him this way about the unity beneath all these differences."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "This was not their first meeting. On an earlier visit, «Nidāgha» had served him a meal."
+        },
+        {
+          "t": "p",
+          "text": "«Ṛbhu» had asked him to look beyond hunger, taste and the places a person comes from. He had taught that the whole universe was the undivided nature of «Vāsudeva»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Now the teacher confirmed who he was. He had returned to help his pupil understand that teaching more deeply. Afterward, he left."
+        },
+        {
+          "t": "p",
+          "text": "The king and elephant were different to look at. Calling one above and the other below could describe where they stood."
+        },
+        {
+          "t": "p",
+          "text": "But «Nidāgha» began to see all beings as one with himself. His teacher had brought him from a crowded road to a question about the Self."
+        },
+        {
+          "t": "slow",
+          "text": "The lesson began with a king on an elephant. It reached the person who kept saying \"I.\""
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 650,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Ṛbhu» had taught his pupil «Nidāgha» about the unity of all things. Then the pupil went to live near the «Devīkā» river, in a grove beside a large city. He knew the duties of worship and followed them."
+        },
+        {
+          "t": "p",
+          "text": "The wise teacher was a son of «Brahmā», and the pupil a son of «Pulastya». «Ṛbhu» had freely given him his knowledge. Now he came to see the pupil who had received it, in the city beside that river."
+        },
+        {
+          "t": "p",
+          "text": "A thousand divine years passed before «Ṛbhu» came to see him there. «Nidāgha» was at his doorway after making his daily offering."
+        },
+        {
+          "t": "p",
+          "text": "He welcomed the visitor into his house, offered water, and gave him a place to sit. After the guest's hands and feet were washed, he invited him to eat."
+        },
+        {
+          "t": "p",
+          "text": "The visitor asked what food was available. «Nidāgha» named the grain dishes in the house. But the guest asked for sweet food instead: rice cooked with sugar, cakes, and milk with curds and molasses."
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» asked his wife to prepare the best food they had. She made the meal and served it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When the guest had eaten, «Nidāgha» asked whether he was satisfied. Had the food pleased his mind?"
+        },
+        {
+          "t": "p",
+          "text": "Where did he live? Where had he come from, and where was he going?"
+        },
+        {
+          "t": "p",
+          "text": "The answers were unlike the answers a guest usually gave."
+        },
+        {
+          "t": "p",
+          "text": "«Ṛbhu» spoke about hunger and thirst belonging to the body. Satisfaction belonged to the mind. But the Self was not confined to one place, arriving from somewhere and departing somewhere else."
+        },
+        {
+          "t": "p",
+          "text": "Then he returned to the meal. A food that seemed sweet could cease to please after a person had eaten too much. When someone was very hungry, food that had seemed unappealing could become welcome."
+        },
+        {
+          "t": "p",
+          "text": "The food had not acquired a new name. The eater's condition had changed."
+        },
+        {
+          "t": "p",
+          "text": "He compared the body to a house made from earth. As fresh clay supports such a house, food supports the body. Grain, milk, butter and fruit all come from the same earthly world."
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» bowed and asked who had come to teach him this. The visitor named himself: «Ṛbhu», his teacher."
+        },
+        {
+          "t": "p",
+          "text": "He had come to speak of the whole universe as the undivided nature of «Vāsudeva». Then he went away."
+        },
+        {
+          "t": "p",
+          "text": "Another thousand years passed. «Ṛbhu» returned to the city to help his pupil further."
+        },
+        {
+          "t": "p",
+          "text": "This time «Nidāgha» was outside, carrying firewood and sacred grass from the grove. His throat was dry. A king was entering the city, surrounded by attendants, and «Nidāgha» kept away from the crowd."
+        },
+        {
+          "t": "p",
+          "text": "«Ṛbhu» greeted him as though they were strangers. He asked why he stood apart. «Nidāgha» explained about the procession."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "_Which one is the king?_ the visitor asked."
+        },
+        {
+          "t": "p",
+          "text": "«Nidāgha» pointed out the man seated on a great elephant. The people around him were attendants."
+        },
+        {
+          "t": "p",
+          "text": "_But you have shown me the king and elephant together,_ said «Ṛbhu». _Tell me which is which._"
+        },
+        {
+          "t": "p",
+          "text": "The pupil explained that the elephant was underneath and the king above. The elephant carried the king. Surely that showed the difference."
+        },
+        {
+          "t": "p",
+          "text": "The visitor asked him to explain the difference between above and underneath."
+        },
+        {
+          "t": "p",
+          "text": "So «Nidāgha» climbed onto «Ṛbhu». _Here is your answer._"
+        },
+        {
+          "t": "p",
+          "text": "_I am above, like the king. You are underneath, like the elephant._"
+        },
+        {
+          "t": "p",
+          "text": "«Ṛbhu» accepted the demonstration, then asked what it had left unanswered."
+        },
+        {
+          "t": "p",
+          "text": "_You are like the king, and I am like the elephant. But which one is \"you\"? Which one is \"I\"?_"
+        },
+        {
+          "t": "p",
+          "text": "At those words, «Nidāgha» bowed at the stranger's feet. He knew his teacher now. That question about unity could only have come from «Ṛbhu»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The teacher confirmed it. He had come again to give his pupil a brief teaching about non-duality: the oneness beneath apparent divisions."
+        },
+        {
+          "t": "p",
+          "text": "Then he departed. «Nidāgha» began to see all beings as himself, and the account says that he attained liberation."
+        },
+        {
+          "t": "slow",
+          "text": "Above and below had shown where two bodies were. His teacher's last question had asked him to look deeper than their places."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When does a question make you look again at something you thought you understood?",
+    "seed": "A familiar word can hold a question we have not yet asked.",
+    "ifTheyAsk": [
+      {
+        "q": "Does this mean the king and elephant are the same animal?",
+        "a": "No. The scene distinguishes their bodies and roles. Ṛbhu's teaching is about the undivided Self beneath those visible differences. In this Purāṇa that unity is named Vāsudeva, Viṣṇu. We should not turn it into a claim that bodies look or behave alike."
+      },
+      {
+        "q": "Why did he climb onto someone?",
+        "a": "Nidāgha used his own body to explain above and below. The source includes that action, but it does not make it a safe way to question strangers. We can understand the demonstration without repeating it."
+      },
+      {
+        "q": "If hunger belongs to the body, can I ignore it?",
+        "a": "No. The first visit includes a meal, and Ṛbhu explains how food sustains the body. He distinguishes the Self from bodily change; he does not tell a family to leave a hungry person unfed. Ask for food and care when you need them."
+      }
+    ]
+  }
+}

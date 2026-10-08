@@ -122,7 +122,21 @@ for (const row of publicRows) {
     if (!existsSync(localized)) { fail(`${edition.locale}/${row.id}: public locale page missing`); continue; }
     const localizedHtml = readFileSync(localized, 'utf8');
     const localizedTitle = getProperty(localizedHtml, 'og:title') || row.title;
-    hardenPage(localized, `${SITE}/s/${row.id}/${lang}/`, imageUrl, localizedTitle);
+    // Use a reviewed native-title card when supplied; older editions retain
+    // their existing story card. Validate native cards as strictly as English.
+    const nativeCard = join(ROOT, 'public', 'og', `${row.id}-${lang}.jpg`);
+    let localizedImageUrl = imageUrl;
+    if (existsSync(nativeCard)) {
+      const nativeBytes = readFileSync(nativeCard);
+      const nativeSize = jpegSize(nativeBytes);
+      if (!nativeSize || nativeSize.width !== 1200 || nativeSize.height !== 630 || nativeBytes.length < 10_000) {
+        fail(`${edition.locale}/${row.id}: native OG card must be a readable 1200x630 JPEG`);
+        continue;
+      }
+      const nativeDigest = createHash('sha256').update(nativeBytes).digest('hex').slice(0, 12);
+      localizedImageUrl = `${SITE}/og/${row.id}-${lang}.jpg?og=${nativeDigest}`;
+    }
+    hardenPage(localized, `${SITE}/s/${row.id}/${lang}/`, localizedImageUrl, localizedTitle);
     pages++;
   }
 }

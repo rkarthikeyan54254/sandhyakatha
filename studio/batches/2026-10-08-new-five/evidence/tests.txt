@@ -1,0 +1,29 @@
+
+> sandhyakatha@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /private/tmp/sandhyakatha-publish-five-20261008
+
+ ✓ src/lib/picker.test.ts (19 tests) 4ms
+ ✓ src/lib/sync.test.ts (10 tests) 9ms
+ ✓ src/lib/roundtrip.test.ts (9 tests) 10ms
+ ✓ src/lib/profile.test.ts (29 tests) 12ms
+ ✓ src/lib/session-safety.test.ts (19 tests) 17ms
+ ✓ tests/profile-server.test.ts (12 tests) 8ms
+ ✓ src/lib/route.test.ts (7 tests) 6ms
+ ✓ src/lib/retention.test.ts (9 tests) 8ms
+ ✓ src/lib/calendar.test.ts (5 tests) 12ms
+ ✓ src/lib/constellation.test.ts (3 tests) 43ms
+ ✓ src/lib/track.test.ts (2 tests) 4ms
+ ✓ tests/social-preview-locales.test.mjs (2 tests) 235ms
+ ✓ src/App.session.test.tsx (8 tests) 359ms
+ ✓ tests/profile-account-boundary.test.ts (3 tests) 8ms
+ ✓ tests/media-integrity.test.mjs (1 test) 3ms
+ ✓ src/lib/observance.test.ts (2 tests) 2ms
+
+ Test Files  16 passed (16)
+      Tests  140 passed (140)
+   Start at  08:15:13
+   Duration  1.12s (transform 993ms, setup 0ms, collect 1.61s, tests 741ms, environment 3ms, prepare 1.62s)
+

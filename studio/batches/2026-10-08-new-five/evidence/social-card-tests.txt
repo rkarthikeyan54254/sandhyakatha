@@ -1,0 +1,1 @@
+The two social-card integration tests pass as part of the 140-test run. See tests.txt for the complete final output.
