@@ -1,0 +1,337 @@
+{
+  "id": "gargi-questions",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-08",
+  "title": "Gārgī Asked What Held Space",
+  "tease": "Gārgī asks what the whole world is woven in. When Yājñavalkya says space, she has her second question ready.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Bṛhadāraṇyaka Upaniṣad",
+    "locus": "3.8.1–12",
+    "stability": "variant",
+    "traditionNote": "We follow Müller's Kāṇva-based Bṛhadāraṇyaka3.8. Mādhyandina3.8.1 adds Gārgī's warning that Yājñavalkya's head will fall if he cannot answer; Kāṇva omits it. Both retain the two questions. His earlier warning to her in3.6 remains in the parent material.",
+    "checkedAgainst": [
+      "F. Max Müller, The Upanishads, Part II, SBE15 (1884), BṛhadāraṇyakaIII.8.1–12; https://tianmu.org/good-work-library/hindu/general-texts/the-upanishads-part-ii-max-muller",
+      "Bṛhadāraṇyaka Kāṇva text III.8; https://sanskritdocuments.org/doc_upanishhat/bribasic.html",
+      "TITUS-derived Mādhyandina/Kāṇva comparison (Weber editions), III.8, PDF pp.47–51; https://sanskritdocuments.org/doc_upanishhat/bri.pdf"
+    ],
+    "sourcing": [
+      {
+        "claim": "3.8.1–2: Vācaknavī addresses brāhmaṇas, announces two questions, says if answered none will defeat Yājñavalkya concerning Brahman. He invites questions. She compares them to two pointed arrows of a warrior of Kāśī or Videha. There are no physical weapons in this scene.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.8.1–12 · G1"
+      },
+      {
+        "claim": "3.8.3–4: above heaven, below earth, embracing heaven/earth, past/present/future: in what woven warp-and-woof? Answer: ākāśa (Müller: ether). Spoken “space” is a gloss of the source term, not a claim about modern physics.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.8.1–12 · G2"
+      },
+      {
+        "claim": "3.8.5–7: bows to first answer, announces second; repeats question and answer, then asks what ākāśa is woven in. Preserve this progression rather than inventing a different second question.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.8.1–12 · G3"
+      },
+      {
+        "claim": "3.8.8: Akṣara, imperishable; neither coarse/fine, short/long, red/fluid; without shadow/darkness/air/space/attachment/taste/smell/eyes/ears/speech/mind/light/breath/mouth/measure, neither inside/outside, eats nothing, none eats it. Short selects examples; full retains substantive negations in grouped breath lines. Do not illustrate as a giant object, creator with body, or physical support beam.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.8.1–12 · G4"
+      },
+      {
+        "claim": "3.8.9–11: its command orders sun/moon, heaven/earth, divisions of time, rivers, giving/ritual relations. Ritual and tapas of a thousand years have finite result without knowledge. Departure without knowledge versus knowledgeable brāhmaṇa; unseen seeing, unheard hearing, unperceived perceiving, unknown knowing, no other seer/hearer/perceiver/knower; space woven in Akṣara. Do not turn finite result into “good deeds are worthless,” or interpret brāhmaṇa as a change of birth category. Full includes teachings about knowledge and death in calm religious framing.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.8.1–12 · G5"
+      },
+      {
+        "claim": "3.8.12: Gārgī addresses assembly, praises his answers, says none will defeat him in argument concerning Brahman, then holds peace. No applause, teacher award, humiliation, defeat of Yājñavalkya or claim that this resolves all later debate.",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.8.1–12 · G6"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-08",
+    "variants": [
+      {
+        "differs": "Gārgī’s opening warning and extent of the negation list",
+        "tellings": "Mādhyandina3.8.1 includes her head-fall warning; Kāṇva omits it.3.8.8 has a longer Mādhyandina negation list.",
+        "weTell": "The Kāṇva-based Müller witness; no added warning in the spoken lane."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 9,
+    "gated": false,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "Age 9+. Witness: Bṛhadāraṇyaka Upaniṣad 3.8.1–12, Müller's 1884 translation. The two arrows are a comparison for questions, not weapons. The full version briefly includes a teaching about death. The earlier harsh warning in 3.6 is explained in the parent note; this is the later encounter."
+  },
+  "values": [
+    "following a question further"
+  ],
+  "themes": [
+    "inquiry",
+    "brahman",
+    "women-scholars"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Gārgī",
+      "role": "lead"
+    },
+    {
+      "ref": "Yājñavalkya",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 303,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Gārgī» had two questions for «Yājñavalkya»."
+        },
+        {
+          "t": "p",
+          "text": "She spoke to the scholars gathered around them. If he could answer these, she said, none of them would defeat him in a discussion about Brahman."
+        },
+        {
+          "t": "p",
+          "text": "_Ask, «Gārgī»,_ he said."
+        },
+        {
+          "t": "p",
+          "text": "She compared her questions to two sharp arrows. She was ready to send them forward."
+        },
+        {
+          "t": "p",
+          "text": "Her first question reached above heaven and below earth. It included everything between them, everything that had been, everything now, and everything still to come."
+        },
+        {
+          "t": "p",
+          "text": "_In what is all this woven?_ she asked."
+        },
+        {
+          "t": "p",
+          "text": "Think of threads crossing through cloth. «Gārgī» was asking what held the whole together."
+        },
+        {
+          "t": "p",
+          "text": "_In «Ākāśa»,_ «Yājñavalkya» answered: space."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "She bowed to him for answering. Then she told him to be ready for her second question."
+        },
+        {
+          "t": "p",
+          "text": "She went over the first question again. Again he answered: space."
+        },
+        {
+          "t": "p",
+          "text": "_Then in what is space itself woven?_"
+        },
+        {
+          "t": "p",
+          "text": "He answered with «Akṣara», the imperishable: that which does not pass away."
+        },
+        {
+          "t": "p",
+          "text": "It was neither thick nor thin, neither short nor long. It had no taste or smell, no eyes or ears. It could not be measured, and it had neither an inside nor an outside."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Under its command, he said, the sun and moon kept their places. Heaven and earth remained apart under that command too. Moments and hours also belonged to its order."
+        },
+        {
+          "t": "p",
+          "text": "Days and nights, months and seasons followed their order. Rivers flowed in their different directions."
+        },
+        {
+          "t": "p",
+          "text": "It was unseen, yet seeing; unheard, yet hearing. «Yājñavalkya» spoke of the knowing that could not itself be made into something to look at. In «Akṣara», he said, space was woven."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gārgī» turned to the scholars. No one there, she believed, would defeat him in a discussion about Brahman. Then she was silent."
+        },
+        {
+          "t": "slow",
+          "text": "Her first question had reached the whole world. Her second had reached beyond the answer to the first: what held space itself?"
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 650,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Gārgī» addressed the brāhmaṇas gathered for a discussion about Brahman. She was ready to put two questions to «Yājñavalkya». If he could answer them, she said, none of those present would defeat him in an argument on that subject."
+        },
+        {
+          "t": "p",
+          "text": "_Ask, «Gārgī»,_ «Yājñavalkya» said."
+        },
+        {
+          "t": "p",
+          "text": "She pictured a warrior from «Kāśī» or «Videha». He would string his bow and take two sharp arrows into his hands, ready for battle."
+        },
+        {
+          "t": "p",
+          "text": "That was how she had come with her two questions. She asked «Yājñavalkya» to answer them."
+        },
+        {
+          "t": "p",
+          "text": "She had named only two questions. The first would ask about everything in the world. The second would ask about the answer itself."
+        },
+        {
+          "t": "p",
+          "text": "«Yājñavalkya» invited her to ask."
+        },
+        {
+          "t": "p",
+          "text": "_Ask, «Gārgī»,_ he said, ready for her question."
+        },
+        {
+          "t": "p",
+          "text": "Her first question began above heaven. It reached below earth and included everything between earth and heaven. Then it reached through time: all that had been, all that was, and all that was yet to be."
+        },
+        {
+          "t": "p",
+          "text": "_In what is all this woven, like threads crossing in cloth?_"
+        },
+        {
+          "t": "p",
+          "text": "A cloth has threads running in two directions, holding together. «Gārgī»'s question used that image for everything she had named. She wanted to know in what the whole was woven."
+        },
+        {
+          "t": "p",
+          "text": "«Yājñavalkya» answered her in the same order. All that was above heaven, below earth and between them, all that was past, present and future, was woven in «Ākāśa»: space."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gārgī» bowed to him. He had answered that question. Now, she said, he should prepare for the second."
+        },
+        {
+          "t": "p",
+          "text": "_Ask, «Gārgī»,_ he said again."
+        },
+        {
+          "t": "p",
+          "text": "She repeated what she had asked before: everything above, below and between heaven and earth; everything past, present and future. In what was it all woven?"
+        },
+        {
+          "t": "p",
+          "text": "Again, he answered: space."
+        },
+        {
+          "t": "p",
+          "text": "The first answer had named space. It had gathered the whole question into one word."
+        },
+        {
+          "t": "p",
+          "text": "But that word was not where «Gārgī» stopped. She had another question for the one who had answered her."
+        },
+        {
+          "t": "p",
+          "text": "Now came the next step."
+        },
+        {
+          "t": "p",
+          "text": "_In what, then, is space itself woven?_"
+        },
+        {
+          "t": "p",
+          "text": "«Yājñavalkya» answered that the brāhmaṇas called it «Akṣara», the imperishable. It did not pass away."
+        },
+        {
+          "t": "p",
+          "text": "He did not give her another large thing with a shape and a place. He spoke of what it was not."
+        },
+        {
+          "t": "p",
+          "text": "It was neither thick nor thin, neither short nor long. It was neither red like fire nor fluid like water. It had no shadow or darkness, no air or space, no attachment."
+        },
+        {
+          "t": "p",
+          "text": "It had no taste or smell, no eyes or ears, no speech or mind. It had no light, breath or mouth. It could not be measured."
+        },
+        {
+          "t": "p",
+          "text": "It had no inside and no outside. It ate nothing, and nothing ate it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Yet under its command, «Yājñavalkya» said, the sun and moon remained apart. Heaven and earth remained apart too."
+        },
+        {
+          "t": "p",
+          "text": "Moments, hours, days and nights had their order. So did the half-months, months, seasons and years. Some rivers flowed east from the white mountains, others west or in other directions."
+        },
+        {
+          "t": "p",
+          "text": "Under that same command, people praised those who gave. The devas and ancestors received the offerings made to them."
+        },
+        {
+          "t": "p",
+          "text": "Then he spoke about knowledge. Even if someone made offerings, performed sacrifices and practised tapas for a thousand years, the result would come to an end without knowledge of «Akṣara»."
+        },
+        {
+          "t": "p",
+          "text": "He spoke of leaving this world without that knowledge, and of leaving with it. He called the person who knew «Akṣara» a true brāhmaṇa. The teaching asked for understanding, beyond the length of a person's practice."
+        },
+        {
+          "t": "p",
+          "text": "«Akṣara» was unseen, yet seeing; unheard, yet hearing; not grasped by thought, yet knowing. There was no other seer, hearer, thinker or knower apart from it. In «Akṣara», he told «Gārgī», space was woven."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Gārgī» addressed the gathered scholars once more. They would do well to bow before him. No one there, she believed, would defeat him in an argument about Brahman."
+        },
+        {
+          "t": "slow",
+          "text": "Then she held her peace. The question had gone from the world to space, and from space to what did not pass away."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "When an answer gives you another question, what do you do?",
+    "seed": "A careful question can carry us beyond our first answer.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Gārgī really bring arrows?",
+        "a": "No. She compares her questions to a warrior's arrows. This exchange is spoken inquiry, and our illustration therefore shows no weapons."
+      },
+      {
+        "q": "Is Akṣara something scientists have found?",
+        "a": "This passage offers an Upaniṣadic teaching about Brahman, knowledge and what does not pass away. Ākāśa is glossed here as space. We should not turn the teaching into a claim about a physical substance, dark matter or a scientific discovery."
+      },
+      {
+        "q": "Was she allowed to keep asking?",
+        "a": "In this later exchange Yājñavalkya repeatedly invites her questions. Earlier, in 3.6, he gives a harsh warning that her head could fall if she keeps asking. We have selected 3.8 as a bounded story and keep that earlier context available here. At home, a child may ask, disagree and say they do not understand; questions do not deserve threats."
+      }
+    ]
+  }
+}

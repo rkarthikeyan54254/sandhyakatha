@@ -646,6 +646,46 @@
     {
       "storyId": "devi-messenger",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "ribhu-nidagha",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ribhu-nidagha",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "upakosala-fires",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "upakosala-fires",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "mudgala-choice",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "mudgala-choice",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "tuladhara-scales",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "tuladhara-scales",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "gargi-questions",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "gargi-questions",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

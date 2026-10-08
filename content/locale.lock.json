@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-08",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -141,6 +141,11 @@
       "status": "approved",
       "hash": "93ee86a3d96c002f"
     },
+    "hi-IN/gargi-questions": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "949695b6430c97cf"
+    },
     "hi-IN/govardhana": {
       "sourceVersion": 2,
       "status": "approved",
@@ -256,6 +261,11 @@
       "status": "approved",
       "hash": "65a01806b86711e5"
     },
+    "hi-IN/mudgala-choice": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c66e53bec0fc0d7d"
+    },
     "hi-IN/nachiketa-three-nights": {
       "sourceVersion": 2,
       "status": "approved",
@@ -320,6 +330,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "506277c301225fdb"
+    },
+    "hi-IN/ribhu-nidagha": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "2c0b6bea94d22128"
     },
     "hi-IN/sampati-words": {
       "sourceVersion": 2,
@@ -396,10 +411,20 @@
       "status": "approved",
       "hash": "c70854137d9aff4b"
     },
+    "hi-IN/tuladhara-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "91725b32c209032e"
+    },
     "hi-IN/two-birds": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "ca41c096ffe7302b"
+    },
+    "hi-IN/upakosala-fires": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "49407f1136ef8a65"
     },
     "hi-IN/valmiki-first-shloka": {
       "sourceVersion": 2,
@@ -566,6 +591,11 @@
       "status": "approved",
       "hash": "f5fb40362a573a62"
     },
+    "ta-IN/gargi-questions": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "180dbc7bc20ee46b"
+    },
     "ta-IN/govardhana": {
       "sourceVersion": 2,
       "status": "approved",
@@ -681,6 +711,11 @@
       "status": "approved",
       "hash": "2ae9b5ea72eb9fb2"
     },
+    "ta-IN/mudgala-choice": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "b1b0ec51324e28e9"
+    },
     "ta-IN/nachiketa-three-nights": {
       "sourceVersion": 2,
       "status": "approved",
@@ -745,6 +780,11 @@
       "sourceVersion": 1,
       "status": "approved",
       "hash": "31bb9cc7b4b16563"
+    },
+    "ta-IN/ribhu-nidagha": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "55a0f2db61d236fc"
     },
     "ta-IN/sampati-words": {
       "sourceVersion": 2,
@@ -821,10 +861,20 @@
       "status": "approved",
       "hash": "834eeeaeabd51382"
     },
+    "ta-IN/tuladhara-scales": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "21545408a68dc510"
+    },
     "ta-IN/two-birds": {
       "sourceVersion": 2,
       "status": "approved",
       "hash": "ce29f7654ab729a7"
+    },
+    "ta-IN/upakosala-fires": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "4cd46b30c3ed403b"
     },
     "ta-IN/valmiki-first-shloka": {
       "sourceVersion": 2,

@@ -2013,6 +2013,103 @@
       "wave": 6,
       "gated": false,
       "careNote": "A ruler demands marriage, threatens to drag the Goddess by her hair, and sends a commander who is turned to ash. A child facing threats should seek trusted adult help; the divine battle condition is not personal safety advice."
+    },
+    {
+      "n": 101,
+      "id": "ribhu-nidagha",
+      "title": "The Teacher Who Asked Which One Was “I”",
+      "corpus": "vishnu-purana",
+      "tradition": "sanskrit",
+      "work": "Viṣṇu Purāṇa",
+      "locus": "2.15–16",
+      "stability": "stable",
+      "minAge": 9,
+      "sensitivity": [],
+      "value": "looking beyond familiar labels",
+      "hook": "A pupil can tell a king from an elephant. His teacher asks him to explain one smaller word: I.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 102,
+      "id": "upakosala-fires",
+      "title": "The Fires Taught the Student Who Was Still Waiting",
+      "corpus": "upanishad",
+      "tradition": "sanskrit",
+      "work": "Chāndogya Upaniṣad",
+      "locus": "4.10–15",
+      "stability": "stable",
+      "minAge": 9,
+      "sensitivity": [
+        "death"
+      ],
+      "value": "saying what is not understood",
+      "hook": "He has tended the fires for twelve years. When they begin to teach, he tells them which words he does not understand.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 103,
+      "id": "mudgala-choice",
+      "title": "Mudgala Asked What Heaven Would Cost",
+      "corpus": "mahabharata",
+      "tradition": "sanskrit",
+      "work": "Mahābhārata",
+      "locus": "Ganguli 258–259",
+      "stability": "variant",
+      "minAge": 10,
+      "sensitivity": [],
+      "value": "asking for the whole answer",
+      "hook": "The heavenly car is ready. Mudgala asks about the happiness of heaven—and its disadvantages—before he decides.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 104,
+      "id": "tuladhara-scales",
+      "title": "The Shopkeeper Whose Scales Were Even",
+      "corpus": "mahabharata",
+      "tradition": "sanskrit",
+      "work": "Mahābhārata",
+      "locus": "Ganguli 261–262",
+      "stability": "stable",
+      "minAge": 10,
+      "sensitivity": [
+        "violence",
+        "social-hierarchy"
+      ],
+      "value": "impartial care",
+      "hook": "An ascetic shelters birds in his hair, then boasts. His journey leads to a trader whose scales are even toward every creature.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 105,
+      "id": "gargi-questions",
+      "title": "Gārgī Asked What Held Space",
+      "corpus": "upanishad",
+      "tradition": "sanskrit",
+      "work": "Bṛhadāraṇyaka Upaniṣad",
+      "locus": "3.8.1–12",
+      "stability": "variant",
+      "minAge": 9,
+      "sensitivity": [
+        "death"
+      ],
+      "value": "following a question further",
+      "hook": "Gārgī asks what the whole world is woven in. When Yājñavalkya says space, she has her second question ready.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
     }
   ]
 }

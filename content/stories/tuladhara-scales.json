@@ -1,0 +1,312 @@
+{
+  "id": "tuladhara-scales",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-08",
+  "title": "The Shopkeeper Whose Scales Were Even",
+  "tease": "An ascetic shelters birds in his hair, then boasts. His journey leads to a trader whose scales are even toward every creature.",
+  "source": {
+    "corpus": "mahabharata",
+    "tradition": "sanskrit",
+    "work": "Mahābhārata",
+    "locus": "Ganguli 261–262",
+    "stability": "stable",
+    "traditionNote": "The opening dialogue in Ganguli's Mahābhārata, Śānti261–262, compared with Sanskrit12.253–254. The ritual debate and birds' later testimony continue beyond this telling; a completed transformation for Jājali is not invented.",
+    "checkedAgainst": [
+      "K. M. Ganguli, Mahābhārata, Śānti CCLXI–CCLXII (opening discussion); https://www.wisdomlib.org/hinduism/book/the-mahabharata-mohan/d/doc826219.html; https://www.wisdomlib.org/hinduism/book/the-mahabharata-mohan/d/doc826220.html",
+      "Sanskrit Mahābhārata12.253.23–55 and12.254.6–46; https://mahabharata-online.github.io/sanskrit/12/253.html; https://mahabharata-online.github.io/sanskrit/12/254.html"
+    ],
+    "sourcing": [
+      {
+        "claim": "CCLXI: Jājali practises severe asceticism in forest/coast; rain mats hair; stands motionless. Kuliṅga birds build nest in his locks with grass. He allows it out of compassion. Do not invent tree-shaped hair, eggs he puts there, or children's physical imitation.",
+        "locus": "Mahābhārata · Śānti Ganguli 261–262 · T1"
+      },
+      {
+        "claim": "CCLXI: eggs hatch, chicks grow, evening outings, independent outings, whole-day outings, absence five days/return sixth, final absence a month. He waits motionless and finally moves. Pride follows successful care. Preserve sincere compassion before pride; no narrator mocking ascetic.",
+        "locus": "Mahābhārata · Śānti Ganguli 261–262 · T2"
+      },
+      {
+        "claim": "CCLXI: after ritual actions he proclaims merit, unseen voice says he is not equal to Tulādhāra at Vārāṇasī and that even Tulādhāra should not boast thus. Jājali angry, travels in silence, reaches trader. Earlier framing also includes underwater pride/Piśācas; omit that separate opening summary, follow the detailed nest sequence, not two invented consecutive journeys.",
+        "locus": "Mahābhārata · Śānti Ganguli 261–262 · T3"
+      },
+      {
+        "claim": "CCLXI end: Tulādhāra stands, welcomes visitor, knows his penance/nest/pride/voice/anger and asks what he can do. No invented customer, price dispute, shopkeeper lecturing a child or claiming magical scales.",
+        "locus": "Mahābhārata · Śānti Ganguli 261–262 · T4"
+      },
+      {
+        "claim": "CCLXII opening: Jājali asks how trader gained firm knowledge while selling scents, juices, plants. Trader speaks of friendship/good to all; zero harm or least necessary harm; buys and sells without cheating, excludes wine; scales are even toward creatures; no praise/blame, equal regard; harmlessness/fearlessness, thinking/speaking/acting without injury.",
+        "locus": "Mahābhārata · Śānti Ganguli 261–262 · T5"
+      },
+      {
+        "claim": "CCLXII later: trader condemns coercion, enslaving people, harming/load-binding animals, sees plough harm to soil creatures; asks reasoned duty rather than blind inherited custom. Do not collapse into “trade is always good” or “farmers are bad.” This edition's scene is the beginning of a longer debate, NOT a claim Jājali's whole transformation finished here. Later ritual debate and birds' testimony are outside our boundary and must not be invented into the landing.",
+        "locus": "Mahābhārata · Śānti Ganguli 261–262 · T6"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-08"
+  },
+  "audience": {
+    "minAge": 10,
+    "gated": false,
+    "sensitivity": [
+      "violence",
+      "social-hierarchy"
+    ],
+    "careNote": "The source includes an adult ascetic standing motionless and going without food; children should not imitate this. The dialogue challenges harm to animals and enslaving people. This telling stops at the opening teaching; the longer debate continues."
+  },
+  "values": [
+    "impartial care",
+    "honest trade",
+    "least necessary harm"
+  ],
+  "themes": [
+    "non-harming",
+    "livelihood",
+    "pride"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Jājali",
+      "role": "lead"
+    },
+    {
+      "ref": "Tulādhāra",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 307,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A pair of birds built a nest in «Jājali»'s matted hair. He had been standing motionless in the forest, practising tapas. Out of compassion, he let them stay."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "They laid eggs. The eggs hatched. The chicks grew wings and began to fly."
+        },
+        {
+          "t": "p",
+          "text": "First they returned every evening. Later they stayed away longer. «Jājali» did not move until they had gone for good."
+        },
+        {
+          "t": "p",
+          "text": "Then he felt proud. He proclaimed the merit he had earned."
+        },
+        {
+          "t": "p",
+          "text": "An unseen voice answered. He was not equal in righteousness to «Tulādhāra», a trader in «Kāśī». Even that trader should not make such a boast."
+        },
+        {
+          "t": "p",
+          "text": "«Jājali» was angry. He set out to find him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "When he reached the shop, «Tulādhāra» stood up and welcomed him. He already knew about the birds, the long waiting, the pride and the voice. He asked what he could do for his visitor."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Jājali» asked how a man who sold scents, liquids and things from plants had gained such firm understanding."
+        },
+        {
+          "t": "p",
+          "text": "«Tulādhāra» spoke about his way of living. He bought goods and sold them without cheating. He tried to be a friend to every creature, doing no harm, or as little harm as necessary."
+        },
+        {
+          "t": "p",
+          "text": "His scales were even toward all beings. He did not make one creature worth more care because he liked it, or worth less because he disliked it. He did not seek quarrels or keep hatred."
+        },
+        {
+          "t": "p",
+          "text": "He spoke of a great gift: letting other creatures live without fear of you. He meant care in thought, speech and action, not only in what a person gave away."
+        },
+        {
+          "t": "p",
+          "text": "«Jājali» had stood still to protect the birds. Here was a man whose work required him to meet the world every day. He was speaking about protecting creatures through that work."
+        },
+        {
+          "t": "slow",
+          "text": "The journey had brought the ascetic to a shop. The discussion of dharma had begun beside a trader's scales."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 650,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Rain had fallen on «Jājali» as he practised his austerities. His hair had become tangled and matted. In the forest, he stood so still that a pair of small birds began to build a nest in his locks."
+        },
+        {
+          "t": "p",
+          "text": "They brought shreds of grass. «Jājali» knew what they were doing."
+        },
+        {
+          "t": "p",
+          "text": "He felt compassion for them and let them make their home. He would not move in a way that injured them."
+        },
+        {
+          "t": "p",
+          "text": "The rains ended and autumn came. The birds laid their eggs in the nest. They went out and came back, trusting the place on his head."
+        },
+        {
+          "t": "p",
+          "text": "The eggs hatched. The young birds grew."
+        },
+        {
+          "t": "p",
+          "text": "«Jājali» remained motionless, protecting them while they were small. When they gained wings, he felt pleasure at their growth."
+        },
+        {
+          "t": "p",
+          "text": "At first they flew out in the evenings and returned without going far. Then they went out by themselves."
+        },
+        {
+          "t": "p",
+          "text": "Later they stayed away through the day and came back at evening. Still he waited."
+        },
+        {
+          "t": "p",
+          "text": "Sometimes they were gone five days and returned on the sixth. As they grew stronger, they stayed away for longer."
+        },
+        {
+          "t": "p",
+          "text": "At last they did not return even after a month. Only then did «Jājali» leave that place."
+        },
+        {
+          "t": "p",
+          "text": "He had cared for the birds until they could live without his shelter. Now pride entered his heart. After bathing, making offerings and honouring the rising sun, he proclaimed the merit he had won."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "An unseen voice spoke. «Jājali» was not equal in righteousness to «Tulādhāra», who lived in «Kāśī». Even «Tulādhāra» should not boast as he had done."
+        },
+        {
+          "t": "p",
+          "text": "«Jājali» became angry. He wanted to meet this man."
+        },
+        {
+          "t": "p",
+          "text": "He travelled in silence, stopping for the night wherever evening found him. After a long journey, he reached «Kāśī»."
+        },
+        {
+          "t": "p",
+          "text": "There was «Tulādhāra», selling goods in his shop."
+        },
+        {
+          "t": "p",
+          "text": "The trader stood up cheerfully and welcomed his visitor with respect. He knew why «Jājali» had come."
+        },
+        {
+          "t": "p",
+          "text": "He spoke of the penances, the nest, the young birds' flights, and the pride that followed. He knew about the voice and the anger too."
+        },
+        {
+          "t": "p",
+          "text": "_What can I do for you?_ he asked."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Jājali» looked at the work before him. «Tulādhāra» sold scents and liquids, roots and other things from plants."
+        },
+        {
+          "t": "p",
+          "text": "How had someone occupied with buying and selling gained such steady knowledge? He asked the trader to explain."
+        },
+        {
+          "t": "p",
+          "text": "«Tulādhāra» answered with the way he lived."
+        },
+        {
+          "t": "p",
+          "text": "He purchased goods from others and sold them without cheating. He did not sell wine."
+        },
+        {
+          "t": "p",
+          "text": "His home was built of wood and grass cut by others. He lived within the ordinary work of the world."
+        },
+        {
+          "t": "p",
+          "text": "The dharma he described was friendship toward all creatures, wishing their good. The best way of living caused no harm, or, where some harm was necessary, the least harm possible."
+        },
+        {
+          "t": "p",
+          "text": "He did not seek quarrels. He did not hold hatred. He tried to regard all creatures equally."
+        },
+        {
+          "t": "p",
+          "text": "_My scales are even toward all beings,_ he told «Jājali»."
+        },
+        {
+          "t": "p",
+          "text": "That evenness reached beyond weighing things for sale. It meant not tipping his regard toward one creature and away from another. Neither praise nor blame was to decide how he treated someone."
+        },
+        {
+          "t": "p",
+          "text": "He spoke about fear. A person whose harsh words and anger frightened others lived in a world filled with fear. Giving creatures assurance that they need not fear you was a great gift."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He asked «Jājali» to consider creatures harmed in everyday work: animals bound and burdened, and people forced to labour under others' control. Familiar practices still needed thought about the pain they caused."
+        },
+        {
+          "t": "p",
+          "text": "His care was to reach his thoughts, his words and his actions. He described dharma as subtle, with questions that were not easy to understand."
+        },
+        {
+          "t": "p",
+          "text": "A practice needed to be considered with reason. Being handed down through generations did not by itself settle what pain it might cause another being."
+        },
+        {
+          "t": "slow",
+          "text": "The ascetic had come from a nest he had protected. The trader had brought their discussion to the lives around him, and to the care his own hands could take."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "What makes you feel safe around another person?",
+    "seed": "Care also lives in how we do our everyday work.",
+    "ifTheyAsk": [
+      {
+        "q": "Was caring for the birds wrong?",
+        "a": "No. The account explicitly says Jājali acted with compassion. The challenge comes when pride follows that care. Tulādhāra welcomes him respectfully; we should not sneer at tapas or erase what the birds received."
+      },
+      {
+        "q": "Doesn't growing food hurt creatures too?",
+        "a": "Tulādhāra raises that very difficulty: the plough wounds soil and small creatures. His opening principle allows the least necessary harm where complete harmlessness is not possible. The longer debate continues. This is an invitation to careful thinking, not a verdict that farmers are bad or that children should stop eating."
+      },
+      {
+        "q": "Could I stand still until birds nest on me?",
+        "a": "This is an extraordinary adult ascetic practice in the source, not a wildlife activity. You can give birds water, protect their habitat and watch them from a distance with an adult. You need food, rest and movement. Those practical suggestions are ours, not incidents we have inserted into the Mahābhārata."
+      }
+    ]
+  }
+}

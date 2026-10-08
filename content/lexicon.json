@@ -455,7 +455,8 @@
   "Satyakāma": {
     "id": "satyakama",
     "native": {
-      "deva": "सत्यकाम"
+      "deva": "सत्यकाम",
+      "taml": "சத்தியகாமர்"
     },
     "say": "SUT-yuh-kaa-muh",
     "ipa": "ˈsɐt.jɐ.kaː.mɐ",
@@ -1794,7 +1795,8 @@
   "Brahman": {
     "id": "brahman",
     "native": {
-      "deva": "ब्रह्मन्"
+      "deva": "ब्रह्मन्",
+      "taml": "பிரம்மம்"
     },
     "say": "BRUH-mun",
     "kind": "word",
@@ -2209,7 +2211,8 @@
   "Yājñavalkya": {
     "id": "yajnavalkya",
     "native": {
-      "deva": "याज्ञवल्क्य"
+      "deva": "याज्ञवल्क्य",
+      "taml": "யாஜ்ஞவல்கியர்"
     },
     "say": "YAAG-nyuh-vul-kyuh",
     "kind": "person",
@@ -3495,5 +3498,249 @@
     "say": "DAY-vee",
     "kind": "being",
     "gloss": "The Goddess, speaking in this episode of the Devī Māhātmya."
+  },
+  "Ṛbhu": {
+    "id": "ribhu",
+    "native": {
+      "deva": "ऋभु",
+      "taml": "ரிபு"
+    },
+    "say": "RI-bhoo",
+    "ipa": "r̩.bʱu",
+    "kind": "person",
+    "gloss": "Nidāgha's teacher, a son of Brahmā in this Viṣṇu Purāṇa account.",
+    "aliases": [
+      "Ribhu",
+      "Ribhū"
+    ]
+  },
+  "Nidāgha": {
+    "id": "nidagha",
+    "native": {
+      "deva": "निदाघ",
+      "taml": "நிதாகர்"
+    },
+    "say": "ni-DAA-ghuh",
+    "ipa": "ni.daː.ɡʱɐ",
+    "kind": "person",
+    "gloss": "Ṛbhu's pupil; a son of Pulastya in this account.",
+    "aliases": [
+      "Nidagha"
+    ]
+  },
+  "Devīkā": {
+    "id": "devika",
+    "native": {
+      "deva": "देविका",
+      "taml": "தேவிகா"
+    },
+    "say": "day-VEE-kaa",
+    "ipa": "deː.ʋiː.kaː",
+    "kind": "place",
+    "gloss": "The river beside Nidāgha's grove in Viṣṇu Purāṇa II.15–16.",
+    "aliases": [
+      "Devika"
+    ]
+  },
+  "Pulastya": {
+    "id": "pulastya",
+    "native": {
+      "deva": "पुलस्त्य",
+      "taml": "புலஸ்தியர்"
+    },
+    "say": "pu-LUS-tyuh",
+    "ipa": "pu.lɐs.tjɐ",
+    "kind": "person",
+    "gloss": "A sage named as Nidāgha's father in this account.",
+    "aliases": [
+      "Pulastya"
+    ]
+  },
+  "Vāsudeva": {
+    "id": "vasudeva-divine",
+    "native": {
+      "deva": "वासुदेव",
+      "taml": "வாசுதேவர்"
+    },
+    "say": "vaa-soo-DAY-vuh",
+    "ipa": "ʋaː.su.deː.ʋɐ",
+    "kind": "being",
+    "gloss": "A name of Viṣṇu/Kṛṣṇa. Here Ṛbhu names the undivided nature of the universe Vāsudeva. Distinct from Vasudeva, Kṛṣṇa's father.",
+    "aliases": [
+      "Vaasudeva",
+      "Vāsudeva"
+    ]
+  },
+  "Upakosala": {
+    "id": "upakosala",
+    "native": {
+      "deva": "उपकोसल",
+      "taml": "உபகோசலன்"
+    },
+    "say": "oo-puh-KOH-suh-luh",
+    "ipa": "u.pɐ.koː.sɐ.lɐ",
+    "kind": "person",
+    "gloss": "Upakosala Kāmalāyana, the pupil taught by the fires and then Satyakāma in Chāndogya 4.10–15.",
+    "aliases": [
+      "Upakosala Kamalayana"
+    ]
+  },
+  "Gārhapatya": {
+    "id": "garhapatya",
+    "native": {
+      "deva": "गार्हपत्य",
+      "taml": "கார்ஹபத்யம்"
+    },
+    "say": "gaar-huh-PUT-yuh",
+    "ipa": "ɡaːr.ɦɐ.pɐt.jɐ",
+    "kind": "word",
+    "gloss": "The household sacred fire; the first fire to give its individual teaching in this episode.",
+    "aliases": [
+      "Garhapatya"
+    ]
+  },
+  "Anvāhāryapacana": {
+    "id": "anvaharyapacana",
+    "native": {
+      "deva": "अन्वाहार्यपचन",
+      "taml": "அன்வாஹார்யபசனம்"
+    },
+    "say": "un-vaa-HAAR-yuh-puh-chuh-nuh",
+    "ipa": "ɐn.ʋaː.ɦaːr.jɐ.pɐ.tɕɐ.nɐ",
+    "kind": "word",
+    "gloss": "The second sacred fire to give its teaching in Chāndogya 4.12, also associated with the southern fire.",
+    "aliases": [
+      "Anvaharyapachana"
+    ]
+  },
+  "Āhavanīya": {
+    "id": "ahavaniya",
+    "native": {
+      "deva": "आहवनीय",
+      "taml": "ஆஹவனீயம்"
+    },
+    "say": "aa-huh-vuh-NEE-yuh",
+    "ipa": "aː.ɦɐ.ʋɐ.niː.jɐ",
+    "kind": "word",
+    "gloss": "The offering fire; third in the sequence of individual teachings in Chāndogya 4.13.",
+    "aliases": [
+      "Ahavaniya"
+    ]
+  },
+  "Mudgala": {
+    "id": "mudgala",
+    "native": {
+      "deva": "मुद्गल",
+      "taml": "முத்கலர்"
+    },
+    "say": "MOOD-guh-luh",
+    "ipa": "mud.ɡɐ.lɐ",
+    "kind": "person",
+    "gloss": "A gleaning ascetic who asks about heaven's disadvantages and chooses liberation in this Mahābhārata episode.",
+    "aliases": [
+      "Mudgala",
+      "Muthgalar"
+    ]
+  },
+  "Kurukṣetra": {
+    "id": "kurukshetra",
+    "native": {
+      "deva": "कुरुक्षेत्र",
+      "taml": "குருக்ஷேத்திரம்"
+    },
+    "say": "koo-roo-KSHAY-truh",
+    "ipa": "ku.ru.kʂeː.trɐ",
+    "kind": "place",
+    "gloss": "The region where Mudgala gathers grain in this episode.",
+    "aliases": [
+      "Kurukshetra"
+    ]
+  },
+  "Jājali": {
+    "id": "jajali",
+    "native": {
+      "deva": "जाजलि",
+      "taml": "ஜாஜலி"
+    },
+    "say": "JAA-juh-li",
+    "ipa": "dʑaː.dʑɐ.li",
+    "kind": "person",
+    "gloss": "The ascetic who shelters nesting birds and later visits Tulādhāra in the Mahābhārata.",
+    "aliases": [
+      "Jajali"
+    ]
+  },
+  "Tulādhāra": {
+    "id": "tuladhara",
+    "native": {
+      "deva": "तुलाधार",
+      "taml": "துலாதாரர்"
+    },
+    "say": "too-laa-DHAA-ruh",
+    "ipa": "tu.laː.dʱaː.rɐ",
+    "kind": "person",
+    "gloss": "The trader whose teaching begins with friendliness, even regard and the least necessary harm.",
+    "aliases": [
+      "Tuladhara"
+    ]
+  },
+  "Gārgī": {
+    "id": "gargi",
+    "native": {
+      "deva": "गार्गी",
+      "taml": "கார்கி"
+    },
+    "say": "GAAR-gee",
+    "ipa": "ɡaːr.ɡiː",
+    "kind": "person",
+    "gloss": "Gārgī Vācaknavī, the woman scholar who asks about ākāśa and Akṣara in Bṛhadāraṇyaka 3.8.",
+    "aliases": [
+      "Gargi",
+      "Gargī",
+      "Gargi Vacaknavi"
+    ]
+  },
+  "Videha": {
+    "id": "videha",
+    "native": {
+      "deva": "विदेह",
+      "taml": "விதேகம்"
+    },
+    "say": "vi-DAY-huh",
+    "ipa": "ʋi.deː.ɦɐ",
+    "kind": "place",
+    "gloss": "A kingdom named with Kāśī in Gārgī's warrior comparison.",
+    "aliases": [
+      "Videha"
+    ]
+  },
+  "Akṣara": {
+    "id": "akshara-imperishable",
+    "native": {
+      "deva": "अक्षर",
+      "taml": "அக்ஷரம்"
+    },
+    "say": "UK-shuh-ruh",
+    "ipa": "ɐk.ʂɐ.rɐ",
+    "kind": "word",
+    "gloss": "The imperishable in Yājñavalkya's teaching. In other contexts akṣara also means a syllable; that is not the meaning here.",
+    "aliases": [
+      "Akshara"
+    ]
+  },
+  "Ākāśa": {
+    "id": "akasha",
+    "native": {
+      "deva": "आकाश",
+      "taml": "ஆகாசம்"
+    },
+    "say": "aa-KAA-shuh",
+    "ipa": "aː.kaː.ʃɐ",
+    "kind": "word",
+    "gloss": "Space, or ether in older translations. This gloss is not an identification with a modern scientific substance.",
+    "aliases": [
+      "Akasha",
+      "ākāśa"
+    ]
   }
 }

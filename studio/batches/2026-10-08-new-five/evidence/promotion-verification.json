@@ -1,0 +1,6 @@
+{
+  "scope": "exact reviewed to production narrated-text/title/asset/duration parity",
+  "checks": 105,
+  "failures": [],
+  "pass": true
+}

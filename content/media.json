@@ -1463,6 +1463,91 @@
           "file": null
         }
       }
+    },
+    "ribhu-nidagha": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/ribhu-nidagha/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-08"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "upakosala-fires": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/upakosala-fires/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-08"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "mudgala-choice": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/mudgala-choice/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-08"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "tuladhara-scales": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/tuladhara-scales/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-08"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "gargi-questions": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/gargi-questions/hero.webp",
+        "reviewedBy": "rama",
+        "reviewedOn": "2026-10-08"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

@@ -1,0 +1,4 @@
+
+> sandhyakatha@0.1.0 validate:strict
+> node scripts/validate.mjs --strict && node scripts/validate-locales.mjs && node scripts/native-language-gates.mjs --strict && node scripts/locale-parity-gates.mjs && node scripts/reel-workflow-gates.mjs && node scripts/campaign-workflow-gates.mjs && node scripts/app-locale-workflow-gates.mjs && node scripts/validate-observances.mjs --strict && node scripts/observance-foundation-gates.mjs && node scripts/validate-observance-map.mjs --strict && node scripts/build-runtime-observances.mjs && node scripts/runtime-observance-gates.mjs
+

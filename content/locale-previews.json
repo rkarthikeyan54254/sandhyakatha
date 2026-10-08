@@ -632,6 +632,46 @@
         "hi-IN",
         "ta-IN"
       ]
+    },
+    {
+      "storyId": "ribhu-nidagha",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "upakosala-fires",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "mudgala-choice",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "tuladhara-scales",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "gargi-questions",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
     }
   ]
 }

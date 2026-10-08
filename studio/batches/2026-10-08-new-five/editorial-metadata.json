@@ -1,0 +1,37 @@
+{
+  "ribhu-nidagha": {
+    "corpus":"purana", "themes":["self","learning","non-duality"], "values":["looking beyond familiar labels"],
+    "gap":"Adds the two visits of a non-dual teacher and pupil; absent from this corpus, with a concrete king/elephant turn.",
+    "teases": {"en":"A pupil can tell a king from an elephant. His teacher asks him to explain one smaller word: I.","hi":"निदाघ ने बता दिया कि राजा ऊपर हैं और हाथी नीचे। गुरु ने पूछा—इसमें ‘मैं’ कौन है?","ta":"அரசர் யார், யானை எது என்று நிதாகர் விளக்கினார். வந்தவர் கேட்ட அடுத்த கேள்வியில்தான் குருவை அறிந்தார்."},
+    "alt": {"en":"Two adult sages speak beside a royal elephant procession; Nidāgha holds firewood and grass.","hi":"राजा की हाथी-सवारी से अलग दो बड़े ऋषि बात कर रहे हैं। निदाघ के हाथ में लकड़ी और घास है।","ta":"யானை மேல் வரும் அரசரின் ஊர்வலத்துக்கு அருகே இரண்டு பெரியவர்கள் பேசுகின்றனர். நிதாகர் விறகும் புல்லும் வைத்திருக்கிறார்."},
+    "sensitivity":["physical-demonstration","philosophical-teaching"]
+  },
+  "upakosala-fires": {
+    "corpus":"upanishad", "themes":["learning","self","asking-for-help"], "values":["saying what is not understood","advocacy for a waiting pupil"],
+    "gap":"Extends the Satyakāma thread through his pupil, and gives the teacher's wife her sourced advocacy.",
+    "teases": {"en":"He has tended the fires for twelve years. When they begin to teach, he tells them which words he does not understand.","hi":"बारह साल अग्नियों की सेवा की, फिर भी शिक्षा बाकी थी। अग्नियाँ बोलने लगीं तो उपकोसल ने कहा—यह बात मुझे समझ नहीं आई।","ta":"பன்னிரண்டு ஆண்டுகள் தீகளைப் பார்த்துக்கொண்ட உபகோசலன் இன்னும் காத்திருந்தான். தீகளே கற்றுத்தந்தபோது, புரியாததை அவன் கேட்டான்."},
+    "alt": {"en":"A young adult pupil sits at a safe distance from three modest sacred fires.","hi":"एक युवा छात्र तीन छोटी पवित्र अग्नियों से सुरक्षित दूरी पर बैठा है।","ta":"மூன்று சிறிய புனிதத் தீகளிலிருந்து பாதுகாப்பான இடைவெளியில் இளம் மாணவன் அமர்ந்திருக்கிறான்."},
+    "sensitivity":["distress","refusal-of-food","after-death-teaching"]
+  },
+  "mudgala-choice": {
+    "corpus":"mahabharata", "themes":["choice","generosity","liberation"], "values":["asking for the whole answer"],
+    "gap":"Adds a rare refusal of an earned heavenly reward and a precise distinction between heaven and liberation.",
+    "teases": {"en":"The heavenly car is ready. Mudgala asks about the happiness of heaven—and its disadvantages—before he decides.","hi":"स्वर्ग का रथ तैयार था। उसमें चढ़ने से पहले मुद्गल ने सुख के साथ उसकी कमियाँ भी पूछीं।","ta":"சொர்க்கத்துக்கு அழைத்துச் செல்ல ரதம் வந்தது. முத்கலர் ஏறவில்லை. அங்குள்ள இன்பத்தையும் குறையையும் முதலில் கேட்டார்."},
+    "alt": {"en":"Mudgala speaks with a simply dressed heavenly messenger beside a bell-decorated car drawn by swans and cranes.","hi":"मुद्गल सादे वस्त्रों वाले स्वर्ग के दूत से बात कर रहे हैं। पास घंटियों से सजा रथ है, जिसे हंस और सारस खींचते हैं।","ta":"மணிகள் தொங்கும் ரதத்தருகே எளிய உடையணிந்த தேவதூதருடன் முத்கலர் பேசுகிறார். அன்னங்களும் நாரைகளும் ரதத்தை இழுக்கின்றன."},
+    "sensitivity":["hunger","harsh-guest","adult-ascetic-vow"]
+  },
+  "tuladhara-scales": {
+    "corpus":"mahabharata", "themes":["non-harming","livelihood","pride"], "values":["impartial care","honest trade","least necessary harm"],
+    "gap":"A companion rather than duplicate to Dharma-vyādha: trade as a site of equal regard and minimizing harm, not inherited meat trade and parent duty.",
+    "teases": {"en":"An ascetic shelters birds in his hair, then boasts. His journey leads to a trader whose scales are even toward every creature.","hi":"जाजलि ने बालों में बसे पक्षियों को बचाया। फिर गर्व आया। एक वाणी ने उन्हें तुलाधार की दुकान तक भेज दिया।","ta":"பறவைகளுக்காக அசையாமல் நின்ற தவசிக்கு மனத்தில் பெருமை வந்தது. அவருக்கான பாடம் துலாதாரரின் கடையில் காத்திருந்தது."},
+    "alt": {"en":"A respectful trader and adult ascetic converse beside even balance scales and plant goods.","hi":"एक व्यापारी और बड़े तपस्वी आदर से बात कर रहे हैं। पास बराबर तराजू और पौधों से बनी वस्तुएँ हैं।","ta":"சமமான தராசும் செடிகளிலிருந்து வந்த பொருள்களும் உள்ள கடையில் வணிகரும் பெரிய தவசியும் மரியாதையுடன் பேசுகின்றனர்."},
+    "sensitivity":["extreme-austerity","animal-harm","forced-labour"]
+  },
+  "gargi-questions": {
+    "corpus":"upanishad", "themes":["inquiry","brahman","women-scholars"], "values":["following a question beyond the first answer"],
+    "gap":"Adds Gārgī as the scholar directing an inquiry; a philosophical exchange rather than a royalty or combat episode.",
+    "teases": {"en":"Gārgī asks what the whole world is woven in. When Yājñavalkya says space, she has her second question ready.","hi":"गार्गी ने पूछा कि सारा जगत किसमें बुना है। उत्तर मिला—आकाश में। लेकिन उनका दूसरा प्रश्न अभी बाकी था।","ta":"எல்லாம் ஆகாசத்தில் நெய்யப்பட்டிருக்கிறது என்று யாஜ்ஞவல்கியர் சொன்னார். அந்த ஆகாசத்தைப் பற்றியே கார்கியின் அடுத்த கேள்வி வந்தது."},
+    "alt": {"en":"Gārgī, an adult woman scholar, addresses Yājñavalkya among attentive adult scholars; no weapons are present.","hi":"विदुषी गार्गी याज्ञवल्क्य से बात कर रही हैं। आसपास बड़े विद्वान ध्यान से सुन रहे हैं। कोई हथियार नहीं है।","ta":"அறிஞரான கார்கி யாஜ்ஞவல்கியரிடம் பேசுகிறார். சுற்றியுள்ள பெரிய அறிஞர்கள் கவனமாகக் கேட்கின்றனர். ஆயுதங்கள் இல்லை."},
+    "sensitivity":["martial-metaphor","brief-death-teaching","earlier-threat-in-parent-note"]
+  }
+}

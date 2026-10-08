@@ -1,0 +1,318 @@
+{
+  "id": "upakosala-fires",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-10-08",
+  "title": "The Fires Taught the Student Who Was Still Waiting",
+  "tease": "He has tended the fires for twelve years. When they begin to teach, he tells them which words he does not understand.",
+  "source": {
+    "corpus": "upanishad",
+    "tradition": "sanskrit",
+    "work": "Chāndogya Upaniṣad",
+    "locus": "4.10–15",
+    "stability": "stable",
+    "traditionNote": "Chāndogya Upaniṣad4.10–15, following Müller (1879), with Jha's Śaṅkara commentary consulted for joy/space. The teacher's reason for initially leaving is not stated in the base passage. Commentary is not turned into a narrated motive.",
+    "checkedAgainst": [
+      "F. Max Müller, The Upanishads, Part I, SBE 1 (1879), Chāndogya IV.10–15, pp.64–68; https://www.globalgreyebooks.com/online-ebooks/friedrich-max-muller_upanishads-part-1_complete-text.html",
+      "Ganganatha Jha (1942), Chāndogya with Śaṅkara commentary, IV.10–13, consulted for ka/kha and fire sequence; https://www.wisdomlib.org/hinduism/book/chandogya-upanishad-shankara-bhashya/d/doc1145273.html"
+    ],
+    "sourcing": [
+      {
+        "claim": "4.10.1–2: Upakosala Kāmalāyana serves Satyakāma Jābāla, tends fires twelve years. Other pupils allowed home; he is not. Teacher's wife asks husband to teach this diligent student, warns fires may blame him. Teacher travels without teaching. Reason is NOT stated in base text.",
+        "locus": "Chāndogya Upaniṣad 4.10–15 · U1"
+      },
+      {
+        "claim": "4.10.3: student distressed, does not eat; wife urges eating. He speaks of many desires and sorrows. Do not portray fasting as happy shortcut to revelation.",
+        "locus": "Chāndogya Upaniṣad 4.10–15 · U2"
+      },
+      {
+        "claim": "4.10.4–5: fires decide to teach devoted student. Prāṇa/Brahman, ka/Brahman, kha/Brahman. Student understands first, asks about ka/kha. Fires identify ka with kha and conversely. Müller glosses pleasure/ether, Jha discusses transient pleasure versus spiritual bliss. Spoken gloss “joy/space” is not exhaustive doctrine.",
+        "locus": "Chāndogya Upaniṣad 4.10–15 · U3"
+      },
+      {
+        "claim": "4.11–13: Gārhapatya: earth, fire, food, sun; person in sun identified with fire. Anvāhāryapacana: water, directions, stars, moon; person in moon. Āhavanīya: breath, space, heaven, lightning; person in lightning. Each promises protection in this and other world to knowing meditator. Do not assign person in eye to third fire; that is teacher's final teaching.",
+        "locus": "Chāndogya Upaniṣad 4.10–15 · U4"
+      },
+      {
+        "claim": "4.14: fires say teacher will teach way. Teacher returns, notes shining face, asks who taught. Student points at fires; evasive/elliptical reply varies in translations. Use pointing/report without inventing an outright lie. Teacher offers further teaching with lotus-water analogy; student asks to receive it.",
+        "locus": "Chāndogya Upaniṣad 4.10–15 · U5"
+      },
+      {
+        "claim": "4.15: person seen in eye is Self, immortal/fearless/Brahman; names connected with blessings and shining, divine path at death from light/day/bright fortnight/northern six months/year/sun/moon/lightning; nonhuman guide to Brahman, no return. No graduation ceremony or homecoming invented. Short stops at final teaching; full includes path succinctly. Source's outcome is instruction, not an explicitly narrated departure.",
+        "locus": "Chāndogya Upaniṣad 4.10–15 · U6"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-08"
+  },
+  "audience": {
+    "minAge": 9,
+    "gated": false,
+    "sensitivity": [
+      "death"
+    ],
+    "careNote": "A distressed pupil refuses food; the teacher’s wife urges him to eat. This is not advice to fast when upset. The final instruction concerns the divine path after death; the story does not narrate Upakosala’s death."
+  },
+  "values": [
+    "saying what is not understood",
+    "advocacy for a waiting pupil"
+  ],
+  "themes": [
+    "learning",
+    "self",
+    "asking-for-help"
+  ],
+  "calendar": {
+    "festivals": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Upakosala",
+      "role": "lead"
+    },
+    {
+      "ref": "Satyakāma",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 309,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "For twelve years, «Upakosala» tended the sacred fires in his teacher's house. Other pupils finished their learning and went home. He remained."
+        },
+        {
+          "t": "p",
+          "text": "The wife of his teacher, «Satyakāma», spoke for him. _He has cared for your fires so well._"
+        },
+        {
+          "t": "p",
+          "text": "_Teach him._ But «Satyakāma» left on a journey without giving that teaching."
+        },
+        {
+          "t": "p",
+          "text": "«Upakosala» was full of sorrow. He would not eat."
+        },
+        {
+          "t": "p",
+          "text": "The teacher's wife urged him to take food, and asked why he refused. He told her how troubled he was."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then the fires spoke among themselves. This student had tended them carefully. They would teach him."
+        },
+        {
+          "t": "p",
+          "text": "They began with «Brahman», the deepest reality of their teaching. They spoke of breath, joy and space."
+        },
+        {
+          "t": "p",
+          "text": "«Upakosala» did not pretend to understand every word. _I understand the teaching about breath,_ he said. _But I do not understand the other two._"
+        },
+        {
+          "t": "p",
+          "text": "The fires answered him. Then, one after another, they taught him through earth and food and the sun; through water and stars and the moon; through breath and the sky and lightning. They spoke of the presence in these things, and promised to protect the person who knew and meditated on their teaching."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At last they said, _We have taught you about ourselves and the Self. Your teacher will teach you the way._"
+        },
+        {
+          "t": "p",
+          "text": "«Satyakāma» returned. He looked at «Upakosala» and asked who had taught him. His face shone like the face of someone who knew «Brahman»."
+        },
+        {
+          "t": "p",
+          "text": "The pupil pointed to the fires and told him what they had said."
+        },
+        {
+          "t": "p",
+          "text": "Now «Satyakāma» offered to teach him further. He used the image of water that does not cling to a lotus leaf. «Upakosala» asked him to continue."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The teacher spoke of the Self: immortal, fearless, «Brahman»."
+        },
+        {
+          "t": "slow",
+          "text": "The fires he had tended had spoken. The teacher who had left had returned. And the student had said, when he needed to, that he did not understand."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 652,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Upakosala» had been a pupil in the house of «Satyakāma» for twelve years. All that time, he had tended his teacher's sacred fires."
+        },
+        {
+          "t": "p",
+          "text": "Other pupils were allowed to finish and return home. «Upakosala» was not."
+        },
+        {
+          "t": "p",
+          "text": "The teacher's wife noticed. She told «Satyakāma» that this student had worked hard and cared for the fires well."
+        },
+        {
+          "t": "p",
+          "text": "_Teach him,_ she urged. _Do not let the fires blame you._"
+        },
+        {
+          "t": "p",
+          "text": "But «Satyakāma» went away on a journey without teaching him."
+        },
+        {
+          "t": "p",
+          "text": "«Upakosala» was troubled. He stopped eating. The teacher's wife spoke to him too."
+        },
+        {
+          "t": "p",
+          "text": "_Eat. Why are you not eating?_"
+        },
+        {
+          "t": "p",
+          "text": "He answered that there were many desires in him, reaching in different directions. He was full of sorrow. He would take no food."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then the fires he had tended spoke among themselves. They knew the care he had given them. _Let us teach this student,_ they said."
+        },
+        {
+          "t": "p",
+          "text": "They spoke of «Brahman». Breath was «Brahman», they said. So were ka and kha: words for joy and space in their teaching."
+        },
+        {
+          "t": "p",
+          "text": "«Upakosala» could have repeated those words. Instead, he told them where his understanding stopped."
+        },
+        {
+          "t": "p",
+          "text": "_I understand that breath is «Brahman». But I do not understand ka and kha._"
+        },
+        {
+          "t": "p",
+          "text": "The fires answered that the joy they spoke of was that space, and the space was that joy. They taught him about breath and space together."
+        },
+        {
+          "t": "p",
+          "text": "Then each fire gave its own teaching."
+        },
+        {
+          "t": "p",
+          "text": "The «Gārhapatya» fire, the household fire, spoke first. It named earth, fire, food and the sun. It spoke of the person seen in the sun, and said that it was that presence."
+        },
+        {
+          "t": "p",
+          "text": "It also gave a promise. One who knew this and meditated on it would be protected here and in the other world. It spoke of freedom from wrongdoing, a full span of life, and descendants who would not perish."
+        },
+        {
+          "t": "p",
+          "text": "These were promises to the person who knew and meditated on the teaching. «Upakosala» was hearing about more than keeping a flame alight."
+        },
+        {
+          "t": "p",
+          "text": "The «Anvāhāryapacana» fire spoke next. It named water, the directions, the stars and the moon."
+        },
+        {
+          "t": "p",
+          "text": "It spoke of the person seen in the moon, and again identified itself with that presence. It too promised protection to the one who knew and meditated on this teaching."
+        },
+        {
+          "t": "p",
+          "text": "Then the «Āhavanīya» fire taught him. It named breath, space, heaven and lightning."
+        },
+        {
+          "t": "p",
+          "text": "It spoke of the person seen in the lightning. Its teaching also carried the promise of protection in this world and the next."
+        },
+        {
+          "t": "p",
+          "text": "Earth and food. Water and stars."
+        },
+        {
+          "t": "p",
+          "text": "Breath and lightning. The three fires had each taught him, but they did not say that his learning was finished."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Together they told him, _We have taught you about ourselves and the Self. Your teacher will teach you the way._"
+        },
+        {
+          "t": "p",
+          "text": "In time «Satyakāma» returned. He called his pupil by name. «Upakosala» answered."
+        },
+        {
+          "t": "p",
+          "text": "_Your face shines like the face of someone who knows «Brahman»,_ the teacher said. _Who has taught you?_"
+        },
+        {
+          "t": "p",
+          "text": "«Upakosala» pointed to the fires. His reply was brief. «Satyakāma» asked what they had said, and the pupil reported their teaching."
+        },
+        {
+          "t": "p",
+          "text": "The teacher told him that the fires had taught him about the worlds. Now he would teach him further. He compared the effect of this knowledge to water on a lotus leaf: the water does not cling."
+        },
+        {
+          "t": "p",
+          "text": "_Tell me,_ «Upakosala» asked."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Satyakāma» spoke of the person seen in the eye as the Self: immortal, fearless, «Brahman». He taught that all blessings came to the Self, that it led those blessings, and that it shone in all worlds."
+        },
+        {
+          "t": "p",
+          "text": "Then he described the divine path after death, through light, day and the bright part of the month, through the six months of the sun's northward course and the year, onward through the sun, moon and lightning. A guide beyond the human leads the knower to «Brahman», without returning to human life."
+        },
+        {
+          "t": "slow",
+          "text": "The student who had been left waiting was now receiving his teacher's instruction. Before it came, he had already found words for what he did not understand."
+        }
+      ]
+    }
+  },
+  "close": {
+    "question": "Who would you tell if you had been trying hard and still felt left behind?",
+    "seed": "Saying what we do not understand gives a teacher somewhere to begin.",
+    "ifTheyAsk": [
+      {
+        "q": "Why didn't the teacher teach him earlier?",
+        "a": "This passage reports the delay and the journey; it does not state the teacher's reason. His wife asks him to teach and urges the pupil to eat. Later the teacher returns and completes the instruction. We should not invent a punishment or a secret plan to explain the gap."
+      },
+      {
+        "q": "Should I stop eating when I am sad?",
+        "a": "No. The teacher's wife tells Upakosala to eat. His distress belongs to this account; it is not a method a child should try. Tell a trusted adult when sadness makes eating difficult, and let them help."
+      },
+      {
+        "q": "What did the fires mean by joy and space?",
+        "a": "The source uses ka and kha and joins them in a teaching about Brahman. Its commentaries explore why passing pleasure or empty physical space alone is not what is meant. We can stay with the pupil's honest question instead of saying that one quick definition settles it. The account presents the fires as teachers, and Satyakāma gives the final teaching about the Self."
+      }
+    ]
+  }
+}

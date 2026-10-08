@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-08",
+  "languages": ["en", "hi", "ta"],
+  "stories": [
+    {"id":"ribhu-nidagha","work":"Viṣṇu Purāṇa","locus":"2.15–16","minAge":9,"claims":["R1","R2","R3","R4","R5","R6","R7"]},
+    {"id":"upakosala-fires","work":"Chāndogya Upaniṣad","locus":"4.10–15","minAge":9,"claims":["U1","U2","U3","U4","U5","U6"]},
+    {"id":"mudgala-choice","work":"Mahābhārata · Vana","locus":"Ganguli 258–259","minAge":10,"claims":["M1","M2","M3","M4","M5","M6"]},
+    {"id":"tuladhara-scales","work":"Mahābhārata · Śānti","locus":"Ganguli 261–262","minAge":10,"claims":["T1","T2","T3","T4","T5","T6"]},
+    {"id":"gargi-questions","work":"Bṛhadāraṇyaka Upaniṣad","locus":"3.8.1–12","minAge":9,"claims":["G1","G2","G3","G4","G5","G6"]}
+  ]
+}
