@@ -1,0 +1,12 @@
+{
+  "status": "review-only-not-published",
+  "id": "ravana-last-rites",
+  "sourcePin": "0fc92c7df901f181ccc20bbcf3b1ebc877d40760",
+  "englishWords": {
+    "short": 302,
+    "full": 652
+  },
+  "heroSha256": "501e19a53799b1d9c734227466df4e53d711e8df65a3c0d64d0731e098d94a31",
+  "changes": "Restrained landing; removed unsupported narrator claim that Rama did not celebrate; formatted speech/breath lines; shortened English Full then restored sourced emotional sequence; expanded Short with supplied Full material; added second parent question. Native scene claim mapping still required.",
+  "approvals": "New story: all human language/read-aloud reviews pending; prior approvals do not apply."
+}

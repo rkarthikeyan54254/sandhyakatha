@@ -2,60 +2,71 @@
   "id": "pusalar-temple",
   "schemaVersion": "1.0",
   "status": "published",
-  "version": 2,
-  "updated": "2026-09-08",
+  "version": 3,
+  "updated": "2026-10-14",
   "title": "The Temple Nobody Could See",
   "tease": "A poor man builds a temple entirely in his head. On the day it is finished, a king has to move his own festival.",
   "source": {
     "corpus": "nayanmar",
     "tradition": "tamil-shaiva",
     "work": "Periya Purāṇam",
-    "locus": "Pūsalār Nāyaṉār",
+    "locus": "Pūsalār Nāyaṉār, 4171–4188",
     "stability": "regional",
-    "traditionNote": "This one is Tamil and only Tamil. Sēkkiḻār set it down in the twelfth century in the Periya Purāṇam, the lives of the sixty-three Nāyaṉmārs. There is no Sanskrit version to check it against, and no other tradition tells it.",
+    "traditionNote": "This telling follows Sēkkiḻār’s Tamil Periya Purāṇam, in the life of Pūsalār Nāyaṉār. It is a Tamil Śaiva telling; the source notes identify the passage used here.",
     "checkedAgainst": [
-      "Sēkkiḻār, Periya Purāṇam — Tamil text with Vaidyanathan's commentary",
-      "G. Vanmikanathan, Periya Puranam: A Tamil Classic"
+      "Sēkkiḻār, Periya Purāṇam 4171–4188 (12.1.1–18), Project Madurai pmuni0227.html; primary passage inspected 2026-10-14"
     ],
-    "reviewedBy": "rama",
-    "reviewedOn": "2026-09-08",
     "sourcing": [
       {
-        "claim": "Pūsalār of Tiruniṉṟavūr wishes to build a temple and has no means",
-        "locus": "Periya Purāṇam, Pūsalār Nāyaṉār"
+        "claim": "Pūsalār of Tiruniṉṟavūr wishes to build a temple to Śiva but cannot obtain the funds",
+        "locus": "Periya Purāṇam 4171–4175"
       },
       {
-        "claim": "He constructs it entirely in his mind, following the stages of building in order",
-        "locus": "ibid."
+        "claim": "He builds it in his mind, completing the stages of construction over a long period",
+        "locus": "Periya Purāṇam 4175–4178"
       },
       {
-        "claim": "He fixes a day for the consecration",
-        "locus": "ibid."
+        "claim": "He fixes an auspicious time for consecration",
+        "locus": "Periya Purāṇam 4178"
       },
       {
-        "claim": "The Pallava king is completing a stone temple at Kāñchipuram and has fixed the same day",
-        "locus": "ibid."
+        "claim": "The Pallava/Kāḍavar king has completed a stone temple at Kāñchipuram and prepares for consecration",
+        "locus": "Periya Purāṇam 4179"
       },
       {
-        "claim": "Śiva appears to the king in a dream and says he will attend Pūsalār's consecration instead",
-        "locus": "ibid."
+        "claim": "Śiva appears in the king’s dream, says he will enter Pūsalār’s temple the next day, and tells the king to postpone his ceremony; earlier booking is not stated as a reason",
+        "locus": "Periya Purāṇam 4179–4180"
       },
       {
-        "claim": "The king rides to Tiruniṉṟavūr, finds no temple, and learns of the mental one",
-        "locus": "ibid."
+        "claim": "The king visits Tiruniṉṟavūr, cannot find a built temple, meets Pūsalār and learns of the mental construction",
+        "locus": "Periya Purāṇam 4181–4185"
       },
       {
-        "claim": "The king postpones his own consecration",
-        "locus": "ibid."
+        "claim": "The king is instructed to postpone his own consecration",
+        "locus": "Periya Purāṇam 4180"
+      },
+      {
+        "claim": "The mental construction includes materials and craftsmen, foundation, measured tower, finishing, enclosure, well and tank",
+        "locus": "Periya Purāṇam 4175–4178"
+      },
+      {
+        "claim": "The king wishes to honor Pūsalār, refuses to summon him, goes personally, and bows after hearing his account",
+        "locus": "Periya Purāṇam 4181–4186"
+      },
+      {
+        "claim": "Pūsalār performs the consecration in his mental temple and continues worship over many days",
+        "locus": "Periya Purāṇam 4187"
       }
     ],
     "variants": [
       {
-        "differs": "whether the story exists at all outside Tamil",
-        "tellings": "There is no Sanskrit version. It survives only in the Periya Purāṇam and the Tamil Śaiva tradition around it.",
-        "weTell": "Sēkkiḻār's, the only one there is"
+        "differs": "the source and identity of this telling",
+        "tellings": "The chosen witness is the Tamil Periya Purāṇam account of Pūsalār. The passage calls the king the Kāḍavar ruler; it does not supply a personal royal name or a name for his temple.",
+        "weTell": "Sēkkiḻār’s account, without making the royal identification part of the spoken story"
       }
-    ]
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-10-14"
   },
   "audience": {
     "minAge": 5,
@@ -92,10 +103,6 @@
       "role": "present"
     },
     {
-      "ref": "Rājasiṃha",
-      "role": "foil"
-    },
-    {
       "ref": "Tiruniṉṟavūr",
       "role": "mentioned"
     }
@@ -103,184 +110,177 @@
   "lengths": {
     "short": {
       "minutes": 3,
-      "words": 315,
+      "words": 303,
       "blocks": [
         {
           "t": "p",
-          "text": "«Pūsalār» wanted to build a temple, and had no money at all. No land, no quarry, no elephants to drag stone. So he built it in his head."
+          "text": "«Pūsalār» wanted to build a temple for «Śiva» at «Tiruniṉṟavūr». He tried to gather the money, but could not find what he needed. So he began building in his mind."
         },
         {
           "t": "p",
-          "text": "Not daydreamed it. Built it — the way a builder builds."
+          "text": "He could not pay for the materials or the people who would build it. The wish to make a place for worship stayed with him."
+        },
+        {
+          "t": "p",
+          "text": "He gathered the materials and craftsmen there, chose a day, and laid the foundation. He followed the stages of building in order. The tower rose to the height he had planned; the finishing, enclosure, well and tank were made ready too."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "He walked the village in his mind until he found the right rise: dry in the rains, facing east. He cleared it. He dug the foundation, and did not skip that part just because nobody was watching. He laid the stones, raised the walls course by course, and checked the corners where they met."
+          "text": "This work took a long time. At last he chose the day when Śiva would be invited into the finished temple."
         },
         {
           "t": "p",
-          "text": "Pillars. Beams. The tower over the sanctum, narrowing as it went up. Doors."
+          "text": "Meanwhile, at «Kāñchipuram», the Pallava king had completed a stone temple for Śiva. He had given great wealth to it and was preparing for its consecration."
         },
         {
           "t": "p",
-          "text": "It took years. And when there was nothing left to do, he chose a day for the consecration — the day the god would be invited in."
+          "text": "The night before, Śiva appeared in the king’s dream. _Tomorrow I will enter Pūsalār’s temple at Tiruniṉṟavūr,_ he said. _Put off your ceremony and hold it later._"
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "At the same time, in «Kāñchipuram», the Pallava king «Rājasiṃha» was finishing a temple of his own. Cut stone. Hundreds of men, for years. One of the most beautiful buildings anyone in that country had ever seen. He had chosen his day too."
+          "text": "The king wanted to meet Pūsalār and honor him. He went to the village and asked where the temple stood. People told him Pūsalār had not built a temple there."
         },
         {
           "t": "p",
-          "text": "The same day."
+          "text": "They were ready to bring Pūsalār to him. But the king would not have the devotee summoned. He went to meet him himself."
         },
         {
           "t": "p",
-          "text": "The night before, «Śiva» came into the king's sleep and said: _I cannot come to yours tomorrow. I am going to Pūsalār's temple, at «Tiruniṉṟavūr». He fixed his date first._"
-        },
-        {
-          "t": "beat"
+          "text": "He explained what Śiva had said and asked about the temple. Pūsalār was astonished. Then he told the king how he had completed the building within his mind."
         },
         {
           "t": "p",
-          "text": "The king woke up and did what any king would do, which was get on a horse and go and look at the temple that had beaten his."
+          "text": "The king listened and bowed before him. He returned to his own city; his temple’s ceremony would wait."
         },
         {
           "t": "p",
-          "text": "He found a village. Some houses. No temple. Not so much as a heap of stone. He asked for Pūsalār and was shown a poor man who had built nothing at all — and asked him, standing there in his good clothes, where the temple was."
-        },
-        {
-          "t": "p",
-          "text": "And Pūsalār told him."
+          "text": "At the chosen time, Pūsalār performed the consecration in his mental temple. He continued to worship there for many days."
         },
         {
           "t": "slow",
-          "text": "The king rode home and moved his consecration to another day. Not to be gracious. Because the date was taken, and he could see that it was real."
+          "text": "The temple nobody in the village could point to was ready to welcome Śiva."
         }
       ]
     },
     "full": {
       "minutes": 6,
-      "words": 597,
+      "words": 651,
       "blocks": [
         {
           "t": "p",
-          "text": "«Pūsalār» wanted to build a temple."
+          "text": "«Pūsalār» lived at «Tiruniṉṟavūr». He wanted to build a temple for «Śiva», a place where he could welcome and worship the god."
         },
         {
           "t": "p",
-          "text": "He lived at «Tiruniṉṟavūr», and he was not a rich man. He had no land, no quarry, no elephants to drag stone, and no way at all of getting any of it. He asked. People were kind about it, and the answer was no."
+          "text": "A temple needed materials, people who knew how to build, and money to pay for the work. Pūsalār did not have that money. He tried to find it, but could not gather what he needed."
         },
         {
           "t": "p",
-          "text": "So he built the temple in his head."
+          "text": "The wish stayed with him. He could not begin a stone building in the village. So he began the work in his mind."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "He did not daydream it. That is the thing to understand. He built it the way a builder builds."
+          "text": "He gathered the materials there. He found the craftsmen there too, and chose a good day to start. In his mind, he had to prepare for the work before he could begin it."
         },
         {
           "t": "p",
-          "text": "First he chose the ground. He walked the village in his mind until he found the right rise — dry in the rains, facing east, far enough from the tank that the wet would not creep. He cleared it. He let the ground settle through a season before he touched it again."
+          "text": "Then he laid the foundation. He followed the order in which a temple must be built, starting at the bottom. The parts that would carry the building came before the parts that would rise above them."
         },
         {
           "t": "p",
-          "text": "Then he dug the foundation, and he did not skip that part just because nobody was watching."
+          "text": "He worked out each stage and gave it its place. He did not jump from an empty space to a finished temple. There was work between those two things, and he stayed with it."
         },
         {
           "t": "p",
-          "text": "He laid the stones. He raised the walls course by course, and where the walls met he checked the corners. He set the pillars and put the beams across them. He built the tower over the sanctum, narrowing it as it rose, the way they do. He hung the doors, and they were heavy, and he hung them properly."
+          "text": "The building rose in his mind. He planned the height of the tower and built it to the measure he had chosen. He completed the work below it as well as the part that reached upward."
         },
         {
           "t": "p",
-          "text": "This took years. Nobody knew he was doing it. He went out to work and came back and ate and lay down, and in the dark he checked the corners of a wall that was not there, and slept, and went out to work again."
+          "text": "He finished the plasterwork and the other work the temple needed. Around it he made the enclosure. He provided a well and a tank, preparing the whole place for worship."
+        },
+        {
+          "t": "p",
+          "text": "This took a long time. Even at night, his attention stayed with the work. The temple was in his mind, but each stage had to be completed before he could call the building finished."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "And when it was finished — when the last thing was done and there was nothing left to do — he chose a day for the consecration. The day the god would be invited in."
+          "text": "At last the temple was ready. Pūsalār chose the time for its consecration, when «Śiva» would be invited to dwell there. The work of building would lead into the work of worship."
         },
         {
           "t": "p",
-          "text": "Now. At that same time, in «Kāñchipuram», the Pallava king was finishing a temple of his own."
+          "text": "At «Kāñchipuram», the Pallava king had also completed a temple for Śiva. His was a stone temple, and he had devoted great wealth to it. He too was preparing for the consecration."
         },
         {
           "t": "p",
-          "text": "It was enormous. Cut stone, hundreds of men, years of work, carvers brought in from elsewhere and housed and fed the whole time. One of the most beautiful buildings anyone in that country had ever seen. It is still standing, by the way. You can walk around it."
-        },
-        {
-          "t": "p",
-          "text": "And «Rājasiṃha» had chosen his day too. The same day."
+          "text": "Now both temples were ready for their ceremonies: the king’s temple at Kāñchipuram, and Pūsalār’s temple within his mind at Tiruniṉṟavūr."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "The night before, the king was asleep, and «Śiva» came into his dream and said:"
+          "text": "The night before the king’s ceremony, «Śiva» appeared in his dream. He spoke of the temple Pūsalār had spent so long building."
         },
         {
           "t": "p",
-          "text": "_I cannot come to yours tomorrow._"
+          "text": "_Tomorrow I will enter Pūsalār’s temple at Tiruniṉṟavūr. Put off the ceremony you have arranged here, and hold it later._"
         },
         {
           "t": "p",
-          "text": "The king, in the dream, asked why. He was, you have to remember, a king, and this was the largest thing he had ever done."
-        },
-        {
-          "t": "p",
-          "text": "_Because I am going to Pūsalār's temple, at Tiruniṉṟavūr. He fixed his date first._"
+          "text": "When the king woke, he wanted to meet that devotee and honor him. He went to Tiruniṉṟavūr to find Pūsalār and the temple of which Śiva had spoken."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "The king woke up. Then he did what any king would do, which was get on a horse before it was properly light and go and look at this other temple — the one that had beaten his."
+          "text": "He asked the people there where Pūsalār’s temple stood. They told him that Pūsalār had not built a temple in the village. The king had reached the right place, but there was no building to show him."
         },
         {
           "t": "p",
-          "text": "He rode to Tiruniṉṟavūr and found nothing. A village. Some houses. A tank with buffalo in it. No temple, no scaffolding, not so much as a heap of stone waiting to be cut."
+          "text": "Then he asked who Pūsalār was. People knew him and were ready to bring him to the king. The king stopped them; he would go to Pūsalār himself."
         },
         {
           "t": "p",
-          "text": "He asked for Pūsalār, and was shown a poor man who had built nothing at all."
+          "text": "He went and greeted the devotee with respect. He explained that Śiva had told him about the temple and its consecration. He had come to see Pūsalār and asked where the temple was."
         },
         {
           "t": "p",
-          "text": "And the king — you have to picture him standing there in his good clothes, having ridden all that way, with his men waiting on the road — asked him where the temple was."
+          "text": "Pūsalār was astonished to hear this. He had not been able to gather money for a temple outside. He told the king how he had built it in his mind, stage after stage, until it was ready."
         },
         {
           "t": "p",
-          "text": "And Pūsalār told him."
+          "text": "The king listened to the account of that long work. Then he bowed before Pūsalār. After honoring him, he returned to his own city."
         },
         {
           "t": "beat"
         },
         {
           "t": "p",
-          "text": "The king listened. Then he got back on the horse, rode home, and moved his own consecration to a different day."
+          "text": "At the chosen time, Pūsalār consecrated the temple in his mind. His service did not stop with the building or with that one ceremony. He continued the worship, day after day."
         },
         {
           "t": "slow",
-          "text": "He did not do it to be kind. He did it because the date was taken, and because standing in that empty village he could see that the thing was real."
+          "text": "The king’s stone temple would have its ceremony later. In Pūsalār’s temple, the welcome for Śiva was ready, and the worship went on."
         }
       ]
     }
   },
   "linked": {
     "next": "govardhana",
-    "reason": "another story where the small, invisible contribution turns out to be the one that counts"
+    "reason": "another story where care matters beyond the size of what others can see"
   },
   "close": {
     "question": "What have you built in your head that nobody has ever seen?",
@@ -288,15 +288,15 @@
     "ifTheyAsk": [
       {
         "q": "But was there a real temple?",
-        "a": "Not one you could touch. What there was, was a king who rode across his own kingdom to look at it and then rearranged his festival around it — which is more than most buildings manage. And notice what made it real in the story: he built it properly. Foundation first, corners checked, no shortcuts in the parts nobody could see. A sloppy imaginary temple would not have got the date."
+        "a": "The Periya Purāṇam tells of a temple Pūsalār built and consecrated in his mind. It also tells of the king coming to meet him, listening to how he built it, and bowing before him. That is the account we are following; we do not turn it into a judgement about what can or cannot happen."
       },
       {
         "q": "Which temple did the king build?",
-        "a": "The Kailāsanātha temple at Kāñchipuram, put up by Rājasiṃha about thirteen hundred years ago. It is still standing and you can walk right around it. If you ever go, that is the one whose big day got moved."
+        "a": "The chosen passage says the king built a stone temple at Kāñchipuram. It calls him the Kāḍavar ruler, but does not give his personal name or the temple’s name. Identifying a particular surviving temple is a separate historical question; this telling does not make that identification part of the story."
       },
       {
-        "q": "Why did Śiva pick the poor man?",
-        "a": "The story does not say he was picked for being poor — it says he fixed his date first, which is a wonderfully ordinary reason. That is worth pointing out: nobody in this story is rewarded for suffering. He is simply first in the diary."
+        "q": "Why did Śiva choose Pūsalār’s temple?",
+        "a": "Śiva tells the king he will enter the temple Pūsalār has spent a long time building, and asks the king to postpone his ceremony. The poem honors Pūsalār’s devotion. It does not say that he was chosen because he booked his date first, or because he was poor."
       }
     ]
   }

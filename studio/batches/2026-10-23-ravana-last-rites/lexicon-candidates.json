@@ -1,0 +1,19 @@
+{
+  "status": "pending-human-pronunciation-review",
+  "entries": {
+    "Mandodarī": {
+      "id": "mandodari",
+      "native": {
+        "deva": "मंदोदरी",
+        "taml": "மண்டோதரி"
+      },
+      "say": "mun-do-da-ree",
+      "kind": "person",
+      "gloss": "Rāvaṇa’s wife, whose lament occurs before the later funeral instruction.",
+      "aliases": [
+        "Mandodari"
+      ]
+    }
+  },
+  "promotion": "Pending source/pronunciation review; production lexicon unchanged."
+}

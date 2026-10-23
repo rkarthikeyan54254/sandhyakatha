@@ -1,0 +1,1349 @@
+{
+  "created": "2026-10-23",
+  "authorization": "User authorized publishing the approved new story with unchanged older catalog gaps tracked separately. No source, language, approval, lock or identity gate is exempted.",
+  "policy": "Sealed existing mechanical rendition/timing/parent-question findings only. Entries may only be removed. Any story or locale content/review change invalidates its exception. New stories receive full parity checks.",
+  "entries": [
+    {
+      "key": "hi-IN/abhimanyu-spiral",
+      "sourceDigest": "655ec9381fd0da03cbc025f4741b8617d1da7e23cbb0ba19c83c9f5a1d1aa671",
+      "editionDigest": "ceaa999a82b63dfbdb7b585bee3fc55e960321200399117069ce24062838456a",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/abhimanyu-spiral",
+      "sourceDigest": "655ec9381fd0da03cbc025f4741b8617d1da7e23cbb0ba19c83c9f5a1d1aa671",
+      "editionDigest": "22fa189234fbad29e6213fcaa19cb0d2b7ebbfc2da130847dae47db0237f3d49",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/ambarisha-waits",
+      "sourceDigest": "7614e256a3cccbe0195c4e101146d8a0a740499be146a2045dd8d9b5bb7d10ca",
+      "editionDigest": "ca197069b438b149f9a4d0bf6a315574eeb62239c535b087d535bad9672a5956",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/ambarisha-waits",
+      "sourceDigest": "7614e256a3cccbe0195c4e101146d8a0a740499be146a2045dd8d9b5bb7d10ca",
+      "editionDigest": "0573e7d8a509e350f95e410e10dc418b4289c118e5d11726896c9e2ab44a6624",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/andal-garland",
+      "sourceDigest": "8aacde3bbacdcd1721b76ab246ee9c499d3cd86bd48a97357b8a2f5927bfc165",
+      "editionDigest": "3755666281092a674f7a116e365e027c738b13527cb534f33890694d5e5a7829",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/andal-garland",
+      "sourceDigest": "8aacde3bbacdcd1721b76ab246ee9c499d3cd86bd48a97357b8a2f5927bfc165",
+      "editionDigest": "741620ee37c020eeb5277254814ff99f1bccd130617de304d8988fbfe22bf4b3",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/annapurna-bhiksha",
+      "sourceDigest": "7d4855ac4f3ac807020754b304463800b666dbcc2b6db5b255cbeaf23ed77c30",
+      "editionDigest": "80200a5bc5406c995b3ff027e85985036bb79822a278c9011dd20ead321c10c6",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/annapurna-bhiksha",
+      "sourceDigest": "7d4855ac4f3ac807020754b304463800b666dbcc2b6db5b255cbeaf23ed77c30",
+      "editionDigest": "48a44e01d9950473c71deada64070bc4ca2c3d1c8f3aa4c94d437d2ca8c1e5fc",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/bharata-fawn",
+      "sourceDigest": "e1f87d8fea26f5eee88f151fbf6fd6b8263eef17f692ae7895ea936da571495d",
+      "editionDigest": "2c84a20fdd097cd966ae4f91e25139a584898914f52556bc5588275cfb8e3276",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/bharata-fawn",
+      "sourceDigest": "e1f87d8fea26f5eee88f151fbf6fd6b8263eef17f692ae7895ea936da571495d",
+      "editionDigest": "4cc79b23fd8788708b448a49fa3382f39ca4d64eb169d03ed5cd190b4058a235",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/bharata-sandals",
+      "sourceDigest": "6fee74a1cde732cb3a466414ca66697ea923560df6344c8acac8cfe0f55be6ae",
+      "editionDigest": "9c3d6d49a16e1066ee0cae5b257e6ef628e7c32b34e76f9df68fcbc507cd522a",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/bharata-sandals",
+      "sourceDigest": "6fee74a1cde732cb3a466414ca66697ea923560df6344c8acac8cfe0f55be6ae",
+      "editionDigest": "f6bc82855b272d5d79f455d3ae5449a8adec0e1cdaee6f370b9d90c172eaa16c",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/bhrigu-vishnu",
+      "sourceDigest": "916d5308c30633c923edc5dc79b8a7a8848e0b13edf3d4f9b6f9dad78294603e",
+      "editionDigest": "c355d55fcbfa8b88c8a980059a2e12cb49def31c37499361a88529a37696e445",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/bhrigu-vishnu",
+      "sourceDigest": "916d5308c30633c923edc5dc79b8a7a8848e0b13edf3d4f9b6f9dad78294603e",
+      "editionDigest": "b45e594b4bc0300a80719f338c24757ee8bad528fe104636ece5a7e45e0fab70",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/birds-eye",
+      "sourceDigest": "0b2e00da1e20094bf2e42748a46b3cd61303d79605b9565e0a5e9775deae9337",
+      "editionDigest": "a2b28905628a17eb081436e8f8a357c2aea0b91b9d6873d9b47abf69e41c69da",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/birds-eye",
+      "sourceDigest": "0b2e00da1e20094bf2e42748a46b3cd61303d79605b9565e0a5e9775deae9337",
+      "editionDigest": "65614431336b65e27fa31bdd59bf4fc6d950963cafb33b4712c95a496bc053ee",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/butter-rope",
+      "sourceDigest": "f8eb3a689508d5fa45ef63c7737a7a0c755307fe2de83e8ff69230eb5fe33eba",
+      "editionDigest": "674e2818eabe3a9e51d9e6aa11a303a15bc03262120ee7a9a28b548928fb1520",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/butter-rope",
+      "sourceDigest": "f8eb3a689508d5fa45ef63c7737a7a0c755307fe2de83e8ff69230eb5fe33eba",
+      "editionDigest": "ca3c101548eadd1ff8e518f3fd07d23598eb9392919d269ad5a09b8886388165",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/chariot-and-horses",
+      "sourceDigest": "5546aee3e53b11eafd8e5f3f0890f26138794296ca4cb373166584fcc1b536da",
+      "editionDigest": "370f8c41a3121ed52eb174a9f9d4b7ee98d8bb6a61c20984bd203e2353505d65",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/chariot-and-horses",
+      "sourceDigest": "5546aee3e53b11eafd8e5f3f0890f26138794296ca4cb373166584fcc1b536da",
+      "editionDigest": "0be4e6e05ff0dc855159d04b0e4cb3c7438e453a10841eea135c3f2b82b7cddd",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/churning-ocean",
+      "sourceDigest": "89ae84af011f435176e447704cb24baa01ec5ddb8ea91c5f964a3ce425bb8898",
+      "editionDigest": "795d9339c462e687a8418fc68e76dea54524ed6780f19aebbea0bca20a7c69c9",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/churning-ocean",
+      "sourceDigest": "89ae84af011f435176e447704cb24baa01ec5ddb8ea91c5f964a3ce425bb8898",
+      "editionDigest": "b187204137ba314cfd1a8e4fcbdf69929b4cd4840995273ef0dacdfd25401001",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/damayanti-choice",
+      "sourceDigest": "f5a53270c7f92d79ae376b4cb1591d8fdee37b9ab1646d89f4192610a5721e86",
+      "editionDigest": "d1b50cb5eba0e627839106828057b7348edea53dc738186dac31fba3c0ff261b",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/damayanti-choice",
+      "sourceDigest": "f5a53270c7f92d79ae376b4cb1591d8fdee37b9ab1646d89f4192610a5721e86",
+      "editionDigest": "9698e4554e3b01b41544dd060918f9122623c9577e5767dcc0fe77ab16048952",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/devi-messenger",
+      "sourceDigest": "591e5044650b872d6800a4e81b30da0e9a8bf1148f6a9b3c57f2e4ee22025552",
+      "editionDigest": "71a6fe15694ed990b3d0075ef7dd343e1752bf27132f68197d5e4ca9296fa9bc",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/dharma-vyadha",
+      "sourceDigest": "c0a9253bedb3420a535a8a6cb8e920968eaedabbbf329b153ec75f21ca02d676",
+      "editionDigest": "db03ec35eff744366f30a7875d3896048a86ea09b091e500f1a48ce553c97188",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/dharma-vyadha",
+      "sourceDigest": "c0a9253bedb3420a535a8a6cb8e920968eaedabbbf329b153ec75f21ca02d676",
+      "editionDigest": "f0b58ecf8f5af817ca795c9c030fa8afea0e0d4c8eb2f6f0d3c882c00f06fc72",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/dhruva-still",
+      "sourceDigest": "5c6a65b6064f108b6879a84a09062dcbdee581e201a2b3faaff9a4b6b39c77af",
+      "editionDigest": "5b2c38326310e7777a745652608f4788b0b837d92f7d5bfc28c1ed794d1fbd81",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/dhruva-still",
+      "sourceDigest": "5c6a65b6064f108b6879a84a09062dcbdee581e201a2b3faaff9a4b6b39c77af",
+      "editionDigest": "95d66cb0f6b2728484875575ed4fc5436c53358d7d0e679095c0f922ffab21a0",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/durga-mahishasura",
+      "sourceDigest": "4dce41a532da2397706aadb3ffdca820ff2cb4e4a1b9f3e18ba2728e8ae7c79d",
+      "editionDigest": "14cf29919c5c8587adb28ca515a8f12ae7f3248a44121f59987c387355064785",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 2 min"
+      ]
+    },
+    {
+      "key": "ta-IN/durga-mahishasura",
+      "sourceDigest": "4dce41a532da2397706aadb3ffdca820ff2cb4e4a1b9f3e18ba2728e8ae7c79d",
+      "editionDigest": "9f810307d92edb749a2991b8168de3ea22dcf66125706f3da6b84a9ce4002b92",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 420s rounds to 7 min; canonical promises 2 min"
+      ]
+    },
+    {
+      "key": "hi-IN/durva-kubera-scale",
+      "sourceDigest": "face3475dbdb96d840303d8cad3060df2572394d9e48a2e426cf8d9cd9640f98",
+      "editionDigest": "a1d8ee46c7de4746a5288c07797649c36e65db19f49df46d1ddd9c0c312cb280",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/durva-kubera-scale",
+      "sourceDigest": "face3475dbdb96d840303d8cad3060df2572394d9e48a2e426cf8d9cd9640f98",
+      "editionDigest": "952cc2268538cce7f330b5a75c12c795894f64db2c9d3b8b0db8c659930608df",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/ekalavya-thumb",
+      "sourceDigest": "0fe5be73a00e2901429e4426453a4904a464519ef717f6910a96411947b63598",
+      "editionDigest": "9a58c0425251996714a0d0bbef5ed559d08e4cf17a886483ca95e3387ccd54d8",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/ekalavya-thumb",
+      "sourceDigest": "0fe5be73a00e2901429e4426453a4904a464519ef717f6910a96411947b63598",
+      "editionDigest": "7475d8459f5aea20800ac5a4fccadb1a8f1551fdeb4c31673d1239b69782355e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/gajendra-lake",
+      "sourceDigest": "d26bdc3f0d094dd50beaee3ab8fcbe9f9ef11e8105c6163dc11be8a33c24aa5d",
+      "editionDigest": "a7dc3d57bec44a3f88d59312654ae3b7ca549e5e18efeebc6e43c263a7467614",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/gajendra-lake",
+      "sourceDigest": "d26bdc3f0d094dd50beaee3ab8fcbe9f9ef11e8105c6163dc11be8a33c24aa5d",
+      "editionDigest": "4123969382d0b0082a5c0ef3aa15a76adae3e6d27528fe7ef31b2e02a3097cfc",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/ganesha-circles",
+      "sourceDigest": "771407e7a356f1c594ab81b4220713893b431ab8bc2701cfed9cb4b6c9be12bd",
+      "editionDigest": "a3e152b3e8aea62a649ca401bfa570634859eb7f6e33480bf522e8a5c9337a76",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/ganesha-circles",
+      "sourceDigest": "771407e7a356f1c594ab81b4220713893b431ab8bc2701cfed9cb4b6c9be12bd",
+      "editionDigest": "4debde7b3e1965994c7285e919df5f07f7db4849ccc778f3e869708f2be9e943",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 390s rounds to 7 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/ganesha-condition",
+      "sourceDigest": "d58c89f72b0d7ebba71aa54fce213d16e350bc2b600d2cfaab792bf88b51e0a6",
+      "editionDigest": "07d2c1cdc2b7d1c18fafb315a5cb8d63a1f7810a16655ba6a421cd175c57a328",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/ganesha-condition",
+      "sourceDigest": "d58c89f72b0d7ebba71aa54fce213d16e350bc2b600d2cfaab792bf88b51e0a6",
+      "editionDigest": "c73fa2f47162305f520388415607f95428120c46f60e8c8736a71c453c2aeaa1",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/ganesha-moon",
+      "sourceDigest": "ddfe4e8b46e19293aab9bc58d479efd3bc665b421efc3509eecaeea14657573c",
+      "editionDigest": "d6f29259b5e0ba321aa5552ecb904259774ae400fbe6779483c6d34b45b41063",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/ganesha-moon",
+      "sourceDigest": "ddfe4e8b46e19293aab9bc58d479efd3bc665b421efc3509eecaeea14657573c",
+      "editionDigest": "801cdbbe7501cb51968fe574b395599991ffeefcd979559b52194cc5eda77d82",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/govardhana",
+      "sourceDigest": "42583e1b20a5705425894d7d7919950ae1215b62dce0f464b6ee806d08f9f5fd",
+      "editionDigest": "ff94a57d2080acae229d3f3753eec9742a0f6cf2b9699d848e8afd626545524f",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 2 min"
+      ]
+    },
+    {
+      "key": "ta-IN/govardhana",
+      "sourceDigest": "42583e1b20a5705425894d7d7919950ae1215b62dce0f464b6ee806d08f9f5fd",
+      "editionDigest": "f7cbccdffb5a5d0c8c314fa8a98e387509705bc7b6d1b4c55a84ec8d63337bed",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 390s rounds to 7 min; canonical promises 2 min"
+      ]
+    },
+    {
+      "key": "hi-IN/guha-boatman",
+      "sourceDigest": "7ebd825f786f868fe655d0402cd3e402d342f0e8b888141a4b6bebcfb9a23691",
+      "editionDigest": "421a4280053d152ed1a61622a35a027fdde978a4af0ffa0891c260334ca67b8d",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/guha-boatman",
+      "sourceDigest": "7ebd825f786f868fe655d0402cd3e402d342f0e8b888141a4b6bebcfb9a23691",
+      "editionDigest": "0591b4039225f039ad6d5889a3e29c68d8943d280ea3f62251a0a842cca03177",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/hanuman-own-ramayana",
+      "sourceDigest": "87de6e192ec40fbd0e7e7cee74ef6360503c899486c8df1d392d886e857a3c85",
+      "editionDigest": "ab4a44b46892f11b559842f9cebb1b0e247d5b70623003645ef5e1c85c05b556",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/hanuman-own-ramayana",
+      "sourceDigest": "87de6e192ec40fbd0e7e7cee74ef6360503c899486c8df1d392d886e857a3c85",
+      "editionDigest": "8dbd4ac4f4174135717fa0bafbe27ff4a74b85b710269d64989c4398c3274f6c",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/hanuman-reminded",
+      "sourceDigest": "7dce67e433a90bc7aec9287c3a5aab70424a686a2ca5b2522713ecb0dcac61a4",
+      "editionDigest": "d9f730b9461734ab7aaa96e00c00c4adb0ff9dada1b5810256c1c1fdf9b89e4c",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/hanuman-reminded",
+      "sourceDigest": "7dce67e433a90bc7aec9287c3a5aab70424a686a2ca5b2522713ecb0dcac61a4",
+      "editionDigest": "360aafffdde961007579f942b3ffb40b709e13385b3f8cf5eb350239f924542d",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/hanuman-ring-sita",
+      "sourceDigest": "58ce9089283d36d6ae651ecfd7b695bb2cceaac8442eff49ed48b7dea2690caa",
+      "editionDigest": "7cca630f403a8cd7dfa277cab0320b9e64d8a0bfcd706f1d0d03e67de2a6069c",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/hanuman-ring-sita",
+      "sourceDigest": "58ce9089283d36d6ae651ecfd7b695bb2cceaac8442eff49ed48b7dea2690caa",
+      "editionDigest": "bf5650fb1dae907e3e3da16dd0952a77510ace511caf32ebebd38a2b7c093d61",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/hanuman-tail",
+      "sourceDigest": "01ad1509bdf05ec63533a44ca97a75d1acae7f910ff0703a4e15fbfbb01623b2",
+      "editionDigest": "95e86c500a1d33665dd6d0aaa5ce9c14718ba184134652a08792a9d3f642e4ab",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/hanuman-tail",
+      "sourceDigest": "01ad1509bdf05ec63533a44ca97a75d1acae7f910ff0703a4e15fbfbb01623b2",
+      "editionDigest": "31eef106fc91747c6bcc6a646ca6c388bc3489e09ab8a972fe1bf54ded1aa4e2",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/jatayu-last-flight",
+      "sourceDigest": "aa989056097af9fd324cab5dbbf47b259d05c866f5aeecdca70c7bd44cf74d52",
+      "editionDigest": "63e02deb8d41dc3e9c0f89634f16897e24d2491b50fde241802eb1b2acd5125e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/jatayu-last-flight",
+      "sourceDigest": "aa989056097af9fd324cab5dbbf47b259d05c866f5aeecdca70c7bd44cf74d52",
+      "editionDigest": "12ad51ce26eaf74cb219300a04166065a68ceec84138cedc136a8657bce5dae4",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/kali-stops",
+      "sourceDigest": "239191862ab3be3665f8a8bd4143ec7ba9606f2de46c9c15622fc7d2676476bf",
+      "editionDigest": "98a91344ca59c94c41f9815ad7b0726d564b65c707539325fc9014e1d0484c59",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/kali-stops",
+      "sourceDigest": "239191862ab3be3665f8a8bd4143ec7ba9606f2de46c9c15622fc7d2676476bf",
+      "editionDigest": "bb0b6ea5a1be8398b20428f2b8c809af6db3842203738803483c03602e7c5e58",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/karna-armour",
+      "sourceDigest": "db420ac1d3177ffeb64d87725628aa6c49568980cd30645520cfbe9c72d5be5e",
+      "editionDigest": "0a760cb57078b036759a578afe19b7e8128e159367f973530cd8645f798f01e2",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/karna-armour",
+      "sourceDigest": "db420ac1d3177ffeb64d87725628aa6c49568980cd30645520cfbe9c72d5be5e",
+      "editionDigest": "68dd51c8eeeb51190b38bbc2df694ebe7751114bbfe6f0191405563fba6f08c5",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/kena-blade-grass",
+      "sourceDigest": "af52e75e55b16b80f8e40b4736d8f1966f5086bab4c7b7de838848d3131b6343",
+      "editionDigest": "14b6c83470e78a131ba3df16a0e8a374d4feb4a4305d5b37be2e959c3a94133e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/kena-blade-grass",
+      "sourceDigest": "af52e75e55b16b80f8e40b4736d8f1966f5086bab4c7b7de838848d3131b6343",
+      "editionDigest": "911cc172ab75f134360c3ee408323f566890b8e01abde5b7d812cf616e6c4035",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/krishna-embassy",
+      "sourceDigest": "4a177711dbffb9f8e90ba5cf29e39cbd128f01391ca5342bde90630e98cbe32d",
+      "editionDigest": "5c5bc3dec3a268c1f663047cdb5de0c03a30c6e10c08401f9dd107bcf92bf0bb",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/krishna-embassy",
+      "sourceDigest": "4a177711dbffb9f8e90ba5cf29e39cbd128f01391ca5342bde90630e98cbe32d",
+      "editionDigest": "9c73e984b83f58c117f94cc3efe1247187c447eab080c596575b988932767da9",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/kubera-feast",
+      "sourceDigest": "5298eda4f288e492a8ac7bb0a0280a88ea9a02fdd8ebd969faa41214e5b00273",
+      "editionDigest": "62450bb3e9653c6e400246d4d9d07372dfe710ce0d0c4787429f8cb6487bb982",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/kubera-feast",
+      "sourceDigest": "5298eda4f288e492a8ac7bb0a0280a88ea9a02fdd8ebd969faa41214e5b00273",
+      "editionDigest": "b93b7a3fcd3115296d5c369d866a94292ee95e4ad96714b9c4ba941f13e6c240",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/kunti-and-karna",
+      "sourceDigest": "becd6c8ad886d007cd7d768eaeab0612e424c663a48d096987811ef7943d09ec",
+      "editionDigest": "853fad81f3c1fd83bff88d7304f58d29019cc1c2b567495b586f3a860fde4498",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/kunti-and-karna",
+      "sourceDigest": "becd6c8ad886d007cd7d768eaeab0612e424c663a48d096987811ef7943d09ec",
+      "editionDigest": "ffc25143ef44fe80cd15410e9d766ea829b39152345c74956aca42942c2ca541",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/lakshmi-leaves-indra",
+      "sourceDigest": "194354224e3df9165e5c81c4f33a96091f3d424867a6d2d07cdfb0563e693b9a",
+      "editionDigest": "d607ed2ebefd4aefd40de1daa9865d5d9cf0e9e917b94bd9e8704541c5ec97f8",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/lakshmi-leaves-indra",
+      "sourceDigest": "194354224e3df9165e5c81c4f33a96091f3d424867a6d2d07cdfb0563e693b9a",
+      "editionDigest": "507a83fef4c8e30f73b71a273362a19f169a8f0ef2f53af734540ed2565ff2ec",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/last-grain",
+      "sourceDigest": "e9329f3b410584f2098400a89b1873a4b6f0f952ce8f53bc3458158af3b73211",
+      "editionDigest": "30441180fca9ed235b6b4df50f9051dcfe082e83d815dfed176f63381de31d80",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/last-grain",
+      "sourceDigest": "e9329f3b410584f2098400a89b1873a4b6f0f952ce8f53bc3458158af3b73211",
+      "editionDigest": "27c89e152bbf8c432362669142e59dbb7128e05e27dade75887b9cd7657f2ad0",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/lingodbhava-pillar",
+      "sourceDigest": "d73496870f71be1e6fe37af1149758d868e071fa72021a41bdf89fae74801efd",
+      "editionDigest": "ef6cd5a9f5e56fc17543c0bb20084d8074e830f45a79fe61ba26e9e79df63241",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/mainaka-welcome",
+      "sourceDigest": "7e227feebcf169331b6cb6789bace4bf8410e28ff9a19d8804d1c5e778b1a679",
+      "editionDigest": "6b333751bdca8706cc1362fc09abc0aecf6b252e6c7f6e85d59fb6bf09fa7bb4",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/mainaka-welcome",
+      "sourceDigest": "7e227feebcf169331b6cb6789bace4bf8410e28ff9a19d8804d1c5e778b1a679",
+      "editionDigest": "7c4e58af831a15dfa8cb89beeb9b0a403376c0299252e49f3a3b1dae732b9289",
+      "errors": [
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/maitreyi-wealth",
+      "sourceDigest": "fe2d7a4dea78352e0d4bda524493321337c3114606c1d16f082ed924598ca450",
+      "editionDigest": "b3f84d01d3a9260c604c169b56c513605a8126d86365a6b8580970dc8c9c7118",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/maitreyi-wealth",
+      "sourceDigest": "fe2d7a4dea78352e0d4bda524493321337c3114606c1d16f082ed924598ca450",
+      "editionDigest": "5e18197d54a5e71b87e8770f2d7151af94d0af4db6c5f883ddef29e180c3b8e7",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/markandeya-leaf",
+      "sourceDigest": "9cfed3ec9af2a0883a3f923a14390d02f2070f6f4e7e35e7dfbbc06a6a838137",
+      "editionDigest": "0da3658aec6e7dc2ea6a1b016d320ee1599ba5350d186b651f43ed1493fcf44e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/markandeya-leaf",
+      "sourceDigest": "9cfed3ec9af2a0883a3f923a14390d02f2070f6f4e7e35e7dfbbc06a6a838137",
+      "editionDigest": "9d24f50807d70f95145ce866e07545731977ec609a61bde0971fcf0bba87720f",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/nachiketa-three-nights",
+      "sourceDigest": "7533c3f8fda357dd1c891d1b06f2e4cd922378036a40fad2520ff8dabe44272f",
+      "editionDigest": "4ca0029302ed9b5c37947f6fae53005dc5741ada0200875d215282a66368f1ef",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/nachiketa-three-nights",
+      "sourceDigest": "7533c3f8fda357dd1c891d1b06f2e4cd922378036a40fad2520ff8dabe44272f",
+      "editionDigest": "896fcb23624cbc73492f9f3381c9a7c81b3e8f10a8400a001ac697025fee4401",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/nammalvar-silence",
+      "sourceDigest": "5cd3239fe0b4d40be41046ca2dbcf12c5c4637a2d32293b1f041fd7267d192f7",
+      "editionDigest": "d7236865f809357b9111a8ca0f14470bc97dd4ff9715cbeab2d33a897a4effc8",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/nammalvar-silence",
+      "sourceDigest": "5cd3239fe0b4d40be41046ca2dbcf12c5c4637a2d32293b1f041fd7267d192f7",
+      "editionDigest": "b582a2e1f6ced47ed05c95b827d74c1906848d5ceeab2fcb2662e08f4f3934e1",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/nandanar-bull",
+      "sourceDigest": "6d190f460649ad3d3fc78c2c5d7cf45ee6d2312b748c2e820946ff03fb56e3de",
+      "editionDigest": "d119e28fdf9454a7cd08f33e6a5418c756cd132adafd20680d97557c1dfcd905",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/nandanar-bull",
+      "sourceDigest": "6d190f460649ad3d3fc78c2c5d7cf45ee6d2312b748c2e820946ff03fb56e3de",
+      "editionDigest": "f34881d064a1597f68f82e2b83b52487dafc7f51e15da61ebb81c3d206df0e91",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/narakasura",
+      "sourceDigest": "f8ddef4e6b7ec8d5e760bfb5f8cc310ac562a15f615b3a755db4cb29ab87c68f",
+      "editionDigest": "41a1ed625bee660c21651f952ac5fc02b9f854ee7007e641d16ab7f4e56463bd",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/narakasura",
+      "sourceDigest": "f8ddef4e6b7ec8d5e760bfb5f8cc310ac562a15f615b3a755db4cb29ab87c68f",
+      "editionDigest": "38634b2b57e4fc41c24f51f8595a6e29f3e3c5094622ba082c5ece4ac1e3a57c",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/panar-shoulders",
+      "sourceDigest": "6585140c1288e918b5837ab0cd220d051e20261523cd9a3ae74956f7c16a3dfd",
+      "editionDigest": "8cfd3b80980d30a357dcefede333fbfc073fa6f7688aa013c2ddadc2416f105a",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/panar-shoulders",
+      "sourceDigest": "6585140c1288e918b5837ab0cd220d051e20261523cd9a3ae74956f7c16a3dfd",
+      "editionDigest": "295897f0619bdaa177a4d8e787cde82447f76b63d17c349e605427ef40d10956",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/parvati-decides",
+      "sourceDigest": "326589120587cf045696df7cc9dcc4ad5deee938cf3e373801655ca21b440feb",
+      "editionDigest": "b57782eeb6f53d02fa4986355ed18c60f371468b2af255b52e5f88f4042e318e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/parvati-decides",
+      "sourceDigest": "326589120587cf045696df7cc9dcc4ad5deee938cf3e373801655ca21b440feb",
+      "editionDigest": "91a0d5b7fa616a0ec1cb9f752dc466fa1839fa51476de4537ba17a2791e2ae0a",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/prahlada-pillar",
+      "sourceDigest": "5902a307b15f424c8b33f74dd87e91d2bfe60671bf0445df9a9b13de2bdbe47f",
+      "editionDigest": "146e10c93b547272fe15cb3ed18a27758844cc25210cf64b3912671d5de695bc",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/prahlada-pillar",
+      "sourceDigest": "5902a307b15f424c8b33f74dd87e91d2bfe60671bf0445df9a9b13de2bdbe47f",
+      "editionDigest": "db1625d99e304933cc590bddfaa36cf87614419db11b8f94a69a85425da98c66",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/prithu-earth-cow",
+      "sourceDigest": "2d1f0d069344c80dd08cef2b555f3ec3347a872fca837d080270753140918631",
+      "editionDigest": "eba87e2ab07f4419d80f0268f834ec901df944b66422909a8f19d005a2640075",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/prithu-earth-cow",
+      "sourceDigest": "2d1f0d069344c80dd08cef2b555f3ec3347a872fca837d080270753140918631",
+      "editionDigest": "91e92485fe2161de4759750faf90913d9031d6dbda97ee49538b863950bd0321",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/rama-returns",
+      "sourceDigest": "224fc92eb7841df093083541da96a4386b3a5550eb2321c61147ab0bfb92ff16",
+      "editionDigest": "41e9b93b6668b3f4b01f5b309c3a0fae6e58a6a0673b504ed1bc2c61ab1337cc",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/rama-returns",
+      "sourceDigest": "224fc92eb7841df093083541da96a4386b3a5550eb2321c61147ab0bfb92ff16",
+      "editionDigest": "3d4b30e7088ed3acb70b1de77b38a64df88b9b676ab0679c74d765f569f185e7",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 260s rounds to 4 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/rantideva-water",
+      "sourceDigest": "755b8904a851966bebf7df96d9bf28321f548915304890e171cb5a0a8aef3767",
+      "editionDigest": "d88c592fc9ecf53f4e5fdbca3f67bce1ae6d1805fda817d1b6f6a1f3194644c5",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/rantideva-water",
+      "sourceDigest": "755b8904a851966bebf7df96d9bf28321f548915304890e171cb5a0a8aef3767",
+      "editionDigest": "ecd92319574963184ba625f41cb05a07d11e391364e9aa42830f3366ad51b763",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/sampati-words",
+      "sourceDigest": "2485b888781de86712e4d91daa1c3ff3a63d8fd6f6cc7011022d835cb7b4b9ee",
+      "editionDigest": "34ec1d0707017c9062bc679d496f6019c636f3267e747661ec9998994dc046f6",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/sampati-words",
+      "sourceDigest": "2485b888781de86712e4d91daa1c3ff3a63d8fd6f6cc7011022d835cb7b4b9ee",
+      "editionDigest": "27bd49bb24fc98b0b5691cce1f654e50c28f8bfba9d4876f35daec16caf4eb13",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/satyakama-truth",
+      "sourceDigest": "6fac5c195e2b22947c3d982a20cb9a1186dff92343b4e25dd78edda29e226e0f",
+      "editionDigest": "e22da62217a5102c3981e85093b7ff3b7cc44e5788cc4685233a831a5e69f636",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/satyakama-truth",
+      "sourceDigest": "6fac5c195e2b22947c3d982a20cb9a1186dff92343b4e25dd78edda29e226e0f",
+      "editionDigest": "19a0db28edacf3c2d04d53e2a4c9f86720efd452968974077c3ac7327a45a436",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/savitri-yama",
+      "sourceDigest": "1328be87a2984210d978011f7ad59d3679e006817cb69372fafd54687e5f4c15",
+      "editionDigest": "b648f7f9b67fc15029bebe0fda5270700a1f5ade073f1b9411c8e77fd8c98cc6",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/savitri-yama",
+      "sourceDigest": "1328be87a2984210d978011f7ad59d3679e006817cb69372fafd54687e5f4c15",
+      "editionDigest": "adb5cff226a9ae328ecc08a78d5129e737ed0a6f20de6a0a318ea3a0b4f6d47a",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/shabari-berries",
+      "sourceDigest": "52b06e51e14a669c57fa0d3b032e983c8fbed56dbab637abf64c193cd5f0402d",
+      "editionDigest": "7589d8b233b64bdcb514cc4bcc1fab48fc04ca8ca52e7b109ce11ce7e8abb15d",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/shabari-berries",
+      "sourceDigest": "52b06e51e14a669c57fa0d3b032e983c8fbed56dbab637abf64c193cd5f0402d",
+      "editionDigest": "de91259123f88a5c1dafa9bb761b8f7f48118172c7fc74091923650f8fd10313",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/shakambhari",
+      "sourceDigest": "65e86fcd1964e876987127929ec7b2dd8abc36abdad0399d8b72d5988c10b803",
+      "editionDigest": "09d5119dc8da6886090eeefbb3c99f9489b21930c61afe33492edd3e15c3781e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/shakambhari",
+      "sourceDigest": "65e86fcd1964e876987127929ec7b2dd8abc36abdad0399d8b72d5988c10b803",
+      "editionDigest": "af16694ba7c194887f17f4b38286ef4931fd82ce574a86c0e12566e3574a63e3",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/shravana-baskets",
+      "sourceDigest": "108c62ada3ce72e9d492b0e0a3f1d2ac4aa45fb2ba2f180a4add8d0a2a3240ca",
+      "editionDigest": "ee7e4dfb855abc4fe7399ac5e2ae8dcdc7f4422227b06a77705662b578d8c502",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/shravana-baskets",
+      "sourceDigest": "108c62ada3ce72e9d492b0e0a3f1d2ac4aa45fb2ba2f180a4add8d0a2a3240ca",
+      "editionDigest": "152c7a6ff519e27f8f096681d445e1f4dfe6495dfa2f8b4ff3df0c52622a306c",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/squirrel-setu",
+      "sourceDigest": "175bb7abe67c7a48a3ebbc3ea76a6fe3ff226c0436cfb74ecd0896256e25109b",
+      "editionDigest": "32fb6f449e09c00a51e2696f2af5685ca3139a908b7ef22eb9a55fc8041310c6",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 180s rounds to 3 min; canonical promises 2 min"
+      ]
+    },
+    {
+      "key": "ta-IN/squirrel-setu",
+      "sourceDigest": "175bb7abe67c7a48a3ebbc3ea76a6fe3ff226c0436cfb74ecd0896256e25109b",
+      "editionDigest": "762935f0641f6ec5f11381e33bfdf3eabcc9d5df822a2d11f9dec6d080fc71d8",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 180s rounds to 3 min; canonical promises 2 min"
+      ]
+    },
+    {
+      "key": "hi-IN/sudama-poha",
+      "sourceDigest": "657c8e4c4f9858cf0a48779ba9ecd2eef38029aa381a42ad9659cf10ff0f0fbb",
+      "editionDigest": "2069ddf22e976e7f527b1af8686a5cba44577a4b031e483117d25ce750c5bf4f",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "ta-IN/sudama-poha",
+      "sourceDigest": "657c8e4c4f9858cf0a48779ba9ecd2eef38029aa381a42ad9659cf10ff0f0fbb",
+      "editionDigest": "233fcd6a9788b422cc08158de8a7fbdbdb48fd54f80daec57d571f3dfcbdd2c5",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min",
+        "If they ask: follow-up count must match canonical edition"
+      ]
+    },
+    {
+      "key": "hi-IN/sukra-spout",
+      "sourceDigest": "3ee1de4b76afbf1bcd1eaf570d651e0e09bcae8d61f0a2801bf4b0419742e798",
+      "editionDigest": "e442caa0c63aa0affb5222f865ecf17e0150c75b4f2c9dba67536d17b6c49542",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/sukra-spout",
+      "sourceDigest": "3ee1de4b76afbf1bcd1eaf570d651e0e09bcae8d61f0a2801bf4b0419742e798",
+      "editionDigest": "f49cbd0c5798d213afb6d576ebbe12120d449ff8573268cb15f2bd4652f8f816",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/svetaketu-salt",
+      "sourceDigest": "5e4532da351b5c47a4c64421762c825fd34e0c83d021c4ce6005a71a7b764728",
+      "editionDigest": "83e507abc036239336d3275ebf739a231672c05d5604962c99248853ff81f125",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/svetaketu-salt",
+      "sourceDigest": "5e4532da351b5c47a4c64421762c825fd34e0c83d021c4ce6005a71a7b764728",
+      "editionDigest": "e7981035108ba22d5ca7503f007da949bd62e516f4ec96568e7fd8cbc60f5357",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/three-in-doorway",
+      "sourceDigest": "e6e5f9e4ab05c937d23c92eae03a4e0032042224ebabb3cff2d4a6fdef81f92b",
+      "editionDigest": "c329317e8ad8285c588ee56124ff1662c8a74f3cab28b58f71ad4b9721e7404e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/three-in-doorway",
+      "sourceDigest": "e6e5f9e4ab05c937d23c92eae03a4e0032042224ebabb3cff2d4a6fdef81f92b",
+      "editionDigest": "d244e1da6fc6c78733bff28ef7622f9b360de08ff22142e60ef6768a5823a0bb",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/two-birds",
+      "sourceDigest": "c885ef5b2d1a7d46a59f1d02e0a909421d11f275f26d5e5b6218994c9b4d1f08",
+      "editionDigest": "76adb230cdc0afee2e8c47e111e73c330236f885f31180b9421d1212f92962dc",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/two-birds",
+      "sourceDigest": "c885ef5b2d1a7d46a59f1d02e0a909421d11f275f26d5e5b6218994c9b4d1f08",
+      "editionDigest": "b0c0c30743f6a0d5a82edbca52674766dc9de48a39de931c0084357b1f557205",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/valmiki-first-shloka",
+      "sourceDigest": "010c94c686f84df442a606c6ae6394959ce94f0c8653abe5bf20a94c492dc0ba",
+      "editionDigest": "5c8a2aae67d48aabe4f27113bc853c0d4f5f4c7a21f33a68033c88b08b730e6e",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/valmiki-first-shloka",
+      "sourceDigest": "010c94c686f84df442a606c6ae6394959ce94f0c8653abe5bf20a94c492dc0ba",
+      "editionDigest": "2885587622ce36114838050342b5149a9098ef0f2ce4ad8be313e13931978629",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/vamana-three-steps",
+      "sourceDigest": "8a03587b4a8ecd4947fbe575c9ddb2f30787d219c66161a46092730ea9e8e736",
+      "editionDigest": "0a8c7458454531acc7e06d09475a1c1739e648b13eeabbac9e778e658a851d0b",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/vamana-three-steps",
+      "sourceDigest": "8a03587b4a8ecd4947fbe575c9ddb2f30787d219c66161a46092730ea9e8e736",
+      "editionDigest": "d2647be3be11e584991baf82938d5755a537b8224b043bd37e1fdaede02d6129",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/vibhishana-crosses",
+      "sourceDigest": "7af0a72f48c226cb07c1eaf54a073b516c0e5b23da788ed27aff7fe843ab282d",
+      "editionDigest": "a5b99e06b8872f42a196f3bdfa0137bfb6e6cd5a2ef1a9a25afd3ca9b7daadaa",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/vibhishana-crosses",
+      "sourceDigest": "7af0a72f48c226cb07c1eaf54a073b516c0e5b23da788ed27aff7fe843ab282d",
+      "editionDigest": "35c0c03a5a3436c2d5aca159234308c0d59a86f2f421a08ace6f55380f35a5a0",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/yaksha-lake",
+      "sourceDigest": "a162460e638032bdb3e4eff1375fac8ced3dcfb00a83752aeada04dd330f4f54",
+      "editionDigest": "e7078c475ba45c7df4b4cb586da2bb672e8dbdb6fb771e2a6d80ef26988b0936",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/yaksha-lake",
+      "sourceDigest": "a162460e638032bdb3e4eff1375fac8ced3dcfb00a83752aeada04dd330f4f54",
+      "editionDigest": "3a90801ee4d16a1c460c96be7831334f970d64ff26a1679af279d8c1561f8497",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "hi-IN/yudhishthira-dog",
+      "sourceDigest": "4e69e0794d229d8dd6ab0e521e8daceac329cadd115f726651ede494728e7e13",
+      "editionDigest": "ca666739d96cbad55264245db2430a8ede8e3cf8db86284bb984e9182aee263f",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    },
+    {
+      "key": "ta-IN/yudhishthira-dog",
+      "sourceDigest": "4e69e0794d229d8dd6ab0e521e8daceac329cadd115f726651ede494728e7e13",
+      "editionDigest": "87cda7922cafa3e2f8641cbdd8939545be9fc7d9e7e4311c555ca8a8c477a818",
+      "errors": [
+        "rendition keys short must match canonical full,short",
+        "nativeReadAloud keys short must match canonical full,short",
+        "short: measured 360s rounds to 6 min; canonical promises 3 min"
+      ]
+    }
+  ]
+}

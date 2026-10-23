@@ -1,0 +1,21 @@
+{
+  "status": "approved-for-publication",
+  "reviewer": "rama",
+  "date": "2026-10-23",
+  "userStatement": "all of them have been already reviewed. long ones are 6 mins and short ones are 3 mins. good to publish",
+  "scope": "This ravana-last-rites package: English, Hindi and Tamil, both lengths, supplied hero and documented editorial/source choices.",
+  "measuredSeconds": {
+    "short": 180,
+    "full": 360
+  },
+  "measurementProvenance": "User-reported whole-minute readings; not an independent stopwatch measurement by the agent.",
+  "reviewedFiles": {
+    "en/ravana-last-rites.json": "b6710c425cabd9b8f57af58bbb4f91882a3fc5f855641c97d71c992efb012ede",
+    "locales/hi/ravana-last-rites.json": "78deaa33fa5b7b5f3ac70cb21a6d2ed986e5fc2756a687190246499ec5f92aa4",
+    "locales/ta/ravana-last-rites.json": "07970554ce2a2ccf8bdc5b6fafd70b6b97300b32c0c90a08e23ff507d933419f",
+    "review.html": "48b611ac0c758ff70028663b5806f02769a3d08532b08945404c08f1d13574ec",
+    "SOURCE-REVIEW.md": "2a2c0953bd46f657df6fe588e5c589a990afee27653eb198fba87fc4d46ce355",
+    "art/hero.png": "501e19a53799b1d9c734227466df4e53d711e8df65a3c0d64d0731e098d94a31",
+    "lexicon-candidates.json": "de878b1537318ed0e137652f271867361ed450de35f4959771a3f4c6e5381771"
+  }
+}

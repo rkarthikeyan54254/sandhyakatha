@@ -1,20 +1,33 @@
 #!/usr/bin/env node
+import { releaseRenditionParityErrors } from './lib/release-rendition-parity.mjs';
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { approvedHeroUrl } from './lib/media.mjs';
 import { gitBlobSha1, localeContentHash } from './lib/locale-content.mjs';
 import { localeLanguage, publicLocaleHref } from './lib/locale-paths.mjs';
+import { humanReviewApproved, renditionParityErrors } from './lib/rendition-parity.mjs';
+import { runtimeLocaleEditions } from './lib/runtime-locale-editions.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const read = rel => JSON.parse(readFileSync(join(ROOT, rel), 'utf8'));
 const raw = rel => readFileSync(join(ROOT, rel), 'utf8');
 
 const cfg = read('content/locale-public.json');
+const editions = runtimeLocaleEditions(ROOT, cfg);
 const lock = read('content/locale.lock.json');
 const media = read('content/media.json').stories ?? {};
 const landings = cfg.landings ?? (cfg.landing ? [cfg.landing] : []);
 const OUT = join(ROOT, 'public', 'data', 'l');
+
+// Validate parity before replacing generated assets, including direct invocation.
+for (const pub of editions) {
+  const lang = localeLanguage(pub.locale);
+  const source = read(`content/stories/${pub.storyId}.json`);
+  const edition = read(`content/locales/${lang}/${pub.storyId}.json`);
+  const errors = releaseRenditionParityErrors(ROOT, source, edition);
+  if (errors.length) throw new Error(`${pub.locale}/${pub.storyId}: ${errors.join('; ')}`);
+}
 
 rmSync(OUT, { recursive:true, force:true });
 mkdirSync(OUT, { recursive:true });
@@ -31,7 +44,7 @@ for (const landing of landings) {
   };
 }
 
-for (const pub of cfg.editions ?? []) {
+for (const pub of editions) {
   const lang = localeLanguage(pub.locale);
   const key = `${pub.locale}/${pub.storyId}`;
   const storyRel = `content/stories/${pub.storyId}.json`;
@@ -43,8 +56,8 @@ for (const pub of cfg.editions ?? []) {
   const landing = catalog.locales[pub.locale];
 
   if (!landing) throw new Error(`${key}: public locale has no discovery landing`);
-  if (story.status !== 'published' || story.audience?.gated)
-    throw new Error(`${key}: canonical story is not public-runtime eligible`);
+  if (story.status !== 'published')
+    throw new Error(`${key}: canonical story is not runtime eligible`);
   if (doc.status !== 'approved')
     throw new Error(`${key}: locale is not approved`);
   if (doc.storyId !== story.id || doc.locale !== pub.locale)
@@ -56,12 +69,15 @@ for (const pub of cfg.editions ?? []) {
   if (!locked || locked.status !== 'approved' || locked.hash !== localeContentHash(doc))
     throw new Error(`${key}: locale lock does not match reviewed bytes`);
 
+  const parityErrors = releaseRenditionParityErrors(ROOT, story, doc);
+  if (parityErrors.length) throw new Error(`${key}: ${parityErrors.join('; ')}`);
+
   const reviews = [
     doc.review?.nativeReadAloud?.short,
     doc.review?.languageEditor,
     doc.review?.sourceFidelity
   ];
-  if (reviews.some(r => r?.status !== 'approved' || !r.reviewer || !r.reviewedOn))
+  if (reviews.some(r => !humanReviewApproved(r)))
     throw new Error(`${key}: human review gates are incomplete`);
   const measuredSeconds = doc.lengths?.short?.measuredSeconds;
   if (!Number.isInteger(measuredSeconds) || measuredSeconds <= 0)
@@ -81,13 +97,11 @@ for (const pub of cfg.editions ?? []) {
     displayNames:doc.displayNames,
     source:{ ...story.source, traditionNote:doc.traditionNote },
     audience:{ ...story.audience, careNote:doc.parentNote },
-    lengths:{
-      short:{
-        minutes,
-        measuredSeconds,
-        blocks:doc.lengths.short.blocks
-      }
-    },
+    lengths:Object.fromEntries(Object.entries(doc.lengths).map(([length, rendition]) => [length, {
+      minutes: Math.round(rendition.measuredSeconds / 60),
+      measuredSeconds: rendition.measuredSeconds,
+      blocks: rendition.blocks
+    }])),
     close:doc.close,
     ...(hero ? { hero } : {})
   };
@@ -103,6 +117,7 @@ for (const pub of cfg.editions ?? []) {
     title:doc.title,
     tease:doc.tease,
     minutes,
+    renditionMinutes: Object.fromEntries(Object.entries(builtStory.lengths).map(([length, rendition]) => [length, rendition.minutes])),
     storyRevision,
     publicPath
   });

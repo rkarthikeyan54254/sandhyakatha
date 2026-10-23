@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-23",
   "stories": {
     "abhimanyu-spiral": {
       "version": 2,
@@ -192,9 +192,9 @@
       "hash": "eeb33fab3e017625"
     },
     "karaikkal-mangoes": {
-      "version": 1,
+      "version": 2,
       "status": "published",
-      "hash": "b1fc3fd41b9527e6"
+      "hash": "92b34b6c83fb9ebb"
     },
     "karna-armour": {
       "version": 1,
@@ -317,9 +317,9 @@
       "hash": "88f74eb725aac4ed"
     },
     "pusalar-temple": {
-      "version": 2,
+      "version": 3,
       "status": "published",
-      "hash": "5eddd52967c917b8"
+      "hash": "09ea8a0e17e3a515"
     },
     "rama-returns": {
       "version": 1,
@@ -330,6 +330,11 @@
       "version": 2,
       "status": "published",
       "hash": "ab52780d796a5e33"
+    },
+    "ravana-last-rites": {
+      "version": 1,
+      "status": "published",
+      "hash": "4f35db94d8d302a2"
     },
     "ravana-lifts-kailasa": {
       "version": 1,

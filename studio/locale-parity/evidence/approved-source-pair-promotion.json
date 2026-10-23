@@ -1,0 +1,30 @@
+{
+  "status": "registered-locally-not-deployed",
+  "scope": "Two correction proposals and four native editions explicitly included in the approved six-story packet; no approval applied to other stories.",
+  "receipts": [
+    {
+      "storyId": "pusalar-temple",
+      "previousCanonicalPin": "75e66414eb09731d6fdaabd44b64bd7dd023fa4d",
+      "reviewedCandidatePin": "d42c8ddeb7641e968c14f99e75782732190cd0f9",
+      "publishedLocalPin": "826f9eece580e3b9ad587566f8502e65fe7fe0b9",
+      "version": 3,
+      "spokenTextChangedSinceHumanReview": false,
+      "reviewer": "rama",
+      "reviewedOn": "2026-10-14",
+      "sourceVerification": "Primary passages rechecked 2026-10-23 against the source-review files; no new spoken prose introduced.",
+      "sourceEvidence": "PUSALAR-SOURCE-REVIEW.md"
+    },
+    {
+      "storyId": "karaikkal-mangoes",
+      "previousCanonicalPin": "8047caabcce09b74a5b0a620124b8f7be3870858",
+      "reviewedCandidatePin": "a4f294326e8fb0ad15486215d27dd5acff4c46d9",
+      "publishedLocalPin": "fa324bd11bf835e6bed7a5d1d240490cd4ec20fa",
+      "version": 2,
+      "spokenTextChangedSinceHumanReview": false,
+      "reviewer": "rama",
+      "reviewedOn": "2026-10-14",
+      "sourceVerification": "Primary passages rechecked 2026-10-23 against the source-review files; no new spoken prose introduced.",
+      "sourceEvidence": "KARAIKKAL-SOURCE-REVIEW.md"
+    }
+  ]
+}

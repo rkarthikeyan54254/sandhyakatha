@@ -19,6 +19,7 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 
 import { join } from 'node:path';
 import { displayTerm } from './lib/lexicon-display.mjs';
 import { approvedHeroUrl } from './lib/media.mjs';
+import { renderPublicRenditions } from './lib/public-renditions.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const SITE = process.env.SITE_URL ?? 'https://sandhyakatha.com';
@@ -146,11 +147,13 @@ function page(s) {
   const seen = new Set();
   const r = s.lengths.full;
   const hero = approvedHero(s);
-  const body = r.blocks.map(b => b.t === 'beat'
+  const bodyFor = rendition => rendition.blocks.map(b => b.t === 'beat'
     ? '<div class="beat"><span>pause</span></div>'
     : b.t === 'aside'
       ? `<aside class="note"><span>for you, not aloud</span><p>${render(b.text, seen)}</p></aside>`
       : `<p${b.t === 'slow' ? ' class="slow"' : ''}>${b.t === 'slow' ? '<span class="slowtag">slow down here</span>' : ''}${render(b.text, seen)}</p>`).join('\n');
+  const body = renderPublicRenditions(s.lengths, { short: 'Short', full: 'Full', minutes: 'min aloud' },
+    (_length, rendition) => bodyFor(rendition));
   const asks = (s.close.ifTheyAsk ?? []).map(f =>
     `<details class="ask"><summary>If they ask: “${render(f.q, new Set())}”</summary><p>${render(f.a, new Set())}</p></details>`
   ).join('');
@@ -232,7 +235,7 @@ function page(s) {
 </div>
 <div class="meta"><span>Ages ${s.audience.minAge}+</span><span>${r.minutes} min aloud</span>${s.values.map(v => `<span>${esc(v)}</span>`).join('')}</div>
 ${hero ? `<figure class="storyart"><div class="storyart-frame"><img src="${esc(hero)}" alt="Illustration for ${esc(s.title)}" loading="eager" decoding="async"></div><figcaption>Illustration</figcaption></figure>` : ''}
-<main class="prose">${body}</main>
+<main>${body}</main>
 <div class="turn"><span class="e">Now turn to your child</span>
   <p>${render(s.close.question, new Set())}</p>
   <p class="s">And if they shrug, you can leave it at this: <b>${render(s.close.seed, new Set())}</b></p>

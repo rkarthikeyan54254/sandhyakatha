@@ -686,6 +686,14 @@
     {
       "storyId": "gargi-questions",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "ravana-last-rites",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "ravana-last-rites",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

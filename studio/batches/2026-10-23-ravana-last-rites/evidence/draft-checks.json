@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Schema, rendition presence, final landing, native script, balanced speech, source pins and source scene mapping. Not human native review/timing or visual QA.",
+  "editions": [
+    {
+      "language": "en",
+      "hash": "854c778d42069352cf1954f4539cbaea159e4891",
+      "lengths": [
+        "short",
+        "full"
+      ]
+    },
+    {
+      "language": "hi",
+      "hash": "e5adb17e4e663ad4",
+      "lengths": [
+        "short",
+        "full"
+      ]
+    },
+    {
+      "language": "ta",
+      "hash": "4a924e88dfadde6b",
+      "lengths": [
+        "short",
+        "full"
+      ]
+    }
+  ],
+  "errors": []
+}

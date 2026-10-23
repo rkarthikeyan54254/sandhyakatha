@@ -1,0 +1,417 @@
+ERROR locale parity gate: hi-IN/abhimanyu-spiral: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/abhimanyu-spiral: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/abhimanyu-spiral: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/abhimanyu-spiral: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/abhimanyu-spiral: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/abhimanyu-spiral: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/ambarisha-waits: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ambarisha-waits: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ambarisha-waits: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/ambarisha-waits: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ambarisha-waits: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ambarisha-waits: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/andal-garland: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/andal-garland: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/andal-garland: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/andal-garland: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/andal-garland: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/andal-garland: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/annapurna-bhiksha: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/annapurna-bhiksha: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/annapurna-bhiksha: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/annapurna-bhiksha: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/annapurna-bhiksha: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/annapurna-bhiksha: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/bharata-fawn: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/bharata-fawn: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/bharata-fawn: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/bharata-fawn: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/bharata-fawn: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/bharata-fawn: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/bharata-fawn: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/bharata-fawn: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/bharata-sandals: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/bharata-sandals: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/bharata-sandals: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/bharata-sandals: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/bharata-sandals: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/bharata-sandals: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/bhrigu-vishnu: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/bhrigu-vishnu: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/bhrigu-vishnu: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/bhrigu-vishnu: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/bhrigu-vishnu: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/bhrigu-vishnu: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/birds-eye: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/birds-eye: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/birds-eye: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/birds-eye: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/birds-eye: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/birds-eye: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/butter-rope: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/butter-rope: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/chariot-and-horses: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/chariot-and-horses: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/chariot-and-horses: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/chariot-and-horses: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/chariot-and-horses: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/chariot-and-horses: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/churning-ocean: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/churning-ocean: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/churning-ocean: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/churning-ocean: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/churning-ocean: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/churning-ocean: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/churning-ocean: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/churning-ocean: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/damayanti-choice: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/damayanti-choice: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/damayanti-choice: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/damayanti-choice: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/damayanti-choice: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/damayanti-choice: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/devi-messenger: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/dharma-vyadha: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/dharma-vyadha: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/dhruva-still: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/dhruva-still: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/dhruva-still: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/dhruva-still: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/dhruva-still: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/dhruva-still: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/dhruva-still: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/dhruva-still: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/durga-mahishasura: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/durga-mahishasura: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/durga-mahishasura: short: measured 360s rounds to 6 min; canonical promises 2 min
+ERROR locale parity gate: ta-IN/durga-mahishasura: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/durga-mahishasura: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/durga-mahishasura: short: measured 420s rounds to 7 min; canonical promises 2 min
+ERROR locale parity gate: hi-IN/durva-kubera-scale: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/durva-kubera-scale: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/durva-kubera-scale: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/durva-kubera-scale: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/durva-kubera-scale: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/durva-kubera-scale: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/ekalavya-thumb: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ekalavya-thumb: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ekalavya-thumb: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/ekalavya-thumb: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ekalavya-thumb: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ekalavya-thumb: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/gajendra-lake: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/gajendra-lake: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/gajendra-lake: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/gajendra-lake: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/gajendra-lake: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/gajendra-lake: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/gajendra-lake: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/gajendra-lake: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/ganesha-circles: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ganesha-circles: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ganesha-circles: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/ganesha-circles: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ganesha-circles: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ganesha-circles: short: measured 390s rounds to 7 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/ganesha-condition: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ganesha-condition: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ganesha-condition: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/ganesha-condition: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ganesha-condition: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ganesha-condition: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/ganesha-moon: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ganesha-moon: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/ganesha-moon: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/ganesha-moon: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ganesha-moon: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/ganesha-moon: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/govardhana: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/govardhana: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/govardhana: short: measured 360s rounds to 6 min; canonical promises 2 min
+ERROR locale parity gate: ta-IN/govardhana: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/govardhana: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/govardhana: short: measured 390s rounds to 7 min; canonical promises 2 min
+ERROR locale parity gate: hi-IN/guha-boatman: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/guha-boatman: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/guha-boatman: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/guha-boatman: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/guha-boatman: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/guha-boatman: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/hanuman-own-ramayana: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-own-ramayana: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-own-ramayana: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/hanuman-own-ramayana: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-own-ramayana: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-own-ramayana: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/hanuman-reminded: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-reminded: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-reminded: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/hanuman-reminded: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-reminded: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-reminded: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/hanuman-ring-sita: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-ring-sita: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-ring-sita: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/hanuman-ring-sita: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-ring-sita: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-ring-sita: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/hanuman-tail: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-tail: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/hanuman-tail: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/hanuman-tail: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-tail: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/hanuman-tail: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/jatayu-last-flight: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/jatayu-last-flight: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/jatayu-last-flight: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/jatayu-last-flight: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/jatayu-last-flight: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/jatayu-last-flight: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/kali-stops: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kali-stops: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kali-stops: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/kali-stops: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kali-stops: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kali-stops: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/karaikkal-mangoes: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/karaikkal-mangoes: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/karaikkal-mangoes: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/karaikkal-mangoes: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/karaikkal-mangoes: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/karaikkal-mangoes: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/karna-armour: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/karna-armour: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/karna-armour: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/karna-armour: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/karna-armour: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/karna-armour: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/kena-blade-grass: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kena-blade-grass: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kena-blade-grass: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/kena-blade-grass: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/kena-blade-grass: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kena-blade-grass: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kena-blade-grass: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/kena-blade-grass: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/krishna-embassy: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/krishna-embassy: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/krishna-embassy: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/krishna-embassy: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/krishna-embassy: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/krishna-embassy: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/kubera-feast: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kubera-feast: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kubera-feast: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/kubera-feast: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kubera-feast: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kubera-feast: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/kunti-and-karna: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kunti-and-karna: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/kunti-and-karna: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/kunti-and-karna: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kunti-and-karna: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/kunti-and-karna: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/lakshmi-leaves-indra: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/lakshmi-leaves-indra: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/lakshmi-leaves-indra: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/lakshmi-leaves-indra: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/lakshmi-leaves-indra: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/lakshmi-leaves-indra: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/last-grain: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/last-grain: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/lingodbhava-pillar: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/mainaka-welcome: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/mainaka-welcome: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/maitreyi-wealth: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/maitreyi-wealth: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/maitreyi-wealth: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/maitreyi-wealth: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/maitreyi-wealth: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/maitreyi-wealth: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/markandeya-leaf: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/markandeya-leaf: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/markandeya-leaf: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/markandeya-leaf: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/markandeya-leaf: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/markandeya-leaf: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/nachiketa-three-nights: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/nachiketa-three-nights: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/nachiketa-three-nights: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/nachiketa-three-nights: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/nachiketa-three-nights: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/nachiketa-three-nights: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/nachiketa-three-nights: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/nachiketa-three-nights: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/nammalvar-silence: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/nammalvar-silence: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/nammalvar-silence: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/nammalvar-silence: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/nammalvar-silence: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/nammalvar-silence: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/nandanar-bull: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/nandanar-bull: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/nandanar-bull: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/nandanar-bull: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/nandanar-bull: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/nandanar-bull: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/narakasura: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/narakasura: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/narakasura: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/narakasura: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/narakasura: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/narakasura: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/panar-shoulders: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/panar-shoulders: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/panar-shoulders: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/panar-shoulders: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/panar-shoulders: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/panar-shoulders: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/parvati-decides: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/parvati-decides: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/parvati-decides: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/parvati-decides: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/parvati-decides: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/parvati-decides: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/prahlada-pillar: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/prahlada-pillar: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/prahlada-pillar: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/prahlada-pillar: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/prahlada-pillar: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/prahlada-pillar: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/prahlada-pillar: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/prahlada-pillar: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/prithu-earth-cow: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/prithu-earth-cow: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/prithu-earth-cow: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/prithu-earth-cow: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/prithu-earth-cow: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/prithu-earth-cow: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/prithu-earth-cow: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/prithu-earth-cow: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/pusalar-temple: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/pusalar-temple: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/pusalar-temple: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/pusalar-temple: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/pusalar-temple: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/pusalar-temple: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/rama-returns: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/rama-returns: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/rama-returns: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/rama-returns: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/rama-returns: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/rama-returns: short: measured 260s rounds to 4 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/rantideva-water: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/rantideva-water: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/rantideva-water: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/rantideva-water: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/rantideva-water: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/rantideva-water: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/rantideva-water: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/rantideva-water: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/sampati-words: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/sampati-words: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/sampati-words: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/sampati-words: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/sampati-words: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/sampati-words: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/satyakama-truth: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/satyakama-truth: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/satyakama-truth: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/satyakama-truth: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/satyakama-truth: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/satyakama-truth: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/savitri-yama: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/savitri-yama: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/savitri-yama: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/savitri-yama: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/savitri-yama: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/savitri-yama: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/savitri-yama: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/savitri-yama: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/shabari-berries: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/shabari-berries: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/shabari-berries: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/shabari-berries: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/shabari-berries: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/shabari-berries: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/shakambhari: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/shakambhari: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/shakambhari: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/shakambhari: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/shakambhari: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/shakambhari: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/shravana-baskets: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/shravana-baskets: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/shravana-baskets: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/shravana-baskets: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/shravana-baskets: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/shravana-baskets: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/squirrel-setu: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/squirrel-setu: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/squirrel-setu: short: measured 180s rounds to 3 min; canonical promises 2 min
+ERROR locale parity gate: ta-IN/squirrel-setu: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/squirrel-setu: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/squirrel-setu: short: measured 180s rounds to 3 min; canonical promises 2 min
+ERROR locale parity gate: hi-IN/sudama-poha: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/sudama-poha: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/sudama-poha: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/sudama-poha: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: ta-IN/sudama-poha: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/sudama-poha: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/sudama-poha: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/sudama-poha: If they ask: follow-up count must match canonical edition
+ERROR locale parity gate: hi-IN/sukra-spout: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/sukra-spout: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/sukra-spout: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/sukra-spout: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/sukra-spout: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/sukra-spout: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/svetaketu-salt: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/svetaketu-salt: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/svetaketu-salt: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/svetaketu-salt: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/svetaketu-salt: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/svetaketu-salt: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/three-in-doorway: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/three-in-doorway: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/three-in-doorway: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/three-in-doorway: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/three-in-doorway: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/three-in-doorway: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/two-birds: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/two-birds: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/two-birds: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/two-birds: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/two-birds: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/two-birds: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/valmiki-first-shloka: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/valmiki-first-shloka: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/valmiki-first-shloka: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/valmiki-first-shloka: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/valmiki-first-shloka: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/valmiki-first-shloka: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/vamana-three-steps: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/vamana-three-steps: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/vamana-three-steps: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/vamana-three-steps: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/vamana-three-steps: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/vamana-three-steps: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/vibhishana-crosses: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/vibhishana-crosses: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/vibhishana-crosses: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/vibhishana-crosses: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/vibhishana-crosses: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/vibhishana-crosses: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/yaksha-lake: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/yaksha-lake: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/yaksha-lake: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/yaksha-lake: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/yaksha-lake: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/yaksha-lake: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: hi-IN/yudhishthira-dog: rendition keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/yudhishthira-dog: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: hi-IN/yudhishthira-dog: short: measured 360s rounds to 6 min; canonical promises 3 min
+ERROR locale parity gate: ta-IN/yudhishthira-dog: rendition keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/yudhishthira-dog: nativeReadAloud keys short must match canonical full,short
+ERROR locale parity gate: ta-IN/yudhishthira-dog: short: measured 360s rounds to 6 min; canonical promises 3 min
+FAILED — 416 locale parity error(s)

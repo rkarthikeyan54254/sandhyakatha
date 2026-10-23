@@ -131,7 +131,6 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
 
   const visible = canon.filter(c => {
     if (c.gated && !gate) return false;
-    if (locale !== 'en' && c.gated) return false; // approved, but deliberately not public
     if (corpus !== 'all' && c.corpus !== corpus) return false;
     if (trad !== 'all' && c.tradition !== trad) return false;
     if (forAge !== null && c.minAge > forAge) return false;
@@ -146,7 +145,7 @@ export default function Shelf({ canon, cards, availableIds, gate, locale = 'en',
   const traditions = [...new Set(canon.map(c => c.tradition))];
   const sensitivities = [...new Set(canon.flatMap(c => c.sensitivity))].sort();
   const reviewed=canon.filter(c=>c.status==='published').length;
-  const available=canon.filter(c=>availableIds.has(c.id) && (locale === 'en' ? (!c.gated || gate) : !c.gated)).length;
+  const available=canon.filter(c=>availableIds.has(c.id) && (!c.gated || gate)).length;
   const writtenVisible=visible.filter(c=>availableIds.has(c.id)).length;
   const plannedVisible=visible.filter(c=>!availableIds.has(c.id)).length;
 

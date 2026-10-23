@@ -1,0 +1,198 @@
+{
+  "status": "human-language-and-read-aloud-approved",
+  "reviewer": "rama",
+  "reviewedOn": "2026-10-14",
+  "userStatement": "looks good. Approved.  all the stories are 6 min long. go ahead and review",
+  "scope": "The six-story Hindi/Tamil packet shown to the user; language approval bound to the exact candidate content hashes. No blanket approval for the rest of the catalog.",
+  "editions": [
+    {
+      "key": "hi/andal-garland",
+      "candidateHash": "42572d2ad35a3262",
+      "sourceVersion": 1,
+      "sourceBlobSha1": "2c44ab1a6d0268fc398d61bd3a21df4fdb110e41",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "70ba59180d8eb957",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "hi/karaikkal-mangoes",
+      "candidateHash": "39fbbae8a2b4b060",
+      "sourceVersion": 2,
+      "sourceBlobSha1": "a4f294326e8fb0ad15486215d27dd5acff4c46d9",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "6b023853dbda9f12",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "hi/nammalvar-silence",
+      "candidateHash": "ca25b3901ec359ee",
+      "sourceVersion": 2,
+      "sourceBlobSha1": "01b0c0ba645d068c8609a5c1f0908866e11fc308",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "29a0b7d304a96e19",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "hi/nandanar-bull",
+      "candidateHash": "ec1e9d72475f3051",
+      "sourceVersion": 1,
+      "sourceBlobSha1": "4c743159f435479a30aaffc9efecbcae6bc9c5e1",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "84a16579bee748de",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "hi/pusalar-temple",
+      "candidateHash": "622186a4f709f33a",
+      "sourceVersion": 3,
+      "sourceBlobSha1": "d42c8ddeb7641e968c14f99e75782732190cd0f9",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "807d5aed61439bf9",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "hi/three-in-doorway",
+      "candidateHash": "871f5ff40bff739c",
+      "sourceVersion": 1,
+      "sourceBlobSha1": "55cf4ae2a61a6014a322fe89da7a665ab908fd75",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "02f30c7bfcb07763",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "ta/andal-garland",
+      "candidateHash": "62d12307f0ba82bd",
+      "sourceVersion": 1,
+      "sourceBlobSha1": "2c44ab1a6d0268fc398d61bd3a21df4fdb110e41",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "0c0f8b1c4162d429",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "ta/karaikkal-mangoes",
+      "candidateHash": "bd7a650e0896fbf0",
+      "sourceVersion": 2,
+      "sourceBlobSha1": "a4f294326e8fb0ad15486215d27dd5acff4c46d9",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "a4a32f37582c95ab",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "ta/nammalvar-silence",
+      "candidateHash": "ff32867e5442983e",
+      "sourceVersion": 2,
+      "sourceBlobSha1": "01b0c0ba645d068c8609a5c1f0908866e11fc308",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "530fa5af45278976",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "ta/nandanar-bull",
+      "candidateHash": "03144da16a005f5b",
+      "sourceVersion": 1,
+      "sourceBlobSha1": "4c743159f435479a30aaffc9efecbcae6bc9c5e1",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "19b81f5ada7915dd",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "ta/pusalar-temple",
+      "candidateHash": "7d26a221a48b376b",
+      "sourceVersion": 3,
+      "sourceBlobSha1": "d42c8ddeb7641e968c14f99e75782732190cd0f9",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "5a51b41f7f07d938",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    },
+    {
+      "key": "ta/three-in-doorway",
+      "candidateHash": "15f9ff3d9fe14b4e",
+      "sourceVersion": 1,
+      "sourceBlobSha1": "55cf4ae2a61a6014a322fe89da7a665ab908fd75",
+      "lengths": [
+        "short",
+        "full"
+      ],
+      "preTimingCandidateHash": "8ab2731aa3014fc0",
+      "measuredSeconds": {
+        "short": 180,
+        "full": 360
+      }
+    }
+  ],
+  "timing": {
+    "userStatement": "six min for full lenth and 3 min for short version - all approved",
+    "measuredSecondsApplied": true,
+    "short": 180,
+    "full": 360,
+    "provenance": "User supplied rendition-specific timings for all candidates in the reviewed six-story packet."
+  },
+  "sourceFidelity": "Remaining documented source issues still require review; not certified by this receipt.",
+  "publication": "none"
+}

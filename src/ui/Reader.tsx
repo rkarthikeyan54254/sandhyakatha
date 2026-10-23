@@ -36,10 +36,11 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
   const [age, setAge] = useState(8);
   const [shareState, setShareState] = useState<'idle' | 'copied'>('idle');
   const completionGuard = useRef(false);
-  const key = localized ? 'short' : (len === 'short' ? 'short' : 'full');
-  const r = story.lengths[key] ?? story.lengths.short ?? story.lengths.full;
+  const key = len === 'short' ? 'short' : 'full';
+  const r = story.lengths[key];
+  if (!r) return <p role="status">{ui.tellingUnavailable}</p>;
   const heardLabel = localized
-    ? `${copy.reviewedEdition} · ${r.minutes} ${copy.minutes}`
+    ? `${key === 'short' ? ui.short : ui.full} · ${r.minutes} ${copy.minutes}`
     : `${key === 'short' ? 'Short' : 'Full'} · ${r.minutes} min`;
   const canShare = !story.audience.gated;
 
@@ -142,12 +143,12 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
           )}
         </section>
 
-        {!localized && len === 'more' && next && (
+        {len === 'more' && next && (
           <button className="onemore" onClick={() => onRead(next.id)}>
-            <span className="eyebrow">One more, because they asked</span>
+            <span className="eyebrow">{ui.oneMoreHeading}</span>
             <h3>{next.title}</h3>
             <p>{next.tease}</p>
-            {story.linked?.next === next.id && <p className="link">Linked to tonight's: {story.linked.reason}.</p>}
+            {!localized && story.linked?.next === next.id && <p className="link">Linked to tonight's: {story.linked.reason}.</p>}
           </button>
         )}
 

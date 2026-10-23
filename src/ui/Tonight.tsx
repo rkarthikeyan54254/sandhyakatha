@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { accountCopy } from './account-copy';
+import FamilyControls from './FamilyControls';
 import type { Card, CanonRow } from '../lib/types';
 import { CORPUS_LABEL, STABILITY_NOTE } from '../lib/types';
 import type { Pick } from '../lib/picker';
@@ -10,7 +11,9 @@ import AccountPanel from './Account';
 import { Intro } from './Chrome';
 import { localeUi, localizedSourceWork, localizedSourceLocus, localizedPanchanga, localizedCount, type AppLocale } from '../lib/app-locale';
 
-export type Len = 'short' | 'full' | 'more';
+import StoryLength, { type StoryLengthChoice } from './StoryLength';
+
+export type Len = StoryLengthChoice;
 
 const SOURCE_PAGES = [
   { corpus: 'ramayana', href: '/ramayana/' },
@@ -50,15 +53,11 @@ interface Props {
 export default function Tonight(p: Props) {
   const { pick, pan, len, setLen, onRead, profile, child, heard, cards, canon, published } = p;
   const an = (n: number) => ([8, 11, 18].includes(n) ? 'an' : 'a');
-  const [armed, setArmed] = useState<string | null>(null);   // child id whose removal is one click from happening
-  const identityConflicts = P.duplicateIdConflicts(profile);
   const name = child?.name?.trim() ?? '';
   const s = pick?.story;
   const st = P.stats(profile, child?.id ?? null);
   const anniv = P.anniversary(profile, child?.id ?? null);
   const annivStory = anniv ? cards.find(c => c.id === anniv.storyId) : null;
-  const mins = s ? (len === 'short' ? s.minutes.short : len === 'full' ? s.minutes.full
-      : s.minutes.full + (pick!.alternates[0]?.minutes.short ?? 3)) : 0;
   const date = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' });
 
   /* Nothing new tonight is not the end of the evening. The stories they have
@@ -87,7 +86,10 @@ export default function Tonight(p: Props) {
     .filter(x => x.count >= 2);
 
   if (p.locale !== 'en') {
-    return <LocaleTonight locale={p.locale} pick={pick} cards={cards} pan={pan} onRead={onRead} onShelf={p.onShelf} observances={p.observances} />;
+    return <><LocaleTonight locale={p.locale} len={len} setLen={setLen} pick={pick} cards={cards} pan={pan} onRead={onRead} onShelf={p.onShelf} observances={p.observances} /><FamilyControls {...p} />
+      <div className="hair"><span className="eyebrow">{accountCopy(p.locale).heading}</span></div>
+      <AccountPanel locale={p.locale} account={p.account} syncing={p.syncing} pending={p.syncPending}
+        nudge={st.stories >= 3} onSignOut={p.onSignOut} onChanged={p.onAccountChanged} /></>;
   }
 
   return (
@@ -176,14 +178,8 @@ export default function Tonight(p: Props) {
             </div>
             {s.careNote && <p className="care"><b>Before you begin:</b> {s.careNote}</p>}
 
-            <div className="dial">
-              <div className="lbl"><span className="eyebrow">How long tonight</span><span>{mins} min aloud</span></div>
-              <div className="opts" role="group" aria-label="Story length">
-                <button aria-pressed={len === 'short'} onClick={() => setLen('short')}>Short<small>{s.minutes.short} min</small></button>
-                <button aria-pressed={len === 'full'} onClick={() => setLen('full')}>Full<small>{s.minutes.full} min</small></button>
-                <button aria-pressed={len === 'more'} onClick={() => setLen('more')}>One more<small>+ a linked story</small></button>
-              </div>
-            </div>
+            <StoryLength locale={p.locale} len={len} setLen={setLen} minutes={s.minutes}
+                         additionalMinutes={pick.alternates[0]?.minutes.short} />
             <button className="begin" onClick={() => onRead(s.id)}>
               Begin reading aloud
               <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
@@ -233,68 +229,10 @@ export default function Tonight(p: Props) {
         </nav>
       </>}
 
-      {identityConflicts.length > 0 ? <>
-        <div className="hair"><span className="eyebrow">Family profile needs repair</span></div>
-        {identityConflicts.map(conflict => {
-          const stories = Object.keys(profile.heard[conflict.id] ?? {}).length;
-          return (
-            <div className="account nudge" key={`repair-${conflict.id}`}>
-              <p className="lede">An earlier sync bug gave two child entries one stored history.</p>
-              <p>Nothing has been deleted. Because that history is stored under one shared internal id,
-                Sandhya Katha will not guess which child it belongs to.</p>
-              <p className="fine">Choose the child whose past {stories === 1 ? 'story' : `${stories} stories`} this history belongs to.
-                Both child entries will receive fresh ids; the recorded history moves only to the child you choose.</p>
-              {conflict.children.map((c, i) => (
-                <button key={`${i}-${c.name}-${c.age}`} className="ghost"
-                        onClick={() => p.repairChildConflict(conflict.id, i)}>
-                  Past reading belongs to {c.name.trim() || `the ${c.age}-year-old`}
-                </button>
-              ))}
-              <p className="fine">If those recorded stories include reading done with both children, do not choose yet.
-                Leave this as it is; the app will preserve the conflict rather than invent an attribution.</p>
-            </div>
-          );
-        })}
-      </> : profile.children.length > 0 && <>
-        <div className="hair"><span className="eyebrow">{profile.children.length > 1 ? 'Children' : 'Who you are reading to'}</span></div>
-        {profile.children.map(c => {
-          const nights = Object.keys(profile.heard[c.id] ?? {}).length;
-          return (
-            <div key={c.id} className={'kid' + (c.id === child?.id ? ' on' : '')}>
-              <button className="pickkid" onClick={() => p.setActive(c.id)} aria-pressed={c.id === child?.id}
-                      aria-label={`Read to ${c.name.trim() || 'this child'}`}>
-                <span className="dot" />
-              </button>
-              <input className="kidname" value={c.name} placeholder="Add a name"
-                     onChange={e => p.patchChild(c.id, { name: e.target.value })} />
-              <input className="kidage" type="number" min={3} max={15} value={c.age}
-                     aria-label="Age"
-                     onChange={e => p.patchChild(c.id, { age: +e.target.value })} />
-              <button className={'dropkid' + (armed === c.id ? ' armed' : '')}
-                      aria-label={armed === c.id
-                        ? `Confirm removing ${c.name.trim() || 'this child'}`
-                        : `Remove ${c.name.trim() || 'this child'}`}
-                      onClick={() => {
-                        if (!nights || armed === c.id) { setArmed(null); p.removeChild(c.id); }
-                        else setArmed(c.id);
-                      }}>
-                {armed === c.id ? `Remove, and ${nights} night${nights === 1 ? '' : 's'}?` : '×'}
-              </button>
-            </div>
-          );
-        })}
-        <button className="linkbtn add" onClick={() => p.addChild('', 8)}>+ Add another child</button>
-
-        <label className="set check">
-          <input type="checkbox" checked={profile.gate} onChange={e => p.setGate(e.target.checked)} />
-          <span>Include the difficult ones
-            <small>Siṟuttoṇḍar, Kaṇṇappar, Kōṭpuli and others. Nothing is cut from the collection — these simply
-              wait until you have read them yourself. Each tells you what is coming before you begin.</small></span>
-        </label>
-      </>}
+      <FamilyControls {...p} />
 
       <div className="hair"><span className="eyebrow">Keeping this</span></div>
-      <AccountPanel account={p.account} syncing={p.syncing} pending={p.syncPending} nudge={st.stories >= 3} onSignOut={p.onSignOut}
+      <AccountPanel locale={p.locale} account={p.account} syncing={p.syncing} pending={p.syncPending} nudge={st.stories >= 3} onSignOut={p.onSignOut}
                     onChanged={p.onAccountChanged} />
 
       <p className="foot">{published} of {canon.length} stories written.</p>
@@ -302,8 +240,10 @@ export default function Tonight(p: Props) {
   );
 }
 
-function LocaleTonight({ locale, pick, cards, pan, onRead, onShelf, observances }: {
+function LocaleTonight({ locale, len, setLen, pick, cards, pan, onRead, onShelf, observances }: {
   locale: Exclude<AppLocale,'en'>;
+  len: Len;
+  setLen: (length: Len) => void;
   pick: Pick | null;
   cards: Card[];
   pan: Panchanga;
@@ -353,8 +293,9 @@ function LocaleTonight({ locale, pick, cards, pan, onRead, onShelf, observances 
             )}
             <div className="meta">
               <span className="chip lit">{ui.reviewedEdition}</span>
-              <span className="chip val">{s.minutes.short} {ui.minutes}</span>
             </div>
+            <StoryLength locale={locale} len={len} setLen={setLen} minutes={s.minutes}
+                         additionalMinutes={pick.alternates[0]?.minutes.short} />
             <button className="begin" onClick={() => onRead(s.id)}>
               {ui.begin}
               <svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 10h11M11 6l4 4-4 4" /></svg>

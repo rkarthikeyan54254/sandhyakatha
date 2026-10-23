@@ -1,0 +1,314 @@
+{
+  "id": "karaikkal-mangoes",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 2,
+  "updated": "2026-10-14",
+  "title": "The Mango in Her Hand",
+  "tease": "Puṉitavati feeds a hungry guest with one of two mangoes. When her husband asks for another, she turns to Śiva. The fruit that comes to her hand changes their life together.",
+  "source": {
+    "corpus": "nayanmar",
+    "tradition": "tamil-shaiva",
+    "work": "Periya Purāṇam",
+    "locus": "Kāraikkāl Ammaiyār Purāṇam, 1722–1787 (Project Madurai numbering)",
+    "stability": "regional",
+    "traditionNote": "This telling follows the Tamil Periya Purāṇam account of Kāraikkāl Ammaiyār. The selected passage includes the husband asking for another mango to test her account, and that fruit disappearing from his hand. We restore that sequence here.",
+    "checkedAgainst": [
+      "Sēkkiḻār, Periya Purāṇam 1722–1787, section 5.4, Project Madurai pmuni0218.html; Tamil primary passage inspected 2026-10-14"
+    ],
+    "sourcing": [
+      {
+        "claim": "Puṉitavati lives at Kāraikkāl; her family and husband are merchants",
+        "locus": "Periya Purāṇam 1722–1736 (Project Madurai numbering)"
+      },
+      {
+        "claim": "Her husband receives two mangoes and sends them home",
+        "locus": "Periya Purāṇam 1737–1738 (Project Madurai numbering)"
+      },
+      {
+        "claim": "An elderly hungry devotee arrives; rice is ready but the other dishes are not; she serves him rice and one mango",
+        "locus": "Periya Purāṇam 1738–1742 (Project Madurai numbering)"
+      },
+      {
+        "claim": "Her husband eats the remaining ordinary mango, enjoys it, and asks for the other",
+        "locus": "Periya Purāṇam 1743–1745 (Project Madurai numbering)"
+      },
+      {
+        "claim": "She turns to Śiva and a mango comes into her hand",
+        "locus": "Periya Purāṇam 1746 (Project Madurai numbering)"
+      },
+      {
+        "claim": "The miraculous fruit tastes unlike the original; he asks its origin and she tells what happened",
+        "locus": "Periya Purāṇam 1747–1749 (Project Madurai numbering)"
+      },
+      {
+        "claim": "He asks for another fruit to test her account; she prays again; a fruit appears and vanishes from his hand",
+        "locus": "Periya Purāṇam 1750–1752 (Project Madurai numbering)"
+      },
+      {
+        "claim": "He is frightened, leaves on a trading voyage, remarries in the south, and names his daughter Puṉitavati",
+        "locus": "Periya Purāṇam 1752–1759 (Project Madurai numbering)"
+      },
+      {
+        "claim": "At a later reunion, he bows with his second wife and daughter, regarding Puṉitavati as divine",
+        "locus": "Periya Purāṇam 1761–1768 (Project Madurai numbering)"
+      },
+      {
+        "claim": "She asks Śiva for a pēy form for his service and is granted a skeletal body",
+        "locus": "Periya Purāṇam 1769–1773 (Project Madurai numbering)"
+      },
+      {
+        "claim": "She travels north to Kailāsa and ascends on her head; Śiva addresses her as Mother",
+        "locus": "Periya Purāṇam 1774–1779 (Project Madurai numbering)"
+      },
+      {
+        "claim": "Pārvatī sees her ascent and marvels at her devotion before Śiva addresses her",
+        "locus": "Periya Purāṇam 1777–1779 (Project Madurai numbering)"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "whether the testing mango scene is included in this retelling",
+        "tellings": "The previous Sandhya Katha edition omitted it and called it a later addition. The chosen Tamil witness includes the scene at 1750–1752. This is a correction to our source selection, not a claim about all other recensions.",
+        "weTell": "The sequence in the selected Tamil witness, with both the request and the disappearance."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "parental-conflict",
+      "gender-norms"
+    ],
+    "gated": false,
+    "careNote": "A marriage ends; the husband remarries and later bows to Puṉitavati. She asks Śiva for a form for his service and receives a body of bones. The transformation is stated without graphic detail."
+  },
+  "values": [
+    "a guest fed before the household",
+    "what a person asks for and is given"
+  ],
+  "themes": [
+    "nayanmar",
+    "tamil",
+    "giving",
+    "a name that was earned"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 6
+  },
+  "characters": [
+    {
+      "ref": "Kāraikkāl Ammaiyār",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "present"
+    },
+    {
+      "ref": "Pārvatī",
+      "role": "present"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 301,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Puṉitavati» lived in Kāraikkāl and welcomed devotees of «Śiva» to her home. One day her husband sent home two mangoes. Then an elderly, hungry devotee arrived."
+        },
+        {
+          "t": "p",
+          "text": "She brought water so the guest could wash his feet, then set out his meal. His hunger could be met with what she already had in the house."
+        },
+        {
+          "t": "p",
+          "text": "The rice was cooked, but the other dishes were not ready. Puṉitavati served the guest rice and one mango. He ate and went away pleased."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Her husband came home and ate the remaining mango. It tasted good, and he asked for the other one. But that fruit had already been given to the guest."
+        },
+        {
+          "t": "p",
+          "text": "Puṉitavati went inside and turned to Śiva. A mango came into her hand. She brought it to her husband, who found its taste quite unlike the original fruit."
+        },
+        {
+          "t": "p",
+          "text": "He asked where it came from. She hesitated to speak of that grace, but wanted to answer truthfully. She told him what had happened."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He asked her to seek another fruit from Śiva. She prayed again; a mango appeared, and she placed it in his hand. Then it vanished."
+        },
+        {
+          "t": "p",
+          "text": "Her husband was frightened and regarded her as divine. He went away on a trading voyage and later married again in the south. He named his daughter Puṉitavati."
+        },
+        {
+          "t": "p",
+          "text": "When Puṉitavati later came with her relatives to meet him, he bowed before her with his second wife and daughter. He explained that he regarded her as divine."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Puṉitavati asked Śiva for an attendant’s form for his service. He granted her a body of bones. She sang in devotion and travelled to «Kailāsa», going up the mountain on her head."
+        },
+        {
+          "t": "p",
+          "text": "Śiva welcomed her with the word _Ammai_—Mother. We remember her as «Kāraikkāl Ammaiyār»."
+        },
+        {
+          "t": "slow",
+          "text": "Before any of those mangoes came through prayer, she had already fed the hungry guest."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 662,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Puṉitavati» lived in Kāraikkāl, a town on the sea coast. Her father and her husband were merchants. When devotees of «Śiva» came to her house, she welcomed them and gave them what they needed."
+        },
+        {
+          "t": "p",
+          "text": "One day, her husband received two mangoes. He sent them home, and Puṉitavati put them aside. There were two fruits in the house when a hungry guest arrived."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He was an elderly devotee of Śiva. Age and hunger had tired him. Puṉitavati brought water for him to wash his feet and prepared to serve him a meal."
+        },
+        {
+          "t": "p",
+          "text": "The rice was ready, but the other dishes were not. She took one of the two mangoes and served it with the rice. The guest ate the meal she had given him and went away pleased."
+        },
+        {
+          "t": "p",
+          "text": "Now one mango was left. It was the fruit she would serve when her husband came home. She had already used the other to feed the person who had arrived hungry."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Her husband came home at midday. He bathed, then sat down to eat. Puṉitavati served the meal and brought him the remaining mango."
+        },
+        {
+          "t": "p",
+          "text": "He enjoyed its sweet taste. He knew he had sent two mangoes to the house, and wanted to eat the other one too. He asked her to bring it."
+        },
+        {
+          "t": "p",
+          "text": "Puṉitavati went inside. There was no other fruit to bring: the guest had eaten it. She turned her thoughts to Śiva, who helps those who seek him."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "A mango came into her hand through his grace. She brought it to her husband and served it. He tasted it, and this fruit was different from the one he had just eaten."
+        },
+        {
+          "t": "p",
+          "text": "He could not find that taste in an ordinary mango. The fruit he had sent home and this new fruit were not the same. He asked where she had obtained it."
+        },
+        {
+          "t": "p",
+          "text": "Puṉitavati hesitated to speak of the grace she had received. But she also wanted to answer her husband truthfully. She bowed to Śiva in her heart and told him how the fruit had come."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Her husband was not yet convinced. _If this came through Śiva’s grace, ask him for another fruit,_ he said. He wanted to test the account she had just given him."
+        },
+        {
+          "t": "p",
+          "text": "She prayed again. If no fruit came, her words would be taken as a lie. Another mango appeared, and this time she placed it in her husband’s hand."
+        },
+        {
+          "t": "p",
+          "text": "He received it in wonder. Then the mango was no longer in his hand. The fruit that had appeared had vanished, and he became frightened."
+        },
+        {
+          "t": "p",
+          "text": "After that, he did not regard Puṉitavati as an ordinary wife. He thought of her as divine. He kept his wish to leave to himself and began arranging a trading voyage."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "He travelled by ship and eventually made his home in the south. There he married again. When a daughter was born, he gave her Puṉitavati’s name, remembering his first wife with reverence."
+        },
+        {
+          "t": "p",
+          "text": "Later, Puṉitavati’s relatives learned where he was living. They took her to meet him. When he heard that she had arrived, he came with his second wife and their daughter."
+        },
+        {
+          "t": "p",
+          "text": "All three bowed before her. Her relatives were astonished to see her husband do this. He explained that he regarded her as divine, and that his little daughter bore her name."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Their married life would not return to what it had been. Puṉitavati turned to Śiva and asked for the form of one of his attendants, a form devoted to his service. He granted her the body of bones she had asked for."
+        },
+        {
+          "t": "p",
+          "text": "She sang in devotion to him and travelled north to «Kailāsa». As she approached the mountain where Śiva dwells, she left walking on her feet and went upward on her head."
+        },
+        {
+          "t": "p",
+          "text": "«Pārvatī» saw her coming and marvelled at her devotion. Śiva spoke of the one who cherished him, then addressed Puṉitavati with a word of honor: _Ammai_—Mother."
+        },
+        {
+          "t": "slow",
+          "text": "We remember her as «Kāraikkāl Ammaiyār». The devotee who had fed a hungry guest was now welcomed by Śiva as Mother."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "pusalar-temple",
+    "reason": "the other Tamil one about a person with nothing to give who gives it anyway"
+  },
+  "close": {
+    "question": "What would you find hardest to give away if someone arrived hungry?",
+    "seed": "She fed the guest before she knew what would happen afterward.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did her husband go away?",
+        "a": "After the fruit vanished, he became frightened and regarded Puṉitavati as divine. He left, remarried, and named his daughter after her. At their later meeting he bowed to her with his second wife and daughter. Their marriage ends in the account; we do not turn his departure into her fault."
+      },
+      {
+        "q": "Did Śiva really give her those mangoes?",
+        "a": "The Periya Purāṇam says a fruit came through his grace when she turned to him. It also describes a further fruit appearing after her husband asked for another, and disappearing from his hand. Those are the events in the passage this telling follows."
+      },
+      {
+        "q": "Why is she called Mother?",
+        "a": "When she reaches Kailāsa, Śiva speaks of her devotion and addresses her as Ammai, Mother. Ammaiyār is the respectful name by which she is remembered. The account honors the devotee he welcomes."
+      }
+    ]
+  }
+}

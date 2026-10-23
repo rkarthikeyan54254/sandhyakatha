@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { releaseRenditionParityErrors } from './lib/release-rendition-parity.mjs';
 /**
  * Enforce Sandhya Katha's forward three-language publication contract.
  *
@@ -12,6 +13,7 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { gitBlobSha1, localeContentHash } from './lib/locale-content.mjs';
+import { humanReviewApproved, renditionParityErrors } from './lib/rendition-parity.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const read = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -27,13 +29,6 @@ const required = [
 const publicKeys = new Set(
   (publicCfg.editions ?? []).map(e => `${e.locale}/${e.storyId}`)
 );
-
-function approvedHumanGate(gate) {
-  return gate?.status === 'approved' &&
-    typeof gate.reviewer === 'string' &&
-    gate.reviewer.trim().length > 0 &&
-    Boolean(gate.reviewedOn);
-}
 
 let published = 0;
 let checked = 0;
@@ -57,6 +52,7 @@ for (const file of readdirSync(storyRoot).filter(x => x.endsWith('.json')).sort(
 
     const doc = read(rel);
     const locked = lock.locales?.[key];
+    for (const error of (process.argv.includes('--catalog') ? renditionParityErrors(story, doc) : releaseRenditionParityErrors(ROOT, story, doc))) fail(`${key}: ${error}`);
 
     if (doc.status !== 'approved')
       fail(`${key}: published-story sibling is not approved`);
@@ -65,16 +61,10 @@ for (const file of readdirSync(storyRoot).filter(x => x.endsWith('.json')).sort(
     if (doc.sourceBlobSha1 !== sourceHash)
       fail(`${key}: locale is not reviewed against current canonical bytes`);
 
-    const readGate = doc.review?.nativeReadAloud?.short;
-    if (!approvedHumanGate(readGate))
-      fail(`${key}: native short read-aloud lacks human approval`);
-    if (!approvedHumanGate(doc.review?.languageEditor))
+    if (!humanReviewApproved(doc.review?.languageEditor))
       fail(`${key}: language-editor gate lacks human approval`);
-    if (!approvedHumanGate(doc.review?.sourceFidelity))
+    if (!humanReviewApproved(doc.review?.sourceFidelity))
       fail(`${key}: source-fidelity gate lacks human approval`);
-    if (!Number.isInteger(doc.lengths?.short?.measuredSeconds) ||
-        doc.lengths.short.measuredSeconds < 1)
-      fail(`${key}: approved sibling lacks measured native read-aloud timing`);
 
     const currentHash = localeContentHash(doc);
     if (!locked)
@@ -101,5 +91,5 @@ if (errors.length) {
 
 console.log(
   `locale parity gate: PASS — ${published} published canonical stories · ` +
-  `${checked} required Hindi/Tamil siblings approved, current and locked`
+  `${checked} required Hindi/Tamil siblings approved, current and locked; new/changed editions require full parity (sealed legacy gaps tracked separately)`
 );

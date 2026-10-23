@@ -1,0 +1,13 @@
+{
+  "scope": "New story only; isolated runtime/static fixture. Does not bypass or certify catalog-wide production release.",
+  "checks": [
+    "hi: full/short, timings, approvals, exact source pin and lock PASS",
+    "ta: full/short, timings, approvals, exact source pin and lock PASS",
+    "build-runtime-locales: PASS in new-story fixture",
+    "runtime-locale-gates: PASS in new-story fixture",
+    "prerender-public-locales: PASS in new-story fixture",
+    "public-locale-gates: PASS in new-story fixture",
+    "All native runtime blocks match reviewed Short and Full; actual public renderers/gates PASS",
+    "English public rendition sections preserve both complete tellings PASS"
+  ]
+}
