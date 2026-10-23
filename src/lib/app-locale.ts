@@ -7,6 +7,7 @@ export interface LocaleCatalogStory {
   title: string;
   tease: string;
   minutes: number;
+  renditionMinutes?: Record<string, number>;
   storyRevision: string;
   publicPath: string;
 }
@@ -77,6 +78,14 @@ export interface LocaleUi {
   minutes: string;
   integrity: string;
   calendarSource: string;
+  storyLength: string;
+  howLong: string;
+  short: string;
+  full: string;
+  oneMore: string;
+  linkedStory: string;
+  oneMoreHeading: string;
+  tellingUnavailable: string;
   reader: ReaderUi;
 }
 
@@ -100,6 +109,10 @@ const UI: Record<AppLocale, LocaleUi> = {
     minutes: 'min aloud',
     integrity: 'Every story is written and source-checked before it appears here.',
     calendarSource: 'Calendar source',
+    storyLength: 'Story length', howLong: 'How long tonight',
+    short: 'Short', full: 'Full', oneMore: 'One more',
+    linkedStory: '+ a linked story', oneMoreHeading: 'One more, because they asked',
+    tellingUnavailable: 'This telling is not available yet.',
     reader: {
       reviewedEdition: 'Source-checked edition',
       minutes: 'min',
@@ -153,6 +166,10 @@ const UI: Record<AppLocale, LocaleUi> = {
     minutes: 'मिनट · पढ़कर सुनाने के लिए',
     integrity: 'यहाँ केवल वही हिन्दी कहानियाँ आती हैं जिनकी भाषा, पढ़कर सुनाने और मूल स्रोत—तीनों की समीक्षा पूरी हो चुकी है।',
     calendarSource: 'पंचांग स्रोत',
+    storyLength: 'कहानी की अवधि', howLong: 'आज कितना समय है?',
+    short: 'छोटी कहानी', full: 'पूरी कहानी', oneMore: 'एक और',
+    linkedStory: '+ जुड़ी हुई कहानी', oneMoreHeading: 'उन्होंने एक और कहानी माँगी',
+    tellingUnavailable: 'कहानी का यह रूप अभी उपलब्ध नहीं है।',
     reader: {
       reviewedEdition: 'समीक्षित हिन्दी संस्करण',
       minutes: 'मिनट',
@@ -206,6 +223,10 @@ const UI: Record<AppLocale, LocaleUi> = {
     minutes: 'நிமிடம் · வாசித்துச் சொல்ல',
     integrity: 'மொழி, வாசித்துச் சொல்லும் சோதனை, மூல ஆதார ஒப்பீடு ஆகியவை முடிந்த தமிழ் கதைகள் மட்டுமே இங்கே வரும்.',
     calendarSource: 'பஞ்சாங்க ஆதாரம்',
+    storyLength: 'கதையின் நீளம்', howLong: 'இன்றிரவு எவ்வளவு நேரம் இருக்கிறது?',
+    short: 'சுருக்கமாக', full: 'முழுக் கதை', oneMore: 'இன்னொரு கதை',
+    linkedStory: '+ தொடர்புடைய கதை', oneMoreHeading: 'இன்னொரு கதை கேட்டார்கள்',
+    tellingUnavailable: 'கதையின் இந்த வடிவம் இன்னும் கிடைக்கவில்லை.',
     reader: {
       reviewedEdition: 'மதிப்பாய்வு செய்யப்பட்ட தமிழ் பதிப்பு',
       minutes: 'நிமிடம்',
@@ -319,7 +340,7 @@ export function cardsForAppLocale(
       ...card,
       title: row.title,
       tease: row.tease,
-      minutes: { ...card.minutes, short: row.minutes }
+      minutes: row.renditionMinutes ? { ...row.renditionMinutes } : { short: row.minutes }
     }];
   });
 }

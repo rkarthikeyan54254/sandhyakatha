@@ -191,7 +191,6 @@ export default function App() {
     const currentStory = open;
     persistAppLocale(next);
     setAppLocale(next);
-    setLen(next === 'en' ? 'full' : 'short');
 
     // Language is an edition of the current product state, not a route back to
     // Tonight. On a story, switch the same canonical story in place whenever a
@@ -224,8 +223,7 @@ export default function App() {
   useEffect(() => {
     if (typeof document !== 'undefined')
       document.documentElement.lang = localeUi(appLocale).language;
-    if (appLocale !== 'en' && len !== 'short') setLen('short');
-  }, [appLocale, len]);
+  }, [appLocale]);
 
   // The back button should go back a screen, not leave the site. On Android it
   // is a hardware button and this is the commonest way out of a PWA by accident.
@@ -298,9 +296,9 @@ export default function App() {
         story_id: s.id,
         corpus: s.source.corpus,
         from: tab,
-        mode: appLocale === 'en' ? analyticsMode(len) : 'short',
+        mode: analyticsMode(len),
         repeat: !!heard[id],
-        one_more: appLocale === 'en' && len === 'more',
+        one_more: len === 'more',
         locale: appLocale,
         ...retention
       });
@@ -320,7 +318,7 @@ export default function App() {
       from,
       mode: analyticsMode(len),
       repeat: !!(current && P.heardOf(profile, current.id)[storyId]),
-      one_more: (open?.locale ?? 'en') === 'en' && len === 'more',
+      one_more: len === 'more',
       locale: open?.locale ?? 'en'
     });
 
@@ -467,7 +465,7 @@ export default function App() {
       <LanguageBar locale={appLocale} onLocale={chooseLocale} />
       <main id="main" key={open ? open.id : tab}>
         {open ? (
-          <Reader story={open} lex={lex} len={len} next={nextCard} locale={appLocale}
+          <Reader key={open.id} story={open} lex={lex} len={len} next={nextCard} locale={appLocale}
                   tomorrow={tomorrowForOpen}
                   readBefore={readerWasReadBefore}
                   hasProfile={!!child}

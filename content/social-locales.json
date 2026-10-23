@@ -322,13 +322,17 @@
         },
         "pusalar-temple": {
           "hook": {
-            "from": "title",
-            "mode": "full"
+            "from": "tease",
+            "mode": "firstSentence"
           },
           "blocks": [
             {
-              "index": 1,
-              "mode": "full"
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
             },
             {
               "index": 5,
@@ -336,16 +340,11 @@
             },
             {
               "index": 7,
-              "mode": "full"
+              "mode": "firstSentence"
             },
             {
-              "index": 10,
-              "mode": "sentence",
-              "sentence": 2
-            },
-            {
-              "index": 12,
-              "mode": "full"
+              "index": 9,
+              "mode": "firstSentence"
             }
           ]
         },
@@ -1275,8 +1274,8 @@
         },
         "karaikkal-mangoes": {
           "hook": {
-            "from": "title",
-            "mode": "full"
+            "from": "tease",
+            "mode": "firstSentence"
           },
           "blocks": [
             {
@@ -1296,7 +1295,7 @@
               "mode": "firstSentence"
             },
             {
-              "index": 9,
+              "index": 10,
               "mode": "firstSentence"
             }
           ]
@@ -2401,6 +2400,34 @@
             },
             {
               "index": 15,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ravana-last-rites": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 12,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 18,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 24,
               "mode": "firstSentence"
             }
           ]
@@ -2739,13 +2766,17 @@
         },
         "pusalar-temple": {
           "hook": {
-            "from": "title",
-            "mode": "full"
+            "from": "tease",
+            "mode": "firstSentence"
           },
           "blocks": [
             {
-              "index": 1,
-              "mode": "full"
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
             },
             {
               "index": 5,
@@ -2753,16 +2784,11 @@
             },
             {
               "index": 7,
-              "mode": "full"
+              "mode": "firstSentence"
             },
             {
-              "index": 10,
-              "mode": "sentence",
-              "sentence": 2
-            },
-            {
-              "index": 12,
-              "mode": "full"
+              "index": 9,
+              "mode": "firstSentence"
             }
           ]
         },
@@ -3692,8 +3718,8 @@
         },
         "karaikkal-mangoes": {
           "hook": {
-            "from": "title",
-            "mode": "full"
+            "from": "tease",
+            "mode": "firstSentence"
           },
           "blocks": [
             {
@@ -3713,7 +3739,7 @@
               "mode": "firstSentence"
             },
             {
-              "index": 9,
+              "index": 10,
               "mode": "firstSentence"
             }
           ]
@@ -4814,6 +4840,34 @@
             },
             {
               "index": 16,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "ravana-last-rites": {
+          "hook": {
+            "from": "tease",
+            "mode": "firstSentence"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 6,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 13,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 19,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 25,
               "mode": "firstSentence"
             }
           ]

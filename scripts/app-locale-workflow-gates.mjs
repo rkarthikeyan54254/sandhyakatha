@@ -16,6 +16,7 @@ for (const rel of [
   'src/ui/Chrome.tsx',
   'src/ui/Tonight.tsx',
   'src/ui/Reader.tsx',
+  'src/ui/StoryLength.tsx',
   'src/ui/Shelf.tsx',
   'src/ui/Constellation.tsx',
   'src/ui/Why.tsx',
@@ -54,6 +55,12 @@ const chooseEnd=app.indexOf('useEffect(() =>',chooseStart);
 const chooseBlock=chooseStart>=0&&chooseEnd>chooseStart?app.slice(chooseStart,chooseEnd):'';
 if (chooseBlock.includes("setTab('tonight')") || chooseBlock.includes("pushTabPath('tonight')"))
   fail('changing language must preserve the current section instead of returning to Tonight');
+if (!app.includes('<Reader key={open.id}'))
+  fail('Reader completion state must reset for a new canonical story, preserving the same story across languages');
+
+// Selected duration is independent of language, for opening and completing stories.
+for (const token of ["setLen(next === 'en'", "if (appLocale !== 'en' && len", "mode: appLocale === 'en' ?", "one_more: appLocale === 'en' &&", "one_more: (open?.locale ?? 'en') === 'en' &&"])
+  if (app.includes(token)) fail(`language-specific rendition downgrade remains: ${token}`);
 
 // Product parity: locale is a property of the whole app, not only Tonight/Reader.
 const localeUi = source('src/lib/app-locale.ts');
@@ -67,6 +74,8 @@ for (const token of [
   'locale?: AppLocale','localizedCorpusLabel','localizedTraditionLabel','localizedSourceWork','availableIds',
   'ageFilter','careFilter','forAge','sensitivities',"c.minAge > forAge","c.sensitivity.includes(care)"
 ]) if (!shelf.includes(token)) fail(`shared Shelf discovery parity missing: ${token}`);
+if (shelf.includes("locale !== 'en' && c.gated"))
+  fail('locale Shelf must use the same parent-controlled difficult-story gate');
 if (shelf.includes('5 reviewed stories')) fail('Shelf must never hard-code locale corpus size');
 
 const map = source('src/ui/Constellation.tsx');
@@ -78,6 +87,12 @@ for (const token of ["locale?: AppLocale","'hi-IN'","'ta-IN'","சாட்ப�
   if (!why.includes(token)) fail(`Why native product copy missing: ${token}`);
 
 const reader = source('src/ui/Reader.tsx');
+for (const token of ["localized ? 'short'", "story.lengths[key] ??", "!localized && len === 'more'"])
+  if (reader.includes(token)) fail(`Reader hides requested locale rendition: ${token}`);
+const lengthControls = source('src/ui/StoryLength.tsx');
+for (const token of ["setLen('short')", "setLen('full')", "setLen('more')", 'ui.storyLength'])
+  if (!lengthControls.includes(token)) fail(`shared rendition controls missing: ${token}`);
+if (!localeUi.includes('row.renditionMinutes')) fail('locale catalog must supply actual rendition durations');
 if (!reader.includes('localizedSourceWork') || !reader.includes('localizedSourceLocus'))
   fail('Reader must render native source metadata while retaining canonical evidence');
 for (const token of ['localized ? <>','copy.pronunciation','copy.nameHelp','story.displayNames?.[say.term]'])
@@ -95,6 +110,18 @@ for (const token of ['aria-label={homeLabel}','aria-label={ui.readIn}','aria-lab
   if (!chrome.includes(token)) fail(`shared chrome native accessibility label missing: ${token}`);
 
 const tonight = source('src/ui/Tonight.tsx');
+if ((tonight.match(/<AccountPanel locale=\{p.locale\}/g) ?? []).length !== 2)
+  fail('English and native Tonight must both expose locale-aware account access');
+if (!source('src/ui/Account.tsx').includes('accountCopy(locale)'))
+  fail('AccountPanel must use native account and backup copy');
+if ((tonight.match(/<FamilyControls /g) ?? []).length !== 2)
+  fail('English and native Tonight must both expose the shared family controls');
+const family = source('src/ui/FamilyControls.tsx');
+for (const token of ['familyCopy(p.locale)', 'p.setActive(c.id)', 'p.patchChild(c.id',
+  'p.addChild', 'p.removeChild(c.id)', 'p.repairChildConflict(conflict.id, i)', 'p.setGate'])
+  if (!family.includes(token)) fail(`shared family action missing: ${token}`);
+if ((tonight.match(/<StoryLength /g) ?? []).length !== 2)
+  fail('English and native Tonight must both expose shared length controls');
 if (!tonight.includes('pan: Panchanga') || !tonight.includes('localeReason(pick.reason, locale)'))
   fail('locale Tonight must preserve date/panchanga and Why-tonight structure');
 for (const token of ['localizedPanchanga','localizedSourceWork','localizedSourceLocus','onShelf'])

@@ -1,54 +1,54 @@
+import { accountCopy } from './account-copy';
+import type { AppLocale } from '../lib/app-locale';
 import { useEffect, useState } from 'react';
 import { signInWithGoogle, createRecoveryCode, useRecoveryCode, authConfig,
          type AuthConfig, type Account as Acct } from '../lib/sync';
 import { track } from '../lib/track';
 
-export default function Account({ account, syncing, pending, nudge, onChanged, onSignOut }: {
-  account: Acct | null; syncing: boolean; pending: boolean; nudge: boolean; onChanged: () => void;
+export default function Account({ account, syncing, pending, nudge, onChanged, onSignOut, locale = 'en' }: {
+  locale?: AppLocale; account: Acct | null; syncing: boolean; pending: boolean; nudge: boolean; onChanged: () => void;
   onSignOut: () => Promise<'ok' | 'unsaved'>;
 }) {
+  const copy = accountCopy(locale);
   const [cfg, setCfg] = useState<AuthConfig | null>(null);
   const [mode, setMode] = useState<'none' | 'code'>('none');
   const [code, setCode] = useState('');
   const [made, setMade] = useState<string | null>(null);
-  const [err, setErr] = useState<string | null>(null);
+  const [err, setErr] = useState<'unconfigured' | 'unsaved' | 'createError' | 'codeError' | null>(null);
   const [busy, setBusy] = useState(false);
 
   useEffect(() => { void authConfig().then(setCfg); }, [account]);
   useEffect(() => {
     if (new URL(window.location.href).searchParams.get('signin') === 'unconfigured')
-      setErr('Sign-in is not switched on for this site yet.');
+      setErr('unconfigured');
   }, []);
 
   if (account) return (
     <div className="account in">
-      <p><b>Signed in</b>{account.email ? ` as ${account.email}` : ' with a recovery code'}. {syncing ? 'Syncing…' : pending ? 'Saved on this device — backup pending.' : 'Everything is backed up.'}</p>
-      <p className="fine">Signing out clears this history from this browser. It stays in your account and
-        comes back when you sign in again — which is what keeps a shared computer safe.</p>
+      <p><b>{copy.signedIn}</b>{account.email ? ` · ${account.email}` : ` · ${copy.withCode}`}. {syncing ? copy.syncing : pending ? copy.pending : copy.backedUp}</p>
+      <p className="fine">{copy.signOutDetail}</p>
       <button className="linkbtn" disabled={busy} onClick={async () => {
         setBusy(true); setErr(null);
         const r = await onSignOut();
         setBusy(false);
         if (r === 'unsaved')
-          setErr('Could not save tonight to your account, so you are still signed in. Check your connection and try again.');
-      }}>{busy ? 'Signing out…' : 'Sign out'}</button>
-      {err && <p className="err">{err}</p>}
+          setErr('unsaved');
+      }}>{busy ? copy.signingOut : copy.signOut}</button>
+      {err && <p className="err">{copy[err]}</p>}
     </div>
   );
 
   if (cfg && !cfg.google && !cfg.code) return (
     <div className="account">
-      <p className="lede">Backup is unavailable here.</p>
-      <p>Your reading history is still safe in this browser. Everything works signed out; you can
-        keep reading and try account backup again later.</p>
+      <p className="lede">{copy.unavailable}</p>
+      <p>{copy.unavailableDetail}</p>
     </div>
   );
 
   return (
     <div className={'account' + (nudge ? ' nudge' : '')}>
-      <p className="lede">{nudge ? 'Keep this safe.' : 'Keep your family’s reading history across devices.'}</p>
-      <p>Signing in lets the same history follow you from laptop to tablet to phone. It is optional:
-        signed out, everything still works on this device.</p>
+      <p className="lede">{nudge ? copy.keepSafe : copy.keepHistory}</p>
+      <p>{copy.signInDetail}</p>
 
       {cfg?.google !== false && (
         <button className="google" disabled={!cfg} onClick={() => { track('signin_started', { method: 'google' }); signInWithGoogle(); }}>
@@ -58,47 +58,44 @@ export default function Account({ account, syncing, pending, nudge, onChanged, o
             <path fill="#FBBC05" d="M3.9 10.7a5.4 5.4 0 0 1 0-3.4V5H.9a9 9 0 0 0 0 8l3-2.3z"/>
             <path fill="#EA4335" d="M9 3.6c1.3 0 2.5.5 3.4 1.3l2.6-2.6A9 9 0 0 0 .9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z"/>
           </svg>
-          {cfg ? 'Continue with Google' : 'Checking…'}
+          {cfg ? copy.google : copy.checking}
         </button>
       )}
 
       {cfg?.code && mode === 'none' &&
-        <button className="linkbtn" onClick={() => setMode('code')}>Rather not use Google?</button>}
+        <button className="linkbtn" onClick={() => setMode('code')}>{copy.alternate}</button>}
 
       {mode === 'code' && !made && (
         <div className="codebox">
-          <p>A recovery code is an account with no name attached. We never learn who you are —
-            but if you lose the code, we cannot get the history back for you. Write it down.</p>
+          <p>{copy.codeDetail}</p>
           <button className="ghost" disabled={busy} onClick={async () => {
             setBusy(true); setErr(null);
             try { setMade(await createRecoveryCode()); onChanged(); }
-            catch { setErr('Could not create a code. Try again in a moment.'); }
+            catch { setErr('createError'); }
             finally { setBusy(false); }
-          }}>Create a recovery code</button>
+          }}>{copy.create}</button>
           <form className="emailrow" onSubmit={async e => {
             e.preventDefault(); setBusy(true); setErr(null);
             try { await useRecoveryCode(code); onChanged(); }
-            catch (x) { setErr(x instanceof Error ? x.message : 'That code did not work.'); }
+            catch { setErr('codeError'); }
             finally { setBusy(false); }
           }}>
-            <input value={code} placeholder="lamp-squirrel-482193-…" onChange={e => setCode(e.target.value)} />
-            <button type="submit" disabled={busy || !code.trim()}>Use</button>
+            <input aria-label={copy.codeLabel} value={code} placeholder="lamp-squirrel-482193-…" onChange={e => setCode(e.target.value)} />
+            <button type="submit" disabled={busy || !code.trim()}>{copy.use}</button>
           </form>
         </div>
       )}
 
       {made && (
         <div className="codebox made">
-          <p className="lede">Write this down now.</p>
+          <p className="lede">{copy.writeDown}</p>
           <code>{made}</code>
-          <p>It is the only way back to this history. There is no reset, because there is nothing
-            we know about you to reset it against.</p>
+          <p>{copy.madeDetail}</p>
         </div>
       )}
 
-      {err && <p className="err">{err}</p>}
-      <p className="fine">If you sign in, we store only a first name, an age, and which stories were read.
-        Nothing else, and nothing is shared onward.</p>
+      {err && <p className="err">{copy[err]}</p>}
+      <p className="fine">{copy.privacy}</p>
     </div>
   );
 }

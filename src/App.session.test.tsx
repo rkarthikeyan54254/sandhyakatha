@@ -5,10 +5,10 @@ import * as P from './lib/profile';
 
 // Exercise the real App hooks, persistence effects and callback boundaries.
 // Only presentation is stubbed: no production browser/account is touched.
-const view = vi.hoisted(() => ({ props: null as any }));
+const view = vi.hoisted(() => ({ props: null as any, language: null as any, reader: null as any }));
 vi.mock('./ui/Tonight', () => ({ default: (props: any) => { view.props = props; return null; } }));
-vi.mock('./ui/Chrome', () => ({ Header: () => null, LanguageBar: () => null, Tabs: () => null }));
-vi.mock('./ui/Reader', () => ({ default: () => null }));
+vi.mock('./ui/Chrome', () => ({ Header: () => null, LanguageBar: (props: any) => { view.language = props; return null; }, Tabs: () => null }));
+vi.mock('./ui/Reader', () => ({ default: (props: any) => { view.reader = props; return null; } }));
 vi.mock('./ui/Shelf', () => ({ default: () => null }));
 vi.mock('./ui/Constellation', () => ({ default: () => null }));
 vi.mock('./ui/Why', () => ({ default: () => null }));
@@ -23,6 +23,7 @@ let pauseLogout: (() => Promise<void>) | null;
 const response = (data: unknown, status = 200) => new Response(JSON.stringify(data), { status });
 const flush = () => act(async () => { await new Promise(resolve => setTimeout(resolve, 0)); });
 beforeEach(() => {
+  view.props = null; view.language = null; view.reader = null;
   disk = new Map(); owner = 'A'; failure = null; pausePut = null; pauseLogout = null;
   remote = { ...P.emptyProfile(), owner, children: [{ id: 'c', name: 'Alpha', age: 8 }], activeId: 'c',
     heard: { c: { old: '2026-09-01' } }, updatedAt: '2026-09-12T00:00:00.000Z' };
@@ -38,6 +39,40 @@ beforeEach(() => {
     remote = P.merge(JSON.parse(init.body as string), remote, { canonicalIdsFrom: 'b' });
     return response({ profile: remote });
   }));
+});
+
+it.each(['short', 'full', 'more'] as const)('preserves %s across English/Hindi/Tamil without editing family state', async len => {
+  const originalFetch = globalThis.fetch;
+  const card = { id: 'example', title: 'English', corpus: 'nayanmar', minAge: 6, gated: false,
+    calendar: {}, characters: [], values: [], minutes: { short: 3, full: 6 } };
+  const story = { ...card, source: { corpus: 'nayanmar' }, audience: { minAge: 6 }, lengths: {
+    short: { minutes: 3, blocks: [] }, full: { minutes: 6, blocks: [] } } };
+  const catalog = { schemaVersion: '1.0', locales: Object.fromEntries(['hi-IN', 'ta-IN'].map(locale => [locale, {
+    stories: [{ ...card, minutes: 3, renditionMinutes: { short: 3, full: 6 }, storyRevision: 'reviewed', publicPath: `/s/example/${locale.slice(0, 2)}/` }]
+  }])) };
+  (window as any).scrollTo = vi.fn();
+  vi.stubGlobal('fetch', vi.fn(async (url: string, init?: RequestInit) => {
+    if (url === '/data/index.json') return response({ stories: [card] });
+    if (url === '/data/locale-catalog.json') return response(catalog);
+    if (/^\/data\/(s|l)\//.test(url)) return response({ ...story,
+      locale: url.includes('/l/hi/') ? 'hi-IN' : url.includes('/l/ta/') ? 'ta-IN' : 'en' });
+    return originalFetch(url, init);
+  }));
+  await mount();
+  const before = JSON.stringify(P.load());
+  act(() => view.props.setLen(len));
+  await act(async () => { await view.props.onRead('example'); });
+  for (const locale of ['hi-IN', 'ta-IN', 'en']) {
+    await act(async () => { await view.language.onLocale(locale); });
+    expect(view.reader.len).toBe(len);
+    expect(view.reader.story.id).toBe('example');
+    expect(view.reader.story.locale).toBe(locale);
+    expect(JSON.stringify(P.load())).toBe(before);
+  }
+  await act(async () => { view.reader.onHeard('example'); }); await flush();
+  expect(P.load().heard.c.old).toBe('2026-09-01');
+  expect(P.load().heard.c.example).toBeTruthy();
+  expect(Object.keys(P.load().heard)).toEqual(['c']);
 });
 afterEach(() => { act(() => tree?.unmount()); vi.unstubAllGlobals(); });
 async function mount() { await act(async () => { tree = create(<App />); }); await flush(); }

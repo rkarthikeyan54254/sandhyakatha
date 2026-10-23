@@ -1,0 +1,388 @@
+{
+  "id": "ravana-last-rites",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-10-23",
+  "title": "The Enemy Who Was Still a Brother",
+  "tease": "Vibhīṣaṇa grieves for the brother he opposed. Rāma tells him that the funeral rites must still be performed.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Yuddha Kāṇḍa, received-text sargas 109 and 111",
+    "stability": "stable",
+    "traditionNote": "Received-text Yuddha 109 and 111 preserve both funeral instructions. Numbering is witness-specific. The ending reports Rāma setting aside anger; it does not require universal forgiveness. No complete recension collation is claimed.",
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, received text, Yuddha 109 and 111, K. M. K. Murthy prose translation at valmikiramayan.net, chapters inspected 2026-10-23; direct Sanskrit page retrieval pending",
+      "Earlier departure/refuge context: existing source-reviewed vibhishana-crosses, Yuddha 16–19"
+    ],
+    "sourcing": [
+      {
+        "claim": "Rāvaṇa lies fallen; Vibhīṣaṇa laments his crown, arms, earlier rejected counsel and strength.",
+        "locus": "6.109, opening lament"
+      },
+      {
+        "claim": "Rāma speaks of Rāvaṇa’s courage and the duty remaining.",
+        "locus": "6.109, Rama’s response"
+      },
+      {
+        "claim": "Vibhīṣaṇa recalls generosity, servants, friends, fires, austerity and study; requests funeral rites.",
+        "locus": "6.109, concluding exchange"
+      },
+      {
+        "claim": "Rāma declares enmity ended by death and directs the rites, identifying Rāvaṇa as belonging to him as to Vibhīṣaṇa.",
+        "locus": "6.109, concluding verse; 6.111, repeated instruction"
+      },
+      {
+        "claim": "Mandodarī mourns and names the abduction of Sītā and rejected counsel.",
+        "locus": "6.111, Mandodarī lament"
+      },
+      {
+        "claim": "Vibhīṣaṇa later objects because of Rāvaṇa’s wrongdoing; Rāma acknowledges it while again directing funeral duty.",
+        "locus": "6.111, exchange after women mourn"
+      },
+      {
+        "claim": "Priests, sacred fires, sandalwood and fragrant wood are gathered; a decorated bier is carried with Vibhīṣaṇa in front and mourning women following.",
+        "locus": "6.111, funeral preparation and procession"
+      },
+      {
+        "claim": "Funeral rites, water and sesame offering, bow, consolation and return follow.",
+        "locus": "6.111, funeral and return"
+      },
+      {
+        "claim": "Rāma sets aside weapons, armour and anger after victory.",
+        "locus": "6.111, final verse"
+      },
+      {
+        "claim": "Earlier Vibhīṣaṇa counsels return of Sītā and leaves to seek Rāma’s refuge.",
+        "locus": "6.16–19; existing reviewed vibhishana-crosses ledger"
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 9,
+    "sensitivity": [
+      "death",
+      "violence"
+    ],
+    "gated": false,
+    "careNote": "A brother mourns a death in battle. A funeral procession and cremation rites are described without graphic detail. Grief and dignity do not excuse the dead king’s wrongdoing."
+  },
+  "values": [
+    "dignity after conflict"
+  ],
+  "themes": [
+    "rama",
+    "vibhishana",
+    "grief",
+    "funeral duty"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "weight": 5
+  },
+  "characters": [
+    {
+      "ref": "Rāma",
+      "role": "lead"
+    },
+    {
+      "ref": "Vibhīṣaṇa",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "present"
+    },
+    {
+      "ref": "Mandodarī",
+      "role": "present"
+    },
+    {
+      "ref": "Sītā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "words": 302,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Vibhīṣaṇa» stood beside his brother."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa», the mighty king of «Laṅkā», had fallen in battle against «Rāma». His crown lay on the ground. His long arms were still."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa had warned him many times. He had begged Rāvaṇa to return «Sītā» and avoid this terrible war."
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa had refused."
+        },
+        {
+          "t": "p",
+          "text": "At last Vibhīṣaṇa had left his brother and joined Rāma."
+        },
+        {
+          "t": "p",
+          "text": "He knew his brother had been wrong."
+        },
+        {
+          "t": "p",
+          "text": "But now, looking at Rāvaṇa, he wept."
+        },
+        {
+          "t": "p",
+          "text": "He remembered the warrior his brother had been, the strength he had possessed, and the wisdom he had refused to use."
+        },
+        {
+          "t": "p",
+          "text": "Rāma listened to him."
+        },
+        {
+          "t": "p",
+          "text": "He reminded Vibhīṣaṇa that Rāvaṇa had fought bravely and that a duty remained to be performed."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa remembered that his brother had given generously, cared for his servants and studied the Vedas. Those things had not prevented his terrible choices. He asked permission to carry out the funeral rites."
+        },
+        {
+          "t": "p",
+          "text": "Then Rāma spoke."
+        },
+        {
+          "t": "p",
+          "text": "_Hostility ends with death. Our purpose has been accomplished. Let his funeral rites be performed._"
+        },
+        {
+          "t": "p",
+          "text": "_He is as much mine as yours._"
+        },
+        {
+          "t": "p",
+          "text": "Rāvaṇa's wife, «Mandodarī», mourned him too. She remembered his power and the counsel he had refused. She spoke of the wrong he had done in taking Sītā."
+        },
+        {
+          "t": "p",
+          "text": "Later, as the women of Laṅkā mourned, Vibhīṣaṇa hesitated again."
+        },
+        {
+          "t": "p",
+          "text": "He remembered Rāvaṇa's cruelty, his deceit, and the suffering his actions had brought. How could such a man deserve honour?"
+        },
+        {
+          "t": "p",
+          "text": "Rāma did not pretend Rāvaṇa had been righteous."
+        },
+        {
+          "t": "p",
+          "text": "But Rāvaṇa had died. The battle was finished."
+        },
+        {
+          "t": "p",
+          "text": "His funeral rites must still be performed."
+        },
+        {
+          "t": "p",
+          "text": "So Vibhīṣaṇa gathered the sacred fires, sandalwood, priests and funeral offerings."
+        },
+        {
+          "t": "p",
+          "text": "He led the procession, performed the rites, offered water and sesame, and bowed to his brother."
+        },
+        {
+          "t": "p",
+          "text": "Afterward he returned to Rāma."
+        },
+        {
+          "t": "p",
+          "text": "And Rāma put away his bow, his arrows and his armour."
+        },
+        {
+          "t": "slow",
+          "text": "He put away his anger as well."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "words": 652,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The great battle was over."
+        },
+        {
+          "t": "p",
+          "text": "On the ground lay «Rāvaṇa», king of «Laṅkā». His shining crown had fallen from his head. His long arms, once so powerful, were motionless."
+        },
+        {
+          "t": "p",
+          "text": "He had faced «Rāma» in battle. He had fought with all his strength. And now the mighty king would rise no more."
+        },
+        {
+          "t": "p",
+          "text": "His younger brother, «Vibhīṣaṇa», came to him."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa had urged Rāvaṇa to return «Sītā» and end the conflict. Rāvaṇa had refused to listen. Finally Vibhīṣaṇa had left Laṅkā and joined Rāma."
+        },
+        {
+          "t": "p",
+          "text": "He had stood against his brother because his brother was wrong. Now that brother lay before him."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa began to weep."
+        },
+        {
+          "t": "p",
+          "text": "He had opposed his brother and left him. He had warned him about the very course that had brought him here. Yet he could not look at Rāvaṇa lying on the ground and remember only an enemy."
+        },
+        {
+          "t": "p",
+          "text": "He looked at Rāvaṇa's fallen crown and the arms that had held mighty weapons."
+        },
+        {
+          "t": "p",
+          "text": "_You were a great warrior, he lamented. You were wise in the ways of kings. How have you come to lie upon the bare earth?_"
+        },
+        {
+          "t": "p",
+          "text": "He remembered his warnings. Others had offered counsel too. But pride and desire had led Rāvaṇa away from what was right."
+        },
+        {
+          "t": "p",
+          "text": "Yet Vibhīṣaṇa could not speak only of his faults. He remembered his brother's strength and greatness in battle."
+        },
+        {
+          "t": "p",
+          "text": "His grief poured out in images: a great tree brought down by a storm, a mighty elephant fallen, a blazing fire extinguished."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa knew his brother had chosen wrongly. But knowing that did not make his grief disappear."
+        },
+        {
+          "t": "p",
+          "text": "Rāma listened and spoke of Rāvaṇa's courage. This was no warrior who had abandoned the battle. He had fought fiercely until the end."
+        },
+        {
+          "t": "p",
+          "text": "Victory and defeat belonged to a warrior's life. No one had always been victorious. Now Vibhīṣaṇa must think of the duty that remained."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa spoke again. His brother had given generously, provided for his servants and shared wealth with friends."
+        },
+        {
+          "t": "p",
+          "text": "He had practised austerities, maintained sacred fires and studied the Vedas. These were part of the man Vibhīṣaṇa had known."
+        },
+        {
+          "t": "p",
+          "text": "He asked Rāma for permission to perform his brother's funeral rites."
+        },
+        {
+          "t": "p",
+          "text": "_Rāma answered: Hostility ends with death. Our purpose has been accomplished. Let his funeral rites be performed._"
+        },
+        {
+          "t": "p",
+          "text": "_He is as much mine as yours._"
+        },
+        {
+          "t": "p",
+          "text": "But the sorrow in Laṅkā was not finished. «Mandodarī», Rāvaṇa's wife, came to mourn him. The other women mourned too."
+        },
+        {
+          "t": "p",
+          "text": "Mandodarī remembered his immense power and the counsel he had refused. She spoke of his wrongful act in taking Sītā and the destruction it had brought. She loved her husband."
+        },
+        {
+          "t": "p",
+          "text": "And she knew that his actions had brought this sorrow."
+        },
+        {
+          "t": "p",
+          "text": "Rāma again urged Vibhīṣaṇa to perform the rites and comfort the grieving women."
+        },
+        {
+          "t": "p",
+          "text": "This time Vibhīṣaṇa hesitated. He spoke of Rāvaṇa's cruelty, deceit and disregard for dharma. How could he honour someone who had committed such wrongs?"
+        },
+        {
+          "t": "p",
+          "text": "He called Rāvaṇa an enemy wearing the appearance of a brother."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa did not want to honour what Rāvaṇa had done. But neither could he escape the duty now before him. His brother had been wrong, and he was dead; both things were before Vibhīṣaṇa as he spoke to Rāma."
+        },
+        {
+          "t": "p",
+          "text": "Rāma did not deny Rāvaṇa's wrongdoing. He acknowledged his acts against dharma, but also his courage in battle. Death had brought their enmity to its end."
+        },
+        {
+          "t": "p",
+          "text": "Rāma repeated his instruction: the last rites must be performed."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa went into Laṅkā. He gathered priests, sacred fires and the materials for the funeral."
+        },
+        {
+          "t": "p",
+          "text": "Sandalwood and fragrant wood were brought. Rāvaṇa's body was placed upon a decorated bier."
+        },
+        {
+          "t": "p",
+          "text": "Vibhīṣaṇa led the procession. Sacred fires were carried before the body. The women followed, weeping."
+        },
+        {
+          "t": "p",
+          "text": "At the funeral ground, the rites were performed. Vibhīṣaṇa made the final offerings, gave water mixed with sesame and bowed his head."
+        },
+        {
+          "t": "p",
+          "text": "He comforted the grieving women and returned to Rāma."
+        },
+        {
+          "t": "p",
+          "text": "The war had ended. Rāma laid aside his bow, his arrows and his armour."
+        },
+        {
+          "t": "slow",
+          "text": "He laid aside his anger too."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "vibhishana-crosses",
+    "reason": "The earlier moment when Rāma receives the brother who opposed Rāvaṇa."
+  },
+  "close": {
+    "question": "Have you ever been angry with someone for something they did, but still wanted to be kind to them? What made that difficult?",
+    "seed": "Someone's wrongdoing does not become right because we treat them with dignity.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Rāma forgive Rāvaṇa?",
+        "a": "The passage does not describe a formal pardon. Rāma says their hostility has ended and that Rāvaṇa deserves the proper funeral rites. That is different from approving of his actions."
+      },
+      {
+        "q": "Why does Vibhīṣaṇa ask for the rites and then hesitate?",
+        "a": "The selected chapters preserve both exchanges. He first seeks permission; after the women mourn, he objects because of his brother’s wrongdoing. Rāma again directs the rites. The story keeps this difficult sequence."
+      }
+    ]
+  }
+}

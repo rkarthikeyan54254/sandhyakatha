@@ -2558,6 +2558,36 @@
           }
         ]
       }
+    },
+    "ravana-last-rites": {
+      "reel": {
+        "hook": {
+          "from": "tease",
+          "mode": "firstSentence"
+        },
+        "blocks": [
+          {
+            "index": 1,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 5,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 9,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 12,
+            "mode": "firstSentence"
+          },
+          {
+            "index": 20,
+            "mode": "firstSentence"
+          }
+        ]
+      }
     }
   }
 }

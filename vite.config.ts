@@ -21,5 +21,10 @@ export default defineConfig({
       }
     })
   ],
-  test: { environment: 'node' }
+  test: {
+    environment: 'node',
+    // Restrict discovery to project suites; local dependency backup directories
+    // must not contribute upstream package tests to our release checks.
+    include: ['src/**/*.{test,spec}.{js,mjs,ts,tsx}', 'tests/**/*.{test,spec}.{js,mjs,ts,tsx}']
+  }
 });

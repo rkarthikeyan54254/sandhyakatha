@@ -1,0 +1,40 @@
+{
+  "status": "approved-and-registered-locally-release-blocked-not-live",
+  "storyId": "ravana-last-rites",
+  "reviewer": "rama",
+  "approvedOn": "2026-10-23",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
+  "tellings": 6,
+  "measuredSeconds": {
+    "short": 180,
+    "full": 360
+  },
+  "measurementProvenance": "User whole-minute report",
+  "checks": {
+    "canonicalStrictValidation": "PASS 0 errors/warnings in production build",
+    "localeValidation": "PASS",
+    "nativeLanguageGate": "PASS",
+    "newStoryRuntimeAndPublicFixture": "PASS; exact native blocks and both lengths",
+    "tests": "21 suites /194 tests PASS",
+    "typecheck": "PASS",
+    "productionBuild": "FAIL:404 remaining legacy catalog parity findings after two approved source repairs; no new-story failures"
+  },
+  "deploymentPerformed": false,
+  "liveVerified": false,
+  "approvalPending": false,
+  "productionSourceChanges": "Publication status/source-review metadata plus controlled value facet stopping when you have won; native source pins rebound. Spoken content and parent material unchanged from reviewed package.",
+  "filesSha256": {
+    "content/stories/ravana-last-rites.json": "285fea8209240c06d726441d5822b3cfea935280aa0fb2543cd227703481a98c",
+    "content/locales/hi/ravana-last-rites.json": "0d9236d179d4385249e0b68ca90253c757f100f5698cd57a04d64dbb9c70b352",
+    "content/locales/ta/ravana-last-rites.json": "250b529e3d253dd6a7956af358b36c24e2a3d251d30d1a4aa96dc6140e3b3a76",
+    "public/media/stories/ravana-last-rites/hero.webp": "89801fe929c89660c2e4ba27889c9efd89641915337f00de1116470287b0e5ac",
+    "public/og/ravana-last-rites.jpg": "ad5be6bd9fbde2f0295ed95d53abe9e8330d720fd053ed9ce85dcfc9aef62dce",
+    "public/og/ravana-last-rites-hi.jpg": "5ef072e3ce5eeac7bbec4242e57715caa1c71c8823bf367bc763e967b7127f98",
+    "public/og/ravana-last-rites-ta.jpg": "6f59c11310a35e7494e5fe4cb2abd43d5d9781e2fafb396a6c25ea9e3674e547"
+  },
+  "nextExactAction": "Await explicit release-scope decision; keep global gate strict unless user authorizes a concrete temporary exception. Continue catalog repairs and human review of the six parent-answer additions."
+}

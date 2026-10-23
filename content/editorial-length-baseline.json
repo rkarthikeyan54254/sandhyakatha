@@ -118,26 +118,6 @@
       ]
     },
     {
-      "id": "pusalar-temple",
-      "version": 2,
-      "hash": "5eddd52967c917b8",
-      "stats": {
-        "short": {
-          "declaredMinutes": 3,
-          "spokenWords": 315,
-          "computedMinutes": 3
-        },
-        "full": {
-          "declaredMinutes": 6,
-          "spokenWords": 597,
-          "computedMinutes": 6
-        }
-      },
-      "violations": [
-        "full: 597 words not 650–680"
-      ]
-    },
-    {
       "id": "rama-returns",
       "version": 1,
       "hash": "426730455bbc0e1f",

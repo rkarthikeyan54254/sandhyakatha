@@ -1,0 +1,35 @@
+
+> sandhyakatha@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/rama/Documents/AI_Playground/sandhyakatha
+
+ ✓ src/lib/picker.test.ts (19 tests) 5ms
+ ✓ src/lib/sync.test.ts (10 tests) 27ms
+ ✓ src/lib/profile.test.ts (29 tests) 29ms
+ ✓ src/lib/roundtrip.test.ts (9 tests) 30ms
+ ✓ tests/rendition-parity.test.mjs (8 tests) 102ms
+ ✓ tests/public-rendition-parity.test.mjs (6 tests) 2962ms
+   ✓ real reviewed locale runtime and public rendering > preserves both reviewed tellings through generation, catalog, static pages, and gates 2832ms
+ ✓ tests/social-preview-locales.test.mjs (2 tests) 130ms
+ ✓ src/lib/session-safety.test.ts (19 tests) 24ms
+ ✓ src/lib/retention.test.ts (9 tests) 9ms
+ ✓ tests/profile-server.test.ts (12 tests) 9ms
+ ✓ src/ui/account-parity.test.tsx (9 tests) 21ms
+ ✓ src/ui/rendition-parity.test.tsx (19 tests) 35ms
+ ✓ src/ui/family-parity.test.tsx (9 tests) 42ms
+ ✓ src/lib/track.test.ts (2 tests) 3ms
+ ✓ src/lib/observance.test.ts (2 tests) 4ms
+ ✓ tests/profile-account-boundary.test.ts (3 tests) 9ms
+ ✓ tests/media-integrity.test.mjs (1 test) 3ms
+ ✓ src/lib/route.test.ts (7 tests) 11ms
+ ✓ src/App.session.test.tsx (11 tests) 116ms
+ ✓ src/lib/constellation.test.ts (3 tests) 22ms
+ ✓ src/lib/calendar.test.ts (5 tests) 7ms
+
+ Test Files  21 passed (21)
+      Tests  194 passed (194)
+   Start at  22:54:41
+   Duration  18.19s (transform 33.42s, setup 0ms, collect 43.91s, tests 3.60s, environment 7ms, prepare 12.72s)
+

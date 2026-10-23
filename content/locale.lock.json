@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-23",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -192,9 +192,9 @@
       "hash": "e2437503ab313cf9"
     },
     "hi-IN/karaikkal-mangoes": {
-      "sourceVersion": 1,
+      "sourceVersion": 2,
       "status": "approved",
-      "hash": "10baf4a69cfeb9a5"
+      "hash": "5c1ae8ca4a5a1913"
     },
     "hi-IN/karna-armour": {
       "sourceVersion": 1,
@@ -312,9 +312,9 @@
       "hash": "c8fc82379e453d32"
     },
     "hi-IN/pusalar-temple": {
-      "sourceVersion": 2,
+      "sourceVersion": 3,
       "status": "approved",
-      "hash": "d9027241d24b9135"
+      "hash": "e753804e28654cb6"
     },
     "hi-IN/rama-returns": {
       "sourceVersion": 1,
@@ -325,6 +325,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "5984cb1be17c30df"
+    },
+    "hi-IN/ravana-last-rites": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "46f62ab5960f9934"
     },
     "hi-IN/ravana-lifts-kailasa": {
       "sourceVersion": 1,
@@ -642,9 +647,9 @@
       "hash": "8a6f7f2194eb1b59"
     },
     "ta-IN/karaikkal-mangoes": {
-      "sourceVersion": 1,
+      "sourceVersion": 2,
       "status": "approved",
-      "hash": "cc944bceafa270ea"
+      "hash": "ad83d0878df4bb9a"
     },
     "ta-IN/karna-armour": {
       "sourceVersion": 1,
@@ -762,9 +767,9 @@
       "hash": "a5ab2abfb9cbf899"
     },
     "ta-IN/pusalar-temple": {
-      "sourceVersion": 2,
+      "sourceVersion": 3,
       "status": "approved",
-      "hash": "cc25893771ade555"
+      "hash": "89d2240dc75441ec"
     },
     "ta-IN/rama-returns": {
       "sourceVersion": 1,
@@ -775,6 +780,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "641a4f9b95056627"
+    },
+    "ta-IN/ravana-last-rites": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "d1b120bfbbd8a2bd"
     },
     "ta-IN/ravana-lifts-kailasa": {
       "sourceVersion": 1,

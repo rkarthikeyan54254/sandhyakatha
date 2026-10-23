@@ -1,8 +1,11 @@
 #!/usr/bin/env node
+import { releaseRenditionParityErrors } from './lib/release-rendition-parity.mjs';
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { localeContentHash } from './lib/locale-content.mjs';
 import { localeLanguage, publicLocaleHref } from './lib/locale-paths.mjs';
+import { publicRenditionErrors } from './lib/public-renditions.mjs';
+import { renditionParityErrors } from './lib/rendition-parity.mjs';
 
 const ROOT=new URL('..',import.meta.url).pathname;
 const DIST=join(ROOT,'dist');
@@ -55,7 +58,12 @@ for (const pub of cfg.editions ?? []) {
   if (!existsSync(enPath)) fail(`${key}: English source page missing`);
   if (!existsSync(previewPath)) fail(`${key}: old preview handoff missing`);
 
+  for (const error of releaseRenditionParityErrors(ROOT, source, doc)) fail(`${key}: ${error}`);
   const html=readFileSync(pagePath,'utf8');
+  const reviewedLengths = Object.fromEntries(Object.entries(doc.lengths).map(([length, rendition]) =>
+    [length, { ...rendition, minutes: Math.round(rendition.measuredSeconds / 60) }]));
+  const resolveText = raw => String(raw).replace(/«([^»]+)»/g, (_m, term) => doc.displayNames[term] ?? term).replace(/_/g, '');
+  for (const error of publicRenditionErrors(html, reviewedLengths, resolveText)) fail(`${key}: ${error}`);
   const en=existsSync(enPath)?readFileSync(enPath,'utf8'):'';
   const preview=existsSync(previewPath)?readFileSync(previewPath,'utf8'):'';
   if (/[«»]/.test(html))

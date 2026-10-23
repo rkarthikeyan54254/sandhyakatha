@@ -3,6 +3,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { audienceText, displayTerm, lexiconTerms } from './lib/lexicon-display.mjs';
 import { approvedHeroUrl } from './lib/media.mjs';
+import { publicRenditionErrors, publicRenditionSection } from './lib/public-renditions.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const read = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -116,6 +117,9 @@ for (const file of storyFiles) {
   expectText(s.id, text, s.source.traditionNote, 'tradition note');
   expectText(s.id, text, s.audience.careNote, 'care note');
 
+  for (const error of publicRenditionErrors(html, s.lengths, raw => audienceText(raw, lex)))
+    fail(s.id, error);
+  const fullHtml = publicRenditionSection(html, 'full');
   const blocks = s.lengths.full.blocks;
   for (let i = 0; i < blocks.length; i++) {
     const b = blocks[i];
@@ -130,17 +134,17 @@ for (const file of storyFiles) {
   }
 
   const expectedBeats = blocks.filter(b => b.t === 'beat').length;
-  const actualBeats = (html.match(/class="beat"/g) ?? []).length;
+  const actualBeats = (fullHtml.match(/class="beat"/g) ?? []).length;
   if (actualBeats !== expectedBeats)
     fail(s.id, `/s has ${actualBeats} pause markers; canonical full has ${expectedBeats}`);
 
   const expectedSlow = blocks.filter(b => b.t === 'slow').length;
-  const actualSlowTags = (html.match(/class="slowtag"/g) ?? []).length;
+  const actualSlowTags = (fullHtml.match(/class="slowtag"/g) ?? []).length;
   if (actualSlowTags !== expectedSlow)
     fail(s.id, `/s has ${actualSlowTags} slow-down labels; canonical full has ${expectedSlow}`);
 
   const expectedAsides = blocks.filter(b => b.t === 'aside').length;
-  const actualAsides = (html.match(/<aside class="note"/g) ?? []).length;
+  const actualAsides = (fullHtml.match(/<aside class="note"/g) ?? []).length;
   if (actualAsides !== expectedAsides)
     fail(s.id, `/s has ${actualAsides} parent asides; canonical full has ${expectedAsides}`);
 

@@ -221,3 +221,9 @@ body.sk-story-page[data-locale="ta-IN"] .story-article{
 @media(prefers-reduced-motion:reduce){
   .sk-story-page *{animation:none!important;transition:none!important}
 }
+
+/* Every public language edition offers both independently authored tellings. */
+.sk-story-page .story-rendition{margin:22px 0;border-top:1px solid var(--line)}
+.sk-story-page .story-rendition>summary{padding:14px 0;color:var(--lamp);font-family:var(--ui);font-size:14px;cursor:pointer}
+.sk-story-page .story-rendition>summary:focus-visible{outline:2px solid var(--lamp);outline-offset:4px}
+.sk-story-page .story-rendition[open]>.prose{padding-top:10px}
