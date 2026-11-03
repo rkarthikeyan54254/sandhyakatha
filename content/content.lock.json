@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-11-03",
   "stories": {
     "abhimanyu-spiral": {
       "version": 2,
@@ -326,6 +326,11 @@
       "status": "published",
       "hash": "426730455bbc0e1f"
     },
+    "rambha-sevenfold-curse": {
+      "version": 1,
+      "status": "published",
+      "hash": "58ec004429e390e2"
+    },
     "rantideva-water": {
       "version": 2,
       "status": "published",
@@ -445,6 +450,11 @@
       "version": 2,
       "status": "published",
       "hash": "4aeb648e53617436"
+    },
+    "vedavati-hair-and-vow": {
+      "version": 1,
+      "status": "published",
+      "hash": "73ca3537e78aaf20"
     },
     "vibhishana-crosses": {
       "version": 2,

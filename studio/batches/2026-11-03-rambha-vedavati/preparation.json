@@ -1,0 +1,20 @@
+{
+  "status": "approved-and-built-awaiting-deployment",
+  "stories": [
+    "rambha-sevenfold-curse",
+    "vedavati-hair-and-vow"
+  ],
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
+  "reviewer": "rama",
+  "approvedOn": "2026-11-03",
+  "shortSeconds": 180,
+  "fullSeconds": 360,
+  "images": "generated and agent-reviewed",
+  "narration": "unchanged from approved package",
+  "gated": true,
+  "nextAction": "Commit and push the isolated release, wait for CI/Netlify preview, then merge and verify the live runtime and image bytes."
+}

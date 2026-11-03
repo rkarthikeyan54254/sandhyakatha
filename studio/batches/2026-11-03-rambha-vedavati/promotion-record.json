@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-03",
+  "status": "registered-locally-not-deployed",
+  "transformations": [
+    {
+      "id": "rambha-sevenfold-curse",
+      "narration": "unchanged",
+      "parentFraming": "Exact reviewed text moved into aside in each rendition; not spoken.",
+      "reviewMetadata": "User approval and whole-minute reported durations",
+      "sourcePin": "d7cca7282294271dfe975a5bccf0e80678b05297",
+      "gating": "gated=true; no public/archive/preview registrations; runtime editions auto-discovered"
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "narration": "unchanged",
+      "parentFraming": "Exact reviewed text moved into aside in each rendition; not spoken.",
+      "reviewMetadata": "User approval and whole-minute reported durations",
+      "sourcePin": "cdb7df12f8cc99bae9f4cf207af888dc0082b78a",
+      "gating": "gated=true; no public/archive/preview registrations; runtime editions auto-discovered"
+    }
+  ],
+  "artReview": {
+    "reviewer": "codex-art-review",
+    "basis": "User authorized style-matched generation followed by publication. Agent inspected both outputs against two existing site references: no nudity, graphic assault, fire death, textual errors or hand/face defects apparent. Not represented as a human image approval.",
+    "userImageApproval": false
+  },
+  "sourceDisplayNormalization": "Canonical work normalized to Vālmīki Rāmāyaṇa; Uttara Kāṇḍa remains in locus. Uses existing Hindi/Tamil source-work mapping to prevent Latin source-label leakage. All narration unchanged."
+}

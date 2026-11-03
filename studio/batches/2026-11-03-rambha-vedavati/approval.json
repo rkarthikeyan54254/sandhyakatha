@@ -1,0 +1,25 @@
+{
+  "status": "text-approved-assets-generated",
+  "reviewer": "rama",
+  "date": "2026-11-03",
+  "userStatement": "reviewed the story - looks good. reads 6 mins for long. short is 3 mins. ready to publish once we generate proper images inline with our styling of the other images in website",
+  "scope": "Both stories in English, Hindi and Tamil, both lengths, titles and parent framing as rendered in review.html; new images requested and not yet human-reviewed.",
+  "measuredSeconds": {
+    "short": 180,
+    "full": 360
+  },
+  "measurementProvenance": "User-reported whole-minute reading times for the reviewed package; not independent agent stopwatch readings.",
+  "reviewedFiles": {
+    "en/rambha-sevenfold-curse.json": "1ebf2e77e7e197c1ff2b45cdf47d5189aa0c084c776a1e054185eb831f07a35f",
+    "en/vedavati-hair-and-vow.json": "ae20c4b29e3f65ffdd3270026fd7c158cece6b5770464cebf6c5b7992a9338b4",
+    "locales/hi/rambha-sevenfold-curse.json": "801986e89252ad39a16c227967c28b462e71532620ca83f98a68235bf057dda8",
+    "locales/hi/vedavati-hair-and-vow.json": "758cd5d8886a5cfecbcf69c774d9b61cf37862fffd01875ef3c17da222373b0d",
+    "locales/ta/rambha-sevenfold-curse.json": "3afe29084805374c74ca57b15cc4583c60fc0970af3164d61c415c2f9023c421",
+    "locales/ta/vedavati-hair-and-vow.json": "d9b2eb3c4490321e85d86a6e01e5ffc2f07ab7276f3dfe126f73362c63379fae",
+    "parent-framing.json": "21adc0addbe9c6c18261e4be23fd69a84b4c7e230987a44123c32e2184fef27b",
+    "review.html": "f42cebe06f9d8dc38cf7a8e9afa46ddf1c65476e535a4168dd4a175f30e4409f",
+    "SOURCE-REVIEW.md": "8abfed81115995ec7536a0a101719b2d8aca6fb4d7ed891cf86021a07c299766",
+    "lexicon-candidates.json": "45e72365297ca3bbc73500f2b62fba135257f2fa413e7aeb16b7876d12b904ef"
+  },
+  "artAuthorization": "User explicitly requested style-matched images and publication after generation. Agent visual QA recorded separately; no human image review claimed."
+}

@@ -1,0 +1,4 @@
+{
+  "status": "timed-out",
+  "note": "Repository status did not complete in 10 seconds. No clean-tree assertion, commit or deployment made. Changes are confined to this new batch directory."
+}

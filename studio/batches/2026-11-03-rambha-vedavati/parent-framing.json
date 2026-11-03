@@ -1,0 +1,36 @@
+{
+  "status": "editorial-candidates-native-human-review-pending",
+  "en": {
+    "heading": "For the parent: why we condemn Rāvaṇa’s conduct",
+    "rambha-sevenfold-curse": {
+      "text": "Rāvaṇa commits evil here: he hears Rambhā ask to leave and rapes her despite her refusal. This is a deliberate abuse of power. His power cannot excuse it. That is our moral judgement of the conduct the passage describes, not an invented quotation from the text.",
+      "locus": "Uttara Kāṇḍa 26.28–55; claim ledger 2–5"
+    },
+    "vedavati-hair-and-vow": {
+      "text": "Rāvaṇa commits evil here: after Vedavatī refuses him and asks him to leave, he disregards her wishes and seizes her hair. His power gives him no right to assault her. This passage describes assault; it does not describe completed rape. That distinction strengthens an honest condemnation.",
+      "locus": "Uttara Kāṇḍa 17.16–29; claim ledger 3–5"
+    }
+  },
+  "hi": {
+    "heading": "माता-पिता के लिए: रावण के आचरण की निंदा क्यों",
+    "rambha-sevenfold-curse": {
+      "text": "यहाँ रावण का आचरण दुष्टतापूर्ण है। रम्भा उसे मना करती हैं और जाने देने को कहती हैं। फिर भी वह उनके साथ बलात्कार करता है। उसकी शक्ति इस अत्याचार का बहाना नहीं हो सकती। यह वर्णित कर्मों पर हमारा नैतिक निर्णय है, ग्रंथ से लिया हुआ उद्धरण नहीं।",
+      "locus": "उत्तरकाण्ड २६.२८–५५"
+    },
+    "vedavati-hair-and-vow": {
+      "text": "वेदवती के मना करने और चले जाने को कहने पर भी रावण उनके बाल पकड़ता है। यह दुष्टता और ज़बरदस्ती है। उसकी शक्ति उसे ऐसा अधिकार नहीं देती। इस प्रसंग में हिंसक अत्याचार है; बलात्कार का वर्णन नहीं है। उसकी निंदा करते समय भी यह अंतर सही रखना चाहिए।",
+      "locus": "उत्तरकाण्ड १७.१६–२९"
+    }
+  },
+  "ta": {
+    "heading": "பெற்றோருக்கு: ராவணனின் செயலை ஏன் கண்டிக்கிறோம்",
+    "rambha-sevenfold-curse": {
+      "text": "ரம்பை தன்னை விட்டுவிடும்படி கேட்டும் ராவணன் அவளைப் பாலியல் வன்கொடுமைக்கு ஆளாக்குகிறான். இது அவனுடைய தீய செயல். அவனிடம் வலிமை இருப்பது இந்தக் கொடுமையை நியாயப்படுத்தாது. நூல் விவரிக்கும் செயலின் அடிப்படையில் நாம் கூறும் அறத் தீர்ப்பு இது; நூலிலிருந்து எடுத்த மேற்கோள் அல்ல.",
+      "locus": "உத்தர காண்டம் ௨௬.௨௮–௫௫"
+    },
+    "vedavati-hair-and-vow": {
+      "text": "வேதவதி மறுத்து, அங்கிருந்து செல்லும்படி கூறிய பிறகும் ராவணன் அவளுடைய கூந்தலைப் பற்றுகிறான். இது அவனுடைய தீய செயல். வலிமை இருப்பதால் அவளைத் தாக்கும் உரிமை அவனுக்கு வந்துவிடாது. இந்தப் பகுதியில் தாக்குதல் விவரிக்கப்படுகிறது; பாலுறவு வன்கொடுமை நிகழ்ந்ததாகச் சொல்லப்படவில்லை. கண்டிக்கும்போதும் அந்த வேறுபாட்டைக் காக்க வேண்டும்.",
+      "locus": "உத்தர காண்டம் ௧௭.௧௬–௨௯"
+    }
+  }
+}

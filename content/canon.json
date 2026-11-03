@@ -2132,6 +2132,51 @@
       "status": "published",
       "wave": 5,
       "gated": false
+    },
+    {
+      "n": 107,
+      "id": "rambha-sevenfold-curse",
+      "title": "Rāvaṇa’s Assault on Rambhā and the Sevenfold Curse",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Uttara Kāṇḍa 26.1–60 (web Sanskrit numbering); Shastri chapter 26",
+      "stability": "stable",
+      "minAge": 15,
+      "sensitivity": [
+        "violence",
+        "injustice",
+        "gender-norms"
+      ],
+      "value": "asking instead of taking",
+      "hook": "She had named the man she loved, asked to be released, and refused. Rāvaṇa ignored her. The curse came afterward.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": true
+    },
+    {
+      "n": 108,
+      "id": "vedavati-hair-and-vow",
+      "title": "Rāvaṇa’s Assault on Vedavatī and Her Vow",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "7.17.1–44 (common printed numbering); especially 7.17.27–34 and the concluding Sītā identification",
+      "stability": "variant",
+      "minAge": 14,
+      "sensitivity": [
+        "death",
+        "violence",
+        "loss",
+        "gender-norms"
+      ],
+      "value": "deciding, and not being talked out of it",
+      "hook": "In a forest, she refused Rāvaṇa and defended her vow. When he seized her hair, she made a promise the Rāmāyaṇa would remember.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": true
     }
   ]
 }

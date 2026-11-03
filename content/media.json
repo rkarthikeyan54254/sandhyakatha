@@ -1565,6 +1565,40 @@
           "file": null
         }
       }
+    },
+    "rambha-sevenfold-curse": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/rambha-sevenfold-curse/hero.webp",
+        "reviewedBy": "codex-art-review",
+        "reviewedOn": "2026-11-03"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
+    },
+    "vedavati-hair-and-vow": {
+      "canonStatus": "published",
+      "storyVersion": 1,
+      "image": {
+        "status": "approved",
+        "type": "illustration",
+        "file": "/media/stories/vedavati-hair-and-vow/hero.webp",
+        "reviewedBy": "codex-art-review",
+        "reviewedOn": "2026-11-03"
+      },
+      "voiceover": {
+        "en": {
+          "status": "not_started",
+          "file": null
+        }
+      }
     }
   }
 }

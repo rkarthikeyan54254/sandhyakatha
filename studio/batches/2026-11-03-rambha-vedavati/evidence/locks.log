@@ -1,0 +1,6 @@
+
+> sandhyakatha@0.1.0 lock
+> node scripts/lock.mjs && node scripts/lock-locales.mjs
+
+locked 94 stories
+locked 186 approved locale edition(s)

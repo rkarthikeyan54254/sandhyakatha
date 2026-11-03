@@ -1,0 +1,341 @@
+{
+  "id": "rambha-sevenfold-curse",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-11-03",
+  "title": "Rāvaṇa’s Assault on Rambhā and the Sevenfold Curse",
+  "tease": "She had named the man she loved, asked to be released, and refused. Rāvaṇa ignored her. The curse came afterward.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Uttara Kāṇḍa 26.1–60 (web Sanskrit numbering); Shastri chapter 26",
+    "stability": "stable",
+    "traditionNote": "Follows Uttara 26. Nalakūbara’s seven-piece curse after the assault on Rambhā is separate from Brahmā’s hundred-piece curse after the assault on Puñjikasthalā in Yuddha 13. Verse numbers vary; no complete recension collation is claimed.",
+    "parallels": [
+      {
+        "work": "Vālmīki Rāmāyaṇa",
+        "locus": "Yuddha Kāṇḍa 13 and 60"
+      }
+    ],
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa 26, Sanskrit, common printed numbering: https://valmiki-ramayanam.com/uttara-kanda/sarga-026.html (inspected 2026-11-03; web witness, not critical-edition collation)",
+      "Hari Prasad Shastri, The Rāmāyaṇa of Vālmīki (1952), Uttara Kāṇḍa 26: https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424792.html (inspected 2026-11-03; web witness, not critical-edition collation)",
+      "Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa 13: https://sanskritdocuments.org/sites/valmikiramayan/yuddha/sarga13/yuddha_13_prose.htm (inspected 2026-11-03; web witness, not critical-edition collation)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Rāvaṇa camps on Kailāsa at night; moonlit forest, flowers, pools, Mandākinī and music surround him.",
+        "locus": "Uttara 26.1–13"
+      },
+      {
+        "claim": "Rambhā passes the army adorned for a meeting; Rāvaṇa stops her and proposes himself.",
+        "locus": "Uttara 26.14–27"
+      },
+      {
+        "claim": "Rambhā appeals for protection and release; she identifies Nalakūbara, son of Kubera, as her chosen partner and invokes daughter-in-law kinship.",
+        "locus": "Uttara 26.28–38"
+      },
+      {
+        "claim": "Rāvaṇa argues that apsarās have no exclusive husband and rapes Rambhā despite her pleas.",
+        "locus": "Uttara 26.39–43"
+      },
+      {
+        "claim": "Distressed Rambhā reports the assault to Nalakūbara, with disturbed ornaments; she seeks pardon although the assault was forced.",
+        "locus": "Uttara 26.44–51"
+      },
+      {
+        "claim": "Nalakūbara establishes the event through meditation, takes water and curses Rāvaṇa: forcing an unwilling woman again will split his head in seven.",
+        "locus": "Uttara 26.52–55"
+      },
+      {
+        "claim": "Divine drums and flowers accompany the curse; Rāvaṇa fears it and desists from forced sexual union; captive women rejoice.",
+        "locus": "Uttara 26.56–60"
+      },
+      {
+        "claim": "Rāvaṇa separately attributes his restraint toward captive Sītā to Brahmā’s hundred-piece curse after the assault on Puñjikasthalā. The episodes are not interchangeable.",
+        "locus": "Yuddha 13.11–15"
+      },
+      {
+        "claim": "Rāvaṇa later recalls Rambhā among those whose words have come to pass.",
+        "locus": "Yuddha 60.11"
+      }
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-11-03"
+  },
+  "audience": {
+    "minAge": 15,
+    "sensitivity": [
+      "violence",
+      "injustice",
+      "gender-norms"
+    ],
+    "careNote": "Rāvaṇa rapes Rambhā after she asks to leave; no graphic description. She seeks pardon although she did nothing wrong. A curse threatens to split his head in seven. Read privately first; this is for older readers with parental opt-in.",
+    "gated": true
+  },
+  "values": [
+    "asking instead of taking",
+    "owning what you did"
+  ],
+  "themes": [
+    "abuse of power",
+    "refusal",
+    "moral responsibility",
+    "consequences"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 1
+  },
+  "characters": [
+    {
+      "ref": "Rambhā",
+      "role": "lead"
+    },
+    {
+      "ref": "Nalakūbara",
+      "role": "present"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "foil"
+    },
+    {
+      "ref": "Kubera",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sītā",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "On a moonlit night, the army of «Rāvaṇa» rested on «Kailāsa». Among the flowers and music of the mountain, an apsarā named «Rambhā» passed the sleeping soldiers."
+        },
+        {
+          "t": "aside",
+          "text": "Rāvaṇa commits evil here: he hears Rambhā ask to leave and rapes her despite her refusal. This is a deliberate abuse of power. His power cannot excuse it. That is our moral judgement of the conduct the passage describes, not an invented quotation from the text."
+        },
+        {
+          "t": "p",
+          "text": "She was going to meet «Nalakūbara», whom she loved. «Rāvaṇa» saw her, stopped her, and asked her to stay with him instead."
+        },
+        {
+          "t": "p",
+          "text": "«Rambhā» refused. She told him that «Nalakūbara» was the son of his brother «Kubera»; by their family relationship she was «Rāvaṇa»'s daughter-in-law."
+        },
+        {
+          "t": "p",
+          "text": "She asked him to protect her, as an elder should, and let her go. The man she had chosen was waiting for her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» argued that apsarās need not be bound to one partner. He paid no attention to the plain fact that «Rambhā» did not want him."
+        },
+        {
+          "t": "p",
+          "text": "He overpowered and raped her. Her refusal had been clear, and nothing about his position gave him permission."
+        },
+        {
+          "t": "p",
+          "text": "«Rambhā» had tried more than one way to be heard. She had asked for protection, explained their family connection, and told him who was waiting for her. He refused to respect any of it."
+        },
+        {
+          "t": "p",
+          "text": "Shaken, «Rambhā» went to «Nalakūbara». She told him exactly what had happened. She even asked his pardon, although the wrong was not hers."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Nalakūbara» listened, entered meditation, and understood the truth. He took water in his hands and pronounced a curse upon «Rāvaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "_If you ever again force yourself upon a woman who does not want you, your head will split into seven pieces._"
+        },
+        {
+          "t": "p",
+          "text": "The curse was not against «Rambhā». It was against the one who had harmed her."
+        },
+        {
+          "t": "p",
+          "text": "The gods rejoiced. When «Rāvaṇa» learned what had been said, he was afraid, and the text says he no longer forced sexual union on unwilling women."
+        },
+        {
+          "t": "p",
+          "text": "Other women he had carried away rejoiced when they heard this. The curse gave them a protection that his power had denied them."
+        },
+        {
+          "t": "slow",
+          "text": "«Rambhā» had said no before the assault. She should not have needed a curse to make that answer matter."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The army of «Rāvaṇa» had halted on «Kailāsa». The sun had gone down, and the soldiers slept while the moon lit the mountain forests."
+        },
+        {
+          "t": "aside",
+          "text": "Rāvaṇa commits evil here: he hears Rambhā ask to leave and rapes her despite her refusal. This is a deliberate abuse of power. His power cannot excuse it. That is our moral judgement of the conduct the passage describes, not an invented quotation from the text."
+        },
+        {
+          "t": "p",
+          "text": "There were flowering trees, pools of lotuses, and the waters of the «Mandākinī». Music carried from the singers and dancers who lived among the mountains."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» sat above the camp. Then he saw an apsarā passing through the sleeping army, wearing fresh flowers and ornaments for a meeting she had chosen."
+        },
+        {
+          "t": "p",
+          "text": "She wore a dark blue cloth and flowers in her hair. A jewelled belt and garlands adorned her. She had dressed to meet the man she loved, and she was passing through the ranks of the army on her way to him."
+        },
+        {
+          "t": "p",
+          "text": "Her name was «Rambhā». She was on her way to «Nalakūbara», whom she loved and who was waiting for her."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» rose and stopped her. He asked where she was going, praised her beauty, and urged her to remain with him instead."
+        },
+        {
+          "t": "p",
+          "text": "«Rambhā» was frightened. She folded her hands and appealed to the duty he owed her: _You should protect me from violence, not threaten me with it._"
+        },
+        {
+          "t": "p",
+          "text": "She told him he was an elder in her family. «Nalakūbara» was the son of «Kubera», and «Kubera» was «Rāvaṇa»'s brother. By that relationship, «Rambhā» was his daughter-in-law."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» questioned her claim. She explained it again, naming the man she had come to meet and saying that her heart was set on him alone."
+        },
+        {
+          "t": "p",
+          "text": "«Nalakūbara» was waiting. She had dressed for him; she had given her word to him. She asked «Rāvaṇa» to let her go and to follow the conduct expected of a guardian of his family."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» would not accept her refusal. He argued that apsarās did not follow the same rules of marriage as women who had only one husband."
+        },
+        {
+          "t": "p",
+          "text": "But «Rambhā» had not come to him. She had asked to leave. She had explained whose company she wanted, and it was not his."
+        },
+        {
+          "t": "p",
+          "text": "He ignored her pleas and raped her. She had asked him to let her go; he had heard her and refused."
+        },
+        {
+          "t": "p",
+          "text": "When she could leave, «Rambhā» went to «Nalakūbara». Her flowers and ornaments were disturbed. She was shaking."
+        },
+        {
+          "t": "p",
+          "text": "«Nalakūbara» asked why she had come to him in such distress. «Rambhā» told him how «Rāvaṇa» had stopped her, questioned her, and refused to listen even after she spoke of their family relationship."
+        },
+        {
+          "t": "p",
+          "text": "She told him that «Rāvaṇa» had overpowered her. She even asked «Nalakūbara» to pardon her, though the wrong had been done to her, not by her."
+        },
+        {
+          "t": "p",
+          "text": "She had first appealed to his duty as an elder. Then she had explained their kinship. Then she had spoken of the man waiting for her."
+        },
+        {
+          "t": "p",
+          "text": "Each appeal had been clear; none had stopped «Rāvaṇa»."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Nalakūbara» heard her account. He entered meditation and established what had happened. He became angry at the violence committed against her."
+        },
+        {
+          "t": "p",
+          "text": "Taking water in his hands, he spoke a curse against «Rāvaṇa»: _If you ever again force yourself on a woman who does not want you, your head will break into seven pieces._"
+        },
+        {
+          "t": "p",
+          "text": "It was not a punishment placed upon «Rambhā». The curse fell upon the man who had refused to respect her will."
+        },
+        {
+          "t": "p",
+          "text": "The tale says that divine drums sounded and flowers fell from the sky when the curse was pronounced. Those who understood what lay ahead knew that «Rāvaṇa» had been checked."
+        },
+        {
+          "t": "p",
+          "text": "When the warning reached «Rāvaṇa», he was shaken. The text says he thereafter ceased to force sexual union upon women who did not desire him."
+        },
+        {
+          "t": "p",
+          "text": "Women whom he had already carried away against their wishes heard of the curse. They rejoiced at the protection it promised them."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "aside",
+          "text": "The separate account in Yuddha 13 names Brahmā and Puñjikasthalā. Do not present Nalakūbara’s curse as the sole explanation for Sītā’s protection."
+        },
+        {
+          "t": "p",
+          "text": "For this night on «Kailāsa», the story remains «Rambhā»'s: she refused him, she told the truth of what followed, and the consequence was placed where it belonged."
+        },
+        {
+          "t": "slow",
+          "text": "The mountain had heard «Rāvaṇa» speak as though power gave him a right. «Rambhā» had said no. It was his deed, not her refusal, that brought the curse."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "vedavati-hair-and-vow",
+    "reason": "Another older Rāmāyaṇa account in which Rāvaṇa disregards a woman’s stated choice"
+  },
+  "close": {
+    "question": "Have you ever told someone to stop, or heard someone else say stop? What do you think listening should look like in that moment?",
+    "seed": "A refusal is enough; the person who ignores it is responsible for the harm.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Rambhā ask Nalakūbara to pardon her?",
+        "a": "The text says she was frightened and sought his pardon after telling him what had happened. She had not chosen the assault. Asking pardon here is part of her distress, not proof that she was responsible. Nalakūbara directs the curse at Rāvaṇa, not at her."
+      },
+      {
+        "q": "What does it mean that Rāvaṇa raped her?",
+        "a": "It means he forced sexual contact on Rambhā when she did not want it. She had asked him to let her go. No relationship, rank, or argument about customs can turn that refusal into permission. The text names this violence without needing a graphic description."
+      },
+      {
+        "q": "Is this the curse that protected Sītā?",
+        "a": "Uttara Kāṇḍa 26 tells of Nalakūbara’s seven-piece curse after the assault on Rambhā. Yuddha Kāṇḍa 13 separately has Rāvaṇa describe Brahmā’s hundred-piece curse after he assaulted Puñjikasthalā, and he says that curse kept him from forcing Sītā. We should keep the two accounts distinct."
+      }
+    ]
+  }
+}
