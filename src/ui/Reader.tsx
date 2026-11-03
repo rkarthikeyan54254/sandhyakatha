@@ -19,10 +19,10 @@ function placeVars(rect: DOMRect): React.CSSProperties {
 }
 
 export default function Reader({ story, lex, len, next, tomorrow, readBefore, hasProfile,
-  locale = 'en', onBack, onHeard, onRead, onPersonalize, backLabel = 'Tonight' }: {
+  locale = 'en', readOnly = false, onBack, onHeard, onRead, onPersonalize, backLabel = 'Tonight' }: {
   story: Story; lex: Lexicon; len: 'short' | 'full' | 'more';
   next: Card | null; tomorrow?: Pick | null; readBefore?: boolean;
-  hasProfile: boolean; locale?: AppLocale;
+  hasProfile: boolean; locale?: AppLocale; readOnly?: boolean;
   onBack: () => void; onHeard: (id: string) => void; onRead: (id: string) => void;
   onPersonalize: (age: number) => void;
   backLabel?: string;
@@ -136,7 +136,7 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
               {ask === i && <p className="ans">{line(f.a)}</p>}
             </div>
           ))}
-          {!completed && (
+          {!completed && !readOnly && (
             <button className="mark" onClick={completeStory}>
               {readBefore ? copy.markAgain : copy.mark}
             </button>
@@ -152,7 +152,7 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
           </button>
         )}
 
-        {completed && (
+        {completed && !readOnly && (
           <section className="afterread" aria-live="polite">
             <p className="saved"><b>{hasProfile ? copy.saved : copy.complete}</b></p>
 

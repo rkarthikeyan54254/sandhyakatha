@@ -1,0 +1,8 @@
+{
+  "status": "local-pass-awaiting-deployment",
+  "tests": "23 suites / 208 tests PASS",
+  "build": "Full strict production build and direct-story gates PASS",
+  "browser": "All six language-specific links show the reviewed title/care notice, no prose before consent, exact full/short text after consent, 6/3-minute controls, no horizontal overflow, scroll resets, no reading-history controls.",
+  "stateSafety": "No Profile/account/auth/sync or storage path modified. Direct entry does not mount stateful App. See safety scope in docs/audits/2026-11-03-direct-story-links.md.",
+  "nextExactAction": "Deploy the direct-link update and verify the six live URLs and their WhatsApp metadata."
+}
