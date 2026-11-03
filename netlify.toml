@@ -26,6 +26,11 @@
   status = 404
 
 [[redirects]]
+  from = "/read/*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
@@ -125,3 +130,9 @@
   for = "/registerSW.js"
   [headers.values]
     Cache-Control = "no-cache"
+
+# Direct story links require explicit parent opt-in and are not discovery pages.
+[[headers]]
+  for = "/read/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
