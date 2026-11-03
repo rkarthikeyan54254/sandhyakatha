@@ -1,0 +1,125 @@
+{
+  "checkedOn": "2026-11-03",
+  "status": "PASS",
+  "scope": "Staged schemas; English length bands; native script and known regression phrases; valid claim indices; final landing; balanced speech; Ravana in all six titles; native-script parent framing. Does not certify idiomatic prose, source-fidelity approval, actual timing, visual QA, global repository gates or release readiness.",
+  "editions": 6,
+  "tellings": 12,
+  "results": [
+    {
+      "id": "rambha-sevenfold-curse",
+      "language": "en",
+      "length": "short",
+      "words": 318,
+      "estimatedMinutes": 3,
+      "actualTiming": "pending"
+    },
+    {
+      "id": "rambha-sevenfold-curse",
+      "language": "en",
+      "length": "full",
+      "words": 660,
+      "estimatedMinutes": 6,
+      "actualTiming": "pending"
+    },
+    {
+      "id": "rambha-sevenfold-curse",
+      "language": "hi",
+      "length": "short",
+      "words": 322,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "rambha-sevenfold-curse",
+      "language": "hi",
+      "length": "full",
+      "words": 593,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "rambha-sevenfold-curse",
+      "language": "ta",
+      "length": "short",
+      "words": 186,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "rambha-sevenfold-curse",
+      "language": "ta",
+      "length": "full",
+      "words": 343,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "language": "en",
+      "length": "short",
+      "words": 305,
+      "estimatedMinutes": 3,
+      "actualTiming": "pending"
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "language": "en",
+      "length": "full",
+      "words": 662,
+      "estimatedMinutes": 6,
+      "actualTiming": "pending"
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "language": "hi",
+      "length": "short",
+      "words": 352,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "language": "hi",
+      "length": "full",
+      "words": 603,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "language": "ta",
+      "length": "short",
+      "words": 201,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "language": "ta",
+      "length": "full",
+      "words": 398,
+      "measuredSeconds": null,
+      "timing": "Requires actual native read-aloud; no English-speed estimate asserted."
+    }
+  ],
+  "missingProductionLexicon": [
+    "Rambhā",
+    "Nalakūbara",
+    "Vedavatī",
+    "Kuśadhvaja",
+    "Śambhu",
+    "Mandākinī",
+    "Himālayas",
+    "Yuddha Kāṇḍa"
+  ],
+  "reviewedFileHashes": {
+    "en/rambha-sevenfold-curse.json": "1ebf2e77e7e197c1ff2b45cdf47d5189aa0c084c776a1e054185eb831f07a35f",
+    "locales/hi/rambha-sevenfold-curse.json": "801986e89252ad39a16c227967c28b462e71532620ca83f98a68235bf057dda8",
+    "locales/ta/rambha-sevenfold-curse.json": "3afe29084805374c74ca57b15cc4583c60fc0970af3164d61c415c2f9023c421",
+    "en/vedavati-hair-and-vow.json": "ae20c4b29e3f65ffdd3270026fd7c158cece6b5770464cebf6c5b7992a9338b4",
+    "locales/hi/vedavati-hair-and-vow.json": "758cd5d8886a5cfecbcf69c774d9b61cf37862fffd01875ef3c17da222373b0d",
+    "locales/ta/vedavati-hair-and-vow.json": "d9b2eb3c4490321e85d86a6e01e5ffc2f07ab7276f3dfe126f73362c63379fae",
+    "parent-framing.json": "21adc0addbe9c6c18261e4be23fd69a84b4c7e230987a44123c32e2184fef27b"
+  },
+  "errors": []
+}

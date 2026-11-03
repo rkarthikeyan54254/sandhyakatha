@@ -1,0 +1,42 @@
+
+> sandhyakatha@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /private/tmp/sandhyakatha-rambha-vedavati-release
+
+ ✓ src/lib/picker.test.ts (19 tests) 86ms
+ ✓ src/lib/roundtrip.test.ts (9 tests) 100ms
+ ✓ src/lib/profile.test.ts (29 tests) 210ms
+ ✓ src/lib/sync.test.ts (10 tests) 390ms
+ ✓ tests/profile-server.test.ts (12 tests) 235ms
+ ✓ src/App.session.test.tsx (11 tests) 2097ms
+   ✓ preserves short across English/Hindi/Tamil without editing family state 330ms
+   ✓ round-trips App sign-out and fresh sign-in to the same account 329ms
+   ✓ replaces previous-account display with the current account, regardless of clocks 336ms
+ ✓ src/lib/session-safety.test.ts (19 tests) 675ms
+   ✓ truthful acknowledgement and sign-out > merges anonymous settings edited during first sign-in rather than treating them as a fresh placeholder 526ms
+ ✓ tests/rendition-parity.test.mjs (8 tests) 1328ms
+   ✓ release parity gate integration > passes complete approved and locked siblings 644ms
+   ✓ release parity gate integration > blocks even an approved and correctly locked short-only Tamil sibling 636ms
+ ✓ src/ui/account-parity.test.tsx (9 tests) 429ms
+ ✓ src/ui/family-parity.test.tsx (9 tests) 422ms
+ ✓ src/lib/retention.test.ts (9 tests) 15ms
+ ✓ src/ui/rendition-parity.test.tsx (19 tests) 763ms
+ ✓ tests/public-rendition-parity.test.mjs (6 tests) 7118ms
+   ✓ real reviewed locale runtime and public rendering > preserves both reviewed tellings through generation, catalog, static pages, and gates 5825ms
+   ✓ real reviewed locale runtime and public rendering > includes reviewed gated stories in runtime without publishing static locale pages 1262ms
+ ✓ tests/social-preview-locales.test.mjs (2 tests) 510ms
+ ✓ src/lib/route.test.ts (7 tests) 127ms
+ ✓ tests/release-rendition-parity.test.mjs (4 tests) 21ms
+ ✓ src/lib/calendar.test.ts (5 tests) 59ms
+ ✓ src/lib/track.test.ts (2 tests) 11ms
+ ✓ src/lib/constellation.test.ts (3 tests) 66ms
+ ✓ tests/profile-account-boundary.test.ts (3 tests) 55ms
+ ✓ src/lib/observance.test.ts (2 tests) 8ms
+ ✓ tests/media-integrity.test.mjs (1 test) 9ms
+
+ Test Files  22 passed (22)
+      Tests  198 passed (198)
+   Start at  18:06:22
+   Duration  11.92s (transform 9.20s, setup 0ms, collect 26.50s, tests 14.73s, environment 28ms, prepare 11.91s)

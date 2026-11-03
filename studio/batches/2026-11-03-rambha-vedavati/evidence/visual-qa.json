@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "method": "Real Reader.tsx SSR from built runtime JSON, existing CSS, browser inspection; no test family/profile created.",
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "desktop": "default IAB viewport, 1280x720 screenshot",
+  "checks": [
+    "Both heroes visually inspected against two existing epic illustration references.",
+    "All twelve mobile tellings: expected native titles and source labels, images loaded, no horizontal document overflow.",
+    "Final corrected App main wrapper checked on mobile Hindi and desktop English; Tamil checked on mobile.",
+    "No nudity, depicted assault, fire death, romantic framing or watermarks.",
+    "Native source-work labels render in Devanagari/Tamil after metadata normalization."
+  ],
+  "limitations": "Screenshots inspected in tool output; no independent native editorial reapproval claimed beyond user review. QA-only SSR pages have no interactive handlers and are not the deployment artifact."
+}

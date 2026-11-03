@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-11-03",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -321,6 +321,11 @@
       "status": "approved",
       "hash": "94885f6717db9e7c"
     },
+    "hi-IN/rambha-sevenfold-curse": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "d6cc66b2bde71baf"
+    },
     "hi-IN/rantideva-water": {
       "sourceVersion": 2,
       "status": "approved",
@@ -440,6 +445,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "e12ac152a3cfd6b7"
+    },
+    "hi-IN/vedavati-hair-and-vow": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "4bd43e1eec9ccd60"
     },
     "hi-IN/vibhishana-crosses": {
       "sourceVersion": 2,
@@ -776,6 +786,11 @@
       "status": "approved",
       "hash": "bdc2b30d8264dd67"
     },
+    "ta-IN/rambha-sevenfold-curse": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "4589f592c827bc4f"
+    },
     "ta-IN/rantideva-water": {
       "sourceVersion": 2,
       "status": "approved",
@@ -895,6 +910,11 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "f10b1c30d4b851cd"
+    },
+    "ta-IN/vedavati-hair-and-vow": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "37e1dd31ad6bae28"
     },
     "ta-IN/vibhishana-crosses": {
       "sourceVersion": 2,

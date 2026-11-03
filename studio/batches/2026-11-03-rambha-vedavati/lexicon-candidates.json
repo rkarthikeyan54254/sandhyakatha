@@ -1,0 +1,86 @@
+{
+  "status": "proposed-not-approved",
+  "note": "Pronunciation and identity checks pending human/source review. Do not replace existing entries by ID automatically.",
+  "entries": {
+    "Rambhā": {
+      "id": "rambha",
+      "native": {
+        "deva": "रम्भा",
+        "tamil": "ரம்பை"
+      },
+      "say": "RUM-bhaa",
+      "kind": "person",
+      "gloss": "An apsarā assaulted by Rāvaṇa; the wrong is his, not hers."
+    },
+    "Nalakūbara": {
+      "id": "nalakubara",
+      "native": {
+        "deva": "नलकूबर",
+        "tamil": "நளகூபரன்"
+      },
+      "say": "nuh-luh-KOO-buh-ruh",
+      "kind": "person",
+      "gloss": "Kubera’s son; pronounces the seven-piece curse after hearing Rambhā."
+    },
+    "Vedavatī": {
+      "id": "vedavati",
+      "native": {
+        "deva": "वेदवती",
+        "tamil": "வேதவதி"
+      },
+      "say": "vay-duh-vuh-TEE",
+      "kind": "person",
+      "gloss": "An ascetic devoted to Viṣṇu, identified with Sītā in the selected account."
+    },
+    "Kuśadhvaja": {
+      "id": "kushadhvaja",
+      "native": {
+        "deva": "कुशध्वज",
+        "tamil": "குசத்வஜர்"
+      },
+      "say": "koo-shuh-DHWA-juh",
+      "kind": "person",
+      "gloss": "Vedavatī’s father in this episode; review identity against other figures with the same name."
+    },
+    "Śambhu": {
+      "id": "shambhu-daitya",
+      "native": {
+        "deva": "शम्भु",
+        "tamil": "சம்பு"
+      },
+      "say": "SHUM-bhoo",
+      "kind": "person",
+      "gloss": "The daitya who kills Vedavatī’s father in Uttara 17; not Śiva in this episode."
+    },
+    "Mandākinī": {
+      "id": "mandakini",
+      "native": {
+        "deva": "मन्दाकिनी",
+        "tamil": "மந்தாகினி"
+      },
+      "say": "mun-DAA-ki-nee",
+      "kind": "place",
+      "gloss": "River named in the Kailāsa setting of Uttara 26."
+    },
+    "Himālayas": {
+      "id": "himalayas",
+      "native": {
+        "deva": "हिमालय",
+        "tamil": "இமயமலை"
+      },
+      "say": "hi-MAA-luh-yuz",
+      "kind": "place",
+      "gloss": "The Himalayan mountain region; check existing lexicon naming conventions."
+    },
+    "Yuddha Kāṇḍa": {
+      "id": "yuddha-kanda",
+      "native": {
+        "deva": "युद्धकाण्ड",
+        "tamil": "யுத்த காண்டம்"
+      },
+      "say": "YOOD-dhuh KAAN-duh",
+      "kind": "term",
+      "gloss": "The war book of the Vālmīki Rāmāyaṇa."
+    }
+  }
+}

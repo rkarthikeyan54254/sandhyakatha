@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "id": "rambha-sevenfold-curse",
+      "status": "PASS",
+      "age": 15,
+      "gated": true,
+      "languages": [
+        "en",
+        "hi",
+        "ta"
+      ],
+      "lengths": {
+        "short": 3,
+        "full": 6
+      },
+      "narration": "byte-for-byte unchanged from approved candidate blocks",
+      "publicArchive": "excluded",
+      "runtime": "all three present",
+      "hero": "/media/stories/rambha-sevenfold-curse/hero.webp?v=d43f94372f16"
+    },
+    {
+      "id": "vedavati-hair-and-vow",
+      "status": "PASS",
+      "age": 14,
+      "gated": true,
+      "languages": [
+        "en",
+        "hi",
+        "ta"
+      ],
+      "lengths": {
+        "short": 3,
+        "full": 6
+      },
+      "narration": "byte-for-byte unchanged from approved candidate blocks",
+      "publicArchive": "excluded",
+      "runtime": "all three present",
+      "hero": "/media/stories/vedavati-hair-and-vow/hero.webp?v=5bbab7baa0f7"
+    }
+  ],
+  "files": {
+    "content/stories/rambha-sevenfold-curse.json": "3b02ca7d53d4839efac5b4ccfcbd0b89562b3546bf15a6d4730e811aa1ad93e9",
+    "content/locales/hi/rambha-sevenfold-curse.json": "f228e9d332f1545b58ff8c5cf24cc7376002b400b19e550c2af24dd2b755a1dd",
+    "content/locales/ta/rambha-sevenfold-curse.json": "25542762cf4a6d3d017bf6abd1e160ec5b3bb724416dc35f5c2a2ea01118f9b0",
+    "public/media/stories/rambha-sevenfold-curse/hero.webp": "d43f94372f16fd3615e4800f10ce110a3edbe3970f394ecfcb7a12b08e3670df",
+    "public/og/rambha-sevenfold-curse.jpg": "66e560d4f11e2fbb03bfa0670a4b2d93317a7bb99be68e9ffc6098fe7e29c4f4",
+    "public/og/rambha-sevenfold-curse-hi.jpg": "57834211cf57e12da537c9396120173c27ab6f3f8fc7fa4516a495ecbf4cc472",
+    "public/og/rambha-sevenfold-curse-ta.jpg": "fb76be70f16af172ce20604a452a3439f405dca84db4715a7e799d3521439f32",
+    "content/stories/vedavati-hair-and-vow.json": "7e8b4f40e17d9db1740836a636bf4a518040da23caaec4004e6346ebd5ed9109",
+    "content/locales/hi/vedavati-hair-and-vow.json": "acb1966ba4ce245f36cddd035c2035f98b650f619661032f9837c16c5c0ce694",
+    "content/locales/ta/vedavati-hair-and-vow.json": "300fa425dbd1d1fbcf0685c056f9a4bbc398a919c5d52c928398531baa5b48b8",
+    "public/media/stories/vedavati-hair-and-vow/hero.webp": "5bbab7baa0f7382359528de38a12d4be4d0762adea5927e88d2202444bac6a54",
+    "public/og/vedavati-hair-and-vow.jpg": "812a0cb771184ecd87059a5801c3541ba80c99796f5c7404f9ec1f05ff975087",
+    "public/og/vedavati-hair-and-vow-hi.jpg": "91d53f7a0f0c701e8a4549cc810608bf3df9d56e0fdcebb5d632bc7bbc338d29",
+    "public/og/vedavati-hair-and-vow-ta.jpg": "d86d585f0e59373941cc7ad825fe87d06a5c77468a9f8642246bf01fe558ff2e"
+  }
+}

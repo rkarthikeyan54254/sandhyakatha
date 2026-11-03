@@ -1,0 +1,348 @@
+{
+  "id": "vedavati-hair-and-vow",
+  "schemaVersion": "1.0",
+  "status": "in-review",
+  "version": 1,
+  "updated": "2026-11-03",
+  "title": "Rāvaṇa’s Assault on Vedavatī and Her Vow",
+  "tease": "In a forest, she refused Rāvaṇa and defended her vow. When he seized her hair, she made a promise the Rāmāyaṇa would remember.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa",
+    "locus": "7.17.1–44 (common printed numbering); especially 7.17.27–34 and the concluding Sītā identification",
+    "stability": "variant",
+    "traditionNote": "Follows Shastri’s Uttara 17 ending, identifying Vedavatī with Sītā. The inspected Sanskrit web text adds a lotus-and-sea episode before Janaka finds her. That episode is not narrated here. Yuddha 60.10 also identifies her with Sītā; numbering varies.",
+    "parallels": [
+      {
+        "work": "Vālmīki Rāmāyaṇa",
+        "locus": "Yuddha Kāṇḍa 60.10"
+      }
+    ],
+    "checkedAgainst": [
+      "Vālmīki Rāmāyaṇa, Uttara Kāṇḍa 17, Sanskrit, common printed numbering: https://valmiki-ramayanam.com/uttara-kanda/sarga-017.html (inspected 2026-11-03; web witness, not critical-edition collation)",
+      "Hari Prasad Shastri, The Rāmāyaṇa of Vālmīki (1952), Uttara Kāṇḍa 17: https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424778.html (inspected 2026-11-03; web witness, not critical-edition collation)",
+      "Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa 60.10: https://sanskritdocuments.org/sites/valmikiramayan/yuddha/sarga60/yuddhasans60.htm (inspected 2026-11-03; web witness, not critical-edition collation)"
+    ],
+    "sourcing": [
+      {
+        "claim": "Vedavatī lives as an ascetic in the Himalayan forest, with matted hair and a black antelope skin; Rāvaṇa questions her.",
+        "locus": "Uttara 17.1–8"
+      },
+      {
+        "claim": "She is Kuśadhvaja’s daughter; he studies the Vedas and wishes her to marry Viṣṇu, refusing other suitors.",
+        "locus": "Uttara 17.8–13"
+      },
+      {
+        "claim": "The daitya Śambhu murders her sleeping father; her mother enters the fire holding his body. This Śambhu is not Śiva.",
+        "locus": "Uttara 17.13–15"
+      },
+      {
+        "claim": "Vedavatī devotes herself to Nārāyaṇa, performs tapas, knows Rāvaṇa and asks him to leave.",
+        "locus": "Uttara 17.16–19"
+      },
+      {
+        "claim": "Rāvaṇa offers her life as his consort in Laṅkā, disparages Viṣṇu, and is rebuked by her.",
+        "locus": "Uttara 17.20–27"
+      },
+      {
+        "claim": "Rāvaṇa seizes her hair; she cuts the held hair with a hand sharp as a sword. No completed rape is described.",
+        "locus": "Uttara 17.28–29"
+      },
+      {
+        "claim": "She declares she will end her life and be reborn for his destruction; she will not expend tapas on a curse and invokes gifts and sacrifice for a worthy birth.",
+        "locus": "Uttara 17.30–34"
+      },
+      {
+        "claim": "She enters the fire and flowers fall; the named Shastri witness identifies her with Sītā, Janaka’s daughter found in a ploughed field. The separately inspected Sanskrit page includes an intervening lotus/sea passage; do not silently conflate witnesses.",
+        "locus": "Uttara 17, Shastri concluding paragraphs; Sanskrit web witness 17.35–44"
+      },
+      {
+        "claim": "After defeat by Rāma, Rāvaṇa recalls his assault on Vedavatī and identifies her with Sītā.",
+        "locus": "Yuddha 60.1–10"
+      }
+    ],
+    "variants": [
+      {
+        "differs": "Sequence between the fire and Sītā’s appearance.",
+        "tellings": "The inspected Sanskrit web witness includes a lotus birth and casting into the sea; Shastri’s chapter passes directly to the identification with Janaka’s daughter.",
+        "weTell": "The named Shastri witness, without importing the additional episode. Human source review must resolve witness selection before publication."
+      }
+    ]
+  },
+  "audience": {
+    "minAge": 14,
+    "sensitivity": [
+      "death",
+      "violence",
+      "loss",
+      "gender-norms"
+    ],
+    "careNote": "Rāvaṇa seizes Vedavatī’s hair. She cuts it free, then enters fire and dies. Her father is murdered; her mother also enters fire. No graphic detail. Read privately first. Assault does not make a victim impure; this ending is not conduct to imitate.",
+    "gated": true
+  },
+  "values": [
+    "deciding, and not being talked out of it",
+    "there is no clean moral here"
+  ],
+  "themes": [
+    "devotion",
+    "tapas",
+    "autonomy",
+    "rebirth",
+    "difficult choices"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 1
+  },
+  "characters": [
+    {
+      "ref": "Vedavatī",
+      "role": "lead"
+    },
+    {
+      "ref": "Rāvaṇa",
+      "role": "foil"
+    },
+    {
+      "ref": "Viṣṇu",
+      "role": "present"
+    },
+    {
+      "ref": "Nārāyaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Kuśadhvaja",
+      "role": "present"
+    },
+    {
+      "ref": "Śambhu",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Janaka",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In the «Himālayas», a young ascetic named «Vedavatī» practised tapas. She had devoted herself to «Nārāyaṇa», or «Viṣṇu», and would accept no other husband."
+        },
+        {
+          "t": "p",
+          "text": "Her father, the sage «Kuśadhvaja», had wished the same. Many had asked to marry her, but he had refused them. A daitya named «Śambhu» killed him after that refusal; her mother entered the funeral fire."
+        },
+        {
+          "t": "p",
+          "text": "Still «Vedavatī» continued her vow. One day, as she lived in the forest, «Rāvaṇa» arrived and asked why she had chosen such a hard life."
+        },
+        {
+          "t": "p",
+          "text": "She welcomed him as a visitor, told him who she was, explained her devotion to «Viṣṇu», and asked him to go."
+        },
+        {
+          "t": "p",
+          "text": "«Rāvaṇa» would not listen. He offered her life beside him as ruler of «Laṅkā» and spoke proudly against «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "«Vedavatī» rejected his words. She had made her choice, and neither his power nor his offers changed it."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Rāvaṇa» seized her hair. Angry at being assaulted, she cut off the hair he held. Her hand became sharp as a sword."
+        },
+        {
+          "t": "p",
+          "text": "What happened next is painful: «Vedavatī» prepared a fire and chose to enter it. Before she did, she told «Rāvaṇa» that she would return in another birth to bring about his destruction."
+        },
+        {
+          "t": "p",
+          "text": "She would not use up her tapas by cursing him at once. Instead, she asked that her gifts, sacrifices and austerities lead to a worthy new birth."
+        },
+        {
+          "t": "p",
+          "text": "Then she entered the flames. Flowers fell from above."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The Rāmāyaṇa tells us the next part. «Vedavatī» was born again as «Sītā», whom «Janaka» found in a ploughed field."
+        },
+        {
+          "t": "p",
+          "text": "Years later, in «Laṅkā», «Rāvaṇa» himself remembered the wrong he had done «Vedavatī» and recognised that «Sītā» had come into the world. He spoke of her after returning from battle against «Rāma»."
+        },
+        {
+          "t": "slow",
+          "text": "«Rāvaṇa» had tried to break «Vedavatī»'s decision. Her vow remained part of the story long after he left that forest."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In a forest near the «Himālayas», «Vedavatī» lived as an ascetic. She wore a black antelope skin and kept her hair in matted locks."
+        },
+        {
+          "t": "p",
+          "text": "She had not come there by accident. Her father, the sage «Kuśadhvaja», had devoted himself to the «Vedas» and wished that his daughter should be united with «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "Many powerful beings had once sought her hand. Her father refused those proposals because he had made his choice for «Viṣṇu»."
+        },
+        {
+          "t": "p",
+          "text": "A proud daitya named «Śambhu» was enraged by the refusal. He killed «Kuśadhvaja» while the sage slept. «Vedavatī»'s mother then entered the funeral fire holding her husband."
+        },
+        {
+          "t": "p",
+          "text": "«Vedavatī» continued her own vow. Her heart, she said, was given to «Nārāyaṇa», another name for «Viṣṇu», and she undertook severe tapas for that purpose."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "One day «Rāvaṇa» entered the forest. He saw the young ascetic and wondered why someone of her age and beauty was living with such austerity."
+        },
+        {
+          "t": "p",
+          "text": "He asked whose daughter she was and why she had chosen this life. «Vedavatī» received him with the hospitality due to a visitor before explaining her family and her vow."
+        },
+        {
+          "t": "p",
+          "text": "She had received her visitor with the hospitality due to a guest. When she spoke of her father, she named him as a sage devoted to study. His wish for her marriage was the wish she herself continued to hold."
+        },
+        {
+          "t": "p",
+          "text": "She told him about her father, the marriage proposals, the murder, and the penance she now performed. She also told him she knew who he was."
+        },
+        {
+          "t": "p",
+          "text": "Then she asked «Rāvaṇa» to leave. Her purpose was not hidden and her decision was not open for him to make."
+        },
+        {
+          "t": "p",
+          "text": "But «Rāvaṇa» stepped down from his chariot. He called himself the ruler of «Laṅkā», offered wealth and pleasure, and told her to become his consort."
+        },
+        {
+          "t": "p",
+          "text": "He also spoke contemptuously of «Viṣṇu», claiming to be greater in power. He treated her chosen devotion as something he was entitled to overturn."
+        },
+        {
+          "t": "p",
+          "text": "«Vedavatī» would not accept those words. She defended «Viṣṇu» and rebuked «Rāvaṇa» for speaking against the Lord honoured by all the worlds."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "Then «Rāvaṇa» seized her by the hair. She had already told him whom she wished to marry and asked him to leave. Now he held her against her will."
+        },
+        {
+          "t": "p",
+          "text": "«Vedavatī» was furious. With her own hand, which took on the sharpness of a sword, she cut off the hair he had seized."
+        },
+        {
+          "t": "p",
+          "text": "She did not turn to him for permission to be free. She cut away what he held and spoke of the injury he had done."
+        },
+        {
+          "t": "p",
+          "text": "What followed is difficult. «Vedavatī» said that after his violation she would not continue living in that body. She prepared a fire and resolved to enter it before his eyes."
+        },
+        {
+          "t": "p",
+          "text": "She told «Rāvaṇa» that because he had insulted and assaulted her in the forest, she would be born again for his destruction."
+        },
+        {
+          "t": "p",
+          "text": "She would not spend the power of her tapas on a curse there and then. Instead she prayed that the good she had done through gifts, sacrifice, and austerity would allow her a new and worthy birth."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Vedavatī» entered the fire she had kindled. The account says that flowers fell from above."
+        },
+        {
+          "t": "aside",
+          "text": "Her death is not advice for anyone who has been harmed. Being assaulted does not make a person impure. Keep that distinction clear when discussing this sacred narrative."
+        },
+        {
+          "t": "p",
+          "text": "The sage who recounts the episode then tells «Rāma» who «Vedavatī» became: she was born again as «Sītā», the daughter of «Janaka»."
+        },
+        {
+          "t": "p",
+          "text": "«Janaka» found «Sītā» as he ploughed a field. In the narrative, this birth was the answer to «Vedavatī»'s declared intention to return and become the cause of «Rāvaṇa»'s fall."
+        },
+        {
+          "t": "p",
+          "text": "Later, when «Rāvaṇa» suffered defeat at the hands of «Rāma», he himself remembered «Vedavatī». In the «Yuddha Kāṇḍa», he spoke of the wrong he had done her and recognised «Sītā» as her return."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The tale names «Vedavatī» as the woman who returned, not as someone forgotten in the forest. Its next turn belongs to «Sītā», who is later taken to «Laṅkā» by the same «Rāvaṇa»."
+        },
+        {
+          "t": "slow",
+          "text": "«Rāvaṇa» thought he had interrupted a vow in a lonely forest. The Rāmāyaṇa carries that vow forward into the life of «Sītā» and the fall of «Rāvaṇa»."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "rambha-sevenfold-curse",
+    "reason": "Another older Rāmāyaṇa account of Rāvaṇa’s violence and the consequences of ignoring a woman’s will"
+  },
+  "close": {
+    "question": "Have you ever held on to a promise after someone tried to change your mind? What helped you decide what was yours to choose?",
+    "seed": "No amount of power gave Rāvaṇa the right to make Vedavatī’s choice for her.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Rāvaṇa rape Vedavatī?",
+        "a": "In Uttara Kāṇḍa 17 he tries to persuade her to become his consort and, after her refusal, seizes her hair. The passage does not describe completed rape. Grabbing her hair against her will is itself a violent assault."
+      },
+      {
+        "q": "Why did she enter the fire? Should someone harmed do the same?",
+        "a": "The Rāmāyaṇa says she chose to enter the fire after Rāvaṇa seized her hair, and that she vowed to be reborn for his destruction. This is a grave and troubling part of this specific sacred narrative, not advice for anyone who has been harmed. A person who has been assaulted is not impure and does not owe anyone death or punishment. In our lives, they deserve safety, support and care."
+      },
+      {
+        "q": "Was Vedavatī really Sītā?",
+        "a": "The Uttara Kāṇḍa explicitly identifies Vedavatī’s next birth as Sītā, found by Janaka in a ploughed field. Rāvaṇa also recalls that connection in Yuddha Kāṇḍa 6.60.10. The telling follows those passages without adding details from other retellings."
+      }
+    ]
+  }
+}

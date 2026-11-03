@@ -1,0 +1,31 @@
+{
+  "status": "approved-built-awaiting-ci-and-deployment",
+  "date": "2026-11-03",
+  "reviewer": "rama",
+  "stories": [
+    "rambha-sevenfold-curse",
+    "vedavati-hair-and-vow"
+  ],
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
+  "tellings": 12,
+  "userReportedSeconds": {
+    "short": 180,
+    "full": 360
+  },
+  "art": "Two built-in image_gen illustrations; style-matched to existing site images; agent-reviewed; six native share cards.",
+  "checks": {
+    "strictValidation": "PASS, 0 warnings",
+    "productionBuild": "PASS",
+    "tests": "22 suites / 198 tests PASS",
+    "runtimeAndGating": "PASS; six runtime editions/twelve tellings; source pins/locks; gated and excluded from public archive/sitemap",
+    "visual": "PASS; actual Reader SSR; mobile native titles/source labels/images and no overflow; desktop illustration placement"
+  },
+  "publicationLane": "parent-opt-in app reader, not public archive",
+  "deploymentPerformed": false,
+  "liveVerified": false,
+  "nextExactAction": "Push release branch, create PR, wait for CI and Netlify preview; merge only after passing checks, then verify live runtime content and image bytes."
+}
