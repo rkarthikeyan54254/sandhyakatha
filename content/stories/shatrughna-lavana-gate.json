@@ -1,0 +1,322 @@
+{
+  "id": "shatrughna-lavana-gate",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-11-21",
+  "title": "The Warrior at the Gate",
+  "tease": "He takes his brother’s place, then waits at a city gate. The weapon he must keep away from is still inside.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Uttara Kāṇḍa, chapters 60–70 (Shastri received numbering)",
+    "stability": "variant",
+    "traditionNote": "Follows Hari Prasad Shastri’s received-text Uttara Kāṇḍa numbering. The critical edition has not been collated here; no agreement across all recensions is claimed.",
+    "variants": [
+      {
+        "differs": "Received-text and critical-edition wording and numbering.",
+        "tellings": "The supplied audit uses Shastri’s received-text chapters; direct critical-edition collation remains incomplete.",
+        "weTell": "The named Shastri witness, with the city-gate strategy and no invented duel between the two divine weapons."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "More than a hundred sages from the Yamunā seek protection; Madhu receives Śiva’s trident, inherited by his cruel son Lavaṇa.",
+        "locus": "Uttara 60–61"
+      },
+      {
+        "claim": "Bharata volunteers; Śatrughna asks to take the duty because Bharata has already borne hardship during Rāma’s fourteen-year absence.",
+        "locus": "Uttara 62"
+      },
+      {
+        "claim": "Rāma appoints Śatrughna ruler, gives him a divine arrow, and orders him to intercept Lavaṇa at the gate before he retrieves his trident.",
+        "locus": "Uttara 62–63"
+      },
+      {
+        "claim": "Śatrughna visits Vālmīki; Cyavana tells how the trident destroyed Māndhātā and his army.",
+        "locus": "Uttara 65–67"
+      },
+      {
+        "claim": "Śatrughna crosses the Yamunā, waits at Madhupura’s gate at noon, challenges Lavaṇa and denies him access to the weapon.",
+        "locus": "Uttara 68"
+      },
+      {
+        "claim": "Lavaṇa’s trees are cut by arrows; a blow fells Śatrughna, but he recovers, returns to the gate and fires the divine arrow; Lavaṇa dies and the trident returns to Rudra.",
+        "locus": "Uttara 69"
+      },
+      {
+        "claim": "After a boon Śatrughna establishes his rule in the city beside the Yamunā; the region prospers over twelve years.",
+        "locus": "Uttara 70"
+      }
+    ],
+    "checkedAgainst": [
+      "Hari Prasad Shastri (1952), The sages and Madhu’s weapon (7.61): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424835.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), Shatrughna volunteers (7.62): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424836.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), The plan and divine arrow (7.63): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424837.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), The gate (7.68): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424842.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), The battle (7.69): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424843.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), The city (7.70): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424844.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), Sanskrit 7.69: https://ramayana.info/story/uttara/69/ — inspected 2026-11-21; received-text witness, not critical-edition collation"
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-11-21"
+  },
+  "audience": {
+    "minAge": 8,
+    "gated": false,
+    "sensitivity": [
+      "violence",
+      "death"
+    ],
+    "careNote": "A fierce battle, an unconscious warrior, and the death of Lavaṇa; another king and his army are said to have been destroyed earlier."
+  },
+  "values": [
+    "taking a burden for someone you love"
+  ],
+  "themes": [
+    "duty",
+    "care for a brother",
+    "strategy"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 1
+  },
+  "characters": [
+    {
+      "ref": "Bharata",
+      "role": "present"
+    },
+    {
+      "ref": "Brahmā",
+      "role": "present"
+    },
+    {
+      "ref": "Cyavana",
+      "role": "present"
+    },
+    {
+      "ref": "Daśaratha",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Lavaṇa",
+      "role": "foil"
+    },
+    {
+      "ref": "Madhu",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Māndhātā",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rudra",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāma",
+      "role": "present"
+    },
+    {
+      "ref": "Vālmīki",
+      "role": "present"
+    },
+    {
+      "ref": "Śatrughna",
+      "role": "lead"
+    },
+    {
+      "ref": "Śiva",
+      "role": "mentioned"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "More than a hundred sages came to «Rāma» from the banks of the «Yamunā». They feared «Lavaṇa», a powerful rākṣasa who attacked living beings and carried a dreadful trident once given by «Śiva» to his father."
+        },
+        {
+          "t": "p",
+          "text": "«Bharata» offered to face him. But «Śatrughna» rose and bowed to «Rāma». _Bharata has already endured fourteen hard years while you were away,_ he said. _Let him rest. I am here._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» chose «Śatrughna» and gave him a divine arrow. He also gave him a warning. «Lavaṇa» left his trident at home when he went hunting. _Wait at the city gate. Challenge him before he can get it._"
+        },
+        {
+          "t": "p",
+          "text": "On the appointed day, «Śatrughna» stood at the gate of «Madhupura» with his bow. At noon, «Lavaṇa» returned. He laughed at the lone warrior and asked to go inside for his weapon. «Śatrughna» would not let him pass."
+        },
+        {
+          "t": "p",
+          "text": "Before the fight, «Śatrughna» had also heard about King «Māndhātā». The king had once marched against «Lavaṇa» with an army, but the terrible trident had destroyed them. «Śatrughna» knew why «Rāma» had warned him."
+        },
+        {
+          "t": "p",
+          "text": "«Lavaṇa» boasted of the warriors he had defeated. «Śatrughna» replied, _I had not yet been born when you defeated them._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The battle began. «Lavaṇa» hurled trees. «Śatrughna» cut them apart with arrows. Then a tree struck «Śatrughna» on the head, and he fell unconscious. The watching sages and devas cried out."
+        },
+        {
+          "t": "p",
+          "text": "Thinking him dead, «Lavaṇa» turned away to gather his food. He did not go home for the trident."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» opened his eyes. He rose, took up «Rāma»'s divine arrow and loosed it. The arrow struck «Lavaṇa», who fell; the trident returned to «Rudra»."
+        },
+        {
+          "t": "p",
+          "text": "After the victory, «Śatrughna» established a prosperous city beside the «Yamunā», where people lived in peace."
+        },
+        {
+          "t": "slow",
+          "text": "He had stepped forward so his brother would not have to. And when he fell, his duty was not finished: he rose again."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A group of sages travelled from the banks of the «Yamunā» to the court of «Rāma». A rākṣasa named «Lavaṇa» roamed the forest of «Madhu», killing living beings and threatening them."
+        },
+        {
+          "t": "p",
+          "text": "The sages told «Rāma» about «Lavaṇa»'s father, «Madhu», who had protected those seeking refuge. «Śiva» had rewarded him with a mighty trident. But «Lavaṇa» had become cruel and used the inherited weapon to spread fear."
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» promised to end that fear. He turned to his brothers and asked who would confront «Lavaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "«Bharata» immediately offered to go. Before the matter could be settled, «Śatrughna» stood up from his seat, bowed to «Rāma», and spoke about what «Bharata» had already borne."
+        },
+        {
+          "t": "p",
+          "text": "_While you were away, «Bharata» lived at «Nandigrāma», sleeping on a hard bed, eating roots and fruit, and carrying the burden of the kingdom. He has passed through that trial. Let him remain here. I am ready to serve._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Rāma» accepted the offer. He also commanded that «Śatrughna» should govern the region once «Lavaṇa» was defeated. «Śatrughna» was uneasy about becoming a ruler while his elder brothers lived, but accepted the command."
+        },
+        {
+          "t": "p",
+          "text": "Then «Rāma» placed a divine arrow in his hands. There was something «Śatrughna» needed to know before setting out."
+        },
+        {
+          "t": "p",
+          "text": "«Lavaṇa» kept «Śiva»'s trident at home and honoured it there. When he went hunting, he left it behind. If he retrieved it, his opponent would be in terrible danger. «Rāma» ordered «Śatrughna» to challenge him at the city gate before he could reach it."
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» set out. On the journey he stayed at «Vālmīki»'s hermitage. Later he asked the sage «Cyavana» how strong the trident was."
+        },
+        {
+          "t": "p",
+          "text": "«Cyavana» told him about «Māndhātā», a mighty king who had once marched against «Lavaṇa» with a great army. «Lavaṇa» had hurled the trident, and the king and his soldiers had been reduced to ashes."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "At dawn, «Lavaṇa» left his city to search for food. «Śatrughna» crossed the «Yamunā» and took his position at the gate of «Madhupura», bow in hand. He waited until noon."
+        },
+        {
+          "t": "p",
+          "text": "«Lavaṇa» returned carrying the creatures he had hunted. He saw the lone warrior and laughed. «Śatrughna» announced that he was «Daśaratha»'s son and «Rāma»'s brother, and that he had come to fight."
+        },
+        {
+          "t": "p",
+          "text": "«Lavaṇa» asked for a moment to fetch his weapon. «Śatrughna» refused to let him go. The dangerous trident remained inside the city, beyond «Lavaṇa»'s reach."
+        },
+        {
+          "t": "p",
+          "text": "The rākṣasa boasted about the warriors he had defeated. «Śatrughna» answered, _I had not yet been born when you defeated them. Today I stand before you._"
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Lavaṇa» tore up a tree and hurled it at «Śatrughna». «Śatrughna» cut it into pieces with arrows. More trees came, one after another. He cut those down too, then sent a shower of arrows towards «Lavaṇa». Yet his opponent did not retreat."
+        },
+        {
+          "t": "p",
+          "text": "At last «Lavaṇa» swung a great tree and struck «Śatrughna» on the head. The prince fell to the ground without consciousness. The sages and devas watching the battle cried out in alarm."
+        },
+        {
+          "t": "p",
+          "text": "«Lavaṇa» thought he had won. He did not hurry into his house for the trident. Instead, believing «Śatrughna» dead, he began collecting his food."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "But «Śatrughna» regained his senses. He got to his feet. He returned to the gate and took up the arrow «Rāma» had entrusted to him. Its radiance startled even the devas. «Brahmā» reassured them that this weapon was meant to defeat «Lavaṇa»."
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» drew his bow to his ear and released the arrow. It struck «Lavaṇa» in the chest, passed into the depths below the earth, and returned to «Śatrughna». «Lavaṇa» fell. His terrible trident returned to «Rudra»."
+        },
+        {
+          "t": "p",
+          "text": "The devas offered «Śatrughna» a boon; he wished to rule that beautiful city. His people joined him beside the «Yamunā». Fields bore grain, traders came, and the city flourished."
+        },
+        {
+          "t": "slow",
+          "text": "«Śatrughna» had offered to take on danger for «Bharata». He won not by forgetting «Rāma»'s advice, but by remembering it at the gate—and by rising again when the battle seemed lost."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "shatrughna-ramayana-song",
+    "reason": "The other journey of Śatrughna in the same Uttara Kāṇḍa sequence"
+  },
+  "close": {
+    "question": "Have you ever taken on something difficult because someone else needed a rest? What happened?",
+    "seed": "Caring for someone can mean choosing a difficult task yourself.",
+    "ifTheyAsk": [
+      {
+        "q": "Why did Shatrughna volunteer?",
+        "a": "He says in chapter 62 that Bharata had already borne fourteen years of austerity and hardship at Nandigrāma. He asks Rāma to let Bharata remain and send him instead."
+      },
+      {
+        "q": "Why not let Lavaṇa fetch his weapon?",
+        "a": "Rāma explicitly warned that Lavaṇa left the trident at home during hunts, but could use it to destroy a challenger if he recovered it."
+      },
+      {
+        "q": "Was the arrow stronger than the trident?",
+        "a": "The text says Rāma gave Shatrughna an extraordinary divine arrow and prescribed a precise strategy. It does not stage a direct contest between the two weapons."
+      }
+    ]
+  }
+}

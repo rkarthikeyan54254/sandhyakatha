@@ -1,0 +1,592 @@
+{
+  "id": "shatrughna-lavana-gate",
+  "status": "in-review",
+  "source": {
+    "corpus": "Vālmīki Rāmāyaṇa",
+    "kāṇḍa": "Uttara Kāṇḍa",
+    "receivedEditionLocus": "Uttara Kāṇḍa, chapters 60–70",
+    "checkedAgainst": [
+      "Hari Prasad Shastri 1952 translation",
+      "accessible Sanskrit sargas 7.66 and 7.69"
+    ],
+    "criticalEditionCheck": "PENDING"
+  },
+  "ageFloorSuggestion": "8+",
+  "locales": {
+    "en": {
+      "title": "The Warrior at the Gate",
+      "lengths": {
+        "short": {
+          "targetMinutes": 3,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "More than a hundred sages came to «Rāma» from the banks of the «Yamunā». They feared «Lavaṇa», a powerful rākṣasa who attacked living beings and carried a dreadful trident once given by «Śiva» to his father."
+            },
+            {
+              "t": "p",
+              "text": "«Bharata» offered to face him. But «Śatrughna» rose and bowed to «Rāma». _Bharata has already endured fourteen hard years while you were away,_ he said. _Let him rest. I am here._"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Rāma» chose «Śatrughna» and gave him a divine arrow. He also gave him a warning. «Lavaṇa» left his trident at home when he went hunting. _Wait at the city gate. Challenge him before he can get it._"
+            },
+            {
+              "t": "p",
+              "text": "On the appointed day, «Śatrughna» stood at the gate of «Madhupura» with his bow. At noon, «Lavaṇa» returned. He laughed at the lone warrior and asked to go inside for his weapon. «Śatrughna» would not let him pass."
+            },
+            {
+              "t": "p",
+              "text": "Before the fight, «Śatrughna» had also heard about King «Māndhātā». The king had once marched against «Lavaṇa» with an army, but the terrible trident had destroyed them. «Śatrughna» knew why «Rāma» had warned him."
+            },
+            {
+              "t": "p",
+              "text": "«Lavaṇa» boasted of the warriors he had defeated. «Śatrughna» replied, _I had not yet been born when you defeated them._"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "The battle began. «Lavaṇa» hurled trees. «Śatrughna» cut them apart with arrows. Then a tree struck «Śatrughna» on the head, and he fell unconscious. The watching sages and devas cried out."
+            },
+            {
+              "t": "p",
+              "text": "Thinking him dead, «Lavaṇa» turned away to gather his food. He did not go home for the trident."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» opened his eyes. He rose, took up «Rāma»'s divine arrow and loosed it. The arrow struck «Lavaṇa», who fell; the trident returned to «Rudra»."
+            },
+            {
+              "t": "p",
+              "text": "After the victory, «Śatrughna» established a prosperous city beside the «Yamunā», where people lived in peace."
+            },
+            {
+              "t": "slow",
+              "text": "He had stepped forward so his brother would not have to. And when he fell, his duty was not finished: he rose again."
+            }
+          ]
+        },
+        "full": {
+          "targetMinutes": 6,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "A group of sages travelled from the banks of the «Yamunā» to the court of «Rāma». A rākṣasa named «Lavaṇa» roamed the forest of «Madhu», killing living beings and threatening them."
+            },
+            {
+              "t": "p",
+              "text": "The sages told «Rāma» about «Lavaṇa»'s father, «Madhu», who had protected those seeking refuge. «Śiva» had rewarded him with a mighty trident. But «Lavaṇa» had become cruel and used the inherited weapon to spread fear."
+            },
+            {
+              "t": "p",
+              "text": "«Rāma» promised to end that fear. He turned to his brothers and asked who would confront «Lavaṇa»."
+            },
+            {
+              "t": "p",
+              "text": "«Bharata» immediately offered to go. Before the matter could be settled, «Śatrughna» stood up from his seat, bowed to «Rāma», and spoke about what «Bharata» had already borne."
+            },
+            {
+              "t": "p",
+              "text": "_While you were away, «Bharata» lived at «Nandigrāma», sleeping on a hard bed, eating roots and fruit, and carrying the burden of the kingdom. He has passed through that trial. Let him remain here. I am ready to serve._"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Rāma» accepted the offer. He also commanded that «Śatrughna» should govern the region once «Lavaṇa» was defeated. «Śatrughna» was uneasy about becoming a ruler while his elder brothers lived, but accepted the command."
+            },
+            {
+              "t": "p",
+              "text": "Then «Rāma» placed a divine arrow in his hands. There was something «Śatrughna» needed to know before setting out."
+            },
+            {
+              "t": "p",
+              "text": "«Lavaṇa» kept «Śiva»'s trident at home and honoured it there. When he went hunting, he left it behind. If he retrieved it, his opponent would be in terrible danger. «Rāma» ordered «Śatrughna» to challenge him at the city gate before he could reach it."
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» set out. On the journey he stayed at «Vālmīki»'s hermitage. Later he asked the sage «Cyavana» how strong the trident was."
+            },
+            {
+              "t": "p",
+              "text": "«Cyavana» told him about «Māndhātā», a mighty king who had once marched against «Lavaṇa» with a great army. «Lavaṇa» had hurled the trident, and the king and his soldiers had been reduced to ashes."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "At dawn, «Lavaṇa» left his city to search for food. «Śatrughna» crossed the «Yamunā» and took his position at the gate of «Madhupura», bow in hand. He waited until noon."
+            },
+            {
+              "t": "p",
+              "text": "«Lavaṇa» returned carrying the creatures he had hunted. He saw the lone warrior and laughed. «Śatrughna» announced that he was «Daśaratha»'s son and «Rāma»'s brother, and that he had come to fight."
+            },
+            {
+              "t": "p",
+              "text": "«Lavaṇa» asked for a moment to fetch his weapon. «Śatrughna» refused to let him go. The dangerous trident remained inside the city, beyond «Lavaṇa»'s reach."
+            },
+            {
+              "t": "p",
+              "text": "The rākṣasa boasted about the warriors he had defeated. «Śatrughna» answered, _I had not yet been born when you defeated them. Today I stand before you._"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Lavaṇa» tore up a tree and hurled it at «Śatrughna». «Śatrughna» cut it into pieces with arrows. More trees came, one after another. He cut those down too, then sent a shower of arrows towards «Lavaṇa». Yet his opponent did not retreat."
+            },
+            {
+              "t": "p",
+              "text": "At last «Lavaṇa» swung a great tree and struck «Śatrughna» on the head. The prince fell to the ground without consciousness. The sages and devas watching the battle cried out in alarm."
+            },
+            {
+              "t": "p",
+              "text": "«Lavaṇa» thought he had won. He did not hurry into his house for the trident. Instead, believing «Śatrughna» dead, he began collecting his food."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "But «Śatrughna» regained his senses. He got to his feet and took up the arrow «Rāma» had entrusted to him. Its radiance startled even the devas. «Brahmā» reassured them that this weapon was meant to defeat «Lavaṇa»."
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» drew his bow to his ear and released the arrow. It struck «Lavaṇa» in the chest, passed into the depths below the earth, and returned to «Śatrughna». «Lavaṇa» fell. His terrible trident returned to «Rudra»."
+            },
+            {
+              "t": "p",
+              "text": "The devas offered «Śatrughna» a boon; he wished to rule that beautiful city. His people joined him beside the «Yamunā». Fields bore grain, traders came, and the city flourished."
+            },
+            {
+              "t": "slow",
+              "text": "«Śatrughna» had offered to take on danger for «Bharata». He won not by forgetting «Rāma»'s advice, but by remembering it at the gate—and by rising again when the battle seemed lost."
+            }
+          ]
+        }
+      }
+    },
+    "ta": {
+      "title": "நகரவாசலில் நின்ற வீரன்",
+      "lengths": {
+        "short": {
+          "targetMinutes": 3,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«யமுனை» நதிக்கரையில் வாழ்ந்த முனிவர்கள், «ராமரை»த் தேடி வந்தார்கள். «லவணன்» என்ற அரக்கனின் கொடுமையால் அவர்கள் அஞ்சியிருந்தார்கள். அவனிடம் பயங்கரமான ஒரு சூலம் இருந்தது; அவன் தந்தை «மதுவுக்கு», «சிவபெருமான்» அருளிய ஆயுதம் அது."
+            },
+            {
+              "t": "p",
+              "text": "«பரதன்» அவனை எதிர்த்துப் போரிட முன்வந்தான். அப்போது «சத்ருக்னன்» எழுந்து «ராமரை» வணங்கினான். _அண்ணா, நீங்கள் வனவாசம் சென்றிருந்த பதினான்கு ஆண்டுகளும் பரதன் எவ்வளவோ துன்பப்பட்டான். இனி அவன் ஓய்வெடுக்கட்டும். நான் போகிறேன்,_ என்றான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«ராமர்» அவனுக்கு ஓர் அற்புதமான அம்பைக் கொடுத்தார். அதோடு முக்கியமான அறிவுரையும் சொன்னார். «லவணன்» வேட்டைக்குச் செல்லும்போது சூலத்தை வீட்டிலேயே வைத்துவிடுவான். _அவன் திரும்பி வந்து அதை எடுப்பதற்குள் நகரவாசலில் அவனை எதிர்த்து நில்._"
+            },
+            {
+              "t": "p",
+              "text": "«சத்ருக்னன்» «மதுபுரி» நகரவாசலில் வில்லுடன் காத்திருந்தான். நண்பகலில் «லவணன்» திரும்பினான். தனியாக நின்ற வீரனைக் கண்டு சிரித்தவன், தன் ஆயுதத்தை எடுத்துவர வீட்டுக்குப் போக அனுமதி கேட்டான். «சத்ருக்னன்» வழிவிடவில்லை."
+            },
+            {
+              "t": "p",
+              "text": "தான் வென்ற வீரர்களைப் பற்றிப் பெருமை பேசிய «லவணனிடம்», _நீ அவர்களை வென்றபோது சத்ருக்னன் பிறக்கவே இல்லை,_ என்று பதிலளித்தான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "போர் தொடங்கியது. «லவணன்» மரங்களைப் பிடுங்கி வீசினான். «சத்ருக்னன்» அவற்றை அம்புகளால் துண்டாக்கினான். திடீரென ஒரு பெரிய மரம் அவன் தலையில் பட்டது. மயங்கி விழுந்தான். பார்த்துக்கொண்டிருந்த முனிவர்களும் தேவர்களும் பதறினார்கள்."
+            },
+            {
+              "t": "p",
+              "text": "எதிரி இறந்துவிட்டதாக எண்ணிய «லவணன்», சூலத்தை எடுக்கப் போகவில்லை. உணவுக்காகக் கொண்டு வந்தவற்றைச் சேகரிக்கத் தொடங்கினான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«சத்ருக்னனுக்குத்» தெளிவு திரும்பியது. எழுந்து நின்று, «ராமர்» கொடுத்த தெய்வீக அம்பை எடுத்துத் தொடுத்தான். அது «லவணனை» வீழ்த்தியது. அவனுடைய சூலம் «ருத்ரனிடமே» திரும்பிச் சென்றது."
+            },
+            {
+              "t": "p",
+              "text": "பின்னர் «யமுனை» நதிக்கரையில் அமைதியும் வளமும் நிறைந்த நகரை «சத்ருக்னன்» ஆட்சி செய்தான்."
+            },
+            {
+              "t": "slow",
+              "text": "அண்ணனுக்காக இன்னொரு கடினமான கடமை வரக்கூடாது என்று அவன் முன்வந்தான். போரில் வீழ்ந்தாலும், தன் கடமையை முடிக்க மீண்டும் எழுந்தான்."
+            }
+          ]
+        },
+        "full": {
+          "targetMinutes": 6,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«யமுனை» நதிக்கரையிலிருந்து நூற்றுக்கும் மேற்பட்ட முனிவர்கள் «ராமரின்» அரசவைக்கு வந்தார்கள். அவர்கள் வசித்த பகுதிக்குள் «லவணன்» என்ற அரக்கன் சுற்றித்திரிந்தான். உயிரினங்களைக் கொன்று, முனிவர்களை அச்சுறுத்தியதால், அங்கே நிம்மதியாக வாழ முடியவில்லை."
+            },
+            {
+              "t": "p",
+              "text": "முனிவர்கள் அவன் தந்தையான «மது» பற்றிச் சொன்னார்கள். தன்னை நாடி வந்தவர்களைக் காத்தவன் «மது». அவன் நல்ல பண்பால் மகிழ்ந்த «சிவபெருமான்», பெரும் வல்லமை கொண்ட ஒரு சூலத்தை அவனுக்கு அளித்திருந்தார். ஆனால் அவன் மகன் «லவணன்», அந்த ஆயுதத்தை வைத்துக்கொண்டு கொடுமை செய்தான்."
+            },
+            {
+              "t": "p",
+              "text": "முனிவர்களின் அச்சத்தைப் போக்குவதாக «ராமர்» உறுதி கூறினார். தன் தம்பிகளை நோக்கி, «லவணனை» எதிர்க்க யார் செல்லப் போகிறார்கள் என்று கேட்டார்."
+            },
+            {
+              "t": "p",
+              "text": "முதலில் எழுந்தவன் «பரதன்». _நான் செல்கிறேன்,_ என்று முன்வந்தான். ஆனால் «சத்ருக்னன்» தன் இருக்கையிலிருந்து எழுந்து «ராமரை» வணங்கினான்."
+            },
+            {
+              "t": "p",
+              "text": "_நீங்கள் அயோத்தியிலிருந்து பிரிந்திருந்தபோது பரதன் மனத்தில் துயரத்தை மறைத்துக்கொண்டு நாட்டைப் பார்த்துக்கொண்டான். «நந்திகிராமத்தில்» கடினமான படுக்கையில் உறங்கி, பழங்களும் கிழங்குகளும் உண்டு, மரவுரி அணிந்து வாழ்ந்தான். அவன் ஏற்கெனவே பெரிய சோதனையைச் சந்தித்துவிட்டான். இப்போது அந்தப் பணியை எனக்குத் தாருங்கள்._"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«ராமர்» ஒப்புக்கொண்டார். «லவணனை» வென்ற பின் அந்த நாட்டை ஆளும் பொறுப்பையும் «சத்ருக்னனுக்கு» அளித்தார். மூத்த சகோதரர்கள் இருக்கும்போது தனக்கு முடிசூட்டுவது சரியா என்று «சத்ருக்னன்» தயங்கினாலும், «ராமரின்» ஆணையை ஏற்றான்."
+            },
+            {
+              "t": "p",
+              "text": "புறப்படுவதற்கு முன் «ராமர்» அவனிடம் தெய்வீகமான ஓர் அம்பைக் கொடுத்தார். பிறகு போரில் வெல்வதற்கு மிகவும் அவசியமான செய்தியைச் சொன்னார்."
+            },
+            {
+              "t": "p",
+              "text": "«லவணன்» வேட்டைக்குச் செல்லும்போது சூலத்தை வீட்டில் வைத்துச் செல்வான். மீண்டும் வீட்டுக்குள் சென்று அதை எடுத்துவிட்டால், அவனை எதிர்ப்பது மிகக் கடினம். _நகரவாசலில் காத்திரு. வீட்டுக்குள் நுழைவதற்கு முன்பே அவனைப் போருக்கு அழை,_ என்று «ராமர்» அறிவுறுத்தினார்."
+            },
+            {
+              "t": "p",
+              "text": "«சத்ருக்னன்» பயணத்தைத் தொடங்கினான். வழியில் «வால்மீகி» முனிவரின் ஆசிரமத்தில் தங்கினான். பிறகு «யமுனை» அருகிலுள்ள மற்ற முனிவர்களையும் சந்தித்தான். அங்கே «சியவன» முனிவரிடம், «லவணனின்» சூலத்துக்கு எவ்வளவு வலிமை என்று கேட்டான்."
+            },
+            {
+              "t": "p",
+              "text": "«சியவனர்» ஒரு பழைய சம்பவத்தைச் சொன்னார். «மாந்தாதா» என்ற வல்லமைமிக்க மன்னன் பெரும் படையுடன் «லவணனை» எதிர்த்திருந்தான். அப்போது அந்தச் சூலம் மன்னனையும் அவன் படையையும் சாம்பலாக்கியது. «ராமர்» ஏன் அத்தனை எச்சரிக்கையாகச் சொல்லியிருந்தார் என்பது இப்போது தெளிவாக இருந்தது."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "மறுநாள் விடியற்காலையில் «லவணன்» இரை தேட நகரை விட்டு வெளியேறினான். «சத்ருக்னன்» «யமுனையைக்» கடந்து «மதுபுரி» நகரவாசலில் வில்லுடன் நின்றான். நண்பகல் வரை காத்திருந்தான்."
+            },
+            {
+              "t": "p",
+              "text": "«லவணன்» வேட்டையில் பிடித்த உயிரினங்களுடன் திரும்பினான். வாசலில் தனியாக நின்ற வீரனைப் பார்த்துச் சிரித்தான். _நான் «தசரதரின்» மகன்; «ராமரின்» தம்பி சத்ருக்னன். உன்னை எதிர்க்க வந்திருக்கிறேன்,_ என்று «சத்ருக்னன்» தன்னை அறிமுகப்படுத்தினான்."
+            },
+            {
+              "t": "p",
+              "text": "«லவணன்», தன் ஆயுதத்தை எடுத்துவரச் சிறிது நேரம் வேண்டும் என்றான். «சத்ருக்னன்» வழிவிடவில்லை. சூலம் நகருக்குள் இருந்தது; «லவணன்» அதை அடைய முடியவில்லை."
+            },
+            {
+              "t": "p",
+              "text": "இதுவரை வென்றவர்களைப் பற்றிப் «லவணன்» பெருமை பேசினான். _நீ அவர்களை வென்றபோது சத்ருக்னன் பிறக்கவே இல்லை. இன்று நான் உன் முன்னால் நிற்கிறேன்,_ என்றான் «சத்ருக்னன்»."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "கோபமடைந்த «லவணன்» ஒரு பெரிய மரத்தைப் பிடுங்கி வீசினான். «சத்ருக்னன்» அம்புகளால் அதைத் துண்டாக்கினான். அடுத்தடுத்து பல மரங்கள் பறந்து வந்தன. அவற்றையும் வெட்டினான். பிறகு அம்புமழை பொழிந்தான். ஆனாலும் «லவணன்» பின்வாங்கவில்லை."
+            },
+            {
+              "t": "p",
+              "text": "திடீரென «லவணன்» மற்றொரு மரத்தால் «சத்ருக்னனின்» தலையில் ஓங்கி அடித்தான். «சத்ருக்னன்» மயங்கி நிலத்தில் விழுந்தான். போரைப் பார்த்திருந்த முனிவர்களும் தேவர்களும் கலக்கமடைந்தார்கள்."
+            },
+            {
+              "t": "p",
+              "text": "«சத்ருக்னன்» இறந்துவிட்டான் என்று «லவணன்» நினைத்தான். வாய்ப்பு இருந்தும் வீட்டிற்குள் சென்று சூலத்தை எடுக்கவில்லை. தன் உணவுக்கான பொருள்களைச் சேகரிக்கத் திரும்பினான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "ஆனால் «சத்ருக்னனுக்குத்» தெளிவு திரும்பியது. அவன் எழுந்து நின்று, «ராமர்» கொடுத்த தெய்வீக அம்பை எடுத்தான். அதன் ஒளியைக் கண்ட தேவர்களுக்கே அச்சம் ஏற்பட்டது. இந்த அம்பு «லவணனை» வீழ்த்துவதற்கானது என்று «பிரம்மா» அவர்களிடம் கூறினார்."
+            },
+            {
+              "t": "p",
+              "text": "«சத்ருக்னன்» வில்லை முழுதாக இழுத்து அம்பை விடுத்தான். அது «லவணனின்» மார்பில் பாய்ந்து நிலத்தின் கீழே சென்றுவிட்டு மீண்டும் திரும்பியது. «லவணன்» வீழ்ந்தான். அவனிடமிருந்த பயங்கரச் சூலம் «ருத்ரனிடம்» திரும்பிச் சென்றது."
+            },
+            {
+              "t": "p",
+              "text": "தேவர்கள் வரம் கேட்கச் சொன்னபோது, அந்த அழகிய நகரில் வாழ்ந்து அதை ஆள விரும்புவதாக «சத்ருக்னன்» கேட்டான். «யமுனை» நதிக்கரையில் மக்கள் குடியேறினார்கள். வயல்களில் பயிர் வளர்ந்தது; வணிகர்கள் வந்தார்கள்; நகரம் செழித்தது."
+            },
+            {
+              "t": "slow",
+              "text": "«பரதன்» மீண்டும் துன்பப்பட வேண்டாம் என்பதற்காகவே «சத்ருக்னன்» இந்தப் பணியை ஏற்றான். போரின் முக்கியமான தருணத்தில் «ராமரின்» அறிவுரையை மறக்கவில்லை. மயங்கி விழுந்த பின்னும் எழுந்து தன் கடமையை நிறைவேற்றினான்."
+            }
+          ]
+        }
+      }
+    },
+    "hi": {
+      "title": "नगर-द्वार पर खड़ा योद्धा",
+      "lengths": {
+        "short": {
+          "targetMinutes": 3,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«यमुना» के किनारे रहने वाले ऋषि «राम» के पास आए। वे «लवण» नामक राक्षस से भयभीत थे। उसके पास एक भयानक त्रिशूल था, जो भगवान «शिव» ने कभी उसके पिता «मधु» को दिया था। अब «लवण» उसी शक्ति से सबको सताता था।"
+            },
+            {
+              "t": "p",
+              "text": "«भरत» ने आगे बढ़कर कहा कि वे उससे युद्ध करेंगे। तभी «शत्रुघ्न» उठे और «राम» को प्रणाम किया। _भैया, आपके वनवास के चौदह वर्ष भरत ने बड़े कष्ट में बिताए हैं। अब उन्हें विश्राम करने दीजिए। मैं जाऊँगा।_"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«राम» ने «शत्रुघ्न» को एक दिव्य बाण दिया और सावधान किया। «लवण» शिकार पर जाते समय अपना त्रिशूल घर पर छोड़ देता था। _नगर के द्वार पर प्रतीक्षा करना। उसे भीतर जाकर त्रिशूल लेने का अवसर मत देना।_"
+            },
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» धनुष लेकर «मधुपुरी» के द्वार पर खड़े हो गए। दोपहर को «लवण» लौटा। उसने अकेले खड़े योद्धा का उपहास किया और कहा कि वह घर जाकर अपना अस्त्र लाएगा। «शत्रुघ्न» ने रास्ता नहीं छोड़ा।"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» उन वीरों की डींगें मारने लगा जिन्हें वह पहले हरा चुका था। «शत्रुघ्न» ने उत्तर दिया, _जब तुमने उन सबको हराया था, तब शत्रुघ्न का जन्म भी नहीं हुआ था।_"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "युद्ध छिड़ गया। «लवण» पेड़ उखाड़कर फेंकता और «शत्रुघ्न» उन्हें बाणों से काट देते। फिर एक भारी पेड़ «शत्रुघ्न» के सिर पर लगा। वे मूर्छित होकर गिर पड़े। देखते हुए ऋषि और देवता घबरा उठे।"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» ने समझा कि शत्रु मारा गया। वह त्रिशूल लेने नहीं गया, बल्कि अपने शिकार को समेटने लगा।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "तभी «शत्रुघ्न» को होश आया। वे उठे, «राम» का दिया दिव्य बाण धनुष पर चढ़ाया और चला दिया। बाण से «लवण» धराशायी हो गया। उसका त्रिशूल «रुद्र» के पास लौट गया।"
+            },
+            {
+              "t": "p",
+              "text": "बाद में «शत्रुघ्न» ने «यमुना» के किनारे समृद्ध नगर बसाया, जहाँ लोग निर्भय होकर रहने लगे।"
+            },
+            {
+              "t": "slow",
+              "text": "उन्होंने भरत का कष्ट देखकर स्वयं कठिन काम चुना था। युद्ध में गिरे भी, तो अपना कर्तव्य पूरा करने के लिए फिर उठ खड़े हुए।"
+            }
+          ]
+        },
+        "full": {
+          "targetMinutes": 6,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«यमुना» नदी के किनारे से सौ से अधिक ऋषि «राम» की सभा में पहुँचे। उनके चेहरे पर चिंता थी। «मधु» वन में «लवण» नाम का एक राक्षस घूमता था। वह जीवों को मारता और आश्रमों में रहने वाले ऋषियों को आतंकित करता था।"
+            },
+            {
+              "t": "p",
+              "text": "ऋषियों ने «राम» को «लवण» के पिता «मधु» के बारे में बताया। «मधु» कभी शरण माँगने वालों की रक्षा करता था। उसके आचरण से प्रसन्न होकर भगवान «शिव» ने उसे एक अत्यंत शक्तिशाली त्रिशूल दिया था। पर «मधु» का पुत्र «लवण» क्रूर निकला। पिता से प्राप्त उसी अस्त्र के बल पर वह सबको भयभीत करने लगा।"
+            },
+            {
+              "t": "p",
+              "text": "«राम» ने ऋषियों को भय से मुक्त करने का वचन दिया। फिर उन्होंने अपने भाइयों से पूछा कि «लवण» का सामना कौन करेगा।"
+            },
+            {
+              "t": "p",
+              "text": "«भरत» तुरंत आगे आए। _मुझे यह कार्य सौंप दीजिए,_ उन्होंने कहा। पर तभी «शत्रुघ्न» अपने आसन से उठे। «राम» के आगे झुककर उन्होंने अपने बड़े भाई के कष्टों की बात कही।"
+            },
+            {
+              "t": "p",
+              "text": "_जब आप अयोध्या में नहीं थे, भरत ने मन का दुख छिपाकर राज्य की देखभाल की। वे «नंदिग्राम» में कठिन शय्या पर सोए, कंद-मूल और फल खाकर रहे, और तपस्वी जैसा जीवन बिताया। वे यह परीक्षा सह चुके हैं। अब यह सेवा मुझे करने दीजिए।_"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«राम» ने उनकी बात स्वीकार कर ली। उन्होंने आज्ञा दी कि विजय के बाद «शत्रुघ्न» उस प्रदेश का शासन भी सँभालें। बड़े भाइयों के रहते स्वयं राजा बनना «शत्रुघ्न» को उचित नहीं लग रहा था। फिर भी उन्होंने «राम» की आज्ञा मानी।"
+            },
+            {
+              "t": "p",
+              "text": "विदा होने से पहले «राम» ने उन्हें एक दिव्य बाण दिया। साथ ही समझाया कि «लवण» का त्रिशूल कितना भयानक है।"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» जब भोजन के लिए शिकार करने निकलता, तो त्रिशूल घर में रख जाता था। यदि किसी चुनौती के समय वह भीतर पहुँचकर उसे उठा ले, तो सामने वाला नष्ट हो सकता था। _नगर के फाटक पर ठहरना,_ «राम» ने कहा। _उसे अस्त्र लेने के लिए भीतर मत जाने देना।_"
+            },
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» यात्रा पर निकल पड़े। रास्ते में वे «वाल्मीकि» के आश्रम में ठहरे। आगे «यमुना» के पास उन्होंने ऋषि «च्यवन» से पूछा कि उस त्रिशूल की शक्ति कितनी है।"
+            },
+            {
+              "t": "p",
+              "text": "«च्यवन» ने राजा «मांधाता» की कथा सुनाई। वह महान राजा विशाल सेना लेकर «लवण» से लड़ने गया था। लेकिन «लवण» ने त्रिशूल चलाया और राजा के साथ पूरी सेना भस्म हो गई। «शत्रुघ्न» अब समझ चुके थे कि «राम» ने द्वार पर रोकने की बात क्यों कही थी।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "एक सुबह «लवण» भोजन की खोज में नगर से बाहर गया। «शत्रुघ्न» «यमुना» पार करके «मधुपुरी» के द्वार पर पहुँचे। धनुष हाथ में लिए वे दोपहर तक प्रतीक्षा करते रहे।"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» अपने शिकार के साथ लौट रहा था। द्वार पर एक अकेला योद्धा देखकर वह हँसा। «शत्रुघ्न» ने अपना परिचय दिया: _मैं «दशरथ» का पुत्र और «राम» का भाई शत्रुघ्न हूँ। मैं तुमसे युद्ध करने आया हूँ।_"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» ने कहा कि वह घर जाकर अपना अस्त्र लाएगा। पर «शत्रुघ्न» हटे नहीं। वह भयानक त्रिशूल अभी भी नगर के भीतर था; उसके स्वामी के हाथ में नहीं।"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» ने उन राजाओं की डींग मारी जिन्हें वह हरा चुका था। «शत्रुघ्न» ने उत्तर दिया, _जब तुमने उन्हें हराया, तब शत्रुघ्न पैदा भी नहीं हुआ था। आज मैं तुम्हारे सामने खड़ा हूँ।_"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "क्रोध में «लवण» ने एक वृक्ष उखाड़कर फेंका। «शत्रुघ्न» ने उसे बाणों से टुकड़े-टुकड़े कर दिया। फिर कई वृक्ष आए। वे उन्हें भी काटते गए। उन्होंने बाणों की वर्षा कर दी, लेकिन «लवण» पीछे नहीं हटा।"
+            },
+            {
+              "t": "p",
+              "text": "तभी «लवण» ने एक बड़ा वृक्ष घुमाकर «शत्रुघ्न» के सिर पर मारा। वे भूमि पर मूर्छित होकर गिर पड़े। युद्ध देख रहे ऋषि, देवता और गंधर्व घबराकर पुकार उठे।"
+            },
+            {
+              "t": "p",
+              "text": "«लवण» ने समझा कि उसका शत्रु मर गया। घर जाकर त्रिशूल लेने का अवसर उसके पास था, लेकिन उसने ऐसा नहीं किया। वह अपने भोजन को इकट्ठा करने लगा।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "कुछ ही देर में «शत्रुघ्न» को होश आया। वे उठ खड़े हुए और «राम» का दिया दिव्य बाण हाथ में लिया। उसके तेज से देवता भी चकित और भयभीत हुए। «ब्रह्मा» ने उन्हें आश्वस्त किया कि यह बाण «लवण» के विनाश के लिए है।"
+            },
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» ने धनुष कान तक खींचा और बाण छोड़ दिया। वह «लवण» की छाती में लगा, धरती के नीचे तक गया और फिर लौट आया। «लवण» गिर पड़ा; उसका त्रिशूल «रुद्र» के पास लौट गया।"
+            },
+            {
+              "t": "p",
+              "text": "देवताओं ने «शत्रुघ्न» से वर माँगने को कहा। उन्होंने उस सुंदर नगर में बसने और उसका शासन करने की इच्छा जताई। «यमुना» के तट पर नगर विकसित हुआ। खेतों में अन्न उगा, व्यापारी आने लगे और लोग सुरक्षित जीवन बिताने लगे।"
+            },
+            {
+              "t": "slow",
+              "text": "«शत्रुघ्न» ने भरत को फिर कष्ट न उठाना पड़े, इसलिए यह जिम्मेदारी ली थी। निर्णायक समय पर उन्होंने «राम» की सीख याद रखी। और जब युद्ध में गिर पड़े, तब भी उठकर अपना कर्तव्य पूरा किया।"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "close": {
+    "en": {
+      "question": "Have you ever taken on something difficult because someone else needed a rest? What happened?",
+      "seed": "Caring for someone can mean choosing a difficult task yourself.",
+      "care": "A fierce battle, an unconscious warrior, and the death of Lavaṇa; another king and his army are said to have been destroyed earlier."
+    },
+    "ta": {
+      "question": "வேறொருவர் ஓய்வெடுக்க வேண்டும் என்பதற்காக நீ ஏதாவது கடினமான வேலையை ஏற்றுக்கொண்டதுண்டா? அப்போது எப்படி இருந்தது?",
+      "seed": "ஒருவர்மீது உள்ள அன்பு, கடினமான பொறுப்பை நாமே ஏற்கத் தூண்டும்.",
+      "care": "கடுமையான போர், மயங்கி விழும் வீரன், லவணனின் இறப்பு; முன்பு ஒரு மன்னனும் அவன் படையும் அழிந்த செய்தியும் வருகிறது."
+    },
+    "hi": {
+      "question": "क्या कभी तुमने किसी को आराम मिल सके, इसलिए खुद कोई कठिन काम किया है? तब कैसा लगा?",
+      "seed": "किसी की परवाह करना कभी-कभी कठिन जिम्मेदारी खुद उठाना भी होता है।",
+      "care": "भयंकर युद्ध, शत्रुघ्न का मूर्छित होना और लवण की मृत्यु; पहले एक राजा और उसकी सेना के नष्ट होने का वर्णन भी है।"
+    }
+  },
+  "ifTheyAsk": {
+    "en": [
+      [
+        "Why did Shatrughna volunteer?",
+        "He says in chapter 62 that Bharata had already borne fourteen years of austerity and hardship at Nandigrāma. He asks Rāma to let Bharata remain and send him instead."
+      ],
+      [
+        "Why not let Lavaṇa fetch his weapon?",
+        "Rāma explicitly warned that Lavaṇa left the trident at home during hunts, but could use it to destroy a challenger if he recovered it."
+      ],
+      [
+        "Was the arrow stronger than the trident?",
+        "The text says Rāma gave Shatrughna an extraordinary divine arrow and prescribed a precise strategy. It does not stage a direct contest between the two weapons."
+      ]
+    ],
+    "ta": [
+      [
+        "சத்ருக்னன் ஏன் முன்வந்தான்?",
+        "நந்திகிராமத்தில் பரதன் பதினான்கு ஆண்டுகள் கடுமையான வாழ்க்கை வாழ்ந்ததை நினைவுபடுத்தி, அவனுக்குப் பதிலாகத் தன்னை அனுப்புமாறு ராமரிடம் கேட்டான்."
+      ],
+      [
+        "லவணனை ஏன் வீட்டுக்குப் போகவிடவில்லை?",
+        "வேட்டைக்குச் செல்லும் போது லவணன் சூலத்தை வீட்டில் வைப்பான் என்று ராமர் சொல்லியிருந்தார். அதை எடுத்தால் ஆபத்து மிக அதிகம்."
+      ],
+      [
+        "இரண்டு ஆயுதங்களும் நேராக மோதினவா?",
+        "இல்லை. ராமர் கொடுத்த தெய்வீக அம்பும் அவர் சொன்ன திட்டமும் வெற்றிக்குக் காரணம். சூலத்துக்கும் அம்புக்கும் நேரடிப் போட்டி நடைபெறவில்லை."
+      ]
+    ],
+    "hi": [
+      [
+        "शत्रुघ्न ने स्वयं जाने को क्यों कहा?",
+        "उन्होंने राम को भरत के नंदिग्राम में बिताए चौदह वर्षों के कष्ट याद दिलाए और स्वयं यह जिम्मेदारी माँगी।"
+      ],
+      [
+        "लवण को घर क्यों नहीं जाने दिया?",
+        "राम ने बताया था कि शिकार के समय वह त्रिशूल घर में छोड़ जाता है। यदि उसे उठा लेता, तो सामने वाले के लिए घोर संकट होता।"
+      ],
+      [
+        "क्या दोनों दिव्य अस्त्र आपस में टकराए?",
+        "नहीं। कथा में राम की योजना और दिए हुए बाण का उपयोग है; त्रिशूल तथा बाण का सीधा सामना नहीं होता।"
+      ]
+    ]
+  },
+  "sourceLinks": [
+    [
+      "The sages and Madhu’s weapon (7.61)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424835.html"
+    ],
+    [
+      "Shatrughna volunteers (7.62)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424836.html"
+    ],
+    [
+      "The plan and divine arrow (7.63)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424837.html"
+    ],
+    [
+      "The gate (7.68)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424842.html"
+    ],
+    [
+      "The battle (7.69)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424843.html"
+    ],
+    [
+      "The city (7.70)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424844.html"
+    ],
+    [
+      "Sanskrit 7.69",
+      "https://ramayana.info/story/uttara/69/"
+    ]
+  ]
+}

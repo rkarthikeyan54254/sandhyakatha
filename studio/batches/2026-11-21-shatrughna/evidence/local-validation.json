@@ -1,0 +1,18 @@
+{
+  "status": "PASS-awaiting-deployment",
+  "tests": "24 suites / 225 tests",
+  "build": "Full strict production build, native-language moat, locale parity, public locale, direct-link, social, design, surface and cache gates PASS",
+  "browser": "All six public EN/HI/TA pages at 390x844: expected native titles, loaded optimized heroes, two tellings, sharing controls, language-specific OG images and no horizontal overflow. Desktop restored and checked.",
+  "englishWords": {
+    "shatrughna-lavana-gate": {
+      "short": 309,
+      "full": 651
+    },
+    "shatrughna-ramayana-song": {
+      "short": 301,
+      "full": 653
+    }
+  },
+  "sitemap": "Six new public story URLs included by standard build generation",
+  "stateSafety": "No profile/auth/session/sync implementation or stored user state changed."
+}

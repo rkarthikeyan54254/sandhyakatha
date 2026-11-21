@@ -1,0 +1,28 @@
+{
+  "changes": [
+    {
+      "id": "shatrughna-lavana-gate",
+      "length": "full",
+      "before": "But «Śatrughna» regained his senses. He got to his feet and took up the arrow «Rāma» had entrusted to him. Its radiance startled even the devas. «Brahmā» reassured them that this weapon was meant to defeat «Lavaṇa».",
+      "after": "But «Śatrughna» regained his senses. He got to his feet. He returned to the gate and took up the arrow «Rāma» had entrusted to him. Its radiance startled even the devas. «Brahmā» reassured them that this weapon was meant to defeat «Lavaṇa».",
+      "locus": "Uttara 69; recovery explicitly returns him to the gate"
+    },
+    {
+      "id": "shatrughna-ramayana-song",
+      "length": "short",
+      "before": "After the meal, «Śatrughna» heard a beautiful song accompanied by stringed instruments. It told the life of «Rāma»: deeds and events that «Śatrughna» himself knew so well. As he listened, his eyes filled with tears. His companions were moved and astonished too.",
+      "after": "After the meal, «Śatrughna» heard a beautiful song accompanied by stringed instruments. It told the life of «Rāma»: deeds and events that «Śatrughna» himself knew so well. As he listened, his eyes filled with tears. His companions were moved and astonished too. They listened with their heads bowed as the song continued.",
+      "locus": "Uttara 71; listening companions bow their heads"
+    },
+    {
+      "id": "shatrughna-ramayana-song",
+      "length": "full",
+      "before": "For «Śatrughna», these were not distant tales. He had known the years of his absence. Now those events became a musical narration. Tears filled his eyes, and he sighed as he listened.",
+      "after": "For «Śatrughna», the song was about his own elder brother. These were not the distant adventures of someone he had never known. He had known the years of his absence. Now those events became a musical narration. As he listened to the music, his eyes filled with tears. He sighed again and again, absorbed in the account of his brother’s life.",
+      "locus": "Uttara 71; same response and relationship already in native full tellings"
+    }
+  ],
+  "nativeProse": "All native words and inflections preserved; draft-only native guillemets removed rather than incorrectly substituting English identity keys.",
+  "timings": "Rama reported short 3 minutes / long 6 minutes after being explicitly asked for actual Hindi/Tamil timings. Recorded as whole-minute estimates, not stopwatch measurements.",
+  "criticalEdition": "Not collated; named Shastri received-text witness and limitations retained."
+}

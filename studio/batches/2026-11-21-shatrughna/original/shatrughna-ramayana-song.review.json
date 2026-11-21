@@ -1,0 +1,515 @@
+{
+  "id": "shatrughna-ramayana-song",
+  "status": "in-review",
+  "source": {
+    "corpus": "Vālmīki Rāmāyaṇa",
+    "kāṇḍa": "Uttara Kāṇḍa",
+    "receivedEditionLocus": "Uttara Kāṇḍa, chapters 65–66, 70–71",
+    "checkedAgainst": [
+      "Hari Prasad Shastri 1952 translation",
+      "accessible Sanskrit sargas 7.66 and 7.69"
+    ],
+    "criticalEditionCheck": "PENDING"
+  },
+  "ageFloorSuggestion": "7+",
+  "locales": {
+    "en": {
+      "title": "The Night Shatrughna Heard the Rāmāyaṇa",
+      "lengths": {
+        "short": {
+          "targetMinutes": 3,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "On his way to confront «Lavaṇa», «Śatrughna» stopped for the night at «Vālmīki»'s forest hermitage. It was the rainy month of «Śrāvaṇa». That very night, «Sītā», who was living there under the sage's protection, gave birth to twin sons."
+            },
+            {
+              "t": "p",
+              "text": "Young ascetics brought the news to «Vālmīki» at midnight. The sage went to the children, performed rites for their protection and gave them names. The elder was «Kuśa»; the younger, «Lava»."
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» heard the joyful news and the names. He went to the leaf-thatched hut where «Sītā» was and offered her good wishes: _Mother, may you be happy._"
+            },
+            {
+              "t": "p",
+              "text": "At dawn he bowed to «Vālmīki» and continued his journey."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» defeated «Lavaṇa» and established a city by the «Yamunā». For twelve years the city prospered under his care. Then he wished to see «Rāma» again and set out for «Ayodhyā» with an escort."
+            },
+            {
+              "t": "p",
+              "text": "On the way, he returned to «Vālmīki»'s hermitage. The sage welcomed him, praised his difficult victory, and offered hospitality."
+            },
+            {
+              "t": "p",
+              "text": "«Vālmīki» praised «Śatrughna» for defeating a foe whom great kings had failed to overcome. The sage showed his affection by smelling the crown of the prince’s head."
+            },
+            {
+              "t": "p",
+              "text": "After the meal, «Śatrughna» heard a beautiful song accompanied by stringed instruments. It told the life of «Rāma»: deeds and events that «Śatrughna» himself knew so well. As he listened, his eyes filled with tears. His companions were moved and astonished too."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "The soldiers asked their prince to question «Vālmīki» about what they had heard. «Śatrughna» answered that they should not question a great sage merely to satisfy their curiosity. He bowed to «Vālmīki» and retired."
+            },
+            {
+              "t": "slow",
+              "text": "Twelve years earlier, «Śatrughna» had heard the names «Kuśa» and «Lava» in that hermitage. Now he heard «Rāma»'s life turned into song, and his eyes filled with tears."
+            }
+          ]
+        },
+        "full": {
+          "targetMinutes": 6,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«Śatrughna» was travelling away from «Ayodhyā» on a difficult errand. His brother «Rāma» had sent him to confront «Lavaṇa», who had brought fear to the sages living near the «Yamunā». Before reaching the river, «Śatrughna» came to the forest hermitage of «Vālmīki»."
+            },
+            {
+              "t": "p",
+              "text": "He spent the night there. It was the rainy month of «Śrāvaṇa», and another event was taking place in the hermitage, far from the road and the affairs of kings."
+            },
+            {
+              "t": "p",
+              "text": "«Sītā», living under «Vālmīki»'s protection, gave birth to two sons. Around midnight the younger ascetics went to their teacher with the news. They asked him to perform the rites that would protect the newborn children."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Vālmīki» went to see them. Delighted, he took sacred «kuśa» grass, along with its roots, and performed the protective rite with mantras."
+            },
+            {
+              "t": "p",
+              "text": "The first child was touched with the blessed grass; the second was tended with the roots. «Vālmīki» named the elder «Kuśa» and the younger «Lava». The women of the hermitage carried out the rite as he had directed. Their names were spoken for the first time that night."
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» heard the news: «Sītā» had given birth to twin sons, and «Vālmīki» had named them. He approached the leaf-thatched hut where she lay and spoke a simple wish: _Mother, may you be happy._"
+            },
+            {
+              "t": "p",
+              "text": "That rainy night passed joyfully for «Śatrughna». At dawn he offered his morning prayers, bowed to «Vālmīki» and continued on his journey."
+            },
+            {
+              "t": "p",
+              "text": "He still had a duty to complete. He travelled on to the sages by the «Yamunā», learned more about the enemy he would face, and eventually defeated «Lavaṇa» in battle with the divine arrow «Rāma» had placed in his care."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» did not simply leave the region after the victory. He established himself in the city beside the river. Under his protection, people lived peacefully. Rain came in season, grain grew in the fields, markets filled with goods, and merchants arrived from different places."
+            },
+            {
+              "t": "p",
+              "text": "Twelve years passed. While living in that prosperous city, «Śatrughna» felt a strong desire to see his elder brother «Rāma» again. He set out towards «Ayodhyā» with a smaller party, leaving his chief officers to continue their duties."
+            },
+            {
+              "t": "p",
+              "text": "His route brought him once more to the hermitage of «Vālmīki». «Śatrughna» greeted the sage, who welcomed him with water and the customary hospitality shown to a guest."
+            },
+            {
+              "t": "p",
+              "text": "«Vālmīki» spoke warmly of his victory. Many kings and their armies had failed against «Lavaṇa», the sage said; «Śatrughna» had ended the fear that troubled the world. «Vālmīki» expressed his affection by smelling the crown of the prince's head, a gesture of blessing."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "After eating, «Śatrughna» heard music. Stringed instruments accompanied voices singing the history of «Rāma». The song described what had happened in his brother's life and the great deeds he had performed."
+            },
+            {
+              "t": "p",
+              "text": "For «Śatrughna», these were not distant tales. He had known the years of his absence. Now those events became a musical narration. Tears filled his eyes, and he sighed as he listened."
+            },
+            {
+              "t": "p",
+              "text": "The soldiers with him were astonished. The song made the events feel so present that they wondered whether they were dreaming. They turned to their prince and asked him to question «Vālmīki» about this extraordinary experience."
+            },
+            {
+              "t": "p",
+              "text": "«Śatrughna» would not. _It is not fitting to question a great sage merely out of curiosity,_ he told them. _Many marvellous things happen in this hermitage._ He bowed to «Vālmīki» and went to his quarters."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "The same hermitage had welcomed «Śatrughna» on two journeys, twelve years apart. The first visit had brought the joyful news of a birth; the second gave him a song about his brother’s life."
+            },
+            {
+              "t": "slow",
+              "text": "On the first visit «Śatrughna» heard that «Kuśa» and «Lava» had been born. On the second he heard «Rāma»'s life sung so beautifully that he wept. He let the moment be."
+            }
+          ]
+        }
+      }
+    },
+    "ta": {
+      "title": "சத்ருக்னன் கேட்ட ராமாயணப் பாடல்",
+      "lengths": {
+        "short": {
+          "targetMinutes": 3,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«லவணனை» எதிர்த்துப் போரிடச் சென்ற வழியில், «சத்ருக்னன்» ஒரு இரவு «வால்மீகி» முனிவரின் ஆசிரமத்தில் தங்கினான். அது மழைக்காலமான «சிராவண» மாதம். அன்று இரவே, ஆசிரமத்தில் வாழ்ந்த «சீதைக்கு» இரட்டைக் குழந்தைகள் பிறந்தன."
+            },
+            {
+              "t": "p",
+              "text": "நள்ளிரவில் இளம் தவசிகள் அந்த நற்செய்தியை «வால்மீகியிடம்» தெரிவித்தார்கள். முனிவர் குழந்தைகளைக் காணச் சென்று, அவர்களைக் காக்கும் மந்திரச் சடங்கைச் செய்தார். மூத்த குழந்தைக்குக் «குசன்», இளைய குழந்தைக்குக் «லவன்» என்று பெயரிட்டார்."
+            },
+            {
+              "t": "p",
+              "text": "இந்தச் செய்தியையும் குழந்தைகளின் பெயர்களையும் «சத்ருக்னன்» கேட்டான். «சீதை» தங்கியிருந்த குடிலின் அருகே சென்று, _அன்னையே, நீங்கள் நலமுடன் மகிழ்ச்சியாக இருங்கள்,_ என்று வாழ்த்தினான். மறுநாள் காலையில் «வால்மீகியை» வணங்கி, தன் பயணத்தைத் தொடர்ந்தான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "பிறகு «சத்ருக்னன்», «லவணனை» வென்று «யமுனை» நதிக்கரையில் ஒரு நகரை ஆட்சி செய்தான். பன்னிரண்டு ஆண்டுகள் அங்கே மக்கள் செழிப்பாக வாழ்ந்தார்கள். அண்ணன் «ராமரை» மீண்டும் பார்க்க வேண்டும் என்று எண்ணிய «சத்ருக்னன்», «அயோத்தி» நோக்கிப் புறப்பட்டான்."
+            },
+            {
+              "t": "p",
+              "text": "வழியில் மீண்டும் «வால்மீகியின்» ஆசிரமத்துக்குச் சென்றான். முனிவர் அவனை வரவேற்று, கடினமான போரில் பெற்ற வெற்றியைப் பாராட்டினார்."
+            },
+            {
+              "t": "p",
+              "text": "உணவுக்குப் பிறகு «சத்ருக்னன்» ஓர் இனிய பாடலைக் கேட்டான். யாழ் போன்ற நரம்பிசைக் கருவிகளின் இசையோடு «ராமரின்» வாழ்க்கை பாடப்பட்டது. அண்ணன் செய்த செயல்களும் கடந்த நிகழ்வுகளும் பாடலாக ஒலித்தன. கேட்டுக்கொண்டிருந்த «சத்ருக்னனின்» கண்களில் கண்ணீர் நிறைந்தது."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "அவனுடன் வந்த வீரர்களும் வியந்தார்கள். இந்தப் பாடலைப் பற்றி «வால்மீகியிடம்» கேட்குமாறு அவர்கள் வேண்டினார்கள். _பெரிய முனிவரிடம் வெறும் ஆர்வத்துக்காகக் கேள்வி கேட்பது முறையல்ல,_ என்ற «சத்ருக்னன்», அவரை வணங்கிச் சென்றான்."
+            },
+            {
+              "t": "slow",
+              "text": "பன்னிரண்டு ஆண்டுகளுக்கு முன் அதே ஆசிரமத்தில் «குசன்», «லவன்» பிறந்த செய்தியைக் கேட்டான். இப்போது «ராமரின்» வாழ்க்கை பாடலாக ஒலிக்க, «சத்ருக்னனின்» கண்களில் கண்ணீர் பெருகியது."
+            }
+          ]
+        },
+        "full": {
+          "targetMinutes": 6,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«அயோத்தியில்» இருந்து «சத்ருக்னன்» ஒரு முக்கியமான பணிக்காகப் புறப்பட்டிருந்தான். «யமுனை» நதிக்கரையில் வாழும் முனிவர்களை அச்சுறுத்திய «லவணனை» எதிர்க்கும்படி «ராமர்» அவனை அனுப்பியிருந்தார். அந்தப் பயணத்தில் «வால்மீகி» முனிவரின் ஆசிரமத்துக்கு வந்தான்."
+            },
+            {
+              "t": "p",
+              "text": "அன்றிரவு அங்கே தங்கினான். அது மழை பெய்யும் «சிராவண» மாதம். அரசர்களின் போர்களுக்கும் பயணங்களுக்கும் அப்பால், அந்த ஆசிரமத்தில் இன்னொரு முக்கியமான நிகழ்வு நடந்துகொண்டிருந்தது."
+            },
+            {
+              "t": "p",
+              "text": "«வால்மீகியின்» பாதுகாப்பில் வாழ்ந்த «சீதை» இரட்டை ஆண் குழந்தைகளைப் பெற்றெடுத்தாள். நள்ளிரவில் இளம் தவசிகள் அந்தச் செய்தியை முனிவரிடம் தெரிவித்தார்கள். குழந்தைகள் நலமாக இருக்கப் பாதுகாப்புச் சடங்கைச் செய்யும்படி வேண்டினார்கள்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«வால்மீகி» குழந்தைகளைக் காணச் சென்றார். இரு குழந்தைகளையும் பார்த்து மகிழ்ந்தார். வேர் உடனிருந்த புனிதமான «தர்ப்பைப்» புல்லை எடுத்தார்; மந்திரங்களைச் சொல்லி அவர்களைப் பாதுகாக்கும் சடங்கைச் செய்தார்."
+            },
+            {
+              "t": "p",
+              "text": "மூத்த குழந்தைக்கு அந்தப் புல்லைப் பயன்படுத்தி சடங்கு செய்யப்பட்டது. இளைய குழந்தைக்குப் புல்லின் வேரைப் பயன்படுத்தினார்கள். அதன்படி மூத்தவனுக்குக் «குசன்», இளையவனுக்குக் «லவன்» என்று «வால்மீகி» பெயரிட்டார். ஆசிரமத்துப் பெண்கள் முனிவர் கூறியபடி சடங்கை முடித்தார்கள்."
+            },
+            {
+              "t": "p",
+              "text": "«சீதைக்கு» இரு மகன்கள் பிறந்ததையும் அவர்கள் பெற்ற பெயர்களையும் «சத்ருக்னன்» கேட்டான். அவள் இருந்த இலைக்குடிலின் அருகே வந்து, _அன்னையே, நீங்கள் நலமுடன் மகிழ்ச்சியாக இருங்கள்,_ என்று வாழ்த்தினான்."
+            },
+            {
+              "t": "p",
+              "text": "அந்த மழைக்கால இரவு «சத்ருக்னனுக்கு» மகிழ்ச்சியாகக் கழிந்தது. விடியற்காலையில் வழிபாடுகளை முடித்து, «வால்மீகியை» வணங்கிவிட்டுப் பயணத்தைத் தொடர்ந்தான்."
+            },
+            {
+              "t": "p",
+              "text": "இன்னும் அவனுக்கு நிறைவேற்ற வேண்டிய கடமை இருந்தது. «யமுனை» அருகில் மற்ற முனிவர்களைச் சந்தித்தான். «லவணனின்» வலிமையைப் பற்றி அறிந்துகொண்டு, பின்னர் «ராமர்» கொடுத்த தெய்வீக அம்பால் அவனை வென்றான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "வெற்றிக்குப் பிறகு «சத்ருக்னன்» அந்தப் பகுதியை விட்டுச் செல்லவில்லை. «யமுனை» நதிக்கரையிலுள்ள நகரை வளர்த்தான். அவன் ஆட்சியில் மக்கள் அமைதியாக வாழ்ந்தார்கள். உரிய காலத்தில் மழை பெய்தது; வயல்களில் நெல் விளைந்தது; சந்தைகளில் பொருள்கள் நிரம்பின; பல இடங்களிலிருந்தும் வணிகர்கள் வந்தார்கள்."
+            },
+            {
+              "t": "p",
+              "text": "பன்னிரண்டு ஆண்டுகள் சென்றன. வளமான அந்த நகரில் இருந்தபோதும், அண்ணன் «ராமரை» மீண்டும் பார்க்க வேண்டும் என்ற எண்ணம் «சத்ருக்னனுக்கு» வந்தது. முக்கியமான அதிகாரிகளைத் தங்கள் பணியில் இருக்கச் சொல்லிவிட்டு, சிலருடன் «அயோத்தி» நோக்கிப் புறப்பட்டான்."
+            },
+            {
+              "t": "p",
+              "text": "பயணம் மீண்டும் «வால்மீகி» முனிவரின் ஆசிரமம் வழியாகவே சென்றது. «சத்ருக்னன்» முனிவரை வணங்கினான். விருந்தினருக்குரிய மரியாதையுடன் தண்ணீரும் உபசரிப்பும் அளித்து «வால்மீகி» அவனை வரவேற்றார்."
+            },
+            {
+              "t": "p",
+              "text": "«லவணனை» வென்றதைப் பற்றிப் பெருமையாகப் பேசினார். பெரிய படைகளுடன் சென்ற மன்னர்களாலும் முடியாத காரியத்தை «சத்ருக்னன்» முடித்திருந்தான். உலகின் அச்சத்தைப் போக்கியிருந்தான். அன்பை வெளிப்படுத்தும் விதமாக அவன் தலையை முகர்ந்து ஆசீர்வதித்தார் முனிவர்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "உணவு முடிந்த பிறகு «சத்ருக்னன்» ஓர் இனிய இசையைக் கேட்டான். நரம்பிசைக் கருவிகளோடு ஒரு பாடல் ஒலித்தது. அதில் «ராமரின்» வாழ்க்கை, அவர் செய்த செயல்கள், கடந்த கால நிகழ்வுகள் அனைத்தும் அழகாகச் சொல்லப்பட்டன."
+            },
+            {
+              "t": "p",
+              "text": "«சத்ருக்னனுக்கு» அவை தொலைவில் நடந்த கதைகள் அல்ல. «ராமரின்» தம்பியாக அவன் வாழ்ந்திருந்தான்; அண்ணனைப் பிரிந்த ஆண்டுகளையும் அறிந்திருந்தான். இப்போது அந்த நிகழ்வுகள் இசையாக அவன் காதில் விழுந்தன. கேட்டுக்கொண்டே இருந்த அவன் கண்களில் கண்ணீர் பெருகியது; மீண்டும் மீண்டும் நெடுமூச்சு விட்டான்."
+            },
+            {
+              "t": "p",
+              "text": "அவனுடன் வந்த வீரர்களும் அதிசயித்தார்கள். பாடல் கடந்த காலத்தை நேரிலேயே காண்பது போல உணர வைத்தது. _இது கனவா? நாம் என்ன கேட்கிறோம்?_ என்று ஒருவருக்கொருவர் கேட்டுக்கொண்டார்கள். பின்னர் இதைப் பற்றி «வால்மீகியிடம்» விசாரிக்கச் சொல்லி «சத்ருக்னனை» வேண்டினார்கள்."
+            },
+            {
+              "t": "p",
+              "text": "ஆனால் «சத்ருக்னன்» மறுத்தான். _இவ்வளவு பெரிய முனிவரிடம் வெறும் ஆர்வத்துக்காகக் கேள்வி கேட்பது முறையல்ல. இந்த ஆசிரமத்தில் பல அதிசயங்கள் நிகழலாம்,_ என்று சொன்னான். «வால்மீகியை» வணங்கி, தன் தங்குமிடத்துக்குச் சென்றான்."
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "பன்னிரண்டு ஆண்டுகள் இடைவெளியில் «சத்ருக்னன்» அதே ஆசிரமத்துக்கு இருமுறை வந்தான். முதல் முறை அங்கே குழந்தைகள் பிறந்த நற்செய்தி அவனை வரவேற்றது. இரண்டாவது முறை, அண்ணனின் வாழ்க்கையைப் பாடிய இசை அவன் மனத்தை நெகிழ வைத்தது."
+            },
+            {
+              "t": "slow",
+              "text": "முதல் வருகையில் «குசன்», «லவன்» பிறந்த செய்தியை «சத்ருக்னன்» கேட்டான். பன்னிரண்டு ஆண்டுகள் கழித்து, «ராமரின்» வாழ்க்கைப் பாடலைக் கேட்டு அவன் கண்கலங்கினான். முனிவரின் அமைதியை மதித்து, அந்தத் தருணத்தை அப்படியே ஏற்றுக்கொண்டான்."
+            }
+          ]
+        }
+      }
+    },
+    "hi": {
+      "title": "वह रात जब शत्रुघ्न ने रामायण सुनी",
+      "lengths": {
+        "short": {
+          "targetMinutes": 3,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«लवण» से युद्ध करने जाते समय «शत्रुघ्न» एक रात «वाल्मीकि» के वन-आश्रम में रुके। वर्षा ऋतु का «श्रावण» मास था। उसी रात आश्रम में रह रहीं «सीता» ने दो पुत्रों को जन्म दिया।"
+            },
+            {
+              "t": "p",
+              "text": "आधी रात को युवा तपस्वियों ने «वाल्मीकि» को शुभ समाचार सुनाया। ऋषि बच्चों के पास गए और उनकी रक्षा के लिए मंत्रों के साथ विधि की। बड़े पुत्र का नाम «कुश» और छोटे का नाम «लव» रखा।"
+            },
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» ने दोनों के जन्म और नामों का समाचार सुना। वे उस पत्तों की कुटिया के पास गए जहाँ «सीता» थीं। उन्होंने शुभकामना दी, _माता, आप सुखी रहें।_ भोर में «वाल्मीकि» को प्रणाम करके वे अपनी यात्रा पर निकल गए।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "आगे चलकर «शत्रुघ्न» ने «लवण» को हराया और «यमुना» के किनारे एक नगर का शासन सँभाला। बारह वर्षों तक वहाँ लोग सुख-शांति से रहे। फिर «शत्रुघ्न» को अपने बड़े भाई «राम» से मिलने की इच्छा हुई। वे कुछ सैनिकों के साथ «अयोध्या» के लिए चल पड़े।"
+            },
+            {
+              "t": "p",
+              "text": "मार्ग में वे फिर «वाल्मीकि» के आश्रम पहुँचे। ऋषि ने उनका स्वागत किया और कठिन युद्ध में मिली विजय की प्रशंसा की।"
+            },
+            {
+              "t": "p",
+              "text": "भोजन के बाद «शत्रुघ्न» ने एक मधुर गायन सुना। तार वाले वाद्यों के साथ «राम» के जीवन की घटनाएँ और उनके महान कार्य गाए जा रहे थे। जैसे बीता हुआ समय फिर सामने आ गया हो। सुनते-सुनते «शत्रुघ्न» की आँखें आँसुओं से भर गईं।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "साथ आए सैनिक भी चकित थे। उन्होंने राजकुमार से अनुरोध किया कि «वाल्मीकि» से इस गायन के बारे में पूछें। «शत्रुघ्न» ने कहा, _केवल उत्सुकता मिटाने के लिए इतने महान ऋषि से प्रश्न करना उचित नहीं।_ उन्होंने ऋषि को प्रणाम किया और अपने कक्ष में चले गए।"
+            },
+            {
+              "t": "slow",
+              "text": "बारह वर्ष पहले इसी आश्रम में उन्होंने «कुश» और «लव» के जन्म की खबर सुनी थी। अब «राम» का जीवन गीत बनकर सामने आया और «शत्रुघ्न» की आँखें भर आईं।"
+            }
+          ]
+        },
+        "full": {
+          "targetMinutes": 6,
+          "blocks": [
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» «अयोध्या» से एक कठिन कार्य के लिए निकले थे। «राम» ने उन्हें «यमुना» के पास रहने वाले ऋषियों को भयभीत करने वाले «लवण» का सामना करने भेजा था। यात्रा के दौरान वे महर्षि «वाल्मीकि» के वन-आश्रम पहुँचे।"
+            },
+            {
+              "t": "p",
+              "text": "उस रात उन्होंने वहीं विश्राम किया। वर्षा ऋतु का «श्रावण» मास था। राजाओं और युद्ध की बातों से दूर, उस आश्रम में एक और महत्वपूर्ण घटना हो रही थी।"
+            },
+            {
+              "t": "p",
+              "text": "«वाल्मीकि» के संरक्षण में रह रहीं «सीता» ने जुड़वाँ पुत्रों को जन्म दिया। आधी रात को युवा तपस्वियों ने जाकर ऋषि को समाचार दिया। उन्होंने प्रार्थना की कि नवजात बच्चों की रक्षा के लिए आवश्यक विधि कर दी जाए।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "«वाल्मीकि» दोनों शिशुओं को देखने गए। ऋषि ने जड़ों सहित पवित्र «कुश» घास ली और मंत्रों के साथ रक्षा-विधि की।"
+            },
+            {
+              "t": "p",
+              "text": "पहले जन्मे बालक के लिए मंत्रों से पवित्र की गई घास का प्रयोग हुआ। दूसरे के लिए घास की जड़ों का। इस आधार पर «वाल्मीकि» ने बड़े बालक का नाम «कुश» और छोटे का «लव» रखा। आश्रम की स्त्रियों ने उनके बताए अनुसार विधि पूरी की।"
+            },
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» ने सुना कि «सीता» को दो पुत्र हुए हैं और उनके नाम रखे गए हैं। वे उस पत्तों की कुटिया के निकट गए जहाँ «सीता» थीं। _माता, आप सुखी रहें,_ कहकर उन्होंने मंगलकामना की।"
+            },
+            {
+              "t": "p",
+              "text": "वर्षा ऋतु की वह रात «शत्रुघ्न» के लिए आनंद से बीती। सुबह उन्होंने अपने नित्यकर्म किए, «वाल्मीकि» को प्रणाम किया और आगे बढ़ गए।"
+            },
+            {
+              "t": "p",
+              "text": "उनका कार्य अभी बाकी था। «यमुना» के पास उन्होंने दूसरे ऋषियों से भेंट की, «लवण» की शक्ति जानी और अंत में «राम» से मिले दिव्य बाण द्वारा युद्ध में उसे परास्त किया।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "विजय के बाद «शत्रुघ्न» उस प्रदेश को छोड़कर नहीं चले गए। उन्होंने नदी के किनारे नगर का शासन सँभाला। उनकी देखरेख में लोग निडर होकर रहने लगे। समय पर वर्षा होती, खेतों में अन्न उपजता, बाजारों में सामान रहता और दूर-दूर से व्यापारी आते।"
+            },
+            {
+              "t": "p",
+              "text": "इस तरह बारह वर्ष बीत गए। एक दिन उस समृद्ध नगर में रहते हुए «शत्रुघ्न» को «राम» से फिर मिलने की तीव्र इच्छा हुई। अपने प्रमुख अधिकारियों को वहीं रहने का निर्देश देकर वे एक छोटे दल के साथ «अयोध्या» के लिए रवाना हुए।"
+            },
+            {
+              "t": "p",
+              "text": "रास्ता फिर «वाल्मीकि» के आश्रम से होकर गया। «शत्रुघ्न» ने महर्षि को प्रणाम किया। «वाल्मीकि» ने अतिथि की भाँति उनके पैर धोने के लिए जल और आदरपूर्वक सत्कार की सामग्री दी।"
+            },
+            {
+              "t": "p",
+              "text": "महर्षि ने «लवण» पर उनकी विजय की प्रशंसा की। अनेक बड़े राजा और सेनाएँ जिस शत्रु के सामने हार गए थे, उसे «शत्रुघ्न» ने परास्त किया था। उन्होंने उस प्रदेश का भय दूर किया था। स्नेह प्रकट करने के लिए ऋषि ने राजकुमार के सिर को सूँघकर आशीष दिया।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "भोजन समाप्त हुआ तो «शत्रुघ्न» ने एक अत्यंत मधुर गायन सुना। तार वाले वाद्यों की संगति के साथ «राम» के जीवन का वृत्तांत गाया जा रहा था। गीत में उनके पुराने कार्य और जीवन की घटनाएँ सुनाई दे रही थीं।"
+            },
+            {
+              "t": "p",
+              "text": "«शत्रुघ्न» के लिए ये किसी अपरिचित नायक की घटनाएँ नहीं थीं। वे स्वयं «राम» के भाई थे। उनके वियोग के वर्ष और फिर लौट आने का समय उन्होंने अपने परिवार के साथ जिया था। अब वही घटनाएँ स्वर और संगीत में उनके सामने उभर रही थीं। «शत्रुघ्न» की आँखों से आँसू भर आए; वे बार-बार गहरी साँस लेते रहे।"
+            },
+            {
+              "t": "p",
+              "text": "उनके साथी सैनिक भी विस्मित हो गए। उन्हें लगा जैसे पुरानी घटनाएँ सचमुच आँखों के सामने घट रही हों। वे आपस में पूछने लगे, _क्या हम कोई स्वप्न देख रहे हैं?_ फिर उन्होंने «शत्रुघ्न» से कहा कि वे महर्षि से इस अद्भुत रचना के बारे में पूछें।"
+            },
+            {
+              "t": "p",
+              "text": "पर «शत्रुघ्न» ने मना कर दिया। _इतने महान ऋषि से केवल उत्सुकतावश प्रश्न करना उचित नहीं है,_ उन्होंने कहा। _इस आश्रम में अनेक अद्भुत बातें होती हैं।_ फिर उन्होंने «वाल्मीकि» को प्रणाम किया और अपने विश्राम-स्थल पर चले गए।"
+            },
+            {
+              "t": "beat"
+            },
+            {
+              "t": "p",
+              "text": "बारह वर्षों के अंतर से «शत्रुघ्न» उसी आश्रम में दो बार आए थे। पहली यात्रा में वहाँ पुत्र-जन्म का शुभ समाचार मिला था; दूसरी यात्रा में अपने भाई के जीवन का गीत सुनकर वे भाव-विभोर हो गए।"
+            },
+            {
+              "t": "slow",
+              "text": "पहली बार «शत्रुघ्न» ने वहाँ «कुश» और «लव» के जन्म का समाचार सुना था। बारह वर्ष बाद उसी स्थान पर «राम» के जीवन का गीत सुनकर उनकी आँखें भर आईं। उन्होंने उस क्षण को प्रश्नों से नहीं, आदर से स्वीकार किया।"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "close": {
+    "en": {
+      "question": "Has a song or story ever reminded you of someone so strongly that you wanted to be quiet and listen?",
+      "seed": "Some stories stay close to us because of the people we love.",
+      "care": "Sītā lives away from Ayodhyā under Vālmīki’s protection. A child may ask why. The scene includes childbirth and an emotional return."
+    },
+    "ta": {
+      "question": "யாரையாவது நினைத்து ஒரு பாடலைக் கேட்டபோது உனக்கு மிகவும் நெகிழ்ச்சியாக இருந்ததுண்டா? அந்தப் பாடல் எதை நினைவுபடுத்தியது?",
+      "seed": "நாம் நேசிப்பவர்களின் நினைவுகள் சில பாடல்களோடு நம்மிடம் தங்கிவிடுகின்றன.",
+      "care": "சீதை அயோத்தியிலிருந்து பிரிந்து வால்மீகி ஆசிரமத்தில் வாழ்கிறாள்; ஏன் என்று குழந்தை கேட்கலாம். இரட்டைக் குழந்தைகளின் பிறப்பும் நெகிழ்ச்சியான பாடலும் இடம்பெறுகின்றன."
+    },
+    "hi": {
+      "question": "क्या कभी कोई गीत या कहानी सुनकर तुम्हें किसी प्रिय व्यक्ति की बहुत याद आई है? तुम्हें क्या याद आया?",
+      "seed": "जिनसे हम प्रेम करते हैं, उनकी यादें कुछ गीतों और कहानियों में बस जाती हैं।",
+      "care": "सीता अयोध्या से दूर वाल्मीकि के संरक्षण में रहती हैं; बच्चे पूछ सकते हैं क्यों। कथा में बच्चों का जन्म और भावुक होने का दृश्य है।"
+    }
+  },
+  "ifTheyAsk": {
+    "en": [
+      [
+        "Did Shatrughna know that Sītā had given birth?",
+        "Yes. Chapter 66 explicitly says he heard the welcome news and went to Sītā’s leaf-hut to congratulate her."
+      ],
+      [
+        "Were Kuśa and Lava singing?",
+        "The passage describing Shatrughna’s visit in chapter 71 does not identify its singers. Later passages associate Kuśa and Lava with the Rāmāyaṇa song; we must not retroactively insert their names into this scene."
+      ],
+      [
+        "Why did he not ask Vālmīki?",
+        "He explicitly says it is improper to question a great sage merely out of curiosity. The text does not present a secret agreement or explain any unreported conversation with Rāma."
+      ]
+    ],
+    "ta": [
+      [
+        "சீதைக்கு குழந்தைகள் பிறந்ததை சத்ருக்னன் அறிந்தானா?",
+        "ஆம். 66-ஆம் சருக்கத்தில் அவன் அந்த நற்செய்தியைக் கேட்டு சீதையின் குடிலுக்குச் சென்று வாழ்த்தியதாகக் கூறப்படுகிறது."
+      ],
+      [
+        "அப்போது குசனும் லவனும்தான் பாடினார்களா?",
+        "71-ஆம் சருக்கம் அந்த இடத்தில் பாடகர்களின் பெயரைக் கூறவில்லை. வேறு இடங்களில் குசன், லவன் பாடுவது சொல்லப்பட்டாலும், அதை இந்தக் காட்சியில் சேர்க்கக்கூடாது."
+      ],
+      [
+        "வால்மீகியிடம் ஏன் கேட்கவில்லை?",
+        "பெரிய முனிவரிடம் வெறும் ஆர்வத்துக்காக விசாரிப்பது முறையல்ல என்று சத்ருக்னனே சொல்கிறான். ஒரு ரகசிய ஒப்பந்தம் இருந்ததாக நூல் கூறவில்லை."
+      ]
+    ],
+    "hi": [
+      [
+        "क्या शत्रुघ्न को बच्चों के जन्म का पता था?",
+        "हाँ। सर्ग 66 बताता है कि उन्होंने समाचार सुना और सीता की कुटिया के पास जाकर शुभकामना दी।"
+      ],
+      [
+        "क्या गाने वाले कुश और लव ही थे?",
+        "सर्ग 71 इस दृश्य में गायकों के नाम नहीं बताता। दूसरे प्रसंगों में कुश और लव गायन करते हैं, लेकिन यहाँ वह बात जोड़ना पाठ से आगे जाना होगा।"
+      ],
+      [
+        "उन्होंने वाल्मीकि से प्रश्न क्यों नहीं किया?",
+        "उन्होंने स्पष्ट कहा कि केवल जिज्ञासा मिटाने के लिए महर्षि से प्रश्न करना उचित नहीं। पाठ किसी गुप्त समझौते का उल्लेख नहीं करता।"
+      ]
+    ]
+  },
+  "sourceLinks": [
+    [
+      "The twins’ birth (7.66)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424840.html"
+    ],
+    [
+      "Twelve years in the city (7.70)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424844.html"
+    ],
+    [
+      "The song and his tears (7.71)",
+      "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424845.html"
+    ],
+    [
+      "Sanskrit 7.66",
+      "https://ramayana.info/story/uttara/66/"
+    ]
+  ]
+}
