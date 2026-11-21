@@ -1,0 +1,15 @@
+# Shelf reader addresses and sharing: pre-change safety review
+
+Reproduction: open /shelf/, enable difficult stories through existing settings, and select Vedavatī. The real App read callback renders Reader without changing window.location; Reader hides sharing for gated stories and until completion. DirectStory has sharing but the shelf mounts Reader through App instead.
+
+Scope: navigation history, shared Reader presentation, and published direct-link registration only. No Profile fields, authentication, synchronization, identity, completion callback, or persistence implementation changes. App already reads/saves profiles; these existing paths remain byte-for-byte unchanged. Opening a story, switching its language and sharing must add no Profile mutation. Completion must still invoke the existing callback once with the canonical id.
+
+Invariants: address identifies the displayed canonical story and language; never use /s for gated stories; share no visitor query string or child/account identifier; never infer consent from URL; reload/direct arrival at /read requires fresh consent; browser Back restores the originating surface, Forward loads the addressed edition; no story open or share counts as a completed reading.
+
+Existing-user matrix: healthy one/multi-child; signed-out; first sign-in; same-account sign-out/sign-in; different-account reuse; second/stale devices; rename, age, add, delete; conflicting ids/name+age; concurrent writes; legacy optional fields; old tabs all retain existing persistence/merge behavior. New route helpers receive only story id, gate flag and locale. No profile transformation, migration, repair or attribution is performed. Ambiguous family state remains untouched and is handled only by existing repair flows.
+
+Compatibility: existing shelf/tab links and /s and /read links remain valid. In-session navigation retains the current App, child selection and completion behavior. Refresh and browser Forward into a story load its existing standalone published route (stateless parent consent for gated stories). Rollback removes address updates and sharing UI without requiring stored-data rollback. No new stored field or old-client protocol is introduced.
+
+Validation plan: deterministic App regression for shelf open/address/language/Back/Forward without profile mutation; shared Reader sharing before completion including gated stories in all locales; route tests; no profile bytes changed merely by reading/sharing; existing full suite covers healthy/corrupt/stale/multi-device/sign-in/out/rename/age/add/delete/concurrent paths; strict build covers expanded published gated direct links and noindex/sitemap exclusion. No safety gate is weakened.
+
+Registration: all seven already-published gated stories receive /read routes in EN/HI/TA so every shelf story has a working URL. These routes reuse the existing consent component; no newly approved prose or discovery exposure is introduced. Public /s routes remain restricted to ungated stories; all /read routes remain noindex and excluded from the sitemap.

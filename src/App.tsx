@@ -14,7 +14,7 @@ import Reader from './ui/Reader';
 import Shelf from './ui/Shelf';
 import Constellation from './ui/Constellation';
 import Why from './ui/Why';
-import { currentTab, onRoutePop, pathForTab, pushTabPath } from './lib/route';
+import { currentTab, currentPath, isStoryPath, onRoutePop, pathForTab, pushTabPath, pushStoryPath, storyPath } from './lib/route';
 import { appLocaleFromLocation, cardsForAppLocale, initialAppLocale, localeLanguage, localeStoryMeta, localeUi, persistAppLocale, type AppLocale, type LocaleCatalog } from './lib/app-locale';
 
 function analyticsMode(len: Len): 'short' | 'full' {
@@ -200,8 +200,9 @@ export default function App() {
         const card = cards.find(c => c.id === currentStory.id);
         const localized = localeStoryMeta(localeCatalog, next, currentStory.id);
         if (next !== 'en' && !localized) {
-          // Gated locale editions deliberately have no public runtime route.
+          // An unavailable edition returns to the originating section.
           setOpen(null);
+          pushTabPath(tab);
         } else {
           const storyUrl = next === 'en'
             ? (card?.storyRevision
@@ -210,15 +211,17 @@ export default function App() {
             : `/data/l/${localeLanguage(next)}/${currentStory.id}.json?v=${localized?.storyRevision ?? ''}`;
           const story: Story = await (await fetch(storyUrl)).json();
           setOpen(story);
+          pushStoryPath(story.id, story.audience.gated, next, true);
         }
       } catch {
         setOpen(null);
+        pushTabPath(tab);
       }
     }
 
     if (typeof window !== 'undefined' && typeof window.scrollTo === 'function')
       window.scrollTo({ top: 0 });
-  }, [appLocale, open, cards, localeCatalog]);
+  }, [appLocale, open, cards, localeCatalog, tab]);
 
   useEffect(() => {
     if (typeof document !== 'undefined')
@@ -229,6 +232,12 @@ export default function App() {
   // is a hardware button and this is the commonest way out of a PWA by accident.
   useEffect(() => {
     const onPop = () => {
+      // Forward into a published story uses its standalone edition; a gated
+      // route must ask for fresh parent consent rather than inherit a setting.
+      if (isStoryPath(currentPath()) && typeof window.location.reload === 'function') {
+        window.location.reload();
+        return;
+      }
       const next = currentTab();
       setAppLocale(appLocaleFromLocation());
       setOpen(null);
@@ -302,7 +311,9 @@ export default function App() {
         locale: appLocale,
         ...retention
       });
-      setOpen(s); window.scrollTo({ top: 0 });
+      setOpen(s);
+      pushStoryPath(s.id, s.audience.gated, appLocale);
+      window.scrollTo({ top: 0 });
     } catch { /* not written yet */ }
   }
 
@@ -406,9 +417,9 @@ export default function App() {
     const origin = window.location.origin;
     const hrefFor = (target: AppLocale): string | null => {
       if (open) {
-        if (target === 'en') return `${origin}/s/${open.id}/`;
+        if (target === 'en') return `${origin}${storyPath(open.id, open.audience.gated, target)}`;
         const sibling = localeStoryMeta(localeCatalog, target, open.id);
-        return sibling ? `${origin}${sibling.publicPath}` : null;
+        return sibling ? `${origin}${storyPath(open.id, open.audience.gated, target)}` : null;
       }
       if (tab === 'shelf') {
         if (target === 'hi-IN') return `${origin}/hi/`;

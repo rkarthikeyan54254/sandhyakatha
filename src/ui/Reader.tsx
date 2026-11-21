@@ -1,5 +1,7 @@
 import { useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import StoryShare from './StoryShare';
+import { storyPath } from '../lib/route';
 import type { Lexicon, Story, Card } from '../lib/types';
 import type { Pick } from '../lib/picker';
 import { displayTerm } from '../lib/lexicon';
@@ -34,47 +36,21 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
   const [ask, setAsk] = useState<number | null>(null);
   const [completed, setCompleted] = useState(false);
   const [age, setAge] = useState(8);
-  const [shareState, setShareState] = useState<'idle' | 'copied'>('idle');
   const completionGuard = useRef(false);
   const key = len === 'short' ? 'short' : 'full';
   const r = story.lengths[key];
-  if (!r) return <p role="status">{ui.tellingUnavailable}</p>;
+  const sharePath = story.audience.gated ? storyPath(story.id, true, locale) : story.publicPath ?? storyPath(story.id, false, locale);
+  if (!r) return <><p role="status">{ui.tellingUnavailable}</p>
+    <StoryShare title={story.title} href={sharePath} locale={locale} /></>;
   const heardLabel = localized
     ? `${key === 'short' ? ui.short : ui.full} · ${r.minutes} ${copy.minutes}`
     : `${key === 'short' ? 'Short' : 'Full'} · ${r.minutes} min`;
-  const canShare = !story.audience.gated;
 
   function completeStory() {
     if (completionGuard.current) return;
     completionGuard.current = true;
     onHeard(story.id);
     setCompleted(true);
-  }
-
-  async function shareStory() {
-    const url = new URL(story.publicPath ?? `/s/${story.id}/`, window.location.origin);
-    url.searchParams.set('utm_source', 'parent_share');
-    url.searchParams.set('utm_medium', 'referral');
-    url.searchParams.set('utm_campaign', 'story');
-    url.searchParams.set('utm_content', `${story.id}_${locale}`);
-    try {
-      if (navigator.share) {
-        await navigator.share({
-          title: `${story.title} · Sandhya Katha`,
-          text: `🌙 ${story.title}\n\n${story.tease}`,
-          url: url.toString()
-        });
-        return;
-      }
-    } catch (err) {
-      if (err instanceof DOMException && err.name === 'AbortError') return;
-    }
-    try {
-      if (navigator.clipboard?.writeText) {
-        await navigator.clipboard.writeText(url.toString());
-        setShareState('copied');
-      }
-    } catch {}
   }
 
   const line = (text: string) => (
@@ -181,20 +157,11 @@ export default function Reader({ story, lex, len, next, tomorrow, readBefore, ha
               </aside>
             )}
 
-            {canShare && (
-              <button className="begin sharebtn" onClick={shareStory}>
-                <svg className="shareicon" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M12 16V4" />
-                  <path d="m7.5 8.5 4.5-4.5 4.5 4.5" />
-                  <path d="M5 11.5v7A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5v-7" />
-                </svg>
-                <span>{shareState === 'copied' ? copy.copied : copy.share}</span>
-              </button>
-            )}
-
             <button className="mark" onClick={onBack}>{copy.done}</button>
           </section>
         )}
+
+        <StoryShare title={story.title} href={sharePath} locale={locale} />
 
         <Wrong id={story.id} version={story.version} copy={copy} />
       </article>

@@ -89,3 +89,24 @@ export function onRoutePop(listener: () => void): () => void {
   window.addEventListener('popstate', listener);
   return () => window.removeEventListener('popstate', listener);
 }
+
+/** The published, language-specific address; gated stories always re-enter consent. */
+export function storyPath(id: string, gated: boolean | undefined, locale: string): string {
+  const language = locale === 'hi-IN' ? 'hi/' : locale === 'ta-IN' ? 'ta/' : '';
+  return `/${gated ? 'read' : 's'}/${encodeURIComponent(id)}/${language}`;
+}
+
+/** Update only browser navigation. No family state or visitor query data is copied. */
+export function pushStoryPath(id: string, gated: boolean | undefined, locale: string, replace = false): boolean {
+  if (typeof window === 'undefined') return false;
+  const method = replace ? window.history?.replaceState : window.history?.pushState;
+  if (typeof method !== 'function') return false;
+  const path = storyPath(id, gated, locale);
+  if (currentPath() === path && !window.location?.search) return false;
+  method.call(window.history, { story: id }, '', path);
+  return true;
+}
+
+export function isStoryPath(path: string): boolean {
+  return /^\/(?:s|read)\/[a-z0-9]+(?:-[a-z0-9]+)*(?:\/(?:hi|ta))?\/?$/.test(path);
+}

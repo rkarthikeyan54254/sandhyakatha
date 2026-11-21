@@ -77,3 +77,22 @@ it('mounts the unchanged family app only on ordinary routes',async()=>{
  await act(async()=>{tree=create(<Entry pathname={`/read/${id}/`}/>);});
  expect(JSON.stringify(tree!.toJSON())).not.toContain('Existing family app');expect(JSON.stringify(tree!.toJSON())).toContain('Reviewed care note');act(()=>tree!.unmount());
 });
+
+
+it('opens an older reviewed short-only edition without inventing a full telling', async () => {
+ const original = fetcher.getMockImplementation()!;
+ fetcher.mockImplementation(async (path: string) => {
+  const response = await original(path);
+  if (!path.startsWith('/data/s/')) return response;
+  const source = await response.json(); delete source.lengths.full;
+  return {ok:true, json:async()=>source};
+ });
+ let tree:ReturnType<typeof create>;
+ await act(async()=>{tree=create(<DirectStory route={{id,locale:'en'}}/>);});
+ await act(async()=>{tree!.root.findByProps({className:'begin'}).props.onClick();});
+ expect(JSON.stringify(tree!.toJSON())).toContain('SHORT NARRATION');
+ const choices=tree!.root.findByProps({'data-story-length-controls':true}).findAllByType('button');
+ expect(choices).toHaveLength(1);expect(choices[0].props['aria-pressed']).toBe(true);
+ expect(tree!.root.findAllByProps({className:'story-share'})).toHaveLength(1);
+ act(()=>tree!.unmount());
+});

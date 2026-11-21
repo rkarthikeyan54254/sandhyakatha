@@ -44,7 +44,7 @@ export default function DirectStory({ route }: { route: DirectRoute | null }) {
     try {
       const [loaded, words] = await Promise.all([json<Story & { status: string }>(edition.runtimePath), json<Lexicon>('/data/lexicon.json')]);
       if (loaded.id !== route.id || loaded.status !== 'published' || !loaded.audience.gated || loaded.title !== edition.title) throw Error('Unavailable');
-      setLex(words); setStory(loaded);
+      setLex(words); setLen(loaded.lengths.full ? 'full' : 'short'); setStory(loaded);
     } catch { setError(true); } finally { setBusy(false); }
   }
   const home = () => window.location.assign(shelf);
@@ -67,11 +67,11 @@ export default function DirectStory({ route }: { route: DirectRoute | null }) {
         </article>
         : <>
           <div className="dial" data-story-length-controls><div className="opts" role="group" aria-label={ui.storyLength}>
-            {(['short', 'full'] as const).map(length => <button key={length} aria-pressed={len === length} onClick={() => setLen(length)}>{length === 'short' ? ui.short : ui.full}<small>{story.lengths[length].minutes} {ui.reader.minutes}</small></button>)}
+            {(['short', 'full'] as const).filter(length => !!story.lengths[length]).map(length => <button key={length} aria-pressed={len === length} onClick={() => setLen(length)}>{length === 'short' ? ui.short : ui.full}<small>{story.lengths[length].minutes} {ui.reader.minutes}</small></button>)}
           </div></div>
           <Reader key={story.id} story={story} lex={lex} len={len} next={null} locale={locale} hasProfile={false} readOnly onBack={home} onHeard={() => {}} onRead={() => {}} onPersonalize={home} backLabel={ui.shelfTab} />
         </>}
-      {edition && <StoryShare title={edition.title} href={edition.href} locale={locale} />}
+      {edition && !story && <StoryShare title={edition.title} href={edition.href} locale={locale} />}
     </main>
   </div>;
 }

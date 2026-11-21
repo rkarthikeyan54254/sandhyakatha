@@ -77,3 +77,23 @@ it('uses actual locale rendition durations without borrowing canonical full meta
   delete catalog.locales['ta-IN']!.stories[0].renditionMinutes;
   expect(cardsForAppLocale([card], catalog, 'ta-IN')[0].minutes).toEqual({ short: 3 });
 });
+
+it.each(['en', 'hi-IN', 'ta-IN'] as AppLocale[])('shows share icons before completion for public and gated shelf readers in %s', locale => {
+  for (const gated of [false, true]) {
+    const s = story(locale); s.audience.gated = gated;
+    const heard = vi.fn();
+    const tree = create(<Reader story={s} locale={locale} lex={{}} len="full" next={null}
+      hasProfile onBack={vi.fn()} onHeard={heard} onRead={vi.fn()} onPersonalize={vi.fn()} />);
+    const sharing = tree.root.findByProps({ className: 'story-share' });
+    expect(sharing.findAllByType('svg')).toHaveLength(3);
+    const wa = new URL(sharing.findByType('a').props.href);
+    const suffix = locale === 'en' ? '' : locale.slice(0, 2) + '/';
+    expect(wa.searchParams.get('text')).toContain(`https://sandhyakatha.com/${gated ? 'read' : 's'}/${s.id}/${suffix}`);
+    expect(heard).not.toHaveBeenCalled();
+    act(() => tree.root.findByProps({ className: 'mark' }).props.onClick());
+    expect(tree.root.findAllByProps({ className: 'story-share' })).toHaveLength(1);
+    expect(heard).toHaveBeenCalledTimes(1);
+    expect(heard).toHaveBeenCalledWith(s.id);
+    tree.unmount();
+  }
+});

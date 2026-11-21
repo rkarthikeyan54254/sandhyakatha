@@ -5,11 +5,11 @@ import * as P from './lib/profile';
 
 // Exercise the real App hooks, persistence effects and callback boundaries.
 // Only presentation is stubbed: no production browser/account is touched.
-const view = vi.hoisted(() => ({ props: null as any, language: null as any, reader: null as any }));
+const view = vi.hoisted(() => ({ props: null as any, language: null as any, reader: null as any, shelf: null as any }));
 vi.mock('./ui/Tonight', () => ({ default: (props: any) => { view.props = props; return null; } }));
 vi.mock('./ui/Chrome', () => ({ Header: () => null, LanguageBar: (props: any) => { view.language = props; return null; }, Tabs: () => null }));
 vi.mock('./ui/Reader', () => ({ default: (props: any) => { view.reader = props; return null; } }));
-vi.mock('./ui/Shelf', () => ({ default: () => null }));
+vi.mock('./ui/Shelf', () => ({ default: (props: any) => { view.shelf = props; return null; } }));
 vi.mock('./ui/Constellation', () => ({ default: () => null }));
 vi.mock('./ui/Why', () => ({ default: () => null }));
 
@@ -157,4 +157,45 @@ it('ignores a late response from a previous refresh/account generation', async (
   release(); await flush();
   expect(P.load().owner).toBe('B');
   expect(P.load().heard).toEqual({});
+});
+
+
+it.each([false, true])('addresses shelf stories and preserves family state (gated=%s)', async gated => {
+  const originalFetch = globalThis.fetch;
+  const card = { id: 'example', title: 'English', corpus: 'ramayana', minAge: 6, gated,
+    calendar: {}, characters: [], values: [], minutes: { short: 3, full: 6 } };
+  const story = { ...card, source: { corpus: 'ramayana' }, audience: { minAge: 6, gated }, lengths: {
+    short: { minutes: 3, blocks: [] }, full: { minutes: 6, blocks: [] } } };
+  const catalog = { schemaVersion: '1.0', locales: Object.fromEntries(['hi-IN', 'ta-IN'].map(locale => [locale, {
+    stories: [{ ...card, minutes: 3, storyRevision: 'reviewed', publicPath: gated ? '' : `/s/example/${locale.slice(0, 2)}/` }]
+  }])) };
+  const location = { href: 'https://test.invalid/', pathname: '/', search: '', reload: vi.fn() };
+  const update = (_: unknown, __: string, path: string) => {
+    const url = new URL(path, location.href); Object.assign(location, { href: url.href, pathname: url.pathname, search: url.search });
+  };
+  const listeners = new Map<string, () => void>();
+  Object.assign(window, { location, history: { pushState: vi.fn(update), replaceState: vi.fn(update) },
+    scrollTo: vi.fn(), addEventListener: (event: string, fn: () => void) => listeners.set(event, fn), removeEventListener: (event: string) => listeners.delete(event) });
+  vi.stubGlobal('fetch', vi.fn(async (url: string, init?: RequestInit) => {
+    if (url === '/data/index.json') return response({ stories: [card] });
+    if (url === '/data/locale-catalog.json') return response(catalog);
+    if (/^\/data\/(s|l)\//.test(url)) return response(story);
+    return originalFetch(url, init);
+  }));
+  await mount(); const before = JSON.stringify(P.load());
+  act(() => view.props.onShelf());
+  expect(location.pathname).toBe('/shelf/');
+  await act(async () => { await view.shelf.onRead('example'); });
+  const prefix = gated ? '/read' : '/s';
+  expect(location.pathname).toBe(`${prefix}/example/`);
+  for (const locale of ['hi-IN', 'ta-IN', 'en']) {
+    await act(async () => { await view.language.onLocale(locale); });
+    expect(location.pathname).toBe(`${prefix}/example/${locale === 'en' ? '' : locale.slice(0, 2) + '/'}`);
+    expect(JSON.stringify(P.load())).toBe(before);
+  }
+  act(() => { update(null, '', '/shelf/'); listeners.get('popstate')!(); });
+  expect(location.reload).not.toHaveBeenCalled();
+  act(() => { update(null, '', `${prefix}/example/`); listeners.get('popstate')!(); });
+  expect(location.reload).toHaveBeenCalledOnce();
+  expect(JSON.stringify(P.load())).toBe(before);
 });
