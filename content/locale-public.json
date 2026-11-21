@@ -694,6 +694,22 @@
     {
       "storyId": "ravana-last-rites",
       "locale": "ta-IN"
+    },
+    {
+      "storyId": "shatrughna-lavana-gate",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "shatrughna-lavana-gate",
+      "locale": "ta-IN"
+    },
+    {
+      "storyId": "shatrughna-ramayana-song",
+      "locale": "hi-IN"
+    },
+    {
+      "storyId": "shatrughna-ramayana-song",
+      "locale": "ta-IN"
     }
   ],
   "landings": [

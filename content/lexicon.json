@@ -3835,5 +3835,104 @@
     "say": "YOOD-dhuh KAAN-duh",
     "kind": "term",
     "gloss": "The war book of the Vālmīki Rāmāyaṇa."
+  },
+  "Śatrughna": {
+    "id": "shatrughna",
+    "native": {
+      "deva": "शत्रुघ्न",
+      "taml": "சத்ருக்னன்"
+    },
+    "say": "shuh-TROOGH-nuh",
+    "kind": "person",
+    "gloss": "The youngest of Daśaratha’s four sons; he defeats Lavaṇa and governs the city beside the Yamunā.",
+    "aliases": []
+  },
+  "Lavaṇa": {
+    "id": "lavana",
+    "native": {
+      "deva": "लवण",
+      "taml": "லவணன்"
+    },
+    "say": "LUH-vuh-nuh",
+    "kind": "being",
+    "gloss": "The son of Madhu defeated by Śatrughna at the city gate in Uttara Kāṇḍa.",
+    "aliases": []
+  },
+  "Madhu": {
+    "id": "madhu",
+    "native": {
+      "deva": "मधु",
+      "taml": "மது"
+    },
+    "say": "MUH-dhoo",
+    "kind": "being",
+    "gloss": "Lavaṇa’s father in the Uttara Kāṇḍa account; Śiva grants him the trident inherited by his son.",
+    "aliases": []
+  },
+  "Madhupura": {
+    "id": "madhupura",
+    "native": {
+      "deva": "मधुपुरी",
+      "taml": "மதுபுரி"
+    },
+    "say": "muh-dhoo-POO-ruh",
+    "kind": "place",
+    "gloss": "The city at whose gate Śatrughna confronts Lavaṇa.",
+    "aliases": []
+  },
+  "Māndhātā": {
+    "id": "mandhata",
+    "native": {
+      "deva": "मान्धाता",
+      "taml": "மாந்தாதா"
+    },
+    "say": "maan-DHAA-taa",
+    "kind": "person",
+    "gloss": "The king whose army is destroyed by Lavaṇa’s trident in Cyavana’s account.",
+    "aliases": []
+  },
+  "Kuśa": {
+    "id": "kusha",
+    "native": {
+      "deva": "कुश",
+      "taml": "குசன்"
+    },
+    "say": "KOO-shuh",
+    "kind": "person",
+    "gloss": "The elder of Sītā’s twin sons, named by Vālmīki.",
+    "aliases": []
+  },
+  "Lava": {
+    "id": "lava",
+    "native": {
+      "deva": "लव",
+      "taml": "லவன்"
+    },
+    "say": "LUH-vuh",
+    "kind": "person",
+    "gloss": "The younger of Sītā’s twin sons, named by Vālmīki.",
+    "aliases": []
+  },
+  "kuśa": {
+    "id": "kusha-grass",
+    "native": {
+      "deva": "कुश",
+      "taml": "தர்ப்பை"
+    },
+    "say": "KOO-shuh",
+    "kind": "term",
+    "gloss": "Sacred grass used in Vālmīki’s protective rite for Sītā’s newborn sons.",
+    "aliases": []
+  },
+  "Śrāvaṇa": {
+    "id": "shravana-month",
+    "native": {
+      "deva": "श्रावण",
+      "taml": "சிராவணம்"
+    },
+    "say": "SHRAA-vuh-nuh",
+    "kind": "term",
+    "gloss": "The rainy-season month named in the account of Śatrughna’s first stay at Vālmīki’s hermitage.",
+    "aliases": []
   }
 }

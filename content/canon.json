@@ -2177,6 +2177,47 @@
       "status": "published",
       "wave": 5,
       "gated": true
+    },
+    {
+      "n": 109,
+      "id": "shatrughna-lavana-gate",
+      "title": "The Warrior at the Gate",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Uttara Kāṇḍa, chapters 60–70 (Shastri received numbering)",
+      "stability": "variant",
+      "minAge": 8,
+      "sensitivity": [
+        "violence",
+        "death"
+      ],
+      "value": "taking a burden for someone you love",
+      "hook": "He takes his brother’s place, then waits at a city gate. The weapon he must keep away from is still inside.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
+    },
+    {
+      "n": 110,
+      "id": "shatrughna-ramayana-song",
+      "title": "The Night Shatrughna Heard the Rāmāyaṇa",
+      "corpus": "ramayana",
+      "tradition": "sanskrit",
+      "work": "Vālmīki Rāmāyaṇa",
+      "locus": "Uttara Kāṇḍa, chapters 65–66, 70–71 (Shastri received numbering)",
+      "stability": "variant",
+      "minAge": 7,
+      "sensitivity": [
+        "loss"
+      ],
+      "value": "hearing a loved life in a story",
+      "hook": "Twelve years after hearing of the twins’ birth, he returns to the same hermitage. This time, a song brings tears.",
+      "festivals": [],
+      "status": "published",
+      "wave": 5,
+      "gated": false
     }
   ]
 }

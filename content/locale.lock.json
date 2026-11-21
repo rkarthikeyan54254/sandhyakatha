@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-21",
   "locales": {
     "hi-IN/abhimanyu-spiral": {
       "sourceVersion": 2,
@@ -370,6 +370,16 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "84d82bcfa236bc95"
+    },
+    "hi-IN/shatrughna-lavana-gate": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "3d63e03728812a2c"
+    },
+    "hi-IN/shatrughna-ramayana-song": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "98fce09a8316224b"
     },
     "hi-IN/shravana-baskets": {
       "sourceVersion": 2,
@@ -835,6 +845,16 @@
       "sourceVersion": 2,
       "status": "approved",
       "hash": "7f398fa19670cbc7"
+    },
+    "ta-IN/shatrughna-lavana-gate": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "c80f44d7be1596e4"
+    },
+    "ta-IN/shatrughna-ramayana-song": {
+      "sourceVersion": 1,
+      "status": "approved",
+      "hash": "1f0eb19f8725247f"
     },
     "ta-IN/shravana-baskets": {
       "sourceVersion": 2,

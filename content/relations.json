@@ -20,7 +20,10 @@
       "Ayodhyā",
       "Setu",
       "Jāmbavān",
-      "Daśaratha"
+      "Daśaratha",
+      "Śatrughna",
+      "Kuśa",
+      "Lava"
     ],
     "Mahābhārata": [
       "Bhīma",
@@ -502,6 +505,26 @@
       "Daśaratha",
       "Jaṭāyu",
       "friends"
+    ],
+    [
+      "Rāma",
+      "Śatrughna",
+      "brothers"
+    ],
+    [
+      "Bharata",
+      "Śatrughna",
+      "brothers"
+    ],
+    [
+      "Sītā",
+      "Kuśa",
+      "mother"
+    ],
+    [
+      "Sītā",
+      "Lava",
+      "mother"
     ]
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-21",
   "stories": {
     "abhimanyu-spiral": {
       "version": 2,
@@ -375,6 +375,16 @@
       "version": 2,
       "status": "published",
       "hash": "aebd9332a722547b"
+    },
+    "shatrughna-lavana-gate": {
+      "version": 1,
+      "status": "published",
+      "hash": "a88deb2271821efa"
+    },
+    "shatrughna-ramayana-song": {
+      "version": 1,
+      "status": "published",
+      "hash": "df4d52b402d7d598"
     },
     "shravana-baskets": {
       "version": 2,

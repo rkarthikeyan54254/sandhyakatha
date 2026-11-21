@@ -1,0 +1,283 @@
+{
+  "id": "shatrughna-ramayana-song",
+  "schemaVersion": "1.0",
+  "status": "published",
+  "version": 1,
+  "updated": "2026-11-21",
+  "title": "The Night Shatrughna Heard the Rāmāyaṇa",
+  "tease": "Twelve years after hearing of the twins’ birth, he returns to the same hermitage. This time, a song brings tears.",
+  "source": {
+    "corpus": "ramayana",
+    "tradition": "sanskrit",
+    "work": "Vālmīki Rāmāyaṇa",
+    "locus": "Uttara Kāṇḍa, chapters 65–66, 70–71 (Shastri received numbering)",
+    "stability": "variant",
+    "traditionNote": "Follows Hari Prasad Shastri’s received-text Uttara Kāṇḍa numbering. The critical edition has not been collated here; no agreement across all recensions is claimed.",
+    "variants": [
+      {
+        "differs": "Received-text and critical-edition wording and numbering.",
+        "tellings": "The supplied audit uses Shastri’s received-text chapters; direct critical-edition collation remains incomplete.",
+        "weTell": "The named Shastri witness, without claiming cross-recension stability or adding the unnamed singers’ identities."
+      }
+    ],
+    "sourcing": [
+      {
+        "claim": "On Śatrughna’s first visit to Vālmīki’s hermitage in Śrāvaṇa, Sītā gives birth to two sons, twins; the young ascetics report the birth at midnight.",
+        "locus": "Uttara 65–66"
+      },
+      {
+        "claim": "Vālmīki uses blessed kuśa grass and its roots in a protective rite; the elder son is Kuśa, the younger Lava.",
+        "locus": "Uttara 66"
+      },
+      {
+        "claim": "Śatrughna hears the birth and names, greets Sītā at her hut and leaves after morning prayers.",
+        "locus": "Uttara 66.11–14, received numbering"
+      },
+      {
+        "claim": "Śatrughna defeats Lavaṇa and governs the prosperous city; twelve years later he wishes to see Rāma again.",
+        "locus": "Uttara 69–70"
+      },
+      {
+        "claim": "Travelling with a smaller escort, he returns to Vālmīki, receives hospitality and an affectionate blessing for his victory.",
+        "locus": "Uttara 71"
+      },
+      {
+        "claim": "After a meal he hears Rāma’s life sung to stringed instruments; he weeps and sighs, and his companions are amazed. The passage does not identify the singers.",
+        "locus": "Uttara 71"
+      },
+      {
+        "claim": "His men ask him to question Vālmīki; he declines to question a great sage merely out of curiosity, bows and retires.",
+        "locus": "Uttara 71"
+      }
+    ],
+    "checkedAgainst": [
+      "Hari Prasad Shastri (1952), The twins’ birth (7.66): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424840.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), Twelve years in the city (7.70): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424844.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), The song and his tears (7.71): https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc424845.html — inspected 2026-11-21; received-text witness, not critical-edition collation",
+      "Hari Prasad Shastri (1952), Sanskrit 7.66: https://ramayana.info/story/uttara/66/ — inspected 2026-11-21; received-text witness, not critical-edition collation"
+    ],
+    "reviewedBy": "rama",
+    "reviewedOn": "2026-11-21"
+  },
+  "audience": {
+    "minAge": 7,
+    "gated": false,
+    "sensitivity": [
+      "loss"
+    ],
+    "careNote": "Sītā lives away from Ayodhyā under Vālmīki’s protection. A child may ask why. The scene includes childbirth and an emotional return."
+  },
+  "values": [
+    "hearing a loved life in a story"
+  ],
+  "themes": [
+    "memory",
+    "family",
+    "music"
+  ],
+  "calendar": {
+    "festivals": [],
+    "months": [],
+    "tithi": [],
+    "seasons": [],
+    "weight": 1
+  },
+  "characters": [
+    {
+      "ref": "Kuśa",
+      "role": "present"
+    },
+    {
+      "ref": "Lava",
+      "role": "present"
+    },
+    {
+      "ref": "Lavaṇa",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Rāma",
+      "role": "mentioned"
+    },
+    {
+      "ref": "Sītā",
+      "role": "present"
+    },
+    {
+      "ref": "Vālmīki",
+      "role": "present"
+    },
+    {
+      "ref": "Śatrughna",
+      "role": "lead"
+    }
+  ],
+  "lengths": {
+    "short": {
+      "minutes": 3,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "On his way to confront «Lavaṇa», «Śatrughna» stopped for the night at «Vālmīki»'s forest hermitage. It was the rainy month of «Śrāvaṇa». That very night, «Sītā», who was living there under the sage's protection, gave birth to twin sons."
+        },
+        {
+          "t": "p",
+          "text": "Young ascetics brought the news to «Vālmīki» at midnight. The sage went to the children, performed rites for their protection and gave them names. The elder was «Kuśa»; the younger, «Lava»."
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» heard the joyful news and the names. He went to the leaf-thatched hut where «Sītā» was and offered her good wishes: _Mother, may you be happy._"
+        },
+        {
+          "t": "p",
+          "text": "At dawn he bowed to «Vālmīki» and continued his journey."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» defeated «Lavaṇa» and established a city by the «Yamunā». For twelve years the city prospered under his care. Then he wished to see «Rāma» again and set out for «Ayodhyā» with an escort."
+        },
+        {
+          "t": "p",
+          "text": "On the way, he returned to «Vālmīki»'s hermitage. The sage welcomed him, praised his difficult victory, and offered hospitality."
+        },
+        {
+          "t": "p",
+          "text": "«Vālmīki» praised «Śatrughna» for defeating a foe whom great kings had failed to overcome. The sage showed his affection by smelling the crown of the prince’s head."
+        },
+        {
+          "t": "p",
+          "text": "After the meal, «Śatrughna» heard a beautiful song accompanied by stringed instruments. It told the life of «Rāma»: deeds and events that «Śatrughna» himself knew so well. As he listened, his eyes filled with tears. His companions were moved and astonished too. They listened with their heads bowed as the song continued."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The soldiers asked their prince to question «Vālmīki» about what they had heard. «Śatrughna» answered that they should not question a great sage merely to satisfy their curiosity. He bowed to «Vālmīki» and retired."
+        },
+        {
+          "t": "slow",
+          "text": "Twelve years earlier, «Śatrughna» had heard the names «Kuśa» and «Lava» in that hermitage. Now he heard «Rāma»'s life turned into song, and his eyes filled with tears."
+        }
+      ]
+    },
+    "full": {
+      "minutes": 6,
+      "blocks": [
+        {
+          "t": "p",
+          "text": "«Śatrughna» was travelling away from «Ayodhyā» on a difficult errand. His brother «Rāma» had sent him to confront «Lavaṇa», who had brought fear to the sages living near the «Yamunā». Before reaching the river, «Śatrughna» came to the forest hermitage of «Vālmīki»."
+        },
+        {
+          "t": "p",
+          "text": "He spent the night there. It was the rainy month of «Śrāvaṇa», and another event was taking place in the hermitage, far from the road and the affairs of kings."
+        },
+        {
+          "t": "p",
+          "text": "«Sītā», living under «Vālmīki»'s protection, gave birth to two sons. Around midnight the younger ascetics went to their teacher with the news. They asked him to perform the rites that would protect the newborn children."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Vālmīki» went to see them. Delighted, he took sacred «kuśa» grass, along with its roots, and performed the protective rite with mantras."
+        },
+        {
+          "t": "p",
+          "text": "The first child was touched with the blessed grass; the second was tended with the roots. «Vālmīki» named the elder «Kuśa» and the younger «Lava». The women of the hermitage carried out the rite as he had directed. Their names were spoken for the first time that night."
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» heard the news: «Sītā» had given birth to twin sons, and «Vālmīki» had named them. He approached the leaf-thatched hut where she lay and spoke a simple wish: _Mother, may you be happy._"
+        },
+        {
+          "t": "p",
+          "text": "That rainy night passed joyfully for «Śatrughna». At dawn he offered his morning prayers, bowed to «Vālmīki» and continued on his journey."
+        },
+        {
+          "t": "p",
+          "text": "He still had a duty to complete. He travelled on to the sages by the «Yamunā», learned more about the enemy he would face, and eventually defeated «Lavaṇa» in battle with the divine arrow «Rāma» had placed in his care."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» did not simply leave the region after the victory. He established himself in the city beside the river. Under his protection, people lived peacefully. Rain came in season, grain grew in the fields, markets filled with goods, and merchants arrived from different places."
+        },
+        {
+          "t": "p",
+          "text": "Twelve years passed. While living in that prosperous city, «Śatrughna» felt a strong desire to see his elder brother «Rāma» again. He set out towards «Ayodhyā» with a smaller party, leaving his chief officers to continue their duties."
+        },
+        {
+          "t": "p",
+          "text": "His route brought him once more to the hermitage of «Vālmīki». «Śatrughna» greeted the sage, who welcomed him with water and the customary hospitality shown to a guest."
+        },
+        {
+          "t": "p",
+          "text": "«Vālmīki» spoke warmly of his victory. Many kings and their armies had failed against «Lavaṇa», the sage said; «Śatrughna» had ended the fear that troubled the world. «Vālmīki» expressed his affection by smelling the crown of the prince's head, a gesture of blessing."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "After eating, «Śatrughna» heard music. Stringed instruments accompanied voices singing the history of «Rāma». The song described what had happened in his brother's life and the great deeds he had performed."
+        },
+        {
+          "t": "p",
+          "text": "For «Śatrughna», the song was about his own elder brother. These were not the distant adventures of someone he had never known. He had known the years of his absence. Now those events became a musical narration. As he listened to the music, his eyes filled with tears."
+        },
+        {
+          "t": "p",
+          "text": "He sighed again and again, absorbed in the account of his brother’s life."
+        },
+        {
+          "t": "p",
+          "text": "The soldiers with him were astonished. The song made the events feel so present that they wondered whether they were dreaming. They turned to their prince and asked him to question «Vālmīki» about this extraordinary experience."
+        },
+        {
+          "t": "p",
+          "text": "«Śatrughna» would not. _It is not fitting to question a great sage merely out of curiosity,_ he told them. _Many marvellous things happen in this hermitage._ He bowed to «Vālmīki» and went to his quarters."
+        },
+        {
+          "t": "beat"
+        },
+        {
+          "t": "p",
+          "text": "The same hermitage had welcomed «Śatrughna» on two journeys, twelve years apart. The first visit had brought the joyful news of a birth; the second gave him a song about his brother’s life."
+        },
+        {
+          "t": "slow",
+          "text": "On the first visit «Śatrughna» heard that «Kuśa» and «Lava» had been born. On the second he heard «Rāma»'s life sung so beautifully that he wept. He let the moment be."
+        }
+      ]
+    }
+  },
+  "linked": {
+    "next": "shatrughna-lavana-gate",
+    "reason": "The other journey of Śatrughna in the same Uttara Kāṇḍa sequence"
+  },
+  "close": {
+    "question": "Has a song or story ever reminded you of someone so strongly that you wanted to be quiet and listen?",
+    "seed": "Some stories stay close to us because of the people we love.",
+    "ifTheyAsk": [
+      {
+        "q": "Did Shatrughna know that Sītā had given birth?",
+        "a": "Yes. Chapter 66 explicitly says he heard the welcome news and went to Sītā’s leaf-hut to congratulate her."
+      },
+      {
+        "q": "Were Kuśa and Lava singing?",
+        "a": "The passage describing Shatrughna’s visit in chapter 71 does not identify its singers. Later passages associate Kuśa and Lava with the Rāmāyaṇa song; we must not retroactively insert their names into this scene."
+      },
+      {
+        "q": "Why did he not ask Vālmīki?",
+        "a": "He explicitly says it is improper to question a great sage merely out of curiosity. The text does not present a secret agreement or explain any unreported conversation with Rāma."
+      }
+    ]
+  }
+}

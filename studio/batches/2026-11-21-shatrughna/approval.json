@@ -1,0 +1,16 @@
+{
+  "reviewer": "rama",
+  "date": "2026-11-21",
+  "scope": "Both stories, English/Hindi/Tamil, short/full; user explicitly confirmed reading and approval.",
+  "userStatements": [
+    "this story is also verified and approved. ensur it has proper images and go ahead and publish this",
+    "yes go ahead",
+    "I have read the short telling is 3 mins and long is 6 mins. I approved"
+  ],
+  "measuredSeconds": {
+    "short": 180,
+    "full": 360
+  },
+  "timingPrecision": "user-reported whole-minute estimates",
+  "artReview": "Agent inspected built-in image_gen outputs under explicit user instruction to provide proper images. No invented singers, weapons duel or graphic violence; no claim of human art approval."
+}

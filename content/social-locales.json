@@ -2431,6 +2431,62 @@
               "mode": "firstSentence"
             }
           ]
+        },
+        "shatrughna-lavana-gate": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shatrughna-ramayana-song": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            }
+          ]
         }
       }
     },
@@ -4868,6 +4924,62 @@
             },
             {
               "index": 25,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shatrughna-lavana-gate": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 1,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 9,
+              "mode": "firstSentence"
+            }
+          ]
+        },
+        "shatrughna-ramayana-song": {
+          "hook": {
+            "from": "title",
+            "mode": "full"
+          },
+          "blocks": [
+            {
+              "index": 0,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 2,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 3,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 5,
+              "mode": "firstSentence"
+            },
+            {
+              "index": 7,
               "mode": "firstSentence"
             }
           ]

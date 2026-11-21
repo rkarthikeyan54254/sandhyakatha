@@ -680,6 +680,22 @@
         "hi-IN",
         "ta-IN"
       ]
+    },
+    {
+      "storyId": "shatrughna-lavana-gate",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
+    },
+    {
+      "storyId": "shatrughna-ramayana-song",
+      "defaultLocale": "hi-IN",
+      "locales": [
+        "hi-IN",
+        "ta-IN"
+      ]
     }
   ]
 }
