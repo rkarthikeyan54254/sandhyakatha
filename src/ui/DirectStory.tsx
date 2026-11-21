@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Reader from './Reader';
+import StoryShare from './StoryShare';
 import { Header, LanguageBar } from './Chrome';
 import { localeUi } from '../lib/app-locale';
 import type { AppLocale } from '../lib/app-locale';
@@ -70,6 +71,7 @@ export default function DirectStory({ route }: { route: DirectRoute | null }) {
           </div></div>
           <Reader key={story.id} story={story} lex={lex} len={len} next={null} locale={locale} hasProfile={false} readOnly onBack={home} onHeard={() => {}} onRead={() => {}} onPersonalize={home} backLabel={ui.shelfTab} />
         </>}
+      {edition && <StoryShare title={edition.title} href={edition.href} locale={locale} />}
     </main>
   </div>;
 }
