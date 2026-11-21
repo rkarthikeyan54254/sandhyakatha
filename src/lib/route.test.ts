@@ -82,3 +82,24 @@ describe('partial browser environments', () => {
     expect(removeEventListener).toHaveBeenCalledWith('popstate', listener);
   });
 });
+
+// Story addresses are public metadata only, never a serialization of visitor state.
+describe('story addresses', () => {
+  afterEach(() => vi.unstubAllGlobals());
+  it.each(['en', 'hi-IN', 'ta-IN'])('keeps %s story identity and parent gate', async locale => {
+    const { storyPath, isStoryPath, pushStoryPath } = await import('./route');
+    const suffix = locale === 'en' ? '' : locale.slice(0, 2) + '/';
+    expect(storyPath('vedavati-hair-and-vow', true, locale)).toBe(`/read/vedavati-hair-and-vow/${suffix}`);
+    expect(storyPath('govardhana', false, locale)).toBe(`/s/govardhana/${suffix}`);
+    const pushState = vi.fn(), replaceState = vi.fn();
+    vi.stubGlobal('window', { location: { pathname: '/shelf/', search: '?child=private&utm_source=old' }, history: { pushState, replaceState } });
+    expect(pushStoryPath('vedavati-hair-and-vow', true, locale)).toBe(true);
+    expect(pushState).toHaveBeenCalledWith({ story: 'vedavati-hair-and-vow' }, '', `/read/vedavati-hair-and-vow/${suffix}`);
+    pushStoryPath('govardhana', false, locale, true);
+    expect(replaceState).toHaveBeenCalledWith({ story: 'govardhana' }, '', `/s/govardhana/${suffix}`);
+    expect(isStoryPath(`/read/vedavati-hair-and-vow/${suffix}`)).toBe(true);
+    expect(isStoryPath('/shelf/')).toBe(false);
+    expect(isStoryPath('/read/../')).toBe(false);
+    expect(isStoryPath('/read/example/fr/')).toBe(false);
+  });
+});

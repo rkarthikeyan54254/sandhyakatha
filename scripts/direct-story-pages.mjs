@@ -26,7 +26,10 @@ const shell=readFileSync(join(root,'dist/index.html'),'utf8');
 let count=0;
 for(const[id,editions]of Object.entries(catalog.stories))for(const[lang,e]of Object.entries(editions)){
  const url='https://sandhyakatha.com'+e.href;
- const card=`/og/${id}${lang==='en'?'':'-'+lang}.jpg`;
+ const nativeCard=`/og/${id}${lang==='en'?'':'-'+lang}.jpg`;
+ // Older approved gated editions share an artwork-only card: native title
+ // and description stay in metadata, with no English copy on the image.
+ const card=existsSync(join(root,'dist',nativeCard))?nativeCard:`/og/${id}-direct.jpg`;
  if(!existsSync(join(root,'dist',card)))throw Error('Missing direct share card '+card);
  let html=shell.replace(/<html lang="[^"]*"/,`<html lang="${lang}"`)
   .replace(/<title>[^<]*<\/title>/,`<title>${esc(e.title)} | Sandhya Katha</title>`)

@@ -6,13 +6,17 @@ if(JSON.stringify(Object.keys(catalog.stories).sort())!==JSON.stringify([...ids]
 const sitemap=readFileSync(join(root,'dist/sitemap.xml'),'utf8');
 for(const id of ids)for(const lang of ['en','hi','ta']){
  const e=catalog.stories[id][lang],html=readFileSync(join(root,'dist',e.href,'index.html'),'utf8');
+ const nativeCard=`/og/${id}${lang==='en'?'':'-'+lang}.jpg`;
+ const card=existsSync(join(root,'dist',nativeCard))?nativeCard:`/og/${id}-direct.jpg`;
+ if(!existsSync(join(root,'dist',card)))errors.push('Missing share card '+card);
  const title=e.title.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
- for(const token of [`<title>${title} | Sandhya Katha</title>`,`content="noindex,nofollow"`,`href="https://sandhyakatha.com${e.href}"`,`/og/${id}${lang==='en'?'':'-'+lang}.jpg`])if(!html.includes(token))errors.push(e.href+' missing '+token);
+ for(const token of [`<title>${title} | Sandhya Katha</title>`,`content="noindex,nofollow"`,`href="https://sandhyakatha.com${e.href}"`,card])if(!html.includes(token))errors.push(e.href+' missing '+token);
  if(sitemap.includes(e.href))errors.push('Direct link in sitemap '+e.href);
  const source=read(`dist${e.runtimePath.split('?')[0]}`);
  if(source.id!==id||!source.audience.gated)errors.push('Invalid source '+e.href);
- const prose=source.lengths.full.blocks.find(b=>b.t==='p')?.text;
- if(prose&&html.includes(prose))errors.push('Narration embedded before opt-in '+e.href);
+ for(const rendition of Object.values(source.lengths))for(const block of rendition.blocks){
+  if(block.text && html.includes(block.text))errors.push('Narration embedded before opt-in '+e.href);
+ }
  if('lengths' in e||'close' in e||'blocks' in e)errors.push('Story body leaked into gate catalog '+e.href);
  if(existsSync(join(root,`dist/s/${id}/${lang==='en'?'':lang+'/'}index.html`)))errors.push('Public archive gate bypass '+e.href);
  count++;
