@@ -197,10 +197,18 @@ else {
   if (!xml.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'))
     errors.push('sitemap.xml: sitemap namespace is missing');
   const locs=[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
+  if (new Set(locs).size !== locs.length) errors.push('sitemap.xml: duplicate URLs');
   for (const loc of locs) {
     if (!loc.startsWith(`${SITE}/`)) errors.push(`sitemap.xml: non-canonical domain URL ${loc}`);
-    if (/\/api\/|\/preview\/|localhost|netlify\.app|staging|\/draft\//i.test(loc))
+    if (/\/api\/|\/preview\/|\/read\/|localhost|netlify\.app|staging|\/draft\//i.test(loc))
       errors.push(`sitemap.xml: forbidden URL ${loc}`);
+  }
+  for (const loc of locs) {
+    const match = /^\/s\/([^/]+)(?:\/[^/]+)?\/$/.exec(new URL(loc).pathname);
+    if (match && !publicIds.has(match[1])) errors.push(`sitemap.xml: unpublished or gated story ${loc}`);
+    const page = join(dist, new URL(loc).pathname, 'index.html');
+    if (!existsSync(page)) errors.push(`sitemap.xml: missing built page ${loc}`);
+    else if (/<meta\s+[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(readFileSync(page, 'utf8'))) errors.push(`sitemap.xml: noindex page ${loc}`);
   }
   if (!locs.includes(`${SITE}/`)) errors.push('sitemap.xml: homepage missing');
   if (!locs.includes(`${SITE}/stories/`)) errors.push('sitemap.xml: story archive missing');

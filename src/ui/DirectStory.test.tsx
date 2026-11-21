@@ -36,8 +36,10 @@ describe.each(['en','hi-IN','ta-IN'] as AppLocale[])('parent opt-in in %s',local
   expect(fetcher.mock.calls.map(c=>c[0])).toEqual(['/data/direct-stories.json']);
   expect(JSON.stringify(tree!.toJSON())).toContain('Reviewed care note');
   expect(JSON.stringify(tree!.toJSON())).not.toContain('NARRATION');
+  expect(tree!.root.findByProps({className:'story-share'})).toBeTruthy();
   await act(async()=>{tree!.root.findByProps({className:'begin'}).props.onClick();});
   expect(JSON.stringify(tree!.toJSON())).toContain('FULL NARRATION');
+  expect(tree!.root.findByProps({className:'story-share'})).toBeTruthy();
   expect(JSON.stringify(tree!.toJSON())).not.toContain('SHORT NARRATION');
   const choices=tree!.root.findByProps({'data-story-length-controls':true}).findAllByType('button');
   act(()=>choices[0].props.onClick());
